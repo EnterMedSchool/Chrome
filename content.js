@@ -334,6 +334,17 @@ function ensureTempPopover() {
   if (PINNED_TEMP && document.body.contains(PINNED_TEMP)) return PINNED_TEMP;
   const pop = createEmptyPanel();
   pop.classList.add("ems-pop");
+  // Keep the temporary popover visible while hovered
+  pop.addEventListener("mouseenter", () => {
+    clearTimeout(HIDE_TIMER);
+  });
+  pop.addEventListener("mouseleave", () => {
+    clearTimeout(HIDE_TIMER);
+    HIDE_TIMER = setTimeout(() => {
+      pop.style.display = "none";
+      CURRENT_ANCHOR = null;
+    }, 160);
+  });
   document.body.appendChild(pop);
   PINNED_TEMP = pop;
   return pop;
