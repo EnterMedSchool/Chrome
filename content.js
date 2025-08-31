@@ -506,10 +506,10 @@ function openLightbox(src) { const lb = document.getElementById("ems-lightbox");
 
 function positionPopoverAbsolute(pop, target) {
   const rect = target.getBoundingClientRect(); const margin=6;
-  let top = rect.bottom + margin + window.scrollY; let left = rect.left + window.scrollX;
+  let top = rect.bottom + margin; let left = rect.left;
   const width = pop.offsetWidth || (META.popupMaxWidthPx || 580); const height = pop.offsetHeight || 320;
-  if (left + width > window.scrollX + window.innerWidth - 8) left = window.scrollX + window.innerWidth - width - 8;
-  if (top + height > window.scrollY + window.innerHeight - 8) top = rect.top - height - margin + window.scrollY;
+  if (left + width > window.innerWidth - 8) left = window.innerWidth - width - 8;
+  if (top + height > window.innerHeight - 8) top = rect.top - height - margin;
   pop.style.top = `${Math.max(8, top)}px`; pop.style.left = `${Math.max(8, left)}px`;
 }
 
@@ -521,7 +521,7 @@ function openPinned(entry, opts={}) {
   document.body.appendChild(win);
   renderPopover(panel, entry);
   // position near anchor or center
-  if (opts.near) { const rect = opts.near.getBoundingClientRect(); win.style.left = `${Math.max(8, rect.left + window.scrollX)}px`; win.style.top = `${Math.max(8, rect.bottom + window.scrollY + 6)}px`; }
+  if (opts.near) { const rect = opts.near.getBoundingClientRect(); win.style.left = `${Math.max(8, rect.left)}px`; win.style.top = `${Math.max(8, rect.bottom + 6)}px`; }
   else { win.style.left = "24px"; win.style.top = "24px"; }
   // controls
   const closeBtn = panel.querySelector(".close"); closeBtn.onclick = () => { win.remove(); };
