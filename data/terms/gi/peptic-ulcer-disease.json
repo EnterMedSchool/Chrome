@@ -1,0 +1,109 @@
+{
+  "id": "peptic-ulcer-disease",
+  "names": ["Peptic ulcer disease"],
+  "aliases": ["gastric ulcer", "duodenal ulcer", "stomach ulcer", "peptic ulcer"],
+  "abbr": ["PUD"],
+  "patterns": ["peptic ulcer", "peptic ulcer disease", "PUD", "gastric ulcer", "duodenal ulcer", "stomach ulcer"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "micro_bacteria", "pharmacology"],
+  "definition": "Break in the gastric or duodenal mucosa extending through the muscularis mucosa into deeper layers, typically due to acid–pepsin effects. Most commonly occurs in the stomach or first part of duodenum.",
+  "why_it_matters": "Common cause of upper abdominal pain and GI bleeding. Can lead to serious complications (**hemorrhage**, **perforation**, obstruction). Understanding PUD is vital as H. pylori and NSAID management dramatically improved outcomes, and it's a frequent topic on exams.",
+  "how_youll_see_it": [
+    "Gnawing, **epigastric pain** (dyspepsia) is typical. **Duodenal** ulcer pain often improves with meals (returns 2–3 hours later, may cause night waking), whereas **gastric** ulcer pain usually worsens with eating (patients may avoid food and lose weight).",
+    "Key risk factors: **H. pylori infection** (cause of ~90% of duodenal and ~70% of gastric ulcers) and chronic **NSAID**/aspirin use. Others include severe physiological **stress** (e.g., ICU patients with burns or head injury can develop acute stress ulcers), **Zollinger-Ellison syndrome** (gastrinoma with excessive acid), **smoking** (impairs mucosal healing), and corticosteroids (especially with NSAIDs).",
+    "Many ulcers are **asymptomatic** until a complication occurs. Signs of GI bleeding (e.g., **melena** or hematemesis, iron-deficiency anemia) may be the first presentation. Perforation presents with abrupt abdominal pain and peritonitis (rigid abdomen). Long-standing ulcer symptoms with weight loss or early satiety raise concern for ulcer-associated gastric cancer."
+  ],
+  "problem_solving": [
+    "Always test for **Helicobacter pylori** in PUD. For confirmed ulcers, endoscopic **biopsy** can detect H. pylori (rapid urease test) and rule out malignancy (especially in gastric ulcers). Noninvasive tests (urea breath test or stool antigen) are used in initial dyspepsia without alarm signs.",
+    "Review medications and **stop NSAIDs/aspirin** if possible. If an NSAID must be continued, co-prescribe a PPI to protect the mucosa. Remember that removing the inciting factor heals most NSAID-related ulcers.",
+    "Use **alarm features** to guide management: patients with red flags (unintentional weight loss, progressive dysphagia, anemia, GI bleeding, or persistent vomiting) should undergo prompt endoscopy rather than empirical therapy.",
+    "Differentiate benign ulcer from cancer: Gastric ulcers generally **require follow-up endoscopy** (after ~8 weeks of therapy) to ensure healing and exclude gastric carcinoma. Duodenal ulcers have an extremely low malignancy risk, so routine biopsy/follow-up is not always needed if H. pylori is treated."
+  ],
+  "differentials": [
+    { "name": "Functional (non-ulcer) dyspepsia", "hint": "ulcer-like epigastric pain but normal endoscopy" },
+    { "name": "Gastroesophageal reflux disease (GERD)", "hint": "heartburn and acid regurgitation; may co-exist or mimic PUD but with no ulcer on endoscopy" },
+    { "name": "Gastritis", "hint": "mucosal inflammation/erosions (not full-thickness ulcer); can cause dyspepsia or bleeding" },
+    { "name": "Pancreatitis", "hint": "epigastric pain radiating to back, elevated pancreatic enzymes" },
+    { "name": "Gastric malignancy", "hint": "persistent ulcer despite therapy, weight loss, older patient (requires biopsy to distinguish)" }
+  ],
+  "tricks": [
+    "Pain **D**ecreases with food for **D**uodenal ulcers (patients often gain weight or have night pain relieved by a snack), whereas pain **G**ets worse with food for **G**astric ulcers (food aggravates pain, leading to weight loss).",
+    "Ulcers that are recurrent, refractory, or in atypical locations (e.g., multiple duodenal/jejunal ulcers) → suspect **Zollinger-Ellison syndrome** (gastrinoma causing excessive acid secretion).",
+    "H. pylori is a major culprit: it's present in most duodenal ulcers and many gastric ulcers—always confirm eradication after treatment, as this drops ulcer recurrence from ~50% to near zero."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with burning epigastric pain that **improves with eating** and returns a few hours later (especially at night) → duodenal ulcer (likely H. pylori positive).",
+    "Older patient on chronic NSAIDs with epigastric pain that **worsens after meals**, accompanied by weight loss and anemia → gastric ulcer (concern for NSAID injury or malignancy; endoscopy with biopsy needed).",
+    "Patient with known PUD develops sudden, severe abdominal pain with guarding and rebound tenderness → ulcer **perforation** (emergency; expect free air under diaphragm on upright chest X-ray)."
+  ],
+  "treatment": [
+    "**Acid suppression:** Proton pump inhibitors (PPIs) are first-line to heal ulcers (much more effective than H2 blockers). Typical course is 4 weeks for duodenal ulcers and at least 8 weeks for large or gastric ulcers. Continue maintenance PPI if high-risk (e.g., require NSAIDs).",
+    "**Eradicate H. pylori:** If infection is present, use combination therapy. Standard triple therapy = PPI + **clarithromycin** + **amoxicillin** (or metronidazole if penicillin-allergic) for 14 days. In areas of high macrolide resistance or prior macrolide use, use **bismuth quadruple therapy** (PPI + bismuth + tetracycline + metronidazole). Always confirm H. pylori eradication (urea breath or stool test) after treatment.",
+    "**Avoid ulcerogens:** Discontinue NSAIDs/aspirin. If they are absolutely needed (e.g., cardiovascular stents), use the lowest dose and add daily PPI for prophylaxis. Advise smoking cessation and limiting alcohol, as these hinder ulcer healing.",
+    "**Manage complications:** For bleeding ulcers, perform endoscopic hemostasis (cautery, epinephrine injection, or clipping) plus high-dose IV PPI (to stabilize clots). Surgery or interventional radiology is reserved if bleeding cannot be controlled endoscopically. Perforated ulcers require urgent surgical repair after stabilizing the patient (IV fluids, antibiotics).",
+    "For **gastric ulcers**, repeat endoscopy ~6–8 weeks after therapy initiation to ensure healing and exclude malignancy (biopsy any persistent ulcer). Duodenal ulcers generally do not require routine follow-up endoscopy if symptoms resolve and H. pylori is eradicated."
+  ],
+  "red_flags": [
+    "**Hematemesis** (vomiting blood or coffee-ground material) or **melena** (tarry black stools) → indicates GI bleeding; requires prompt endoscopic evaluation and treatment.",
+    "**Sudden severe abdominal pain** with rigid abdomen → suspect perforation (peritonitis); this is a surgical emergency (confirm with free air on imaging).",
+    "**Unintended weight loss**, progressive dysphagia, early satiety, or persistent vomiting in a patient with ulcer symptoms → alarm features suggesting possible gastric cancer or obstruction; urgent endoscopy indicated."
+  ],
+  "algorithm": [
+    "Evaluate dyspepsia or epigastric pain → check for **alarm features** (bleeding, anemia, weight loss, dysphagia, vomiting).",
+    "If any alarm feature or patient >60 years old → proceed directly to **endoscopy** (EGD) for diagnosis (visualize ulcer, biopsy).",
+    "If no alarm features and patient younger (<60) → do noninvasive **H. pylori testing** (urea breath test or stool antigen). If positive, treat with eradication therapy; if negative, empiric PPI therapy is often given.",
+    "If symptoms persist despite initial treatment or recur → perform endoscopy to confirm ulcer and rule out other pathology. Obtain **biopsies** (especially for gastric ulcers) for H. pylori and to exclude malignancy.",
+    "After treatment, ensure **follow-up**: confirm H. pylori clearance and, for gastric ulcers, repeat endoscopy to document healing."
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man has burning epigastric pain that typically wakes him at 2 AM and is relieved by a glass of milk. He reports the pain tends to improve shortly after meals, only to return a few hours later. He recently noticed black, tarry stools.",
+      "clues": ["Night-time epigastric pain relieved by eating", "Pain recurs 2–3 hours after meals", "Melena (black tarry stools)"],
+      "answer": "Peptic ulcer disease (duodenal ulcer due to H. pylori)",
+      "teaching": "This presentation (epigastric pain relieved by food, then rebound pain later, with melena) is classic for a duodenal ulcer, most often caused by H. pylori infection. Duodenal ulcers improve with food (unlike gastric ulcers) and frequently cause nocturnal pain. The melena suggests a bleeding ulcer. Management would include testing for H. pylori and treating with eradication therapy plus a proton pump inhibitor."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Duodenal_ulcer.jpg",
+      "alt": "Endoscopic image of a duodenal peptic ulcer with a visible central vessel (Forrest IIa lesion).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Duodenal_ulcer.jpg"
+      }
+    }
+  ],
+  "see_also": [
+    "zollinger-ellison-syndrome",
+    "gastroesophageal-reflux-disease",
+    "helicobacter-pylori-infection",
+    "acute-pancreatitis",
+    "peritonitis"
+  ],
+  "prerequisites": [
+    "gi-physiology",
+    "helicobacter-pylori"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Peptic Ulcer Disease (Malik et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534792/"
+    },
+    {
+      "title": "UpToDate: Peptic ulcer disease – Clinical manifestations and diagnosis (Bonis & Saltzman, 2023)",
+      "url": "https://www.uptodate.com/contents/peptic-ulcer-disease-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Vakil N. \"Peptic Ulcer Disease: A Review.\" JAMA. 2024;332(21):1832-1842.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39466269/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

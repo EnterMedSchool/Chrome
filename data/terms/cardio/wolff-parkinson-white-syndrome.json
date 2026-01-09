@@ -1,0 +1,102 @@
+{
+  "id": "wolff-parkinson-white-syndrome",
+  "names": ["Wolff-Parkinson-White syndrome"],
+  "aliases": ["WPW syndrome", "Wolff-Parkinson-White"],
+  "abbr": ["WPW"],
+  "patterns": ["wpw", "wolff parkinson white", "wolff-parkinson-white syndrome"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "peds"],
+  "definition": "Cardiac **preexcitation** syndrome caused by an accessory atrioventricular pathway (Bundle of Kent) that bypasses the AV node; characterized by a short PR interval and a slurred \"delta\" wave on ECG.",
+  "why_it_matters": "Common cause of **paroxysmal SVT** in young patients and can lead to life-threatening arrhythmias (pre-excited **atrial fibrillation** can degenerate into **ventricular fibrillation**). Recognizing WPW is critical because certain medications (AV nodal blockers) can precipitate ventricular fibrillation.",
+  "how_youll_see_it": [
+    "Typically a **young** patient with sudden episodes of **palpitations** or tachycardia that start and stop abruptly (AV reentrant tachycardia). Most have structurally normal hearts.",
+    "Baseline **ECG** in sinus rhythm shows **short PR interval** (<120 ms) and a **delta wave** (slurred upstroke at the start of a slightly widened QRS complex).",
+    "Episodes can be triggered by exercise, stress, caffeine, or alcohol. Rarely, WPW presents as **atrial fibrillation** with an **irregular, wide QRS** tachycardia at very high rates (pre-excited AF)."
+  ],
+  "problem_solving": [
+    "Remember the WPW triad: **short PR, delta wave, and widened QRS** (fusion of normal and preexcited ventricular activation).",
+    "Distinguish **orthodromic AVRT** (regular **narrow**-complex SVT utilizing the AV node antegradely) from **antidromic AVRT** (regular **wide**-complex SVT with antegrade conduction via the accessory pathway). Treat narrow SVT like typical AVNRT (vagal maneuvers, adenosine), but wide-complex SVT should be treated with caution (consider it could be VT or antidromic AVRT).",
+    "**Pre-excited atrial fibrillation** (irregularly irregular wide-complex tachycardia in WPW) is a medical emergency – avoid AV node blockers and use **procainamide** or immediate cardioversion."
+  ],
+  "differentials": [
+    { "id": "av-nodal-reentrant-tachycardia", "name": "AVNRT", "hint": "another reentrant SVT (usually no delta wave, no preexcitation on resting ECG)" },
+    { "id": "lown-ganong-levine-syndrome", "name": "LGL syndrome", "hint": "short PR without delta wave (accessory pathway connects into the His bundle)" },
+    { "id": "ventricular-tachycardia", "name": "Ventricular tachycardia", "hint": "wide-complex tachycardia; in older patients or those with structural heart disease" }
+  ],
+  "tricks": [
+    "Mnemonic: **W-P-W** → **W**ide QRS, **P**R interval short, **W**ave (delta wave).",
+    "The accessory pathway in WPW is often called the **Bundle of Kent**."
+  ],
+  "exam_appearance": [
+    "Young adult with episodic palpitations and a **delta wave** on ECG → Wolff-Parkinson-White syndrome (accessory pathway causing AVRT).",
+    "Patient with WPW develops **atrial fibrillation** with very fast, **irregular wide QRS** complexes → pre-excited AF (risk of **ventricular fibrillation**)."
+  ],
+  "treatment": [
+    "**Acute SVT (orthodromic AVRT)**: start with **vagal maneuvers** (Valsalva, carotid massage); if unsuccessful, give IV **adenosine** to terminate the reentrant circuit. If unstable, perform synchronized cardioversion.",
+    "**Pre-excited AF or wide complex tachycardia**: **procainamide IV** is the drug of choice to restore normal rhythm (or use IV ibutilide); **avoid AV nodal blockers** (beta-blockers, calcium channel blockers, digoxin, adenosine) as they can precipitate ventricular fibrillation. Urgent cardioversion if hemodynamically unstable.",
+    "**Long-term**: Definitive treatment is **radiofrequency catheter ablation** of the accessory pathway (curative in >95% of cases). Antiarrhythmic medications (e.g. class IC or III) are second-line if not ablating."
+  ],
+  "red_flags": [
+    "**Atrial fibrillation in WPW** (pre-excited AF): presents as an extremely rapid, irregular tachycardia and can deteriorate into **ventricular fibrillation** (sudden cardiac death). **Never give AV node–blocking drugs** in this scenario.",
+    "WPW patients with **syncope** or episodes of **atrial fibrillation** (especially if the accessory pathway has a short refractory period) are at higher risk for SCD and should be referred for urgent evaluation (possible ablation)."
+  ],
+  "algorithm": [
+    "Patient with palpitations → obtain **ECG** (look for WPW pattern: short PR, delta wave).",
+    "If **WPW pattern** is present: assess symptoms and risk. Asymptomatic patients without high-risk features can be observed with follow-up; symptomatic or high-risk patients should be referred to **electrophysiology** for risk stratification and possible ablation.",
+    "Acute tachyarrhythmia in WPW: if unstable → immediate **cardioversion**; if stable, determine rhythm: **regular narrow SVT** (treat with vagal maneuvers, adenosine) vs **wide/irregular SVT** (treat as WPW with AF – use procainamide, no AV nodal blockers)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Wolff-Parkinson-White_syndrome_12_lead_EKG.png",
+      "alt": "12-lead ECG demonstrating the classic WPW pattern (short PR interval, delta wave at the start of a widened QRS).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Wolff-Parkinson-White_syndrome_12_lead_EKG.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man experiences sudden episodes of a racing heartbeat that resolve spontaneously.",
+      "clues": [
+        "Episodes of rapid, regular palpitations starting and stopping abruptly",
+        "Baseline ECG shows PR interval of 90 ms (short) with a slurred upstroke at the beginning of the QRS (delta wave)",
+        "No evidence of structural heart disease"
+      ],
+      "answer": "Wolff-Parkinson-White syndrome (atrioventricular reentrant tachycardia due to an accessory pathway)",
+      "teaching": "WPW is caused by an accessory AV pathway (Bundle of Kent) that preexcites the ventricles and can form a reentrant circuit (AVRT). The delta wave and short PR on ECG confirm WPW. Management includes vagal maneuvers or adenosine for acute SVT, and catheter ablation for long-term cure."
+    }
+  ],
+  "see_also": [
+    "atrial-fibrillation",
+    "syncope",
+    "long-qt-syndrome",
+    "brugada-syndrome"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "electrocardiogram"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Wolff-Parkinson-White Syndrome (Chhabra et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554437/"
+    },
+    {
+      "title": "UpToDate: Treatment of arrhythmias associated with the Wolff-Parkinson-White syndrome",
+      "url": "https://www.uptodate.com/contents/treatment-of-arrhythmias-associated-with-the-wolff-parkinson-white-syndrome"
+    },
+    {
+      "title": "Medscape: Wolff-Parkinson-White Syndrome (Ellis, 2024)",
+      "url": "https://emedicine.medscape.com/article/159222-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

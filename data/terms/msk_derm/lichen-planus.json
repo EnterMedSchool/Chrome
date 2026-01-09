@@ -1,0 +1,109 @@
+{
+  "id": "lichen-planus",
+  "names": ["Lichen planus"],
+  "aliases": ["lichen ruber planus"],
+  "abbr": ["LP"],
+  "patterns": ["lichen planus", "lichen ruber planus", "lichen ruber", "lp"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "immunology", "infectious_dz"],
+  "definition": "Chronic T-cell mediated inflammatory disease of the skin and mucous membranes, featuring intensely pruritic violaceous (purple) flat-topped papules (the \"5 P's\": pruritic, purple, polygonal, planar papules) with fine white lines on the surface (Wickham striae).",
+  "why_it_matters": "Prototypical papulosquamous disorder often tested due to its classic appearance and mnemonic (5 P's). Important associations include hepatitis C infection and certain drugs. Can cause scarring hair loss or nail damage, and chronic oral lesions carry a small risk of squamous cell carcinoma.",
+  "how_youll_see_it": [
+    "Usually middle-aged adults with an itchy rash on the flexor wrists, forearms, ankles, and lower legs. Lesions are shiny, violaceous (purple) polygonal papules often a few millimeters in size. They have flat tops (planar) and a lacy white scale (Wickham striae). Scratching can induce new lesions (Koebner phenomenon).",
+    "Mucosal involvement is common: classic lacy white patches on the buccal (inner cheek) mucosa, which may be asymptomatic or cause burning pain if erosive. Genital mucosa can be affected (e.g., vulvar or penile LP, often erosive and painful).",
+    "Other sites: Scalp (lichen planopilaris) can present with redness and scaling in hair-bearing areas, leading to patchy hair loss that can become scarring alopecia. Nail involvement (in ~10% of cases) can cause longitudinal ridges, thinning, splitting, or even nail loss."
+  ],
+  "problem_solving": [
+    "Recognize the skin findings: multiple pruritic, purple, flat-topped papules (especially on wrists/ankles) with Wickham striae strongly suggest lichen planus.",
+    "Evaluate for triggers: review medications (many drugs can cause a lichenoid eruption) and test for hepatitis C (association with LP, especially in cases with mucosal involvement or widespread disease). Remove any offending drug if suspected.",
+    "Examine other areas: check oral mucosa, scalp, nails, genitalia in any patient with suspected LP to assess the full extent (for white lacy lesions, alopecia, nail changes, etc.).",
+    "Confirm diagnosis with a skin biopsy if the presentation is atypical or not responding to therapy. Histology shows a lichenoid (band-like lymphocytic) infiltrate at the dermal-epidermal junction with a 'sawtooth' pattern of rete ridges and Civatte bodies (apoptotic keratinocytes).",
+    "Differentiate from look-alikes (psoriasis, pityriasis rosea, etc.) by distribution and lesion characteristics (LP lesions are violet and polygonal with Wickham striae, lacking the thick silvery scale of psoriasis or the herald patch of pityriasis)."
+  ],
+  "differentials": [
+    { "id": "psoriasis", "hint": "extensor distribution, thick silvery scale, nail pitting" },
+    { "id": "pityriasis-rosea", "hint": "herald patch, Christmas-tree pattern, self-limited" },
+    { "id": "secondary-syphilis", "hint": "palms & soles involved, systemic symptoms, +RPR test" }
+  ],
+  "tricks": [
+    "Mnemonic: 5 P's of lichen planus – Pruritic, Purple, Polygonal, Planar Papules (often with Wickham striae overlay).",
+    "Think lichen planus in a patient with chronic HCV infection who develops a new pruritic violaceous rash.",
+    "LP can exhibit Koebner phenomenon (new lesions appear at sites of trauma, similar to psoriasis)."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with intensely itchy, purple polygonal wrist and ankle lesions with fine white streaks (Wickham striae) → lichen planus (classic derm description).",
+    "Patient with chronic hepatitis C or a recent new medication who develops a violaceous, pruritic papular rash in a flexor distribution – suspect lichen planus (check meds and HCV).",
+    "Dental exam showing lacy white patches on the buccal mucosa in an older adult with chronic oral soreness → oral lichen planus."
+  ],
+  "treatment": [
+    "First-line for cutaneous LP is high-potency topical corticosteroids (e.g., clobetasol) to reduce inflammation and itching. Antihistamines can help with itch relief.",
+    "For more extensive or resistant disease (or painful mucosal lesions), use systemic therapies: oral corticosteroids (short course for severe flares), retinoids (e.g., acitretin), or immunosuppressants (e.g., methotrexate, azathioprine) can be considered. Phototherapy (narrowband UVB) is another option for widespread cutaneous LP.",
+    "Oral and genital lichen planus may require topical corticosteroid gels or rinses, or topical calcineurin inhibitors (tacrolimus). Ensure good oral hygiene; if dental amalgams are suspected triggers for oral LP, their replacement might improve lesions."
+  ],
+  "red_flags": [
+    "Chronic erosive lesions on mucous membranes (mouth or genital) carry a low risk of malignant transformation to squamous cell carcinoma – such lesions require biopsy and regular monitoring for dysplasia.",
+    "Scalp involvement (lichen planopilaris) can lead to permanent scarring alopecia (irreversible hair loss) if not treated promptly."
+  ],
+  "algorithm": [
+    "Suspect lichen planus from the clinical 5 P's (pruritic purple polygonal planar papules) → perform full skin and mucosal exam for extent.",
+    "Review medications and screen for hepatitis C in new cases of lichen planus (identify any treatable triggers).",
+    "If diagnosis is uncertain or lesions atypical, do a punch biopsy for confirmation (look for lichenoid infiltrate).",
+    "Treat localized disease with potent topical steroids. For widespread or severe mucosal disease, escalate to systemic therapy (oral steroids, retinoids, immunosuppressants) or phototherapy.",
+    "Follow up regularly for symptom control and to monitor oral/genital lesions for any signs of malignancy (biopsy non-healing erosions)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Lichen_Planus_(2).JPG",
+      "alt": "Lichen planus on the shins, presenting as multiple violaceous (purple) flat-topped papules.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Lichen_Planus_(2).JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man with a history of chronic hepatitis C infection reports a 3-month history of intense itching on his wrists and ankles.",
+      "clues": [
+        "Violaceous (purple), polygonal, flat-topped papules on the flexor wrists and bilateral ankles",
+        "Fine white lace-like streaks are visible on the surface of the lesions",
+        "White reticulated patches on the buccal mucosa",
+        "No improvement with moisturizers and oral antihistamines"
+      ],
+      "answer": "Lichen planus",
+      "teaching": "The 5 P's (pruritic, purple, polygonal, planar papules) with Wickham striae are classic for lichen planus, an immune-mediated dermatitis. It is often associated with hepatitis C. First-line treatment is high-potency topical corticosteroids."
+    }
+  ],
+  "see_also": [
+    "psoriasis",
+    "atopic-dermatitis",
+    "vitiligo"
+  ],
+  "prerequisites": ["skin-histology", "immune-response"],
+  "sources": [
+    {
+      "title": "StatPearls: Lichen Planus (Muacevic & Adler, updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526126/"
+    },
+    {
+      "title": "UpToDate: Lichen planus – Clinical features, diagnosis, and prognosis (2023)",
+      "url": "https://www.uptodate.com/contents/lichen-planus-clinical-features-diagnosis-and-prognosis"
+    },
+    {
+      "title": "Medscape: Lichen Planus (Dermatology overview, 2023)",
+      "url": "https://emedicine.medscape.com/article/1123213-overview"
+    },
+    {
+      "title": "DermNet NZ: Lichen planus (2018)",
+      "url": "https://dermnetnz.org/topics/lichen-planus"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

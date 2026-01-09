@@ -1,0 +1,137 @@
+{
+  "id": "panayiotopoulos-syndrome",
+  "names": [
+    "Panayiotopoulos syndrome"
+  ],
+  "aliases": [
+    "early-onset childhood occipital epilepsy",
+    "benign childhood occipital epilepsy (Panayiotopoulos type)",
+    "self-limited epilepsy with autonomic seizures"
+  ],
+  "abbr": [
+    "PS",
+    "SeLEAS"
+  ],
+  "patterns": [
+    "panayiotopoulos syndrome",
+    "panayiotopoulos",
+    "early onset occipital epilepsy",
+    "benign childhood occipital epilepsy",
+    "autonomic seizures syndrome",
+    "seleas"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "peds"
+  ],
+  "definition": "A benign **childhood** focal epilepsy (also called early-onset occipital epilepsy) characterized by seizures with prominent **autonomic** symptoms (especially vomiting) arising from an occipital focus.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Gray727_occipital_lobe.png",
+      "alt": "Occipital lobe (orange) on a medial brain view – Panayiotopoulos syndrome seizures often originate in this region."
+    }
+  ],
+  "why_it_matters": "Panayiotopoulos syndrome is an important **benign** epilepsy of childhood (≈6% of kids with epilepsy). Its dramatic autonomic seizures are often **misdiagnosed** (as fainting, migraine, GI illness, etc.). Recognizing this syndrome prevents unnecessary invasive workups and highlights the broad manifestations of seizures on exams.",
+  "how_youll_see_it": [
+    "Occurs in a **child** (typical onset 3–6 years) with otherwise normal development and neurologic exam.",
+    "Seizures often happen at **night** or during sleep. Episodes start with autonomic symptoms: the child looks **pale**, feels nauseated, and usually **vomits** (classic sign).",
+    "Eyes may **deviate** to one side; the child can appear to **faint** (sudden limp unresponsiveness). In about half of episodes a brief convulsion (tonic–clonic) follows the autonomic phase.",
+    "Seizures are often **prolonged** (lasting several minutes, sometimes >30 min) yet the child fully recovers afterward with no deficits. Seizure frequency is low (many patients have ≤4 seizures total)."
+  ],
+  "problem_solving": [
+    "Suspect PS when a child has episodes of **vomiting** with altered awareness or convulsive activity, especially if occurring out of sleep (mimicking syncope or gastroenteritis).",
+    "Obtain an **EEG** (include sleep): interictal EEG often shows high-amplitude occipital spikes (which may intensify with eyes closed due to \"fixation-off\" sensitivity). Background is normal and MRI is typically normal.",
+    "Distinguish from mimics: e.g. **vasovagal syncope** (usually brief, with a trigger and immediate recovery) or **migraine/cyclic vomiting** (recurrent vomiting without EEG changes or seizure activity).",
+    "If exam or imaging shows focal neurologic findings (e.g. hemiparesis or a cortical lesion) or if seizures are atypical (very frequent, progressive, or not resolving), then reconsider the diagnosis – PS is idiopathic and self-limited."
+  ],
+  "differentials": [
+    {
+      "name": "Benign Rolandic epilepsy (BECTS)",
+      "hint": "older kids (~7–10 y) with **no autonomic** signs; focal face/tongue seizures (drooling) in sleep; centrotemporal spikes on EEG"
+    },
+    {
+      "name": "Migraine or cyclic vomiting",
+      "hint": "recurrent episodes of **vomiting** (± headache) but no ictal EEG changes or convulsions; child normal between episodes"
+    },
+    {
+      "name": "Gastroenteritis",
+      "hint": "**Stomach flu** causing vomiting (often with fever or diarrhea) over days, not minutes; not episodic and no neurologic features between bouts"
+    }
+  ],
+  "tricks": [
+    "Remember the **P's** of Panayiotopoulos: **pale**, **puke**, and **prolonged** (pallor, vomiting, and long seizures).",
+    "Unique EEG clue: **fixation-off** sensitivity – occipital spikes appear when the child's eyes are closed (not fixating).",
+    "Despite dramatic events, it's **benign**: kids typically outgrow the seizures within a few years and have normal development."
+  ],
+  "exam_appearance": [
+    "Preschooler with **nocturnal episodes** of vomiting and unresponsiveness (initially thought to be gastroenteritis or syncope) → Panayiotopoulos syndrome (autonomic childhood epilepsy).",
+    "5‑year‑old turns **pale**, vomits, and has eyes deviated for several minutes at night, then a brief generalized seizure with quick recovery → classic Panayiotopoulos syndrome seizure.",
+    "EEG showing occipital **spike-wave** discharges that increase with eye closure in a child with infrequent nighttime seizures → characteristic of Panayiotopoulos syndrome."
+  ],
+  "treatment": [
+    "Mainly **reassurance** and education – it's self-limited. Often no daily medication is needed if seizures are infrequent. Provide a **rescue** benzodiazepine (e.g. rectal diazepam or intranasal midazolam) for any seizure lasting >5 minutes.",
+    "If seizures are frequent or very prolonged, consider daily therapy. First-line choices include **levetiracetam** or **valproate** (broad-spectrum antiseizure meds).",
+    "Avoid **carbamazepine** and similar focal AEDs in PS – some reports suggest they can aggravate the seizures.",
+    "Ensure caregivers know seizure first-aid and have an action plan. Regular follow-up is important, but prognosis is excellent (most patients become seizure-free within a few years)."
+  ],
+  "red_flags": [
+    "Focal neurologic deficits or developmental regression – **not typical** for PS (consider structural causes like cortical dysplasia). Children with PS should be neurologically normal between seizures.",
+    "Atypical EEG findings (e.g. diffuse slowing or persistent focal slowing) – suggests another diagnosis (e.g. encephalitis or symptomatic epilepsy) rather than benign PS.",
+    "Unusually **refractory** or very frequent seizures, or failure to remit by adolescence – reconsider the diagnosis (PS should be self-limited with infrequent seizures)."
+  ],
+  "algorithm": [
+    "Child with episodic vomiting + possible seizures → get detailed history and **EEG** (with sleep) to look for occipital spikes consistent with PS.",
+    "If features fit PS and neuro exam/MRI are normal → **diagnose** PS (no extensive workup needed); educate family on benign course and provide rescue med for prolonged seizures.",
+    "If seizures are rare and short → no daily meds (just observation). If seizures are frequent/prolonged → start an appropriate **antiseizure medication** (avoid those that may worsen PS).",
+    "Follow periodically with neurology. Seizures typically remit within a few years. Maintain safety precautions and school planning until seizures have fully resolved."
+  ],
+  "cases": [
+    {
+      "stem": "A 5‑year‑old previously healthy boy is found unresponsive in bed at night. He is pale and vomits during the episode, then develops a few minutes of stiffening and jerking. Afterwards, he quickly returns to his normal baseline.",
+      "clues": [
+        "Age ~5 years, occurs during sleep",
+        "Vomiting and pallor during seizure",
+        "Eyes deviated to one side",
+        "5‑minute focal seizure with secondary generalization",
+        "Full recovery afterward",
+        "EEG: occipital spikes"
+      ],
+      "answer": "Panayiotopoulos syndrome",
+      "teaching": "Classic presentation of Panayiotopoulos syndrome – a benign childhood epilepsy. Key clues are **nocturnal onset**, prominent autonomic features (**vomiting**, pallor), eye deviation, and an otherwise normal child. Occipital spike-wave activity on EEG confirms the diagnosis. Management focuses on family reassurance and rescue meds for prolonged seizures."
+    }
+  ],
+  "see_also": [
+    "absence-epilepsy",
+    "seizures",
+    "lennox-gastaut-syndrome"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "Epilepsy Foundation: Panayiotopoulos Syndrome (Ciliberto & Wirrell, 2020)",
+      "url": "https://www.epilepsy.com/what-is-epilepsy/syndromes/panayiotopoulos-syndrome"
+    },
+    {
+      "title": "ILAE EpilepsyDiagnosis.org: Self‐limited epilepsy with autonomic seizures (Panayiotopoulos syndrome) – Overview (2024)",
+      "url": "https://www.epilepsydiagnosis.org/syndrome/panayiotopoulos-overview.html"
+    },
+    {
+      "title": "Medscape: Benign Childhood Epilepsy Syndromes – Panayiotopoulos Type (Singh & Gupta, 2023)",
+      "url": "https://emedicine.medscape.com/article/1181649-overview"
+    },
+    {
+      "title": "UpToDate: Benign occipital childhood epilepsy (Panayiotopoulos syndrome) (2023)",
+      "url": "https://www.uptodate.com/contents/benign-occipital-epilepsies-of-childhood-panayiotopoulos-and-gastaut-types"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

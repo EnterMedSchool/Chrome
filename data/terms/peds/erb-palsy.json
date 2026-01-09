@@ -1,0 +1,103 @@
+{
+  "id": "erb-palsy",
+  "names": ["Erb palsy"],
+  "aliases": ["Erb-Duchenne palsy", "obstetric brachial plexus palsy"],
+  "abbr": [],
+  "patterns": ["erb palsy", "erb's palsy", "erb duchenne palsy", "brachial plexus birth palsy"],
+  "primary_tag": "peds",
+  "tags": ["peds", "neuro", "obgyn", "msk_derm"],
+  "definition": "Paralysis of the arm from injury to the upper trunk (C5–C6) of the brachial plexus; classically presents with a limp, internally-rotated \"waiter's tip\" arm.",
+  "why_it_matters": "One of the most common birth injuries (~1 in 1,000 births) causing neonatal arm paralysis after shoulder dystocia. Most cases resolve spontaneously, but some infants need surgery; a classic scenario linking obstetrics and neonatal neurology on exams.",
+  "how_youll_see_it": [
+    "Newborn after a difficult delivery (e.g., shoulder dystocia in a large infant) with the affected arm hanging limp, adducted and internally rotated at shoulder, extended at elbow, forearm pronated (\"waiter's tip\") and an absent Moro reflex on that side.",
+    "Older patient after trauma (motorcycle crash or fall) causing neck–shoulder traction, now cannot abduct or externally rotate the arm or flex the elbow (arm held in waiter's tip posture) due to C5–C6 root injury."
+  ],
+  "problem_solving": [
+    "Differentiate from **Klumpke palsy**: Erb's (C5–6) has intact hand function (grasp reflex present) but weak shoulder/elbow; Klumpke's (C8–T1) causes hand paralysis (\"claw hand\") often with Horner syndrome.",
+    "Distinguish nerve injury from fracture: a **clavicle fracture** at birth causes pseudoparalysis (pain-limited movement) but normal reflexes; Erb palsy has absent biceps/Moro reflex and no pain on passive motion.",
+    "Use imaging if needed: **X-ray** to check for clavicle or humerus fracture, and **MRI** if uncertain about nerve integrity or to evaluate root avulsion (e.g., phrenic nerve involvement)."
+  ],
+  "differentials": [
+    {
+      "name": "Klumpke palsy",
+      "hint": "lower trunk (C8–T1) brachial plexus injury; \"claw hand\" (intrinsic hand muscle paralysis), ± Horner syndrome"
+    },
+    {
+      "name": "Clavicle fracture",
+      "hint": "birth trauma causing pseudoparalysis of the arm (pain limits movement) but intact reflexes and nerve function"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Waiter's tip** posture – arm at side, internally rotated, extended & pronated – indicates Erb's palsy (C5–6 roots).",
+    "Upper trunk nerves affected: **axillary** (deltoid, can't abduct), **suprascapular** (supraspinatus/infraspinatus, can't externally rotate), **musculocutaneous** (biceps, can't flex elbow)."
+  ],
+  "exam_appearance": [
+    "Macrosomic newborn with shoulder dystocia has arm held adducted and internally rotated with extended elbow and pronated forearm (waiter's tip), absent Moro reflex on affected side → **Erb-Duchenne palsy**.",
+    "Motorcycle crash victim with shoulder trauma presents with inability to abduct or flex the arm (waiter's tip posture) and numbness over lateral arm/forearm → **Erb palsy (C5–6 brachial plexus injury)**."
+  ],
+  "treatment": [
+    "Conservative management for most: brief immobilization, then daily **physical therapy** starting by ~3 weeks old (passive range-of-motion exercises) to prevent joint contractures. Nerves recover slowly (up to 2 years), so monitor for return of function.",
+    "If no improvement by ~3–6 months, consider **surgical** intervention (microsurgical nerve graft or nerve transfer) to optimize reinnervation.",
+    "For residual deficits, later orthopedic surgeries (e.g., tendon transfers, contracture releases) can improve shoulder and arm function."
+  ],
+  "red_flags": [
+    "Ipsilateral **Horner syndrome** (ptosis, miosis) in an infant with arm palsy suggests a severe injury involving T1 (lower trunk avulsion).",
+    "**No recovery by 3–6 months** (e.g., absent biceps function at 3 months) indicates poor prognosis without surgery.",
+    "Evidence of **phrenic nerve palsy** (elevated hemidiaphragm or respiratory distress) implies C3–5 root involvement and requires specialized evaluation."
+  ],
+  "algorithm": [
+    "Risk factors (shoulder dystocia, macrosomia) or trauma → suspect **brachial plexus injury** if newborn's arm is flaccid or an adult has arm weakness.",
+    "Assess exam: **Erb palsy** if arm is in waiter's tip posture with absent Moro reflex and intact grasp; vs **Klumpke palsy** if hand is paralyzed or Horner syndrome present.",
+    "Check for other injuries: palpate for clavicle fracture; assess diaphragm movement. Obtain **X-ray** to confirm bone integrity and consider **MRI** if root avulsion or unclear injury extent.",
+    "Initial treatment: minimize arm movement in first days, then begin gentle **PT** (passive ROM exercises by 2–3 weeks) to prevent contractures.",
+    "Follow up closely: most infants recover within months. If no improvement by 3–6 months, refer for possible **nerve repair** (early surgical intervention)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Erb%27s_Palsy_1.jpg",
+      "alt": "Infant with Erb palsy, showing the characteristic 'waiter's tip' arm posture (arm limp at side, internally rotated, elbow extended, forearm pronated).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Erb%27s_Palsy_1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4.5-kg newborn is delivered after a prolonged labor with shoulder dystocia. His left arm lies limp at his side, internally rotated with an extended elbow and pronated forearm. The infant does not move that arm during the Moro reflex, but his hand grasp is intact on that side.",
+      "clues": [
+        "Macrosomic infant (birth weight 4.5 kg)",
+        "Difficult birth with shoulder dystocia",
+        "Left arm adducted, internally rotated, elbow extended, forearm pronated",
+        "Absent Moro reflex on left side",
+        "Intact grasp reflex in left hand"
+      ],
+      "answer": "Erb-Duchenne palsy (upper brachial plexus injury)",
+      "teaching": "Traction on the neck during delivery injured the C5–6 nerve roots of the brachial plexus, causing paralysis of the deltoid, biceps, and other shoulder/elbow muscles (upper trunk lesion). This results in the classic \"waiter's tip\" posture of Erb palsy, while hand grasp is preserved (distal nerves intact). Most infants with Erb palsy recover with time and physical therapy, but lack of improvement by 3–6 months may warrant surgical intervention."
+    }
+  ],
+  "see_also": ["klumpke-palsy", "ulnar-nerve-injury", "radial-nerve-injury"],
+  "prerequisites": ["brachial-plexus"],
+  "sources": [
+    {
+      "title": "StatPearls: Erb Palsy (Basit et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513260/"
+    },
+    {
+      "title": "UpToDate: Neonatal brachial plexus palsy",
+      "url": "https://www.uptodate.com/contents/neonatal-brachial-plexus-palsy"
+    },
+    {
+      "title": "OrthoBullets: Obstetric brachial plexopathy (Erb's palsy, Klumpke's palsy) (2025)",
+      "url": "https://www.orthobullets.com/pediatrics/4117/obstetric-brachial-plexopathy-erbs-klumpkes-palsy"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

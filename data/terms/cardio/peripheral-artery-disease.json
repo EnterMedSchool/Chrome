@@ -1,0 +1,141 @@
+{
+  "id": "peripheral-artery-disease",
+  "names": ["Peripheral artery disease"],
+  "aliases": [
+    "Peripheral arterial disease",
+    "Peripheral vascular disease",
+    "Arteriosclerosis obliterans",
+    "Peripheral arterial occlusive disease"
+  ],
+  "abbr": ["PAD", "PVD", "LEAD"],
+  "patterns": [
+    "pad",
+    "peripheral artery disease",
+    "peripheral arterial disease",
+    "peripheral vascular disease",
+    "intermittent claudication",
+    "arteriosclerosis obliterans",
+    "lead",
+    "paod"
+  ],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "surgery"],
+  "definition": "Atherosclerotic narrowing of peripheral arteries (usually legs) causing reduced blood flow and **ischemic** pain; diagnosed by an **ankle‑brachial index (ABI)** <0.90.",
+  "why_it_matters": "Common in older adults and a marker of widespread atherosclerosis – PAD patients have high risk of **heart attack** and **stroke**. Can severely limit mobility (claudication pain) and lead to limb loss (**amputation**) if critical. Early recognition allows risk factor modification to improve survival and quality of life.",
+  "how_youll_see_it": [
+    "Typically an older smoker or diabetic with risk factors. Many cases are asymptomatic, but classic **intermittent claudication** causes cramping calf or thigh pain after a reproducible walking distance, relieved by rest.",
+    "On exam: **diminished pulses** distal to the obstruction (e.g., weak dorsalis pedis), often with an arterial **bruit** over narrowed arteries. The limb may have **cool, shiny, hairless** skin and poor wound healing (arterial ulcers, often on toes or lateral ankle).",
+    "In severe PAD, leg pain can occur at rest (especially at night when legs are elevated, relieved by hanging the foot down) and ulcers or **gangrene** may be present – this indicates **critical limb ischemia**."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with an **ABI** test: ABI <0.90 is diagnostic for PAD. If ABI is >1.30 (noncompressible, calcified vessels) or normal despite symptoms, perform an exercise ABI or toe-brachial index for further evaluation.",
+    "Gauge severity with classification: e.g., **Fontaine** Stages I–IV (I asymptomatic; II claudication – IIa mild, IIb severe; III rest pain; IV ulcers/gangrene) or similarly **Rutherford** grades 0–6. Higher stages (rest pain, tissue loss) indicate critical ischemia.",
+    "Manage risk factors aggressively: **smoking cessation** (most important), exercise, diet, and weight management. Start a **high-intensity statin**, control blood pressure (often with ACE inhibitor), optimize diabetes control, and use **antiplatelet** therapy (aspirin or clopidogrel) to reduce CV events.",
+    "For claudication, begin **supervised exercise therapy** (regular walking to improve collateral flow). If lifestyle-limiting pain persists, add **cilostazol** (PDE-3 inhibitor that improves walking distance; contraindicated in heart failure) for symptom relief."
+  ],
+  "differentials": [
+    {
+      "name": "Lumbar spinal stenosis",
+      "hint": "neurogenic claudication: leg pain with walking/standing, relieved by sitting or flexion; pulses and ABI are normal"
+    },
+    {
+      "name": "Deep vein thrombosis",
+      "hint": "acute leg pain and swelling, constant (not exercise-induced); leg is often warm and erythematous"
+    },
+    {
+      "name": "Thromboangiitis obliterans",
+      "hint": "(**Buerger disease**): young heavy smoker with distal extremity ischemia (digital ulcers/gangrene) from inflammatory thrombosis of small vessels"
+    }
+  ],
+  "tricks": [
+    "PAD is essentially **\"angina of the legs\"** – exercise-induced muscle pain from ischemia due to arterial narrowing, relieved by rest.",
+    "PAD patients have a **coronary risk equivalent** – their risk of MI or stroke is as high as someone with known coronary disease, so risk factor management is crucial (treat PAD like coronary artery disease in preventive care).",
+    "**ABI** thresholds to know: <0.90 confirms PAD; <0.40 suggests severe ischemia (often with rest pain); >1.30 indicates noncompressible arteries (false normal ABI, common in diabetes – need alternative tests)."
+  ],
+  "exam_appearance": [
+    "Older male smoker with calf pain after walking a fixed distance (relieved by rest) and weak foot pulses → **Peripheral artery disease** (intermittent claudication).",
+    "Diabetic patient with an ulcer on the toe and foot pain at rest (worse at night, relieved by dangling foot) → **Critical limb ischemia** from severe PAD.",
+    "Middle-aged man with bilateral buttock claudication and erectile dysfunction → **Aortoiliac (Leriche) syndrome** (PAD at the aortoiliac arteries)."
+  ],
+  "treatment": [
+    "Lifestyle: vigorous **smoking cessation** (absolutely essential) and regular exercise (supervised walking programs improve symptoms). Optimize nutrition and weight; manage diabetes and hypertension.",
+    "Medical therapy: initiate a **high-intensity statin** for all PAD patients and an **antiplatelet** (aspirin or clopidogrel) to reduce cardiovascular events. For claudication pain, **cilostazol** can improve walking distance (avoid in heart failure).",
+    "Revascularization: indicated for **critical limb ischemia** (rest pain, nonhealing ulcers) or disabling claudication unresponsive to conservative therapy. Options include endovascular angioplasty/stenting (preferred for accessible lesions) or surgical bypass grafting for extensive disease. Amputation is a last resort if revascularization fails."
+  ],
+  "red_flags": [
+    "Rest pain (foot pain at rest, often nocturnal) or ischemic ulcers/gangrene = **critical limb ischemia** – requires urgent evaluation by vascular surgery for possible revascularization (to prevent amputation).",
+    "Sudden onset of limb pain with **pallor**, **pulselessness**, paresthesias, paralysis, and coldness (the \"6 P's\") suggests an **acute limb ischemia** (arterial occlusion) – a surgical emergency (immediate heparin and urgent revascularization needed)."
+  ],
+  "algorithm": [
+    "Risk factors (age ≥65, smoking, diabetes, etc.) or exertional leg pain → suspect PAD.",
+    "Do ankle‑brachial index: **ABI <0.90** confirms PAD. If ABI is 0.91–1.30 and symptoms suggest PAD, perform exercise ABI; if ABI >1.30 (calcified vessels), use toe‑brachial index or Doppler ultrasound.",
+    "Conservative management for confirmed PAD: smoking cessation, exercise program, statin, blood pressure and glucose control, plus antiplatelet therapy. Add **cilostazol** if claudication persists and there's no heart failure.",
+    "If **critical limb ischemia** (rest pain, ulcers) or lifestyle-limiting claudication despite optimal medical therapy → proceed to vascular imaging and **revascularization** (angioplasty/stent vs bypass)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Blausen_Peripheral_Arterial_Disease_eng.svg/1854px-Blausen_Peripheral_Arterial_Disease_eng.svg.png",
+      "alt": "Illustration of peripheral artery disease in the legs – left: a normal artery with normal blood flow; right: an artery narrowed by plaque with reduced blood flow.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_Peripheral_Arterial_Disease_eng.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 64‑year‑old man with a 30-year smoking history and hyperlipidemia develops left calf pain after walking about 2 blocks, which subsides within 5 minutes of rest.",
+      "clues": [
+        "Smokes 1 pack per day for 30 years",
+        "Calf pain starts after walking a set distance",
+        "Pain completely relieved by rest",
+        "Diminished left dorsalis pedis pulse",
+        "Left ABI is 0.70"
+      ],
+      "answer": "Peripheral artery disease (intermittent claudication)",
+      "teaching": "Classic intermittent claudication from PAD due to atherosclerotic femoral artery narrowing. The patient's risk factors (smoking, high cholesterol) and low ABI confirm the diagnosis. Management would include a supervised exercise program, smoking cessation, statin therapy, and possibly cilostazol to improve walking distance."
+    },
+    {
+      "stem": "A 70‑year‑old woman with long-standing diabetes and chronic kidney disease presents with constant right foot pain, even at rest, that worsens when her foot is elevated. She has a non-healing ulcer on her great toe.",
+      "clues": [
+        "History of diabetes and CKD (atherosclerotic risk factors)",
+        "Rest pain in the foot, worse at night when foot is elevated",
+        "Pain improves when she dangles her foot off the bed",
+        "Ulcer on the great toe with a blackened necrotic base",
+        "Absent dorsalis pedis and posterior tibial pulses"
+      ],
+      "answer": "Peripheral artery disease (critical limb ischemia)",
+      "teaching": "Rest pain and a non-healing toe ulcer indicate critical limb ischemia, the end-stage of PAD where perfusion is inadequate even at rest. This is a limb-threatening condition requiring urgent revascularization to restore blood flow and prevent amputation."
+    }
+  ],
+  "see_also": [
+    "coronary-artery-disease",
+    "atherosclerosis",
+    "aneurysm",
+    "raynauds-phenomenon",
+    "stroke"
+  ],
+  "prerequisites": ["atherosclerosis"],
+  "sources": [
+    {
+      "title": "StatPearls: Peripheral Arterial Disease (Zemaitis & Boll, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430745/"
+    },
+    {
+      "title": "UpToDate: Lower extremity peripheral artery disease – clinical features and diagnosis",
+      "url": "https://www.uptodate.com/contents/lower-extremity-peripheral-artery-disease-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "Peripheral Vascular Disease (Medscape, 2022)",
+      "url": "https://emedicine.medscape.com/article/761556-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "acute-cholecystitis",
+  "names": ["Acute cholecystitis"],
+  "aliases": ["acute calculous cholecystitis", "acute acalculous cholecystitis"],
+  "patterns": ["acute cholecystitis", "calculous cholecystitis", "acalculous cholecystitis", "gallbladder infection", "gallbladder inflammation", "cholecystitis"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "emerg", "radiology"],
+  "definition": "Acute inflammation of the gallbladder, usually triggered by a gallstone obstructing the cystic duct (calculous cholecystitis). About 5–10% of cases are acalculous (no stone), typically in critically ill patients.",
+  "why_it_matters": "About 200,000 cases occur per year in the US, making acute cholecystitis a common surgical emergency. It is the most frequent complication of gallstones and can rapidly lead to gallbladder gangrene, perforation, or sepsis if untreated. Prompt recognition and management are crucial (and often tested on boards).",
+  "how_youll_see_it": [
+    "Steady, severe right upper quadrant (RUQ) pain (often post–fatty meal) radiating to the right shoulder/back. Pain lasts >6 hours (longer than biliary colic). Fever, nausea/vomiting are common. On exam, there is RUQ tenderness and a positive Murphy's sign (inspiratory pause upon RUQ palpation due to pain).",
+    "Labs: typically show leukocytosis (↑WBC). Mild elevations in ALT, AST, and alkaline phosphatase can occur. Bilirubin is usually normal or only mildly elevated – jaundice is uncommon in simple cholecystitis (if bilirubin is significantly high, suspect a common bile duct stone or cholangitis).",
+    "Risk factors: gallstones are more likely in the \"4 F's\" (Female, Fat, Forty, Fertile – middle-aged overweight women). Attacks often follow a large, fatty meal. Acalculous cholecystitis (≈5% of cases) occurs without stones, usually in very sick patients (ICU, on TPN, post-major surgery) due to gallbladder stasis and ischemia. These patients may have more subtle findings (unexplained fever, sepsis) rather than classic localized pain."
+  ],
+  "problem_solving": [
+    "First-line test is a RUQ ultrasound: looking for gallstones plus signs of cholecystitis (gallbladder wall thickening >4 mm, pericholecystic fluid, and a sonographic Murphy sign). Ultrasound has ~80% sensitivity for acute cholecystitis.",
+    "If ultrasound is inconclusive and clinical suspicion remains high, obtain a HIDA scan (hepatic iminodiacetic acid scintigraphy). Failure of the radiotracer to fill the gallbladder (non-visualization) on HIDA confirms cystic duct obstruction and is the gold-standard diagnostic finding.",
+    "Evaluate for complications: a markedly elevated WBC, high fever, or peritoneal signs should raise concern for gangrenous cholecystitis or perforation. In such cases, an abdominal CT scan can delineate abscess, perforation, or emphysematous infection (air in the gallbladder).",
+    "Differentiate from other causes of RUQ pain: Cholecystitis usually lacks profound jaundice (unlike ascending cholangitis). Biliary colic from gallstones causes similar RUQ pain but is transient (<6h) and without fever/WBC. Acute pancreatitis presents with more epigastric pain and elevated amylase/lipase. Consider these if certain features (e.g., pain pattern, lab results) don't fit cholecystitis."
+  ],
+  "differentials": [
+    {
+      "name": "Biliary colic",
+      "hint": "Gallstone temporarily obstructing cystic duct causing intense RUQ pain (often after fatty meals) but no fever or WBC elevation; pain resolves within a few hours."
+    },
+    {
+      "id": "ascending-cholangitis",
+      "name": "Ascending cholangitis",
+      "hint": "Infection of the common bile duct (usually due to a CBD stone). Presents with Charcot's triad (fever, RUQ pain, jaundice) ± hypotension/AMS (Reynolds pentad); requires urgent biliary drainage (ERCP)."
+    },
+    {
+      "id": "acute-pancreatitis",
+      "name": "Acute pancreatitis",
+      "hint": "Inflammation of the pancreas, often from gallstone in ampulla or alcohol. Causes severe epigastric pain radiating to the back, elevated amylase/lipase, and CT shows pancreatic inflammation (distinguishing it from gallbladder-focused pain)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic 4 F's = Female, Fat, Forty, Fertile (classic gallstone patient profile → risk for cholecystitis).",
+    "RUQ pain can radiate to the right shoulder (scapula) because the gallbladder irritates the diaphragm (phrenic nerve referral).",
+    "HIDA scan trick: a 'positive' HIDA means you do not see the gallbladder (the tracer can't enter due to cystic duct blockage). Remember: HIDA hides the gallbladder in cholecystitis."
+  ],
+  "exam_appearance": [
+    "Overweight 42‑year‑old woman with severe RUQ pain after a greasy meal, radiating to the right scapula, plus fever and an inspiratory pause on RUQ palpation (Murphy sign) → acute calculous cholecystitis.",
+    "Hospitalized ICU patient (on TPN) with unexplained fever and mild RUQ tenderness; ultrasound shows gallbladder wall thickening but no stones → acalculous cholecystitis.",
+    "Diabetic elderly man with RUQ pain and crepitus in the abdominal wall; CT reveals gas in the gallbladder and bile ducts → emphysematous cholecystitis (gas-forming infection, surgical emergency)."
+  ],
+  "treatment": [
+    "Stabilize with NPO (nothing by mouth to rest the gallbladder), IV fluid rehydration, and electrolyte correction. Start broad-spectrum IV antibiotics covering gut flora (e.g., IV ceftriaxone + metronidazole, or piperacillin-tazobactam) to treat infection; provide adequate analgesia (pain control).",
+    "Early cholecystectomy (surgical removal of the gallbladder) is the definitive treatment. Ideally perform it within 72 hours of diagnosis (early during the same hospitalization) for improved outcomes. Laparoscopic cholecystectomy is preferred. (Delaying surgery increases complication risk.)",
+    "If a patient is a poor surgical candidate or extremely ill, consider a percutaneous cholecystostomy (gallbladder drain) to temporize until definitive surgery. Monitor closely for complications: if signs of perforation, abscess, or sepsis occur, urgent surgical intervention is required. In acalculous cholecystitis, aggressive treatment is necessary due to high mortality."
+  ],
+  "red_flags": [
+    "Sudden worsening abdominal pain with diffuse peritonitis (rigid, guarding abdomen) or hypotension in acute cholecystitis → worry about gangrenous cholecystitis and impending perforation (this mandates emergent surgery).",
+    "Emphysematous cholecystitis: gas in the gallbladder wall (seen on imaging or crepitus on exam) due to infection with gas-producing organisms (e.g., Clostridia) – typically occurs in older diabetic patients and is a surgical emergency (high risk of perforation)."
+  ],
+  "algorithm": [
+    "RUQ pain ± fever → suspect acute cholecystitis; perform exam (check Murphy's sign) and order labs (CBC, liver enzymes).",
+    "Ultrasound of the RUQ is the first imaging step: if it shows gallstones plus cholecystitis features, diagnosis is made.",
+    "If ultrasound is nondiagnostic but clinical suspicion remains high, get a HIDA scan for confirmation (non-filling of gallbladder on HIDA = positive for cholecystitis). Consider CT if complication suspected.",
+    "Begin NPO, IV fluids, and IV antibiotics as soon as acute cholecystitis is suspected/confirmed (don't wait for surgery to start supportive care).",
+    "Consult surgery for early laparoscopic cholecystectomy (within ~48–72 hours of presentation). If patient unstable for OR, arrange gallbladder drainage (percutaneous cholecystostomy) and manage sepsis, then do cholecystectomy when stable."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Acute_cholecystitis_as_seen_on_ultrasound_axial_view.jpg",
+      "alt": "Ultrasound of an inflamed gallbladder with a thickened wall and internal gallstones casting shadows (acute cholecystitis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Acute_cholecystitis_as_seen_on_ultrasound_axial_view.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old obese woman presents with 12 hours of severe RUQ abdominal pain radiating to the right shoulder.",
+      "clues": [
+        "Onset after a large fatty meal",
+        "Temp 38.5°C, pulse 105",
+        "Significant tenderness in RUQ with positive Murphy sign",
+        "WBC 15,000; Ultrasound shows a gallstone lodged in the cystic duct, gallbladder wall thickening"
+      ],
+      "answer": "Acute calculous cholecystitis",
+      "teaching": "Prolonged postprandial RUQ pain with fever and a positive Murphy sign indicates acute calculous cholecystitis (gallstone obstruction of the cystic duct leading to gallbladder inflammation). Ultrasound findings of a stone in the cystic duct and gallbladder wall thickening confirm the diagnosis. Treatment is IV antibiotics followed by early cholecystectomy."
+    },
+    {
+      "stem": "A 70‑year‑old man in the ICU (post-cardiac surgery) develops fever and abdominal distension.",
+      "clues": [
+        "No gallstones on RUQ ultrasound, but gallbladder is markedly distended with thickened walls",
+        "Patient is on total parenteral nutrition (TPN)",
+        "WBC 18,000 with left shift",
+        "CT scan: gas in the gallbladder wall and lumen"
+      ],
+      "answer": "Acute acalculous cholecystitis",
+      "teaching": "This critically ill ICU patient has acute acalculous cholecystitis (inflammation of the gallbladder without stones). Risk factors include TPN and recent surgery. The presence of gas in the gallbladder wall (emphysematous changes) signals a severe infection. Management requires urgent antibiotics and gallbladder drainage or cholecystectomy, as acalculous cholecystitis has high mortality."
+    }
+  ],
+  "see_also": [
+    "gallstones",
+    "choledocholithiasis",
+    "charcot-triad",
+    "acute-pancreatitis",
+    "chronic-cholecystitis"
+  ],
+  "prerequisites": [
+    "biliary-physiology",
+    "gallbladder-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "JAMA: Acute Cholecystitis (Gallaher & Charles, 2022)",
+      "url": "https://doi.org/10.1001/jama.2022.2350"
+    },
+    {
+      "title": "UpToDate: Acute calculous cholecystitis (Accessed 2025)",
+      "url": "https://www.uptodate.com/contents/acute-calculous-cholecystitis-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "StatPearls: Acute Cholecystitis (Jones & Santos, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459171/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

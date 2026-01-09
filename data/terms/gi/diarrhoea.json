@@ -1,0 +1,130 @@
+{
+  "id": "diarrhoea",
+  "names": ["Diarrhoea"],
+  "aliases": ["Diarrhea", "acute diarrhea", "chronic diarrhea"],
+  "abbr": [],
+  "patterns": ["diarrhoea", "diarrhea", "loose stools", "gastroenteritis"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "infectious_dz", "peds", "micro_bacteria", "micro_virus", "micro_parasite"],
+  "definition": "Increase in stool frequency and liquidity, typically defined as ≥3 loose or watery stools per day. Diarrhoea can be acute (<14 days) or chronic, and results from impaired absorption or increased secretion of fluid in the intestines.",
+  "why_it_matters": "Extremely common worldwide and a major cause of morbidity. It is the third leading cause of death in young children globally, due to dehydration and electrolyte loss. Prompt recognition and management (especially rehydration) can be life-saving. Diarrhoea also frequently appears on exams in contexts like infectious outbreaks, dehydration in children, and complications such as electrolyte imbalances.",
+  "how_youll_see_it": [
+    "💡 **Acute diarrhea** (lasting <2 weeks) usually has a sudden onset of frequent loose stools. **Viral gastroenteritis** is most common (e.g., **rotavirus** in unvaccinated infants, **norovirus** in adults) causing watery diarrhea with vomiting and low-grade fever. **Bacterial** causes (e.g., **Shigella**, **Campylobacter**) often present with high fever, abdominal cramps, and **bloody** diarrhea (dysentery).",
+    "💡 **Signs of dehydration** can dominate the presentation, especially in infants and young children: look for **dry mucous membranes**, **sunken eyes/fontanelle**, **absence of tears**, **decreased urine output**, and **lethargy**. In severe cases, hypotension and shock can develop if fluids are not replaced.",
+    "💡 **Chronic diarrhea** (lasting >4 weeks) often features intermittent or continuous loose stools with **weight loss**, **nutritional deficiencies**, or **growth failure**. Causes are usually non-infectious: e.g., **inflammatory bowel disease** (with blood/mucus and abdominal pain), **malabsorption** syndromes like celiac disease or chronic pancreatitis (greasy, foul-smelling stools), or **irritable bowel syndrome** (functional, no weight loss). Clues to organic causes include diarrhea that occurs at **night**, presence of blood, or significant weight loss."
+  ],
+  "problem_solving": [
+    "🔎 **Classify by duration**: Determine if it's acute vs. persistent vs. chronic. Acute (<2 weeks, often infectious) vs. persistent (2–4 weeks) vs. chronic (>4 weeks, likely non-infectious). This guides your approach (acute typically self-limited, chronic requires investigation).",
+    "🔎 **Assess red flags**: In acute diarrhea, check for features that warrant diagnostic tests. **High fever**, **bloody stools**, **severe pain**, or **immunocompromise** suggest invasive pathogens – order stool culture, fecal leukocytes/lactoferrin, and test for **C. difficile** toxin if recent antibiotic use. Mild watery diarrhea without red flags can often be managed supportively without extensive workup.",
+    "🔎 **Stool characteristics** offer clues: e.g., **watery**, high-volume diarrhea suggests small bowel origin (secretory or osmotic); **bloody or mucoid** diarrhea implies colonic inflammation (dysentery or IBD). **Oily, malodorous stool** points to malabsorption (pancreatic insufficiency, celiac). Consider specific tests based on stool findings (ova/parasites for persistent diarrhea, stool osmotic gap for osmotic vs secretory).",
+    "🔎 **Differentiate secretory vs osmotic**: An **osmotic diarrhea** (e.g., lactose intolerance) will **improve with fasting** and typically has a high stool osmotic gap >100 mOsm/kg. **Secretory diarrhea** (e.g., cholera, some toxins or hormone-producing tumors) often causes **large volumes** and **persists during fasting**, with a normal (<50) stool osmotic gap. These clues help narrow the cause.",
+    "🔎 **Chronic diarrhea workup**: Perform basic labs (**CBC** for anemia/infection, **metabolic panel** for electrolyte issues, **TSH** for thyroid disorders) and stool studies (**culture**, **ova & parasites**, **fecal occult blood**, **fecal leukocytes**). If inflammatory bowel disease is suspected (blood, anemia, elevated inflammatory markers), arrange **colonoscopy** for evaluation. Categorize chronic diarrhea as **watery**, **fatty (steatorrhea)**, or **inflammatory**, and pursue targeted tests for each category."
+  ],
+  "differentials": [
+    {
+      "name": "Irritable bowel syndrome (IBS)",
+      "hint": "Chronic functional diarrhea with abdominal pain relieved by defecation; no blood or weight loss (normal labs & scopes)."
+    },
+    {
+      "name": "Inflammatory bowel disease",
+      "hint": "Ulcerative colitis or Crohn disease – causes chronic diarrhea with blood/mucus, abdominal pain, weight loss; systemic features (fever, anemia)."
+    },
+    {
+      "name": "Clostridioides difficile colitis",
+      "hint": "Antibiotic-associated diarrhea (often hospital-acquired) with foul-smelling, watery stools; can progress to pseudomembranous colitis."
+    },
+    {
+      "name": "Malabsorption (celiac disease)",
+      "hint": "Chronic osmotic diarrhea with greasy, bulky stools; associated with weight loss, vitamin deficiencies, and improvement on gluten-free diet."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Osmotic = \"O\"utside food dependent** (diarrhea stops when fasting), **Secretory = \"S\"ecretory Still happens** (diarrhea continues even during fasting).",
+    "**Never give anti-motility drugs** (like loperamide) if diarrhea is **bloody** or due to **C. diff** – it can worsen the infection or precipitate toxic megacolon.",
+    "On exams, \"**rice-water stools**\" (profuse watery diarrhea with flecks of mucus) in a traveler or disaster setting are classic for **cholera** – a secretory diarrhea requiring aggressive rehydration."
+  ],
+  "exam_appearance": [
+    "Traveler to Latin America with 3 days of cramps and watery diarrhea → **Traveler's diarrhea** (ETEC infection).",
+    "Toddler in daycare with vomiting and watery diarrhea in winter, not vaccinated for rotavirus → **Viral gastroenteritis** (likely rotavirus).",
+    "Hospitalized patient on antibiotics with new-onset foul-smelling diarrhea, abdominal cramps, and fever → **C. difficile colitis** (antibiotic-associated diarrhea)."
+  ],
+  "treatment": [
+    "💧 **Rehydration is key**: Start oral rehydration solution (**ORS**) for mild-moderate dehydration. ORS (clean water with the right sugar-salt balance) restores fluids and electrolytes and has drastically reduced childhood diarrhea mortality. If dehydration is severe or patient can't drink, use IV fluids (e.g., Ringer's lactate). Continue regular diet and breastfeeding – do not withhold food (the old \"BRAT\" diet is no longer required).",
+    "🍼 **Zinc for kids**: In children, give **zinc supplementation** (10–20 mg zinc per day for 10–14 days) to shorten diarrhea duration and improve outcomes. Also ensure adequate nutrition to prevent malnutrition, and continue breastfeeding infants through the illness.",
+    "🚫 **Use medications wisely**: Avoid anti-diarrheal drugs in bloody diarrhea or high fever cases. For non-bloody acute diarrhea in adults, **loperamide** can reduce stool frequency (improves comfort for travel, etc.), but never use if C. diff or dysentery is suspected. **Bismuth subsalicylate** (Pepto-Bismol) can help mild traveler's diarrhea (antisecretory and anti-microbial effects). Probiotics may shorten the course of some infectious diarrhea.",
+    "💊 **Antibiotics**: Not routinely needed for most acute diarrhea, which is viral or self-limited. Indications include **severe** or **prolonged** diarrhea with confirmed or strongly suspected bacterial cause. Examples: a fluoroquinolone or azithromycin can be given for severe **traveler's diarrhea** or **cholera** (to reduce duration), appropriate antibiotics for **dysentery** (e.g., ciprofloxacin for Shigella) or **typhoid fever**, **metronidazole/vancomycin** for C. diff colitis, and **metronidazole** or **nitazoxanide** for parasitic causes like Giardia or Cryptosporidium. Always tailor therapy to the identified organism when possible, and avoid antibiotics in EHEC O157:H7 infections (due to HUS risk)."
+  ],
+  "red_flags": [
+    "⚠️ **Severe dehydration**: marked by lethargy, sunken eyes, no tears, very dry mouth, minimal urine output, or inability to drink fluids – this is a medical emergency requiring immediate IV rehydration.",
+    "⚠️ **Bloody diarrhea (dysentery)** with high fever or severe abdominal pain: suggests invasive infection (e.g., Shigella, EHEC) – high risk for complications (sepsis, HUS). Requires prompt evaluation, stool culture, and targeted antibiotic treatment."
+  ],
+  "algorithm": [
+    "👟 **Initial step**: Assess the patient's hydration status and vital signs. If signs of severe dehydration or shock are present, begin IV fluids immediately (even before diagnostic tests). Ensure airway, breathing, circulation are stable.",
+    "🕒 **History & Duration**: Determine if diarrhea is acute (<2 weeks) or chronic (>4 weeks). Ask about frequency, stool characteristics (watery vs bloody), onset, and associated symptoms (fever, vomiting, pain). Note risk factors: recent travel, antibiotic use, daycare, contaminated food or water, sick contacts.",
+    "💧 **Rehydration first**: Start oral rehydration (ORS) for moderate dehydration; if unable to tolerate oral intake or severely dehydrated, start IV fluids (e.g., bolus of normal saline or Ringer's lactate). Continually reassess hydration (urine output, mental status, capillary refill).",
+    "🔬 **If acute with red flags** (fever ≥38.5°C, bloody stool, severe pain, immunocompromised host): send stool studies (culture for pathogens, fecal leukocytes, ova & parasites as needed). Test for **C. difficile** toxin if recent hospitalization or antibiotics. Consider empiric antibiotics for suspected severe bacterial diarrhea (especially cholera or dysentery), after obtaining cultures.",
+    "⏱️ **If no red flags**: likely viral or mild diarrhea – focus on hydration and supportive care. No immediate labs needed; advise rest, ORS, and diet as tolerated. Observe for improvement over 24–48 hours.",
+    "🔎 **If chronic or persistent diarrhea**: perform basic lab work (CBC, metabolic panel, thyroid function) and stool analyses (for blood, inflammatory markers, fat, pathogens). Refer for gastrointestinal evaluation (e.g., endoscopy/colonoscopy and biopsies) if inflammatory bowel disease or other chronic pathology is suspected. Manage underlying cause accordingly."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Bristol_stool_chart.svg/1024px-Bristol_stool_chart.svg.png",
+      "alt": "Bristol Stool Chart illustrating seven types of stool consistency, from hard pellets (Type 1) to watery liquid (Type 7).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Bristol_stool_chart.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old backpacker returns from a trip to Mexico and develops three days of profuse, non-bloody diarrhea.",
+      "clues": ["No fever or blood in stool", "Travel companions also ill", "Improves with oral rehydration and a short course of ciprofloxacin"],
+      "answer": "Traveler's diarrhea (enterotoxigenic E. coli infection)",
+      "teaching": "Contaminated food/water caused an ETEC infection, leading to secretory diarrhea (\"Montezuma's revenge\"). It is usually self-limited, but oral rehydration is essential. A fluoroquinolone or azithromycin can shorten the duration in adult travelers."
+    },
+    {
+      "stem": "A 9‑month‑old infant with no rotavirus immunization presents with two days of vomiting and watery diarrhea.",
+      "clues": ["Attends daycare; several other infants are ill", "Sunken eyes and dry mucous membranes", "No blood in stool; moderate dehydration noted"],
+      "answer": "Acute viral gastroenteritis (likely rotavirus) with dehydration",
+      "teaching": "This infant has classic signs of rotavirus infection (a leading cause of diarrhea in unvaccinated children), which causes profuse watery diarrhea and vomiting, often leading to dehydration. Treatment is focused on aggressive rehydration (ORS or IV fluids) and continuing feeding. Rotavirus vaccine could have prevented this illness."
+    }
+  ],
+  "see_also": [
+    "irritable-bowel-syndrome",
+    "inflammatory-bowel-disease",
+    "clostridium-difficile-infection",
+    "hemolytic-uremic-syndrome"
+  ],
+  "prerequisites": [
+    "gastrointestinal-physiology",
+    "fluid-electrolyte-balance",
+    "microbiology-basics"
+  ],
+  "sources": [
+    {
+      "title": "WHO Fact Sheet: Diarrhoeal disease (2024)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease"
+    },
+    {
+      "title": "StatPearls: Diarrhea (Nemeth & Pfleghaar, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448082/"
+    },
+    {
+      "title": "UpToDate: Approach to the adult with acute diarrhea in resource-rich settings",
+      "url": "https://www.uptodate.com/contents/approach-to-the-adult-with-acute-diarrhea-in-resource-abundant-settings"
+    },
+    {
+      "title": "Medscape: Diarrhea – Practice Essentials (Guandalini, 2024)",
+      "url": "https://emedicine.medscape.com/article/928598-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

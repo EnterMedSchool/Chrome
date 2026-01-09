@@ -1,0 +1,141 @@
+{
+  "id": "conjunctivitis",
+  "names": [
+    "Conjunctivitis"
+  ],
+  "aliases": [
+    "pink eye",
+    "pinkeye"
+  ],
+  "abbr": [],
+  "patterns": [
+    "conjunctivitis",
+    "pink eye",
+    "pinkeye",
+    "ophthalmia neonatorum",
+    "trachoma"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "pathology",
+    "infectious_dz",
+    "micro_bacteria",
+    "micro_virus",
+    "peds"
+  ],
+  "definition": "Inflammation of the conjunctiva (\"pink eye\") causing red eye and discharge; usually benign and self-limited (viral, bacterial, or allergic causes), but certain forms (e.g., neonatal gonococcal infection, **trachoma**) can lead to severe ocular damage.",
+  "why_it_matters": "Extremely common cause of red eye across all ages. High-yield for exams because you must distinguish simple conjunctivitis from serious red-eye causes (e.g., keratitis, glaucoma) and know proper management (like neonatal prophylaxis). Also a global health issue: **trachoma** is the leading infectious cause of blindness worldwide.",
+  "how_youll_see_it": [
+    "**Viral:** Most common overall (often **adenovirus**); contagious \"pink eye\" with watery/tearing discharge, burning or gritty feeling; often starts in one eye (spreads to the other); may have preauricular lymph node.",
+    "**Bacterial:** Red eye with thick purulent discharge (eye often \"stuck shut\" in mornings); more common in children. Typical bugs: Staph, Strep, **H. influenzae**; consider **Pseudomonas** in contact lens users.",
+    "**Allergic:** Intense **itching**, tearing, and redness in both eyes (often in atopic individuals or seasonally); may see eyelid puffiness and conjunctival swelling; other allergy symptoms (e.g., sneezing) often present.",
+    "**Neonatal:** Newborn in first month of life with conjunctival redness and discharge. Onset **Day 2–5** → suspect gonococcal conjunctivitis (hyperacute, can threaten cornea); onset **Day 5–14** → suspect chlamydial conjunctivitis (less purulent).",
+    "**Trachoma (Chronic Chlamydial):** Repeated **Chlamydia trachomatis** (serovars A–C) infections in childhood (in poor, rural areas) cause conjunctival scarring and eyelid deformities → **trichiasis** (inturned lashes scraping the cornea) → corneal opacification and blindness. (Trachoma is the #1 infectious cause of blindness worldwide.)"
+  ],
+  "problem_solving": [
+    "Check for **red flags** (severe eye pain, photophobia, or vision loss): if any present, evaluate for keratitis, uveitis, or glaucoma instead of simple conjunctivitis.",
+    "Differentiate by discharge: **purulent** discharge usually indicates bacterial conjunctivitis; **watery** discharge is more consistent with viral or allergic (allergic also has prominent itching and usually bilateral).",
+    "Neonatal conjunctivitis: use timing and tests to identify cause – perform Gram stain/culture for gonococcal (appears in first 5 days of life, causes profuse pus) and PCR for chlamydial (appears around 1–2 weeks); treat promptly (gonococcal infection can cause corneal perforation).",
+    "If a patient has chronic conjunctivitis or conjunctival scarring and lives in an endemic region (poor sanitation, flies), think **trachoma**. Implement the **SAFE** strategy: Surgery for trichiasis, Antibiotics (azithromycin) for infection (often mass distribution), Facial cleanliness, and Environmental improvement."
+  ],
+  "differentials": [
+    {
+      "id": "keratitis",
+      "hint": "corneal infection/inflammation (e.g., HSV, contact lens); causes more pain, photophobia, possibly corneal ulcer"
+    },
+    {
+      "id": "uveitis",
+      "hint": "intraocular inflammation (iritis); aching eye pain, photophobia, blurry vision, often with ciliary flush"
+    },
+    {
+      "id": "acute-angle-closure-glaucoma",
+      "hint": "sudden painful red eye, halos, mid-dilated pupil, ↑intraocular pressure; headache, nausea/vomiting"
+    }
+  ],
+  "tricks": [
+    "WHO trachoma grading: **TF** (follicular conjunctivitis), **TI** (intense inflammation), **TS** (tarsal scarring), **TT** (trichiasis), **CO** (corneal opacity).",
+    "SAFE strategy for **trachoma**: **S**urgery (for lashes), **A**ntibiotics (azithromycin), **F**acial cleanliness, **E**nvironmental improvement (sanitation) – key to eliminating trachoma.",
+    "Neonatal prophylaxis: all infants receive topical erythromycin ointment at birth to prevent gonococcal conjunctivitis (ophthalmia neonatorum)."
+  ],
+  "exam_appearance": [
+    "An 8‑year‑old child with a recent URI develops unilateral then bilateral red eyes with watery discharge and a preauricular lymph node → **Viral conjunctivitis** (adenovirus).",
+    "Adult with an acutely red eye and thick yellow discharge that reappears after wiping (no significant pain or vision change) → **Bacterial conjunctivitis**.",
+    "Teenager with seasonal allergies has itchy, red, watery eyes each spring, along with sneezing and eczema → **Allergic conjunctivitis**.",
+    "A newborn at 3 days old has severe bilateral eye swelling with copious purulent discharge → **Gonococcal ophthalmia neonatorum** (neonatal gonococcal conjunctivitis).",
+    "A 7‑year‑old from rural Africa with chronic conjunctivitis has inward-turned eyelashes scratching a scarred cornea → **Trachoma** (chronic C. trachomatis; leads to blindness)."
+  ],
+  "treatment": [
+    "**Viral:** Supportive care (cool compresses, artificial tears); no antibiotics needed (self-resolves in ~2 weeks). Emphasize good hand hygiene (highly contagious).",
+    "**Bacterial:** Topical antibiotic drops/ointment (e.g., erythromycin); if contact lens wearer, use a fluoroquinolone to cover **Pseudomonas**. Improves within days.",
+    "**Allergic:** Topical antihistamine and/or mast cell stabilizer eye drops for symptom relief; avoid triggers. Can use oral antihistamines if necessary.",
+    "**Neonatal:** Prevent gonococcal conjunctivitis with routine erythromycin ointment at birth. If infected: treat **N. gonorrhoeae** conjunctivitis immediately with IV/IM **ceftriaxone** (ophthalmologic emergency), and treat **C. trachomatis** conjunctivitis with oral **erythromycin**.",
+    "**Trachoma:** Single-dose oral **azithromycin** (often mass drug administration in community) to eradicate infection. Eyelid surgery for trichiasis may be needed to protect cornea. Improve hygiene (face washing) and sanitation to reduce spread."
+  ],
+  "red_flags": [
+    "**Vision loss**, pronounced photophobia, or corneal opacity/ulcer in a red eye → not typical for simple conjunctivitis (suspect keratitis, uveitis, etc.) and needs urgent evaluation.",
+    "**Trichiasis** (inturned eyelashes rubbing the cornea) or persistent conjunctivitis despite treatment → urgent ophthalmology referral (trichiasis can cause corneal scarring and blindness, as seen in trachoma)."
+  ],
+  "algorithm": [
+    "Red eye with conjunctival injection and discharge (minimal pain, normal vision) → likely conjunctivitis (pink eye).",
+    "If **severe pain, photophobia, or vision impairment** is present, do not assume conjunctivitis → evaluate for keratitis, uveitis, or acute glaucoma.",
+    "If conjunctivitis is likely, determine the cause: **watery discharge** (viral or allergic), **purulent discharge** (bacterial), **itchy bilateral** (allergic).",
+    "Treat accordingly: viral → cool compress and hygiene (no antibiotics); bacterial → topical antibiotics; allergic → antihistamine ± steroid drops (if severe).",
+    "Neonatal conjunctivitis: consider timing (Day 2–5 → gonococcal vs Day 5–14 → chlamydial) and start appropriate treatment immediately.",
+    "In endemic areas, recognize **trachoma** in patients with chronic conjunctivitis or scarring; provide oral azithromycin (mass treatment) and implement SAFE measures."
+  ],
+  "images": [
+    {
+      "src": "https://edge.sitecorecloud.io/mmanual-ssq1ci05/media/professional/images/6/2/8/628-stage-4-trachoma-crop-springer-high.jpg?sc_lang=en&mw=2048",
+      "alt": "Eye with corneal opacity and inturned eyelashes (trachomatous trichiasis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://www.msdmanuals.com/professional/multimedia/image/trachomatous-trichiasis-tt-and-corneal-opacity-co"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old boy from a rural village in South Sudan is brought in for evaluation of vision problems.",
+      "clues": [
+        "Multiple bouts of conjunctivitis throughout childhood",
+        "Lives in area with poor sanitation (limited clean water, many flies)",
+        "Exam: eyelashes are turned inward against the eyeball",
+        "Corneal scarring and opacity present",
+        "Older siblings have similar eye issues"
+      ],
+      "answer": "Trachoma (chronic Chlamydia trachomatis A–C infection)",
+      "teaching": "Repeated infections with *Chlamydia trachomatis* serovars A–C cause chronic conjunctival inflammation and scarring; the eyelids scar and eyelashes turn inward (**trichiasis**), rubbing the cornea. This leads to corneal opacification and blindness if untreated. Trachoma is managed with oral azithromycin (mass drug administration) and the SAFE strategy (hygiene and surgical measures)."
+    }
+  ],
+  "see_also": [
+    "uveitis",
+    "glaucoma",
+    "strabismus"
+  ],
+  "prerequisites": [
+    "ocular-anatomy",
+    "hypersensitivity-type-i"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Conjunctivitis (Hashmi et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541034/"
+    },
+    {
+      "title": "StatPearls: Trachoma (Ahmad & Patel, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559035/"
+    },
+    {
+      "title": "WHO Fact Sheet: Trachoma (2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/trachoma"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

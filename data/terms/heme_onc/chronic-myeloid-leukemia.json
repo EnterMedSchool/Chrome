@@ -1,0 +1,113 @@
+{
+  "id": "chronic-myeloid-leukemia",
+  "names": ["Chronic myeloid leukemia"],
+  "aliases": ["Chronic myelogenous leukemia", "Chronic granulocytic leukemia"],
+  "abbr": ["CML"],
+  "patterns": ["cml", "chronic myelogenous leukemia", "chronic myeloid leukemia", "chronic granulocytic leukemia", "Philadelphia chromosome", "BCR-ABL"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics"],
+  "definition": "Myeloproliferative neoplasm with unchecked myeloid (granulocyte) proliferation; driven by BCR-ABL fusion (Philadelphia chromosome t(9;22)) leading to a constitutively active tyrosine kinase.",
+  "why_it_matters": "Revolutionized by targeted therapy (imatinib); untreated CML can progress to a fatal blast crisis (acute leukemia). Often cited as a classic example linking a specific mutation (Ph chromosome) to cancer and demonstrating dramatic treatment success.",
+  "how_youll_see_it": [
+    "Often asymptomatic until noted incidentally on labs (WBC >100,000) in a middle-aged adult.",
+    "If symptomatic: fatigue, weight loss, night sweats, and splenomegaly (early satiety, LUQ fullness) are common.",
+    "Labs: marked leukocytosis with left-shifted neutrophils (from myeloblasts to segs) and often basophilia; platelets can also be elevated."
+  ],
+  "problem_solving": [
+    "Differentiate CML from leukemoid reaction (infection) with leukocyte alkaline phosphatase (LAP) score: CML neutrophils have low LAP (vs high in reactive leukemoid).",
+    "Confirm diagnosis with genetic testing: look for Philadelphia chromosome on karyotype or BCR-ABL1 fusion via PCR.",
+    "Classify phase by blast %: chronic (<10% blasts), accelerated (~10–19%), or blast crisis (≥20% blasts, acute leukemia transformation)."
+  ],
+  "differentials": [
+    {
+      "id": "leukemoid-reaction",
+      "hint": "reactive ↑WBC (e.g., severe infection) with high LAP score"
+    },
+    {
+      "id": "acute-myeloid-leukemia",
+      "hint": "acute leukemia with >20% blasts, abrupt onset, more severe cytopenias"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: Philadelphia CreaML cheese (Philadelphia chromosome = CML).",
+    "LAP is Low in Leukemia (CML) but high in leukemoid reactions."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with massive splenomegaly, WBC ~100,000 (mostly neutrophils with left shift, plus basophils) and low LAP → CML (chronic phase, Ph chromosome).",
+    "CML patient on imatinib with fatigue, fever, bone pain, and 25% blasts on blood smear → blast crisis (acute transformation requiring aggressive therapy)."
+  ],
+  "treatment": [
+    "Tyrosine kinase inhibitors (e.g., imatinib) are first-line, targeting the BCR-ABL oncoprotein to induce remission.",
+    "If resistance (e.g., T315I mutation) or progression: switch to a different TKI (dasatinib, nilotinib; ponatinib for T315I) or proceed to allogeneic stem cell transplant.",
+    "Blast phase is treated like acute leukemia (TKI + conventional chemo), often followed by transplant."
+  ],
+  "red_flags": [
+    "Rising blast count (≥20%) or new cytopenias in a CML patient → progression to advanced phase (accelerated or blast crisis).",
+    "Sudden worsening symptoms (fevers, bone pain, rapidly enlarging spleen) despite therapy → evaluate for blast transformation."
+  ],
+  "algorithm": [
+    "Unexplained extreme leukocytosis (esp. neutrophils >50k) → consider CML (vs reactive leukemoid).",
+    "Order confirmatory testing: cytogenetics for Ph chromosome or PCR for BCR-ABL1.",
+    "If positive, assess disease phase (chronic vs accelerated vs blast) by blast percentage and clinical features.",
+    "Start imatinib (or another TKI) for chronic phase and monitor BCR-ABL levels for response.",
+    "If inadequate response or progression → change to second-line TKI or refer for transplant evaluation."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Schematic_of_the_Philadelphia_Chromosome.svg/697px-Schematic_of_the_Philadelphia_Chromosome.svg.png",
+      "alt": "Diagram of the Philadelphia chromosome translocation (BCR-ABL fusion on chromosomes 9 and 22).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Schematic_of_the_Philadelphia_Chromosome.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man is evaluated for fatigue and early satiety.",
+      "clues": [
+        "WBC 120,000/µL with <5% blasts",
+        "Differential: predominantly neutrophils (all stages) with increased basophils",
+        "Massive splenomegaly on exam",
+        "Low leukocyte alkaline phosphatase score"
+      ],
+      "answer": "Chronic myeloid leukemia (chronic phase)",
+      "teaching": "BCR-ABL (Philadelphia chromosome) drives uncontrolled granulocyte proliferation. The very high WBC with full spectrum of neutrophil precursors and basophilia is classic for CML; low LAP distinguishes it from a leukemoid reaction. Treat with a tyrosine kinase inhibitor (imatinib)."
+    },
+    {
+      "stem": "A 45‑year‑old woman with known CML on therapy develops fever and bone pain.",
+      "clues": [
+        "Previously well-controlled CML, now new anemia and thrombocytopenia",
+        "Blood smear: ~30% myeloblasts",
+        "Increasing splenomegaly",
+        "Tyrosine kinase inhibitor stopped working"
+      ],
+      "answer": "CML in blast crisis (acute leukemia transformation)",
+      "teaching": "Blast crisis CML is essentially an acute leukemia arising from CML (often resembling AML). It presents with acute leukemia findings (high blasts, cytopenias, systemic symptoms). Management requires intensive chemotherapy plus TKI, and often a stem cell transplant."
+    }
+  ],
+  "see_also": ["chronic-lymphocytic-leukemia", "leukemia", "lymphoma", "leukocytosis"],
+  "prerequisites": ["leukemia"],
+  "sources": [
+    {
+      "title": "StatPearls: Chronic Myelogenous Leukemia (Eden & Coviello, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531459/"
+    },
+    {
+      "title": "UpToDate: Chronic myeloid leukemia in chronic phase – initial treatment",
+      "url": "https://www.uptodate.com/contents/chronic-myeloid-leukemia-in-chronic-phase-initial-treatment"
+    },
+    {
+      "title": "Medscape: Chronic Myelogenous Leukemia (Besa et al., 2024)",
+      "url": "https://emedicine.medscape.com/article/199425-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "aortic-dissection",
+  "names": [
+    "Aortic dissection"
+  ],
+  "aliases": [
+    "acute aortic dissection",
+    "dissecting aneurysm"
+  ],
+  "abbr": [
+    "AAD"
+  ],
+  "patterns": [
+    "aortic dissection",
+    "acute aortic dissection",
+    "dissecting aneurysm",
+    "Stanford type A dissection",
+    "Stanford type B dissection"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "pathology",
+    "cardio",
+    "surgery",
+    "emerg"
+  ],
+  "definition": "Tear in the aortic intimal layer allowing blood to split the wall layers (forming a false lumen); classically causes abrupt, severe 'tearing' chest or back pain. It can be spontaneous (due to long-standing hypertension or connective‑tissue disease) or iatrogenic/traumatic (caused by procedures like catheterization or cardiac surgery, or by blunt/penetrating chest trauma).",
+  "why_it_matters": "Often rapidly fatal without prompt treatment. Early recognition is critical to prevent catastrophic complications (tamponade, stroke, organ ischemia). Frequently tested as a differential for chest pain emergencies (vs MI), focusing on unique signs like pulse differences and widened mediastinum.",
+  "how_youll_see_it": [
+    "Classically an older hypertensive man with sudden, excruciating tearing chest pain radiating to the back. May have unequal blood pressure in arms or diminished pulses, and a widened mediastinum on chest X-ray.",
+    "In younger patients (e.g., Marfan syndrome), suspect dissection when abrupt chest or back pain occurs. Signs can include a diastolic murmur of aortic regurgitation (if ascending aorta involved) or neurologic deficits (stroke or spinal ischemia from branch vessel involvement).",
+    "Ascending dissections (Stanford Type A) often present with anterior chest pain and can progress to cardiac tamponade or aortic regurgitation (heart failure), whereas descending (Type B) typically cause interscapular back pain and can lead to organ ischemia (e.g., renal failure, limb ischemia)."
+  ],
+  "problem_solving": [
+    "Immediate management for suspected dissection: aggressively control blood pressure and heart rate (IV beta-blocker) to reduce aortic wall stress, even as diagnostics are in progress, provided the patient is not hypotensive or in shock.",
+    "Best initial diagnostic step is imaging (if stable, get an emergent CTA of the chest; if unstable or CTA unavailable, perform TEE at bedside). Don't delay imaging in high-risk presentations.",
+    "Distinguish from myocardial infarction: a dissection can cause ischemia, but avoid thrombolytics until dissection is ruled out (fibrinolysis in an undiagnosed dissection can be fatal!). Obtain ECG/troponins, but remember a normal ECG or atypical features should prompt considering dissection.",
+    "If a patient has chest pain plus pulse deficits or focal neuro signs, think aortic dissection first. Also, recognize that D-dimer is often elevated in dissection; a normal D-dimer makes dissection less likely (though not definitive)."
+  ],
+  "differentials": [
+    {
+      "id": "myocardial-infarction",
+      "hint": "more common; crushing chest pressure, often ST changes and troponin rise; pain usually not tearing or radiating to back"
+    },
+    {
+      "id": "pulmonary-embolism",
+      "hint": "sudden onset chest pain with dyspnea; may cause hypotension; pain is pleuritic, no pulse disparity, risk factors like DVT"
+    },
+    {
+      "name": "Boerhaave syndrome",
+      "hint": "esophageal rupture from vomiting; severe chest pain with mediastinal emphysema (Hamman sign), often history of retching; also a surgical emergency but very different context"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: A = Ascending (Stanford A involves Ascending aorta) and needs surgery; B = Beta-blockers first (Stanford B is descending, managed with medication if uncomplicated).",
+    "Classic CXR finding is a widened mediastinum in about 60% of cases—any chest pain patient with this finding should be evaluated for dissection.",
+    "Pain that is tearing and migratory (moving as the dissection propagates) is a hallmark clue. Additionally, new neurologic symptoms or limb ischemia in a chest pain case strongly point toward dissection."
+  ],
+  "exam_appearance": [
+    "A 60‑year‑old hypertensive man with abrupt, tearing chest pain radiating to the back, asymmetric upper extremity pulses/BP, and a widened mediastinum on CXR → classic acute aortic dissection (likely Type A).",
+    "A tall, young patient with Marfan syndrome presenting with acute chest pain and a new diastolic decrescendo murmur (aortic regurgitation) → ascending aortic dissection involving the aortic valve.",
+    "Imaging vignette: CT angiography showing an intimal flap and double lumen in the aorta, or an echocardiogram displaying a dissection flap in the aortic root, is a telltale exam clue for aortic dissection."
+  ],
+  "treatment": [
+    "Begin with IV beta-blockers (e.g., esmolol) for heart rate and blood pressure control (target SBP roughly 100–120 mmHg, HR ~60) plus IV opioids for pain. This so‑called anti‑impulse therapy reduces the velocity of left ventricular contraction and the rate of rise of aortic pressure, lowering shear stress on the aortic wall.",
+    "Do not start or escalate anti‑impulse therapy (beta‑blockers or vasodilators) if the patient is hypotensive, in cardiogenic shock, or if you are worried about cardiac tamponade or frank aortic rupture—in those situations, further lowering BP can worsen organ perfusion; prioritize urgent surgical management and cautious resuscitation instead.",
+    "Important contraindications to anti‑impulse therapy (especially β‑blockers and non‑dihydropyridine CCBs) include severe acute aortic regurgitation with heart failure, marked bradycardia or high‑grade AV block, cardiogenic shock or decompensated LV failure, and significant bronchospastic disease (e.g., severe asthma/COPD). In such cases, therapy must be individualized with cardiology/CT surgery input and alternative agents or earlier intervention considered.",
+    "Stanford Type A (ascending): emergency surgical repair is indicated. This usually involves resecting the dissected segment and replacing it with a graft; if the aortic root or valve is involved, surgical repair also addresses the valve (e.g., Bentall procedure).",
+    "Stanford Type B (descending): if uncomplicated, manage medically (strict BP control and monitoring in ICU). If there are complications (organ malperfusion, ongoing pain, aneurysm formation, or rupture risk), then perform TEVAR (endovascular stent graft) or, if not feasible, open surgical repair."
+  ],
+  "red_flags": [
+    "Pulse discrepancy (>20 mmHg between arms) or neurologic deficits (e.g., stroke symptoms) in the setting of acute chest pain → assume aortic dissection until proven otherwise (requires immediate imaging).",
+    "Acute chest pain with a widened mediastinum on X-ray or a new aortic regurgitation murmur (especially with hypotension) should raise alarm for dissection leading to impending cardiac tamponade – a surgical emergency.",
+    "When suspecting dissection, involvement of branch vessels can cause acute limb ischemia, abdominal pain (mesenteric ischemia), or renal failure; these are red flags that the dissection is causing end-organ ischemia."
+  ],
+  "algorithm": [
+    "Suspect aortic dissection in patients with risk factors (e.g., HTN, connective-tissue disorder, recent cardiac surgery or catheterization, chest trauma) and sudden severe chest/back pain (especially if described as tearing/ripping). Check for pulse asymmetry or neuro signs.",
+    "If suspicion is high and the patient is hemodynamically stable: start anti‑impulse therapy (IV beta‑blocker) and obtain emergent CTA of the chest (or TEE if CTA is not available/contraindicated). If unstable or hypotensive, focus on resuscitation and rapid TEE plus surgical consultation rather than aggressive BP lowering.",
+    "Once confirmed, classify by Stanford type. Type A (ascending) requires immediate surgical intervention (call cardiothoracic surgery) due to high risk of death. Type B (descending) can often be managed with medical therapy (BP control) initially, unless complications warrant intervention.",
+    "Admit to ICU for close monitoring. Continue appropriate antihypertensives and pain control. For Type A post-surgery or Type B managed medically, plan follow-up imaging (e.g., at 3, 6, 12 months) to watch for aneurysm, re‑dissection, or progression."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Aortic_dissection_types.jpg",
+      "alt": "Diagram illustrating aortic dissection locations: Stanford Type A (ascending aorta involvement) and Stanford Type B (descending aorta only).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Aortic_dissection_types.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man with a history of poorly controlled hypertension presents with sudden onset severe chest pain radiating to his upper back.",
+      "clues": [
+        "Pain is described as a sharp, 'tearing' sensation between the shoulder blades",
+        "Blood pressure is 200/100 mmHg; right arm BP is 30 mmHg higher than left",
+        "A blowing diastolic murmur is heard at the right sternal border",
+        "Chest X-ray reveals a markedly widened mediastinum"
+      ],
+      "answer": "Acute aortic dissection (Stanford type A)",
+      "teaching": "This is classic for a proximal aortic dissection. Uncontrolled hypertension is the strongest risk factor. Tearing chest/back pain with asymmetric arm BPs and a new aortic regurgitation murmur indicate an ascending dissection. The widened mediastinum on CXR is a hallmark. Management is emergency surgical repair, with anti‑impulse therapy used only while the patient is hemodynamically stable."
+    }
+  ],
+  "see_also": [
+    "aneurysm",
+    "myocardial-infarction",
+    "atherosclerosis",
+    "stroke",
+    "heart-failure"
+  ],
+  "prerequisites": [
+    "hypertension",
+    "marfan-syndrome"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Aortic Dissection (Levy et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441963/"
+    },
+    {
+      "title": "UpToDate: Overview of acute aortic dissection and other acute aortic syndromes",
+      "url": "https://www.uptodate.com/contents/overview-of-acute-aortic-dissection-and-other-acute-aortic-syndromes"
+    },
+    {
+      "title": "Medscape: Acute Aortic Dissection – Overview, Pathophysiology & Risk Factors",
+      "url": "https://emedicine.medscape.com/article/756835-overview"
+    },
+    {
+      "title": "Medical Management of Acute and Chronic Type B Aortic Dissection (Endovascular Today, 2022)",
+      "url": "https://evtoday.com/articles/2022-nov/medical-management-of-acute-and-chronic-type-b-aortic-dissection"
+    },
+    {
+      "title": "Beta Blockers – StatPearls (Farzam & Jan, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532906/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

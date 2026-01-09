@@ -1,0 +1,122 @@
+{
+  "id": "rheumatoid-arthritis",
+  "names": ["Rheumatoid arthritis"],
+  "aliases": ["rheumatoid disease", "juvenile rheumatoid arthritis"],
+  "abbr": ["RA"],
+  "patterns": ["ra", "rheumatoid arthritis", "rheumatoid arth", "juvenile idiopathic arthritis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "pharmacology", "immunology"],
+  "definition": "Chronic systemic autoimmune disease causing symmetric inflammatory polyarthritis (synovitis) of small joints with progressive cartilage and bone destruction, often accompanied by extra-articular features.",
+  "why_it_matters": "Affects ~1% of the population (female predominance) and can lead to severe joint damage, deformities, and disability if untreated. RA's systemic inflammation also increases risk of cardiovascular disease and other comorbidities, so early aggressive therapy is critical.",
+  "how_youll_see_it": [
+    "Insidious onset in a 30–50 year-old (3× more common in women) with morning stiffness >1 hour, joint pain, and swelling in multiple joints. Typically involves the hands (PIP, MCP joints) and wrists symmetrically, plus feet; often ≥5 joints (polyarthritis).",
+    "Joint distribution: wrists, MCP and PIP joints are most affected; usually spares DIP joints of the fingers (unlike OA). Knees, ankles, shoulders and elbows can be involved in later disease. Cervical spine (atlantoaxial C1–C2 joint) may be affected in long-standing RA, but other spinal levels are typically not involved.",
+    "Extra-articular clues: systemic symptoms (fatigue, weight loss, low-grade fevers); rheumatoid nodules on extensor surfaces (e.g., olecranon); and organ involvement such as lungs (pleural effusions, interstitial lung disease), heart (pericarditis), eyes (scleritis, secondary Sjögren), and anemia of chronic disease."
+  ],
+  "problem_solving": [
+    "Recognize inflammatory arthritis: look for chronic (>6 weeks) symmetric joint swelling and prolonged morning stiffness, indicating RA over noninflammatory causes.",
+    "Check serologies: rheumatoid factor (RF) (IgM autoantibody against IgG Fc) and anti-CCP (ACPA) are positive in ~70–80% (seropositive RA); ESR and CRP are usually elevated. (Note: seronegative RA lacks RF/CCP but can still clinically be RA.)",
+    "Obtain X-rays of hands, wrists, and feet: early findings include soft tissue swelling and periarticular osteopenia; later, joint space narrowing and marginal erosions are characteristic. Ultrasound or MRI can detect synovitis and erosions earlier if X-rays are normal and diagnosis is uncertain.",
+    "Apply ACR/EULAR classification criteria: score ≥6 (out of 10) confirms RA. Criteria include number of joints involved (more/smaller joints = higher score), serology (RF/anti-CCP positivity), acute-phase reactants (ESR/CRP), and symptom duration ≥6 weeks. Exclude other causes of inflammatory arthritis (e.g. lupus, psoriatic arthritis) before making the diagnosis.",
+    "Screen for baseline comorbidities (e.g. test for TB and hepatitis B/C before starting immunosuppressive therapy). Once RA is diagnosed, treat early with DMARDs to prevent irreversible damage."
+  ],
+  "differentials": [
+    { "name": "Systemic lupus erythematosus", "hint": "Nonerosive arthritis with intermittent symptoms and other systemic features (rash, renal, oral ulcers); usually positive ANA." },
+    { "name": "Psoriatic arthritis", "hint": "Often asymmetric; can involve DIPs (with nail pitting), enthesitis, and skin psoriasis; usually RF negative." },
+    { "id": "osteoarthritis", "hint": "Degenerative wear-and-tear; brief or minimal morning stiffness (<30 min), pain worse with use, DIP joint nodes (Heberden's), no systemic symptoms." }
+  ],
+  "tricks": [
+    "HLA-DR4 association: \"there are 4 walls in a rheum (room)\" – HLA-DR4 is linked to RA susceptibility.",
+    "Morning stiffness lasts >1 hour in RA (vs <30 min in OA) – a key differentiator of inflammatory arthritis.",
+    "Rheumatoid factor is an IgM antibody against the Fc portion of IgG (present in ~80% of RA, but not specific – can occur in other diseases)."
+  ],
+  "exam_appearance": [
+    "Middle-aged woman with bilateral hand pain, stiffness >1 hour in the morning, and swollen tender PIP/MCP joints → Rheumatoid arthritis.",
+    "Hand X-ray showing periarticular osteopenia, joint space narrowing, and marginal erosions in multiple joints → RA (erosive arthropathy).",
+    "Long-standing RA with ulnar deviation of the fingers and swan-neck deformities (PIP hyperextension with DIP flexion) in the hands → advanced Rheumatoid arthritis."
+  ],
+  "treatment": [
+    "Begin DMARD therapy early – first-line is methotrexate (unless contraindicated). Alternatives or additions include hydroxychloroquine, sulfasalazine, or leflunomide. These slow disease progression and can induce remission.",
+    "Use NSAIDs and/or low-dose glucocorticoids for initial symptom relief (pain, stiffness), but they do not prevent joint damage. Corticosteroids are often used as a bridge while waiting for DMARDs to take effect or for flares, then tapered off to minimize side effects.",
+    "Escalate therapy if needed for moderate-severe disease: add a biologic DMARD (e.g., anti-TNF such as etanercept, infliximab; or others like rituximab, abatacept, tocilizumab) or a JAK inhibitor (tofacitinib, etc.). Combination therapy (e.g., MTX + a biologic) is often used in refractory cases. Always screen for TB and hepatitis before starting biologics.",
+    "Non-pharmacologic: encourage exercise/physical therapy to maintain joint function and muscle strength. In advanced cases with joint destruction, surgical options (e.g., joint replacement) can improve quality of life."
+  ],
+  "red_flags": [
+    "RA patient with neck pain or neurological signs → consider atlantoaxial subluxation (C1–C2 instability) causing spinal cord compression; require cervical spine imaging and precautions (especially before anesthesia).",
+    "Long-standing seropositive RA with neutropenia and splenomegaly → suspect Felty's syndrome (triad of RA + splenomegaly + neutropenia), which leads to recurrent infections and leg ulcers."
+  ],
+  "algorithm": [
+    "Chronic symmetric polyarthritis ≥6 weeks with morning stiffness → suspect RA.",
+    "Order labs: RF and anti-CCP serologies, ESR/CRP levels; analyze synovial fluid if effusion (to rule out infection/gout).",
+    "Perform X-rays of hands and feet: look for osteopenia, erosions, joint space narrowing; consider ultrasound if X-rays are normal and suspicion remains.",
+    "If clinical picture and tests suggest RA, apply ACR/EULAR 2010 criteria to confirm diagnosis (score ≥6 required, after excluding other diagnoses).",
+    "Start methotrexate (DMARD) promptly for confirmed RA; use NSAIDs/steroids for symptom control as needed; follow up frequently to assess disease activity and adjust therapy (add biologic or switch DMARDs) until remission/low disease activity is achieved."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Rheumatoide_Arthritis_der_Hand_65W_-CR_ap-_001.jpg",
+      "alt": "X-ray of a hand with joint erosions and deformities due to rheumatoid arthritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Rheumatoide_Arthritis_der_Hand_65W_-_CR_ap_-_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old woman reports 4 months of joint pain and stiffness.",
+      "clues": [
+        "Morning stiffness lasting >1 hour",
+        "Symmetric swelling of the PIP and MCP joints in both hands",
+        "Firm, non-tender nodules on the elbows",
+        "Positive anti-citrullinated peptide (anti-CCP) antibody"
+      ],
+      "answer": "Rheumatoid arthritis",
+      "teaching": "Symmetric inflammatory arthritis of the hands with prolonged morning stiffness, rheumatoid nodules, and seropositivity (anti-CCP) is classic for RA. Early treatment with methotrexate can help prevent joint erosions and deformities."
+    },
+    {
+      "stem": "A 60‑year‑old woman with a 20-year history of seropositive RA presents with fatigue and recurrent infections.",
+      "clues": [
+        "Long-standing rheumatoid arthritis with joint deformities",
+        "Splenomegaly on abdominal exam",
+        "Neutropenia on CBC",
+        "Leg ulcers on the lower extremities"
+      ],
+      "answer": "Felty's syndrome (RA with splenomegaly and neutropenia)",
+      "teaching": "Felty's syndrome is a rare complication of long-standing RA characterized by the triad of RA, neutropenia, and splenomegaly. It often presents with non-healing ulcers and frequent infections due to neutropenia; management focuses on controlling the underlying RA (and occasionally using G-CSF or splenectomy in severe cases)."
+    }
+  ],
+  "see_also": [
+    "osteoarthritis",
+    "psoriatic-arthritis",
+    "systemic-lupus-erythematosus",
+    "juvenile-idiopathic-arthritis"
+  ],
+  "prerequisites": ["immunology", "synovial-joint"],
+  "sources": [
+    {
+      "title": "StatPearls: Rheumatoid Arthritis (Chauhan et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441999/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of rheumatoid arthritis in adults (Moreland & Singh, 2023)",
+      "url": "https://www.uptodate.com/contents/rheumatoid-arthritis-in-adults-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "ACR 2021 Guideline for Rheumatoid Arthritis Treatment (Fraenkel et al., Arthritis Care Res 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34101387/"
+    },
+    {
+      "title": "2019 EULAR Recommendations for the Management of RA (Smolen et al., Ann Rheum Dis 2020)",
+      "url": "https://ard.bmj.com/content/79/6/685"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

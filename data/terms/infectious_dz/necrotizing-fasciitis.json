@@ -1,0 +1,86 @@
+{
+  "id": "necrotizing-fasciitis",
+  "names": ["Necrotizing fasciitis"],
+  "aliases": ["necrotising fasciitis", "flesh-eating disease", "flesh-eating bacteria infection"],
+  "abbr": ["NF"],
+  "patterns": ["necrotizing fasciitis", "necrotising fasciitis", "flesh eating bacteria", "flesh eating disease"],
+  "primary_tag": "infectious_dz",
+  "tags": ["infectious_dz", "surgery", "emerg", "msk_derm"],
+  "definition": "Life‑threatening, rapidly progressive infection of the fascia and deep soft tissues (\"flesh‑eating\" disease) causing necrosis of subcutaneous tissue.",
+  "why_it_matters": "It's a true surgical emergency with high mortality if not promptly treated. Early recognition and aggressive intervention (surgery + antibiotics) are critical and often tested on exams (classic \"pain out of proportion\" scenario).",
+  "how_youll_see_it": [
+    "**Severe pain out of proportion** in an area of recent skin trauma (cut, surgical wound, ulcer) that rapidly worsens. Early on, the overlying skin may look surprisingly normal or only mildly erythematous despite excruciating deep pain.",
+    "Within 1-2 days, escalating **swelling**, tense edema, and spreading redness develop. Skin may turn dusky purple with **bullae** (blisters) and **crepitus** (gas in tissue). The area can become **numb** (loss of sensation due to nerve destruction) even while infection spreads.",
+    "**Systemic signs**: high fever, tachycardia, hypotension and confusion (sepsis) often accompany advanced cases. Common sites are limbs and perineum (**Fournier's gangrene** in diabetic men is necrotizing fasciitis of the genitals). **Risk factors** include diabetes, peripheral vascular disease, immunosuppression, alcoholism, and IV drug use, though it can also occur in healthy individuals after minor injuries."
+  ],
+  "problem_solving": [
+    "Maintain a **high index of suspicion**: if a patient has a rapidly spreading soft-tissue infection with disproportionate pain or systemic toxicity, do not dismiss it as simple cellulitis—consider necrotizing fasciitis and escalate care.",
+    "Use the **LRINEC score** (Laboratory Risk Indicator for Necrotizing Infection) as a tool: it assigns points for CRP, WBC, hemoglobin, sodium, creatinine, glucose. A score ≥6 is worrisome (≥8 highly predictive), but a low score doesn't fully exclude NF. Always prioritize clinical judgment over lab scores.",
+    "If necrotizing fasciitis is suspected, **do not delay** definitive treatment. Begin broad-spectrum antibiotics and obtain emergency surgical consultation immediately. Imaging (CT or MRI) can show fascial thickening or gas and may be useful if time allows, but **never wait for imaging** in a rapidly deteriorating patient—surgical exploration is the gold standard for diagnosis. In surgery, findings of gray, devitalized fascia with foul \"dishwater\" fluid confirm the diagnosis."
+  ],
+  "differentials": [
+    { "id": "cellulitis", "hint": "more localized skin infection without deep tissue necrosis; lacks extreme pain or gas, usually improves with antibiotics alone" },
+    { "id": "gas-gangrene", "name": "Gas gangrene (clostridial myonecrosis)", "hint": "fulminant muscle infection by Clostridia with crepitus; often after traumatic wounds, involves muscle (not just fascia)" },
+    { "id": "compartment-syndrome", "hint": "ischemic limb pain out of proportion (after trauma); not infectious (no fever or skin changes), pressures elevated in muscle compartments" }
+  ],
+  "tricks": [
+    "On exams, **\"pain out of proportion\"** in a skin infection is a red flag hinting at necrotizing fasciitis.",
+    "Always include **clindamycin** in the antibiotic regimen for necrotizing fasciitis – it helps suppress streptococcal toxin production (improving outcomes in GAS infections)."
+  ],
+  "exam_appearance": [
+    "Diabetic patient with a rapidly expanding red swollen leg, exquisite pain beyond expected, fever, and crepitus → Necrotizing fasciitis (polymicrobial, Type I).",
+    "Middle-aged man with severe scrotal pain and swelling, high fever, and subcutaneous gas in the perineum → **Fournier's gangrene** (necrotizing fasciitis of the perineum)."
+  ],
+  "treatment": [
+    "**Immediate IV broad-spectrum antibiotics** covering Gram-positives, Gram-negatives, and anaerobes (for example, vancomycin + piperacillin/tazobactam + clindamycin). Clindamycin is added to inhibit toxin production (especially for GAS).",
+    "**Urgent surgical debridement** is the cornerstone: prompt, extensive removal of all necrotic fascia and tissue. Often multiple surgeries (\"washouts\") are required until the infection is controlled and all dead tissue is excised.",
+    "Intensive supportive care in an ICU setting: aggressive fluids and vasopressors for septic shock, pain control, and organ support as needed. Adjunctive therapies like **IVIG** (for streptococcal toxic shock) or **hyperbaric oxygen** may be considered in select cases, but **never** as a substitute for surgery."
+  ],
+  "red_flags": [
+    "A seemingly minor skin infection with **disproportionate pain** or **rapid deterioration** – don't ignore this; it strongly suggests a deep necrotizing infection.",
+    "Any **gas in the tissues** (crepitus on exam or air on imaging), rapidly spreading discoloration/bullae, or early **hypotension** in a soft-tissue infection indicates a severe necrotizing process – requires emergent surgical intervention."
+  ],
+  "algorithm": [
+    "Suspect necrotizing fasciitis → **Call for surgical evaluation immediately** (do not wait).",
+    "Simultaneously, start broad empiric antibiotics and obtain key labs (CBC, CMP, CRP, lactate) ± imaging (CT/MRI if it won't delay OR). Calculate LRINEC score, but don't rely on it solely.",
+    "If clinical suspicion is high or imaging suggests NF → proceed to **emergent surgical exploration**. Confirm diagnosis by visualizing necrotic fascia (or doing a bedside finger test probing through subcutaneous tissue). Perform aggressive debridement of necrotic tissue → send cultures → ICU for ongoing care (repeat debridements and tailor antibiotics based on culture results)."
+  ],
+  "cases": [
+    {
+      "stem": "A 40‑year‑old man with a small cut on his leg 2 days ago presents with severe leg pain out of proportion to exam. His leg has become very swollen with purple patches and blisters; crepitus is felt in the tissue. He is febrile and hypotensive.",
+      "clues": ["severe pain", "rapidly spreading infection", "purple skin patches", "crepitus (gas)", "hypotension"],
+      "answer": "Necrotizing fasciitis",
+      "teaching": "This is a classic presentation of necrotizing fasciitis (\"flesh‑eating\" soft tissue infection). Key features are extreme pain beyond what typical cellulitis causes, fast spread of infection, skin necrosis with gas production, and early sepsis. It's a surgical emergency – management is immediate broad-spectrum antibiotics and urgent surgical debridement."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Necrotising_fascitis_producing_gas_in_soft_tissues.jpg",
+      "alt": "CT scan showing necrotizing fasciitis with gas in the soft tissues (black areas in the tissue indicate gas)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Necrotising_fascitis_producing_gas_in_soft_tissues.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["gas-gangrene", "erysipelas"],
+  "prerequisites": ["cellulitis"],
+  "sources": [
+    { "title": "Necrotizing soft tissue infections (UpToDate, 2023)", "url": "https://www.uptodate.com/contents/necrotizing-soft-tissue-infections" },
+    { "title": "About Necrotizing Fasciitis – CDC (Aug 2025)", "url": "https://www.cdc.gov/group-a-strep/about/necrotizing-fasciitis.html" },
+    { "title": "Necrotizing Fasciitis – StatPearls (Feb 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430756/" },
+    { "title": "Necrotizing Fasciitis – Medscape (updated Sep 2024)", "url": "https://emedicine.medscape.com/article/2051157-overview" },
+    { "title": "IDSA Practice Guidelines: Skin & Soft Tissue Infections (Clin Infect Dis 2014)", "url": "https://academic.oup.com/cid/article/59/2/e10/2895845" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

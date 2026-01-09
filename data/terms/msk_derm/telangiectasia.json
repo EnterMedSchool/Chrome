@@ -1,0 +1,117 @@
+{
+  "id": "telangiectasia",
+  "names": ["Telangiectasia"],
+  "aliases": ["spider veins", "broken capillaries", "vascular ectasia", "angioectasia"],
+  "abbr": [],
+  "patterns": ["telangiectasia", "telangiectasias", "telangiectasis", "spider vein", "spider veins", "spider angioma", "vascular ectasia", "broken capillaries"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "rheum", "genetics"],
+  "definition": "Small, dilated blood vessels visible on the skin or mucous membranes, often appearing as fine red or purple lines (commonly called \"spider veins\").",
+  "why_it_matters": "Usually harmless and cosmetic, but can be key clues to underlying conditions. Telangiectases are one of the hallmark features in **CREST** syndrome and **hereditary hemorrhagic telangiectasia** (Osler-Weber-Rendu), and in some cases they can bleed (e.g., recurrent nosebleeds or GI bleeding in HHT).",
+  "how_youll_see_it": [
+    "On exam they look like thin, red superficial vessels that **blanch** with pressure (blood is within dilated vessels). Commonly seen on the **face** (cheeks, nose) in sun-damaged skin or **rosacea**, and on the **legs** as spider veins (often from venous backpressure).",
+    "Consider context: telangiectases on the lips, tongue, and fingertips with frequent nosebleeds suggests **HHT**; telangiectases on the face and hands with sclerodactyly and calcinosis suggests **CREST** (limited scleroderma).",
+    "Can also appear after chronic **radiation** exposure or long-term **topical steroid** use (due to skin thinning), and become more numerous with **age**."
+  ],
+  "problem_solving": [
+    "Differentiate telangiectasia from a bleeding rash: press on it (diascopy) – a telangiectasia will **blanch** (fade) when pressed, whereas a petechial rash (extravasated blood) remains red.",
+    "If you see multiple telangiectases, look for other signs of an associated disorder: e.g., check for **epistaxis**, AVMs, or family history (HHT); or for skin tightening, calcinosis, Raynaud phenomenon (CREST).",
+    "Management depends on cause: if isolated and bothersome, dermatologists can treat facial telangiectases with **laser therapy** or leg spider veins with **sclerotherapy**. If part of a syndrome, address the underlying disease (control rosacea, treat liver disease, etc., and in HHT manage bleeding lesions)."
+  ],
+  "differentials": [
+    { "id": "spider-angioma", "hint": "Central red arteriole with radiating telangiectatic vessels; blanches from center out. Seen in high estrogen states (pregnancy, cirrhosis)." },
+    { "id": "cherry-angioma", "hint": "Benign small red papules (capillary hemangiomas) common in adults; do not blanch fully when pressed." },
+    { "name": "Petechiae/Purpura", "hint": "Non-blanching red spots due to bleeding under skin, typically from thrombocytopenia or vasculitis (not dilated vessels)." }
+  ],
+  "tricks": [
+    "Mnemonic: **CREST** syndrome — *T* for **Telangiectasia** (along with Calcinosis, Raynaud, Esophageal dysmotility, Sclerodactyly).",
+    "Telangiectasias **blanch** under pressure (unlike cherry angiomas or purpura), which is a useful clue on exams."
+  ],
+  "exam_appearance": [
+    "A young adult with recurrent nosebleeds and iron deficiency anemia has multiple pinpoint red lesions on his lips and oral mucosa that blanch with pressure → **Hereditary hemorrhagic telangiectasia** (Osler-Weber-Rendu syndrome).",
+    "A middle-aged woman with long-standing **Raynaud** phenomenon and tight, shiny skin on her fingers develops numerous red spots on her face and hands → **CREST** syndrome (limited cutaneous systemic sclerosis)."
+  ],
+  "treatment": [
+    "For isolated cosmetic telangiectases: **laser therapy** (for facial lesions) or **sclerotherapy** injections (for leg veins) can remove them.",
+    "If associated with a disease, treat the underlying condition to reduce new lesions (e.g., manage rosacea or liver disease). In syndromes like HHT, local measures (laser/cautery) are used to control bleeding telangiectasias as needed."
+  ],
+  "red_flags": [
+    "Telangiectasia plus frequent **epistaxis** or GI bleeding → suspect **hereditary hemorrhagic telangiectasia** (risk of serious AVM bleeding).",
+    "Telangiectasia in a child with **ataxia** and recurrent infections → consider **ataxia-telangiectasia** (DNA repair disorder with immunodeficiency).",
+    "Multiple telangiectases with **sclerodactyly** and calcinosis → likely **CREST** syndrome (indicates systemic sclerosis, needs workup for organ involvement)."
+  ],
+  "algorithm": [
+    "See a red lesion → **blanch test** (diascopy) to confirm telangiectasia (will blanch) versus purpura (no blanch).",
+    "If telangiectasia confirmed, assess extent: isolated vs widespread. Check for any **syndromic features** (nosebleeds, organ AVMs, skin changes, etc.).",
+    "Single/few lesions with no other findings → likely idiopathic or sun-related; can manage cosmetically if desired.",
+    "Multiple lesions + systemic features → evaluate for underlying syndrome (genetic testing for HHT or AT, autoimmune workup for CREST).",
+    "Address underlying disease and provide specific treatments (e.g., laser ablation for bleeding nasal telangiectases in HHT, vascular laser for cosmetic improvement in scleroderma)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Hereditary_hemorrhagic_telangiectasia.jpg",
+      "alt": "Lips with multiple telangiectasias (hereditary hemorrhagic telangiectasia).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hereditary_hemorrhagic_telangiectasia.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 35‑year‑old man reports lifelong recurrent nosebleeds and recent iron deficiency anemia due to GI bleeding.",
+      "clues": [
+        "Multiple blanching red lesions on lips & oral mucosa",
+        "Family history of similar lesions and bleeds",
+        "Digital clubbing and AV shunt on lung imaging"
+      ],
+      "answer": "Hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu syndrome)",
+      "teaching": "Autosomal dominant disorder of abnormal blood vessels (telangiectasias and AV malformations) leading to frequent epistaxis and GI bleeds. Telangiectases on mucosal surfaces blanch and often bleed; management focuses on supportive care (iron, transfusions) and lesion-specific treatments (e.g., laser ablation)."
+    },
+    {
+      "stem": "A 52‑year‑old woman with limited cutaneous scleroderma presents with new red spots on her face and hands.",
+      "clues": [
+        "Long history of Raynaud phenomenon",
+        "Tight skin with calcium deposits in fingers",
+        "Blanchable mat-like telangiectasias on lips and palms"
+      ],
+      "answer": "CREST syndrome (limited systemic sclerosis)",
+      "teaching": "Limited scleroderma is characterized by Calcinosis, Raynaud's, Esophageal dysmotility, Sclerodactyly, and Telangiectasia. The telangiectases in CREST often appear as mat-like patches on the face and hands; their presence alongside sclerodactyly and Raynaud confirms the CREST variant of systemic sclerosis."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "hereditary-angioedema",
+    "atopic-dermatitis"
+  ],
+  "prerequisites": [
+    "skin-histology",
+    "vascular-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hereditary Hemorrhagic Telangiectasia (Locke, Chen & Gollamudi, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK578186/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of hereditary hemorrhagic telangiectasia (Osler-Weber-Rendu syndrome)",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-hereditary-hemorrhagic-telangiectasia-osler-weber-rendu-syndrome"
+    },
+    {
+      "title": "DermNet NZ: Telangiectasia (Oakley, 2014)",
+      "url": "https://dermnetnz.org/topics/telangiectasia"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Telangiectasia (Hoss, 2023)",
+      "url": "https://medlineplus.gov/ency/article/003284.htm"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "id": "wilson-disease",
+  "names": ["Wilson disease"],
+  "aliases": ["Wilson's disease", "hepatolenticular degeneration"],
+  "abbr": ["WD"],
+  "patterns": ["wilson", "wilson disease", "wilson's disease", "hepatolenticular degeneration"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "genetics", "neuro", "peds", "psych"],
+  "definition": "Rare autosomal recessive **copper metabolism** disorder (*ATP7B* mutation) causing toxic **copper accumulation** in tissues (especially liver & basal ganglia).",
+  "why_it_matters": "Often **fatal if untreated** (due to progressive cirrhosis and neurodegeneration). Early recognition allows **chelation** therapy to prevent irreversible hepatic and neurologic damage.",
+  "how_youll_see_it": [
+    "Hepatic presentation (most common): typically in adolescence with signs of chronic liver disease (**hepatitis** → **cirrhosis**). Can present as **acute liver failure** (fulminant hepatitis with coagulopathy), often accompanied by **Coombs-negative hemolytic anemia**.",
+    "Neuropsychiatric presentation: usually young adults with movement disorders (**tremor**, **dystonia**, **parkinsonian** features) and personality or mood changes (depression, irritability). **Kayser-Fleischer rings** (brown copper deposits at the corneal limbus) are often present on slit-lamp exam when neurologic symptoms occur."
+  ],
+  "problem_solving": [
+    "Maintain a high index of suspicion in any young patient with unexplained **liver disease** or atypical **movement/psychiatric** disorder — Wilson disease is treatable and often missed.",
+    "Screen with **ceruloplasmin** level (low <20 mg/dL in ~90% of cases, though can be normal in inflammation or rare cases). If low (or clinical suspicion remains high), proceed with confirmatory tests.",
+    "Confirm the diagnosis with a **24-hour urine copper** (elevated copper excretion) and slit-lamp exam for Kayser-Fleischer rings; if needed, perform liver biopsy for quantitative copper or **genetic testing** for *ATP7B* mutations.",
+    "Recognize that other conditions can also lower ceruloplasmin (e.g. protein-losing states, malnutrition) — interpret labs in context. In acute liver failure, a very low alkaline phosphatase with high AST and hemolysis strongly suggests Wilson disease.",
+    "Start **copper chelation** therapy as soon as Wilson disease is diagnosed; do not delay treatment, as ongoing copper accumulation leads to permanent organ damage. Also screen first-degree relatives for Wilson disease."
+  ],
+  "differentials": [
+    { "id": "autoimmune-hepatitis", "hint": "autoimmune liver disease (high IgG, +ANA); often young women, no neuro symptoms" },
+    { "id": "hemochromatosis", "hint": "hereditary iron overload; cirrhosis with diabetes & skin pigmentation; typically older onset" },
+    { "name": "Huntington disease", "hint": "autosomal dominant neurodegeneration (chorea, dementia) with family history; no liver involvement" }
+  ],
+  "tricks": [
+    "Mnemonic: **Copper is Hella BAD** – **C**opper accumulation (↓**ceruloplasmin**, cirrhosis, corneal deposits, carcinoma risk), **H**emolysis, **B**asal ganglia degeneration (movement disorder), **A**sterixis (from liver failure), **D**ementia/**dysarthria**.",
+    "**Penicillamine** can be remembered as a 'penny' (copper coin) – it's the first-line chelator to treat copper overload."
+  ],
+  "exam_appearance": [
+    "Teenager with **jaundice**, **asterixis**, and **acute liver failure** (↑AST/ALT into 1000s) plus Coombs–negative hemolytic anemia; slit-lamp shows corneal deposits (Kayser-Fleischer rings) → Wilson disease.",
+    "Young adult with a resting tremor, **dysarthria**, personality changes, and mildly ↑LFTs; slit-lamp exam reveals **Kayser-Fleischer rings** in the cornea → Wilson disease."
+  ],
+  "treatment": [
+    "Lifelong copper removal: **chelators** like D-penicillamine (first-line) or **trientine** to bind and excrete copper; plus high-dose **zinc** to block copper absorption and a low-copper diet (avoid organ meats, shellfish, nuts, chocolate).",
+    "**Liver transplant** for fulminant Wilson disease or end-stage cirrhosis (curative by restoring normal copper excretion)."
+  ],
+  "red_flags": [
+    "**Fulminant Wilson disease** – acute liver failure with rapid hemolysis in a young patient – is an emergency; without **transplant** it has a high fatality. Always consider Wilson disease in any unexplained acute hepatic failure in a teenager.",
+    "Non-adherence or stopping chelation can lead to re-accumulation of copper and sudden **neurologic deterioration**. Emphasize strict lifelong therapy to prevent irreversible damage."
+  ],
+  "algorithm": [
+    "Young patient with unexplained liver dysfunction or neuropsychiatric symptoms → **suspect Wilson disease**.",
+    "Initial tests: check **serum ceruloplasmin** (low in most cases) and liver enzymes; also examine eyes (slit lamp) for Kayser-Fleischer rings.",
+    "If ceruloplasmin is low (or high suspicion persists): confirm with **24h urinary copper** (elevated) and/or **liver biopsy** for copper; perform *ATP7B* **genetic testing** to solidify diagnosis and for family screening.",
+    "Begin **chelation therapy** (e.g. D-penicillamine) promptly upon diagnosis; add **zinc** to reduce dietary copper uptake. Avoid high-copper foods.",
+    "If patient develops **acute liver failure** or has decompensated cirrhosis despite therapy → refer for **liver transplantation** (definitive cure)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/KF_ring_1.jpg",
+      "alt": "Kayser-Fleischer ring in the eye of a Wilson disease patient (brown copper deposit at corneal edge).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:KF_ring_1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 16‑year‑old boy presents with jaundice, abdominal distension, and confusion. He has ascites and a flapping tremor at the wrist (asterixis).",
+      "clues": [
+        "AST and ALT > 1000 U/L (acute injury)",
+        "Prolonged PT (coagulopathy)",
+        "Coombs-negative hemolytic anemia",
+        "Ceruloplasmin level 5 mg/dL (very low)",
+        "Brown ring at corneal periphery on slit-lamp exam"
+      ],
+      "answer": "Wilson disease (fulminant hepatic failure)",
+      "teaching": "Excess copper accumulation can cause acute liver failure in adolescence (Wilson crisis) with hemolysis and encephalopathy. The very low ceruloplasmin and Kayser-Fleischer corneal rings confirm Wilson disease as the cause; urgent chelation or liver transplant is required to prevent death."
+    },
+    {
+      "stem": "A 23‑year‑old man is evaluated for tremors and behavioral changes. Over a year, he developed slurred speech, difficulty with handwriting, and depression.",
+      "clues": [
+        "Intention tremor and dysarthria on exam",
+        "Personality change (irritability, apathy)",
+        "Mildly elevated transaminases",
+        "Kayser-Fleischer rings visible by slit lamp"
+      ],
+      "answer": "Wilson disease (neuropsychiatric presentation)",
+      "teaching": "Wilson disease should be suspected in young adults with new movement disorders and psychiatric symptoms. Copper deposition in the basal ganglia leads to tremors and dysarthria, often alongside liver enzyme elevations. The presence of Kayser-Fleischer rings is classic. Treatment with copper chelators (e.g., penicillamine) can improve neurologic symptoms if started early."
+    }
+  ],
+  "see_also": [
+    "hemochromatosis",
+    "autoimmune-hepatitis",
+    "alpha-1-antitrypsin-deficiency"
+  ],
+  "prerequisites": [
+    "cirrhosis",
+    "basal-ganglia",
+    "autosomal-recessive-inheritance"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Wilson Disease (Immergluck et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441990/"
+    },
+    {
+      "title": "UpToDate: Wilson disease – clinical manifestations, diagnosis, and natural history",
+      "url": "https://www.uptodate.com/contents/wilson-disease-clinical-manifestations-diagnosis-and-natural-history"
+    },
+    {
+      "title": "NEJM: Current and Emerging Issues in Wilson's Disease (Roberts & Schilsky, 2023)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1903585"
+    },
+    {
+      "title": "Wilson Disease (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/183456-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

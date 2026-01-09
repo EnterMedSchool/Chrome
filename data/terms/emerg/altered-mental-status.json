@@ -1,0 +1,142 @@
+{
+  "id": "altered-mental-status",
+  "names": [
+    "Altered mental status"
+  ],
+  "aliases": [
+    "altered level of consciousness",
+    "acute confusional state",
+    "encephalopathy"
+  ],
+  "abbr": [
+    "AMS"
+  ],
+  "patterns": [
+    "altered mental status",
+    "AMS",
+    "altered level of consciousness",
+    "acute mental status change",
+    "acute confusion",
+    "encephalopathy"
+  ],
+  "primary_tag": "emerg",
+  "tags": [
+    "emerg",
+    "neuro",
+    "peds",
+    "toxicology",
+    "psych"
+  ],
+  "definition": "Any acute change in a patient's mental state – encompassing altered level of consciousness, cognition, or behavior (from mild confusion to deep coma).",
+  "why_it_matters": "AMS is a red flag presentation that often signals serious illness or injury. It's a common emergency scenario requiring rapid evaluation of life‑threatening causes (stroke, sepsis, etc.) and frequently appears on boards testing the approach to a confused or unresponsive patient.",
+  "how_youll_see_it": [
+    "Broad spectrum of presentation: AMS can range from subtle confusion or delirium (e.g. disorientation, inappropriate behavior, hallucinations) to severe obtundation or coma (no meaningful response to stimuli). Terms like lethargy, stupor, and obtunded describe intermediate depressed levels of consciousness.",
+    "Adults: May present with acute delirium (waxing/waning alertness and attention, often with agitation or hallucinations) or with depressed responsiveness (e.g. difficult to arouse, sluggish or absent reactions). An example is an elderly patient who becomes confused and agitated in the evening (\"sundowning\" in delirium). Look for clues like slurred speech, abnormal pupils or asymmetrical motor exam (which would suggest focal neurologic causes like stroke) vs. generalized slowed cognition (suggesting metabolic or toxic causes).",
+    "Children: Manifestations can be subtle – infants might present with irritability, poor feeding, or unusual sleepiness, whereas older kids may appear drowsy, apathetic, or \"not acting themselves.\" Children can't always communicate confusion, so caregivers might report the child is abnormally quiet, difficult to arouse, or intermittently agitated. In pediatric AMS, one may see alternating periods of irritability and lethargy (analogous to delirium) or simply a child who fails to recognize parents or interact normally."
+  ],
+  "problem_solving": [
+    "Start with ABCs: Ensure the patient's airway is open and protected (position or intubation if needed) and they are breathing adequately; support ventilation or give oxygen if hypoxic. Check circulation: pulse, blood pressure, establish IV access. If GCS ≤ 8, prepare to intubate for airway protection. Always perform a quick fingerstick glucose check early – hypoglycemia is a fast, treatable cause of AMS.",
+    "Empiric reversible treatments: In an undifferentiated coma, consider the classic \"coma cocktail\". Give IV naloxone (in case of opioid overdose) and IV thiamine (if alcoholism or malnutrition is suspected) before giving IV dextrose (glucose). Thiamine prior to glucose can prevent precipitating Wernicke encephalopathy in thiamine-deficient patients, and dextrose treats potential hypoglycemia. These interventions can rapidly reverse common causes (opioids, hypoglycemia) if present, while you continue the workup.",
+    "History & collateral info: Gather any history available from EMS, family, or medical records. Key questions: Was there trauma (accident, fall)? Any preceding seizure activity? History of diabetes (risk for hypo/hyperglycemia)? Known substance use or medications (opiates, insulin, psychiatric meds, etc.)? Concurrent symptoms like headache, fever, vomiting, or chest pain? A patient with liver disease or kidney failure may have metabolic encephalopathy; a patient on multiple meds may have drug interactions causing AMS. Don't forget to ask about possible toxins or environmental exposures (e.g. CO exposure, illicit drugs).",
+    "Physical exam (head-to-toe): Do a thorough exam to find clues. Neuro exam is critical: check pupillary size/reactivity (pinpoint pupils suggest opioids; asymmetry may indicate stroke or herniation), assess reflexes and motor responses (posturing can signal severe brain injury, a flaccid patient with no response suggests deep coma or overdose). Look for meningitis signs (neck stiffness, rash), signs of head trauma (bruising, swelling, Battle's sign or raccoon eyes), or any focal deficits (e.g. unilateral weakness) that point to a structural CNS lesion. Inspect skin for track marks (IV drug use), jaundice (liver failure), or petechiae (sepsis). Listen to heart/lungs (arrhythmia or pneumonia can cause hypoxia and confusion). Use the AVPU or GCS scale to objectively note responsiveness (Alert, responds to Voice, to Pain, or Unresponsive). This exam helps differentiate diffuse encephalopathy (usually no focal deficits, more likely metabolic, toxic, or infectious causes) from focal neurologic problems (stroke, hemorrhage).",
+    "Diagnostic tests: Because the differential is broad, labs and imaging are often done in parallel with exam. Common initial labs: CBC (infection, anemia), electrolytes (especially Na, Ca – derangements can cause AMS), renal/liver function (uremia or hepatic encephalopathy), glucose (if not already done), arterial blood gas (for CO2 retention or acidosis), tox screen (drugs of abuse, medication levels), and possibly thyroid/adrenal labs if endocrine crisis is possible. If infection is suspected, get cultures (blood, urine) and a lumbar puncture for CSF analysis after imaging if needed. Head CT scan (non-contrast) is often one of the first imaging studies – indicated if any trauma, focal neurologic signs, or to rule out hemorrhage before doing an LP. In children, also consider head CT for non-accidental trauma. If CT is negative and no cause found, an EEG might be done to evaluate for non-convulsive seizures (sometimes patients are in subtle status epilepticus). Tailor further tests based on leads from history/exam (e.g. cortisol level for possible Addisonian crisis, ammonia level for unexplained encephalopathy, etc.).",
+    "Objective scoring tool: The Glasgow Coma Scale (GCS) is commonly used to quantify consciousness. It assesses Eye opening (E), Verbal response (V), and Motor response (M). Scores range from 3 (deep coma) to 15 (fully alert). A GCS ≤ 8 suggests the need for airway protection/intubation.",
+    "GCS Score Table:\n| Component | Score | Description |\n|-----------|-------|-------------|\n| Eye Opening (E) | 4 | Spontaneous |\n| | 3 | To voice |\n| | 2 | To pain |\n| | 1 | None |\n| Verbal Response (V) | 5 | Oriented |\n| | 4 | Confused |\n| | 3 | Inappropriate words |\n| | 2 | Incomprehensible sounds |\n| | 1 | None |\n| Motor Response (M) | 6 | Follows commands |\n| | 5 | Localizes pain |\n| | 4 | Withdraws from pain |\n| | 3 | Flexion (decorticate) |\n| | 2 | Extension (decerebrate) |\n| | 1 | None |\nNote: Total GCS = E + V + M (range 3–15). A score ≤ 8 indicates coma and often warrants intubation."
+  ],
+  "differentials": [
+    {
+      "name": "Dementia",
+      "hint": "Chronic cognitive decline (baseline impairment rather than acute change); patient is usually alert & interactive (not fluctuating) unless delirium is superimposed."
+    },
+    {
+      "name": "Psychiatric disorder",
+      "hint": "Primary psychiatric conditions (eg, acute psychosis or catatonia) can mimic AMS. Psychotic patients may have hallucinations or odd behavior but generally maintain orientation and follow commands; exam and vital signs are usually normal."
+    },
+    {
+      "name": "Locked-in syndrome",
+      "hint": "Patient is awake and aware but paralyzed (often due to a brainstem stroke like pontine infarct). They may only be able to move eyes or blink. Can be mistaken for coma, but actually consciousness is intact."
+    }
+  ],
+  "tricks": [
+    "Mnemonic – AEIOU-TIPS: A handy acronym for AMS causes: A = Alcohol (and other drugs or Acidosis); E = Epilepsy (seizures), Electrolytes, Endocrine (e.g. glucose); I = Insulin (hypoglycemia); O = Opiates (or Oxygen lack, i.e. hypoxia); U = Uremia (renal failure); T = Trauma & Temperature (hyper/hypothermia); I = Infection (sepsis, meningitis, encephalitis); P = Psychiatric or Poison (toxins, overdoses); S = Stroke, Shock, Space-occupying lesions. This helps ensure you consider all major categories!",
+    "Remember: \"GCS less than 8, intubate.\" If a patient is deeply obtunded or comatose (GCS ≤8) and cannot protect their airway, secure it with endotracheal intubation. Protecting oxygenation and ventilation is the first priority in AMS.",
+    "Never forget to check a glucose! On exams and in real life, a fingerstick blood glucose is one of the first and most critical tests in any AMS scenario – hypoglycemia can present as confusion or coma and is quickly reversible. (Give IV dextrose promptly if low.)"
+  ],
+  "exam_appearance": [
+    "Elderly post-operative or nursing home patient who becomes acutely confused, agitated, and disoriented in the evenings → suggests delirium (acute confusional state, often due to an underlying cause like infection or medication). The exam shows no focal deficits; workup often reveals something like a UTI or drug effect triggering the delirium.",
+    "Infant with fever, irritability, a bulging fontanelle, and lethargy → think meningitis causing increased intracranial pressure and AMS. In young children, meningitis or encephalitis can present with nonspecific AMS (poor feeding, stupor) plus signs like a bulging soft spot or neck stiffness. This is an emergency requiring prompt antibiotics.",
+    "Homeless or malnourished alcoholic found confused and ataxic, with nystagmus or ophthalmoplegia on exam (eye movement abnormalities) → classic Wernicke encephalopathy. This is thiamine (vitamin B₁) deficiency leading to acute delirium/AMS; treat immediately with IV thiamine."
+  ],
+  "treatment": [
+    "Initial stabilization: Always prioritize ABCs. Ensure the airway is protected (intubate if needed for coma or GCS ≤ 8), support breathing with supplemental O₂ or ventilation if hypoxic or hypoventilating, and support circulation (IV fluids for hypotension, consider pressors if in shock). Correct any immediate life-threatening physiologic derangements (e.g. arrhythmias).",
+    "Empiric therapy for reversible causes: Administer IV thiamine (100 mg) before glucose in any patient at risk of malnutrition or alcoholism, then give IV dextrose if hypoglycemia is confirmed or highly suspected. Give naloxone empirically if opioid overdose is a possibility (e.g. unexplained respiratory depression or pinpoint pupils). These interventions (the \"coma cocktail\") can rapidly improve mental status if those causes are present, and won't significantly harm if they're not.",
+    "Targeted treatment: Once workup identifies a cause, treat it. Examples: for infection (like meningitis or sepsis), start appropriate antibiotics (and antivirals for encephalitis) along with fluids and other support. For opioid overdose, ensure airway and give naloxone titrated to improve breathing. For benzodiazepine overdose, consider flumazenil (though use with caution). For status epilepticus or prolonged seizures, give benzodiazepines (e.g. lorazepam) and anti-seizure meds. Hepatic encephalopathy? Give lactulose to reduce ammonia. Hypertensive encephalopathy? Carefully lower blood pressure with IV meds. Stroke or intracerebral hemorrhage? Consult neurology/neurosurgery – implement stroke protocol or surgical intervention as needed. Always provide supportive care (prevent aspiration, manage agitation with safe sedation like haloperidol if necessary, avoid restraints if possible) while addressing the root cause."
+  ],
+  "red_flags": [
+    "GCS ≤ 8 or absent airway reflexes – indicates inability to protect airway. This is an emergency: intubate and ventilate the patient to prevent aspiration and ensure oxygenation.",
+    "Signs of CNS infection – fever, nuchal rigidity (stiff neck), altered mental status, especially with a petechial rash (meningococcemia) or immunosuppression, suggest meningitis/encephalitis. Do not delay: initiate empiric antibiotics (after obtaining cultures) and perform urgent evaluation (LP) as soon as safely possible.",
+    "Unequal pupils (one dilated, non-reactive) or Cushing's triad (hypertension, bradycardia, irregular respirations) in an altered patient – these suggest increased intracranial pressure and impending herniation. This is a neurosurgical emergency: elevate head of bed, consider brief hyperventilation and IV mannitol, and get neurosurgery/critical care involved immediately."
+  ],
+  "algorithm": [
+    "Recognize AMS & stabilize: If a patient is acutely altered, immediately assess and stabilize Airway, Breathing, Circulation. Call for help if needed. If unconscious, check fingerstick glucose right away and treat hypoglycemia if present. Simultaneously, assess responsiveness (GCS/AVPU) and look for any signs of trauma.",
+    "Empiric first steps: No obvious cause? Administer the empiric reversals: naloxone for possible opioids, thiamine IV (if malnourished) followed by dextrose IV for possible hypoglycemia. Treat what you can quickly while continuing evaluation. Also, administer oxygen and secure IV access, place the patient on monitors.",
+    "Focused evaluation: Obtain history (from EMS/family) and perform a head-to-toe exam with emphasis on neurologic status. Determine if the picture fits delirium (diffuse process) or something focal (e.g., stroke). Look for trauma signs, infection clues (fever, stiff neck), or toxidrome signs (pupils, odors). If trauma or any suspicion of cervical injury, immobilize the c-spine. Identify any immediate red flags (e.g. unilateral weakness, very low blood pressure, etc.) that need prompt addressing.",
+    "Diagnostics: Order a broad initial panel of tests while evaluating. Typical orders: CBC, metabolic panel (electrolytes, renal, liver tests), arterial blood gas (especially if ventilation issue or to detect acidosis), toxicology screen (including medication levels if relevant), EKG (look for arrhythmias or ischemia as causes). If head CT is indicated (trauma, focal neuro deficit, or any concern for stroke/bleed), obtain it ASAP – do this before LP in suspected CNS infection or hemorrhage. If CT is clear and infection is a concern, proceed with lumbar puncture for CSF. Consider specialized tests as needed (e.g. cortisol, ammonia, carboxyhemoglobin). If the patient might be seizing (or postictal) without obvious convulsions, get an EEG to rule out non-convulsive status epilepticus.",
+    "Definitive management & disposition: Based on findings, treat the underlying cause. Examples: start broad-spectrum antibiotics (after cultures) for sepsis/meningitis, administer antidotes for known toxin ingestion, perform urgent dialysis for severe uremia or toxin overdose if indicated, give IV fluids and pressors for shock, initiate thrombolysis or neurosurgery consult for stroke/bleed. Continue supportive care (protect airway, manage pain or agitation safely). Admit the patient appropriately (ICU for those with significant AMS or unstable conditions). Continually reassess mental status – improvement can confirm a suspected reversible cause, whereas deterioration means you need to check for complications (like increasing ICP or ongoing seizures) or re-evaluate for causes you might have missed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/TucetPricin1.png",
+      "alt": "Infographic illustrating twelve possible causes of an altered mental state, grouped into four categories (structural brain lesions, metabolic derangements, toxicologic causes, and others).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:TucetPricin1.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 82‑year‑old woman with baseline dementia is brought to the ED for acute altered mental status.",
+      "clues": [
+        "Notable increase in confusion from her baseline; she is lethargic and only intermittently responsive to voice",
+        "Low-grade fever, but no obvious pain or focal deficits on exam",
+        "Family reports she was fine yesterday, no head trauma or seizures noted",
+        "Urinalysis in the ED is positive for nitrites and leukocyte esterase"
+      ],
+      "answer": "Delirium due to urinary tract infection (acute AMS secondary to infection)",
+      "teaching": "Older patients often develop delirium (acute confusion) from infections like UTI, even without localized symptoms. This patient's AMS is from a UTI (confirmed by urine tests). In any AMS case, find and treat the underlying cause – here, starting antibiotics and IV fluids for the UTI will resolve the delirium. Always remember in elderly patients: infections, medications, or metabolic issues are common triggers for sudden mental status changes."
+    }
+  ],
+  "see_also": [
+    "dementia",
+    "stroke",
+    "seizures",
+    "shock"
+  ],
+  "prerequisites": [
+    "brain-anatomy",
+    "glasgow-coma-scale"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Change in Mental Status (Patti & Gupta, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441973/"
+    },
+    {
+      "title": "UpToDate: Evaluation of abnormal behavior in the emergency department (2024)",
+      "url": "https://www.uptodate.com/contents/evaluation-of-abnormal-behavior-in-the-emergency-department"
+    },
+    {
+      "title": "UpToDate: Acute toxic-metabolic encephalopathy in children (2025)",
+      "url": "https://www.uptodate.com/contents/acute-toxic-metabolic-encephalopathy-in-children"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

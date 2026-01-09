@@ -1,0 +1,146 @@
+{
+  "id": "clostridium-difficile-infection",
+  "names": [
+    "Clostridium difficile infection"
+  ],
+  "aliases": [
+    "Clostridioides difficile infection",
+    "C. diff infection",
+    "C. difficile colitis",
+    "antibiotic-associated colitis",
+    "pseudomembranous colitis"
+  ],
+  "abbr": [
+    "CDI",
+    "C. diff"
+  ],
+  "patterns": [
+    "clostridium difficile",
+    "clostridioides difficile",
+    "c diff",
+    "c. diff",
+    "cdiff",
+    "clostridium difficile infection",
+    "clostridioides difficile infection",
+    "pseudomembranous colitis"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "infectious_dz",
+    "micro_bacteria",
+    "gi",
+    "pharmacology"
+  ],
+  "definition": "An **antibiotic-associated** infection of the colon by the spore-forming bacterium **Clostridioides difficile** (formerly *Clostridium*) that releases toxins causing colonic inflammation and **pseudomembranous colitis** (diarrhea with pseudomembranes).",
+  "why_it_matters": "Common cause of healthcare-associated diarrhea and can be life-threatening (e.g., toxic megacolon, sepsis). U.S. burden ~500k cases/year with ~15k deaths. Frequent culprit in outbreaks linked to antibiotic overuse, making antibiotic stewardship and infection control critical. Often tested on exams due to its classic presentation of post-antibiotic **colitis** with pseudomembranes.",
+  "how_youll_see_it": [
+    "Usually occurs after recent **antibiotic** use (classically clindamycin, fluoroquinolones, cephalosporins) or prolonged healthcare exposure (hospitalization or nursing home stay). Other risk factors include older age (>65), **proton pump inhibitors** use, serious underlying illness (e.g., ICU patients), and immunosuppression.",
+    "**Watery diarrhea** with a distinct foul odor is the hallmark (ranging from ≥3 loose stools/day to severe diarrhea 10–15×/day) accompanied by lower abdominal cramping and sometimes fever. Stool is usually not grossly bloody in C. diff (blood suggests very severe colitis or alternative diagnosis). Severe cases may cause dehydration, ileus (↓ or no diarrhea due to bowel paralysis), or even shock.",
+    "Severe/fulminant infection leads to **pseudomembranous colitis** – colonoscopy would show yellow-white pseudomembranes (plaque-like fibrinous exudates). Patients often have high **leukocytosis** (WBC >15,000; can exceed 30k) and rising creatinine from acute kidney injury. Fulminant CDI can progress to toxic **megacolon** (distended colon with loss of motility), perforation, and peritonitis if not promptly treated."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with stool tests for C. diff toxin or genes. Most labs use a multistep algorithm (GDH antigen + toxin immunoassay, with PCR for toxin genes if results are discordant) for accuracy. Only test unexplained new-onset diarrhea – avoid testing formed stool or asymptomatic patients (common colonizer).",
+    "If C. diff is suspected in a patient (especially if severe), initiate empiric therapy without delay. **Isolate** the patient under contact precautions (gown and gloves) as soon as CDI is considered. **Do NOT give anti-diarrheal** medications (risk of toxin retention and toxic megacolon). Remove any inciting antibiotic if still ongoing, and provide supportive fluids/electrolytes.",
+    "Assess severity: check WBC and creatinine. **Severe** CDI is defined by WBC ≥15k or Cr ≥1.5× baseline, whereas **fulminant** CDI includes hypotension, shock, ileus, or megacolon. Obtain abdominal imaging (X-ray or CT) if ileus or toxic megacolon is suspected to evaluate for colonic dilatation.",
+    "Once confirmed, treat according to severity (see **treatment**). Monitor closely for any signs of deterioration (increasing abdominal distension, mental status changes). **Avoid repeat stool tests** to \"test for cure\" – C. diff toxin may remain positive even after successful treatment, so rely on clinical improvement."
+  ],
+  "differentials": [
+    {
+      "name": "Other infectious colitis",
+      "hint": "Non–C. diff bacterial diarrhea (e.g., Salmonella, Campylobacter) often from food exposure. Typically causes fever and fecal blood/WBC, but not linked to recent antibiotics."
+    },
+    {
+      "name": "Inflammatory bowel disease flare",
+      "hint": "Ulcerative colitis or Crohn flare can mimic C. diff (diarrhea, abdominal pain, maybe fever). Look for known IBD history, chronic symptoms, and fecal blood; note IBD patients can also get C. diff."
+    },
+    {
+      "name": "Ischemic colitis",
+      "hint": "Intestinal ischemia in older or vasculopathic patients causes sudden pain with bloody diarrhea. Unlike C. diff, often precipitated by hypotension episodes or thrombotic risk factors; imaging shows segmental colitis in a vascular distribution."
+    }
+  ],
+  "tricks": [
+    "Classic association: **Clindamycin** is famously linked to C. diff in exams (though any broad-spectrum antibiotic can precipitate it).",
+    "**Hand sanitizer won't kill C. diff** – spores require soap-and-water handwashing and bleach-based disinfectants for environmental cleaning.",
+    "C. diff stool often has a **characteristic odor** (described as a sharp, sickly sweet smell) that can hint at the diagnosis."
+  ],
+  "exam_appearance": [
+    "Hospitalized 68‑year‑old on clindamycin for pneumonia develops foul-smelling watery diarrhea (~10+ stools/day) with abdominal cramps and low-grade fever → C. diff colitis (antibiotic-associated diarrhea).",
+    "Nursing home patient on prolonged antibiotics becomes lethargic with a distended abdomen and no bowel movements; WBC 30k, hypotension, and fever are noted → Fulminant C. diff infection with **toxic megacolon**."
+  ],
+  "treatment": [
+    "**Initial infection (non-severe or severe):** First-line therapy is oral **vancomycin** (125 mg QID) or **fidaxomicin** (200 mg BID) for 10 days. These are superior to metronidazole (which is now reserved for mild cases if vanco/fidaxo are unavailable).",
+    "**Fulminant** (hypotension, ileus, or megacolon): Use high-dose oral vancomycin (e.g., 500 mg QID), plus IV **metronidazole** 500 mg q8h. If ileus prevents oral intake, give vancomycin via rectal enema. Surgical consultation for urgent subtotal colectomy is indicated if there's no improvement or if toxic megacolon is present.",
+    "**Recurrences:** For a first recurrence, avoid repeating the same regimen – options include fidaxomicin (if not used initially) or a tapered and pulsed vancomycin course. For >1 recurrence, consider **fecal microbiota transplantation (FMT)** after antibiotic therapy. Also, bezlotoxumab (monoclonal antibody against C. diff toxin B) can be given during treatment to reduce future recurrences."
+  ],
+  "red_flags": [
+    "Signs of impending **toxic megacolon** – e.g., severe abdominal distension, absent bowel sounds (ileus), peritoneal signs, or WBC >30k – require emergent surgical evaluation (this is life-threatening).",
+    "Never use **anti-motility** drugs (loperamide, etc.) in C. diff colitis, as they can precipitate toxin retention and fulminant colitis."
+  ],
+  "algorithm": [
+    "Patient on antibiotics or in healthcare setting with new-onset diarrhea → **Suspect C. diff** infection.",
+    "Place patient on contact isolation and send stool for C. diff testing (toxin EIA and/or PCR); if severe symptoms, start empirical treatment pending results.",
+    "If positive, determine severity: **non-severe** (WBC ≤15k and Cr <1.5) vs **severe** (WBC >15k or Cr ≥1.5) vs **fulminant** (hypotension, shock, ileus, or megacolon).",
+    "Begin appropriate therapy: oral vancomycin or fidaxomicin for 10 days (add IV metronidazole + consider surgery for fulminant cases).",
+    "Ensure infection control measures: continue isolation, strict hand hygiene (soap and water), and environmental disinfection with bleach. For recurrent cases, use alternative therapy (fidaxomicin, vancomycin taper) or FMT as needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Pseudomembranous_colitis.JPG",
+      "alt": "Gross colon specimen showing pseudomembranous colitis (yellow inflammatory plaques on the colonic mucosa).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Pseudomembranous_colitis.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old hospitalized woman treated with clindamycin for pneumonia develops new-onset frequent watery diarrhea and abdominal cramps on day 5 of hospitalization.",
+      "clues": [
+        "Recent clindamycin use",
+        "Watery diarrhea ~10×/day",
+        "Lower abdominal pain and cramping",
+        "Low-grade fever"
+      ],
+      "answer": "Clostridioides difficile infection (C. diff colitis)",
+      "teaching": "Antibiotic use (especially clindamycin) disrupted the normal gut flora, allowing C. diff to overgrow and produce toxins that damage the colon (pseudomembranous colitis). The appropriate management is to start oral vancomycin (or fidaxomicin) and implement strict infection control measures to prevent spread."
+    },
+    {
+      "stem": "A 75‑year‑old man in a nursing home, on broad-spectrum antibiotics for a urinary infection, becomes lethargic and develops a distended abdomen.",
+      "clues": [
+        "No bowel movements (possible ileus)",
+        "WBC 30,000 (marked leukocytosis)",
+        "Diffuse abdominal tenderness and distension",
+        "Recent antibiotic use"
+      ],
+      "answer": "Fulminant C. difficile colitis (toxic megacolon)",
+      "teaching": "Severe C. diff infection can lead to toxic megacolon – a life-threatening colonic dilation with loss of motility, sepsis, and shock. This requires urgent treatment with high-dose oral vancomycin (plus IV metronidazole) and usually surgical evaluation for potential colectomy."
+    }
+  ],
+  "see_also": [
+    "inflammatory-bowel-disease",
+    "diarrhoea"
+  ],
+  "sources": [
+    {
+      "title": "IDSA/SHEA Clinical Practice Guidelines for C. difficile (McDonald et al., 2018)",
+      "url": "https://www.idsociety.org/practice-guideline/clostridium-difficile/"
+    },
+    {
+      "title": "UpToDate: Clostridioides difficile infection in adults (Lamont et al.)",
+      "url": "https://www.uptodate.com/contents/clostridioides-difficile-infection-in-adults"
+    },
+    {
+      "title": "CDC: Clostridioides difficile – Information for Clinicians (2024)",
+      "url": "https://www.cdc.gov/c-diff/hcp/clinical-overview/index.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

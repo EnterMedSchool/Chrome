@@ -1,0 +1,118 @@
+{
+  "id": "otosclerosis",
+  "names": ["Otosclerosis"],
+  "aliases": ["otospongiosis", "stapedial fixation"],
+  "abbr": [],
+  "patterns": ["otosclerosis", "otospongiosis", "stapes fixation", "stapedial ankylosis"],
+  "primary_tag": "surgery",
+  "tags": ["pathology", "surgery"],
+  "definition": "Abnormal bony remodeling of the otic capsule (especially around the stapes footplate) leading to fixation of the stapes and conductive hearing loss.",
+  "why_it_matters": "Otosclerosis is a common cause of hearing loss in young adults (up to 1% prevalence in White populations) and is often treatable. It explains many cases of unexplained conductive hearing loss with normal tympanic membranes and is frequently tested on exams for its classic presentation and surgical management.",
+  "how_youll_see_it": [
+    "Typically presents in early to mid-adulthood (20–40s) with gradually progressive hearing loss. Often bilateral (∼70%) but may start in one ear. Tinnitus is common; vertigo is mild or absent in most cases.",
+    "Patients may paradoxically report better hearing in noisy environments (paracusis of Willisii), because others speak louder over background noise. They often speak softly themselves (conductive loss makes their own voice sound loud).",
+    "Otoscopy is usually normal. In about 10%, a faint reddish hue (Schwartze sign, a flush over the promontory) is visible behind the intact tympanic membrane, reflecting active vascular bone turnover. No middle-ear effusion or perforation is seen."
+  ],
+  "problem_solving": [
+    "Suspect otosclerosis in an adult with conductive hearing loss and a normal ear exam. Perform tuning fork tests: Weber lateralizes to the affected ear; Rinne shows bone > air conduction (negative) if the air–bone gap > 25–30 dB.",
+    "Obtain audiometry: shows a low-frequency air–bone gap (air conduction reduced, bone conduction near normal). Classically, a Carhart notch appears – an artefactual dip in bone conduction (~5–15 dB) at 2 kHz due to stapes fixation. In advanced cases, high frequencies may also be affected and a mixed (conductive + sensorineural) loss can occur.",
+    "Tympanometry is usually Type A (normal peak pressure); it may show low compliance (\"As\" subtype) if stapes is completely fixed. Acoustic stapedial reflexes are often absent once fixation is significant.",
+    "A high-resolution CT of the temporal bones can confirm otosclerosis and guide surgery. It may show lucent focus anterior to the oval window (fenestral otosclerosis) or a \"halo\" of demineralization encircling the cochlea (if cochlear involvement). CT is typically done for atypical cases or pre-surgical planning."
+  ],
+  "differentials": [
+    { "name": "Otitis media with effusion", "hint": "middle-ear fluid causing conductive loss; usually see an effusion or bubbles behind the TM, often fluctuating hearing" },
+    { "name": "Tympanosclerosis", "hint": "history of chronic otitis media; scarred, hyalinized TM with calcified plaques; conductive loss from ossicular fixation" },
+    { "name": "Ossicular chain discontinuity", "hint": "due to trauma or chronic infection; conductive loss with hypermobile TM on exam (flaccid); may show large air–bone gap without Carhart notch" }
+  ],
+  "tricks": [
+    "Paracusis of Willis: patients with conductive loss (like otosclerosis) may hear speech more clearly in noisy environments – a classic clue on exams.",
+    "ENT aphorism: \"The doctor sees nothing, and the patient hears nothing.\" This highlights that otosclerosis presents with a normal-looking ear and significant hearing loss.",
+    "Association: Osteogenesis imperfecta plus otosclerosis = van der Hoeve syndrome. These patients have the triad of blue sclerae, fragile bones, and hearing loss due to otosclerotic changes."
+  ],
+  "exam_appearance": [
+    "A 30‑year‑old woman with slowly progressive bilateral hearing loss finds she can follow conversations in a noisy room better than in a quiet one. Exam shows normal ear canals and intact TMs with no fluid. Weber lateralizes to the left, Rinne is negative bilaterally → think otosclerosis (conductive loss with normal otoscopy).",
+    "Audiometry in otosclerosis: a characteristic air–bone gap (conductive loss) across frequencies, often with a dip around 2 kHz in the bone conduction curve (Carhart notch). An exam question may show an audiogram with this finding, indicating stapes fixation.",
+    "A patient with osteogenesis imperfecta (blue sclerae, multiple fractures) develops gradual hearing loss. The most likely cause is otosclerosis involving the ossicles (the two conditions together are known as van der Hoeve syndrome)."
+  ],
+  "treatment": [
+    "If hearing loss is mild, hearing aids (amplification) can compensate and may be used while disease is in early stages or if surgery is not desired.",
+    "Definitive treatment is stapes surgery (stapedectomy or stapedotomy). In stapedectomy, part or all of the immobilized stapes footplate is removed; in stapedotomy, a small hole is created in the footplate. In both, a prosthetic piston is inserted between the incus and oval window to bypass the fixation. This often restores hearing, with ~90% success in closing the air–bone gap.",
+    "Surgery is typically done on the worse ear first (one ear at a time) to avoid the unlikely risk of bilateral sensorineural loss if complications occur. Patients with far-advanced otosclerosis (very poor hearing) might undergo stapes surgery to enable effective use of hearing aids, or go straight to cochlear implantation if there is extensive cochlear involvement.",
+    "No cure exists to stop the otosclerotic process. Sodium fluoride or bisphosphonates have been used off-label to try to slow progression of hearing loss (mixed evidence). These medical treatments may be considered in early cochlear involvement or for patients who can't undergo surgery."
+  ],
+  "red_flags": [
+    "Any sensorineural deterioration in what was purely conductive loss (e.g. rising bone thresholds, reduced speech discrimination) is a sign of cochlear otosclerosis (otospongiosis spread to the inner ear). Such patients may eventually require a cochlear implant rather than (or in addition to) stapes surgery if hearing becomes profoundly impaired.",
+    "After stapes surgery, sudden vertigo or sensorineural hearing loss in the operated ear is alarming – it could indicate a post-op complication such as prosthesis displacement, a perilymphatic fistula, or reparative granuloma. This warrants urgent evaluation."
+  ],
+  "algorithm": [
+    "Unexplained conductive hearing loss (especially in young adult with normal TM) → suspect otosclerosis.",
+    "Confirm conductive loss with 512 Hz tuning fork tests (Weber lateralizes to affected ear; Rinne bone > air). Obtain audiometry to quantify the air–bone gap and look for Carhart notch.",
+    "Exclude other causes: check for middle ear fluid, chronic infections, or history of trauma. Tympanometry should be normal (or low compliance) in otosclerosis, not flat (which would suggest effusion).",
+    "If diagnosis is uncertain or surgery is planned, get CT temporal bone to visualize stapes footplate thickening or lucent foci in the otic capsule (confirming otosclerosis and guiding surgical approach).",
+    "Treat according to severity: for moderate or worse hearing loss (air–bone gap ≥ ~30 dB) refer for stapedectomy/stapedotomy; otherwise consider hearing aid trial. In advanced bilateral disease with cochlear involvement, plan for cochlear implant evaluation if stapes surgery won't yield sufficient improvement."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Stapesplastik_im_HWS-Roentgenbild_87W_-CR-001-_Annotation.jpg",
+      "alt": "Skull X-ray after stapes surgery, showing bilateral stapes prostheses (circled in red) in place at the oval windows.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Stapesplastik_im_HWS-Roentgenbild_87W_-_CR_-_001_-_Annotation.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old woman has gradual hearing loss in both ears, first noticed in her 20s. She often speaks softly and notes she can understand people better in a noisy restaurant than in a quiet office. Her father had similar hearing issues in middle age. Otoscopic exam is normal. Rinne test is negative bilaterally, and Weber localizes to the right ear.",
+      "clues": [
+        "Young adult with bilateral conductive hearing loss",
+        "Paracusis of Willis (hears better in noise)",
+        "Normal tympanic membranes",
+        "Family history of hearing loss",
+        "Rinne BC > AC; Weber to right"
+      ],
+      "answer": "Otosclerosis (bilateral)",
+      "teaching": "Otosclerosis caused stapes fixation, producing conductive hearing loss with a normal-appearing ear. The improved hearing in loud settings and family history are clues. Definitive treatment is stapes surgery to replace the immobilized stapes with a prosthesis."
+    },
+    {
+      "stem": "A 25‑year‑old man with osteogenesis imperfecta (OI) reports worsening hearing. He has a history of multiple fractures and blue sclerae on exam.",
+      "clues": [
+        "Blue sclerae, frequent fractures (OI)",
+        "Conductive hearing loss on exam and audiometry",
+        "Normal ear drums (no scarring, no fluid)"
+      ],
+      "answer": "Otosclerosis (associated with OI – van der Hoeve syndrome)",
+      "teaching": "Otosclerosis is often associated with OI (van der Hoeve syndrome). Abnormal bone remodeling in OI can involve the otic capsule, causing hearing loss. Patients with OI and hearing loss should be evaluated for otosclerosis; stapedectomy can significantly improve hearing."
+    }
+  ],
+  "see_also": [
+    "menieres-disease",
+    "acoustic-neuroma"
+  ],
+  "prerequisites": [
+    "middle-ear",
+    "auditory-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Otosclerosis (Hohman & Khan, updated 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560671/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations, diagnosis, and management of otosclerosis",
+      "url": "https://www.uptodate.com/contents/otosclerosis"
+    },
+    {
+      "title": "Medscape (eMedicine): Otosclerosis – Practice Essentials (Nair & Mick, 2023)",
+      "url": "https://emedicine.medscape.com/article/859760-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "major-depressive-disorder",
+  "names": ["Major depressive disorder"],
+  "aliases": ["clinical depression", "unipolar depression", "major depression"],
+  "abbr": ["MDD"],
+  "patterns": ["mdd", "major depressive disorder", "major depression", "clinical depression", "unipolar depression", "depression"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "psych", "pharmacology"],
+  "definition": "A common mood disorder characterized by at least two weeks of pervasive depressed mood and/or loss of interest (anhedonia), accompanied by several other symptoms (e.g., changes in sleep, appetite, energy, or concentration) that cause significant distress or impairment.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Depression-2912424_1280.jpg",
+      "alt": "Black-and-white image of a person sitting and covering their face with their hands, conveying sadness and distress.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Depression-2912424_1280.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Extremely prevalent (lifetime risk around 10–15%) and a leading cause of disability worldwide. Untreated MDD causes profound personal and societal burden and can be life-threatening due to risk of suicide.",
+  "how_youll_see_it": [
+    "Persistent low mood or anhedonia (loss of interest/pleasure) lasting at least 2 weeks, accompanied by symptoms like sleep disturbance (insomnia or hypersomnia), appetite or weight change, fatigue, poor concentration, feelings of worthlessness or excessive guilt, psychomotor changes, and recurrent thoughts of death.",
+    "DSM-5 criteria require ≥5 of these symptoms (one must be depressed mood or anhedonia) present nearly every day for ≥2 weeks, causing significant distress or functional impairment. There must be no history of mania/hypomania (if there is, think bipolar disorder instead).",
+    "About 2× more common in women than men. Often first manifests in teens or young adults, but can occur at any age. Risk factors include a family history of depression, prior episodes, chronic medical illnesses, substance abuse, and adverse life events (trauma, loss). MDD frequently coexists with anxiety disorders or substance use, which can increase suicide risk.",
+    "Patients might not say they feel \"depressed\"—many (especially the elderly) present with somatic complaints (fatigue, aches, \"pseudodementia\" with memory issues) or irritability (in adolescents) rather than explicit sadness. Always assess for suicidal ideation even if not volunteered."
+  ],
+  "problem_solving": [
+    "Use screening tools like the Patient Health Questionnaire-9 (PHQ-9) to identify depression and gauge severity. A PHQ-9 score ≥10 suggests moderate-to-severe depression that likely warrants active treatment.",
+    "Rule out other causes: perform a thorough evaluation including medical history, medication review, and physical exam. Check labs (e.g., TSH to exclude hypothyroidism, vitamin B12, etc.) to ensure symptoms aren't due to a medical condition or substance. Also, always inquire about past manic or hypomanic episodes to avoid missing bipolar disorder.",
+    "Assess suicidality at every visit—ask about any thoughts of self-harm or death, intent or plan. If present or if the patient has psychotic features (e.g., depression-related delusions) or is unable to care for self, ensure safety (consider emergency psychiatric evaluation or hospitalization).",
+    "Differentiate MDD from normal grief or adjustment disorder: MDD tends to be more persistent and severe, with significant functional impairment beyond an appropriate reaction to stressors."
+  ],
+  "differentials": [
+    { "id": "persistent-depressive-disorder", "name": "Persistent Depressive Disorder (Dysthymia)", "hint": "chronic, milder depression lasting ≥2 years (no symptom-free period >2 months)" },
+    { "id": "bipolar-disorder", "hint": "major depression with a history of manic/hypomanic episodes (indicates bipolar rather than unipolar depression)" },
+    { "name": "Normal grief/bereavement", "hint": "sadness after a loss but self-esteem remains intact; pain comes in waves and improves over time" },
+    { "name": "Adjustment disorder with depressed mood", "hint": "mood disturbance triggered by a stressor, not meeting MDD criteria (symptoms are less severe and resolve within 6 months of stressor)" }
+  ],
+  "tricks": [
+    "Use the mnemonic SIG E CAPS to remember the key symptoms of MDD: Sleep, Interest, Guilt, Energy, Concentration, Appetite, Psychomotor, Suicide.",
+    "Always ask about any history of mania before treating depression – missing bipolar disorder can lead to misdiagnosis and inappropriate therapy.",
+    "In an older adult, new-onset depression can sometimes mimic dementia (\"pseudodementia\"); treating the depression often improves the cognitive symptoms."
+  ],
+  "exam_appearance": [
+    "Young adult with several weeks of depressed mood, loss of interest in hobbies, insomnia, weight loss, and feelings of worthlessness → Major depressive disorder (unipolar depression).",
+    "New mother a month postpartum with persistent sadness, low energy, insomnia, and intense guilt about not bonding with her baby → Postpartum depression (MDD with peripartum onset)."
+  ],
+  "treatment": [
+    "SSRIs (e.g., sertraline) are first-line medications. Other antidepressants (SNRIs like venlafaxine or duloxetine, bupropion, mirtazapine) can be used based on patient needs and side-effect profiles. All antidepressants take ~4–6 weeks to show effect.",
+    "Psychotherapy (especially cognitive-behavioral therapy or interpersonal therapy) is effective for mild to moderate depression and is often combined with medication for moderate to severe cases.",
+    "Continue antidepressant treatment for at least 6–12 months after symptom remission to prevent relapse (longer maintenance therapy is recommended for recurrent depression). Avoid abrupt discontinuation of medication to prevent withdrawal symptoms.",
+    "For treatment-resistant or severe depression, consider advanced therapies: electroconvulsive therapy (ECT) is highly effective (especially for depression with psychotic features or urgent suicidality), and transcranial magnetic stimulation (TMS) is an option for patients who don't respond to medications. Newer treatments like esketamine nasal spray may be used in refractory cases under specialist care."
+  ],
+  "red_flags": [
+    "Active suicidal ideation or a well-formed plan → this is a psychiatric emergency requiring immediate safety measures (constant supervision, possible hospitalization).",
+    "Depression with psychotic symptoms (e.g., delusions of worthlessness) or catatonic features signals very severe MDD → typically warrants urgent intervention (hospitalization, ECT).",
+    "Postpartum depression with any thoughts of harming the baby → requires emergent treatment due to risk to both mother and infant."
+  ],
+  "algorithm": [
+    "Patient with possible depressive symptoms → Perform screening (PHQ-2/PHQ-9) and clinical interview.",
+    "If criteria for MDD are met (≥5 symptoms including mood or anhedonia for ≥2 weeks) → Confirm no history of mania; assess severity and suicide risk.",
+    "No imminent risk (no active suicidality/psychosis) → Begin outpatient treatment: start an SSRI (or other appropriate antidepressant) and/or refer for therapy; schedule close follow-up in 1–2 weeks.",
+    "Imminent suicide risk or inability to function (or psychotic features) → Arrange emergency psychiatric care/hospitalization before initiating standard treatment.",
+    "Monitor response over about 4–6 weeks → if partial or no improvement, consider optimizing dose, switching antidepressant, or adding therapy/augmentation. Once remission is achieved, continue treatment for ≥6 months and plan maintenance if needed."
+  ],
+  "cases": [
+    {
+      "stem": "A 32-year-old man reports a 3-month period of feeling sad nearly every day and no longer enjoying activities he used to love. He has trouble sleeping, a low appetite with a 10-lb weight loss, fatigue, and difficulty concentrating at work. He often feels guilty and worthless. He denies any history of manic episodes or substance use.",
+      "clues": [
+        "Depressed mood and anhedonia for >2 weeks",
+        "Insomnia and weight loss",
+        "Low energy and poor concentration",
+        "Excessive guilt, feelings of worthlessness",
+        "No evidence of manic or hypomanic episodes"
+      ],
+      "answer": "Major depressive disorder (unipolar depression)",
+      "teaching": "This is a classic major depressive episode (unipolar depression) with multiple SIG E CAPS symptoms over a sustained period. There is significant impairment and no history of mania (ruling out bipolar disorder). First-line treatment would include an SSRI and therapy, and suicide risk should be assessed."
+    },
+    {
+      "stem": "A 28-year-old woman one month after childbirth presents with frequent crying spells, low mood, marked loss of interest in her usual activities, and constant fatigue. She feels overwhelming guilt that she is a \"terrible mother\" and is not bonding with her baby. She isn't sleeping even when the baby sleeps, and has little appetite. These symptoms have persisted for several weeks and are not improving.",
+      "clues": [
+        "Onset a few weeks after delivery of a baby",
+        "Persistent sadness and tearfulness",
+        "Insomnia and low energy",
+        "Strong feelings of guilt/inadequacy as a mother",
+        "Loss of interest in normally enjoyable activities"
+      ],
+      "answer": "Postpartum depression (MDD with peripartum onset)",
+      "teaching": "Postpartum depression is essentially an episode of MDD occurring after childbirth, distinguished from the milder \"baby blues\" by its severity and duration (>2 weeks). It requires treatment (therapy and/or antidepressants) to ensure the well-being of both mother and child."
+    }
+  ],
+  "see_also": [
+    "generalized-anxiety-disorder",
+    "schizophrenia",
+    "hypothyroidism"
+  ],
+  "sources": [
+    {
+      "title": "DSM-5: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition (American Psychiatric Association, 2013)",
+      "url": "https://doi.org/10.1176/appi.books.9780890425596"
+    },
+    {
+      "title": "UpToDate: Major depressive disorder in adults – Approach to initial management",
+      "url": "https://www.uptodate.com/contents/major-depressive-disorder-in-adults-approach-to-initial-management"
+    },
+    {
+      "title": "WHO Fact Sheet: Depression (WHO, 2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/depression"
+    },
+    {
+      "title": "StatPearls: Major Depressive Disorder (Bains & Abdijadid, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559078/"
+    },
+    {
+      "title": "NEJM: \"New Hope for Patients with Major Depressive Disorder?\" (Coccaro, 2019)",
+      "url": "https://doi.org/10.1056/NEJMe1907638"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

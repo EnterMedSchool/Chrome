@@ -1,0 +1,97 @@
+{
+  "id": "psoriatic-arthritis",
+  "names": ["Psoriatic arthritis"],
+  "aliases": ["psoriatic arthropathy"],
+  "abbr": ["PsA"],
+  "patterns": ["psoriatic arthritis", "psoriatic arthropathy", "arthritis with psoriasis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "msk_derm", "immunology"],
+  "definition": "Inflammatory arthritis associated with **psoriasis**. Typically seronegative and can involve peripheral joints (often **DIP joints** of fingers/toes, with nail pitting) as well as **spine or sacroiliac** joints in some cases. May present with **dactylitis** (sausage digits) and enthesitis. Radiographically can show **\"pencil-in-cup\"** erosions in severe chronic disease.",
+  "why_it_matters": "Occurs in up to ~30% of psoriasis patients, often years after skin disease. It bridges dermatology and rheumatology, making it a favorite for exam questions (e.g., a patient with skin plaques developing joint pain). PsA can cause significant joint damage (including deforming **arthritis mutilans**) if untreated. Recognizing the link between **skin and joint** findings is key.",
+  "how_youll_see_it": [
+    "Patient with known **psoriasis** (often long-standing skin plaques or nail changes) who develops joint pain/stiffness. Patterns vary: can mimic RA (symmetric polyarthritis), or present as asymmetric oligoarthritis, or classic **DIP joint** arthritis (especially of fingers/toes).",
+    "**Dactylitis** (diffuse swelling of an entire finger or toe) is a hallmark finding, due to inflammation of flexor tendon sheaths and joints – gives the \"sausage digit.\" **Enthesitis** (e.g., Achilles tendon insertion pain) can also occur.",
+    "Nail involvement is common: **nail pitting**, onycholysis (nail separating), and nail ridges correlate with PsA severity. In fact, nail changes + DIP arthritis is a strong clue for psoriatic arthritis (RA rarely affects DIPs).",
+    "Skin: Often the patient will have active **psoriatic skin lesions** (scaly erythematous plaques on extensor surfaces, scalp, etc.), but sometimes arthritis precedes obvious skin flares. Severity of skin disease does not always match joint severity (someone with mild psoriasis might still get severe arthritis).",
+    "Axial involvement: A subset have spondylitis and sacroiliitis akin to AS (particularly those who are HLA-B27 positive). These patients may have back pain similar to AS, but usually also have peripheral joint or skin manifestations that lead to the PsA diagnosis."
+  ],
+  "problem_solving": [
+    "Always **examine the skin and nails** in patients with unexplained arthritis. Hidden psoriasis (scalp, behind ears, gluteal cleft) or subtle nail pitting might tip you off to PsA.",
+    "Labs: No definitive test. RF and anti-CCP are usually **negative** (helps distinguish from RA, though a small percentage of PsA patients can have low-positive RF). Uric acid may be elevated in severe psoriasis due to high skin turnover (don't confuse with gout in exam scenarios).",
+    "Imaging: Look for the classic **pencil-in-cup deformity** on hand X-ray (from erosion of one end of the bone and reactive proliferation on the other). Also, juxta-articular new bone formation and **ankylosis** (joint fusion) can occur in chronic PsA. Unlike RA, which causes osteopenia, PsA can have bone proliferation.",
+    "Differentiate from **RA**: PsA often involves DIPs (RA almost never does) and is more likely asymmetric. Also, PsA has the extra features (dactylitis, nail pitting, skin lesions). If a patient has RA-like arthritis but also psoriasis (or a family history of it), consider PsA.",
+    "Assess for **ocular** involvement (conjunctivitis or uveitis can occur in PsA, though less commonly than in AS) and for other comorbidities (PsA patients have higher risk of metabolic syndrome)."
+  ],
+  "differentials": [
+    { "id": "rheumatoid-arthritis", "hint": "usually spares DIP joints, symmetric, and typically RF/CCP positive; no psoriasis" },
+    { "name": "Osteoarthritis", "hint": "common DIP involvement (Heberden nodes) but in older patients; non-inflammatory (no prolonged morning stiffness, no dactylitis)" },
+    { "name": "Gout", "hint": "can co-exist with psoriasis; gouty tophi can deform joints and psoriasis can elevate uric acid, but gout presents with acute inflammatory attacks rather than chronic pattern" }
+  ],
+  "tricks": [
+    "**Psoriasis + DIP joint arthritis** = psoriatic arthritis (until proven otherwise).",
+    "**Nail pitting** is a strong clue; nails are essentially skin, so nail changes link the skin and joint disease.",
+    "**Dactylitis** (sausage digit) is a buzzword for PsA (also seen in reactive arthritis); RA does not cause full-digit swelling.",
+    "\"**Pencil-in-cup**\" erosion on X-ray (phalangeal deformity) is classically PsA, reflecting destructive changes and bone resorption."
+  ],
+  "exam_appearance": [
+    "40-year-old patient with **psoriasis** has a swollen, painful index finger DIP joint and pitted nails → **Psoriatic arthritis** (likely DIP-predominant type).",
+    "X-ray of a finger showing a tapered \"pencil\" distal phalanx and a cup-shaped erosion in the proximal phalanx → **Psoriatic arthritis** (arthritis mutilans).",
+    "Patient with psoriasis presents with multiple tender, swollen finger joints (including DIPs) and a 'sausage' toe, RF is negative → **Psoriatic arthritis**."
+  ],
+  "treatment": [
+    "**NSAIDs** can help milder cases for symptomatic relief of joint pain and stiffness.",
+    "**Methotrexate** is commonly used in moderate to severe PsA, especially if there is significant **skin involvement** (helps both psoriasis and arthritis). It's a first-line DMARD for PsA (note: unlike in RA, methotrexate alone often doesn't prevent progressive joint damage in PsA, but it helps symptoms).",
+    "**Sulfasalazine** or **leflunomide** are additional traditional DMARD options for peripheral arthritis. (Sulfasalazine can be useful if concomitant IBD as well.)",
+    "**Biologics**: If inadequate response to methotrexate or severe disease, use TNF inhibitors (etanercept, adalimumab, etc.) or newer agents: **IL-17 inhibitors** (secukinumab, ixekizumab) and **IL-12/23 inhibitor** (ustekinumab) are approved for PsA and can help both skin and joints. **PDE4 inhibitor** apremilast is an oral option for moderate PsA. **JAK inhibitors** (tofacitinib) are also approved for PsA.",
+    "Avoid systemic **corticosteroids** if possible – tapering off steroids can sometimes trigger a severe flare of psoriasis (pustular psoriasis). If needed, use lowest effective dose and plan to transition to steroid-sparing therapy. Local steroid injections can be beneficial for isolated inflamed joints or enthesitis."
+  ],
+  "red_flags": [
+    "**Spinal involvement**: If a PsA patient develops severe back pain or neurologic symptoms, evaluate for atlantoaxial subluxation or spinal fracture (PsA with long-standing axial involvement can have some of the same risks as AS).",
+    "Psoriasis patient on **systemic steroids** who stops them abruptly → watch for **pustular psoriasis** flare (a dangerous generalized rash).",
+    "**Psoriatic arthritis can progress to arthritis mutilans** (severe deformity with telescoping digits) if untreated – aggressive therapy is warranted when joint damage is progressing."
+  ],
+  "algorithm": [
+    "Psoriasis patient with joint pain → **screen for PsA** (ask about stiffness, examine joints, check nails).",
+    "If PsA suspected, evaluate extent: count involved joints, note if DIPs, look for dactylitis, enthesitis. Get baseline **X-rays** of affected hands/feet for erosions.",
+    "Labs: RF/CCP to rule out RA if pattern is polyarticular (seronegative helps point to PsA). Inflammatory markers (ESR/CRP) may be elevated. Document skin and nail findings.",
+    "Mild PsA → start with **NSAIDs** ± local steroid injections. If more active, start **methotrexate** (especially if skin also needs control).",
+    "Moderate-severe or inadequate response → add a **biologic** (TNF inhibitor or IL-17/IL-12/23 inhibitor depending on patient factors). Monitor disease activity in skin and joints (joint counts, functional status, skin lesion extent) each visit."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man with a 15-year history of plaque psoriasis presents with joint pain. He has a swollen right fourth toe that looks like a sausage and tenderness in a few DIP joints. He also shows you pitting on several fingernails. His rheumatoid factor is negative.",
+      "clues": ["History of psoriasis", "DIP joint arthritis", "Dactylitic toe (sausage digit)", "Nail pitting", "RF negative"],
+      "answer": "Psoriatic arthritis",
+      "teaching": "The combination of psoriasis, DIP arthritis, dactylitis, and nail pitting is diagnostic of psoriatic arthritis. This patient should be treated with a therapy that addresses both skin and joint disease (e.g., methotrexate or a TNF inhibitor)."
+    }
+  ],
+  "see_also": [
+    "spondyloarthritides",
+    "rheumatoid-arthritis",
+    "ankylosing-spondylitis",
+    "reactive-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Psoriatic Arthritis (Tiwari & Brent, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547710/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of psoriatic arthritis",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-psoriatic-arthritis"
+    },
+    {
+      "title": "Medscape: Psoriatic Arthritis (2025)",
+      "url": "https://emedicine.medscape.com/article/2196539-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

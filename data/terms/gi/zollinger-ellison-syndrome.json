@@ -1,0 +1,151 @@
+{
+  "id": "zollinger-ellison-syndrome",
+  "names": [
+    "Zollinger-Ellison syndrome"
+  ],
+  "aliases": [
+    "Zollinger Ellison syndrome",
+    "gastrinoma syndrome",
+    "ulcerogenic tumor syndrome"
+  ],
+  "abbr": [
+    "ZES"
+  ],
+  "patterns": [
+    "zollinger-ellison",
+    "zollinger ellison",
+    "zes",
+    "gastrinoma"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "endocrine"
+  ],
+  "definition": "Syndrome caused by a gastrin-secreting tumor (**gastrinoma**) leading to excessive gastric **acid hypersecretion** and multiple refractory **peptic ulcers**.",
+  "why_it_matters": "Causes **hard-to-treat ulcers** and chronic diarrhea; often appears on exams as a classic cause of **refractory peptic ulcer disease**, sometimes as part of **MEN1**.",
+  "how_youll_see_it": [
+    "Severe, **recurrent peptic ulcers** (often multiple and in atypical locations like distal duodenum or **jejunum**) plus **chronic diarrhea** (acid inactivates pancreatic enzymes, causing malabsorption).",
+    "Ulcers that **fail to heal** with standard therapy (high-dose PPI) or without H. pylori/NSAIDs history → raises suspicion for ZES.",
+    "In 20–25% cases, part of **MEN1** (patients may also show **kidney stones** from hyperparathyroidism or pituitary tumor signs)."
+  ],
+  "problem_solving": [
+    "Measure **fasting gastrin** level off acid suppression (gastrin >1000 pg/mL with gastric pH <2 is essentially diagnostic of ZES). If gastrin is moderately elevated (e.g. 200–1000), proceed with confirmatory testing.",
+    "Perform a **secretin stimulation test** for equivocal cases: in ZES, secretin paradoxically causes a large gastrin rise (≥120 pg/mL above baseline is a positive test).",
+    "Check gastric acid levels: **gastric pH ≤2** (with high gastrin) supports ZES vs other causes of high gastrin like atrophic gastritis (which causes low acid/high pH).",
+    "Localize the gastrinoma with imaging: **somatostatin receptor PET/CT** (Ga-68 dotatate) is highly sensitive; also consider **endoscopic ultrasound (EUS)** for duodenal/pancreatic tumors.",
+    "Screen for **MEN1** in confirmed ZES: check for hyperparathyroidism (**calcium**, **PTH** levels) and pituitary tumors (prolactin, etc)."
+  ],
+  "differentials": [
+    {
+      "id": "peptic-ulcer-disease",
+      "hint": "common ulcers from H. pylori or NSAIDs; usually single location, normal gastrin levels"
+    },
+    {
+      "id": "gastroesophageal-reflux-disease",
+      "hint": "chronic GERD causes heartburn and maybe esophagitis, but not the high gastrin or duodenal ulcers of ZES"
+    },
+    {
+      "name": "Chronic atrophic gastritis (pernicious anemia)",
+      "hint": "high gastrin due to low acid (achlorhydria) from autoimmune gastritis; causes anemia rather than massive acid ulcers"
+    },
+    {
+      "id": "multiple-endocrine-neoplasia-type-1",
+      "hint": "inherited syndrome (MEN1) causing gastrinomas plus parathyroid and pituitary tumors (accounts for 25% of ZES cases)"
+    }
+  ],
+  "tricks": [
+    "**Secretin test paradox**: secretin normally inhibits gastrin, but in ZES it causes an **↑ gastrin** surge (diagnostic clue).",
+    "**MEN1 – 3 P's** (Pituitary, Parathyroid, Pancreas): gastrinomas (pancreatic/duodenal tumors) are one of the trio of tumors in MEN1.",
+    "Peptic ulcers in unusual locations (e.g. post-bulbar duodenum or jejunum) or multiple ulcers **→ suspect ZES** instead of ordinary PUD."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with **multiple ulcers** and chronic diarrhea, very high gastrin level → Zollinger-Ellison syndrome (gastrinoma).",
+    "Young adult with refractory ulcers plus **kidney stones** (hypercalcemia) → MEN1 syndrome (gastrinoma with hyperparathyroidism).",
+    "**Secretin injection** leads to a marked rise in gastrin levels → positive secretin stimulation test (confirms ZES)."
+  ],
+  "treatment": [
+    "**High-dose PPIs** are first-line to control acid hypersecretion and heal ulcers (e.g. omeprazole ~60 mg/day, much higher than standard GERD doses).",
+    "Surgical **tumor resection** if feasible: can be curative for localized gastrinomas (especially sporadic tumors >2 cm); MEN1 cases often have multiple small tumors (surgery targeted if large lesions).",
+    "For metastatic or unresectable ZES: use **somatostatin analogs** (octreotide) to reduce gastrin and slow tumor, and consider targeted therapies (e.g. **everolimus**, **PRRT** with radiolabeled octreotide) in advanced disease."
+  ],
+  "red_flags": [
+    "Ulcers in **atypical locations** (distal duodenum/jejunum) or multiple ulcers that don't respond to therapy → **red flag for ZES** (do not just treat as routine PUD).",
+    "Stopping PPIs for diagnostic testing can cause acid rebound – monitor closely for ulcer bleeding or perforation during workup.",
+    "Diagnosed ZES patients should be evaluated for **MEN1** signs (hypercalcemia, pituitary issues) – missing MEN1 means missing other tumors."
+  ],
+  "algorithm": [
+    "Refractory or multiple ulcers ± diarrhea → **suspect ZES**.",
+    "Hold acid-suppressing meds if possible and obtain **fasting gastrin** level (plus gastric pH).",
+    "If gastrin is modestly elevated → perform **secretin stimulation test** (positive = big gastrin rise).",
+    "If ZES confirmed biochemically → **localize tumor** with imaging (Ga-68 dotatate PET, EUS, CT/MRI).",
+    "Manage with high-dose **PPI** for acid control, **resect tumor** if localized (and screen for MEN1)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/ZES_endo.jpg",
+      "alt": "Endoscopic view of multiple small ulcers in the distal duodenum in a patient with Zollinger-Ellison syndrome.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:ZES_endo.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man has a history of multiple peptic ulcers that persist despite high-dose PPI therapy. He now presents with foul-smelling diarrhea and weight loss.",
+      "clues": [
+        "Multiple ulcers in duodenum & jejunum",
+        "Ulcers refractory to PPIs",
+        "Chronic diarrhea/steatorrhea",
+        "Fasting gastrin level >1000 pg/mL"
+      ],
+      "answer": "Zollinger-Ellison syndrome (gastrinoma)",
+      "teaching": "A gastrin-secreting tumor (gastrinoma) causes extreme acid hypersecretion → recurrent ulcers and malabsorption (diarrhea). Very high gastrin levels confirm ZES; next step is secretin testing and tumor localization."
+    },
+    {
+      "stem": "A 30‑year‑old patient with recurrent, hard-to-treat ulcers is found to have nephrolithiasis from high calcium levels. His father had a history of parathyroid surgery in his 40s.",
+      "clues": [
+        "Multiple refractory peptic ulcers",
+        "Kidney stones (hypercalcemia)",
+        "Elevated PTH level",
+        "Family history of parathyroid tumor"
+      ],
+      "answer": "Multiple endocrine neoplasia type 1 (MEN1) with Zollinger-Ellison syndrome",
+      "teaching": "This combination of peptic ulcers and primary hyperparathyroidism suggests MEN1 syndrome. MEN1 causes tumors in parathyroids, pancreas (e.g. gastrinoma leading to ZES), and pituitary. Recognizing MEN1 is crucial for screening and management of all components."
+    }
+  ],
+  "see_also": [
+    "peptic-ulcer-disease",
+    "gastroesophageal-reflux-disease",
+    "diarrhoea",
+    "carcinoid-syndrome"
+  ],
+  "prerequisites": [
+    "gi-physiology",
+    "gastrin"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gastrinoma (Helbing & Menon, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441842/"
+    },
+    {
+      "title": "UpToDate: Zollinger-Ellison syndrome (gastrinoma) – clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/zollinger-ellison-syndrome-gastrinoma-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Medscape: Zollinger-Ellison Syndrome (Workup & Management, 2023)",
+      "url": "https://emedicine.medscape.com/article/183555-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

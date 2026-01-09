@@ -1,0 +1,128 @@
+{
+  "id": "volvulus",
+  "names": ["Volvulus"],
+  "aliases": ["twisted bowel", "intestinal torsion"],
+  "abbr": [],
+  "patterns": ["volvulus", "twisted bowel", "intestinal torsion", "sigmoid volvulus", "cecal volvulus", "midgut volvulus", "gastric volvulus"],
+  "primary_tag": "gi",
+  "tags": ["gi", "surgery", "peds", "emerg", "radiology"],
+  "definition": "Twisting of a loop of intestine around its mesentery, creating a **closed-loop obstruction** with risk of cutting off blood supply (ischemia/necrosis).",
+  "why_it_matters": "Surgical emergency—bowel **necrosis** can occur rapidly if not relieved. A classic cause of neonatal **bilious vomiting** and a common culprit in adult large bowel obstruction, often tested with its hallmark imaging signs and urgent management.",
+  "how_youll_see_it": [
+    "Neonates/infants: sudden **bilious vomiting**, abdominal distension, possibly bloody stools in a first-month infant → think **midgut volvulus** from malrotation.",
+    "Children: intermittent or chronic abdominal pain and vomiting can signal malrotation with partial volvulus; an acute midgut volvulus can still occur beyond infancy (less common but possible).",
+    "Adults: two main patterns—**sigmoid volvulus** (typically elderly, bedridden, chronic constipation; progressive abdominal distension, pain, obstipation) and **cecal volvulus** (younger adults, sometimes postpartum or with mobile cecum; acute right-sided colonic obstruction). **Gastric volvulus** (rare, often in older patients with paraesophageal hernia) presents with severe epigastric pain, retching, and inability to vomit."
+  ],
+  "problem_solving": [
+    "Imaging is key: abdominal **X-ray** often shows diagnostic features (e.g., **coffee bean sign** – massively dilated loop in sigmoid volvulus). In infants, an **upper GI contrast** study can show a corkscrew/twisted duodenum in malrotation (if the baby is stable enough).",
+    "If volvulus is suspected with signs of ischemia (peritonitis, acidosis) or the patient is unstable, do **not delay surgical intervention** for imaging – proceed to OR.",
+    "For sigmoid volvulus without peritonitis, attempt **endoscopic detorsion** promptly (flexible sigmoidoscopy with rectal tube can relieve the twist in ~80–90%). Always plan definitive surgery after (sigmoid resection or fixation) due to high recurrence if only decompressed.",
+    "Cecal volvulus usually requires **surgical correction** (often right hemicolectomy or cecopexy) as endoscopic reduction is less successful. Gastric volvulus is a surgical emergency; an NG tube may be attempted for decompression, but definitive surgical repair (e.g., gastropexy) is usually needed."
+  ],
+  "differentials": [
+    { "id": "intussusception", "hint": "Infant with colicky pain, **currant jelly** stools, \"target\" sign on ultrasound (telescoping bowel rather than a twist)." },
+    { "id": "duodenal-atresia", "hint": "Neonate with bilious vomiting and **double bubble** on X-ray (congenital obstruction, often in Down syndrome)." },
+    { "name": "Ogilvie syndrome (acute colonic pseudo-obstruction)", "hint": "Massive colonic dilation without mechanical twist, usually in ill older patients (no transition point on imaging)." },
+    { "name": "Mesenteric ischemia", "hint": "Older patient with afib or vascular disease, **pain out of proportion** but no obvious obstruction on imaging (arterial occlusion rather than volvulus)." }
+  ],
+  "tricks": [
+    "Remember **bilious emesis in an infant** = malrotation with midgut volvulus until proven otherwise (surgical emergency).",
+    "**Coffee bean sign**: classic abdominal X-ray finding in sigmoid volvulus (dilated loop forms an inverted U shape with a central line).",
+    "**Whirlpool sign**: twisting of mesenteric vessels on CT (seen in midgut or cecal volvulus). **Bird's beak sign**: tapering of contrast or gas at the twist site (e.g., on barium enema or CT).",
+    "For **gastric volvulus**, think **Borchardt's triad**: unproductive retching, epigastric distension, and inability to pass an NG tube."
+  ],
+  "exam_appearance": [
+    "A 3-week-old infant with sudden bilious projectile vomiting, abdominal distension, and blood in stool ± shock → **Midgut volvulus** due to malrotation (surgical emergency with Ladd's procedure).",
+    "A 70‑year‑old nursing home patient with a distended, tympanitic abdomen and obstipation. Abdominal X-ray shows an inverted U-shaped, distended colon loop (**coffee bean sign**) → **Sigmoid volvulus** (endoscopic decompression followed by surgical resection).",
+    "An elderly patient with paraesophageal hernia and acute epigastric pain, violent retching but no vomit, and inability to pass an NG tube → **Gastric volvulus** (Borchardt's triad; requires urgent surgery)."
+  ],
+  "treatment": [
+    "**Midgut volvulus (infant)**: Immediate surgical detorsion via **Ladd's procedure** (untwist bowel, cut Ladd's bands, reposition intestines, appendectomy) – do ASAP to prevent necrosis.",
+    "**Sigmoid volvulus**: If no peritonitis, perform urgent **endoscopic reduction** (sigmoidoscopic derotation and rectal tube). Follow up with elective **sigmoid resection** to prevent recurrence (mortality rises sharply if strangulation occurs).",
+    "**Cecal volvulus**: Primarily managed with surgery (often a **right colectomy** with anastomosis or cecopexy if bowel is viable). Endoscopic attempt at decompression is usually unsuccessful in cecal volvulus.",
+    "**Gastric volvulus**: Surgical emergency – attempt gastric decompression with NG tube, but definitive treatment is surgical (e.g., gastropexy or partial gastrectomy if necrotic)."
+  ],
+  "red_flags": [
+    "**Bilious vomiting in any infant** – presume malrotation/volvulus until ruled out (requires immediate evaluation).",
+    "Signs of possible bowel strangulation (fever, severe tenderness/peritonitis, hematochezia, acidosis, shock) → **emergent surgery**; do NOT delay for imaging or endoscopic attempts."
+  ],
+  "algorithm": [
+    "Suspect volvulus in acute obstruction: (a) Infant with bilious emesis or (b) Adult with acute abdominal distension/obstruction – obtain prompt imaging if stable.",
+    "If infant is stable: Upper GI series to confirm malrotation (\"corkscrew\" duodenum); if unstable or high suspicion, straight to OR for detorsion.",
+    "If sigmoid volvulus is seen on X-ray: no peritonitis → attempt endoscopic detorsion immediately; if successful, plan definitive surgical fix during same admission.",
+    "Any evidence of ischemia or unsuccessful endoscopic reduction (or diagnosis of cecal volvulus) → proceed to **emergency surgery** (resection or fixation as needed). Ensure aggressive fluid resuscitation and broad antibiotics if ischemic bowel is suspected."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/CecalVolvulusXray.png",
+      "alt": "Supine abdominal X-ray showing a markedly distended air-filled cecum in cecal volvulus (\"coffee bean\" appearance in the right upper abdomen).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:CecalVolvulusXray.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 1-month-old male infant presents with sudden onset of vomiting that turned bilious. He is irritable, with a distended abdomen and blood-streaked stools.",
+      "clues": [
+        "Bilious projectile vomiting in an infant",
+        "Abdominal distension and pain",
+        "Bloody stool; signs of shock (tachycardia, lethargy)",
+        "Upper GI series: corkscrew-shaped duodenum"
+      ],
+      "answer": "Midgut volvulus due to malrotation",
+      "teaching": "Malrotation can lead to a midgut volvulus in early infancy. Bilious emesis and abdominal distension in a neonate are red flags. Immediate surgical Ladd procedure is required to untwist the bowel and prevent necrosis."
+    },
+    {
+      "stem": "A 75-year-old nursing home resident with a history of chronic constipation presents with 2 days of progressive abdominal bloating and crampy pain, now with nausea and no bowel movements or flatus.",
+      "clues": [
+        "Elderly, bedridden patient; history of constipation",
+        "Gross abdominal distension, tympanic abdomen",
+        "No stool or flatus (obstipation)",
+        "Abdominal X-ray: huge \"U-shaped\" gas shadow (coffee bean sign)"
+      ],
+      "answer": "Sigmoid volvulus",
+      "teaching": "Sigmoid volvulus is common in older adults with chronic constipation. X-ray classically shows a bent inner-tube or coffee bean–shaped loop of distended colon. Initial management is endoscopic detorsion to relieve the obstruction, followed by surgical resection of the redundant sigmoid to prevent recurrence."
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": [
+    "intestinal-malrotation",
+    "duodenal-atresia",
+    "hirschsprung-disease",
+    "jejunoileal-atresia"
+  ],
+  "prerequisites": [
+    "gut-embryology",
+    "intestinal-obstruction"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Volvulus (Le & Anand, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441836/"
+    },
+    {
+      "title": "StatPearls: Midgut Volvulus (Holt & Anand, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441962/"
+    },
+    {
+      "title": "UpToDate: Sigmoid volvulus",
+      "url": "https://www.uptodate.com/contents/sigmoid-volvulus"
+    },
+    {
+      "title": "Cleveland Clinic J Med: Sigmoid volvulus – coffee bean sign & whirl sign (2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32015060/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

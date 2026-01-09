@@ -1,0 +1,100 @@
+{
+  "id": "erysipelas",
+  "names": ["Erysipelas"],
+  "aliases": ["St. Anthony's fire"],
+  "abbr": [],
+  "patterns": ["erysipelas", "St. Anthony's fire", "Saint Anthony's fire"],
+  "primary_tag": "infectious_dz",
+  "tags": ["infectious_dz", "msk_derm", "micro_bacteria"],
+  "definition": "Relatively common bacterial infection of the upper dermis (usually **group A Strep**) causing a well-demarcated, raised, intensely red rash (classically on the face or lower leg).",
+  "why_it_matters": "High-yield example of a superficial cellulitis that spreads rapidly but responds well to antibiotics. Important to recognize and distinguish from deeper infections (cellulitis, **necrotizing fasciitis**) to prevent severe complications.",
+  "how_youll_see_it": [
+    "Acute onset of fever, chills, and a painful, bright red area on the skin that is **raised** with a **sharply demarcated** border; often on the lower leg (in patients with edema/oedema or lymphatic impairment) or the face.",
+    "The rash is warm, shiny, and swollen; it may show **streaking** redness along lymphatics and tender regional lymph nodes (reflecting superficial lymphatic spread).",
+    "Common in older adults or infants with predisposing factors (e.g., **lymphedema**, chronic leg ulcers, tinea pedis fissures, or immunocompromise). Facial cases often follow a recent streptococcal throat infection."
+  ],
+  "problem_solving": [
+    "**Erysipelas vs cellulitis**: Erysipelas involves the upper dermis with **well-defined, elevated** margins and faster onset; cellulitis extends deeper (fat) with **ill-defined** borders and more gradual spread.",
+    "**Watch for necrotizing fasciitis**: pain out of proportion, hemorrhagic bullae, skin anesthesia, rapid extension beyond marked borders, or gas/crepitus suggest deeper infection requiring surgical evaluation.",
+    "If a joint is involved (erythema overlying a joint) with severe pain on motion, consider septic arthritis rather than just a soft tissue infection."
+  ],
+  "differentials": [
+    { "id": "cellulitis", "hint": "deeper (subcutaneous) infection with diffuse, ill-defined erythema" },
+    { "id": "necrotizing-fasciitis", "hint": "rapidly progressive necrosis; intense pain, systemic toxicity, possible crepitus" },
+    { "name": "Deep vein thrombosis", "hint": "unilateral leg swelling/redness without fever or sharp borders; primarily calf pain (vascular, not infection)" }
+  ],
+  "tricks": [
+    "Mnemonic: **E**rysipelas has **E**levated, **E**dge-defined rash; **C**ellulitis has **C**ommon (ill-defined) edges and **C**reeping spread.",
+    "Historical alias **\"St. Anthony's Fire\"** recalls the intense red \"fiery\" appearance of erysipelas."
+  ],
+  "exam_appearance": [
+    "Elderly diabetic patient with sudden fever and a bright red, shiny, tender plaque on the lower leg with a raised, sharp border → **Erysipelas** (streptococcal infection of superficial dermis, often via toe web fissures).",
+    "Middle-aged adult with an intensely red, well-demarcated rash on one cheek and fever after a recent sore throat → **facial erysipelas** (can mimic a lupus malar rash early on)."
+  ],
+  "treatment": [
+    "Start **antibiotics** against Streptococcus promptly: oral penicillin V or amoxicillin for mild cases (5–10 days); if penicillin-allergic, use clindamycin or a macrolide. Use IV penicillin G or cefazolin for severe cases or facial erysipelas with systemic symptoms.",
+    "Add **MRSA coverage** (e.g., trimethoprim-sulfamethoxazole, doxycycline, or vancomycin) if risk factors for MRSA are present or initial therapy fails. Supportive care includes limb elevation, hydration, and analgesics/antipyretics for pain and fever.",
+    "Criteria for **hospitalization**: severe infection or signs of sepsis, concern for necrotizing fasciitis, immunocompromised status, very young or elderly patients, or lack of reliable outpatient follow-up."
+  ],
+  "red_flags": [
+    "Rapid spread beyond marked borders, development of **violaceous (purple) skin discoloration** or bullae, or decreased sensation in the area → red flags for necrotizing fasciitis (requires emergent surgical intervention).",
+    "Periorbital erysipelas with eye pain or limited extraocular motion → worry about **orbital cellulitis** (needs urgent evaluation and IV antibiotics to prevent vision loss)."
+  ],
+  "algorithm": [
+    "Suspect erysipelas from exam (acute well-demarcated rash + fever) → mark the border and begin empiric penicillin (or appropriate antibiotic) for Streptococcus.",
+    "Monitor closely: if rash spreads rapidly beyond marked border or **pain is disproportionate**, get urgent surgical consult to rule out necrotizing fasciitis.",
+    "If typical course: continue 5 days of antibiotics (extend to 7–10 days if slow response). Ensure risk factors are addressed (e.g., treat tinea pedis, use compression for edema).",
+    "No improvement or atypical features → broaden evaluation: consider adding MRSA coverage, check for alternative diagnoses (e.g., ultrasound to exclude DVT, or evaluate for abscess)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Erysipelas_in_a_foot.jpg/768px-Erysipelas_in_a_foot.jpg",
+      "alt": "Erysipelas on the left lower leg (red, swollen skin) compared to an unaffected right leg.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Erysipelas_in_a_foot.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 70‑year‑old woman with diabetes and chronic leg edema presents with 2 days of fever, chills, and redness of her left lower leg.",
+      "clues": [
+        "Temperature 39°C, tachycardic",
+        "Shiny, red, indurated plaque on left shin with raised, sharp borders",
+        "Tender lymph nodes in left groin",
+        "Peeling fissures between the toes of the left foot"
+      ],
+      "answer": "Erysipelas (acute streptococcal dermal infection)",
+      "teaching": "Superficial cellulitis caused by group A Streptococcus. Risk factors like chronic edema (lymphatic stasis) and toe web fissures (entry portal) predispose to infection. Presents with abrupt onset of fever and a well-demarcated, \"fiery\" red rash; treat with penicillin to prevent local spread and complications."
+    }
+  ],
+  "see_also": ["necrotizing-fasciitis", "gas-gangrene"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Erysipelas (Michael & Shaukat, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532247/"
+    },
+    {
+      "title": "UpToDate: Acute cellulitis and erysipelas in adults – treatment",
+      "url": "https://www.uptodate.com/contents/acute-cellulitis-and-erysipelas-in-adults-treatment"
+    },
+    {
+      "title": "IDSA Clinical Practice Guidelines: Skin and Soft Tissue Infections (Stevens et al., 2014)",
+      "url": "https://www.idsociety.org/practice-guideline/skin-and-soft-tissue-infections/"
+    },
+    {
+      "title": "Medscape: Erysipelas (Davis, updated 2020)",
+      "url": "https://emedicine.medscape.com/article/1052445-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

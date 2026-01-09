@@ -1,0 +1,107 @@
+{
+  "id": "diabetic-retinopathy",
+  "names": ["Diabetic retinopathy"],
+  "aliases": ["diabetic eye disease", "diabetic retinal disease"],
+  "abbr": ["DR"],
+  "patterns": ["diabetic retinopathy", "diabetic eye disease", "diabetic retinal disease", "NPDR", "PDR", "diabetic macular edema"],
+  "primary_tag": "ophtho",
+  "tags": ["pathology", "ophtho", "endocrine"],
+  "definition": "Microangiopathy of the retina caused by chronic hyperglycemia, leading to capillary leak and occlusion with **microaneurysms**, hemorrhages, exudates, and in advanced stages **neovascularization** that threatens vision.",
+  "why_it_matters": "Very common complication of diabetes and the leading cause of blindness in working-age adults. Largely **preventable** with early detection (screening) and treatment, so exams often test screening guidelines and management to prevent vision loss.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** in early phases; vision may remain normal until **macular edema** or vitreous hemorrhage develops. Symptoms can include blurred vision (especially if macula is involved), floaters, or scotomas in later stages.",
+    "Fundoscopic hallmarks in **nonproliferative** DR: multiple **microaneurysms** (tiny red dots), **dot-and-blot hemorrhages** in the retina, **hard exudates** (yellow lipid deposits from leaky vessels), and **cotton-wool spots** (white \"soft\" exudates from nerve fiber infarcts). **Venous beading** and IRMA (intraretinal microvascular abnormalities) appear as NPDR becomes severe.",
+    "**Proliferative** DR is marked by **neovascularization** – fragile new blood vessels on the optic disc or retina. These can bleed into the vitreous (causing sudden floaters or vision loss) and form scar tissue, leading to **traction retinal detachments** if untreated.",
+    "**Diabetic macular edema (DME)** can occur at any stage (NPDR or PDR) when leaky capillaries cause macular swelling. DME is a major cause of vision blurring in diabetes (often indicated by hard exudates at the macula) even without proliferative changes."
+  ],
+  "problem_solving": [
+    "Detect early: perform regular **dilated fundus exams** (direct ophthalmoscopy or retinal photography) in all diabetics. Use **OCT** (optical coherence tomography) to confirm macular edema and **fluorescein angiography** to map retinal nonperfusion or leaks when planning laser treatment.",
+    "Classify severity of **NPDR** (mild, moderate, severe) vs **PDR**. NPDR severity is assessed by the extent of hemorrhages, **venous beading**, and IRMA (use the **\"4-2-1 rule\"** for severe NPDR: ≥4 quadrants of hemorrhages, ≥2 quadrants of venous beading, ≥1 quadrant of IRMA). Any neovascularization = **proliferative** DR.",
+    "Aggressively control risk factors to slow progression: maintain tight **glycemic control** (goal HbA1c ~7% if possible) and **blood pressure** control. Good control significantly lowers the risk of onset and progression of retinopathy (as shown by DCCT/UKPDS studies).",
+    "Plan timely intervention for advanced disease: refer to an ophthalmologist if moderate NPDR or any worse findings. Do not wait for vision symptoms. Early ophthalmology referral allows for laser or injection therapy before irreversible vision loss occurs."
+  ],
+  "differentials": [
+    { "name": "Hypertensive retinopathy", "hint": "retinal hemorrhages & exudates from chronic high BP, but also arteriolar narrowing, AV nicking, & flame-shaped hemorrhages" },
+    { "name": "Central retinal vein occlusion", "hint": "acute, unilateral \"blood-and-thunder\" fundus (diffuse retinal hemorrhages); sudden vision loss often in older adults" },
+    { "name": "Age-related macular degeneration", "hint": "older patients; drusen deposits in macula; neovascular (wet) AMD causes central vision loss with choroidal neovascularization" }
+  ],
+  "tricks": [
+    "Mnemonic: **4-2-1 rule** for severe NPDR (≥4 quadrants of hemorrhages, ≥2 quadrants venous beading, ≥1 quadrant IRMA).",
+    "Remember: **Neovascularization = Proliferative** DR. Any new vessels on fundus means the disease has progressed to proliferative stage (requires prompt treatment)."
+  ],
+  "exam_appearance": [
+    "Middle-aged diabetic with years of poor glycemic control, now on fundoscopic exam has numerous microaneurysms, dot-blot hemorrhages, and hard exudates → **nonproliferative diabetic retinopathy** (background retinopathy).",
+    "Diabetic patient complaining of sudden vision loss with floaters; fundus is hard to visualize due to a large vitreous hemorrhage, and proliferative neovascular vessels are seen on parts of the retina → **proliferative diabetic retinopathy** (vitreous hemorrhage from neovascularization)."
+  ],
+  "treatment": [
+    "Optimize systemic factors: strict **glucose control** and **blood pressure control** to slow retinopathy progression (also treat dyslipidemia; e.g., adding fenofibrate has shown benefit in slowing DR in some studies).",
+    "**Laser photocoagulation**: panretinal photocoagulation (PRP) for proliferative DR to induce regression of neovascular vessels (by ablating ischemic peripheral retina and reducing VEGF drive); focal or grid laser can be used for focal leaking microaneurysms in DME.",
+    "**Anti-VEGF injections**: intravitreal anti–vascular endothelial growth factor agents (e.g., **ranibizumab**, **bevacizumab**, **aflibercept**) are first-line for **diabetic macular edema** (reduce macular swelling and improve vision) and are also effective alternative therapy for proliferative DR (can cause neovascular regression).",
+    "**Vitrectomy surgery**: indicated for advanced complications – e.g., a non-clearing **vitreous hemorrhage** or a tractional retinal detachment from PDR. Vitrectomy can remove hemorrhagic vitreous and relieve traction to restore some vision."
+  ],
+  "red_flags": [
+    "Any diabetic with **sudden vision loss**, new-onset **floaters**, or a **curtain** falling over vision → urgent evaluation for vitreous hemorrhage or retinal detachment due to proliferative DR (immediate ophthalmology referral).",
+    "Detection of **neovascularization of the iris** (rubeosis iridis) in a diabetic → indicates severe retinal ischemia and high risk for neovascular **glaucoma**; requires prompt treatment (PRP laser) to prevent permanent vision loss and painful glaucoma."
+  ],
+  "algorithm": [
+    "All patients with diabetes → ensure dilated **screening eye exams** at recommended intervals (Type 1 DM: start ~5 years after diagnosis (around age 10 or puberty) and then annually; Type 2 DM: start at diagnosis and annually). Pregnant diabetics need an eye exam early in pregnancy due to rapid DR progression risk.",
+    "If **no retinopathy or mild NPDR** is found → follow-up eye exam in 1 year (or up to 2 years if no DR and good control per some guidelines). Continue optimal glycemic and BP control.",
+    "If **moderate NPDR** (multiple hemorrhages, cotton wool spots) or any **DME** is present → refer to ophthalmology within a few months for closer monitoring. If **severe NPDR or PDR** is identified → refer to a retina specialist **urgently** (within weeks) for possible laser or injection treatment.",
+    "Ophthalmologist performs detailed evaluation (fundus exam, OCT, angiography) and initiates therapy if needed: e.g., **laser photocoagulation** for high-risk PDR or anti-VEGF injections for DME. The eye specialist will schedule more frequent follow-ups (every 3–4 months for active disease) to monitor response.",
+    "Maintain long-term follow-up: even after treatment, diabetic patients require regular eye exams for life. Emphasize patient education on the importance of annual screenings and early treatment to prevent blindness."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Fundus_-_diabetic_retinopathy.png",
+      "alt": "Fundus photograph showing diabetic retinopathy with multiple hard exudates (yellow spots) and microaneurysms/hemorrhages (red dots) in the retina.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Fundus_-_diabetic_retinopathy.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old man with a 15-year history of type 2 diabetes (poorly controlled) is evaluated for gradually worsening vision.",
+      "clues": [
+        "HbA1c is 9.5% (elevated)",
+        "Fundoscopic exam: multiple microaneurysms, dot-blot hemorrhages, and hard exudates",
+        "No evidence of neovascularization"
+      ],
+      "answer": "Nonproliferative diabetic retinopathy",
+      "teaching": "Chronic hyperglycemia has led to retinal capillary damage, causing microaneurysms, hemorrhages, and lipid exudates characteristic of NPDR (background retinopathy). At this stage, vision blurring is due to macular edema. The patient should optimize glycemic and blood pressure control to slow progression, and ophthalmologic treatments (laser or anti-VEGF) can prevent progression to proliferative disease and blindness."
+    }
+  ],
+  "see_also": [
+    "diabetes-mellitus",
+    "cataract",
+    "glaucoma"
+  ],
+  "prerequisites": [
+    "diabetes-mellitus",
+    "retina-anatomy",
+    "microvascular-complications"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Diabetic Retinopathy (Shukla & Tripathy, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560805/"
+    },
+    {
+      "title": "UpToDate: Diabetic retinopathy – screening (2023)",
+      "url": "https://www.uptodate.com/contents/diabetic-retinopathy-screening"
+    },
+    {
+      "title": "Diabetic Retinopathy (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/1225122-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

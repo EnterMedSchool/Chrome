@@ -1,0 +1,110 @@
+{
+  "id": "osteoarthritis",
+  "names": ["Osteoarthritis"],
+  "aliases": ["degenerative joint disease", "osteoarthrosis", "wear-and-tear arthritis"],
+  "abbr": ["OA"],
+  "patterns": ["osteoarthritis", "osteo arthritis", "OA", "degenerative joint disease", "DJD", "osteoarthrosis", "wear and tear arthritis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "pharmacology"],
+  "definition": "Chronic **degenerative** joint disease caused by wear-and-tear **cartilage** loss, resulting in bone spurs (*osteophytes*) and gradual joint destruction.",
+  "why_it_matters": "OA is the **most common form of arthritis** and a leading cause of chronic joint pain and disability in older adults. Med students must recognize it and distinguish it from inflammatory arthritides (like RA) on exams and in practice.",
+  "how_youll_see_it": [
+    "Typically mid-older patients (≥50) with **weight-bearing** joint pain (knees, hips, spine) or hand OA (DIP **Heberden** nodes, PIP **Bouchard** nodes). Pain **worsens with activity** (especially later in the day) and improves with rest.",
+    "**Morning stiffness** is brief (usually **<30 minutes**) – joints \"gel\" after inactivity but loosen up quickly (unlike RA's prolonged stiffness). Patients may report crepitus (a crackling joint sound) and joint stiffness after rest.",
+    "Exam: bony joint enlargements (e.g. **Heberden nodes** at DIP joints), limited range of motion, and **crepitus** on movement. Knees often have a cool effusion; varus or valgus deformity can develop in advanced knee OA.",
+    "Labs are typically normal (OA is non-inflammatory). Radiographs show **joint space narrowing**, **osteophytes**, **subchondral sclerosis**, and subchondral cysts."
+  ],
+  "problem_solving": [
+    "Differentiate OA from **rheumatoid arthritis**: OA pain is mechanical (worse with use), with minimal morning stiffness and **DIP** involvement; RA is inflammatory (better with use) with prolonged stiffness and spares DIPs.",
+    "Confirm suspected OA with a **weight-bearing X-ray** of the joint, which reveals characteristic changes (asymmetric cartilage loss, osteophytes, etc.). Synovial fluid in OA is non-inflammatory (WBC < 2000/mm³).",
+    "Assess **red flags** (fever, redness, rapid onset, unusual age) that suggest alternative diagnoses (infection, crystal arthritis, inflammatory disease) instead of OA.",
+    "Initial management is conservative for all OA patients: exercise (e.g. physical therapy to strengthen muscles around the joint) and **weight loss** if overweight. These lifestyle measures can significantly reduce pain and improve function."
+  ],
+  "differentials": [
+    { "id": "rheumatoid-arthritis", "hint": "chronic **inflammatory** polyarthritis (small joints, symmetric, >30 min morning stiffness)" },
+    { "id": "gout", "hint": "acute intermittent **monoarthritis** (red, extremely tender joint, often great toe); urate crystals" },
+    { "id": "pseudogout", "name": "Pseudogout (CPPD)", "hint": "acute arthritis in older adults, often knee; chondrocalcinosis on X-ray (calcium pyrophosphate crystals)" }
+  ],
+  "tricks": [
+    "X-ray **LOSS** mnemonic for OA: **L**oss of joint space, **O**steophytes, **S**ubchondral sclerosis, **S**ubchondral cysts.",
+    "Heberden nodes (bony bumps at DIP joints) and Bouchard nodes (PIP) are **classic for OA** (absent in RA).",
+    "Think **\"wear and tear\"**: OA risk is increased by age, obesity, and prior joint injury – joints that have endured a lifetime of stress."
+  ],
+  "exam_appearance": [
+    "Overweight 60‑year‑old woman with chronic knee pain that worsens throughout the day and brief morning stiffness → osteoarthritis (degenerative knee arthritis).",
+    "Older patient with hard bony enlargements at DIP and PIP joints (Heberden and Bouchard nodes), hand pain worse with use, and <30 min stiffness → hand OA."
+  ],
+  "treatment": [
+    "**Non-pharmacologic**: First-line is **exercise** (low-impact, plus muscle strengthening) and **weight loss**. Physical therapy and assistive devices (braces, canes) can help offload joints.",
+    "**Analgesics**: Begin with **acetaminophen** for mild pain (safe but modest effect). **NSAIDs** (topical for hand/knee or oral if needed) provide stronger relief but use lowest effective dose and monitor for GI, renal, CV side effects. Topical capsaicin may help in hand OA; **duloxetine** is an option for chronic OA pain in some patients.",
+    "**Injections**: Intra-articular **corticosteroid** injections can give short-term relief for painful flares (especially in knee/hip OA). Limit frequency (e.g. ~3–4 per year per joint). Viscosupplementation with hyaluronic acid injections is used in knee OA, though evidence for benefit is limited.",
+    "**Surgery**: **Joint replacement** (total hip or knee arthroplasty) is highly effective for end-stage OA with severe pain and functional limitation. Consider orthopedic referral when conservative measures no longer maintain quality of life."
+  ],
+  "red_flags": [
+    "Joint is **red, hot, or swollen** or patient has **fever/chills** → not typical for OA; evaluate for **septic arthritis** or crystal arthritis (urgent intervention needed).",
+    "**Extended morning stiffness** (>1 hour), **rapid joint destruction**, or systemic symptoms (fatigue, weight loss) → consider an **inflammatory arthritis** (like RA) or other pathology, not simple OA."
+  ],
+  "algorithm": [
+    "Chronic joint pain in older adult (especially knee, hip, hands) → suspect **osteoarthritis**.",
+    "Evaluate for atypical features: if inflammation signs or unusual presentation, investigate for other diagnoses; otherwise proceed with OA management.",
+    "Obtain X-rays of affected joints to confirm **OA changes** (joint space narrowing, osteophytes) and exclude alternative diagnoses.",
+    "Begin **conservative management** for OA: patient education, exercise program, weight loss, and topical/oral analgesics as needed.",
+    "If pain persists and significantly limits function despite conservative therapy → escalate care (consider corticosteroid injections, and if severe, refer for possible joint **replacement**)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Osteoarthritis_on_X-ray.jpg",
+      "alt": "X-ray of an osteoarthritic knee showing osteophytes (arrow) and joint space narrowing.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Osteoarthritis_on_X-ray.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 62‑year‑old woman with a BMI of 32 presents with chronic right knee pain.",
+      "clues": [
+        "Pain worsens with activity (better with rest)",
+        "Morning stiffness ~15 minutes",
+        "Crepitus and bony tenderness on exam",
+        "Knee X-ray: ↓joint space & osteophytes"
+      ],
+      "answer": "Osteoarthritis of the knee",
+      "teaching": "Age and excess weight predispose to OA (degenerative joint disease). It causes mechanical knee pain with brief stiffness after rest, and X-ray shows classic cartilage loss (joint narrowing) and bone spur formation; exercise, weight loss, and NSAIDs are key treatments."
+    }
+  ],
+  "see_also": [
+    "rheumatoid-arthritis",
+    "gout",
+    "calcium-pyrophosphate-deposition-disease",
+    "ankylosing-spondylitis"
+  ],
+  "prerequisites": ["synovial-joint", "cartilage", "bone"],
+  "sources": [
+    {
+      "title": "StatPearls: Knee Osteoarthritis (Hsu & Siwiec, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507884/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of osteoarthritis (2023)",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-osteoarthritis"
+    },
+    {
+      "title": "ACR Patient Education: Osteoarthritis (Petryna, 2025)",
+      "url": "https://rheumatology.org/patients/osteoarthritis"
+    },
+    {
+      "title": "BMJ: Management of osteoarthritis – summary of NICE guidance (2022)",
+      "url": "https://www.bmj.com/content/378/bmj.o1652"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

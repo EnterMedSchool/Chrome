@@ -1,0 +1,109 @@
+{
+  "id": "carcinoid-syndrome",
+  "names": ["Carcinoid syndrome"],
+  "aliases": ["malignant carcinoid syndrome"],
+  "abbr": [],
+  "patterns": ["carcinoid syndrome", "malignant carcinoid syndrome", "Hedinger syndrome"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "endocrine", "gi", "pulm"],
+  "definition": "Rare paraneoplastic syndrome caused by metastatic **serotonin**-secreting neuroendocrine tumors (carcinoids), typically of midgut origin with liver metastases, leading to episodic flushing, secretory diarrhea, bronchospasm, and fibrotic right-sided heart valve lesions.",
+  "why_it_matters": "Though uncommon, carcinoid syndrome is a classic cause of unexplained flushing and diarrhea. Its presence usually signifies advanced malignancy (often already with liver metastases) and can lead to serious complications like **carcinoid heart disease** (cause of morbidity) and **niacin deficiency**. Early recognition allows for appropriate imaging, somatostatin analog therapy, and possible tumor resection to improve outcomes.",
+  "how_youll_see_it": [
+    "Episodic cutaneous **flushing** of the face/neck (red to violaceous); often triggered by stress, alcohol, or certain foods.",
+    "**Diarrhea** (intermittent, secretory) with abdominal cramping; can lead to electrolyte disturbances and weight loss.",
+    "**Bronchospasm** causing wheezing and dyspnea (asthma-like episodes), often accompanying flushing.",
+    "Fibrosis of the right heart valves (due to serotonin) causing **tricuspid regurgitation** and **pulmonary stenosis** (jugular venous distension, edema); left heart is typically spared (lung metabolism of serotonin).",
+    "Advanced cases: **pellagra** (dermatitis, diarrhea, dementia from niacin deficiency) due to tryptophan being diverted to serotonin."
+  ],
+  "problem_solving": [
+    "Biochemical confirmation: 24-hour urinary **5-HIAA** (serotonin metabolite) is the best initial test (avoid serotonin-rich foods before test); plasma 5-HIAA or serum **chromogranin A** can be supportive.",
+    "Localize the tumor: imaging with contrast **CT/MRI** of the abdomen and somatostatin receptor nuclear scan (octreotide scan or **<sup>68</sup>Ga-DOTATATE** PET) to identify primary lesion and metastases.",
+    "Evaluate extent and complications: perform **echocardiography** to assess carcinoid heart disease if murmurs or symptoms; check vitamin **B3** levels if pellagra signs are present.",
+    "Avoid triggers: counsel on avoiding alcohol and triggering foods (e.g., red wine, chocolate, nuts, cheese) that can precipitate flushing.",
+    "Peri-procedural care: administer prophylactic **octreotide** before anesthesia or invasive procedures to prevent a carcinoid crisis (massive hormone release causing shock)."
+  ],
+  "differentials": [
+    { "id": "vipoma", "name": "VIPoma", "hint": "Pancreatic **VIP**-secreting tumor → watery diarrhea (WDHA syndrome), dehydration, flushing less prominent" },
+    { "id": "pheochromocytoma", "hint": "Episodic spells of headache, sweating, **hypertension**, tachycardia (catecholamine surge) rather than flushing/diarrhea" },
+    { "id": "medullary-thyroid-carcinoma", "name": "Medullary thyroid carcinoma", "hint": "**Calcitonin**-producing thyroid tumor in MEN2 can cause diarrhea/flushing; presents with thyroid nodule, elevated calcitonin" }
+  ],
+  "tricks": [
+    "Classic **rule of thirds** for carcinoid tumors: ~1/3 are multiple, ~1/3 metastasize (and can cause syndrome), and ~1/3 present with a second malignancy.",
+    "**Tryptophan steal**: Excess serotonin production by the tumor depletes tryptophan, leading to niacin (**vitamin B3**) deficiency → **pellagra** (Dermatitis, Diarrhea, Dementia)."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with recurrent **flushing**, wheezing, diarrhea, and a new murmur of tricuspid regurgitation; elevated 5-HIAA levels → **Carcinoid syndrome** from a metastatic small intestinal NET.",
+    "Patient with a history of carcinoid tumor develops a photosensitive rash, glossitis, diarrhea, and mental status changes → niacin deficiency (**pellagra**) due to carcinoid syndrome."
+  ],
+  "treatment": [
+    "Acute carcinoid **crisis** (severe flushing, bronchospasm, hypotension): prompt IV **octreotide** to abort the episode, plus supportive care (fluids, airway support, antihistamines/bronchodilators).",
+    "Chronic management: long-acting **somatostatin analogs** (octreotide, lanreotide) to control hormone secretion and relieve symptoms; add oral **telotristat** (tryptophan hydroxylase inhibitor) if diarrhea remains severe.",
+    "Surgical therapy: resection of primary tumor and metastases when feasible (e.g., remove bowel tumor, hepatic metastasectomy or embolization) offers best chance at symptom control.",
+    "Advanced/metastatic disease: consider **PRRT** (peptide receptor radionuclide therapy with Lutetium-177) for somatostatin receptor–positive tumors; targeted therapies (e.g., everolimus) or interferon-alpha in select cases. Manage complications: replace niacin, and perform valve surgery if heart failure is advanced."
+  ],
+  "red_flags": [
+    "Profound flushing, bronchospasm, and hypotension during surgery or biopsy in a NET patient = **carcinoid crisis** – require emergent octreotide, IV fluids, and pressors to prevent cardiovascular collapse.",
+    "Signs of right-sided heart failure (worsening edema, ascites, neck vein distension) in a carcinoid patient – suggests progressing **carcinoid heart disease**; urgent cardiac evaluation (echo) and consideration of valve replacement."
+  ],
+  "algorithm": [
+    "Episodic flushing + diarrhea + wheezing → suspect carcinoid syndrome.",
+    "Obtain 24h **urine 5-HIAA** test (confirm excess serotonin).",
+    "If 5-HIAA is elevated → perform imaging (CT/MRI) + somatostatin receptor scan to locate tumor and metastases.",
+    "Begin **octreotide** to control symptoms; refer to oncology/surgery for tumor-directed therapy (resection if localized, etc.).",
+    "For any invasive procedure or if high risk, give prophylactic octreotide to prevent crisis; provide niacin supplementation if needed; periodic echocardiograms to monitor heart."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Carcinoid_syndrome_presentation.svg/2250px-Carcinoid_syndrome_presentation.svg.png",
+      "alt": "Diagram of carcinoid syndrome presentation (flushing, diarrhea, bronchospasm, and right heart involvement).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Carcinoid_syndrome_presentation.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old man reports episodes of facial flushing accompanied by wheezing and diarrhea. He also notes worsening ankle swelling. Exam reveals a murmur of tricuspid regurgitation.",
+      "clues": ["Episodic flushing & wheezing", "Chronic secretory diarrhea", "Right-sided valve murmur (TR)", "Elevated 24h urine 5-HIAA"],
+      "answer": "Carcinoid syndrome (metastatic intestinal neuroendocrine tumor)",
+      "teaching": "Serotonin-secreting midgut NET with liver metastases causing classic carcinoid symptoms (flushing, diarrhea, bronchospasm, TR murmur). Confirm with high urine 5-HIAA; treat with octreotide to control symptoms and surgical tumor removal if possible."
+    }
+  ],
+  "see_also": [
+    "zollinger-ellison-syndrome",
+    "lung-neuroendocrine-neoplasms",
+    "diarrhoea",
+    "heart-failure"
+  ],
+  "prerequisites": [
+    "serotonin",
+    "niacin"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Carcinoid Syndrome (Menon et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448096/"
+    },
+    {
+      "title": "UpToDate: Clinical features of carcinoid syndrome",
+      "url": "https://www.uptodate.com/contents/clinical-features-of-carcinoid-syndrome"
+    },
+    {
+      "title": "Malignant Carcinoid Syndrome (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/282515-overview"
+    },
+    {
+      "title": "Carcinoid Syndrome – Mayo Clinic (2023)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/carcinoid-syndrome/symptoms-causes/syc-20370666"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

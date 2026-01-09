@@ -1,0 +1,145 @@
+{
+  "id": "choledocholithiasis",
+  "names": [
+    "Choledocholithiasis"
+  ],
+  "aliases": [
+    "common bile duct stone",
+    "CBD stone",
+    "bile duct stone",
+    "common bile duct stones",
+    "CBD stones"
+  ],
+  "abbr": [
+    "CBD stone"
+  ],
+  "patterns": [
+    "choledocholithiasis",
+    "choledoco lithiasis",
+    "common bile duct stone",
+    "common bile duct stones",
+    "CBD stone",
+    "CBD stones",
+    "bile duct stone",
+    "bile duct stones"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "surgery",
+    "emerg"
+  ],
+  "definition": "Presence of one or more gallstones in the common bile duct (CBD), causing partial or complete biliary obstruction.",
+  "why_it_matters": "Can lead to life-threatening complications like ascending cholangitis (biliary tract infection) or pancreatitis. Common cause of obstructive jaundice on exams, requiring prompt recognition and intervention.",
+  "how_youll_see_it": [
+    "Classic presentation is RUQ pain (biliary colic) plus jaundice. Pain may be intermittent if the stone is moving. Unlike cholecystitis, Murphy's sign is often negative (gallbladder not inflamed). Prolonged obstruction causes cholestatic findings: dark urine, pale stools, and pruritus from bile backup.",
+    "Most patients have a history of cholelithiasis (gallstones) or risk factors (\"4 F's\": female, fat, fertile, forty). Common bile duct stones usually originate in the gallbladder; they can also be found in patients post-cholecystectomy (retained or new stones in the duct).",
+    "A CBD stone can cause ascending cholangitis if infection develops (fever, chills on top of pain/jaundice), or gallstone pancreatitis if it obstructs the pancreatic duct (severe epigastric pain with ↑amylase/lipase)."
+  ],
+  "problem_solving": [
+    "Suspect a CBD stone in a patient with obstructive jaundice (↑direct bilirubin, ↑ALP) especially with known gallstones. Labs typically show a cholestatic pattern: ALP and GGT elevated out of proportion to AST/ALT.",
+    "Initial test: RUQ ultrasound to check for biliary dilation or visible stone. A common duct diameter >6 mm (if gallbladder intact) is suggestive of obstruction; >10 mm can be seen post-cholecystectomy or in older patients.",
+    "If ultrasound is inconclusive but suspicion is moderate/high, obtain MRCP (MR cholangiopancreatography) or an endoscopic ultrasound (EUS) for better stone visualization without intervention.",
+    "For confirmed or high-likelihood choledocholithiasis, proceed to ERCP to remove the stone (endoscopic sphincterotomy and extraction). ERCP serves as definitive diagnosis and treatment, though it carries a risk of post-ERCP pancreatitis.",
+    "If acute cholangitis is suspected (fever, hypotension with obstruction), do not delay for MRCP—start broad IV antibiotics and perform urgent ERCP to decompress the biliary system."
+  ],
+  "differentials": [
+    {
+      "name": "Biliary colic (cholelithiasis)",
+      "hint": "Gallstone in the gallbladder causing transient cystic duct blockage; episodic RUQ pain after fatty meals, no jaundice, normal labs between episodes."
+    },
+    {
+      "id": "acute-cholecystitis",
+      "hint": "Stone impacted in cystic duct with gallbladder inflammation; fever and positive Murphy sign, but typically no jaundice (no common duct obstruction)."
+    },
+    {
+      "id": "acute-pancreatitis",
+      "hint": "Acute pancreatic inflammation (if gallstone-related, often ALT >150); causes epigastric pain radiating to back, ± mild cholestatic lab changes if CBD is obstructed."
+    },
+    {
+      "id": "ascending-cholangitis",
+      "hint": "Infection of the biliary tree due to obstruction (usually a CBD stone); presents with Charcot's triad (fever, RUQ pain, jaundice) and can progress to sepsis."
+    }
+  ],
+  "tricks": [
+    "Painful jaundice (RUQ pain + jaundice) points to a stone obstructing bile flow; painless obstructive jaundice (often with a palpable gallbladder, Courvoisier sign) suggests malignancy (pancreatic head tumor).",
+    "Charcot's triad = fever + RUQ pain + jaundice (ascending cholangitis). Reynolds' pentad = triad + shock + confusion (acute suppurative cholangitis, surgical emergency).",
+    "In acute pancreatitis, an ALT >3× normal (~>150 U/L) strongly suggests gallstone pancreatitis (CBD stone at ampulla of Vater)."
+  ],
+  "exam_appearance": [
+    "Obese 50‑year‑old woman with episodic RUQ pain and scleral icterus; labs show ↑ALP and direct bilirubin; ultrasound finds a dilated common bile duct but no gallstones in the gallbladder → choledocholithiasis (CBD stone).",
+    "Patient with high fever, RUQ pain, and jaundice becomes hypotensive and confused → ascending cholangitis from a CBD stone (Reynolds pentad, urgent ERCP indicated).",
+    "Patient with acute pancreatitis (severe epigastric pain, ↑amylase/lipase) and an ALT >150 U/L → gallstone pancreatitis due to a stone obstructing the ampulla."
+  ],
+  "treatment": [
+    "ERCP (endoscopic retrograde cholangiopancreatography) with sphincterotomy and stone extraction is the first-line treatment for removing CBD stones. If ERCP is unavailable or unsuccessful, options include percutaneous or surgical bile duct clearance.",
+    "After the duct is cleared, perform a cholecystectomy (if the gallbladder is still present) to prevent recurrence. Ideally this is done in the same hospital admission, especially in cases of gallstone pancreatitis.",
+    "If ascending cholangitis is present, initiate broad-spectrum IV antibiotics (covering gram-negatives and anaerobes) and perform urgent biliary decompression (usually via ERCP). In gallstone pancreatitis, manage pancreatitis supportively and do ERCP urgently only if there's cholangitis or persistent obstruction."
+  ],
+  "red_flags": [
+    "Charcot's triad (fever + RUQ pain + jaundice) or especially Reynolds' pentad (adds hypotension and confusion) indicates ascending cholangitis → requires emergent IV antibiotics and biliary drainage (urgent ERCP)."
+  ],
+  "algorithm": [
+    "Suspected choledocholithiasis (cholestatic LFTs, jaundice ± gallstone history) → get RUQ ultrasound.",
+    "If stone seen on imaging or high risk features (e.g. cholangitis, bilirubin >4 mg/dL, duct >6 mm) → go straight to ERCP for stone removal.",
+    "If intermediate risk (suggestive labs or duct dilation without definitive stone) → confirm with MRCP or EUS before intervention.",
+    "If stone is confirmed or cholangitis present → perform ERCP to extract stone and relieve obstruction.",
+    "After recovery, do cholecystectomy if indicated (to prevent future stones)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ultrasound_of_stone_within_the_distal_common_bile_duct.jpg",
+      "alt": "Ultrasound images showing a dilated common bile duct with a 0.9 cm stone in the distal CBD (stone labeled on right).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ultrasound_of_stone_within_the_distal_common_bile_duct.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 44‑year‑old woman with a history of gallstones presents with 2 days of fever, abdominal pain, and yellowing of her eyes and skin.",
+      "clues": [
+        "T 39°C, BP 90/60, HR 120 (fever with hypotension, tachycardia)",
+        "Severe RUQ abdominal tenderness",
+        "Scleral icterus (jaundiced eyes)",
+        "Labs: ALP and direct bilirubin markedly elevated"
+      ],
+      "answer": "Ascending cholangitis (from choledocholithiasis)",
+      "teaching": "A CBD stone has led to biliary stasis and infection (ascending cholangitis). The classic Charcot's triad is present (fever, RUQ pain, jaundice) with hypotension signaling severe illness. This is a life-threatening emergency requiring IV antibiotics and urgent ERCP to remove the stone and decompress the biliary tree."
+    }
+  ],
+  "see_also": [
+    "gallstones",
+    "acute-cholecystitis",
+    "charcot-triad",
+    "acute-pancreatitis",
+    "chronic-cholecystitis"
+  ],
+  "prerequisites": [
+    "cholelithiasis"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Choledocholithiasis (Clinical manifestations, diagnosis, and management)",
+      "url": "https://www.uptodate.com/contents/choledocholithiasis-clinical-manifestations-diagnosis-and-management"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21e (2022): Disorders of the Gallbladder and Bile Ducts",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=1130&sectionid=79752366"
+    },
+    {
+      "title": "ASGE guideline: Role of endoscopy in choledocholithiasis (Gastrointest Endosc, 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30979521/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

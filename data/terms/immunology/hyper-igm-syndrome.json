@@ -1,0 +1,142 @@
+{
+  "id": "hyper-igm-syndrome",
+  "names": [
+    "Hyper IgM syndrome"
+  ],
+  "aliases": [
+    "Hyperimmunoglobulin M syndrome"
+  ],
+  "abbr": [
+    "HIGM",
+    "HIGMS"
+  ],
+  "patterns": [
+    "hyper igm syndrome",
+    "hyper-igm syndrome",
+    "hyper igm",
+    "higm",
+    "hyperimmunoglobulin m syndrome",
+    "hyperimmunoglobulin m"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "immunology",
+    "peds",
+    "pathology"
+  ],
+  "definition": "Primary immunodeficiency where B cells cannot class-switch, leading to normal or elevated **IgM** but very low **IgG**, **IgA**, **IgE** levels.",
+  "why_it_matters": "Leads to severe, often life-threatening infections in infancy (including opportunistic infections like **Pneumocystis pneumonia**). Highlights the critical role of T–B cell interactions (the CD40–CD40L handshake) in immune function and is a classic high-yield immunodeficiency.",
+  "how_youll_see_it": [
+    "Usually presents in early childhood with recurrent **sinopulmonary infections** (e.g., otitis media, pneumonia) once maternal IgG wanes, often accompanied by poor growth (failure to thrive).",
+    "Opportunistic infections are a hallmark: infants may develop **Pneumocystis jirovecii** pneumonia and chronic **Cryptosporidium** diarrhea (which can lead to cholangitis).",
+    "**Neutropenia** is common in X-linked HIGM, causing mouth ulcers and skin infections. Lymphoid tissues (tonsils, lymph nodes) are often diminished due to lack of germinal centers in CD40L deficiency."
+  ],
+  "problem_solving": [
+    "Measure immunoglobulin levels in any infant with recurrent infections: **high IgM** coupled with **low IgG/IgA** is the diagnostic pattern for Hyper IgM syndrome.",
+    "Confirm the cause by checking **CD40 ligand (CD40L)** expression on T cells (flow cytometry) and genetic testing. An absent CD40L in a boy indicates the X-linked form; other gene defects (AID, CD40) cause rare autosomal recessive forms.",
+    "Differentiate from other immunodeficiencies: **X-linked agammaglobulinemia** has low Ig of all types and absent B cells (vs. normal B cells and IgM in HIGM); **SCID** presents earlier with even more profound T-cell dysfunction (e.g., severe viral/fungal infections); **CVID** presents later in life.",
+    "Poor vaccine responses (due to inability to class-switch and form IgG antibodies) and lack of germinal centers on lymphoid biopsy are clues pointing to hyper IgM (especially the X-linked CD40L form).",
+    "Determine inheritance: X-linked HIGM (CD40L gene mutation) accounts for ~70% of cases and affects only boys. Autosomal recessive types (e.g., **AID** or **CD40** mutations) affect both sexes and can show extremely high IgM with enlarged lymphoid tissues."
+  ],
+  "differentials": [
+    {
+      "id": "severe-combined-immunodeficiency",
+      "hint": "combined T- and B-cell defect; presents in neonates with all types of infections (viral, fungal, PCP, FTT)"
+    },
+    {
+      "id": "common-variable-immunodeficiency",
+      "hint": "later onset (teens/adults) with low IgG/A but normal or low IgM; no opportunistic infections in infancy"
+    },
+    {
+      "id": "selective-iga-deficiency",
+      "hint": "IgA only is low; usually mild (sinopulmonary and GI infections, but normal IgG/IgM)"
+    },
+    {
+      "id": "x-linked-agammaglobulinemia",
+      "hint": "Bruton disease – no B cells or Ig of any class; recurrent bacterial infections after 6mo, but no PCP"
+    }
+  ],
+  "tricks": [
+    "Think **M for Male** and **M for IgM**: the most common HIGM is X-linked (affecting boys) and features high IgM with other isotypes Missing.",
+    "No **CD40L–CD40** handshake: without T-cell CD40 ligand, B cells never get the class-switch signal, so they remain stuck making IgM."
+  ],
+  "exam_appearance": [
+    "Infant boy with recurrent ear infections, **Pneumocystis pneumonia**, and extremely low IgG/IgA but high IgM levels → X-linked Hyper IgM syndrome.",
+    "Toddler with chronic **Cryptosporidium** diarrhea leading to cholangitis, found to have high IgM and low IgG/A levels → Hyper IgM immunodeficiency."
+  ],
+  "treatment": [
+    "**IVIG** (intravenous Ig) replacement therapy to supply missing IgG and reduce infections.",
+    "**Antimicrobial prophylaxis**: e.g., daily **TMP-SMX** to prevent Pneumocystis pneumonia (especially in CD40L deficiency); plus precautions to avoid Cryptosporidium (boiled water, etc).",
+    "**Hematopoietic stem cell transplant** (bone marrow transplant) offers a potential cure and is recommended if an appropriate donor is available.",
+    "Treat neutropenia with **G-CSF** (filgrastim) if severe."
+  ],
+  "red_flags": [
+    "**Pneumocystis jirovecii** pneumonia in an infant (unusual outside HIV/immunodeficiency) → evaluate for Hyper IgM or SCID.",
+    "Recurrent severe bacterial infections starting at ~6–12 months old (after maternal IgG wanes) → suspect a primary immunodeficiency (like HIGM)."
+  ],
+  "algorithm": [
+    "Recurrent infections in infancy (esp. with opportunistic pathogens) → suspect primary immunodeficiency.",
+    "Obtain quantitative immunoglobulin levels (IgG, IgA, IgM).",
+    "If **IgM high** with **IgG/IgA low** → likely **Hyper IgM syndrome**.",
+    "Confirm with CD40L protein testing and genetic analysis (to identify X-linked vs AR type).",
+    "Initiate therapy: IVIG infusions, antimicrobial prophylaxis (e.g., TMP-SMX), and refer for possible HSCT."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Class_switch_recombination-en.svg/1014px-Class_switch_recombination-en.svg.png",
+      "alt": "Diagram of immunoglobulin class switch recombination (how a B cell switches from IgM to IgG production).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Class_switch_recombination-en.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 1-year-old boy with a history of recurrent ear infections and pneumonia is evaluated for hypoxia and failure to thrive.",
+      "clues": [
+        "Chest X-ray reveals bilateral interstitial infiltrates; bronchoalveolar lavage confirms Pneumocystis jirovecii",
+        "Lab tests: IgM is elevated; IgG and IgA levels are extremely low",
+        "Lymph node biopsy shows absence of germinal centers"
+      ],
+      "answer": "Hyper IgM syndrome (X-linked CD40L deficiency)",
+      "teaching": "A defect in T-cell CD40 ligand prevents B-cell class switching, so the patient makes IgM but cannot produce IgG/A/E. This leads to early life-threatening infections like PCP. Treatment would include IVIG and possibly a bone marrow transplant."
+    }
+  ],
+  "see_also": [
+    "severe-combined-immunodeficiency",
+    "common-variable-immunodeficiency",
+    "x-linked-agammaglobulinemia"
+  ],
+  "prerequisites": [
+    "immunoglobulins",
+    "t-cell",
+    "b-cell"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Hyperimmunoglobulin M syndromes (Feb 2025)",
+      "url": "https://www.uptodate.com/contents/hyperimmunoglobulin-m-syndromes"
+    },
+    {
+      "title": "Merck Manual Professional: Hyper-IgM syndrome (Fernandez & Mandell, rev. 2024)",
+      "url": "https://www.merckmanuals.com/professional/immunology-allergic-disorders/immunodeficiency-disorders/hyper-igm-syndrome"
+    },
+    {
+      "title": "MedlinePlus Genetics: X-linked hyper IgM syndrome (NLM, 2023)",
+      "url": "https://medlineplus.gov/genetics/condition/x-linked-hyper-igm-syndrome/"
+    },
+    {
+      "title": "Immune Deficiency Foundation: Hyper IgM Syndromes (IDF, 2019)",
+      "url": "https://primaryimmune.org/understanding-primary-immunodeficiency/types-of-pi/hyper-igm-syndromes-higm"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "allergic-rhinitis",
+  "names": [
+    "Allergic rhinitis"
+  ],
+  "aliases": [
+    "hay fever",
+    "allergic rhinoconjunctivitis",
+    "seasonal allergies"
+  ],
+  "abbr": [
+    "AR"
+  ],
+  "patterns": [
+    "allergic rhinitis",
+    "hay fever",
+    "allergic rhinoconjunctivitis",
+    "seasonal allergies",
+    "seasonal allergic rhinitis",
+    "perennial allergic rhinitis"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "pathology",
+    "immunology",
+    "pulm",
+    "peds"
+  ],
+  "definition": "Allergic inflammation of the nasal mucosa caused by an IgE-mediated reaction to environmental allergens (e.g., pollen, dust mites), leading to **sneezing**, nasal congestion, and **rhinorrhea**.",
+  "why_it_matters": "Very common (~10–30% of the population) and often coexists with other atopic conditions like **asthma** (unified airway concept). Often trivialized as 'hay fever', it can still cause significant quality-of-life and productivity loss (sleep disruption, missed work/school), and ~1 in 10 patients with allergic rhinitis develop asthma.",
+  "how_youll_see_it": [
+    "Episodes of **sneezing**, clear rhinorrhea, nasal congestion, and itchy nose/eyes (often with allergic conjunctivitis). Symptoms may be intermittent or persistent, depending on exposure.",
+    "**Seasonal** pattern (hay fever): symptoms flare during specific pollen seasons (spring trees, summer grasses, fall weeds). **Perennial** pattern: year-round mild symptoms triggered by indoor allergens like dust mites, pet dander, mold, or cockroaches.",
+    "Physical exam: swollen, **boggy** (pale bluish) nasal turbinates with clear discharge. May see **allergic shiners** (dark circles under eyes) and a transverse nasal crease from frequent nose rubbing (allergic salute). Patients often have other atopic diseases (asthma, eczema)."
+  ],
+  "problem_solving": [
+    "Differentiate allergic from other rhinitis: allergies usually have **itching** and sneezing with identifiable triggers and positive tests, whereas viral rhinitis (common cold) is acute (<10 days) with fever, and vasomotor rhinitis has irritant triggers and no itching.",
+    "Diagnosis is typically **clinical**. If history and exam strongly suggest AR, start empiric therapy without extensive testing. If patient doesn't improve or diagnosis is unclear, perform allergy testing: skin **prick** tests (preferred for quick results and sensitivity) or serum IgE immunoassays.",
+    "Always inspect the nasal cavity for **polyps** or anomalies. Multiple polyps in a child → think cystic fibrosis. Unilateral congestion or bleeding is not typical for allergies – consider a foreign body or tumor.",
+    "Imaging (sinus X-ray/CT) isn't routinely indicated for uncomplicated AR. Reserve imaging for suspected sinusitis or structural issues."
+  ],
+  "differentials": [
+    {
+      "name": "Viral rhinitis (common cold)",
+      "hint": "acute <10-day URI with fever, malaise, **purulent** discharge (if bacterial superinfection)"
+    },
+    {
+      "name": "Non-allergic (vasomotor) rhinitis",
+      "hint": "chronic nasal congestion triggered by irritants (smoke, perfume, weather changes); negative allergy tests"
+    },
+    {
+      "name": "Sinusitis (rhinosinusitis)",
+      "hint": "**Facial pain**, headaches, and purulent nasal drainage; often post-viral or in setting of uncontrolled allergic rhinitis"
+    }
+  ],
+  "tricks": [
+    "Kids with allergies often develop a horizontal nasal crease from the habitual allergic salute (frequently rubbing the itchy nose upward).",
+    "Pale, **boggy** nasal mucosa = allergy (IgE) rhinitis, whereas red, inflamed nasal mucosa is more suggestive of viral infection.",
+    "**Atopic triad**: patients with allergic rhinitis often also have asthma and eczema (atopic dermatitis)."
+  ],
+  "exam_appearance": [
+    "Young adult with watery eyes, repetitive sneezing each spring, and pale boggy nasal turbinates → seasonal allergic rhinitis (pollen allergy).",
+    "Child with year-round stuffy nose, mouth breathing, allergic shiners, and a nasal crease on exam → perennial allergic rhinitis (dust mite allergy)."
+  ],
+  "treatment": [
+    "Allergen **avoidance**: reduce exposure (use dust mite–proof covers, keep pets out of bedroom, monitor pollen counts and keep windows closed during high pollen days).",
+    "First-line: daily **intranasal corticosteroid** spray (e.g., fluticasone) for maximal relief of nasal inflammation and congestion.",
+    "Adjuncts: oral or intranasal **antihistamines** (e.g., cetirizine or azelastine) for sneezing/itching; decongestants (pseudoephedrine, or oxymetazoline <3 days) for congestion; add **montelukast** (leukotriene modifier) in refractory cases or if coexisting asthma.",
+    "**Immunotherapy** (allergy shots or SLIT tablets) for severe or refractory cases – desensitizes the immune system to specific allergens over time and can markedly reduce symptoms."
+  ],
+  "red_flags": [
+    "**Nasal polyps**: in children, strongly consider cystic fibrosis if multiple polyps are present; in adults, nasal polyps + asthma + aspirin sensitivity suggests aspirin-exacerbated respiratory disease.",
+    "**Unilateral** symptoms (one-sided obstruction, chronic bloody discharge, foul odor) are atypical for allergies – evaluate for a structural lesion or foreign body.",
+    "Chronic uncontrolled AR can lead to **sinusitis** (e.g., facial pain, purulent discharge) or otitis media due to eustachian tube dysfunction. New fever or sinus tenderness should prompt evaluation for infection."
+  ],
+  "algorithm": [
+    "Recurrent sneezing, clear runny nose, and nasal congestion especially with specific exposures or seasons → suspect **allergic rhinitis**.",
+    "Evaluate history & exam: note any seasonal patterns, identifiable triggers, or personal/family history of atopy (asthma, eczema). On exam, look for pale boggy turbinates or allergic shiners. Rule out viral URI (short duration, fever) and non-allergic rhinitis (irritant triggers, no itching).",
+    "If AR is likely, begin empiric management: intranasal steroid spray and allergen avoidance measures. Improvement of symptoms with therapy supports the diagnosis.",
+    "If poor response or uncertain diagnosis, perform allergy testing: **skin prick testing** (immediate results, high sensitivity) or serum allergen-specific IgE levels.",
+    "Use results to guide treatment: reinforce avoidance of identified allergens; consider **allergen immunotherapy** for long-term relief in moderate-severe cases; and monitor for complications (sinusitis, asthma) requiring additional care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Blausen_0015_AllergicRhinitis.png",
+      "alt": "Illustration of allergic rhinitis (nasal mucosal inflammation due to allergens).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0015_AllergicRhinitis.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19-year-old college student with a history of eczema has 'cold-like' symptoms every spring and fall.",
+      "clues": [
+        "Sneezing and clear runny nose for weeks each season",
+        "Itchy, watery eyes during peak pollen times",
+        "Symptoms improve indoors and worsen outdoors",
+        "History of atopic dermatitis (eczema)"
+      ],
+      "answer": "Allergic rhinitis (seasonal hay fever)",
+      "teaching": "Seasonal pattern of sneezing, rhinorrhea, and itchy eyes in an atopic patient points to allergic rhinitis (hay fever). This is an IgE-mediated reaction to airborne pollens; management includes allergen avoidance and first-line intranasal corticosteroids for symptom control."
+    }
+  ],
+  "see_also": [
+    "asthma",
+    "atopic-dermatitis",
+    "rhinosinusitis"
+  ],
+  "prerequisites": [
+    "hypersensitivity-type-i",
+    "immunoglobulin-e",
+    "mast-cells"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Allergic Rhinitis (Akhouri & House, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538186/"
+    },
+    {
+      "title": "AAAAI: Rhinitis (Hay Fever) - Conditions Library",
+      "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/rhinitis-(hay-fever)"
+    },
+    {
+      "title": "Am Fam Physician: Allergic Rhinitis – Rapid Evidence Review (2023)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2023/0500/allergic-rhinitis.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

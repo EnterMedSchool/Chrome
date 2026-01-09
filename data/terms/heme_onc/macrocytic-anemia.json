@@ -1,0 +1,149 @@
+{
+  "id": "macrocytic-anemia",
+  "names": [
+    "Macrocytic anemia"
+  ],
+  "aliases": [
+    "megaloblastic anemia",
+    "macrocytosis",
+    "macrocytic anaemia"
+  ],
+  "abbr": [],
+  "patterns": [
+    "macrocytic anemia",
+    "macrocytic anaemia",
+    "megaloblastic anemia",
+    "macrocytosis",
+    "MCV > 100"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "lab"
+  ],
+  "definition": "Anemia with macrocytosis (MCV > 100 fL). Subclassified into megaloblastic (impaired DNA synthesis, e.g. vitamin B12 or folate deficiency) and non‑megaloblastic (no DNA synthesis problem, e.g. liver disease, alcohol use).",
+  "why_it_matters": "Macrocytosis is a common clue to underlying illness in adults (especially older patients). Treatable causes like B12/folate deficiency must be identified early (to prevent irreversible neurologic damage in B12 deficiency). Macrocytic anemias are frequently tested on exams (e.g., distinguishing B12 vs folate deficiency, or recognizing non-megaloblastic causes).",
+  "how_youll_see_it": [
+    "Vitamin B12 deficiency: older adult (often pernicious anemia) or strict vegan with anemia (fatigue, pallor), glossitis (inflamed tongue), and neurologic symptoms (paresthesias, gait instability, memory loss).",
+    "Folate deficiency: malnourished (e.g., chronic alcohol use) or pregnant patient with macrocytic anemia (fatigue) and glossitis but no neurologic symptoms (folate deficiency does not cause nerve damage).",
+    "Non-megaloblastic macrocytosis: chronic alcoholism, liver disease, or hypothyroidism causing macrocytosis with mild anemia; peripheral smear shows large RBCs without hypersegmented neutrophils.",
+    "Older patient with macrocytic anemia + leukopenia and thrombocytopenia → suspect myelodysplastic syndrome (MDS) (bone marrow disorder)."
+  ],
+  "problem_solving": [
+    "Check reticulocyte count: a high retic count can cause macrocytosis (reticulocytes are larger; consider hemolysis or recent hemorrhage).",
+    "Examine the peripheral smear: hypersegmented neutrophils (≥6 lobes) indicate a megaloblastic process.",
+    "Measure vitamin B12 and folate levels (consider methylmalonic acid to distinguish ambiguous cases). If either is low, identify the cause (e.g., pernicious anemia, malabsorption, dietary intake) and begin replacement therapy.",
+    "If B12/folate levels are normal (or smear is non-megaloblastic): test TSH (for hypothyroidism) and liver enzymes (for liver disease), review medications (e.g., methotrexate, hydroxyurea, zidovudine can cause macrocytosis) and assess alcohol use.",
+    "If no cause is found or cytopenias are present, refer for bone marrow evaluation to rule out MDS or other marrow pathology."
+  ],
+  "differentials": [
+    {
+      "name": "Iron deficiency anemia",
+      "hint": "Microcytic anemia (low MCV) from chronic blood loss or poor intake; low ferritin, no macro-ovalocytes."
+    },
+    {
+      "name": "Hemolytic anemia (reticulocytosis)",
+      "hint": "High reticulocytes can raise MCV; look for jaundice, high LDH, elevated indirect bilirubin instead of megaloblastic changes."
+    },
+    {
+      "name": "Myelodysplastic syndrome",
+      "hint": "Macrocytic anemia with possible neutropenia/thrombocytopenia; bone marrow shows dysplasia (not due to B12/folate deficiency)."
+    }
+  ],
+  "tricks": [
+    "Only vitamin B12 deficiency causes neurologic symptoms (e.g., dorsal column damage leading to subacute combined degeneration); folate deficiency does not.",
+    "Homocysteine levels are elevated in both B12 and folate deficiency, but methylmalonic acid is elevated only in B12 deficiency (useful for differentiation).",
+    "Replenishing B12 in severely deficient patients can cause hypokalemia due to new RBC synthesis—monitor potassium during initial therapy."
+  ],
+  "exam_appearance": [
+    "Older adult with anemia, glossitis, and peripheral neuropathy (loss of position sense) → Vitamin B12 deficiency (pernicious anemia).",
+    "Chronic alcoholic with poor diet — macrocytic anemia, hypersegmented neutrophils, no neurologic signs → Folate deficiency megaloblastic anemia.",
+    "68‑year‑old with anemia and pancytopenia (low WBC, low platelets); B12 and folate levels normal → Myelodysplastic syndrome (macrocytic anemia from bone marrow failure)."
+  ],
+  "treatment": [
+    "Replace the deficient vitamin: lifelong vitamin B12 injections (IM cyanocobalamin) for pernicious anemia or severe deficiency; oral high-dose B12 for mild dietary cases. Folic acid supplementation for folate deficiency (e.g., in alcohol use or pregnancy). Always correct B12 before folate if both are low.",
+    "Address underlying causes: improve nutrition (dietary counseling, limit alcohol), discontinue or adjust offending medications (or add leucovorin rescue with methotrexate). Treat hypothyroidism with levothyroxine if contributing. In pregnancy, ensure folic acid supplementation to prevent neural tube defects.",
+    "If due to MDS or other bone marrow disorders: hematology referral for possible supportive care (transfusions, erythropoiesis-stimulating agents) or definitive therapy such as hypomethylating agents or stem cell transplant, depending on severity."
+  ],
+  "red_flags": [
+    "Macrocytic anemia with neurologic symptoms (ataxia, numbness) → urgent evaluation for B12 deficiency; untreated B12 deficiency can lead to irreversible nerve damage.",
+    "Macrocytosis accompanied by pancytopenia (low WBC and platelets) → consider bone marrow failure (MDS or acute leukemia) rather than simple vitamin deficiency."
+  ],
+  "algorithm": [
+    "CBC shows anemia with MCV > 100 → macrocytic anemia suspected.",
+    "Review reticulocyte count: if high, investigate causes of hemolysis or recovery from bleeding (reticulocyte-driven macrocytosis).",
+    "If retic count is normal/low: perform peripheral blood smear. Presence of hypersegmented neutrophils → megaloblastic process likely.",
+    "Check serum B12 and folate levels. If low, confirm deficiency (e.g., methylmalonic acid for B12) and initiate appropriate vitamin replacement.",
+    "If B12/folate are normal (and no hypersegmented neutrophils): check TSH and LFTs for other causes; review patient's medications and alcohol use. Persistently unexplained macrocytic anemia warrants bone marrow biopsy to evaluate for MDS."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Macrocytes.jpg",
+      "alt": "Peripheral blood smear with macrocytosis: red blood cells are larger than normal (macrocytes).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Macrocytes.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 62‑year‑old woman with vitiligo and diabetes presents with fatigue and numbness in her feet.",
+      "clues": [
+        "Smooth red tongue (glossitis)",
+        "Loss of vibration sense in feet",
+        "Hb 8.5 g/dL, MCV 120 fL",
+        "Positive anti–intrinsic factor antibodies"
+      ],
+      "answer": "Vitamin B12 deficiency (pernicious anemia)",
+      "teaching": "Autoimmune pernicious anemia causes malabsorption of B12, leading to megaloblastic anemia and neurologic dysfunction (demyelination of dorsal columns). Treatment is lifelong B12 injections, which can reverse anemia and prevent further nerve damage."
+    },
+    {
+      "stem": "A 45‑year‑old man with chronic alcoholism is evaluated for fatigue and poor appetite.",
+      "clues": [
+        "Diet consists mostly of beer, very little food",
+        "Macro-ovalocytes and hypersegmented neutrophils on smear",
+        "No neurologic deficits on exam",
+        "Low serum folate, normal B12 level"
+      ],
+      "answer": "Folate deficiency megaloblastic anemia",
+      "teaching": "Alcoholism commonly leads to folate deficiency due to poor intake and malabsorption, resulting in macrocytic megaloblastic anemia. Unlike B12 deficiency, folate deficiency does not cause neuropathy. Treatment is oral folic acid and addressing the patient's alcohol use."
+    }
+  ],
+  "see_also": [
+    "beriberi",
+    "pellagra",
+    "scurvy",
+    "thalassemia-syndromes",
+    "sickle-cell-anemia"
+  ],
+  "prerequisites": [
+    "hematopoiesis",
+    "vitamin-b12",
+    "folate-metabolism",
+    "anemia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Macrocytic Anemia (Killeen & Adil, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459295/"
+    },
+    {
+      "title": "UpToDate: Macrocytosis/Macrocytic anemia",
+      "url": "https://www.uptodate.com/contents/macrocytosis-macrocytic-anemia"
+    },
+    {
+      "title": "Macrocytosis (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/203858-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

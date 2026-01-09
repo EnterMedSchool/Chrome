@@ -1,0 +1,114 @@
+{
+  "id": "diphtheria",
+  "names": ["Diphtheria"],
+  "aliases": ["Corynebacterium diphtheriae infection", "diphtheritic pharyngitis"],
+  "abbr": [],
+  "patterns": ["diphtheria", "diptheria", "corynebacterium diphtheriae", "c. diphtheriae", "diphtheritic pharyngitis"],
+  "primary_tag": "infectious_dz",
+  "tags": ["micro_bacteria", "infectious_dz", "peds", "pathology"],
+  "definition": "Acute infection by toxin-producing **Corynebacterium diphtheriae** affecting the respiratory tract (or skin). It causes a tough **pseudomembrane** on mucous membranes and can lead to life-threatening systemic toxin effects (notably **myocarditis** and neuropathy).",
+  "why_it_matters": "Often fatal if untreated (up to ~30% in unvaccinated). Historically a major childhood killer before vaccines, it is now rare but outbreaks occur with low immunization coverage. Rapid recognition and **antitoxin** treatment are critical, making diphtheria a classic exam topic in infectious disease and public health.",
+  "how_youll_see_it": [
+    "Classic **respiratory diphtheria** – Unimmunized patient with a gradually worsening sore throat, low-grade fever, and a **gray, adherent pseudomembrane** on the tonsils/pharynx. Neck swelling (**bull neck**) from cervical lymphadenopathy and edema is seen in severe cases, and airway obstruction (stridor) can occur.",
+    "**Cutaneous diphtheria** – Infection of the skin at a wound or ulcer, causing a chronic, non-healing **ulcer** with a dirty gray membrane. Typically seen in unhygienic or immunocompromised settings; usually localized with mild systemic symptoms.",
+    "**Systemic complications** – After a few days to weeks, the diphtheria **exotoxin** can disseminate and damage distant organs. Look for **myocarditis** (arrhythmias, heart failure) and **peripheral neuropathy** (e.g. **palatal paralysis**, cranial nerve palsies) in severe cases."
+  ],
+  "problem_solving": [
+    "If diphtheria is suspected, **do not wait** for lab confirmation – begin antitoxin therapy right away.",
+    "Obtain swabs from the throat (or wound) **before starting antibiotics** for culture on special media (e.g., cystine-tellurite agar shows characteristic black colonies of *C. diphtheriae*).",
+    "Confirm toxigenicity of the isolate with the **Elek test** (in vitro toxin assay) or PCR for the toxin gene.",
+    "A firmly attached **gray membrane** in the throat that **bleeds** when scraped is a diagnostic clue pointing to diphtheria."
+  ],
+  "differentials": [
+    { "name": "Streptococcal pharyngitis", "hint": "exudative tonsillitis (white patches), high fever, tender nodes, but **no pseudomembrane or toxin**" },
+    { "name": "Epiglottitis", "hint": "acute onset, **drooling**, stridor, \"thumbprint\" sign on x-ray; no pharyngeal membrane (infection of epiglottis, often *Hib*)"},
+    { "name": "Oral candidiasis (thrush)", "hint": "white plaques in mouth/throat that **scrape off easily**; common in infants or immunocompromised patients" }
+  ],
+  "tricks": [
+    "Gray **pseudomembrane** firmly adherent to the throat and bleeding if scraped = hallmark of diphtheria (unlike thrush, which is easily removable).",
+    "**Bull neck** describes the massive neck swelling in severe diphtheria due to lymphadenopathy and edema.",
+    "Mnemonic **ABCDEFG** for diphtheria toxin – **A**DP-ribosylation (of EF-2) by **B**eta-prophage gene in **C**orynebacterium **D**iphtheriae leads to **E**longation **F**actor-2 inhibition and **G**ranules (blue-red metachromatic granules on Löffler medium)."
+  ],
+  "exam_appearance": [
+    "Unvaccinated child with fever, sore throat, a **gray leathery membrane** on the tonsils, and neck swelling (bull neck) → Diphtheria (respiratory infection).",
+    "Patient recovering from a severe throat infection now develops arrhythmia and heart failure → **myocarditis** from diphtheria toxin.",
+    "Homeless patient with a chronic non-healing leg ulcer covered by a gray membrane but minimal systemic illness → **cutaneous diphtheria**."
+  ],
+  "treatment": [
+    "**Diphtheria antitoxin** (horse serum) – administer immediately if diphtheria is suspected (neutralizes circulating toxin; perform a test dose to check for hypersensitivity).",
+    "**Antibiotics** – give erythromycin (preferred) or intramuscular penicillin G for ~14 days to eradicate *C. diphtheriae* (also give antibiotic prophylaxis to close contacts).",
+    "**Isolation & notification** – isolate the patient under droplet precautions until 2 consecutive cultures (after antibiotics) are negative; notify public health authorities to facilitate contact tracing and quarantine.",
+    "**Supportive care** – secure the airway (pseudomembranes may require careful endoscopic removal if causing obstruction) and monitor in ICU for cardiac arrhythmias or respiratory failure. After recovery, ensure the patient is **vaccinated** (infection does not confer reliable immunity)."
+  ],
+  "red_flags": [
+    "Extensive **bull neck** swelling with stridor or respiratory distress – indicates impending airway obstruction (emergency intervention needed).",
+    "Evidence of **toxin spread**: new-onset arrhythmias, heart block or heart failure (myocarditis), or cranial nerve palsies and paralysis (neuritis) – signal severe diphtheria (high mortality, ICU care needed)."
+  ],
+  "algorithm": [
+    "Unvaccinated person with sore throat + pseudomembrane → **suspect diphtheria** (clinical diagnosis).",
+    "If suspected, **administer antitoxin immediately** – do not wait for lab results.",
+    "Secure airway as needed; obtain throat (or lesion) swabs for culture and toxin testing (Elek test or PCR).",
+    "Start **antibiotics** (erythromycin or penicillin) and maintain **droplet isolation** precautions.",
+    "Report the case to public health; give close contacts prophylactic antibiotics and booster vaccine; once recovered, update the patient's diphtheria immunizations."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg",
+      "alt": "Dirty white pseudomembrane on the tonsils in diphtheria.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Dirty_white_pseudomembrane_classically_seen_in_diphtheria_2013-07-06_11-07.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 5‑year‑old boy with no immunizations presents with a 3-day history of sore throat and fever.",
+      "clues": [
+        "Gray, adherent membrane over the tonsils",
+        "Neck swelling with tender cervical lymph nodes",
+        "Inspiratory stridor and difficulty breathing"
+      ],
+      "answer": "Diphtheria (respiratory)",
+      "teaching": "An unimmunized child with pharyngitis, a tough gray tonsillar pseudomembrane, and bull neck swelling is classic for diphtheria. Treatment is urgent antitoxin plus antibiotics, and prevention is via routine DTaP vaccination."
+    },
+    {
+      "stem": "A 45‑year‑old homeless man has a chronic non-healing sore on his lower leg.",
+      "clues": [
+        "Shallow skin ulcer with a dirty gray membrane",
+        "No fever, only mild surrounding redness",
+        "Has not received any vaccines in decades"
+      ],
+      "answer": "Cutaneous diphtheria",
+      "teaching": "*Corynebacterium diphtheriae* can infect the skin, especially in those with poor hygiene or immunity, causing a persistent ulcer with a gray membrane. Systemic symptoms are usually mild, but treatment still requires antibiotics and follow-up vaccination."
+    }
+  ],
+  "see_also": ["tetanus", "tonsillitis", "gas-gangrene"],
+  "prerequisites": ["immunology", "vaccines", "gram-positive-bacteria"],
+  "sources": [
+    {
+      "title": "StatPearls: Diphtheria (Lamichhane & Radhakrishnan, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560911/"
+    },
+    {
+      "title": "CDC: Clinical Guidance for Diphtheria (May 2025)",
+      "url": "https://www.cdc.gov/diphtheria/hcp/clinical-guidance/index.html"
+    },
+    {
+      "title": "WHO: Diphtheria Fact Sheet (2024)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diphtheria"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations, diagnosis, and treatment of diphtheria",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-treatment-of-diphtheria"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

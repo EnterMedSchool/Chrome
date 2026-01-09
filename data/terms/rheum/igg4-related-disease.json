@@ -1,0 +1,91 @@
+{
+  "id": "igg4-related-disease",
+  "names": ["IgG4-related disease"],
+  "aliases": ["IgG4-related systemic disease", "IgG4-related sclerosing disease", "IgG4-associated disease"],
+  "abbr": ["IgG4-RD"],
+  "patterns": ["igg4", "igg4-rd", "igg4 rd", "igg4 related disease", "igg4-related disease", "igg4-related systemic disease", "igg4 syndrome", "hyper igg4 disease"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology", "radiology"],
+  "definition": "Immune-mediated **fibroinflammatory** disease that can affect nearly any organ; characterized by tumefactive lesions with **IgG4+ plasma cell** infiltration, **storiform fibrosis**, and often **obliterative phlebitis**.",
+  "why_it_matters": "Mimics malignancy (e.g., pancreatic cancer, lymphoma) and other conditions but is **highly treatable**; recognizing IgG4-RD can prevent unnecessary surgery and enable proper therapy (classic boards scenario: a \"cancer\" mass that disappears with steroids).",
+  "how_youll_see_it": [
+    "Typically affects middle-aged to older adults (male predominance) with subacute, **painless** enlargement of one or more organs. Symptoms stem from the involved organ (e.g., obstructive jaundice if pancreatic head lesion) rather than systemic illness.",
+    "Common manifestations: **Type 1 autoimmune pancreatitis** (pancreatic head mass causing painless obstructive jaundice), **IgG4-related sialadenitis** (bilateral submandibular/parotid gland swelling, aka Mikulicz disease), **orbital pseudotumor** (lacrimal gland/orbital muscle enlargement causing proptosis), **IgG4 cholangiopathy** (bile duct strictures mimicking PSC), and **retroperitoneal fibrosis** (\"Ormond disease\" encasing ureters/aorta). Virtually any organ can be involved (e.g., kidneys with tubulointerstitial nephritis, lungs with inflammatory pseudotumors, thyroid with Riedel thyroiditis).",
+    "Often accompanied by immunologic clues: serum IgG4 is elevated in ~70% (especially high >2× normal in multi-organ disease), and many patients have a history of allergic diseases (**atopy**, asthma, sinusitis). Notably, **constitutional symptoms** (fever, weight loss) are usually absent."
+  ],
+  "problem_solving": [
+    "Check **serum IgG4** levels: >135 mg/dL is suggestive (very high levels >2× normal are highly specific), but normal IgG4 does not exclude IgG4-RD.",
+    "Obtain a **biopsy** of an affected organ whenever possible to confirm diagnosis: look for dense lymphoplasmacytic infiltrate with >40% **IgG4+ plasma cells** (typically >10 per HPF) plus **storiform fibrosis** and **obliterative phlebitis** (pathologic gold standard).",
+    "Exclude mimics: thoroughly evaluate for malignancy (e.g., pancreatic cancer, lymphoma) and other inflammatory diseases (e.g., Sjögren, GPA, sarcoidosis) with appropriate tests. For example, in suspected IgG4 sialadenitis, test for Sjögren antibodies; in orbital disease, consider ANCA testing or imaging features to rule out granulomatous disease.",
+    "A dramatic **steroid response** can support the diagnosis (lesions shrink with glucocorticoids), but do not rely on therapeutic trials alone—rule out infection and malignancy first."
+  ],
+  "differentials": [
+    { "name": "Pancreatic adenocarcinoma", "hint": "older patient with obstructive jaundice often has weight loss and no IgG4 elevation; malignant cells on cytology/biopsy (unlike IgG4-RD)" },
+    { "name": "Sjögren syndrome", "hint": "autoimmune lymphocytic sialadenitis causing sicca (dry eyes/mouth) and parotid swelling; positive SS-A/SS-B antibodies (IgG4-RD lacks sicca and these autoantibodies)" },
+    { "name": "Lymphoma", "hint": "clonal lymphoproliferative tumor (e.g., MALT lymphoma) can enlarge organs; usually has systemic **B symptoms** or distinct biopsy (and does not remit with steroids)" }
+  ],
+  "tricks": [
+    "Think IgG4-RD in an older patient with **painless swelling** (pseudotumors) affecting multiple organs.",
+    "Remember the **4**: IgG4-RD has 3 characteristic histologic features (IgG4+ plasma cells, storiform fibrosis, obliterative phlebitis) and a dramatic 4th feature – response to steroids.",
+    "Many IgG4 lesions are initially mistaken for **malignancy**; always confirm diagnosis with biopsy before invasive treatments (hence the term \"pseudotumor\")."
+  ],
+  "exam_appearance": [
+    "Older man with painless jaundice and a pancreatic head mass, **IgG4** level elevated → IgG4-related autoimmune pancreatitis (mimicking pancreatic cancer).",
+    "Middle-aged patient with bilateral submandibular and lacrimal gland enlargement and proptosis, biopsy showing IgG4+ plasma cells → IgG4-related disease (Mikulicz syndrome with orbital pseudotumor)."
+  ],
+  "treatment": [
+    "First-line therapy is **glucocorticoids** (e.g., high-dose prednisone), which typically induce remission within weeks; a 3–6 month tapering course is common.",
+    "Relapses are frequent. For maintenance, use low-dose steroids or steroid-sparing immunosuppressants (e.g., azathioprine, mycophenolate) to prevent recurrence; **rituximab** (anti-CD20) is effective for refractory or relapsing cases.",
+    "In mild cases without vital organ risk (e.g., isolated lymphadenopathy), close observation can be considered, as some lesions regress spontaneously. However, any threatened organ (e.g., renal failure from fibrosis) warrants prompt treatment."
+  ],
+  "red_flags": [
+    "Systemic **B symptoms** (fever, night sweats, weight loss) are rare in IgG4-RD – their presence suggests a possible lymphoma or other diagnosis.",
+    "Biopsy findings incompatible with IgG4-RD (e.g., **granulomas**, monoclonal lymphoid cells) or lesions not improving on steroids → reconsider alternate causes (malignancy, infection, other autoimmune)."
+  ],
+  "algorithm": [
+    "Unexplained organ enlargement/mass in typical sites (pancreas, salivary gland, orbit, etc.) → suspect IgG4-RD (especially if older male, multifocal disease, minimal pain).",
+    "Workup: obtain imaging of affected areas and check serum **IgG4** level (to assess extent and support diagnosis, while evaluating for malignancy).",
+    "If IgG4-RD is a consideration, confirm with tissue diagnosis: perform a **biopsy** of an involved site (look for IgG4+ plasma cells and rule out other pathology).",
+    "Confirmed IgG4-RD → start high-dose corticosteroids (monitor for prompt reduction in lesion size and symptoms).",
+    "Taper steroids over months; if high risk of relapse, add maintenance therapy (e.g., low-dose prednisone or immunosuppressant). Monitor clinically and with periodic IgG4 levels/imaging for relapse."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IgG4-Autoimmun-Organe.svg/1024px-IgG4-Autoimmun-Organe.svg.png",
+      "alt": "Diagram highlighting organs commonly affected by IgG4-related disease (e.g., pancreas, salivary glands, orbit, kidneys, retroperitoneum).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:IgG4-Autoimmun-Organe.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 66‑year‑old man with painless obstructive jaundice is found to have a pancreatic head mass on imaging.",
+      "clues": ["No fever or weight loss", "↑IgG4 level (~400 mg/dL)", "Endoscopic biopsy: storiform fibrosis with IgG4+ plasma cells"],
+      "answer": "IgG4-related disease (autoimmune pancreatitis)",
+      "teaching": "Type 1 autoimmune pancreatitis (IgG4-related) often presents as a pancreatic mass causing painless jaundice in an older man. Key is differentiating it from pancreatic adenocarcinoma: IgG4-RD has elevated IgG4 levels and characteristic biopsy findings, and it responds well to steroids."
+    },
+    {
+      "stem": "A 52‑year‑old man with asthma and chronic sinusitis develops painless swelling of the parotid and submandibular glands along with bulging of his left eye.",
+      "clues": ["Bilateral salivary gland enlargement", "Left eye proptosis", "↑IgG4 level", "Lacrimal gland biopsy: IgG4+ plasma cell infiltrate"],
+      "answer": "IgG4-related disease (Mikulicz disease with orbital pseudotumor)",
+      "teaching": "IgG4-related disease can cause Mikulicz syndrome (painless enlargement of lacrimal and salivary glands) and orbital pseudotumor. Unlike Sjögren syndrome, there are no sicca symptoms or SSA/SSB antibodies. Biopsy confirms IgG4-RD and excludes lymphoma; treatment with steroids leads to improvement."
+    }
+  ],
+  "see_also": ["sjogren-syndrome", "sarcoidosis", "primary-biliary-cholangitis", "chronic-pancreatitis"],
+  "prerequisites": [],
+  "sources": [
+    { "title": "UpToDate: Clinical manifestations and diagnosis of IgG4-related disease", "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-igg4-related-disease" },
+    { "title": "UpToDate: Treatment and prognosis of IgG4-related disease", "url": "https://www.uptodate.com/contents/treatment-and-prognosis-of-igg4-related-disease" },
+    { "title": "N Engl J Med: IgG4-related disease (Stone et al., 2012)", "url": "https://pubmed.ncbi.nlm.nih.gov/22316447/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

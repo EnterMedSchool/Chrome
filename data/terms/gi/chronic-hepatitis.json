@@ -1,0 +1,166 @@
+{
+  "id": "chronic-hepatitis",
+  "names": [
+    "Chronic hepatitis"
+  ],
+  "aliases": [
+    "chronic active hepatitis",
+    "chronic persistent hepatitis",
+    "chronic viral hepatitis"
+  ],
+  "abbr": [
+    "CHB",
+    "CHC",
+    "AIH",
+    "NAFLD",
+    "NASH"
+  ],
+  "patterns": [
+    "chronic hepatitis",
+    "chronic active hepatitis",
+    "chronic persistent hepatitis",
+    "chronic hepatitis B",
+    "chronic hepatitis C",
+    "autoimmune hepatitis",
+    "NASH",
+    "NAFLD"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "infectious_dz",
+    "pharmacology",
+    "endocrine"
+  ],
+  "definition": "Ongoing liver inflammation lasting ≥6 months (vs acute <6 months). Chronic hepatitis is a syndrome with multiple causes (viral, autoimmune, metabolic, etc.) and often leads to progressive fibrosis, cirrhosis, and risk of hepatocellular carcinoma (HCC).",
+  "why_it_matters": "Huge global burden: ~1.3 million deaths/year from hepatitis; ~1/3 of the world's population has been infected with HBV or HCV. Chronic hepatitis (especially HBV/HCV) is a leading cause of cirrhosis and liver cancer worldwide. Frequently tested on exams in contexts of abnormal LFTs, cirrhosis complications (ascites, varices), or screening for HCC.",
+  "how_youll_see_it": [
+    "Often asymptomatic or only vague fatigue and malaise until significant liver damage occurs. Many cases are first detected by persistently elevated ALT on routine labs (incidentally). Jaundice is usually absent until advanced disease.",
+    "When clinical signs develop, they may include stigmata of chronic liver disease: spider angiomas, palmar erythema, hepatomegaly, or even signs of portal hypertension (splenomegaly, ascites) if cirrhosis is present. Some patients present initially with complications of cirrhosis (eg. variceal bleeding, encephalopathy).",
+    "Major causes include chronic viral hepatitis (especially hepatitis B and hepatitis C infections), autoimmune hepatitis (AIH), certain drugs/toxins (e.g., isoniazid, methyldopa, chronic alcohol use), and metabolic diseases (e.g., nonalcoholic fatty liver disease/NASH, Wilson disease, alpha-1 antitrypsin deficiency)."
+  ],
+  "problem_solving": [
+    "Confirm chronicity: document ≥6 months of ongoing hepatitis (persistently elevated liver enzymes or inflammation on biopsy) to distinguish from acute.",
+    "Identify the cause: start with viral serologies – check HBsAg (for HBV) and anti-HCV with HCV RNA (for HCV). If viral tests are negative, evaluate for other etiologies: autoimmune markers (ANA, anti–smooth muscle Ab, IgG) and metabolic tests (e.g., ceruloplasmin for Wilson's, iron studies, alpha-1 antitrypsin level).",
+    "Assess liver injury: Chronic hepatitis typically shows mild to moderate ↑AST/ALT (often <5× normal), with near-normal alkaline phosphatase and bilirubin until late-stage disease. Check INR and albumin to gauge liver synthetic function (often normal until advanced fibrosis).",
+    "Stage fibrosis: use noninvasive markers (eg. APRI, FIB-4 index) or imaging with transient elastography (FibroScan) to estimate fibrosis. A liver biopsy may be done to confirm diagnosis or to grade inflammation and stage fibrosis definitively.",
+    "Monitor progression: in known chronic hepatitis, regularly screen for complications – eg. ultrasound ± AFP every 6 months for early HCC detection (especially if cirrhotic or HBV-positive), and endoscopy for varices if cirrhosis. Monitor trends in LFTs and blood counts (thrombocytopenia can hint at portal hypertension from fibrosis)."
+  ],
+  "differentials": [
+    {
+      "id": "acute-viral-hepatitis",
+      "name": "Acute hepatitis",
+      "hint": "short duration (<6 mo) with often much higher AST/ALT (hundreds to thousands) and systemic symptoms (jaundice, acute illness)"
+    },
+    {
+      "id": "primary-biliary-cholangitis",
+      "name": "Cholestatic liver disease",
+      "hint": "predominantly ↑alkaline phosphatase, positive AMA (in PBC) or p-ANCA (in PSC), with pruritus and cholestatic features rather than hepatocellular pattern"
+    }
+  ],
+  "tricks": [
+    "Only HBV, HCV (and HDV with co-infection) cause chronic hepatitis; HAV never causes chronic infection (common exam fact).",
+    "Risk of chronicity: ~5% for adult HBV (up to 90% if perinatally infected), vs ~75% for acute HCV progressing to chronic.",
+    "Path buzzword: ground-glass hepatocytes on liver biopsy are characteristic of chronic hepatitis B (accumulated HBsAg in hepatocytes).",
+    "HBV infection can cause HCC even without cirrhosis (due to direct oncogenic effects)—thus HBV carriers require HCC screening."
+  ],
+  "exam_appearance": [
+    "Middle-aged man with a history of IV drug use has 8 months of fatigue and elevated ALT, plus spider angiomas and firm hepatomegaly → chronic hepatitis C with early cirrhosis.",
+    "25‑year‑old woman with autoimmune thyroiditis presents with fatigue and AST/ALT ~800 IU/L; labs show high globulins, positive ANA and smooth muscle antibody, and she improves on steroids → autoimmune hepatitis."
+  ],
+  "treatment": [
+    "Chronic HBV: long-term therapy with nucleos(t)ide analogs (e.g., tenofovir or entecavir) to suppress viral replication and reduce progression risk. In certain cases, pegylated interferon-alpha is used. Aim to prevent cirrhosis and reduce HCC risk.",
+    "Chronic HCV: treat with all-oral direct-acting antivirals (DAAs) (e.g., sofosbuvir-velpatasvir for 8–12 weeks), which can cure >95% of cases. Successful treatment (SVR) halts inflammation and markedly lowers risk of cirrhosis/HCC.",
+    "Autoimmune hepatitis: induction with high-dose corticosteroids (prednisone) often combined with azathioprine for maintenance immunosuppression. This can induce remission and prevent progression to cirrhosis in most patients, though long-term therapy is usually required.",
+    "NASH/NAFLD: lifestyle modification is key – weight loss (target ≥7–10% body weight), diet, and exercise can improve steatohepatitis and even fibrosis. Manage underlying metabolic syndrome (optimize control of diabetes, lipids, etc.). No specific drug is fully proven, but vitamin E (in non-diabetics) or pioglitazone may be considered in certain NASH cases.",
+    "Other causes: for Wilson disease, start copper chelation (e.g., penicillamine); for alpha-1 antitrypsin deficiency liver disease, liver transplant is often needed in advanced cases (no effective medical therapy to halt liver damage).",
+    "General measures: avoid alcohol and hepatotoxic drugs in all chronic hepatitis. Ensure vaccination against hepatitis A and B (to prevent additional liver injury). For patients with cirrhosis or high-risk HBV, implement HCC surveillance every 6 months (ultrasound ± AFP) and manage cirrhosis complications (e.g., nonselective beta-blockers for variceal prophylaxis)."
+  ],
+  "red_flags": [
+    "Signs of decompensated cirrhosis: eg. new ascites, variceal bleeding (hematemesis), encephalopathy, or coagulopathy (prolonged INR) – indicate end-stage liver disease. Such findings warrant urgent evaluation (hospitalize for stabilization and consider transplant referral).",
+    "Suspicion for HCC: unintended weight loss, right upper quadrant pain, or a new hepatic mass on imaging (or rising AFP) in a patient with chronic hepatitis → prompt imaging with contrast MRI/CT is needed to diagnose HCC and guide management."
+  ],
+  "algorithm": [
+    "Risk factors for chronic hepatitis (e.g., IV drug use, endemic area birth) or LFTs elevated >6 months → suspect chronic hepatitis.",
+    "Test for chronic viral hepatitis: obtain HBsAg and HCV antibody (with confirmatory HCV RNA if Ab positive) as initial screening.",
+    "If viral markers are negative, pursue other causes: check autoimmune panel (ANA, SMA, LKM antibodies, IgG level) and metabolic tests (ceruloplasmin, iron studies, etc) as appropriate.",
+    "Evaluate disease stage: determine fibrosis severity via noninvasive methods (FibroScan or serum fibrosis indices) or liver biopsy; assess liver function (INR, albumin) and portal hypertension signs (platelet count, imaging).",
+    "Manage according to cause: initiate antiviral therapy, immunosuppression, or other targeted treatment; and arrange follow-up for cirrhosis care (including variceal hemorrhage prophylaxis and periodic HCC surveillance)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Ground_glass_hepatocytes_high_mag_2.jpg",
+      "alt": "Liver biopsy in chronic hepatitis B showing \"ground-glass\" hepatocytes (H&E stain).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ground_glass_hepatocytes_high_mag_2.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with a history of IV drug use is evaluated for abnormal liver tests on a routine exam.",
+      "clues": [
+        "ALT and AST mildly elevated for 9+ months",
+        "Spider angiomas and firm hepatomegaly on exam",
+        "HCV antibody and RNA tests are positive"
+      ],
+      "answer": "Chronic hepatitis C (with developing cirrhosis)",
+      "teaching": "Chronic HCV infection is often asymptomatic for years. Risk factors (like IV drug use) and persistently elevated transaminases point to chronic hepatitis. The presence of liver stigmata (spider nevi, hepatomegaly) suggests progression to cirrhosis. Treatment with DAAs can cure the infection and reduce further liver damage."
+    },
+    {
+      "stem": "A 25‑year‑old woman with a history of autoimmune thyroiditis presents with fatigue and intermittent abdominal pain.",
+      "clues": [
+        "AST and ALT ~800 IU/L",
+        "High total IgG; positive ANA and anti–smooth muscle antibody",
+        "Marked improvement after corticosteroid therapy"
+      ],
+      "answer": "Autoimmune hepatitis",
+      "teaching": "Autoimmune hepatitis typically affects young women and is associated with other autoimmune diseases. Very high transaminases, elevated immunoglobulins, and positive ANA/SMA confirm the diagnosis. The dramatic response to steroids is characteristic and can prevent progression to cirrhosis."
+    }
+  ],
+  "see_also": [
+    "hepatitis",
+    "autoimmune-hepatitis",
+    "nonalcoholic-fatty-liver-disease",
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "acute-hepatitis",
+    "wilson-disease"
+  ],
+  "prerequisites": [
+    "liver-physiology",
+    "acute-viral-hepatitis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Viral Hepatitis (Grant & Purres, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554549/"
+    },
+    {
+      "title": "Merck Manual Professional: Overview of Chronic Hepatitis (Kumar & Nguyen, 2024)",
+      "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/hepatitis/overview-of-chronic-hepatitis"
+    },
+    {
+      "title": "UpToDate: Overview of the management of chronic hepatitis C virus infection (accessed 2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-chronic-hepatitis-c-virus-infection"
+    },
+    {
+      "title": "Medscape: Autoimmune Hepatitis (AIH) – Overview (2023)",
+      "url": "https://emedicine.medscape.com/article/172356-overview"
+    },
+    {
+      "title": "WHO Fact Sheet: Hepatitis C (July 2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

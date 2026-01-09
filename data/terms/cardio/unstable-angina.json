@@ -1,0 +1,121 @@
+{
+  "id": "unstable-angina",
+  "names": ["Unstable angina"],
+  "aliases": ["pre-infarction angina", "preinfarction angina", "crescendo angina"],
+  "abbr": ["UA"],
+  "patterns": ["unstable angina", "unstable angina pectoris", "preinfarction angina", "crescendo angina"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "emerg", "pharmacology"],
+  "definition": "An **acute coronary syndrome** marked by new or worsening chest pain (angina) at rest or with minimal exertion due to myocardial **ischemia** without infarction (no cardiac muscle cell death, hence normal troponin levels).",
+  "why_it_matters": "Represents an impending **heart attack** – unstable angina carries higher short-term risk of **myocardial infarction** and death than stable angina. Prompt recognition and treatment can prevent progression to an MI, making it a common emergency and exam topic.",
+  "how_youll_see_it": [
+    "Classically presents as **chest pain at rest** (often ≥10–20 minutes) or a **crescendo pattern** of angina (pain becomes more frequent, severe, or occurs with less exertion than before). The pain is typically a pressure or tightness, possibly radiating to the arm or jaw, and may come with **diaphoresis**, **shortness of breath**, or **nausea** – resembling an MI.",
+    "**Electrocardiogram (ECG)** often shows transient **ST depression** or **T-wave inversions** during episodes (signs of subendocardial ischemia), but no persistent ST elevation. Crucially, **cardiac troponin** levels are normal (by definition, no myocardial necrosis in unstable angina). Many patients have coronary risk factors (older age, smoking, diabetes, hyperlipidemia) or a history of stable angina that has now destabilized."
+  ],
+  "problem_solving": [
+    "Initial approach: obtain a 12-lead **ECG** and **serial troponin** levels in any patient with suspected ACS. If ST-elevation is seen → treat as **STEMI** (immediate reperfusion). If no ST-elevation, manage as **NSTE-ACS** (unstable angina/NSTEMI) while awaiting troponin results.",
+    "Distinguish unstable angina vs **NSTEMI** by biomarkers: if **troponin elevates**, it's an NSTEMI (myocardial infarction); if troponin remains normal, it's unstable angina. Both are treated similarly since both are non–ST-elevation ACS.",
+    "Begin treatment promptly: give **aspirin** (chewed) and relieve ischemia with **nitroglycerin** (sublingual or IV for ongoing pain) and **β-blockers** (unless contraindicated) to reduce oxygen demand. Provide oxygen only if hypoxic; use **morphine** for persistent pain.",
+    "Start **antithrombotic therapy**: administer an **anticoagulant** (e.g., IV heparin) and add a second **antiplatelet** (e.g., clopidogrel or ticagrelor) to aspirin. Also initiate a **high-intensity statin** as early as possible.",
+    "Consult cardiology and **risk-stratify** (e.g., TIMI or GRACE score). Patients with high-risk features (ongoing angina, heart failure, arrhythmia, hemodynamic instability) should undergo **urgent cardiac catheterization** (often within 24 hours) for possible PCI. Those stabilized without high-risk criteria can have noninvasive stress testing or elective angiography prior to discharge."
+  ],
+  "differentials": [
+    { "id": "stable-angina", "hint": "predictable exertional chest pain relieved by rest or nitroglycerin (fixed plaque, not ACS)" },
+    { "id": "non-st-elevation-myocardial-infarction", "name": "NSTEMI", "hint": "similar presentation but **troponin is elevated** (indicating infarction)" },
+    { "id": "pericarditis", "hint": "sharp, positional chest pain with pericardial friction rub; diffuse ST elevations on ECG (not a coronary syndrome)" }
+  ],
+  "tricks": [
+    "**No troponin, no infarction:** unstable angina by definition has normal cardiac enzymes – if troponin rises, the diagnosis shifts to NSTEMI.",
+    "Think **MONA-B** for initial therapy: Morphine, Oxygen (if needed), Nitrates, Aspirin + **β-blocker** – the acute management for unstable angina/NSTEMI.",
+    "Unstable angina is often called **\"pre-infarction angina,\"** a red flag that a coronary plaque is unstable and a heart attack may be imminent without intervention."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with chest pressure at rest (lasting ~15 minutes) and transient ST depressions on ECG, but **normal troponins** → unstable angina (acute coronary syndrome without MI).",
+    "Patient with a history of stable exertional angina now having chest pain at **rest** or with minimal effort, requiring more nitroglycerin to relieve → unstable angina (angina has become unpredictable/crescendo)."
+  ],
+  "treatment": [
+    "All patients: **aspirin** immediately (unless contraindicated). Begin anti-ischemic therapy with **nitroglycerin** (sublingual or IV) for pain and a **β-blocker** within 24 hours to reduce cardiac workload (avoid β-blockers in cocaine-induced angina or severe bradycardia). Start **high-intensity statin** therapy early.",
+    "**Dual antiplatelet therapy** (aspirin + a P2Y₁₂ inhibitor like clopidogrel or ticagrelor) is standard to prevent clot growth. Also give **anticoagulation** (e.g., unfractionated heparin IV if an early invasive approach is planned, or enoxaparin for conservative management) to inhibit thrombus formation.",
+    "Monitor in a telemetry unit. If angina or ECG changes recur despite therapy, or patient has high risk indicators, proceed to **urgent angiography** for possible PCI (generally within 24 hours for unstable angina/NSTEMI). Otherwise, after stabilization, arrange for stress testing or elective angiography to guide further management prior to discharge. Ensure appropriate follow-up with long-term therapies (β-blocker, aspirin, statin, etc.)."
+  ],
+  "red_flags": [
+    "Chest pain that is **ongoing despite treatment** or new dynamic ST changes (or rising troponin) → signal progression to infarction; requires emergent reperfusion (consider urgent PCI).",
+    "Signs of **cardiogenic shock** (hypotension, cool clammy skin) or **acute heart failure** (e.g., pulmonary edema) during anginal episodes → indicate extensive ischemia. Also watch for **ventricular arrhythmias** (VT/VF) in ACS. These findings demand immediate aggressive management and transfer to a higher level of care."
+  ],
+  "algorithm": [
+    "Chest pain at rest or rapidly worsening angina → suspect **unstable angina** (ACS) and perform immediate ECG & troponin testing.",
+    "ECG results: **ST-elevation** → STEMI (activate emergency reperfusion). **No ST-elevation** → likely unstable angina/NSTEMI; continue ACS protocol and await biomarkers.",
+    "If **troponin is elevated** → **NSTEMI** (myocardial infarction) and continue ACS management. If troponin remains **normal** → **unstable angina** (high-risk ischemia without infarct) – manage aggressively as ACS because risk of MI is high.",
+    "Initiate acute treatment: **MONA-B** (Morphine, Oxygen if needed, Nitroglycerin, Aspirin, β-blocker) plus **anticoagulation** (e.g., heparin) and a second antiplatelet (clopidogrel or ticagrelor). Begin high-intensity **statin** therapy.",
+    "Perform risk assessment (e.g., TIMI score). Arrange for **early invasive strategy** (angiography ± PCI) if high risk or refractory symptoms. If low risk and pain-free, do stress testing to evaluate for ischemia before discharge. Ensure close follow-up for further outpatient management."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Blausen_0257_CoronaryArtery_Plaque.png",
+      "alt": "Cross-section of a coronary artery with a large atherosclerotic plaque (yellow fatty deposit) partially occluding the lumen, reducing blood flow.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0257_CoronaryArtery_Plaque.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 62‑year‑old man with hypertension and hyperlipidemia, who has a history of stable exertional angina, now presents with chest discomfort at rest while watching TV.",
+      "clues": [
+        "Chest pain at rest lasting ~15 minutes",
+        "ECG shows 1 mm ST depressions in lateral leads during pain",
+        "Two sets of troponin are within normal limits",
+        "Pain relieved by sublingual nitroglycerin"
+      ],
+      "answer": "Unstable angina",
+      "teaching": "Rest angina with ischemic ECG changes and normal cardiac enzymes indicates unstable angina (pre-infarction angina). This results from an acute plaque rupture with partial thrombosis causing ischemia without myocardial necrosis. Management includes anti-ischemic and antithrombotic therapy (e.g., aspirin, heparin, nitrates, β-blockers) and usually early cardiac catheterization to prevent progression to MI."
+    },
+    {
+      "stem": "A 58‑year‑old woman with diabetes and coronary artery disease reports that over the past week her usual angina has become more frequent and now sometimes wakes her from sleep.",
+      "clues": [
+        "Recently \"crescendo\" pattern of chest pain episodes",
+        "Angina occurring with minimal exertion or at rest",
+        "No ST elevations on ECG; T-wave inversions noted",
+        "Serial cardiac enzymes are normal"
+      ],
+      "answer": "Unstable angina (crescendo angina)",
+      "teaching": "Worsening, unpredictable angina at rest (especially in a diabetic patient) is unstable angina. The lack of troponin elevation distinguishes it from NSTEMI. This signifies an unstable plaque and high risk for imminent myocardial infarction, warranting hospitalization and aggressive management (medical therapy and consideration of urgent angiography)."
+    }
+  ],
+  "see_also": [
+    "stable-angina",
+    "myocardial-infarction",
+    "prinzmetal-angina",
+    "coronary-artery-disease",
+    "heart-failure"
+  ],
+  "prerequisites": [
+    "coronary-artery-disease",
+    "stable-angina",
+    "ecg-basics",
+    "cardiac-markers"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Unstable Angina (Goyal et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK442000/"
+    },
+    {
+      "title": "European Heart Journal: 2020 ESC Guidelines for NSTE Acute Coronary Syndromes (Collet JP et al.)",
+      "url": "https://doi.org/10.1093/eurheartj/ehaa575"
+    },
+    {
+      "title": "Medscape: Unstable Angina (Tan & Yang, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/159383-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

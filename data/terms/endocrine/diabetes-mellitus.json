@@ -1,0 +1,153 @@
+{
+  "id": "diabetes-mellitus",
+  "names": ["Diabetes mellitus"],
+  "aliases": [
+    "type 1 diabetes",
+    "type 1 diabetes mellitus",
+    "type I diabetes",
+    "type 2 diabetes",
+    "type 2 diabetes mellitus",
+    "type II diabetes",
+    "T1DM",
+    "T2DM",
+    "IDDM",
+    "NIDDM",
+    "juvenile diabetes",
+    "adult-onset diabetes"
+  ],
+  "abbr": ["DM", "T1DM", "T2DM"],
+  "patterns": [
+    "diabetes",
+    "diabetes mellitus",
+    "dm",
+    "type 1 diabetes",
+    "type I diabetes",
+    "type 2 diabetes",
+    "type II diabetes",
+    "t1dm",
+    "t2dm",
+    "iddm",
+    "niddm",
+    "juvenile diabetes",
+    "adult-onset diabetes"
+  ],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "peds", "pharmacology"],
+  "definition": "Chronic metabolic disorder of hyperglycemia due to insufficient insulin action. In type 1 diabetes (T1DM), autoimmune destruction of pancreatic β-cells causes absolute insulin deficiency; in type 2 (T2DM), insulin resistance plus a relative insulin secretory defect leads to high blood sugar.",
+  "why_it_matters": "Extremely common (affecting ~10% of adults globally) and a leading cause of blindness and end-stage kidney failure. Diabetes is also a major contributor to heart disease and stroke risk. Chronic hyperglycemia causes microvascular damage (retinopathy, nephropathy, neuropathy) and accelerates atherosclerosis. It frequently appears on exams due to its widespread complications and management challenges.",
+  "how_youll_see_it": [
+    "Classic symptoms: polyuria (excess urination) and polydipsia (excess thirst) from osmotic diuresis when blood glucose is very high. Polyphagia (increased appetite) with weight loss is typical in uncontrolled type 1. Blurred vision, fatigue, or frequent infections (e.g., candidal infections) can also occur.",
+    "Type 1 DM often presents in children or adolescents with sudden onset of symptoms; they may present in DKA (diabetic ketoacidosis) with vomiting, abdominal pain, fruity odor breath, and Kussmaul breathing (deep, rapid respirations). Type 1 patients are usually lean and may have other autoimmune conditions.",
+    "Type 2 DM usually develops in adults (often ≥40) with obesity and metabolic syndrome features (hypertension, dyslipidemia). Onset is more gradual; patients may be asymptomatic for years or have mild symptoms (fatigue, polyuria). Acanthosis nigricans (velvety hyperpigmented skin in neck/axilla) is a clue to insulin resistance. Severe hyperglycemia can cause HHS (hyperosmolar hyperglycemic state) in type 2—marked dehydration and mental status changes without ketosis."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with ADA criteria: fasting plasma glucose ≥126 mg/dL (7.0 mmol/L) on two occasions, or HbA1c ≥6.5%, or 2-hour OGTT ≥200 mg/dL, or a random glucose ≥200 mg/dL with classic symptoms.",
+    "Distinguish type 1 vs type 2 if unclear: type 1 often has acute onset at young age, ketosis, and positive autoantibodies (anti-GAD, IA-2); type 2 tends to occur in older obese patients and has no islet autoantibodies (often with high C-peptide levels initially).",
+    "Evaluate for acute complications: if hyperglycemia is severe, check for ketones and acid-base status (to catch DKA) or serum osmolality (for HHS). In DKA expect high anion gap metabolic acidosis with ketonemia; in HHS, glucose is extremely high (often >600 mg/dL) with high osmolarity but no significant acidosis.",
+    "Initial lab work in new diabetics: get baseline HbA1c (to gauge control), and screen for comorbidities/complications (e.g., kidney function and urine microalbumin, lipid profile, liver enzymes if on certain meds). Consider screening for other autoimmune diseases in T1DM (thyroid function, celiac antibodies)."
+  ],
+  "differentials": [
+    {
+      "id": "diabetes-insipidus",
+      "hint": "polyuria with dilute urine and normal glucose (ADH deficiency or resistance)"
+    },
+    {
+      "name": "Primary polydipsia",
+      "hint": "psychogenic excessive water intake causing polyuria (urine osmolality low)"
+    },
+    {
+      "name": "Maturity-onset diabetes of the young (MODY)",
+      "hint": "mild familial hyperglycemia in youth (monogenic, not autoimmune, often no insulin needed)"
+    }
+  ],
+  "tricks": [
+    "In DKA, serum K⁺ may appear normal or high (acidosis shifts K⁺ out of cells), but total body potassium is actually depleted (lost in urine). Always monitor and replete potassium during DKA treatment to avoid life-threatening hypokalemia.",
+    "Hot and dry? Sugar high. Cold and clammy? Need candy. – a mnemonic to remember that warm, dry skin and dehydration suggest hyperglycemia, whereas a sweaty, pale, tremulous patient suggests hypoglycemia (needs glucose).",
+    "HHS vs DKA: HHS (Hyperosmolar Hyperglycemic State) typically occurs in T2DM with some insulin present, so no ketones or acidosis, but glucose can be extremely high (>600) leading to severe dehydration and neurologic symptoms (confusion, seizures). DKA occurs in insulin-deficient T1DM with ketone production and acidosis."
+  ],
+  "exam_appearance": [
+    "Teenager with weight loss, bed-wetting (nocturnal enuresis), and fruity-smelling breath → Type 1 DM (new-onset, often presenting in DKA).",
+    "Obese 50‑year‑old with chronic skin infections (e.g., recurrent yeast infections), polyuria, and acanthosis nigricans → Type 2 DM.",
+    "Long-standing diabetic with numbness/tingling in feet and painless foot ulcers → diabetic neuropathy (peripheral nerve damage from chronic hyperglycemia)."
+  ],
+  "treatment": [
+    "All patients: dietary modifications (low refined carbs, portion control) and exercise improve glycemic control and insulin sensitivity. Weight loss is especially beneficial in type 2 DM (can even reverse early disease).",
+    "Type 1 DM: requires lifelong insulin replacement (multiple daily injections of basal + mealtime bolus, or insulin pump). Educate on carbohydrate counting, glucose monitoring, and managing hypoglycemia. Pancreas transplant or islet cell transplant is rare but considered in select cases.",
+    "Type 2 DM: stepwise management. First-line is usually metformin (unless contraindicated) alongside lifestyle changes. If A1c remains above target, add another agent tailored to patient needs: e.g., sulfonylureas, DPP-4 inhibitors, GLP-1 agonists (help weight loss), SGLT2 inhibitors (cardio-renal benefits), or insulin if markedly elevated glucose or oral agents inadequate. Eventually, many T2DM patients need insulin for optimal control.",
+    "Treat associated conditions and prevent complications: use ACE inhibitors (or ARBs) for microalbuminuria or hypertension (renal protection), statins for dyslipidemia (CV risk reduction), and regular screening (annual eye exams, foot exams, etc.). Episodes of DKA or HHS require hospital management with aggressive IV fluids, IV insulin, and careful electrolyte/acid–base correction."
+  ],
+  "red_flags": [
+    "Signs of DKA in type 1 (e.g., abdominal pain, vomiting, fruity breath, Kussmaul breathing, confusion) → medical emergency requiring prompt IV insulin + fluids.",
+    "Very high glucose with altered mental status in type 2 (possible HHS): severe dehydration, neurological deficits (lethargy, seizures) without ketoacidosis → requires aggressive fluids and insulin in ICU.",
+    "Diabetic hypoglycemia: tremors, diaphoresis, palpitations, confusion, seizures (often in insulin or sulfonylurea-treated patients) → treat immediately with oral glucose (if awake) or IV dextrose/glucagon (if severe)."
+  ],
+  "algorithm": [
+    "Patient with risk factors (obesity, family history) or symptoms → test blood glucose or HbA1c.",
+    "If glucose criteria met (e.g., FPG ≥126 or HbA1c ≥6.5%) → diagnose diabetes. If values are mildly elevated, confirm with repeat testing (unless unequivocal symptoms).",
+    "Classify diabetes type: consider patient age, BMI, ketone tendency, and autoantibodies. Initiate lifestyle modifications for all; start pharmacotherapy based on type (insulin immediately for T1DM; metformin or other agents for T2DM as per guidelines and A1c level).",
+    "Educate patient on home glucose monitoring and signs of hyper/hypoglycemia. Arrange follow-up for glycemic targets (typically A1c <7% in many adults, but individualized).",
+    "Regularly screen for complications: annual dilated eye exam, urine microalbumin, foot exam for neuropathy. Address cardiovascular risk factors (BP control <130/80, statin therapy). Intensify treatment if glycemic control is not at goal, following a stepwise medication algorithm."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Diabetes_Type_I_and_II.jpg",
+      "alt": "Diagram illustrating normal glucose metabolism vs. type 1 (no insulin production) and type 2 diabetes (insulin resistance).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Diabetes_Type_I_and_II.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 14‑year‑old boy is brought to the ER with 2 weeks of increasing thirst and frequent urination. He has lost weight despite constant hunger. Today he developed vomiting and abdominal pain. On exam, he is drowsy, breathing rapidly and deeply, with a fruity odor on his breath.",
+      "clues": [
+        "Polyuria, polydipsia, and weight loss in a teenager",
+        "Rapid deep breathing (Kussmaul respirations)",
+        "Fruity (acetone) odor to the breath",
+        "High blood glucose, ketones present"
+      ],
+      "answer": "Diabetic ketoacidosis (new-onset type 1 diabetes mellitus)",
+      "teaching": "Autoimmune destruction of pancreatic β-cells led to absolute insulin deficiency, causing hyperglycemia and ketosis. DKA presents with dehydration, abdominal pain, and Kussmaul breathing. Treatment is IV fluids, insulin, and electrolyte management. This case illustrates a classic type 1 DM presentation."
+    },
+    {
+      "stem": "A 68‑year‑old woman with type 2 diabetes (on oral meds) is found lethargic and confused on a hot day. Her blood glucose is 950 mg/dL. Blood pH is 7.38, and no urine ketones are detected. She is markedly dehydrated with dry mucous membranes and poor skin turgor.",
+      "clues": [
+        "Known type 2 diabetic, older age",
+        "Very high blood glucose (≈ 900 mg/dL)",
+        "No acidosis (normal pH) and no significant ketones",
+        "Severe dehydration and altered mental status"
+      ],
+      "answer": "Hyperosmolar hyperglycemic state (HHS)",
+      "teaching": "Type 2 diabetics with some insulin activity can develop HHS: extreme hyperglycemia without ketoacidosis, leading to osmotic diuresis and profound dehydration. Neurologic impairment (confusion, coma) is common. Management includes aggressive IV rehydration and insulin. HHS carries a high mortality, so early recognition and treatment are critical."
+    }
+  ],
+  "see_also": [
+    "diabetes-insipidus",
+    "diabetic-ketoacidosis",
+    "obesity"
+  ],
+  "prerequisites": ["pancreas", "insulin"],
+  "sources": [
+    {
+      "title": "StatPearls: Diabetes Mellitus (Sapra & Bhandari, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551501/"
+    },
+    {
+      "title": "StatPearls: Type 1 Diabetes (Lucier & Mathias, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507713/"
+    },
+    {
+      "title": "UpToDate: Management of hyperglycemia in type 2 diabetes mellitus",
+      "url": "https://www.uptodate.com/contents/type-2-diabetes-mellitus-general-principles-of-management"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

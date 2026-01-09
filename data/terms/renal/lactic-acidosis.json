@@ -1,0 +1,128 @@
+{
+  "id": "lactic-acidosis",
+  "names": ["Lactic acidosis"],
+  "aliases": ["lactic acidemia", "hyperlactatemia"],
+  "abbr": [],
+  "patterns": [
+    "lactic acidosis",
+    "lacticacidosis",
+    "lactate acidosis",
+    "lactic acidemia",
+    "hyperlactatemia",
+    "type a lactic acidosis",
+    "type b lactic acidosis"
+  ],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "cardio", "infectious_dz", "toxicology"],
+  "definition": "Elevated blood **lactate** (usually >4 mmol/L) causing an **anion gap** metabolic acidosis (arterial pH <7.35 with low bicarbonate).",
+  "why_it_matters": "Signals severe illness—it's the **most common** metabolic acidosis in ICU patients. High lactate reflects tissue hypoperfusion and correlates with worse outcomes (the higher/longer the elevation, the higher the mortality risk). Frequently appears on exams as a marker of **shock** or drug toxicity.",
+  "how_youll_see_it": [
+    "Critically ill patients in **shock** (septic, cardiogenic, etc.) often have lactic acidosis due to poor perfusion. Clues include hypotension, tachycardia, and signs of hypoperfusion (cool clammy skin, delayed capillary refill) in Type A lactic acidosis.",
+    "Can also occur **without** obvious hypoxia: Type B lactic acidosis in contexts like severe liver/renal failure, **metformin** use (especially in CKD), malignancy, or post-**seizure** exertion (transient). These involve lactate overproduction or decreased clearance despite adequate perfusion.",
+    "**Lab:** High serum lactate (e.g., >4 mmol/L is significant) with an **anion gap** metabolic acidosis on ABG/CMP (low HCO₃⁻, low pH). Mild elevations (2–4 mmol/L) without acidosis are called **hyperlactatemia**."
+  ],
+  "problem_solving": [
+    "**Confirm** lactic acidosis: measure serum lactate in any high anion gap metabolic acidosis or shocked patient. Calculate the anion gap (correct for low albumin) and obtain an **ABG** to assess pH severity.",
+    "**Find the cause (Type A vs B):** If signs of hypoperfusion (hypotension, hypoxia) → **Type A** (tissue hypoxia); address immediately (fluids, oxygen, treat shock). If perfusion is intact → **Type B**; look for other causes (toxins, organ failure, **thiamine** deficiency, etc.).",
+    "**Consider contributing factors:** For example, give **thiamine** if deficiency is possible (alcoholics), review medications (metformin, beta-agonists, HIV NRTIs, etc.), and evaluate liver/kidney function (impaired lactate clearance)."
+  ],
+  "differentials": [
+    {
+      "id": "diabetic-ketoacidosis",
+      "hint": "anion gap acidosis with **ketones** (usually in type 1 DM; very high glucose, fruity breath)"
+    },
+    {
+      "id": "acute-kidney-injury",
+      "hint": "uremic acidosis from renal failure (↑BUN/Cr, cannot excrete acids)"
+    },
+    {
+      "name": "Toxic alcohol poisoning",
+      "hint": "e.g., **methanol** (vision loss) or **ethylene glycol** (oxalate crystals in urine) → severe anion gap acidosis"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **MUDPILES** for high anion gap acidosis causes (Methanol, Uremia, DKA, Propylene glycol, INH/Iron, **Lactic acidosis**, Ethylene glycol, Salicylates).",
+    "In septic shock, lactate **clearance** (lactate dropping with treatment) is a good sign; persistently high lactate indicates poor prognosis.",
+    "**Thiamine** (vitamin B1) is needed to metabolize pyruvate; deficiency (e.g., in alcoholics) can lead to lactic buildup – always replete B1 when suspecting malnutrition."
+  ],
+  "exam_appearance": [
+    "**Septic shock** – A febrile, hypotensive patient with high lactate (~6 mmol/L) and anion gap metabolic acidosis despite fluids → Type A lactic acidosis from inadequate tissue perfusion (lactate as a marker of severe sepsis).",
+    "**Metformin** overdose – A type 2 diabetic on metformin (with CKD) presents with confusion and deep rapid breathing; labs show pH ~7.1, anion gap 24, lactate very high → **Metformin-associated lactic acidosis** (Type B; biguanide accumulation impairs lactate clearance)."
+  ],
+  "treatment": [
+    "**Restore perfusion:** In shock, give aggressive IV fluids, improve oxygenation, and use vasopressors if needed to improve tissue perfusion. Treat the underlying cause (e.g., antibiotics for sepsis, revascularization for ischemia).",
+    "**Remove offending causes:** Stop any causative drugs or toxins (e.g., metformin); administer antidotes if applicable (100% O₂ for CO poisoning, antidote for cyanide, thiamine for B1 deficiency, etc.).",
+    "**Bicarbonate:** Reserved for severe acidosis (pH < ~6.9). IV sodium bicarbonate can temporize extreme acidemia, but avoid overuse (may cause CO₂ buildup and paradoxical CNS acidosis). Focus on definitive treatment of the cause.",
+    "**Dialysis:** In refractory or toxin-induced cases, consider renal replacement therapy to help clear lactate and correct acidosis (e.g., in metformin toxicity or profound shock with AKI)."
+  ],
+  "red_flags": [
+    "**Lactate ≥4 mmol/L** with hypotension – sign of critical illness (e.g., septic shock). High lactate plus shock = high mortality risk → requires ICU-level aggressive management.",
+    "Arterial **pH <7.1** (with high lactate) – severe acidosis can depress cardiac contractility and catecholamine response. Watch for arrhythmias and cardiovascular collapse; consider emergent dialysis or bicarbonate."
+  ],
+  "algorithm": [
+    "Suspect lactic acidosis in any ill patient with high anion gap metabolic acidosis or signs of poor perfusion.",
+    "Measure serum **lactate** and get an ABG to confirm acidosis (lactate >2 mmol/L, especially >4, with pH <7.35).",
+    "If lactate is elevated, assess perfusion/oxygenation: hypotension or hypoxia suggests **Type A** (hypoperfusion); if perfusion is normal, think **Type B** causes.",
+    "Treat the underlying cause promptly: e.g., broad-spectrum **antibiotics** + fluids for sepsis, restore circulation for ischemia, stop offending drugs (metformin, etc.), give **thiamine** if needed, etc.",
+    "Monitor lactate trends as you resuscitate. If lactate remains high or patient deteriorates, escalate care (ICU, consider vasopressors, mechanical support, or dialysis as needed)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Lactic_acid_synthesis..gif",
+      "alt": "Diagram of L-lactic acid synthesis: low oxygen causes pyruvate to convert to lactate via LDH. Dichloroacetate (DCA) activates pyruvate dehydrogenase (with thiamine as cofactor) to reduce lactate production.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Lactic_acid_synthesis..gif"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68-year-old man with type 2 diabetes (on metformin) and stage 4 CKD is brought in for altered mental status and rapid breathing.",
+      "clues": [
+        "Arterial pH 7.1 (low)",
+        "Anion gap 24",
+        "Lactate 12 mmol/L (elevated)",
+        "On metformin; chronic kidney disease",
+        "No hypotension or hypoxemia"
+      ],
+      "answer": "Metformin-associated lactic acidosis",
+      "teaching": "Biguanides like metformin can cause lactic acidosis by inhibiting hepatic gluconeogenesis (lactate clearance), especially in renal impairment (drug accumulation). Management is supportive: stop metformin, IV fluids, and consider **hemodialysis** in severe cases."
+    }
+  ],
+  "see_also": [
+    "metabolic-acidosis",
+    "shock",
+    "diabetic-ketoacidosis"
+  ],
+  "prerequisites": [
+    "glycolysis",
+    "acid-base-physiology"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Causes of lactic acidosis (Mar 2024)",
+      "url": "https://www.uptodate.com/contents/causes-of-lactic-acidosis"
+    },
+    {
+      "title": "StatPearls: Lactic Acidosis (Baddam & Tubben, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470202/"
+    },
+    {
+      "title": "Medscape: Lactic Acidosis (Gunnerson, 2025)",
+      "url": "https://emedicine.medscape.com/article/167027-overview"
+    },
+    {
+      "title": "N Engl J Med: Lactic Acidosis (Kraut & Madias, 2014)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25494270/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "takayasu-arteritis",
+  "names": [
+    "Takayasu arteritis"
+  ],
+  "aliases": [
+    "Takayasu's arteritis",
+    "pulseless disease",
+    "aortic arch syndrome",
+    "occlusive thromboaortopathy"
+  ],
+  "abbr": [
+    "TAK"
+  ],
+  "patterns": [
+    "takayasu arteritis",
+    "takayasu's arteritis",
+    "pulseless disease",
+    "aortic arch syndrome",
+    "occlusive thromboaortopathy"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "pathology",
+    "rheum",
+    "cardio"
+  ],
+  "definition": "Granulomatous large-vessel vasculitis affecting the aorta and its major branches, typically in young women; leads to arterial stenoses/occlusions and aneurysms, with weak or absent pulses in affected limbs (the 'pulseless disease').",
+  "why_it_matters": "Though rare, it can cause life-threatening ischemic complications (stroke, aortic aneurysm/dissection, severe hypertension) in young patients if untreated. It also frequently appears on exams as the classic cause of absent peripheral pulses in a young woman.",
+  "how_youll_see_it": [
+    "Typically affects **young women** (<40, often of Asian ancestry). Early on, nonspecific **constitutional** symptoms (fever, fatigue, weight loss, muscle aches) may be the only signs, often delaying diagnosis.",
+    "Later, vessel inflammation leads to the \"pulseless\" phase: claudication (limb pain/fatigue on use) with markedly diminished or absent pulses and unequal blood pressures in the arms (hence **pulseless disease**). **Neurologic** symptoms (dizziness, syncope, headaches, visual disturbances) can occur from carotid/vertebral involvement, and **hypertension** from renal artery stenosis is common."
+  ],
+  "problem_solving": [
+    "Always compare pulses and blood pressures in both arms (and legs) in a young patient with unexplained symptoms – asymmetry should prompt consideration of Takayasu arteritis.",
+    "Check inflammatory markers: **ESR** and **CRP** are often elevated, though they can be normal even with active disease (mild anemia and high platelets may also be seen).",
+    "Imaging is crucial: obtain **CTA/MRA** of the aorta and major branches to confirm arteritis (wall thickening, luminal narrowing) and map disease extent. Conventional angiography is now used mainly when endovascular intervention is planned.",
+    "Diagnosis is based on clinical and angiographic findings; biopsy is rarely available (surgical specimens only). Continue to monitor with periodic imaging, as disease can progress even if symptoms improve."
+  ],
+  "differentials": [
+    {
+      "id": "giant-cell-arteritis",
+      "hint": "**Older** (>50) patients with temporal artery involvement (headache, jaw claudication, vision loss)."
+    },
+    {
+      "name": "Atherosclerosis",
+      "hint": "Older age with cardiovascular risk factors; gradual arterial occlusion with **no systemic inflammation**."
+    },
+    {
+      "name": "Coarctation of aorta",
+      "hint": "Congenital narrowing causes high arm BP and low leg BP; presents in childhood (no inflammatory signs)."
+    }
+  ],
+  "tricks": [
+    "Think **\"Takayasu takes your pulse away\"** – a mnemonic to remember pulseless disease (absent pulses in a young patient).",
+    "Differentiate large-vessel arteritis by age: Takayasu = young, whereas **temporal arteritis** (giant cell) is in older adults with cranial symptoms."
+  ],
+  "exam_appearance": [
+    "A 25‑year‑old woman with months of fatigue and weight loss develops left arm claudication; exam shows a weak left radial pulse and blood pressure 30 mmHg lower in the left arm → Takayasu arteritis.",
+    "A young patient with difficult-to-control hypertension (renovascular) and a bruit over the subclavian area is found to have absent pulses in one arm; angiography reveals narrowing of the aortic arch branches → Takayasu arteritis."
+  ],
+  "treatment": [
+    "**Glucocorticoids** are first-line: start high-dose prednisone (~1 mg/kg daily) to induce remission (often alleviates symptoms quickly). Add a steroid-sparing immunosuppressant (e.g., **methotrexate**, **azathioprine**, **mycophenolate**, or biologics like TNF inhibitors or **tocilizumab**) for refractory disease or to maintain remission while tapering steroids.",
+    "Medical management of complications: daily **aspirin** (to reduce thrombotic risk in narrowed arteries) and aggressive control of blood pressure (often **ACE inhibitors** for renovascular hypertension) are recommended.",
+    "Surgical intervention for critical lesions: if severe stenoses or aneurysms are causing organ ischemia and are not controlled by medical therapy, consider revascularization (endovascular angioplasty or surgical **bypass** grafting) once inflammation is controlled."
+  ],
+  "red_flags": [
+    "Sudden chest or back pain in a Takayasu patient – worry about **aortic dissection** (or rupture of an aneurysm) and get emergent evaluation.",
+    "Severely elevated BP or signs of **malignant hypertension** in a young patient – consider critical renal artery stenosis from Takayasu (requires urgent treatment)."
+  ],
+  "algorithm": [
+    "Young patient (<40) with limb claudication, absent pulses, or unexplained blood pressure discrepancy → suspect Takayasu arteritis.",
+    "Order inflammatory labs (ESR, CRP) and obtain angiographic imaging (**CTA** or **MRA**) of the aorta and branches.",
+    "If imaging confirms large-vessel vasculitis (and other causes are excluded), initiate high-dose glucocorticoid therapy promptly.",
+    "Add a glucocorticoid-sparing agent (e.g., methotrexate) for long-term control if needed; monitor clinical response and follow-up imaging since relapses are common.",
+    "Refer to vascular surgery for possible angioplasty or bypass if critical arterial stenosis or aneurysm is causing severe ischemia despite medical therapy."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Takayasu_Arteritis.jpg",
+      "alt": "Angiographic image of the aortic arch and its branches showing narrowing consistent with Takayasu arteritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Takayasu_Arteritis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old woman of Asian descent has had 3 months of fatigue, low-grade fever, and occasional dizziness.",
+      "clues": [
+        "Weak left radial pulse",
+        "BP 110/70 in left arm vs 145/90 in right",
+        "Bruit over left subclavian area",
+        "Elevated ESR"
+      ],
+      "answer": "Takayasu arteritis",
+      "teaching": "Takayasu arteritis is a granulomatous inflammation of the aorta and major branches that leads to arterial narrowing (here involving the left subclavian artery, causing an absent pulse). Her young age and pulseless arm are classic for this disease (in contrast to giant cell arteritis in older adults). High-dose corticosteroids are the first-line treatment to reduce inflammation."
+    }
+  ],
+  "see_also": [
+    "giant-cell-arteritis",
+    "polyarteritis-nodosa",
+    "kawasaki-disease"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Takayasu Arteritis (Trinidad et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459127/"
+    },
+    {
+      "title": "UpToDate: Clinical features and diagnosis of Takayasu arteritis",
+      "url": "https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-takayasu-arteritis"
+    },
+    {
+      "title": "Merck Manual: Takayasu Arteritis (Villa-Forte, 2024)",
+      "url": "https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/vasculitis/takayasu-arteritis"
+    },
+    {
+      "title": "ACR/VF Guideline: Management of Takayasu Arteritis (Arthritis Rheumatol, 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34235884/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "acoustic-neuroma",
+  "names": ["Acoustic neuroma"],
+  "aliases": ["Vestibular schwannoma", "acoustic neurinoma"],
+  "abbr": ["VS", "AN"],
+  "patterns": ["acoustic neuroma", "vestibular schwannoma", "acoustic neurinoma", "vestibular neuroma"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "genetics", "surgery"],
+  "definition": "Benign Schwann cell tumor of the vestibulocochlear nerve (CN VIII), usually at the cerebellopontine angle; causes progressive unilateral hearing loss with tinnitus.",
+  "why_it_matters": "Most common tumor of the cerebellopontine angle; can cause permanent hearing loss and even brainstem compression if untreated. Also, bilateral acoustic neuromas are a hallmark of **neurofibromatosis type 2**, a classic exam fact.",
+  "how_youll_see_it": [
+    "Gradually progressive **unilateral hearing loss** (sensorineural) and **tinnitus** in one ear are the classic presenting symptoms.",
+    "**Imbalance** or unsteady gait (due to vestibular nerve involvement) is common; true spinning vertigo is less frequent.",
+    "Large tumors can cause **headaches** and compress nearby nerves – leading to **facial numbness** (trigeminal nerve) or **facial weakness** (facial nerve) – and may even result in **hydrocephalus** (brainstem compression)."
+  ],
+  "problem_solving": [
+    "Suspect acoustic neuroma in any **unilateral sensorineural hearing loss** or persistent one-sided tinnitus.",
+    "Obtain an **audiogram** (hearing test) to confirm asymmetric sensorineural hearing loss in the affected ear.",
+    "Confirm the diagnosis with **MRI with gadolinium** of the internal auditory canal (gold standard). If MRI is contraindicated, consider CT with contrast or auditory brainstem response as alternatives.",
+    "Consult neurosurgery/otolaryngology for management once diagnosed. Decision between observation, stereotactic radiosurgery, or microsurgical removal depends on tumor size, growth rate, patient age, and hearing status."
+  ],
+  "differentials": [
+    { "id": "meniere-disease", "hint": "episodic vertigo with fluctuating hearing loss and ear fullness (inner ear disorder)" },
+    { "id": "labyrinthitis", "hint": "acute onset vertigo with hearing loss, often post-viral (usually single episode)" },
+    { "id": "meningioma", "hint": "second most common CPA tumor; dural-based mass that can mimic vestibular schwannoma (often has a dural \"tail\" on MRI)" }
+  ],
+  "tricks": [
+    "Bilateral acoustic neuromas = **NF2** (mutation in the *NF2* tumor suppressor gene for merlin on chr22).",
+    "Any **unilateral sensorineural hearing loss** should be presumed an acoustic neuroma until proven otherwise—always get MRI."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with months of progressive hearing loss and ringing in one ear, along with imbalance; MRI reveals a unilateral cerebellopontine angle tumor → acoustic neuroma (vestibular schwannoma).",
+    "Young patient with **Neurofibromatosis type 2** and bilateral hearing loss → bilateral acoustic neuromas (NF2 hallmark)."
+  ],
+  "treatment": [
+    "Small tumor or minimal symptoms: **observation** with periodic MRI and audiometry (monitor growth).",
+    "**Stereotactic radiosurgery** (e.g., Gamma Knife) for moderate tumors or patients unfit for surgery — focused radiation to halt growth while preserving nerves.",
+    "Large or growing tumor: **microsurgical resection** (craniotomy) to remove the tumor; offers cure but risks hearing loss or facial nerve injury."
+  ],
+  "red_flags": [
+    "New **facial paralysis** or facial numbness—indicates tumor enlargement compressing CN VII/V (urgent re-evaluation).",
+    "Signs of **↑ICP** (severe headache, vomiting)—suggest hydrocephalus from brainstem compression (neurosurgical emergency)."
+  ],
+  "algorithm": [
+    "Unilateral hearing loss or tinnitus → perform audiogram to assess for asymmetric sensorineural hearing loss.",
+    "Confirmed asymmetric SNHL → get **MRI (with gadolinium)** of internal auditory canal to look for vestibular schwannoma.",
+    "If tumor is detected → refer to specialist and choose management (observe vs radiation vs surgery) based on tumor size and patient factors.",
+    "If no tumor is found → pursue other causes of hearing loss (e.g., Meniere disease, chronic noise exposure, otosclerosis)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Blausen_0010_AcousticNeuroma_Tumor.png",
+      "alt": "Medical illustration showing an acoustic neuroma (vestibular schwannoma) arising from the vestibulocochlear nerve.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0010_AcousticNeuroma_Tumor.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man reports gradually worsening hearing in his right ear over a year, accompanied by constant ringing in that ear and unsteady balance.",
+      "clues": [
+        "Right ear sensorineural hearing loss on audiometry",
+        "Unilateral tinnitus (right ear)",
+        "MRI shows a cerebellopontine angle mass"
+      ],
+      "answer": "Acoustic neuroma (vestibular schwannoma)",
+      "teaching": "This is a classic presentation of an acoustic neuroma: a slow-growing vestibular Schwann cell tumor causing unilateral hearing loss, tinnitus, and imbalance. Diagnosis is confirmed by MRI, and treatment depends on tumor size (observation vs. radiation vs. surgical removal)."
+    },
+    {
+      "stem": "A 25‑year‑old with known **neurofibromatosis type 2** develops progressive hearing loss in both ears.",
+      "clues": [
+        "Bilateral gradual hearing loss and tinnitus",
+        "Family history of NF2",
+        "MRI reveals bilateral vestibular tumors"
+      ],
+      "answer": "Bilateral acoustic neuromas (NF2)",
+      "teaching": "Neurofibromatosis type 2 is characterized by bilateral vestibular schwannomas. Patients often present in young adulthood with hearing loss in both ears. NF2 is caused by mutations in the merlin tumor suppressor (NF2 gene), leading to these bilateral acoustic neuromas."
+    }
+  ],
+  "see_also": [
+    "menieres-disease",
+    "vestibular-neuritis",
+    "facial-nerve-palsy"
+  ],
+  "prerequisites": [
+    "cranial-nerves",
+    "ear-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Acoustic Neuroma (Greene & Al-Dhahir, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470177/"
+    },
+    {
+      "title": "UpToDate: Vestibular schwannoma (acoustic neuroma)",
+      "url": "https://www.uptodate.com/contents/vestibular-schwannoma-acoustic-neuroma"
+    },
+    {
+      "title": "Medscape: Acoustic Neuroma (2024)",
+      "url": "https://emedicine.medscape.com/article/882876-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

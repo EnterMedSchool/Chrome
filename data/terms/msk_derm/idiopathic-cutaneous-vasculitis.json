@@ -1,0 +1,137 @@
+{
+  "id": "idiopathic-cutaneous-vasculitis",
+  "names": [
+    "Idiopathic cutaneous vasculitis"
+  ],
+  "aliases": [
+    "cutaneous leukocytoclastic vasculitis",
+    "hypersensitivity vasculitis",
+    "cutaneous small-vessel vasculitis"
+  ],
+  "abbr": [
+    "ICV"
+  ],
+  "patterns": [
+    "idiopathic cutaneous vasculitis",
+    "ICV",
+    "cutaneous small vessel vasculitis",
+    "leukocytoclastic vasculitis",
+    "hypersensitivity vasculitis"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "msk_derm",
+    "pathology",
+    "rheum",
+    "immunology"
+  ],
+  "definition": "Immune complex-mediated small-vessel vasculitis confined to the skin, typically causing **palpable purpura** on dependent areas (especially the legs) due to neutrophilic inflammation of superficial vessels (**leukocytoclastic** vasculitis).",
+  "why_it_matters": "Small vessel vasculitis (especially the skin-limited type) is the **most common vasculitis** and frequently tested as a classic cause of palpable purpura. It's important to distinguish benign skin-only vasculitis from systemic vasculitis with organ damage – missing systemic involvement can be fatal, whereas idiopathic cutaneous vasculitis is usually self-limited (≈90% resolve within weeks).",
+  "how_youll_see_it": [
+    "Crops of **palpable purpura** on the lower legs (gravity-dependent areas). Lesions appear in batches with different ages (new red papules alongside older brown patches from hemosiderin). They may burn or itch mildly but are not usually very painful.",
+    "Onset often ~1–3 weeks after a trigger (e.g., recent infection or new medication), but in >50% of cases no clear cause is found. Patients are usually adult (childhood small-vessel vasculitis is more often **IgA vasculitis/Henoch-Schönlein** with systemic features). Systemic symptoms are typically absent or mild – ~30% might have low fever or arthralgias, but major organ involvement is **absent**.",
+    "Lesions range from petechiae to coalescent purpura; severe cases can have hemorrhagic blisters, necrosis, or superficial ulcers. Distribution is usually lower extremities. Unusual presentations (widespread, deep ulcers, or above-the-waist purpura) should prompt evaluation for systemic vasculitis or an alternate diagnosis."
+  ],
+  "problem_solving": [
+    "Do a skin **biopsy** of an early (24–48 hour) lesion to confirm the diagnosis. Histology shows **leukocytoclastic vasculitis**: neutrophils attacking small vessel walls with **nuclear dust** (karyorrhexis) and fibrinoid necrosis. Perform direct immunofluorescence on a new lesion to check for immune deposits (e.g., perivascular IgA suggests IgA vasculitis). Note: older lesions (>48 h) may only show late changes (more lymphocytes).",
+    "Take a thorough history for triggers: recent **infections** (URI, hepatitis, etc.) or new **medications** (antibiotics, NSAIDs). Do basic labs to screen for systemic involvement: urinalysis (for hematuria/proteinuria), renal & liver function, CBC, etc. This helps rule out systemic causes (e.g., IgA nephropathy, lupus) and other etiologies (e.g., low platelets causing purpura).",
+    "If any signs suggest more than skin-only disease, pursue further workup: e.g., ANCA testing if systemic vasculitis is suspected, complement levels and cryoglobulins for possible cryoglobulinemic vasculitis, autoimmune panels (ANA, RF) for connective tissue disease. Most patients with palpable purpura end up having primary cutaneous vasculitis with no systemic cause found."
+  ],
+  "differentials": [
+    {
+      "name": "Urticaria (hives)",
+      "hint": "transient itchy **wheals** that blanch; lesions last <24 h and leave no purpura (no vessel inflammation)"
+    },
+    {
+      "name": "Pigmented purpura (capillaritis)",
+      "hint": "chronic \"cayenne pepper\" petechiae on legs (e.g., **Schamberg disease**); not palpable and no acute inflammation (no fibrinoid necrosis)"
+    },
+    {
+      "id": "henoch-schonlein-purpura",
+      "name": "IgA vasculitis (Henoch-Schönlein)",
+      "hint": "**Systemic** small-vessel vasculitis: palpable purpura plus renal/GI involvement (IgA immune complexes); typically in children"
+    }
+  ],
+  "tricks": [
+    "If purpura is **palpable**, think vasculitis (inflammatory damage); non-palpable purpura (petechiae/bruises) usually indicates a bleeding problem (e.g., thrombocytopenia).",
+    "Urticarial lesions lasting >24 h and leaving bruises suggest **urticarial vasculitis**, not ordinary hives (look for LCV on biopsy).",
+    "Vasculitic purpura is **non-blanching** (diascopy test): pressing on it won't make it fade, unlike erythematous rashes."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient who recently took a new drug and develops crops of palpable purpura on the lower legs, but has normal labs and no hematuria → idiopathic cutaneous small-vessel vasculitis (leukocytoclastic vasculitis).",
+    "Skin biopsy of a leg lesion shows neutrophils with nuclear debris and fibrin in vessel walls (leukocytoclastic angiitis) → confirms cutaneous small-vessel vasculitis."
+  ],
+  "treatment": [
+    "If disease is limited to skin and mild, use **supportive care**: remove any identified trigger (stop offending drug, treat infection), have patient rest and elevate legs (gravity aggravates lesions), use compression and protect the skin, and give NSAIDs/antihistamines for pain or itch. Often no pharmacotherapy is needed as lesions usually resolve spontaneously in weeks.",
+    "For more extensive or persistent cases, a short course of **corticosteroids** (e.g., prednisone ~0.5 mg/kg/day for 1–2 weeks, then taper) can help speed resolution. Steroid-sparing agents like **colchicine** or **dapsone** (daily) are effective for chronic or recurrent skin vasculitis, reducing inflammation without long-term steroid use.",
+    "Refractory cases (especially if associated with an underlying disease) may require other immunosuppressives (e.g., methotrexate, azathioprine, mycophenolate, or rituximab). However, isolated cutaneous vasculitis rarely needs aggressive therapy – most idiopathic cases resolve with time and basic measures."
+  ],
+  "red_flags": [
+    "**Renal involvement**: any hematuria, proteinuria, or rising creatinine suggests kidney vasculitis (e.g., IgA nephritis or ANCA glomerulonephritis) – this is not \"idiopathic cutaneous\" disease and requires urgent evaluation.",
+    "**Systemic signs**: high fevers, weight loss, severe abdominal pain or GI bleeding, hemoptysis, neurologic deficits, etc. indicate a vasculitis with internal organ involvement (e.g., ANCA-associated vasculitis) rather than a skin-only process.",
+    "Evidence of an underlying disease: if vasculitis accompanies a known autoimmune condition (RA, SLE) or positive serologies (ANA, RF, cryoglobulins), treat it as secondary vasculitis (manage the root disease) instead of idiopathic cutaneous vasculitis."
+  ],
+  "algorithm": [
+    "Palpable purpura on exam → **suspect small-vessel vasculitis** (non-blanching inflammatory purpura).",
+    "**History & labs**: check for triggers (recent infections, new drugs) and any systemic symptoms; get basic labs (CBC, CMP) and urinalysis to screen for internal organ involvement.",
+    "**Confirm diagnosis**: biopsy a fresh lesion for histopathology (neutrophilic leukocytoclastic vasculitis) and do direct IF for immune deposits.",
+    "If systemic involvement is evident → order specialized tests (ANCA, complement levels, hepatitis serologies, etc.) and refer as needed (treat as systemic vasculitis).",
+    "If only skin is involved (ICV) → remove offending agent (if any), treat symptomatically, and observe. Add steroids or colchicine/dapsone if needed for persistent lesions."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man presents with a 1-week history of rash on his lower legs.",
+      "clues": [
+        "Crops of palpable purpura on both lower legs",
+        "Lesions at different stages (some red, some brown)",
+        "No fever or systemic symptoms",
+        "Recent upper respiratory infection 2 weeks ago",
+        "Urinalysis is normal"
+      ],
+      "answer": "Idiopathic cutaneous small vessel vasculitis (leukocytoclastic vasculitis)",
+      "teaching": "This is a classic case of skin-limited small-vessel vasculitis likely triggered by a recent infection (\"hypersensitivity\" vasculitis). Palpable purpura confined to the legs with normal labs and no organ involvement indicates cutaneous leukocytoclastic vasculitis rather than a systemic vasculitis. It typically resolves spontaneously with supportive care."
+    }
+  ],
+  "see_also": [
+    "henoch-schonlein-purpura",
+    "microscopic-polyangiitis",
+    "polyarteritis-nodosa",
+    "urticaria"
+  ],
+  "prerequisites": [
+    "type-iii-hypersensitivity",
+    "complement-system"
+  ],
+  "sources": [
+    {
+      "title": "DermNet NZ: Cutaneous small vessel vasculitis (Stanway & Coulson, updated 2024)",
+      "url": "https://dermnetnz.org/topics/cutaneous-small-vessel-vasculitis"
+    },
+    {
+      "title": "UpToDate: Management of adults with idiopathic cutaneous small vessel vasculitis",
+      "url": "https://www.uptodate.com/contents/management-of-adults-with-idiopathic-cutaneous-small-vessel-vasculitis"
+    },
+    {
+      "title": "StatPearls: Leukocytoclastic Vasculitis (Baigrie & Crane, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482159/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Cutaneous_vasculitis,_ankle_area.jpg",
+      "alt": "Purpuric rash on the ankle (cutaneous vasculitis, also called Golfer's rash) in an adult.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cutaneous_vasculitis,_ankle_area.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "stable-angina",
+  "names": [
+    "Stable angina"
+  ],
+  "aliases": [
+    "chronic stable angina",
+    "angina pectoris",
+    "typical angina"
+  ],
+  "abbr": [
+    "CSA"
+  ],
+  "patterns": [
+    "stable angina",
+    "chronic stable angina",
+    "angina pectoris",
+    "typical angina"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "pathology",
+    "cardio",
+    "pharmacology"
+  ],
+  "definition": "Chest discomfort (or anginal equivalent like dyspnea) from transient myocardial ischemia due to a fixed atherosclerotic coronary narrowing. It is predictable – occurring with exertion or stress – and promptly relieved by rest or nitroglycerin, with no myocardial damage.",
+  "why_it_matters": "Common manifestation of coronary artery disease (the world's leading cause of death) – ~10 million people have angina in the US. Indicates significant atherosclerosis and risk of myocardial infarction if disease progresses. Recognizing and treating stable angina improves quality of life and prevents ACS, and it's a classic topic on boards (differentiating stable vs unstable angina).",
+  "how_youll_see_it": [
+    "Middle-aged or older patient (often with risk factors like smoking, hypertension, diabetes, high cholesterol) who reports substernal chest pressure with exercise (e.g., climbing stairs) that resolves with rest or nitroglycerin in minutes.",
+    "Pain is typically described as a heavy, squeezing, or tight pressure that may radiate to the left arm, shoulder, or jaw. Episodes usually last <10–15 minutes and occur at a predictable level of exertion (no pain at rest).",
+    "Associated symptoms can include shortness of breath, diaphoresis, or fatigue on exertion (anginal equivalents). Patients with diabetes or the elderly may have atypical presentations (e.g., exertional dyspnea without chest pain)."
+  ],
+  "problem_solving": [
+    "Exertional chest pain that consistently improves with rest or nitro strongly suggests stable angina. If the pattern worsens (occurs with less exertion or at rest), suspect an acute coronary syndrome (unstable angina/NSTEMI).",
+    "Baseline ECG in stable angina is often normal at rest. During pain or a stress test, transient ST depression may appear (subendocardial ischemia). An exercise stress ECG (or imaging) is used to confirm the diagnosis and assess ischemia extent.",
+    "Reserve coronary angiography for high-risk patients or if revascularization is being considered. Angiography provides a definitive look at coronary stenoses (e.g., ≥70% stenosis typically causes angina on exertion; ≥90% can cause angina at rest)."
+  ],
+  "differentials": [
+    {
+      "id": "unstable-angina",
+      "hint": "angina at rest or with minimal exertion; changing pattern (part of ACS, urgent eval needed)"
+    },
+    {
+      "id": "prinzmetal-angina",
+      "name": "Variant (Prinzmetal) angina",
+      "hint": "episodic rest angina due to coronary vasospasm; often occurs at night, transient ST elevation during pain"
+    },
+    {
+      "name": "GERD (esophageal reflux/spasm)",
+      "hint": "retrosternal burning pain often after meals or when lying down; not consistently exercise-related, may improve with antacids"
+    },
+    {
+      "name": "Costochondritis",
+      "hint": "chest wall pain reproducible by palpation, sharp and positional (musculoskeletal, not ischemic)"
+    }
+  ],
+  "tricks": [
+    "Think 4 E's as common stable angina triggers: Exercise, Emotion (stress), Exposure to cold, and Eating a heavy meal.",
+    "Classic teaching: a patient clutching their fist over the chest (Levine's sign) suggests ischemic chest pain (as seen in angina).",
+    "Remember: Diabetics may have silent ischemia (atypical or no chest pain due to neuropathy) – they might present with exertional dyspnea or fatigue rather than pain."
+  ],
+  "exam_appearance": [
+    "A 55-year-old man with a history of smoking and high LDL develops squeezing chest pain after walking up two flights of stairs, relieved by rest in 5 minutes. Likely stable angina; next step is an exercise stress test to evaluate.",
+    "ECG stress test shows reversible ST depressions at moderate exercise and chest discomfort that resolves with rest → indicates stable angina from inducible ischemia. (On exams, stable angina is often about diagnosing with stress testing and managing with medications vs. referring for angiography.)",
+    "Questions often ask differences: e.g., Stable angina (predictable, no rest pain, normal troponin) vs Unstable angina (pain at rest or crescendo pattern, normal troponin) vs NSTEMI (similar to unstable angina but with positive troponins)."
+  ],
+  "treatment": [
+    "Acute management of an angina episode: rest and sublingual nitroglycerin (vasodilator) for prompt relief of pain. If chest pain doesn't resolve in ~5 minutes, repeat nitro; if still no relief after 3 doses or >20 minutes, suspect ACS and call emergency services.",
+    "Chronic therapy to prevent angina: start a β-blocker (first-line to reduce myocardial oxygen demand) unless contraindicated. Long-acting nitrates (isosorbide) or calcium channel blockers (e.g., diltiazem) can be added or used if β-blockers are insufficient or not tolerated. Ranolazine is another option for refractory angina.",
+    "Risk factor modification is crucial: daily low-dose aspirin (unless contraindicated) to reduce MI risk, high-intensity statin for LDL reduction, and aggressive control of BP, diabetes, weight, plus smoking cessation and exercise. These measures improve outcomes in stable CAD.",
+    "Consider revascularization if symptoms are not controlled with optimal medical therapy or if high-risk anatomy is present. Options: PCI (angioplasty with stenting) for focal lesions, or CABG (coronary bypass surgery) for diffuse multi-vessel disease (especially left main or 3-vessel disease, or in diabetics). Revascularization can improve symptoms and, in certain high-risk cases, may improve survival."
+  ],
+  "red_flags": [
+    "Chest pain that occurs at rest, with minimal exertion, or in a crescendo pattern (increasing frequency/severity) suggests unstable angina – this is an acute change that requires urgent evaluation (possible ACS).",
+    "Chest pain that lasts >15–20 minutes, is not relieved by rest or nitroglycerin, or is accompanied by diaphoresis, nausea, or hypotension should raise concern for myocardial infarction (ischemia progressing to infarction). Obtain ECG and cardiac enzymes immediately."
+  ],
+  "algorithm": [
+    "Patient with suspected stable angina (predictable exertional chest pain) → perform initial evaluation: history, exam, and rest ECG (which may be normal or show old infarct Q waves). If any acute features, check troponin to rule out MI.",
+    "Estimate probability of coronary disease; if intermediate risk, do a stress test (exercise ECG or stress imaging). Positive test (ischemic ECG changes or perfusion defect) confirms myocardial ischemia and helps risk stratify (e.g., how much myocardium is ischemic).",
+    "Begin guideline-directed medical therapy: lifestyle changes (exercise, diet), risk factor control (BP, diabetes, lipids, smoking). Start aspirin and statin for all unless contraindicated. Use β-blockers (first-line antianginal) and sublingual nitroglycerin as needed; add CCBs or long nitrates if needed for symptom control.",
+    "If stress testing indicates high-risk features (e.g., large ischemic area, low exercise tolerance) or if angina persists despite optimal meds, refer for coronary angiography. Based on angiography, consider revascularization (PCI or CABG) in appropriate candidates.",
+    "Follow up regularly: monitor symptom changes. If angina worsens or becomes unpredictable, re-evaluate immediately for possible ACS."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Angiography_coronary_stenosis_01.jpg",
+      "alt": "Coronary angiogram showing a critical stenosis (narrowing) in the left coronary artery (arrow highlights the narrowing). A fixed severe lesion like this can cause stable angina symptoms during exertion.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Angiography_coronary_stenosis_01.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man with a history of hypertension and smoking presents with chest discomfort on exertion.",
+      "clues": [
+        "He reports a tight, pressure-like pain in the mid-chest when he walks up hills, consistently relieved by rest within 5 minutes",
+        "Pain sometimes radiates to his left shoulder",
+        "Resting ECG is normal; an exercise stress test provokes similar chest pain with ST depressions"
+      ],
+      "answer": "Stable angina (due to fixed coronary atherosclerosis)",
+      "teaching": "This is classic effort angina from a fixed ≥70% coronary stenosis causing transient myocardial ischemia when demand rises. There is no myocardial necrosis (troponins remain normal). Management includes sublingual nitroglycerin for acute relief, β-blockers and other antianginals to prevent episodes, plus aspirin/statin and risk factor control to prevent progression to infarction."
+    }
+  ],
+  "see_also": [
+    "unstable-angina",
+    "myocardial-infarction",
+    "prinzmetal-angina",
+    "coronary-artery-disease",
+    "heart-failure"
+  ],
+  "prerequisites": [
+    "atherosclerosis",
+    "coronary-artery-anatomy",
+    "cardiac-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Stable Angina (Gillen & Goyal, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559016/"
+    },
+    {
+      "title": "UpToDate: Chronic coronary syndrome (stable angina) – overview of care and management",
+      "url": "https://www.uptodate.com/contents/chronic-coronary-syndrome-overview-of-care"
+    },
+    {
+      "title": "2024 ESC Guidelines for the management of chronic coronary syndromes (Eur Heart J, 2024)",
+      "url": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Chronic-Coronary-Syndromes"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

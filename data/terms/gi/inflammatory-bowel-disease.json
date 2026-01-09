@@ -1,0 +1,109 @@
+{
+  "id": "inflammatory-bowel-disease",
+  "names": ["Inflammatory bowel disease"],
+  "aliases": ["IBD"],
+  "abbr": ["IBD"],
+  "patterns": ["inflammatory bowel disease", "IBD", "ulcerative colitis", "Crohn disease", "crohns disease"],
+  "primary_tag": "gi",
+  "tags": ["immunology", "pathology", "rheum", "peds", "surgery"],
+  "definition": "Inflammatory bowel disease (IBD) is a chronic immune-mediated inflammatory disease of the gastrointestinal tract, encompassing Crohn's disease and ulcerative colitis.\n\n| Feature | Crohn disease | Ulcerative colitis |\n| --- | --- | --- |\n| Location | Any GI segment (esp. terminal ileum & colon) | Colon and rectum only (starts at rectum, continuous) |\n| Pattern | Skip lesions (patchy inflammation) | Continuous (always includes rectum) |\n| Depth of inflammation | Transmural (full-thickness) | Mucosal (colon lining only) |\n| Histology | Noncaseating granulomas (33% of cases) | Crypt abscesses, no granulomas |\n| Endoscopy | Cobblestoning, strictures, skip areas | Friability, pseudopolyps, continuous ulcers |\n| Extraintestinal | Fistulas, strictures, perianal disease common | Primary sclerosing cholangitis, toxic megacolon |",
+  "why_it_matters": "Affects mostly young adults in North America/Europe (15–30 yrs), with relapsing-remitting GI symptoms. IBD is lifelong (no cure) and increases morbidity: e.g. strictures, fistulas, colorectal cancer (CRC) risk. Treatment (meds, surgery) is complex and high-yield for exams (flares, complications, EIM).",
+  "how_youll_see_it": [
+    "Recurrent diarrhea (often bloody in UC), abdominal pain (Crohn—RLQ, UC—LLQ/tenesmus), weight loss, and systemic symptoms (fever, fatigue).",
+    "Extraintestinal manifestations are common (10–30%): e.g. arthritis, uveitis, erythema nodosum, pyoderma gangrenosum, primary sclerosing cholangitis (PSC, UC>CD).",
+    "Cigarette smoking worsens Crohn but may improve UC. Family history in ~10-25% of patients (genetic predisposition).",
+    "Complications include malabsorption (more in Crohn), fistulas/abscesses (Crohn), toxic megacolon and colon cancer risk (UC)."
+  ],
+  "tricks": [
+    "Think continuous (UC) vs skip lesions (Crohn); rectum always involved in UC, often spared in Crohn.",
+    "UC: limited to colon mucosa (crypt abscesses, pseudopolyps); Crohn: any GI segment, transmural (cobblestoning, strictures).",
+    "Noncaseating granulomas favor Crohn (supportive finding).",
+    "Extrahepatic cholangitis (PSC) and higher CRC risk mainly in UC.",
+    "Smoking: increases Crohn risk/severity, but is protective in UC."
+  ],
+  "exam_appearance": [
+    "A 25-year-old with crampy RLQ pain, chronic nonbloody diarrhea, and weight loss; colonoscopy shows aphthous ulcers and skip lesions with biopsy demonstrating granulomas → Crohn disease.",
+    "A 30-year-old with 8-week history of bloody diarrhea and tenesmus; colonoscopy shows continuous erythema and ulcers from rectum proximally, biopsy shows crypt abscesses → Ulcerative colitis."
+  ],
+  "treatment": [
+    "Mild-to-moderate UC: 5-aminosalicylates (mesalamine, sulfasalazine) oral or topical for induction and maintenance.",
+    "Crohn with ileal involvement: budesonide (steroid) for mild disease, or 5-ASA (limited benefit) for colonic disease.",
+    "Moderate-severe flares (UC or Crohn): systemic corticosteroids (prednisone) for induction (taper in ~8 wk).",
+    "Maintenance: immunomodulators (azathioprine, 6-MP, methotrexate) and/or biologics (anti-TNF: infliximab, adalimumab; anti-integrin: vedolizumab; anti-IL12/23: ustekinumab; JAK inhibitor tofacitinib for UC).",
+    "Antibiotics (metronidazole, ciprofloxacin) for perianal Crohn or abscesses.",
+    "Surgery: colectomy cures UC (indications: refractory disease, dysplasia, toxic megacolon); Crohn surgeries (resection, strictureplasty) for complications, not curative (disease often recurs)."
+  ],
+  "red_flags": [
+    "Toxic megacolon: acute colonic dilation with systemic toxicity (fever, tachycardia) – emergency surgery.",
+    "Fulminant colitis: severe UC unresponsive to therapy (high leukocytosis, fever) – colectomy needed.",
+    "Colon cancer risk: long-standing extensive colitis (surveillance colonoscopy starting ~8–10 years after diagnosis).",
+    "Perianal disease: fistulas, abscesses common in Crohn (up to 50% of patients).",
+    "Stricture/obstruction: small-bowel strictures in Crohn may cause obstruction requiring surgery."
+  ],
+  "algorithm": [
+    "Suspect IBD in a patient with chronic diarrhea/abdominal pain: check inflammation markers (CRP, ESR) and stool studies (rule out infection, test fecal calprotectin).",
+    "Perform colonoscopy with biopsy for diagnosis (full colonoscopy if possible; sigmoidoscopy if fulminant).",
+    "Differentiate UC vs Crohn: UC = continuous colonic mucosal disease (rectum involved); Crohn = any GI (skip lesions, transmural, possible granulomas).",
+    "If Crohn suspected and colonoscopy inconclusive, do imaging (CT/MRI enterography) or capsule endoscopy for small bowel disease.",
+    "Treat based on severity: mild UC → aminosalicylates; mild Crohn → budesonide; moderate/severe → add corticosteroids (induction), then immunomodulators or biologics for maintenance.",
+    "Reassess response: if refractory or complicated (fistula, abscess, strictures), escalate therapy or consult surgery (e.g. colectomy in UC, resection in Crohn)."
+  ],
+  "cases": [
+    {
+      "stem": "A 28-year-old man has had 6 months of intermittent abdominal cramping and diarrhea (without gross blood) with 10-pound weight loss. He also reports occasional perianal pain. On exam he has mild abdominal tenderness. Labs show elevated CRP. Colonoscopy reveals patchy inflammation and aphthous ulcers in the terminal ileum and ascending colon; biopsy shows noncaseating granulomas.",
+      "clues": ["RLQ pain and weight loss", "Skip lesions (terminal ileum & colon)", "Noncaseating granulomas", "Perianal fistula"],
+      "answer": "Crohn disease",
+      "teaching": "Crohn disease: Transmural inflammation of any GI segment (often ileum/colon) with skip lesions, fistulas/strictures, and granulomas. Causes malabsorption, fistulas. Treat with steroids/biologics; surgery for complications."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Severe_ulcerative_colitis.jpg",
+      "alt": "Normal colon (left) vs severe ulcerative colitis (right) with pseudopolyps",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Severe_ulcerative_colitis.jpg"
+      }
+    }
+  ],
+  "see_also": [
+    "irritable-bowel-syndrome",
+    "diarrhoea",
+    "enteropathic-arthritis",
+    "primary-biliary-cholangitis",
+    "clostridium-difficile-infection",
+    "ankylosing-spondylitis",
+    "uveitis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Inflammatory Bowel Disease (McDowell et al, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470312/"
+    },
+    {
+      "title": "StatPearls: Crohn Disease (Ranasinghe et al, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK436021/"
+    },
+    {
+      "title": "StatPearls: Ulcerative Colitis (Haseeb et al, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459282/"
+    },
+    {
+      "title": "Medscape: Inflammatory Bowel Disease – Practice Essentials",
+      "url": "https://emedicine.medscape.com/article/179037-overview"
+    },
+    {
+      "title": "Mayo Clinic: IBD – Diagnosis and treatment",
+      "url": "https://www.mayoclinic.org/diseases-conditions/inflammatory-bowel-disease/diagnosis-treatment"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

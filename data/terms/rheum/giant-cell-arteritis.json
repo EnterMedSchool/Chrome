@@ -1,0 +1,105 @@
+{
+  "id": "giant-cell-arteritis",
+  "names": ["Giant cell arteritis"],
+  "aliases": ["temporal arteritis", "cranial arteritis", "Horton's disease"],
+  "abbr": ["GCA"],
+  "patterns": ["giant cell arteritis", "temporal arteritis", "gca", "horton", "cranial arteritis"],
+  "primary_tag": "rheum",
+  "tags": ["immunology", "rheum", "pathology"],
+  "definition": "Granulomatous large-vessel vasculitis in patients >50, typically affecting the extracranial carotid branches (especially temporal arteries), causing headaches, jaw claudication, and risk of blindness.",
+  "why_it_matters": "Most common adult vasculitis and a true rheumatologic emergency due to risk of irreversible blindness without prompt treatment.",
+  "how_youll_see_it": [
+    "Usually an **elderly** patient (>50, often 70s) with new-onset unilateral **temporal headache**, scalp tenderness (pain when combing hair), and **jaw claudication** (jaw pain/fatigue when chewing). Often accompanied by fatigue, weight loss, low-grade fever, and ~50% have coexisting **polymyalgia rheumatica** (shoulder/hip girdle aching and morning stiffness).",
+    "**Visual symptoms** may appear: transient blurred vision or **amaurosis fugax** (brief monocular vision loss) or diplopia can precede sudden permanent vision loss (from anterior ischemic optic neuropathy) if not treated. On exam, the **temporal artery** may be tender, enlarged, or have a diminished pulse.",
+    "**Laboratory:** Markedly **elevated ESR** (often >50–100 mm/h) and CRP are classic; mild **normocytic anemia** and elevated platelets are common inflammatory markers. Liver enzymes (especially alkaline phosphatase) can be mildly elevated.",
+    "**Large-vessel** involvement beyond cranial arteries can occur: e.g., arm claudication or asymmetric blood pressures if subclavian/axillary arteries are affected, or chest/back pain from aortitis (risking aneurysm). However, these manifestations are often subtler than cranial symptoms."
+  ],
+  "problem_solving": [
+    "If you suspect GCA (age >50 + typical symptoms or high ESR), **start high-dose corticosteroids immediately** – do NOT wait for tests. Prompt treatment (prednisone ~40–60 mg daily, or IV methylprednisolone if vision is threatened) can prevent permanent blindness.",
+    "**Confirm diagnosis** with a **temporal artery biopsy** as soon as possible (ideally within 1–2 weeks of starting steroids). Biopsy a long segment (>1 cm) because of skip lesions. Histology shows granulomatous inflammation with **multinucleated giant cells** in the artery wall.",
+    "Use **temporal artery ultrasound** as a rapid, noninvasive adjunct: a hypoechoic **\"halo sign\"** (thickened vessel wall) is suggestive of GCA. MRI/MRA or PET can also identify large-vessel inflammation (e.g., aortitis) especially if biopsy is negative but suspicion remains.",
+    "Differentiate from **Takayasu arteritis**: GCA occurs in older patients (>50) with predominantly cranial artery involvement, whereas Takayasu affects younger patients (<40) and involves the aortic arch and its branches (\"pulseless disease\" of upper extremities)."
+  ],
+  "differentials": [
+    { "id": "takayasu-arteritis", "hint": "younger (<40) patients; granulomatous vasculitis of aorta and major branches; arm claudication, loss of pulses" },
+    { "id": "migraine", "hint": "recurrent headaches at any age; normal inflammatory markers, no jaw claudication or vision loss" },
+    { "id": "ischemic-stroke", "name": "Ischemic stroke/TIA", "hint": "acute focal deficits or transient monocular blindness (amaurosis fugax) usually from embolic disease; no systemic inflammation (normal ESR)" }
+  ],
+  "tricks": [
+    "Mnemonic: **50-50-50** – occurs after age 50, ESR is often >50, treat with high-dose (~50 mg) steroids. In any new headache over 50 with ESR >50, think temporal arteritis and start steroids.",
+    "GCA and **polymyalgia rheumatica** travel together – about half of GCA patients have PMR, and some patients with isolated PMR later develop GCA. Always ask about head/jaw symptoms in PMR patients (and vice versa)."
+  ],
+  "exam_appearance": [
+    "An older woman with unilateral throbbing **temple headache**, **scalp tenderness**, jaw pain when chewing, and episodic **vision blurring** → **Giant cell (temporal) arteritis** (high ESR, treat immediately with steroids to prevent blindness).",
+    "A 65‑year‑old man with **polymyalgia rheumatica** on low-dose prednisone develops a new headache and jaw claudication; ESR is 85 → suspect **giant cell arteritis** (PMR patient with new cranial symptoms = GCA until proven otherwise)."
+  ],
+  "treatment": [
+    "**Corticosteroids** – high-dose **prednisone** (40–60 mg daily) as first-line; if visual symptoms, consider IV methylprednisolone. Start at diagnosis (or suspicion) to prevent optic nerve damage, then taper slowly over 6–12+ months (guided by symptoms and ESR).",
+    "**Tocilizumab** (IL-6 inhibitor) – often added for GCA to improve remission rates and spare steroids. It's FDA-approved for GCA and can be started alongside steroids, especially in relapsing or refractory cases (monitor for infection).",
+    "Low-dose **aspirin** – often recommended if no contraindications, as GCA can predispose to cranial ischemia; aspirin may reduce the risk of vision loss or stroke. Ensure bone protection (calcium/Vit D, consider bisphosphonate) and gastric protection (PPI) given prolonged high-dose steroid use."
+  ],
+  "red_flags": [
+    "**Amaurosis fugax** (transient vision loss) or **diplopia** in a patient with suspected GCA – this is an emergency warning sign. It often heralds impending permanent **blindness**; treat immediately with IV high-dose steroids.",
+    "Signs of **aortic involvement** in known GCA (new chest pain, **unequal blood pressures**, or aortic regurgitation murmur) – raise concern for aortic aneurysm/dissection. Urgently image the aorta (e.g., CT/MRI) if these appear."
+  ],
+  "algorithm": [
+    "Age ≥50 with new localized headache (± jaw claudication or visual changes) → **suspect GCA**; check ESR/CRP.",
+    "High suspicion (classic symptoms or ESR >> 50) → **start high-dose prednisone immediately** (don't wait for confirmation).",
+    "**Temporal artery biopsy** within 1–2 weeks of starting steroids to confirm (histology: intimal thickening, granulomas with giant cells, skip lesions).",
+    "**Imaging:** Temporal artery ultrasound can show the halo sign; MRI/MRA or PET can assess large vessels (useful if biopsy is negative or atypical presentation).",
+    "After diagnosis, continue steroids and **taper slowly** (monitor symptoms and ESR). Add **tocilizumab** for steroid-sparing if needed; monitor for relapse and complications (osteoporosis prophylaxis, etc.)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Duplexsonografisches_Bild_einer_Arteriitis_temporalis_68M_-_US_Duplex_-_001.jpg",
+      "alt": "Ultrasound of the temporal artery showing a dark \"halo\" around the vessel (wall thickening) consistent with giant cell arteritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Duplexsonografisches_Bild_einer_Arteriitis_temporalis_68M_-_US_Duplex_-_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old woman presents with a 2-month history of right-sided temporal headaches and scalp tenderness. She reports jaw pain after chewing and had one episode of transient vision loss in her right eye.",
+      "clues": ["ESR 100 mm/h", "Tender, pulseless right temporal artery", "Jaw claudication", "Amaurosis fugax (transient vision loss)"],
+      "answer": "Giant cell arteritis (temporal arteritis)",
+      "teaching": "This is a classic presentation of GCA. An older patient with new temporal headache, jaw claudication, a tender temporal artery, very high ESR, and transient vision loss is characteristic. Immediate high-dose corticosteroids are indicated to prevent permanent blindness, and a temporal artery biopsy should be done for confirmation."
+    },
+    {
+      "stem": "A 66‑year‑old man with polymyalgia rheumatica (on low-dose prednisone) develops a new constant headache and double vision. On exam, he has tenderness over his left temple and a left temporal artery pulse that is diminished.",
+      "clues": ["History of polymyalgia rheumatica", "New headache & cranial pain", "Diplopia (double vision)", "ESR 80 mm/h"],
+      "answer": "Giant cell arteritis in a patient with polymyalgia rheumatica",
+      "teaching": "Approximately 50% of patients with GCA have polymyalgia rheumatica. In a PMR patient who develops new head pain or visual symptoms, GCA should be suspected. High-dose steroids should be started promptly given the ocular involvement. This case underscores the connection between PMR and GCA."
+    }
+  ],
+  "see_also": [
+    "polymyalgia-rheumatica",
+    "takayasu-arteritis",
+    "polyarteritis-nodosa",
+    "stroke"
+  ],
+  "prerequisites": ["immunology", "vasculitis"],
+  "sources": [
+    {
+      "title": "StatPearls: Giant Cell Arteritis (Temporal Arteritis) (Ameer et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459376/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of giant cell arteritis (Weyand & Goronzy, 2023)",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-of-giant-cell-arteritis"
+    },
+    {
+      "title": "2021 ACR/Vasculitis Foundation Guideline for Management of Giant Cell Arteritis",
+      "url": "https://www.rheumatology.org/Portals/0/Files/Giant-Cell-Arteritis-Guideline-Presentation.pdf"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

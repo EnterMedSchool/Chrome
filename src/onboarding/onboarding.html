@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to EMS Medical Glossary</title>
+  <link rel="stylesheet" href="onboarding.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="onboarding-container">
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Slides Container -->
+    <div class="slides-container" id="slidesContainer">
+      
+      <!-- Slide 1: Welcome -->
+      <div class="slide active" data-slide="1">
+        <div class="slide-content">
+          <img src="../../assets/icons/leo-logo.png" alt="Leo the Medical Mascot" class="slide-mascot">
+          <h1>Welcome to EMS Glossary!</h1>
+          <p class="slide-description">
+            Your smart medical terminology assistant that helps you learn 
+            while browsing the web.
+          </p>
+          <div class="feature-cards">
+            <div class="feature-card">
+              <span class="feature-icon">✨</span>
+              <span class="feature-text">336+ medical terms</span>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">🔒</span>
+              <span class="feature-text">100% offline & private</span>
+            </div>
+            <div class="feature-card">
+              <span class="feature-icon">⚡</span>
+              <span class="feature-text">Instant definitions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: How It Works -->
+      <div class="slide" data-slide="2">
+        <div class="slide-content">
+          <div class="slide-icon">🔍</div>
+          <h1>How It Works</h1>
+          <p class="slide-description">
+            EMS Glossary automatically highlights medical terms on any webpage.
+          </p>
+          <div class="demo-section">
+            <div class="demo-text">
+              <p>
+                For example, when you read about 
+                <span class="demo-highlight">anaphylaxis</span> or 
+                <span class="demo-highlight">hypertension</span>, 
+                these terms will be highlighted. 
+              </p>
+              <p>
+                Simply <strong>click any highlighted term</strong> to see its definition, 
+                clinical pearls, and exam tips!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Quick Settings -->
+      <div class="slide" data-slide="3">
+        <div class="slide-content">
+          <div class="slide-icon">⚙️</div>
+          <h1>Quick Setup</h1>
+          <p class="slide-description">
+            Choose how you'd like medical terms to be highlighted.
+          </p>
+          
+          <div class="settings-group">
+            <label class="settings-label">Highlight Style</label>
+            <div class="style-options">
+              <button class="style-btn active" data-style="underline">
+                <span class="style-preview style-underline">Underline</span>
+              </button>
+              <button class="style-btn" data-style="background">
+                <span class="style-preview style-background">Background</span>
+              </button>
+              <button class="style-btn" data-style="bold">
+                <span class="style-preview style-bold">Bold</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="settings-group">
+            <label class="settings-label">Highlight Color</label>
+            <div class="color-options">
+              <button class="color-btn active" data-color="#6C5CE7" style="background: #6C5CE7"></button>
+              <button class="color-btn" data-color="#ef4444" style="background: #ef4444"></button>
+              <button class="color-btn" data-color="#22c55e" style="background: #22c55e"></button>
+              <button class="color-btn" data-color="#0ea5e9" style="background: #0ea5e9"></button>
+              <button class="color-btn" data-color="#f59e0b" style="background: #f59e0b"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: All Set -->
+      <div class="slide" data-slide="4">
+        <div class="slide-content">
+          <div class="slide-icon">🎉</div>
+          <h1>You're All Set!</h1>
+          <p class="slide-description">
+            Start browsing and EMS Glossary will automatically highlight 
+            medical terms for you.
+          </p>
+          <div class="try-sites">
+            <p class="try-label">Try it on:</p>
+            <div class="site-chips">
+              <a href="https://en.wikipedia.org/wiki/Cardiovascular_disease" class="site-chip" target="_blank">
+                📖 Wikipedia - Cardiology
+              </a>
+              <a href="https://www.ncbi.nlm.nih.gov/pmc/" class="site-chip" target="_blank">
+                🔬 PubMed Central
+              </a>
+              <a href="https://medlineplus.gov/heartdiseases.html" class="site-chip" target="_blank">
+                🏥 MedlinePlus
+              </a>
+            </div>
+          </div>
+          <div class="tips">
+            <div class="tip">
+              <span class="tip-icon">💡</span>
+              <span class="tip-text">Click the extension icon to toggle or customize settings</span>
+            </div>
+            <div class="tip">
+              <span class="tip-icon">⌨️</span>
+              <span class="tip-text">Press <kbd>Alt+Shift+G</kbd> to toggle highlighting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation">
+      <button class="nav-btn prev-btn" id="prevBtn" disabled>← Back</button>
+      <div class="slide-dots" id="slideDots">
+        <span class="dot active" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+        <span class="dot" data-slide="4"></span>
+      </div>
+      <button class="nav-btn next-btn" id="nextBtn">Next →</button>
+    </div>
+  </div>
+
+  <script src="onboarding.js" type="module"></script>
+</body>
+</html>

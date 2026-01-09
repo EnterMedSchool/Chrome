@@ -1,0 +1,120 @@
+{
+  "id": "alpha-1-antitrypsin-deficiency",
+  "names": ["Alpha-1 antitrypsin deficiency"],
+  "aliases": ["alpha-1 protease inhibitor deficiency", "genetic emphysema", "inherited emphysema"],
+  "abbr": ["AATD", "A1AT deficiency"],
+  "patterns": ["alpha-1", "AAT deficiency", "alpha1 antitrypsin", "alpha 1 antitrypsin deficiency"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "gi", "genetics", "peds"],
+  "definition": "Inherited protease inhibitor (serpin) disorder with low or dysfunctional alpha-1 antitrypsin. Leads to uninhibited elastase causing early panacinar emphysema, and misfolded AAT protein accumulating in hepatocytes causing cirrhosis.",
+  "why_it_matters": "Major genetic cause of COPD in younger adults and a preventable cause of cirrhosis. Often underdiagnosed; recognizing it early allows interventions (e.g., avoid smoking, augmentation therapy) to slow lung damage and monitor for liver complications. Commonly tested as early emphysema in a nonsmoker or neonatal hepatitis.",
+  "how_youll_see_it": [
+    "Lung: Adult-onset emphysema (usually 30–50s) with chronic dyspnea, cough, and recurrent bronchitis. Clues are early COPD in a patient with minimal or no smoking history, often misdiagnosed as asthma. Emphysema is panacinar and classically basilar (lower lobe–predominant).",
+    "Liver: Neonatal cholestasis (prolonged jaundice in an infant) in ~10% of cases; some infants develop hepatitis/cirrhosis, while others recover. In adulthood, cirrhosis can develop by middle age (15% of adults), with signs like hepatomegaly, elevated LFTs, or portal hypertension. Affected individuals have increased risk of hepatocellular carcinoma.",
+    "Rarely, panniculitis (painful skin nodules from inflammation of subcutaneous fat) occurs, or vasculitis (C-ANCA positive) – these clues in a patient with lung or liver issues should raise suspicion for AAT deficiency."
+  ],
+  "problem_solving": [
+    "Maintain a high index of suspicion: test any patient with early emphysema (<45 years old), basilar emphysema, minimal smoking history, unexplained chronic liver disease, or a family history of COPD/liver disease.",
+    "Initial workup: measure serum alpha-1 antitrypsin level. A very low level (often <50–80 mg/dL, normal ~100–300) is highly suggestive. If low, confirm diagnosis by phenotype or genotype testing (e.g., Pi typing to detect S/Z alleles).",
+    "Pulmonary evaluation: perform spirometry (typically shows irreversible obstructive pattern like COPD) and imaging. CT scan often reveals bullous emphysema in lower lobes. Consider testing family members if one individual is diagnosed.",
+    "Hepatic evaluation: check LFTs and ultrasound in AATD patients. If etiology of liver disease is unclear, a liver biopsy can show characteristic PAS-positive, diastase-resistant globules in hepatocytes (accumulated misfolded AAT protein) – a classic diagnostic finding.",
+    "Follow guidelines: professional societies (ATS/ERS) recommend at least once AAT level testing in all patients with COPD or difficult-to-control asthma, as well as in otherwise unexplained liver disease."
+  ],
+  "differentials": [
+    { "id": "asthma", "hint": "usually reversible airflow obstruction and atopic triggers; normal AAT levels" },
+    { "id": "chronic-obstructive-pulmonary-disease", "name": "Smoking-related COPD", "hint": "older patients with heavy smoking history; emphysema is centrilobular and upper lobe–predominant" },
+    { "id": "biliary-atresia", "hint": "neonate with cholestatic jaundice, pale stools, and absent biliary ducts on imaging; requires surgical correction (Kasai procedure)" }
+  ],
+  "tricks": [
+    "Panacinar = alpha-1 (think AAT deficiency) vs. centrilobular = cigarettes (smoking COPD): AATD classically destroys the entire acinus in lung bases, whereas smoking emphysema starts centrilobular in apices.",
+    "Liver biopsy buzzword: PAS-positive globules in hepatocytes that resist diastase digestion = misfolded A1AT protein retained in the liver.",
+    "Emphysema in a young adult + unexplained cirrhosis in the same patient? That combination is a red flag for alpha-1 antitrypsin deficiency."
+  ],
+  "exam_appearance": [
+    "A 35-year-old non-smoker with chronic shortness of breath and basilar emphysema on chest imaging is found to have low serum AAT levels → Alpha-1 antitrypsin deficiency (early panacinar emphysema).",
+    "A 2-month-old infant with persistent jaundice, elevated liver enzymes, and liver biopsy showing PAS-positive, diastase-resistant granules in hepatocytes → Alpha-1 antitrypsin deficiency (neonatal hepatitis leading to cirrhosis)."
+  ],
+  "treatment": [
+    "Lifestyle: Smoking cessation is absolutely critical (smoking greatly accelerates lung destruction). Also avoid other lung irritants, ensure vaccinations (flu, pneumococcal) to prevent respiratory infections.",
+    "Pulmonary management: Treat as COPD – bronchodilators (inhaled beta-agonists, anticholinergics), inhaled steroids if needed, pulmonary rehab, and prompt antibiotics for infections. For eligible patients (typically with moderate airflow obstruction, e.g. FEV₁ 25–80% predicted), consider IV AAT augmentation therapy (pooled human AAT infusions) to slow emphysema progression.",
+    "Liver management: There is no specific medication to remove the accumulated AAT in the liver. Monitor liver function and screen for cirrhosis complications (ultrasound for HCC, endoscopy for varices if cirrhotic). Manage cirrhosis with standard supportive care (nutrition, avoid alcohol, etc.).",
+    "Transplantation: In end-stage lung disease from AATD, lung transplant is an option (improves lung function but the liver disease remains). In advanced liver cirrhosis, liver transplant can cure the liver disease and also provides a new source of AAT (curative for the enzyme deficiency)."
+  ],
+  "red_flags": [
+    "Continued smoking or frequent respiratory infections in an AATD patient → rapid decline in lung function (accelerated emphysema progression). These patients must be counseled intensively to avoid smoking.",
+    "Signs of advanced cirrhosis in AATD (e.g. new ascites, coagulopathy, encephalopathy) → indicates liver failure; high risk for hepatocellular carcinoma. Such findings should prompt evaluation for liver transplant."
+  ],
+  "algorithm": [
+    "Unexplained early COPD, emphysema, or neonatal cholestasis → suspect AAT deficiency.",
+    "Order a serum AAT level. If low (below normal range) → proceed to confirmatory genotype or phenotype testing for Pi variants (e.g., ZZ, SZ).",
+    "If AATD confirmed → counsel patient on strict smoking avoidance (and avoid second-hand smoke or occupational dust). Perform baseline PFTs and liver tests.",
+    "Initiate appropriate therapy: COPD management (inhalers, etc.), consider augmentation therapy if criteria met, and address liver health (vaccinations for hepatitis, avoid hepatotoxins).",
+    "Follow-up plan: monitor lung function periodically (spirometry) and liver status (periodic LFTs, imaging for cirrhosis). Encourage screening of siblings or family members for AATD."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Alpha-1-antitripsin_deficiency1.jpg",
+      "alt": "CT scan showing large emphysematous bullae in the lower lobes of a patient with alpha-1 antitrypsin deficiency.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Alpha-1-antitripsin_deficiency1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 34‑year‑old man with minimal smoking history is evaluated for progressive dyspnea and cough.",
+      "clues": [
+        "Chest imaging: emphysematous changes predominantly in the lower lobes",
+        "Father had early COPD in his 40s",
+        "Liver enzymes mildly elevated",
+        "Low serum alpha-1 antitrypsin level"
+      ],
+      "answer": "Alpha-1 antitrypsin deficiency (leading to early-onset emphysema)",
+      "teaching": "Alpha-1 antitrypsin deficiency should be suspected in young patients with COPD, especially with basilar emphysema and little smoking history. It often runs in families. Low AAT level confirms the diagnosis; management includes avoiding smoke and considering AAT augmentation."
+    },
+    {
+      "stem": "A 6-week‑old infant presents with persistent jaundice, clay-colored stools, and hepatomegaly.",
+      "clues": [
+        "Direct bilirubin is elevated (conjugated hyperbilirubinemia)",
+        "Workup for biliary atresia is negative",
+        "Liver biopsy: periodic-acid Schiff (PAS) positive globules in hepatocytes",
+        "Parents are of Northern European descent"
+      ],
+      "answer": "Alpha-1 antitrypsin deficiency (neonatal cholestatic hepatitis)",
+      "teaching": "Neonatal cholestasis with PAS-positive liver inclusions points to Alpha-1 antitrypsin deficiency. This inherited condition can cause accumulation of misfolded AAT in the liver, leading to infantile hepatitis and cirrhosis. Early diagnosis allows supportive care and monitoring, and family counseling."
+    }
+  ],
+  "see_also": [
+    "chronic-obstructive-pulmonary-disease",
+    "asthma",
+    "cirrhosis",
+    "emphysema"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "codominant-inheritance"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Alpha-1 Antitrypsin Deficiency (Meseeha, Sankari & Attia, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK442030/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations, diagnosis, and natural history of alpha-1 antitrypsin deficiency",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-diagnosis-and-natural-history-of-alpha-1-antitrypsin-deficiency"
+    },
+    {
+      "title": "Medscape: Alpha1-Antitrypsin Deficiency (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/295686-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

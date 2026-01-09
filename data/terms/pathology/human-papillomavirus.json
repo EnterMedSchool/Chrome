@@ -1,0 +1,131 @@
+{
+  "id": "human-papillomavirus",
+  "names": ["Human papillomavirus"],
+  "aliases": ["human papilloma virus", "HPV infection"],
+  "abbr": ["HPV"],
+  "patterns": ["hpv", "human papillomavirus", "human papilloma virus", "HPV infection", "genital warts", "condyloma", "cervical dysplasia", "cervical intraepithelial neoplasia"],
+  "primary_tag": "pathology",
+  "tags": ["pathology", "infectious_dz", "micro_virus", "obgyn", "heme_onc"],
+  "definition": "A family of small, non-enveloped **double-stranded DNA viruses** that infect epithelial cells. Low-risk types (e.g., HPV **6** and **11**) cause benign **warts** (e.g., genital warts), whereas high-risk types (e.g., HPV **16** and **18**) can cause dysplasia and **squamous cell carcinoma** (cervical, anal, etc.), mediated by viral oncoproteins **E6** and **E7** which inactivate p53 and Rb tumor suppressors.",
+  "why_it_matters": "HPV is the **most common STI** – almost all sexually active people are infected at some point. In 90% of cases the immune system clears it, but **persistent high-risk HPV** infection is a necessary cause of virtually all cervical cancers and contributes to other anogenital and oropharyngeal cancers. HPV accounts for ~4–5% of all new cancer cases worldwide. Because of this huge disease burden, **HPV vaccination** and **cervical screening** programs play a critical role in cancer prevention.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** – most people have no symptoms and clear the infection, or it's only found by an abnormal Pap smear or HPV test.",
+    "**Genital warts** (**condyloma acuminata**): multiple soft, flesh-colored **cauliflower-like** papules on the genitals/perineum (commonly HPV 6 & 11). Warts are typically painless and may coalesce into larger lesions; diagnosed by visual exam.",
+    "**Cervical dysplasia**: usually no visible symptoms; detected on Pap test as **koilocytic** changes or squamous intraepithelial lesions. High-grade lesions (HSIL/CIN) can progress over years to **cervical cancer**, which may present as abnormal vaginal bleeding (especially **post-coital bleeding**) or a friable cervical mass on exam.",
+    "**Other cancers**: HPV-related **anal, vulvar, vaginal, penile,** and **oropharyngeal** cancers. For example, HPV-16 can cause oropharyngeal (throat) cancer, often presenting as a tonsillar mass or cervical lymph node in a patient without traditional risk factors (nonsmoker).",
+    "**Recurrent respiratory papillomatosis**: infants or children can develop warty growths in the larynx/trachea (causing hoarseness or airway obstruction) due to perinatal exposure to HPV 6/11."
+  ],
+  "problem_solving": [
+    "Follow **cervical cancer screening** guidelines: Pap smear cytology starting by age 21 (every 3 years if normal), and for ages 30–65 add high-risk **HPV DNA testing** every 5 years (co-testing). An abnormal Pap (ASC-US+ with high-risk HPV, LSIL+ in older patients, or HSIL) warrants **colposcopy** and biopsy to evaluate cervical lesions.",
+    "Use **HPV DNA testing** in women ≥30 or as reflex testing (not for routine screening in men or younger women). There's no approved HPV test for other sites like throat, so oropharyngeal HPV infection is usually diagnosed when cancer is detected (biopsy with HPV/p16 testing).",
+    "**Diagnose warts clinically**. Genital warts are usually identified by their characteristic appearance; if lesions are atypical (e.g., pigmented, ulcerated) or not responding to therapy, perform a biopsy to exclude dysplasia or another diagnosis.",
+    "In patients with HPV, screen for **co-infections** (other STIs such as HIV, syphilis) as high-risk behaviors overlap. Also, counsel on safe sex (condoms can reduce HPV transmission but not eliminate risk)."
+  ],
+  "differentials": [
+    { "name": "Condyloma lata (secondary syphilis)", "hint": "Broad, flat, moist genital warts caused by **Treponema pallidum**; usually accompanied by other syphilis signs and positive serologies." },
+    { "name": "Molluscum contagiosum", "hint": "Poxvirus skin infection causing small, smooth **umbilicated** papules. Can appear in genital area; lesions are flesh-colored with central dimple (different look than HPV warts)." },
+    { "name": "Pearly penile papules", "hint": "Multiple tiny dome-shaped papules around the corona of the penis; benign normal variant (not an STI) often mistaken for warts." }
+  ],
+  "tricks": [
+    "High-risk vs low-risk: **HPV 16 & 18** are oncogenic (together cause ~65% of cervical cancers), whereas **HPV 6 & 11** are low-risk (cause ~90% of genital warts with minimal cancer risk). Think *\"6 and 11 = warts; 16 and 18 = cancer\"*.",
+    "Mnemonic: **E6 = p53, E7 = Rb**. HPV's E6 oncoprotein triggers p53 degradation, and E7 inactivates Rb, disabling key tumor suppressors.",
+    "Cytology clue: **Koilocytes** on a Pap smear – squamous epithelial cells with **perinuclear clearing** and enlarged, irregular hyperchromatic nuclei – are a hallmark of HPV infection."
+  ],
+  "exam_appearance": [
+    "Young adult with multiple **verrucous, cauliflower-like genital lesions** → condyloma acuminatum (genital warts from HPV 6 or 11).",
+    "Middle-aged woman with **postcoital bleeding** and a neglected Pap history, found to have a friable cervical mass → **cervical cancer** (likely from persistent HPV 16/18 infection).",
+    "Toddler with **recurrent hoarseness** and airway papillomas → **juvenile laryngeal papillomatosis** (acquired from maternal HPV 6/11 during birth)."
+  ],
+  "treatment": [
+    "No antiviral cure for HPV – most infections clear spontaneously within 1–2 years. **Prevent** infection via HPV vaccination before exposure. For existing infection, manage the manifestations:",
+    "**Genital warts**: treatment is optional and for symptom/cosmetic relief. Methods include **cryotherapy**, surgical removal, or topical agents like **imiquimod** or podophyllotoxin. Recurrences are common, since HPV can remain latent in nearby skin.",
+    "**Cervical dysplasia**: High-grade lesions (CIN2/3) are removed with excisional procedures like LEEP (loop electrosurgical excision) or cone biopsy to prevent progression to cancer. Mild dysplasia may be observed as many regress, especially in young women, but requires close follow-up.",
+    "**Invasive cancers**: Treat according to standard oncology protocols (surgery, radiation, chemotherapy as appropriate to stage). HPV-positive oropharyngeal cancers often respond well to treatment. All patients with HPV-related cancers should also receive counseling about vaccination to prevent new infections or reinfection with other strains."
+  ],
+  "red_flags": [
+    "Unexplained **vaginal bleeding** (especially after intercourse) or a visible cervical lesion on exam → urgent evaluation (Pap smear, HPV test, and likely colposcopic biopsy) to rule out cervical cancer.",
+    "Genital wart that is **atypical** – e.g., rapidly enlarging, **bleeding, ulcerated, or irregularly pigmented** – could indicate verrucous carcinoma arising within a wart. Such lesions should be biopsied (Buschke-Löwenstein tumor is a giant condyloma with malignant potential).",
+    "Immunosuppressed patients (HIV, transplant) can develop **extensive or recalcitrant HPV** lesions and faster progression to cancer. They require more frequent screening and often more aggressive treatment."
+  ],
+  "algorithm": [
+    "**Vaccination**: Start HPV **vaccine** series in all boys and girls at age 11–12 (can begin at 9) before sexual debut. Catch-up vaccination is recommended through age 26 if not already done. (Shared decision-making for ages 27–45; not given >45).",
+    "**Screening**: Women age ≥21 get routine cervical screening. Age 21–29: Pap smear every 3 years. Age 30–65: Pap + HPV co-test every 5 years (or Pap alone every 3 years, or primary HPV test every 5). Continue screening as advised even if vaccinated. No routine screening for HPV in men.",
+    "If **abnormal screen**: For any high-grade cytology result or persistent high-risk HPV, perform **colposcopy** with directed biopsy of the cervix. Manage per guidelines: cryotherapy or LEEP for precancerous lesions, depending on severity and patient factors (ensure close follow-up for clear margins).",
+    "If **invasive cancer** is diagnosed (e.g., cervical biopsy shows carcinoma), refer to gynecologic oncology (staging, surgery and/or chemoradiation as needed). Also evaluate for other HPV-associated lesions depending on risk (anal Pap in high-risk groups, etc.).",
+    "After treatment, emphasize **regular follow-ups** (e.g., more frequent Pap/HPV tests after cervical dysplasia treatment) and counsel on smoking cessation (smoking synergistically worsens HPV persistence) and safe sex to reduce re-infection or spread."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/HPV-Infected_Squamous_Cell_(Koilocyte)_of_the_Cervix_(44001403165).jpg",
+      "alt": "HPV-infected cervical cell (koilocyte) seen on Pap smear, showing an enlarged irregular nucleus with a surrounding halo.",
+      "credit": {
+        "text": "Ed Uthman (CC BY 2.0)",
+        "href": "https://commons.wikimedia.org/wiki/File:HPV-Infected_Squamous_Cell_(Koilocyte)_of_the_Cervix_(44001403165).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 23‑year‑old woman presents with \"bumps\" on her vulva.",
+      "clues": [
+        "Sexually active, new partner, never vaccinated for HPV",
+        "Multiple soft, verrucous papules on vulva and perianal region",
+        "Lesions are non-tender, no ulceration",
+        "Biopsy shows viral changes without dysplasia"
+      ],
+      "answer": "Genital warts (condyloma acuminata) from low-risk HPV infection",
+      "teaching": "HPV types 6 and 11 are the usual cause of anogenital warts. These lesions are benign but often recur. Treatment (cryotherapy, imiquimod, etc.) can remove visible warts, and patients should be counseled about HPV vaccination to prevent new lesions and using condoms to reduce transmission."
+    },
+    {
+      "stem": "A 45‑year‑old woman with sporadic medical care reports irregular vaginal bleeding, especially after intercourse.",
+      "clues": [
+        "No Pap smears in over 10 years",
+        "Pelvic exam: friable, ulcerative mass on the cervix",
+        "Biopsy reveals invasive squamous cell carcinoma",
+        "Tumor is positive for HPV-16 DNA"
+      ],
+      "answer": "Invasive cervical carcinoma due to persistent high-risk HPV infection",
+      "teaching": "Virtually all cervical cancers are caused by oncogenic HPV, especially types 16 and 18. In this patient, lack of screening allowed an HSIL to progress to cancer over years. Treatment (e.g., surgery and chemoradiation) is needed, but most importantly, this case underscores the value of routine Pap/HPV screening and HPV vaccination in preventing cervical cancer."
+    }
+  ],
+  "see_also": [
+    "nasopharyngeal-carcinoma",
+    "squamous-cell-carcinoma"
+  ],
+  "prerequisites": [
+    "cell-cycle",
+    "virology",
+    "sexually-transmitted-infections",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "CDC Pink Book: Human Papillomavirus (HPV) (Meites et al., 2024)",
+      "url": "https://www.cdc.gov/pinkbook/hcp/chapter-11-human-papillomavirus.html"
+    },
+    {
+      "title": "National Cancer Institute – HPV and Cancer (Updated 2025)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hpv-and-cancer"
+    },
+    {
+      "title": "WHO Fact Sheet: Human papillomavirus (HPV) and cancer (2024)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer"
+    },
+    {
+      "title": "StatPearls: Condyloma Acuminata (Pennycook & McCready, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547667/"
+    },
+    {
+      "title": "UpToDate: Human papillomavirus infection: Epidemiology and pathogenesis (Wheeler, updated 2023)",
+      "url": "https://www.uptodate.com/contents/epidemiology-and-pathogenesis-of-human-papillomavirus-infection"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

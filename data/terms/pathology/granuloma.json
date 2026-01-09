@@ -1,0 +1,119 @@
+{
+  "id": "granuloma",
+  "names": [
+    "Granuloma"
+  ],
+  "aliases": [
+    "granulomatous inflammation"
+  ],
+  "abbr": [],
+  "patterns": [
+    "granuloma",
+    "granulomas",
+    "granulomatous",
+    "granulomatous inflammation"
+  ],
+  "primary_tag": "pathology",
+  "tags": [
+    "pathology",
+    "immunology",
+    "infectious_dz"
+  ],
+  "definition": "A small organized collection of immune cells (especially **macrophages**) that forms when the immune system tries to wall off a substance or pathogen it cannot eliminate. Granulomas are a distinctive form of chronic inflammation, often appearing as tiny nodules.",
+  "why_it_matters": "Granulomas underlie many diseases (e.g. **tuberculosis**, **sarcoidosis**, certain fungal infections) and their presence can narrow a differential diagnosis. Recognizing granulomas is clinically important for guiding workup (e.g. ruling out TB) and treatment (antibiotics vs immunosuppression). Granulomatous diseases frequently appear on exams (caseating vs non-caseating granulomas) and can cause systemic effects like **hypercalcemia** due to excess vitamin D production by macrophages.",
+  "how_youll_see_it": [
+    "Often identified on **biopsy** reports as \"granulomatous inflammation\" – a pathologist's way of saying granulomas are present (collections of epithelioid macrophages and giant cells).",
+    "On **microscopy**: granulomas are ball-like clusters of epithelioid macrophages (often with multinucleated **Langhans giant cells**) usually surrounded by a rim of lymphocytes. **Caseating** granulomas have a central necrosis that looks cheese-like (characteristic of TB and some fungi), whereas **non-caseating** granulomas lack necrosis (seen in sarcoidosis, Crohn disease, beryllium exposure, etc.).",
+    "On **imaging**: granulomas can appear as nodules or masses. Old granulomas (e.g. from healed TB or histoplasmosis) often calcify and show up as coin lesions on chest X-ray – radiologists often call a calcified pulmonary nodule a \"granuloma\".",
+    "Common causes: Infectious triggers include **Mycobacterium tuberculosis** (prototype caseating lung granulomas), atypical mycobacteria (e.g. MAC in AIDS), and many fungi (**Histoplasma**, **Coccidioides**, **Blastomyces**). Non-infectious causes include **sarcoidosis** (unknown cause, non-caseating granulomas in lungs/lymph nodes), **Crohn disease** (granulomas in the GI tract), chronic **beryllium** exposure (granulomatous lung disease), **Wegener's granulomatosis** (GPA, necrotizing granulomas in respiratory tract), and foreign bodies (e.g. talc, sutures)."
+  ],
+  "problem_solving": [
+    "If you see \"granulomas\" on a pathology report, first differentiate infectious vs non-infectious causes. Order special stains/cultures (**AFB** stain and culture for mycobacteria; **GMS/PAS** stains for fungi) to check for organisms.",
+    "Correlate with patient history: risk factors for TB (exposure, endemic area), travel or bird/bat exposure for certain fungi, autoimmune history for sarcoid, etc. This guides further testing (e.g. **PPD/IGRA** for TB, **ACE level** for sarcoidosis).",
+    "If all infectious studies are negative, consider a non-infectious granulomatous disease. **Sarcoidosis** is a diagnosis of exclusion – ensure TB/fungal tests are truly negative before labeling granulomas as sarcoid. In occupational exposure cases (like berylliosis), inquire about relevant history and consider lymphocyte transformation test for beryllium.",
+    "For pulmonary granulomas of unclear cause, bronchoscopy with biopsy can obtain tissue. Always communicate with the pathologist – knowing clinical context (symptoms, exposures) helps them suggest likely causes in the report."
+  ],
+  "differentials": [
+    {
+      "name": "Abscess",
+      "hint": "Collection of **neutrophils** (pus); acute suppurative inflammation, not organized epithelioid macrophages like a granuloma."
+    },
+    {
+      "name": "Granulation tissue",
+      "hint": "Healing tissue with new capillaries and fibroblasts (e.g. in wound repair); sometimes misnamed \"granuloma\" (as in \"pyogenic granuloma\") but not true granulomatous inflammation."
+    }
+  ],
+  "tricks": [
+    "Mnemonic for causes: **DNF AAII** – **D**rugs, **N**eoplasm, **F**oreign body, **A**llergy, **A**utoimmune, **I**diopathic, **I**nfection (covers most granuloma etiologies).",
+    "**Caseating vs non-caseating**: Think **C**aseating = **T**B (infec**t**ious), Non-caseating = **No** obvious microbe (sarcoidosis, etc.). Boards love the \"African-American with non-caseating granulomas (sarcoid) vs immigrant with caseating granulomas (TB)\" contrast.",
+    "Granulomas can produce **1α-hydroxylase**, leading to excess calcitriol (vitamin D) – hence diseases like sarcoidosis or TB can cause **hypercalcemia**."
+  ],
+  "exam_appearance": [
+    "African-American patient with bilateral hilar lymphadenopathy on chest X-ray and non-caseating granulomas on transbronchial lung biopsy → **Sarcoidosis** (after excluding infections).",
+    "Middle-aged man with chronic cough, weight loss, night sweats, and an upper lobe cavitary lesion; biopsy shows caseating granulomas with positive AFB stain → **Tuberculosis**."
+  ],
+  "treatment": [
+    "Treat the **underlying cause** of the granulomas. For infection, use appropriate antimicrobials (e.g. RIPE therapy for TB, antifungals for endemic mycoses). For inflammatory conditions, **corticosteroids** are first-line (e.g. prednisone for sarcoidosis) to dampen granulomatous inflammation. Foreign body granulomas may resolve after removing the irritant.",
+    "Never start immunosuppressive therapy (steroids, TNF-α inhibitors) for presumed \"sarcoid\" without ruling out infection – unchecked TB or fungal infection can disseminate if you suppress the granulomatous response."
+  ],
+  "red_flags": [
+    "Caseating granulomas in the lung = **possible TB** until proven otherwise. Implement airborne precautions and notify public health if TB is suspected.",
+    "Before using **TNF-α inhibitors** (e.g. infliximab) in any patient, always screen for latent TB. Anti-TNF drugs can cause latent granulomas containing TB to break down, leading to TB reactivation.",
+    "Persistent unexplained granulomas despite treatment – consider alternative diagnoses (e.g. immunodeficiency, unusual infections) or co-existence of multiple conditions (TB and sarcoid can rarely coexist)."
+  ],
+  "algorithm": [
+    "Biopsy or imaging finding of granuloma → **Step 1: Infectious workup**. Obtain TB tests (PPD or IGRA), cultures, and fungal studies. If positive, treat accordingly.",
+    "If infectious workup is negative → **Step 2: Assess for non-infectious causes**. Evaluate for sarcoidosis (chest imaging, ACE level, multi-organ involvement) and check exposure history (e.g. beryllium, talc). Consider rheumatologic causes (ANCA for GPA, etc.) as appropriate.",
+    "No cause found → **Step 3: Idiopathic**. If clinical picture fits sarcoidosis and infections are excluded, manage as sarcoidosis (e.g. steroids) but continue to monitor and ensure no missed infection. Refer to specialists (infectious disease, pulmonology, rheumatology) for complex cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Tuberculous_caseous_granuloma_(2)_TBLB.jpg",
+      "alt": "Caseating (necrotizing) granuloma in tuberculosis (lung biopsy, H&E stain).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Tuberculous_caseous_granuloma_(2)_TBLB.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man with chronic cough, fever, night sweats, and weight loss is found to have an upper lobe cavitary lung lesion on imaging.",
+      "clues": [
+        "Caseating granulomas on biopsy",
+        "Positive AFB (acid-fast) stain",
+        "Weight loss and night sweats"
+      ],
+      "answer": "Pulmonary tuberculosis (caseating granulomas)",
+      "teaching": "Mycobacterium tuberculosis infection leads to **caseating granulomas** in the lungs. Th1 cells activate macrophages to form granulomas with a necrotic center (cheese-like). The findings of cavitation and acid-fast bacilli confirm TB, which requires prolonged multidrug therapy (RIPE)."
+    }
+  ],
+  "see_also": [
+    "tuberculosis",
+    "sarcoidosis",
+    "inflammatory-bowel-disease"
+  ],
+  "prerequisites": [
+    "chronic-inflammation",
+    "cell-mediated-immunity",
+    "macrophage-biology"
+  ],
+  "sources": [
+    {
+      "title": "Granuloma – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Granuloma"
+    },
+    {
+      "title": "Libre Pathology – Granuloma",
+      "url": "https://librepathology.org/wiki/Granuloma"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

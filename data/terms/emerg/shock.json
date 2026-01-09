@@ -1,0 +1,121 @@
+{
+  "id": "shock",
+  "names": ["Shock"],
+  "aliases": ["circulatory shock", "circulatory collapse", "circulatory failure"],
+  "abbr": [],
+  "patterns": ["shock", "circulatory shock", "circulatory collapse", "global hypoperfusion", "circulatory failure"],
+  "primary_tag": "emerg",
+  "tags": ["pathology", "cardio", "pharmacology", "infectious_dz", "emerg"],
+  "definition": "Life-threatening syndrome of inadequate tissue perfusion leading to cellular hypoxia and organ dysfunction. It is characterized by hypotension (e.g., systolic BP <90 or MAP <65) and signs of poor perfusion (altered mental status, oliguria, cool clammy skin, lactic acidosis).",
+  "why_it_matters": "Shock can rapidly progress to multi-organ failure and death if not recognized and treated immediately. It's a core emergency scenario and a common feature in exam cases (e.g., trauma, sepsis, MI), requiring prompt identification of the shock type and appropriate management to save the patient.",
+  "how_youll_see_it": [
+    "General shock features: patients typically present with hypotension, tachycardia, and tachypnea. Mental status is often altered (agitation, confusion). Skin is usually cold, pale, and clammy due to vasoconstriction, except in distributive shock where it may be warm/flushed. Oliguria (low urine output) and elevated blood lactate are red flags for tissue hypoperfusion.",
+    "Hypovolemic shock: look for history of fluid loss (e.g., trauma hemorrhage, GI bleed, severe vomiting/diarrhea, burns). Exam shows flat neck veins, dry mucous membranes, and cold extremities; blood pressure is low with narrow pulse pressure. Patients are often tachycardic and diaphoretic; there may be obvious external bleeding or an abdominal distension (internal bleeding).",
+    "Cardiogenic shock: often follows an acute myocardial infarction or decompensated heart failure. Clues include jugular venous distension (JVD), pulmonary edema (crackles on lung exam, orthopnea), and an S3 gallop. Extremities are cold and mottled. Patients may have chest pain or signs of acute MI. Blood pressure is very low, and tachyarrhythmias or bradyarrhythmias might be present as contributing factors.",
+    "Obstructive shock: suspect when there is a mechanical block to cardiac output. Cardiac tamponade presents with Beck's triad (hypotension, JVD, muffled heart sounds) and often pulsus paradoxus; tension pneumothorax causes distended neck veins, tracheal deviation, unilateral absent breath sounds, and acute respiratory distress; massive pulmonary embolism presents with sudden dyspnea, chest pain, tachycardia, hypotension, and JVD with clear lungs. All lead to acute circulatory collapse if not rapidly relieved.",
+    "Distributive shock: think of conditions causing severe vasodilation and relative hypovolemia. In septic shock (most common distributive type), patients have infection signs (fever, possible source of infection) and may initially have warm, flushed skin with bounding pulses (high output \"warm shock\"), later becoming cold if worsening. Anaphylactic shock occurs after an allergen exposure (e.g., bee sting, drug) with bronchospasm (wheezing), rash (urticaria), angioedema, and hypotension. Neurogenic shock (e.g., spinal cord injury above T4) presents with hypotension and bradycardia (no reflex tachycardia) and warm skin due to loss of sympathetic tone."
+  ],
+  "problem_solving": [
+    "Always assess ABCs first: secure the airway and ensure adequate breathing (supplemental O₂, consider intubation if needed). Start IV fluid resuscitation with crystalloids (unless obvious cardiogenic shock) and place the patient in a supine position to improve brain perfusion. Obtain IV access (2 large-bore IVs) and basic labs (including lactate) while beginning resuscitation.",
+    "Use clinical exam and bedside ultrasound (POCUS) to differentiate shock types. Check the neck veins: flat veins suggest low preload (hypovolemic or distributive), while distended veins suggest pump failure or obstruction (cardiogenic or obstructive). Examine for signs like muffled heart sounds (tamponade), unilateral breath sounds (tension pneumothorax), or focal infection (sepsis). Perform a FAST ultrasound exam in trauma for internal bleeding and echo for cardiac function/tamponade.",
+    "Remember classic hemodynamic profiles (e.g., from a Swan-Ganz catheter or echo estimates): Hypovolemic: ↓ CVP/PCWP (preload), ↓ CO, ↑ SVR (compensatory vasoconstriction); Cardiogenic: ↑ CVP/PCWP, ↓ CO, ↑ SVR; Obstructive: ↑ CVP (and ↑ PCWP in tamponade), ↓ CO, ↑ SVR; Distributive: ↓ CVP/PCWP, ↑ CO (early septic) or ↓ CO (late), ↓ SVR. These parameters guide therapy (e.g., need for fluids vs pressors).",
+    "Don't delay definitive interventions once a likely cause is identified. For example, if tamponade is suspected, perform pericardiocentesis emergently; if tension pneumothorax, do immediate needle decompression; if massive hemorrhage, initiate rapid transfusion and surgical intervention. In septic shock, obtain cultures and start broad-spectrum antibiotics within the first hour. Continually reassess the patient's perfusion (mental status, urine output, lactate clearance) and adjust treatment accordingly."
+  ],
+  "differentials": [
+    {
+      "name": "Vasovagal syncope",
+      "hint": "brief self-limited fainting from vagal surge (hypotension + bradycardia) – patient rapidly recovers upon lying down (not a sustained shock state)."
+    }
+  ],
+  "tricks": [
+    "Types of shock mnemonic: NACHOS – Neurogenic, Anaphylactic, Cardiogenic, Hypovolemic, Obstructive, Septic (helps recall all major categories).",
+    "Warm vs cold shock: distributive shocks (like early septic or anaphylactic) often have warm, flushed extremities and bounding pulses (\"warm shock\") due to vasodilation and high output, whereas hypovolemic and cardiogenic shocks have cold, clammy skin and weak pulses (low output \"cold shock\").",
+    "Neurogenic shock = bradycardic shock: it's the only shock type typically accompanied by significant bradycardia instead of tachycardia (due to loss of sympathetic tone in high spinal cord injury). Recognizing this can prevent confusion with other causes of hypotension."
+  ],
+  "exam_appearance": [
+    "Trauma victim with hypotension, tachycardia, flat neck veins, and cold clammy skin → hypovolemic shock (e.g., hemorrhagic shock from internal bleeding).",
+    "Patient with large MI now has BP 80/50, JVD, lung crackles, and confusion → cardiogenic shock (acute pump failure after myocardial infarction).",
+    "Chest trauma patient with muffled heart sounds, distended neck veins, and pulsus paradoxus → cardiac tamponade causing obstructive shock.",
+    "Elderly septic patient with fever, bounding pulses, warm flushed skin but hypotension unresponsive to fluids → septic shock (distributive shock from sepsis)."
+  ],
+  "treatment": [
+    "Hypovolemic shock: prioritize volume resuscitation – rapid IV crystalloids (and blood products if hemorrhagic), and control the source of volume loss (e.g., apply pressure to bleeding, surgery for internal hemorrhage, stop GI losses). Trend vital signs and urine output; may require massive transfusion protocol in trauma.",
+    "Cardiogenic shock: support the pump. Give inotropic agents (e.g., dobutamine or epinephrine) to improve cardiac output and vasopressors (norepinephrine) if needed for BP. Treat the underlying cause (e.g., urgent revascularization for MI, repair mechanical complications like valve rupture or septal defect). Use fluids cautiously – small bolus if needed, but avoid overload (consider diuretics if pulmonary edema is severe). Mechanical support devices (intra-aortic balloon pump, ventricular assist device, ECMO) may be used in refractory cases.",
+    "Obstructive shock: remove the obstruction ASAP. For tension pneumothorax, do immediate needle decompression followed by chest tube. For cardiac tamponade, perform urgent pericardiocentesis. For massive PE, administer thrombolytics (or surgical thrombectomy if indicated). While addressing the cause, support circulation with IV fluids (to augment preload in RV outflow obstruction) and vasopressors if needed; provide oxygen/ventilation support for respiratory distress.",
+    "Distributive shock: treat underlying cause + vasopressor support. In septic shock, give broad-spectrum antibiotics early (after cultures), aggressive IV fluids (≈30 mL/kg initial bolus), and start a norepinephrine drip for persistent hypotension. Add vasopressin or epinephrine if needed, and consider corticosteroids if refractory. In anaphylactic shock, first-line is IM epinephrine (vasoconstricts and bronchodilates), plus IV fluids, oxygen, and adjuncts like antihistamines and IV steroids; secure the airway early if angioedema is present. In neurogenic shock, give IV fluids and vasopressors (e.g., phenylephrine or norepinephrine) to counteract vasodilation, and atropine IV for significant bradycardia. Also ensure prompt spinal immobilization and neurosurgical evaluation for trauma."
+  ],
+  "red_flags": [
+    "Refractory shock: if a patient remains hypotensive despite aggressive fluids and high-dose vasopressors, it signals impending circulatory collapse (high mortality). This refractory shock state may require advanced therapies (e.g., ECMO for cardiogenic shock, additional vasopressors, or urgent surgical intervention) and expert critical care management.",
+    "End-organ dysfunction: watch for signs like altered mental status, cessation of urine output (anuria), or rising lactate >4 mmol/L. These indicate decompensated shock and onset of irreversible damage. Prolonged shock can lead to multi-organ dysfunction syndrome (MODS) – e.g., acute respiratory distress syndrome (ARDS), acute tubular necrosis (kidney failure), ischemic hepatitis (\"shock liver\"), or DIC – which are often irreversible. Immediate escalation of care is needed to try to prevent this progression."
+  ],
+  "algorithm": [
+    "Suspect shock if hypotension + signs of hypoperfusion (confusion, oliguria, cool skin, high lactate) → immediately call for help and begin ABCs (Airway, Breathing, Circulation). Place the patient supine, give 100% oxygen, and establish IV access.",
+    "Initiate fluid resuscitation: start a rapid 500–1000 mL IV crystalloid bolus (unless cardiogenic shock is obvious) and repeat as needed while monitoring response. Draw blood for labs (CBC, electrolytes, lactate, coags, type & cross) and consider placing a Foley catheter to track urine output.",
+    "Identify the shock type: perform a focused exam during resuscitation. Check JVP (distended vs flat), listen for heart murmurs or muffled tones, examine lung sounds (rales vs absent on one side), check for abdominal pain or distension, look for hives or trauma. Use bedside ultrasound (e.g., EFAST exam for internal bleeding, cardiac echo for tamponade or ventricular function, lung ultrasound for pneumothorax or pulmonary edema, IVC collapsibility for volume status). This step should happen rapidly (within minutes) to guide therapy.",
+    "Treat while diagnosing: do not wait for complete workup to start specific treatment. If hemorrhage is suspected, initiate massive blood transfusion; if cardiac tamponade is evident, do pericardiocentesis; if sepsis is likely, administer broad antibiotics and pursue source control (e.g., abscess drainage) promptly; if anaphylaxis, give IM epinephrine immediately. For cardiogenic shock due to MI, activate the cath lab for emergency revascularization. Addressing the cause is as critical as supportive care.",
+    "Escalate care and monitor: frequently reassess vital signs, mental status, and perfusion. If shock persists, add vasopressors (e.g., norepinephrine as first-line) and titrate to maintain MAP ≥65. Consider invasive monitoring (arterial line for BP, central line for CVP). Transfer to an ICU for advanced support. If the patient is not responding, involve specialty teams (surgery, cardiology, critical care). Be prepared for advanced support like mechanical ventilation (to reduce O₂ demand) or mechanical circulatory support (IABP, ECMO) in refractory cardiogenic shock. Continue addressing reversible causes and supporting end-organ perfusion."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Assess_capillary_refill.jpg",
+      "alt": "Demonstration of assessing capillary refill time on a training mannequin – a simple bedside test of perfusion often used in shock assessment.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Assess_capillary_refill.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man is brought to the ER after a high-speed car accident. He is confused and pale with cool extremities.",
+      "clues": ["BP 70/40, HR 135", "Flat jugular veins", "Rigid abdomen on exam", "Poor capillary refill"],
+      "answer": "Hypovolemic shock (hemorrhagic)",
+      "teaching": "Trauma with hypotension and tachycardia indicates hemorrhagic shock until proven otherwise. The flat neck veins and abdominal distension suggest internal bleeding (likely splenic or liver laceration). Immediate management is IV fluid/blood resuscitation and emergent surgical intervention to stop the hemorrhage."
+    },
+    {
+      "stem": "A 68‑year‑old man with an extensive anterior-wall MI develops restlessness and severe dyspnea an hour after arriving in the ICU.",
+      "clues": ["BP 80/50, HR 118", "Distended neck veins", "Bilateral crackles in lungs", "Cool, mottled skin"],
+      "answer": "Cardiogenic shock (post-MI)",
+      "teaching": "A large myocardial infarction can cause acute pump failure leading to cardiogenic shock. Hypotension with JVD and pulmonary edema (crackles) are classic findings. The patient's skin is cold and clammy from low perfusion. Treatment includes urgent revascularization (e.g., PCI), inotropes to support cardiac output, and careful management of fluids and oxygen."
+    }
+  ],
+  "see_also": [
+    "myocardial-infarction",
+    "pulmonary-embolism",
+    "anaphylaxis"
+  ],
+  "prerequisites": [
+    "cardiovascular-physiology",
+    "hemodynamics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Shock (Koya & Paul, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531492/"
+    },
+    {
+      "title": "Merck Manual Professional: Shock (Procter & Spain, updated 2024)",
+      "url": "https://www.merckmanuals.com/professional/critical-care-medicine/shock-and-fluid-resuscitation/shock"
+    },
+    {
+      "title": "UpToDate: Definition, classification, etiology, and pathophysiology of shock in adults (2023)",
+      "url": "https://www.uptodate.com/contents/definition-classification-etiology-and-pathophysiology-of-shock-in-adults"
+    },
+    {
+      "title": "Vincent JL, De Backer D. Circulatory shock. N Engl J Med. 2013;369(18):1726-34.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24171518/"
+    },
+    {
+      "title": "Evans L et al. Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34599691/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

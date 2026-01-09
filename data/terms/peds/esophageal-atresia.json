@@ -1,0 +1,121 @@
+{
+  "id": "esophageal-atresia",
+  "names": ["Esophageal atresia"],
+  "aliases": ["Tracheoesophageal fistula", "EA/TEF", "Oesophageal atresia"],
+  "abbr": ["EA", "TEF"],
+  "patterns": [
+    "esophageal atresia",
+    "esophageal atresia with tracheoesophageal fistula",
+    "tracheoesophageal fistula",
+    "EA",
+    "TEF",
+    "oesophageal atresia"
+  ],
+  "primary_tag": "peds",
+  "tags": ["pathology", "surgery", "peds", "gi"],
+  "definition": "Congenital discontinuity of the esophagus (ends in a blind pouch) that prevents swallowed material from reaching the stomach; often accompanied by a tracheoesophageal fistula (abnormal connection to the airway).",
+  "why_it_matters": "Life-threatening if not recognized early—newborns cannot feed and risk aspirating saliva/feeds. A classic neonatal surgical emergency and high-yield on boards.",
+  "how_youll_see_it": [
+    "Prenatal: **polyhydramnios** (excess amniotic fluid) due to fetal inability to swallow; ultrasound may show a small or absent stomach bubble.",
+    "At birth: excessive drooling and secretions; newborn immediately **coughs, chokes, and turns cyanotic** with first feeding (the classic \"3 C's\").",
+    "**Nasogastric (NG) tube fails to pass** into the stomach (meets obstruction ~10-12 cm from gums). **X-ray** reveals the NG tube coiled in a blind upper esophageal pouch.",
+    "If a distal TEF is present (most common type), the stomach and intestines fill with air (visible on X-ray); if no fistula, the abdomen remains **gasless** (scaphoid).",
+    "Often associated with other anomalies (consider **VACTERL**: Vertebral, imperforate Anus, Cardiac, Tracheo-Esophageal, Renal, Limb anomalies)."
+  ],
+  "problem_solving": [
+    "**Do not feed** a baby with suspected EA. Attempt to pass an NG tube; if it cannot reach the stomach, obtain an X-ray to confirm atresia (coiled tube in esophagus).",
+    "On X-ray, presence of abdominal gas helps identify the type: **gas in stomach → distal TEF**; **no gas → pure EA** (no fistula).",
+    "Stabilize the infant: keep **NPO**, position head upright (to minimize reflux), and use continuous suction to clear the esophageal pouch (prevent aspiration).",
+    "Evaluate for other anomalies given the high incidence of VACTERL association (e.g., echocardiogram, renal ultrasound, spinal radiographs).",
+    "Consult pediatric surgery for prompt repair. If the esophageal gap is too long for primary anastomosis, a staged approach (gastrostomy for feeding and later surgical repair) may be necessary."
+  ],
+  "differentials": [
+    {
+      "id": "duodenal-atresia",
+      "hint": "Bilious vomiting and abdominal distension soon after feeds; **double-bubble** sign on X-ray; no choking during feeding; associated with Down syndrome."
+    },
+    {
+      "id": "choanal-atresia",
+      "hint": "Newborn turns **cyanotic when feeding** (can't breathe through nose) and pink when crying; difficulty passing a nasal catheter; NG tube passes to stomach normally."
+    },
+    {
+      "id": "laryngeal-cleft",
+      "hint": "Rare congenital cleft between larynx and esophagus → aspiration and recurrent pneumonia; feeding difficulty **without esophageal obstruction**."
+    }
+  ],
+  "tricks": [
+    "**3 C's** of TEF: **Coughing, Choking, Cyanosis** with feeds.",
+    "**VACTERL** association: think of Vertebral, Anal, Cardiac, Tracheoesophageal, Renal, Limb anomalies accompanying EA/TEF."
+  ],
+  "exam_appearance": [
+    "Full-term newborn (history of polyhydramnios) with **drooling** and **choking/cyanosis on first feeding**, and an NG tube that cannot be advanced into the stomach → esophageal atresia (likely with TEF).",
+    "Chest X-ray showing a **coiled NG tube in the upper esophagus** and **air in the stomach** → esophageal atresia with distal tracheoesophageal fistula (Gross type C, most common).",
+    "If X-ray shows a coiled NG tube but **no gas in the abdomen** → pure esophageal atresia without a fistula."
+  ],
+  "treatment": [
+    "**Surgical repair** is definitive: end-to-end esophageal anastomosis and closure of any fistula, typically within the first days of life.",
+    "Pre-op management: strict **NPO**, elevate head of bed, continuous suction of the upper pouch to prevent aspiration; provide IV fluids for hydration (and antibiotics if aspiration pneumonia is suspected).",
+    "If primary anastomosis is not possible (e.g., long-gap EA), a staged approach (e.g., gastrostomy feeding and later esophageal lengthening procedures) is used in specialized centers.",
+    "Post-repair, monitor for complications: esophageal **strictures** (may require dilation), recurrent TEF, or chronic gastroesophageal reflux (common in repaired EA)."
+  ],
+  "red_flags": [
+    "Any newborn with **cyanosis or respiratory distress during feeding** → stop feeds immediately and evaluate for EA/TEF (to prevent aspiration and suffocation).",
+    "After surgical repair, **persistent drooling or difficulty swallowing** suggests an anastomotic stricture, and **recurrent choking/coughing with feeds** may indicate a recurrent fistula—both warrant prompt evaluation."
+  ],
+  "algorithm": [
+    "Prenatal ultrasound: **polyhydramnios** (± absent stomach bubble) raises suspicion for esophageal atresia.",
+    "Newborn with **drooling and choking** on first feed → suspect EA/TEF.",
+    "Attempt NG tube placement: if tube **cannot reach stomach**, get X-ray to confirm a coiled tube in the esophagus.",
+    "If abdomen is **gasless on X-ray** → isolated esophageal atresia; if **stomach gas is present** → distal TEF likely.",
+    "Prevent aspiration (NPO, suction, upright position) and arrange **surgical repair**; concurrently screen for other VACTERL anomalies."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Esophageal_atresia_contrast.png",
+      "alt": "X-ray with contrast showing esophageal atresia: contrast fills the blind-ending upper esophageal pouch; none reaches the stomach.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Esophageal_atresia_contrast.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 1‑day‑old boy born at 39 weeks (mother had polyhydramnios) has excessive drooling and coughs with his first feeding, becoming cyanotic. An orogastric tube meets resistance 10 cm from the gums.",
+      "clues": [
+        "Maternal polyhydramnios",
+        "Newborn drooling, choking on first feed",
+        "NG tube coils in esophagus on X-ray",
+        "Air in stomach visible on X-ray"
+      ],
+      "answer": "Esophageal atresia with distal tracheoesophageal fistula (Type C)",
+      "teaching": "Failure of the tracheoesophageal septum to properly divide the foregut results in a blind upper esophagus and a fistula between the trachea and distal esophagus. Newborns present with drooling, choking, and an inability to pass an NG tube into the stomach. Initial management is to keep the infant **NPO**, with suctioning of secretions and upright positioning to prevent aspiration, followed by surgical repair of the defect."
+    }
+  ],
+  "see_also": [
+    "duodenal-atresia",
+    "anencephaly"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Tracheoesophageal Fistula (Salik & Paul, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535376/"
+    },
+    {
+      "title": "UpToDate: Tracheoesophageal fistula and esophageal atresia (Pediatrics)",
+      "url": "https://www.uptodate.com/contents/tracheoesophageal-fistula-and-esophageal-atresia"
+    },
+    {
+      "title": "Esophageal Atresia (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/935858-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

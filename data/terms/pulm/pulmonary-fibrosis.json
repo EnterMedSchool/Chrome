@@ -1,0 +1,113 @@
+{
+  "id": "pulmonary-fibrosis",
+  "names": ["Pulmonary fibrosis"],
+  "aliases": ["Idiopathic pulmonary fibrosis", "interstitial pulmonary fibrosis"],
+  "abbr": ["IPF", "UIP"],
+  "patterns": ["pulmonary fibrosis", "idiopathic pulmonary fibrosis", "IPF", "interstitial pulmonary fibrosis", "cryptogenic fibrosing alveolitis"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "radiology", "rheum", "pharmacology"],
+  "definition": "Progressive scarring of the lung interstitium (fibrosis) leading to restrictive lung disease and impaired gas exchange; often idiopathic (when termed **IPF**) with a characteristic **UIP** histopathologic pattern.",
+  "why_it_matters": "Pulmonary fibrosis (especially **IPF**) has a poor prognosis (median survival ~3–5 years). Early recognition and treatment can slow decline. It's frequently tested for its classic findings (Velcro crackles, clubbing, honeycombing on CT) and as a prototype for interstitial lung diseases.",
+  "how_youll_see_it": [
+    "Insidious onset of **dyspnea** on exertion and dry cough over months to years (usually age >50). Exam: fine **'Velcro' crackles** at the lung bases and often digital **clubbing**. Patients typically lack wheezing or sputum production (distinguishing from COPD).",
+    "Advanced disease: may have **resting hypoxemia**, cyanosis, or signs of **pulmonary hypertension** (e.g., loud P2, peripheral edema from cor pulmonale).",
+    "Secondary causes to look for: **autoimmune diseases** (e.g., rheumatoid arthritis, scleroderma), chronic **occupational or environmental exposures** (silica, asbestos, moldy organic dust in farmers/bird handlers), or **medications** (amiodarone, bleomycin, nitrofurantoin, etc.). If a specific cause is identified, the fibrosis is considered secondary (not idiopathic)."
+  ],
+  "problem_solving": [
+    "Evaluate for **alternative causes** in anyone with suspected pulmonary fibrosis: detailed exposure history (occupational, environmental) and serologies for connective tissue disease. If a cause is found (e.g., silica, scleroderma), manage that underlying disorder rather than labeling it IPF.",
+    "Obtain a **high-resolution CT (HRCT)** of the chest in all patients. A **UIP pattern** on HRCT (subpleural, basal-predominant fibrosis with reticular opacities and **honeycombing** ± traction bronchiectasis) strongly suggests IPF in the right clinical context.",
+    "Perform **pulmonary function tests**: expect a **restrictive** pattern (reduced FVC, TLC with normal or high FEV₁/FVC) and markedly reduced **DLCO** (diffusing capacity). Exertional desaturation is common as fibrosis progresses.",
+    "If the diagnosis remains unclear or HRCT is indeterminate, consider a **surgical lung biopsy** for definitive histopathology. **UIP** histology (patchy interstitial fibrosis with alternating normal lung, fibroblast foci, and honeycombing) confirms idiopathic pulmonary fibrosis.",
+    "Assess disease severity (oxygen needs, PFT trends) and refer to specialized centers early if advanced. A multidisciplinary discussion (pulmonologist, radiologist, pathologist) is often used to finalize the diagnosis."
+  ],
+  "differentials": [
+    {
+      "name": "COPD (emphysema/chronic bronchitis)",
+      "hint": "Smoking-related obstructive disease with productive cough; PFT shows low FEV₁/FVC (obstruction) rather than restriction; clubbing is uncommon in COPD."
+    },
+    {
+      "name": "Heart failure (pulmonary edema)",
+      "hint": "Can cause dyspnea and basilar crackles, but often with acute or episodic onset, cardiac history, and imaging shows effusions and cardiomegaly (fluid, not fibrosis); improves with diuresis."
+    },
+    {
+      "name": "Sarcoidosis",
+      "hint": "Granulomatous multi-system disease that can cause ILD, but typically in younger patients with **hilar lymphadenopathy** and upper/mid-lung predominance; also see noncaseating granulomas on biopsy and extra-pulmonary findings (e.g., uveitis)."
+    }
+  ],
+  "tricks": [
+    "**Velcro crackles + clubbing** in a patient with chronic dyspnea should prompt consideration of IPF (about half of IPF patients have clubbing). Clubbing is rarely seen in purely obstructive lung diseases like COPD.",
+    "Common **drug causes** of pulmonary fibrosis: chemotherapy agents (e.g., **bleomycin**, **busulfan**), certain antiarrhythmics (**amiodarone**), chronic nitrofurantoin use, and other drugs (e.g., methotrexate). Always review medications in ILD patients.",
+    "Classic **UIP pathology** (seen in IPF): patchy areas of normal lung alternating with dense fibrosis (temporal heterogeneity) plus **fibroblastic foci** and end-stage **honeycomb** change. This distinguishes IPF/UIP from other patterns like NSIP (which has more uniform fibrosis)."
+  ],
+  "exam_appearance": [
+    "A 68‑year‑old male with a 1-year history of progressive exercise intolerance and dry cough. He has bilateral basal **inspiratory crackles** and digital clubbing on exam. Pulmonary function testing shows a restrictive pattern with reduced DLCO. **High-resolution CT** of the lungs reveals **bibasilar subpleural reticular opacities and honeycombing**. → **Idiopathic pulmonary fibrosis** (usual interstitial pneumonia pattern).",
+    "Open lung biopsy in a patient with chronic interstitial lung disease shows **patchy interstitial fibrosis with fibroblast foci** and honeycombing, alternating with areas of relatively normal lung. → **Usual interstitial pneumonia** pattern consistent with IPF."
+  ],
+  "treatment": [
+    "**Antifibrotic therapy** (e.g., pirfenidone, nintedanib) can slow the decline in IPF lung function.",
+    "**Supportive care** is crucial: supplemental **oxygen** for hypoxemia, **pulmonary rehabilitation**, and management of symptoms. Also ensure **smoking cessation** and up-to-date vaccinations.",
+    "If an underlying cause is identified, treat it (e.g., immunosuppressants for autoimmune disease, removal from exposure in pneumoconiosis). Avoid offending drugs.",
+    "Lung **transplantation** offers the best chance of long-term survival in advanced pulmonary fibrosis and is indicated for eligible patients with progressive disease."
+  ],
+  "red_flags": [
+    "Sudden **acute exacerbation** of IPF (rapid worsening dyspnea with new diffuse ground-glass infiltrates on imaging) – often leads to respiratory failure and has high mortality. Requires urgent care and often hospitalization.",
+    "Signs of **advanced disease**: e.g., needing oxygen at rest, hypercapnia, or evidence of cor pulmonale (JVD, edema). These indicate end-stage fibrosis – prompt evaluation for transplant or palliative measures is warranted."
+  ],
+  "algorithm": [
+    "Chronic exertional dyspnea + basilar crackles → **suspect interstitial lung disease** (consider PF).",
+    "First, **exclude other etiologies**: review medications, occupational exposures, and test for connective tissue diseases.",
+    "**High-resolution CT** chest is the key diagnostic step: if a **UIP pattern** is seen and no alternative cause is found, IPF can be diagnosed without biopsy.",
+    "If HRCT is atypical or suggests another process, pursue further evaluation (e.g., bronchoscopy or **surgical lung biopsy**) for definitive diagnosis.",
+    "Once diagnosis is confirmed, initiate appropriate therapy (antifibrotics for IPF, or cause-specific treatment) and monitor lung function; refer early for transplant evaluation in rapidly progressive cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/HR_tomography_of_the_chest_of_an_IPF_patient_2.jpg",
+      "alt": "High-resolution CT of lungs in idiopathic pulmonary fibrosis, showing basilar subpleural reticulation and honeycombing.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:HR_tomography_of_the_chest_of_an_IPF_patient_2.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with a 1-year history of progressive dyspnea on exertion and dry cough is evaluated for worsening exercise tolerance.",
+      "clues": [
+        "Physical exam: fine 'Velcro' crackles at both lung bases; finger clubbing present",
+        "Pulmonary function: FVC 60% predicted, FEV₁/FVC 0.85, DLCO 40% predicted (reduced)",
+        "HRCT scan: bilateral basilar reticular opacities with honeycombing"
+      ],
+      "answer": "Idiopathic pulmonary fibrosis (usual interstitial pneumonia pattern)",
+      "teaching": "IPF typically presents in older adults with insidious onset of dyspnea and dry cough. Basilar Velcro-like crackles and clubbing are common findings. PFTs show a restrictive pattern with low DLCO. HRCT demonstrating a UIP pattern (basal subpleural fibrosis with honeycombing) is diagnostic in the absence of an alternative cause. Prognosis is poor; antifibrotic therapy is used to slow progression, and lung transplant is considered in advanced cases."
+    }
+  ],
+  "see_also": ["sarcoidosis", "asbestosis", "chronic-obstructive-pulmonary-disease"],
+  "prerequisites": ["respiratory-physiology", "lung-anatomy", "pulmonary-function-testing"],
+  "sources": [
+    {
+      "title": "Merck Manual Professional: Idiopathic Pulmonary Fibrosis (Lee, updated 2025)",
+      "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/interstitial-lung-diseases/idiopathic-pulmonary-fibrosis-ipf"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of idiopathic pulmonary fibrosis",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-idiopathic-pulmonary-fibrosis"
+    },
+    {
+      "title": "Am J Respir Crit Care Med: Diagnosis of Idiopathic Pulmonary Fibrosis (ATS/ERS/JRS/ALAT Clinical Practice Guideline, 2018)",
+      "url": "https://www.thoracic.org/statements/resources/interstitial-lung-disease/diagnosis-IPF-full-length.pdf"
+    },
+    {
+      "title": "StatPearls: Idiopathic Pulmonary Fibrosis (Sankari & Chapman, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448162/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

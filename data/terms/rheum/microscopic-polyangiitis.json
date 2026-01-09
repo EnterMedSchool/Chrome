@@ -1,0 +1,145 @@
+{
+  "id": "microscopic-polyangiitis",
+  "names": [
+    "Microscopic polyangiitis"
+  ],
+  "aliases": [
+    "microscopic polyarteritis"
+  ],
+  "abbr": [
+    "MPA"
+  ],
+  "patterns": [
+    "mpa",
+    "microscopic polyangiitis",
+    "microscopic polyarteritis"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "pathology",
+    "renal",
+    "pulm"
+  ],
+  "definition": "Necrotizing small-vessel vasculitis (pauci-immune) affecting capillaries (esp. in kidneys & lungs); an **ANCA**-associated disease with no granulomas.",
+  "why_it_matters": "Life-threatening cause of alveolar hemorrhage & rapidly progressive GN that is fatal if untreated; early immunosuppression can save organs and lives.",
+  "how_youll_see_it": [
+    "Systemic symptoms (fever, weight loss, arthralgias) followed by **RPGN** (hematuria, RBC casts, ↑creatinine) ± **pulmonary capillaritis** (hemoptysis, cough, dyspnea) – classic pulmonary–renal syndrome.",
+    "Renal-limited variant: isolated **pauci-immune crescentic glomerulonephritis** without lung involvement (ANCA-positive rapidly progressive GN).",
+    "Other features: **palpable purpura** (skin), mononeuritis multiplex (peripheral nerves), and sometimes GI vasculitis (abdominal pain). **Upper respiratory** tract involvement is notably absent (unlike GPA)."
+  ],
+  "problem_solving": [
+    "Order **ANCA** serologies: MPA is usually **MPO-ANCA** (p-ANCA) positive; also check **anti-GBM** to exclude Goodpasture's in pulmonary–renal cases.",
+    "Confirm with tissue **biopsy** (often kidney): shows pauci-immune necrotizing vasculitis (crescentic GN) without granulomas.",
+    "Determine disease severity (organ-threatening vs limited) – e.g., glomerulonephritis or alveolar hemorrhage necessitate aggressive therapy.",
+    "Do not delay treatment in severe disease: start high-dose steroids + cyclophosphamide/rituximab promptly to prevent irreversible damage."
+  ],
+  "differentials": [
+    {
+      "id": "granulomatosis-with-polyangiitis",
+      "hint": "nasal + sinus inflammation, nodules/cavities; **c-ANCA** (PR3); granulomas present"
+    },
+    {
+      "id": "eosinophilic-granulomatosis-with-polyangiitis",
+      "hint": "asthma, eosinophilia; p-ANCA (~50%); granulomas with eosinophils"
+    },
+    {
+      "id": "polyarteritis-nodosa",
+      "hint": "medium vessels; spares lungs/glomeruli; often linked to Hep B; typically ANCA-negative"
+    },
+    {
+      "id": "goodpasture-syndrome",
+      "name": "Goodpasture (anti-GBM) disease",
+      "hint": "alveolar hemorrhage + GN but linear IgG deposits (anti-GBM+); not ANCA-associated"
+    }
+  ],
+  "tricks": [
+    "M**P**A is typically **M**PO-ANCA positive (**p-ANCA**).",
+    "No **ENT** involvement or granulomas in MPA (distinguishes it from GPA)."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with hemoptysis, dyspnea, rapidly rising creatinine, and p-ANCA positivity → microscopic polyangiitis (pulmonary–renal syndrome).",
+    "Patient with subacute hematuria, proteinuria, and anemia; kidney biopsy shows crescentic pauci-immune GN (ANCA-positive) → renal-limited microscopic polyangiitis."
+  ],
+  "treatment": [
+    "Remission induction: high-dose **corticosteroids** + either **cyclophosphamide** or **rituximab** (for severe organ-threatening disease). Use **methotrexate** or **MMF** only in mild cases (no critical organ involvement).",
+    "Maintenance: after remission, switch to a less toxic agent for 1–2+ years (e.g., **azathioprine** or periodic rituximab) to prevent relapse.",
+    "Adjuncts: consider **plasmapheresis** if life-threatening renal or pulmonary failure (controversial); give **PJP prophylaxis** (TMP-SMX) during intensive immunosuppression."
+  ],
+  "red_flags": [
+    "Diffuse **alveolar hemorrhage** (hemoptysis, hypoxia, new infiltrates) → ICU-level emergency; requires immediate high-dose immunosuppression (risk of respiratory failure).",
+    "**Rapidly progressive glomerulonephritis** (quick rise in creatinine with RBC casts) → start aggressive therapy without delay to prevent irreversible renal failure."
+  ],
+  "algorithm": [
+    "Suspicion: patient with hematuria (± hemoptysis) and systemic inflammation → evaluate for ANCA-associated vasculitis.",
+    "Initial workup: send **ANCA panel** (MPO & PR3); check anti-GBM; get chest imaging if respiratory symptoms; basic labs (creatinine, UA).",
+    "Confirm diagnosis with **biopsy** of affected organ (often kidney) showing pauci-immune vasculitis (necrotizing GN).",
+    "If organ-threatening disease, begin induction therapy immediately (do not wait for biopsy) – high-dose steroids + cyclophosphamide or rituximab (consider plasma exchange for very severe renal failure).",
+    "After remission, continue **maintenance immunosuppression** (e.g., azathioprine or periodic rituximab) for 24–48 months; monitor for relapse."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Crescentic_glomerulonephritis_(2).jpg",
+      "alt": "Kidney biopsy in microscopic polyangiitis: crescentic glomerulonephritis (H&E stain).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Crescentic_glomerulonephritis_(2).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old man develops acute-onset hemoptysis and dark urine.",
+      "clues": [
+        "Cough with blood-tinged sputum and diffuse lung infiltrates",
+        "Hematuria with red cell casts; rapidly rising creatinine",
+        "p-ANCA (MPO) positive",
+        "Renal biopsy: pauci-immune crescentic glomerulonephritis"
+      ],
+      "answer": "Microscopic polyangiitis (pulmonary–renal syndrome)",
+      "teaching": "This is a classic presentation of MPA causing diffuse alveolar hemorrhage and RPGN. MPO-ANCA positivity and a pauci-immune crescentic GN confirm an ANCA-associated vasculitis (distinguishing it from Goodpasture's, which is anti-GBM positive). Prompt treatment with steroids and cyclophosphamide or rituximab is critical."
+    },
+    {
+      "stem": "A 63‑year‑old woman is evaluated for progressive fatigue and new-onset edema.",
+      "clues": [
+        "No pulmonary symptoms; focus is on renal issues",
+        "Urinalysis: hematuria, proteinuria, RBC casts",
+        "Serology: p-ANCA positive; c-ANCA negative",
+        "Kidney biopsy: necrotizing crescentic glomerulonephritis (pauci-immune)"
+      ],
+      "answer": "Microscopic polyangiitis (renal-limited variant)",
+      "teaching": "MPA can present as isolated pauci-immune glomerulonephritis without lung involvement. The positive p-ANCA and kidney biopsy confirm an ANCA-associated vasculitis limited to the kidneys. Treatment is similar (immunosuppression) to prevent progression to end-stage renal disease."
+    }
+  ],
+  "see_also": [
+    "polyarteritis-nodosa",
+    "anca-associated-vasculitis",
+    "glomerulonephritis",
+    "pulmonary-fibrosis"
+  ],
+  "prerequisites": [
+    "vasculitis",
+    "nephritic-syndrome"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Microscopic Polyangiitis (Hashmi & Rout, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531484/"
+    },
+    {
+      "title": "UpToDate: Granulomatosis with polyangiitis and microscopic polyangiitis – clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/granulomatosis-with-polyangiitis-and-microscopic-polyangiitis-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "ACR/VF Guideline: Management of ANCA-Associated Vasculitis (Maz et al., 2021)",
+      "url": "https://www.rheumatology.org/Portals/0/Files/ACR-VF-Guideline-for-Management-of-ANCA-Associated-Vasculitis-Discussion.pdf"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

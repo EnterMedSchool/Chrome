@@ -1,0 +1,139 @@
+{
+  "id": "ovarian-cancer",
+  "names": [
+    "Ovarian cancer"
+  ],
+  "aliases": [
+    "ovarian carcinoma",
+    "ovarian tumor",
+    "cancer of the ovary"
+  ],
+  "abbr": [
+    "OC"
+  ],
+  "patterns": [
+    "ovarian cancer",
+    "ovarian carcinoma",
+    "ovarian tumour",
+    "ovarian tumor",
+    "ovarian ca"
+  ],
+  "primary_tag": "oncology",
+  "tags": [
+    "pathology",
+    "repro",
+    "gyn"
+  ],
+  "definition": "Malignant tumor arising from ovarian tissue. **Epithelial ovarian carcinoma** is by far the most common (~90%), but ovarian cancer also includes **germ cell tumors** and **sex cord–stromal tumors** with distinct behaviors.",
+  "why_it_matters": "Ovarian cancer is the **deadliest gynecologic malignancy** due to late presentation. It's a high-yield topic because of its **vague symptoms**, unique tumor markers (CA-125, AFP, β-hCG, etc.), and the need to distinguish subtypes (epithelial vs germ cell vs stromal) on exams.",
+  "how_youll_see_it": [
+    "Often in a **postmenopausal** woman with **vague GI symptoms**: abdominal bloating, early satiety, pelvic or abdominal pain, urinary urgency. Exam may reveal a palpable **adnexal mass** and possibly **ascites**. **CA-125** is often elevated.",
+    "**Young** women or teens with a **rapidly enlarging pelvic mass**. May present with acute pain from torsion or rupture. **Tumor markers** can be positive (e.g., ↑**AFP** in yolk sac tumor, ↑**β-hCG** in choriocarcinoma or embryonal carcinoma, ↑**LDH** in dysgerminoma).",
+    "Findings of **hormone production**: e.g., an ovarian mass with **estrogen effects** (precocious puberty in a girl, or endometrial hyperplasia/postmenopausal bleeding in an older woman) suggests a **granulosa cell tumor**; virilization (hirsutism, deep voice) suggests a **Sertoli-Leydig cell tumor**."
+  ],
+  "problem_solving": [
+    "Always consider **patient age**. An adnexal mass in a younger patient → evaluate for germ cell tumor (**AFP, β-hCG, LDH**). In a postmenopausal patient → high suspicion for epithelial carcinoma (**CA-125**).",
+    "Use **transvaginal ultrasound (TVUS)** to characterize any ovarian mass. Benign features: simple, unilocular cyst <5 cm, smooth walls. Suspicious features: **solid or complex mass**, thick septations, bilateral masses, or **ascites**.",
+    "If malignancy is suspected, obtain appropriate imaging (**CT scan** of abdomen/pelvis +/- chest) for extent, and refer to a **gynecologic oncologist** for surgical management. Avoid simple cyst aspiration—if the mass is cancer, spillage can spread tumor cells.",
+    "Check **tumor markers** preoperatively to guide the differential: CA-125 (especially if postmenopausal), **CEA/CA19-9** (mucinous or GI origin), AFP, β-hCG, LDH (if germ cell tumor suspected), **Inhibin** (granulosa cell tumor). These help narrow the diagnosis but are adjuncts, not definitive."
+  ],
+  "differentials": [
+    {
+      "name": "Tubo-ovarian abscess",
+      "hint": "PID history, fever and pelvic pain; inflammatory adnexal mass (responds to antibiotics)"
+    },
+    {
+      "name": "Endometrioma",
+      "hint": "\"Chocolate cyst\" from endometriosis; premenstrual pelvic pain; \"ground-glass\" appearance on ultrasound"
+    },
+    {
+      "name": "Mature cystic teratoma",
+      "hint": "Benign dermoid cyst; young women; often contains fat or calcifications (teeth) on imaging"
+    }
+  ],
+  "tricks": [
+    "Use the mnemonic **\"BEAT\"** for common ovarian cancer symptoms: **Bloating, Early satiety, Abdominal pain, Trouble with bladder** (urinary urgency). These vague complaints in an older woman should raise concern for ovarian cancer.",
+    "Don't confuse ovarian cancer with **Meigs syndrome**: a benign ovarian fibroma with **ascites** and **pleural effusion**. Meigs can mimic cancer (mass + ascites) but resolves after fibroma removal."
+  ],
+  "exam_appearance": [
+    "A 63-year-old woman with increasing abdominal girth, early satiety, and an adnexal mass on exam. Ultrasound shows a solid complex ovarian mass with ascites; CA-125 is markedly elevated → **Epithelial ovarian carcinoma** (likely high-grade serous).",
+    "An 18-year-old woman with an acute abdominal pain and pelvic mass. Serum AFP is high (or β-hCG is high) → **Ovarian germ cell tumor** (e.g., yolk sac tumor if AFP, choriocarcinoma if β-hCG). Tumor is often unilateral and rapidly enlarging.",
+    "A postmenopausal woman with a thickened endometrium, postmenopausal bleeding, and an ovarian mass → think **granulosa cell tumor** (estrogen-secreting sex cord–stromal tumor causing endometrial hyperplasia/carcinoma)."
+  ],
+  "treatment": [
+    "Primary treatment is **surgical**. For epithelial ovarian cancer, perform **surgical staging and debulking**: remove the uterus, both ovaries and tubes (**TAH-BSO**), omentum, and any visible tumor nodules. Goal is to leave no macroscopic disease. (In early-stage young patients wishing fertility, unilateral oophorectomy can be considered if disease is limited.)",
+    "Nearly all patients will need **platinum-based chemotherapy** after surgery. Standard regimen for epithelial ovarian carcinoma is combined **carboplatin + paclitaxel**. For malignant germ cell tumors, use **BEP** chemo (Bleomycin, Etoposide, Cisplatin), which yields high cure rates. Sex cord-stromal tumors may also receive chemo (often using BEP) if high stage or poorly differentiated.",
+    "Advanced or high-risk cases often get **maintenance therapy** after chemo. Examples: **Bevacizumab** (anti-angiogenic) is often added for stage III-IV disease, and **PARP inhibitors** (like olaparib) are used especially in patients with BRCA mutations or homologous recombination deficiency to prolong remission.",
+    "Always involve a gynecologic oncology specialist for suspected ovarian cancer. Appropriate surgical staging and cytoreduction by an expert improves outcomes. In younger patients with malignancy who desire fertility, a fertility-sparing approach (removing only the affected ovary, if early stage) can be done, followed by chemo, with careful follow-up."
+  ],
+  "red_flags": [
+    "**Postmenopausal** woman with any **adnexal mass** or **unexplained ascites** is a red flag for ovarian malignancy until proven otherwise – prompt evaluation and referral is warranted.",
+    "**CA-125** level very elevated (e.g. >200 U/mL, especially in a postmenopausal patient) strongly suggests an ovarian cancer (though moderate elevations can occur in benign conditions).",
+    "An ovarian mass with **acute torsion or rupture** can be life-threatening (severe abdominal pain, peritonitis). While not a \"malignancy\" sign per se, any patient with known ovarian mass who develops sudden severe pain needs emergency surgical assessment (masses >5 cm increase torsion risk)."
+  ],
+  "algorithm": [
+    "Patient presents with possible adnexal mass (e.g., pelvic exam finding or symptoms) → **Transvaginal ultrasound** for characterization.",
+    "If ultrasound suggests a **benign cyst** (small, simple, likely functional) and patient is low-risk → observe and follow up imaging; consider elective laparoscopic cystectomy if persistent or symptomatic.",
+    "If ultrasound or clinical factors are **suspicious for malignancy** (solid components, septations, nodularity, ascites, or patient is postmenopausal) → **Measure tumor markers** (e.g., CA-125) and obtain cross-sectional imaging (CT scan) as needed → **Refer to gynecologic oncology** before intervention.",
+    "Proceed to **surgical exploration** for definitive diagnosis and treatment. Perform appropriate cancer staging surgery (with frozen section guidance intra-op). If malignancy is confirmed, execute debulking and then plan for adjuvant chemotherapy. If benign, manage accordingly (cystectomy or oophorectomy as needed)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ovarian_cancers_by_histopathology.svg/1604px-Ovarian_cancers_by_histopathology.svg.png",
+      "alt": "Chart illustrating ovarian cancer subtypes by histology (area of each segment correlates with frequency, and color indicates 5-year survival rate: green for higher survival, red for lower). Epithelial tumors (large red segment) account for the vast majority of ovarian cancers.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ovarian_cancers_by_histopathology.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 62-year-old woman reports progressive abdominal bloating, early satiety, and pelvic discomfort for 2 months. She also notes her pants fitting tighter due to a \"swollen belly.\" On exam, she has a distended abdomen with a fluid wave and a firm, fixed right adnexal mass. CA-125 level is 560 U/mL (normal <35).",
+      "clues": [
+        "Postmenopausal woman",
+        "Bloating & early satiety",
+        "Ascites on exam",
+        "Adnexal mass on exam",
+        "CA-125 markedly elevated"
+      ],
+      "answer": "Epithelial ovarian carcinoma (likely high-grade serous ovarian cancer)",
+      "teaching": "This presentation (older age, vague abdominal symptoms, ascites, very high CA-125) is classic for advanced ovarian epithelial carcinoma. High-grade serous carcinoma of the ovary (often arising from the fallopian tube) is the most common type. These cancers often present at Stage III with peritoneal spread (ascites). The appropriate management is surgical staging and tumor debulking by a gynecologic oncologist, followed by platinum-based chemotherapy."
+    }
+  ],
+  "see_also": [
+    "endometriosis",
+    "endometrial-cancer"
+  ],
+  "prerequisites": [
+    "female-reproductive-anatomy",
+    "menstrual-cycle",
+    "genetics"
+  ],
+  "sources": [
+    {
+      "title": "JAMA: Ovarian Cancer – A Review (Caruso et al., 2025)",
+      "url": "https://jamanetwork.com/journals/jama/article-abstract/2836686"
+    },
+    {
+      "title": "StatPearls: Epithelial Ovarian Cancer (Ray-Coquard & Westin, updated 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK567760/"
+    },
+    {
+      "title": "UpToDate: Overview of Epithelial Ovarian Cancer (Chua & Chu, 2023)",
+      "url": "https://www.uptodate.com/contents/epithelial-ovarian-fallopian-tube-and-peritoneal-carcinoma-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "NCCN Guidelines Insights: Ovarian Cancer, Version 3.2022 (Morgan et al., 2022)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35185478/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

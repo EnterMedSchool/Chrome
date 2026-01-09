@@ -1,0 +1,137 @@
+{
+  "id": "pellagra",
+  "names": [
+    "Pellagra"
+  ],
+  "aliases": [
+    "niacin deficiency",
+    "vitamin B3 deficiency"
+  ],
+  "abbr": [],
+  "patterns": [
+    "pellagra",
+    "niacin deficiency",
+    "vitamin B3 deficiency"
+  ],
+  "primary_tag": "biochemistry",
+  "tags": [
+    "pathology",
+    "biochemistry",
+    "msk_derm",
+    "neuro",
+    "gi"
+  ],
+  "definition": "Systemic disease caused by niacin (vitamin B3) deficiency, classically characterized by the \"4 D's\" – dermatitis, diarrhea, dementia, and (if untreated) death.",
+  "why_it_matters": "Historically a major cause of illness and death, now rare in developed countries due to food fortification. However, pellagra still occurs in at-risk populations (e.g., chronic alcoholics, malabsorptive disorders, refugee settings) and untreated cases are fatal. Its hallmark \"3 D's\" triad is a favorite for exam questions about nutritional deficiencies.",
+  "how_youll_see_it": [
+    "Symmetric photosensitive dermatitis on sun-exposed areas (backs of hands, forearms, face, neck), initially resembling sunburn and later becoming hyperpigmented, thick, and rough (classic Casal's necklace around the neck). Mucosal involvement (bright red glossitis, stomatitis) and gastrointestinal disturbances (loss of appetite, nausea, abdominal pain, diarrhea) often accompany the skin changes.",
+    "Neurologic manifestations usually appear later: patients may develop irritability, depressed mood, and poor concentration, progressing to memory loss, confusion, and dementia; severe cases can lead to delirium, hallucinations (pellagrous encephalopathy), and coma. If untreated, pellagra is ultimately fatal (the \"fourth D\" is death).",
+    "Occurs in malnutrition or specific nutrient deficiencies. Seen classically in populations relying on untreated corn (maize) as a staple, in chronic alcoholism (niacin/tryptophan-poor diet and malabsorption), and in malabsorptive conditions (Crohn disease, chronic diarrhea, etc.). Secondary pellagra can develop despite adequate diet in conditions like carcinoid syndrome (tryptophan diverted to serotonin), Hartnup disease (hereditary tryptophan absorption defect), or prolonged isoniazid therapy (interferes with niacin synthesis)."
+  ],
+  "problem_solving": [
+    "Suspect pellagra in patients with the characteristic triad of dermatitis, diarrhea, and dementia, especially if risk factors (poor diet, alcohol use, malabsorption) are present.",
+    "Review nutritional history: assess diet for niacin and protein intake; ask about alcohol use, gastrointestinal diseases, or medications (e.g., isoniazid) that could precipitate niacin deficiency.",
+    "Laboratory confirmation can include checking niacin (vitamin B3) levels or its metabolites – low urinary N1-methyl-nicotinamide excretion (<0.8 mg/day) is suggestive of niacin deficiency. Tryptophan levels or low NAD/NADP cofactor levels in blood can also support the diagnosis, but such tests are not always readily available.",
+    "Often pellagra is a clinical diagnosis. A therapeutic trial of nicotinamide (vitamin B3) supplementation leading to rapid improvement essentially confirms pellagra (symptoms typically start improving within a week of treatment).",
+    "If a secondary cause is suspected, pursue targeted tests: e.g., 24-hour urine amino acids to diagnose Hartnup disease, or 5-HIAA levels to evaluate for carcinoid syndrome."
+  ],
+  "differentials": [
+    {
+      "id": "systemic-lupus-erythematosus",
+      "hint": "photosensitive rash (e.g., malar rash) but with positive autoimmune markers (ANA) and typically no severe diarrhea or dementia"
+    },
+    {
+      "id": "porphyria-cutanea-tarda",
+      "hint": "photosensitivity with blistering skin lesions (especially on hands); distinguished by elevated porphyrin levels and no GI/neuro triad"
+    },
+    {
+      "name": "Kwashiorkor (protein malnutrition)",
+      "hint": "general malnutrition with edema, dermatitis, and liver enlargement, but not the specific pellagra triad; often coexists with other deficiencies"
+    }
+  ],
+  "tricks": [
+    "Mnemonic B3 = 3 D's: deficiency of vitamin B3 (niacin) causes Dermatitis, Diarrhea, Dementia (and a fourth D, Death, if untreated).",
+    "Carcinoid & Hartnup: Carcinoid syndrome diverts tryptophan to serotonin, and Hartnup disease prevents tryptophan absorption – both can lead to niacin deficiency and pellagra despite adequate dietary niacin.",
+    "Isoniazid (INH for tuberculosis) can precipitate pellagra by depleting vitamin B6 (pyridoxine), a cofactor needed for converting tryptophan to niacin – always supplement B vitamins when giving INH."
+  ],
+  "exam_appearance": [
+    "Malnourished patient (e.g., a homeless alcoholic or someone on a corn-based diet) with a symmetric sun-exposed rash on the neck/hands, chronic diarrhea, and confusion → Pellagra (niacin deficiency).",
+    "Patient with known carcinoid syndrome (episodic flushing, diarrhea, high 5-HIAA) who develops a new rough rash in sun-exposed areas and cognitive changes → tryptophan is being shunted to serotonin, causing secondary pellagra.",
+    "Child with Hartnup disease (neutral aminoaciduria) presenting with a pellagra-like photosensitive dermatitis and cerebellar ataxia → congenital inability to absorb tryptophan leads to niacin deficiency; treat with high-protein diet and nicotinamide."
+  ],
+  "treatment": [
+    "Begin niacin replacement promptly. Typically oral nicotinamide (a form of B3 that doesn't cause flushing) 300 mg daily (in divided doses for 3–4 weeks) is recommended to reverse deficiency.",
+    "Correct the underlying cause and provide nutritional rehabilitation: improve protein intake (tryptophan source), give balanced B-vitamin supplementation, and discontinue or replace offending drugs if possible. In alcoholic or anorexic patients, treat coexistent deficiencies (e.g., other B vitamins) and support a high-calorie, protein-rich diet.",
+    "Advise sun avoidance and use of emollients for skin relief during acute pellagra, since the dermatitis is photosensitive. Neurologic symptoms may take weeks to fully resolve, but improvement in GI and skin symptoms is usually seen within days of niacin therapy.",
+    "Prevention: ensure diets contain adequate protein and niacin (15–20 mg niacin daily prevents pellagra). In high-risk individuals (e.g., those on long-term isoniazid or with carcinoid), give prophylactic vitamin B3 or a B-complex vitamin. Public health measures like niacin fortification of grains have dramatically reduced primary pellagra in developed countries."
+  ],
+  "red_flags": [
+    "Pellagrous encephalopathy: when pellagra patients exhibit severe neuropsychiatric signs (disorientation, hallucinations, psychosis, or stupor), it indicates advanced disease needing urgent treatment – without niacin, this can progress to coma and death.",
+    "Profound malnutrition with ongoing weight loss, persistent diarrhea, and signs of systemic involvement (e.g., infections, anemia) in a pellagra patient are warning signs – without prompt nutritional intervention and niacin repletion, fatal outcomes are likely."
+  ],
+  "algorithm": [
+    "Dermatitis + diarrhea + dementia in a malnourished or high-risk patient → suspect pellagra (niacin deficiency).",
+    "Evaluate risk factors: check diet history (niacin/tryptophan intake), alcohol use, GI disorders, and medications (like isoniazid) that could explain niacin deficiency.",
+    "Confirmatory tests (e.g., niacin level, low N-methyl-nicotinamide in urine) can be done, but do not delay treatment while awaiting results.",
+    "Start nicotinamide therapy as a diagnostic and therapeutic step – improvement of rash, diarrhea, and neuro symptoms will confirm niacin deficiency.",
+    "Follow up by addressing the underlying cause (nutritional counseling, treat malabsorption or discontinue offending drugs) and prevent recurrence with appropriate diet or supplements."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/PHIL_3757_lores.jpg",
+      "alt": "Child with pellagra showing a hyperpigmented, rough \"Casal's necklace\" rash around the neck.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:PHIL_3757_lores.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 40‑year‑old homeless man with a history of chronic alcoholism presents with 3 months of diarrhea, skin lesions, and memory difficulties.",
+      "clues": [
+        "Hyperpigmented, scaly rash on the backs of his hands and around his neck (sun-exposed areas)",
+        "Chronic loose, foul-smelling stools",
+        "Irritability, depressed mood, and recent memory loss",
+        "Diet consists largely of cornmeal and alcohol"
+      ],
+      "answer": "Pellagra (niacin deficiency)",
+      "teaching": "Niacin (vitamin B3) deficiency leads to pellagra, classically causing dermatitis (in sun-exposed distributions like neck and hands), diarrhea, and dementia (cognitive decline). This patient's alcohol use and corn-based diet put him at risk. Treatment with nicotinamide and nutritional rehabilitation is curative."
+    }
+  ],
+  "see_also": [
+    "beriberi",
+    "scurvy",
+    "carcinoid-syndrome"
+  ],
+  "prerequisites": [
+    "niacin",
+    "tryptophan"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Niacin Deficiency (Redzic & Hashmi, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557728/"
+    },
+    {
+      "title": "UpToDate: Overview of water-soluble vitamins (2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-water-soluble-vitamins"
+    },
+    {
+      "title": "Medscape: Pellagra (2023)",
+      "url": "https://emedicine.medscape.com/article/985427-overview"
+    },
+    {
+      "title": "DermNet NZ: Pellagra (2021)",
+      "url": "https://dermnetnz.org/topics/pellagra"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

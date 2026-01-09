@@ -1,0 +1,135 @@
+{
+  "id": "prinzmetal-angina",
+  "names": [
+    "Prinzmetal angina"
+  ],
+  "aliases": [
+    "variant angina",
+    "vasospastic angina",
+    "angina inversa"
+  ],
+  "abbr": [],
+  "patterns": [
+    "prinzmetal angina",
+    "prinzmetal's angina",
+    "variant angina",
+    "vasospastic angina",
+    "angina inversa",
+    "prinzmetal"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "cardio",
+    "pharmacology",
+    "emerg"
+  ],
+  "definition": "Episodes of chest pain (angina) caused by **transient coronary vasospasm**, typically occurring at rest (often at night) and often associated with **transient ST-segment elevations** on ECG. Unlike classic exertional angina, Prinzmetal angina is not due to fixed atherosclerotic narrowing but rather **temporary spasm** of a coronary artery, with pain usually responding promptly to **nitroglycerin**.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Prinzmetal_angina.png/1280px-Prinzmetal_angina.png",
+      "alt": "Electrocardiogram showing transient ST-segment elevations during an episode of Prinzmetal (variant) angina (coronary vasospasm) [Image: Gogradgme, Wikimedia Commons]"
+    }
+  ],
+  "why_it_matters": "Though relatively uncommon (≈2% of angina cases), variant angina can **mimic a heart attack** with ST-elevations and serious arrhythmias. Recognizing Prinzmetal angina is critical for preventing misdiagnosis and inappropriate treatment (for example, **avoiding beta-blockers** that could worsen vasospasm). It's a favorite exam topic to contrast with typical angina and acute coronary syndromes.",
+  "how_youll_see_it": [
+    "Recurrent **angina at rest**, often **overnight or in the early morning hours** (midnight to dawn) when the patient is at rest or asleep. Episodes often occur in clusters around the same time of day.",
+    "Patients are generally **younger** and may lack classic risk factors for atherosclerosis (though smoking is a risk). Look for history of **migraines or Raynaud phenomenon**, indicating a vasospastic predisposition.",
+    "During pain episodes, ECG typically shows **transient ST-segment elevation** in the affected leads (due to brief transmural ischemia). Episodes usually last a few minutes (5–15 min) and resolve spontaneously or with nitroglycerin. Between episodes, exam and resting ECG can be normal, and **stress tests are often normal** (spasm is not exercise-induced in most cases)."
+  ],
+  "problem_solving": [
+    "Always **rule out acute coronary syndrome (ACS)**: chest pain with ST elevations should be managed as a potential MI until proven otherwise. Obtain troponin levels and urgent evaluation. In Prinzmetal angina, troponins are often normal or only mildly elevated (if any myocardial injury).",
+    "Coronary **angiography** is usually performed to exclude fixed obstructive lesions. In variant angina, angiography classically shows **no significant coronary artery blockage** (or only minor plaque) but may demonstrate spasm. If the diagnosis is unclear, provocative testing (e.g., intracoronary **ergonovine** or **acetylcholine** during angiography) can induce spasm for confirmation.",
+    "Identify and eliminate precipitants: ask about **cocaine or amphetamine use, smoking, stress, or vasoconstrictive medications** (e.g., decongestants, triptans). Avoiding these triggers and implementing lifestyle changes (smoking cessation, stress management) is key to reducing episodes.",
+    "Remember that **nitrates relieve chest pain in both Prinzmetal angina and esophageal spasm**, so symptom relief alone doesn't confirm cardiac origin. Use the combination of clinical setting (rest pain, nighttime), **ECG changes** (transient focal ST elevation), and normal coronaries to differentiate variant angina from unstable angina or non-cardiac pain."
+  ],
+  "differentials": [
+    {
+      "id": "unstable-angina",
+      "hint": "Rest angina due to plaque rupture (partial occlusion); often ST **depressions** or T-wave changes, not persistent ST elevation; troponin typically normal."
+    },
+    {
+      "id": "myocardial-infarction",
+      "name": "ST-elevation myocardial infarction (STEMI)",
+      "hint": "Acute thrombosis with **persistent ST elevations** and myocardial injury (positive troponins); pain usually more prolonged, can cause Q waves."
+    },
+    {
+      "id": "acute-pericarditis",
+      "name": "Acute pericarditis",
+      "hint": "Pleuritic positional chest pain with **diffuse ST elevations** (concave) and PR depressions; pericardial friction rub present."
+    },
+    {
+      "id": "diffuse-esophageal-spasm",
+      "name": "Diffuse esophageal spasm",
+      "hint": "Esophageal smooth muscle spasm causing chest pain at rest; can simulate angina and may improve with nitroglycerin; often associated with dysphagia."
+    }
+  ],
+  "tricks": [
+    "Think of Prinzmetal angina as **\"Raynaud of the heart\"** – vasospasm that transiently cuts off blood flow. Patients with Raynaud's or migraine history in a chest pain question should raise your suspicion for variant angina.",
+    "Classic teaching: **ergonovine provocation test**. Ergonovine (an ergot alkaloid) can provoke coronary spasm during angiography, reproducing ST elevations – a historically high-yield diagnostic clue for Prinzmetal angina.",
+    "**Avoid β-blockers** in vasospastic angina. Non-selective beta-blockers (like propranolol) can worsen spasms by allowing unopposed alpha-mediated vasoconstriction. (This contrasts with stable angina, where beta-blockers are first-line.)"
+  ],
+  "exam_appearance": [
+    "A 42-year-old woman with a history of migraines awakens at 3 AM with severe chest pressure. ECG during pain shows ST elevations in anterior leads, but emergent angiography reveals clean coronaries and induces coronary spasm with intracoronary acetylcholine → **Prinzmetal (variant) angina**.",
+    "Patient with recurring early-morning chest pain episodes; each time, the ECG has transient localized ST elevations that resolve with nitroglycerin, and cardiac enzymes remain normal → **suspect vasospastic angina** (as opposed to unstable angina or MI)."
+  ],
+  "treatment": [
+    "**Acute:** Sublingual **nitroglycerin** promptly relieves episodes of pain by dilating the coronary arteries.",
+    "**Chronic prevention:** High-dose **calcium channel blockers** (e.g. diltiazem, amlodipine) are first-line to reduce episodes. These are often given at night since attacks commonly occur then. Long-acting **nitrates** can be added for additional vasodilation (though tolerance can develop).",
+    "Additional measures: **Smoking cessation** and avoid known triggers (cocaine, amphetamines, triptans, cold exposure) are essential. **Statins** (e.g. fluvastatin) may help reduce spasm frequency. In patients with coexisting atherosclerosis, manage risk factors and consider low-dose aspirin (but in pure variant angina, routine aspirin is not typically indicated).",
+    "Note: **Beta-blockers** (especially non-selective) are contraindicated, as they can precipitate worse vasospasm. If needed for other conditions, a cardioselective beta-1 blocker might be used with caution, but generally beta-blockers are avoided in Prinzmetal angina."
+  ],
+  "red_flags": [
+    "Chest pain with **ST-segment elevation** should be treated as an emergency. Do not assume it's \"just variant angina\" – always evaluate for acute MI with troponins and possibly urgent catheterization. Prinzmetal angina is diagnosed after ruling out an MI (it's a diagnosis of exclusion in the acute setting).",
+    "Refractory or prolonged spasm can cause real myocardial infarction or dangerous arrhythmias (ventricular tachycardia/fibrillation). **Syncope or arrhythmias** during an episode is a bad sign – these patients need aggressive management (severe vasospasm can lead to fatal arrhythmia)."
+  ],
+  "algorithm": [
+    "Rest angina (especially at night) + transient ST elevations → **suspect Prinzmetal angina**, but first treat as ACS: give nitroglycerin, obtain ECG and troponins, and initiate emergency care.",
+    "If coronary angiography shows **no significant obstruction** but demonstrates reversible spasm, confirm variant angina. (If angiography is normal and clinical suspicion remains high, a provocative test with ergonovine or acetylcholine can be performed under controlled conditions to induce spasm.)",
+    "**Management:** Acute relief with sublingual nitro; start high-dose **calcium channel blocker** for prophylaxis (often at bedtime). Add long-acting nitrate if needed. Counsel on avoiding triggers (smoking cessation, no cocaine/amphetamines, etc.). Ensure patient understands to seek emergency care for any prolonged chest pain given the risk of MI."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old female smoker with a history of migraines reports episodes of squeezing chest pain that wake her from sleep in the early morning. Each episode lasts ~10 minutes and resolves with sublingual nitroglycerin. During one episode, EMS recorded ST elevations in V4–V6, but by the time she reaches the ED the ECG is normal and her troponin is normal. Coronary angiography shows no significant lesions.",
+      "clues": [
+        "Rest chest pain at night",
+        "Transient ST elevations on ECG",
+        "Normal coronary angiogram",
+        "History of migraine",
+        "Smoker"
+      ],
+      "answer": "Prinzmetal angina (variant angina)",
+      "teaching": "Episodic coronary vasospasm leads to transient transmural ischemia (ST elevation) causing angina at rest. Typical in younger patients with vasospastic tendencies (migraine, Raynaud). Treat with calcium channel blockers (and nitrates); avoid triggers and beta-blockers."
+    }
+  ],
+  "see_also": [
+    "stable-angina",
+    "unstable-angina",
+    "myocardial-infarction"
+  ],
+  "prerequisites": [
+    "coronary-arteries",
+    "autonomic-nervous-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Prinzmetal Angina (Rodriguez Ziccardi & Hatcher, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430776/"
+    },
+    {
+      "title": "UpToDate: Vasospastic angina",
+      "url": "https://www.uptodate.com/contents/vasospastic-angina"
+    },
+    {
+      "title": "Medscape: Coronary Artery Vasospasm (Wang, 2025)",
+      "url": "https://emedicine.medscape.com/article/153943-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

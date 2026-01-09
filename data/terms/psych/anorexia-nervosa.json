@@ -1,0 +1,115 @@
+{
+  "id": "anorexia-nervosa",
+  "names": ["Anorexia nervosa"],
+  "aliases": ["Anorexia"],
+  "abbr": ["AN"],
+  "patterns": ["anorexia", "anorexia nervosa", "nervosa", "eating disorder"],
+  "primary_tag": "psych",
+  "tags": ["psych", "behavior", "peds"],
+  "definition": "*Anorexia nervosa* is an eating disorder marked by self-induced starvation and severe weight loss. Patients relentlessly restrict calories, leading to a significantly low body weight for their age/height. There is an intense fear of gaining weight and a distorted body image (they see themselves as overweight despite being underweight).",
+  "why_it_matters": "This disorder typically affects adolescent females (median onset ~18 years), with a lifetime prevalence around 0.3–0.9% in women. It has one of the *highest mortality rates* of any psychiatric illness (on the order of 5–20% over 10–20 years, often from medical complications or suicide). Chronic anorexia causes multi-system injury: cardiac (arrhythmias, cardiomyopathy), endocrine (amenorrhea, osteoporosis), hematologic (anemia), and neurological damage. Early recognition and treatment are crucial to prevent life-threatening consequences.",
+  "how_youll_see_it": [
+    "Underweight adolescent (often female) who **restricts diet** and exercises excessively; denies severity of illness. Key features: BMI <18 (adult) or <5th percentile (child).",
+    "Physical exam: **bradycardia** (HR<50) and hypotension, cold extremities, dry skin, muscle wasting, and **lanugo** (fine body hair). In females, amenorrhea (no menses) is common (though not required for diagnosis).",
+    "Behavioral: extreme preoccupation with weight/fat and distorted body image. They often count calories or purge (vomiting/laxatives) without maintenance of normal weight.",
+    "Lab clues: hypokalemia (if vomiting/purging), metabolic alkalosis or acidosis (vomiting/laxative use), anemia or leukopenia from malnutrition. ECG may show QT prolongation or arrhythmias."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis by history and exam: check BMI <18.5 (adult) or <percentile (child) plus intense fear of weight gain and body image distortion.",
+    "Obtain labs and ECG: CBC, metabolic panel (electrolytes, glucose, LFTs), TSH, and pregnancy test (in females), plus ECG for QT interval.",
+    "Exclude medical causes of weight loss (e.g. GI malabsorption, hyperthyroidism) through targeted history and lab testing.",
+    "Assess medical stability: frequent vital signs (HR, BP, orthostatics), electrolytes, and mental status. If unstable (e.g. HR<40, hypotension, arrhythmia, suicidal), hospitalize and start controlled refeeding.",
+    "For stable patients, develop outpatient plan: supervised meal plan or day program, with regular follow-up. Engage a multidisciplinary team including nutritionist and therapist."
+  ],
+  "differentials": [
+    {
+      "id": "bulimia-nervosa",
+      "hint": "Bingeing/purging with **normal weight** (BMI usually >18.5); focus on vomiting/laxatives rather than extreme restriction."
+    },
+    {
+      "id": "avoidant-restrictive-food-intake-disorder",
+      "hint": "Food intake restriction and weight loss **without** body image disturbance or fear of fatness."
+    },
+    {
+      "id": "major-depressive-disorder",
+      "name": "Major depressive disorder",
+      "hint": "Weight loss from poor appetite, but **no obsession with weight**; mood symptoms predominate."
+    }
+  ],
+  "tricks": [
+    "If BMI is **low** and fear of weight gain is present, think anorexia; if BMI is normal with binge/purge behaviors, think bulimia.",
+    "DSM-5 tip: *Amenorrhea is not required* for diagnosis. Severity is graded by BMI (mild ≥17, moderate 16–16.9, severe 15–15.9, extreme <15).",
+    "During refeeding, watch *phosphate*: administering carbs drives intracellular phosphate shift, risking hypophosphatemia."
+  ],
+  "exam_appearance": [
+    "15-year-old F with 6 months of weight loss, BMI 15 kg/m², pulse 45, dry skin, amenorrhea; denies concern about weight (→ anorexia nervosa).",
+    "20-year-old college student with BMI 17, intense exercise and 800 kcal/day diet, cold intolerance, and lanugo hair (→ anorexia nervosa).",
+    "25-year-old male with BMI 17, compulsive exercise, fear of fatness, bradycardia (HR 52) and hypokalemia (K⁺ 3.0) on labs (→ anorexia nervosa)."
+  ],
+  "treatment": [
+    "Nutritional rehabilitation: Gradually increase caloric intake (start low and go slow), with monitoring for refeeding syndrome (phosphate, K⁺, thiamine). Hospitalize if needed for IV support.",
+    "Psychotherapy: **Adolescents** — Family-Based Therapy (Maudsley approach) is first-line. **Adults** — Eating-disorder-focused CBT (CBT-ED/CBT-E) or MANTRA/SSCM therapy.",
+    "Medications: No FDA-approved drugs for core anorexia. Low-dose olanzapine can aid weight gain, and SSRIs may be used for comorbid depression after weight restoration. (Avoid bupropion due to seizure risk.)",
+    "Address complications: Supplement vitamins/minerals (Ca/Vit D for bone, etc.), monitor bone density. Involve nutritionist and regular medical monitoring (glucose, bone health).",
+    "Admission criteria: Severe malnutrition (BMI <75% ideal), bradycardia (<40–50 bpm), hypotension, hypokalemia, or suicidality require inpatient care."
+  ],
+  "red_flags": [
+    "Sinus bradycardia (HR <50–60 bpm) or hypotension (signs of severe malnutrition)",
+    "Lanugo (fine body hair), hypothermia, and extreme weight loss",
+    "Amenorrhea in postpubertal females",
+    "Electrolyte disturbances (esp. hypokalemia, hypophosphatemia) and prolonged QT → risk of fatal arrhythmias",
+    "Suicidal ideation or attempts (elevated in anorexia) and osteoporosis (fracture risk)"
+  ],
+  "algorithm": [
+    "Suspect anorexia in a patient with significant weight loss and fear of gaining weight; measure BMI to confirm underweight.",
+    "Take detailed history: diet, exercise, purging behaviors, body image. Perform physical exam (vitals, lanugo, signs of malnutrition).",
+    "Order labs and ECG: CBC, electrolytes (K⁺, PO₄), glucose, LFTs, TSH, and pregnancy test, plus ECG for QT interval.",
+    "If BMI <15 or any instability (bradycardia, hypotension, arrhythmia, severe hypokalemia): hospitalize for medical stabilization and controlled refeeding.",
+    "If stable (BMI ≥15, normal vitals): outpatient management with structured meal plan and psychotherapy (FT-AN for <18, CBT-ED for adults).",
+    "Monitor weight gain, vital signs, and electrolytes closely; adjust treatment level if patient deteriorates or fails to progress."
+  ],
+  "cases": [
+    {
+      "stem": "A 16-year-old girl is brought by her parents for evaluation of weight loss. Over the past 6 months she dropped from 130 to 110 lbs. She limits her diet to a strict regimen (∼800 kcal/day) and exercises intensively. On exam: BMI 16 kg/m², pulse 48, blood pressure 90/60, dry skin, lanugo hair on her arms, and her last menstrual period was 5 months ago. She insists she is 'fat' and refuses to eat more.",
+      "clues": ["Low BMI (16 kg/m²)", "Bradycardia (HR 48)", "Lanugo hair", "Amenorrhea", "Intense fear of weight gain"],
+      "answer": "Anorexia nervosa",
+      "teaching": "This patient has classic anorexia nervosa: extreme underweight with bradycardia and lanugo from malnutrition. Her persistent fear of weight gain and distorted body image fulfill the diagnosis. Amenorrhea and electrolyte abnormalities are also common in anorexia."
+    },
+    {
+      "stem": "A 25-year-old man reports progressive weight loss (60→50 kg) over one year. He avoids most food groups and exercises compulsively because he 'can't afford' to be heavy. On exam: BMI 17 kg/m², pulse 50, blood pressure 100/60. Labs show K⁺ 3.0 mEq/L and normal TSH. He denies binge eating or purging behaviors.",
+      "clues": ["Low BMI (17 kg/m²)", "Bradycardia", "Hypotension", "Hypokalemia", "Body image distortion"],
+      "answer": "Anorexia nervosa",
+      "teaching": "Although less common in males, this patient's low weight, bradycardia, and preoccupation with being 'fat' indicate anorexia nervosa. The absence of binge/purge episodes and his hypokalemia (from restriction) help distinguish it from bulimia."
+    }
+  ],
+  "see_also": [
+    "bulimia-nervosa",
+    "major-depressive-disorder"
+  ],
+  "prerequisites": [
+    "nutrition",
+    "metabolism"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Anorexia Nervosa (Gorrell & Murray, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459148/"
+    },
+    {
+      "title": "UpToDate: Anorexia nervosa in adults: Clinical features, diagnosis, and assessment",
+      "url": "https://www.uptodate.com/contents/anorexia-nervosa-in-adults-clinical-features-diagnosis-and-assessment"
+    },
+    {
+      "title": "DSM-5: Diagnostic and Statistical Manual of Mental Disorders, 5th Edition",
+      "url": "https://doi.org/10.1176/appi.books.9780890425596"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "osteopetrosis",
+  "names": [
+    "Osteopetrosis"
+  ],
+  "aliases": [
+    "marble bone disease",
+    "Albers-Schonberg disease",
+    "stone bone disease"
+  ],
+  "abbr": [],
+  "patterns": [
+    "osteopetrosis",
+    "marble bone",
+    "marble bone disease",
+    "albers schonberg",
+    "albers-schonberg",
+    "stone bone disease"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "pathology",
+    "msk_derm",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Rare hereditary bone disorder where **osteoclasts** cannot resorb bone, leading to abnormally dense, brittle bones.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Osteopetrose_mit_bone-in-bone_Erscheinungsbild_vor_allem_an_der_HWS_19M_-_CR_-_001.jpg",
+      "alt": "X-ray of osteopetrosis showing diffusely dense bones and \"bone-in-bone\" appearance",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Osteopetrose_mit_bone-in-bone_Erscheinungsbild_vor_allem_an_der_HWS_19M_-_CR_-_001.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "The infantile form is often **fatal** by early childhood without treatment, whereas the adult form can be asymptomatic. Classic **\"bone-in-bone\"** x-ray findings and the contrast with **osteoporosis** make it a high-yield exam topic.",
+  "how_youll_see_it": [
+    "Dense, **sclerotic** bones that paradoxically break easily (excess bone but poor quality). Marrow space narrowing leads to **pancytopenia** with extramedullary hematopoiesis (**hepatosplenomegaly**). Cranial nerve compression from skull thickening causes vision and hearing loss, facial paralysis. Teeth may erupt late due to dense bone.",
+    "Infantile (malignant, **AR**): presents in infancy with **failure to thrive**, pathologic fractures, **pancytopenia** (infections, bleeding), cranial nerve palsies (blindness, deafness), and enlarged liver/spleen. Often fatal if untreated.",
+    "Adult (benign, **AD**, Albers-Schönberg): usually milder. May be discovered incidentally in adolescence/adulthood with **repeated fractures**, sometimes cranial nerve issues or arthritis. No marrow failure (near-normal blood counts), so life expectancy is generally normal."
+  ],
+  "problem_solving": [
+    "Identify **osteosclerosis** on imaging: diffuse bony thickening with classic **\"bone-in-bone\"** appearance confirms osteopetrosis.",
+    "Assess severity: check **CBC** for pancytopenia (marrow failure) and evaluate cranial nerve function (vision, hearing) in severe cases.",
+    "Consider genetic testing to identify the mutated gene (e.g., **TCIRG1** in many AR cases, **CLCN7** in most AD cases).",
+    "Infantile malignant osteopetrosis requires early **hematopoietic stem cell transplant** for survival. Adult benign osteopetrosis is managed supportively (fracture care, antibiotics for osteomyelitis, etc.)."
+  ],
+  "differentials": [
+    {
+      "id": "osteoporosis",
+      "hint": "↓↓ bone density (opposite problem); common in elderly, not present at birth"
+    },
+    {
+      "name": "Paget disease of bone",
+      "hint": "focal disorganized bone remodeling in older adults; ↑ ALP, mosaic bone pattern"
+    }
+  ],
+  "tricks": [
+    "Osteopetrosis is basically the **opposite of osteoporosis**: bones are dense like marble but break like chalk.",
+    "**Carbonic anhydrase II** mutation causes osteopetrosis **with** renal tubular acidosis (metabolic acidosis + kidney stones).",
+    "Think **marble bones**: \"stone bone\" disease with **cranial nerve palsies** and **pancytopenia** from bone overgrowth."
+  ],
+  "exam_appearance": [
+    "Infant with fractures, anemia, hepatosplenomegaly, cranial nerve deficits, and diffuse **bone-in-bone** sclerosis on X-ray → infantile (malignant) osteopetrosis.",
+    "Adult with incidentally very dense bones on X-ray and history of multiple fractures → benign (adult) osteopetrosis (Albers-Schönberg disease)."
+  ],
+  "treatment": [
+    "**Infantile (severe)**: early **hematopoietic stem cell transplant** (curative by providing functional osteoclasts).",
+    "Supportive care for complications: blood transfusions for anemia, antibiotics for osteomyelitis, adequate calcium/vitamin D intake, etc.",
+    "Interferon **γ** (Actimmune) can enhance bone resorption and immune function in severe cases, but transplant offers the best outcome."
+  ],
+  "algorithm": [
+    "Suspect osteopetrosis if X-ray shows diffuse **osteosclerosis** (e.g., bone-in-bone).",
+    "Check **CBC** (for pancytopenia) and assess cranial nerve function (vision, hearing).",
+    "If infantile form, arrange prompt **HSCT** evaluation; provide supportive care (transfusions, infection prophylaxis).",
+    "If adult form, manage conservatively (fracture prevention, treat complications)."
+  ],
+  "cases": [
+    {
+      "stem": "A 5‑month‑old infant with poor feeding and irritability is found to have fractures in multiple ribs and limbs on exam.",
+      "clues": [
+        "X‑ray: diffusely dense \"marble\" bones with bone‑in‑bone appearance",
+        "Pancytopenia (low Hb, WBC, platelets)",
+        "Enlarged liver and spleen",
+        "Not tracking objects (vision impairment)"
+      ],
+      "answer": "Infantile (malignant) osteopetrosis",
+      "teaching": "Autosomal recessive osteoclast failure causing brittle, sclerotic bones. Marrow failure leads to anemia and infections; cranial nerve compression causes blindness/deafness. **Bone marrow transplant** is the definitive treatment."
+    },
+    {
+      "stem": "A 25‑year‑old man is evaluated for frequent fractures. He mentions breaking his arm and leg from minor injuries several times since adolescence.",
+      "clues": [
+        "Dense bones noted on X‑ray during fracture workups",
+        "Father and grandfather had \"hard bones\" on imaging",
+        "Mild hearing loss over the past few years"
+      ],
+      "answer": "Autosomal dominant (adult) osteopetrosis (Albers‑Schönberg disease)",
+      "teaching": "Benign adult form of osteopetrosis with a relatively milder course. Patients can have recurring fractures and cranial nerve compression (e.g., hearing loss) but normal marrow function. Manage supportively (no curative treatment needed)."
+    }
+  ],
+  "see_also": [
+    "osteoporosis",
+    "osteogenesis-imperfecta",
+    "osteitis-deformans"
+  ],
+  "prerequisites": [
+    "bone-histology",
+    "acid-base-physiology"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Clinical manifestations, diagnosis, and management of osteopetrosis",
+      "url": "https://www.uptodate.com/contents/osteopetrosis"
+    },
+    {
+      "title": "Medscape: Osteopetrosis (Albers-Schönberg disease) [Desai & Griffing, 2025]",
+      "url": "https://emedicine.medscape.com/article/123968-overview"
+    },
+    {
+      "title": "Orphanet J Rare Dis: Osteopetrosis review (Stark & Savarirayan, 2009)",
+      "url": "https://ojrd.biomedcentral.com/articles/10.1186/1750-1172-4-5"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

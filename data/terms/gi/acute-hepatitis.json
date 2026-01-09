@@ -1,0 +1,159 @@
+{
+  "id": "acute-hepatitis",
+  "names": [
+    "Acute hepatitis"
+  ],
+  "aliases": [
+    "acute liver injury",
+    "acute viral hepatitis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "acute hepatitis",
+    "acute liver injury",
+    "acute viral hepatitis"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "infectious_dz",
+    "pharmacology"
+  ],
+  "definition": "Acute inflammation of the liver (hepatitis lasting <6 months) due to hepatocyte injury from various causes. Viral infection is the most frequent cause, but acute hepatitis can also result from drugs (especially acetaminophen overdose), toxins, ischemia, alcohol, or autoimmune disease, leading to elevated liver enzymes and often jaundice.",
+  "why_it_matters": "Very common worldwide and an important cause of morbidity. Hepatitis A is a leading cause of acute viral hepatitis (≈18,000 U.S. cases in 2019), and millions live with chronic hepatitis B/C. Severe acute hepatitis can progress to acute liver failure, which is often fatal – acetaminophen toxicity alone causes ~50% of U.S. acute liver failure cases. Mastering this topic helps in recognizing hepatitis early (e.g., interpreting serologies) and preventing complications or chronic disease.",
+  "how_youll_see_it": [
+    "Often initially asymptomatic or mild. Symptomatic cases classically have a prodrome of fatigue, malaise, nausea (± low fever) followed by an icteric phase: jaundice with dark urine, pale stool, and tender hepatomegaly. Right upper quadrant pain is common; some viruses (e.g., HBV) cause early arthralgias or rash (serum sickness-like).",
+    "Adults tend to have more overt symptoms than children. (E.g., adults with HAV usually develop jaundice, whereas infected young children often do not.) Acute HBV in neonates/children is often asymptomatic but has a high risk of chronic infection; adults with HBV are more symptomatic and usually clear the virus. Hepatitis C infection is usually mild or unnoticed acutely (≈80% have no jaundice) but frequently becomes chronic if untreated.",
+    "Viral hepatitis clues: think hepatitis A or E in a patient with recent travel to or ingestion of food/water from endemic areas; hepatitis B in those with blood or sexual exposure (IV drug use, unprotected sex, healthcare needle stick); hepatitis C in IV drug users or anyone with past transfusions (often subclinical acutely); EBV/CMV hepatitis in someone with a mononucleosis-like illness.",
+    "Non-viral causes: Drug-induced hepatitis may follow an overdose (e.g., acetaminophen causing fulminant necrosis) or an idiosyncratic reaction to a medication (common offenders: isoniazid, herbal supplements, amoxicillin–clavulanate). Alcoholic hepatitis classically presents in a heavy drinker with jaundice, fever, and tender hepatomegaly (AST is elevated but usually <300 U/L, with AST:ALT ~2:1). Autoimmune hepatitis can present acutely (especially in young women) with very high AST/ALT and immunologic markers (ANA, anti–smooth muscle, high IgG). Ischemic hepatitis (\"shock liver\") occurs after severe hypotension (e.g., septic shock, cardiac arrest), with extreme AST/ALT elevations (>1000) that rapidly improve as perfusion is restored."
+  ],
+  "problem_solving": [
+    "Confirm hepatocellular injury: check AST/ALT (often strikingly elevated in acute hepatitis) and compare with alkaline phosphatase. Marked transaminase elevation with normal/mild ALP suggests hepatitis; if ALP is disproportionately high (cholestatic pattern), consider biliary obstruction instead of primary hepatitis.",
+    "Identify the cause: take a thorough history (travel, sexual contacts, IV drug use, recent medications or supplements, alcohol use, etc.). Test for viral markers – HAV IgM, HBsAg and IgM anti-HBc, HCV antibody (with reflex to RNA) – and obtain an acetaminophen level in all acute cases. If those are negative, consider autoimmune hepatitis labs (ANA, anti–smooth muscle antibody, IgG level) and others (e.g., Wilson disease screen if young, HEV IgM if travel to endemic areas).",
+    "Assess severity: evaluate liver synthetic function (check PT/INR and glucose) and watch for any mental status changes (hepatic encephalopathy). Acute liver failure is defined by acute hepatitis with encephalopathy and impaired coagulation (INR ≥1.5) – this requires ICU care and urgent transplant evaluation.",
+    "Imaging: obtain an abdominal ultrasound to exclude obstruction or other structural abnormalities if lab results suggest a cholestatic component or the diagnosis is unclear. Ultrasound can also assess hepatic blood flow (helpful if ischemic hepatitis or thrombosis is suspected).",
+    "Management overview: start N-acetylcysteine (NAC) immediately if acetaminophen toxicity is possible (do not wait for levels). Avoid further liver injury (hold hepatotoxic drugs, advise no alcohol). In autoimmune hepatitis, begin corticosteroids; in severe alcoholic hepatitis, consider corticosteroids. Consult hepatology early if labs are worsening."
+  ],
+  "differentials": [
+    {
+      "name": "Acute cholangitis",
+      "hint": "fever + RUQ pain (Charcot triad) with cholestatic labs (↑ALP, bilirubin >> ↑ALT); usually due to bile duct stone; requires antibiotics & biliary drainage"
+    },
+    {
+      "name": "Hemolytic jaundice",
+      "hint": "pre-hepatic cause (e.g., hemolytic anemia, Gilbert syndrome) → isolated ↑unconjugated bilirubin without significant AST/ALT elevation"
+    },
+    {
+      "id": "acute-liver-failure",
+      "name": "Fulminant hepatic failure",
+      "hint": "acute hepatitis with encephalopathy and coagulopathy (INR ≥1.5) – end-stage presentation requiring transplant"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: Vowels hit your bowels – hepatitis A and E are fecal-oral (note: HEV is especially dangerous in pregnancy, with higher risk of fulminant hepatitis).",
+    "HBV serologies: HBsAg = infection (first marker to appear); IgM anti-HBc = acute infection; anti-HBs = immunity from recovery (or vaccine).",
+    "AST:ALT ratio – AST/ALT >2:1 is suggestive of alcoholic hepatitis (AST often <300 IU/L). By contrast, acute viral or toxin-induced hepatitis typically shows ALT ≥ AST, and levels often >1000 in severe cases.",
+    "Histology: dying hepatocytes in acute hepatitis appear as Councilman bodies (eosinophilic apoptotic globules). Ballooning degeneration (swollen, pale hepatocytes) is another classic finding of active hepatocyte injury."
+  ],
+  "exam_appearance": [
+    "Traveler returns with fever, malaise, and jaundice after eating street food → Acute hepatitis A (fecal–oral transmission).",
+    "Unvaccinated healthcare worker with a recent needle stick develops jaundice; labs show HBsAg(+), IgM anti-HBc(+) → Acute hepatitis B.",
+    "Post–cardiac arrest patient with AST & ALT in the thousands but no bilirubin rise → Ischemic hepatitis (shock liver from global hypoperfusion)."
+  ],
+  "treatment": [
+    "Most acute viral hepatitis is managed with supportive care (rest, fluids, nutrition); it usually self-resolves. However, for acute HCV, treat early with direct-acting antivirals to prevent chronic infection. Avoid alcohol and any hepatotoxic medications during recovery.",
+    "N-acetylcysteine (NAC) is the antidote for acetaminophen toxicity – it replenishes glutathione and dramatically improves survival if given early. Administer NAC as soon as a significant acetaminophen overdose is suspected (ideally within 8 hours).",
+    "Acute autoimmune hepatitis is treated with immunosuppressive therapy (e.g., high-dose corticosteroids). Severe alcoholic hepatitis (Maddrey score ≥32) may be treated with corticosteroids, though supportive care and abstinence are critical. Acute hepatitis due to HBV, HEV, or other viruses is usually managed supportively (antivirals are reserved for acute HBV cases that are fulminant or protracted)."
+  ],
+  "red_flags": [
+    "Signs of impending acute liver failure: new encephalopathy (confusion, asterixis), a rapidly rising INR (coagulopathy), or hypoglycemia in a patient with acute hepatitis indicate a fulminant course → requires ICU care and urgent evaluation for liver transplant.",
+    "Severe jaundice (very high bilirubin) without obstruction, persistent vomiting, or worsening AST/ALT despite supportive care are all alarm features. In pregnant patients, acute hepatitis with any deterioration should prompt consideration of fulminant hepatitis (e.g., from HEV or pregnancy-specific liver disorders)."
+  ],
+  "algorithm": [
+    "Patient with acute ↑AST/ALT (often >10× normal) ± jaundice → suspect acute hepatitis.",
+    "Evaluate with initial labs: full liver panel (AST, ALT, ALP, bilirubin), INR, glucose, CBC, and abdominal ultrasound.",
+    "Order acute hepatitis panel (HAV IgM, HBV HBsAg & IgM core Ab, HCV Ab ± RNA) and acetaminophen level for all. Add other tests as needed (e.g., HEV IgM, autoimmune markers, tox screen).",
+    "Provide supportive care: hospitalize if significant symptoms or coagulopathy. Stop any potential hepatotoxins; start N-acetylcysteine immediately if acetaminophen overdose is possible.",
+    "Monitor for acute liver failure (trend mental status, INR, glucose). If encephalopathy or INR ≥1.5 develops, transfer to a transplant center. Otherwise, manage supportively and arrange follow-up to ensure resolution (and that hepatitis does not become chronic)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Ballooning_degeneration_high_mag.jpg",
+      "alt": "Liver biopsy histology in acute hepatitis: enlarged \"ballooned\" hepatocytes with pale cytoplasm (center) and an apoptotic Councilman body (eosinophilic cell).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ballooning_degeneration_high_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man who recently returned from traveling abroad presents with fever, fatigue, and jaundice.",
+      "clues": [
+        "AST & ALT ~1200 U/L",
+        "Direct bilirubin markedly elevated",
+        "IgM anti‑HAV positive",
+        "No chronic liver disease history"
+      ],
+      "answer": "Acute hepatitis A",
+      "teaching": "Hepatitis A (fecal–oral transmission) causes acute, self-limited liver inflammation. Adults often show symptomatic hepatitis (fever, jaundice) after an incubation of ~4 weeks; it never becomes chronic and usually resolves with supportive care."
+    },
+    {
+      "stem": "A 40‑year‑old woman is found obtunded at home next to multiple empty acetaminophen bottles (each 500 mg, 100 tablets). She was last seen 2 days ago in her normal state of health.",
+      "clues": [
+        "AST & ALT >3000 U/L",
+        "INR 4.0",
+        "Hypoglycemia noted",
+        "Hepatic encephalopathy (confusion, asterixis)"
+      ],
+      "answer": "Fulminant hepatic failure from acetaminophen overdose",
+      "teaching": "High-dose acetaminophen causes massive hepatic necrosis (toxic metabolite NAPQI depletes glutathione). This can lead to acute liver failure with coagulopathy and encephalopathy. Early administration of N-acetylcysteine is life-saving, as it restores glutathione to neutralize NAPQI."
+    },
+    {
+      "stem": "A 30‑year‑old woman with a history of autoimmune thyroiditis develops acute abdominal pain, fatigue, and jaundice.",
+      "clues": [
+        "AST & ALT in the 1000s",
+        "Positive ANA and anti–smooth muscle antibody",
+        "Serum globulins are elevated",
+        "Liver biopsy: interface (piecemeal) necrosis"
+      ],
+      "answer": "Autoimmune hepatitis (acute presentation)",
+      "teaching": "Autoimmune hepatitis can present acutely, especially in young women with other autoimmune conditions. Hallmarks include very high transaminases, elevated immunoglobulins, and positive autoantibodies (ANA, SMA). It responds well to immunosuppressive therapy (e.g., steroids) to induce remission."
+    }
+  ],
+  "see_also": [
+    "chronic-hepatitis",
+    "hepatitis",
+    "autoimmune-hepatitis",
+    "cirrhosis",
+    "hepatic-encephalopathy",
+    "alcohol-associated-liver-disease"
+  ],
+  "prerequisites": [
+    "liver-physiology",
+    "bilirubin-metabolism"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Viral Hepatitis (Grant & Purres, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554549/"
+    },
+    {
+      "title": "UpToDate: Hepatitis A in adults – Clinical manifestations & diagnosis",
+      "url": "https://www.uptodate.com/contents/hepatitis-a-virus-infection-in-adults-epidemiology-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "WHO: Global Hepatitis Report (2017)",
+      "url": "https://iris.who.int/handle/10665/255016"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

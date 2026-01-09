@@ -1,0 +1,159 @@
+{
+  "id": "sickle-cell-anemia",
+  "names": [
+    "Sickle cell anemia"
+  ],
+  "aliases": [
+    "sickle cell disease"
+  ],
+  "abbr": [
+    "SCD",
+    "HbSS"
+  ],
+  "patterns": [
+    "sickle cell anemia",
+    "sickle cell disease",
+    "sickle cell",
+    "SCD",
+    "HbSS"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics",
+    "peds"
+  ],
+  "definition": "An **autosomal recessive** hemoglobinopathy caused by a point mutation (Glu→Val) in the β-globin gene, leading to abnormal hemoglobin S (**HbS**) that polymerizes when deoxygenated. This results in **RBC sickling**, chronic hemolytic anemia, and recurrent **vaso-occlusive** crises.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sickle_Cell_Anemia.png",
+      "alt": "Illustration comparing normal round red blood cells flowing through a vessel versus sickle-shaped cells clumping and blocking flow.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Sickle_Cell_Anemia.png"
+      }
+    }
+  ],
+  "why_it_matters": "One of the most common inherited blood disorders worldwide, particularly affecting people of African and Mediterranean descent. SCD causes significant morbidity (painful crises, organ damage) and reduced lifespan. It's a classic example of a single-gene mutation with systemic effects (and heterozygote advantage against **malaria**), making it a high-yield topic on exams.",
+  "how_youll_see_it": [
+    "Infants are usually asymptomatic until ~5–6 months old (due to protective **HbF** levels). The first sign can be **dactylitis** – painful swelling of hands and feet in a baby as fetal hemoglobin wanes. By early childhood, patients develop hemolytic anemia (fatigue, pallor, **jaundice**, gallstones) and high infection risk due to functional **asplenia**.",
+    "Recurrent **vaso-occlusive crises** cause severe pain episodes (\"pain crises\"), often in bones (long bones, joints), chest, or abdomen. Triggers include dehydration, cold exposure, hypoxia, or infection. Episodes can cause fever and mimic other acute conditions (e.g., bone infection or acute abdomen).",
+    "Major acute complications include **acute chest syndrome** (fever, chest pain, hypoxia, pulmonary infiltrates – often triggered by infection or fat emboli; a leading cause of death), **stroke** (especially in children), acute splenic sequestration (in children, marked fall in Hgb with enlarged spleen), and **priapism** (painful prolonged erection in males).",
+    "Adults with SCD often show chronic organ damage: avascular necrosis of the femoral head (hip pain), leg ulcers, **renal papillary necrosis** (leading to hematuria and inability to concentrate urine), proliferative retinopathy, and cardiomyopathy from chronic anemia. By adolescence or adulthood, the spleen is typically auto-infarcted (small and fibrotic), leading to Howell-Jolly bodies on smear and ongoing infection susceptibility."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with **hemoglobin electrophoresis** (newborn screening in many countries picks up SCD early). Electrophoresis in sickle cell anemia shows no HbA (adult hemoglobin), predominantly **HbS** and some **HbF**. In sickle cell trait, HbA > HbS is seen, and there are no sickle crises.",
+    "Recognize functional asplenia: any fever in an SCD patient warrants prompt evaluation and empiric broad-spectrum antibiotics (covering **encapsulated organisms** like Streptococcus pneumoniae). Ensure patients receive recommended **vaccinations** (pneumococcal, Hib, meningococcal, influenza). Young children should be on prophylactic **penicillin** to prevent pneumococcal sepsis.",
+    "During a vaso-occlusive pain crisis: provide aggressive **hydration**, oxygen, and adequate analgesia (often opioids) early to relieve pain. Evaluate for triggers or complications (e.g., chest X-ray to rule out acute chest syndrome if respiratory symptoms, or bone imaging if osteomyelitis is suspected).",
+    "Manage life-threatening complications swiftly: acute chest syndrome or stroke require urgent **exchange transfusion** (to reduce HbS%). Acute splenic sequestration or aplastic crisis (e.g., due to Parvovirus B19) needs prompt **blood transfusions**. For priapism >2 hours, urgent intervention (e.g., aspiration, intracavernosal injection) is needed to prevent impotence."
+  ],
+  "differentials": [
+    {
+      "id": "sickle-cell-trait",
+      "hint": "Heterozygous carrier (HbAS); generally asymptomatic, with normal HbA present and no crises (rarely hematuria or splenic infarct at high altitude)."
+    },
+    {
+      "id": "beta-thalassemia-major",
+      "hint": "Severe inherited anemia (microcytic) from β-globin mutations; presents in infancy like SCD but with **target cells**, extramedullary hematopoiesis (crew-cut skull), and no vaso-occlusion."
+    },
+    {
+      "name": "Autoimmune hemolytic anemia",
+      "hint": "Hemolytic anemia with **positive Coombs test**; can cause jaundice and anemia but not vaso-occlusive pain or sickled cells."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **HbS = Glu→Val** (think \"**V**al for **V**aso-occlusion\"). The β-globin mutation substitutes valine for glutamic acid, causing HbS to polymerize when deoxygenated.",
+    "Infants <6 months old are protected by high **HbF** (fetal hemoglobin), so SCD symptoms typically begin around 5–6 months of age.",
+    "**Salmonella** osteomyelitis is classically associated with SCD (due to asplenia), whereas Staphylococcus is the usual cause in others.",
+    "Heterozygous **sickle cell trait** provides resistance to **falciparum malaria** – an evolutionary advantage (explaining the high gene frequency in malaria-endemic regions)."
+  ],
+  "exam_appearance": [
+    "9-month-old infant (African descent) with swollen, painful hands and feet (dactylitis) and anemia → suspect **sickle cell anemia** (first presentation in infancy).",
+    "Teenager with SCD, acute fever, chest pain, and new lung infiltrate on CXR → **acute chest syndrome**, an SCD emergency.",
+    "Young adult with SCD and sudden one-sided weakness or facial droop → ischemic **stroke** from sickle cell vaso-occlusion (requires exchange transfusion)."
+  ],
+  "treatment": [
+    "Acute crisis management: **IV fluids**, oxygen, and prompt analgesia (often opioids) for pain crises; treat inciting factors (e.g., antibiotics for infection). For severe anemia or acute chest syndrome, give blood **transfusions**; for stroke or recurrent acute chest, perform **exchange transfusion**.",
+    "Chronic management: **Hydroxyurea** (increases HbF production) is the cornerstone therapy – it reduces frequency of vaso-occlusive crises and acute chest syndrome. Folic acid supplementation is recommended (to support RBC production). In children with high stroke risk (abnormal transcranial Doppler), chronic **transfusion** programs are used to prevent stroke.",
+    "Preventive care: ensure all routine **vaccinations** are up to date (especially pneumococcal, Hib, meningococcal, annual influenza) and continue **penicillin prophylaxis** daily until at least 5 years old in HbSS children. Regular ophthalmology exams (screen for retinopathy) and kidney function monitoring are advised for early detection of chronic damage.",
+    "Curative approaches: **Hematopoietic stem cell transplantation** (bone marrow transplant) can cure SCD if a suitable donor is available (most successful in children). Emerging gene therapies (including CRISPR-based gene editing) have shown promise and were recently approved, offering potential cures without a donor."
+  ],
+  "red_flags": [
+    "**Fever** in an SCD patient → medical emergency (assume sepsis until proven otherwise due to asplenia). Requires prompt IV antibiotics covering encapsulated bacteria.",
+    "**Acute chest syndrome** (new pulmonary infiltrate, hypoxia, chest pain) → life-threatening complication. Treat aggressively with oxygen, broad-spectrum antibiotics, and transfusion support (exchange transfusion often needed).",
+    "Sudden drop in hemoglobin with **low reticulocyte count** → consider **aplastic crisis** (often due to Parvovirus B19); treat with urgent transfusions. (If accompanied by splenomegaly in a young child, think splenic sequestration crisis.)"
+  ],
+  "algorithm": [
+    "Patient of at-risk ethnicity (e.g., African ancestry) with hemolytic anemia and pain crises → **suspect SCD**.",
+    "Confirm diagnosis with **newborn screening** or hemoglobin **electrophoresis** (shows predominantly HbS, no HbA in HbSS).",
+    "If diagnosed SCD: implement preventive measures early – start penicillin prophylaxis in infancy, ensure all immunizations, and screen annually with transcranial Doppler from age 2 to 16 for stroke risk.",
+    "Manage acute crises supportively: hydrate, oxygen, control pain; look for complications (acute chest, stroke) and treat immediately (e.g., exchange transfusion).",
+    "Long-term: start **hydroxyurea** in patients with frequent crises or significant symptoms to reduce vaso-occlusion. Refer for hematology consult regarding chronic transfusion protocols or **bone marrow transplant** evaluation in severe cases."
+  ],
+  "cases": [
+    {
+      "stem": "A 8-month-old African American infant presents with fussiness and swollen hands and feet.",
+      "clues": [
+        "Painful dactylitis (hand-foot swelling)",
+        "Hemoglobin 7.8 g/dL with high reticulocyte count",
+        "No history of symptoms until after 6 months of age",
+        "Both parents carry sickle trait"
+      ],
+      "answer": "Sickle cell anemia (vaso-occlusive dactylitis in infant)",
+      "teaching": "Dactylitis in an infant around 6–12 months old is often the first presentation of sickle cell disease. Fetal hemoglobin declines after 6 months, unmasking SCD. The child's anemia and high retic count reflect hemolysis. Early identification allows for preventive care (e.g., penicillin prophylaxis, immunizations)."
+    },
+    {
+      "stem": "A 17-year-old with known sickle cell disease is brought in with fever, chest pain, and shortness of breath.",
+      "clues": [
+        "Recent cough or infection",
+        "Chest X-ray: new infiltrate",
+        "Oxygen saturation 85%",
+        "Hemoglobin drops from baseline"
+      ],
+      "answer": "Acute chest syndrome in sickle cell disease",
+      "teaching": "Acute chest syndrome is a common lethal complication in SCD, often precipitated by infection or vaso-occlusion in the lungs. It presents with pneumonia-like symptoms (fever, cough, hypoxia) and a new infiltrate. Treatment includes oxygen, antibiotics, and often exchange transfusion. It underscores the need for rapid intervention in SCD patients with chest symptoms."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "glucose-6-phosphate-dehydrogenase-deficiency",
+    "hemolytic-uremic-syndrome",
+    "alpha-thalassemia-trait",
+    "beta-thalassemia-major"
+  ],
+  "prerequisites": [
+    "hemoglobin",
+    "autosomal-recessive"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Sickle Cell Anemia (Mangla et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482164/"
+    },
+    {
+      "title": "UpToDate: Overview of the management and prognosis of sickle cell disease (Field & Vichinsky, 2024)",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-and-prognosis-of-sickle-cell-disease"
+    },
+    {
+      "title": "CDC: About Sickle Cell Disease (2025 update)",
+      "url": "https://www.cdc.gov/sickle-cell/about/index.html"
+    },
+    {
+      "title": "Medscape: Sickle Cell Disease (Kreidieh, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/205926-overview"
+    },
+    {
+      "title": "Frangoul et al., \"CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia\" (NEJM 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33283989/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

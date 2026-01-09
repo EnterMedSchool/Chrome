@@ -1,0 +1,144 @@
+{
+  "id": "hepatocellular-carcinoma",
+  "names": ["Hepatocellular carcinoma"],
+  "aliases": ["Hepatoma"],
+  "abbr": ["HCC"],
+  "patterns": ["hepatocellular carcinoma", "hepatoma", "hcc", "primary liver cancer", "hepatocellular cancer"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "heme_onc", "surgery", "radiology", "micro_virus"],
+  "definition": "Primary malignancy of **hepatocytes** (liver cells), usually arising in a cirrhotic liver. It is the most common primary liver cancer, characterized by highly vascular tumors that often grow and spread rapidly.",
+  "why_it_matters": "Extremely high global impact and mortality – among the top causes of cancer death worldwide (5-year survival ~18%, second worst after pancreatic). Common end-stage complication of chronic liver diseases (HBV, HCV, alcohol, etc.), so recognizing early signs in at-risk patients (cirrhosis) can enable potentially curative treatment (resection or transplant). Frequently tested on exams due to its classic imaging and lab features and the importance of **surveillance** in liver disease.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** in early stages and detected via screening (e.g. routine ultrasound) in a patient with known **cirrhosis**. Larger or advanced HCC causes **weight loss**, **RUQ pain**, and signs of liver decompensation (new-onset **ascites**, jaundice, or variceal bleeding) in someone with chronic liver disease.",
+    "**Risk factors**: Present in 80–90% of **cirrhosis** cases. Chronic **hepatitis B** and **C** are the most common causes worldwide (HBV can cause HCC even *without* cirrhosis). Other major etiologies: heavy **alcohol** use, **non-alcoholic fatty liver disease** (NASH/NAFLD), hereditary **hemochromatosis** (iron overload). In certain regions, **aflatoxin B1** exposure (from Aspergillus mold on food) induces a p53 mutation and greatly increases HCC risk (especially with concurrent HBV).",
+    "Patients may show a rising **AFP** (alpha-fetoprotein) level, which is a tumor marker for HCC (often elevated when tumors are larger; very high AFP is strongly suggestive, though HCC can occur with normal AFP). Physical exam can reveal hepatomegaly or a hepatic mass; a hepatic **bruit** may be heard due to tumor vascularity. Rare paraneoplastic features include **polycythemia** (from erythropoietin production) or hypoglycemia."
+  ],
+  "problem_solving": [
+    "**Surveillance**: Any patient with cirrhosis (or high-risk HBV carrier) should undergo surveillance every 6 months (ultrasound ± AFP) to detect HCC at an early stage.",
+    "**Imaging diagnosis**: If a liver nodule is found, perform a contrast **triple-phase CT** or dynamic MRI of the liver. HCC classically shows **arterial phase hyperenhancement** and **portal venous (or delayed) phase washout** relative to the surrounding liver. This imaging pattern in a high-risk patient is considered diagnostic of HCC (no biopsy needed in typical cases, avoiding needle tract seeding).",
+    "If imaging findings are **not classic** or the patient is not known to have cirrhosis, obtain a **liver biopsy** for definitive diagnosis (histology). Biopsy is also indicated for nodules that are indeterminate by imaging (e.g. LI-RADS category 4 or \"materializing\" lesions) to distinguish HCC from benign lesions or other malignancies.",
+    "Always check **AFP** levels when evaluating a liver mass in a cirrhotic patient. An elevated AFP supports the diagnosis (and very high AFP often indicates more advanced disease), but a normal AFP does not rule out HCC. AFP can also be followed over time (rising AFP in a cirrhotic is worrisome for HCC).",
+    "Once HCC is diagnosed, **stage** the disease and assess liver function to guide therapy. Staging systems like **BCLC** incorporate tumor features (size, number, vascular invasion, metastases), **Child-Pugh** score (underlying liver function), and performance status. Early-stage, solitary tumors in patients with preserved liver function are candidates for curative therapy (resection or transplant), whereas multifocal or advanced tumors require palliative loco-regional or systemic treatment."
+  ],
+  "differentials": [
+    {
+      "id": "hepatic-adenoma",
+      "hint": "Benign liver adenoma (often in young women on OCPs); can appear as a solitary liver mass but usually in non-cirrhotic liver; AFP typically normal."
+    },
+    {
+      "id": "cholangiocarcinoma",
+      "hint": "Cholangiocarcinoma (bile duct cancer) – risk factors include PSC; causes cholestatic lab profile; lesions are usually hypovascular on imaging (no early arterial enhancement) and often have biliary dilation."
+    },
+    {
+      "name": "Metastatic liver lesions",
+      "hint": "Mets to liver (e.g. from colon or lung) are more common than HCC overall; usually multiple lesions and patient may have known extrahepatic primary tumor; lack the typical HCC arterial-phase enhancement pattern."
+    }
+  ],
+  "tricks": [
+    "**HBV can → HCC without cirrhosis**: Unlike most causes, chronic hepatitis B can induce HCC in the absence of cirrhosis (due to HBV DNA integration into hepatocyte genomes). So even non-cirrhotic HBV carriers need surveillance if viral load is high.",
+    "**Aflatoxin**: Think moldy grains (Aspergillus) in parts of Africa/Asia → aflatoxin B1 causes a specific p53 **mutation** (G→T transversion) and synergizes with HBV to greatly increase HCC risk. This explains the high HCC incidence in some low-resource settings despite younger age.",
+    "**Imaging mnemonic**: \"**Arterial in, portal out**\" – HCC lesions light up with contrast in arterial phase and then **wash out** (become hypodense) on portal/delayed phases. Benign hypervascular lesions (like focal nodular hyperplasia or adenoma) may enhance early but typically **do not wash out**, which helps tell them apart.",
+    "HCC is one of the few cancers often diagnosed **non-invasively** – if a cirrhotic patient's imaging meets strict criteria, you **skip biopsy** and treat. (This avoids bleeding or seeding risks of biopsy.)",
+    "Paraneoplastic clue: HCC can secrete **erythropoietin**, so unexplained **polycythemia** in a cirrhotic patient with a liver mass is a classic board hint."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with long-standing **HCV cirrhosis** (or alcoholic cirrhosis) who now has unintentional weight loss, an enlarging **RUQ mass**, and elevated **AFP** → HCC (suspect when a cirrhotic patient's condition suddenly worsens or a new mass is found). Imaging will show arterial enhancement and washout confirming the diagnosis.",
+    "A patient from an **HBV-endemic** region (e.g. East Asia or sub-Saharan Africa), 35 years old with chronic hepatitis B (± mild cirrhosis), develops abdominal distension and weight loss. Exam finds hepatomegaly. This scenario suggests **HCC** due to untreated HBV (possibly compounded by aflatoxin exposure if diet factors). Such patients often present late with large tumors given limited surveillance."
+  ],
+  "treatment": [
+    "If **early-stage and localized** (BCLC 0 or A): pursue **curative** therapy. Options include **surgical resection** of the tumor (ideal for a solitary tumor in a patient with preserved liver function and no portal HTN) or **liver transplantation** if criteria are met (see Milan criteria). Liver transplant offers best long-term cure for small tumors within transplant criteria, as it also addresses the underlying cirrhosis.",
+    "For very small tumors (<3 cm) in patients who are not surgical candidates, local **ablation** can be curative. **Radiofrequency ablation (RFA)** is most commonly used (burns the tumor in situ); alternatively, percutaneous **ethanol injection** can be done. These are also used as bridge therapies while awaiting transplant.",
+    "If **intermediate stage** (multifocal disease confined to liver, no vascular invasion, good liver function): use loco-regional palliative therapy like **TACE** (transarterial chemoembolization). TACE involves injecting chemotherapy (or radioembolic beads) into the hepatic artery feeding the tumor and embolizing it, to shrink tumors and prolong survival. TACE is contraindicated in advanced liver failure (Child C) or main portal vein thrombosis due to risk of liver necrosis.",
+    "If **advanced stage** (tumor invades blood vessels or has distant metastases, or patient has poorer liver function): **systemic therapy** is indicated. Traditional first-line is **sorafenib** (an oral multikinase inhibitor). Newer therapies have improved outcomes: e.g. **atezolizumab + bevacizumab** (immune checkpoint inhibitor + anti-VEGF antibody) is now a standard first-line combination for unresectable HCC, showing superior survival to sorafenib. Other options include **lenvatinib** (another first-line TKI), and second-line agents like regorafenib, cabozantinib, or immunotherapies (nivolumab, etc.) in appropriate cases.",
+    "End-stage disease (diffuse tumor with liver failure, performance status 3–4) is managed with **supportive care** (symptom control, palliative care), as these patients are unlikely to benefit from aggressive treatments."
+  ],
+  "red_flags": [
+    "Any **sudden decompensation** in a cirrhotic (worsening ascites, abrupt weight loss, abdominal pain, jaundice or encephalopathy) should raise concern for HCC development. In a stable cirrhotic, these are red flags prompting imaging.",
+    "**Portal vein thrombosis** on imaging in a patient with liver disease – this may indicate tumor invasion into the portal vein (tumor thrombus), which signals advanced HCC and a poor prognosis.",
+    "Very high **AFP** levels (≥ 500 ng/mL, for example) in a cirrhotic patient strongly suggest HCC and often correlate with more aggressive disease. Also, any HCC >5 cm, or multifocal tumors, or the presence of vascular invasion/extrahepatic spread are poor prognostic signs.",
+    "**Bone pain** in a patient with known HCC → suspect **bone metastases** (common metastatic site along with lung); new cough or chest lesions might indicate lung metastases. HCC spread often signifies limited survival."
+  ],
+  "algorithm": [
+    "Chronic liver disease (cirrhosis from any cause, or chronic HBV) → enroll in regular HCC **surveillance** (ultrasound ± AFP every 6 months).",
+    "If **nodule detected** on screening imaging → evaluate with high-quality **contrast CT or MRI** of liver. Look for the characteristic arterial enhancement and venous washout pattern. Check **AFP** as well.",
+    "If imaging is **diagnostic of HCC** (typical pattern in a high-risk patient) → confirm staging and begin management (no biopsy needed). If imaging is inconclusive or patient low-risk, get a **biopsy** of the lesion for diagnosis.",
+    "After diagnosis, perform full **staging**: imaging of chest/abdomen to check for multifocal disease or metastases; assess portal vein patency; determine Child-Pugh class and performance status. Use a staging system (e.g. BCLC) to guide therapy stratification.",
+    "Treatment decision tree: **Early stage (resectable)** → surgical resection (if one tumor and good liver reserve) or liver transplant (if within Milan criteria). **Intermediate stage** (multinodular, liver-limited) → loco-regional therapy (TACE, radioembolization). **Advanced stage** (vascular invasion or metastases) → systemic therapy (targeted TKIs or immunotherapy). **End-stage** (poor liver function, PS) → supportive care."
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man with a 20-year history of hepatitis C (and resultant cirrhosis) is evaluated for weight loss and abdominal discomfort.",
+      "clues": [
+        "Has been followed for cirrhosis, last endoscopy showed varices",
+        "Now presents with early satiety, 5-kg weight loss, and new ascites",
+        "Exam: palpable RUQ mass and tender hepatomegaly",
+        "AFP is 1200 ng/mL (very high)",
+        "Triple-phase CT: 4 cm liver tumor with arterial enhancement and venous washout"
+      ],
+      "answer": "Hepatocellular carcinoma (on cirrhotic liver due to Hepatitis C)",
+      "teaching": "Patients with HCV cirrhosis are at high risk for HCC. Here the patient's sudden weight loss, new ascites, and a liver mass with classic imaging and extremely high AFP all point to HCC. In cirrhosis, any new lesion should be assumed HCC until proven otherwise. Early detection via surveillance is ideal; in this case, the tumor is already 4 cm. Treatment would depend on stage: if confined to the liver and liver function is adequate, options include resection vs. transplant vs. TACE. His very high AFP and large tumor suggest a significant disease burden."
+    },
+    {
+      "stem": "A 34‑year‑old man from rural West Africa presents with increasing abdominal girth and weight loss.",
+      "clues": [
+        "HBsAg positive since childhood (chronic HBV), never treated",
+        "No known history of cirrhosis or alcohol use",
+        "Physical exam: distended abdomen with fluid wave, large nodular liver, and mild jaundice",
+        "Lives in an area with frequent aflatoxin contamination of food crops"
+      ],
+      "answer": "Hepatocellular carcinoma (HBV-associated, advanced stage)",
+      "teaching": "Chronic hepatitis B infection from a young age can lead to HCC even without established cirrhosis. This patient's presentation (massive hepatomegaly, ascites at age 34) suggests an HCC related to untreated HBV. Aflatoxin exposure likely compounded his risk. In many low-resource settings, patients present with advanced HCC due to lack of surveillance. His prognosis is poor, as the tumor is large and liver function compromised. Management would focus on palliative therapy (systemic treatment like sorafenib or atezolizumab/bevacizumab if available) and supportive care."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "hepatitis",
+    "hemochromatosis",
+    "wilson-disease",
+    "nonalcoholic-fatty-liver-disease",
+    "alpha-1-antitrypsin-deficiency",
+    "portal-hypertension"
+  ],
+  "prerequisites": [
+    "liver-anatomy",
+    "cirrhosis",
+    "viral-hepatitis-b",
+    "viral-hepatitis-c"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hepatocellular Carcinoma (Asafo-Agyei & Samant, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559177/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of hepatocellular carcinoma (Nguyen & Thuluvath, 2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-treatment-approaches-for-hepatocellular-carcinoma"
+    },
+    {
+      "title": "Medscape: Hepatocellular Carcinoma – Practice Essentials (Lu & Parikh, 2023)",
+      "url": "https://emedicine.medscape.com/article/197319-overview"
+    },
+    {
+      "title": "NEJM: Atezolizumab plus Bevacizumab in Unresectable HCC (Finn et al., 2020)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1915745"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Hepatocellular_carcinoma_low_mag.jpg",
+      "alt": "Low-magnification micrograph of hepatocellular carcinoma arising in a cirrhotic liver. Blue-stained fibrous bands indicate cirrhosis; abnormal thickened hepatocyte plates with atypical nuclei represent the carcinoma.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hepatocellular_carcinoma_low_mag.jpg"
+      }
+    }
+  ]
+}

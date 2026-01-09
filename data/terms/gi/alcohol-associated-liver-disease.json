@@ -1,0 +1,151 @@
+{
+  "id": "alcohol-associated-liver-disease",
+  "names": [
+    "Alcohol-associated liver disease"
+  ],
+  "aliases": [
+    "Alcoholic liver disease",
+    "alcohol-related liver disease"
+  ],
+  "abbr": [
+    "AALD",
+    "ALD"
+  ],
+  "patterns": [
+    "alcohol associated liver disease",
+    "alcoholic liver disease",
+    "alcohol-related liver disease",
+    "ALD",
+    "AALD",
+    "alcoholic hepatitis",
+    "alcoholic steatohepatitis"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "pharmacology",
+    "gi"
+  ],
+  "definition": "Spectrum of liver injury due to chronic **alcohol** use, ranging from reversible fatty infiltration to life-threatening hepatitis and irreversible cirrhosis.",
+  "why_it_matters": "A leading cause of chronic liver disease worldwide (second most common cause of cirrhosis in the US after hepatitis C). Severe alcoholic hepatitis carries a high mortality (~30–50% at 1 month), so recognizing and managing AALD is critical. Frequently tested on exams for its distinct lab findings (AST:ALT ratio, GGT) and treatment decisions (steroids in acute alcoholic hepatitis).",
+  "how_youll_see_it": [
+    "Often **asymptomatic** in early stages (simple steatosis); patients may have only mild RUQ discomfort or hepatomegaly. Many cases are first noted incidentally by abnormal labs (**AST** elevated more than ALT).",
+    "Acute **alcoholic hepatitis** typically follows a heavy drinking bout and presents with **jaundice**, fever, anorexia, and a tender enlarged liver. Labs show moderately elevated AST and ALT (AST usually ~2× ALT, rarely >500 U/L), often with high bilirubin and neutrophil-predominant leukocytosis.",
+    "Advanced **cirrhosis** from alcohol use presents with stigmata of chronic liver disease: **ascites**, spider angiomata, palmar erythema, gynecomastia, splenomegaly, etc. Decompensation leads to complications of portal hypertension (e.g. variceal hemorrhage causing hematemesis) and liver failure (encephalopathy with confusion/asterixis, coagulopathy)."
+  ],
+  "problem_solving": [
+    "Suspect ALD in patients with long-standing heavy alcohol use and a characteristic **AST:ALT ~2:1** pattern (AST often <300 U/L). Supporting labs include elevated **GGT** and **MCV** (macrocytosis) from chronic alcohol use.",
+    "Exclude other causes of liver injury: check **viral hepatitis** serologies, review medications for **drug-induced liver injury**, consider **autoimmune** markers and **Wilson disease** (in younger patients). Perform imaging (ultrasound) to rule out biliary obstruction or masses; liver biopsy is reserved for uncertain cases (bearing in mind coagulopathy risks).",
+    "Assess severity in alcoholic hepatitis using prognostic scores. Calculate **Maddrey's discriminant function (DF)** (uses PT and bilirubin) and **MELD** score (uses bilirubin, INR, creatinine ± sodium). A DF ≥32 or MELD ≥20 correlates with ~50% 1-month mortality and indicates severe disease (consider steroids). Also evaluate for hepatic encephalopathy or rapidly rising INR, which signal acute liver failure risk.",
+    "Address management priorities: foremost **stop alcohol** (enforce abstinence, involve addiction support) and provide **nutritional** rehabilitation (high-protein diet if possible, replete **thiamine**, folate, etc.). In severe alcoholic hepatitis (DF ≥32 or high MELD), begin **corticosteroids** (e.g. prednisolone 40 mg/day for 4 weeks) after ruling out infection or GI bleeding. If steroids are contraindicated, start **pentoxifylline** as an alternative.",
+    "Monitor response to therapy: if on steroids, check a 7-day **Lille score** (assesses bilirubin change). A Lille >0.45 (poor response) → stop steroids; a Lille ≤0.45 → continue the 4-week course. Concurrently treat any cirrhosis complications (e.g. diuretics & paracentesis for ascites, beta-blockers and endoscopy for varices, lactulose for encephalopathy). For end-stage ALD, arrange evaluation for **liver transplant** once sobriety is established (typically ≥6 months)."
+  ],
+  "differentials": [
+    {
+      "id": "non-alcoholic-fatty-liver-disease",
+      "hint": "Metabolic risk factors (obesity, diabetes); similar spectrum (NAFLD/NASH) but in minimal/no alcohol use. ALT often > AST (AST:ALT <1)."
+    },
+    {
+      "id": "viral-hepatitis",
+      "hint": "Hepatitis B or C (or acute A) can mimic liver injury. Usually ALT > AST (often into 1000s in acute viral), positive viral serologies."
+    },
+    {
+      "id": "drug-induced-liver-injury",
+      "hint": "Medication/toxin-related hepatitis (e.g. acetaminophen overdose causes very high AST/ALT, different history)."
+    }
+  ],
+  "tricks": [
+    "**AST > ALT** (~2:1) in **A**lcoholic liver damage (think \"A **S**cotch and **T**onic\" for AST) – contrast with viral hepatitis (ALT tends to be higher). Alcohol causes vitamin B6 depletion, limiting ALT elevation.",
+    "**Mallory bodies** (eosinophilic Mallory–Denk hyaline inclusions) are classically associated with alcoholic hepatitis. They represent tangled intermediate filaments in hepatocytes and also appear in other diseases (e.g. NASH, Wilson's).",
+    "Chronic alcohol use often raises **GGT** (gamma-glutamyl transferase) and causes **macrocytosis** (↑MCV) on CBC – useful lab clues pointing to alcohol as the etiology."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with long-term heavy drinking found to have mildly elevated LFTs (AST 150, ALT 70; AST:ALT ~2:1) and an elevated **GGT** → suggests alcoholic fatty liver disease.",
+    "Patient after a binge presents with **painful hepatomegaly**, fever, and new jaundice → acute alcoholic **hepatitis** (look for AST ~2× ALT and neutrophils on biopsy with Mallory bodies).",
+    "Known alcoholic with **cirrhosis** develops hematemesis and melena → likely **variceal bleed** from portal hypertension (common in alcoholic cirrhosis). Another scenario: chronic drinker with confusion and asterixis → think **hepatic encephalopathy** due to decompensated ALD."
+  ],
+  "treatment": [
+    "**Complete abstinence** from alcohol – the single most important intervention (can stabilize or improve early disease). Provide nutritional support (high-protein diet if no encephalopathy) and replace vitamins (**thiamine**, folate, etc.).",
+    "**Corticosteroids** for severe alcoholic hepatitis (if DF ≥32 or MELD ≥20): e.g. prednisolone 40 mg daily for 4 weeks. Must first rule out active infection or GI bleeding (contraindications). If steroids contraindicated or not effective, use **pentoxifylline** (400 mg TID × 4 weeks) as an alternative (modest benefit).",
+    "**Manage cirrhosis** complications: Nonselective **β-blockers** (e.g. nadolol) and periodic endoscopic banding to prevent variceal hemorrhage; **diuretics** (spironolactone ± furosemide) and paracentesis for ascites; **lactulose** (plus rifaximin) for encephalopathy, etc. Screen for HCC every 6 months. Consider **liver transplant** for end-stage alcoholic cirrhosis, typically after ≥6 months of documented sobriety."
+  ],
+  "red_flags": [
+    "Any signs of **decompensation** in ALD: new-onset tense **ascites** (risk of SBP), variceal **GI bleeding** (hematemesis), or **encephalopathy** (confusion, asterixis) indicate severe disease and warrant urgent evaluation.",
+    "Severe alcoholic hepatitis with **jaundice** and **coagulopathy** (e.g. INR >1.5) plus **hepatic encephalopathy** signifies a high risk of liver failure and death (high short-term mortality) – ICU care and specialist intervention needed."
+  ],
+  "algorithm": [
+    "Chronic heavy alcohol use + abnormal LFTs (AST > ALT) → suspect ALD. Take a thorough alcohol history and obtain labs (AST, ALT, bilirubin, INR, CBC, metabolic panel).",
+    "Exclude other etiologies: test viral hepatitis panel; perform abdominal ultrasound to rule out biliary obstruction or masses. If diagnosis remains uncertain, consider liver **biopsy** (careful if coagulopathic).",
+    "If **alcoholic hepatitis** is present (e.g. patient with jaundice): calculate severity scores (**Maddrey DF**, **MELD**). Severe cases (DF ≥32 or MELD ~≥20) → begin **steroid** therapy, provided no infection or bleeding is ongoing.",
+    "Provide aggressive **supportive care** throughout: IV fluids, correct electrolytes, **nutritional** support (enteral feeding if needed), and prevent alcohol withdrawal (use benzodiazepines like lorazepam if high risk). Treat intercurrent infections promptly (frequent in severe ALD).",
+    "Reassess in 1 week if on steroids (compute **Lille score**). If Lille >0.45 (poor response) → stop steroids. If improving, continue full 4-week course. Ensure plans for long-term **abstinence** (rehab, support groups) and follow closely. Refer for **transplant** evaluation in patients with end-stage disease once a period of sobriety is achieved."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/CDC_mallory_bodies.jpg",
+      "alt": "Histopathology of liver showing alcoholic hyalin (Mallory bodies) characteristic of alcohol abuse.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:CDC_mallory_bodies.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 48‑year‑old man with a 20-year history of heavy alcohol use (6–8 beers daily) presents with 2 weeks of yellow eyes, abdominal pain, and low-grade fever.",
+      "clues": [
+        "Scleral icterus; tender hepatomegaly on exam",
+        "AST 180 U/L, ALT 75 U/L (AST:ALT ≈ 2:1)",
+        "Total bilirubin 12 mg/dL, INR 1.8",
+        "WBC 15,000 (neutrophil predominance)",
+        "Negative viral hepatitis panel"
+      ],
+      "answer": "Alcoholic hepatitis",
+      "teaching": "This acute presentation in a heavy drinker (fever, jaundice, tender liver) with an AST:ALT ~2:1 and moderate transaminase elevation is classic for **alcoholic hepatitis**. The high bilirubin and prolonged INR indicate severe alcoholic hepatitis (Maddrey's DF likely >32), which has high short-term mortality. Management would include **corticosteroids** (after ruling out infection), aggressive supportive care, and absolute alcohol abstinence."
+    }
+  ],
+  "see_also": [
+    "nonalcoholic-fatty-liver-disease",
+    "hepatitis",
+    "autoimmune-hepatitis",
+    "wilson-disease",
+    "hemochromatosis",
+    "cirrhosis",
+    "acute-alcoholic-hepatitis"
+  ],
+  "prerequisites": [
+    "liver-anatomy",
+    "liver-physiology",
+    "alcohol-metabolism"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Alcohol-Associated Liver Disease (Patel & Mueller, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546632/"
+    },
+    {
+      "title": "StatPearls: Alcoholic-Associated Hepatitis (Shah et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470217/"
+    },
+    {
+      "title": "EASL Clinical Practice Guidelines: Management of alcohol-related liver disease (J Hepatol, 2018)",
+      "url": "https://www.journal-of-hepatology.eu/article/S0168-8278(18)30214-9/fulltext"
+    },
+    {
+      "title": "UpToDate: Management of alcohol-associated hepatitis (2025)",
+      "url": "https://www.uptodate.com/contents/management-of-alcohol-associated-hepatitis"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21e: Alcoholic Liver Disease",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192018005"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "atopic-dermatitis",
+  "names": ["Atopic dermatitis"],
+  "aliases": ["atopic eczema", "eczema"],
+  "abbr": ["AD"],
+  "patterns": ["atopic dermatitis", "atopic eczema", "eczema"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "immunology", "peds"],
+  "definition": "Atopic dermatitis (AD), also called eczema, is a chronic, pruritic inflammatory skin disease and the **most common** chronic skin inflammation worldwide. It often begins in infancy and is nicknamed **\"the itch that rashes\"** (itching leads to scratching and then rash). A defective skin barrier (often filaggrin gene mutations) and **IgE**-mediated immune activation (Th2 skewing) underlie its recurrent eczematous lesions with dryness and lichenification.",
+  "why_it_matters": "AD affects up to **20%** of children (and ~10% of adults), causing significant morbidity (sleep disturbance, secondary infections). It can greatly impact quality of life for patients and families, and it frequently appears on exams due to its prevalence and classic presentations.",
+  "how_youll_see_it": [
+    "**Infantile AD**: onset by 6–12 months with an **itchy**, red, scaly rash on the **cheeks** (often spreading to extensor limbs) that **spares the diaper area**. Infants may rub their skin instead of scratching, and fussiness at night is common.",
+    "**Childhood AD**: chronic **eczema** localizes to **flexural creases** – especially the antecubital fossae (elbows) and popliteal fossae (knees) – with skin **lichenification** from repeated scratching. Often associated with other atopic conditions like asthma or allergic rhinitis.",
+    "**Adult AD**: may persist from childhood or begin anew (adult-onset). Commonly involves **flexures** or presents as **hand eczema**, **eyelid dermatitis**, or nipple eczema. The skin is chronically dry, thickened, and easily inflamed; stress or irritants can precipitate flares."
+  ],
+  "problem_solving": [
+    "Diagnose **clinically** – recognize the age-specific distribution and chronic relapsing course. If features are atypical (absence of pruritus, very poor response to therapy), reconsider the diagnosis or look for another cause. Routine lab tests are usually not needed.",
+    "Identify and minimize **triggers**: practice gentle skin care (lukewarm baths, mild soap, soft cotton clothing) and avoid irritants (excess washing, wool) or allergens (dust mites, certain foods) that can flare eczema.",
+    "Treat **superinfections** promptly: signs like oozing or honey-colored crust suggest Staph aureus infection (impetiginised eczema) – use appropriate antibiotics. Monomorphic punched-out lesions or sudden worsening could indicate HSV (**eczema herpeticum**).",
+    "Consider allergy workup in refractory cases: e.g., **patch testing** for contact allergens if a localized persistent rash, or evaluating food allergies in severe infantile eczema."
+  ],
+  "differentials": [
+    { "id": "seborrhoeic-dermatitis", "hint": "infant **cradle cap** or adult dandruff; less pruritic with greasy yellowish scales" },
+    { "id": "contact-dermatitis", "hint": "**allergic/irritant** dermatitis limited to exposure sites (e.g. nickel jewelry area, new detergent)" },
+    { "id": "scabies", "hint": "intensely itchy (especially at night) with burrows; often involves family members (contagious mites)" }
+  ],
+  "tricks": [
+    "AD is called **\"the itch that rashes\"** – intense itching typically precedes the rash.",
+    "**Atopic triad**: patients (or family) often have eczema plus **asthma** and **allergic rhinitis**.",
+    "Many cases involve a **filaggrin** gene defect – a skin barrier protein – leading to chronically dry, barrier-impaired skin."
+  ],
+  "exam_appearance": [
+    "Infant with chronic **facial rash** (erythematous, scaly cheeks) sparing the diaper area + family history of atopy → **atopic dermatitis** (infantile eczema).",
+    "Toddler with an **itchy, eczematous rash** in the antecubital and popliteal fossae + history of asthma → **atopic dermatitis** (flexural eczema).",
+    "Patient with known eczema develops fever and uniform **\"punched-out\"** erosions in eczematous areas → **eczema herpeticum** (HSV superinfection)."
+  ],
+  "treatment": [
+    "Basic management for all: maintain skin hydration with daily **emollients** (moisturizers) applied liberally; use gentle bathing (lukewarm water, mild cleansers) and avoid known triggers (harsh soaps, **wool** clothing, allergens).",
+    "For flares: apply topical **corticosteroids** (low-potency for face, medium/high for body) twice daily to inflamed areas until lesions improve. For steroid-sparing maintenance or sensitive areas (face, skin folds), use topical **calcineurin inhibitors** (tacrolimus, pimecrolimus). Sedating antihistamines at bedtime may help break the itch–scratch cycle.",
+    "If signs of secondary infection (e.g. **impetigo** with honey-colored crusts), treat with antibiotics and consider bleach baths to reduce Staph colonization. Viral complications (eczema herpeticum) require prompt **acyclovir**.",
+    "Moderate-to-severe or refractory AD: consider **phototherapy** (narrow-band UVB) or systemic therapy. Options include short-term **cyclosporine** or methotrexate, or newer biologics like **dupilumab** (anti–IL-4α receptor antibody) which can dramatically improve severe eczema."
+  ],
+  "red_flags": [
+    "**Eczema herpeticum**: eruption of painful, monomorphic blisters or punched-out erosions with fever on eczematous skin – indicates HSV infection on eczema (medical emergency, start antivirals).",
+    "**Erythroderma**: generalized (>90%) redness and scaling of the skin (can occur in severe AD) – risk of dehydration, hypothermia, infection; requires urgent evaluation and management.",
+    "Severe eczema in infancy with recurrent infections or poor growth – consider an **immunodeficiency** (e.g. Wiskott–Aldrich syndrome or hyper-IgE syndrome) as an underlying cause."
+  ],
+  "algorithm": [
+    "Chronic **pruritic** dermatitis in typical locations (face/extensors in infants, flexural in older patients) + personal/family atopy history → suspect atopic dermatitis.",
+    "**Start**: avoid triggers (irritants, allergens) and begin daily **moisturizer** use; treat active lesions with topical steroids.",
+    "If poor control or frequent flares: check **adherence** and look for complications (infection, contact dermatitis); add steroid-sparing topicals (tacrolimus) or antihistamines for itch as needed.",
+    "**Escalate** therapy for severe cases: refer for phototherapy or systemic treatments (e.g. **dupilumab** or cyclosporine) when AD remains uncontrolled by topical therapies."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Pattern_of_atopic_eczema_varies_with_age.png",
+      "alt": "Illustration of how atopic dermatitis distribution varies with age: infant (facial/extensor), child (flexural), adult (possibly hand or localized).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Pattern_of_atopic_eczema_varies_with_age.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 8‑month‑old infant has a 6-month history of an itchy, red rash on the cheeks, trunk, and extensor surfaces.",
+      "clues": ["Pruritic, scaly erythematous patches on cheeks and arms/legs", "Onset at 3 months old", "Spares the diaper area", "Mother has asthma and hay fever"],
+      "answer": "Atopic dermatitis (infantile eczema)",
+      "teaching": "Defective skin barrier and allergic inflammation cause this baby's eczema. Classic infantile distribution on the face/extensors with family atopy. Management focuses on skin hydration and topical anti-inflammatories (e.g. corticosteroids)."
+    }
+  ],
+  "see_also": ["psoriasis", "urticaria", "acne"],
+  "prerequisites": ["hypersensitivity-reactions", "skin-structure"],
+  "sources": [
+    { "title": "DermNet NZ: Atopic Dermatitis (Paul Jarrett, 2021)", "url": "https://dermnetnz.org/topics/atopic-dermatitis" },
+    { "title": "StatPearls: Atopic Dermatitis (Kolb & Ferrer-Bruker, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK448071/" },
+    { "title": "UpToDate: Atopic dermatitis (eczema) – Pathogenesis, Clinical Manifestations, and Diagnosis", "url": "https://www.uptodate.com/contents/atopic-dermatitis-eczema-pathogenesis-clinical-manifestations-and-diagnosis" },
+    { "title": "Medscape: Atopic Dermatitis Treatment & Management (Kim, updated 2024)", "url": "https://emedicine.medscape.com/article/1049085-treatment" },
+    { "title": "New England Journal of Medicine: Atopic Dermatitis (Bieber, 2008)", "url": "https://pubmed.ncbi.nlm.nih.gov/18385500/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

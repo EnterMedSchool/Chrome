@@ -1,0 +1,100 @@
+{
+  "id": "osteogenesis-imperfecta",
+  "names": ["Osteogenesis imperfecta"],
+  "aliases": ["brittle bone disease", "fragilitas ossium", "Lobstein syndrome"],
+  "abbr": ["OI"],
+  "patterns": ["osteogenesis imperfecta", "brittle bone disease", "oi", "fragilitas ossium", "lobstein syndrome"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "genetics", "peds"],
+  "definition": "Group of heritable connective tissue disorders causing fragile bones that fracture with minimal trauma due to defective **type I collagen**.",
+  "why_it_matters": "Although rare, recognizing OI is crucial so that children with frequent fractures are not misjudged as abuse victims. It's also a classic exam topic linking **blue sclerae**, brittle teeth, and early hearing loss to a collagen defect.",
+  "how_youll_see_it": [
+    "Multiple fractures with **minimal trauma** (severity ranges from a few childhood fractures to in utero fractures in lethal forms).",
+    "**Blue sclerae** (bluish tint of the eye whites due to translucent sclera), **dentinogenesis imperfecta** (translucent, brittle teeth), and hearing loss in adulthood are telltale clues.",
+    "Severe forms present with short stature, limb deformities (bowing), **scoliosis** or barrel chest, and joint laxity; in type II (most severe) infants can be born with rib fractures and underdeveloped lungs."
+  ],
+  "problem_solving": [
+    "Fractures + blue sclerae or tooth abnormalities in a child → suspect **OI** rather than child abuse.",
+    "For moderate-to-severe OI, early **bisphosphonate** therapy (e.g., IV pamidronate) can improve bone density and reduce fractures."
+  ],
+  "differentials": [
+    { "name": "Non-accidental trauma (child abuse)", "hint": "fractures from inflicted injury; look for bruises or inconsistent history" },
+    { "name": "Rickets (vitamin D deficiency)", "hint": "bone deformities with poor mineralization (rachitic rosary, widened growth plates)" },
+    { "name": "Hypophosphatasia", "hint": "congenital bone fragility with low alkaline phosphatase levels" }
+  ],
+  "tricks": [
+    "Mnemonic: patients with OI **\"can't BITE\"** – *B*ones fracture easily, *I* (eye) blue sclerae, *T*eeth abnormalities, *E*ar hearing loss."
+  ],
+  "exam_appearance": [
+    "Newborn with multiple fractures at birth, limb bowing, and blue sclerae → **Osteogenesis imperfecta**, perinatal lethal type (Type II).",
+    "Toddler with frequent fractures but also blue sclerae and opalescent teeth; no evidence of bruising or neglect → **OI (Type I)**, not child abuse.",
+    "30-year-old with early-onset hearing loss and history of childhood fractures → Mild **OI** presenting with adult hearing loss (otosclerosis)."
+  ],
+  "treatment": [
+    "**Bisphosphonates** (e.g., IV pamidronate or zoledronate) to increase bone mineral density and reduce fracture risk; ensure adequate calcium & vitamin D intake.",
+    "Orthopedic interventions: surgical **intramedullary rodding** of long bones to stabilize frequent fractures and correct deformities; prompt casting or fixation of acute fractures with careful handling.",
+    "Rehabilitative and supportive care: **physical therapy** and low-impact exercise to strengthen muscles, bracing and mobility aids (braces, wheelchairs) as needed, plus specialized dental care and hearing aids if hearing loss develops."
+  ],
+  "red_flags": [
+    "**Basilar invagination** (C1 neck deformity) in OI can cause brainstem compression – watch for headaches, ataxia, or cranial nerve deficits and refer for urgent neurosurgical evaluation.",
+    "Severe **respiratory compromise** (e.g., an infant with a small, fragile ribcage or a patient with advanced scoliosis) – monitor pulmonary function and support ventilation as needed, as respiratory failure can occur."
+  ],
+  "algorithm": [
+    "Child with multiple fractures → assess for OI features (blue sclerae, dentinogenesis imperfecta, family history) while also evaluating for abuse risk.",
+    "Obtain a skeletal survey (**full-body X-rays**) to document all fractures and look for OI signs (diffuse osteopenia, **wormian bones** in skull, old healed fractures).",
+    "Confirm diagnosis with **genetic testing** for COL1A1/COL1A2 mutations (preferred) or collagen biochemical analysis from a skin biopsy.",
+    "Determine OI type/severity (Types I–IV clinical classification) to guide prognosis and therapy.",
+    "Multidisciplinary management: involve orthopedics, endocrinology, and rehabilitation early – implement bisphosphonates, plan for rodding surgery if needed, and provide physical therapy and family education on fracture prevention."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Osteogenesis_imperfecta_Roentgenaufnahmen_bei_einem_Neugeborenen_0W_-_CR_-_001.jpg",
+      "alt": "X-rays of a newborn with osteogenesis imperfecta (multiple rib fractures and limb deformities visible)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Osteogenesis_imperfecta_Roentgenaufnahmen_bei_einem_Neugeborenen_0W_-_CR_-_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑year‑old boy is evaluated for unexplained fractures. He has had three fractures since starting to walk, all from minor falls.",
+      "clues": [
+        "Multiple fractures with minimal trauma",
+        "Blue sclerae on exam",
+        "Opalescent (translucent) teeth on dental exam",
+        "No significant bruising or signs of neglect"
+      ],
+      "answer": "Osteogenesis imperfecta (Type I, mild form)",
+      "teaching": "This toddler's history of frequent low-trauma fractures along with blue sclerae and dentinogenesis imperfecta (abnormal teeth) is classic for OI, not child abuse. Type I OI (mild) often presents with fractures in childhood and features like blue sclerae, with approximately half developing hearing loss in adulthood. Management includes gentle handling, fracture care, and bisphosphonate therapy to strengthen bones."
+    }
+  ],
+  "see_also": ["achondroplasia", "osteoporosis", "scoliosis"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Osteogenesis Imperfecta (Subramanian & Anastasopoulou, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536957/"
+    },
+    {
+      "title": "GeneReviews: COL1A1/COL1A2-Related Osteogenesis Imperfecta (Rodriguez Celin et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1295/"
+    },
+    {
+      "title": "Medscape: Genetics of Osteogenesis Imperfecta (Rush, 2024)",
+      "url": "https://emedicine.medscape.com/article/947588-overview"
+    },
+    {
+      "title": "MedlinePlus Genetics: Osteogenesis imperfecta (NIH)",
+      "url": "https://medlineplus.gov/genetics/condition/osteogenesis-imperfecta/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "scoliosis",
+  "names": ["Scoliosis"],
+  "aliases": ["spinal curvature", "curvature of the spine"],
+  "abbr": ["AIS"],
+  "patterns": ["scoliosis", "idiopathic scoliosis", "adolescent scoliosis", "adult scoliosis", "neuromuscular scoliosis", "degenerative scoliosis", "curvature of the spine", "spinal curvature", "kyphoscoliosis"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "peds", "surgery"],
+  "definition": "Lateral curvature of the spine **>10°** (Cobb angle) with accompanying vertebral rotation.",
+  "why_it_matters": "Common in adolescents (especially girls) and can progress during growth to cause deformity, pain, or even restrictive lung issues. Early detection (e.g. school screenings, Adams test) allows timely bracing or surgery to prevent severe curvature; a classic exam topic linking physical exam findings to management.",
+  "how_youll_see_it": [
+    "Adolescent idiopathic scoliosis: typically a pubertal girl with asymmetric shoulders or waist (rib hump on forward bend); usually **no pain** or neurologic deficits.",
+    "Adult degenerative scoliosis: older adult (>50) with gradual onset lumbar curve from disc/facet degeneration; presents with **back pain**, height loss, and possible nerve root compression (radicular leg pain or claudication).",
+    "Neuromuscular scoliosis: patient with cerebral palsy, muscular dystrophy, or similar condition causing muscle imbalance; often early-onset and rapidly progressive, affecting sitting balance and breathing."
+  ],
+  "problem_solving": [
+    "Determine scoliosis type by age and history: idiopathic (teen with no underlying cause) vs **congenital** (vertebral malformation from birth) vs **neuromuscular** (due to neurologic disorders) vs **degenerative** (adult age, disc degeneration).",
+    "Perform a thorough exam: assess symmetry (Adams forward bend test for rib hump), measure leg lengths, and do a full neurologic exam to check for any weakness or abnormal reflexes.",
+    "If scoliosis is suspected → obtain standing PA and lateral spine **X-rays** to confirm curvature and measure the Cobb angle (quantify severity).",
+    "Assess **skeletal maturity** in adolescents (e.g. Risser sign, wrist films, menarche status) to gauge remaining growth and risk of progression.",
+    "Management decisions are based on Cobb angle and growth: mild curves can be observed, moderate curves in growing patients need bracing, and severe or progressive curves warrant referral for possible surgery.",
+    "Reserve **MRI** for red flags (e.g. early-onset <10 yrs, unusual curve pattern, neurological signs, or significant pain) to exclude spinal cord anomalies (Chiari, syrinx, tumor, etc.)."
+  ],
+  "differentials": [
+    { "id": "kyphosis", "hint": "excessive thoracic forward curvature (hunchback) rather than lateral deviation of the spine" },
+    { "name": "Leg-length discrepancy", "hint": "unequal limb length causing a compensatory curve that **resolves when sitting/bending** (no true spinal rotation)" },
+    { "id": "cerebral-palsy", "hint": "neuromuscular scoliosis due to muscle spasticity or weakness; underlying neurologic signs (e.g. CP, muscular dystrophy) present" }
+  ],
+  "tricks": [
+    "Mnemonic: **10–25–50** rule – **10°** defines scoliosis, ~**25°** consider bracing (if still growing), ~**50°** consider surgery (to prevent progression/complications).",
+    "Idiopathic curves are typically **right-sided thoracic** and painless. A left-thoracic curve or any neurologic findings should prompt an **MRI** to rule out spinal cord pathology (e.g. syrinx, tumor).",
+    "Severe scoliosis (>70° thoracic curve) can cause **restrictive lung disease** (reduced pulmonary capacity)."
+  ],
+  "exam_appearance": [
+    "Adolescent girl with one shoulder higher, prominent right scapular hump on forward bend, and a 30° thoracic curve on X-ray → Adolescent idiopathic scoliosis (moderate severity).",
+    "65‑year‑old patient with chronic back pain, a lumbar \"C\"-curve on X-ray, and right L4-L5 radiculopathy → Adult degenerative scoliosis causing foraminal stenosis.",
+    "8‑year‑old with rapidly worsening scoliosis, back pain, and hyperreflexia → Atypical scoliosis (red flag for underlying spinal cord lesion, e.g. tumor or syrinx)."
+  ],
+  "treatment": [
+    "Adolescent idiopathic (AIS): **Observation** for mild curves (<20–25°) during growth (periodic exams/X-rays); **Bracing** (e.g. TLSO) for moderate curves (~25–45°) in skeletally immature patients to prevent progression; **Surgery** (posterior spinal fusion with rods) for severe curves (>45–50°) or if rapid progression.",
+    "Neuromuscular scoliosis: maximize management of underlying condition and physical therapy; bracing may slow progression but often insufficient; early **spinal fusion** often recommended for large curves to improve sitting stability and pulmonary function.",
+    "Adult degenerative scoliosis: **Conservative** treatment first (physical therapy, core strengthening, NSAIDs/analgesics, and epidural steroid injections for radicular pain). If disabling pain, progressive deformity, or neurological compromise, consider **surgical** intervention (decompression and spinal fusion) after weighing operative risks."
+  ],
+  "red_flags": [
+    "Significant **back pain** or any **neurologic deficits** (weakness, altered reflexes, gait changes) in a scoliosis patient – unusual for idiopathic scoliosis (warrants MRI to evaluate for tumor, tethered cord, etc.).",
+    "Onset of scoliosis before age **10** (infantile/early-onset) or very rapid curve progression – high risk for severe deformity and often associated with underlying anomalies (requires prompt specialist referral and imaging).",
+    "Unusual curve patterns, e.g. a **left-sided thoracic curve** – idiopathic curves are usually right-thoracic; a leftward curve should prompt MRI to rule out intraspinal pathology."
+  ],
+  "algorithm": [
+    "School screening or exam → **Adams forward bend test**: rib hump or asymmetric back suggests scoliosis.",
+    "Positive screen → get standing **spine X-rays** (PA & lateral) to measure Cobb angle and evaluate curve magnitude; assess skeletal maturity (Risser sign).",
+    "Cobb angle <10° = not scoliosis (reassure). If 10–20° (mild) and patient still growing → observe with periodic rechecks (6–12 month intervals).",
+    "If Cobb ~25–45° and significant growth remaining (Risser 0–3) → prescribe **brace** (orthosis) to prevent progression (ideally wear ~18+ hours/day until skeletal maturity).",
+    "If Cobb >45–50° or continued progression despite bracing → refer for **surgical** evaluation (spinal fusion instrumentation) to correct curve and prevent further deformity.",
+    "Any red flags (pain, neurologic signs, atypical curve) at any point → **MRI** of the spine to investigate underlying lesions; involve a specialist (orthopedist or neurosurgeon) early."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Scoliosis_X-ray.jpg",
+      "alt": "X-ray of the spine showing a severe double-curve scoliosis (S-shaped lateral curvature).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Scoliosis_X-ray.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 13‑year‑old girl is brought for a routine school physical. Her mother reports that one shoulder seems higher than the other when she stands.",
+      "clues": [
+        "Right shoulder elevated compared to left",
+        "Prominent right-sided rib hump on forward bending",
+        "Thoracic Cobb angle 30° on standing X-ray",
+        "No complaints of pain; neurologic exam is normal"
+      ],
+      "answer": "Adolescent idiopathic scoliosis (moderate curve)",
+      "teaching": "Idiopathic scoliosis in a pubertal girl often presents with cosmetic asymmetry and a structural rib hump but no pain. A ~30° curve in a growing child should be managed with a **brace** to prevent progression (surgery is considered for >45–50°). Regular monitoring of curve progression and skeletal maturity is essential."
+    }
+  ],
+  "see_also": [
+    "cerebral-palsy",
+    "chiari-i-malformation",
+    "achondroplasia"
+  ],
+  "prerequisites": [
+    "vertebral-column",
+    "neurologic-exam"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Adolescent Idiopathic Scoliosis (Menger & Sin, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499908/"
+    },
+    {
+      "title": "UpToDate: Adolescent idiopathic scoliosis – Management and prognosis (Scherl, 2024)",
+      "url": "https://www.uptodate.com/contents/adolescent-idiopathic-scoliosis-management-and-prognosis"
+    },
+    {
+      "title": "Idiopathic Scoliosis (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/1265794-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

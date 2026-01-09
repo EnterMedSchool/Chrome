@@ -1,0 +1,104 @@
+{
+  "id": "marasmus",
+  "names": ["Marasmus"],
+  "aliases": ["severe wasting malnutrition", "non-edematous malnutrition"],
+  "abbr": [],
+  "patterns": ["marasmus", "wasting malnutrition", "severe malnutrition without edema", "protein calorie malnutrition"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "gi", "endocrine"],
+  "definition": "Form of severe acute malnutrition from overall calorie deficiency, leading to extreme wasting (loss of muscle and fat) without edema.",
+  "why_it_matters": "Affects millions of children and a major cause of under-5 mortality (~10%). Understanding marasmus vs kwashiorkor is high-yield for exams and critical in global child health.",
+  "how_youll_see_it": [
+    "Typically in infants or young children from famine, severe poverty, or chronic illness with inadequate feeding. Presents with **emaciation**: severe weight loss, loss of subcutaneous fat, and muscle wasting; ribs become prominent and limbs thin.",
+    "Facial appearance is striking: **\"old man\" facies** (sunken cheeks due to lost fat) and a head that appears relatively large for the body. No **edema** is present (distinguishes from kwashiorkor). Skin may be dry, hair sparse, but without the flaky paint dermatosis or flag sign hair seen in kwashiorkor.",
+    "Behavior: often **irritable** but with a voracious **appetite** (will eagerly eat if offered food), unlike kwashiorkor where appetite is poor. Coexistent micronutrient deficiencies (vitamin A, iron, etc.) and stunted growth are common, and the child is highly susceptible to infections (due to weakened immunity)."
+  ],
+  "problem_solving": [
+    "Suspect marasmus in any child with severe wasting (weight-for-height **< –3** SD or <70% median, or **MUAC ≤ 115 mm**) without edema. Differentiate from **kwashiorkor** by absence of edema and preserved appetite; a mixed form (marasmic kwashiorkor) has both wasting and edema.",
+    "Assess for complications: check **blood glucose** (for hypoglycemia), **body temperature** (hypothermia), and signs of infection (malnourished children may have severe infection without obvious fever). Evaluate **electrolytes** (often total body deficits of K, Mg, etc.) and **hemoglobin** (anemia is common).",
+    "Follow **WHO criteria** to classify severity and manage accordingly. If the child is alert, has appetite, and no acute medical issues, outpatient care with therapeutic feeding (e.g. **RUTF** – ready-to-use therapeutic food) is possible. If any **red flags** (e.g. lethargy, edema, complications), proceed with inpatient management using the WHO 10-step approach."
+  ],
+  "differentials": [
+    { "name": "Kwashiorkor", "hint": "edematous malnutrition (protein deficiency; presents with edema, fatty liver, skin/hair changes, poor appetite)" },
+    { "name": "Marasmic kwashiorkor", "hint": "mixed severe malnutrition with both wasting and edema" },
+    { "name": "Cachexia (disease-related)", "hint": "severe wasting from chronic illness (e.g., advanced HIV, cancer) rather than primary nutritional deficit" }
+  ],
+  "tricks": [
+    "Mnemonic: **Marasmus = Muscle wasting** (calorie deficiency causes loss of muscle/fat, no edema); **Kwashiorkor = edema** (protein deficiency → low albumin → edema and fatty liver). Remember: marasmus kids are **hungry**, kwashiorkor kids are **apathetic**.",
+    "Name origin: *Marasmus* is Greek for \"wasting away.\" **Kwashiorkor** comes from Ghana (Ga language) meaning \"the sickness the older child gets when the new baby is born\" (reflecting weaning to a protein-poor, carbohydrate diet)."
+  ],
+  "exam_appearance": [
+    "An **8‑month‑old** infant in a refugee camp is severely emaciated with ribs visible and loose skin folds, but is alert and feeds eagerly when given a bottle. There is no edema. → **Marasmus** (caloric malnutrition leading to wasting).",
+    "A malnourished **2‑year‑old** with swollen legs, ascites, patchy skin depigmentation, and apathetic affect (poor appetite) would instead suggest **kwashiorkor** (edematous protein malnutrition) rather than marasmus."
+  ],
+  "treatment": [
+    "Initial stabilization (inpatient for complicated cases): Prevent/treat **hypoglycemia** (frequent feeding, IV glucose if needed) and **hypothermia** (keep child warm). Treat **dehydration** cautiously (use low-sodium rehydration like **ReSoMal**; malnourished children are prone to fluid overload). Assume and treat **infections** empirically (broad-spectrum antibiotics) since immune response is blunted. Correct electrolyte abnormalities (especially **potassium** and **magnesium**, which are usually depleted) but avoid aggressive fluids.",
+    "Nutritional support: Begin **feeding slowly** with a low-calorie, low-protein therapeutic milk (e.g. **F-75** formula ~75 kcal/100 mL) during the first 2–7 days to stabilize metabolism and reduce refeeding risk. After the child stabilizes and appetite returns, transition to **high-calorie feeds** like **F-100** formula (~100 kcal/100 mL) or ready-to-use therapeutic food for catch-up growth. Provide **micronutrients** (vitamins and minerals, including vitamin A, etc., but delay iron supplementation until recovery phase).",
+    "Rehabilitation and follow-up: As weight gain progresses, increase protein and calorie intake (**catch-up feeding**) and engage the child in play to foster development. Monitor for **refeeding syndrome** (sudden hypophosphatemia, edema, or heart failure when feeds are advanced). Once stable and feeding well, continue nutritional rehab for several weeks until weight-for-height is > –2 SD, then transition to prevention (nutrition education and follow-up to ensure continued growth)."
+  ],
+  "red_flags": [
+    "**Lethargy, hypoglycemia, or hypothermia** in a malnourished child – indicates imminent risk of death (sign of **shock** or severe infection). Requires urgent IV glucose, warming, and treatment of underlying causes.",
+    "**Refeeding syndrome**: Watch for sudden **hypophosphatemia** (weakness, seizures) and fluid overload/heart failure when feeding is restarted. Prevent by starting feeds slowly and supplementing electrolytes (phosphate, K, Mg) and **thiamine** before refeeding.",
+    "**Bilateral pitting edema** in a malnourished child – signifies **kwashiorkor or mixed SAM**, which has higher mortality and requires inpatient care. Also, any signs of **severe infection** (pneumonia, sepsis) or **bleeding** (e.g. vitamin K deficiency) in a marasmic child necessitate urgent treatment."
+  ],
+  "algorithm": [
+    "Child with suspected severe malnutrition → **Measure** weight, height/length, and MUAC; check for **edema**. If weight-for-height < –3 SD or MUAC <115 mm, or edema present → diagnose **SAM** (severe acute malnutrition).",
+    "Classify as **uncomplicated vs. complicated**: perform an appetite test and clinical exam. If child is alert, drinking/eating well and has no edema or acute medical issues → outpatient management with therapeutic foods. If **edema** or any complications (poor appetite, vomiting, lethargy, etc.) → treat as **complicated SAM** (hospitalize for stabilization).",
+    "In inpatient stabilization: follow WHO's 10 steps – treat/prevent hypoglycemia and hypothermia; treat dehydration carefully; correct electrolytes; treat infections; give micronutrients; start cautious feeding (F-75). Monitor vital signs, glucose, and electrolytes frequently.",
+    "After 2–7 days (stabilization phase), once the child improves, begin **rehabilitation phase**: increase feeding to promote weight gain (switch to F-100 or RUTF), provide sensory stimulation (play, affection), and continue treating any illnesses. Educate caregivers on proper nutrition.",
+    "Discharge when clinical criteria are met (resolved edema, good appetite, appropriate weight gain). Arrange **follow-up** to ensure continued catch-up growth and to address underlying causes (e.g., food security, parental education) to prevent recurrence."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Starved_child.jpg",
+      "alt": "Child with marasmus (severe wasting malnutrition, lacking subcutaneous fat).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Starved_child.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 9‑month‑old boy is brought to a clinic in South Sudan by his mother. He was weaned early and has suffered from chronic diarrhea. On exam, he is extremely emaciated with marked muscle wasting and no detectable fat; his ribs protrude and his buttocks have lost fat (the 'baggy pants' sign). He has sunken cheeks and appears alert but restless, eagerly drinking a milk-based oral rehydration solution. He has no edema.",
+      "clues": [
+        "Weight-for-height < 70% of expected (severe wasting)",
+        "No edema present",
+        "Child is hungry and drinks eagerly",
+        "History of early weaning and chronic diarrhea"
+      ],
+      "answer": "Marasmus (severe protein-calorie malnutrition)",
+      "teaching": "This child exhibits features of marasmus: a total calorie deficiency leading to loss of both fat and muscle (extreme wasting) without edema. The presence of hunger and absence of edema distinguish marasmus from kwashiorkor (protein malnutrition with edema). Management would involve cautious refeeding and treatment of dehydration/infections, following WHO guidelines to avoid refeeding syndrome."
+    }
+  ],
+  "see_also": [
+    "kwashiorkor",
+    "rickets"
+  ],
+  "prerequisites": [
+    "nutrition",
+    "metabolism"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Severe Acute Malnutrition (marasmus & kwashiorkor) (Titi-Lartey & Daley, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559224/"
+    },
+    {
+      "title": "Arch Dis Child: Management of severe acute malnutrition in low-income countries (Trehan & Manary, 2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25421910/"
+    },
+    {
+      "title": "Medscape: Protein-Energy Malnutrition (Atassi, 2025)",
+      "url": "https://emedicine.medscape.com/article/1104623-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

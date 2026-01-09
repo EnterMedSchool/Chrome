@@ -1,0 +1,107 @@
+{
+  "id": "cleft-palate",
+  "names": ["Cleft palate"],
+  "aliases": ["palatoschisis"],
+  "abbr": [],
+  "patterns": ["cleft palate", "cleft of palate", "palatoschisis", "isolated cleft palate"],
+  "primary_tag": "anatomy",
+  "tags": ["pathology", "peds", "embryology"],
+  "definition": "An opening in the roof of the mouth caused by the palate tissues failing to fuse during fetal development.",
+  "why_it_matters": "One of the most common birth defects (~1 in 700 newborns have a cleft; ~1 in 1,600 have cleft palate alone). If unrepaired, it leads to feeding difficulties, nasal regurgitation, recurrent ear infections, and speech problems. Early surgical correction and multidisciplinary care can prevent these issues.",
+  "how_youll_see_it": [
+    "Newborn with **difficulty feeding** – cannot create suction, and milk may **regurgitate from the nose** during feeds. The palate may have a visible gap (if hard palate involved) or only a **cleft in the soft palate** (which might be felt on exam).",
+    "Later, infants or children may develop **hypernasal speech** and **recurrent ear infections** due to the cleft palate's effect on the Eustachian tubes. A **bifid uvula** or subtle mucosal defect might be the only sign of a submucous cleft."
+  ],
+  "problem_solving": [
+    "Always examine a newborn's mouth (visualize and palpate the palate) to catch any cleft, including submucous cleft (look for bifid uvula or a notch in the hard palate).",
+    "If a cleft palate is found, **evaluate for other anomalies** (heart murmurs, facial dysmorphisms, etc.) and consider a genetics consult (e.g., test for 22q11 deletion if features suggest it).",
+    "Provide **feeding support**: use specialized cleft palate bottles (which don't require suction, e.g., Haberman feeder) and feed the baby upright to prevent nasal regurgitation. A feeding specialist can help ensure adequate nutrition and reduce aspiration risk.",
+    "Involve a multidisciplinary **cleft team** early (pediatric surgeon/plastic surgeon, ENT, audiology, speech therapy, dentistry). Check hearing (newborn screen and follow-ups) and monitor for middle ear fluid – many infants will need ear tubes to prevent hearing loss.",
+    "Plan for surgical repair (palatoplasty) at ~**9–12 months** of age (before significant speech development). Prior to that, manage feeding and infections to keep the infant healthy for surgery."
+  ],
+  "differentials": [
+    { "name": "Choanal atresia", "hint": "Congenital blockage of the back of the nasal passage; newborns present with cyclic cyanosis during feeding (can't breathe through nose) but no milk regurgitation or palate defect." },
+    { "name": "Velopharyngeal insufficiency (non-cleft)", "hint": "Hypernasal speech due to poor soft palate function (e.g., neuromuscular causes or post-adenoidectomy) but with an anatomically intact palate." }
+  ],
+  "tricks": [
+    "Isolated cleft palate is slightly more common in **females**, whereas cleft lip ± palate is more common in males.",
+    "A **bifid uvula** is a clue to a submucous cleft palate – always check the palate if you see a split uvula.",
+    "**Pierre Robin sequence**: triad of micrognathia (small mandible) → glossoptosis (tongue falls back) → airway obstruction + U-shaped cleft palate. These babies may need special airway positioning.",
+    "Nearly all infants with cleft palate develop **middle ear effusions** – about 90% require tympanostomy (ear tubes) to prevent hearing loss."
+  ],
+  "exam_appearance": [
+    "Newborn with formula coming out of the nose during feeding and poor weight gain → suspect a cleft palate (even if the lip is intact).",
+    "Neonate with **micrognathia**, difficulty breathing, and a cleft palate → **Pierre Robin sequence** causing airway obstruction (small jaw leading to a posteriorly displaced tongue and cleft palate).",
+    "Toddler with **hypernasal speech**, recurrent ear infections, and a bifid uvula on exam → submucous cleft palate causing velopharyngeal insufficiency."
+  ],
+  "treatment": [
+    "Surgical repair (**palatoplasty**) of the palate is typically done at ~9–12 months of age. If a cleft lip is also present, lip repair is done earlier (~3 months). Palate surgery closes the gap to separate the oral and nasal cavities.",
+    "**ENT management**: Many patients need **myringotomy with ear tube placement** (often done during cleft repair) to alleviate middle ear fluid and prevent hearing loss. Regular hearing tests are important.",
+    "**Speech therapy** is often required after repair to improve articulation and resonance. **Dental/orthodontic care** will be needed as the child grows (especially if the gum/alveolus was involved), and some may require an alveolar bone graft or orthognathic surgery in later childhood/teens."
+  ],
+  "red_flags": [
+    "Signs of **airway obstruction** in a baby with cleft palate (especially Pierre Robin sequence) – e.g., difficulty breathing, tongue blocking the airway, cyanosis – require urgent intervention (prone positioning, airway support).",
+    "**Choking or aspiration** with feeds in a cleft palate infant (coughing, sputtering, or respiratory distress during feeding) is dangerous – ensure proper feeding technique or alternative feeding (e.g., NG tube) to prevent aspiration pneumonia."
+  ],
+  "algorithm": [
+    "**Prenatal**: Mid-pregnancy ultrasound can detect many clefts (especially cleft lip), but isolated cleft palate is often missed. If a cleft is seen, provide prenatal counseling.",
+    "**Newborn exam**: Check the palate at birth (look and feel for any opening). If cleft palate is present, assess breathing and feeding immediately.",
+    "If feeding is an issue, initiate special feeding strategies (upright positioning, specialized bottle) and involve a feeding specialist.",
+    "Screen for other anomalies (cardiac, craniofacial, etc.) and arrange genetic evaluation if syndrome is suspected.",
+    "Refer to a cleft palate team early. Plan definitive surgical repair of the palate at ~9–12 months. Coordinate concurrent care (ENT for possible ear tubes, etc.).",
+    "Follow the child's development: monitor hearing (provide ear tubes as needed), speech (start therapy early), and dentition (plan orthodontics or bone graft later if needed)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cleft_palate.jpg",
+      "alt": "Illustration of an infant with a cleft palate (opening in the roof of the mouth).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cleft_palate.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-week-old newborn has difficulty feeding and fails to gain weight. The baby coughs and milk sometimes comes out of her nose during feeds.",
+      "clues": [
+        "Intact upper lip (no cleft lip visible)",
+        "Milk regurgitates through the nose when feeding",
+        "A gap in the soft palate is felt on oral exam"
+      ],
+      "answer": "Isolated cleft palate",
+      "teaching": "An undiagnosed cleft palate can present with feeding problems like nasal regurgitation of milk and poor weight gain. In this case the lip is intact, indicating an isolated cleft of the palate. The solution is to use special feeding techniques for nutrition and arrange surgical repair of the palate at around 9–12 months of age."
+    }
+  ],
+  "see_also": [
+    "digeorge-syndrome",
+    "down-syndrome",
+    "holoprosencephaly"
+  ],
+  "prerequisites": [
+    "facial-embryology",
+    "pharyngeal-arches"
+  ],
+  "sources": [
+    {
+      "title": "Mayo Clinic – Cleft lip and cleft palate: Symptoms & causes (2024)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cleft-palate/symptoms-causes/syc-20370985"
+    },
+    {
+      "title": "CDC – Facts about Cleft Lip and Cleft Palate (2024)",
+      "url": "https://www.cdc.gov/birthdefects/about/cleft-lip-cleft-palate.html"
+    },
+    {
+      "title": "StatPearls: Cleft Palate (Phalke & Goldman, updated 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK563128/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

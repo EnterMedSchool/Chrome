@@ -1,0 +1,125 @@
+{
+  "id": "dilated-cardiomyopathy",
+  "names": ["Dilated cardiomyopathy"],
+  "aliases": ["congestive cardiomyopathy"],
+  "abbr": ["DCM"],
+  "patterns": ["dilated cardiomyopathy", "DCM", "congestive cardiomyopathy", "idiopathic cardiomyopathy"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "genetics", "toxicology", "infectious_dz", "obgyn"],
+  "definition": "Disease of the heart muscle characterized by dilated ventricular chambers and **systolic dysfunction** (reduced contractility with LVEF <40%). Leads to **heart failure** with reduced ejection fraction and can progress to arrhythmias or death without intervention.",
+  "why_it_matters": "Most common **cardiomyopathy** and a major cause of systolic heart failure (often requiring transplant). High morbidity/mortality due to pump failure and risk of sudden cardiac death from ventricular arrhythmias. Frequently tested with scenarios of reversible causes (alcohol, postpartum, myocarditis) and management of **heart failure**.",
+  "how_youll_see_it": [
+    "Presents with **heart failure** symptoms: exertional dyspnea, fatigue, orthopnea, leg edema. Exam: displaced **PMI**, **S3** gallop, often **mitral/tricuspid regurgitation** (holosystolic murmurs) from annular dilation.",
+    "Common causes: **ischemic cardiomyopathy** (prior MI/CAD) is most common overall. Nonischemic etiologies include familial/genetic (~30%, often titin mutations), **viral myocarditis** (e.g., Coxsackie B), chronic **alcohol** abuse, **anthracycline** chemotherapy (doxorubicin), **peripartum** cardiomyopathy, prolonged tachyarrhythmias, and infiltrative or metabolic disorders (hemochromatosis, thyroid disease, wet beriberi, **Chagas** disease).",
+    "Workup: **Echocardiogram** shows dilated ventricles with diffuse hypokinesis and low EF. **ECG** may show sinus tachycardia, conduction delays (LBBB) or arrhythmias. **BNP** is typically elevated. **Chest X-ray** reveals cardiomegaly. Coronary angiography is often performed to exclude ischemic disease."
+  ],
+  "problem_solving": [
+    "Always evaluate for reversible causes: review medications, alcohol use, illicit drugs, recent viral illness, pregnancy, thyroid function (**TSH**), and check **hemochromatosis** screen, etc. Treat any identified cause (e.g., abstain from alcohol, control tachyarrhythmias, fix endocrine issues).",
+    "Exclude **ischemic heart disease** in new-onset DCM: perform stress testing or invasive **coronary angiography** to differentiate ischemic vs idiopathic cardiomyopathy (critical for management).",
+    "Genetic counseling/testing for familial DCM if young patient or family history of cardiomyopathy (mutations in titin, **LMNA**, etc., are common). Screen first-degree relatives with echocardiography.",
+    "Monitor for arrhythmias (e.g., atrial fibrillation or ventricular tachycardia); consider Holter monitoring. If LVEF remains <35% after 3+ months of optimal therapy, plan for **ICD** placement for primary prevention of sudden death; add **CRT** if QRS is prolonged (LBBB) and patient symptomatic.",
+    "Refer advanced cases for **heart transplant** evaluation or **LVAD** (bridge or destination therapy) if severe refractory heart failure."
+  ],
+  "differentials": [
+    { "name": "Ischemic cardiomyopathy (CAD)", "hint": "due to coronary artery disease (prior MIs); regional wall-motion abnormalities on echo, angiography shows obstructive lesions" },
+    { "id": "hypertrophic-cardiomyopathy", "hint": "marked LV hypertrophy, **diastolic** dysfunction, often young or familial; **S4** gallop and systolic anterior motion of mitral valve" },
+    { "id": "restrictive-cardiomyopathy", "hint": "**stiff** ventricles (amyloidosis, sarcoid) causing diastolic HF; near-normal EF, biatrial enlargement, early **S4**, Kussmaul sign" }
+  ],
+  "tricks": [
+    "Mnemonic: **ABCCCD** for dilated cardiomyopathy causes – Alcohol abuse, Beriberi (wet), Coxsackie B myocarditis, Cocaine, Chagas disease, Doxorubicin.",
+    "**S3** = Dilated (volume-overloaded ventricle); **S4** = Hypertrophic/Restrictive (stiff ventricle)."
+  ],
+  "exam_appearance": [
+    "Chronic alcoholic with progressive dyspnea, S3 gallop, and dilated heart on echo → alcoholic dilated cardiomyopathy.",
+    "Woman in late pregnancy or early postpartum with acute heart failure (no valvular or coronary disease) → **peripartum cardiomyopathy** (DCM).",
+    "Immigrant from rural Latin America with biventricular heart failure and megaesophagus/megacolon → **Chagas disease** causing DCM."
+  ],
+  "treatment": [
+    "Implement **HFrEF** therapy: ACE inhibitor (or ARNI) + **beta blocker** + **mineralocorticoid antagonist** + **SGLT2 inhibitor** to improve mortality; add diuretics for symptom relief. Tight control of blood pressure and avoid cardiotoxins.",
+    "Address specific causes: e.g., abstain from alcohol, revascularize if ischemic CAD, immunosuppressive therapy for giant-cell myocarditis, rate/rhythm control for tachycardia-induced DCM, etc.",
+    "**Device therapy** for advanced disease: if EF <35% persistently, place an ICD to prevent sudden death; consider biventricular pacemaker (CRT) if LBBB and low EF to improve synchronization. Severe refractory cases may require **LVAD** or **heart transplant**."
+  ],
+  "red_flags": [
+    "Unexplained **syncope** or sustained VT in DCM → high risk of sudden cardiac death (consider urgent ICD).",
+    "Signs of systemic **embolism** (stroke, limb ischemia) in DCM → suspect LV mural thrombus; evaluate with imaging and anticoagulate if thrombus is present."
+  ],
+  "algorithm": [
+    "Suspect DCM in a patient with new-onset systolic heart failure (reduced EF) and enlarged heart on imaging.",
+    "Obtain **echocardiography** to confirm dilated chambers and reduced LVEF; concurrently, evaluate for ischemia (stress test or cath) to distinguish from ischemic HF.",
+    "Identify etiology: review history for alcohol, chemotherapy, recent viral infection, pregnancy, etc.; send labs (TSH, iron studies, viral titers as needed) and consider genetic testing if familial.",
+    "Start **guideline-directed HF therapy** (ACEi/ARB or ARNI, beta-blocker, MRA, SGLT2i) and remove/treat any offending causes. Ensure good blood pressure and volume control.",
+    "Follow up on EF and symptoms after a trial of therapy; if EF remains low, implement device therapy (ICD, CRT) as indicated. Refer to advanced heart failure center for transplant/LVAD evaluation if progressive despite treatment."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Blausen_0165_Cardiomyopathy_Dilated.png/640px-Blausen_0165_Cardiomyopathy_Dilated.png",
+      "alt": "Illustration of dilated cardiomyopathy showing enlarged, thinned left ventricle compared to a normal heart.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0165_Cardiomyopathy_Dilated.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old woman, one month postpartum, develops progressive dyspnea and pedal edema.",
+      "clues": [
+        "No prior cardiac history; recent pregnancy (late third trimester)",
+        "Physical exam: S3 gallop, displaced PMI, holosystolic murmur at apex",
+        "Echocardiogram: global dilation and LVEF 30%",
+        "Coronary angiogram is normal (no blockages)"
+      ],
+      "answer": "Peripartum dilated cardiomyopathy",
+      "teaching": "Pregnancy-associated DCM occurring in the last month of pregnancy or within months after delivery. Likely due to myocardium stress and inflammation. Treat with standard heart failure therapy (avoid ACEi/ARB if still pregnant); about half recover EF, but recurrence risk is high in future pregnancies."
+    },
+    {
+      "stem": "A 55‑year‑old woman treated with high-dose doxorubicin for breast cancer one year ago now has fatigue, dyspnea, and orthopnea.",
+      "clues": [
+        "History of anthracycline chemotherapy (cumulative high dose)",
+        "Exam: hypotension, JVD, displaced apical impulse, S3 gallop",
+        "Echo: dilated left ventricle with LVEF 20%",
+        "ECG: sinus tachycardia with left bundle branch block"
+      ],
+      "answer": "Dilated cardiomyopathy (doxorubicin-induced)",
+      "teaching": "Anthracycline chemotherapy (e.g., doxorubicin) can cause dose-dependent myocardial cell damage via oxidative stress, leading to a chronic dilated cardiomyopathy. This cardiotoxicity is often irreversible, so monitoring EF during treatment is important. Management is standard HFrEF therapy, but prognosis is poor if severe."
+    }
+  ],
+  "see_also": [
+    "hypertrophic-cardiomyopathy",
+    "myocarditis",
+    "heart-failure",
+    "congestive-heart-failure",
+    "atrial-fibrillation",
+    "coronary-artery-disease"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "heart-failure-pathophysiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Dilated Cardiomyopathy (Mahmaljy & Yelamanchili, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441911/"
+    },
+    {
+      "title": "UpToDate: Familial dilated cardiomyopathy – prevalence, diagnosis and treatment",
+      "url": "https://www.uptodate.com/contents/familial-dilated-cardiomyopathy-prevalence-diagnosis-and-treatment"
+    },
+    {
+      "title": "ACC: 2023 ESC Guidelines for Management of Cardiomyopathies (Key Points)",
+      "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2023/08/30/02/53/2023-esc-guidelines-for-cardiomyopathies-esc-2023"
+    },
+    {
+      "title": "Medscape: Dilated Cardiomyopathy (Jian Hu, MD, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/152696-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "pemphigus-vulgaris",
+  "names": [
+    "Pemphigus vulgaris"
+  ],
+  "aliases": [
+    "pemphigus"
+  ],
+  "abbr": [
+    "PV"
+  ],
+  "patterns": [
+    "pemphigus vulgaris",
+    "pemphigus",
+    "vulgar pemphigus"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "pathology",
+    "immunology",
+    "pharmacology",
+    "msk_derm"
+  ],
+  "definition": "Life-threatening autoimmune blistering disease of skin and mucous membranes, characterized by **acantholysis** (loss of keratinocyte adhesion) due to IgG autoantibodies against desmosomal proteins (**desmoglein-3** ± 1). This causes flaccid **intraepidermal** bullae that easily rupture, leading to painful erosions.",
+  "why_it_matters": "Pemphigus vulgaris was almost universally fatal before corticosteroids; now therapy has reduced mortality to ~5–15%. It remains a serious disease (accounts for ~70% of pemphigus cases) often tested due to its classic immunopathology and contrast with the less severe **bullous pemphigoid**.",
+  "how_youll_see_it": [
+    "Usually in middle-aged or older patients (40–60s) with persistent **mucosal** ulcers (classically oral lesions) followed by flaccid **blisters** on the skin. Lesions are painful and fragile, often rupturing to leave widespread denuded erosions and crusting.",
+    "**Nikolsky sign** is positive – gentle pressure causes the superficial epidermis to shear off, reflecting the **intraepidermal** split. Involvement of the throat or larynx can cause hoarseness or dysphagia (mucosal involvement is a key feature distinguishing PV from bullous pemphigoid).",
+    "Biopsy of an early blister shows suprabasal acantholysis: keratinocytes have detached above the basal layer, which remains attached to the basement membrane (\"tombstone\" appearance of basal cells). **Direct immunofluorescence** reveals IgG and C3 deposited in a reticular (\"fishnet\") pattern on keratinocyte surfaces."
+  ],
+  "problem_solving": [
+    "Suspect PV in any patient with unexplained mucosal ulcers and flaccid skin bullae. Confirm diagnosis with a skin **biopsy**: histology shows intraepidermal split with acantholytic cells, and **direct immunofluorescence** of perilesional skin shows intercellular IgG/C3 deposits.",
+    "Assess for autoantibodies: serum testing (ELISA) can detect **anti-desmoglein-3 and -1** antibodies; titers often correlate with disease activity.",
+    "Begin treatment immediately after diagnosis: high-dose systemic **corticosteroids** (e.g. prednisone) to control blistering. Add a steroid-sparing immunosuppressant (such as **azathioprine** or **mycophenolate mofetil**) for long-term management and to aid tapering of steroids.",
+    "Use of **rituximab** (anti-CD20 monoclonal antibody) has become a first-line therapy in moderate-severe PV, often achieving durable remission. Other therapies for refractory cases include IVIG, plasmapheresis, and cyclophosphamide.",
+    "Provide supportive care: treat secondary infections (antibiotics/antifungals as needed), maintain fluids/nutrition (erosions can cause dehydration and difficulty eating), and wound care (topical antiseptics, non-adherent dressings)."
+  ],
+  "differentials": [
+    {
+      "id": "bullous-pemphigoid",
+      "hint": "elderly patient with **tense** subepidermal bullae (mucosal sparing, **Nikolsky negative**)"
+    },
+    {
+      "name": "Pemphigus foliaceus",
+      "hint": "milder form of pemphigus (blisters more superficial – subcorneal – with crusted scaly lesions and no mucosal involvement)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **\"DAMN is a Vulgar disease\"** (Desmosomes = target, Acantholysis, Mouth lesions, Nikolsky positive – all in pemphigus vulgaris).",
+    "**Nikolsky sign** differentiates PV from bullous pemphigoid: PV is Nikolsky-positive (epidermis shears with rubbing) whereas bullous pemphigoid is usually Nikolsky-negative."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with chronic **oral ulcers** and new-onset flaccid bullae on the skin that rupture easily; exam shows a positive Nikolsky sign → **Pemphigus vulgaris**.",
+    "Skin biopsy from a blister shows a suprabasal split with detached keratinocytes and an intact basal layer ('tombstone' row), and direct immunofluorescence demonstrates intercellular IgG in a fishnet pattern → confirms pemphigus vulgaris."
+  ],
+  "treatment": [
+    "**Corticosteroids** are the mainstay: start high-dose prednisone (or IV methylprednisolone) for acute control, then taper slowly once remission is achieved.",
+    "Add immunosuppressants to maintain remission and spare steroids: common options are **azathioprine**, **mycophenolate mofetil**, or cyclophosphamide. **Rituximab** (anti-CD20) is highly effective and now FDA-approved for PV.",
+    "Refractory cases or severe disease may require adjuncts like **IVIG**, plasmapheresis, or dapsone. Topical steroids or anesthetic rinses can help with oral lesions, but systemic therapy is usually required.",
+    "Supportive care is critical: wound care to prevent infection, fluid and electrolyte management (extensive skin loss can cause dehydration), and nutritional support if oral involvement limits intake."
+  ],
+  "red_flags": [
+    "Fever, chills, or foul odor from lesions – consider **secondary infection** (cellulitis or sepsis can complicate PV erosions and requires prompt antibiotic therapy).",
+    "Hoarseness, stridor, or difficulty breathing in a PV patient – worry about **laryngeal involvement** causing airway compromise; may need urgent ENT evaluation and airway protection."
+  ],
+  "algorithm": [
+    "Unexplained mucosal ulcerations ± flaccid blisters on skin → suspect pemphigus vulgaris.",
+    "Perform skin **biopsy** for histology and direct immunofluorescence → if positive for suprabasal acantholysis and IgG/C3 deposits, diagnose PV.",
+    "Initiate high-dose **steroids** (systemic) to halt disease activity; begin adjuvant immunosuppressant (e.g. azathioprine) or **rituximab** to induce and maintain remission.",
+    "Provide meticulous supportive care (hydration, wound care, infection prevention). Monitor disease activity via skin exam and antibody titers (falling anti-desmoglein levels can indicate response).",
+    "Plan long-term follow-up: slow steroid taper when lesions resolve, regular monitoring for relapses, and manage treatment complications (e.g., steroid-induced diabetes or osteoporosis)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Pemphigus_vulgaris_-_low_mag.jpg/2560px-Pemphigus_vulgaris_-_low_mag.jpg",
+      "alt": "Low-magnification micrograph (H&E stain) of a skin biopsy in pemphigus vulgaris, showing a suprabasal blister. The basal keratinocyte layer remains attached to the dermis (\"tombstone\" appearance), while the upper epidermis has separated due to acantholysis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Pemphigus_vulgaris_-_low_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 54‑year‑old man presents with a 3-month history of painful oral ulcers and 2 weeks of blistering lesions on his trunk.",
+      "clues": [
+        "Non-healing erosions on the buccal mucosa",
+        "Flaccid bullae on chest and back that easily rupture",
+        "**Nikolsky sign** is positive",
+        "Skin biopsy: suprabasal acantholysis with intercellular IgG deposits"
+      ],
+      "answer": "Pemphigus vulgaris",
+      "teaching": "Autoimmune destruction of desmosomes (anti-desmoglein IgG) causes loss of keratinocyte cohesion. This leads to superficial, fragile bullae and mucosal ulcers (as seen in pemphigus vulgaris). Treatment is with systemic corticosteroids and immunosuppressants (e.g., rituximab) to reduce autoantibody production."
+    }
+  ],
+  "see_also": [
+    "bullous-pemphigoid",
+    "urticaria",
+    "systemic-lupus-erythematosus"
+  ],
+  "prerequisites": [
+    "skin-histology",
+    "type-ii-hypersensitivity"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Pemphigus Vulgaris (Ingold et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560860/"
+    },
+    {
+      "title": "UpToDate: Pathogenesis, clinical manifestations, and diagnosis of pemphigus",
+      "url": "https://www.uptodate.com/contents/pathogenesis-clinical-manifestations-and-diagnosis-of-pemphigus"
+    },
+    {
+      "title": "UpToDate: Initial management of pemphigus vulgaris and pemphigus foliaceus",
+      "url": "https://www.uptodate.com/contents/initial-management-of-pemphigus-vulgaris-and-pemphigus-foliaceus"
+    },
+    {
+      "title": "Medscape: Pemphigus vulgaris (Dao, 2025)",
+      "url": "https://emedicine.medscape.com/article/1064187-overview"
+    },
+    {
+      "title": "DermNet NZ: Pemphigus vulgaris (Oakley & Shakeel, 2022)",
+      "url": "https://dermnetnz.org/topics/pemphigus-vulgaris"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

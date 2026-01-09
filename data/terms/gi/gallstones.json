@@ -1,0 +1,121 @@
+{
+  "id": "gallstones",
+  "names": ["Gallstones"],
+  "aliases": ["cholelithiasis", "gallstone disease"],
+  "abbr": [],
+  "patterns": ["gallstones", "gallstone", "cholelithiasis", "gall stone", "gallstone disease"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery"],
+  "definition": "Solid calculi that form in the **gallbladder** or biliary tree from components of bile (cholesterol, bile pigments, calcium). There are two main categories: **cholesterol stones** (most common, often mixed with calcium; linked to cholesterol supersaturation and stasis) and **pigment stones** (bilirubin-based, either **black** or **brown**). Black pigment stones are small, hard stones due to chronic **hemolysis** or cirrhosis; brown stones are softer, associated with **biliary infection** (bacterial or parasitic).",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ultrasound_image_of_gallbladder_stone_Gallstone_091937515.jpg",
+      "alt": "Ultrasound showing a bright echogenic gallstone in the gallbladder with a dark acoustic shadow beneath it.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ultrasound_image_of_gallbladder_stone_Gallstone_091937515.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Extremely common—about **15%** of adults (≈20 million people in the US) have gallstones. Most stones are asymptomatic, but ~10% cause symptoms within 5 years (20% within 20 years). Gallstones are a leading cause of hospitalizations for gastrointestinal issues and can lead to serious complications (cholecystitis, pancreatitis, cholangitis). Recognizing gallstone disease is important because timely intervention (e.g., cholecystectomy or ERCP) can prevent life-threatening emergencies and recurrent pain. Gallstone complications and classic risk factors frequently appear on exams.",
+  "how_youll_see_it": [
+    "**Biliary colic** (symptomatic cholelithiasis): episodic RUQ or epigastric pain, often postprandial (especially after a fatty meal). Pain is steady, severe, may radiate to the right shoulder/back (phrenic nerve referral), and typically lasts <6 hours then resolves as the stone falls back. Between episodes, patient feels well; labs are usually normal.",
+    "**Acute cholecystitis**: gallstone prolongedly obstructs the cystic duct, causing gallbladder inflammation. Presents with constant RUQ pain >6 hours, often with **fever**, nausea/vomiting, and a positive **Murphy sign** (inspiratory pause on RUQ palpation). Patients often have leukocytosis and mild ↑bilirubin or ALP; gallbladder may be palpable. Untreated, can progress to gallbladder empyema or perforation.",
+    "**Choledocholithiasis & Cholangitis**: stone in the common bile duct causes obstructive **jaundice** (↑direct bilirubin, ALP) and sometimes pancreatitis. **Ascending cholangitis** (infection of biliary tree) classically presents with **Charcot triad**: RUQ pain + fever + jaundice (add hypotension & confusion = Reynolds pentad). This is an emergency—patients can rapidly become septic.",
+    "**Gallstone pancreatitis**: a stone transiently obstructs the ampulla of Vater, triggering **acute pancreatitis**. Presents with severe epigastric pain radiating to the back, vomiting, and elevated **amylase/lipase**. Gallstones are a leading cause of acute pancreatitis (responsible for ~30–40% of cases).",
+    "Imaging: **Ultrasound** is the first-line test, showing echogenic stones with posterior acoustic shadowing (sensitivity ~95% for gallbladder stones). In acute cholecystitis, ultrasound may also show gallbladder wall thickening or pericholecystic fluid. A **HIDA scan** (cholescintigraphy) can confirm cholecystitis by showing non-filling of the gallbladder. **MRCP** or **ERCP** can visualize and retrieve CBD stones. Note: 10–15% of patients with gallstones have concurrent common duct stones."
+  ],
+  "problem_solving": [
+    "If gallstones are found **incidentally** (no symptoms), management is usually conservative (no treatment) because the annual risk of developing symptoms is low (~1–2% per year). Exceptions: prophylactic removal if very high risk (e.g., **porcelain gallbladder** or stones >3 cm due to gallbladder cancer risk).",
+    "When evaluating RUQ pain, always rule out gallstone complications: persistent pain >6 h + fever/WBC suggests cholecystitis; add jaundice → think cholangitis. Check **liver enzymes**: a cholestatic pattern (↑ALP, ↑bilirubin) points to a CBD stone. Check **pancreatic enzymes** if pancreatitis is suspected.",
+    "In suspected gallstone disease, ultrasound is the best initial test. If ultrasound is equivocal and suspicion remains for cystic duct obstruction, do a **HIDA scan** (non-visualization of gallbladder = positive for cholecystitis). For possible choledocholithiasis, use MRCP or endoscopic ultrasound for diagnosis if intermediate probability, or go straight to ERCP if high probability (e.g., visible CBD stone on imaging or cholangitis).",
+    "Distinguish biliary pain from other causes: Biliary colic often comes on after eating and is intense but transient. If the pain completely resolves and labs are normal, immediate surgery is not urgent (elective outpatient cholecystectomy is fine). However, if there are signs of complications, prompt intervention is needed (e.g., antibiotics and urgent surgery for cholecystitis, emergent ERCP for cholangitis).",
+    "Remember that many patients with gallstones have metabolic risk factors (obesity, diabetes, dyslipidemia). Addressing weight, diet, and diabetes not only improves overall health but may reduce gallstone risk. Patients undergoing rapid weight loss (e.g., bariatric surgery) are often given **ursodiol** prophylactically to prevent gallstones."
+  ],
+  "differentials": [
+    { "id": "peptic-ulcer-disease", "name": "Peptic ulcer disease", "hint": "Epigastric gnawing/burning pain related to meals; may improve with antacids. Lacks the intense colicky character and referred shoulder pain of biliary colic." },
+    { "id": "acute-pancreatitis", "name": "Acute pancreatitis", "hint": "Constant mid-epigastric pain radiating to the back, elevated pancreatic enzymes. Gallstone pancreatitis is one cause, but other etiologies (alcohol) and pain often more severe, with patient appearing ill." },
+    { "id": "nephrolithiasis", "name": "Renal colic (kidney stone)", "hint": "Flank pain radiating to groin, hematuria on urinalysis. Kidney stone pain is colicky but typically lateral/back (CVA tenderness) rather than RUQ anterior pain, and unrelated to meals." }
+  ],
+  "tricks": [
+    "Remember the **Four F's** for cholesterol stone risk: **Female, Fat, Fertile, Forty** (women – especially multiparous or on estrogen – who are overweight and around their 40s have the highest risk). Also, rapid weight loss and certain ethnicities (e.g., Pima Native Americans) predispose to stones.",
+    "Pigment stone tip: **Black** = think **Blood breakdown** (hemolysis, cirrhosis) and **Brown** = think **Bacterial** (infection in bile ducts). Black stones are often numerous & hard (and radiopaque on X-ray), whereas brown stones tend to be softer, greasy, and associated with cholangitis or parasites.",
+    "Ultrasound exam trick: a **positive sonographic Murphy sign** (tenderness when the probe presses over the gallbladder) is highly suggestive of acute cholecystitis. In an exam vignette, an ultrasound finding of a mobile echogenic focus with acoustic shadow confirms gallstones.",
+    "**Porcelain gallbladder** (calcified gallbladder wall on imaging) is a buzzword for chronic gallbladder disease and is associated with a markedly increased risk of gallbladder carcinoma. It's an indication for prophylactic cholecystectomy even if asymptomatic."
+  ],
+  "exam_appearance": [
+    "Overweight 42‑year‑old woman (4 children) has intense RUQ pain **after a fatty meal** that radiates to her right scapula and resolves in a few hours. **Ultrasound shows echogenic stones with shadowing** in the gallbladder → Gallstones causing biliary colic (symptomatic cholelithiasis).",
+    "Patient with prolonged RUQ pain, **fever**, and **Murphy sign** on exam; labs show leukocytosis → **Acute calculous cholecystitis** (stone in cystic duct). Often requires antibiotics and urgent cholecystectomy.",
+    "Older patient with RUQ pain, high fever, and **jaundice** (± confusion and hypotension) → **Ascending cholangitis** from a CBD stone (Charcot triad/Reynolds pentad). This is life-threatening; expect exam answer to involve **ERCP** to relieve the obstruction."
+  ],
+  "treatment": [
+    "If **asymptomatic**: no immediate treatment (\"watch and wait\"), unless high-risk features like a calcified gallbladder or very large stones, in which case elective cholecystectomy is considered.",
+    "If **symptomatic** (biliary colic): first-line treatment is **cholecystectomy** (surgical removal of the gallbladder). Laparoscopic cholecystectomy is the standard, offering cure and preventing future attacks. Patients with mild biliary colic can be managed with analgesics and scheduled for elective surgery.",
+    "For **acute cholecystitis**: admit for IV fluids, pain control, and **IV antibiotics** (to cover gut flora, e.g. Gram-negatives/anaerobes). Plan **cholecystectomy within 24–72 hours** of admission once stabilized. Delayed surgery or percutaneous cholecystostomy may be used if the patient is not initially surgical candidate.",
+    "For **choledocholithiasis** (stone in CBD) or **cholangitis**: perform **ERCP** (endoscopic retrograde cholangiopancreatography) to remove the stone and relieve obstruction – this is urgent in cholangitis (after starting IV antibiotics). Once the duct is cleared and infection controlled, follow up with cholecystectomy to prevent recurrence.",
+    "For **gallstone pancreatitis**: manage the pancreatitis supportively (IV fluids, bowel rest, analgesia). The stone usually passes spontaneously; if not, ERCP may be needed. After recovery, perform cholecystectomy during the same hospitalization to prevent recurrence of pancreatitis.",
+    "If patient is **high-risk for surgery** or refuses: a non-surgical option is oral **ursodeoxycholic acid** to dissolve cholesterol stones. This is only effective for small cholesterol stones and requires long duration; stones often recur when therapy stops. Due to limited success, this is reserved for those who truly cannot undergo cholecystectomy."
+  ],
+  "red_flags": [
+    "**Charcot triad** of fever + RUQ pain + jaundice → **ascending cholangitis** (obstructed infected bile duct). This is an emergency; requires prompt antibiotics and urgent biliary decompression (usually via ERCP) to prevent sepsis and shock.",
+    "Evidence of **gallstone ileus** on imaging: e.g., air in the biliary tree (pneumobilia) plus signs of small bowel obstruction. This rare complication occurs when a large stone erodes through the gallbladder into the intestine. It requires surgical removal of the stone and often a cholecystectomy; without intervention it can be fatal.",
+    "**Reynolds pentad** (Charcot triad + hypotension + confusion) → indicates severe cholangitis with sepsis. Requires ICU care, broad-spectrum antibiotics, and emergent ERCP. Do **not** delay intervention, as mortality is high if the obstruction isn't relieved.",
+    "In gallstone pancreatitis, watch for signs of **necrotizing pancreatitis** or cholangitis (e.g., persistent fever, organ failure) — may necessitate urgent ERCP or intensive care. Also, failure to remove the gallbladder after recovery from gallstone pancreatitis can lead to recurrence, so ensure follow-up for definitive treatment."
+  ],
+  "algorithm": [
+    "RUQ pain suspected to be biliary colic → **Ultrasound** of RUQ (imaging of choice for gallstones).",
+    "If US confirms gallstones and patient has symptoms → refer for **elective laparoscopic cholecystectomy** (especially if recurrent pain). In the meantime, manage pain with NSAIDs or opioids as needed.",
+    "If signs of **acute cholecystitis** (persistent pain, fever, Murphy sign) → admit to hospital. Start IV antibiotics, get surgical consult for **urgent cholecystectomy** (usually within 48 h). If US is equivocal but suspicion is high, do HIDA scan to confirm diagnosis.",
+    "If signs of **CBD stone** or cholangitis (jaundice, very high ALP/GGT, dilation on imaging, fever) → perform **ERCP** to remove stone (urgent if cholangitis present). Following clearance of the duct and recovery, do cholecystectomy to prevent future episodes.",
+    "Post-treatment: For any gallstone patient who had complications, ensure follow-up. Educate on diet (avoiding very fatty meals until surgery) and reassure that cholecystectomy usually resolves biliary colic. After cholecystectomy, monitor for complications (like bile leak or post-cholecystectomy diarrhea) and manage accordingly."
+  ],
+  "cases": [
+    {
+      "stem": "A 42‑year‑old obese woman with four children presents with 8 hours of severe right upper quadrant pain that began after a large fried meal. She has nausea and a fever of 38.5°C. On exam, she lies still due to pain and has significant tenderness in the RUQ with inspiratory pause on palpation. Her WBC is 15,000 (elevated).",
+      "clues": [
+        "Female, 42, obese, multiparous (\"Four F's\" risk factors)",
+        "RUQ pain started after fatty meal, radiates to back/shoulder",
+        "Pain >6 hours, persistent (not resolving)",
+        "Fever and leukocytosis",
+        "Positive Murphy sign on exam"
+      ],
+      "answer": "Acute calculous cholecystitis (gallstone in cystic duct causing gallbladder inflammation)",
+      "teaching": "This is a classic presentation of acute cholecystitis caused by gallstones. The prolonged postprandial RUQ pain with fever and Murphy sign indicates the gallbladder is inflamed (simple biliary colic would have shorter pain and no fever). Management is admission for IV antibiotics and prompt surgical removal of the gallbladder. In an exam question, also look for an ultrasound showing gallbladder wall thickening or a blocked cystic duct. The key risk factors (female, fat, fertile, forty) point toward cholesterol gallstones as the cause."
+    }
+  ],
+  "see_also": [
+    "acute-cholecystitis",
+    "acute-pancreatitis",
+    "charcot-triad",
+    "choledocholithiasis",
+    "chronic-cholecystitis",
+    "gallstone-ileus"
+  ],
+  "prerequisites": [
+    "biliary-physiology",
+    "liver-anatomy",
+    "hemolysis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gallstones (Cholelithiasis) (Jones & Weir, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459370/"
+    },
+    {
+      "title": "UpToDate: Overview of gallstone disease in adults (2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-gallstone-disease-in-adults"
+    },
+    {
+      "title": "Gallstones (Cholelithiasis) (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/175667-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "autosomal-dominant-hyper-ige-syndrome",
+  "names": [
+    "Autosomal Dominant Hyper-IgE Syndrome"
+  ],
+  "aliases": [
+    "Job syndrome",
+    "Job's syndrome",
+    "hyperimmunoglobulin E syndrome",
+    "Buckley syndrome"
+  ],
+  "abbr": [
+    "HIES",
+    "AD-HIES"
+  ],
+  "patterns": [
+    "hyper ige syndrome",
+    "hyper-IgE syndrome",
+    "job syndrome",
+    "jobs syndrome",
+    "autosomal dominant hyper IgE"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "immunology",
+    "infectious_dz",
+    "genetics",
+    "peds",
+    "pathology"
+  ],
+  "definition": "Rare primary immunodeficiency (autosomal dominant) characterized by the triad of severe eczema, recurrent Staph aureus skin & lung infections (with cold abscesses and pneumatoceles), and extremely high serum IgE levels.",
+  "why_it_matters": "Classic example of a STAT3 gene mutation causing immune dysfunction (loss of Th17 cells) with multisystem effects. High-yield for exams: recognizing the triad can prompt early prophylactic antibiotics to prevent lung damage (large pneumatoceles) and serious infections.",
+  "how_youll_see_it": [
+    "Often detected in infancy with eczematous rash and recurrent Staph aureus skin infections (boils/abscesses) that lack normal inflammation (so-called cold abscesses). Recurrent pneumonias begin in childhood (commonly S. aureus, Strep pneumo, H. influenzae), often with fewer symptoms than expected, leading to delayed care and resultant pneumatoceles (air-filled cysts) or bronchiectasis. Chronic mucocutaneous Candida infections (thrush, nail onychomycosis) are also frequent.",
+    "Characteristic skeletal/connective tissue features emerge: coarse, asymmetrical facial appearance (broad nose, prominent forehead, deep-set eyes), hyperextensible joints, scoliosis, and a tendency to fracture long bones with minor trauma. A hallmark dental finding is retained primary teeth well past the normal age (leading to a \"double row\" of teeth). Despite sky-high IgE levels (often >2000 IU/mL) and peripheral eosinophilia, patients surprisingly do not have severe atopic allergies."
+  ],
+  "problem_solving": [
+    "Suspect HIES in a child with recurrent Staph abscesses + pneumonias + eczema and very high IgE levels.",
+    "Check serum IgE (typically extremely elevated) and absolute eosinophil count; their combination (e.g., IgE in the 1000s IU and eosinophils >1000/μL) strongly suggests hyper-IgE syndrome. Other immunoglobulin levels are usually normal; specific antibody responses may be weak.",
+    "Confirm the diagnosis with genetic testing for a heterozygous STAT3 mutation (dominant-negative effect). If STAT3 testing is negative but phenotype fits, consider alternate genes (e.g., DOCK8 or ZNF341 for AR-HIES).",
+    "Evaluate for complications: obtain baseline and periodic chest imaging to monitor pneumatoceles or bronchiectasis after pneumonias; perform dental exam for retained teeth; assess spine for scoliosis development during adolescence.",
+    "Maintain a low threshold to investigate possible infections—HIES patients may not mount high fevers or pus despite severe infection. Even a mild cough or fatigue warrants prompt imaging (to catch pneumonia early) and cultures."
+  ],
+  "differentials": [
+    {
+      "id": "wiskott-aldrich-syndrome",
+      "hint": "X-linked with eczema & infections but also thrombocytopenia (low platelets) and bleeding"
+    },
+    {
+      "id": "chronic-granulomatous-disease",
+      "hint": "Recurrent Staph & fungal infections due to neutrophil NADPH oxidase defect; normal IgE levels"
+    },
+    {
+      "name": "Autosomal recessive Hyper-IgE (DOCK8 deficiency)",
+      "hint": "High IgE and eczema but no skeletal/dental anomalies; instead, severe viral infections (e.g., HSV, molluscum) are prominent"
+    }
+  ],
+  "tricks": [
+    "Biblical mnemonic: Job (biblical figure afflicted with boils) → Job syndrome has recurrent boils (Staph abscesses), plus eczema and high IgE.",
+    "Retained baby teeth (failure of deciduous tooth loss) causing simultaneous double teeth is virtually unique to hyper-IgE syndrome.",
+    "STAT3 mutation → deficient Th17 cell differentiation → impaired neutrophil recruitment (explaining the cold abscesses and susceptibility to Candida infections)."
+  ],
+  "exam_appearance": [
+    "Infant with severe eczema, recurrent \"cold\" staphylococcal skin abscesses, and pneumonia with lung cysts → Hyper-IgE syndrome (Job syndrome).",
+    "Adolescent with coarse facial features, retained primary teeth, recurrent lung infections, and IgE in the 1000s IU → STAT3 (Job) syndrome."
+  ],
+  "treatment": [
+    "Prevent infections: daily anti-Staph antibiotic prophylaxis (e.g., trimethoprim-sulfamethoxazole) to reduce skin and lung infections. Add antifungal prophylaxis (e.g., fluconazole) if frequent thrush or consider mold coverage (itraconazole) if recurrent Aspergillus in pneumatoceles.",
+    "Aggressive skin care: use regular emollients and bleach baths (dilute bleach soaks) to reduce bacterial colonization. Treat eczema flares with topical steroids (as needed) but minimize systemic immunosuppression (infections usually improve eczema once controlled).",
+    "Dental & orthopedic management: extract retained primary teeth to allow normal adult dentition. Monitor for scoliosis progression and manage fractures or joint issues with appropriate specialists (orthopedics).",
+    "Immune therapies: IVIG can be considered if recurrent infections persist. Past trials of IFN-γ and other immunomodulators have had variable results. Novel treatments targeting the STAT3 pathway are under research (ongoing studies).",
+    "Transplant: Hematopoietic stem cell transplant (HSCT) is generally NOT routine for AD-HIES (STAT3) because it only partially corrects the immunodeficiency and doesn't fix connective tissue issues. HSCT is more often considered for AR-HIES (e.g., DOCK8 deficiency) where it can be curative."
+  ],
+  "red_flags": [
+    "Pneumatoceles (large lung cysts from prior pneumonia) can become superinfected (e.g., Aspergillus fungus or MRSA) and lead to life-threatening complications like abscess, pneumothorax, or massive hemoptysis. Consider surgical resection if a pneumatocele is persistently infected or expanding.",
+    "Lack of usual inflammation: HIES patients may appear \"well\" despite severe infection (minimal fever or pus). Even mild symptoms (new cough, fatigue, pain) should be evaluated promptly to avoid missing a serious infection."
+  ],
+  "algorithm": [
+    "Recurrent eczema + skin/lung infections + high IgE → suspect HIES (Job syndrome).",
+    "Order serum immunoglobulins: IgE will be markedly elevated (often >10× normal); check CBC/differential for eosinophilia.",
+    "Confirm AD-HIES with a STAT3 genetic test (if negative, test for other hyper-IgE genes like DOCK8).",
+    "Infection prophylaxis: start anti-Staph antibiotics; add antifungals if needed. Educate family on skin hygiene (bleach baths) and prompt treatment of infections.",
+    "Regular follow-up with multidisciplinary team: immunology for monitoring immune status, pulmonology for lung imaging (watch for pneumatoceles), dentistry for teeth removal, and orthopedics for skeletal issues."
+  ],
+  "images": [
+    {
+      "src": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b138/2683262/99966df9e466/nihms51266f1.jpg",
+      "alt": "Chest CT of a patient with hyper-IgE (Job) syndrome showing multiple thin-walled cavities (pneumatoceles) in the right lung. An arrow points to an aspergilloma (fungal ball) within one cavity, a serious complication of this immunodeficiency.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2683262/"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 5‑year‑old boy is evaluated for recurrent infections of the skin and lungs.",
+      "clues": [
+        "Severe eczema since infancy",
+        "Multiple staphylococcal skin abscesses with minimal inflammation",
+        "Two episodes of pneumonia with residual lung cysts on imaging",
+        "Serum IgE ~5000 IU/mL (very high) with eosinophilia",
+        "Retention of primary teeth (delayed loss of baby teeth)"
+      ],
+      "answer": "Autosomal dominant hyper-IgE syndrome (Job syndrome)",
+      "teaching": "The triad of early-onset eczema, \"cold\" Staph abscesses, and extremely high IgE is classic for Job syndrome. A STAT3 mutation leads to deficient Th17 immunity, causing recurrent bacterial and fungal infections plus connective tissue anomalies (coarse facies, retained primary teeth, fractures). Management focuses on prophylactic antibiotics and skin care; bone marrow transplant is reserved for severe cases."
+    }
+  ],
+  "see_also": [
+    "chronic-granulomatous-disease",
+    "severe-combined-immunodeficiency",
+    "atopic-dermatitis"
+  ],
+  "prerequisites": [
+    "immunoglobulins",
+    "t-helper-cells",
+    "cytokines"
+  ],
+  "sources": [
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21e (2022) - Primary Immunodeficiencies (Hyper-IgE syndrome)",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192510251"
+    },
+    {
+      "title": "UpToDate: Autosomal dominant hyper-IgE syndrome (Job syndrome)",
+      "url": "https://www.uptodate.com/contents/autosomal-dominant-hyperimmunoglobulin-e-syndrome-job-syndrome"
+    },
+    {
+      "title": "StatPearls: Job Syndrome (Hafsi & Yarrarapu, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525947/"
+    },
+    {
+      "title": "MedlinePlus Genetics: Autosomal dominant hyper-IgE syndrome (NLM, 2019)",
+      "url": "https://medlineplus.gov/genetics/condition/autosomal-dominant-hyper-ige-syndrome/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

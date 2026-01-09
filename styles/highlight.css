@@ -1,0 +1,91 @@
+/**
+ * EMS Medical Glossary - Term Highlighting Styles
+ * Injected into web pages to style highlighted terms.
+ * Uses CSS variables for customization.
+ */
+
+:root {
+  --ems-highlight-color: #6C5CE7;
+  --ems-highlight-hover-bg: rgba(108, 92, 231, 0.15);
+}
+
+/* Base term styles - NO transition on initial load to prevent flicker */
+.ems-term {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Focus state for keyboard navigation */
+.ems-term:focus {
+  outline: 2px solid var(--ems-highlight-color);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Underline style (default) */
+.ems-term--underline {
+  text-decoration: underline;
+  text-decoration-color: var(--ems-highlight-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-style: solid;
+}
+
+.ems-term--underline:hover {
+  text-decoration-thickness: 3px;
+  background-color: var(--ems-highlight-hover-bg);
+  border-radius: 2px;
+  transition: text-decoration-thickness 0.15s ease, background-color 0.15s ease;
+}
+
+/* Background style */
+.ems-term--background {
+  background-color: rgba(108, 92, 231, 0.15);
+  padding: 0 0.2em;
+  border-radius: 3px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.ems-term--background:hover {
+  background-color: rgba(108, 92, 231, 0.3);
+  transition: background-color 0.15s ease;
+}
+
+/* Bold style */
+.ems-term--bold {
+  font-weight: 700;
+  color: var(--ems-highlight-color);
+}
+
+.ems-term--bold:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--ems-highlight-color);
+  transition: text-decoration 0.15s ease;
+}
+
+/* Disambiguation indicator (multiple matches) */
+.ems-term--multi::after {
+  content: '▾';
+  font-size: 0.7em;
+  margin-left: 0.2em;
+  opacity: 0.7;
+  vertical-align: super;
+  color: var(--ems-highlight-color);
+}
+
+/* Ensure visibility on dark backgrounds */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ems-highlight-hover-bg: rgba(108, 92, 231, 0.25);
+  }
+}
+
+/* Reduce motion if user prefers */
+@media (prefers-reduced-motion: reduce) {
+  .ems-term--underline:hover,
+  .ems-term--background:hover,
+  .ems-term--bold:hover {
+    transition: none;
+  }
+}

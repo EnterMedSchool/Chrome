@@ -1,0 +1,146 @@
+{
+  "id": "lupus-vasculitis",
+  "names": [
+    "Lupus vasculitis"
+  ],
+  "aliases": [
+    "SLE vasculitis",
+    "vasculitis in SLE",
+    "lupus vasculopathy"
+  ],
+  "abbr": [
+    "LV"
+  ],
+  "patterns": [
+    "lupus vasculitis",
+    "sle vasculitis",
+    "lupus vasculopathy",
+    "vasculitis in lupus"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "pathology",
+    "rheum",
+    "immunology"
+  ],
+  "definition": "Immune complex–mediated **inflammation of blood vessels** occurring as a complication of systemic lupus erythematosus. Typically involves **small vessels** (skin, capillaries) but can affect medium vessels; large-vessel lupus vasculitis is very rare.",
+  "why_it_matters": "Often signifies a severe SLE flare with risk of **organ damage**. Lupus vasculitis portends worse prognosis and can be **life-threatening** (e.g., bowel infarction, pulmonary hemorrhage), so early recognition and aggressive treatment are critical.",
+  "how_youll_see_it": [
+    "**Cutaneous vasculitis** (most common): presents with skin lesions like **palpable purpura**, petechiae, nodules, urticaria, bullae, or **livedo reticularis**; often on legs or fingertips; may cause necrotic ulcers.",
+    "**Peripheral neuropathy**: **mononeuritis multiplex** (e.g., foot drop) is a classic finding from vasculitic infarction of nerves (vasa nervorum). Can also see symmetric polyneuropathy. **CNS vasculitis** is rarer but can cause strokes, seizures, or cognitive changes in SLE.",
+    "**Gastrointestinal**: **mesenteric vasculitis** causes acute abdominal pain, nausea/vomiting, and GI bleeding. Severe cases lead to bowel ischemia, necrosis, or perforation (high mortality).",
+    "**Pulmonary**: **diffuse alveolar hemorrhage** from pulmonary capillaritis presents with hemoptysis, dyspnea, and new infiltrates (can progress to respiratory failure).",
+    "Other rare manifestations include **renal vasculitis** (distinct from lupus nephritis, with severe hypertension and renal failure), **retinal vasculitis** (vision loss), or coronary vasculitis (myocardial ischemia)."
+  ],
+  "problem_solving": [
+    "Maintain a high index of suspicion: in any SLE patient with new focal deficits or ischemic symptoms (e.g., digital gangrene, neuropathy, abdominal pain), consider lupus vasculitis.",
+    "Rule out other causes: ensure no infection (fever, cultures) or **antiphospholipid syndrome** (clots without inflammation) is causing the symptoms. Also review medications for drug-induced vasculitis.",
+    "Use diagnostics to confirm: skin or organ **biopsy** can show leukocytoclastic vasculitis; targeted imaging (e.g., CT angiography for mesenteric vessels, MRI for brain) can identify vasculitic changes.",
+    "Treat as a severe SLE flare: initiate prompt immunosuppression (steroids ± other agents) appropriate to the organ involvement and severity."
+  ],
+  "differentials": [
+    {
+      "id": "antiphospholipid-syndrome",
+      "hint": "thromboses and infarcts due to hypercoagulability (no vessel inflammation); often anticardiolipin or lupus anticoagulant positive"
+    },
+    {
+      "id": "polyarteritis-nodosa",
+      "hint": "medium-vessel necrotizing vasculitis (HBV-associated) with mononeuritis and mesenteric ischemia but no SLE or immune complex features"
+    },
+    {
+      "name": "ANCA-associated vasculitis",
+      "hint": "e.g., granulomatosis with polyangiitis; typically ANCA-positive, can cause similar lung/kidney findings but lacks lupus antibodies"
+    }
+  ],
+  "tricks": [
+    "Think **foot drop + lupus = vasculitis** until proven otherwise (mononeuritis multiplex).",
+    "Large-vessel vasculitis is exceedingly **rare in SLE** – if a major artery is involved, consider an unrelated vasculitis (e.g., Takayasu arteritis).",
+    "Active lupus vasculitis often comes with **low complement (C3, C4)** levels due to immune complex consumption.",
+    "Don't confuse **vasculitis** with **vasculopathy** in SLE: antiphospholipid syndrome causes thrombosis (vascular occlusion) without the inflammation of true vasculitis."
+  ],
+  "exam_appearance": [
+    "Young woman with known SLE has acute abdominal pain, melena, and bowel wall thickening on CT → **lupus mesenteric vasculitis** (risk of infarction).",
+    "Patient with SLE develops asymmetric foot drop and sensorimotor loss in one leg → **mononeuritis multiplex** from lupus vasculitis of vasa nervorum.",
+    "SLE patient with new cough, hemoptysis, anemia, and bilateral lung infiltrates → **diffuse alveolar hemorrhage** due to lupus pulmonary vasculitis."
+  ],
+  "treatment": [
+    "**Corticosteroids** are first-line: high-dose oral prednisone for moderate disease; IV methylprednisolone pulses for life-threatening vasculitis.",
+    "Add immunosuppressants for steroid-sparing and severe cases: e.g., **cyclophosphamide** or **rituximab** for severe organ involvement; **mycophenolate mofetil**, **azathioprine**, or **methotrexate** for moderate disease.",
+    "Refractory or fulminant cases may require **plasmapheresis** or **IVIG** as adjuncts (especially if concurrent diffuse alveolar hemorrhage or severe polyneuropathy). For cutaneous vasculitis, agents like **hydroxychloroquine** or **colchicine** can help chronic skin lesions."
+  ],
+  "red_flags": [
+    "**Acute abdomen** in SLE (severe pain with possible GI bleeding) → suspect mesenteric vasculitis (can rapidly lead to bowel infarction or perforation).",
+    "**Mononeuritis multiplex** (foot drop, asymmetric neuropathy) in SLE → indicates severe vasculitic involvement of peripheral nerves (requires aggressive therapy).",
+    "New **stroke or seizure** in SLE → consider cerebral vasculitis (distinguish from thrombotic stroke; needs urgent immunosuppression)."
+  ],
+  "algorithm": [
+    "SLE flare with unexplained focal symptoms → suspect lupus vasculitis.",
+    "Evaluate for infection or other causes (blood cultures, imaging) to rule out mimics (e.g., sepsis, APS thrombosis).",
+    "Obtain confirmatory tests: biopsy of affected tissue (skin, nerve) or angiography/CT for organ vasculature to demonstrate vasculitis lesions.",
+    "Assess extent/severity: determine if disease is limited (skin only) or systemic (internal organs).",
+    "Initiate therapy based on severity → e.g., high-dose steroids + immunosuppressant for organ-threatening vasculitis; monitor closely for improvement or complications."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Cutaneous_small-vessel_vasculitis.jpg",
+      "alt": "Cutaneous small-vessel vasculitis (palpable purpura with necrotic lesions) on the legs of a patient with SLE.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cutaneous_small-vessel_vasculitis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old woman with a 3-year history of SLE (on hydroxychloroquine) presents with acute diffuse abdominal pain and bloody diarrhea.",
+      "clues": [
+        "Diffuse abdominal tenderness with guarding",
+        "CT scan shows mesenteric artery narrowing and bowel wall edema",
+        "No infection on workup, complements are low"
+      ],
+      "answer": "Lupus mesenteric vasculitis",
+      "teaching": "This scenario is classic for lupus mesenteric vasculitis causing intestinal ischemia. In SLE, acute abdominal pain with imaging showing vessel narrowing suggests vasculitis rather than infection; high-dose corticosteroids (± cyclophosphamide) are indicated to prevent bowel infarction."
+    },
+    {
+      "stem": "A 30‑year‑old woman with SLE develops acute right foot drop and severe burning pain in the left foot.",
+      "clues": [
+        "Asymmetric peripheral neuropathy on exam (motor and sensory deficits)",
+        "EMG/NCS: axonal neuropathy affecting multiple nerves",
+        "High titers of anti-dsDNA and low C3/C4 levels"
+      ],
+      "answer": "Lupus vasculitis (mononeuritis multiplex)",
+      "teaching": "Mononeuritis multiplex in an SLE patient is usually due to lupus vasculitis affecting the vasa nervorum (blood supply of nerves). The presence of active lupus serologies (high anti-dsDNA, low complements) supports an SLE flare. Management involves high-dose steroids and immunosuppressive therapy to halt nerve ischemia."
+    }
+  ],
+  "see_also": [
+    "systemic-lupus-erythematosus",
+    "antiphospholipid-syndrome",
+    "polyarteritis-nodosa"
+  ],
+  "prerequisites": [
+    "systemic-lupus-erythematosus",
+    "immune-complex"
+  ],
+  "sources": [
+    {
+      "title": "Biomedicines (2021): Lupus Vasculitis – An Overview (Malerba et al.)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8615745/"
+    },
+    {
+      "title": "Annals of Rheumatic Diseases (2019): EULAR SLE Management Update (Fanouriakis et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30926722/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations of systemic lupus erythematosus",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-of-systemic-lupus-erythematosus-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

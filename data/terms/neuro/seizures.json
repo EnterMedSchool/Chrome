@@ -1,0 +1,156 @@
+{
+  "id": "seizures",
+  "names": ["Seizures"],
+  "aliases": ["epileptic seizure", "epileptic seizures", "convulsions", "fits"],
+  "abbr": ["Sz", "GTC", "GTCS", "PNES"],
+  "patterns": [
+    "seizure",
+    "seizures",
+    "epileptic seizure",
+    "epileptic seizures",
+    "convulsion",
+    "convulsions",
+    "fit",
+    "fits",
+    "grand mal",
+    "tonic clonic",
+    "generalized seizure",
+    "partial seizure",
+    "focal seizure",
+    "absence seizure",
+    "petit mal"
+  ],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "emerg", "pharmacology", "peds"],
+  "definition": "Transient episodes of abnormal, excessive, synchronous neuronal activity in the brain, often causing altered awareness, involuntary movements (**convulsions**), or other neurologic symptoms.",
+  "why_it_matters": "Very common (up to ~10% of people have a seizure in their lifetime). Seizures may herald **epilepsy** (recurrent unprovoked seizures) or signify an acute serious problem (e.g., CNS infection, stroke, head injury). **Status epilepticus** (prolonged seizure activity) can cause permanent neuronal injury and is life-threatening. Differentiating epileptic seizures from mimics (syncope, psychogenic seizures) and knowing initial management are frequent exam topics.",
+  "how_youll_see_it": [
+    "Seizures are broadly classified by onset as **focal** (originating in one hemisphere) or **generalized** (both hemispheres from onset). **Focal seizures** (previously called partial) may present with an **aura** (initial symptom) and can be further categorized by level of awareness (**aware** vs **impaired**) and by motor vs non-motor features.",
+    "In **generalized seizures**, both hemispheres are involved at onset, so consciousness is lost immediately. Generalized **motor** seizures include **tonic–clonic** (grand mal) seizures characterized by stiffening and jerking of limbs, as well as other types (myoclonic, atonic, etc.). Generalized **non-motor** seizures refer to **absence** (petit mal) seizures, which cause brief staring episodes with impaired awareness but no convulsions.",
+    "Pediatric causes: **Febrile seizures** (seizures with fever, typically age 6 months–5 years) are very common. Infants can seize from **perinatal** brain insults (hypoxia, intracranial hemorrhage) or metabolic imbalances; older children may have genetic epilepsy syndromes or CNS infections.",
+    "Adult causes: **Head trauma**, **stroke** (most common new-onset cause in >60 y/o), **brain tumors**, or **alcohol withdrawal** are frequent culprits. Many medications and metabolic disturbances (e.g., hypoglycemia, hyponatremia) can provoke seizures in susceptible individuals.",
+    "Clinical presentation varies. A **focal aware** seizure might cause isolated symptoms (e.g., unilateral limb jerking or a sensory hallucination) without loss of consciousness. A **focal impaired-awareness** seizure (formerly complex partial) often manifests as a brief period of confusion and automatisms (e.g., lip smacking) with no memory for the event. A **generalized tonic–clonic** seizure typically presents with a sudden collapse, full-body convulsions, tongue biting, incontinence, and a postictal period of confusion and fatigue."
+  ],
+  "problem_solving": [
+    "Confirm it was a true seizure: obtain eyewitness history (describe movements, duration, recovery) and exclude mimics (syncope, psychogenic).",
+    "Assess for **provoked** causes: check finger-stick **glucose** immediately, as hypoglycemia can cause seizures; evaluate electrolytes, tox screen, and in women of childbearing age, a pregnancy test. If infection is suspected (fever, immunocompromised), perform a **lumbar puncture** to rule out meningitis/encephalitis.",
+    "Decide on **neuroimaging**: for a first seizure or any focal neurologic signs, obtain brain imaging (preferably MRI; CT if urgent) to look for structural lesions (tumor, hemorrhage, stroke).",
+    "Obtain an **EEG** after initial stabilization. Epileptiform discharges on EEG can confirm the diagnosis and classify the seizure type (focal vs generalized), guiding treatment and recurrence risk counseling.",
+    "Avoid premature therapy: after a single unprovoked seizure, immediate long-term AED treatment is not always required. Address reversible triggers and arrange close neurology follow-up. If epilepsy is confirmed, tailor the antiseizure medication to the seizure type."
+  ],
+  "differentials": [
+    {
+      "name": "Syncope (fainting)",
+      "hint": "Often triggered by posture or vasovagal stimuli; usually brief loss of consciousness with **no postictal confusion**. Syncopal episodes may have some limb jerks (convulsive syncope) but typically feature pallor, diaphoresis, and prompt recovery."
+    },
+    {
+      "name": "Psychogenic nonepileptic seizures (PNES)",
+      "hint": "Stress-induced episodes that mimic epileptic seizures but without abnormal EEG activity. Clues include **long duration** (>2–3 min), **asynchronous thrashing** movements, pelvic thrusting, side-to-side head shaking, eyes tightly **closed** during event, and lack of true postictal phase."
+    },
+    {
+      "name": "Transient ischemic attack (TIA)",
+      "hint": "Brief (<1 hour) episode of focal neurologic deficit from brain ischemia. Unlike seizures, TIAs typically cause **negative** symptoms (weakness, loss of sensation or vision) rather than convulsive activity, and consciousness is usually preserved."
+    }
+  ],
+  "tricks": [
+    "**Tongue biting** (especially lateral tongue) during an episode is a strong indicator of a generalized tonic–clonic seizure. In contrast, tongue injury is mild or absent in most syncope.",
+    "The presence of an **aura** (e.g., déjà vu, odd smell, rising abdominal sensation) suggests a focal seizure onset (the aura itself is a brief focal seizure). Generalized seizures do not have an aura (they start with loss of consciousness).",
+    "Mnemonic **VITAMINS** for causes of seizures: **V**ascular (stroke, hemorrhage), **I**nfection (meningitis, encephalitis), **T**rauma (TBI), **A**utoimmune (e.g., CNS vasculitis), **M**etabolic (hypoglycemia, hyponatremia, uremia), **I**ngestion/withdrawal (alcohol, drugs), **N**eoplasm (brain tumors), **P**sych (pseudoseizures).",
+    "**Todd's paralysis**: a transient focal weakness (e.g., one-sided paralysis) after a seizure, lasting minutes to hours, which can mimic a stroke but resolves on its own. Its presence confirms the seizure nature of the event."
+  ],
+  "exam_appearance": [
+    "Young adult found unconscious with **tonic–clonic** limb jerking, urinary incontinence, and lateral tongue bite, followed by 20 minutes of confusion → Generalized tonic-clonic seizure (epileptic seizure, not syncope).",
+    "7-year-old child with **multiple daily episodes** of blank staring, unresponsive for ~10 seconds, immediately resuming activity with no confusion; hyperventilation in clinic provokes a similar spell → **Absence seizures** (generalized non-motor)."
+  ],
+  "treatment": [
+    "During an active seizure: ensure the patient's safety. **Position** on their side (recovery position) to protect the airway, cushion the head, and do not restrain or put anything in their mouth. If a seizure lasts ≥5 minutes (status epilepticus), begin treatment with a **benzodiazepine** (e.g., IV lorazepam) while calling for emergency support.",
+    "Treat any **reversible cause**: for example, administer IV thiamine and glucose for hypoglycemia, correct electrolyte abnormalities, and give antipyretics for fever. An alcohol-withdrawal seizure should be managed with benzodiazepines and supportive care.",
+    "Deciding on long-term therapy: After a first unprovoked seizure, immediate antiseizure drug therapy is often deferred unless risk factors for recurrence are present. If epilepsy is diagnosed (≥2 unprovoked seizures), initiate an appropriate **anti-epileptic drug (AED)**. Choose the AED based on seizure type: **broad-spectrum** agents like levetiracetam, valproate, or lamotrigine treat most seizure types, whereas **narrow-spectrum** drugs (carbamazepine, phenytoin, etc.) are mainly for focal seizures. **Ethosuximide** is first-line for absence seizures.",
+    "Advise avoidance of triggers (e.g., sleep deprivation, alcohol) and adherence to medications. For refractory epilepsy (seizures uncontrolled with multiple AEDs), consider **non-pharmacologic** therapies: a ketogenic diet (especially in pediatric epilepsy), **vagus nerve stimulation**, or **epilepsy surgery** (e.g., temporal lobectomy for mesial temporal lobe epilepsy) may dramatically reduce seizures in selected patients."
+  ],
+  "red_flags": [
+    "Seizure with **fever** or in an **immunocompromised** patient → evaluate for **CNS infection** (meningitis/encephalitis; urgent neuroimaging and LP needed).",
+    "New-onset seizure in an **older adult** (>40) or any seizure with focal neurologic deficits → suspect a structural brain lesion (stroke or brain tumor) until proven otherwise.",
+    "Seizure in a **pregnant** patient (≥20 weeks gestation or postpartum) → consider **eclampsia** (hypertensive emergency causing seizures; requires IV magnesium sulfate).",
+    "**Status epilepticus** (≥5 minutes of continuous seizure or recurrent seizures without regaining consciousness) → neurological emergency (high risk of permanent brain injury and death)."
+  ],
+  "algorithm": [
+    "1. Witnessed collapse → **ABC**s: check Airway/Breathing/Circulation, protect head, position on side; note start time.",
+    "2. If seizing >5 min or recurrent without waking → treat as **status epilepticus**: call for help, give IV lorazepam, and prepare for additional therapy.",
+    "3. Once seizure stops → **Assess injuries** and neurologic status. Check **glucose** immediately; draw labs (electrolytes, toxicology, ± pregnancy test). If febrile or immunosuppressed, obtain **LP** to rule out infection.",
+    "4. In the emergency setting, perform head **CT scan** to exclude acute hemorrhage if indicated. For thorough evaluation, arrange outpatient **MRI** (more sensitive for tumors or gliosis) for new-onset seizures.",
+    "5. Refer for an **EEG** as soon as feasible to look for epileptiform activity, which can confirm the diagnosis and guide therapy.",
+    "6. Initiate long-term **AED** therapy if indicated (e.g., high risk of recurrence or multiple unprovoked seizures). Advise seizure precautions (no driving, dangerous activities) until cleared by neurology."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/ILAE_classification_of_seizure_types_2017.png",
+      "alt": "Chart of the basic 2017 ILAE classification of seizure types (focal vs generalized onset, awareness, and motor/non-motor features).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:ILAE_classification_of_seizure_types_2017.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old man with no medical history is witnessed to suddenly cry out and collapse. His body stiffens then jerks rhythmically for about 2 minutes. He is confused and lethargic for 30 minutes afterward. Exam shows a bitten tongue and muscle soreness.",
+      "clues": [
+        "Generalized stiffening and jerking movements",
+        "Lateral tongue laceration",
+        "Urinary incontinence during the event",
+        "Postictal confusion"
+      ],
+      "answer": "Generalized tonic-clonic seizure (new-onset epileptic seizure)",
+      "teaching": "This scenario is classic for a generalized tonic–clonic seizure: a sudden collapse with a cry, followed by tonic stiffening and clonic jerking of all limbs, often with incontinence and tongue biting. A postictal period of confusion and fatigue lasting minutes to hours is also typical. In a first-time seizure like this, workup for an underlying cause (such as a brain tumor, stroke, or recent head injury) is essential, including neuroimaging and laboratory tests."
+    },
+    {
+      "stem": "A 25‑year‑old woman reports episodes of *déjà vu* followed by a one-minute spell of unresponsiveness. Witnesses describe her staring blankly and smacking her lips for about 90 seconds, after which she is briefly confused.",
+      "clues": [
+        "Olfactory aura (burning rubber smell) or sense of déjà vu before the episode",
+        "Unresponsive with lip smacking during event (~1 minute)",
+        "No awareness of the event (amnesia)",
+        "Brief postictal confusion"
+      ],
+      "answer": "Focal impaired-awareness seizure (complex partial seizure, likely temporal lobe epilepsy)",
+      "teaching": "An aura (e.g., a déjà vu or foul odor sensation) followed by impaired awareness and automatisms (like lip smacking) is indicative of a focal onset seizure in the temporal lobe. The patient's unresponsiveness and confusion afterward correspond to the seizure and postictal phase, respectively. Temporal lobe epilepsy (often due to mesial temporal sclerosis) is a common cause of this presentation. MRI of the brain and EEG would be important next steps, and treatment may involve an antiepileptic such as carbamazepine or consideration of epilepsy surgery if seizures are drug-resistant."
+    }
+  ],
+  "see_also": [
+    "absence-epilepsy",
+    "lennox-gastaut-syndrome",
+    "west-syndrome",
+    "syncope",
+    "stroke"
+  ],
+  "prerequisites": [
+    "neuron",
+    "synapse"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Seizure (Lovik & Murr, updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430765/"
+    },
+    {
+      "title": "UpToDate: Evaluation and management of the first seizure in adults",
+      "url": "https://www.uptodate.com/contents/evaluation-and-management-of-the-first-seizure-in-adults"
+    },
+    {
+      "title": "WHO Fact Sheet: Epilepsy (2023)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/epilepsy"
+    },
+    {
+      "title": "Epilepsy Foundation: 2017 Revised Classification of Seizures (ILAE)",
+      "url": "https://www.epilepsy.com/stories/2017-revised-classification-seizures"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

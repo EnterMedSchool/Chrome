@@ -1,0 +1,110 @@
+{
+  "id": "chiari-i-malformation",
+  "names": ["Chiari I malformation"],
+  "aliases": ["Arnold-Chiari type I malformation", "Chiari I deformity"],
+  "abbr": ["CM-I"],
+  "patterns": ["chiari i malformation", "chiari 1 malformation", "chiari i", "arnold chiari", "tonsillar ectopia", "cerebellar tonsillar descent"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "radiology", "peds"],
+  "definition": "Congenital hindbrain malformation where the cerebellar tonsils herniate downward through the foramen magnum (typically >5 mm descent).",
+  "why_it_matters": "Chiari I is relatively common (≈0.5–3.5% of the population) and can cause severe occipital headaches (often triggered by coughing/straining) and progressive neurologic deficits from brainstem compression or syringomyelia. It is frequently tested because of its classic imaging findings and associations with syrinx and scoliosis.",
+  "how_youll_see_it": [
+    "Children: often diagnosed during scoliosis evaluation or when investigating occipital headache; many have a cervicothoracic syrinx on MRI.",
+    "Adults: chronic suboccipital headache worsened by Valsalva (cough/strain) and neck pain; exam may reveal cerebellar ataxia, dysmetria, or dissociated sensory loss.",
+    "Imaging: sagittal MRI shows cerebellar tonsils >5 mm below the foramen magnum with a small posterior fossa; often accompanied by a spinal syrinx."
+  ],
+  "problem_solving": [
+    "Suspect Chiari I in patients with Valsalva-exacerbated occipital headache, neck pain, cerebellar signs, or unexplained scoliosis.",
+    "Confirm diagnosis with MRI (brain + cervical spine) – look for tonsillar herniation >5 mm and any syrinx.",
+    "If asymptomatic or mild (minimal symptoms, no syrinx), manage conservatively (observe, analgesics/physical therapy).",
+    "If symptomatic (persistent headaches, neurologic deficits) or syrinx present, refer for posterior fossa decompression."
+  ],
+  "differentials": [
+    {
+      "name": "Intracranial hypotension (CSF leak)",
+      "hint": "MRI shows diffuse brain sagging and pachymeningeal enhancement, not an isolated tonsillar herniation."
+    },
+    {
+      "name": "Benign tonsillar ectopia",
+      "hint": "Tonsils descend <5 mm on MRI; patient is asymptomatic with no CSF flow block."
+    },
+    {
+      "name": "Raised ICP from mass lesion",
+      "hint": "MRI reveals a tumor or hydrocephalus causing downward pressure on the brain (look for ventricular dilation or mass)."
+    }
+  ],
+  "tricks": [
+    "\"Chiari I – think Cough headache\" (cough/sneeze-induced headache).",
+    "Mnemonic: \"Syrinx and Scoliosis\" → check for Chiari I."
+  ],
+  "exam_appearance": [
+    "Sagittal MRI image question showing cerebellar tonsils herniating >5 mm below the foramen magnum (diagnostic of Chiari I).",
+    "Vignette: young adult with Valsalva-induced occipital headaches and MRI-confirmed cerebellar tonsil descent.",
+    "Vignette: adolescent with scoliosis and dissociated sensory loss; MRI reveals Chiari I malformation."
+  ],
+  "treatment": [
+    "Conservative: if asymptomatic or mild (observe, manage pain with NSAIDs/muscle relaxants, avoid straining).",
+    "Surgical: posterior fossa decompression (suboccipital craniectomy ± C1 laminectomy, often with duraplasty) to restore CSF flow and relieve compression."
+  ],
+  "red_flags": [
+    "Progressive neurological deficits (weakness, ataxia, sensory loss).",
+    "Brainstem signs (dysphagia, respiratory issues, Horner syndrome) or worsening syrinx symptoms.",
+    "Rapid deterioration or new lower cranial nerve deficits."
+  ],
+  "algorithm": [
+    "Suspect Chiari I with characteristic symptoms (occipital/Valsalva headache, neck pain, scoliosis).",
+    "Obtain MRI of brain and cervical spine for tonsillar descent and syrinx.",
+    "If tonsils <5 mm descent and no syrinx, consider other diagnoses.",
+    "If >5 mm descent (Chiari I) and no symptoms, observe with follow-up imaging.",
+    "If >5 mm descent with significant symptoms or syrinx, refer for surgical decompression.",
+    "Monitor post-treatment; promptly address any red-flag signs."
+  ],
+  "cases": [
+    {
+      "stem": "A 20-year-old woman has chronic occipital headaches worsened by coughing. Neurologic exam shows left-hand dissociated sensory loss. MRI reveals the cerebellar tonsils extending 7 mm below the foramen magnum.",
+      "clues": ["Valsalva-induced occipital headache", "dissociated pain/temperature loss in arm", "MRI: tonsils 7 mm below foramen magnum"],
+      "answer": "Chiari I malformation",
+      "teaching": "Chiari I often causes cough headache and a cervical syrinx (dissociated sensory loss). Tonsillar descent on MRI confirms the diagnosis; posterior fossa decompression is indicated."
+    },
+    {
+      "stem": "A 14-year-old boy with idiopathic scoliosis reports occasional hand numbness. MRI of the brain and spine shows cerebellar tonsils 6 mm below the foramen magnum and a cervical spinal cord syrinx.",
+      "clues": ["Pediatric scoliosis", "cervical syrinx on MRI", "tonsillar herniation on MRI"],
+      "answer": "Chiari I malformation",
+      "teaching": "Chiari I can cause syringomyelia leading to scoliosis. The MRI findings confirm CM-I; neurosurgical decompression is needed to address the syrinx and prevent progression."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Chiari-1-Malformation_asymmetrisch_1M_-MR_T2_sagittal-_001.jpg",
+      "alt": "Sagittal MRI of Chiari I malformation showing tonsillar herniation",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chiari-1-Malformation_asymmetrisch_1M_-_MR_T2_sagittal_-_001.jpg"
+      }
+    }
+  ],
+  "see_also": ["chiari-ii-malformation", "scoliosis", "spina-bifida-occulta"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Arnold-Chiari malformation (Hidalgo et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431076/"
+    },
+    {
+      "title": "Chiari Malformation (Medscape)",
+      "url": "https://emedicine.medscape.com/article/1483583-overview"
+    },
+    {
+      "title": "Chiari malformation - Diagnosis and treatment (Mayo Clinic)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/chiari-malformation/diagnosis-treatment/drc-20354015"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

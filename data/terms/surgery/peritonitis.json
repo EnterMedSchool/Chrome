@@ -1,0 +1,115 @@
+{
+  "id": "peritonitis",
+  "names": ["Peritonitis"],
+  "aliases": ["spontaneous bacterial peritonitis", "primary peritonitis", "secondary peritonitis"],
+  "abbr": ["SBP"],
+  "patterns": ["peritonitis", "primary peritonitis", "secondary peritonitis", "spontaneous bacterial peritonitis", "SBP", "peritoneal dialysis peritonitis", "peritoneal infection"],
+  "primary_tag": "surgery",
+  "tags": ["pathology", "surgery", "gi", "infectious_dz", "peds", "emerg"],
+  "definition": "Inflammation of the peritoneum (the serous lining of the abdominal cavity), most often due to a **bacterial infection** in the abdomen or a ruptured abdominal organ. Common causes include **GI tract perforation** (e.g. ulcer, appendicitis) leading to contamination of the peritoneal space, or spread of infection in patients with ascites.",
+  "why_it_matters": "Peritonitis signals a severe intra-abdominal process that can rapidly lead to **sepsis and shock** if untreated. It is a classic cause of an **acute surgical abdomen**, appearing frequently in exams as a scenario requiring prompt recognition (e.g. diffuse rebound tenderness from a perforated ulcer or fever and abdominal pain in a cirrhotic patient with ascites). Missing this diagnosis can be fatal, so early identification and management are critical.",
+  "how_youll_see_it": [
+    "**Acute abdomen presentation:** intense, diffuse abdominal pain with **involuntary guarding** and **rebound tenderness** (the patient often lies very still because any motion causes pain). Fever, tachycardia, and hypotension may be present as peritonitis progresses to sepsis.",
+    "**Primary peritonitis (SBP):** suspect in patients with **ascites** (e.g. cirrhosis or nephrotic syndrome) who develop new-onset abdominal pain or encephalopathy. Typically presents with diffuse tenderness, fever, perhaps subtle mental status changes. Ascitic fluid analysis shows **polymorphonuclear cells ≥ 250/µL** (even if culture is negative). In adults the most common organism is *E. coli* (enteric flora); in children with nephrotic syndrome, *Streptococcus pneumoniae* is classically involved.",
+    "**Secondary peritonitis:** look for a precipitating intra-abdominal catastrophe (e.g. **perforated peptic ulcer**, ruptured appendicitis or diverticulitis, ischemic bowel, abdominal trauma). Patients are typically very ill with an acute abdomen – rigid \"board-like\" abdomen, significant tenderness, and signs of systemic toxicity. Upright chest X-ray may reveal **free air under the diaphragm** if a hollow viscus has perforated.",
+    "**Peritoneal dialysis–associated peritonitis:** common in patients on chronic peritoneal dialysis. Presents with abdominal pain and **cloudy dialysis effluent**. Organisms are usually skin flora (e.g. staph) introduced via the catheter. Dialysis patients are trained to recognize this complication early."
+  ],
+  "problem_solving": [
+    "Always perform a **diagnostic paracentesis** in patients with ascites and abdominal pain or fever to evaluate for SBP. An ascitic fluid PMN count ≥250/µL is diagnostic of spontaneous bacterial peritonitis and warrants prompt antibiotics.",
+    "Differentiate primary vs secondary peritonitis: if ascitic fluid culture grows **multiple organisms** or has very low glucose, suspect a secondary cause (e.g. perforated bowel) rather than SBP. Secondary peritonitis often requires surgical intervention for source control.",
+    "Obtain **imaging** if secondary peritonitis is suspected. An upright chest or abdominal X-ray can quickly identify pneumoperitoneum (free air) from a perforation. Abdominal CT scanning is usually next to localize the source of infection or perforation.",
+    "Start **broad-spectrum antibiotics** early in peritonitis. For SBP, a third-generation cephalosporin (e.g. IV cefotaxime) is first-line. For secondary peritonitis, choose coverage for gram-negatives and anaerobes (e.g. piperacillin-tazobactam) while awaiting culture results.",
+    "In cirrhotic patients with GI bleeding or a history of SBP, use prophylactic antibiotics to prevent SBP recurrence. (Exam tip: a cirrhotic with variceal hemorrhage should receive fluoroquinolone prophylaxis to reduce SBP risk.)"
+  ],
+  "differentials": [
+    { "id": "appendicitis", "hint": "localized RLQ peritonitis (McBurney's point tenderness), can progress to diffuse peritonitis if ruptured" },
+    { "id": "acute-pancreatitis", "name": "Acute pancreatitis", "hint": "severe epigastric pain radiating to back; can cause ileus and peritoneal irritation but often elevated amylase/lipase" },
+    { "name": "Peritoneal carcinomatosis", "hint": "malignancy spread in peritoneum causing ascites and abdominal pain (subacute onset, not an acute surgical abdomen)" },
+    { "id": "pelvic-inflammatory-disease", "name": "Pelvic inflammatory disease", "hint": "young sexually active woman with pelvic pain, cervical motion tenderness, +/- fever (can lead to peritoneal involvement in severe cases)" }
+  ],
+  "tricks": [
+    "Patients with **peritonitis lie still** and guard their abdomen (motion causes pain), whereas patients with colicky pain (e.g. renal stones) may **writhe** and cannot get comfortable. This classic observation can help on exams.",
+    "**≥250 PMNs** in ascitic fluid = **SBP** until proven otherwise. Even if the culture is negative, an elevated neutrophil count in ascites warrants empiric treatment for spontaneous bacterial peritonitis."
+  ],
+  "exam_appearance": [
+    "Patient with **cirrhosis** and ascites who develops fever, diffuse abdominal tenderness, and lethargy → **Spontaneous bacterial peritonitis** (ascitic fluid neutrophils >250/µL; treat with 3rd-gen cephalosporin).",
+    "Sudden onset of severe generalized abdominal pain with a **rigid, quiet abdomen** and **free air** under the diaphragm on X-ray → **Perforated viscus causing secondary peritonitis** (surgical emergency for abdominal exploration).",
+    "Patient on **peritoneal dialysis** with cloudy peritoneal fluid return and abdominal pain → **PD-associated peritonitis** (likely staph or skin flora; requires intraperitoneal antibiotics)."
+  ],
+  "treatment": [
+    "**Rapid supportive care:** Patients with peritonitis often require hospitalization for IV fluids, correction of electrolyte imbalances, and close monitoring. If sepsis or shock is present, initiate aggressive resuscitation (IV crystalloids, vasopressors if needed) and broad-spectrum antibiotics promptly.",
+    "For **spontaneous bacterial peritonitis (SBP)**: begin empiric antibiotics targeted to likely organisms (e.g. IV cefotaxime, a 3rd-generation cephalosporin) as soon as SBP is suspected. Albumin infusion is often given in SBP to reduce renal failure risk. Note: surgical intervention is **not** usually indicated for SBP (treat medically).",
+    "For **secondary peritonitis** (e.g. perforation): administer broad-spectrum IV antibiotics covering gram-negatives and anaerobes (e.g. piperacillin-tazobactam, carbapenem). Urgent **surgical intervention** is required to control the source (eg. repair the perforation, drain abscess) once the patient is resuscitated. Early surgical consultation is a must.",
+    "For **peritoneal dialysis–related peritonitis**: treat with antibiotics active against skin flora and gram-negatives, usually delivered **intraperitoneally** through the dialysis catheter. In refractory or severe cases, removal of the dialysis catheter may be necessary according to guidelines."
+  ],
+  "red_flags": [
+    "A **rigid abdomen** with diffuse rebound tenderness and hemodynamic instability (hypotension, tachycardia) suggests **perforation with fulminant peritonitis** – this is a surgical emergency; **do not delay** operative management.",
+    "In a patient with ascites, **fever or mental status changes** should be assumed to be SBP until proven otherwise. Delay in treating spontaneous bacterial peritonitis can lead to rapid septic shock – **perform paracentesis and start empiric antibiotics immediately**."
+  ],
+  "algorithm": [
+    "Patient with acute abdomen (severe abdominal pain with guarding/rebound) → **suspect peritonitis** and begin urgent evaluation.",
+    "If ascites is present (cirrhotic or nephrotic patient) → perform **diagnostic paracentesis** right away (before starting antibiotics) to check cell count, Gram stain & culture. If PMN ≥250, diagnose SBP and treat empirically.",
+    "If signs point to a possible perforation (e.g. sudden severe pain, free air on X-ray) or another surgical cause → obtain **surgical consultation** early. Start broad antibiotics and fluid resuscitation while arranging definitive surgical management.",
+    "**Imaging:** get an upright chest/abdominal X-ray to quickly identify free air (perforation). An abdominal CT scan can help localize abscesses, perforations, or other sources in secondary peritonitis.",
+    "Initiate **empiric antibiotics** as soon as peritonitis is identified: tailor to context (e.g. cefotaxime for SBP, multi-drug broad spectrum for secondary). Continuously reassess hemodynamics and support with IV fluids, vasopressors, and ICU care if needed.",
+    "After stabilization, address the **underlying cause**: surgical repair of any perforated viscus or drainage of abscess, removal of infected catheters, and management of predisposing conditions (e.g. start prophylaxis in cirrhosis to prevent SBP recurrence)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png",
+      "alt": "Chest X-ray showing free air under the left diaphragm (arrow), indicative of a perforated abdominal viscus causing pneumoperitoneum.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chest_X-ray_showing_presence_of_free_air_under_left_diaphragm.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 6-year-old boy with known nephrotic syndrome (on steroids for past relapses) is brought in with a 1-day history of fever and abdominal pain.",
+      "clues": [
+        "Marked ascites and bilateral leg edema on exam",
+        "T 39°C, HR 130",
+        "Diffuse abdominal tenderness (no rebound noted)",
+        "Paracentesis: cloudy ascitic fluid with 300 neutrophils/µL; Gram stain shows gram-positive cocci"
+      ],
+      "answer": "Spontaneous bacterial peritonitis (in a child with nephrotic syndrome)",
+      "teaching": "Children with nephrotic syndrome are prone to SBP due to loss of immunoglobulins in urine and poor opsonization. **Streptococcus pneumoniae** is the most common cause in this setting. This case highlights that any nephrotic or cirrhotic patient with fever and abdominal pain should get an immediate paracentesis to confirm SBP and prompt IV antibiotics (e.g. cefotaxime)."
+    }
+  ],
+  "see_also": [
+    "appendicitis",
+    "peptic-ulcer-disease",
+    "cirrhosis"
+  ],
+  "sources": [
+    {
+      "title": "Merck Manual Professional: Acute Abdominal Pain – Peritonitis (Ansari & Nguyen, 2024)",
+      "url": "https://www.merckmanuals.com/professional/gastrointestinal-disorders/acute-abdomen-and-surgical-gastroenterology/acute-abdominal-pain"
+    },
+    {
+      "title": "StatPearls: Acute Abdomen (Kopitnik et al., updated 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459328/"
+    },
+    {
+      "title": "OpenAnesthesia: Peritonitis (Jung, 2023)",
+      "url": "https://www.openanesthesia.org/keywords/peritonitis/"
+    },
+    {
+      "title": "AAP Pediatrics: Nephrotic Syndrome (infectious complications)",
+      "url": "https://publications.aap.org/pediatrics/article/105/6/1242/62527"
+    },
+    {
+      "title": "UpToDate: Spontaneous bacterial peritonitis in adults – Treatment and prophylaxis",
+      "url": "https://www.uptodate.com/contents/spontaneous-bacterial-peritonitis-in-adults-treatment-and-prophylaxis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

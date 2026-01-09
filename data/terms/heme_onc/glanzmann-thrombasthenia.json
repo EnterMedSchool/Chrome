@@ -1,0 +1,117 @@
+{
+  "id": "glanzmann-thrombasthenia",
+  "names": ["Glanzmann thrombasthenia"],
+  "aliases": ["Glanzmann's thrombasthenia", "Thrombasthenia of Glanzmann and Naegeli"],
+  "abbr": ["GT"],
+  "patterns": ["glanzmann", "glanzmann's", "glanzmann thrombasthenia", "glanzmanns thrombasthenia", "thrombasthenia"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "peds"],
+  "definition": "Rare autosomal recessive **platelet function** disorder where platelets cannot aggregate due to an absence or defect of the **GpIIb/IIIa** receptor (integrin αIIbβ3). Without this fibrinogen receptor, platelets fail to form clots, causing lifelong mucosal bleeding and a markedly prolonged bleeding time despite a normal platelet count.",
+  "why_it_matters": "Though uncommon (≈1 in 1 million), GT is a classic prototype of inherited platelet disorders. It frequently appears in exams to test understanding of **primary hemostasis** – contrasting with other bleeding disorders (e.g., Bernard-Soulier, von Willebrand disease). Clinically, patients can have severe bleeding (e.g. after surgery or childbirth) requiring transfusions, and management challenges like platelet alloantibodies make it a high-yield topic.",
+  "how_youll_see_it": [
+    "Typically presents in infancy or childhood with excessive **mucosal bleeding**: parents may report prolonged bleeding after birth (e.g., **umbilical stump** or **circumcision**) and frequent **nosebleeds**, easy bruising, or bleeding from the gums with teeth eruption. Adolescent girls often have heavy menstrual bleeding (**menorrhagia**).",
+    "Bleeding is usually superficial (skin and mucous membranes); **hemarthroses** or deep muscle bleeds are extremely rare (unlike hemophilias). Severity ranges from mild bruising to severe hemorrhage. Many patients have bleeding with minor procedures (e.g., dental work). In women, **postpartum hemorrhage** is a major concern.",
+    "Physical exam may show petechiae or purpura after minor trauma. Importantly, **platelet count is normal**, and the platelets appear morphologically normal. (Labs will reveal an isolated prolonged bleeding time or abnormal platelet function test, rather than thrombocytopenia or coagulation factor abnormality.)"
+  ],
+  "problem_solving": [
+    "Suspect a platelet function disorder like GT when a patient has significant mucocutaneous bleeding but **normal platelet count** and normal PT/PTT (ruling out thrombocytopenia and clotting factor disorders).",
+    "Order platelet function testing (aggregometry): GT shows **absent platelet aggregation** in response to ADP, epinephrine, collagen, etc., while aggregation with **ristocetin** is normal (since the GpIb–vWF adhesion pathway is intact). This pattern – \"no aggregation except with ristocetin\" – is classic for GT.",
+    "Confirm the diagnosis with **flow cytometry** or platelet immunophenotyping: GT platelets will have markedly reduced or absent **GpIIb/IIIa** expression on their surface. Monoclonal antibody binding to GpIIb/IIIa is reduced.",
+    "Genetic testing can identify biallelic mutations in the genes **ITGA2B** or **ITGB3** (encoding the GpIIb and GpIIIa integrin subunits). Finding pathogenic variants confirms inherited GT and can be useful for family counseling.",
+    "Historical clue: the old **clot retraction test** is abnormal in GT (clot fails to retract in a test tube due to the loss of fibrinogen-platelet bridging). While not commonly used now, it's a classic teaching point."
+  ],
+  "differentials": [
+    { "name": "Bernard-Soulier syndrome", "hint": "inherited platelet adhesion defect (lack GpIb); causes **giant platelets**, mild thrombocytopenia, and abnormal ristocetin test" },
+    { "name": "Von Willebrand disease", "hint": "mucosal bleeding from deficient vWF (impaired platelet adhesion + low factor VIII); prolonged bleeding time and often ↑PTT" },
+    { "name": "Immune thrombocytopenia (ITP)", "hint": "acquired autoimmune platelet destruction; causes low platelet count with petechiae and mucosal bleeding (not an aggregation defect)" }
+  ],
+  "tricks": [
+    "Peripheral smear in GT often shows platelets that are **not clumped** together (since they can't bind fibrinogen). By contrast, in many other conditions platelets may clump on smears.",
+    "Use the **B versus G** trick: **Bernard-Soulier** = **Big** platelets + problem with platelet **binding** to vWF (adhesion, GpIb defect), whereas **Glanzmann** = problem with platelet **Grouping** (aggregation, GpIIb/IIIa defect).",
+    "The **ristocetin** cofactor test is a key distinguisher: it's **normal in Glanzmann** thrombasthenia (because platelet adhesion via vWF is intact), but markedly abnormal in Bernard-Soulier syndrome and von Willebrand disease."
+  ],
+  "exam_appearance": [
+    "Newborn boy with severe bleeding after **circumcision** but normal platelet count and normal coagulation studies → Glanzmann thrombasthenia.",
+    "Teenage girl with lifelong **epistaxis** and unusually heavy periods; labs show normal platelet count and platelets that fail to aggregate with ADP but do aggregate with ristocetin → Glanzmann thrombasthenia."
+  ],
+  "treatment": [
+    "Preventive measures: avoid any **aspirin, NSAIDs**, or other platelet-inhibiting medications (they can unmask or worsen bleeding); for women with GT, hormonal therapy (e.g. oral contraceptives) can help reduce menorrhagia.",
+    "For mild bleeding episodes: use local hemostatic measures (pressure, topical thrombin or fibrin sealants) and give **antifibrinolytic** agents (e.g., tranexamic acid) to stabilize clots on mucosal surfaces.",
+    "For severe bleeding or high-risk situations (surgery, childbirth): transfuse **platelet concentrates** to provide functional platelets. Platelet transfusion is usually effective short-term, but use it judiciously to minimize development of alloantibodies.",
+    "If a patient becomes **refractory to platelet transfusions** (due to anti-platelet antibodies) or platelets are unavailable, administer **recombinant factor VIIa (rFVIIa)** to bypass the platelet defect and promote clotting.",
+    "Definitive therapies: **Hematopoietic stem cell transplant** can cure GT by establishing donor-derived platelets with normal GpIIb/IIIa (reserved for only the most severe cases due to transplant risks). **Gene therapy** for GT is experimental but holds future promise as a curative approach."
+  ],
+  "red_flags": [
+    "**Major hemorrhages** (e.g., intracranial bleed, massive gastrointestinal bleed, or postpartum hemorrhage) in GT require emergency management – prompt platelet transfusions (and rFVIIa if needed) are critical to prevent mortality.",
+    "If platelet transfusions fail to stop bleeding, suspect **alloimmune platelet refractoriness** – GT patients can develop anti-GpIIb/IIIa antibodies after repeated transfusions. In this scenario, switching to rFVIIa or other interventions immediately can be lifesaving."
+  ],
+  "algorithm": [
+    "Patient with mucosal bleeding but **normal platelet count** and normal PT/PTT → consider inherited platelet function disorder (suspect GT or Bernard-Soulier).",
+    "Initial workup: obtain CBC and peripheral smear (platelet count and morphology will be normal in GT) and perform platelet function analysis (e.g., PFA-100 or bleeding time – likely prolonged). Rule out von Willebrand disease with appropriate studies if indicated.",
+    "Platelet aggregation studies: if platelets fail to aggregate with multiple agonists (ADP, epinephrine, collagen) but aggregate normally with ristocetin, this pattern is virtually diagnostic of **Glanzmann thrombasthenia** (vs. the opposite pattern in Bernard-Soulier).",
+    "Confirm the diagnosis: perform **flow cytometry** for platelet GpIIb/IIIa expression or sequence the **ITGA2B/ITGB3** genes. A significant decrease in GpIIb/IIIa receptors or biallelic pathogenic mutations confirms GT.",
+    "Management plan: counsel avoidance of platelet-inhibiting drugs; arrange blood bank support (platelet units) for procedures or bleeding; if bleeding occurs, escalate from local measures to platelet transfusion, and use rFVIIa if transfusions are ineffective. Refer to a hematologist for consideration of stem cell transplant in very severe cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Platelet_aggregation_pathway.png",
+      "alt": "Platelet aggregation pathway: platelet activation leads to GpIIb/IIIa binding fibrinogen (target of GpIIb/IIIa inhibitors).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Platelet_aggregation_pathway.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-week-old boy (parents are first cousins) is evaluated for prolonged bleeding after his newborn circumcision.",
+      "clues": [
+        "Severe bleeding that required prolonged pressure after circumcision",
+        "Recurrent nosebleeds and extensive bruises since birth",
+        "Platelet count is normal; PT and PTT are normal",
+        "Platelet aggregation fails with ADP but is normal with ristocetin"
+      ],
+      "answer": "Glanzmann thrombasthenia",
+      "teaching": "Inherited deficiency of platelet GpIIb/IIIa integrin (Glanzmann thrombasthenia) leads to an inability of platelets to aggregate. Patients have lifelong mucosal bleeding but a normal platelet count. Platelet transfusions are the mainstay for acute bleeding, and avoiding anti-platelet drugs is essential."
+    }
+  ],
+  "see_also": [
+    "bernard-soulier-syndrome",
+    "von-willebrand-disease",
+    "disseminated-intravascular-coagulation"
+  ],
+  "prerequisites": [
+    "platelet",
+    "hemostasis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Glanzmann Thrombasthenia (Krause & Graham, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538270/"
+    },
+    {
+      "title": "UpToDate: Inherited platelet function disorders (2024)",
+      "url": "https://www.uptodate.com/contents/congenital-and-acquired-disorders-of-platelet-function"
+    },
+    {
+      "title": "Medscape: Glanzmann Thrombasthenia – Practice Essentials (Ali & Nagalla, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/200311-overview"
+    },
+    {
+      "title": "Haematologica: Glanzmann thrombasthenia – genetic basis and clinical correlates (Perez Botero et al., 2020)",
+      "url": "https://haematologica.org/article/view/9514"
+    },
+    {
+      "title": "NORD: Glanzmann Thrombasthenia (2019)",
+      "url": "https://rarediseases.org/rare-diseases/glanzmann-thrombasthenia/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

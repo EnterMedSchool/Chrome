@@ -1,0 +1,108 @@
+{
+  "id": "x-linked-agammaglobulinemia",
+  "names": ["X-linked agammaglobulinemia"],
+  "aliases": ["Bruton's agammaglobulinemia", "X-linked hypogammaglobulinemia", "Bruton syndrome", "Congenital agammaglobulinemia"],
+  "abbr": ["XLA"],
+  "patterns": ["xla", "x linked agammaglobulinemia", "bruton agammaglobulinemia", "brutons agammaglobulinemia", "bruton syndrome"],
+  "primary_tag": "immunology",
+  "tags": ["pathology", "genetics", "peds"],
+  "definition": "X-linked recessive immunodeficiency caused by a **BTK gene** mutation, resulting in failure of B cell maturation and near-absent immunoglobulins (agammaglobulinemia).",
+  "why_it_matters": "Classic pediatric **primary immunodeficiency** often tested on exams; fatal infections or organ damage can occur if not recognized and treated early (first immunodeficiency described, by Bruton).",
+  "how_youll_see_it": [
+    "Healthy for first few months of life (maternal IgG), then recurrent **bacterial** infections begin ~6–9 months (after maternal antibodies wane). **Otitis media**, pneumonia, sinusitis are common; infections often severe and require hospitalization.",
+    "Encapsulated bacteria like **Streptococcus pneumoniae** and **Haemophilus influenzae** are typical pathogens (due to lack of opsonizing Ig); also chronic diarrhea from **Giardia** (no IgA), and risk of severe **enteroviral** infections (e.g., polio, echovirus encephalitis).",
+    "Exam: absence of lymphoid tissue (**tonsils**, adenoids) and no lymphadenopathy (reflecting lack of B cells); spleen and liver typically normal (no lymphoid hyperplasia)."
+  ],
+  "problem_solving": [
+    "Suspect XLA in a baby boy with >1 serious bacterial infection after age 6mo; confirm with immunoglobulin levels and B-cell counts.",
+    "Labs: **IgG**, **IgM**, **IgA** all markedly low (often undetectable). **Flow cytometry** shows profoundly low **CD19+ B cells** (<2% of lymphocytes) with normal T cell number.",
+    "Physical exam clues: no palpable tonsils or lymph nodes suggests absence of B cells (seen in XLA).",
+    "Genetic testing for **BTK mutation** can confirm the diagnosis. A family history of males with early fatal infections may be present (X-linked recessive).",
+    "Avoid administering **live vaccines** (polio, rotavirus, MMR, varicella) in infants suspected of immunodeficiency until evaluation, as they can cause infection in XLA."
+  ],
+  "differentials": [
+    { "id": "common-variable-immunodeficiency", "hint": "later onset (teens/adults) of low immunoglobulins; B cells normal in number but dysfunctional" },
+    { "id": "severe-combined-immunodeficiency", "hint": "combined B and T cell defect; presents earlier (<6mo) with opportunistic infections" },
+    { "id": "hyper-igm-syndrome", "hint": "high IgM with low IgG/IgA; often due to CD40L defect (T-cell problem), B cells present" },
+    { "id": "selective-iga-deficiency", "hint": "IgA is low (not all Igs); milder recurrent mucosal infections, often asymptomatic" }
+  ],
+  "tricks": [
+    "Think **B**ruton's for **B**-cells (absent), **B**oys (X-linked), and infections starting at **B**abies age ~6 months.",
+    "No **B** cells → no **B**rainer: no tonsils! (Tonsillar tissue underdeveloped without B cells)."
+  ],
+  "exam_appearance": [
+    "8-month-old boy with recurrent otitis media, pneumonia (since 6 months) and absent tonsils → **X-linked agammaglobulinemia** (Bruton's).",
+    "Infant develops paralytic poliovirus infection after oral polio vaccine → suspect XLA (can't form antibodies to live vaccine)."
+  ],
+  "treatment": [
+    "Lifelong **immunoglobulin replacement** (monthly IVIG or weekly SCIG) to provide missing antibodies (significantly reduces infections).",
+    "Antibiotics for acute infections (aggressive therapy); consider prophylactic antibiotics to prevent recurrent sinopulmonary infections.",
+    "No live vaccines (e.g., oral polio, varicella); ensure siblings' vaccines are up-to-date to protect the patient (herd immunity)."
+  ],
+  "red_flags": [
+    "Recurrent severe infections in infancy, especially after 6mo, or **vaccine-derived infection** (e.g., from rotavirus or polio vaccine) → evaluate immune function (could be XLA).",
+    "Delayed diagnosis can lead to **bronchiectasis** from repeated pneumonias or chronic enteroviral encephalitis — start IVIG early to prevent organ damage."
+  ],
+  "algorithm": [
+    "Recurrent bacterial infections in male infant (>6mo) → suspect XLA.",
+    "Order quantitative Ig levels (expect pan-hypogammaglobulinemia) and lymphocyte immunophenotype (expect <2% B cells).",
+    "If Ig levels low + B cells absent → XLA likely; confirm with BTK genetic testing.",
+    "Begin IVIG replacement therapy promptly; treat active infections with appropriate antibiotics.",
+    "Avoid live vaccines; provide genetic counseling (X-linked inheritance)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/X-linked_recessive.svg/1349px-X-linked_recessive.svg.png",
+      "alt": "X-linked recessive inheritance pattern (carrier mother transmitting to affected son).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:X-linked_recessive.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 9-month-old boy has been hospitalized twice for pneumonia and skin abscesses. He also had recurrent ear infections since age 7 months.",
+      "clues": [
+        "No tonsils or lymph nodes detected on exam",
+        "IgG, IgA, IgM levels all extremely low",
+        "Flow cytometry: <1% CD19+ B cells (very low)",
+        "Maternal uncle died in infancy of infections"
+      ],
+      "answer": "X-linked agammaglobulinemia (Bruton's disease)",
+      "teaching": "XLA results from a BTK gene defect leading to no B cells and no immunoglobulins. Infant boys present after 6 months with recurrent bacterial infections. Absent tonsils and pan-hypogammaglobulinemia are diagnostic clues; treat with IVIG to prevent infections."
+    }
+  ],
+  "see_also": [
+    "common-variable-immunodeficiency",
+    "severe-combined-immunodeficiency",
+    "hyper-igm-syndrome"
+  ],
+  "prerequisites": [
+    "b-lymphocyte",
+    "immunoglobulin",
+    "x-linked-recessive"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: X-Linked Agammaglobulinemia (Lackey & Ahmad, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549865/"
+    },
+    {
+      "title": "UpToDate: X-linked agammaglobulinemia (Bruton disease)",
+      "url": "https://www.uptodate.com/contents/agammaglobulinemia"
+    },
+    {
+      "title": "AAAAI: X-Linked Agammaglobulinemia – Symptoms, Diagnosis & Treatment (2025)",
+      "url": "https://www.aaaai.org/conditions-treatments/primary-immunodeficiency-disease/x-linked-agammaglobulinemia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

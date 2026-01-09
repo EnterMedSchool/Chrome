@@ -1,0 +1,98 @@
+{
+  "id": "relapsing-polychondritis",
+  "names": ["Relapsing polychondritis"],
+  "aliases": ["atrophic polychondritis", "systemic chondromalacia", "Meyenburg-Altherr-Uehlinger syndrome"],
+  "abbr": ["RP"],
+  "patterns": ["relapsing polychondritis", "relapsing poly chondritis", "atrophic polychondritis", "systemic chondromalacia", "meyenburg syndrome", "rp"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology", "emerg"],
+  "definition": "Rare systemic autoimmune disease with recurrent inflammation and progressive destruction of cartilaginous tissues (ears, nose, larynx, etc).",
+  "why_it_matters": "Life-threatening if airway cartilage is involved (tracheomalacia can cause fatal collapse). Classic for exams due to its unique features (e.g., saddle-nose deformity, red ear sparing the lobule) and overlap with other autoimmune diseases.",
+  "how_youll_see_it": [
+    "Typically middle-aged adults (~40–50s). Many cases are **associated with other autoimmune disorders** (e.g., RA, SLE) or hematologic disease (e.g., myelodysplastic syndrome).",
+    "Recurrent **auricular chondritis**: painful, red, swollen pinnae (outer ears) with **earlobes spared**. **Nasal cartilage** inflammation (in ~25%) causes a tender nose and saddle-nose deformity over time.",
+    "**Laryngotracheal chondritis**: presents with cough, hoarseness, wheezing or **stridor**; can lead to airway collapse (**tracheomalacia**). Also can see **ocular inflammation** (episcleritis, uveitis) and a **migratory, non-erosive arthritis** (often of hands/wrists)."
+  ],
+  "problem_solving": [
+    "Diagnosis is clinical—suspect RP in anyone with unexplained recurring chondritis of the ear, nose, or airway. Rule out mimics: check **ANCA** (negative in RP, positive in GPA) and consider infectious causes (e.g., **Pseudomonas** auricular perichondritis after piercings).",
+    "No specific lab test confirms RP. Inflammatory markers may be elevated, but autoantibodies (e.g., ANCA, RF) are often absent. **Cartilage biopsy** (ear or nose) can provide histologic confirmation if needed (shows cartilage inflammation and loss).",
+    "Assess disease extent once diagnosed: always evaluate for airway involvement (e.g., **CT scan** of trachea) even if no respiratory symptoms. Pulmonary function tests can help quantify fixed airway obstruction from tracheomalacia.",
+    "If airway compromise is present or impending (stridor), secure the airway (ENT consult for possible stenting or tracheostomy)."
+  ],
+  "differentials": [
+    { "id": "granulomatosis-with-polyangiitis", "hint": "**Wegener's** granulomatosis – can also cause saddle-nose deformity and airway issues, but usually has lung/kidney involvement and **c-ANCA** positivity." },
+    { "name": "Auricular perichondritis (infection)", "hint": "Cartilage infection (often *Pseudomonas* after trauma/piercing) – typically unilateral and includes the lobule; systemic signs of infection usually present." },
+    { "id": "rheumatoid-arthritis", "hint": "Chronic symmetric polyarthritis with positive RF/anti-CCP – can cause **scleritis** but does NOT inflame auricular cartilage or cause saddle-nose." }
+  ],
+  "tricks": [
+    "Mnemonic **POLY** for relapsing **poly**chondritis: **P**ainful Pinnae, **O**bstructed Airway, **L**aryngeal/**nasal** cartilage collapse, **Y**ears of relapsing episodes.",
+    "**Earlobe sparing**: inflammation of the external ear in RP involves only the cartilaginous pinna, with the soft lobe remaining normal – a clue distinguishing it from cellulitis."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with recurrent **red, swollen ear** (lobule spared) and new **saddle-nose** deformity → relapsing polychondritis.",
+    "Patient with long-standing **RA** who develops a painful auricle and **stridor** → suspect relapsing polychondritis overlapping (RA alone doesn't cause auricular chondritis)."
+  ],
+  "treatment": [
+    "Mild cases (ear, nose, joints only): **NSAIDs** or meds like colchicine/dapsone for symptom control, plus typically low-dose **corticosteroids** to suppress inflammation.",
+    "Severe or progressive cases (airway, eye, inner ear involved): high-dose **glucocorticoids** (e.g., IV methylprednisolone pulses) combined with immunosuppressants (e.g., cyclophosphamide, methotrexate, or azathioprine) to induce remission.",
+    "Refractory cases: biologic agents (most often **TNF inhibitors** like infliximab) have been used. Ensure airway protection – significant tracheal collapse may require stenting or tracheostomy."
+  ],
+  "red_flags": [
+    "**Stridor** or respiratory distress in RP – indicates impending airway collapse; requires emergency airway management (prepare for intubation or surgical airway).",
+    "Severe **ocular** involvement (scleritis/uveitis) or sudden **hearing loss** – sign of aggressive disease; treat promptly with high-dose steroids to prevent permanent damage."
+  ],
+  "algorithm": [
+    "Recurrent cartilaginous inflammation (ear, nose, etc.) → **Suspect relapsing polychondritis**.",
+    "**Exclude** other causes (ANCA vasculitis, infection, trauma).",
+    "If ≥3 of the characteristic features (ear, nasal, laryngotracheal chondritis, ocular inflammation, hearing loss, or seronegative arthritis) are present, **diagnosis is likely**. Consider confirming with cartilage biopsy if uncertainty.",
+    "Evaluate extent of disease (especially airway): perform chest CT or bronchoscopy if breathing symptoms to check for tracheal involvement.",
+    "Begin therapy based on severity: e.g., **steroids** ± immunosuppressants for active disease; urgent ENT intervention if airway is compromised."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5f/623158.fig.001.jpg",
+      "alt": "Ear inflammation sparing the ear lobe in relapsing polychondritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:623158.fig.001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with recurrent episodes of a painful, swollen right ear now has 2 days of hoarse voice and difficulty breathing.",
+      "clues": [
+        "Tender, erythematous auricle (ear) with spared ear lobe",
+        "Tender nasal bridge; saddle-nose deformity",
+        "Hoarse voice with inspiratory stridor",
+        "c-ANCA test is negative"
+      ],
+      "answer": "Relapsing polychondritis",
+      "teaching": "Relapsing polychondritis causes episodic inflammation of cartilaginous structures (like the ear, nose, and larynx). This leads to classic findings such as an inflamed pinna with a normal earlobe, nasal cartilage collapse (saddle-nose), and laryngotracheal involvement (hoarseness, stridor). The negative ANCA helps distinguish it from granulomatosis with polyangiitis (Wegener's). Treatment would involve high-dose steroids and immunosuppression, and airway protection as needed."
+    }
+  ],
+  "see_also": ["rheumatoid-arthritis", "anca-associated-vasculitis", "sarcoidosis"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Relapsing Polychondritis (Chauhan et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK436007/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations of relapsing polychondritis",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-of-relapsing-polychondritis"
+    },
+    {
+      "title": "Biomedicines: Relapsing Polychondritis – An Updated Review (Borgia et al., 2018)",
+      "url": "https://www.mdpi.com/2227-9059/6/3/84"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "undifferentiated-spondyloarthritis",
+  "names": ["Undifferentiated spondyloarthritis"],
+  "aliases": ["undifferentiated spondyloarthropathy"],
+  "abbr": [],
+  "patterns": ["undifferentiated spondyloarthritis", "undifferentiated spondyloarthropathy", "early spondyloarthritis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology"],
+  "definition": "A spondyloarthritis picture that doesn't yet meet criteria for a specific subtype (AS, PsA, etc.). Patients may have some features (e.g., inflammatory back pain, enthesitis, dactylitis, or uveitis) but lack the full constellation to be labeled as one of the defined spondyloarthritides. It often represents an **early or incomplete form** that could evolve into a defined subtype over time.",
+  "why_it_matters": "It acknowledges that not all patients fit neatly into a category at presentation. For exams, this concept might appear as a young patient with a mix of spondyloarthritis features but no definitive diagnosis. The approach is to recognize the pattern and manage inflammation early rather than waiting for progression. Many such patients eventually develop a specific SpA (like AS or PsA) or remain with low-grade disease.",
+  "how_youll_see_it": [
+    "Typically a **younger patient** (teens to 30s) with some SpA features: e.g., chronic back pain with inflammatory qualities, or recurrent enthesitis (Achilles tendon pain), or maybe an episode of uveitis, **but** no X-ray evidence of sacroiliitis yet, and perhaps no psoriasis/IBD history or infection trigger. Essentially, they have an **incomplete SpA** picture.",
+    "For example: HLA-B27 positive person with **acute anterior uveitis** and intermittent inflammatory back pain, but normal imaging and no other findings. Or someone with a couple of swollen toes (dactylitis) and heel pain who doesn't have psoriasis or documented infection. These would be labeled undifferentiated SpA.",
+    "Often, this is a time-dependent diagnosis – early AS before radiographic changes might be called \"non-radiographic axial SpA\" (a subset of undifferentiated SpA). If psoriasis or IBD later emerges, the diagnosis shifts accordingly. If not, they might continue as \"undifferentiated.\"",
+    "Key point: They are **seronegative** (RF negative) and may be HLA-B27 positive (which raises suspicion). If criteria for AS or PsA aren't met, they stay in this category.",
+    "Symptoms can be mild or intermittent, making diagnosis tricky. But recognizing the pattern (e.g., an otherwise healthy young person with unexplained enthesitis or inflammatory back pain) can prompt early referral to rheumatology."
+  ],
+  "problem_solving": [
+    "Treat it similarly to other spondyloarthritides: even if it's \"undifferentiated,\" the inflammation is real. Don't wait for damage to occur – address symptoms with NSAIDs and exercise, and monitor closely.",
+    "Investigate other causes of symptoms to ensure nothing else is missed: e.g., chronic low back pain in a young person with HLA-B27 could be early AS (non-radiographic SpA) vs mechanical issues – MRI of SI joints can help detect early sacroiliitis and confirm axial SpA even without X-ray changes.",
+    "Follow these patients over time: undifferentiated SpA can evolve. E.g., a patient might later develop psoriasis or frank sacroiliitis on imaging, solidifying into PsA or AS. Until then, you manage what you see.",
+    "Assess HLA-B27 status – a positive result supports the clinical suspicion of SpA in an otherwise undifferentiated case (though not necessary for diagnosis). Also, keep an eye on extras (skin, GI, eyes) – early signs might herald a specific subtype later.",
+    "Be cautious with diagnosing: ensure you've ruled out other causes (like fibromyalgia for widespread pain, or mechanical injuries for enthesitis) before labeling as undifferentiated SpA."
+  ],
+  "differentials": [
+    { "name": "Early ankylosing spondylitis", "hint": "overlaps significantly; essentially non-radiographic axial SpA is early AS – distinction is mostly the X-ray findings" },
+    { "name": "Fibromyalgia", "hint": "can cause diffuse pain and stiffness but lacks objective inflammation (normal ESR, no swollen joints, no morning stiffness > fibro might have morning stiffness but different quality); fibromyalgia often coexists but is not inflammatory" },
+    { "name": "Mechanical back pain or tendinopathy", "hint": "e.g., repeated strain causing Achilles tendon pain (enthesopathy) or back pain; these lack the systemic inflammatory features (no alternating buttock pain, no night pain, etc.)" }
+  ],
+  "tricks": [
+    "\"**Undifferentiated**\" essentially means \"we know it's a spondyloarthritis, but not which one yet.\"",
+    "**Non-radiographic axial SpA** is a term for AS-like symptoms without X-ray changes – it's a subset of undifferentiated SpA (often HLA-B27 positive, MRI may show inflammation).",
+    "HLA-B27 positive young patient with only an episode of uveitis and some back pain = likely undifferentiated SpA (high risk to develop AS). Better to treat and monitor than to ignore.",
+    "The concept underscores the continuum of these diseases – early intervention in undifferentiated SpA might even prevent progression (e.g., early TNF blocker use in non-radiographic axial SpA can delay fusion)."
+  ],
+  "exam_appearance": [
+    "22-year-old HLA-B27 positive man with recurrent unilateral uveitis and low back stiffness, but normal SI joint X-ray, no psoriasis or colitis → **Undifferentiated spondyloarthritis** (likely evolving axial SpA).",
+    "19-year-old woman with Achilles tendon enthesitis and dactylitis of one toe, no psoriasis or preceding infection, RF negative → **Undifferentiated peripheral spondyloarthritis** (doesn't fit defined category yet)."
+  ],
+  "treatment": [
+    "Similar approach to defined spondyloarthritides: start with **NSAIDs** for symptomatic relief of pain and stiffness. Ensure the patient engages in **physical therapy/exercise** if axial symptoms (to maintain flexibility).",
+    "If there is objective inflammation (elevated CRP, MRI showing sacroiliitis) even without definitive subtype, consider early use of a **TNF inhibitor** especially in non-radiographic axial SpA with significant symptoms – studies show it can improve outcomes. Insurance approval may require evidence of active inflammation.",
+    "For peripheral undifferentiated SpA, **sulfasalazine** can be considered if multiple joints or entheses are involved and NSAIDs aren't sufficient. Methotrexate might be used empirically if features resemble PsA (though evidence is extrapolated).",
+    "Regular follow-up is key: monitor for development of psoriasis, IBD symptoms, or new imaging changes. This will guide adjustments (e.g., if new UC, avoid NSAIDs and pivot to IBD-focused therapy; if new psoriasis, consider IL-17 inhibitor).",
+    "Supportive care: patient education about signs to watch for (eye redness, skin rashes, diarrhea) that should prompt reevaluation. Address pain holistically – if widespread pain out of proportion (could there be concomitant fibromyalgia?), treat that as well."
+  ],
+  "red_flags": [
+    "Do not dismiss **inflammatory back pain** or enthesitis in a young person just because criteria aren't met – refer to rheumatology. Early treatment can prevent damage and improve quality of life.",
+    "If a patient is on a biologic for undifferentiated SpA and develops new symptoms (e.g., neurological, or opportunistic infection signs), re-assess therapy – biologics carry infection risk and one must remain vigilant even though the condition is \"undifferentiated.\"",
+    "Sudden onset of **psoriasis or IBD** in a patient with previously undifferentiated SpA is not a red flag per se (it's expected in some) but it does change classification – ensure management aligns with the new diagnosis (e.g., if new UC, avoid NSAIDs; if new psoriasis, choose a med that covers skin and joints)."
+  ],
+  "algorithm": [
+    "Young patient, HLA-B27+, with some SpA features but no full diagnosis → treat as **undifferentiated SpA** (early SpA).",
+    "Confirm inflammation: labs (ESR/CRP), imaging (MRI of SI if axial symptoms). Rule out other causes of symptoms. If active sacroiliitis on MRI, classify as non-radiographic axial SpA.",
+    "Initiate **NSAIDs** and exercise. If axial symptoms persist and MRI shows active inflammation → consider **TNF inhibitor** even without X-ray damage (per guidelines for non-radiographic axial SpA).",
+    "Monitor over time: if new features develop (skin lesions, GI symptoms) → revisit diagnosis (could reclassify as PsA or enteropathic arthritis).",
+    "Maintain flexibility in management: target symptoms and organs involved. If remains undifferentiated but stable on NSAIDs, great. If severe inflammation continues, escalate treatment similar to other SpA forms."
+  ],
+  "cases": [
+    {
+      "stem": "A 20‑year‑old HLA-B27 positive male has had three episodes of unilateral anterior uveitis in the past two years. He also reports intermittent low back stiffness (especially in the mornings) but X-rays show no sacroiliitis. He has no rash, no history of colitis or recent infections. Rheumatoid factor is negative.",
+      "clues": ["Recurrent uveitis", "Inflammatory back pain", "HLA-B27 positive", "No sacroiliitis on X-ray", "No psoriasis/IBD/ infection"],
+      "answer": "Undifferentiated spondyloarthritis",
+      "teaching": "This patient exhibits features of spondyloarthritis (uveitis, inflammatory back pain, HLA-B27) but does not meet criteria for a specific subtype (normal imaging, no psoriasis or IBD). He would be classified as undifferentiated SpA (or non-radiographic axial SpA). Early therapy (NSAIDs, perhaps a TNF inhibitor given active inflammation) is indicated to manage symptoms and possibly slow progression to ankylosing spondylitis."
+    }
+  ],
+  "see_also": [
+    "spondyloarthritides",
+    "ankylosing-spondylitis",
+    "psoriatic-arthritis",
+    "reactive-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Seronegative Spondyloarthropathy (Sen & Goyal, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459356/"
+    },
+    {
+      "title": "UpToDate: Overview of the clinical manifestations and classification of spondyloarthritis",
+      "url": "https://www.uptodate.com/contents/overview-of-the-clinical-manifestations-and-classification-of-spondyloarthritis"
+    },
+    {
+      "title": "Medscape: Ankylosing Spondylitis and Undifferentiated Spondyloarthropathy (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/332945-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

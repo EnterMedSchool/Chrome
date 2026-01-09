@@ -1,0 +1,107 @@
+{
+  "id": "meld-score",
+  "names": ["MELD Score", "Model for End-Stage Liver Disease"],
+  "aliases": ["MELD", "MELD-Na"],
+  "patterns": [
+    "MELD score",
+    "MELD",
+    "model for end-stage liver disease",
+    "MELD-Na"
+  ],
+  "level": "formula",
+  "primary_tag": "gi",
+  "tags": ["hepatology", "gastroenterology", "transplant", "critical-care"],
+  "formula": {
+    "expression": "10 * (0.957 * Math.log(creatinine) + 0.378 * Math.log(bilirubin) + 1.120 * Math.log(inr) + 0.643)",
+    "latex": "\\text{MELD} = 10 \\times (0.957 \\ln(\\text{Cr}) + 0.378 \\ln(\\text{Bili}) + 1.120 \\ln(\\text{INR}) + 0.643)",
+    "unit": "points"
+  },
+  "inputs": [
+    {
+      "id": "creatinine",
+      "label": "Creatinine",
+      "unit": "mg/dL",
+      "type": "number",
+      "min": 0.5,
+      "max": 10,
+      "default": 1.0,
+      "step": 0.1
+    },
+    {
+      "id": "bilirubin",
+      "label": "Total Bilirubin",
+      "unit": "mg/dL",
+      "type": "number",
+      "min": 0.5,
+      "max": 50,
+      "default": 1.0,
+      "step": 0.1
+    },
+    {
+      "id": "inr",
+      "label": "INR",
+      "unit": "",
+      "type": "number",
+      "min": 1.0,
+      "max": 10,
+      "default": 1.0,
+      "step": 0.1
+    }
+  ],
+  "interpretation": [
+    {"range": [6, 9], "label": "Low", "color": "green", "description": "~2% 3-month mortality"},
+    {"range": [10, 19], "label": "Moderate", "color": "yellow", "description": "~6% 3-month mortality"},
+    {"range": [20, 29], "label": "High", "color": "orange", "description": "~20% 3-month mortality"},
+    {"range": [30, 39], "label": "Very High", "color": "red", "description": "~50% 3-month mortality"},
+    {"range": [40, null], "label": "Critical", "color": "darkred", "description": ">70% 3-month mortality"}
+  ],
+  "visualization": {
+    "type": "gauge",
+    "min": 6,
+    "max": 40
+  },
+  "definition": "The **MELD (Model for End-Stage Liver Disease) Score** predicts 3-month mortality in patients with end-stage liver disease. It is used to prioritize patients for liver transplantation - higher scores indicate more severe liver disease and higher priority.",
+  "clinical_usage": [
+    "**Liver transplant allocation**: Primary determinant of transplant priority in the US",
+    "**Prognosis in cirrhosis**: Predicts 3-month mortality",
+    "**TIPS procedure**: Used to assess risk before transjugular intrahepatic portosystemic shunt",
+    "**Alcoholic hepatitis**: Predicts mortality (often used alongside Maddrey's DF)"
+  ],
+  "limitations": [
+    "Does not account for hepatocellular carcinoma (exception points given)",
+    "May underestimate disease severity in some conditions (e.g., hepatopulmonary syndrome)",
+    "Creatinine affected by factors other than liver disease",
+    "MELD-Na (includes sodium) may be more accurate for transplant listing"
+  ],
+  "pearls": [
+    "Minimum values: Cr, bilirubin, and INR are set to 1.0 if below 1.0",
+    "Maximum creatinine: Capped at 4.0 mg/dL (dialysis patients also get 4.0)",
+    "MELD ≥15 typically qualifies for transplant listing",
+    "Score range: 6-40 (values outside rounded to nearest boundary)",
+    "MELD-Na incorporates serum sodium (hyponatremia predicts worse outcomes)"
+  ],
+  "related_formulas": [
+    {
+      "name": "MELD-Na",
+      "formula": "MELD - Na - 0.025 × MELD × (140 - Na) + 140",
+      "description": "Adds sodium to improve predictive accuracy"
+    }
+  ],
+  "see_also": ["cirrhosis", "hepatic-encephalopathy"],
+  "sources": [
+    {
+      "title": "Kamath PS, et al. A model to predict survival in patients with end-stage liver disease. Hepatology. 2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11172350/"
+    },
+    {
+      "title": "UNOS MELD/PELD Calculator",
+      "url": "https://optn.transplant.hrsa.gov/resources/allocation-calculators/meld-calculator/"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "fecal-incontinence",
+  "names": ["Fecal incontinence"],
+  "aliases": ["Faecal incontinence", "bowel incontinence", "anal incontinence", "accidental bowel leakage", "encopresis", "fecal soiling"],
+  "abbr": ["FI"],
+  "patterns": ["fecal incontinence", "faecal incontinence", "bowel incontinence", "anal incontinence", "accidental bowel leakage", "encopresis", "soiling"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "peds"],
+  "definition": "Involuntary loss of solid or liquid stool due to loss of bowel control; ranges from minor leakage (soiling) to complete loss of sphincter control.",
+  "why_it_matters": "Common (~8% of adults, higher in elderly/postpartum) yet underreported due to embarrassment. Impairs quality of life and often indicates an underlying issue (nerve damage, injury, severe constipation) that may be treatable if recognized. Often appears on exams in contexts like obstetric injuries or pediatric constipation.",
+  "how_youll_see_it": [
+    "Presentation varies from occasional **staining** of underwear to complete accidents. Some patients experience a sudden urge and can't reach a toilet in time (**urge incontinence**), while others have leakage without any awareness (**passive incontinence**). Many older patients may not volunteer symptoms, and cognitive or mobility impairments (e.g., dementia, disability) can lead to functional incontinence (normal sphincters, but can't toilet in time).",
+    "Adult causes: **Obstetric** injuries (e.g., anal sphincter tears from childbirth) are a major cause in younger women. **Neurologic** damage (spinal cord lesions, stroke, **MS**, long-term **diabetic** neuropathy) can impair sensation or sphincter control. **Anatomic** issues like rectal **prolapse**, large hemorrhoids, or fistula-in-ano may contribute by disrupting normal anatomy. Prior **anal surgeries** (e.g., sphincterotomy) or radiation can weaken control. **Fecal impaction** with overflow diarrhea (liquid stool leaking around a hard stool mass) is a reversible cause, especially in immobile or elderly patients. Sometimes no specific cause is found (**idiopathic** or age-related).",
+    "Pediatric angle: In toilet-trained kids, the most common cause of fecal incontinence is **encopresis** due to chronic constipation (also called retentive fecal incontinence). The child withholds stool, leading to a large impaction and overflow leakage of liquid stool into underwear. Parents may mistake this for diarrhea or behavioral problems, but it's usually relieved by disimpaction and a bowel regimen. Less commonly, true neurologic or structural problems cause incontinence in children – e.g., spina bifida or after surgical repair of anorectal malformations (these kids have a neurogenic bowel with loss of sphincter control)."
+  ],
+  "problem_solving": [
+    "Start with a thorough **history**: determine if incontinence is associated with **diarrhea** (loose stool frequency) or **constipation** (possible overflow), onset (sudden vs gradual), and inquire about obstetric trauma (forceps delivery, perineal tear), prior surgeries, and neurologic symptoms (back pain, leg weakness, diabetes). Ask about awareness of defecation urges and any patterns (e.g., only during exercise or constantly).",
+    "Perform a meticulous **exam**: Inspect the perianal area for soiling, fissures, hemorrhoids, prolapse. Test the **anal wink** reflex (stroke perianal skin – normally causes contraction; its absence suggests sacral nerve damage). Do a **digital rectal exam**: assess resting tone (internal sphincter) and squeeze tone (external sphincter strength), check for rectal masses or hard stool (impaction). Also evaluate perineal sensation and pelvic floor descent when patient bears down.",
+    "If diarrhea is present, address that first: do stool studies (rule out infection like **C. diff**, malabsorption), review medications and diet, and manage the diarrhea (fiber or bulking agents if stool is too loose, or specific treatment if IBD/IBS). If constipation is present, check for fecal impaction (DRE) and relieve it with laxatives or enemas, then institute a bowel regimen to prevent re-accumulation.",
+    "Order specialized tests if the cause remains unclear or for severe cases: **Anorectal manometry** measures anal sphincter pressures and rectal sensation (helps detect weak sphincters or poor sensation). **Endoanal ultrasound** (or pelvic MRI) visualizes the integrity of the internal/external sphincter muscles (e.g., detecting an occult sphincter tear). **Defecography** (dynamic imaging during simulated defecation) can reveal functional problems like prolapse or rectocele. In certain cases, nerve studies (pudendal nerve terminal motor latency tests or electromyography) are done to evaluate neuromuscular function of the pelvic floor.",
+    "Always consider that **fecal incontinence can be multifactorial**: for example, an elderly patient might have both loose stools from colitis and weakened sphincters from prior surgery. The goal in problem-solving is to identify any treatable factors (impaction, diarrhea, repairable injury) and distinguish true anatomic/neurologic incontinence from transient issues."
+  ],
+  "differentials": [
+    { "id": "irritable-bowel-syndrome", "hint": "Chronic urgency & diarrhea with abdominal pain; accidents can happen but primary issue is bowel motility (no sphincter damage)." },
+    { "name": "Overflow constipation", "hint": "Paradoxical diarrhea from fecal impaction; stool leaks around a hard mass. Differentiated by finding a full rectum on exam and radiography." },
+    { "id": "cauda-equina-syndrome", "hint": "Spinal compression causing saddle anesthesia, **urinary retention**, and new-onset fecal incontinence; a neurosurgical emergency rather than a primary anorectal issue." }
+  ],
+  "tricks": [
+    "In a **toilet-trained child** with recurrent \"accidents\", assume chronic **constipation** with overflow until proven otherwise – encopresis is far more common than true diarrhea in kids.",
+    "For any **elderly or immobile patient** with new stool leakage, always check for **fecal impaction**. Clearing the impaction can resolve the \"incontinence\" if it was overflow.",
+    "Remember: S2–S4 spinal roots \"keep the poop off the floor\" – sacral nerve injury (e.g., cauda equina) can cause loss of anal sphincter function."
+  ],
+  "exam_appearance": [
+    "Woman a few months postpartum who had a difficult delivery (e.g., forceps or 3rd/4th-degree perineal tear) now reports involuntary stool leakage, especially with urgency or when passing gas → obstetric anal sphincter injury causing fecal incontinence.",
+    "An older diabetic patient with a long history of peripheral neuropathy periodically soils their underwear without realizing it (no warning urge) → **passive incontinence** likely due to diabetic neuropathy affecting pelvic nerves (loss of sensation and decreased sphincter tone).",
+    "8‑year‑old boy with a history of infrequent painful bowel movements presents with daily underwear staining. Exam reveals a distended rectum filled with stool → encopresis (overflow incontinence from chronic functional constipation)."
+  ],
+  "treatment": [
+    "Conservative measures first: establish a regular bowel regimen. For loose stools, add **fiber** supplements or bulking agents to firm up stool and consider anti-diarrheal medication like **loperamide** to reduce frequency/urgency. For constipation with overflow, use scheduled **laxatives** and stool softeners to prevent impaction. Advise timed toileting after meals (to capitalize on the gastrocolic reflex) and dietary modifications (avoid caffeine or trigger foods, ensure adequate fiber overall).",
+    "Pelvic floor therapy is key: **Kegel exercises** to strengthen the anal sphincter and pelvic floor muscles, often guided by pelvic floor physical therapists. **Biofeedback training** can improve patients' awareness and control of pelvic muscles and enhance sphincter strength and rectal sensation – this is especially helpful if manometry shows poor coordination or sensation. Some patients also benefit from bowel habit training (scheduled toilet visits) and use of incontinence pads for security.",
+    "Advanced therapies: If conservative measures fail, consider **sacral nerve stimulation** (sacral neuromodulation) – an implanted device that stimulates sacral nerves (S3) to improve continence. For patients with an identifiable sphincter defect (e.g., from an obstetric tear), a surgical **sphincteroplasty** (suturing the torn ends of the sphincter muscle back together) can significantly improve control. Other surgical options for refractory cases include injection of bulking agents into the anal canal, creation of a **gracilis muscle sling** or artificial sphincter, or as a last resort, a **diverting colostomy** to bypass the rectum. Treatment plans are individualized based on cause and severity."
+  ],
+  "red_flags": [
+    "Sudden onset of fecal incontinence accompanied by **severe back pain**, **saddle anesthesia** (numbness in groin), or **new leg weakness** → worry about cauda equina syndrome or spinal cord compression; this is an emergency requiring immediate imaging and surgical evaluation.",
+    "Fecal incontinence with concurrent **urinary incontinence** and/or significant neurological deficits (e.g., difficulty walking) should prompt evaluation for a central neurologic cause (spinal cord lesion, multiple sclerosis) rather than a primary anorectal problem.",
+    "If incontinence is associated with signs of systemic illness (e.g., bloody diarrhea, weight loss, fever), consider serious conditions like **inflammatory bowel disease** or ischemic colitis – the incontinence may be due to overwhelming diarrhea rather than sphincter dysfunction, and these cases need urgent medical management."
+  ],
+  "algorithm": [
+    "Suspect FI in at-risk patients (elderly, multiparous women, neurologic disease) or if someone mentions \"accidents\" → ask specifically about stool leakage.",
+    "Initial assessment: perform **DRE** to check for rectal stool load and sphincter tone; address any impaction immediately. Determine if stool consistency is a factor (diarrhea vs constipation) and manage those (antidiarrheals or laxatives). Review medications (stop offending laxatives or diarrhea-causing meds if possible).",
+    "Conservative management for mild cases: dietary tweaks (fiber optimization), scheduled toileting (e.g., after meals), and pelvic floor exercises. If patient has mild cognitive impairment, a routine toileting program can prevent accidents. Ensure good perianal skincare to prevent irritation (cleaning after episodes, barrier creams like zinc oxide).",
+    "Persistent moderate-to-severe incontinence or unclear etiology → refer for specialized testing (manometry, endoanal ultrasound). Identify treatable lesions: if a sphincter tear is seen, consider surgical repair; if tests show intact sphincters but poor strength, intensify pelvic floor rehab.",
+    "Escalation: if significant impairment continues, refer to a colorectal specialist. They may trial **sacral neuromodulation** or other advanced therapies. The final step for unmanageable cases is often surgical – either repair if possible or diversion (colostomy) to eliminate the problem. Throughout, address the patient's emotional well-being; involve continence nurses or support, as FI can be socially isolating."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Human_anus-en.svg/2560px-Human_anus-en.svg.png",
+      "alt": "Anatomy of the anus and rectum (sagittal section) showing the internal and external anal sphincters and surrounding structures.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Human_anus-en.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old woman, three months after a forceps-assisted vaginal delivery of a large baby, reports occasional involuntary passage of stool especially when she feels the urge to defecate. She also notes difficulty controlling flatus. On exam, she has decreased anal sphincter tone.",
+      "clues": [
+        "Recent obstetric anal sphincter injury (third-degree perineal tear)",
+        "Postpartum fecal incontinence with urge urges",
+        "Weak external anal sphincter tone on digital exam"
+      ],
+      "answer": "Fecal incontinence due to obstetric sphincter injury",
+      "teaching": "Childbirth, especially with forceps or large babies, can tear the anal sphincter. This patient's involuntary stool leakage and poor sphincter tone point to an obstetric anal sphincter injury. Initial management would focus on pelvic floor therapy and exercises; if severe, surgical sphincteroplasty may be considered."
+    },
+    {
+      "stem": "An 8‑year‑old boy has been staining his underwear with stool for the past several months. He has a history of chronic constipation and painful bowel movements. His parents report large-diameter stools occasionally clogging the toilet. On exam, a hard mass of stool is palpable in the rectum.",
+      "clues": [
+        "School-aged child with longstanding constipation",
+        "Involuntary stool leakage (encopresis) despite toilet training",
+        "Large fecal impaction in rectum on exam"
+      ],
+      "answer": "Overflow fecal incontinence (encopresis) from chronic constipation",
+      "teaching": "This is a classic case of encopresis: chronic constipation leads to a fecal impaction, and loose stool leaks around it, causing 'accidents.' The child often doesn't feel the leakage (passive soiling). Treatment is to relieve the impaction and maintain soft, regular BMs with laxatives and behavior modification. It's important to educate the family that this is involuntary and due to constipation, not misbehavior."
+    }
+  ],
+  "see_also": [
+    "diarrhoea",
+    "irritable-bowel-syndrome",
+    "rectal-prolapse",
+    "inflammatory-bowel-disease"
+  ],
+  "prerequisites": [
+    "anorectal-anatomy",
+    "pelvic-floor",
+    "spinal-cord-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Fecal Incontinence (Shah & Villanueva, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459128/"
+    },
+    {
+      "title": "UpToDate: Fecal incontinence in adults – Etiology and evaluation",
+      "url": "https://www.uptodate.com/contents/fecal-incontinence-in-adults-etiology-and-evaluation"
+    },
+    {
+      "title": "Medscape: Fecal Incontinence (Bleday, updated 2023)",
+      "url": "https://emedicine.medscape.com/article/268674-overview"
+    },
+    {
+      "title": "UpToDate: Functional fecal incontinence in infants and children (Hayat & Dipasquale, 2023)",
+      "url": "https://www.uptodate.com/contents/functional-fecal-incontinence-in-infants-and-children-definition-clinical-manifestations-and-evaluation"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

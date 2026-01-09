@@ -1,0 +1,115 @@
+{
+  "id": "hirschsprung-disease",
+  "names": ["Hirschsprung disease"],
+  "aliases": ["aganglionic megacolon", "congenital megacolon", "congenital intestinal aganglionosis", "Hirschsprung's disease"],
+  "abbr": ["HD"],
+  "patterns": ["hirschsprung", "hirschsprung's disease", "hirschsprung disease", "aganglionic megacolon", "congenital megacolon"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "peds", "surgery", "genetics"],
+  "definition": "Congenital absence of **enteric ganglion cells** in the distal colon (aganglionosis) → failure of relaxation and **functional obstruction**, with proximal colon dilation (**megacolon**).",
+  "why_it_matters": "Important cause of neonatal intestinal obstruction and pediatric constipation. If untreated, it can lead to life-threatening **enterocolitis** (**toxic megacolon**). Frequently tested on exams (e.g., newborn who fails to pass meconium, often with **Down syndrome**).",
+  "how_youll_see_it": [
+    "Newborn with **failure to pass meconium** in the first 48 hours of life, plus **bilious vomiting** and progressive abdominal distension. Digital rectal exam often produces an **explosive discharge** of stool and gas (\"squirt sign\"), briefly relieving the obstruction.",
+    "Older infants or children with a short aganglionic segment may present later with chronic **constipation**, poor feeding or **failure to thrive**, and a distended abdomen. On exam, the rectum is empty (no stool in vault despite fecal impaction higher up), and stools may be thin or \"ribbon-like.\""
+  ],
+  "problem_solving": [
+    "Suspect Hirschsprung in a neonate with delayed meconium >48 h or a child with lifelong constipation.",
+    "Obtain a contrast **barium enema** to look for a **transition zone** – a narrow distal segment and dilated proximal colon.",
+    "Perform anorectal **manometry**: Hirschsprung disease shows absence of the normal rectoanal inhibitory reflex (internal sphincter fails to relax).",
+    "Confirm the diagnosis with a rectal **suction biopsy** (gold standard) demonstrating absence of ganglion cells in the submucosal/myenteric plexus."
+  ],
+  "differentials": [
+    { "id": "meconium-ileus", "hint": "**Cystic fibrosis** – neonatal obstruction with inspissated meconium (contrast enema: microcolon)" },
+    { "name": "Small left colon syndrome", "hint": "infant of diabetic mother – transient functional colon obstruction from a meconium **plug**" },
+    { "name": "Functional constipation", "hint": "voluntary stool withholding – older child with stool in rectum, responds to disimpaction" }
+  ],
+  "tricks": [
+    "Mnemonic: **No meconium = no ganglion** – >48 h without stool in a newborn (especially with Down syndrome) → suspect Hirschsprung.",
+    "**Squirt sign**: explosive gas/stool release upon rectal exam is classic for Hirschsprung disease.",
+    "A **neurocristopathy**: failed neural crest cell migration causes the aganglionic segment (Hirschsprung is associated with RET proto-oncogene mutations, also seen in MEN2A)."
+  ],
+  "exam_appearance": [
+    "Newborn (± **Down syndrome**) with no meconium in 48 h, bilious vomiting, and a distended abdomen; forceful stool explosion on DRE → Hirschsprung disease.",
+    "Toddler with chronic constipation since birth, abdominal distension, poor weight gain, and an empty rectal vault on exam → short-segment Hirschsprung disease."
+  ],
+  "treatment": [
+    "Stabilize initially: relieve obstruction with rectal irrigations or a stoma; treat enterocolitis with bowel decompression and IV antibiotics.",
+    "Definitive treatment is surgical. Remove the aganglionic segment and connect the normal proximal colon to the anus (**pull-through** procedure). A temporary ostomy may be done first in ill infants or long-segment disease, followed by the final pull-through."
+  ],
+  "red_flags": [
+    "**Hirschsprung-associated enterocolitis**: presents with fever, explosive diarrhea, abdominal distension, and signs of sepsis/shock. This **toxic megacolon** complication is life-threatening – requires urgent bowel decompression (e.g., rectal tube or ostomy) and broad-spectrum antibiotics."
+  ],
+  "algorithm": [
+    "Neonate with no meconium in 48 h or child with chronic constipation → suspect Hirschsprung disease.",
+    "Abdominal X-ray to assess obstruction; then do contrast **enema** to identify a transition zone (narrow distal, dilated proximal).",
+    "If suspicion remains high, perform anorectal **manometry** (lack of sphincter relaxation suggests aganglionosis).",
+    "Confirm by rectal **biopsy** showing no ganglion cells in the submucosa/myenteric plexus (aganglionosis).",
+    "Management: if acute obstruction or enterocolitis, decompress bowel (rectal tube or ostomy) and stabilize. Then perform definitive **surgical resection** of the aganglionic segment with a pull-through anastomosis."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Morbus_Hirschsprung_im_Erwachsenenalter_37M_-_CR_-_001.jpg",
+      "alt": "Abdominal X-ray of a patient with Hirschsprung disease, showing a grossly distended colon (megacolon).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Morbus_Hirschsprung_im_Erwachsenenalter_37M_-_CR_-_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑day‑old newborn has abdominal distension and bilious vomiting. He has not passed any meconium since birth.",
+      "clues": [
+        "No meconium in first 48 hours",
+        "Bilious emesis",
+        "Massively distended abdomen",
+        "Explosion of stool on rectal exam"
+      ],
+      "answer": "Hirschsprung disease (congenital aganglionic megacolon)",
+      "teaching": "Congenital absence of enteric ganglia in the rectosigmoid causes a functional obstruction. Delayed meconium and an explosive release of stool with rectal exam (squirt sign) are classic clues. Diagnosis is confirmed by biopsy showing no ganglion cells, and the treatment is surgical (resection of the aganglionic segment)."
+    },
+    {
+      "stem": "A 3‑year‑old girl is evaluated for severe constipation and poor weight gain. She has had lifelong difficulty stooling and requires frequent enemas.",
+      "clues": [
+        "Constipation since infancy",
+        "Failure to thrive",
+        "Abdominal distension",
+        "Empty rectal vault on exam"
+      ],
+      "answer": "Hirschsprung disease (short-segment aganglionosis)",
+      "teaching": "Short-segment Hirschsprung disease (aganglionosis confined to rectosigmoid) can present later in childhood as refractory constipation and growth failure. An empty rectum despite a palpable fecal mass in the colon is a key finding distinguishing it from functional constipation. A rectal biopsy is diagnostic, and surgical resection of the aganglionic segment is curative."
+    }
+  ],
+  "see_also": [
+    "volvulus",
+    "intestinal-malrotation",
+    "down-syndrome",
+    "jejunoileal-atresia"
+  ],
+  "prerequisites": [
+    "neural-crest",
+    "enteric-nervous-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hirschsprung Disease (Lotfollahzadeh & Taherian, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562142/"
+    },
+    {
+      "title": "UpToDate: Congenital aganglionic megacolon (Hirschsprung disease)",
+      "url": "https://www.uptodate.com/contents/congenital-aganglionic-megacolon-hirschsprung-disease"
+    },
+    {
+      "title": "Hirschsprung Disease (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/178493-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

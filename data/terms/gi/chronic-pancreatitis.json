@@ -1,0 +1,126 @@
+{
+  "id": "chronic-pancreatitis",
+  "names": ["Chronic pancreatitis"],
+  "aliases": ["Chronic calcific pancreatitis", "Chronic relapsing pancreatitis"],
+  "abbr": ["CP"],
+  "patterns": ["chronic pancreatitis", "chronic calcific pancreatitis", "pancreatic calcifications"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "peds"],
+  "definition": "Long-standing inflammation of the pancreas leading to progressive **fibrosis**, permanent structural damage, and loss of function (exocrine insufficiency causing malabsorption, and endocrine insufficiency causing diabetes).",
+  "why_it_matters": "Causes debilitating chronic abdominal pain and malnutrition (from malabsorption) and can lead to diabetes. Also predisposes to serious complications like **pseudocysts**, biliary strictures, and even pancreatic cancer. Classic triad (calcifications, steatorrhea, diabetes) is a high-yield exam scenario.",
+  "how_youll_see_it": [
+    "Recurrent epigastric pain that often **radiates to the back** (may improve when leaning forward). Early on, pain can be episodic (often after meals or alcohol binges), but later it may become continuous. Opioid dependence is common due to severe pain.",
+    "Over time, **exocrine insufficiency** causes steatorrhea (greasy, foul-smelling stools) and weight loss, and **endocrine insufficiency** causes pancreatogenic diabetes (type 3c diabetes). Malnutrition and vitamin deficiencies can develop as pancreatic function declines.",
+    "Common causes in adults include chronic **alcohol use** (most common) and **smoking** (both toxic to the pancreas), recurrent acute pancreatitis (e.g., due to gallstones or hypertriglyceridemia), **autoimmune pancreatitis** (IgG4-related disease), and genetic predispositions. In ~20% of cases, no cause is found (idiopathic).",
+    "In children, alcohol is not a factor—think **cystic fibrosis** (CFTR mutations causing thick secretions), hereditary pancreatitis (mutations like PRSS1, SPINK1), severe hypertriglyceridemia, or congenital anomalies (like pancreas divisum). These lead to recurrent pancreatic inflammation even in pediatric patients."
+  ],
+  "problem_solving": [
+    "Eliminate aggravating factors: **absolute alcohol cessation** and no smoking are critical to slow progression.",
+    "Manage pancreatic insufficiency with **pancreatic enzyme replacement** (pancrelipase with meals to improve digestion) and supplement fat-soluble vitamins. High-calorie, low-fat diet with small frequent meals can help reduce steatorrhea.",
+    "Control diabetes (often insulin is required due to loss of islet cells), but be cautious: type 3c diabetes can cause unpredictable swings (loss of insulin and glucagon).",
+    "For chronic pain, try non-opioid measures first (NSAIDs, acetaminophen, adjunctive agents like pregabalin or TCAs); if opioids are necessary, use the lowest effective dose and consider co-prescribing gabapentin or pregabalin to enhance pain control. Consider celiac plexus nerve blocks for refractory pain.",
+    "Identify complications that may need intervention: e.g., endoscopic **ERCP** to remove pancreatic duct stones or stent strictures, drainage of pseudocysts (via endoscopic or surgical methods) if symptomatic, and monitor for biliary obstruction. Surgical options (e.g., Puestow lateral pancreaticojejunostomy for dilated duct, or Whipple surgery if cancer is suspected) are considered in select cases."
+  ],
+  "differentials": [
+    {
+      "id": "pancreatic-adenocarcinoma",
+      "name": "Pancreatic cancer",
+      "hint": "older patient; weight loss and **painless jaundice** common if head of pancreas tumor; may mimic chronic pancreatitis but often shows a distinct mass on imaging"
+    },
+    {
+      "id": "peptic-ulcer-disease",
+      "hint": "epigastric pain related to meals and relieved by antacids; no pancreatic calcifications or malabsorption"
+    },
+    {
+      "id": "celiac-disease",
+      "name": "Celiac sprue",
+      "hint": "chronic malabsorption (steatorrhea, weight loss) but **no pancreatic pain**; associated with diarrhea and nutrient deficiencies, positive transglutaminase antibodies"
+    }
+  ],
+  "tricks": [
+    "Classic triad: **pancreatic calcifications**, **steatorrhea**, and **diabetes** → late-stage chronic pancreatitis (often from alcohol).",
+    "Mnemonic **TIGAR-O** for causes: **Toxic** (alcohol, smoking, hypercalcemia, hypertriglyceridemia), **Idiopathic**, **Genetic** (CFTR, PRSS1 mutations), **Autoimmune** (IgG4-related), **Recurrent** acute pancreatitis, **Obstructive** (tumors, pancreas divisum).",
+    "Pancreatic calcifications on imaging are virtually pathognomonic for chronic pancreatitis—in an exam question, an alcoholic with pancreatic calcifications and malabsorption is almost always chronic pancreatitis."
+  ],
+  "exam_appearance": [
+    "Middle-aged man with a 20-year alcohol history has chronic epigastric pain radiating to the back, ±relief when leaning forward, and now has greasy, foul-smelling stools and new-onset diabetes → chronic pancreatitis (alcoholic). Imaging would likely show pancreatic calcifications.",
+    "Patient with chronic pancreatitis and a new, painless jaundice or weight loss → suspect **pancreatic adenocarcinoma** arising as a complication (requires imaging and possibly EUS with biopsy)."
+  ],
+  "treatment": [
+    "Lifestyle: **strict alcohol abstinence** and **smoking cessation** are the most important interventions (slows progression and reduces pain flares).",
+    "Diet: small frequent meals, low fat diet to minimize steatorrhea; consider medium-chain triglycerides (easier to absorb) and supplement fat-soluble vitamins (A, D, E, K). Ensure adequate calories and protein to counter malnutrition.",
+    "Enzyme replacement: **pancreatic enzyme supplements** (pancrelipase) with meals improve fat absorption and help alleviate steatorrhea and nutritional deficits. They may also feedback-inhibit the pancreas, potentially reducing pain (though evidence for pain relief is limited).",
+    "Pain management: stepwise approach. Use **analgesics** starting with non-opioids (acetaminophen, NSAIDs) and adjuncts (gabapentin/pregabalin, antidepressants). Reserve opioids for refractory pain, and use the lowest effective dose if needed. Celiac plexus block (via EUS or CT guidance) can provide temporary relief.",
+    "Endoscopic and surgical interventions: If imaging shows treatable lesions (stones, strictures, pseudocysts), endoscopic therapy (ERCP with stone extraction, stenting of strictures, pseudocyst drainage) can relieve obstruction and pain. In advanced cases or when other measures fail, surgical options (e.g., Puestow procedure for ductal decompression, distal pancreatectomy, or total pancreatectomy with islet autotransplant in select centers) may be considered."
+  ],
+  "red_flags": [
+    "**Sudden worsening of symptoms** or new atypical features (e.g., painless jaundice, rapidly increasing abdominal mass, or significant weight loss) in chronic pancreatitis → raises concern for **pancreatic cancer** (requires prompt evaluation with imaging).",
+    "Signs of advanced malnutrition (e.g., muscle wasting, vitamin deficiencies) or brittle diabetes (frequent hypoglycemia) → indicate severe pancreatic insufficiency; ensure optimal enzyme dosing and consider enteral feeding support. If diabetes is difficult to control, involve endocrinology (type 3c diabetes can be challenging).",
+    "Persistent vomiting or inability to maintain weight due to pain → consider complications like gastric outlet obstruction from a pseudocyst or need for more aggressive interventions (endoscopic or surgical)."
+  ],
+  "algorithm": [
+    "Recurrent pancreatitis episodes or chronic epigastric pain (esp. with risk factors) **→ suspect chronic pancreatitis**.",
+    "Initial evaluation: obtain pancreatic imaging (**CT** or **MRCP**) to look for calcifications, ductal irregularities, or atrophy.",
+    "If imaging is inconclusive but clinical suspicion remains high **→ consider EUS** (endoscopic ultrasound) for subtle parenchymal changes or perform a **secretin stimulation test** (direct pancreatic function test) if available.",
+    "Assess exocrine function: a low **fecal elastase** level supports pancreatic insufficiency (72-hr fecal fat test is gold standard for steatorrhea but less practical). Also check for diabetes (fasting glucose/HbA1c).",
+    "Address etiologies: review alcohol use, medications, triglyceride levels, calcium levels, and family history; test for **CFTR/PRSS1** mutations or **IgG4** levels if indicated.",
+    "Management: start with lifestyle modifications (no alcohol, no smoking, dietary changes), then **enzyme supplements** and analgesics for symptom control. Refer to a gastroenterologist for endoscopic or surgical options if pain is refractory or complications (like pseudocysts or duct obstruction) develop."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Multiple_Pankreasverkalkungen_bei_chronischer_Pankreatitis_79W_-_CT_und_CR_-_001_-_Annotation.jpg",
+      "alt": "CT (left) and X-ray (right) showing multiple pancreatic calcifications in chronic pancreatitis (arrows highlight calcified areas).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Multiple_Pankreasverkalkungen_bei_chronischer_Pankreatitis_79W_-_CT_und_CR_-_001_-_Annotation.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with a 30-year history of heavy alcohol use presents with chronic epigastric pain radiating to the back and a 20-pound weight loss. He notes oily, foul-smelling stools and was recently diagnosed with diabetes.",
+      "clues": ["Long-term alcohol abuse", "Epigastric pain to back", "Pancreatic calcifications on imaging", "Steatorrhea", "New diabetes"],
+      "answer": "Chronic pancreatitis (alcoholic)",
+      "teaching": "Years of alcohol use have caused irreversible pancreatic damage (chronic pancreatitis). Classic findings are calcifications on imaging, exocrine insufficiency (steatorrhea), and endocrine insufficiency (diabetes). Treatment focuses on alcohol cessation, enzyme replacement, and pain control."
+    },
+    {
+      "stem": "A 16‑year‑old with cystic fibrosis has recurrent pancreatitis. She now has chronic abdominal pain, malabsorption (greasy stools), and poor weight gain despite enzyme supplementation.",
+      "clues": ["Cystic fibrosis patient", "Recurrent pancreatitis in childhood", "Steatorrhea and weight loss", "Pancreatic exocrine insufficiency"],
+      "answer": "Chronic pancreatitis due to CFTR mutation",
+      "teaching": "Cystic fibrosis causes thick secretions that block pancreatic ducts, leading to recurrent pancreatitis and eventually chronic pancreatitis with exocrine insufficiency. Pediatric chronic pancreatitis is often due to genetic causes (like CF); management requires enzyme supplements and addressing malabsorption."
+    }
+  ],
+  "see_also": [
+    "acute-pancreatitis",
+    "cystic-fibrosis",
+    "gallstones",
+    "diabetes-mellitus",
+    "alcohol-associated-liver-disease"
+  ],
+  "prerequisites": [
+    "pancreatic-physiology",
+    "acute-pancreatitis"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Chronic pancreatitis in adults – clinical manifestations & diagnosis",
+      "url": "https://www.uptodate.com/contents/chronic-pancreatitis-clinical-manifestations-and-diagnosis-in-adults"
+    },
+    {
+      "title": "NEJM: Chronic Pancreatitis (Vege & Chari, 2022)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp1809396"
+    },
+    {
+      "title": "Medscape: Chronic Pancreatitis (Huffman, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/181554-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

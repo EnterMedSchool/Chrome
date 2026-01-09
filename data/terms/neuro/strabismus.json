@@ -1,0 +1,128 @@
+{
+  "id": "strabismus",
+  "names": ["Strabismus"],
+  "aliases": ["squint", "heterotropia", "crossed eyes", "wall-eye"],
+  "abbr": [],
+  "patterns": ["strabismus", "squint", "crossed eyes", "heterotropia", "esotropia", "exotropia"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "peds"],
+  "definition": "Misalignment of the eyes such that they do not properly align on the same target. In other words, one eye may point in a different direction than the other when focusing on an object. (Also called \"crossed eyes\" or \"squint\".)",
+  "why_it_matters": "Strabismus is relatively common (~2–4% of children). If not corrected early, the brain may suppress input from the deviating eye to avoid double vision, leading to **amblyopia** (permanent vision loss in that eye). Misalignment also impairs **depth perception** and can cause psychosocial issues due to the visible eye deviation. In adults, new-onset strabismus causes **diplopia** (double vision) and may signal serious neurologic pathology.",
+  "how_youll_see_it": [
+    "**Infants:** A constant, large-angle esotropia (one eye turned inward) noted by ~6 months of age suggests **congenital strabismus**. (Newborns can have transient misalignment up to 3–4 months, called ocular instability of infancy.)",
+    "**Toddlers/Children:** Often present with an eye that intermittently drifts inward or outward. For example, a farsighted toddler around age 2–4 may develop **accommodative esotropia**, where focusing to see clearly triggers one eye to cross inward. Children rarely complain of double vision because the brain suppresses one eye's image, but this can lead to amblyopia in the affected eye.",
+    "**Older Children/Teens:** May develop an **intermittent exotropia** (one eye drifting outward) that becomes noticeable when the child is tired, daydreaming, or in bright light. Such a child might squint or close one eye in sunlight to avoid diplopia. Vision is usually normal in each eye, but they may have difficulty with depth perception during episodes.",
+    "**Adults:** New-onset strabismus typically presents with **horizontal or vertical diplopia** (double vision). The misalignment is often due to an acquired cranial nerve palsy (e.g., CN VI palsy causing an eye that cannot abduct, leading to esotropia). Adults might notice an abnormal head posture (e.g., a head tilt in CN IV palsy) to compensate."
+  ],
+  "problem_solving": [
+    "First, differentiate true strabismus from **pseudostrabismus**. Use the corneal light reflex (Hirschberg) test: shine a light and observe reflection on the corneas. In true strabismus, the light reflex will be asymmetrically placed; in pseudostrabismus (e.g. due to broad nasal bridge or epicanthal folds), the corneal reflections are symmetric despite a cross-eyed appearance.",
+    "Perform a **cover test** to detect a manifest deviation (tropia): cover one eye and watch the other eye – if it moves to take up fixation, a tropia is present. Then do the **cover-uncover test**: after covering an eye for a few seconds, uncover it and observe movement – a movement upon uncovering indicates a latent misalignment (**phoria**) that was previously controlled.",
+    "Always check the **red reflex** in each eye (Brückner test). An asymmetric or absent red reflex (leukocoria) in a strabismic eye is a red flag for an ocular media opacity or **retinoblastoma** in that eye. A bright or \"white\" pupillary reflex in one eye of a child with strabismus warrants urgent specialist evaluation.",
+    "Assess extraocular movements to identify any **incomitant strabismus** (where misalignment varies by gaze direction). Limited movement of one eye (e.g., inability to abduct = possible CN VI palsy) suggests a paralytic cause. If strabismus had acute onset, especially with neurologic symptoms (headache, ptosis, etc.), evaluate for a cranial nerve palsy or intracranial process and consider neuroimaging.",
+    "Measure each eye's **visual acuity** and perform a refraction. Significant uncorrected hyperopia can cause accommodative esotropia – correcting the refractive error with glasses often straightens the eyes. Also look for signs of **amblyopia** (poor vision in one eye) due to prolonged suppression, which will need to be addressed."
+  ],
+  "differentials": [
+    {
+      "name": "Pseudostrabismus",
+      "hint": "False appearance of misalignment (often from wide nasal bridge or epicanthal folds); corneal light reflex is normal (symmetric)"
+    },
+    {
+      "name": "Ocular instability of infancy",
+      "hint": "Transient intermittent misalignment in neonates (<3–4 months old) which resolves spontaneously"
+    },
+    {
+      "name": "Cranial nerve palsy",
+      "hint": "Paralytic strabismus due to CN III, IV, or VI palsy (e.g., abducens nerve palsy causing an esotropic eye that cannot abduct). Usually causes diplopia and an incomitant deviation limited to certain gaze directions."
+    }
+  ],
+  "tricks": [
+    "Remember **LR6 SO4**: Lateral Rectus is innervated by CN VI, Superior Oblique by CN IV, and all other ocular muscles by CN III. This helps predict which gaze limitation (e.g., inability to move an eye outward suggests CN VI palsy) corresponds to which cranial nerve.",
+    "**Phoria vs. Tropia**: Think 'phoria = phantom' (hidden deviation only seen when the eyes are dissociated with a cover test), and 'tropia = tangible' (manifest misalignment visible even with both eyes open)."
+  ],
+  "exam_appearance": [
+    "A 3-year-old with one eye crossing inward when focusing on near objects. Cycloplegic refraction shows significant hyperopia; the esotropia disappears with appropriate eyeglasses → **Accommodative esotropia** (strabismus caused by farsightedness requiring correction).",
+    "A 2-year-old with a recently wandering right eye and an abnormal **white reflex** in that eye on exam → suspect **retinoblastoma** causing vision loss and secondary strabismus (any child with strabismus + leukocoria must be evaluated urgently).",
+    "A 65-year-old diabetic reports sudden double vision. Exam shows his left eye is deviated inward and cannot abduct fully on left gaze → **Left CN VI (abducens) nerve palsy** causing an esotropia. (Ischemic mononeuropathy from diabetes is a common cause and often resolves over time.)"
+  ],
+  "treatment": [
+    "**Correct refractive errors**: Prescribe glasses or contact lenses to fix underlying vision issues (e.g. give hyperopic children the full corrective prescription to reduce accommodative esotropia). If one eye has much worse vision, treat any **amblyopia** first (patch the stronger eye or use atropine drops to blur it) to encourage use of the weaker eye.",
+    "**Vision therapy**: For certain strabismus types, orthoptic exercises can improve control (e.g. \"pencil push-ups\" for convergence insufficiency or to help an intermittent exotropia). **Prism lenses** can be incorporated into glasses to alleviate diplopia in mild or residual strabismus. In some cases, **Botox injections** into an extraocular muscle may temporarily improve alignment or assess potential surgical outcomes.",
+    "**Surgical alignment**: Strabismus surgery (recession or resection of extraocular muscles) is indicated for large or persistent deviations not fully corrected by other means. It's often done in early childhood (e.g., before age 2 for congenital esotropia) to promote normal binocular vision development. Strabismus surgery is typically an outpatient procedure with minimal recovery time, and can significantly improve ocular alignment and stereopsis."
+  ],
+  "red_flags": [
+    "**Leukocoria** (white pupil) in a child with strabismus – think **retinoblastoma** until proven otherwise. This is an ophthalmologic emergency; urgent evaluation can be vision- and life-saving.",
+    "**Acute onset strabismus** accompanied by neurological signs (e.g. cranial nerve palsy, ptosis, headache, ataxia) – suspect serious intracranial pathology (tumor, aneurysm, stroke, increased ICP). New strabismus in a school-aged child or adult warrants prompt neuroimaging."
+  ],
+  "algorithm": [
+    "**Observe alignment** at well-child exams: perform a corneal light reflex test and cover test by 4–6 months of age. If any eye misalignment persists beyond 3–4 months, investigate further (strabismus vs. pseudostrabismus).",
+    "If strabismus is suspected, **refer to pediatric ophthalmology** for full evaluation. Check for and treat any **amblyopia** early (patching or atropine) to prevent permanent vision loss before attempting to align the eyes.",
+    "Determine the **type of strabismus**: assess refractive error (for accommodative causes), eye movement in all gazes (to identify any cranial nerve palsy or muscle restriction), and do a dilated eye exam (to rule out ocular lesions like cataract or retinoblastoma). Perform neurologic exam if strabismus is acute or atypical.",
+    "**Address underlying causes**: correct significant refractive errors with glasses; treat medical causes (e.g., manage thyroid eye disease or myasthenia gravis if present). If a cranial nerve palsy is identified, manage the cause (e.g., microvascular disease, elevated intracranial pressure) and consider temporary prism or patch for diplopia.",
+    "**Plan alignment treatment**: For childhood strabismus, once vision is optimized (and amblyopia treated), arrange strabismus surgery if indicated to realign the eyes. Continue to follow the patient's ocular alignment and visual development over time, as some cases may require additional treatments or surgeries."
+  ],
+  "cases": [
+    {
+      "stem": "A 3‑year‑old boy is brought in because his right eye \"turns in\" whenever he looks at near objects. He tilts his head to favor one eye. Exam: visual acuity is 20/20 in the left eye and 20/40 in the right; cover test reveals a right esotropia at near. He is +4.00 hyperopic bilaterally.",
+      "clues": [
+        "Esotropia (inward deviation) triggered by accommodation on near focus",
+        "Significant hyperopia noted on cycloplegic refraction",
+        "Better visual acuity in left eye (right eye slightly reduced)",
+        "Eyes straighten with appropriate eyeglasses"
+      ],
+      "answer": "Strabismus – Accommodative esotropia due to farsightedness",
+      "teaching": "A hyperopic child focusing on a near target exerts excessive accommodation, inducing inward eye crossing (accommodative esotropia). Full hyperopic correction with glasses relieves the need for over-accommodation and usually realigns the eyes. Additionally, any amblyopia (here, right eye slightly weaker) must be treated early (e.g., patching) to ensure equal visual development."
+    },
+    {
+      "stem": "A 65‑year‑old man reports sudden horizontal double vision, worse when looking to the left. He has a history of poorly controlled diabetes. Exam: in left gaze, the left eye cannot abduct and remains midline, causing an inward deviation.",
+      "clues": [
+        "Acute onset horizontal diplopia",
+        "Left eye is unable to abduct (lateral rectus weakness)",
+        "Left esotropia (eye turned inward) on attempted left gaze",
+        "Long-standing diabetes mellitus"
+      ],
+      "answer": "Strabismus – Left CN VI palsy (abducens nerve) due to diabetes",
+      "teaching": "This is a left lateral rectus palsy from an ischemic CN VI neuropathy, a common complication of diabetes. The affected eye cannot move laterally, resulting in esotropia and diplopia on lateral gaze. Diabetic abducens palsies often resolve over a few months. In the interim, treatment is supportive (e.g., patch one eye or use prism glasses for double vision). Work-up should rule out other causes if any atypical features (pain, involvement of other nerves) are present."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Siam_Strabismus.jpg",
+      "alt": "A Siamese cat with convergent strabismus (crossed eyes).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Siam_Strabismus.jpg"
+      }
+    }
+  ],
+  "see_also": [
+    "amblyopia",
+    "nystagmus",
+    "glaucoma"
+  ],
+  "prerequisites": [
+    "eye-anatomy",
+    "extraocular-muscles"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Strabismus (Kanukollu & Sood, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560782/"
+    },
+    {
+      "title": "UpToDate: Evaluation and management of strabismus in children (Coats & Paysse, 2023)",
+      "url": "https://www.uptodate.com/contents/evaluation-and-management-of-strabismus-in-children"
+    },
+    {
+      "title": "Merck Manual (Professional): Strabismus in Children (2023)",
+      "url": "https://www.merckmanuals.com/professional/pediatrics/eye-defects-and-conditions-in-children/strabismus"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

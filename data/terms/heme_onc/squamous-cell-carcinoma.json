@@ -1,0 +1,105 @@
+{
+  "id": "squamous-cell-carcinoma",
+  "names": ["Squamous cell carcinoma"],
+  "aliases": ["epidermoid carcinoma", "squamous carcinoma"],
+  "abbr": ["SCC"],
+  "patterns": ["scc", "squamous cell carcinoma", "squamous carcinoma", "epidermoid carcinoma"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "pulm", "gi", "obgyn", "msk_derm"],
+  "definition": "Malignancy arising from squamous epithelium (e.g. skin, mucosa) characterized by keratinizing malignant cells (keratin **pearls** and intercellular bridges).",
+  "why_it_matters": "SCC is a very common cancer across multiple organs (e.g. second most common skin cancer) and is frequently tested on exams. Different subtypes have distinct risk factors (sun exposure, smoking, **HPV**), but all share similar histology. Recognizing SCC and its clues (like **hypercalcemia** in lung SCC or **hoarseness** in laryngeal SCC) guides proper diagnosis and treatment in a variety of contexts.",
+  "how_youll_see_it": [
+    "**Skin (cutaneous) SCC:** Red, scaly or ulcerated nodule on sun-exposed skin (face, **lower lip**, ears, scalp) in an older patient. Often arises from **actinic keratosis**; risk factors include UV exposure, fair skin, chronic wounds (Marjolin ulcer), and immunosuppression.",
+    "**Head & Neck SCC:** Persistent hoarseness, throat pain, or a non-healing oral ulcer, classically in a **smoker** and heavy alcohol user (e.g. laryngeal or oral SCC). A subset of oropharyngeal SCC (tonsil, base of tongue) occurs in younger non-smokers via **HPV-16** infection (often presenting with cervical lymph node metastasis).",
+    "**Lung SCC:** Typically a **central** lung mass in a longtime smoker, often with cough and hemoptysis. Tends to cavitate on imaging and can secrete **PTHrP**, causing hypercalcemia (stones, groans, moans). No identifiable driver mutations in most cases (unlike lung adenocarcinoma).",
+    "**Esophageal SCC:** Progressive dysphagia (solids then liquids) and weight loss in an older patient with a history of **smoking** and alcohol use. Arises in the upper or mid-esophagus (vs. adenocarcinoma, which occurs in distal esophagus with chronic GERD history).",
+    "**Cervical (and Anal) SCC:** Often linked to high-risk **HPV (16, 18)**. Cervical SCC may be asymptomatic or present with postcoital bleeding; detected via Pap smear screening of the transformation zone. Anal SCC presents with anal pain, mass, or bleeding, especially in patients with HPV infection (e.g. men who have sex with men or immunocompromised patients)."
+  ],
+  "problem_solving": [
+    "Biopsy any persistent, suspicious lesion (skin ulcer, oral plaque, etc.) to confirm SCC. Histology will show malignant squamous cells with eosinophilic cytoplasm, intercellular bridges, and keratin pearls.",
+    "Stage the disease with appropriate imaging once SCC is diagnosed. For example, get CT/MRI scans to evaluate tumor extent and lymph node involvement (e.g. CT chest for lung SCC, neck CT for head & neck SCC, pelvic MRI for cervical SCC).",
+    "Use immunohistochemistry if needed to distinguish SCC from other cancers. SCC cells typically express squamous markers (p40/p63), and in lung, lack TTF-1 (which is seen in lung adenocarcinoma).",
+    "If squamous carcinoma is found in a lymph node with no obvious primary, direct the search to common primary sites (e.g. tonsil/base of tongue for an HPV-positive neck node; lung or head & neck for a supraclavicular node)."
+  ],
+  "differentials": [
+    { "id": "basal-cell-carcinoma", "hint": "pearly, telangiectatic skin papule; locally invasive, rarely metastasizes" },
+    { "name": "Esophageal adenocarcinoma", "hint": "distal esophagus tumor, associated with Barrett esophagus (GERD history)" },
+    { "name": "Small cell lung carcinoma", "hint": "central smoker's lung cancer but neuroendocrine (paraneoplastic ACTH/SIADH), rapid growth, no keratin pearls" }
+  ],
+  "tricks": [
+    "Mnemonic for lung **SCC**: the \"**4 C's**\" – **Central**, **Cavitation**, **Cigarettes**, **Calcium** (produces PTHrP). Squamous and Small cell lung cancers are central (squamous is the one with hypercalcemia).",
+    "On the lip, **lower lip** lesions are more likely SCC (vs. BCC on upper lip). Also remember **Marjolin ulcer**: SCC arising in a chronic wound or burn scar (often more aggressive).",
+    "Boards love **keratin pearls** on a biopsy image – this finding is diagnostic of squamous carcinoma. Likewise, intercellular \"bridges\" (desmosomes) between tumor cells are another hallmark clue for SCC."
+  ],
+  "exam_appearance": [
+    "Elderly farmer with a non-healing, ulcerated lesion on the lower lip that developed from an actinic keratosis → Cutaneous SCC (sun-induced).",
+    "Longtime smoker with weight loss and a cavitary hilar lung mass on X-ray plus elevated calcium → Squamous cell lung carcinoma (paraneoplastic PTHrP hypercalcemia).",
+    "60‑year‑old male smoker–drinker with progressive dysphagia to solids, then liquids; mass in mid-esophagus on endoscopy → Esophageal squamous cell carcinoma."
+  ],
+  "treatment": [
+    "Localized disease: **surgical removal** of the primary tumor is first-line (e.g. excision or Mohs surgery for skin SCC; lobectomy for early lung SCC; laryngectomy for localized laryngeal SCC; hysterectomy for early cervical cancer). Many squamous tumors are also sensitive to **radiation therapy** (e.g. definitive or adjuvant radiation for head & neck SCC, cervical SCC).",
+    "Locally advanced (regionally invasive) disease: often requires **multimodal therapy**. This may include surgery combined with **adjuvant radiation** (or chemoradiation) to kill microscopic disease, or primary **chemoradiotherapy** if surgery is not feasible (as in advanced esophageal or some head & neck SCC).",
+    "Metastatic or unresectable SCC: treat with **systemic therapy**. Platinum-based chemotherapy regimens are standard for many SCCs. Additionally, **immune checkpoint inhibitors** (e.g. anti-PD-1 antibodies like pembrolizumab, nivolumab, or cemiplimab) have shown improved outcomes in advanced SCC of the lung, head & neck, and skin. Targeted therapies such as EGFR inhibitors (e.g. cetuximab in head & neck SCC) are used in certain cases."
+  ],
+  "red_flags": [
+    "Any **non-healing ulcer**, indurated lesion, or unexplained mucosal mass should prompt biopsy – delayed diagnosis of SCC can lead to deeper invasion or metastasis.",
+    "**Persistent hoarseness** or unilateral ear pain in a smoker may signal a laryngeal SCC (needs laryngoscopic evaluation). Similarly, progressive dysphagia and weight loss are red flags for esophageal cancer."
+  ],
+  "algorithm": [
+    "Suspicion: Identify high-risk lesions or symptoms (e.g. chronic skin ulcer, leukoplakia, new hoarseness in smoker) → perform exam and obtain biopsy of the lesion.",
+    "Diagnosis: Pathology confirms squamous cell carcinoma → initiate cancer staging (imaging studies like CT, MRI, PET as appropriate for the site) to determine tumor extent and nodal/distant spread.",
+    "Localized tumor (no significant spread) → treat with curative intent via local therapy (surgical excision if possible, and/or radiotherapy). Evaluate regional lymph nodes (clinical exam, imaging, biopsy) and resect or irradiate if involved.",
+    "Regionally advanced tumor (extensive primary or nodal involvement) → use combined modality treatment (surgery + adjunctive radiation; or definitive chemoradiation if organ preservation is desired, as in some head & neck cases).",
+    "Metastatic disease or recurrence → systemic therapy (chemotherapy, immunotherapy) and palliative care as needed. Continue surveillance after treatment to catch any recurrence or new primary SCC (patients are at higher risk of additional cancers)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Histopathology_of_invasive_squamous_cell_carcinoma.jpg",
+      "alt": "Histology of invasive squamous cell carcinoma showing nests of malignant squamous cells with pink keratin pearls in the center.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Histopathology_of_invasive_squamous_cell_carcinoma.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old man with a 40 pack-year smoking history presents with cough, weight loss, and fatigue.",
+      "clues": [
+        "Chest X-ray reveals a central cavitary mass in the right lung",
+        "Serum calcium is 14 mg/dL with low PTH levels",
+        "Bronchoscopic biopsy shows malignant squamous cells forming keratin pearls"
+      ],
+      "answer": "Squamous cell carcinoma of the lung",
+      "teaching": "This is a classic presentation of squamous cell lung cancer in a smoker. It typically appears as a central cavitating lung lesion and often produces parathyroid hormone–related protein (PTHrP), leading to hypercalcemia. Biopsy confirms squamous histology (keratin pearls), distinguishing it from other lung cancers."
+    }
+  ],
+  "see_also": ["basal-cell-carcinoma", "lung-neuroendocrine-neoplasms", "psoriasis"],
+  "prerequisites": ["actinic-keratosis", "human-papillomavirus"],
+  "sources": [
+    {
+      "title": "StatPearls: Cutaneous Squamous Cell Carcinoma (Hadian et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441939/"
+    },
+    {
+      "title": "StatPearls: Squamous Cell Lung Cancer (Sabbula et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK564510/"
+    },
+    {
+      "title": "NCI – HPV and Cancer (2023, National Cancer Institute)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hpv-and-cancer"
+    },
+    {
+      "title": "Mayo Clinic: Cervical cancer – Causes and risk factors (2023)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cervical-cancer/symptoms-causes/syc-20352501"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

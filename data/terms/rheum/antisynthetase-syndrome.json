@@ -1,0 +1,123 @@
+{
+  "id": "antisynthetase-syndrome",
+  "names": ["Antisynthetase syndrome"],
+  "aliases": ["Anti-Jo-1 syndrome"],
+  "abbr": ["ASyS"],
+  "patterns": ["antisynthetase syndrome", "anti-synthetase syndrome", "anti Jo1 syndrome", "anti-Jo-1"],
+  "primary_tag": "rheum",
+  "tags": ["rheum", "pulm", "immunology"],
+  "definition": "Uncommon autoimmune syndrome characterized by autoantibodies against aminoacyl-tRNA synthetases, leading to a classic triad of **myositis** (inflammatory muscle disease), **interstitial lung disease** (ILD), and non-erosive **arthritis**; often accompanied by **mechanic's hands**, **Raynaud phenomenon**, and fever.",
+  "why_it_matters": "Rare (~1–3 per 100,000) but potentially severe: most patients develop ILD (the major cause of morbidity), with more severe lung involvement and higher mortality than other myositis syndromes. Early recognition can prevent progressive pulmonary fibrosis. Frequently tested on boards as a prototypical multi-system autoimmune condition associated with anti-**Jo-1** antibodies.",
+  "how_youll_see_it": [
+    "Typically affects adults in mid-life (female > male, ~2:1).",
+    "Classic triad: **symmetric proximal muscle weakness** (difficulty climbing stairs, combing hair), **inflammatory polyarthritis** (joint pain/stiffness, usually non-erosive), and **gradual-onset ILD** (dry cough, exertional dyspnea).",
+    "**Mechanic's hands** (hyperkeratotic, cracked skin on fingertips and lateral fingers), **Raynaud** episodes (finger color changes in cold), and low-grade **fevers** often accompany the triad.",
+    "On lung exam, **Velcro-like crackles** may be heard (from ILD). Labs: **elevated CK** and other muscle enzymes (reflecting muscle damage). Many patients are **ANA-positive** and have a myositis-specific autoantibody (anti-**Jo-1** is most common)."
+  ],
+  "problem_solving": [
+    "Confirm muscle involvement: check **CK** and other muscle enzymes (often very high). Obtain EMG or MRI to document myositis and guide a biopsy site if needed.",
+    "Serologic testing: order **ANA** and a myositis antibody panel. A positive **anti-Jo-1** (anti-histidyl-tRNA synthetase) or other antisynthetase antibody strongly supports the diagnosis.",
+    "Pulmonary evaluation: perform PFTs (expect a restrictive pattern) and **high-resolution CT (HRCT)** of the chest to assess ILD (often shows an NSIP pattern with ground-glass opacities).",
+    "Consider tissue diagnosis: **muscle biopsy** (or lung biopsy in atypical cases) can confirm inflammatory myopathy or ILD and exclude other causes."
+  ],
+  "differentials": [
+    { "name": "Polymyositis", "hint": "idiopathic inflammatory myopathy causing proximal weakness but without specific antisynthetase antibodies; ILD can occur but is less common/severe" },
+    { "name": "Dermatomyositis", "hint": "myositis with characteristic skin findings (heliotrope rash, Gottron papules) instead of mechanic's hands; distinct autoantibodies and higher malignancy risk" },
+    { "name": "Idiopathic pulmonary fibrosis", "hint": "progressive fibrosing ILD (usual interstitial pneumonia pattern) in older adults, with no associated muscle weakness or autoantibodies" }
+  ],
+  "tricks": [
+    "**Joe the Mechanic** mnemonic: anti-**Jo**-1 → think of a mechanic named Joe who has cracked, greasy hands (mechanic's hands), inhaled fumes causing lung damage (ILD), and strained muscles from heavy work (myositis)."
+  ],
+  "exam_appearance": [
+    "Middle-aged woman with gradually worsening **shoulder and hip weakness**, a chronic dry cough, and rough, cracked skin on her fingers (image) – labs show ↑CK and positive anti-Jo-1 **→ Antisynthetase syndrome**.",
+    "Patient with **unexplained ILD** (progressive dyspnea, basal crackles) and inflammatory arthritis, plus \"mechanic's hands\" on exam **→** suspect antisynthetase syndrome (myositis may be mild or delayed in onset)."
+  ],
+  "treatment": [
+    "High-dose **corticosteroids** (e.g. prednisone ~1 mg/kg/day) to rapidly suppress muscle and lung inflammation. Severe cases may receive IV methylprednisolone pulses.",
+    "**Steroid-sparing immunosuppressants** are introduced early: e.g. **methotrexate** or **azathioprine** for muscle/joint disease, and **mycophenolate mofetil** or **tacrolimus** for ILD involvement (to improve lung function and allow steroid taper).",
+    "Refractory or severe cases: **cyclophosphamide** (for rapidly progressive ILD) or **rituximab** (B-cell therapy often used for resistant myositis/ILD). **IVIG** is an option for difficult-to-treat myositis."
+  ],
+  "red_flags": [
+    "Signs of **rapidly progressive ILD** (worsening hypoxia, new extensive fibrosis on HRCT) – high risk of respiratory failure; requires aggressive immunosuppression (e.g. cyclophosphamide).",
+    "**Pulmonary hypertension** or cor pulmonale developing in ASyS – indicates advanced pulmonary involvement; consider early lung transplant evaluation."
+  ],
+  "algorithm": [
+    "Unexplained **myositis + ILD + arthritis** (any two) → suspect antisynthetase syndrome (especially if mechanic's hands or Raynaud present).",
+    "Check **muscle enzymes** (CK, aldolase) and obtain a **myositis autoantibody panel** (look for anti-Jo-1 or other anti-tRNA synthetase antibodies).",
+    "If positive (or high suspicion): confirm organ involvement – get **HRCT chest** for ILD and **EMG/MRI** for muscle inflammation; perform a muscle biopsy if diagnosis is uncertain.",
+    "Start **high-dose corticosteroids** promptly to treat muscle and lung inflammation. Add a second agent (e.g. methotrexate for myositis or mycophenolate for ILD) early for a steroid-sparing effect.",
+    "Monitor **PFTs** and clinical status frequently. If lung function declines or muscle weakness progresses despite therapy, escalate treatment (add rituximab or cyclophosphamide; consider expert referral)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Neumonia_intersticial_no_especifica.jpg",
+      "alt": "High-resolution CT of the lungs showing an NSIP pattern (patchy ground-glass opacities) in antisynthetase syndrome.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Neumonia_intersticial_no_especifica.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old woman presents with 3 months of progressive muscle weakness and dry cough.",
+      "clues": [
+        "Difficulty climbing stairs and combing hair (proximal muscle weakness)",
+        "Bilateral basal crackles on lung exam; HRCT shows ground-glass ILD",
+        "Rough, cracked skin on the fingertips (mechanic's hands)",
+        "Creatine kinase 3000 U/L (elevated)",
+        "Positive anti-Jo-1 antibody"
+      ],
+      "answer": "Antisynthetase syndrome (anti-Jo-1 positive polymyositis overlap)",
+      "teaching": "The combination of inflammatory myopathy, interstitial lung disease, and mechanic's hands is classic for antisynthetase syndrome. The anti-Jo-1 autoantibody (against histidyl-tRNA synthetase) is most commonly associated. Early aggressive immunosuppressive therapy is indicated to manage the muscle and lung involvement."
+    },
+    {
+      "stem": "A 55‑year‑old man with a 6-month history of cough and dyspnea is found to have interstitial lung disease on imaging.",
+      "clues": [
+        "Chronic dry cough with Velcro crackles on auscultation",
+        "High-resolution CT reveals a nonspecific interstitial pneumonia pattern",
+        "Mild symmetric proximal muscle weakness (subtle myositis)",
+        "Thickened, fissured skin over the finger pads (mechanic's hands)",
+        "Positive anti-PL-12 antibody"
+      ],
+      "answer": "Antisynthetase syndrome (anti-PL-12 variant)",
+      "teaching": "Antisynthetase syndrome can present primarily as ILD with only mild muscle involvement initially. The presence of mechanic's hands and a positive antisynthetase antibody (such as anti-PL-12) clinches the diagnosis. Recognizing this overlap early allows appropriate immunosuppressive treatment before significant pulmonary fibrosis develops."
+    }
+  ],
+  "see_also": [
+    "polymyositis",
+    "dermatomyositis",
+    "pulmonary-fibrosis",
+    "rheumatoid-arthritis"
+  ],
+  "prerequisites": [
+    "muscle-physiology",
+    "autoimmunity"
+  ],
+  "sources": [
+    {
+      "title": "Int J Mol Sci: A Review of Antisynthetase Syndrome-Associated ILD (Patel et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11050089/"
+    },
+    {
+      "title": "StatPearls: Autoimmune Myopathies (Cheeti & Brent, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532860/"
+    },
+    {
+      "title": "UpToDate: Idiopathic inflammatory myopathies – overview and clinical features (2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-and-approach-to-the-idiopathic-inflammatory-myopathies"
+    },
+    {
+      "title": "Clin Pulm Med: Diagnosis and Treatment of Antisynthetase Syndrome (Witt et al., 2016)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5006392/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

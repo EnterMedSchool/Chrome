@@ -1,0 +1,120 @@
+{
+  "id": "long-qt-syndrome",
+  "names": ["Long QT syndrome"],
+  "aliases": ["Romano-Ward syndrome", "Jervell and Lange-Nielsen syndrome", "congenital Long QT"],
+  "abbr": ["LQTS"],
+  "patterns": ["long qt syndrome", "long qt", "lqts", "romano ward", "jervell lange nielsen"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "genetics", "pharmacology"],
+  "definition": "Disorder of ventricular repolarization (congenital or acquired) causing a prolonged **QT interval** on ECG (usually **QTc** >450 ms) and risk of syncope or sudden death from **torsades de pointes**.",
+  "why_it_matters": "A leading cause of sudden cardiac death in otherwise healthy young people (due to **polymorphic VT/torsades**). Early identification and treatment (beta-blockers, avoiding triggers) can be life-saving.",
+  "how_youll_see_it": [
+    "Often discovered after **syncope** or **seizure-like** fainting episodes or even sudden cardiac arrest. Congenital LQTS typically presents in childhood/adolescence; acquired LQTS can occur at any age (e.g., hospital patient on multiple QT-prolonging meds).",
+    "Congenital: recurrent syncope during **exercise** or high emotion (LQT1) or after sudden **auditory** stimuli (alarm clock, LQT2), or episodes during **sleep**/rest (LQT3). Family history of sudden death may be present. **Jervell & Lange-Nielsen** syndrome features congenital deafness in addition to long QT.",
+    "Acquired: look for medication triggers (e.g., antiarrhythmics, macrolide or fluoroquinolone antibiotics, antipsychotics, antidepressants, antiemetics) especially in the setting of **electrolyte** disturbances (hypokalemia, hypomagnesemia). Patient may develop palpitations, syncope, or **torsades de pointes** (a transient polymorphic VT that can cause fainting or degeneration to VF).",
+    "ECG: **QT interval** is prolonged (best measured in lead II or V5-6). A quick clue is if the QT is more than half of the RR interval. **QTc** (corrected QT) is used to account for heart rate (Bazett formula); >440 ms in men or >460 ms in women is prolonged, and >500 ms indicates high arrhythmia risk. T-wave morphology may be abnormal (notched or biphasic T waves) in congenital LQTS."
+  ],
+  "problem_solving": [
+    "Measure the QT interval correctly: take the longest QT in lead II or V5-6 across several beats; include large, fused U-waves if present, and correct for heart rate (Bazett's formula). Check that QTc is truly prolonged (≥ ~450 ms).",
+    "Exclude secondary causes of QT prolongation: review the medication list (stop any offending **QT-prolonging drugs**) and correct electrolyte abnormalities (especially low K, Mg, Ca). Also check for **hypothyroidism**.",
+    "If no reversible cause is found and QT remains prolonged, evaluate for congenital LQTS. Use clinical criteria (e.g., **Schwartz score** ≥3.5 points supports diagnosis) and inquire about family history of sudden death. **Genetic testing** can confirm a pathogenic mutation (commonly KCNQ1, KCNH2, SCN5A genes) and help subtype, but is costly.",
+    "Screen **first-degree relatives** of a patient with confirmed congenital LQTS (ECG ± genetic testing) since Romano-Ward LQTS is autosomal **dominant** and Jervell-Lange-Nielsen is autosomal **recessive**. Family screening can identify asymptomatic carriers who may benefit from precautions or therapy.",
+    "Consider referral to electrophysiology/cardiology for risk stratification. High-risk features (QTc >500 ms, history of cardiac arrest, or syncope on therapy) warrant discussion of **ICD** placement in addition to medical therapy."
+  ],
+  "differentials": [
+    { "id": "brugada-syndrome", "hint": "Inherited arrhythmia syndrome with **ST elevations** V1–V3 (Na⁺ channel defect); syncope or SCD often during sleep" },
+    { "name": "Catecholaminergic polymorphic VT (CPVT)", "hint": "Exercise-induced syncope from ventricular arrhythmias, but **normal QT** at baseline (mutation in RyR2 Ca²⁺ channels)" },
+    { "name": "Vasovagal syncope", "hint": "Benign faint (neurocardiogenic); often prodrome (lightheadedness, nausea) and **normal ECG** after event" }
+  ],
+  "tricks": [
+    "Mnemonic **\"ABCDE\"** for long QT–inducing drug classes: **A:** antiArrhythmics (class I & III), **B:** antiBiotics (macrolides, fluoroquinolones), **C:** antiPsychotics (e.g., haloperidol), **D:** antiDepressants (TCAs, SSRIs), **E:** antiEmetics (ondansetron).",
+    "**Romano-Ward** syndrome is the autosomal **dominant** form of congenital LQTS (pure cardiac phenotype, no deafness). **Jervell & Lange-Nielsen** is the rare autosomal **recessive** form with **sensorineural deafness**.",
+    "Normal QT rule of thumb: QT interval should be less than half of the RR interval. If it looks abnormally long (especially with **T-wave abnormalities**), think LQTS."
+  ],
+  "exam_appearance": [
+    "Teen athlete who **faints during swimming** or exercise, with QTc >500 ms on ECG → congenital long QT syndrome (often LQT1 subtype).",
+    "Young patient with **congenital deafness** and episodes of syncope → Jervell & Lange-Nielsen syndrome (AR long QT syndrome).",
+    "Patient on a **QT-prolonging drug** (e.g., sotalol or haloperidol) with **hypokalemia** develops sudden syncope; ECG shows polymorphic VT (torsades) → acquired long QT syndrome leading to torsades de pointes."
+  ],
+  "treatment": [
+    "First-line for congenital LQTS: **beta blockers** (nonselective, e.g., propranolol or nadolol) to blunt adrenergic surges. Advise lifestyle modifications: avoid strenuous exercise or loud noise triggers (depending on LQT subtype), maintain adequate electrolytes, and strictly avoid drugs that prolong QT.",
+    "**ICD** (implantable cardioverter-defibrillator) is recommended in survivors of cardiac arrest and in those with high-risk features (e.g., syncope or ventricular arrhythmias despite beta-blockade, or very prolonged QT). In refractory cases, left stellate ganglion sympathectomy is a surgical option to reduce arrhythmic risk.",
+    "Acute torsades de pointes: initiate IV **magnesium sulfate** promptly (even if Mg level is normal). If unstable, perform immediate defibrillation. Also consider accelerating the heart rate (IV isoproterenol infusion or overdrive pacing) to suppress further torsades while correcting underlying causes."
+  ],
+  "red_flags": [
+    "Unexplained syncope (especially without prodrome) during exertion, emotional stress, or sudden noise → raises concern for LQTS (arrhythmic syncope). These events can be misdiagnosed as seizures; always evaluate with an **ECG**.",
+    "**Torsades de pointes** (polymorphic VT with twisting QRS complexes) is a life-threatening emergency. Treat immediately with magnesium and cardioversion as needed, and remove/correct any precipitating factors (drugs, electrolyte disturbances) to prevent progression to ventricular fibrillation."
+  ],
+  "algorithm": [
+    "Suspected LQTS (young patient with syncope/seizure during stress, or incidental long QT on ECG) → obtain a 12-lead ECG and check **QTc**.",
+    "If QTc is prolonged, identify and address any **acquired causes**: stop offending drugs, correct electrolytes (K, Mg, Ca), and treat conditions like hypothyroidism.",
+    "If QT remains prolonged without secondary causes, diagnose **congenital LQTS**. Apply diagnostic criteria (QTc ≥480–500 ms, positive LQTS score, or a confirmed gene mutation) and refer to cardiology. Notify the patient's family to undergo screening ECG/genetic evaluation.",
+    "Start **beta-blocker** therapy for confirmed or strongly suspected congenital LQTS. Counsel on trigger avoidance (per subtype) and list of prohibited medications (from credible sources like CredibleMeds).",
+    "For high-risk patients (e.g., LQTS with prior arrest or persistent symptoms), implement advanced therapies: consider **ICD placement** in addition to beta-blockers, and/or **left cardiac sympathetic denervation** for refractory cases, in consultation with a specialist."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/112_(CardioNetworks_ECGpedia).jpg",
+      "alt": "ECG showing torsades de pointes (polymorphic ventricular tachycardia) in a patient with a prolonged QT interval.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:112_(CardioNetworks_ECGpedia).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 12‑year‑old boy with congenital deafness collapses while playing in gym class.",
+      "clues": [
+        "Sensorineural hearing loss since birth",
+        "Exercise-induced syncope",
+        "QTc ~520 ms on ECG"
+      ],
+      "answer": "Jervell and Lange-Nielsen syndrome (congenital long QT syndrome)",
+      "teaching": "This is an autosomal recessive form of long QT syndrome characterized by congenital deafness. The patient's exertional syncope and markedly prolonged QT indicate LQTS; beta-blockers and avoidance of triggers would be first-line to prevent sudden cardiac death."
+    },
+    {
+      "stem": "A 30‑year‑old woman on haloperidol for acute psychosis is found unresponsive.",
+      "clues": [
+        "Torsades de pointes seen on telemetry",
+        "Currently on IV haloperidol",
+        "Serum potassium 2.8 (low)"
+      ],
+      "answer": "Acquired long QT syndrome (drug-induced torsades de pointes)",
+      "teaching": "Haloperidol (like many antipsychotics) can prolong the QT, and the risk is exacerbated by hypokalemia. This patient has drug-induced long QT leading to torsades. Management is immediate IV magnesium and removal of offending factors; in the long term, avoid QT-prolonging drug combinations and keep electrolytes replete."
+    }
+  ],
+  "see_also": [
+    "brugada-syndrome",
+    "syncope",
+    "seizures",
+    "wolff-parkinson-white-syndrome"
+  ],
+  "prerequisites": [
+    "cardiac-action-potential",
+    "ecg-basics",
+    "syncope"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Long QT Syndrome (Al-Akchar & Siddique, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441860/"
+    },
+    {
+      "title": "UpToDate: Acquired long QT syndrome – definitions, pathophysiology, and causes",
+      "url": "https://www.uptodate.com/contents/acquired-long-qt-syndrome-definitions-pathophysiology-and-causes"
+    },
+    {
+      "title": "Long QT Syndrome (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/157826-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

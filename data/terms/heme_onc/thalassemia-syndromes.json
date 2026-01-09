@@ -1,0 +1,142 @@
+{
+  "id": "thalassemia-syndromes",
+  "names": [
+    "Thalassemia syndromes"
+  ],
+  "aliases": [
+    "thalassemias"
+  ],
+  "abbr": [],
+  "patterns": [
+    "thalassemia",
+    "thalassemias",
+    "thalassemia syndromes"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Group of inherited **microcytic, hemolytic anemias** caused by decreased production of α- or β-globin chains, leading to imbalanced hemoglobin synthesis and RBC destruction.",
+  "why_it_matters": "Common in Mediterranean, African, and Asian populations. Severe forms cause life-threatening anemia in infancy (requiring transfusions), while carriers have mild anemia often misdiagnosed as iron deficiency. Recognizing thalassemia prevents unnecessary iron therapy and enables genetic counseling to prevent hydrops fetalis.",
+  "how_youll_see_it": [
+    "**Mild (trait)**: Asymptomatic or mild fatigue; low MCV, normal iron; often detected on routine CBC. Blood smear: **target cells** (bullseye RBCs) are common.",
+    "**Severe (β-thalassemia major)**: Infant (6–12 mo) with **severe anemia**, failure to thrive, pallor, **jaundice**, and hepatosplenomegaly as fetal hemoglobin wanes. Marrow expansion causes bone deformities (frontal bossing, \"chipmunk\" facies).",
+    "**Severe (α-thalassemia)**: **Hemoglobin H disease** (3 α gene deletions) causes moderate hemolytic anemia with splenomegaly but no bone changes. **Hydrops fetalis** (4 deletions) presents as fetal hydrops (fluid in multiple compartments, high-output cardiac failure) and is usually fatal if untreated."
+  ],
+  "problem_solving": [
+    "Evaluate **microcytic anemia**: Check iron studies (low in iron deficiency; normal or high in thalassemia). Thalassemia is suspected if microcytosis is disproportionate to anemia, RBC count is normal/high, and RDW is normal.",
+    "Confirm with **hemoglobin electrophoresis**: β-thalassemia shows increased **HbA2** (and ↑HbF in major). α-thalassemia trait has normal electrophoresis – DNA analysis may be needed.",
+    "Family history and ethnicity are clues (e.g., Mediterranean or Asian ancestry). Counsel carriers on **prenatal testing** (CVS or amnio) to identify severe thalassemia in the fetus."
+  ],
+  "differentials": [
+    {
+      "name": "Iron deficiency anemia",
+      "hint": "microcytic anemia with low ferritin and high TIBC; no family history"
+    },
+    {
+      "name": "Anemia of chronic disease",
+      "hint": "microcytic or normocytic; low iron but high ferritin (iron sequestered in inflammation)"
+    },
+    {
+      "name": "Sideroblastic anemia/Lead poisoning",
+      "hint": "microcytosis with high iron; basophilic stippling on smear"
+    }
+  ],
+  "tricks": [
+    "**Mentzer index** (MCV/RBC count): <13 suggests thalassemia, >13 suggests iron deficiency.",
+    "**Target cells** (codocytes) are classically seen in thalassemia (also in liver disease and post-splenectomy).",
+    "Trait carriers often have normal ferritin and mildly elevated RBC count despite anemia – don't give iron if iron stores are normal!"
+  ],
+  "exam_appearance": [
+    "1-year-old of Greek descent with severe hemoglobin 6, massive spleen, bone marrow hyperplasia (crew-cut skull on X-ray) → **β-thalassemia major**.",
+    "Adult with mild microcytic anemia not improving with iron supplements; electrophoresis shows HbA2 5% (↑) → **β-thalassemia minor (trait)**.",
+    "Stillborn fetus with total body edema (ascites, skin edema) born to Southeast Asian parents who are thalassemia carriers → **Hb Bart's hydrops fetalis** (α-thalassemia major)."
+  ],
+  "treatment": [
+    "Mild forms (trait): No treatment needed; avoid unnecessary iron. Provide **folic acid** if any chronic hemolysis; genetic counseling for family planning.",
+    "Severe forms: Regular **packed RBC transfusions** (often every 3–4 weeks) to maintain Hb ~9–10 g/dL. Concurrent **iron chelation** (e.g., deferoxamine/deferasirox) to prevent iron overload (heart failure, liver cirrhosis, endocrine dysfunction).",
+    "**Splenectomy** may reduce transfusion needs in some (but increases infection risk; vaccinate and give prophylactic antibiotics).",
+    "Curative: **Hematopoietic stem cell transplant** in early life can cure β-thalassemia major. Gene therapy for β-thalassemia (e.g., betibeglogene autotemcel) has been approved. Prenatal options include preimplantation genetic testing to avoid an affected pregnancy."
+  ],
+  "red_flags": [
+    "Infant with severe anemia (Hb <5) and high-output heart failure (tachycardia, cardiomegaly) → emergency transfusion (suspect β-thalassemia major).",
+    "Transfusion-dependent patient with arrhythmia or endocrinopathy (growth failure, diabetes, hypogonadism) → evaluate for **iron overload** (deposition in heart, pancreas, etc.) and intensify chelation.",
+    "Pregnancy between two thalassemia carriers (especially α-cis deletion) → 25% risk of hydrops fetalis; ensure prenatal diagnosis early."
+  ],
+  "algorithm": [
+    "Microcytic anemia → Check **ferritin** (iron studies).",
+    "Normal or high iron, normal ferritin → consider thalassemia (especially if high RBC count, target cells on smear).",
+    "Do **hemoglobin electrophoresis**: ↑HbA2 (and ±↑HbF) confirms β-thalassemia trait or major; normal electrophoresis with strong suspicion → genetic test for α-thalassemia.",
+    "If thalassemia major confirmed → initiate regular transfusions + chelation; family counseling and consider curative transplant."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Target_cells.jpg",
+      "alt": "Peripheral blood smear with target cells (codocytes) — red cells with a bullseye appearance, commonly seen in thalassemia.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Target_cells.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22‑year‑old woman of Mediterranean descent is found to have a hemoglobin of 11.5 (slightly low) with MCV of 70 fL on a routine exam. She is asymptomatic.",
+      "clues": [
+        "Mild microcytic anemia",
+        "Ferritin is normal",
+        "Blood smear shows target cells",
+        "Hemoglobin A2 level is 5% (elevated)"
+      ],
+      "answer": "Beta-thalassemia minor (thalassemia trait)",
+      "teaching": "Microcytosis out of proportion to mild anemia with normal iron studies suggests thalassemia trait. Elevated HbA2 on electrophoresis confirms beta-thalassemia minor. No treatment is needed, but important to identify to avoid misdiagnosis and counsel on offspring risk."
+    },
+    {
+      "stem": "An 8-month-old infant of Italian ancestry presents with pallor, feeding difficulty, and hepatosplenomegaly.",
+      "clues": [
+        "Developed severe anemia after 6 months of age",
+        "Skull X-ray shows \"hair-on-end\" appearance",
+        "Both parents carry a beta-globin mutation"
+      ],
+      "answer": "Beta-thalassemia major (Cooley's anemia)",
+      "teaching": "Beta-thalassemia major manifests in late infancy as fetal hemoglobin wanes, leading to severe anemia. Bone marrow expansion causes bony changes (hair-on-end skull). Management requires lifelong transfusions and chelation; stem cell transplant can be curative."
+    }
+  ],
+  "see_also": [
+    "sickle-cell-anemia",
+    "beta-thalassemia-major",
+    "beta-thalassemia-minor",
+    "alpha-thalassemia-trait",
+    "hemoglobin-h-disease",
+    "hydrops-fetalis"
+  ],
+  "prerequisites": [
+    "hemoglobin",
+    "genetics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Thalassemia (Bajwa & Basit, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545151/"
+    },
+    {
+      "title": "Medscape: Pediatric Thalassemia (Yaish, 2024)",
+      "url": "https://emedicine.medscape.com/article/958850-overview"
+    },
+    {
+      "title": "UpToDate: Management of thalassemia",
+      "url": "https://www.uptodate.com/contents/management-of-thalassemia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

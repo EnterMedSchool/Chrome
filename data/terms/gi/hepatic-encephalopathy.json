@@ -1,0 +1,119 @@
+{
+  "id": "hepatic-encephalopathy",
+  "names": ["Hepatic encephalopathy"],
+  "aliases": ["portosystemic encephalopathy", "hepatic coma"],
+  "abbr": ["HE"],
+  "patterns": ["hepatic encephalopathy", "portosystemic encephalopathy", "hepatic coma", "HE"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "pharmacology", "neuro"],
+  "definition": "Spectrum of **reversible** neuropsychiatric abnormalities due to advanced **liver dysfunction** or portosystemic shunting, leading to accumulation of neurotoxins (especially **ammonia**).",
+  "why_it_matters": "Common in cirrhosis (~30–40% of patients) and signifies **decompensation** of liver disease. Overt HE portends poor prognosis (median survival ~2 years after onset). High-yield on exams as a classic complication of cirrhosis requiring prompt recognition and treatment (e.g., lactulose).",
+  "how_youll_see_it": [
+    "Occurs in patients with chronic liver disease (e.g., cirrhosis from hepatitis or alcohol) who develop altered mental status. Early signs are subtle (**inverted sleep-wake** cycle, mild confusion, forgetfulness); as it progresses, patients show **asterixis** (flapping hand tremor), slurred speech, and can become lethargic or even comatose.",
+    "Common precipitating factors: **infection** (especially spontaneous bacterial peritonitis), **gastrointestinal bleeding** (increased ammonia from blood in gut), **dehydration** or volume loss (e.g., over-diuresis), **electrolyte disturbances** (notably **hypokalemia**, which increases ammonia production), **sedative drugs** (benzodiazepines, opioids), and **TIPS** (shunting blood past liver). Even **constipation** can precipitate HE by increasing ammonia absorption."
+  ],
+  "problem_solving": [
+    "Exclude other causes of altered mental status: check **glucose**, consider head CT (if trauma or focal deficit), and screen for infections or toxins (don't assume every confused cirrhotic is \"just HE\").",
+    "Identify and address precipitating causes: perform diagnostic **paracentesis** to rule out SBP, review medications (stop sedatives), check electrolytes (correct hypokalemia), and treat any GI hemorrhage or infection.",
+    "Measure **serum ammonia** to support the diagnosis (typically elevated), but remember normal ammonia does not rule out HE and level often poorly correlates with severity. Don't rely on serial ammonia levels to guide therapy.",
+    "Grade the severity using West Haven criteria: Grade I – mild confusion, mood changes, **sleep disturbance**; Grade II – lethargy, disorientation, **asterixis**; Grade III – somnolence, incoherent speech, marked confusion; Grade IV – **coma**. Severe HE (Grade III–IV) requires ICU care and airway protection."
+  ],
+  "differentials": [
+    { "name": "Wernicke encephalopathy", "hint": "confusion in an alcoholic with **ataxia** and **ocular** signs; improves with thiamine" },
+    { "name": "Delirium (non-hepatic)", "hint": "acute confusion from other causes (e.g., sepsis, drugs, metabolic); usually lacks asterixis" },
+    { "name": "Uremic encephalopathy", "hint": "advanced **renal failure** (↑BUN) causing AMS and asterixis; improves with dialysis" }
+  ],
+  "tricks": [
+    "The classic **asterixis** (\"flapping tremor\") is not specific to HE – it also appears in **uremia** and **CO2 retention**, but its presence in a cirrhotic patient is a big clue for HE.",
+    "**Do not** chronically restrict dietary protein in cirrhosis – malnutrition worsens outcomes. Patients need ~1.2–1.5 g/kg of protein daily (small frequent meals and a bedtime snack).",
+    "Serum **ammonia** often is high in HE, but levels do **not** reliably correlate with encephalopathy severity – manage the patient, not the number."
+  ],
+  "exam_appearance": [
+    "Patient with long-standing cirrhosis (ascites, varices) develops confusion, **inverted sleep schedule**, and a flapping hand tremor → hepatic encephalopathy (likely precipitated by a trigger such as infection or dehydration).",
+    "After a large variceal bleed, a cirrhotic patient becomes lethargic with **asterixis** and confusion → HE caused by increased ammonia from GI bleeding.",
+    "Cirrhotic who recently had a **TIPS** procedure now presents with confusion and irritability → suspect HE due to portosystemic shunting."
+  ],
+  "treatment": [
+    "Stabilize and treat precipitants first: ensure adequate **airway** (Grade III/IV HE may require intubation for coma/aspiration risk) and address the cause (e.g., start antibiotics for SBP, control any GI bleeding, rehydrate and correct electrolytes).",
+    "Give **lactulose** promptly – it's the first-line therapy. Titrate this nonabsorbable disaccharide to produce 2–3 soft bowel movements per day. It acidifies the colon, trapping ammonia as ammonium (NH4+) and expelling it with laxation.",
+    "Add **rifaximin** (nonabsorbable antibiotic) for persistent or recurrent HE. Rifaximin reduces ammonia-producing gut bacteria and is often used alongside lactulose, especially after a second HE episode (neomycin is an older alternative if rifaximin is unavailable).",
+    "Avoid or correct precipitating factors: discontinue sedatives (no benzodiazepines in cirrhosis), adjust diuretics to prevent dehydration, and replace potassium if low. Ensure adequate nutrition – **do not** severely restrict protein; provide enough protein to avoid muscle breakdown.",
+    "For refractory HE, consider additional measures (e.g., zinc supplementation) and evaluate for **liver transplantation** as definitive therapy once other causes are ruled out and medical management is optimized."
+  ],
+  "red_flags": [
+    "Acute liver failure with any encephalopathy (Type A HE) is very high risk – even Grade I–II can progress rapidly to cerebral edema and herniation. Advanced grades (III–IV) in acute liver failure warrant ICU care with intracranial pressure monitoring and urgent transplant evaluation.",
+    "Lack of improvement with standard HE therapy → reconsider the diagnosis. A cirrhotic patient not responding to lactulose/rifaximin may have another cause of AMS (e.g., intracranial hemorrhage, infection) requiring separate intervention."
+  ],
+  "algorithm": [
+    "Cirrhotic patient with altered mental status → suspect hepatic encephalopathy.",
+    "Initial steps: check ABCs (protect airway if needed) and fingerstick **glucose**; begin empiric HE treatment (e.g., lactulose) while investigating triggers.",
+    "Concurrent evaluation: perform necessary tests (labs for electrolytes, ammonia, infection; ascites tap for SBP; imaging like head CT if focal neuro signs) to identify precipitating factors or alternate diagnoses.",
+    "Treat identified precipitants (antibiotics for infection, endoscopy for variceal bleed, IV fluids for dehydration, etc.) and continue ammonia-lowering therapy (lactulose; add rifaximin if needed).",
+    "Monitor mental status closely. For severe HE (coma or stupor), admit to ICU and consider intubation. Once stabilized, implement secondary prophylaxis (daily lactulose ± rifaximin) and address underlying liver disease (e.g., referral for transplant in appropriate candidates)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/Alzheimer_type_II_astrocyte_high_mag_cropped.jpg",
+      "alt": "High-magnification micrograph showing so-called Alzheimer type II astrocytes (pale, swollen astrocyte nuclei) – a characteristic histologic finding in the brain of patients with hepatic encephalopathy.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Alzheimer_type_II_astrocyte_high_mag_cropped.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55-year-old man with a history of hepatitis C cirrhosis and esophageal varices is brought in for confusion and drowsiness.",
+      "clues": [
+        "Known decompensated cirrhosis (ascites, varices)",
+        "Altered sleep pattern and personality changes",
+        "Disoriented, with a flapping tremor (asterixis) on exam",
+        "Had an episode of hematemesis 2 days ago"
+      ],
+      "answer": "Hepatic encephalopathy (precipitated by GI hemorrhage)",
+      "teaching": "In cirrhosis, a GI bleed increases nitrogen in the gut (blood digestion) leading to ammonia buildup and encephalopathy. This patient's confusion and asterixis after bleeding are classic for HE. Management would include lactulose and addressing the bleed; prevention involves lactulose (and rifaximin if recurrent) and avoiding precipitating factors."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "portal-hypertension",
+    "ascites",
+    "esophageal-varices",
+    "alcohol-associated-liver-disease",
+    "hepatitis"
+  ],
+  "prerequisites": [
+    "liver-physiology",
+    "urea-cycle"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hepatic Encephalopathy (Mandiga et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430869/"
+    },
+    {
+      "title": "UpToDate: Hepatic encephalopathy in adults – clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/hepatic-encephalopathy-in-adults-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Medscape: Hepatic Encephalopathy (2025)",
+      "url": "https://emedicine.medscape.com/article/186101-overview"
+    },
+    {
+      "title": "AASLD Liver Fellow Network: Decoding Hepatic Encephalopathy (Jahagirdar, 2024)",
+      "url": "https://www.aasld.org/liver-fellow-network/core-series/back-basics/back-basics-decoding-hepatic-encephalopathy"
+    },
+    {
+      "title": "Hepatic encephalopathy – Cleveland Clinic (2023)",
+      "url": "https://my.clevelandclinic.org/health/diseases/21220-hepatic-encephalopathy"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

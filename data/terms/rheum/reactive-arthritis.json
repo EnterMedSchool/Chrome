@@ -1,0 +1,97 @@
+{
+  "id": "reactive-arthritis",
+  "names": ["Reactive arthritis"],
+  "aliases": ["Reiter syndrome"],
+  "abbr": ["ReA"],
+  "patterns": ["reactive arthritis", "Reiter syndrome", "Reiter's syndrome"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "infectious_dz", "immunology"],
+  "definition": "Post-infectious inflammatory arthritis that typically occurs **1–4 weeks after** a gastrointestinal or genitourinary infection. Characterized by an asymmetric oligoarthritis (often **knees, ankles**), frequently accompanied by **urethritis** and **conjunctivitis/uveitis** (the classic triad \"can't see, can't pee, can't climb a tree\"). Usually **HLA-B27** associated (30–50% of cases) and seronegative.",
+  "why_it_matters": "Although relatively uncommon, reactive arthritis is a high-yield topic because it connects infection with rheumatology and often presents with a memorable triad. Prompt recognition can lead to appropriate management (including treating any lingering infection). It also underscores that not all arthritis with systemic features is RA or lupus – an infection history is key.",
+  "how_youll_see_it": [
+    "Typically a **young adult male** with a recent infection: either a **dysenteric diarrhea** (e.g., Shigella, Salmonella, Yersinia, Campylobacter) or a **sexually transmitted** infection (Chlamydia trachomatis most commonly). A few weeks later, he develops joint pain.",
+    "Arthritis is usually an **asymmetric oligoarthritis**, especially of lower extremities (knees, ankles, feet). Toes may show **dactylitis**. Patients often also have **enthesitis**, like Achilles tendon pain or plantar fasciitis.",
+    "Classic extra-articular features: **Urethritis** (or cervicitis in women) causing dysuria or discharge – sometimes mild and easily missed. **Conjunctivitis** or **anterior uveitis** causing eye redness, pain, or photophobia. Mucocutaneous lesions can occur: **circinate balanitis** (painless penile ulcerations) and **keratoderma blennorrhagica** (hyperkeratotic skin lesions on soles/palms) are characteristic but not always present.",
+    "General: may have low-grade fever, malaise at onset. Not all patients get the full triad – many just have arthritis (hence high index of suspicion needed with recent infection).",
+    "Course: often self-limited over 3-12 months, but can be recurrent or chronic in some cases (especially if HLA-B27 positive)."
+  ],
+  "problem_solving": [
+    "History is crucial: always ask about **recent infections** (diarrhea, dysuria, etc.) in a young patient with new arthritis. Many GI infections could be remote by a few weeks and resolved, so patient might not connect them to arthritis.",
+    "Rule out active infection: e.g., test for **Chlamydia** if urethritis is suspected (urine NAAT) – treating it can help. Stool cultures for GI bugs are often negative by the time arthritis starts, but a history of recent enteritis is enough.",
+    "Arthrocentesis: If a joint is hot and swollen, do a synovial fluid analysis to exclude **septic arthritis**. In reactive arthritis, fluid will be inflammatory (WBC 5,000-50,000) but **culture negative** (because it's reactive, not an active infection in the joint).",
+    "Lab: There are no specific markers; ESR/CRP often elevated. HLA-B27 testing can be supportive (positive in ~30-50% of cases), but not diagnostic. RF and CCP are negative.",
+    "Ensure to consider differentials: e.g., **disseminated gonococcal infection** (can cause arthritis with possibly urethritis, but typically has more migratory pattern and often concurrent tenosynovitis and skin pustules), or other causes of post-infectious arthritis like rheumatic fever (different context, usually in kids after strep)."
+  ],
+  "differentials": [
+    { "name": "Septic arthritis", "hint": "must exclude by joint fluid culture if a single joint is very inflamed; reactive arthritis has sterile fluid" },
+    { "name": "Disseminated gonococcal infection", "hint": "polyarticular migratory arthritis often with tenosynovitis and skin lesions; culture may grow N. gonorrhoeae, requires antibiotics" },
+    { "name": "Rheumatoid arthritis", "hint": "usually symmetric and chronic, and not specifically post-infectious; also RF/CCP+ in RA vs negative in ReA" }
+  ],
+  "tricks": [
+    "\"**Can't see, can't pee, can't climb a tree**\" = mnemonic for reactive arthritis (conjunctivitis/uveitis, urethritis, arthritis).",
+    "**Reiter syndrome** is the old name (don't use clinically, but exam may mention it). It's the same as reactive arthritis, minus the Nazi baggage of Dr. Reiter.",
+    "Common infection triggers: **Chlamydia** (GU) and **Campylobacter** (GI) are big ones to remember.",
+    "The arthritis in ReA is typically **asymmetric and oligoarticular**, hitting large joints of legs. If you see Achilles tendon pain and a swollen knee after a recent food poisoning, think reactive arthritis."
+  ],
+  "exam_appearance": [
+    "24-year-old man with a history of **Chlamydia** infection presents with right knee arthritis, conjunctivitis, and dysuria → **Reactive arthritis** (Reiter syndrome).",
+    "22-year-old male had **bloody diarrhea** 3 weeks ago; now has left ankle and right knee swelling, heel pain, and painless oral ulcers → **Reactive arthritis**.",
+    "Patient with asymmetric arthritis and past GI infection, synovial fluid shows inflammatory cells but negative culture → **Reactive arthritis** (sterile synovitis post-infection)."
+  ],
+  "treatment": [
+    "**Treat the inciting infection** if still present: e.g., appropriate antibiotics for **Chlamydia trachomatis** (azithromycin or doxycycline for patient and partners) even if arthritis is ongoing; it may not reverse arthritis but prevents ongoing antigen stimulus. For enteric pathogens, usually the infection has cleared by the time arthritis starts.",
+    "**NSAIDs** are mainstay for arthritis symptom relief (often need high doses for anti-inflammatory effect). They are the mainstay for most patients and can be used continuously during the active arthritis period.",
+    "If NSAIDs inadequate, consider **sulfasalazine** or **methotrexate** for persistent arthritis (especially in chronic or prolonged cases). These DMARDs can help tamp down inflammation in reactive arthritis. In severe, refractory cases, **TNF inhibitors** have been used, though not first-line in this post-infectious context.",
+    "**Corticosteroids**: Local glucocorticoid injections can be very helpful for a few stubborn joints (e.g., a really inflamed knee). Systemic steroids (oral) may be used short-term for severe inflammation, but long courses are avoided given this is often self-limited.",
+    "Physical therapy is important to maintain joint function and muscle strength during recovery. Most patients improve over months; follow-up is needed to monitor for recurrence or chronic arthritis."
+  ],
+  "red_flags": [
+    "Missing an infection: Ensure that what you think is reactive arthritis isn't actually a **gonococcal septic arthritis** – gonococcal infection can cause migratory arthritis and some urinary symptoms; a positive joint culture or NAAT from joint fluid would confirm an actual infection requiring urgent antibiotics.",
+    "Eye involvement: **Uveitis** can threaten vision – if a patient has eye pain or redness, refer to ophthalmology for aggressive therapy (topical or systemic steroids) to prevent vision loss.",
+    "Cardiac involvement (rare): Reactive arthritis can very rarely cause cardiac conduction issues or aortitis similar to other spondyloarthritides – new cardiac symptoms (chest pain, syncope) in a patient with ReA should prompt evaluation."
+  ],
+  "algorithm": [
+    "Recent GI/GU infection + new asymmetric arthritis → consider **reactive arthritis**.",
+    "Obtain pertinent labs: **NAAT for Chlamydia** (urine or swab), stool culture if diarrhea ongoing (usually negative if time has passed). Aspirate affected joint fluid to exclude septic arthritis (fluid will be culture-negative in ReA).",
+    "Start **NSAIDs** for arthritis symptoms. If Chlamydia-positive, treat with appropriate **antibiotics**. Advise rest for acutely inflamed joints and use local measures (cold packs).",
+    "No active infection found or arthritis persists despite infection treatment → consider adding **sulfasalazine** for disease-modifying effect if arthritis is prolonged (>6 months).",
+    "Follow patient for resolution. Most cases resolve in <1 year. If chronic, refer to rheumatology – may need MTX or biologic therapy. Ensure follow-up for eye checks (for uveitis) and support patient through recurring flares if they happen."
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man had dysentery 3 weeks ago. Now he presents with pain and swelling in the right knee and left ankle, along with redness in one eye.",
+      "clues": ["Recent bloody diarrhea", "Knee and ankle arthritis", "Conjunctivitis", "HLA-B27 positive"],
+      "answer": "Reactive arthritis (Reiter syndrome)",
+      "teaching": "This is reactive arthritis triggered by an enteric infection. The classic triad (arthritis, conjunctivitis, urethritis) clinches it, although not all features are always present. Management includes NSAIDs for arthritis and treating any persistent infection (though often GI bugs have cleared). Most cases will resolve over time; monitor and provide supportive care."
+    }
+  ],
+  "see_also": [
+    "spondyloarthritides",
+    "ankylosing-spondylitis",
+    "psoriatic-arthritis",
+    "enteropathic-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Reactive Arthritis (Cheeti & Chakraborty, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499831/"
+    },
+    {
+      "title": "UpToDate: Reactive arthritis",
+      "url": "https://www.uptodate.com/contents/reactive-arthritis"
+    },
+    {
+      "title": "Medscape: Reactive Arthritis (2025)",
+      "url": "https://emedicine.medscape.com/article/331347-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

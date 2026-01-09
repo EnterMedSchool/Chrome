@@ -1,0 +1,136 @@
+{
+  "id": "spinal-muscular-atrophy",
+  "names": [
+    "Spinal muscular atrophy"
+  ],
+  "aliases": [
+    "Werdnig-Hoffmann disease",
+    "Dubowitz disease",
+    "Kugelberg-Welander disease"
+  ],
+  "abbr": [
+    "SMA"
+  ],
+  "patterns": [
+    "sma",
+    "spinal muscular atrophy",
+    "werdnig hoffmann",
+    "werdnig-hoffmann",
+    "kugelberg welander",
+    "kugelberg-welander",
+    "dubowitz",
+    "floppy baby"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Group of autosomal recessive **motor neuron** disorders (SMN1 gene deletion on 5q) causing degeneration of anterior horn cells and progressive symmetric muscle weakness/atrophy (proximal > distal).",
+  "why_it_matters": "SMA is the second most common fatal AR disorder after cystic fibrosis, making it a leading genetic cause of infant mortality. However, newly available therapies (e.g., SMN-enhancing **nusinersen**) can dramatically improve survival if started early.",
+  "how_youll_see_it": [
+    "Type 0 (very rare, congenital): ↓**fetal movements**, **arthrogryposis**, and facial weakness in utero; infant born with severe hypotonia and respiratory failure (usually fatal within months).",
+    "Type I (infantile, **Werdnig-Hoffmann**): onset <6 mo with **floppy baby** hypotonia, poor head control, **tongue fasciculations**, weak suck/swallow, and breathing difficulties; without intervention most die <2 yrs.",
+    "Type II (intermediate, **Dubowitz**): onset 6–18 mo; infants can **sit** but never stand or walk; symmetric **flaccid weakness** (legs > arms) with absent reflexes; progressive scoliosis and respiratory issues, survival often into young adulthood.",
+    "Type III (juvenile, **Kugelberg-Welander**): onset >18 mo (toddler/childhood); **walks** initially but may lose ambulation later; proximal leg weakness (difficulty running, climbing) is most prominent; **no** significant respiratory issues and near-normal life expectancy.",
+    "Type IV (adult-onset): onset in the 20s–30s with very **mild** proximal muscle weakness; slow progression and **normal lifespan** (may resemble a pure lower motor neuron form of ALS)."
+  ],
+  "problem_solving": [
+    "Suspect SMA in an infant with **hypotonia** and areflexia (especially if tongue fasciculations) – confirm diagnosis with **genetic testing** (SMN1 deletion analysis), which is now included in newborn screening.",
+    "Differentiate SMA vs muscle disorders: in SMA, **creatine kinase** levels are normal or mildly ↑ (due to neuron loss), whereas muscular dystrophies show very high CK.",
+    "Electrodiagnostics (EMG/NCS): normal nerve conduction with diffuse denervation on EMG supports a **motor neuron** process (vs primary muscle or peripheral nerve pathology).",
+    "If family history is positive, consider **prenatal testing** (CVS or amniocentesis) to detect SMA in utero."
+  ],
+  "differentials": [
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "hint": "**X-linked** myopathy; onset ~2–3 yrs (not neonatal) with proximal weakness, calf pseudohypertrophy, and **↑↑CK**"
+    },
+    {
+      "name": "Congenital myopathy",
+      "hint": "floppy infant due to intrinsic muscle disorders (e.g., central core, nemaline); often milder or static course; normal or mildly ↑CK"
+    },
+    {
+      "name": "Infantile botulism",
+      "hint": "floppy baby with constipation and cranial nerve palsies (C. botulinum toxin from honey blocks ACh release at NMJ)"
+    }
+  ],
+  "tricks": [
+    "More **SMN2** gene copies → milder SMA (extra SMN2 backup genes produce more functional protein).",
+    "**Tongue fasciculations** in a floppy infant are a red flag for SMA (LMN lesion)."
+  ],
+  "exam_appearance": [
+    "Infant with **floppy** hypotonia, absent reflexes, feeding difficulty, **tongue fasciculations**, and paradoxical breathing → SMA Type I (Werdnig-Hoffmann).",
+    "15‑month‑old who can sit but never walked, now with progressive proximal weakness and developing **scoliosis** → SMA Type II."
+  ],
+  "treatment": [
+    "Disease-modifying therapies: **Nusinersen** (antisense oligo ↑SMN2-derived protein, intrathecal), **Risdiplam** (oral SMN2 splicing modifier), and **Onasemnogene abeparvovec** (one-time gene replacement) – these can improve motor function, especially if started early.",
+    "Supportive care: multidisciplinary support with **PT/OT** (maximize motor function, prevent contractures), respiratory support (e.g., BiPAP or ventilation), and nutritional support (**feeding tube** if risk of aspiration)."
+  ],
+  "red_flags": [
+    "**Respiratory failure** – Paradoxical breathing (bell-shaped chest) or hypoventilation in an SMA infant signals impending failure; initiate ventilatory support immediately.",
+    "**Aspiration risk** – Poor **swallowing** and weak cough can cause aspiration pneumonia; provide feeding support (NG/PEG tube) to prevent this."
+  ],
+  "algorithm": [
+    "Positive **newborn screen** or 'floppy' infant → confirm SMA with **SMN1 genetic test**.",
+    "If SMA confirmed → promptly begin **SMN-enhancing therapy** (e.g., nusinersen) before significant motor neuron loss occurs.",
+    "Initiate comprehensive **supportive care**: pulmonology (respiratory support, airway clearance), nutrition (feeding assistance), orthopedics (scoliosis management), and PT/OT.",
+    "Follow closely to monitor **respiratory status**, nutritional status, and orthopedic complications (scoliosis, contractures), adjusting support as needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Schematic_of_SMN_gene.png",
+      "alt": "Schematic showing SMN1 vs SMN2 gene splicing: SMN1 normally produces full-length SMN protein, while SMN2 often excludes exon 7 (yielding less functional protein).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Schematic_of_SMN_gene.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑month‑old boy is evaluated for extreme muscle weakness and feeding difficulties.",
+      "clues": [
+        "Severe hypotonia ('floppy baby') since birth",
+        "Poor head control and weak sucking/swallowing",
+        "Absent deep tendon reflexes",
+        "Tongue fasciculations with paradoxical chest movements"
+      ],
+      "answer": "Spinal muscular atrophy Type I (Werdnig-Hoffmann disease)",
+      "teaching": "SMA Type I causes degeneration of anterior horn cells, leading to a profoundly hypotonic, areflexic infant with muscle atrophy. Tongue fasciculations are classic due to LMN involvement. Without early SMN-targeted therapy, respiratory failure and death in infancy are common."
+    }
+  ],
+  "see_also": [
+    "duchenne-muscular-dystrophy",
+    "amyotrophic-lateral-sclerosis",
+    "myasthenia-gravis"
+  ],
+  "prerequisites": [
+    "autosomal-recessive-inheritance",
+    "lower-motor-neuron"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Spinal Muscle Atrophy (Burr & Reddivari, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560687/"
+    },
+    {
+      "title": "Medscape: Spinal Muscular Atrophy (Rosenfeld, 2022)",
+      "url": "https://emedicine.medscape.com/article/1181436-overview"
+    },
+    {
+      "title": "Merck Manual: Spinal Muscular Atrophies (Rubin & Levin, rev. 2024)",
+      "url": "https://www.merckmanuals.com/professional/neurologic-disorders/peripheral-nervous-system-and-motor-unit-disorders/spinal-muscular-atrophies-smas"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

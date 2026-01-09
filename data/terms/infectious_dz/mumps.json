@@ -1,0 +1,123 @@
+{
+  "id": "mumps",
+  "names": ["Mumps"],
+  "aliases": ["epidemic parotitis"],
+  "abbr": [],
+  "patterns": ["mumps", "epidemic parotitis", "mumps infection"],
+  "primary_tag": "infectious_dz",
+  "tags": ["peds", "micro_virus", "infectious_dz"],
+  "definition": "Contagious viral illness (a paramyxovirus) causing painful swelling of the salivary glands (**parotitis**), sometimes leading to complications like **orchitis** (testicular inflammation) or aseptic meningitis.",
+  "why_it_matters": "Before vaccines, mumps was a leading cause of aseptic meningitis and hearing loss in children. Widespread MMR vaccination led to a >99% reduction in cases, but outbreaks still occur (especially in unvaccinated groups or crowded settings). Mumps is frequently tested as a classic vaccine-preventable disease with notable complications.",
+  "how_youll_see_it": [
+    "Prodrome: **low-grade fever**, headache, malaise, and myalgias for a few days. Then classically **parotid gland swelling** (usually bilateral) develops, causing \"chipmunk cheeks,\" jaw pain, earache, and difficulty chewing. Parotid swelling lasts about 5–7 days and may obscure the angle of the mandible; Stensen's duct opening can appear red and swollen.",
+    "Typically affects **children or young adults**. Outbreaks occur in close-contact settings (schools, colleges, camps), especially among those **unvaccinated** or with incomplete vaccination. Vaccinated individuals can still get mumps (vaccine ~88% effective with two doses), but their illness tends to be milder.",
+    "In post-pubertal males, **orchitis** (testicular inflammation) occurs in ~15–30% of unvaccinated cases (and ~6% if vaccinated). Orchitis usually presents 4–8 days after parotitis as fever with severe unilateral testicular pain and swelling. About half of mumps orchitis cases lead to testicular atrophy, though infertility is rare.",
+    "Mumps can involve the **central nervous system**: aseptic meningitis occurs in up to ~10% of cases (more often in males), typically causing headache, nuchal rigidity, but usually resolves without sequelae. Encephalitis is very rare (<0.1%) but serious (e.g., confusion, seizures).",
+    "Other features: **Elevated amylase** is common (from salivary gland inflammation). Mumps can also cause pancreatitis (presenting with abdominal pain and nausea), **oophoritis** or mastitis in females, and even unilateral **hearing loss** (rare, usually transient). Complications are generally more frequent in adults than in children."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with labs. Obtain a buccal swab for **RT-PCR** (best within 3 days of parotid swelling) or an **IgM serology** if later in the illness. Serum amylase is often elevated in mumps, supporting the diagnosis.",
+    "Consider the differential diagnosis of parotitis. Rule out **suppurative parotitis** (bacterial infection, usually unilateral with pus drainage and systemic toxicity) and other viruses (EBV, CMV, influenza, parainfluenza) that can also cause parotid swelling. If mumps tests are negative, investigate these other causes (e.g., EBV serology).",
+    "Public health: **isolate** suspected mumps cases (droplet precautions) and notify local health authorities (mumps is reportable). Check the patient's **vaccination history** and recommend MMR vaccine for any unvaccinated close contacts.",
+    "Assess for complications: perform a testicular exam in post-pubertal males (to evaluate for orchitis), and neurological exam for signs of meningitis or encephalitis (consider lumbar puncture if meningitis is suspected). Manage any complications supportively."
+  ],
+  "differentials": [
+    {
+      "name": "Suppurative parotitis (bacterial)",
+      "hint": "Usually unilateral, very tender gland with pus at Stensen's duct (classically in dehydrated or elderly patients; often **Staph aureus**)."
+    },
+    {
+      "name": "Sialolithiasis",
+      "hint": "Salivary gland stone (often submandibular gland) causing intermittent swelling and pain, especially during meals; no fever or systemic illness."
+    },
+    {
+      "name": "Infectious mononucleosis (EBV)",
+      "hint": "Fever, sore throat, and diffuse lymphadenopathy (positive Monospot test); occasionally causes parotid or salivary gland swelling but with prominent pharyngitis."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **POM**–**P**arotitis, **O**rchitis, **M**eningitis (mumps makes your parotids and testes as big as \"POM-poms\").",
+    "Bilateral parotid gland swelling in a child or teen → think mumps (especially if unvaccinated). Unilateral parotitis with purulent discharge suggests a bacterial infection instead.",
+    "Mumps can occur **without parotitis** – for example, isolated orchitis or aseptic meningitis during a mumps outbreak. Lack of swollen parotids doesn't rule out mumps if other clues fit."
+  ],
+  "exam_appearance": [
+    "Unvaccinated child with fever, fatigue, and **bilateral cheek swelling** (parotids) → Mumps infection.",
+    "Young adult with painful parotid swelling followed by **testicular pain and swelling** → Mumps orchitis complication.",
+    "Patient with parotitis who develops headache and neck stiffness; CSF shows lymphocytic pleocytosis, normal glucose → Mumps **aseptic meningitis**."
+  ],
+  "treatment": [
+    "**Supportive care** only – there is no specific antiviral for mumps. Give analgesics/antipyretics (e.g., acetaminophen or NSAIDs) for fever and pain, encourage hydration and rest. For orchitis, provide bed rest, NSAIDs for pain, and supportive measures (scrotal support, cold packs).",
+    "**Isolation and infection control:** Mumps patients are contagious via respiratory droplets. Advise isolation (stay home, avoid contact) until 5 days after parotid swelling onset. Use droplet precautions in healthcare settings to prevent spread.",
+    "**Prevention:** Report confirmed cases to public health. Ensure all close contacts are up to date with **MMR vaccine** – vaccination (two doses) is ~88% effective at preventing mumps. During outbreaks, health officials may recommend a **third MMR dose** for at-risk groups to boost protection."
+  ],
+  "red_flags": [
+    "Severe **testicular pain** in an adolescent – evaluate for testicular torsion (a surgical emergency) even if mumps orchitis is suspected.",
+    "Signs of **encephalitis** (confusion, seizures, altered consciousness) in a mumps patient → rare but life-threatening complication; requires urgent evaluation and supportive care (hospitalization).",
+    "Pregnancy: mumps infection in the first trimester can increase risk of miscarriage – pregnant patients with mumps need close monitoring and obstetric consultation."
+  ],
+  "algorithm": [
+    "Patient with parotid swelling and viral prodrome → **Suspect mumps**, especially if unvaccinated or exposure history.",
+    "Implement **droplet isolation** and obtain diagnostic tests (buccal swab PCR for mumps virus, and/or mumps IgM serology).",
+    "If confirmed or highly suspected, **notify public health** (for contact tracing and outbreak control). Advise unvaccinated contacts to receive MMR vaccine.",
+    "Provide supportive treatment (hydration, analgesics) and monitor for complications. If orchitis is present, manage pain and support; if meningitis symptoms, consider lumbar puncture to confirm aseptic meningitis.",
+    "If mumps testing is negative or swelling is unilateral with pus, pursue other causes of parotitis (e.g., bacterial culture, imaging for sialolithiasis) and treat accordingly."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mumps_PHIL_130_lores.jpg",
+      "alt": "Child with mumps infection showing classic puffy cheeks from swollen parotid glands.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Mumps_PHIL_130_lores.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 20‑year‑old college student presents with two days of fever, headache, and fatigue, followed by swelling at the angles of his jaw.",
+      "clues": [
+        "Painful bilateral parotid gland enlargement",
+        "Testicular pain and swelling",
+        "Incomplete vaccination history (only one MMR dose in childhood)",
+        "Several classmates had similar symptoms recently"
+      ],
+      "answer": "Mumps (paramyxovirus infection)",
+      "teaching": "Under-immunized young adult with classic **parotitis** and **orchitis** – this is mumps. Mumps is caused by a paramyxovirus and is prevented by the live attenuated MMR vaccine. Treatment is supportive (no specific antiviral) with isolation to prevent spread."
+    }
+  ],
+  "see_also": [
+    "rubella",
+    "vzv-infections",
+    "tonsillitis"
+  ],
+  "prerequisites": [
+    "paramyxoviruses",
+    "vaccines"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Mumps (Rausch-Phung & Davison, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534785/"
+    },
+    {
+      "title": "UpToDate: Mumps (Accessed 2025)",
+      "url": "https://www.uptodate.com/contents/mumps"
+    },
+    {
+      "title": "Medscape: Mumps (2025)",
+      "url": "https://emedicine.medscape.com/article/966678-overview"
+    },
+    {
+      "title": "CDC Pink Book: Mumps (2023)",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-15-mumps.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

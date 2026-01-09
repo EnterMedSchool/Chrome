@@ -1,0 +1,132 @@
+{
+  "id": "mastocytosis",
+  "names": [
+    "Mastocytosis"
+  ],
+  "aliases": [
+    "urticaria pigmentosa",
+    "mast cell disease",
+    "systemic mastocytosis"
+  ],
+  "abbr": [
+    "SM"
+  ],
+  "patterns": [
+    "mastocytosis",
+    "mast cell disease",
+    "urticaria pigmentosa",
+    "systemic mastocytosis"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "immunology",
+    "msk_derm",
+    "peds"
+  ],
+  "definition": "Clonal mast cell proliferation (often driven by a KIT **D816V** mutation) causing mast cell accumulation in tissues; may be confined to skin (**cutaneous mastocytosis**) or involve multiple organs (**systemic mastocytosis**).",
+  "why_it_matters": "Mast cells release histamine and other mediators causing allergy-like symptoms; in mastocytosis this process is chronic and can be severe. Recognizing mastocytosis explains recurrent anaphylaxis, atypical rashes, and can prevent misdiagnosis as simple allergies. Also, systemic mastocytosis is a **myeloid neoplasm** with potentially life-threatening complications and targeted treatments.",
+  "how_youll_see_it": [
+    "Cutaneous mastocytosis (children): skin-limited mast cell proliferations like **urticaria pigmentosa** (brown macules/papules that urticate with rubbing); often presents in infancy and can blister or itch, but typically **resolves by puberty**.",
+    "Systemic mastocytosis (adults): clonal mast cell infiltration of bone marrow and other organs (±skin lesions). Causes episodic mediator release (flushing, pruritus, abdominal pain, **anaphylaxis**) and may lead to **hepatosplenomegaly**, lymphadenopathy, or bone pain/osteoporosis in advanced cases.",
+    "Systemic subtypes (WHO 2022): **indolent SM** (most common, low mast cell burden, often skin lesions, no organ damage), **smoldering SM** (high mast cell burden, borderline findings), **aggressive SM** (mast cell infiltrates cause organ dysfunction/failure), **SM-AHN** (SM with an associated hematologic neoplasm, e.g. SM + CMML or AML), and **mast cell leukemia** (rare, circulating mast cells with fulminant course)."
+  ],
+  "problem_solving": [
+    "Suspect mastocytosis in patients with recurrent unexplained **anaphylaxis**, flushing, or persistent urticarial skin lesions. Measure baseline **serum tryptase**; a level >20 ng/mL is a strong clue for systemic mastocytosis.",
+    "Confirm diagnosis with tissue biopsy: a **skin biopsy** (if only cutaneous signs) or **bone marrow biopsy** (for systemic signs) showing dense mast cell aggregates (CD117⁺, tryptase⁺ cells with metachromatic granules on toluidine blue stain). Genetic testing for the **KIT D816V** mutation (peripheral blood or marrow) confirms clonality in ~90% of cases.",
+    "Assess for organ involvement: perform lab tests (CBC for cytopenias, liver enzymes, alkaline phosphatase, bone profile) and imaging if needed (e.g., bone density scan for osteoporosis) to evaluate disease extent. Findings like cytopenias, hepatosplenomegaly, or malabsorption suggest progression to advanced systemic mastocytosis.",
+    "Distinguish mastocytosis from look-alikes: e.g., chronic **idiopathic urticaria** (allergic in nature, normal baseline tryptase), **carcinoid syndrome** (flushing and diarrhea from neuroendocrine tumor, elevated 5-HIAA not tryptase), or **pheochromocytoma** (episodic flushing with hypertension from catecholamines)."
+  ],
+  "differentials": [
+    {
+      "name": "Allergic urticaria/anaphylaxis",
+      "hint": "episodic IgE-mediated reactions; no clonal mast cell proliferation, normal baseline tryptase"
+    },
+    {
+      "name": "Carcinoid syndrome",
+      "hint": "flushing & diarrhea from serotonin-secreting tumor; ↑5-HIAA, not mast cell related"
+    },
+    {
+      "name": "Pheochromocytoma",
+      "hint": "episodic adrenergic symptoms (sweating, tachycardia, hypertension); due to catecholamines, not histamine"
+    }
+  ],
+  "tricks": [
+    "Classic **Darier's sign**: stroking a mastocytosis skin lesion causes it to urticate (redden and swell) due to mast cell degranulation – a key bedside clue for cutaneous mastocytosis.",
+    "Remember **tryptase**: Mast cell tryptase is almost exclusively from mast cells – a persistently elevated serum tryptase is a hallmark of systemic mastocytosis (and a minor diagnostic criterion)."
+  ],
+  "exam_appearance": [
+    "Infant with dozens of brown patchy lesions that urticate when rubbed (**Darier's sign** positive) but is otherwise well → cutaneous mastocytosis (urticaria pigmentosa, likely to improve by adolescence).",
+    "Middle-aged adult with episodes of flushing, syncope, and **abdominal cramping**; exam shows diffuse red-brown maculopapular rash and labs reveal **elevated tryptase** → systemic mastocytosis (indolent form with mediator release symptoms).",
+    "Patient with known indolent mastocytosis who develops weight loss, ascites, anemia, and bone lesions → progression to **aggressive systemic mastocytosis** (organ damage from mast cell infiltration)."
+  ],
+  "treatment": [
+    "Avoid mast cell triggers: e.g., alcohol, extreme temperatures, **NSAIDs**, opioids, insect stings. All patients should carry an **epinephrine** auto-injector for anaphylaxis and be premedicated before surgeries (antihistamines, glucocorticoids, leukotriene blockers).",
+    "Symptom control (anti-mediator therapy): **H1 blockers** (antihistamines) for pruritus and flushing; **H2 blockers** or proton pump inhibitors for gastric hypersecretion; **cromolyn sodium** for GI symptoms; topical steroids or **PUVA** phototherapy for cutaneous lesions.",
+    "Advanced systemic disease (organ involvement or high burden): cytoreductive therapy with **tyrosine kinase inhibitors** targeting KIT (e.g., **midostaurin**, **avapritinib** for KIT D816V-mutated disease) or interferon-α/cladribine in select cases. Refractory aggressive disease may warrant **hematopoietic stem cell transplant** in eligible patients."
+  ],
+  "red_flags": [
+    "Any **anaphylactic shock** (hypotension, airway compromise) in a mastocytosis patient → emergency management with IM epinephrine; these patients have high fatality risk from anaphylaxis (e.g., after bee stings or contrast). Ensure they have epinephrine and proper education.",
+    "New **organ failure** signs in previously indolent mastocytosis (e.g., cytopenias, liver dysfunction, pathologic fractures) → suspect progression to advanced SM (aggressive or SM-AHN); requires urgent hematology evaluation and therapy escalation."
+  ],
+  "algorithm": [
+    "Recurrent flushing, unexplained syncope, or urticarial rash + high tryptase → suspect mastocytosis.",
+    "Check baseline **serum tryptase**: >20 ng/mL warrants further workup (mast cell activation).",
+    "Biopsy involved tissue: skin (if lesions present) or bone marrow (if systemic symptoms) to identify mast cell infiltrates; send molecular testing for **KIT D816V** mutation.",
+    "Diagnose systemic mastocytosis per WHO criteria (major: ≥15 mast cells clustered in marrow/organ; minor: KIT D816V, atypical mast cell morphology, CD25⁺ mast cells, or tryptase >20). Need 1 major + 1 minor or 3 minor criteria.",
+    "Classify systemic disease as indolent vs advanced (assess \"C findings\" of organ damage). Indolent SM → manage with trigger avoidance and mediator blockade; Advanced SM → add cytoreductive therapy (e.g., midostaurin) and consider transplant."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Mastocytosis_-_high_mag.jpg",
+      "alt": "High magnification micrograph of a mastocytosis skin biopsy showing dense clusters of mast cells (blue-purple, spindle-shaped cells on H&E stain).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Mastocytosis_-_high_mag.jpg"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": [
+    "anaphylaxis",
+    "carcinoid-syndrome",
+    "urticaria"
+  ],
+  "prerequisites": [
+    "immunology",
+    "hematopoiesis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Systemic Mastocytosis (Gangireddy & Ciofoaia, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK544345/"
+    },
+    {
+      "title": "DermNet NZ: Mastocytosis (Sapsford, 2023)",
+      "url": "https://dermnetnz.org/topics/mastocytosis"
+    },
+    {
+      "title": "UpToDate: Mastocytosis in adults (clinical features and diagnosis)",
+      "url": "https://www.uptodate.com/contents/systemic-mastocytosis-in-adults-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "WHO Classification of Mastocytosis (Leguit et al., Virchows Arch 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36214901/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

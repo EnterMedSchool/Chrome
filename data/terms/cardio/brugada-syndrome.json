@@ -1,0 +1,96 @@
+{
+  "id": "brugada-syndrome",
+  "names": ["Brugada syndrome"],
+  "aliases": [
+    "Brugada sign",
+    "Brugada pattern",
+    "Sudden unexplained nocturnal death syndrome",
+    "SUNDS"
+  ],
+  "abbr": ["BrS"],
+  "patterns": [
+    "brugada",
+    "brugada syndrome",
+    "brugada pattern",
+    "sunds",
+    "sudden unexplained nocturnal death"
+  ],
+  "primary_tag": "cardio",
+  "tags": ["cardio", "genetics"],
+  "definition": "Inherited arrhythmia syndrome (sodium channelopathy) featuring a characteristic coved ST-segment elevation in V1–V3 (Brugada pattern) with risk of ventricular fibrillation; Brugada ECG pattern alone is not diagnostic unless accompanied by syncope, cardiac arrest, or other clinical criteria.",
+  "why_it_matters": "Major cause of sudden cardiac death in patients with structurally normal hearts (responsible for ~4% of all SCD); recognizing it is critical, as an ICD can prevent lethal arrhythmias.",
+  "how_youll_see_it": [
+    "Often affects young adult men (male predominance) and is seen more frequently in some Asian populations; many are asymptomatic until a sudden arrhythmic event (syncope or nocturnal agonal breathing) or an incidental ECG finding.",
+    "Lethal arrhythmias (polymorphic VT/VF) typically occur at rest or during sleep and may be precipitated by fever or certain drugs. Patients may present with unexplained syncope, seizures, or even sudden cardiac arrest (often in the 3rd–5th decade).",
+    "ECG hallmark: coved ST elevations with a RBBB-like pattern in leads V1–V3 (Type 1 Brugada pattern). The ECG changes can be intermittent and often require provocative testing (e.g., sodium-channel blocker challenge) or placing V1–V2 leads in higher intercostal spaces to unmask a true Type 1 pattern."
+  ],
+  "problem_solving": [
+    "Recognize the Brugada ECG pattern: coved ST-segment elevation ≥2 mm in V1–V3 with T-wave inversion (Type 1 pattern) is classic; if initial ECG is equivocal, repeat with leads V1–V2 in higher positions or use a procainamide/ajmaline challenge to unmask a Type 1 pattern.",
+    "Differentiate Brugada syndrome from an incidental Brugada pattern: assess for history of syncope, documented VF, or family history of sudden death – the ECG pattern alone (without symptoms/family history) is not by itself diagnostic.",
+    "Exclude mimics of the Brugada ECG pattern (e.g., acute anterior MI, hyperkalemia, RBBB, or arrhythmogenic RV cardiomyopathy) and rule out transient Brugada phenocopy triggers (fever, sodium-channel blocker medications, etc.)."
+  ],
+  "differentials": [
+    { "name": "Anterior STEMI", "hint": "Usually chest pain with ST elevation extending beyond V3 (not confined to V1–V2); has reciprocal changes and evidence of coronary occlusion." },
+    { "name": "Arrhythmogenic RV cardiomyopathy", "hint": "Fibrofatty RV disease causing syncope/SCD with epsilon waves and T-wave inversions in V1–V3; unlike Brugada, there are structural RV changes on imaging." },
+    { "name": "Benign early repolarization", "hint": "Common in young males; diffuse, concave ST elevations with prominent T-waves but no symptoms or arrhythmias (lacks the coved morphology and risk profile of Brugada)." }
+  ],
+  "tricks": [
+    "Only Type 1 Brugada ECG pattern (coved ST elevation ≥2 mm in V1–V3) is considered diagnostic; Type 2 (saddleback ST) and Type 3 patterns are non-diagnostic without further evaluation (e.g., drug challenge).",
+    "High fever can unmask or worsen Brugada ECG changes and precipitate arrhythmias – aggressively control fever in suspected or known Brugada patients."
+  ],
+  "exam_appearance": [
+    "Young, otherwise healthy man with unexplained syncope (especially at night) and a family history of sudden death; ECG shows a pseudo-RBBB pattern with coved ST-segment elevations in V1–V2 → Brugada syndrome.",
+    "Patient resuscitated from nighttime ventricular fibrillation arrest is found to have a characteristic Brugada Type 1 ECG pattern (coved ST elevations in V1–V3) despite a structurally normal heart and normal coronary arteries → Brugada syndrome."
+  ],
+  "treatment": [
+    "ICD implantation is the definitive treatment to prevent sudden cardiac death in Brugada syndrome (strongly indicated for survivors of cardiac arrest or patients with syncope and spontaneous Type 1 pattern).",
+    "Avoid precipitating factors: maintain normal electrolytes, treat fevers promptly, and avoid contraindicated drugs (sodium-channel blockers, tricyclics, etc.) that can exacerbate the Brugada pattern.",
+    "Quinidine (Class IA antiarrhythmic) can be used to suppress ventricular arrhythmias in Brugada patients (especially if ICD is not feasible or during electrical storm); in refractory cases with recurrent VT/VF, catheter ablation of the arrhythmogenic substrate in the RV outflow tract is an emerging therapy."
+  ],
+  "red_flags": [
+    "Brugada ECG pattern plus syncope, unexplained seizures, or documented VF/VT (or a family history of sudden death) → indicates true Brugada syndrome with high SCD risk (requires urgent evaluation and likely ICD)."
+  ],
+  "algorithm": [
+    "ECG shows coved ST elevations in V1–V3 (Brugada pattern) → evaluate for Brugada syndrome (consider this pattern in unexplained syncope or SCD).",
+    "Confirm a true Type 1 pattern: repeat ECG with leads V1–V2 placed in higher intercostal spaces, or perform a sodium-channel blocker challenge (e.g., procainamide) if the pattern is suspected but not clearly present.",
+    "Assess for clinical criteria: history of syncope (especially unexplained or nocturnal), documented ventricular fibrillation, or family history of sudden death <45 years.",
+    "If ECG pattern + clinical criteria → Brugada syndrome (high SCD risk) – refer for ICD and specialist management; if ECG pattern with no symptoms or family history → Brugada pattern only (lower risk, consider risk stratification with EP study).",
+    "Educate on avoiding triggers (fever, offending drugs) and ensure close follow-up – even asymptomatic individuals with a Brugada ECG pattern carry a small risk of arrhythmia over time."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Brugada_syndrome_ECGs.jpg",
+      "alt": "Typical Type 1 Brugada syndrome ECG (coved ST elevations in V1–V3 with pseudo-RBBB pattern).",
+      "credit": {
+        "text": "PeaBrainC (Wikimedia Commons)",
+        "href": "https://commons.wikimedia.org/wiki/File:Brugada_syndrome_ECGs.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read UpToDate Article", "href": "https://www.uptodate.com/contents/brugada-syndrome-clinical-presentation-diagnosis-and-evaluation", "variant": "secondary" }
+  ],
+  "see_also": [
+    "long-qt-syndrome",
+    "syncope",
+    "wolff-parkinson-white-syndrome",
+    "myocardial-infarction"
+  ],
+  "prerequisites": [
+    "cardiac-action-potential",
+    "ecg-basics"
+  ],
+  "sources": [
+    { "title": "Brugada syndrome: Clinical presentation, diagnosis, and management (UpToDate, 2025)", "url": "https://www.uptodate.com/contents/brugada-syndrome-clinical-presentation-diagnosis-and-evaluation" },
+    { "title": "Present Status of Brugada Syndrome (JACC 2018)", "url": "https://www.jacc.org/doi/10.1016/j.jacc.2018.06.037" },
+    { "title": "Brugada Syndrome - StatPearls (NIH/NLM, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK519568/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "myocardial-infarction",
+  "names": ["Myocardial infarction"],
+  "aliases": ["heart attack", "acute myocardial infarction", "ST-elevation MI", "non-ST-elevation MI"],
+  "abbr": ["MI", "AMI", "STEMI", "NSTEMI"],
+  "patterns": ["mi", "heart attack", "myocardial infarction", "acute myocardial infarction", "stemi", "nstemi", "st-elevation myocardial infarction", "non-st-elevation myocardial infarction"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "emerg"],
+  "definition": "Necrosis of heart muscle due to prolonged **ischemia** from an acute loss of coronary blood flow (usually **plaque rupture** with thrombosis). A type of acute coronary syndrome, it is diagnosed by evidence of myocardial injury (troponin rise) in the setting of ischemia; it is subdivided into **ST-elevation MI (STEMI)** or **non-ST-elevation MI (NSTEMI)** based on ECG changes.",
+  "why_it_matters": "MI (\"heart attack\") is extremely common and a leading cause of death worldwide. Rapid intervention is critical: untreated large MIs can lead to acute **heart failure**, shock, arrhythmias (e.g. ventricular fibrillation), or sudden **cardiac arrest**. Early reperfusion therapy significantly reduces mortality (\"time is muscle\").",
+  "how_youll_see_it": [
+    "Classic presentation: crushing **substernal chest pain** or pressure (often with diaphoresis, nausea, anxiety) that may radiate to the left arm, shoulder, neck, or jaw. Patients often have CAD risk factors (e.g. older age, smoking, hypertension, diabetes).",
+    "Atypical presentations: especially in **women**, **elderly**, or **diabetic** patients, MI may present as dyspnea, fatigue, epigastric pain, or syncope **without chest pain**. Some MIs are \"silent\" and detected only by ECG or troponins. On exam, patients may be pale, in distress, with an S4 gallop or signs of acute heart failure (e.g. jugular venous distension, crackles) if large infarct."
+  ],
+  "problem_solving": [
+    "Initial approach: Obtain a 12-lead **ECG within 10 minutes** for any chest pain patient and give aspirin (chewed). If ECG shows STEMI (ST elevations in specific leads or new LBBB), activate emergency reperfusion (PCI preferred) immediately.",
+    "Biomarkers: If initial ECG is non-diagnostic, measure **troponin** at presentation and 3-6 hours later. A significant troponin rise confirms myocardial infarction (NSTEMI if no ST elevation). Persistent chest pain with initially normal ECG should prompt repeat ECGs or consider posterior leads (V7–V9) for hidden STEMI.",
+    "Stratify ACS type: **Unstable angina** has ischemic chest pain but no troponin elevation, whereas **NSTEMI** has elevated troponin (and often ST depressions/T-wave inversions) without ST elevations. **STEMI** presents with ST elevations (transmural injury pattern) on ECG plus troponin rise. STEMI warrants immediate reperfusion, NSTEMI urgent invasive management (within 24–48h), unstable angina similar to NSTEMI management but no fibrinolytics.",
+    "Risk assessment: Assess hemodynamics and risk (e.g. Killip class for heart failure severity). High-risk features (e.g. hypotension, Killip ≥II, large troponin rise, ventricular arrhythmias) merit ICU-level care and prompt intervention. Screen for contraindications to therapies (like fibrinolysis) if applicable."
+  ],
+  "differentials": [
+    { "id": "unstable-angina", "hint": "angina at rest (part of ACS) but **no biomarker rise** (troponins normal)" },
+    { "id": "aortic-dissection", "name": "Aortic dissection", "hint": "tearing chest pain radiating to back, unequal arm pulses/BP; can cause MI if coronary ostium involved" },
+    { "id": "pulmonary-embolism", "name": "Pulmonary embolism", "hint": "sudden dyspnea, pleuritic chest pain, tachycardia, hypoxemia; may cause mild troponin rise but usually no ST-elevations" }
+  ],
+  "tricks": [
+    "Mnemonic **MONA**: Morphine, Oxygen, Nitrates, Aspirin for initial management of MI (oxygen only if hypoxemic; morphine for severe pain).",
+    "Door-to-balloon time: for STEMI, aim <90 minutes from arrival for PCI (or <30 minutes to needle for thrombolytics if PCI unavailable).",
+    "Killip classification stratifies acute MI by heart failure: Class I = no HF signs; II = mild HF (rales or S3 gallop); III = acute pulmonary edema; IV = cardiogenic shock.",
+    "Heart attack ≠ cardiac arrest: **Myocardial infarction** is a circulation problem (muscle dies from lack of blood) whereas **cardiac arrest** is an electrical problem (heart stops pumping effectively, often due to arrhythmia); an MI can trigger an arrest, but not all arrests are due to MI."
+  ],
+  "exam_appearance": [
+    "Diaphoretic 60-year-old man with crushing chest pain radiating to left arm, ST elevations in V2–V4 and elevated troponin → acute anterior STEMI (left anterior descending artery occlusion).",
+    "68-year-old diabetic woman with only nausea, vomiting, and shortness of breath; ECG shows T-wave inversions, troponin is elevated → NSTEMI with atypical presentation."
+  ],
+  "treatment": [
+    "Immediate (acute MI): **Aspirin** ASAP (plus P2Y₁₂ inhibitor like ticagrelor), and anticoagulation (e.g. heparin) to limit thrombus. For STEMI, urgent reperfusion by **PCI** is first-line (within 90 min ideally) or fibrinolytic therapy if PCI not available. Give **nitroglycerin** for pain and blood pressure control; add **morphine** for persistent pain or anxiety. Oxygen if O₂ saturation <90%.",
+    "NSTEMI/UA management: no immediate fibrinolysis needed, but start dual antiplatelet therapy (aspirin + P2Y₁₂ inhibitor for 12 months), anticoagulate (heparin), and consider early invasive angiography (within 1–2 days, sooner if high risk). High-risk patients may get adjuncts like IV **nitroglycerin** for persistent pain or **GP IIb/IIIa inhibitors** during PCI. Monitor in telemetry for arrhythmias.",
+    "Adjunct meds: Start a **beta blocker** within 24 hours if no contraindications (reduces arrhythmias and oxygen demand). Begin an **ACE inhibitor** especially if anterior MI or if the patient has heart failure, reduced LVEF, hypertension, or diabetes. These help limit adverse remodeling.",
+    "Secondary prevention: Long-term, all patients should be on **high-intensity statin** therapy, **aspirin** indefinitely, plus continue beta-blocker and ACEi (if indicated) long-term. Arrange **cardiac rehabilitation** and counsel on lifestyle changes (smoking cessation, diet, exercise) to address risk factors. Some post-MI patients may benefit from aldosterone antagonists (if LVEF < 40% and HF or diabetes) or ICD placement (if severe LV dysfunction persists >40 days post-MI)."
+  ],
+  "red_flags": [
+    "Chest pain with **unequal pulses** or **tearing back pain** → think aortic dissection, not a classic MI (get immediate imaging).",
+    "Post-MI mechanical complications: watch for acute mitral regurgitation (papillary muscle rupture) or ventricular septal rupture (new harsh murmur, heart failure, shock), and free wall rupture leading to tamponade (PEA arrest) – these often occur 2–7 days post-MI and require emergency surgical intervention.",
+    "**Cardiogenic shock** (persistent hypotension, confusion, cold extremities, low urine output) in MI indicates massive infarction or complication – requires urgent reperfusion, inotropic support, and possibly mechanical circulatory support."
+  ],
+  "algorithm": [
+    "Chest pain patient → ABCs, 12-lead **ECG within 10 min**, give aspirin.",
+    "STEMI on ECG? → Activate cath lab for PCI (goal <90 min door-to-balloon); if PCI unavailable quickly, give thrombolytic within 30 min of arrival.",
+    "No ST elevation → get troponins at 0 and 3-6h. If positive → **NSTEMI** (manage with medications and timely angiography); if negative but high suspicion persists → possible unstable angina (admit for observation, repeat ECG/troponin, or stress test).",
+    "Acute management: All MI (STEMI or NSTEMI) get DAPT (aspirin + P2Y₁₂ inhibitor), anticoagulation, and supportive care (nitroglycerin, β-blocker if stable, oxygen if needed). Address complications (e.g. arrhythmias, heart failure) promptly (consider temporary pacing for heart block, mechanical support for shock, etc).",
+    "After acute phase → transition to oral meds (aspirin, beta-blocker, ACEi, high-intensity statin) and initiate cardiac rehab and risk factor modification for long-term care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Coronary_Artery_Disease.jpg",
+      "alt": "3D medical illustration of the heart with a partially occluded coronary artery causing reduced blood flow (myocardial ischemia).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 59‑year‑old man with a history of hypertension presents with 30 minutes of crushing chest pain and diaphoresis.",
+      "clues": [
+        "ECG: ST elevations in V2–V4",
+        "BP 100/60, HR 110, cool extremities",
+        "Troponin I markedly elevated",
+        "Pain radiating to left arm and jaw"
+      ],
+      "answer": "STEMI (acute anterior wall MI)",
+      "teaching": "Classic presentation of an anterior ST-elevation MI (occlusion of left anterior descending artery). The hypotension and cool extremities indicate a significant infarct (potential cardiogenic shock). Immediate reperfusion therapy (emergent PCI) is indicated."
+    },
+    {
+      "stem": "A 72‑year‑old woman with diabetes and chronic kidney disease reports severe fatigue and epigastric discomfort, but no chest pain.",
+      "clues": [
+        "History of hypertension, 40 pack-year smoker",
+        "ECG: no ST elevations, but T-wave inversions in lateral leads",
+        "Initial troponin elevated",
+        "Blood pressure 150/90, HR 95"
+      ],
+      "answer": "Non-ST-elevation myocardial infarction (atypical presentation)",
+      "teaching": "Elderly diabetic patients often have atypical MI symptoms (weakness, indigestion, or dyspnea instead of chest pain). This is an NSTEMI (troponin positive without ST elevations). Management involves medications (antiplatelets, anticoagulants, beta-blockers, statin) and arranging an early invasive evaluation."
+    }
+  ],
+  "see_also": [
+    "unstable-angina",
+    "stable-angina",
+    "coronary-artery-disease",
+    "heart-failure",
+    "atrial-fibrillation",
+    "pulmonary-embolism"
+  ],
+  "prerequisites": [
+    "coronary-arteries",
+    "acute-coronary-syndromes",
+    "ecg-interpretation"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Myocardial Infarction (Ojha & Dhamoon, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537076/"
+    },
+    {
+      "title": "2025 ACC/AHA Guideline for the Management of Acute Coronary Syndromes",
+      "url": "https://www.acc.org/Latest-in-Cardiology/Journal-Scans/2025/02/27/17/01/ACC-AHA-Issue-New-Acute-Coronary-Syndrome-Guideline"
+    },
+    {
+      "title": "UpToDate: Initial evaluation and management of acute ST-elevation myocardial infarction",
+      "url": "https://www.uptodate.com/contents/management-of-st-elevation-myocardial-infarction"
+    },
+    {
+      "title": "Myocardial Infarction (Heart Attack) – Merck Manual Professional Version",
+      "url": "https://www.merckmanuals.com/professional/cardiovascular-disorders/coronary-artery-disease/acute-myocardial-infarction-mi"
+    },
+    {
+      "title": "Myocardial Infarction – Medscape (Zafari, Updated 2025)",
+      "url": "https://emedicine.medscape.com/article/155919-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

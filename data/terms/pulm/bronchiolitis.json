@@ -1,0 +1,121 @@
+{
+  "id": "bronchiolitis",
+  "names": ["Bronchiolitis"],
+  "aliases": ["acute viral bronchiolitis", "RSV bronchiolitis", "bronchiolitis obliterans", "constrictive bronchiolitis"],
+  "abbr": [],
+  "patterns": ["bronchiolitis", "RSV bronchiolitis", "bronchiolitis obliterans", "constrictive bronchiolitis", "popcorn lung"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "peds", "infectious_dz"],
+  "definition": "Inflammation of the small airways (**bronchioles**) causing airflow obstruction. In infants it typically manifests as an acute viral infection (most often **RSV**), whereas in adults it often refers to a chronic fibrotic bronchiolitis (obliterans) with irreversible lung injury.",
+  "why_it_matters": "Bronchiolitis is extremely common in infancy – a leading cause of hospitalization for babies and responsible for significant infant morbidity and mortality worldwide. It's a must-know for pediatrics and exams. Adult forms (e.g. post-transplant bronchiolitis obliterans) cause serious, often irreversible, small-airway damage that physicians should recognize in the proper context.",
+  "how_youll_see_it": [
+    "**Infants:** Typically a <1-year-old with a viral **URI** (runny nose, congestion) for 2–3 days that progresses to **cough**, **wheezing**, and difficulty feeding. Exam shows **tachypnea**, diffuse **wheezes** and **crackles**, and signs of respiratory distress (intercostal **retractions**, nasal flaring).",
+    "**Severe infant bronchiolitis:** May present with **hypoxemia** (O₂ sat <90%), **cyanosis**, or episodes of **apnea** (especially in young infants). Risk factors for severe disease include prematurity, age <3 months, and underlying cardiopulmonary or immunologic conditions, which lower the threshold for hospital admission.",
+    "**Adults:** Bronchiolar inflammation usually presents as a **progressive dyspnea** on exertion with **chronic cough** rather than an acute illness. For example, lung transplant recipients may develop bronchiolitis obliterans syndrome (chronic rejection) manifesting as gradually declining **FEV₁** and exercise tolerance a few years post-transplant. On exam, inspiratory **crackles** or wheezing might be heard; expiratory high-resolution CT often shows a patchy mosaic pattern from air-trapping."
+  ],
+  "problem_solving": [
+    "**Clinical diagnosis (infants):** Suspect bronchiolitis in an infant with first-time wheezing during peak viral season. Specific viral testing (e.g. RSV PCR) is optional in typical cases, but may be done in hospitalized infants for cohorting or if results would change management (e.g. identifying influenza for antivirals).",
+    "**Assess severity:** Evaluate hydration status (feeding volume, wet diapers) and work of breathing. Check oxygen saturation (give O₂ if <92%). Chest X-ray is **not routinely needed** unless atypical features (e.g. focal findings or severe course) suggest pneumonia or other diagnosis; when obtained, X-ray may show lung **hyperinflation** with patchy atelectasis.",
+    "**Admission criteria:** Infants with persistent O₂ sat <90% on room air, respiratory rate >70/min, or signs of significant distress (grunting, severe retractions, apnea, dehydration) should be hospitalized for supportive care. Young age (<3 months) or high-risk comorbidities also lower the threshold for admit.",
+    "**Adult evaluation:** In adults with suspected bronchiolitis obliterans, obtain **spirometry** (often shows an irreversible obstructive pattern) and **HRCT** with expiratory cuts (to identify mosaic air-trapping). A lung biopsy can provide a definitive diagnosis, though **transbronchial biopsy** often misses the patchy lesions; sometimes a surgical lung biopsy is needed if diagnosis is unclear.",
+    "**Rule out other causes:** In infants, consider **foreign body aspiration** (sudden onset localized wheezing or asymmetric breath sounds), or **bacterial pneumonia** (high fever, focal crackles or consolidation on imaging) if presentation is atypical. In older children with recurrent wheezing, **asthma** becomes more likely (history of atopy, improvement with bronchodilators)."
+  ],
+  "differentials": [
+    { "id": "asthma", "name": "Asthma", "hint": "wheezing typically in older infants/children with **atopy** or recurrent episodes; usually **reversible** with bronchodilators (unlike bronchiolitis)" },
+    { "id": "pneumonia", "name": "Pneumonia", "hint": "**Fever** and focal lung findings (e.g. lobar consolidation on CXR, asymmetric breath sounds) suggest bacterial pneumonia rather than diffuse bronchiolitis" },
+    { "name": "Foreign body aspiration", "hint": "acute onset wheezing in a **toddler** or mobile infant; often **unilateral** or focal findings (air trapping on one side on exhalation film)" }
+  ],
+  "tricks": [
+    "Unlike **asthma**, bronchiolitis usually does **not** significantly improve with bronchodilator therapy – guidelines advise against routine use of **albuterol** or steroids in infants.",
+    "**Palivizumab** (monthly monoclonal antibody) was traditionally given to high-risk infants to prevent RSV bronchiolitis; now newer passive immunization (nirsevimab) or maternal **RSV vaccination** can protect most infants during RSV season.",
+    "In infants <2 months, **apnea** can be an early warning sign of severe bronchiolitis (especially with RSV) – any apneic episode in a baby with a cold should prompt urgent evaluation."
+  ],
+  "exam_appearance": [
+    "A 4‑month‑old infant in December has a few days of runny nose and cough, now with **wheezing**, difficulty feeding, and intercostal **retractions**. Oxygen saturation is 91%. The baby is likely suffering from **acute bronchiolitis**, most often caused by RSV.",
+    "A double‑lung transplant recipient 5 years post-surgery gradually develops cough, dyspnea, and declining spirometry (↓FEV₁/FVC). Chest imaging shows hyperlucent areas from air-trapping. This presentation is classic for **bronchiolitis obliterans syndrome** (chronic rejection)."
+  ],
+  "treatment": [
+    "**Supportive care** is the mainstay for infant bronchiolitis. Ensure adequate **hydration** (IV or NG fluids if poor oral intake), use gentle nasal **suctioning**, and give supplemental **oxygen** to maintain sats ≥90%. High-flow nasal cannula oxygen can help avoid intubation in babies with severe respiratory distress.",
+    "No proven fast remedies – **bronchodilators**, nebulized **epinephrine**, and **corticosteroids** have shown no consistent benefit and are **not recommended** for routine use. Antibiotics should be given **only** if a concurrent bacterial infection is strongly suspected (e.g. acute otitis media or lobar pneumonia).",
+    "Antiviral therapy plays a limited role. If testing reveals **influenza**, treat with oseltamivir (especially if started within 48 hours). For other viruses (RSV, rhinovirus, etc.), no specific antivirals are available (management remains supportive).",
+    "**Prevention:** For RSV, immunoprophylaxis significantly reduces illness severity. A maternal **RSV vaccine** (given in late pregnancy) or the long-acting monoclonal antibody **nirsevimab** for newborns can prevent bronchiolitis in the first RSV season. High-risk infants (premature, chronic lung or heart disease) who did not receive those may still receive monthly **palivizumab** during RSV season.",
+    "In adults with bronchiolitis obliterans, treatment is challenging. Address the underlying cause: enhance immunosuppression for post-transplant rejection (e.g. optimize calcineurin inhibitors, consider high-dose steroids), treat inflammatory causes (e.g. corticosteroids for organizing pneumonia), or use **macrolide** antibiotics long-term for diffuse panbronchiolitis. Provide supportive therapy (inhalers, oxygen) and evaluate for lung **transplantation** in advanced cases."
+  ],
+  "red_flags": [
+    "**Apnea** or episodes of breathing cessation (especially in young infants) – often a precursor to respiratory failure in bronchiolitis. Any apnea warrants hospitalization and possible ICU support.",
+    "**Signs of impending failure:** sustained O₂ saturation <90% despite support, **grunting** respirations, severe chest indrawing, or **lethargy** (fatigue from breathing) are ominous and indicate need for escalated care (e.g. high-flow O₂, mechanical ventilation)."
+  ],
+  "algorithm": [
+    "Infant with URI symptoms (rhinorrhea, cough) and new **wheezing** → suspect bronchiolitis (most commonly RSV).",
+    "Assess severity: check **feeding**/hydration, work of breathing (retractions, apnea), and **O₂ sat**.",
+    "If mild (feeding well, no or minimal dyspnea, O₂ sat normal) → outpatient management with **nasal saline** drops, suctioning, and frequent feeds; schedule follow-up and educate parents on warning signs.",
+    "If significant distress or risk factors (hypoxia, dehydration, apnea, age <3 mo, etc.) → **hospitalize** for supportive care: humidified **oxygen**, IV/NG fluids, frequent suction, and close monitoring.",
+    "In the hospital, continue supportive care and monitor. **Do not** give bronchodilators or steroids routinely (only consider a monitored trial if an asthma component is suspected). No antibiotics unless a bacterial co-infection is evident. Ensure appropriate follow-up and consider **RSV prophylaxis** measures after discharge for eligible infants."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Bronchiolitis_Medical_Image.png",
+      "alt": "Bronchiolitis in an infant (schematic): viral infection causes bronchiolar inflammation (red swollen walls) and mucus plugging (green), obstructing the small airways.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Bronchiolitis_Medical_Image.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 6‑month‑old boy in January is brought to the ED with a 3-day history of runny nose and cough. Now he has fast breathing and difficulty feeding.",
+      "clues": [
+        "Diffuse wheezes and crackles on exam",
+        "Intercostal retractions noted",
+        "O₂ saturation 92% on room air",
+        "No improvement after an albuterol nebulizer"
+      ],
+      "answer": "Acute bronchiolitis (likely due to RSV)",
+      "teaching": "Classic presentation of bronchiolitis in an infant: a viral URI progressing to lower airway inflammation with wheezing and respiratory distress. The lack of significant response to bronchodilator supports bronchiolitis (which is managed with supportive care), rather than asthma or pneumonia."
+    }
+  ],
+  "see_also": [
+    "asthma",
+    "pneumonia",
+    "cystic-fibrosis"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "respiratory-histology"
+  ],
+  "sources": [
+    {
+      "title": "AAP Clinical Practice Guideline: The Diagnosis, Management, and Prevention of Bronchiolitis (Ralston et al., 2014)",
+      "url": "https://doi.org/10.1542/peds.2014-2742"
+    },
+    {
+      "title": "NEJM: Viral Bronchiolitis in Children (Meissner, 2016)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1413456"
+    },
+    {
+      "title": "Canadian Paediatric Society: Bronchiolitis (CPS Position Statement, 2021)",
+      "url": "https://cps.ca/en/documents/position/bronchiolitis"
+    },
+    {
+      "title": "StatPearls: Pediatric Bronchiolitis (Erickson & Bhakta, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519506/"
+    },
+    {
+      "title": "Medscape: Bronchiolitis – Pediatrics (Maraqa, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/961963-overview"
+    },
+    {
+      "title": "Epler GR. Constrictive bronchiolitis in adults (F1000 Med Rep, 2010)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2948389/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "rubella",
+  "names": [
+    "Rubella"
+  ],
+  "aliases": [
+    "German measles",
+    "three-day measles",
+    "Congenital Rubella Syndrome"
+  ],
+  "abbr": [
+    "CRS"
+  ],
+  "patterns": [
+    "rubella",
+    "german measles",
+    "three day measles",
+    "congenital rubella",
+    "CRS"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "infectious_dz",
+    "micro_virus",
+    "peds",
+    "obgyn"
+  ],
+  "definition": "Contagious rubella virus infection (\"German measles\") causing a mild 3-day rash and fever. Congenital rubella syndrome (CRS) refers to the constellation of birth defects (e.g., deafness, cataracts, heart defects) from in utero infection.",
+  "why_it_matters": "Rubella is the leading vaccine-preventable cause of birth defects worldwide. Infection in pregnancy often leads to miscarriage or severe fetal anomalies (CRS), making rubella immunity and vaccination critically important.",
+  "how_youll_see_it": [
+    "Child with pink maculopapular rash starting on face → spreads down the body, fading by ~3 days; low fever or none; tender posterior auricular & suboccipital lymphadenopathy is characteristic.",
+    "Adults (especially women) often get polyarthritis (up to 70%) along with the rash. Many infections (25–50%) are asymptomatic.",
+    "Congenital rubella: newborn with classic triad of cataracts, sensorineural deafness, and PDA (heart defect), often with a \"blueberry muffin\" rash (purpuric spots from extramedullary hematopoiesis)."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with labs: rubella-specific IgM antibody or a ≥4-fold rise in IgG titer between acute & convalescent samples. RT-PCR can detect the virus in throat swabs, blood, or amniotic fluid.",
+    "In pregnant women, check rubella IgG status early (prenatal screening). If non-immune, avoid exposure and plan to give MMR vaccine after delivery (live rubella vaccine is contraindicated during pregnancy).",
+    "Suspected rubella cases should be isolated (droplet precautions) and reported to public health authorities. Patients are contagious ~1 week before to 1 week after rash onset, so keep affected kids out of school for 7 days post-rash.",
+    "For a neonate with possible CRS: test IgM (which indicates neonatal infection, since IgM doesn't cross placenta) and consider PCR. Persistence of rubella-specific IgG beyond 6–12 months (after maternal IgG wanes) also confirms congenital infection."
+  ],
+  "differentials": [
+    {
+      "id": "measles",
+      "hint": "High fever, cough/coryza/conjunctivitis, Koplik spots; rash is darker, lasts >3 days"
+    },
+    {
+      "name": "Parvovirus B19 (erythema infectiosum)",
+      "hint": "\"Slapped-cheek\" rash in kids; arthralgias in adults; can cause fetal hydrops in pregnancy"
+    },
+    {
+      "name": "Roseola infantum (HHV-6)",
+      "hint": "Infants with high fever for 3–5 days then rash appears (trunk → extremities)"
+    },
+    {
+      "name": "Scarlet fever",
+      "hint": "Group A Strep with sandpaper rash, strawberry tongue, and pharyngitis"
+    }
+  ],
+  "tricks": [
+    "Think Forchheimer spots: petechial red spots on the soft palate seen in ~20% of rubella cases.",
+    "\"Blueberry muffin\" baby = congenital rubella (dermal hematopoiesis causing purpuric rash).",
+    "Rubella vs. Rubeola: Rubella (German measles) is a different virus than measles and much milder (3-day rash, lower fever, lymph nodes) compared to measles' severe 7-day illness."
+  ],
+  "exam_appearance": [
+    "Unvaccinated child with a rash that started on the face and tender postauricular lymph nodes → rubella (German measles).",
+    "Pregnant woman with no MMR immunizations develops mild fever, rash, and lymphadenopathy in the first trimester → baby at risk for congenital rubella syndrome (deafness, cataracts, PDA)."
+  ],
+  "treatment": [
+    "No specific antiviral – supportive care only (rest, hydration, NSAIDs for fever or arthritis). Rubella is usually self-limited.",
+    "Avoid exposing pregnant contacts: patients with rubella should stay home (no school or work) for 7 days after rash onset to prevent spread.",
+    "Infants with CRS require supportive management of defects (e.g., surgery for cardiac defects or cataracts, hearing rehabilitation). They should be isolated, as they shed virus for ≥1 year."
+  ],
+  "red_flags": [
+    "Rubella in early pregnancy (first trimester) → up to 90% chance of CRS in the fetus. This is a medical emergency in terms of counseling (high risk of miscarriage or severe birth defects).",
+    "Newborns with CRS shed rubella virus in urine/secretions for months – pose infection risk. Use contact precautions and keep them away from pregnant caregivers."
+  ],
+  "algorithm": [
+    "Fever & rash (face → body) with lymph nodes → suspect rubella (especially if unvaccinated).",
+    "Lab tests: draw rubella IgM (acute) and IgG (acute + 2-3 weeks later) to confirm; consider throat PCR.",
+    "Isolate the patient if rubella is likely (no school/work) and notify public health department.",
+    "If pregnant exposure: check maternal IgG/IgM ASAP. If infection confirmed in first trimester, counsel about high CRS risk (no treatment to prevent fetal damage).",
+    "Ensure MMR vaccination for prevention: 2 doses in childhood; non-immune adults (especially women) should receive it (postpone until after pregnancy if currently pregnant)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Rubella.jpg",
+      "alt": "Rubella rash on a child's abdomen (pink maculopapular lesions of German measles).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Rubella.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4-year-old boy who never received vaccines develops a rash that started on his face and spread downward over 3 days.",
+      "clues": [
+        "Low fever, mild illness",
+        "Posterior auricular lymph nodes are enlarged",
+        "Fine pink maculopapular rash, lasted ~3 days",
+        "Unvaccinated child"
+      ],
+      "answer": "Rubella (German measles)",
+      "teaching": "Classic rubella in an unvaccinated child – a mild 3-day rash illness with postauricular lymphadenopathy. Distinguished from measles (rubeola) by its shorter duration and less severe symptoms."
+    },
+    {
+      "stem": "An infant is born with cataracts, a heart murmur, and sensorineural hearing loss. His mother reports a flu-like illness with rash during the first trimester of pregnancy.",
+      "clues": [
+        "White pupils (leukocoria)",
+        "Continuous machine-like murmur",
+        "Failed newborn hearing test",
+        "Purpuric \"blueberry muffin\" skin lesions"
+      ],
+      "answer": "Congenital rubella syndrome",
+      "teaching": "Congenital Rubella Syndrome from maternal rubella infection early in pregnancy. The triad of cataracts, PDA (heart defect), and deafness is characteristic. Prevented by maternal MMR vaccination prior to pregnancy."
+    }
+  ],
+  "see_also": [
+    "vzv-infections",
+    "mumps",
+    "torch-infections"
+  ],
+  "prerequisites": [
+    "virology-basics",
+    "immunization"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Rubella (Camejo & Mendez, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559040/"
+    },
+    {
+      "title": "UpToDate: Rubella (Topic last updated Apr. 2025)",
+      "url": "https://www.uptodate.com/contents/rubella"
+    },
+    {
+      "title": "CDC: About Rubella (2024)",
+      "url": "https://www.cdc.gov/rubella/about/index.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "chediak-higashi-syndrome",
+  "names": [
+    "Chediak-Higashi syndrome"
+  ],
+  "aliases": [
+    "CHS"
+  ],
+  "abbr": [
+    "CHS"
+  ],
+  "patterns": [
+    "chediak",
+    "chediak-higashi",
+    "higashi syndrome"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "pathology",
+    "immunology",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Rare **autosomal recessive** immunodeficiency characterized by partial oculocutaneous albinism, recurrent pyogenic infections, and peripheral neuropathy. **Hallmark**: giant intracytoplasmic granules in leukocytes due to a LYST gene mutation disrupting lysosomal trafficking.",
+  "why_it_matters": "CHS is often **fatal in childhood** without early intervention. Patients can develop a life-threatening **accelerated phase** (hemophagocytic lymphohistiocytosis) with overwhelming infections and organ failure. Recognizing the classic triad (albinism, infections, neuropathy) and **giant granules** on smear allows timely curative therapy.",
+  "how_youll_see_it": [
+    "Infant or child with **silvery hair, light skin** (partial albinism) and frequent severe infections (skin, mucous membranes, respiratory) by *Staph aureus* or *Strep*; may have **nystagmus** and easy bruising.",
+    "Labs: often **neutropenia**; peripheral smear shows neutrophils with **giant azurophilic granules** (pathognomonic).",
+    "Progressive **peripheral neuropathy** (weakness, sensory loss) becomes apparent in later childhood.",
+    "An **accelerated phase** (hemophagocytic syndrome) may occur, with fever, lymphadenopathy, hepatosplenomegaly, and pancytopenia due to lymphohistiocytic infiltration."
+  ],
+  "problem_solving": [
+    "Suspect CHS in a child with albinism + recurrent bacterial infections (especially *S. aureus*); order a **blood smear** to look for giant granules in leukocytes.",
+    "Confirm diagnosis with **LYST** genetic testing. Evaluate for organ involvement and hemophagocytic lymphohistiocytosis if fevers or cytopenias are present.",
+    "Initiate **prophylactic antibiotics** and rigorous infection control. Consider **G-CSF** for neutropenia to boost neutrophil counts.",
+    "Plan for **allogeneic hematopoietic stem cell transplant (HSCT)** as early as possible – the only cure for the immune and hematologic defects."
+  ],
+  "differentials": [
+    {
+      "id": "chronic-granulomatous-disease",
+      "hint": "X-linked phagocyte oxidase defect with recurrent infections, but **no albinism**; normal neutrophil granules."
+    },
+    {
+      "name": "Griscelli syndrome (type 2)",
+      "hint": "Silvery hair & immunodeficiency with HLH episodes (mutated Rab27a); similar albinism but distinct genetic cause."
+    },
+    {
+      "name": "Hermansky-Pudlak syndrome",
+      "hint": "Albinism with bleeding (platelet storage pool disease); **no recurrent infections** or immunodeficiency."
+    }
+  ],
+  "tricks": [
+    "Mnemonic – **3 P's** of CHS: **P**artial albinism, **P**yogenic infections, **P**eripheral neuropathy.",
+    "Think **Chediak = Colossal granules** – neutrophils show giant fused lysosomal granules on smear."
+  ],
+  "exam_appearance": [
+    "Pale-skinned, light-haired child with recurrent skin and lung infections (often *Staph aureus*) and **giant granules in neutrophils** on peripheral smear → Chediak-Higashi syndrome.",
+    "Patient with known CHS develops high fever, hepatosplenomegaly, pancytopenia, and coagulopathy → **Accelerated phase** (hemophagocytic lymphohistiocytosis)."
+  ],
+  "treatment": [
+    "**Allogeneic bone marrow transplant** is the definitive treatment (ideally performed before progressive neurologic degeneration).",
+    "Aggressive antimicrobial therapy for active infections; use **granulocyte colony-stimulating factor (G-CSF)** for neutropenia as needed.",
+    "If in accelerated phase (HLH): initiate an **HLH protocol** (etoposide-based chemoimmunotherapy) to control hyperinflammation, then proceed to transplant.",
+    "Supportive: high-dose **vitamin C** has been reported to partially improve neutrophil function and bleeding; give platelet transfusions for bleeding, and provide vision aids/rehabilitation for neurologic sequelae."
+  ],
+  "red_flags": [
+    "**Unexplained fever, organomegaly, and cytopenias** in a CHS patient → suspect accelerated HLH phase, a medical emergency requiring prompt treatment.",
+    "Delayed HSCT: ongoing neurologic decline in CHS is **irreversible** – even after transplant the immune defects are cured but neuropathy can progress."
+  ],
+  "algorithm": [
+    "Recognize: Albinism + recurrent infections → suspect CHS; obtain CBC and peripheral **smear** for giant granules.",
+    "Confirm: Genetic testing for **LYST** mutation; consider screening siblings (autosomal recessive inheritance).",
+    "Stabilize: Treat active infections (broad-spectrum antibiotics, drain abscesses) and provide supportive care (G-CSF for neutropenia, vitamin C, transfusions as needed).",
+    "Definitive: Arrange **hematopoietic stem cell transplant** as early as possible (curative); if HLH has developed, treat with HLH protocol before transplant."
+  ],
+  "cases": [
+    {
+      "stem": "A 4-year-old boy with silvery-blond hair and pale skin has had multiple severe skin and lung infections since infancy. On exam, he has horizontal nystagmus and several bruises. Laboratory results show neutropenia; a blood smear reveals neutrophils with giant cytoplasmic granules.",
+      "clues": [
+        "Partial albinism (silvery hair, fair skin)",
+        "Recurrent Staph and Strep infections",
+        "Easy bruising",
+        "Neutropenia",
+        "Giant azurophilic granules in neutrophils"
+      ],
+      "answer": "Chediak-Higashi syndrome (lysosomal trafficking regulator gene mutation)",
+      "teaching": "This presentation of albinism, pyogenic infections, and neuropathy is classic for CHS. A mutation in *LYST* causes microtubule/lysosomal trafficking dysfunction and **giant granules** in leukocytes, leading to immunodeficiency and bleeding tendency. Definitive treatment is early bone marrow transplant."
+    },
+    {
+      "stem": "An 8-year-old girl with known Chediak-Higashi syndrome presents with 2 weeks of high fever, jaundice, and bleeding gums. She appears pale with generalized lymphadenopathy and hepatosplenomegaly. Laboratory tests show pancytopenia, high ferritin, and evidence of DIC.",
+      "clues": [
+        "Known CHS (immunodeficiency with albinism)",
+        "Fever and organomegaly",
+        "Pancytopenia",
+        "Coagulopathy (DIC)"
+      ],
+      "answer": "Accelerated phase of CHS (hemophagocytic lymphohistiocytosis)",
+      "teaching": "In ~85% of CHS patients, an accelerated \"lymphoma-like\" phase (essentially secondary HLH) occurs. Uncontrolled activation of lymphocytes and macrophages causes fever, cytopenias, and multiorgan failure. Management requires urgent HLH-directed chemotherapy followed by stem cell transplant."
+    }
+  ],
+  "see_also": [
+    "hemophagocytic-lymphohistiocytosis",
+    "chronic-granulomatous-disease",
+    "severe-combined-immunodeficiency"
+  ],
+  "prerequisites": [
+    "phagocyte-biology",
+    "lysosomal-trafficking",
+    "primary-immunodeficiencies"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Chediak-Higashi Syndrome (Niwiński & Sharma, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507881/"
+    },
+    {
+      "title": "UpToDate: Chediak-Higashi syndrome (Brettler & Newburger, 2025)",
+      "url": "https://www.uptodate.com/contents/chediak-higashi-syndrome"
+    },
+    {
+      "title": "GeneReviews: Chediak-Higashi Syndrome (2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK5188/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

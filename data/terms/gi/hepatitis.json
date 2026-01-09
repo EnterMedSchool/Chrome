@@ -1,0 +1,140 @@
+{
+  "id": "hepatitis",
+  "names": ["Hepatitis"],
+  "aliases": ["acute viral hepatitis", "chronic hepatitis", "inflammation of the liver"],
+  "abbr": [],
+  "patterns": ["hepatitis", "viral hepatitis", "hepatitis A", "hepatitis B", "hepatitis C", "hepatitis D", "hepatitis E"],
+  "primary_tag": "gi",
+  "tags": ["infectious_dz", "micro_virus", "immunology", "pathology"],
+  "definition": "Inflammation of the **liver** due to various causes – most often hepatitis **viruses** (A, B, C, D, E), but also **alcohol**, drugs/toxins, or autoimmune disease. It can be **acute** (resolves <6 months) or **chronic** (persistent inflammation ≥6 months).",
+  "why_it_matters": "Hundreds of millions worldwide have chronic hepatitis B or C, leading to cirrhosis and **hepatocellular carcinoma** (HCC) and over 1 million deaths annually. Differentiating hepatitis types (A–E) is a common clinical and exam challenge. Vaccination (for A and B) and antiviral therapies (for B and C) help prevent these serious outcomes.",
+  "how_youll_see_it": [
+    "General symptoms of **acute hepatitis** include fatigue, fever, nausea, **jaundice** (yellow skin/eyes), dark urine, and right upper quadrant pain. Many cases (especially in children or chronic infections) can be **asymptomatic**.",
+    "Acute viral hepatitis (e.g. Hepatitis A) typically causes very high **AST/ALT** elevations (often >1000 U/L) with jaundice, but is usually self-limited. **Chronic hepatitis** (especially Hep B, C) often has mild or no initial symptoms and may only present later with signs of **cirrhosis** (e.g. hepatomegaly, spider angiomata).",
+    "Multiple etiologies exist: most commonly **viral hepatitis** (A, B, C, D, E). Other causes include **alcoholic hepatitis** (due to chronic alcohol use), **drug-induced** or toxic hepatitis (e.g. acetaminophen overdose, certain drugs/supplements), and **autoimmune hepatitis** (immune-mediated liver injury)."
+  ],
+  "problem_solving": [
+    "Use **serologies** to identify the cause: e.g. IgM **anti-HAV** confirms acute Hepatitis A; **HBsAg** (hepatitis B surface antigen) indicates active Hep B infection, and IgM **anti-HBc** indicates acute HBV (vs IgG anti-HBc in chronic/past); **anti-HCV** antibody (with HCV RNA) confirms Hep C infection.",
+    "Assess acute vs chronic: acute hepatitis is defined by <6 months duration (often with IgM antibodies in viral hepatitis), whereas persistence of HBsAg or HCV RNA >6 months indicates chronic infection. Markers of liver function (bilirubin, PT/INR) help gauge severity (acute liver failure if coagulopathy/encephalopathy).",
+    "Consider **other causes** if viral tests are negative: review medications and toxins (for drug-induced hepatitis), check **autoimmune markers** (ANA, anti–smooth muscle antibody, IgG) for autoimmune hepatitis, and evaluate for rare causes (Wilson disease, hemochromatosis, NAFLD, etc.). Imaging (ultrasound) can assess liver anatomy and rule out biliary obstruction."
+  ],
+  "differentials": [
+    { "name": "Alcoholic hepatitis", "hint": "history of heavy alcohol use; AST:ALT ratio often >2:1 with moderate enzyme elevations" },
+    { "name": "Acetaminophen toxicity", "hint": "acute overdose causing massive AST/ALT elevations (often >10,000) and acute liver failure" },
+    { "name": "Ischemic hepatitis", "hint": "\"shock liver\" from hypotension or hypoxia (AST/ALT spike after an episode of shock), usually transient if perfusion is restored" }
+  ],
+  "tricks": [
+    "Mnemonic: **\"Vowels hit your bowels\"** – Hepatitis **A** and **E** are fecal-oral infections (contaminated food or water).",
+    "Hepatitis **D** is **D**ependent on Hep B (it's a **\"defective\"** virus requiring HBV coinfection).",
+    "Hepatitis **C** virus has no 3′→5′ proofreading, leading to high mutation rates and no vaccine available."
+  ],
+  "exam_appearance": [
+    "Young adult with recent travel developing acute jaundice, fever, and markedly elevated ALT; positive IgM anti-HAV → **Acute Hepatitis A** (fecal–oral transmission, self-limited).",
+    "Unvaccinated 30‑year‑old immigrant from an HBV-endemic region, asymptomatic with elevated ALT; tests show HBsAg positive for >6 months and signs of cirrhosis → **Chronic Hepatitis B** (likely perinatally acquired; high risk of cirrhosis/HCC).",
+    "55‑year‑old with history of IV drug use and new-onset ascites; AST and ALT mildly elevated, HCV antibody and RNA positive → **Chronic Hepatitis C** with cirrhosis (blood-borne infection leading to chronic liver disease)."
+  ],
+  "treatment": [
+    "**Supportive care** is the mainstay for acute hepatitis: rest, adequate hydration, and avoiding hepatotoxins (e.g. alcohol, acetaminophen). Hospitalize if severe symptoms or coagulopathy, and consider transplant evaluation if acute liver failure develops.",
+    "Chronic viral hepatitis may require **antiviral therapy**. Chronic HBV is treated with long-term antivirals (e.g. tenofovir or entecavir) to suppress viral replication and slow disease progression. Chronic HCV is treated with direct-acting antivirals, which can cure >95% of cases, eliminating the virus.",
+    "For **autoimmune hepatitis**, immunosuppressive therapy (corticosteroids ± azathioprine) induces remission. **Alcoholic hepatitis** is managed by alcohol cessation (and corticosteroids if severe). **Acetaminophen overdose** is treated with N-acetylcysteine antidote to prevent fulminant liver failure.",
+    "**Prevention**: Vaccines are available for Hepatitis A and B (and Hep E in some regions). Post-exposure prophylaxis can prevent disease (HAV immunoglobulin; HBV vaccine ± HBIG for neonates or needlestick exposures). Safe practices (e.g. clean water, safe sex, not sharing needles) reduce transmission."
+  ],
+  "red_flags": [
+    "Acute hepatitis with signs of acute liver failure (e.g. confusion, **encephalopathy**, INR >1.5, severe jaundice) indicates **fulminant hepatitis** – a life-threatening emergency requiring critical care and possible transplant.",
+    "In chronic HBV/HCV patients, onset of **decompensated cirrhosis** (ascites, variceal bleeding, coagulopathy) is a dire sign – high risk of mortality from liver failure or HCC; such patients need urgent specialized management (e.g. transplant evaluation)."
+  ],
+  "algorithm": [
+    "Elevated **aminotransferases** ± jaundice → **suspect hepatitis**.",
+    "Order acute viral hepatitis panel: IgM anti-HAV, HBsAg and IgM anti-HBc, and anti-HCV (with reflex HCV RNA).",
+    "If all viral tests negative, evaluate for **non-viral causes**: review medications and alcohol use, check autoimmune markers (ANA, SMA, IgG), and consider Wilson disease, etc. as appropriate.",
+    "Determine if **acute vs chronic** (duration <6 months vs ≥6 months). Acute infection often shows IgM antibodies and symptomatic presentation; chronic infection if HBsAg or HCV RNA persists >6 months (often with milder symptoms).",
+    "Initiate management: supportive care for acute cases; if chronic HBV or HCV, refer for antiviral therapy. Admit patients with severe acute hepatitis or any features of liver failure."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Hepatitis.gif",
+      "alt": "Comparison of Hepatitis A, B, C, D, and E viruses (families, transmission routes, incubation, and chronic infection rates).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hepatitis.gif"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man returns from travel in South Asia and develops 2 weeks of fatigue, nausea, and jaundice.",
+      "clues": [
+        "Markedly elevated AST and ALT (in the 1000s)",
+        "IgM antibody to hepatitis A virus is positive"
+      ],
+      "answer": "Acute hepatitis A",
+      "teaching": "Hepatitis A is a fecal–oral viral infection often acquired during travel. It causes acute hepatitis with very high transaminases and jaundice, but no chronic infection. Management is supportive; most patients recover fully, and infection can be prevented by vaccination."
+    },
+    {
+      "stem": "A 32‑year‑old man born in China (where HBV is endemic) is found to have elevated liver enzymes on a routine exam.",
+      "clues": [
+        "HBsAg is positive on two occasions six months apart",
+        "Liver ultrasound shows a nodular cirrhotic liver"
+      ],
+      "answer": "Chronic hepatitis B",
+      "teaching": "This patient likely acquired HBV perinatally in a high-prevalence region. HBV chronic infection often stays asymptomatic for years but can lead to cirrhosis and liver cancer. Treatment with antiviral therapy (e.g. tenofovir) can reduce the risk of progression, and screening for HCC is necessary in cirrhosis."
+    },
+    {
+      "stem": "A 58‑year‑old male with a history of IV drug use presents with fatigue and abdominal distension.",
+      "clues": [
+        "Stigmata of chronic liver disease (ascites, spider angiomas)",
+        "HCV antibody and HCV RNA are positive"
+      ],
+      "answer": "Chronic hepatitis C with cirrhosis",
+      "teaching": "Hepatitis C is a blood-borne infection (often from past IV drug use or transfusions) that becomes chronic in most patients. Chronic HCV typically causes indolent liver damage over decades, culminating in cirrhosis and risk of HCC. The advent of direct-acting antivirals now allows >95% cure of HCV, which can halt disease progression."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "autoimmune-hepatitis",
+    "acute-hepatitis",
+    "chronic-hepatitis",
+    "alcohol-associated-liver-disease",
+    "hepatic-encephalopathy"
+  ],
+  "prerequisites": [
+    "liver-physiology",
+    "immunology",
+    "virology"
+  ],
+  "sources": [
+    {
+      "title": "World Health Organization: Hepatitis B Fact Sheet (2023)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b"
+    },
+    {
+      "title": "World Health Organization: Hepatitis C Fact Sheet (2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-c"
+    },
+    {
+      "title": "World Health Organization: Hepatitis E Fact Sheet (2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-e"
+    },
+    {
+      "title": "Centers for Disease Control and Prevention: The ABCs of Hepatitis (2020)",
+      "url": "https://www.cdc.gov/hepatitis/resources/professionals/pdfs/abctable.pdf"
+    },
+    {
+      "title": "StatPearls: Hepatitis (Mehta & Reddivari, 2020)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554549/"
+    },
+    {
+      "title": "Mayo Clinic: Hepatitis B and Hepatitis C – What's the difference? (2022)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/hepatitis-b/in-depth/hepatitis-b-versus-hepatitis-c/art-20585896"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

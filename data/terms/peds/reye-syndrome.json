@@ -1,0 +1,106 @@
+{
+  "id": "reye-syndrome",
+  "names": ["Reye syndrome"],
+  "aliases": ["Reye's syndrome"],
+  "abbr": [],
+  "patterns": ["reye syndrome", "reye's syndrome", "reye", "reyes syndrome"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "neuro", "toxicology"],
+  "definition": "Rare pediatric **acute encephalopathy** with **microvesicular fatty** liver failure (non-inflammatory), classically triggered by **aspirin** use during a viral illness (e.g., influenza or varicella).",
+  "why_it_matters": "Often **fatal** if unrecognized; a preventable cause of pediatric acute liver failure that appears in exams as a cautionary tale against giving children **aspirin**. Historical outbreaks led to public health warnings, and cases dropped dramatically after avoiding aspirin in kids. Knowing Reye syndrome reinforces vigilance for post-viral encephalopathy and the importance of using safer fever treatments in children.",
+  "how_youll_see_it": [
+    "Typically a **child** (peak age ~6) recovering 3–5 days after a viral infection (**influenza B**, **chickenpox**) who was given aspirin for fever. They develop **profuse vomiting** followed by **agitation** or confusion, rapidly progressing to **seizures** or **coma**.",
+    "Exam: signs of **encephalopathy** (irritability, lethargy, possible decorticate posturing) without focal deficits. The child is often **not jaundiced** despite severe liver injury, though hepatomegaly may be present. Vital signs may reflect increased intracranial pressure (e.g., irregular respirations, hypertension, bradycardia in late stages).",
+    "Labs strongly suggest the diagnosis: markedly elevated **ammonia** levels (often earliest finding), moderate **AST**/**ALT** increase (typically >3× normal), often **hypoglycemia**, and prolonged coagulation times. CSF is usually normal pressure with 0–8 WBC (no infection)."
+  ],
+  "problem_solving": [
+    "Always ask about **aspirin** use in a child with post-viral neurologic decline—if yes, suspect Reye syndrome.",
+    "Obtain urgent labs: check **ammonia** (typically very high), liver enzymes (**ALT/AST** elevated out of proportion to bilirubin), blood **glucose** (often low), and coagulation studies (PT/PTT may be prolonged). Minimal **bilirubin** elevation (no jaundice) is characteristic.",
+    "Perform a **lumbar puncture** to rule out meningitis/encephalitis if safe (normal or low cells in Reye's). Consider head CT to assess cerebral edema before LP if signs of high ICP.",
+    "If the diagnosis is unclear, a **liver biopsy** can confirm diffuse microvesicular **fatty change** without inflammation and help exclude inherited metabolic disorders.",
+    "Screen for other causes: if no aspirin exposure, evaluate for **inborn errors of metabolism** (e.g., urea cycle or fatty acid oxidation disorders) that can mimic Reye syndrome."
+  ],
+  "differentials": [
+    { "name": "Inborn urea cycle disorder", "hint": "Hyperammonemia with encephalopathy but normal LFTs; often presents in neonates or with protein load (no aspirin link)." },
+    { "name": "Viral meningitis/encephalitis", "hint": "Fever and inflammatory CSF (↑WBC) or focal neuro deficits, often due to viruses like HSV or enterovirus (distinguished from Reye by infection signs)." },
+    { "name": "Acetaminophen overdose", "hint": "Fulminant hepatic failure with very high AST/ALT (>1000) and coagulopathy, but requires toxic ingestion; treatable with **N-acetylcysteine**." }
+  ],
+  "tricks": [
+    "**Avoid aspirin** in anyone under 18 with viral illness (exception: Kawasaki disease) to prevent Reye syndrome.",
+    "Reye involves **microvesicular** fatty liver changes (tiny fat vacuoles in hepatocytes) – unlike the **macrovesicular** fat seen in alcoholic or nonalcoholic fatty liver disease.",
+    "In unexplained pediatric encephalopathy, always check an **ammonia level** – it can quickly point to Reye syndrome or a metabolic disorder."
+  ],
+  "exam_appearance": [
+    "Child recovering from chickenpox, treated with aspirin, now with vomiting, confusion, AST 350 U/L, ammonia 180 μg/dL, normal CSF WBC → Reye syndrome from aspirin use.",
+    "5-year-old with influenza B given aspirin develops lethargy and seizures; labs show elevated transaminases and ammonia but no infection → Reye syndrome."
+  ],
+  "treatment": [
+    "No specific cure—**supportive ICU care** is critical. Secure the **airway** (intubation if comatose or seizing) and prevent aspiration.",
+    "Manage **cerebral edema**: head elevation, mild hyperventilation, and IV **mannitol** or hypertonic saline if signs of increased intracranial pressure.",
+    "Lower **ammonia** levels: start high-dextrose IV fluids to reduce catabolism, consider ammonia scavengers (e.g., IV **sodium benzoate/phenylacetate**) or hemodialysis in severe hyperammonemia.",
+    "Correct coagulopathy and metabolic issues: give vitamin K and blood products if needed for bleeding, IV glucose for hypoglycemia, and maintain hydration/electrolytes. Avoid any hepatotoxic drugs. Recovery depends on supportive care until the liver regenerates."
+  ],
+  "red_flags": [
+    "**Recurrent vomiting** and mental status changes in a child during recovery from flu or chickenpox (especially if any salicylate exposure) → evaluate immediately for Reye syndrome (check ammonia, LFTs).",
+    "Rapid progression to **seizures or coma** in this scenario signals rising intracranial pressure; initiate ICU management to prevent herniation and permanent brain injury."
+  ],
+  "algorithm": [
+    "Post-viral child with acute vomiting & altered mental status → **Suspect Reye syndrome**; inquire about aspirin use.",
+    "Immediate labs: draw **LFTs**, **ammonia**, **glucose**, **electrolytes**, and coagulation panel. Consider head CT to assess for edema.",
+    "If no signs of high ICP, perform **lumbar puncture** to exclude CNS infection (CSF WBC ≤8 is consistent with Reye).",
+    "Admit to **ICU**: secure airway, monitor vitals and neuro status; treat cerebral edema and metabolic derangements (dextrose, mannitol, etc.) promptly.",
+    "Exclude other causes: obtain toxicology screen and metabolic tests. If Reye is confirmed or highly likely, provide supportive care and educate caregivers on strict avoidance of aspirin in children."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Reye%27s_syndrome_liver-histology.jpg",
+      "alt": "Histopathology of autopsy liver from a child who died of Reye syndrome: hepatocytes are pale due to intracellular fat droplets (microvesicular steatosis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Reye%27s_syndrome_liver-histology.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old boy is brought to the ED by his parents for confusion and vomiting. He had influenza B one week ago and was improving. For his fever and aches, his parents gave him aspirin. Now he is lethargic with episodes of vomiting and an altered mental status.",
+      "clues": [
+        "Recent influenza infection (recovery phase)",
+        "Aspirin was used for fever",
+        "Profuse vomiting, then confusion",
+        "AST and ALT markedly elevated",
+        "Blood ammonia level is high",
+        "CSF has 2 WBC (no infection)"
+      ],
+      "answer": "Reye syndrome",
+      "teaching": "Reye syndrome is triggered by aspirin use during viral illnesses. The aspirin caused a toxic mitochondrial effect, leading to acute liver failure (high AST/ALT, ammonia) and encephalopathy in this child. The key is prevention: avoid aspirin in kids (use acetaminophen or ibuprofen instead for fevers)."
+    }
+  ],
+  "see_also": [
+    "hepatic-encephalopathy",
+    "vzv-infections"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Reye Syndrome (Chapman & Arnold, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526101/"
+    },
+    {
+      "title": "UpToDate: Acute toxic-metabolic encephalopathy in children (section on Reye syndrome)",
+      "url": "https://www.uptodate.com/contents/acute-toxic-metabolic-encephalopathy-in-children"
+    },
+    {
+      "title": "Reye Syndrome (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/803683-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

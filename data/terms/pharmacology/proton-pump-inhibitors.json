@@ -1,0 +1,144 @@
+{
+  "id": "proton-pump-inhibitors",
+  "names": [
+    "Proton pump inhibitors"
+  ],
+  "aliases": [
+    "gastric proton pump inhibitors",
+    "H+/K+ ATPase inhibitors"
+  ],
+  "abbr": [
+    "PPIs",
+    "PPI"
+  ],
+  "patterns": [
+    "proton pump inhibitor",
+    "proton pump inhibitors",
+    "ppi",
+    "ppis",
+    "omeprazole",
+    "pantoprazole",
+    "esomeprazole"
+  ],
+  "primary_tag": "pharmacology",
+  "tags": [
+    "pharmacology",
+    "gi"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Proton_pump_inhibitors_mechanism.svg/982px-Proton_pump_inhibitors_mechanism.svg.png",
+      "alt": "Mechanism of a proton pump inhibitor: a prodrug is activated in the acidic secretory canaliculus of the parietal cell and then irreversibly binds to the H+/K+ ATPase (proton pump), suppressing acid secretion.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Proton_pump_inhibitors_mechanism.svg"
+      }
+    }
+  ],
+  "definition": "Medications that profoundly reduce gastric acid secretion by **irreversibly** inhibiting the H⁺/K⁺-ATPase proton pump in parietal cells (final step of acid production).",
+  "why_it_matters": "Revolutionized treatment of acid-peptic diseases—healing ulcers and controlling GERD without surgery. PPIs are among the most widely prescribed drugs (omeprazole ranks in the top 10 in the US). Widespread use means their indications, side effects, and key interactions (e.g., with clopidogrel) are high-yield knowledge often tested on boards.",
+  "how_youll_see_it": [
+    "Patients with chronic **GERD** (frequent heartburn, regurgitation) often require daily PPI therapy for symptom control and to heal esophagitis.",
+    "**Peptic ulcer disease** (gastric or duodenal ulcers) is typically managed with PPIs to promote ulcer healing. PPIs are also a key part of **H. pylori** eradication regimens (e.g., omeprazole + two antibiotics).",
+    "High-risk patients (e.g., long-term **NSAID** users, older patients with ulcer history) are put on PPIs as ulcer prophylaxis to prevent GI bleeding. Critical care protocols often include PPIs to prevent stress ulcers in ICU patients.",
+    "**Zollinger-Ellison syndrome** (gastrinoma causing extreme acid overproduction) presents with refractory ulcers; PPIs in high doses are required to control acid hypersecretion and relieve ulcer symptoms."
+  ],
+  "problem_solving": [
+    "Always confirm the need for long-term PPI: use the **lowest effective dose** for the shortest necessary duration, and periodically reassess if the PPI can be tapered or discontinued (to avoid unnecessary risk).",
+    "Advise patients to take PPIs **30–60 minutes before meals** (usually before breakfast) for optimal effect. If symptoms persist, ensure compliance and timing; consider twice-daily dosing (morning and pre-dinner) for refractory cases.",
+    "In ulcer patients, test for **H. pylori** and treat with appropriate antibiotics plus PPI (rather than using a PPI alone) to address the root cause. For NSAID-associated ulcers, discontinue the NSAID if possible and use PPI for prophylaxis or healing.",
+    "If **alarm features** (e.g., dysphagia, bleeding, weight loss) or refractory symptoms are present despite PPI therapy, perform endoscopy to rule out malignancy or other causes.",
+    "For patients on **clopidogrel** who need acid suppression, avoid omeprazole/esomeprazole (which inhibit CYP2C19 and reduce clopidogrel activation). Use an alternative PPI (e.g., pantoprazole) if required."
+  ],
+  "differentials": [
+    {
+      "name": "H₂ blockers",
+      "hint": "Histamine-2 receptor antagonists (e.g. **ranitidine**, **famotidine**); less potent and shorter-acting acid suppression. Helpful for milder GERD or nighttime symptoms; tolerance can develop."
+    },
+    {
+      "name": "Antacids",
+      "hint": "Directly neutralize stomach acid (e.g. calcium carbonate, magnesium hydroxide) for quick, short-lived relief. No prevention of ulcer/healing, just symptomatic relief."
+    },
+    {
+      "name": "Misoprostol",
+      "hint": "Prostaglandin analog used to prevent NSAID-induced ulcers by increasing mucus/bicarbonate secretion; less effective than PPIs and limited by side effects (cramping, diarrhea)."
+    }
+  ],
+  "tricks": [
+    "All PPIs have the **-prazole** suffix (omeprazole, pantoprazole, etc.), making them easy to spot. (By contrast, H₂ blockers end in **-tidine** – take H₂ blockers before you **dine**.)",
+    "**PPI** can remind you: **P**ermanent **P**ump **I**nhibitor – they irreversibly shut down the proton pump until new pumps are made.",
+    "Take PPIs before meals (think **P**PI = **P**re-**P**randial **I**ntake) to ensure the drug is active when proton pumps are stimulated by food."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with chronic **GERD** and Barrett esophagus whose heartburn is well controlled with a daily \"-prazole\" medication → expect a question on PPIs (mechanism: irreversible H⁺/K⁺-ATPase inhibition).",
+    "Elderly patient on long-term PPIs develops **recurrent C. difficile** diarrhea or a **hip fracture** → highlights an association between prolonged PPI use and infections or decreased bone density/mineral absorption.",
+    "Patient with a coronary stent on **clopidogrel** and also taking omeprazole who experiences stent thrombosis → points to the PPI interfering with clopidogrel activation (via CYP2C19 inhibition)."
+  ],
+  "treatment": [
+    "**GERD/esophagitis:** PPI once daily (usually morning) for ~8 weeks; continue maintenance if needed for chronic symptoms. Milder cases can use H₂ blockers or antacids as needed; severe/refractory cases may need BID PPI or further evaluation.",
+    "**H. pylori ulcer:** use **triple therapy** – a PPI (e.g., omeprazole) plus two antibiotics (e.g., clarithromycin + amoxicillin) for 14 days, which achieves ulcer healing by eradicating H. pylori.",
+    "**Ulcer bleeding:** initiate high-dose **IV PPI** (e.g., pantoprazole infusion) after endoscopic treatment of a bleeding ulcer, then continue an oral PPI to promote healing. In **Zollinger-Ellison** (gastrinoma), use **very high-dose PPIs** to control acid hypersecretion (often long-term) while addressing the tumor."
+  ],
+  "red_flags": [
+    "Severe **hypomagnesemia** (e.g., seizures, arrhythmias) in a patient on long-term PPI – this rare but serious complication won't correct with supplementation until the PPI is stopped.",
+    "Unexplained **C. difficile** colitis or **recurrent pneumonia** – chronic PPI use increases infection risk by reducing gastric acidity; consider discontinuation if possible.",
+    "**Osteoporosis** or frequent fractures in an older patient on PPIs – long-term use is linked to decreased calcium absorption and bone density (advise bone health measures and use the lowest effective dose).",
+    "Acid rebound on withdrawal – stopping a PPI abruptly after long-term use can cause **rebound hyperacidity** with worsened symptoms; taper gradually if discontinuing."
+  ],
+  "algorithm": [
+    "Frequent or severe reflux symptoms (≥2×/week or erosive esophagitis) → **start daily PPI** trial.",
+    "If symptoms resolve on PPI → continue for recommended course (e.g., 8 weeks); if they recur after stopping, resume maintenance PPI. If inadequate relief on once-daily dosing → optimize timing and increase to BID as needed.",
+    "If **alarm signs** (dysphagia, GI bleeding, weight loss) or no improvement on PPI → perform **endoscopy** to investigate causes (ulcer, Barrett's, malignancy, etc.).",
+    "Documented **peptic ulcer** → test for **H. pylori**. If positive, treat with PPI-based antibiotic regimen; if negative or ulcer from NSAIDs, use PPI and eliminate risk factors (stop NSAIDs, etc.).",
+    "Patients requiring long-term NSAIDs or antiplatelets and at high GI risk → **add PPI prophylaxis**. Reassess PPI need periodically; attempt to taper/stop in low-risk patients to avoid unnecessary long-term therapy."
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man with gnawing epigastric pain that improves after meals is diagnosed with a duodenal ulcer. A urease breath test is positive for H. pylori, and he is started on clarithromycin and amoxicillin.",
+      "clues": [
+        "Duodenal ulcer (meal-relieved epigastric pain)",
+        "H. pylori positive",
+        "Antibiotics (clarithromycin, amoxicillin) for ulcer"
+      ],
+      "answer": "Add a proton pump inhibitor (e.g., omeprazole) for H. pylori triple therapy",
+      "teaching": "Peptic ulcers from H. pylori are treated with **triple therapy**: a PPI plus two antibiotics (here clarithromycin and amoxicillin) to eradicate the infection and heal the ulcer."
+    },
+    {
+      "stem": "A 60‑year‑old man with a drug-eluting coronary stent is on aspirin and clopidogrel. He also takes omeprazole for chronic heartburn. Two months later, he is readmitted with a myocardial infarction due to stent thrombosis.",
+      "clues": [
+        "Post-stent on dual antiplatelet therapy",
+        "Concurrent **omeprazole** use",
+        "Stent thrombosis (repeat MI)"
+      ],
+      "answer": "Omeprazole (PPI) reduced clopidogrel's effectiveness by preventing its activation",
+      "teaching": "Omeprazole (and esomeprazole) inhibit CYP2C19, the enzyme that activates clopidogrel, leading to reduced antiplatelet effect and risk of thrombosis. In patients on clopidogrel, **avoid omeprazole** – use another PPI (like pantoprazole) or acid reducer to prevent this interaction."
+    }
+  ],
+  "see_also": [
+    "gastroesophageal-reflux-disease",
+    "peptic-ulcer-disease",
+    "zollinger-ellison-syndrome"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Proton Pump Inhibitors (Ahmed & Clarke, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557385/"
+    },
+    {
+      "title": "UpToDate: Proton pump inhibitors – Overview of use and adverse effects",
+      "url": "https://www.uptodate.com/contents/proton-pump-inhibitors-overview-of-use-and-adverse-effects-in-the-treatment-of-acid-related-disorders"
+    },
+    {
+      "title": "Specialist Pharmacy Service: Using clopidogrel with proton pump inhibitors (2023)",
+      "url": "https://www.sps.nhs.uk/articles/using-clopidogrel-with-proton-pump-inhibitors-ppis/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

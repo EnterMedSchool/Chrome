@@ -1,0 +1,134 @@
+{
+  "id": "inguinal-hernia",
+  "names": [
+    "Inguinal hernia"
+  ],
+  "aliases": [
+    "groin hernia",
+    "direct inguinal hernia",
+    "indirect inguinal hernia"
+  ],
+  "abbr": [],
+  "patterns": [
+    "inguinal hernia",
+    "groin hernia",
+    "direct inguinal hernia",
+    "indirect inguinal hernia",
+    "hernia inguinalis"
+  ],
+  "primary_tag": "surgery",
+  "tags": [
+    "surgery",
+    "pathology",
+    "gi"
+  ],
+  "definition": "Protrusion of intra-abdominal contents through a weakness in the anterior abdominal wall of the groin (inguinal canal). It classically presents as a bulge in the groin or scrotum and is classified as **indirect** vs **direct**. **Indirect inguinal hernias** pass through the deep inguinal ring into the inguinal canal (often due to a congenital patent processus vaginalis) and emerge lateral to the inferior epigastric vessels. **Direct inguinal hernias** protrude through a weakness in the transversalis fascia of Hesselbach's triangle (medial to the inferior epigastrics).",
+  "why_it_matters": "Inguinal hernia repair is one of the most common general surgical procedures. Inguinal hernias account for ~75% of all abdominal wall hernias and are up to 10× more common in males (lifetime risk ≈27% in men). These hernias are high-yield for exams because they test knowledge of groin anatomy (differences between direct vs. indirect hernias, the inguinal canal, Hesselbach's triangle, etc.). Clinically, inguinal hernias can lead to serious complications if untreated – notably **incarceration** and **strangulation** of bowel, which may cause obstruction or ischemia requiring emergency surgery.",
+  "how_youll_see_it": [
+    "Typically an **intermittent bulge in the groin** (or scrotum in males) that enlarges with upright posture or **Valsalva** (coughing, straining) and may reduce when the patient lies down. Patients often report a heaviness or dull discomfort in the groin, especially after activity, but many hernias are **painless** unless complications develop.",
+    "**Indirect hernias** can present in infants or young adults as a groin mass that may extend into the scrotum (in a baby boy, a swelling extending into the scrotum when crying is classic). **Direct hernias** usually occur in older adults as a bulge in the medial groin (through the abdominal wall) and **rarely protrude into the scrotum**. Large longstanding hernias of either type can enlarge over time and become disfiguring.",
+    "If the hernia becomes **incarcerated** (trapped), patients develop pain and an **irreducible** bulge. Bowel obstruction can occur if a loop of intestine is trapped (leading to nausea, vomiting, abdominal distension). **Strangulation** (compromised blood supply) causes severe pain at the hernia, tenderness, and overlying skin changes (erythema); patients may have fever or other systemic signs. Strangulated hernias are surgical emergencies."
+  ],
+  "problem_solving": [
+    "**Examine upright:** Inspect and palpate the inguinal region with the patient standing and coughing (Valsalva) to accentuate a hernia. If a bulge is felt, attempt to gently reduce it. In males, invaginate a finger into the scrotum to feel the external ring from inside; a hernia impulse against the fingertip confirms the diagnosis.",
+    "**Deep ring test:** To distinguish direct vs. indirect, reduce the hernia and then occlude the internal (deep) inguinal ring (just above the midpoint of the inguinal ligament). Have the patient cough: if no bulge now appears, the hernia was indirect (coming through the deep ring); if a bulge still occurs medial to your finger, it's a direct hernia.",
+    "Use **imaging** if the diagnosis is unclear. An **ultrasound** can confirm an occult groin hernia and differentiate it from other causes of a mass (e.g. lymph node, femoral hernia). In women, who have a broader differential for groin masses, imaging is often needed for diagnosis. A **CT/MRI** can also identify hidden hernias or distinguish incisional vs. groin hernias in complex cases.",
+    "Differentiate an inguinal hernia from a **femoral hernia** by location: inguinal hernias protrude **above the inguinal ligament** (closer to the pubic tubercle), whereas femoral hernias present as a lump **below the inguinal ligament** in the upper thigh/groin crease. Femoral hernias carry a higher risk of strangulation.",
+    "In pediatric patients, distinguish an inguinal hernia from a **hydrocele**. A hydrocele (fluid around the testis) will **transilluminate** with light and you can usually feel the testis separate from the fluid; an inguinal hernia contains bowel and therefore will not transilluminate and often makes the testis difficult to distinguish. Also, a hernia usually extends proximally into the inguinal canal and may be reducible, whereas a simple hydrocele confines to the scrotum."
+  ],
+  "differentials": [
+    {
+      "id": "femoral-hernia",
+      "hint": "**Femoral hernia** – bulge in upper thigh/groin, **below** inguinal ligament; more common in women; high risk of incarceration/strangulation (always recommended for surgical repair)."
+    },
+    {
+      "name": "Hydrocele",
+      "hint": "**Hydrocele** – collection of fluid around the testis causing scrotal swelling. Transilluminates on exam (unlike hernia) and testicle is non-palpable if hydrocele is large. In infants, a communicating hydrocele (patent processus vaginalis) can coexist with an indirect hernia."
+    },
+    {
+      "name": "Inguinal lymphadenopathy",
+      "hint": "**Inguinal lymphadenopathy** – enlarged groin lymph node(s) from infection or tumor. Usually a firm, localized mass in the groin crease. Does not reduce and is often tender if infectious."
+    }
+  ],
+  "tricks": [
+    "Use the mnemonic **\"MDs don't LIe\"**: **M**edial to inferior epigastric vessels = **D**irect hernia; **L**ateral = **I**ndirect hernia.",
+    "**Indirect = IN the canal** (and into scrotum): Indirect hernias follow the path of testicular descent, entering the deep ring and traversing the inguinal canal often into the scrotum. **Direct = through the abdominal wall**: Direct hernias push directly through Hesselbach's triangle due to acquired fascia weakness and generally do **not** extend into the scrotum.",
+    "Remember **Hesselbach's triangle** (direct hernia site) boundaries with **\"RIP\"**: **R**ectus abdominis (medial border), **I**nferior epigastric vessels (lateral border), **P**oupart's (inguinal) ligament (inferior border). A direct hernia protrudes through this triangle when the transversalis fascia is weakened."
+  ],
+  "exam_appearance": [
+    "Male infant with intermittent **groin and scrotal swelling** that appears with crying and is easily reducible when supine → **Indirect inguinal hernia** (congenital patent processus vaginalis causing bowel to herniate into scrotum).",
+    "Older man with a history of heavy lifting, now with an **irreducible bulge in the groin** that is acutely painful and tender, accompanied by vomiting and abdominal distension → **Strangulated inguinal hernia** causing bowel obstruction (surgical emergency)."
+  ],
+  "treatment": [
+    "**Elective surgical repair** is recommended for virtually all inguinal hernias that are symptomatic or enlarging. The standard is a tension-free **mesh hernioplasty** (e.g. Lichtenstein repair in open surgery) to close the defect and reinforce the inguinal floor. This effectively prevents recurrence in most patients.",
+    "**Watchful waiting** can be considered in an asymptomatic (or minimally symptomatic) hernia if the patient's surgical risk is high or they prefer to defer surgery. Short-term studies show observation is generally safe (low risk of acute incarceration); however, many hernias will enlarge or become symptomatic over time, with ~50% of men under observation opting for surgery by 5 years.",
+    "Advise all patients on lifestyle measures (e.g. avoid heavy lifting, treat chronic cough/constipation) to reduce strain on the abdominal wall. Use a **truss** (hernia belt) only as a temporary measure for those unfit for surgery.",
+    "**Incarcerated hernia** (cannot be reduced) warrants urgent intervention. If there are no signs of strangulation, a brief, gentle attempt at manual reduction can be made (with adequate analgesia). If unsuccessful, prompt surgical repair is indicated. **Strangulated hernia** (suspected by severe pain, toxicity, obstruction) requires **emergency surgery** without delay (to rescue any ischemic bowel).",
+    "Both **open and laparoscopic** surgical approaches are used. Open repair via an inguinal incision (often with mesh placement) is common for primary unilateral hernias. **Laparoscopic repair** (TAPP or TEP technique) is especially useful for bilateral hernias or recurrences, offering faster recovery. In adults, mesh is used in most repairs to lower recurrence risk. (In children, a simple high ligation of the hernia sac is done, without mesh, as their tissues will close and strengthen with growth.)"
+  ],
+  "red_flags": [
+    "**Irreducible** hernia with pain – suggests **incarceration**. Inability to reduce a hernia, especially if the patient has nausea/vomiting or bowel obstruction signs, is an alarm finding for entrapment of bowel. Such patients need urgent surgical evaluation (risk of progression to strangulation).",
+    "Sudden severe pain in a long-standing hernia, with tender swelling that becomes **red/purple** and patient appearing toxic – think **strangulation**. Strangulated hernias (compromised blood supply) cause ischemia and necrosis of bowel; immediate surgery is required. Do not attempt to manually reduce a strangulated hernia (risk of pushing necrotic bowel into the abdomen)."
+  ],
+  "algorithm": [
+    "**Detect a groin hernia →** Examine with patient standing; palpate inguinal area and scrotum for bulge while patient coughs. If a mass is felt, see if it reduces when patient lies down. Use ultrasound if exam is equivocal.",
+    "**Reducible hernia →** Advise elective repair (timing depends on symptoms). Most patients (especially healthy adults) should get surgery to prevent incarceration. Optimize any comorbid conditions pre-op.",
+    "**Minimal symptoms & high surgical risk →** Consider observation. Educate patient about watching for changes. Schedule routine follow-ups, as many hernias will worsen over time.",
+    "**Incarcerated (non-reducible) hernia →** Urgent scenario. If no strangulation signs, attempt gentle reduction; if unsuccessful, keep patient NPO and consult surgery emergently. Even if reduced, elective repair during the same hospital stay is usually recommended (risk of recurrence).",
+    "**Strangulated hernia →** Surgical emergency. Signs like intense pain, skin discoloration, fever, or obstructive symptoms warrant immediate operative management (this is a life-threatening situation). Administer IV fluids, IV antibiotics (for suspected dead bowel), and proceed to emergency surgery. (Always suspect strangulation if an incarcerated hernia patient suddenly develops toxic appearance or increasing pain.)",
+    "**Infants/children →** Any inguinal hernia in a child should be referred for prompt surgical repair, even if reducible. (Risk of incarceration in infants is significant, and unlike in adult males, watchful waiting is not recommended in pediatrics.)"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Blausen_0560_InguinalHernia.png",
+      "alt": "Illustration of an inguinal hernia protruding through the abdominal wall in the right groin.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0560_InguinalHernia.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-month-old boy is brought in for a swelling in the right groin and scrotum. The parents notice it bulges when he cries and goes away when he's calm. On exam, you can reduce the mass easily, and it does not transilluminate.",
+      "clues": [
+        "Male infant (2 months old)",
+        "Groin bulge extends into scrotum",
+        "Appears with straining (crying)",
+        "Reducible and non-transilluminating"
+      ],
+      "answer": "Indirect inguinal hernia (congenital)",
+      "teaching": "This presentation is classic for an indirect inguinal hernia in an infant, caused by a patent processus vaginalis. The intermittent, reducible groin/scrotal swelling that worsens with crying is key. Unlike a hydrocele, it doesn't transilluminate and contains bowel. In infants, such hernias have a high risk of incarceration, so prompt surgical repair (inguinal herniotomy) is indicated."
+    }
+  ],
+  "see_also": [
+    "varicocele"
+  ],
+  "prerequisites": [
+    "inguinal-canal",
+    "spermatic-cord",
+    "abdominal-wall"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Open Inguinal Hernia Repair (Chang & Bhakta, updated 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459309/"
+    },
+    {
+      "title": "American Family Physician: Inguinal Hernias – Diagnosis & Management (Shakil et al., 2020)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2020/1015/p487.html"
+    },
+    {
+      "title": "UpToDate: Overview of inguinal and femoral hernias in adults (LeBlanc & LeBrun, 2023)",
+      "url": "https://www.uptodate.com/contents/inguinal-and-femoral-hernias-in-adults-clinical-features-and-diagnosis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

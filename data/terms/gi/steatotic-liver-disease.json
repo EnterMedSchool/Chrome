@@ -1,0 +1,153 @@
+{
+  "id": "steatotic-liver-disease",
+  "names": [
+    "Steatotic liver disease"
+  ],
+  "aliases": [
+    "nonalcoholic fatty liver disease",
+    "non-alcoholic fatty liver disease",
+    "NAFLD",
+    "nonalcoholic steatohepatitis",
+    "non-alcoholic steatohepatitis",
+    "NASH"
+  ],
+  "abbr": [
+    "SLD",
+    "MASLD",
+    "MASH",
+    "NAFLD",
+    "NASH"
+  ],
+  "patterns": [
+    "steatotic liver disease",
+    "sld",
+    "metabolic dysfunction associated steatotic liver disease",
+    "metabolic dysfunction-associated steatotic liver disease",
+    "masld",
+    "metabolic dysfunction associated steatohepatitis",
+    "metabolic dysfunction-associated steatohepatitis",
+    "mash",
+    "nonalcoholic fatty liver disease",
+    "non-alcoholic fatty liver disease",
+    "nafld",
+    "nonalcoholic steatohepatitis",
+    "non-alcoholic steatohepatitis",
+    "nash",
+    "fatty liver disease",
+    "fatty liver"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "endocrine",
+    "pharmacology"
+  ],
+  "definition": "Spectrum of liver disease characterized by **hepatic steatosis** (fat >5% of liver weight) associated with **metabolic dysfunction** (e.g., obesity, diabetes) rather than alcohol or other causes. Encompasses simple fatty liver and **steatohepatitis**; in 2023, NAFLD was renamed **MASLD** and NASH was renamed **MASH**.",
+  "why_it_matters": "MASLD is now recognized as the **most common chronic liver disease** worldwide (affecting ~25–30% of adults) and a leading cause of cirrhosis and **hepatocellular carcinoma**. It often coexists with obesity and type 2 diabetes, highlighting its link to the global metabolic syndrome epidemic. In 2023, nomenclature was updated to emphasize metabolic drivers and reduce stigma (avoiding terms like \"nonalcoholic\" and \"fatty\"). **MASLD vs MASH (New Terminology vs Old)**:\n\n| **Aspect** | **MASLD** (formerly NAFLD) | **MASH** (formerly NASH) |\n| --- | --- | --- |\n| **Definition** | ≥5% hepatic steatosis **plus** ≥1 metabolic risk factor (e.g., obesity, T2DM, dyslipidemia); **no other cause** of fatty liver (alcohol threshold not exceeded). Includes both simple steatosis and steatohepatitis. | Subset of MASLD where steatosis is accompanied by **inflammation** and hepatocyte injury (ballooning) with or without fibrosis (i.e., **steatohepatitis** is present). Biopsy is required to distinguish MASH, as it is histologically similar to alcoholic steatohepatitis. |\n| **Clinical Course** | Many patients have \"silent\" fatty liver with **no symptoms**; progression is variable and often slow. Risk of fibrosis increases with multiple metabolic comorbidities (insulin resistance, etc.). | Higher risk of progression to advanced fibrosis, cirrhosis, and complications. MASH is the aggressive form – it can lead to cirrhosis in ~15–20% of cases over years. Once cirrhosis develops, risk of **HCC** and liver failure rises significantly. |",
+  "how_youll_see_it": [
+    "Often **asymptomatic**; most patients are identified on routine labs (mildly ↑ALT>AST) or imaging (incidental **bright liver** on ultrasound) done for other reasons.",
+    "**Metabolic syndrome** features (central obesity, hypertension, hyperlipidemia, insulin resistance) are usually present. Patients typically have BMI ≥25 or type 2 diabetes.",
+    "Physical exam is usually normal (±hepatomegaly). Advanced disease may show stigmata of **cirrhosis** (ascites, spider angiomata) if fibrosis has progressed."
+  ],
+  "problem_solving": [
+    "Confirm hepatic **steatosis**: obtain imaging (abdominal **ultrasound** showing hyperechoic fatty liver) or MRI/CT; consider **FibroScan** (elastography) to quantify fat (CAP) and stiffness for fibrosis.",
+    "Exclude other etiologies: review alcohol use (ensure below harmful threshold), test for **viral hepatitis** (HBV, HCV), **hemochromatosis** (iron studies), **Wilson disease** (ceruloplasmin), **autoimmune hepatitis** (ANA, SMA), etc., as secondary causes of fatty liver.",
+    "Diagnose **MASLD** if criteria met: hepatic steatosis plus ≥1 cardiometabolic risk factor (e.g., obesity, type 2 DM, dyslipidemia, metabolic syndrome) and no alternate cause. (If steatosis with no metabolic risk factors and no cause found, it's considered **cryptogenic SLD**.)",
+    "Assess fibrosis severity: calculate noninvasive fibrosis scores (e.g., **FIB-4 index**); perform transient elastography (**FibroScan**) to estimate fibrosis stage. **Liver biopsy** is the gold standard to confirm **MASH** (steatohepatitis and fibrosis) and is typically done if noninvasive tests suggest advanced fibrosis or if diagnosis is unclear.",
+    "Evaluate for comorbidities: screen and manage associated conditions (diabetes, dyslipidemia, hypertension, obesity) that contribute to liver disease and overall cardiovascular risk."
+  ],
+  "differentials": [
+    {
+      "name": "Alcohol-associated fatty liver disease",
+      "hint": "History of heavy alcohol use; AST:ALT > 2, other stigmata of alcohol abuse. Histologically similar fat changes but due to alcohol (≥3 drinks/day)."
+    },
+    {
+      "name": "Chronic hepatitis C (genotype 3)",
+      "hint": "Chronic HCV infection (especially genotype 3) can cause fatty change in liver. Check HCV antibody and RNA."
+    },
+    {
+      "name": "Wilson disease",
+      "hint": "In young patients, abnormal copper metabolism can present with fatty liver and elevated transaminases. Look for low ceruloplasmin, neurologic signs, Kayser–Fleischer rings."
+    }
+  ],
+  "tricks": [
+    "In MASLD, **ALT** is often higher than AST (AST:ALT < 1), whereas alcoholic liver disease classically has AST:ALT > 2.",
+    "\"**Cryptogenic**\" cirrhosis (no obvious cause) in an obese, diabetic patient is often due to \"burnt-out\" NASH/MASH that was never diagnosed (fat disappears as cirrhosis develops)."
+  ],
+  "exam_appearance": [
+    "Middle-aged **obese** patient with type 2 diabetes and mildly elevated AST & ALT (around 1-2× normal), ultrasound showing a **bright (fatty) liver**, and no significant alcohol use → MASLD (fatty liver disease).",
+    "Patient with long-standing metabolic syndrome now develops **cirrhosis** (ascites, varices) without other cause → progressed MASH (NASH) leading to nonalcoholic cirrhosis.",
+    "Liver biopsy in an obese patient showing macrovesicular fat, inflammation, and **Mallory-Denk bodies** (hyaline inclusions) → consistent with steatohepatitis (MASH), indistinguishable from alcoholic hepatitis histologically."
+  ],
+  "treatment": [
+    "**Weight loss** is first-line: a 7–10% reduction in body weight (via diet and exercise) can significantly reduce liver fat and even reverse steatohepatitis in many patients. A **Mediterranean diet** (low sugar, high fiber and healthy fats) is often recommended.",
+    "**Lifestyle**: Increase physical activity (aerobic exercise and resistance training) to improve insulin sensitivity and reduce liver fat. Avoid or strictly limit alcohol (to <2 drinks/day men, <1 drink/day women).",
+    "**Manage comorbidities**: Tight control of diabetes (preferably with agents like GLP-1 agonists or pioglitazone that benefit NASH), treat hyperlipidemia (use **statins** if indicated—safe in MASLD), optimize blood pressure. Consider **vitamin E** (antioxidant) in non-diabetic patients with biopsy-proven NASH, and **pioglitazone** in those with T2DM or high-risk NASH (improves histology).",
+    "Emerging therapies: **Resmetirom** (a thyroid hormone receptor-β agonist) was recently FDA-approved for MASH with fibrosis (F2–F3), showing improved steatohepatitis and fibrosis. In 2025, **semaglutide** (a GLP-1 agonist) also gained approval for MASH with fibrosis, reflecting its benefit in inducing NASH resolution. Several other agents (GLP-1 analogs, FXR agonists, etc.) are in trials.",
+    "If cirrhosis has developed: screen for **HCC** every 6 months (ultrasound +/- AFP). Manage cirrhosis complications (portal hypertension, variceal bleeding, encephalopathy) per standard guidelines. For decompensated end-stage disease, **liver transplantation** is the definitive treatment (MASLD is now a leading indication for transplant)."
+  ],
+  "red_flags": [
+    "Any signs of **advanced fibrosis** (platelet count dropping, APRI/FIB-4 rising) or clinical cirrhosis in MASLD → indicates progressing disease; requires specialist referral, HCC surveillance, and aggressive risk factor management.",
+    "Development of **hepatocellular carcinoma**: MASLD-related HCC can arise even before cirrhosis in some cases (~20–30%); any new liver nodule or unexplained weight loss should prompt urgent evaluation (imaging, tumor markers)."
+  ],
+  "algorithm": [
+    "Patient with obesity, diabetes, or metabolic syndrome + elevated LFTs or fatty liver on imaging → **suspect MASLD**.",
+    "Confirm **steatosis** (ultrasound or other imaging) and screen for metabolic risk factors. Check for other causes (viral hepatitis panel, alcohol history, etc.) to ensure diagnosis.",
+    "If criteria met (fatty liver + metabolic dysfunction, no other cause), diagnose **MASLD**. If no metabolic risks, pursue workup for other etiologies (or label as cryptogenic if none found).",
+    "Use noninvasive tests (FIB-4, FibroScan) to **stage fibrosis** risk. Consider liver biopsy if need to confirm **MASH** or if high fibrosis risk to guide therapy.",
+    "Management: emphasize **weight loss** (lifestyle changes), treat metabolic comorbidities (diabetes, hyperlipidemia, etc.), and follow up periodically. Monitor fibrosis progression; if cirrhosis develops, initiate HCC surveillance and consider transplant referral."
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man (BMI 32) with type 2 diabetes and hyperlipidemia is evaluated for fatigue and elevated liver enzymes discovered on routine bloodwork.",
+      "clues": [
+        "AST 60, ALT 75 (mild elevation; AST:ALT < 1)",
+        "No alcohol use history",
+        "Negative hepatitis B and C serologies",
+        "Ultrasound: diffusely fatty liver"
+      ],
+      "answer": "Metabolic dysfunction–associated steatotic liver disease (MASLD, formerly NAFLD)",
+      "teaching": "This patient's metabolic risk factors (obesity, diabetes) and imaging finding of fatty liver point to MASLD. Mildly elevated transaminases (often with ALT > AST) are typical. Other causes have been excluded. The recommended management is weight loss through diet and exercise, along with control of diabetes and lipids to prevent progression to steatohepatitis (MASH) and fibrosis."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "alcohol-associated-liver-disease",
+    "nonalcoholic-fatty-liver-disease",
+    "obesity",
+    "diabetes-mellitus"
+  ],
+  "prerequisites": [
+    "liver-physiology",
+    "metabolism",
+    "insulin-resistance"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Fatty Liver Disease (Antunes & Azadfard, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441992/"
+    },
+    {
+      "title": "UpToDate: Management of NAFLD (metabolic dysfunction-associated fatty liver disease) in adults",
+      "url": "https://www.uptodate.com/contents/nonalcoholic-fatty-liver-disease-epidemiology-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "EASL-EASD-EASO Clinical Practice Guidelines for MASLD (J Hepatol, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38851997/"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21e: Nonalcoholic Fatty Liver Disease",
+      "url": "https://accessmedicine.mhmedical.com/Content.aspx?bookid=3095&sectionid=264501620"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

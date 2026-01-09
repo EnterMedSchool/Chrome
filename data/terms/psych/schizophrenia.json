@@ -1,0 +1,144 @@
+{
+  "id": "schizophrenia",
+  "names": [
+    "Schizophrenia"
+  ],
+  "aliases": [
+    "dementia praecox"
+  ],
+  "abbr": [
+    "SCZ"
+  ],
+  "patterns": [
+    "schizophrenia",
+    "schizophrenic"
+  ],
+  "primary_tag": "psych",
+  "tags": [
+    "psych",
+    "pharmacology",
+    "neuro"
+  ],
+  "definition": "A chronic psychiatric disorder characterized by episodes of **psychosis** – including delusions, hallucinations, disorganized speech/behavior – along with longer-term **negative symptoms** (flat affect, avolition) and functional decline.",
+  "why_it_matters": "Schizophrenia is relatively common (~1% prevalence worldwide) and among the top causes of disability. It typically strikes adolescents and young adults at the start of their productive years, causing profound personal and socioeconomic impact. Boards frequently test distinguishing schizophrenia from related psychotic disorders and understanding its management. It's also life-threatening: about 5% of patients die by **suicide**, and many suffer reduced lifespan from comorbid health issues.",
+  "how_youll_see_it": [
+    "Classically presents in **late teens to 20s** (earlier in males than females) with a **prodromal** phase of social withdrawal, odd thinking, or decline in school/work functioning. This precedes the first **psychotic break** (acute active phase).",
+    "During **active psychosis**, patients experience **positive symptoms**: e.g. **auditory hallucinations** (often voices commenting or commanding), **delusions** (often paranoid or bizarre beliefs), and severely **disorganized speech** or behavior. They may have trouble with reality testing and exhibit inappropriate affect or catatonic behavior.",
+    "**Negative symptoms** dominate the **residual phase** and throughout the illness: diminished emotional expression (flat affect), lack of motivation (**avolition**), paucity of speech (**alogia**), social withdrawal, and poor self-care. **Cognitive impairment** (poor attention, executive dysfunction) is also common. Even in residual periods, some mild psychotic symptoms or odd beliefs can persist."
+  ],
+  "problem_solving": [
+    "Confirm the **time course** meets DSM-5: at least **6 months** of continuous illness (including prodromal and residual periods) with ≥1 month of **active-phase** psychotic symptoms. Diagnostic Criterion A requires **≥2** of the 5 key symptoms – **delusions, hallucinations, disorganized speech**, grossly disorganized or catatonic behavior, and negative symptoms – with at least one from the first three.",
+    "Rule out other causes of psychosis: obtain a **toxicology screen** and relevant labs to exclude **substance-induced** psychosis or medical conditions (e.g. brain tumor, delirium). A first psychotic episode warrants evaluation to eliminate organic causes.",
+    "Differentiate from **mood disorders** with psychosis: If hallucinations/delusions occur **exclusively during mood episodes**, the diagnosis is a mood disorder (e.g. **bipolar depression with psychotic features**) rather than schizophrenia. If significant mood symptoms are present but psychosis also occurs **outside** those mood episodes, think **schizoaffective disorder**.",
+    "Gather collateral history and assess **insight** and safety. Patients often **lack insight** into their illness, which can impair treatment adherence. Evaluate for **suicidal ideation** or dangerous **command hallucinations** (telling the patient to harm self/others); these are red flags necessitating urgent intervention (e.g. hospitalization)."
+  ],
+  "differentials": [
+    {
+      "id": "schizoaffective-disorder",
+      "hint": "Psychotic + mood symptoms; psychosis **without** mood at times (psychosis persists even when mood is normal)."
+    },
+    {
+      "id": "delusional-disorder",
+      "hint": "Fixed delusions but **no other** major psychotic features; functioning relatively preserved outside the impact of the delusions."
+    },
+    {
+      "name": "Mood disorder with psychotic features",
+      "hint": "Psychosis occurs **only during** episodes of major depression or mania (no psychotic symptoms in the absence of mood episode)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **\"Schizo\" has 6 letters** → needs ≥**6 months** of symptoms for schizophrenia diagnosis (if <6 months: schizophreniform; <1 month: brief psychotic disorder).",
+    "**Auditory hallucinations** (hearing voices) are the most common hallucination in schizophrenia (seen in ~75% of patients).",
+    "Dopamine pathways association: **Mesolimbic** hyperactivity → **positive symptoms**; **Mesocortical** hypoactivity → **negative symptoms** (and cognitive deficits)."
+  ],
+  "exam_appearance": [
+    "A 21‑year‑old man has become increasingly withdrawn over the past year and believes the TV is broadcasting his thoughts. He hears multiple voices commenting on his actions. He neglects college and self-care → **Schizophrenia** (typical first-episode psychosis in a young adult with paranoid delusions and auditory hallucinations over >6 months).",
+    "A 32‑year‑old woman with a history of depression presents with 2 months of persecutory delusions and hallucinations, along with low mood. Her psychotic symptoms continue for several weeks even after her depressive episode resolves → **Schizoaffective disorder** (psychosis beyond mood disturbances, contrasted with mood disorder with psychotic features).",
+    "An agitated 40‑year‑old schizophrenic patient on high-dose haloperidol develops **rigidity**, high fever, autonomic instability, and altered consciousness → **Neuroleptic Malignant Syndrome** (life-threatening reaction to antipsychotic therapy)."
+  ],
+  "treatment": [
+    "**Antipsychotic medications** are the cornerstone. First-line are typically **second-generation (atypical)** antipsychotics (e.g. risperidone, quetiapine, olanzapine) for their efficacy on positive symptoms and lower risk of extrapyramidal side effects. Be mindful of **metabolic side effects** (weight gain, diabetes, dyslipidemia) with atypicals.",
+    "**First-generation (typical)** antipsychotics (e.g. haloperidol, fluphenazine) are effective, especially for acute agitation, but carry higher risk of **EPS** (acute dystonia, akathisia, Parkinsonism, tardive dyskinesia) and can cause **NMS** (fever, rigidity, mental status change). Monitor for these serious adverse effects.",
+    "For **treatment-resistant** cases (failure of ≥2 antipsychotics) or persistent suicidality, **clozapine** is the most effective antipsychotic. Clozapine requires regular WBC monitoring due to risk of **agranulocytosis** and can cause seizures and metabolic syndrome.",
+    "**Psychosocial interventions** are essential adjuncts: **CBT for psychosis**, family therapy/psychoeducation, social skills training, and supported employment improve functional outcomes. Ensure a structured support system to enhance medication adherence and social integration.",
+    "If **catatonia** is present (e.g. immobility or extreme negativism), add a **benzodiazepine** (like lorazepam) and/or consider **ECT** (electroconvulsive therapy), as catatonic features often respond to these measures more than to antipsychotics."
+  ],
+  "red_flags": [
+    "**Command auditory hallucinations** instructing harm (to self or others), or any expression of intent to act on delusional beliefs (e.g. violence) → require emergent safety measures (hospitalization, emergency psychiatry consult) to prevent injury.",
+    "**Poor prognostic indicators**: early age of onset, insidious (gradual) symptom development, predominantly **negative symptoms**, and lack of social support are associated with worse outcomes. (Conversely, later onset, acute trigger, and mostly positive symptoms predict a more favorable prognosis.)"
+  ],
+  "algorithm": [
+    "Young patient with hallucinations or delusions → **rule out medical or substance causes** (tox screen, labs, neuroimaging as needed).",
+    "If primary psychotic disorder is suspected, assess **duration** of illness: <1 month = **Brief Psychotic Disorder**; 1–6 months = **Schizophreniform Disorder**; ≥6 months with functional decline = **Schizophrenia**.",
+    "Distinguish schizophrenia spectrum from mood disorders: if psychosis extends beyond mood episodes → **schizoaffective**; if psychosis occurs only during mood episodes → mood disorder with psychotic features.",
+    "Initiate **antipsychotic** treatment promptly for schizophrenia. For first episodes, a low-to-moderate dose atypical antipsychotic is often chosen. Ensure close follow-up for response and side effects.",
+    "Provide **psychotherapy and social support**. Monitor for medication adherence and side effects (EPS, metabolic). If patient is a danger to self or others or gravely disabled by psychosis, initiate appropriate safety interventions (hospitalization, involuntary treatment if necessary)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Schizophrenia_%28Brain%29.png",
+      "alt": "Brain MRI illustrations comparing a normal brain vs. a schizophrenic brain, highlighting **enlarged lateral ventricles** in schizophrenia (a common structural finding).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Schizophrenia_(Brain).png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19‑year‑old college student has progressively deteriorated academically and socially over the last year. He rarely leaves his dorm, neglects hygiene, and believes classmates are conspiring to harm him. He reports hearing a man's voice narrating his daily activities for months.",
+      "clues": [
+        "Paranoid delusions and running commentary hallucinations",
+        "Marked social withdrawal and apathy",
+        "Symptoms insidious over ~12 months",
+        "Age of onset in late adolescence"
+      ],
+      "answer": "Schizophrenia (first-episode paranoid schizophrenia)",
+      "teaching": "This is a classic presentation of schizophrenia in a young adult: a prodrome of social withdrawal and decline in functioning leading to an active phase with paranoid delusions and auditory hallucinations persisting >6 months. The chronic nature and hallucination type (voices commenting) point to schizophrenia. Treatment would center on antipsychotic medication and psychosocial support."
+    },
+    {
+      "stem": "A 28‑year‑old woman is brought in by family due to bizarre behavior. Over the past 8 months she became increasingly isolated, speaking very little. She often stops midsentence and giggles to herself. She exhibits poor eye contact and flat facial expression. She occasionally mutters to herself about \"shadows\" but denies voices when asked. Urine toxicology is negative.",
+      "clues": [
+        "Gradual onset of social withdrawal and diminished speech",
+        "Flat affect and disorganized behavior",
+        "Occasional odd perceptual experiences ('shadows')",
+        "Duration ~8 months, negative tox screen"
+      ],
+      "answer": "Schizophrenia (with prominent negative symptoms)",
+      "teaching": "This patient illustrates schizophrenia with predominantly negative symptoms (alogia, flat affect, social withdrawal) and some mild hallucinations. The subacute course over >6 months with functional decline and exclusion of substance/medical causes solidify the diagnosis. Negative symptoms can be challenging to treat; a second-generation antipsychotic is often used, and psychosocial interventions are crucial for improvement."
+    }
+  ],
+  "see_also": [
+    "major-depressive-disorder"
+  ],
+  "prerequisites": [
+    "psychosis",
+    "neurotransmitters"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Schizophrenia (Hany & Rizvi, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539864/"
+    },
+    {
+      "title": "UpToDate: Schizophrenia in adults: Clinical manifestations, symptom assessment, and diagnosis",
+      "url": "https://www.uptodate.com/contents/schizophrenia-in-adults-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "WHO Fact Sheet: Schizophrenia (World Health Organization, 2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/schizophrenia"
+    },
+    {
+      "title": "APA Practice Guideline for the Treatment of Patients with Schizophrenia (3rd ed., 2020)",
+      "url": "https://psychiatryonline.org/doi/full/10.1176/appi.focus.20200027"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

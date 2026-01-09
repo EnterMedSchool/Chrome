@@ -1,0 +1,132 @@
+{
+  "id": "diabetic-ketoacidosis",
+  "names": ["Diabetic ketoacidosis"],
+  "aliases": ["diabetic acidosis"],
+  "abbr": ["DKA"],
+  "patterns": ["dka", "diabetic ketoacidosis", "diabetic acidosis"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endo", "emerg"],
+  "definition": "Life-threatening acute complication of diabetes mellitus characterized by **hyperglycemia** (glucose >250 mg/dL), **anion gap metabolic acidosis** (arterial pH <7.3, HCO₃ <18 mEq/L), and **ketosis** (ketonemia).",
+  "why_it_matters": "High mortality if untreated—an endocrine emergency often seen as the initial presentation of type 1 diabetes. Prompt recognition and treatment of DKA prevents coma, brain injury (cerebral edema), and death; it's frequently tested for its classic lab findings and management priorities.",
+  "how_youll_see_it": [
+    "Symptoms develop over hours to days: **polyuria, polydipsia**, dehydration (dry mucous membranes, tachycardia), **nausea/vomiting**, abdominal pain, **fruity (acetone) breath odor**, and deep rapid breathing (**Kussmaul respirations**). Can progress to confusion or coma if severe.",
+    "Common triggers: **infection** (e.g., UTI, pneumonia), missed insulin doses (nonadherence or pump failure), or acute stressors such as myocardial infarction, pancreatitis, or trauma.",
+    "Pediatrics: often the first presentation of type 1 diabetes (new-onset); children may present with bed-wetting (polyuria) and are prone to **cerebral edema** during treatment, requiring cautious fluid/electrolyte correction.",
+    "Type 2 diabetics on **SGLT2 inhibitors** (gliflozins) can develop DKA with only modestly elevated glucose (≈150–250 mg/dL) — this **euglycemic DKA** presentation lacks extreme hyperglycemia."
+  ],
+  "problem_solving": [
+    "Check labs to confirm DKA: serum glucose (often 250–600 mg/dL), electrolytes (calculate anion gap), blood gas (pH, HCO₃), and ketones; note that urine dipstick (nitroprusside) mainly detects acetoacetate, whereas serum **β-hydroxybutyrate** is the predominant ketone in DKA.",
+    "Calculate the **anion gap**: Na – (Cl + HCO₃). DKA typically causes an elevated gap (>12). If the gap is normal despite acidosis, consider a concurrent metabolic alkalosis (e.g., vomiting) or an alternate cause of acidosis.",
+    "Assess **potassium**: total body K⁺ is always depleted in DKA (from urinary losses), even if serum K is normal or high initially (acidosis shifts K out of cells). Insulin therapy will drive K into cells, risking hypokalemia — so do **not** start insulin until K ≥3.3 mEq/L; replete K first if low.",
+    "Distinguish from **HHS**: DKA usually occurs in younger patients with moderate hyperglycemia and ketoacidosis, whereas **hyperosmolar hyperglycemic state** (typically type 2 diabetics) features extreme hyperglycemia (>600 mg/dL), high osmolality, minimal ketones, and no significant acidosis.",
+    "Investigate precipitant: identify and treat any underlying cause (e.g., antibiotics for infection, cardiac workup for MI) in parallel with DKA management."
+  ],
+  "differentials": [
+    {
+      "id": "hyperosmolar-hyperglycemic-state",
+      "name": "Hyperosmolar hyperglycemic state (HHS)",
+      "hint": "Older type 2 diabetic, **glucose >600** mg/dL, very high osmolality, **no significant ketones or acidosis**."
+    },
+    {
+      "name": "Starvation ketosis",
+      "hint": "Prolonged fasting leading to mild **ketosis** and metabolic acidosis; **normal or low glucose** (resolves with eating)."
+    },
+    {
+      "name": "Lactic acidosis (sepsis)",
+      "hint": "**Sepsis** can cause high lactate → anion gap acidosis with **normal ketones**; usually presents with hypotension and only mild hyperglycemia."
+    }
+  ],
+  "tricks": [
+    "Mnemonic – **5 I's** for DKA precipitants: **Infection**, **Infarction** (MI/stroke), **Insulin** lack (noncompliance), **Iatrogenic** (drugs like steroids, thiazides, SGLT2i), and **Infant** (pregnancy).",
+    "Once blood glucose drops to ~200 mg/dL, add dextrose to IV fluids so that **insulin** can be continued (to clear ketones) without causing hypoglycemia. Continue insulin until the anion gap closes, not just until blood sugar is normal."
+  ],
+  "exam_appearance": [
+    "Young patient (new-onset type 1 diabetic) with abdominal pain, vomiting, **fruity breath**, and Kussmaul breathing; labs: glucose ~500, pH 7.1, HCO₃ 12, anion gap 24, positive ketones → **Diabetic ketoacidosis**.",
+    "Middle-aged type 2 diabetic on an SGLT2 inhibitor with nausea and fatigue; moderately elevated glucose (~180) but anion gap metabolic acidosis and positive ketones → **Euglycemic DKA** precipitated by the SGLT2 inhibitor."
+  ],
+  "treatment": [
+    "**IV fluids** – aggressive rehydration (e.g., 1–2 L normal saline bolus in the first hour) to restore perfusion and help clear glucose/ketones. Once glucose <200 mg/dL, switch to dextrose-containing fluids (D5½NS) to prevent hypoglycemia while on insulin.",
+    "**Insulin therapy** – start a continuous IV insulin infusion (regular insulin) to suppress ketogenesis and reduce blood glucose. Do **not** start insulin if K <3.3; once started, continue insulin until the anion gap closes (even if glucose normalizes). Transition to subcutaneous insulin when eating (overlap drip and SQ insulin by 1–2 hours to prevent relapse).",
+    "**Potassium replacement** – monitor K⁺ closely. If K is 3.3–5.3, add IV potassium during treatment to maintain K in normal range (≈4–5 mEq/L). If K <3.3, hold insulin and replete K first. Anticipate total body K depletion (insulin and rehydration will further drop K). Replete other electrolytes as needed (e.g., Mg²⁺).",
+    "Treat underlying cause – address precipitating factors (e.g., antibiotics for infection, oxygen for MI). **Bicarbonate** is generally avoided (only consider if pH <6.9 due to risk of paradoxical CNS acidosis and **cerebral edema**)."
+  ],
+  "red_flags": [
+    "**Cerebral edema** – watch for headache, altered mental status, or bradycardia in a DKA patient (especially a child). This rare complication typically occurs during treatment and can be fatal; treat immediately (IV mannitol, ICU care).",
+    "**Hypokalemia** – starting insulin without adequate K⁺ on board can precipitate life-threatening arrhythmias. Never begin insulin in DKA until K⁺ is ≥3.3 mEq/L, and aggressively replete potassium during therapy (even if initial serum K is normal or high)."
+  ],
+  "algorithm": [
+    "Suspected DKA (polyuria, dehydration, high fingerstick glucose) → obtain labs (BMP, blood gas, ketones) and begin IV fluids.",
+    "If blood glucose is high with anion gap metabolic acidosis + ketones → confirm DKA (assess severity: mild/moderate/severe by pH and mental status).",
+    "Start **IV fluids** immediately (e.g., 1 L 0.9% saline over the first hour) to treat shock/dehydration. Monitor vital signs and urine output.",
+    "Check serum K⁺: if <3.3, hold insulin and give IV KCl until K ≥3.3; if K ≥3.3, proceed with insulin therapy.",
+    "Start **IV insulin** infusion (regular insulin). Monitor glucose, electrolytes, and pH frequently. When glucose ~200 mg/dL, add dextrose to fluids (D5NS or D5½NS) to prevent hypoglycemia while continuing insulin.",
+    "Continue insulin drip until the anion gap closes (resolution of ketoacidosis). Then transition to subcutaneous insulin regimen when patient can eat (overlap drip and first SQ dose by ~1–2 hours).",
+    "Concurrently, treat the precipitating cause (e.g., antibiotics for infection, manage MI, etc.) and watch for complications (cerebral edema, fluid overload)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Diabetic_Ketoacidosis_Model.svg/2560px-Diabetic_Ketoacidosis_Model.svg.png",
+      "alt": "Diagram illustrating how insulin deficiency triggers hyperglycemia and ketone production in DKA (pathophysiology of diabetic ketoacidosis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Diabetic_Ketoacidosis_Model.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 17‑year‑old girl with no prior medical history presents with 2 days of vomiting, abdominal pain, excessive thirst, and frequent urination. She appears dehydrated with rapid deep breathing and a fruity odor on her breath.",
+      "clues": [
+        "Glucose 450 mg/dL",
+        "Arterial pH 7.1, HCO₃ 10 mEq/L",
+        "Anion gap 25",
+        "Urine ketones: large (+4)"
+      ],
+      "answer": "Diabetic ketoacidosis (new-onset type 1 diabetes)",
+      "teaching": "Newly diagnosed type 1 diabetes presenting in DKA. Absolute insulin deficiency led to hyperglycemia and ketone accumulation, causing dehydration and acidosis. Management requires aggressive fluids, IV insulin, and careful K⁺ replacement. Avoid rapidly lowering glucose (risk of cerebral edema in kids)."
+    },
+    {
+      "stem": "A 60‑year‑old man with type 2 diabetes (on empagliflozin) presents with nausea and weakness after a flu-like illness. He has dry mucous membranes but is alert, with only mild tachypnea.",
+      "clues": [
+        "Glucose 210 mg/dL",
+        "Arterial pH 7.25, HCO₃ 15 mEq/L",
+        "Anion gap 18",
+        "Serum ketones positive"
+      ],
+      "answer": "Euglycemic diabetic ketoacidosis (SGLT2 inhibitor–induced)",
+      "teaching": "SGLT2 inhibitors (gliflozins) can precipitate DKA with relatively normal blood glucose. In this case, reduced insulin (from illness and SGLT2i) led to ketone overproduction despite only modest hyperglycemia. Treatment is the same as typical DKA: IV fluids, insulin, electrolyte management, and stopping the offending SGLT2i."
+    }
+  ],
+  "see_also": [
+    "diabetes-mellitus",
+    "metabolic-acidosis",
+    "lactic-acidosis"
+  ],
+  "prerequisites": [
+    "diabetes-mellitus",
+    "insulin",
+    "acid-base-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Adult Diabetic Ketoacidosis (Lizzo et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560723/"
+    },
+    {
+      "title": "UpToDate: Diabetic ketoacidosis in adults (Hirsch & Emmett, 2023)",
+      "url": "https://www.uptodate.com/contents/diabetic-ketoacidosis-and-hyperosmolar-hyperglycemic-state-in-adults-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "Am Fam Physician: Diabetic Ketoacidosis (Veauthier & Levy-Grau, 2024)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2024/1100/diabetic-ketoacidosis.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

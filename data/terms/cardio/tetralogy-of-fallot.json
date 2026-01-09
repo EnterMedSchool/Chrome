@@ -1,0 +1,110 @@
+{
+  "id": "tetralogy-of-fallot",
+  "names": ["Tetralogy of Fallot"],
+  "aliases": ["Fallot's tetralogy", "Steno-Fallot tetralogy"],
+  "abbr": ["TOF"],
+  "patterns": ["tetralogy of fallot", "tetralogy fallot", "fallot tetralogy", "tof", "fallot"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "peds", "surgery"],
+  "definition": "Conotruncal heart defect with four anomalies: **VSD**, **subpulmonic pulmonary stenosis** (RV outflow obstruction), **overriding aorta**, and **right ventricular hypertrophy**; results in right-to-left shunting and cyanosis.",
+  "why_it_matters": "Most common **cyanotic congenital heart disease** beyond infancy (~5–7% of CHDs). Untreated, it leads to severe hypoxemia and complications, but surgical repair dramatically improves survival. Hallmark exam clues (Tet spells, squatting for relief, **boot-shaped heart**) make TOF a high-yield topic.",
+  "how_youll_see_it": [
+    "Usually detected in infancy with **cyanosis**. Severity varies with RVOT obstruction: mild narrowing ('pink Tets') causes little early cyanosis (just a murmur), whereas severe narrowing causes profound neonatal cyanosis. Occasionally associated with **DiGeorge syndrome** (22q11 deletion).",
+    "Hypercyanotic episodes (**Tet spells**) classically occur during crying or exertion (feeding, playing). The infant becomes irritable, tachypneic, and increasingly blue. Toddlers may instinctively **squat** to abort a spell – squatting raises systemic vascular resistance and reduces the right-to-left shunt, improving oxygenation.",
+    "Physical exam: **harsh systolic ejection murmur** at the left upper sternal border (due to pulmonary stenosis) and a single S2 (soft or absent pulmonic component). Chronic hypoxemia leads to **digital clubbing** over time.",
+    "CXR: **boot-shaped heart** (coeur en sabot) due to RV hypertrophy and an upturned apex, with a concave main pulmonary artery segment and decreased pulmonary vascular markings. **ECG** shows right-axis deviation and RV hypertrophy. **Echocardiography** is diagnostic, revealing the VSD, overriding aorta, RVOT obstruction, and any associated anomalies."
+  ],
+  "problem_solving": [
+    "In a cyanotic newborn, perform a **hyperoxia test**: 100% O₂ will significantly raise PaO₂ if lung disease, but not in TOF (R→L shunt limits oxygenation).",
+    "Treat hypercyanotic **Tet spells** promptly: calm the infant and place in a knee-chest position (↑systemic vascular resistance); give high-flow O₂. If needed, administer **morphine** for sedation and IV fluids for volume expansion. Refractory spells may require IV **beta-blockers** (to relax infundibular spasm) and **phenylephrine** (to ↑afterload).",
+    "For severe neonatal TOF (e.g. pulmonary atresia variant) with duct-dependent pulmonary flow, start **prostaglandin E₁** infusion to maintain a patent ductus arteriosus until surgical palliation or repair can be done.",
+    "Obtain an **echocardiogram** to confirm the anatomy and plan management (echo will show the VSD, overriding aorta, degree of RVOT obstruction, and branch pulmonary artery sizes)."
+  ],
+  "differentials": [
+    { "name": "Transposition of the great arteries (d-TGA)", "hint": "severe cyanosis at birth; 'egg on a string' heart on CXR; needs PDA/ASD for mixing" },
+    { "name": "Tricuspid atresia", "hint": "absent tricuspid valve (hypoplastic RV); requires both ASD & VSD; marked cyanosis, often left-axis deviation on ECG" },
+    { "name": "Persistent truncus arteriosus", "hint": "single arterial trunk (failure of outflow septation); complete mixing causes cyanosis + heart failure; associated with 22q11 (DiGeorge)" }
+  ],
+  "tricks": [
+    "Mnemonic: **PROVe** for TOF's 4 defects – **P**ulmonic stenosis, **R**ight ventricular hypertrophy, **O**verriding aorta, **V**SD.",
+    "Remember why squatting helps: squatting ↑SVR (systemic vascular resistance), which forces more blood into the pulmonary circuit (reducing the right-to-left shunt).",
+    "**Boot-shaped heart** on X-ray is classic for TOF (due to RV hypertrophy); in contrast, an **egg-on-a-string** heart suggests transposition of the great arteries."
+  ],
+  "exam_appearance": [
+    "Toddler who often **squats** during play to relieve shortness of breath, with episodes of cyanosis and a harsh murmur → Tetralogy of Fallot.",
+    "Infant turns blue when crying, relieved by being held in a knee-chest position; exam shows a loud pulmonic stenosis murmur and CXR reveals a boot-shaped heart → TOF (Tetralogy of Fallot)."
+  ],
+  "treatment": [
+    "For acute cyanotic spells: **knees-to-chest positioning**, 100% O₂, and calming the child (e.g. morphine for sedation). If needed, give IV fluids to increase preload, IV **beta-blocker** (e.g. propranolol) to relieve RVOT spasm, and **phenylephrine** to raise systemic pressure.",
+    "Definitive treatment is surgical. Complete **repair** (patch closure of VSD and relief of RVOT obstruction) is typically performed around 4–6 months of age. If immediate repair is not possible (e.g. very low birth weight or complex anatomy), a palliative **Blalock–Taussig shunt** (connecting subclavian artery to pulmonary artery) can be placed to increase pulmonary blood flow until full repair."
+  ],
+  "red_flags": [
+    "**Prolonged Tet spell** unresponsive to knee-chest positioning and O₂ is an emergency – it can lead to syncope, seizure, or hypoxic brain injury. Such spells may require intubation, catecholamines, or even emergent surgical intervention.",
+    "In a newborn with critical RVOT obstruction, closure of the ductus arteriosus can cause lethal cyanosis. Always initiate **prostaglandin E₁** to keep the ductus open if severe TOF with near-pulmonary atresia is suspected."
+  ],
+  "algorithm": [
+    "Infant with cyanosis + harsh murmur → suspect TOF (most common cyanotic CHD after the neonatal period).",
+    "100% O₂ test: if PaO₂ doesn't rise → indicates a right-to-left shunt (cardiac cyanotic lesion like TOF).",
+    "Hypercyanotic episode (Tet spell) → knees-to-chest positioning, high-flow O₂, morphine sedation; add IV fluids, beta-blocker, and phenylephrine if needed.",
+    "Suspected TOF → confirm diagnosis with echocardiography (identifies VSD, overriding aorta, RVOT stenosis).",
+    "Confirmed TOF → plan surgical repair in early infancy (complete repair if possible; consider Blalock–Taussig shunt as needed before definitive surgery)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Tetralogy_of_Fallot.svg/1024px-Tetralogy_of_Fallot.svg.png",
+      "alt": "Diagram comparing a normal heart (left) with a heart affected by Tetralogy of Fallot (right), illustrating the VSD, overriding aorta, pulmonary stenosis, and RV hypertrophy.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Tetralogy_of_Fallot.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑year‑old boy is brought to clinic because he turns blue during active play. His mother notes that he often squats down when these episodes occur.",
+      "clues": [
+        "Cyanosis (blue skin) with exertion",
+        "Squatting behavior relieves symptoms",
+        "Harsh systolic murmur at left upper sternal border",
+        "Boot-shaped heart on chest X-ray"
+      ],
+      "answer": "Tetralogy of Fallot",
+      "teaching": "TOF's four defects create a right-to-left shunt, causing exertional cyanosis. Squatting increases systemic resistance and forces more blood into the lungs, reducing the shunt and improving oxygenation. The combination of a harsh pulmonic stenosis murmur and a boot-shaped cardiac silhouette on X-ray is classic for Tetralogy of Fallot."
+    }
+  ],
+  "see_also": [
+    "eisenmenger-syndrome",
+    "digeorge-syndrome",
+    "down-syndrome"
+  ],
+  "prerequisites": [
+    "cardiac-development",
+    "ventricular-septal-defect"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Tetralogy of Fallot (Horenstein et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513288/"
+    },
+    {
+      "title": "UpToDate: Tetralogy of Fallot (TOF) – pathophysiology, clinical features, and diagnosis",
+      "url": "https://www.uptodate.com/contents/tetralogy-of-fallot-tof-pathophysiology-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "Tetralogy of Fallot with Pulmonary Stenosis (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/2063480-overview"
+    },
+    {
+      "title": "2018 AHA/ACC Guidelines for Management of Adults with Congenital Heart Disease",
+      "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2018/08/13/16/26/2018-AHA-ACC-Guideline-for-the-Management-of-ACHD"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

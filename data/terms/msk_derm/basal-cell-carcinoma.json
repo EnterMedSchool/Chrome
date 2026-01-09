@@ -1,0 +1,99 @@
+{
+  "id": "basal-cell-carcinoma",
+  "names": ["Basal cell carcinoma"],
+  "aliases": ["basal-cell cancer", "basalioma", "rodent ulcer", "basal cell epithelioma"],
+  "abbr": ["BCC"],
+  "patterns": ["bcc", "basal cell carcinoma", "basal-cell carcinoma", "basal cell cancer", "basalioma", "rodent ulcer", "basal cell epithelioma"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm"],
+  "definition": "Malignant skin tumor of basal epidermal (keratinocyte) origin; slow-growing, locally invasive, and **rarely metastasizes**.",
+  "why_it_matters": "Most common skin cancer worldwide; usually not life-threatening but can cause local destruction if untreated. Frequently appears on exams contrasting its **pearly** appearance and minimal metastatic risk with squamous cell carcinoma and melanoma.",
+  "how_youll_see_it": [
+    "Older fair-skinned adults with a **pearly**, waxy papule or nodule on sun-exposed areas (e.g., nose, face). Lesion often has visible **telangiectasias**, a **rolled border**, and may ulcerate or bleed chronically (\"rodent ulcer\" if advanced).",
+    "Multiple clinical types: **nodular BCC** (classic pearly nodule with telangiectasia), **superficial BCC** (flat reddish scaly patch, often on trunk), **pigmented BCC** (contains dark pigment, mimicking melanoma), and **morpheaform BCC** (scar-like, infiltrative)."
+  ],
+  "problem_solving": [
+    "Any persistent or non-healing skin lesion should be **biopsied** to confirm diagnosis (excisional biopsy for small lesions, punch/incisional for larger). Pathology of BCC shows nests of basaloid cells with peripheral **palisading** nuclei.",
+    "After treating a BCC, schedule regular skin exams for new lesions — patients with one skin cancer are at higher risk of additional BCCs or other skin cancers."
+  ],
+  "differentials": [
+    { "id": "squamous-cell-carcinoma", "hint": "hard, scaly or ulcerated nodule; higher metastatic risk (may arise from actinic keratosis)" },
+    { "id": "melanoma", "hint": "irregular pigmented lesion with variegated color/border (ABCDE features); arises from melanocytes, high metastasis risk" },
+    { "id": "seborrheic-keratosis", "hint": "\"stuck-on,\" waxy brown papule; benign and well-circumscribed (no ulceration or telangiectasia)" }
+  ],
+  "tricks": [
+    "Think **\"pearly papule\"** = BCC (a shiny, translucent lesion with telangiectatic vessels is classic for basal cell carcinoma).",
+    "\"**Rodent ulcer**\" is an old term for BCC that ulcerates and gnaws into tissue like a rodent.",
+    "Histology buzzword: **palisading nuclei** (tumor cells at the periphery of nests line up in a palisade) is characteristic of BCC."
+  ],
+  "exam_appearance": [
+    "Elderly fair-skinned man with a slowly growing **pearly** papule on the nose that bleeds occasionally and has telangiectasia and a rolled border → Basal cell carcinoma.",
+    "Patient with a **pigmented** but shiny, smooth-bordered skin nodule with a few telangiectasias (mimicking a mole) → Pigmented BCC (distinguished from melanoma by its pearly translucent areas and lack of irregular borders)."
+  ],
+  "treatment": [
+    "First-line treatment is **surgical** excision with clear margins. For high-risk or cosmetically sensitive areas (face), use **Mohs micrographic surgery** to ensure complete removal while sparing tissue.",
+    "Small, low-risk lesions can be treated with **curettage and electrodessication** or **cryotherapy**. Superficial BCCs may be managed with topical 5-FU or **imiquimod** creams, or photodynamic therapy.",
+    "Advanced or unresectable BCC (very rare metastasis) can be treated with **radiation therapy** or **hedgehog pathway inhibitors** like **vismodegib**."
+  ],
+  "red_flags": [
+    "Pathology showing **perineural invasion** or patient reports numbness/tingling → indicates aggressive tumor spread along nerves; requires Mohs surgery (and often adjuvant radiation).",
+    "**Morpheaform/infiltrative subtype** or recurrent BCC → higher risk of deep tissue invasion and recurrence; manage with Mohs and close follow-up."
+  ],
+  "algorithm": [
+    "Suspicious skin lesion (non-healing, pearly, or bleeding) → perform skin **biopsy** for diagnosis.",
+    "If biopsy confirms BCC, assess risk factors: location (e.g., face or ear = high risk), size, histologic subtype (nodular vs morpheaform), margins, and perineural involvement.",
+    "Choose treatment based on risk: **excision** for most localized BCCs; **Mohs surgery** for high-risk or facial lesions; consider topical or less invasive therapies for superficial BCC when appropriate.",
+    "Follow up with regular dermatologic exams (at least annually) to monitor for recurrence or new skin cancers (patients with BCC have an increased risk of SCC, melanoma, and additional BCCs)."
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man presents with a 1-year history of a slowly enlarging lesion on his nose.",
+      "clues": [
+        "Fair-skinned, lifelong outdoor worker",
+        "Pearly, waxy nodule on the lateral nose with rolled border",
+        "Small overlying blood vessels visible (telangiectasias)",
+        "Lesion occasionally bleeds but has not healed",
+        "No regional lymphadenopathy"
+      ],
+      "answer": "Basal cell carcinoma",
+      "teaching": "This is a classic presentation of nodular basal cell carcinoma on a sun-exposed area (nose). The pearly appearance with telangiectasia and rolled border is characteristic. BCCs are locally invasive malignancies of basal epidermal cells that rarely metastasize. Excision (often via Mohs micrographic surgery for facial lesions) is the treatment of choice."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/BCC_Nodular_type.jpg",
+      "alt": "Basal cell carcinoma on the nose (pearly nodular lesion with telangiectasias).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:BCC_Nodular_type.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["squamous-cell-carcinoma", "acne", "psoriasis"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Basal Cell Carcinoma (McDaniel & Steele, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482439/"
+    },
+    {
+      "title": "UpToDate: Basal cell carcinoma – epidemiology, pathogenesis, clinical features, and diagnosis",
+      "url": "https://www.uptodate.com/contents/basal-cell-carcinoma-epidemiology-pathogenesis-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "Basal Cell Carcinoma (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/276624-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "tonsillitis",
+  "names": ["Tonsillitis"],
+  "aliases": ["acute tonsillitis", "tonsillar infection", "strep throat", "streptococcal pharyngitis", "pharyngotonsillitis"],
+  "abbr": [],
+  "patterns": ["tonsillitis", "acute tonsillitis", "tonsillar infection", "strep throat", "streptococcal pharyngitis", "pharyngitis", "pharyngotonsillitis"],
+  "primary_tag": "infectious_dz",
+  "tags": ["pathology", "infectious_dz", "micro_bacteria", "micro_virus", "peds"],
+  "definition": "Inflammation of the palatine tonsils (lymphoid tissue in the throat), usually due to infection by common respiratory viruses or *Group A Streptococcus* bacteria. It typically causes a **sore throat**, fever, and swollen tonsils (often with **exudates**).",
+  "why_it_matters": "Sore throat (tonsillitis/pharyngitis) is extremely common, especially in children, and a major reason for outpatient visits and antibiotic prescriptions. Proper evaluation identifies the cases due to **group A strep** (to prevent serious sequelae like rheumatic fever) and avoids unnecessary antibiotics for viral infections.",
+  "how_youll_see_it": [
+    "**Children/Adolescents:** Classic *\"strep throat\"* in school-age kids presents with sudden onset **throat pain**, high fever, difficulty swallowing, and markedly inflamed tonsils often with **white exudative** patches. Anterior cervical lymph nodes are tender and enlarged. Headache, abdominal pain, or even vomiting can occur in kids with strep. *Viral* sore throat is more likely if there are cough, runny nose, hoarse voice, or conjunctivitis (these symptoms are usually **absent** in GAS infection).",
+    "**Adults:** Pharyngitis in adults is usually *viral* (GAS causes only ~5–15% of adult sore throats). True bacterial tonsillitis is less frequent beyond adolescence (tonsil immune tissue tends to shrink after puberty), but when it occurs, the symptoms are similar: fever, severe sore throat, odynophagia (painful swallowing), and tonsillar inflammation. Infectious mononucleosis (EBV) in teens/young adults can mimic strep throat but typically includes profound **fatigue** and **posterior** or generalized lymph node swelling (± **splenomegaly**)."
+  ],
+  "problem_solving": [
+    "Apply **Centor criteria** to decide likelihood of strep: give 1 point each for **fever** >38°C, **tonsillar exudates**, **tender anterior cervical nodes**, and **absence of cough**. Higher scores (≥3) indicate higher probability of GAS – perform a **rapid strep test (RADT)** for confirmation. In children and teens, a negative rapid test should be backed up by a throat **culture** to definitively rule out strep.",
+    "If obvious **viral** features are present (e.g. cough, runny nose, oral ulcers), testing for strep is usually not necessary. If clinical suspicion for strep is low (Centor 0–1), manage with supportive care; if high (Centor 4), some clinicians may empirically treat while awaiting confirmation.",
+    "Consider **mononucleosis** (EBV) testing if a patient (especially adolescent) has protracted sore throat, **negative strep tests**, or marked fatigue. Use the **heterophile antibody** test (**Monospot**) to detect mono – remembering it can be *falsely negative* early in illness or in young children. EBV infection often causes posterior cervical adenopathy and can produce a diffuse rash if exposed to amoxicillin.",
+    "For recurrent tonsillitis, evaluate frequency: ≥7 episodes in 1 year, ≥5 per year for 2 years, or ≥3 per year for 3 years meets criteria for possible **tonsillectomy**. Also involve ENT if complications arise (e.g. a history of peritonsillar abscess or airway obstruction)."
+  ],
+  "differentials": [
+    { "name": "Viral pharyngitis", "hint": "Most common cause – tends to have cough, runny nose, or hoarseness; throat redness is milder, no pus." },
+    { "name": "Infectious mononucleosis (EBV)", "hint": "Teen with intense fatigue, prolonged sore throat, **posterior** lymphadenopathy, ± hepatosplenomegaly; Monospot positive." },
+    { "name": "Peritonsillar abscess", "hint": "Unilateral tonsil swelling ('quinsy') with uvula deviation, severe pain, **\"hot potato\"** muffled voice, trismus; complication of tonsillitis." }
+  ],
+  "tricks": [
+    "Mnemonic – **CENTOR**: **C**ough absent, **E**xudate, **N**odes, **T**emperature, **O**ld/young (age <15 +1, >44 −1 for modified score).",
+    "**Penicillin** (or amoxicillin) for 10 days is first-line for strep throat – treating within ~9 days of illness onset prevents rheumatic fever, though it does *not* prevent post-strep **glomerulonephritis**.",
+    "Strep throat with a fine **sandpaper rash** suggests **scarlet fever** (GAS strain producing erythrogenic toxin).",
+    "An **amoxicillin** rash (widespread non-allergic rash after taking amoxicillin) in a patient with sore throat is a classic clue for **EBV** mononucleosis."
+  ],
+  "exam_appearance": [
+    "A 7‑year‑old boy with abrupt onset fever to 39°C, severe sore throat, and no cough. Exam: enlarged tonsils with white exudates, and tender anterior cervical lymph nodes → **Streptococcal tonsillitis (\"strep throat\")**.",
+    "An 18‑year‑old college student with persistent sore throat, marked fatigue, and diffuse lymphadenopathy (including posterior cervical). Initially tested strep-positive and given amoxicillin, then developed a generalized pink rash → **Infectious mononucleosis (EBV)**.",
+    "A 17‑year‑old with worsening unilateral throat pain after a week of tonsillitis. She speaks with a muffled \"hot potato\" voice, and exam shows a bulging left tonsil and deviated uvula → **Peritonsillar abscess** (collection of pus needing urgent drainage)."
+  ],
+  "treatment": [
+    "**Supportive care** is important for all cases: hydration, warm saltwater gargles, throat lozenges, rest, and NSAIDs/**acetaminophen** for pain and fever. In severe cases with tonsillar swelling threatening the airway, a single dose of a **corticosteroid** (eg, dexamethasone) can help reduce edema.",
+    "For confirmed or highly suspected **GAS**: start antibiotics. **Penicillin V** or **amoxicillin** (oral, 10 days) is first-line therapy; this shortens symptom duration and (more importantly) prevents rheumatic fever. If penicillin-allergic, use a first-generation **cephalosporin** (if allergy mild) or **azithromycin** / **clindamycin**. Patients are generally not contagious after ~24 hours on antibiotics.",
+    "**No antibiotics** are needed for viral tonsillitis – it will self-resolve. Educate patients on symptomatic relief and the importance of avoiding unnecessary antibiotics (to prevent resistance). Return for care if symptoms worsen (watch for abscess). For chronic tonsillitis or obstructive tonsillar hypertrophy, an elective **tonsillectomy** may be indicated."
+  ],
+  "red_flags": [
+    "**Airway compromise:** Stridor, drooling, inability to handle secretions, or severe muffled voice suggests possible **epiglottitis** or deep neck space infection – emergency evaluation needed.",
+    "**Abscess formation:** Unilateral throat swelling with extreme pain, trismus (jaw lock), and \"hot potato\" voice → suspect a **peritonsillar abscess**; requires prompt drainage to prevent spread of infection.",
+    "**Post-strep complications:** Watch for signs of **acute rheumatic fever** (eg, migrating joint pains, new heart murmur, rash) a few weeks after strep infection, or **post-streptococcal glomerulonephritis** (tea-colored urine, edema) ~1–3 weeks later."
+  ],
+  "algorithm": [],
+  "images": [],
+  "cases": [
+    {
+      "stem": "An 8‑year‑old girl presents with 2 days of fever and sore throat. She has no cough or congestion but reports difficulty swallowing. On exam, her tonsils are very enlarged with white exudates, and her anterior neck has tender, swollen lymph nodes.",
+      "clues": [
+        "Age 8 (school-aged child)",
+        "High fever, acute sore throat",
+        "No cough or runny nose",
+        "Tonsillar exudates + tender anterior cervical nodes"
+      ],
+      "answer": "Acute streptococcal tonsillitis (Group A strep pharyngitis)",
+      "teaching": "This is classic **strep throat** caused by *Streptococcus pyogenes*. The absence of cough and presence of fever, exudative tonsils, and tender anterior cervical nodes fulfill Centor criteria for likely GAS infection. Diagnosis would be confirmed with a rapid strep test, and treatment is with penicillin or amoxicillin to eradicate the bacteria and prevent rheumatic fever."
+    }
+  ],
+  "see_also": ["acute-rheumatic-fever", "diphtheria", "mumps"],
+  "prerequisites": ["immune-system", "microbiology-basics", "streptococcus-pyogenes"],
+  "sources": [
+    { "title": "CDC: Clinical Guidance for Group A Streptococcal Pharyngitis (2025)", "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/strep-throat.html" },
+    { "title": "IDSA Guideline: Streptococcal Pharyngitis – Risk Assessment and Diagnosis (2023)", "url": "https://www.idsociety.org/practice-guideline/streptococcal-pharyngitis2/" },
+    { "title": "StatPearls: Streptococcal Pharyngitis (Ashurst et al., 2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK525997/" },
+    { "title": "Merck Manual Professional: Infectious Mononucleosis (EBV)", "url": "https://www.merckmanuals.com/professional/infectious-diseases/herpesviruses/infectious-mononucleosis" },
+    { "title": "Mayo Clinic Health System: Tonsillitis (2022)", "url": "https://www.mayoclinichealthsystem.org/locations/onalaska/services-and-treatments/otorhinolaryngology/throat-conditions-and-treatment/tonsillitis" },
+    { "title": "DermNet NZ: Infectious Mononucleosis – EBV (2018)", "url": "https://dermnetnz.org/topics/infectious-mononucleosis" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

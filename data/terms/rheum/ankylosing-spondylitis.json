@@ -1,0 +1,97 @@
+{
+  "id": "ankylosing-spondylitis",
+  "names": ["Ankylosing spondylitis"],
+  "aliases": ["Bechterew disease", "Marie-Strümpell disease"],
+  "abbr": ["AS"],
+  "patterns": ["ankylosing spondylitis", "ankylosing spondylarthritis", "Bechterew", "Bekhterev"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology"],
+  "definition": "Chronic inflammatory disease of the axial skeleton, primarily involving the **sacroiliac joints** and spine, leading to pain and progressive **fusion** (ankylosis) of vertebrae (late-stage \"**bamboo spine**\"). Strongly associated with **HLA‑B27** (present in ~90% of cases) and one of the prototypical seronegative spondyloarthritides.",
+  "why_it_matters": "AS often begins in the **20s-30s** and can cause severe spinal deformity, chest restriction, and disability if untreated. Early recognition (distinguishing from common back pain) allows treatment to reduce pain and preserve mobility. It's a classic \"young man with back pain\" exam case, and features like uveitis or Achilles enthesitis commonly show up in questions.",
+  "how_youll_see_it": [
+    "Typical patient: **young male (<40)** with chronic low back and buttock pain. Pain and pronounced **morning stiffness** improve with exercise and worsen with rest. Symptoms often start at the **sacroiliac joints** (deep buttock pain, sometimes alternating sides) and ascend the spine.",
+    "Limited spinal mobility on exam: positive **Schober test** (limited lumbar flexion). As disease progresses, loss of lumbar lordosis and **thoracic kyphosis** develop, leading to a **stooped posture**. Reduced **chest wall expansion** due to costovertebral joint involvement (may cause mild restrictive lung impairment).",
+    "Enthesitis is common: **Achilles tendon** insertion pain, **plantar fasciitis**, or costosternal junction pain. ~25-40% have acute **anterior uveitis** episodes (unilateral eye pain/redness/photophobia). Peripheral arthritis (hips, shoulders, knees) occurs in some, but axial skeleton is dominant.",
+    "Lab clues: **HLA-B27** positive in most patients; **ESR/CRP** often elevated. No rheumatoid factor (seronegative).",
+    "Imaging: X-ray of pelvis shows **bilateral sacroiliitis** (erosions and sclerosis in SI joints) early. As AS advances, **syndesmophytes** (bony bridges between vertebrae) form, leading to the classic **\"bamboo spine\"** appearance on spinal X-ray (diffuse vertical ossification)."
+  ],
+  "problem_solving": [
+    "Check **lumbar flexion**: Schober test (mark 10 cm above and 5 cm below the lumbar dimple, then have patient bend forward – in AS, the distance increases <5 cm, indicating restricted flexion). Limited **chest expansion** (<2.5 cm difference between full inhale and exhale at nipple line) also suggests advanced AS.",
+    "Imaging confirmation: **X-ray of sacroiliac joints** is the cornerstone – look for erosions, pseudowidening, then sclerosis and fusion. If X-ray is equivocal and suspicion is high, get an **MRI** for active inflammation in SI joints (useful in early disease). Spinal X-rays in later disease show syndesmophytes and fusion of facet joints.",
+    "Distinguish from **mechanical back pain**: AS starts young and improves with exercise; mechanical (disc degeneration) usually in older patients and worse with activity. Also, AS often has night pain (second half of night) and buttock pain, whereas mechanical pain improves when supine.",
+    "Be aware of extras: a history of **uveitis** strongly supports AS in a back pain patient. Chronic **inflammatory bowel disease** can also cause a similar spondylitis, but in idiopathic AS, bowel symptoms are absent (however, up to 5-10% of AS patients have subclinical gut inflammation).",
+    "Monitoring: assess spinal mobility over time (tragus-to-wall distance for cervical kyphosis, chest expansion, etc.). If a patient with established AS reports a sudden focal increase in pain or neurologic changes, evaluate immediately for **spinal fracture** (fused spines are fragile)."
+  ],
+  "differentials": [
+    { "name": "Mechanical (degenerative) back pain", "hint": "older age of onset; pain worsens with use, improved with rest; normal SI joints on imaging" },
+    { "name": "Diffuse idiopathic skeletal hyperostosis", "abbr": ["DISH"], "hint": "spinal osteophytes in older patients; may cause flowing calcifications, but spares SI joints; not true inflammation" },
+    { "name": "Psoriatic arthritis (axial type)", "hint": "can also cause sacroiliitis and syndesmophytes, but usually with skin psoriasis and often asymmetric syndesmophytes on X-ray" }
+  ],
+  "tricks": [
+    "**Bamboo spine** on X-ray = classic late-stage ankylosing spondylitis (ossified spinal ligaments).",
+    "Limited **chest expansion** in a young patient → think AS (costovertebral joint fusion).",
+    "The question mark posture (flexed neck and kyphosis) in advanced AS results from spinal fusion and cannot be corrected by effort.",
+    "**HLA-B27** is not required for diagnosis, but a positive result in a young person with inflammatory back pain bolsters confidence."
+  ],
+  "exam_appearance": [
+    "30-year-old man with chronic low back pain/stiffness that improves during the day, and X-ray showing bilateral sacroiliac fusion → **Ankylosing spondylitis**.",
+    "Long-standing AS patient with fused spine (bamboo spine) presents with acute neck pain after minor fall → suspect a **fracture** in the fused spine.",
+    "Young man with low back pain and unilateral eye pain/blurry vision (uveitis) → **Ankylosing spondylitis** (extra-articular uveitis)."
+  ],
+  "treatment": [
+    "**Exercise and daily stretching to maintain posture and mobility** (very important).",
+    "**NSAIDs** (e.g., indomethacin) are first-line medications; they often provide significant relief and may slow radiographic progression in some cases. Patients may take them regularly at anti-inflammatory doses.",
+    "**TNF-α inhibitors** (e.g., etanercept, infliximab) or **IL-17 inhibitors** (secukinumab) are indicated for active disease not controlled by NSAIDs. These biologics can reduce symptoms and possibly slow disease progression (important as conventional DMARDs like methotrexate do not help axial disease).",
+    "For peripheral arthritis in AS, **sulfasalazine** can be tried (especially if there is coexistent IBD), though it has modest effect. **Local corticosteroid injections** can help enthesitis or a badly inflamed joint, but systemic steroids are generally avoided (ineffective for axial symptoms).",
+    "Advanced deformities (e.g., severe kyphosis) may require surgical intervention (spinal osteotomy) in select cases. Encourage patients to avoid smoking (which can worsen chest expansion issues and osteoporosis) and ensure adequate **osteoporosis screening/treatment** since ankylosed spines are prone to fracture."
+  ],
+  "red_flags": [
+    "New **neurologic deficit** (weakness, bowel/bladder dysfunction) in an AS patient → evaluate urgently for **cauda equina syndrome** or spinal cord compression (could be from fracture or atlantoaxial subluxation).",
+    "AS patients have increased risk of **spinal fractures** even with minor trauma (due to rigid, osteoporotic spine) – any acute localized spinal pain after injury should prompt immediate imaging.",
+    "**Night sweats, fever, weight loss** in a patient with AS → consider that infection (e.g., vertebral osteomyelitis/TB) or malignancy could be superimposed; do not attribute these systemic signs to AS flares."
+  ],
+  "algorithm": [
+    "Young adult with inflammatory back pain → suspect AS; test **HLA-B27** and inflammatory markers.",
+    "Do **pelvic X-ray**: if sacroiliitis present, diagnosis is strongly supported. If X-ray normal but suspicion remains, get **MRI** of SI joints.",
+    "Diagnose AS based on modified New York criteria: (1) clinical – low back pain >3mo improved by exercise, limited lumbar motion, limited chest expansion; plus (2) radiologic – sacroiliitis on imaging. HLA-B27 positivity can help but is not required.",
+    "Begin **NSAIDs** and exercise therapy; educate patient on posture and stretching. If no improvement or high disease activity, escalate to a **TNF inhibitor** (or IL-17 inhibitor).",
+    "Monitor spinal mobility and symptoms regularly. Ensure osteoporosis prevention (calcium/Vit D, consider bisphosphonates) because of fracture risk. Advise on fall precautions and neck support as needed, given risk of spinal injury."
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old man has chronic, dull low back pain and stiffness for the past year. It's worst in the morning (lasting ~2 hours) and improves by midday. He notes occasional pain in the buttocks alternating sides. On exam, he cannot touch his toes and has reduced chest expansion.",
+      "clues": ["Onset age 28", "Morning stiffness improves with exercise", "Alternating buttock pain", "Limited forward flexion (positive Schober test)", "Bilateral sacroiliitis on X-ray"],
+      "answer": "Ankylosing spondylitis",
+      "teaching": "This is a classic presentation of AS. Inflammatory back pain in a young adult, sacroiliac involvement, and exam findings of limited spinal mobility point to AS. Key is early recognition and treatment with NSAIDs and biologics to prevent fusion."
+    }
+  ],
+  "see_also": [
+    "spondyloarthritides",
+    "reactive-arthritis",
+    "psoriatic-arthritis",
+    "enteropathic-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Ankylosing Spondylitis (Wenker & Quint, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470173/"
+    },
+    {
+      "title": "UpToDate: Diagnosis and differential diagnosis of axial spondyloarthritis (ankylosing spondylitis) in adults",
+      "url": "https://www.uptodate.com/contents/diagnosis-and-differential-diagnosis-of-axial-spondyloarthritis-ankylosing-spondylitis-and-nonradiographic-axial-spondyloarthritis-in-adults"
+    },
+    {
+      "title": "Medscape: Ankylosing Spondylitis and Undifferentiated Spondyloarthropathy (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/332945-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

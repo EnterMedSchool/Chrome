@@ -1,0 +1,119 @@
+{
+  "id": "botulism",
+  "names": ["Botulism"],
+  "aliases": ["botulinum toxin poisoning"],
+  "abbr": [],
+  "patterns": ["botulism", "botulinum toxin", "Clostridium botulinum", "foodborne botulism", "infant botulism", "wound botulism", "botox overdose"],
+  "primary_tag": "infectious_dz",
+  "tags": ["infectious_dz", "micro_bacteria", "neuro", "toxicology", "peds"],
+  "definition": "Rare, life‑threatening **neuroparalytic** syndrome caused by botulinum neurotoxin (usually from *Clostridium botulinum*); toxin blocks acetylcholine release at neuromuscular junctions, leading to flaccid **descending paralysis**.",
+  "why_it_matters": "Botulism can cause rapid respiratory failure and death if not recognized and treated immediately. It's a classic exam example of **descending paralysis** (vs ascending in Guillain‑Barré) and highlights the need for urgent **antitoxin** (often via public health authorities).",
+  "how_youll_see_it": [
+    "Symmetric **descending paralysis** often starting with cranial nerve symptoms (**diplopia**, **ptosis**, **dysphagia**, **dysarthria**), then spreading downward to trunk and limbs. Notably, patients are usually **afebrile**, have **no sensory loss**, and remain mentally alert.",
+    "**Foodborne botulism:** Adult after ingesting home‑canned or improperly preserved foods (low acid, anaerobic). Onset ~12–36 hours post-meal with possible GI upset (**nausea**, **vomiting**, abdominal pain) followed by the characteristic neurological symptoms.",
+    "**Infant botulism:** Typically a 2–8 month-old with **constipation** as an early sign, then poor feeding, weak cry, **floppy** head and limbs (\"floppy baby syndrome\"). Often history of honey consumption or environmental dust exposure (ingested **spores** that germinate in the gut).",
+    "**Wound botulism:** Seen in **IV drug users** (e.g., black tar heroin) or deep traumatic wounds. C. botulinum spores contaminate the wound and produce toxin in vivo. Presents ~1–2 weeks after injury with similar descending paralysis; look for an infected wound (and no GI prodrome).",
+    "**Iatrogenic botulism:** Due to cosmetic or therapeutic **botulinum toxin injections** (e.g., for wrinkles, dystonia, migraines). Overdose or accidental spread of toxin can cause localized or generalized botulism symptoms (cranial nerve palsies, weakness)."
+  ],
+  "problem_solving": [
+    "Maintain a **high index of suspicion**: any patient with acute cranial nerve palsies and descending paralysis (especially if **afebrile** and sensory intact) should prompt consideration of botulism and immediate action.",
+    "Gather history for exposures: ask about home-canned foods, preserved fish, **honey** ingestion in infants, injection drug use or recent Botox injections.",
+    "Do **not** wait for labs—immediately notify public health authorities (state health department/CDC) and obtain botulism **antitoxin** if clinical suspicion is high. Early antitoxin can halt progression of paralysis.",
+    "Perform diagnostic testing in parallel: serum and stool toxin assays (mouse bioassay or ELISA), stool or wound culture for *C. botulinum*, and electrophysiology (**EMG**) studies. EMG classically shows an **incremental** increase in muscle response with high-frequency repetitive stimulation (presynaptic facilitation), supporting a presynaptic neuromuscular junction disorder.",
+    "Manage the airway and breathing: botulism often requires **ICU** care for respiratory monitoring. Frequent measurement of vital capacity can guide need for **intubation** and mechanical ventilation (many patients require ventilation for weeks until neuromuscular function recovers).",
+    "For **wound botulism**, also surgically debride the wound and give targeted antibiotics (after antitoxin) to eliminate the source. For **infant botulism**, avoid antibiotics (they can worsen toxin release on bacterial lysis) and use human botulism immune globulin (BabyBIG) as directed."
+  ],
+  "differentials": [
+    {
+      "id": "guillain-barre-syndrome",
+      "hint": "Typically **ascending** paralysis (starts in legs), often post-infectious; **areflexia** common; elevated CSF protein (albuminocytologic dissociation)."
+    },
+    {
+      "id": "myasthenia-gravis",
+      "hint": "Chronic **fatigable** weakness (worsens with use, improves with rest); ptosis and diplopia common but **pupils spared**; positive edrophonium (Tensilon) test; autoimmune ACh receptor issue."
+    },
+    {
+      "id": "lambert-eaton-syndrome",
+      "name": "Lambert-Eaton myasthenic syndrome",
+      "hint": "Gradual proximal muscle weakness, often paraneoplastic (small cell lung CA); **improves** with exercise (facilitation); autonomic symptoms (dry mouth) and hyporeflexia."
+    },
+    {
+      "name": "Tick paralysis",
+      "hint": "**Ascending** paralysis caused by tick neurotoxin (child with tick bite); resembles GBS but improves rapidly after tick removal."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: remember the **4 D's** of botulism – **Diplopia**, **Dysarthria**, **Dysphagia**, **Dyspnea** (double vision, difficulty speaking, swallowing, breathing). These stem from early cranial nerve involvement.",
+    "**Never give honey** to infants under 1 year (infant botulism risk). Even a small taste can contain C. botulinum **spores** → toxin production in the infant's gut.",
+    "Home-canned foods with **bulging lids** (gas production) are a big red flag – they should be discarded to prevent botulism."
+  ],
+  "exam_appearance": [
+    "Blurred vision, **ptosis**, and difficulty swallowing in an adult after eating home-canned food → **foodborne botulism** (descending paralysis from preformed toxin).",
+    "A 3-month-old infant with **constipation**, poor feeding, and generalized hypotonia (floppy baby) after honey exposure → **infant botulism**.",
+    "IV drug user with an infected wound who develops **diplopia**, dysphagia, and descending limb weakness → **wound botulism**."
+  ],
+  "treatment": [
+    "**Antitoxin** administration as soon as possible – equine heptavalent botulinum antitoxin (HBAT) for adults; human-derived BIG-IV for infants. Do **not** delay antitoxin while awaiting confirmation.",
+    "**Supportive care** in ICU: meticulous respiratory support (monitor vital capacity, early intubation if needed), cardiac monitoring, and rehab. Patients may need weeks of ventilatory support until neuromuscular junctions recover.",
+    "**Wound botulism:** after giving antitoxin, treat with IV **penicillin G** (or metronidazole) and surgical debridement of the wound to remove the source of toxin. (**Infant botulism:** no antibiotics; they are contraindicated as they may worsen toxin release.)",
+    "No role for antibiotics in foodborne botulism (since toxin is preformed); focus is on antitoxin and supportive measures. Consider gut decontamination (e.g., cathartics) if a known food ingestion was recent."
+  ],
+  "red_flags": [
+    "Suspected botulism is a **medical emergency** – involve public health authorities and give antitoxin **immediately**. Never wait for lab results if clinical presentation fits botulism.",
+    "Never feed **honey** to an infant <12 months old – even a small exposure can cause infant botulism (spores germinate in the infant's immature gut).",
+    "Multiple patients with the same meal developing similar paralysis should raise alarm for a **botulism outbreak** – requires rapid public health intervention."
+  ],
+  "algorithm": [
+    "Acute cranial nerve palsies + descending paralysis (especially with risk factors like home-canned food, infant with honey, or wound infection) → **Suspect botulism**.",
+    "If botulism suspected: **call state health department/CDC immediately** for emergency antitoxin release; this should be done as soon as clinical diagnosis is considered.",
+    "Hospitalize in ICU. Monitor respiratory status closely (serial negative inspiratory force or vital capacity); be prepared for **early intubation** if any signs of respiratory muscle weakness.",
+    "Obtain diagnostic samples (serum, stool, vomitus, wound exudate) for **toxin assay** and culture, and consider EMG studies – but do not withhold treatment pending results.",
+    "**Administer antitoxin** as soon as available. For wound botulism, also perform wound debridement and start IV penicillin after antitoxin. For infant botulism, administer BIG-IV (BabyBIG) and provide supportive care (no antibiotics)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Clostridium_botulinum_01.png",
+      "alt": "Photomicrograph of Clostridium botulinum bacteria (Gram-positive rods with oval endospores).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Clostridium_botulinum_01.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man presents with double vision, drooping eyelids, dry mouth, and difficulty swallowing. He notes his arms and legs have progressively weakened over the last day. He has no fever or sensory complaints. Yesterday, he ate home‑canned green beans that his neighbor gifted him.",
+      "clues": ["Diplopia and ptosis", "Dysphagia and dysarthria", "Symmetric descending paralysis", "No sensory loss; alert mental status", "Ate home-canned food (24h ago)"],
+      "answer": "Foodborne botulism",
+      "teaching": "Classic foodborne botulism from improperly canned food. Preformed botulinum toxin was ingested, causing acute **bulbar palsies** (cranial nerve symptoms like ptosis, diplopia, dysphagia) followed by descending flaccid paralysis. The patient's clear sensorium and lack of sensory deficits distinguish botulism. Treatment is urgent antitoxin and supportive care (possible mechanical ventilation)."
+    }
+  ],
+  "see_also": ["tetanus", "myasthenia-gravis", "lambert-eaton-myasthenic-syndrome"],
+  "prerequisites": ["neuromuscular-junction", "acetylcholine"],
+  "sources": [
+    {
+      "title": "CDC: About Botulism (2024)",
+      "url": "https://www.cdc.gov/botulism/about/index.html"
+    },
+    {
+      "title": "CDC MMWR: Clinical Guidelines for Diagnosis and Treatment of Botulism (Rao et al., 2021)",
+      "url": "https://www.cdc.gov/mmwr/volumes/70/rr/rr7002a1.htm"
+    },
+    {
+      "title": "Medscape: Botulism Differential Diagnosis (Bennett, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/213311-differential"
+    },
+    {
+      "title": "Merck Manual Professional: Botulism (Bush & Vazquez-Pertejo, rev. Jun 2023)",
+      "url": "https://www.merckmanuals.com/professional/infectious-diseases/anaerobic-bacteria/botulism"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

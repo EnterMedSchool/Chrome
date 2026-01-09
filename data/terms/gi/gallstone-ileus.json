@@ -1,0 +1,78 @@
+{
+  "id": "gallstone-ileus",
+  "names": ["Gallstone ileus"],
+  "aliases": ["biliary ileus"],
+  "abbr": ["GSI"],
+  "patterns": ["gallstone ileus", "gall stone ileus", "biliary ileus"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "radiology"],
+  "definition": "Mechanical small bowel obstruction by a gallstone (passed via a biliary-enteric fistula); a rare complication of chronic gallstone disease.",
+  "why_it_matters": "Uncommon but deadly cause of bowel obstruction in older patients (≈20% mortality). Classic radiographic clues (Rigler's triad) make it a favorite on board exams.",
+  "how_youll_see_it": [
+    "Older adult (usually female) with crampy abdominal pain, distension, and vomiting (signs of SBO).",
+    "Often history of gallstones or cholecystitis, but no prior abdominal surgeries (no adhesion risk).",
+    "Symptoms may wax and wane initially as the stone intermittently obstructs (\"tumbling\" obstruction)."
+  ],
+  "problem_solving": [
+    "Suspect gallstone ileus in an SBO case with no surgical history but risk factors for gallstones.",
+    "Look for pneumobilia (air in biliary tree) on imaging as a key clue; abdominal CT is the diagnostic test of choice.",
+    "Stabilize like any SBO (IV fluids, electrolyte correction, NG tube for decompression).",
+    "Urgent surgery is required to remove the stone and relieve the obstruction."
+  ],
+  "differentials": [
+    { "name": "Adhesive SBO", "hint": "post-surgery adhesions (most common SBO cause)" },
+    { "name": "Incarcerated hernia", "hint": "bowel trapped in hernia (check for groin bulge)" },
+    { "name": "Malignancy", "hint": "tumor obstruction (e.g., colon cancer in older patients)" },
+    { "name": "Volvulus", "hint": "twisting of bowel (e.g., sigmoid colon in elderly)" },
+    { "name": "Bezoar", "hint": "ingested mass (history of psych or trichophagia)" }
+  ],
+  "tricks": [
+    "Rigler's triad: SBO + pneumobilia + ectopic gallstone on imaging is pathognomonic for gallstone ileus.",
+    "Despite the name, it's a mechanical obstruction (stone jam), not a true paralytic ileus."
+  ],
+  "exam_appearance": [
+    "Elderly woman with no surgery history, presenting with SBO (abdominal pain, vomiting, distension) and known gallstones → think gallstone ileus.",
+    "Abdominal X-ray or CT showing dilated small bowel loops, air in the biliary tree, and a radiopaque stone in the intestine (Rigler's triad) is diagnostic."
+  ],
+  "treatment": [
+    "Stabilize first with IV fluids, correction of electrolytes, and NG tube decompression.",
+    "Then perform an enterolithotomy (open the intestine to remove the obstructing stone) to relieve the blockage.",
+    "Resect any bowel segment that is necrotic or perforated.",
+    "Cholecystectomy and fistula closure can be done later (two-stage) once patient is stable; one-stage surgery (stone removal + cholecystectomy/fistula repair in one operation) is considered in select cases but carries higher risk."
+  ],
+  "red_flags": [
+    "Signs of bowel ischemia (fever, peritonitis, lactic acidosis) in SBO → indicates strangulation/perforation, need emergent surgery (bowel resection likely).",
+    "Persistent obstruction or recurrence after stone removal → suspect a second gallstone obstruction (look for another stone)."
+  ],
+  "algorithm": [
+    "Older patient with SBO + gallstone history (no prior surgery) → suspect gallstone ileus.",
+    "Obtain abdominal CT: if Rigler's triad (SBO + pneumobilia + ectopic stone) → diagnosis confirmed.",
+    "Stabilize the patient (IV fluids, NG decompression, correct electrolytes).",
+    "Proceed to surgery for stone removal (enterolithotomy). Plan elective cholecystectomy/fistula repair later unless patient is stable enough for one-stage surgery."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Rigler%27s_Triad.jpg",
+      "alt": "Abdominal X-ray demonstrating Rigler's triad in gallstone ileus: pneumobilia (circle), ectopic gallstone (arrow), and distended small bowel loops (asterisk).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Rigler%27s_Triad.jpg"
+      }
+    }
+  ],
+  "see_also": ["gallstones", "acute-cholecystitis", "choledocholithiasis", "chronic-cholecystitis"],
+  "prerequisites": ["cholelithiasis", "small-bowel-obstruction"],
+  "sources": [
+    { "title": "StatPearls: Gallstone Ileus (Turner & Sharma, 2022)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK430834/" },
+    { "title": "UpToDate: Gallstone ileus (Keaveny & Afdhal, 2022)", "url": "https://www.uptodate.com/contents/gallstone-ileus" },
+    { "title": "Radiopaedia: Gallstone ileus (reference article)", "url": "https://radiopaedia.org/articles/gallstone-ileus" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

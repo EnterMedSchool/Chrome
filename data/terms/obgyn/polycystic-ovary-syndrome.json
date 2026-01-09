@@ -1,0 +1,119 @@
+{
+  "id": "polycystic-ovary-syndrome",
+  "names": ["Polycystic Ovary Syndrome"],
+  "aliases": ["PCOS", "Stein-Leventhal syndrome"],
+  "abbr": ["PCOS"],
+  "patterns": ["pcos", "polycystic ovary syndrome", "stein leventhal"],
+  "primary_tag": "obgyn",
+  "tags": ["pathology", "obgyn", "endocrine", "repro"],
+  "definition": "Common endocrine disorder in reproductive-age women defined by **hyperandrogenism**, **ovulatory dysfunction** (oligo/anovulation), and often **polycystic ovaries** (≥2 of 3 for diagnosis).",
+  "why_it_matters": "Most frequent cause of **anovulatory infertility** (up to ~10% of women). Associated with obesity, **insulin resistance**, and higher risks of **type 2 diabetes** and **metabolic syndrome**. Chronic anovulation leads to unopposed estrogen, increasing risk of **endometrial hyperplasia** or carcinoma.",
+  "how_youll_see_it": [
+    "Young woman with **irregular menses** (oligomenorrhea/amenorrhea) and signs of **hyperandrogenism** (hirsutism, acne). Many patients are **obese** with **acanthosis nigricans** (insulin resistance), though **lean PCOS** can also occur.",
+    "Ultrasound may show **polycystic ovaries** (≥12 small 2–9 mm follicles in a peripheral *string-of-pearls* pattern), but imaging is not required for diagnosis if clinical criteria are met.",
+    "Often identified during workup for **infertility** due to anovulation (difficulty conceiving)."
+  ],
+  "problem_solving": [
+    "Rule out other causes: check **β-hCG** (pregnancy test), **TSH**, **prolactin**, and **17‑hydroxyprogesterone** (nonclassic CAH) in any woman with oligo/amenorrhea. Test for Cushing syndrome or an androgen-secreting tumor if she has rapid-onset or severe virilization.",
+    "Labs: PCOS typically shows mildly elevated **total testosterone** (ovarian source) or **DHEA-S** (adrenal source); markedly high levels (>2× normal) suggest a tumor. **LH:FSH ratio** is often >2:1 (reflecting high LH pulse frequency), but this is not a diagnostic criterion. **FSH** is normal (helps exclude primary ovarian failure).",
+    "Pelvic **ultrasound**: not always necessary, but if done, look for ≥12 small follicles per ovary with the classic *string of pearls* appearance (or ovarian volume >10 mL). Only one ovary needs to meet criteria. Note that some healthy young women have polycystic-appearing ovaries without PCOS.",
+    "Assess metabolic status: screen for **diabetes** (e.g., 2-hr OGTT) and check **lipid profile** and blood pressure in all patients."
+  ],
+  "differentials": [
+    { "name": "Hypothyroidism", "hint": "↓Thyroid function (↑TSH) causes weight gain and menstrual irregularity" },
+    { "name": "Hyperprolactinemia", "hint": "Elevated prolactin (e.g., prolactinoma) → anovulation, often with galactorrhea" },
+    { "name": "Nonclassical CAH", "hint": "21-hydroxylase deficiency (partial); high 17‑OHP, adrenal androgen excess" },
+    { "name": "Cushing syndrome", "hint": "Excess cortisol causes Cushingoid features + possible menstrual irregularity" },
+    { "name": "Androgen-secreting tumor", "hint": "Ovarian/adrenal neoplasm (very high androgen levels, rapid virilization)" }
+  ],
+  "tricks": [
+    "**2 out of 3 rule**: **Polycystic ovaries** are *not* required to diagnose PCOS if hyperandrogenism and oligo/anovulation are present.",
+    "Mnemonic **HAIR-AN** – a subset of PCOS with **H**yper**A**ndrogenism, **I**nsulin **R**esistance, **A**canthosis **N**igricans (severe insulin resistance phenotype).",
+    "Think of the *string-of-pearls* sign on ultrasound – multiple small follicles line the ovarian periphery (classic PCOS finding)."
+  ],
+  "exam_appearance": [
+    "Obese 25‑year‑old woman with **amenorrhea**, **hirsutism**, and **acanthosis nigricans**; bilateral enlarged ovaries with many small follicles on ultrasound → **PCOS** (hyperandrogenic anovulation).",
+    "28‑year‑old woman with known PCOS struggling to conceive → anovulatory **infertility** due to PCOS; first-line treatment is **weight loss** plus **letrozole** for ovulation induction."
+  ],
+  "treatment": [
+    "**Lifestyle:** Weight loss (diet & exercise) is first-line for overweight patients; even a 5–10% reduction can restore ovulation and improve metabolic health.",
+    "If not seeking pregnancy: **Combined hormonal contraceptives** (e.g., OCPs) are first-line to regulate cycles and lower androgen levels (improving acne, hirsutism). Add **spironolactone** for hirsutism if needed (after 6 months on OCP). Topical eflornithine or laser hair removal can help refractory facial hair.",
+    "**Metformin:** An insulin-sensitizing agent used to address metabolic issues (prediabetes, BMI >25); it often helps restore regular menses and is added for women with glucose intolerance or metabolic syndrome.",
+    "If seeking pregnancy: **Ovulation induction** is indicated. First-line is **letrozole** (aromatase inhibitor) due to higher ovulation and live-birth rates than clomiphene. Clomiphene (SERM) is an alternative. If these fail, use second-line therapies (exogenous gonadotropins or assisted reproduction such as IVF).",
+    "Prevent endometrial hyperplasia: ensure at least ~4 menses per year. If not on OCP, induce a withdrawal bleed every 1–3 months with **progesterone** (e.g., medroxyprogesterone) or use a progestin IUD."
+  ],
+  "red_flags": [
+    "Signs of **virilization** (voice deepening, clitoromegaly) or very rapid onset of symptoms → evaluate for an **androgen-secreting tumor** (not typical PCOS).",
+    "Prolonged **amenorrhea** (chronic anovulation) without treatment → risk of **endometrial hyperplasia/cancer** from unopposed estrogen."
+  ],
+  "algorithm": [
+    "Suspected PCOS (irregular menses + hyperandrogenism) → first exclude **pregnancy**, **thyroid dysfunction**, **hyperprolactinemia**, and CAH.",
+    "If ≥2 of 3 PCOS features (**androgen excess**, **ovulatory dysfunction**, ± polycystic ovaries) are present and other causes are ruled out → **diagnose PCOS**. Pelvic ultrasound can support the diagnosis if needed.",
+    "If patient desires fertility → lifestyle changes (weight loss) + **ovulation induction** (letrozole is first-line).",
+    "If patient does not desire pregnancy → **OCPs** to regulate menses and manage hyperandrogenism; add **spironolactone** if needed for hirsutism.",
+    "Address **metabolic risk**: regular diabetes screening (OGTT every 3–5 years), lipid panel, blood pressure; consider **metformin** for insulin resistance."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Polycystic_ovary.jpg",
+      "alt": "Transvaginal ultrasound of a polycystic ovary, showing multiple small peripheral follicles (string-of-pearls appearance).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Polycystic_ovary.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 26‑year‑old woman with obesity presents with a 6-month history of irregular menstrual periods and increasing facial hair growth.",
+      "clues": [
+        "BMI 33; acanthosis nigricans on neck",
+        "Periods are 2–3 months apart since menarche",
+        "Coarse hair on chin and upper lip",
+        "Total testosterone is mildly elevated",
+        "Ultrasound: bilaterally enlarged ovaries with 15 small follicles each"
+      ],
+      "answer": "Polycystic ovary syndrome (PCOS)",
+      "teaching": "This classic PCOS case features obesity, hyperandrogenism (hirsutism), and oligomenorrhea, with polycystic ovaries on ultrasound. Insulin resistance (suggested by acanthosis) contributes to pathophysiology. First-line therapy would be weight loss and hormonal contraceptives to regulate her cycles (if she's not trying to conceive)."
+    }
+  ],
+  "see_also": [
+    "cushing-syndrome",
+    "obesity",
+    "amenorrhea"
+  ],
+  "prerequisites": [
+    "menstrual-cycle",
+    "endocrine-physiology"
+  ],
+  "sources": [
+    {
+      "title": "American Family Physician: Diagnosis and Treatment of PCOS (Williams et al., 2016)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2016/0715/p106.html"
+    },
+    {
+      "title": "UpToDate: Management of polycystic ovary syndrome in adults (Barbieri, 2023)",
+      "url": "https://www.uptodate.com/contents/treatment-of-polycystic-ovary-syndrome-in-adults"
+    },
+    {
+      "title": "Obstet Gynecol: ACOG Practice Bulletin No. 194 – Polycystic Ovary Syndrome (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29794677/"
+    },
+    {
+      "title": "N Engl J Med: Polycystic Ovary Syndrome (McCartney & Marshall, 2016)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp1514916"
+    },
+    {
+      "title": "J Clin Endocrinol Metab: International evidence-based PCOS guideline (Teede et al., 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37580314/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

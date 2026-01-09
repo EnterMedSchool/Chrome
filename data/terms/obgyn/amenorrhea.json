@@ -1,0 +1,156 @@
+{
+  "id": "amenorrhea",
+  "names": ["Amenorrhea"],
+  "aliases": ["Amenorrhoea", "Absent menses"],
+  "abbr": [],
+  "patterns": ["amenorrhea", "amenorrhoea", "primary amenorrhea", "secondary amenorrhea", "absent menses"],
+  "primary_tag": "obgyn",
+  "tags": ["repro", "endocrine", "pathology"],
+  "definition": "Amenorrhea is absence of menstruation in a woman of reproductive age. Primary amenorrhea is no menarche by age ~15–16 (or ≥3 years after thelarche). Secondary amenorrhea is cessation of established menses for ≥3 months (if regular) or ≥6 months (if irregular).",
+  "why_it_matters": "Amenorrhea may signal serious underlying issues and impacts fertility and bone health. Menstrual patterns reflect overall health. Primary amenorrhea suggests genetic or anatomic disorders (e.g., Turner syndrome, Müllerian agenesis). Secondary amenorrhea often indicates endocrine disorders like PCOS, hypothalamic/pituitary dysfunction. About 5–7% of women experience secondary amenorrhea each year, so timely evaluation is crucial to address causes (pregnancy, hormone imbalances, stress) and prevent complications like infertility and osteoporosis.",
+  "how_youll_see_it": [
+    "Primary amenorrhea – teen with no period by age ~15 despite normal breast development; consider ovarian (Turner, gonadal dysgenesis) or outflow (Müllerian agenesis, imperforate hymen) causes.",
+    "Turner syndrome – 45,X: short, webbed neck, shield chest, streak ovaries; labs show ↑FSH/LH (gonadal failure).",
+    "Secondary amenorrhea – woman stops menstruating: rule out pregnancy first (β-hCG). Common causes: PCOS (obese, hirsutism, irregular cycles), functional hypothalamic amenorrhea (stress, low weight), prolactinoma (galactorrhea, headaches).",
+    "Asherman's syndrome – amenorrhea after D&C, cyclic cramping pain without bleeding; ultrasound: thin endometrium; diagnosis by hysteroscopy showing adhesions."
+  ],
+  "problem_solving": [
+    "Exclude pregnancy (β-hCG) in all cases.",
+    "Check TSH and prolactin to identify thyroid or pituitary causes.",
+    "Measure FSH and LH: high FSH → ovarian failure; low/normal FSH with amenorrhea → hypothalamic/pituitary cause.",
+    "Pelvic ultrasound: assess uterine anatomy (agenesis, outflow obstruction) and ovaries (PCOS morphology, tumors).",
+    "Consider karyotype in primary amenorrhea with short stature or suspected ovarian dysgenesis."
+  ],
+  "differentials": [
+    { "name": "Pregnancy", "hint": "Positive β-hCG test; #1 cause of secondary amenorrhea" },
+    { "name": "Polycystic ovary syndrome (PCOS)", "hint": "Oligo-/amenorrhea, obesity, hirsutism, polycystic ovaries" },
+    { "name": "Primary ovarian insufficiency", "hint": "Premature ovarian failure: ↑FSH/LH, low estrogen; includes Turner syndrome" },
+    { "name": "Hyperprolactinemia", "hint": "Galactorrhea and high prolactin (pituitary adenoma)" },
+    { "name": "Hypothyroidism", "hint": "Elevated TSH (often ↑prolactin); fatigue, weight gain" },
+    { "name": "Outflow tract anomalies (Asherman, uterine agenesis)", "hint": "History of uterine surgery or congenital absence of uterus; cyclic pain without bleeding" }
+  ],
+  "tricks": [
+    "Mnemonic: 5 P's of amenorrhea – Pregnancy, Pituitary (prolactinoma), Polycystic ovary syndrome, Primary ovarian failure (e.g., Turner), Psych (stress/exercise).",
+    "Use the HPO axis: ↑FSH→ ovarian failure; ↓FSH/LH→ hypothalamic/pituitary (check prolactin).",
+    "Imperforate hymen/transverse septum cause cyclic pain and primary amenorrhea (outflow obstruction)."
+  ],
+  "exam_appearance": [
+    "15-year-old girl with short stature and webbed neck (Turner syndrome); amenorrhea with ↑FSH/LH.",
+    "Normal-height girl with blind vaginal pouch, normal breasts, no uterus (androgen insensitivity).",
+    "Obese woman with hirsutism and irregular menses (PCOS).",
+    "Athletic woman with BMI<18 and amenorrhea (functional hypothalamic amenorrhea)."
+  ],
+  "treatment": [
+    "Treat the underlying cause (stop offending drugs, correct thyroid disease).",
+    "Hyperprolactinemia: dopamine agonists (bromocriptine, cabergoline) to normalize prolactin.",
+    "PCOS: weight loss and exercise; induce withdrawal bleeding with cyclic progestin or OCPs; consider metformin for insulin resistance.",
+    "Hypothalamic amenorrhea: improve nutrition and reduce exercise/stress; consider estrogen/progestin therapy for bone health.",
+    "Ovarian failure (e.g., Turner): estrogen/progesterone replacement to induce puberty and protect bone.",
+    "Outflow anomalies: surgical correction (e.g., hysteroscopic lysis of Asherman adhesions)."
+  ],
+  "red_flags": [
+    "No breast development by age 13–14 (possible hypogonadism).",
+    "Primary amenorrhea by age 15 with cyclic pelvic pain (imperforate hymen/septum).",
+    "Galactorrhea or vision changes – suspect pituitary tumor.",
+    "Rapid bone loss or fracture in young woman (chronic low estrogen).",
+    "Virilization (clitoromegaly, deep voice) – suspect adrenal/ovarian tumor."
+  ],
+  "algorithm": [
+    "Confirm amenorrhea (≥3–6 months without menses). Exclude pregnancy (β-hCG).",
+    "Order labs: TSH, prolactin, FSH, LH, estradiol (and testosterone/DHEA if virilization).",
+    "If FSH elevated → ovarian failure; consider karyotype (e.g., Turner).",
+    "If prolactin elevated → get MRI brain for pituitary adenoma.",
+    "If FSH/LH normal or low & LH high (with androgen excess) → PCOS; if low/normal (without androgen excess) → hypothalamic amenorrhea.",
+    "Pelvic ultrasound: assess uterus (agenesis, outflow tract) and ovaries (PCOS morphology).",
+    "Progesterone withdrawal test: withdrawal bleed indicates adequate estrogen (e.g., PCOS or outflow block); no bleed indicates hypoestrogenic state (e.g., ovarian failure, hypothalamic)."
+  ],
+  "cases": [
+    {
+      "stem": "15-year-old girl with no menses. Short stature, webbed neck, shield chest. Ultrasound: small uterus, streak ovaries. High FSH/LH.",
+      "clues": [
+        "Short stature",
+        "Webbed neck",
+        "Streak ovaries",
+        "High FSH/LH",
+        "45,X karyotype"
+      ],
+      "answer": "Turner syndrome (gonadal dysgenesis)",
+      "teaching": "Turner syndrome (45,X) causes ovarian failure and primary amenorrhea. Treatment: estrogen to induce puberty and protect bone."
+    },
+    {
+      "stem": "28-year-old woman with obesity, hirsutism, and 8 months of irregular, scanty periods. LH:FSH ~3:1, ultrasound: multiple ovarian follicles.",
+      "clues": [
+        "Oligomenorrhea",
+        "Obesity",
+        "Hirsutism",
+        "High LH:FSH ratio",
+        "Polycystic ovaries on US"
+      ],
+      "answer": "Polycystic ovary syndrome (PCOS)",
+      "teaching": "PCOS features anovulation and androgen excess. Treat with weight loss, OCPs or cyclic progestins, and metformin for metabolic risk."
+    },
+    {
+      "stem": "22-year-old female marathon runner with BMI 18. No menses for 6 months. Low-normal FSH/LH, low estradiol. High exercise, low calorie intake.",
+      "clues": [
+        "Excessive exercise",
+        "Low BMI",
+        "Low estradiol",
+        "Normal TSH/prolactin",
+        "Stress/diet history"
+      ],
+      "answer": "Functional hypothalamic amenorrhea",
+      "teaching": "Low energy availability suppresses GnRH→ low gonadotropins and amenorrhea. Treatment: increase nutrition, reduce exercise, possibly add hormone therapy for bone health."
+    },
+    {
+      "stem": "32-year-old woman after multiple D&Cs for miscarriages now has amenorrhea. Reports monthly crampy pain without bleeding. Ultrasound: thin endometrial stripe. Hysteroscopy: uterine adhesions.",
+      "clues": [
+        "History of D&Cs",
+        "Amenorrhea",
+        "Cyclic pelvic pain",
+        "Thin endometrium on ultrasound",
+        "Adhesions on hysteroscopy"
+      ],
+      "answer": "Asherman's syndrome (intrauterine adhesions)",
+      "teaching": "Endometrial scarring from instrumentation causes amenorrhea. Treatment: hysteroscopic lysis of adhesions."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Hormones_estradiol,_progesterone,_LH_and_FSH_during_menstrual_cycle.png",
+      "alt": "Hormone levels (estradiol, progesterone, LH, FSH) across the normal menstrual cycle",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hormones_estradiol,_progesterone,_LH_and_FSH_during_menstrual_cycle.png"
+      }
+    }
+  ],
+  "actions": [],
+  "see_also": ["polycystic-ovary-syndrome", "turner-syndrome", "hypothyroidism"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "Primary Amenorrhea (StatPearls)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554469/"
+    },
+    {
+      "title": "Amenorrhea: Practice Essentials (Medscape)",
+      "url": "https://emedicine.medscape.com/article/252928-overview"
+    },
+    {
+      "title": "Amenorrhea: A Systematic Approach (Am Fam Physician)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2019/0701/p39.html"
+    },
+    {
+      "title": "Amenorrhea – UpToDate",
+      "url": "https://www.uptodate.com/contents/amenorrhea"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

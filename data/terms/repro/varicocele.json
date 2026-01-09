@@ -1,0 +1,113 @@
+{
+  "id": "varicocele",
+  "names": ["Varicocele"],
+  "aliases": ["scrotal varices", "varicose veins of scrotum"],
+  "abbr": [],
+  "patterns": ["varicocele", "varicoceles", "scrotal varices"],
+  "primary_tag": "repro",
+  "tags": ["pathology", "surgery", "repro"],
+  "definition": "Abnormal enlargement (varicosity) of the pampiniform plexus (scrotal veins); essentially **varicose veins** in the scrotum, usually on the left side.",
+  "why_it_matters": "Most common **correctable** cause of male infertility. The pooled blood raises testicular temperature, impairing spermatogenesis and potentially causing testicular atrophy if untreated.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** and found incidentally (e.g. during infertility evaluation or a routine exam). Classically feels like a soft, nontender **'bag-of-worms'** in the scrotum, more pronounced when standing or with Valsalva (especially on the left).",
+    "May present with a **dull, aching scrotal pain** or heaviness that worsens with prolonged standing and improves when lying down.",
+    "Can lead to **testicular growth delay/atrophy** in adolescents and reduced fertility in adults (due to increased scrotal temperature affecting sperm production)."
+  ],
+  "problem_solving": [
+    "**Physical exam**: Best performed with the patient standing and doing a Valsalva maneuver. A varicocele is usually left-sided and collapses when supine. It does **not transilluminate** (distinguishes it from hydrocele).",
+    "Use **Doppler ultrasound** to confirm the diagnosis if exam is equivocal or in preparation for treatment – ultrasound shows dilated pampiniform veins (often >3 mm) with reflux of blood on Valsalva.",
+    "Always consider the context: an **isolated right-sided varicocele** or one that remains dilated even when supine is uncommon – this should prompt imaging (e.g. abdominal ultrasound or CT) to rule out a compressive retroperitoneal mass.",
+    "Differentiate from other scrotal masses: hydroceles (fluid around testis that **transilluminates**), spermatoceles (epididymal cysts, separate and usually small), inguinal hernias (bowel protrusion into scrotum, often reducible), and testicular tumors (firm intratesticular mass that does not change with position)."
+  ],
+  "differentials": [
+    { "name": "Hydrocele", "hint": "painless fluid collection in scrotum; **transilluminates** on exam" },
+    { "name": "Inguinal hernia", "hint": "intestine protruding into scrotum; usually reducible, may bulge with Valsalva" },
+    { "name": "Testicular cancer", "hint": "solid **intratesticular** mass; doesn't collapse when supine, often painless" }
+  ],
+  "tricks": [
+    "\"**Bag of worms**\" scrotal feel = classic varicocele finding (dilated, tortuous spermatic veins).",
+    "**Left-sided ~90%**: due to left testicular vein anatomy (longer course and 90° drainage into left renal vein with higher pressure from the nutcracker effect)."
+  ],
+  "exam_appearance": [
+    "**Adolescent boy** with a left scrotal mass that feels like a bag of worms on exam (increases with standing/Valsalva, decompresses when supine) and a slightly smaller left testis → varicocele.",
+    "**30-year-old man** evaluated for infertility with a history of 1–2 years of failed attempts. He has a dull ache in the left scrotum, and exam reveals dilated veins in the left scrotum that enlarge with Valsalva. **Semen analysis** shows low sperm count and motility → varicocele contributing to male infertility."
+  ],
+  "treatment": [
+    "If no symptoms or fertility issues: **conservative management** (observation, scrotal support garments, NSAIDs for occasional discomfort). Many varicoceles are harmless and need no intervention unless they cause problems.",
+    "Indications for active treatment include **infertility**, testicular atrophy (in adolescents), or chronic pain. In these cases, **varicocele repair** can improve sperm parameters and relieve symptoms.",
+    "Treatment options: surgical ligation (**varicocelectomy**, often microsurgical) or percutaneous **embolization** of the internal spermatic vein. These procedures tie off or block the enlarged veins to reroute blood flow. Successful treatment often leads to improved testicular size in youth and better semen quality in adults."
+  ],
+  "red_flags": [
+    "Rapid onset or **right-sided varicocele** (especially in an older patient), or a varicocele that does **not reduce when supine**, is atypical → think of a retroperitoneal mass (e.g. a renal tumor compressing venous drainage) and investigate further."
+  ],
+  "algorithm": [
+    "Scrotal mass noted or male infertility workup → **examine standing with Valsalva**.",
+    "If soft left scrotal mass that feels like worms and collapses when supine → **Varicocele** likely (confirm with Doppler ultrasound if needed).",
+    "If varicocele is isolated on right side or doesn't collapse supine → obtain abdominal imaging to **rule out a retroperitoneal mass** (e.g. RCC).",
+    "Normal fertility and minimal symptoms → **observe** (no treatment necessary).",
+    "Infertility, significant pain, or adolescent with testicular atrophy → proceed to **varicocelectomy** or embolization to repair the varicocele."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Varicocele.png",
+      "alt": "Illustration of the male genital veins: left side normal vs right side with varicocele (dilated pampiniform plexus in the scrotum).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Varicocele.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 16‑year‑old boy is noted to have an irregular mass in his left scrotum during a sports physical exam.",
+      "clues": [
+        "Mass feels like a bag of worms on palpation",
+        "Becomes more prominent with Valsalva while standing",
+        "Disappears when he lies down",
+        "Left testis appears slightly smaller than the right"
+      ],
+      "answer": "Varicocele",
+      "teaching": "This is a classic presentation of a left varicocele in an adolescent. The dilated pampiniform plexus (\"bag of worms\") is more evident with standing/straining and decompresses when supine. Long-standing varicocele can slow testicular growth, hence the smaller left testis. Management in a teen depends on severity and testicular development; surgical repair is considered if there's significant asymmetry or pain."
+    },
+    {
+      "stem": "A 32‑year‑old man with a 2-year history of infertility is evaluated for scrotal discomfort.",
+      "clues": [
+        "Dull ache in left scrotum, worse at end of day",
+        "Exam: enlarged, tortuous veins in left scrotum",
+        "Veins distend with Valsalva and collapse when supine",
+        "Semen analysis: low sperm count and poor motility"
+      ],
+      "answer": "Varicocele causing male infertility",
+      "teaching": "Varicocele is a very common cause of male infertility. The patient's exam confirms a left varicocele (dilated scrotal veins that enlarge with standing/strain). The pooled blood in the scrotum raises testicular temperature and can impair sperm production, explaining the abnormal semen analysis. Treating the varicocele (e.g. surgical ligation or embolization) often improves sperm count and motility, potentially enhancing fertility."
+    }
+  ],
+  "see_also": [
+    "inguinal-hernia"
+  ],
+  "prerequisites": [
+    "spermatic-cord",
+    "testis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Varicocele (Leslie et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448113/"
+    },
+    {
+      "title": "UpToDate: Nonacute scrotal conditions in adults",
+      "url": "https://www.uptodate.com/contents/nonacute-scrotal-conditions-in-adults"
+    },
+    {
+      "title": "Varicocele (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/438591-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

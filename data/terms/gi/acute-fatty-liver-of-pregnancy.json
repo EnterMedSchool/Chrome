@@ -1,0 +1,99 @@
+{
+  "id": "acute-fatty-liver-of-pregnancy",
+  "names": ["Acute fatty liver of pregnancy"],
+  "aliases": ["acute fatty liver"],
+  "abbr": ["AFLP"],
+  "patterns": ["acute fatty liver", "acute fatty liver of pregnancy", "Reye syndrome"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "obgyn", "peds"],
+  "definition": "Rare, life-threatening complication of late pregnancy characterized by microvesicular fatty infiltration of hepatocytes, acute liver failure, and coagulopathy.",
+  "why_it_matters": "Often fatal if unrecognized; historically up to 75% maternal mortality (now ~4% with prompt care). High fetal risk as well, making it a critical obstetric emergency and a classic differential for third-trimester liver failure.",
+  "how_youll_see_it": [
+    "Usually occurs in the 3rd trimester (≥30 weeks) or early postpartum: persistent nausea/vomiting, RUQ or epigastric pain, jaundice, and encephalopathy. ~50% of cases have coexisting preeclampsia, but **hypoglycemia** and severe **coagulopathy/DIC** are more suggestive of AFLP (vs. HELLP).",
+    "Labs: moderate **↑AST/ALT** (hundreds of U/L, rarely >1000), **↑bilirubin**, **↑INR/PTT** with **↓fibrinogen**, **↓glucose** (often <50 mg/dL), **↑ammonia**, **↑WBC**, and **↓platelets** (from DIC). Liver ultrasound shows a \"bright\" fatty liver ± ascites.",
+    "**Reye syndrome** (a pediatric acute fatty liver): classically a child recovering from a viral illness (influenza or varicella) who was given **aspirin**, now with recurrent vomiting, confusion, seizures, and rapid encephalopathy. Labs show moderately ↑LFTs, very **↑ammonia**, prolonged PT, and low glucose (often no significant jaundice)."
+  ],
+  "problem_solving": [
+    "Differentiate from HELLP syndrome: AFLP often has profound **hypoglycemia** and more severe **coagulopathy** (↑PT, ↓fibrinogen) whereas HELLP has more hemolysis and extremely high AST/ALT. If in doubt, apply the **Swansea criteria** (≥6 of 14 clinical/lab features) for AFLP diagnosis.",
+    "Consider other causes of acute liver failure in pregnancy: rule out **viral hepatitis** (e.g., hepatitis E), **drug/toxin injury** (e.g., acetaminophen overdose), or **Budd-Chiari** thrombosis. AFLP can coexist with severe preeclampsia, so overlapping features may occur.",
+    "Check distinguishing labs: AFLP often uniquely causes **hypoglycemia** and **hyperammonemia** (due to liver failure). Liver biopsy would show **microvesicular steatosis** (foamy hepatocytes without significant inflammation), but biopsy is rarely needed if clinical criteria are met.",
+    "Stabilize the mother: start IV **dextrose** for hypoglycemia, give blood products for coagulopathy/DIC, and plan for **immediate delivery** (often urgent induction or C-section). Definitive treatment is delivering the placenta; maternal liver function usually begins to improve within days. Manage in ICU and consider liver transplant only if hepatic failure worsens despite delivery."
+  ],
+  "differentials": [
+    { "name": "HELLP syndrome", "hint": "Preeclampsia variant (Hemolysis, Elevated LFTs, Low Platelets); can mimic AFLP but usually with severe hypertension." },
+    { "name": "Acute viral hepatitis", "hint": "e.g. acute Hepatitis E in pregnancy or other viral hepatitis; typically AST/ALT >1000 U/L with positive viral markers." },
+    { "name": "Drug-induced liver failure", "hint": "e.g. acetaminophen overdose or other toxin; history of ingestion, massive hepatic necrosis (AST/ALT often in the 1000s)." }
+  ],
+  "tricks": [
+    "AFLP is often linked to fetal **LCHAD** deficiency (a defect in mitochondrial β-oxidation of fatty acids); this fetal mutation triggers maternal liver failure but makes recurrence in future pregnancies rare (screen affected neonates).",
+    "Risk factors for AFLP include a **male fetus** (≈3:1 more common than female), **twin gestation**, and history of AFLP in a prior pregnancy (all suggest an underlying fatty acid oxidation issue).",
+    "Avoid **aspirin** in children with viral infections (except when specifically indicated, e.g. Kawasaki disease) – this preventive measure has drastically reduced the incidence of Reye syndrome."
+  ],
+  "exam_appearance": [
+    "Near-term pregnant woman (35–38 weeks) with refractory nausea, abdominal pain, mild jaundice, hypoglycemia, and coagulopathy (↑INR, ↓fibrinogen) → **Acute fatty liver of pregnancy** (urgent delivery is indicated).",
+    "Child recovering from flu or chickenpox, now with vomiting, altered mental status, AST & ALT ~300, hyperammonemia, prolonged PT → **Reye syndrome** due to aspirin use."
+  ],
+  "treatment": [
+    "**AFLP**: Immediate **delivery** of the fetus is the only definitive treatment (do not delay, regardless of gestational age). Provide aggressive supportive care (IV glucose for hypoglycemia, IV fluids, correct coagulopathy with FFP/cryoprecipitate, etc.). Liver transplant is a last resort if liver failure does not resolve post-delivery.",
+    "**Reye syndrome**: Largely **supportive care** in an ICU setting – manage intracranial pressure (e.g., mannitol for cerebral edema), give IV glucose to correct hypoglycemia, vitamin K/plasma for coagulopathy. No specific antidote; focus on preventing cerebral edema and avoid aspirin in kids to prevent Reye.",
+    "**Drug-induced microvesicular steatosis**: Stop the offending agent (e.g., high-dose valproate); provide supportive care and consider specific therapies like IV **L-carnitine** for valproate-induced hepatotoxicity."
+  ],
+  "red_flags": [
+    "Late-pregnancy patient with unexplained **hypoglycemia** or sudden **DIC** → suspect AFLP (do not assume it's just HELLP); expedite delivery to prevent maternal/fetal death.",
+    "Child with recent viral illness who develops vomiting and encephalopathy – check for **salicylate** use (Reye syndrome). This is a medical emergency: aim to control intracranial pressure and never give aspirin to children without clear indication."
+  ],
+  "algorithm": [
+    "Third-trimester pregnancy with nausea/vomiting, abdominal pain ± confusion → suspect AFLP.",
+    "Order labs: **glucose** (often low), **LFTs** (elevated, but usually <500), **coagulation** (↑PT/INR, ↓fibrinogen), **CBC** (↑WBC, ± low platelets), **ammonia** (elevated). Check viral hepatitis panel and review medications/toxins.",
+    "If labs fit AFLP (especially if **Swansea criteria** ≥6 are met), stabilize patient (IV dextrose, blood products, etc.) and proceed with **immediate delivery** (do not wait for biopsy).",
+    "After delivery, monitor in ICU – liver function should improve within days. If no improvement and fulminant hepatic failure ensues, consider transfer to a transplant center."
+  ],
+  "cases": [
+    {
+      "stem": "A 26‑year‑old woman (G2P1) at 37 weeks presents with two days of persistent vomiting, right upper quadrant pain, and confusion. She is mildly icteric on exam and has no blood pressure elevation.",
+      "clues": ["3rd trimester", "ALT 400 U/L", "Glucose 45 mg/dL", "INR 3.0", "Platelets 90k"],
+      "answer": "Acute fatty liver of pregnancy",
+      "teaching": "Microvesicular fatty infiltration of the liver in late pregnancy (often due to a fetal LCHAD mutation) caused acute liver failure. Definitive treatment is urgent delivery of the baby, with intensive supportive care leading to maternal recovery."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Histopathology_of_microvesicular_steatosis.jpg",
+      "alt": "Histopathology of AFLP (acute fatty liver of pregnancy) showing microvesicular fatty change in hepatocytes (foamy cytoplasm) with inset comparing macrovesicular fat.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Histopathology_of_microvesicular_steatosis.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["reye-syndrome", "cirrhosis", "hepatic-encephalopathy", "acute-hepatitis"],
+  "sources": [
+    {
+      "title": "StatPearls: Fatty Liver in Pregnancy (Hadi & Kupec, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545315/"
+    },
+    {
+      "title": "UpToDate: Acute fatty liver of pregnancy (Lee & Reau, 2025)",
+      "url": "https://www.uptodate.com/contents/acute-fatty-liver-of-pregnancy"
+    },
+    {
+      "title": "Reprod. Med (MDPI): Acute Fatty Liver of Pregnancy (White et al., 2024)",
+      "url": "https://doi.org/10.3390/reprodmed5040025"
+    },
+    {
+      "title": "StatPearls: Reye Syndrome (Chapman & Arnold, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526101/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

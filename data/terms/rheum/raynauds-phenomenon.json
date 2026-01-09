@@ -1,0 +1,143 @@
+{
+  "id": "raynauds-phenomenon",
+  "names": ["Raynaud's phenomenon"],
+  "aliases": [
+    "Raynaud's syndrome",
+    "Raynaud's disease",
+    "Primary Raynaud phenomenon",
+    "Secondary Raynaud phenomenon"
+  ],
+  "abbr": ["RP"],
+  "patterns": [
+    "raynaud",
+    "raynaud's phenomenon",
+    "raynaud phenomenon",
+    "raynaud's disease",
+    "raynaud disease",
+    "raynaud's syndrome",
+    "raynaud syndrome"
+  ],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "cardio"],
+  "definition": "Episodic **vasospasm** of small arteries (usually in the fingers/toes) triggered by **cold** or **stress**, causing transient color changes (white → blue → red) and numbness/pain. It occurs in a primary (idiopathic) form and secondary form associated with underlying diseases.",
+  "why_it_matters": "Common (~3–5% prevalence) and usually benign, especially in young women. However, **secondary Raynaud's** can be a harbinger of serious autoimmune diseases (e.g., **systemic sclerosis**), so recognizing the classic color changes can prompt early diagnosis. Frequently tested on exams as a classic vascular phenomenon.",
+  "how_youll_see_it": [
+    "Episodes classically follow a **triphasic color change**: affected digits turn **white** (ischemia), then **blue** (cyanosis), then **red** upon rewarming (reactive hyperemia). Patients often report cold-induced **numbness** or tingling pain in fingers or toes, with spontaneous relief on warming.",
+    "**Primary Raynaud's** (Raynaud disease) typically affects young women (onset in teens/20s) with **symmetric** attacks and no tissue damage. **Secondary Raynaud's** tends to start later (>30 years), may be **asymmetric** and more **painful**, with complications like fingertip ulcers or gangrene. Common secondary causes include **connective tissue diseases** (especially **scleroderma**, lupus), arterial occlusive disease, repeated vibrational trauma, or certain drugs.",
+    "Between attacks, exam is usually normal in primary Raynaud's. In secondary forms, there may be signs of the underlying condition (e.g., sclerodactyly or calcinosis in scleroderma). **Nailfold capillaroscopy** (examining capillaries at the fingernail bed) is often normal in primary RP but shows abnormal dilated or drop-out capillaries in many secondary cases (a key clue for scleroderma)."
+  ],
+  "problem_solving": [
+    "Determine if **primary vs secondary**: look for red flags such as **onset after 30**, male sex, **asymmetric or painful attacks**, or digital **ulcers** → suggest secondary Raynaud's. If suspected, evaluate for underlying diseases (check **ANA** and other autoantibodies, perform nailfold capillaroscopy, etc.).",
+    "Advise **lifestyle measures** for all patients: keep extremities warm (gloves, warm socks), avoid sudden cold exposure (even freezer sections), manage stress, and **stop smoking** or any vasoconstricting medications.",
+    "For **primary Raynaud's** with frequent attacks, start a **dihydropyridine CCB** (e.g., nifedipine) to reduce vasospasm. If attacks are mild/infrequent, conservative management may suffice.",
+    "For **secondary Raynaud's**, treat the **underlying disorder** (e.g., immunosuppressives for lupus or sclerosis, address hypothyroid, etc.) and use medication more aggressively. Options (often off-label) include CCBs, topical **nitroglycerin**, **PDE-5 inhibitors** like sildenafil, or **prostacyclin** analogs (IV iloprost) for severe cases.",
+    "**Refer** to a rheumatologist for secondary cases or if autoimmune labs (ANA, etc.) are positive. If there are severe ischemic complications (non-healing ulcers or gangrene), involve a vascular specialist; treatments like IV prostaglandins, **bosentan** (endothelin blocker), or even sympathectomy may be considered in refractory cases."
+  ],
+  "differentials": [
+    {
+      "name": "Acrocyanosis",
+      "hint": "persistent cold bluish hands/feet due to vasospasm, but usually **painless** and not episodic/triphasic"
+    },
+    {
+      "name": "Pernio (chilblains)",
+      "hint": "cold-induced **inflammatory lesions** (red/purple painful nodules) on fingers/toes after exposure; not the same reversible vasospasm"
+    },
+    {
+      "name": "Buerger disease",
+      "hint": "thromboangiitis obliterans in heavy smokers causing **digit ischemia** (claudication, ulcers) due to vessel inflammation/thrombosis, not just functional spasm"
+    }
+  ],
+  "tricks": [
+    "Remember the color sequence: **White → Blue → Red** (\"white\" from lack of blood flow, \"blue\" from deoxygenation, \"red\" from reperfusion). Exams often describe this triphasic change in a cold-exposed hand.",
+    "Beta-blockers and other vasoconstrictive drugs (e.g., some migraine meds, stimulants) can **worsen Raynaud's** – consider this if symptoms start after a new medication.",
+    "In a patient with known scleroderma (systemic sclerosis), new-onset severe Raynaud's with fingertip **ulcers** indicates active disease – requires aggressive therapy to prevent **digital gangrene**."
+  ],
+  "exam_appearance": [
+    "A 20‑year‑old woman in winter finds her fingers turning white then blue when cold, with numbness that resolves on warming. No other symptoms or exam findings. → **Primary Raynaud's phenomenon** (manage with warming and nifedipine as needed).",
+    "A 45‑year‑old woman with tight skin on her hands (sclerodactyly) and telangiectasias has episodes of painful finger pallor in cold and a non-healing fingertip ulcer. ANA is positive. → **Secondary Raynaud's** due to systemic sclerosis (CREST syndrome). Requires vasodilator therapy and rheumatology management.",
+    "A manual laborer who operates vibrating tools and smokes heavily develops Raynaud's phenomenon in his fingers. → Likely **secondary Raynaud's** (vibration-induced vascular damage + smoking). Emphasize smoking cessation and protective equipment; treat with CCBs."
+  ],
+  "treatment": [
+    "**Lifestyle:** First-line for all – keep body and extremities warm (wear gloves, layered clothing), avoid sudden cold exposure, manage stress, and avoid smoking/nicotine.",
+    "**Pharmacologic:** If attacks are frequent or severe, use **calcium channel blockers** (e.g., nifedipine or amlodipine) to reduce vasospasm. Alternatives or add-ons include topical **nitroglycerin** paste for local areas, **PDE-5 inhibitors** (sildenafil) for severe cases, or **angiotensin receptor blockers**; in extreme cases IV **prostacyclin** (iloprost) may be used.",
+    "**Secondary RP management:** Treat the **underlying condition** (e.g., immunotherapy for lupus/scleroderma). Refer to specialists as needed. For critical digital ischemia (ulcers/gangrene), inpatient treatment with IV vasodilators, **bosentan** (to prevent new ulcers in scleroderma), or even surgical sympathectomy can be considered."
+  ],
+  "red_flags": [
+    "Onset of Raynaud's **after age 30**, **male** patient, or **unilateral/asymmetric** attacks → suspect secondary cause (requires workup for autoimmune or vascular disease).",
+    "Any **ulcers**, pitting scars, or signs of tissue injury on fingertips → indicates severe secondary Raynaud's (urgent aggressive treatment to prevent permanent damage).",
+    "If **ANA or other autoimmune markers** are positive in a Raynaud's patient, monitor closely for development of a connective tissue disease (e.g., systemic lupus or scleroderma)."
+  ],
+  "algorithm": [
+    "Recurrent finger color changes (white/blue ± red) triggered by cold → **suspect Raynaud's phenomenon**.",
+    "Evaluate red flags: age >30 at onset, asymmetry, painful ulcers? If yes → **work up for secondary causes** (labs like ANA, nailfold capillaroscopy, vascular studies).",
+    "No secondary signs → likely **primary Raynaud's**: educate on avoidance of triggers and observe. Add medical therapy (e.g., nifedipine) if needed for symptom control.",
+    "Secondary Raynaud's confirmed or strongly suspected → **manage underlying disease** (e.g., rheumatologic referral) and initiate vasodilator therapy (CCB first-line, others as needed).",
+    "Severe ischemia (digital ulceration or gangrene risk) → consider advanced therapies (IV prostacyclin, **sympathectomy** in refractory cases) and involve specialist care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Multicolor_Raynaud%27s_Right_Hand.jpg",
+      "alt": "Hand of a patient with Raynaud phenomenon showing multiple color changes in different fingers (pallor in one finger and redness in others due to vasospasm).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Multicolor_Raynaud%27s_Right_Hand.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22‑year‑old woman has episodes of finger numbness and color change when exposed to cold. Her fingers turn white, then bluish, and then red on warming. She has no skin abnormalities or systemic symptoms.",
+      "clues": [
+        "Episodes triggered by cold or stress",
+        "Triphasic color change (white→blue→red)",
+        "Symmetric involvement of both hands",
+        "Normal nailfold capillaries, negative ANA"
+      ],
+      "answer": "Primary Raynaud's phenomenon (Raynaud disease)",
+      "teaching": "Idiopathic Raynaud's typically presents in a young woman with symmetric cold-induced vasospasm. The classic color sequence and lack of underlying disease signs indicate primary Raynaud's. Management is conservative (keep warm, avoid triggers), with nifedipine for frequent attacks."
+    },
+    {
+      "stem": "A 40‑year‑old man with hardened, thickened skin on his fingers and face notices severe pain and blue-black discoloration in one fingertip. He recalls episodes of his fingers turning white and blue in cold weather. Exam shows a fingertip ulcer and abnormal nailfold capillaries; ANA test is strongly positive.",
+      "clues": [
+        "Sclerodactyly (tight, thick skin on fingers)",
+        "Painful non-healing fingertip ulcer",
+        "Abnormal nailfold capillary exam",
+        "Positive ANA test"
+      ],
+      "answer": "Secondary Raynaud's phenomenon (due to systemic sclerosis)",
+      "teaching": "Raynaud's in an older male with signs of scleroderma (systemic sclerosis) represents secondary Raynaud's. It tends to be more severe, with digital ulcers. Treatment includes aggressive vasodilation (e.g., calcium channel blockers, IV prostacyclin) and management of the underlying connective tissue disease."
+    }
+  ],
+  "see_also": [
+    "systemic-lupus-erythematosus",
+    "peripheral-artery-disease",
+    "sjogren-syndrome"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Raynaud Disease (Musa & Qurie, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499833/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of Raynaud phenomenon (Wigley & Flavahan, 2024)",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-raynaud-phenomenon"
+    },
+    {
+      "title": "ACR: Raynaud's Phenomenon Patient Fact Sheet (Sahni, 2025)",
+      "url": "https://rheumatology.org/patients/raynauds-phenomenon"
+    },
+    {
+      "title": "Medscape: Raynaud Phenomenon (Hansen-Dispenza, 2025)",
+      "url": "https://emedicine.medscape.com/article/331197-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

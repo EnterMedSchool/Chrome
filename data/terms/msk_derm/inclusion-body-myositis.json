@@ -1,0 +1,131 @@
+{
+  "id": "inclusion-body-myositis",
+  "names": [
+    "Inclusion body myositis"
+  ],
+  "aliases": [
+    "sporadic inclusion body myositis",
+    "IBM"
+  ],
+  "abbr": [
+    "IBM"
+  ],
+  "patterns": [
+    "inclusion body myositis",
+    "IBM myositis",
+    "inclusion body myopathy",
+    "sporadic IBM"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "pathology",
+    "rheum",
+    "msk_derm",
+    "neuro"
+  ],
+  "definition": "Idiopathic inflammatory myopathy of older adults characterized by progressive muscle weakness and **rimmed vacuoles** (inclusion bodies) on muscle biopsy.",
+  "why_it_matters": "Most common acquired muscle disease in patients >50. Often misdiagnosed as polymyositis, it causes significant disability (many patients become wheelchair-dependent with severe dysphagia) and **does not respond** to standard immunosuppressive therapy—making early recognition and supportive management crucial.",
+  "how_youll_see_it": [
+    "**Age >50**, usually male, with **insidious** (years-long) muscle weakness. IBM uniquely involves both **proximal** muscles (e.g. quadriceps → difficulty rising, frequent falls) and **distal** muscles (e.g. finger flexors → weak grip), often **asymmetric** in distribution. Patients may have knee buckling falls or foot drop causing tripping, along with trouble using their hands for fine tasks.",
+    "**Slow progression** (often ~5 years before diagnosis) with visible **muscle atrophy** in affected groups (thigh, forearm) even early on. About 30–50% develop **dysphagia** (difficulty swallowing) due to pharyngeal muscle involvement, leading to choking or aspiration pneumonia risk.",
+    "**Labs:** Serum **CK** is normal or only mildly elevated (typically <10× normal). No myositis-specific antibodies (e.g. Jo-1) are present, but ~50% of patients have **anti-NT5c1A** (anti-cytosolic 5′-nucleotidase 1A) antibodies. Inflammatory markers (ESR, CRP) are often normal."
+  ],
+  "problem_solving": [
+    "Suspect **IBM** (instead of polymyositis) if an older patient's myopathy has atypical features (distal weakness, asymmetry, very slow course) or fails to improve with therapy.",
+    "Use **EMG** to confirm a myopathic process and exclude neuropathic causes. **MRI** of muscles can show characteristic patterns (selective quadriceps and forearm flexor involvement) and help target a biopsy site.",
+    "**Muscle biopsy** is the diagnostic gold standard: look for endomysial CD8+ T-cell infiltrates with muscle fiber degeneration, **rimmed vacuoles**, and protein aggregates (inclusion bodies). These findings confirm IBM and distinguish it from polymyositis (which lacks inclusions).",
+    "If IBM is confirmed, avoid prolonged courses of corticosteroids or other immunosuppressants (ineffective) and focus on supportive care."
+  ],
+  "differentials": [
+    {
+      "id": "polymyositis",
+      "hint": "Symmetric proximal muscle weakness (shoulders/hips); usually younger onset and **responds to steroids**; lacks distal involvement or inclusions."
+    },
+    {
+      "id": "dermatomyositis",
+      "hint": "Proximal weakness with characteristic **skin rash** (heliotrope, Gottron papules); path shows perifascicular atrophy; higher risk of malignancy (unlike IBM)."
+    },
+    {
+      "name": "Muscular dystrophies",
+      "hint": "Hereditary muscle diseases (e.g. Duchenne, myotonic dystrophy) with earlier onset and family history; typically no inflammatory cells on biopsy (and often different patterns like calf pseudohypertrophy or myotonia)."
+    }
+  ],
+  "tricks": [
+    "Think of **IBM** the company: it's **old** and doesn't adapt to change – similarly, **Inclusion Body Myositis** affects older patients and is **resistant** to standard treatments.",
+    "Mnemonic **\"IBM\"** – **I**nclusions in muscle fibers (rimmed vacuoles), **B**oth proximal & distal muscle involvement, **M**ale-predominant (midlife) and **Medications don't work** (steroid-unresponsive)."
+  ],
+  "exam_appearance": [
+    "Older adult (≥60) with slowly progressive thigh weakness (difficulty climbing stairs, frequent falls) and forearm/finger weakness (poor grip), modest CK elevation, and no improvement on steroids → **Inclusion body myositis**.",
+    "Muscle biopsy photomicrograph showing fibers with **rimmed vacuoles** (blue-red granular holes on trichrome stain) in an older patient with chronic muscle weakness → **Inclusion body myositis**."
+  ],
+  "treatment": [
+    "No proven cure - IBM is generally **refractory** to corticosteroids and immunosuppressants (unlike polymyositis). Management is primarily supportive and rehabilitative.",
+    "**Exercise** and **physical therapy** to preserve muscle function; provide assistive devices (e.g. ankle-foot orthoses for foot drop, canes/walkers, wheelchairs) to improve mobility and prevent falls.",
+    "Manage **dysphagia** with dietary modifications (soft or thickened foods) and swallowing therapy; if severe, consider feeding tube placement to prevent aspiration. Monitor respiratory status in advanced cases (aspiration precautions, pulmonary support if needed)."
+  ],
+  "red_flags": [
+    "**Progressive dysphagia** (choking, coughing with meals) → risk of aspiration pneumonia; warrants prompt evaluation (swallow study) and interventions (diet changes, feeding tube).",
+    "Frequent **falls** or trips (due to quadriceps weakness or foot drop) → high injury risk; ensure use of assistive devices and home safety measures (to prevent fractures/head injury)."
+  ],
+  "algorithm": [
+    "Chronic muscle weakness (>6–12 months) in age >50 → check **CK** (often mildly elevated) and basic myositis antibody panel; consider IBM if distal involvement or atypical features present.",
+    "Obtain **EMG** to support a myopathy (and rule out neurogenic causes) and perform muscle **MRI** to identify affected muscles (IBM shows selective quadriceps and finger flexor atrophy) and guide biopsy site selection.",
+    "**Biopsy** an affected muscle to confirm the diagnosis: presence of endomysial inflammation plus **rimmed vacuoles** and inclusions establishes IBM.",
+    "If diagnosis is IBM, focus on supportive management (rehabilitation, safety, swallowing support) rather than high-dose immunosuppression (ineffective in IBM)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Inclusion_body_myositis_histology.jpg",
+      "alt": "Muscle biopsy in inclusion body myositis showing fibers with rimmed vacuoles (inclusion bodies).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Inclusion_body_myositis_histology.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68-year-old man has a 2-year history of progressive difficulty climbing stairs and recently developed trouble opening jars and frequent falls.",
+      "clues": [
+        "Weakness in quadriceps (thigh) and finger flexors (forearm)",
+        "Insidious onset over 24 months",
+        "CK is mildly elevated (~1000 U/L)",
+        "No improvement after 6 months of high-dose prednisone",
+        "Muscle biopsy: endomysial inflammation with rimmed vacuoles"
+      ],
+      "answer": "Inclusion body myositis",
+      "teaching": "Inclusion body myositis typically presents in older men with slowly progressive proximal AND distal muscle weakness. The hallmark is a muscle biopsy showing rimmed vacuoles (inclusion bodies) and T-cell infiltrates. Unlike polymyositis, IBM progresses insidiously, often involves finger flexor muscles, and does not respond to corticosteroid therapy."
+    }
+  ],
+  "see_also": [
+    "polymyositis",
+    "dermatomyositis",
+    "duchenne-muscular-dystrophy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Inclusion Body Myositis (Panginikkod & Musa, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538200/"
+    },
+    {
+      "title": "UpToDate: Management of inclusion body myositis (2024)",
+      "url": "https://www.uptodate.com/contents/management-of-inclusion-body-myositis"
+    },
+    {
+      "title": "Medscape: Sporadic Inclusion Body Myositis (Dalakas, 2022)",
+      "url": "https://emedicine.medscape.com/article/1172746-overview"
+    },
+    {
+      "title": "Frontiers Neurology: Inclusion body myositis – diagnostic and therapeutic update (Naddaf, 2022)",
+      "url": "https://doi.org/10.3389/fneur.2022.1020113"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

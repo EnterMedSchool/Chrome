@@ -1,0 +1,78 @@
+{
+  "id": "tidal-volume",
+  "names": ["Tidal Volume", "TV", "VT"],
+  "aliases": ["Vt", "tidal vol"],
+  "patterns": [
+    "tidal volume",
+    "TV",
+    "VT",
+    "Vt"
+  ],
+  "level": "physiological",
+  "primary_tag": "pulm",
+  "tags": ["pulmonology", "physiology", "respiratory", "ventilation"],
+  "normal_value": {
+    "value": 500,
+    "unit": "mL",
+    "range": [400, 600],
+    "per_kg": "6-8 mL/kg ideal body weight"
+  },
+  "calculation": {
+    "formula": "6-8 mL/kg × ideal body weight",
+    "example": "For 70 kg patient: 420-560 mL"
+  },
+  "visualization": {
+    "type": "spirometry",
+    "related_values": [
+      {"id": "IRV", "name": "Inspiratory Reserve Volume", "value": 3000, "unit": "mL"},
+      {"id": "ERV", "name": "Expiratory Reserve Volume", "value": 1100, "unit": "mL"},
+      {"id": "RV", "name": "Residual Volume", "value": 1200, "unit": "mL"},
+      {"id": "FRC", "name": "Functional Residual Capacity", "value": 2300, "unit": "mL"},
+      {"id": "VC", "name": "Vital Capacity", "value": 4600, "unit": "mL"},
+      {"id": "TLC", "name": "Total Lung Capacity", "value": 5800, "unit": "mL"}
+    ]
+  },
+  "definition": "**Tidal Volume (TV or VT)** is the volume of air moved in or out of the lungs during a single normal breath. It represents the difference between the volume of air in the lungs at the end of inspiration and at the end of expiration during quiet breathing.",
+  "clinical_relevance": [
+    "Used to calculate **minute ventilation** (MV = TV × respiratory rate)",
+    "Critical for **mechanical ventilation** settings",
+    "Low tidal volume ventilation (6-8 mL/kg IBW) reduces ventilator-induced lung injury",
+    "Decreased in restrictive lung diseases",
+    "May be normal or increased in obstructive lung diseases"
+  ],
+  "related_concepts": [
+    {
+      "name": "Minute Ventilation",
+      "formula": "TV × Respiratory Rate",
+      "normal": "~6 L/min"
+    },
+    {
+      "name": "Alveolar Ventilation",
+      "formula": "(TV - Dead Space) × RR",
+      "note": "Dead space ≈ 150 mL"
+    }
+  ],
+  "pearls": [
+    "IBW (Ideal Body Weight) for men: 50 + 2.3 × (height in inches - 60)",
+    "IBW for women: 45.5 + 2.3 × (height in inches - 60)",
+    "ARDS Net protocol: 6 mL/kg IBW to minimize barotrauma",
+    "Dead space is ~2 mL/kg or ~150 mL in adults"
+  ],
+  "see_also": ["respiratory-failure", "acute-respiratory-distress-syndrome"],
+  "sources": [
+    {
+      "title": "West JB. Respiratory Physiology: The Essentials, 10th ed.",
+      "url": "https://www.lww.com/Product/9781496310118"
+    },
+    {
+      "title": "ARDS Network. Ventilation with Lower Tidal Volumes. N Engl J Med. 2000",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM200005043421801"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

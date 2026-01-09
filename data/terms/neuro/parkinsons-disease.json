@@ -1,0 +1,141 @@
+{
+  "id": "parkinsons-disease",
+  "names": [
+    "Parkinson's disease"
+  ],
+  "aliases": [
+    "Idiopathic Parkinson disease",
+    "Paralysis agitans"
+  ],
+  "abbr": [
+    "PD"
+  ],
+  "patterns": [
+    "parkinson",
+    "parkinsons disease",
+    "parkinson's disease",
+    "parkinson disease",
+    "idiopathic parkinson",
+    "parkinsonism",
+    "paralysis agitans"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "pharmacology",
+    "neuro"
+  ],
+  "definition": "Progressive neurodegenerative movement disorder caused by loss of dopaminergic neurons in the substantia nigra, leading to the classic triad of bradykinesia, resting tremor, and rigidity. Pathologically characterized by **Lewy bodies** (aggregates of α-synuclein) in affected neurons.",
+  "why_it_matters": "Most common form of parkinsonism (~80% of cases) and a major cause of disability in the elderly. Affects ~1% of people over age 60. Frequently tested on boards, especially distinguishing idiopathic PD from atypical Parkinson-plus syndromes and secondary causes.",
+  "how_youll_see_it": [
+    "Typically an older adult (>55) with insidious, **asymmetric** onset of a resting \"pill-rolling\" tremor, progressive **bradykinesia** (slowed movements, shuffling gait, micrographia), and **cogwheel rigidity**. Facial expression becomes masked and speech soft. Non-motor features are common (e.g., **anosmia**, constipation, REM sleep behavior disorder). **Postural instability** (balance impairment) emerges later in idiopathic PD (early falls are a red flag for atypical parkinsonism).",
+    "**Parkinson-plus** (atypical) syndromes present with parkinsonism **plus** early additional features. **Progressive supranuclear palsy (PSP)** – early loss of balance (frequent backward **falls**) and impaired **vertical gaze** (cannot look down), with axial rigidity. **Multiple system atrophy (MSA)** – early **autonomic dysfunction** (severe orthostatic hypotension, urinary incontinence, erectile dysfunction) and often **cerebellar ataxia**; may have neck tilt (anterocollis) or vocal cord paralysis. Both PSP and MSA typically show minimal response to levodopa.",
+    "**Corticobasal degeneration (CBD)** – markedly asymmetric Parkinsonism with cortical features like **limb apraxia**, **alien limb** phenomenon, cortical sensory deficits, and focal dystonia (usually poor medication response). **Dementia with Lewy bodies (DLB)** – parkinsonian motor signs coupled with early **dementia** (within 1 year of motor symptoms) and persistent **visual hallucinations** (fluctuating cognition).",
+    "Secondary causes of parkinsonism: **Drug-induced** (dopamine-blocking agents like antipsychotics or metoclopramide) cause subacute, symmetric parkinsonian symptoms (often lacking tremor) that gradually improve after stopping the offending drug. **Vascular parkinsonism** (multiple small infarcts) presents with lower-body predominant bradykinetic gait and falls, with poor levodopa response. Rarely, other disorders (e.g., normal pressure hydrocephalus, Wilson disease) can mimic PD."
+  ],
+  "problem_solving": [
+    "First, confirm true parkinsonism (bradykinesia plus rest tremor and/or rigidity) and exclude secondary causes. Review medications (e.g., antipsychotics, antiemetics) that could induce parkinsonian symptoms; also look for signs of stroke or hydrocephalus that might suggest an alternate diagnosis.",
+    "A dramatic improvement in symptoms with a **levodopa** trial strongly supports idiopathic PD.",
+    "Assess for **atypical features** (\"red flags\" such as early falls, early autonomic impairment, symmetrical onset, gaze palsy, or rapid progression) that point to a Parkinson-plus syndrome rather than idiopathic PD.",
+    "Neuroimaging is not required in classic PD, but **brain MRI** should be considered if atypical features are present or diagnosis is uncertain (to exclude strokes, tumors, normal pressure hydrocephalus, etc.). A dopamine transporter scan (**DaT-SPECT**) can distinguish degenerative parkinsonism (abnormal scan) from benign tremor syndromes (normal scan).",
+    "In young-onset cases (<50 years), test for **Wilson disease** (e.g., ceruloplasmin) since it is a reversible cause of parkinsonism."
+  ],
+  "differentials": [
+    {
+      "id": "essential-tremor",
+      "hint": "action (postural) tremor of hands/head/voice, bilateral; no bradykinesia or rigidity; often improves with a small amount of alcohol"
+    },
+    {
+      "id": "normal-pressure-hydrocephalus",
+      "hint": "triad: gait instability, dementia, urinary incontinence; enlarged ventricles on imaging (wacky, wobbly, wet)"
+    },
+    {
+      "id": "dementia-with-lewy-bodies",
+      "name": "Dementia with Lewy bodies",
+      "hint": "early dementia and hallucinations (within 1 year of parkinsonian motor symptoms)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **TRAP** for PD's motor features – **Tremor** (resting, \"pill-rolling\"), **Rigidity** (cogwheel), **Akinesia** (bradykinesia), **Postural instability**.",
+    "Parkinson tremor vs essential tremor: PD classically has a **rest tremor** (at rest, improves with action) in one hand, whereas essential tremor is an **action tremor** (during posture or movement) typically affecting both hands and head, often improving transiently with alcohol.",
+    "**Lewy bodies** (intracellular eosinophilic inclusions of aggregated α-synuclein) are the pathologic hallmark of Parkinson disease."
+  ],
+  "exam_appearance": [
+    "An older man with a unilateral resting hand tremor, shuffling gait, stooped posture, and cogwheel rigidity that significantly improve with levodopa → **Idiopathic Parkinson disease**.",
+    "A patient with parkinsonian symptoms plus early frequent falls and inability to look down (vertical gaze palsy) → **Progressive supranuclear palsy** (an atypical Parkinsonism)."
+  ],
+  "treatment": [
+    "**Levodopa** (with carbidopa) is the most effective treatment for motor symptoms. In younger patients, **dopamine agonists** (pramipexole, ropinirole) or **MAO-B inhibitors** (selegiline, rasagiline) may be used first to delay levodopa; anticholinergics (trihexyphenidyl) can help tremor in young patients. Long-term levodopa use often leads to motor fluctuations (\"wearing off\") and dyskinesias.",
+    "Manage advanced PD: add **COMT inhibitors** (entacapone) to extend levodopa duration; consider **deep brain stimulation** (subthalamic nucleus or GPi) for medication-refractory tremor or severe on/off fluctuations. Encourage regular exercise and therapy (physical therapy for gait/balance, speech therapy for hypophonia). Treat non-motor symptoms: e.g., melatonin or clonazepam for REM sleep behavior disorder, or low-dose atypical antipsychotics (quetiapine) for hallucinations.",
+    "Atypical Parkinsonism generally responds poorly to PD medications, so management is largely supportive. For **MSA**, treat autonomic failure (midodrine or fludrocortisone for orthostatic hypotension, intermittent catheterization for bladder dysfunction). For **PSP/CBD**, provide fall precautions and symptomatic care (e.g., botulinum toxin for dystonia). **Drug-induced parkinsonism** usually reverses after stopping the culprit drug; short-term use of anticholinergics (e.g., benztropine) can help symptoms in the meantime."
+  ],
+  "red_flags": [
+    "Early **falls** (within first 1–2 years of symptoms), especially backward falls, or early **ocular motility** problems (difficulty looking up or down) → suggest PSP (atypical) rather than PD.",
+    "Early **autonomic dysfunction** – e.g., severe orthostatic hypotension, early urinary retention/incontinence – out of proportion to motor symptoms → think MSA (Shy-Drager syndrome).",
+    "**Symmetric** onset of parkinsonian symptoms, absence of tremor, and **poor response** to high-dose levodopa are red flags for atypical or secondary parkinsonism.",
+    "Early **dementia** or prominent **visual hallucinations** in a parkinsonian patient (especially if cognitive symptoms begin at the same time or within a year of motor onset) → suggests dementia with Lewy bodies rather than idiopathic PD."
+  ],
+  "algorithm": [
+    "Bradykinesia + rest tremor/rigidity present → diagnose parkinsonism.",
+    "Check for offending drugs (antipsychotics, metoclopramide, etc.) or other causes (stroke, hydrocephalus) → if found, address those causes first.",
+    "If idiopathic PD is likely (no red flags for atypical), initiate therapy based on age and symptom severity (e.g., older patients: carbidopa-levodopa; younger patients: consider dopamine agonist or MAO-B inhibitor).",
+    "If atypical features are present, evaluate for Parkinson-plus syndromes (PSP, MSA, etc.) and consider brain MRI to exclude structural lesions. A trial of levodopa can be done to gauge response (poor response suggests atypical).",
+    "Provide multidisciplinary care (neurologist, physical therapy, occupational therapy). Monitor for motor complications and adjust medications. In advanced PD, consider referral for DBS evaluation."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Histological_sample_of_Substantia_nigra_in_Parkinson%27s_disease.jpg",
+      "alt": "Histology of the substantia nigra showing a Lewy body (Parkinson disease).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Histological_sample_of_Substantia_nigra_in_Parkinson%27s_disease.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old man presents with a one-year history of tremor and slowness.",
+      "clues": [
+        "Resting \"pill-rolling\" tremor in the right hand",
+        "Bradykinesia (difficulty with buttoning shirt, shuffling gait)",
+        "Rigidity on exam (cogwheel rigidity in right arm)",
+        "No significant early falls or autonomic symptoms"
+      ],
+      "answer": "Idiopathic Parkinson disease",
+      "teaching": "Classic Parkinson disease due to progressive loss of substantia nigra dopaminergic neurons. Presents with an asymmetric resting tremor, bradykinesia, and rigidity; symptoms markedly improve with levodopa therapy."
+    }
+  ],
+  "see_also": [
+    "dementia",
+    "stroke",
+    "wilson-disease",
+    "tourette-syndrome"
+  ],
+  "prerequisites": [
+    "basal-ganglia",
+    "neurotransmission",
+    "movement-disorders"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Parkinson Disease (Zafar & Yaddanapudi, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470193/"
+    },
+    {
+      "title": "UpToDate: Diagnosis and differential diagnosis of Parkinson disease (2024)",
+      "url": "https://www.uptodate.com/contents/diagnosis-and-differential-diagnosis-of-parkinson-disease"
+    },
+    {
+      "title": "Medscape: Parkinson Disease (Hauser, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/1831191-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

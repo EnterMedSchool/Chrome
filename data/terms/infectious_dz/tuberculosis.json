@@ -1,0 +1,99 @@
+{
+  "id": "tuberculosis",
+  "names": ["Tuberculosis"],
+  "aliases": ["TB"],
+  "abbr": ["TB"],
+  "patterns": ["tb", "tuberculosis", "mycobacterium tuberculosis"],
+  "primary_tag": "infectious_dz",
+  "tags": ["pathology", "infectious_dz", "pulm", "micro_bacteria"],
+  "definition": "Contagious airborne infection by Mycobacterium tuberculosis that usually affects the lungs (pulmonary TB) but can involve other organs (extrapulmonary TB). Characterized by caseating granulomas and a potential for latent (dormant) infection.",
+  "why_it_matters": "TB is one of the world's leading infectious killers, especially in settings of poverty and HIV co-infection. Understanding TB is crucial due to its classic exam presentations (e.g. night sweats, weight loss, hemoptysis) and public health impact (airborne spread, need for isolation).",
+  "how_youll_see_it": [
+    "Transmitted via inhalation of respiratory droplets from an active pulmonary TB patient (requires close, prolonged contact). Risk factors: close quarters (prisons, shelters), endemic regions, and immunocompromise (especially HIV). After infection, 90% contain it as latent TB (no symptoms), but ~5% develop active disease within 2 years and another ~5% later.",
+    "Latent TB: asymptomatic and non-transmissible. Positive screening tests (TST or IGRA) indicate infection; chest X-ray is normal or shows only fibrocalcific nodules (old granulomas). Latent TB can reactivate if immunity wanes.",
+    "Active TB (pulmonary): chronic cough, often with hemoptysis, plus fevers, night sweats, and weight loss. Classic imaging shows cavitary lesions in upper lobes (reactivation TB). Patients are contagious and usually have abnormal chest X-rays (infiltrates, cavities).",
+    "Extrapulmonary TB: TB can affect almost any organ – e.g., lymph nodes (scrofula in the neck), spine (Pott disease with back pain and vertebral collapse), brain (TB meningitis with cranial nerve palsies), kidneys (renal TB causing sterile pyuria), or disseminated (miliary TB with innumerable tiny lung nodules). Extrapulmonary TB often presents with localized symptoms and requires biopsy for diagnosis."
+  ],
+  "problem_solving": [
+    "Screen for TB infection with TST (PPD skin test) or IGRA. An initial positive result indicates TB infection (latent or active). IGRA is preferred in BCG-vaccinated individuals. A positive screening test should prompt evaluation for active disease (symptoms and chest X-ray).",
+    "For suspected active TB, obtain a chest X-ray and collect at least three sputum samples for analysis. Sputum tests include AFB smears (acid-fast bacilli stain) and culture on special media (e.g. Lowenstein-Jensen); culture is the gold standard but can take weeks. Also perform nucleic acid amplification testing (NAAT) (e.g., GeneXpert MTB/RIF) on a sputum sample – this can confirm TB and detect rifampin resistance within hours.",
+    "Biopsy of involved tissue is often needed for extrapulmonary TB. Classic pathology shows caseating (necrotizing) granulomas with central cheese-like necrosis. AFB staining of biopsy tissue can confirm TB. Always differentiate TB granulomas from sarcoidosis (the latter has non-caseating granulomas).",
+    "Patients with active TB should be placed in airborne isolation to prevent spread. Always exclude active TB (via clinical evaluation and imaging) before treating someone for latent TB, to avoid undertreating an active infection."
+  ],
+  "differentials": [
+    { "name": "Lung cancer", "hint": "cough, weight loss, cavitation possible (esp. squamous cell) but usually in older smokers; often a solitary lung mass rather than diffuse lesions" },
+    { "name": "Bacterial pneumonia", "hint": "acute onset (days, not months) with high fever, productive cough, and lobar consolidation on CXR (vs. chronic course and cavitation in TB)" },
+    { "name": "Sarcoidosis", "hint": "non-infectious granulomas; typically younger adults, bilateral hilar adenopathy on CXR, non-caseating granulomas on biopsy, no mycobacteria" }
+  ],
+  "tricks": [
+    "Mnemonic: RIPE therapy for active TB and its side effects – Rifampin: Red-orange body fluids, liver toxicity, and drug interactions; Isoniazid: peripheral neuropathy (prevent with pyridoxine/B6) and hepatitis; Pyrazinamide: hyperuricemia (gout) and liver toxicity; Ethambutol: Eye toxicity (optic neuritis, red-green color blindness). Remember all RIPE drugs can cause hepatotoxicity.",
+    "TB's caseating granulomas result from strong cell-mediated immunity (TH1 response activating macrophages). The granulomas wall off bacteria but also allow latency. In contrast, sarcoidosis granulomas are non-caseating (no central necrosis).",
+    "BCG vaccine (for TB prevention in some countries) can cause a false-positive TST but does not affect IGRA results. Use IGRA in BCG-vaccinated patients to avoid confusion."
+  ],
+  "exam_appearance": [
+    "Immigrant or prison inmate with chronic cough, hemoptysis, weight loss, night sweats, and an apical cavitary lesion on chest X-ray → reactivation pulmonary TB.",
+    "Older patient from a TB-endemic region with chronic back pain and vertebral collapse (gibbus deformity) on imaging → Pott disease (tuberculous spondylitis of the spine)."
+  ],
+  "treatment": [
+    "Active TB (drug-susceptible): Start 4-drug RIPE therapy: 2 months of rifampin + isoniazid (+B6) + pyrazinamide + ethambutol (intensive phase), then 4 months of rifampin + isoniazid (continuation phase) for a total of 6 months. Duration is extended to 9–12 months for certain forms like TB meningitis or osteomyelitis. Directly observed therapy is recommended to ensure compliance.",
+    "Latent TB: Treat to prevent activation. Options include isoniazid for 9 months (with vitamin B6) or shorter regimens like INH + rifapentine weekly for 3 months (DOT regimen) or rifampin daily for 4 months. Choose regimen based on patient risk factors and medication tolerance."
+  ],
+  "red_flags": [
+    "Unexplained hemoptysis (coughing blood) with weight loss and risk factors (e.g. birth in endemic country, HIV) – always evaluate for TB and isolate the patient until ruled out.",
+    "Never treat active TB with a single drug or incomplete regimen – doing so breeds drug-resistant TB. Always use multi-drug therapy (e.g. RIPE) for active disease."
+  ],
+  "algorithm": [
+    "Suspect TB (chronic cough >2–3 weeks, night sweats, weight loss, risk factors) → place TST or IGRA and get a chest X-ray.",
+    "If either the TB test or imaging is suggestive of TB → obtain 3 sputum samples for AFB smear, culture, and NAAT (e.g. GeneXpert); initiate airborne isolation.",
+    "If sputum smear or NAAT is positive (or high clinical suspicion) → begin empiric RIPE therapy without waiting for culture. If all workup is negative for active TB but TB test is positive → treat as latent TB (once active disease is excluded).",
+    "Notify public health authorities for any confirmed TB case (to facilitate contact tracing and ensure adherence)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg",
+      "alt": "Chest X-ray showing fibrotic cavitary tuberculosis in the right upper lobe (cavitary lesion with fibrotic changes).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chest_plain_film._Fibrotic_cavitary_Tuberculosis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man from Southeast Asia with a history of untreated hepatitis B presents with a 3-month history of cough, weight loss, night sweats, and fever.",
+      "clues": ["Cough >3 weeks", "Hemoptysis", "Apical cavity on CXR", "Weight loss", "Night sweats"],
+      "answer": "Pulmonary tuberculosis (active TB disease)",
+      "teaching": "Classic reactivation TB in an adult: risk factors include region of origin and immunosuppression (chronic hepatitis in this case). Chronic symptoms with hemoptysis and an upper lobe cavity on X-ray point to TB. Diagnosis is confirmed with sputum AFB tests; treatment is with RIPE therapy."
+    }
+  ],
+  "see_also": [
+    "pneumonia",
+    "sarcoidosis",
+    "human-immunodeficiency-virus-infection"
+  ],
+  "prerequisites": [
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Tuberculosis Overview (Tobin & Tristram, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441916/"
+    },
+    {
+      "title": "CDC: About Active Tuberculosis Disease (2024)",
+      "url": "https://www.cdc.gov/tb/about/active-tuberculosis-disease.html"
+    },
+    {
+      "title": "UpToDate: Tuberculosis infection (latent TB) in adults – screening and diagnosis",
+      "url": "https://www.uptodate.com/contents/tuberculosis-infection-latent-tuberculosis-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

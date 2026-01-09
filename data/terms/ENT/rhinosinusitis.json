@@ -1,0 +1,114 @@
+{
+  "id": "rhinosinusitis",
+  "names": ["Rhinosinusitis"],
+  "aliases": ["Sinusitis", "Sinus infection"],
+  "abbr": ["ARS", "CRS"],
+  "patterns": ["rhinosinusitis", "rhino sinusitis", "sinusitis", "sinus infection"],
+  "primary_tag": "ENT",
+  "tags": ["ENT", "infectious_dz", "pathology", "pharmacology"],
+  "definition": "Inflammation of the nasal cavity and paranasal sinuses (\"sinus infection\"). Acute cases last <4 weeks (often viral URIs), whereas chronic cases last >12 weeks with ongoing inflammation. Acute bacterial rhinosinusitis is diagnosed when symptoms persist ≥10 days or recur/worsen after initial improvement (the \"double-worsening\" pattern).",
+  "why_it_matters": "Rhinosinusitis is extremely common (~30 million U.S. cases/year) and a top cause of outpatient antibiotic use. However, **90–98%** of sinusitis is viral, so distinguishing viral vs bacterial is crucial to avoid unnecessary antibiotics. Proper management can relieve symptoms and prevent rare but serious complications (orbital or intracranial infections).",
+  "how_youll_see_it": [
+    "Often follows a common cold with **nasal congestion**, mucopurulent nasal discharge, and **facial pain/pressure** (especially when bending forward). May also cause reduced smell (hyposmia) and cough from post-nasal drip.",
+    "Acute rhinosinusitis usually lasts a few days to <2 weeks and is **viral** in most cases (symptoms peak at 3–6 days and then improve). Only ~0.5–2% of cases become **bacterial** (acute bacterial rhinosinusitis, ABRS).",
+    "Suspect ABRS if symptoms **persist >10 days** without improvement, or if a **biphasic** course occurs (\"double-sickening\" – gets better, then worse with new fever, discharge). Also, very severe symptoms (high fever ≥39 °C and intense facial pain + purulent discharge for ≥3–4 days) suggest bacterial cause.",
+    "Chronic rhinosinusitis (>12 weeks) causes more subtle, ongoing symptoms: **nasal obstruction**, chronic congestion, **post-nasal drip**, diminished smell, and often **nasal polyps** (especially if allergic). Chronic cases usually lack high fever and are often associated with allergies or other inflammatory conditions rather than acute infection."
+  ],
+  "problem_solving": [
+    "**Confirm viral vs bacterial:** Viral sinusitis typically improves by ~1 week; persistent ≥10 days or a \"double worsening\" pattern should raise suspicion for bacterial infection.",
+    "Initial management for presumed viral sinusitis is **supportive care**: nasal saline irrigation, decongestants (short-term), warm compresses, NSAIDs/acetaminophen for pain, and intranasal corticosteroids (especially if an allergic component). Antibiotics are not needed for mild cases that are likely viral.",
+    "If **acute bacterial rhinosinusitis** is likely or symptoms are severe, consider either **watchful waiting** for 2–3 more days with close follow-up or start appropriate antibiotics. **Amoxicillin ± clavulanate** is first-line in most adults. Avoid macrolides (high pneumococcal resistance); use doxycycline or a respiratory fluoroquinolone if penicillin-allergic.",
+    "For **chronic or recurrent** sinusitis, evaluate for underlying factors: e.g. **allergies** (might need allergy testing), **nasal polyps**, **deviated septum**, **immunodeficiency** or **ciliary dyskinesia**. Obtain a sinus CT scan and/or endoscopic exam to confirm chronic changes and guide treatment.",
+    "In chronic rhinosinusitis, emphasize long-term therapy: **intranasal corticosteroids** (8–12 week trials) and regular saline irrigations to reduce inflammation. A prolonged course of antibiotics (2–3 weeks) may be used if a bacterial infection is documented, but routine antibiotic use in chronic sinusitis is controversial. Refer to an otolaryngologist for patients not improving; **endoscopic sinus surgery** can be performed to drain sinuses and remove obstruction (e.g. polyps) if medical therapy fails."
+  ],
+  "differentials": [
+    { "id": "allergic-rhinitis", "hint": "Allergy (hay fever): nasal congestion, sneezing, and clear, watery discharge; often seasonal or with known triggers, no fever" },
+    { "name": "Dental abscess", "hint": "Tooth infection (especially upper molars) can refer pain to the maxillary sinus region; look for dental pain focused in one tooth or gum swelling" },
+    { "id": "migraine", "hint": "Migraine headache can cause facial pain and headache that mimics sinus pressure, but usually with throbbing pain, possible aura, photophobia, and no significant nasal discharge" }
+  ],
+  "tricks": [
+    "Use the **\"10-day rule\"**: if a sinusitis hasn't improved in ~10 days, think about bacterial infection needing antibiotics.",
+    "**Green or yellow snot ≠ always bacterial** – viral infections can also cause purulent mucus, so color alone isn't a reliable indicator.",
+    "Sinus pressure pain often **worsens when bending forward** or lying down due to shifts in sinus fluid pressure.",
+    "Chronic sinusitis + **nasal polyps** + asthma + NSAID sensitivity = think **Samter's triad** (aspirin-exacerbated respiratory disease)."
+  ],
+  "exam_appearance": [
+    "Cold that \"won't go away\": Adult with >10 days of nasal congestion, thick purulent discharge, facial pain (especially bending forward) and maxillary toothache → **acute bacterial sinusitis** (needs appropriate antibiotics).",
+    "Child with a recent sinus infection now has eyelid swelling, redness, and pain with eye movement → **orbital cellulitis** (sinusitis complication spreading to the orbit).",
+    "Middle-aged asthmatic with chronic sinus congestion and nasal polyps who develops bronchospasm after aspirin → **aspirin-exacerbated respiratory disease** (Samter's triad linking nasal polyposis, asthma, and aspirin sensitivity)."
+  ],
+  "treatment": [
+    "For **viral sinusitis** (the majority of cases): focus on symptomatic relief. Advise **nasal saline irrigation**, steam inhalation, and consider intranasal **glucocorticoid sprays** to reduce inflammation. Short-term oral or topical decongestants can help congestion (avoid prolonged use of nasal decongestant sprays to prevent rebound). Analgesics (NSAIDs, acetaminophen) help headaches and facial pain.",
+    "For **acute bacterial rhinosinusitis**: first-line antibiotic is **amoxicillin** (high-dose if risk factors) or **amoxicillin-clavulanate** for 5–10 days. If penicillin-allergic, use **doxycycline**; if severe allergy or second-line needed, a respiratory fluoroquinolone (e.g. levofloxacin) is an option. In uncomplicated cases, guidelines often recommend a period of watchful waiting with close follow-up; start antibiotics if no improvement after 7 days or if symptoms worsen.",
+    "Adjunct therapies: **intranasal corticosteroids** can be helpful, especially if there's an allergic component or significant inflammation. They are recommended in both viral and bacterial sinusitis to reduce swelling. **Antihistamines** are not routinely recommended for acute sinusitis unless allergies are present (they can thicken mucus).",
+    "Avoid inappropriate medications: Macrolide antibiotics (like azithromycin) are **not recommended** for sinusitis due to high resistance rates. Also avoid systemic steroids in acute uncomplicated sinusitis (risks outweigh benefits, unless severe inflammation in chronic cases or polyps).",
+    "For **chronic rhinosinusitis**, treatment is more prolonged: daily **intranasal steroids** and saline irrigation for at least 3 months to improve symptoms. If a bacterial infection is confirmed in chronic sinusitis, a longer course of antibiotics (often 3-4 weeks, culture-guided if possible) may be used. Refractory cases should be referred for **functional endoscopic sinus surgery (FESS)** to restore sinus drainage."
+  ],
+  "red_flags": [
+    "**Orbital signs:** Periorbital edema, erythema, or **eye pain with movement** and **double vision** indicate possible spread to the orbit (orbital cellulitis or abscess). This is an emergency that can threaten vision—requires prompt imaging and IV antibiotics.",
+    "**Intracranial signs:** Severe headache, **high fever**, neck stiffness, vomiting, altered mental status, or focal neurologic deficits (e.g. diplopia from cranial nerve VI palsy) raise concern for spread to the CNS, like **cavernous sinus thrombosis** or meningitis. These complications are rare but life-threatening—urgent evaluation (CT/MRI) and intervention are needed.",
+    "**Frontal bone swelling** (\"Pott's puffy tumor\") in a teenager with frontal sinusitis indicates osteomyelitis of the frontal bone with a subperiosteal abscess – a rare but serious complication requiring surgical drainage."
+  ],
+  "algorithm": [
+    "Patient with congestion, nasal discharge, facial pressure → suspect **acute rhinosinusitis** (usually following a viral URI).",
+    "If symptoms <10 days and not severe → manage conservatively (likely viral). **No immediate antibiotics**; advise saline nasal irrigation, decongestants, and observe.",
+    "If symptoms ≥10 days with no improvement, or if they improve then worsen, or any severe features (high fever, intense pain) → suspect **bacterial** sinusitis. Consider starting antibiotics (first-line amoxicillin-clavulanate) or ensure close follow-up if deferring antibiotics initially.",
+    "If **red flag** signs (eye swelling, severe headache, neurologic changes) → obtain prompt imaging (CT scan) and involve specialists (ENT, ophthalmology or neurosurgery) as needed for potential complications.",
+    "For **chronic sinusitis** (>12 weeks or frequent recurrences): get sinus CT and refer to ENT. Implement long-term topical therapy (steroids, saline washes), address underlying causes (allergies, polyps), and consider surgical intervention if medical management fails."
+  ],
+  "cases": [
+    {
+      "stem": "A 45-year-old man has had \"cold\" symptoms for 2 weeks with no improvement. He reports purulent yellow nasal discharge, nasal congestion, and a dull ache in his cheeks and upper teeth.",
+      "clues": ["Duration >10 days with no improvement", "Purulent nasal discharge", "Maxillary toothache (dental pain)", "Tenderness over maxillary sinuses"],
+      "answer": "Acute bacterial rhinosinusitis (maxillary sinusitis)",
+      "teaching": "Symptoms persisting beyond 10 days suggest a bacterial sinus infection rather than a viral cold. Maxillary sinusitis often causes dental pain. This scenario warrants treatment with an appropriate antibiotic (e.g. amoxicillin-clavulanate) to help clear the infection and prevent complications."
+    },
+    {
+      "stem": "An 8-year-old boy with a recent ethmoid sinus infection develops swelling and redness of his left eyelids, fever, and pain when trying to look around.",
+      "clues": ["Ethmoid sinusitis recently", "Eyelid swelling and erythema", "Pain with extraocular movements", "Fever"],
+      "answer": "Orbital cellulitis (sinusitis complication)",
+      "teaching": "The ethmoid sinuses are separated from the orbit by a thin bone, so infections can spread to the eye socket. Periorbital swelling, erythema, and pain with eye movement indicate orbital cellulitis. This is a medical emergency requiring prompt imaging and IV antibiotics (and possibly surgical drainage) to prevent vision loss or intracranial spread."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Sinuses_and_Sinusitis_(5937085231).jpg",
+      "alt": "Diagram and CT scans comparing normal vs inflamed sinuses in sinusitis",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Sinuses_and_Sinusitis_(5937085231).jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["allergic-rhinitis", "asthma", "nasopharyngeal-carcinoma"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Acute Sinusitis (Kwon & Hathaway, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547701/"
+    },
+    {
+      "title": "CDC: Sinus Infection (Sinusitis) – CDC Sinusitis Factsheet (2024)",
+      "url": "https://www.cdc.gov/sinus-infection/about/index.html"
+    },
+    {
+      "title": "UpToDate: Uncomplicated acute sinusitis and rhinosinusitis in adults – Treatment",
+      "url": "https://www.uptodate.com/contents/uncomplicated-acute-sinusitis-and-rhinosinusitis-in-adults-treatment"
+    },
+    {
+      "title": "IDSA Clinical Practice Guideline for Acute Bacterial Rhinosinusitis (Chow et al., 2012)",
+      "url": "https://academic.oup.com/cid/article/54/8/e72/455098"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

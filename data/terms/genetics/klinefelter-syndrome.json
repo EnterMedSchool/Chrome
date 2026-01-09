@@ -1,0 +1,142 @@
+{
+  "id": "klinefelter-syndrome",
+  "names": [
+    "Klinefelter syndrome"
+  ],
+  "aliases": [
+    "Klinefelter's syndrome",
+    "XXY syndrome"
+  ],
+  "abbr": [
+    "KS"
+  ],
+  "patterns": [
+    "klinefelter",
+    "klinefelter's syndrome",
+    "XXY syndrome",
+    "47 XXY",
+    "47,XXY"
+  ],
+  "primary_tag": "genetics",
+  "tags": [
+    "pathology",
+    "genetics",
+    "endocrine",
+    "peds",
+    "repro"
+  ],
+  "definition": "Genetic condition in which a phenotypic male has an extra X chromosome (47,XXY), leading to **primary testicular failure** (hypergonadotropic hypogonadism) with small firm testes, infertility, tall stature, and often gynecomastia.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Human_karyotype_(259_31)_Karyotype_Human_47,XXY_(Klinefelter_syndrome).jpg",
+      "alt": "Karyotype showing an extra X chromosome (47,XXY) in Klinefelter syndrome.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Human_karyotype_(259_31)_Karyotype_Human_47,XXY_(Klinefelter_syndrome).jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Most common sex chromosome disorder in males (≈1 in 500–600 male births) and a leading cause of male hypogonadism & infertility. Often underdiagnosed, but early recognition enables timely testosterone therapy and support (educational, psychosocial) to improve outcomes. Frequently tested on exams due to its characteristic presentation (e.g. tall male with small testes & gynecomastia).",
+  "how_youll_see_it": [
+    "In childhood, physical appearance is usually normal (maybe taller than peers); some boys have mild learning or language delays and shyness, so Klinefelter often isn't recognized early.",
+    "",
+    "During adolescence, **delayed or incomplete puberty** becomes evident: the teen may have sparse facial/body hair, a relatively high-pitched voice, and develop **gynecomastia**. Testes remain **small and firm**, and overall body proportions are lanky (long arms and legs).",
+    "In adults, many cases present during an **infertility** evaluation (azoospermia on semen analysis) or for sexual symptoms of low testosterone (low libido, erectile dysfunction). Patients tend to be tall with a somewhat slim build and less muscle bulk; they often report lifelong difficulty building muscle or facial hair."
+  ],
+  "problem_solving": [
+    "**Karyotype analysis** is the definitive diagnostic test for Klinefelter syndrome – a 47,XXY result confirms the diagnosis.",
+    "**Hormonal profile:** Expect **↑FSH and ↑LH with low testosterone** (consistent with primary hypogonadism). This contrasts with delayed puberty from central causes (which show low/normal FSH/LH).",
+    "Keep a high index of suspicion in males with **gynecomastia**, **puberty delay**, or **infertility** – many Klinefelter patients are first identified during an infertility workup.",
+    "If Klinefelter is confirmed, evaluate for associated issues: e.g., assess bone density (osteoporosis risk from long-standing hypogonadism) and offer counseling regarding infertility."
+  ],
+  "differentials": [
+    {
+      "name": "Complete androgen insensitivity syndrome",
+      "hint": "46,XY karyotype but **female external phenotype** (undescended testes, no uterus) due to androgen receptor defect"
+    },
+    {
+      "id": "turner-syndrome",
+      "hint": "45,X female with short stature and streak ovaries (primary ovarian failure); contrasts with KS (47,XXY male who is tall, with testicular failure)"
+    },
+    {
+      "name": "Hypogonadotropic hypogonadism (e.g., Kallmann syndrome)",
+      "hint": "**Central** GnRH deficiency causing delayed puberty (low FSH/LH, anosmia in Kallmann); testes may be small but not fibrotic"
+    },
+    {
+      "name": "Constitutional delay of puberty",
+      "hint": "A **late bloomer** with temporarily delayed puberty but normal hormone levels and normal eventual fertility"
+    }
+  ],
+  "tricks": [
+    "Males with Klinefelter syndrome have a **Barr body** (inactive X chromosome) in their cells – something normally seen only in females.",
+    "**Klein** means \"small\" in German – a handy way to recall that Klinefelter patients have characteristically small, firm testes."
+  ],
+  "exam_appearance": [
+    "Tall, lanky 17‑year‑old boy with **minimal facial hair**, **gynecomastia**, and **small firm testes** → Klinefelter syndrome (47,XXY).",
+    "30‑year‑old man evaluated for **infertility** with azoospermia, **elevated FSH/LH**, and testicular atrophy → Klinefelter syndrome."
+  ],
+  "treatment": [
+    "**Testosterone replacement:** Initiate around the time of puberty (or at diagnosis) and continue lifelong. This promotes development of male secondary sexual characteristics (improved muscle mass, deepened voice, body hair), supports bone density, and improves mood/energy. (Note: exogenous testosterone does not restore fertility.)",
+    "**Fertility options:** Most men with KS are azoospermic, but referral to a fertility specialist is worthwhile – techniques like microsurgical testicular sperm extraction with IVF can enable some patients to father children. Otherwise, discuss use of donor sperm or adoption early on to help set expectations.",
+    "Address other aspects: for significant **gynecomastia**, surgical reduction can be considered (both for comfort and to reduce breast cancer risk). Provide appropriate speech/learning support and counseling for psychosocial difficulties – a multidisciplinary approach helps maximize quality of life."
+  ],
+  "red_flags": [
+    "**Male breast cancer** risk is elevated in Klinefelter syndrome (due to the higher estrogen-to-androgen ratio) – any breast mass or abnormal nipple finding warrants prompt evaluation.",
+    "**Infertility** can be a source of distress – nearly all KS patients are infertile without assisted reproduction, so offer counseling and support early (and involve fertility specialists).",
+    "**Psychosocial issues:** Increased likelihood of learning disabilities, developmental delay, and depression; ensure patients receive appropriate educational support and mental health care."
+  ],
+  "algorithm": [
+    "Suspect KS in a **tall male** with small testes, pubertal delay, or gynecomastia → order karyotype (chromosomal analysis).",
+    "If **47,XXY karyotype confirmed**, explain the diagnosis and assess baseline labs (testosterone, FSH/LH, bone density, etc.).",
+    "Begin **testosterone therapy** at puberty onset (or upon diagnosis) to induce and maintain virilization and bone health; monitor hormone levels and adjust dose.",
+    "Discuss **fertility planning**: refer early for reproductive endocrinology evaluation (possible sperm retrieval for IVF), and ensure psychosocial support (counseling, support groups) is in place."
+  ],
+  "cases": [
+    {
+      "stem": "A 17‑year‑old boy is evaluated for delayed puberty.",
+      "clues": [
+        "Tall stature (long limbs)",
+        "Sparse facial hair",
+        "Gynecomastia",
+        "Small, firm testes",
+        "↑FSH/↑LH, ↓testosterone"
+      ],
+      "answer": "Klinefelter syndrome (47,XXY)",
+      "teaching": "An extra X chromosome causes primary testicular failure (fibrosis of seminiferous tubules and low testosterone). The resulting hypergonadotropic hypogonadism leads to a tall eunuchoid build, lack of virilization, small testes, and breast development. Early testosterone therapy is indicated to promote secondary sexual characteristics, but fertility will require assisted reproductive technologies."
+    }
+  ],
+  "see_also": [
+    "turner-syndrome",
+    "down-syndrome"
+  ],
+  "prerequisites": [
+    "meiosis",
+    "puberty"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Klinefelter Syndrome (Los & Leslie, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482314/"
+    },
+    {
+      "title": "UpToDate: Clinical features, diagnosis, and management of Klinefelter syndrome",
+      "url": "https://www.uptodate.com/contents/clinical-features-diagnosis-and-management-of-klinefelter-syndrome"
+    },
+    {
+      "title": "Klinefelter Syndrome (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/945649-overview"
+    },
+    {
+      "title": "NEJM Journal Watch: Klinefelter syndrome revisited (2008)",
+      "url": "https://www.jwatch.org/pa200805210000005/2008/05/21/klinefelter-syndrome-revisited"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "duchenne-muscular-dystrophy",
+  "names": ["Duchenne muscular dystrophy"],
+  "aliases": ["DMD", "dystrophinopathy", "pseudohypertrophic muscular dystrophy"],
+  "abbr": ["DMD"],
+  "patterns": ["duchenne", "duchenne's muscular dystrophy", "dmd", "duchenne muscular dystrophy"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "genetics"],
+  "definition": "X-linked recessive **dystrophin** gene mutation causing absent dystrophin protein and progressive muscle fiber degeneration.",
+  "why_it_matters": "Most common fatal **childhood** muscular dystrophy; boys develop early weakness and lose ambulation by adolescence. Complications (cardiomyopathy, respiratory failure) lead to death in early adulthood.",
+  "how_youll_see_it": [
+    "**Toddler/young boy** with delayed motor milestones (late walking) and **proximal** muscle weakness (trouble climbing, frequent falls).",
+    "Waddling gait, **lumbar lordosis**, and **Gowers sign** (using hands to \"climb\" up legs when standing) by age 3–6.",
+    "Calf **pseudohypertrophy** (enlarged calves from fat/connective tissue) appears a bit later. Eventual wheelchair dependence by ~age 12."
+  ],
+  "problem_solving": [
+    "If you suspect DMD, check **CK** level – it will be massively elevated (often >10× normal).",
+    "Confirm diagnosis with genetic testing for **DMD gene** deletions/variants (e.g., multiplex PCR or MLPA). Muscle biopsy (immunostaining or Western blot) shows **absent dystrophin** if genetic testing is inconclusive.",
+    "Assess cardiac and respiratory status at baseline (echocardiogram, pulmonary function tests), and offer genetic counseling (mother & female relatives may be carriers)."
+  ],
+  "differentials": [
+    { "name": "Becker muscular dystrophy", "hint": "later onset (teens or adulthood), **partial** dystrophin (in-frame mutations) → milder course" },
+    { "name": "Spinal muscular atrophy", "hint": "infantile or childhood onset, proximal weakness from **anterior horn** cell degeneration (LMN signs, fasciculations); normal dystrophin gene" },
+    { "name": "Cerebral palsy", "hint": "non-progressive, early motor delay due to brain injury (often spasticity & hyperreflexia, normal CK)" }
+  ],
+  "tricks": [
+    "Mnemonic: **Duchenne = Deleted Dystrophin** (frameshift or nonsense mutation → no protein); **Becker = Bad but not absent** (some protein, hence milder).",
+    "**Gowers sign** tip: child uses arms to climb up their body due to weak legs.",
+    "DMD gene is the **largest** human gene (~2.2 Mb) → high mutation rate (≈1/3 cases from new mutations).",
+    "Avoid **succinylcholine** in DMD patients (risk of life-threatening rhabdo or malignant hyperthermia-like reaction under anesthesia)."
+  ],
+  "exam_appearance": [
+    "A 4‑year‑old boy with delayed walking, frequent falls, and using his hands to push on his legs to stand (positive Gowers sign); exam shows calf enlargement → **Duchenne muscular dystrophy**.",
+    "Teen male with history of Duchenne MD now presents with chest pain and dyspnea; EKG shows arrhythmia, echo shows dilated cardiomyopathy → **DMD-associated cardiomyopathy** (common in late-stage DMD)."
+  ],
+  "treatment": [
+    "**Glucocorticoids** (e.g., prednisone or deflazacort) are the mainstay – they slow muscle degeneration and prolong ambulation.",
+    "**Exon skipping** therapies (e.g., antisense oligonucleotides like eteplirsen) can allow production of partial dystrophin for certain mutations.",
+    "Supportive care: **Physical therapy** and bracing to improve mobility and prevent contractures; **pulmonary support** (e.g., nighttime ventilation) as respiratory muscles weaken; **cardiac management** (ACE inhibitors, beta-blockers) to delay heart failure.",
+    "New prospects: experimental **gene therapies** (micro-dystrophin viral vectors) are under investigation."
+  ],
+  "red_flags": [
+    "Signs of **nighttime hypoventilation** (morning headaches, daytime sleepiness) in a DMD patient → initiate noninvasive ventilation (BiPAP) to prevent respiratory failure.",
+    "**Acute heart failure** or arrhythmia in a DMD patient → evaluate and treat for dilated cardiomyopathy (a common late complication)."
+  ],
+  "algorithm": [
+    "Young boy with motor delay or proximal weakness → check **serum CK** (markedly elevated in DMD).",
+    "If CK is high → perform **genetic test** for DMD gene mutation to confirm Duchenne MD.",
+    "Consider **muscle biopsy** if genetic testing is negative or unavailable (dystrophin immunostaining).",
+    "After diagnosis: start **steroids** if appropriate, monitor heart (echos) & lungs (PFTs) regularly, and provide family **genetic counseling**."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Gowers%27s_sign.png",
+      "alt": "Sequence of a child using hands on legs to stand (positive Gowers sign in Duchenne MD).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gowers%27s_sign.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy is brought in for frequent falls and difficulty standing up from the floor.",
+      "clues": [
+        "Delayed walking (started at 18 months)",
+        "Uses hands on knees to rise (Gowers maneuver)",
+        "Enlarged calf muscles on exam",
+        "Creatine kinase is 15,000 (very high)"
+      ],
+      "answer": "Duchenne muscular dystrophy",
+      "teaching": "Classic presentation of DMD: X‑linked loss of dystrophin causing early childhood muscle weakness. Gowers sign (using arms to stand) and calf pseudohypertrophy are telltale; extremely high CK is typical."
+    },
+    {
+      "stem": "A 17‑year‑old with Duchenne muscular dystrophy presents with worsening shortness of breath and leg swelling.",
+      "clues": [
+        "Wheelchair-bound since age 12",
+        "Bibasilar crackles and elevated JVP",
+        "Echo: dilated left ventricle, EF 25%",
+        "Cardiac MRI: diffuse fibrosis"
+      ],
+      "answer": "DMD-associated dilated cardiomyopathy",
+      "teaching": "Duchenne MD affects cardiac muscle too. By the late teens or early adulthood, most DMD patients develop dilated cardiomyopathy and heart failure. Management includes ACE inhibitors, beta blockers, and advanced heart failure therapies."
+    }
+  ],
+  "see_also": ["spinal-muscular-atrophy", "myotonic-dystrophy", "cerebral-palsy"],
+  "prerequisites": ["neuromuscular-junction", "x-linked-inheritance", "muscle-histology"],
+  "sources": [
+    {
+      "title": "StatPearls: Duchenne Muscular Dystrophy (Venugopal & Pavlakis, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482346/"
+    },
+    {
+      "title": "GeneReviews: Dystrophinopathies (Darras et al., 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1119/"
+    },
+    {
+      "title": "Medscape: Dystrophinopathies (Nair, 2024)",
+      "url": "https://emedicine.medscape.com/article/1173204-overview"
+    },
+    {
+      "title": "UpToDate: Duchenne and Becker muscular dystrophy (Hegde & Kunkel, 2023)",
+      "url": "https://www.uptodate.com/contents/duchenne-and-becker-muscular-dystrophy-clinical-features-and-diagnosis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

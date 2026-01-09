@@ -1,0 +1,82 @@
+{
+  "id": "neuroblastoma",
+  "names": ["Neuroblastoma"],
+  "aliases": [],
+  "abbr": ["NB"],
+  "patterns": ["neuroblastoma", "neuroblastomas", "neuro-blastoma", "nb"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "heme_onc", "genetics"],
+  "definition": "Embryonal tumor of the sympathetic nervous system (neural crest origin), usually arising in the adrenal medulla or paraspinal ganglia; most common extracranial solid tumor of childhood.",
+  "why_it_matters": "Often lethal if high-risk (~15% of childhood cancer deaths) yet some low-risk tumors spontaneously regress. Unique features (catecholamine secretion, paraneoplastic syndromes) and classic comparisons (e.g., vs Wilms tumor) make it a high-yield pediatric malignancy.",
+  "how_youll_see_it": [
+    "Infant or toddler with a firm, irregular abdominal mass (often adrenal) that can cross the midline; may have weight loss, irritability.",
+    "Frequently metastatic at presentation: bone pain or limp (bone metastases), periorbital ecchymoses (\"raccoon eyes\" from orbital mets), or bluish subcutaneous nodules (\"blueberry muffin\" skin mets).",
+    "Paraneoplastic syndromes: **opsoclonus-myoclonus** (\"dancing eyes, dancing feet\" jerky eye movements and ataxia) or intractable diarrhea (from VIP secretion).",
+    "Thoracic or cervical tumor involvement: **Horner syndrome** (ptosis, miosis) if sympathetic chain is affected; paraspinal masses can extend into spinal canal and cause cord compression (weakness, paralysis)."
+  ],
+  "problem_solving": [
+    "Obtain urinary catecholamine metabolites (**VMA, HVA**) in any young child with an unexplained abdominal mass (elevated in >90% of neuroblastomas).",
+    "Differentiate **neuroblastoma vs Wilms tumor**: neuroblastoma usually in infants (<2 yr) with an adrenal mass that often crosses midline and causes systemic symptoms (↑catecholamines); Wilms typically in slightly older children (~3–4 yr) with a unilateral kidney mass, often asymptomatic (±hematuria or HTN).",
+    "Once diagnosed, complete staging with imaging (**MRI/CT** and **m**IBG scan) and bone marrow biopsies; risk stratification is based on **age**, **stage**, and tumor biology (**N-MYC** amplification, ploidy, histology)."
+  ],
+  "differentials": [
+    { "id": "wilms-tumor", "name": "Wilms tumor", "hint": "kidney (nephroblastoma) tumor at age ~3–4; smooth unilateral flank mass (does not cross midline), often hematuria or hypertension" },
+    { "id": "burkitt-lymphoma", "name": "Burkitt lymphoma", "hint": "abdominal tumor in older child; very rapid growth (high LDH), often ileocecal, associated with tumor lysis syndrome" },
+    { "id": "pheochromocytoma", "hint": "catecholamine-producing adrenal medulla tumor (episodic hypertension, tachycardia) but extremely rare in young children" }
+  ],
+  "tricks": [
+    "Think **VMA/HVA** for **N**euro**B**lastoma – urine catecholamine metabolites are elevated in most cases.",
+    "**Opsoclonus-myoclonus** (dancing eyes and feet) in a young child is a classic clue to neuroblastoma (paraneoplastic).",
+    "Unique **Stage 4S**: in infants <1 yr, metastatic neuroblastoma (limited to skin, liver, marrow) can **spontaneously regress** with minimal therapy."
+  ],
+  "exam_appearance": [
+    "Infant with a firm abdominal mass crossing midline, weight loss, and elevated urine VMA → **Neuroblastoma**.",
+    "15‑month‑old with rapid eye movements (opsoclonus), myoclonic jerks, and an abdominal tumor → **Neuroblastoma** (opsoclonus-myoclonus syndrome).",
+    "Child with periorbital ecchymoses (raccoon eyes), bone pain, and an adrenal mass → metastatic **Neuroblastoma**."
+  ],
+  "treatment": [
+    "Low-risk: **surgery** alone (or observation for small infant tumors) often suffices (excellent prognosis).",
+    "Intermediate-risk: **chemotherapy** (few cycles) plus surgical resection (≥90% survival).",
+    "High-risk: intensive multimodal therapy – induction **chemotherapy**, then surgical resection, followed by high-dose chemo with **autologous stem-cell transplant**, plus **immunotherapy** (anti-GD2 monoclonal antibodies) and differentiation therapy with **retinoic acid**."
+  ],
+  "red_flags": [
+    "Back pain, lower extremity weakness, or bowel/bladder dysfunction in a child with neuroblastoma → suspect **spinal cord compression** (give corticosteroids immediately and urgent neurosurgical evaluation).",
+    "Refractory **hypertension** or tachyarrhythmia in a neuroblastoma patient (rare catecholamine surge) may signal a catecholamine crisis – manage with appropriate alpha/beta blockade (as in pheochromocytoma)."
+  ],
+  "algorithm": [
+    "Suspected neuroblastoma (infant with abdominal mass) → initial workup: abdominal ultrasound and urine VMA/HVA levels.",
+    "If imaging and labs suggest neuroblastoma → obtain tumor **biopsy** for confirmation (small round blue cells on histology; send for N-MYC testing).",
+    "After diagnosis → **stage** with cross-sectional imaging (plus mIBG scan for mets) and bilateral bone marrow biopsy.",
+    "Risk-stratify (age, stage, biology) and treat: **low-risk** = observe or surgical resection; **high-risk** = multi-agent chemo → surgery → stem-cell transplant + immunotherapy."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/HE_Neuroblastoma_Homer-Wright_rosettes.jpg",
+      "alt": "Neuroblastoma histology with Homer‑Wright rosettes (H&E stain).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:HE_Neuroblastoma_Homer-Wright_rosettes.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["wilms-tumor", "non-hodgkin-lymphoma"],
+  "prerequisites": [],
+  "sources": [
+    { "title": "StatPearls: Neuroblastoma (Mahapatra & Challagundla, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK448111/" },
+    { "title": "UpToDate: Clinical presentation, diagnosis, and staging evaluation of neuroblastoma", "url": "https://www.uptodate.com/contents/clinical-presentation-diagnosis-and-staging-evaluation-of-neuroblastoma" },
+    { "title": "UpToDate: Treatment and prognosis of neuroblastoma", "url": "https://www.uptodate.com/contents/treatment-and-prognosis-of-neuroblastoma" },
+    { "title": "Medscape: Neuroblastoma – Practice Essentials (Joyner, 2024)", "url": "https://emedicine.medscape.com/article/439263-overview" },
+    { "title": "NCI PDQ: Neuroblastoma Treatment – Health Professional (2023)", "url": "https://www.cancer.gov/types/neuroblastoma/hp/neuroblastoma-treatment-pdq" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

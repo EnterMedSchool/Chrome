@@ -1,0 +1,119 @@
+{
+  "id": "acne",
+  "names": ["Acne vulgaris"],
+  "aliases": ["acne", "pimples", "zits", "common acne", "cystic acne"],
+  "abbr": [],
+  "patterns": ["acne", "acne vulgaris", "pimple", "pimples", "zits", "neonatal acne", "infantile acne", "acne conglobata", "acne fulminans", "cystic acne"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "pharmacology"],
+  "definition": "Common chronic inflammatory disease of pilosebaceous units (hair follicles and oil glands) characterized by comedones (clogged pores), papules/pustules, and nodules/cysts.",
+  "why_it_matters": "Extremely common (affects ~85% of adolescents) and can cause permanent scars and significant psychosocial impact (low self-esteem, depression). Severe acne may lead to disfigurement and emotional distress, so early treatment can improve long-term skin health and quality of life.",
+  "how_youll_see_it": [
+    "Adolescent acne: Teenagers with oily skin and lesions on face, chest, back – mix of open and closed comedones (blackheads/whiteheads) and inflamed papules/pustules. Severity ranges from a few pimples to widespread nodulocystic acne with scarring.",
+    "Adult female acne: Women in their 20s–30s often with inflammatory acne on the chin/jawline, flaring premenstrually. May signal underlying hyperandrogenism if accompanied by hirsutism or menstrual irregularities (e.g., PCOS).",
+    "Neonatal acne: Newborns (under ~6 weeks) with transient facial papules/pustules from maternal hormones or Malassezia; usually mild and self-limited.",
+    "Infantile acne: Infants 6 weeks–12 months old with true acne (comedones, papules, even nodules). Typically mild-moderate and resolves within months, but can occasionally scar or herald more severe acne in adolescence.",
+    "Severe variants: Rare fulminant forms like acne conglobata (chronic nodules, abscesses, sinus tracts, scarring, often in males) and acne fulminans (acute onset of ulcerative acne with fever and joint pain)."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis by the presence of comedones (blackheads/whiteheads); if comedones are absent, consider other diagnoses (e.g., rosacea or perioral dermatitis).",
+    "Assess contributing factors: review medications (e.g., corticosteroids, lithium can cause acneiform eruptions) and check for external factors (occlusive clothing or cosmetics). Address any modifiable triggers.",
+    "Evaluate for signs of endocrine issues if acne is atypical (especially if onset before age 7 or accompanied by virilization signs like precocious pubic hair, clitoromegaly, etc.) – rule out precocious puberty or androgen-secreting tumors.",
+    "Classify severity: mild (mainly comedones, few inflam lesions), moderate (numerous papules/pustules), severe (nodules/cysts, scarring). Severity guides therapy choice."
+  ],
+  "differentials": [
+    { "id": "rosacea", "hint": "usually adults; erythema and telangiectasias on face, but no comedones" },
+    { "name": "Keratosis pilaris", "hint": "rough tiny follicular keratin plugs on arms/thighs; cosmetic, not inflammatory like acne" },
+    { "id": "perioral-dermatitis", "hint": "perioral rash (papules around mouth, sparing lip border); often from steroid creams, no comedones" },
+    { "name": "Folliculitis", "hint": "infected hair follicles (e.g., staph or fungal); pustules in hair-bearing areas, can mimic acne but often monomorphic lesions" }
+  ],
+  "tricks": [
+    "Remember the four key factors in acne: excess sebum (androgens), follicular plugging (hyperkeratinization → comedo), overgrowth of C. acnes bacteria, and inflammation.",
+    "Isotretinoin is basically vitamin A – it targets all of the above factors. Think iso-TERAT-inoin to remember its teratogenicity (strict pregnancy prevention required)."
+  ],
+  "exam_appearance": [
+    "Teenager with facial and truncal comedones, inflammatory papules and a few cystic nodules → Acne vulgaris (moderate); question may ask initial treatment (e.g., topical retinoid + benzoyl peroxide).",
+    "17‑year‑old boy with sudden severe nodular acne, fever, and joint pains → Acne fulminans (acute, systemic acne variant requiring steroids).",
+    "25‑year‑old woman with persistent jawline acne, irregular menses, and hirsutism → Acne due to PCOS (polycystic ovary syndrome causing hyperandrogenism; treat with OCPs/spironolactone in addition to standard acne therapy)."
+  ],
+  "treatment": [
+    "For mild acne (comedonal or mild inflammatory): start with topical therapy – topical retinoids (normalize keratinization) nightly and/or benzoyl peroxide (antimicrobial); add topical antibiotic (clindamycin or erythromycin) if needed for inflammatory lesions.",
+    "For moderate acne (widespread papules/pustules or resistant to topicals): add oral antibiotics (e.g., doxycycline or minocycline) for their antibacterial and anti-inflammatory effect, combined with the above topicals (and benzoyl peroxide to prevent resistance). Continue for limited duration (usually 3–4 months) then taper.",
+    "For severe nodulocystic or refractory acne: oral isotretinoin (vitamin A derivative) is indicated, typically as a 5–6 month course. It dramatically reduces sebum and can induce remission, but is highly teratogenic and requires iPLEDGE monitoring (pregnancy tests, liver enzymes, lipids).",
+    "In women with hormonal acne, consider hormonal therapy: combined oral contraceptives and/or spironolactone (androgen blocker) can significantly improve acne and reduce reliance on antibiotics.",
+    "General measures: gentle skin cleansing (avoid harsh scrubs), non-comedogenic products, and maintenance therapy (often a topical retinoid long-term to prevent recurrence)."
+  ],
+  "red_flags": [
+    "Acne presenting between ages 1–7 (mid-childhood) or any acne with signs of virilization (excess body hair, precocious puberty) → suspect an underlying androgen excess disorder (consider endocrinology workup for adrenal/ovarian tumor).",
+    "Acne fulminans: rapid onset of ulcerative, nodular acne with fever, bone pain, or arthritis → indicates a severe systemic inflammatory acne (requires systemic corticosteroids and dermatology consult)."
+  ],
+  "algorithm": [
+    "Patient with characteristic acne lesions (comedones, pustules) → diagnose acne clinically and assess severity (mild/moderate/severe).",
+    "If atypical age or features (prepubertal or virilizing signs), evaluate for underlying causes (endocrine evaluation for hyperandrogenism).",
+    "Mild acne: start topical retinoid ± benzoyl peroxide (add topical antibiotic if needed); Moderate: add oral antibiotic (e.g., tetracycline class); Severe: dermatology referral for isotretinoin therapy.",
+    "Emphasize adherence and patience: treatments take ~2–3 months for effect. Schedule follow-ups to monitor improvement, side effects, and need for therapy adjustments.",
+    "Continue maintenance therapy (often a retinoid) after control is achieved to prevent relapse."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Acne_vulgaris_on_a_very_oily_skin.jpg",
+      "alt": "Close-up of an 18-year-old male's forehead with numerous small acne lesions (whiteheads and a few red pimples) on very oily skin, showing typical moderate acne vulgaris.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Acne_vulgaris_on_a_very_oily_skin.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 16‑year‑old boy presents with 'pimples' on his face and back.",
+      "clues": [
+        "Numerous open and closed comedones on face and forehead",
+        "Scattered inflammatory papules and pustules on face and upper back",
+        "No unusual features (normal puberty, no fever or systemic symptoms)",
+        "Mild scarring on cheeks from old lesions"
+      ],
+      "answer": "Acne vulgaris (moderate, adolescent type)",
+      "teaching": "Typical teen acne with a mix of comedones and inflammatory lesions. Moderate severity given multiple sites and some scarring. Initial management would include topical retinoid plus benzoyl peroxide, and adding an oral antibiotic if needed for further control."
+    },
+    {
+      "stem": "A 23‑year‑old woman reports persistent acne along her jawline.",
+      "clues": [
+        "History of irregular menstrual periods and obesity",
+        "Facial acne primarily on chin and jaw, with inflammatory papules",
+        "Excess coarse hair growth on chin/upper lip (hirsutism)",
+        "Ultrasound shows polycystic ovaries"
+      ],
+      "answer": "Acne due to polycystic ovary syndrome (hyperandrogenism)",
+      "teaching": "This is an example of hormonal acne caused by PCOS. Her hyperandrogenism leads to persistent lower-face acne and hirsutism. Management should address the underlying PCOS (weight loss, endocrine therapy) in addition to standard acne treatments; combined oral contraceptives or spironolactone can improve this type of acne by counteracting androgens."
+    }
+  ],
+  "see_also": ["polycystic-ovary-syndrome", "atopic-dermatitis", "psoriasis"],
+  "prerequisites": ["skin-anatomy", "androgens"],
+  "sources": [
+    {
+      "title": "StatPearls: Acne Vulgaris (Sutaria & Masood et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459173/"
+    },
+    {
+      "title": "UpToDate: Acne vulgaris – Overview of management (Feldman, 2023)",
+      "url": "https://www.uptodate.com/contents/acne-vulgaris-overview-of-management"
+    },
+    {
+      "title": "American Academy of Dermatology clinical guideline for acne (2016, updated 2023)",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/acne"
+    },
+    {
+      "title": "Merck Manual Professional: Acne Vulgaris",
+      "url": "https://www.merckmanuals.com/professional/dermatologic-disorders/acne-and-related-disorders/acne-vulgaris"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

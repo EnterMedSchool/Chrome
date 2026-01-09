@@ -1,0 +1,136 @@
+{
+  "id": "cerebral-palsy",
+  "names": [
+    "Cerebral palsy"
+  ],
+  "aliases": [
+    "static encephalopathy"
+  ],
+  "abbr": [
+    "CP"
+  ],
+  "patterns": [
+    "cp",
+    "cerebral palsy",
+    "static encephalopathy"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "peds"
+  ],
+  "definition": "A group of **permanent** movement and posture disorders caused by **non-progressive** injury to the developing brain (usually prenatal or perinatal). It leads to **motor dysfunction** (abnormal muscle tone, posture, and movement control), often accompanied by sensory or cognitive impairments.",
+  "why_it_matters": "CP is the most common motor disability in childhood (≈2 per 1000 live births). It causes lifelong functional limitations but is **non-degenerative**, meaning many patients live into adulthood. Early recognition and therapy can greatly improve outcomes. CP frequently appears on exams as a cause of developmental delay and abnormal muscle tone in infants.",
+  "how_youll_see_it": [
+    "Signs usually emerge in infancy: **delayed motor milestones** (e.g., not sitting by ~8 mo, not walking by ~15–18 mo), abnormal muscle tone (initial hypotonia evolving into spasticity or persistent stiffness), and persistence of **primitive reflexes** (e.g., Moro or asymmetric tonic neck reflex beyond 6 mo).",
+    "**Spastic CP** (≈80% of cases): characterized by **hypertonia**, **hyperreflexia**, and velocity-dependent resistance (\"clasp-knife\" spasticity). Common patterns include **spastic diplegia** (legs > arms; scissoring gait and toe-walking, often seen in premature infants with periventricular leukomalacia), **spastic hemiplegia** (one side of body; early hand preference with a fisted hand on the affected side, often due to a perinatal stroke), and **spastic quadriplegia** (all four limbs; most severe form, often associated with intellectual disability and oromotor dysfunction).",
+    "**Dyskinetic CP** (~10–15%): caused by basal ganglia injury (classically from kernicterus). Presents with **involuntary movements** that may be dystonic (twisting, repetitive movements) or choreoathetoid (writhing), often fluctuating muscle tone. Children have trouble maintaining posture; symptoms worsen with stress and disappear during sleep. Facial involvement can cause grimacing or dysarthria.",
+    "**Ataxic CP** (~5%): due to cerebellar damage. Features include **poor coordination**, balance issues, and an **ataxic gait** (wide-based, unsteady). Fine motor tasks are difficult, and there may be intention tremor. These children appear shaky and have trouble with rapid or precise movements.",
+    "Many patients have a **mixed** type (combining spastic and dyskinetic features, etc.). Aside from motor deficits, CP often involves other issues: e.g., seizures, learning disabilities, speech and hearing impairments, or vision problems (such as strabismus)."
+  ],
+  "problem_solving": [
+    "Developmental surveillance: monitor infants for delayed milestones or abnormal neurologic signs at routine visits. In high-risk infants (prematurity, neonatal ICU stay), use screening tools or refer for early evaluation if CP is suspected.",
+    "Neurologic exam: assess tone, posture, reflexes (look for persistent primitive reflexes or hyperreflexia). Distinguish **upper motor neuron** signs (spasticity, Babinski sign) from **lower motor neuron** or muscle disorders (which cause floppiness or weakness without spasticity). If any **loss of skills** is noted, investigate for degenerative diseases (CP itself does not cause regression).",
+    "Neuroimaging: obtain a **brain MRI** in all suspected CP cases. MRI is the preferred modality to evaluate the cause of CP, often revealing static lesions (e.g., periventricular leukomalacia, old infarcts) and helping exclude alternative diagnoses.",
+    "Etiologic workup: review prenatal and birth history for risk factors (extreme prematurity, hypoxic-ischemic injury, intracranial hemorrhage, infections, stroke, kernicterus). If no clear cause or atypical features (e.g., progressive worsening, multisystem involvement), consider metabolic or genetic testing to rule out other conditions.",
+    "Assess comorbidities: perform hearing and vision screening (CP can co-occur with impairments like sensorineural hearing loss or retinopathy), cognitive/developmental testing, and evaluate feeding and growth (oromotor dysfunction can cause nutrition issues). Addressing associated conditions early (e.g., treating epilepsy, providing nutritional support) is crucial in the care plan."
+  ],
+  "differentials": [
+    {
+      "id": "duchenne-muscular-dystrophy",
+      "hint": "**Progressive** muscle weakness (not spastic); boys with delayed walking, Gowers sign, and pseudohypertrophy (X-linked recessive)."
+    },
+    {
+      "name": "Spinal cord lesion",
+      "hint": "History of trauma or signs of cord compression; often presents with a **sensory level** and acute or progressive course (unlike static CP)."
+    },
+    {
+      "name": "Neurodegenerative disorder",
+      "hint": "**Regression** of milestones or worsening over time (e.g., leukodystrophies); CP is nonprogressive, so any deterioration suggests a different pathology."
+    }
+  ],
+  "tricks": [
+    "**Non-progressive**: CP does not get worse over time (symptoms reflect a static injury), so new deficits or loss of abilities should prompt re-evaluation for other causes.",
+    "Early **hand preference** (before ~1 year old) is a red flag for hemiplegia (one-sided CP) – infants typically use both hands equally, so favoring one side suggests weakness on the other.",
+    "**Scissoring gait** (legs crossing due to tight hip adductors) and toe-walking are classic for spastic diplegia; lifting an infant with spastic CP by the axillae often triggers leg scissoring."
+  ],
+  "exam_appearance": [
+    "Toddler born at 28 weeks now with **motor delay**, **leg stiffness** (hypertonia), and a **scissoring gait** on attempted walking → spastic diplegic cerebral palsy (prematurity with periventricular leukomalacia).",
+    "6-month-old who consistently keeps the left hand in a fist and uses the right hand more, with **hyperreflexia** on the left side → spastic **hemiplegic** CP (likely due to perinatal stroke).",
+    "Infant with a history of severe neonatal jaundice who later develops **involuntary writhing movements** and hypotonia → **dyskinetic** (athetoid) CP from kernicterus."
+  ],
+  "treatment": [
+    "Multidisciplinary approach: **Physical therapy** (to improve strength, mobility, and prevent contractures), **occupational therapy** (to help with fine motor skills and daily activities), and **speech therapy** (for communication and feeding) are cornerstones. Encourage use of assistive devices as needed (ankle-foot orthoses for gait, walkers/wheelchairs for mobility, communication boards/devices for speech).",
+    "Medications for spasticity: First-line oral agents include **baclofen** (muscle relaxant) or **benzodiazepines** (e.g., diazepam) for diffuse spasticity; **dantrolene** or tizanidine are other options. For focal spasticity, local **botulinum toxin** injections can reduce muscle tone (commonly used in gastrocnemius for equinus foot, hamstrings, etc.). Severe generalized spasticity may benefit from an intrathecal baclofen pump.",
+    "Surgical interventions: **Orthopedic surgery** (tendon lengthening, muscle releases, scoliosis or hip dislocation correction) can improve function and comfort in cases of contractures or bony deformities. Selective **dorsal rhizotomy** (neurosurgical cutting of dorsal nerve roots) is an option in select children with spastic diplegia to reduce leg spasticity and improve mobility. For severe dystonic CP, **deep brain stimulation** (of basal ganglia) is being explored as a treatment.",
+    "Manage associated conditions: Treat **seizures** (occur in ~25–50% of CP patients) with appropriate antiepileptic drugs. Address feeding difficulties and **aspiration** risk (upright feeding, thickened feeds, or G-tube placement if necessary for nutrition). Monitor for GERD and constipation (common in CP) and treat to improve comfort. Provide family support and coordinate care transition to adulthood as the patient ages."
+  ],
+  "red_flags": [
+    "**Loss of previously acquired skills** (developmental regression) → not typical for CP; investigate for a neurodegenerative disorder or other new pathology.",
+    "Any **new neurologic symptom** or rapid decline in function in a child with CP should not be assumed to be \"just the CP\" – perform a thorough workup (e.g., for seizures, hydrocephalus, or orthopedic complications). CP is static, so always evaluate changes."
+  ],
+  "algorithm": [
+    "Delayed motor milestones or abnormal tone in infancy → **suspect CP** and perform detailed neurologic exam.",
+    "**Assess risk factors**: review prenatal/perinatal history (prematurity, birth asphyxia, infections, stroke, etc.) and growth/developmental history.",
+    "**Evaluate child's neurologic status** over time: look for upper motor neuron signs (spasticity, hyperreflexia) consistent with CP. Ensure no signs of a progressive condition (worsening or multisystem involvement).",
+    "**Neuroimaging**: obtain brain MRI to confirm a static brain injury (e.g., PVL, old infarct) and to rule out alternative diagnoses. If MRI is normal or concerns remain, consider metabolic/genetic testing.",
+    "**Intervene early**: once CP is diagnosed (or \"high risk\" for CP), start therapies (PT/OT/speech), address spasticity (medication or Botox), and involve specialists (neurologist, physiatrists, orthopedic surgeons, etc.). Follow the child's hearing, vision, nutrition, and development regularly and support the family with resources."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Child_with_Cerebral_Palsy_in_wheelchair.png/1448px-Child_with_Cerebral_Palsy_in_wheelchair.png",
+      "alt": "Child with cerebral palsy using a specialized wheelchair with supportive seating and tray.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Child_with_Cerebral_Palsy_in_wheelchair.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-year-old boy, born at 28 weeks' gestation, is evaluated for not yet walking. On exam, he has increased tone and scissoring of the legs when held upright, as well as brisk deep tendon reflexes.",
+      "clues": [
+        "Extreme prematurity (28 weeks)",
+        "Motor milestone delay (not walking by 2 years)",
+        "Legs more affected than arms (spastic diplegia)",
+        "Scissoring posture and toe-walking",
+        "Periventricular leukomalacia on MRI"
+      ],
+      "answer": "Cerebral palsy (spastic diplegia due to prematurity)",
+      "teaching": "Premature infants are at high risk for CP due to vulnerability of the white matter (periventricular leukomalacia). Spastic diplegic CP presents with delayed walking and leg-predominant spasticity (scissoring gait and toe-walking). Early intervention with physical therapy and muscle relaxants can improve function, but the underlying brain injury is nonprogressive."
+    }
+  ],
+  "see_also": [
+    "duchenne-muscular-dystrophy",
+    "spinal-muscular-atrophy",
+    "seizures",
+    "autism-spectrum-disorder"
+  ],
+  "prerequisites": [
+    "developmental-milestones",
+    "upper-motor-neuron"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Cerebral Palsy (Hallman-Cooper & Cabrero, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538147/"
+    },
+    {
+      "title": "UpToDate: Cerebral palsy – overview of management and prognosis",
+      "url": "https://www.uptodate.com/contents/cerebral-palsy-overview-of-management-and-prognosis"
+    },
+    {
+      "title": "Cerebral Palsy (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/1179555-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

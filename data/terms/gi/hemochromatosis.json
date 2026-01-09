@@ -1,0 +1,131 @@
+{
+  "id": "hemochromatosis",
+  "names": ["Hemochromatosis"],
+  "aliases": ["hereditary hemochromatosis", "iron overload", "bronze diabetes"],
+  "abbr": ["HH"],
+  "patterns": ["hemochromatosis", "haemochromatosis", "iron overload", "HFE", "bronze diabetes"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "genetics", "endocrine", "heme_onc"],
+  "definition": "Iron overload disorder with excessive iron deposition in tissues (especially liver), leading to organ damage. Usually caused by autosomal recessive HFE gene mutations (hereditary hemochromatosis) resulting in increased intestinal iron absorption; can also be secondary to chronic transfusions or other iron-loading conditions.",
+  "why_it_matters": "Common (≈1 in 300 whites) and the most frequent inherited cause of severe iron overload. Early detection is critical since phlebotomy can prevent irreversible complications like cirrhosis, cardiomyopathy, and diabetes. Untreated hemochromatosis carries a high risk of **hepatocellular carcinoma** (~20-fold increase) and other life-threatening sequelae, making it a favorite exam topic.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** in early stages; initial clues can be fatigue or arthralgias (especially knuckle joints). Symptoms usually manifest in **middle age**, earlier in men (40s–50s) and post-menopausal in women (due to iron loss from menses).",
+    "Classic triad: **cirrhosis**, **diabetes mellitus**, and skin **hyperpigmentation** (\"bronze diabetes\"). Patients may have hepatomegaly with elevated liver enzymes progressing to liver fibrosis/cirrhosis (present in ~70% if untreated).",
+    "Other common features: **arthropathy** (joint pain in hands, e.g. 2nd & 3rd MCPs, often with chondrocalcinosis/**pseudogout**), **cardiomyopathy** (restrictive or dilated cardiomyopathy, arrhythmias), and **hypogonadism** (impotence, amenorrhea from pituitary iron deposition).",
+    "Secondary hemochromatosis (iron overload from transfusions or hemolysis) presents similarly (liver disease, endocrinopathies, heart failure), but usually there is a history of chronic transfusions (e.g., thalassemia major) or hematologic disease."
+  ],
+  "problem_solving": [
+    "For unexplained **elevated ferritin**, consider iron overload: check fasting **transferrin saturation** (TSAT) as the initial screen (TSAT >45% is highly suggestive of hemochromatosis).",
+    "If iron studies are high, confirm diagnosis with **HFE genetic testing** for C282Y/H63D mutations. (Ferritin can be elevated in chronic inflammation or fatty liver, but in those cases transferrin saturation is normal or low.)",
+    "Assess organ damage: if serum ferritin >1000 ng/mL or abnormal LFTs, evaluate for cirrhosis (e.g., liver biopsy or MRI). Screen for complications such as diabetes (glucose/HbA1c), cardiac dysfunction (echocardiogram), and hypogonadism (testosterone levels).",
+    "Screen **first-degree relatives** of patients with hereditary hemochromatosis with iron studies or genetic testing, as early phlebotomy in asymptomatic carriers can prevent organ damage."
+  ],
+  "differentials": [
+    {
+      "name": "Wilson disease",
+      "hint": "younger patients with liver cirrhosis plus neuropsychiatric symptoms; low ceruloplasmin (copper overload)"
+    },
+    {
+      "name": "NAFLD (fatty liver disease)",
+      "hint": "metabolic syndrome or alcohol use; elevated ferritin common but **normal transferrin saturation** and no iron deposition in extra-hepatic organs"
+    },
+    {
+      "name": "Transfusional iron overload",
+      "hint": "history of chronic transfusions (e.g., thalassemia); iron accumulates mainly in reticuloendothelial system initially"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **bronze diabetes** = hemochromatosis (skin pigmentation + diabetes). Think of an older diabetic with tan skin and elevated iron studies.",
+    "Hereditary hemochromatosis is linked to **HLA-A3** (historical association on chromosome 6).",
+    "**HFE** gene mutation → inappropriately low **hepcidin** levels, leading to unregulated iron absorption from the gut."
+  ],
+  "exam_appearance": [
+    "Middle-aged man with **skin bronzing**, new-onset diabetes, and elevated LFTs → suspect hereditary hemochromatosis.",
+    "Patient with **beta-thalassemia major** on lifelong transfusions develops cardiomyopathy and hyperpigmented skin; labs show extremely high ferritin → secondary hemochromatosis from transfusion iron overload."
+  ],
+  "treatment": [
+    "**Therapeutic phlebotomy** is first-line: frequently remove blood (e.g., weekly) until iron stores normalize (target ferritin ~50–100 µg/L), then maintenance phlebotomy every few months for life.",
+    "**Iron chelation** (e.g., deferoxamine IV, oral deferasirox or deferiprone) is used if phlebotomy is contraindicated or impossible (such as in anemia or transfusion-dependent patients).",
+    "Manage and monitor complications: screen cirrhotic patients for **HCC** (ultrasound ± AFP every 6 months), treat diabetes and heart failure as needed, and avoid exacerbating factors (no alcohol, vitamin C supplements, or iron supplements)."
+  ],
+  "red_flags": [
+    "**Ferritin >1000 ng/mL** or evidence of cirrhosis – high risk for hepatocellular carcinoma; requires liver biopsy evaluation and cancer surveillance.",
+    "Iron-overloaded patients are at risk for severe **Vibrio vulnificus** sepsis from raw seafood (oysters) – hemochromatosis is a known risk factor for this often-fatal infection."
+  ],
+  "algorithm": [
+    "Unexplained high ferritin or abnormal LFTs + diabetes/skin changes → suspect hemochromatosis.",
+    "Obtain iron studies: if **transferrin saturation** >45–50%, proceed with **HFE genetic testing**.",
+    "If **HFE mutation** (C282Y homozygote or compound heterozygote) is detected, diagnose hereditary hemochromatosis. If genetic testing is negative but iron overload is present, consider non-HFE hemochromatosis or secondary causes (and further workup such as MRI or liver biopsy).",
+    "Evaluate disease severity: perform liver imaging/biopsy if ferritin is very high (to check for cirrhosis); check for diabetes, cardiomyopathy (ECG/echo), and hypogonadism.",
+    "Start **phlebotomy** therapy promptly. Monitor ferritin and transferrin saturation regularly; continue periodic phlebotomy indefinitely. Use iron chelators if phlebotomy cannot be done."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Hemochromatosis_liver_iron_prussian_blue.jpg",
+      "alt": "Liver biopsy with Prussian blue stain showing extensive iron deposits (blue) in hepatocytes, consistent with hemochromatosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hemochromatosis_liver_iron_prussian_blue.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man presents with fatigue and joint pain in the hands. On exam, his skin has a bronze tint. Laboratory testing reveals new-onset diabetes, AST and ALT about 2× normal, ferritin 1200 ng/mL, and transferrin saturation 65%.",
+      "clues": [
+        "Bronze skin pigmentation",
+        "Elevated liver enzymes",
+        "High ferritin and transferrin saturation",
+        "HFE gene C282Y mutation positive"
+      ],
+      "answer": "Hereditary hemochromatosis",
+      "teaching": "Classic \"bronze diabetes\" due to HFE hemochromatosis. Excess iron absorption has led to liver injury (elevated LFTs, risk of cirrhosis), diabetes, skin hyperpigmentation, and arthropathy. Treatment is regular phlebotomy to remove iron and prevent progression."
+    },
+    {
+      "stem": "A 30‑year‑old man with beta-thalassemia major presents with fatigue and dyspnea on exertion. He has received blood transfusions almost monthly since childhood. Exam reveals jugular venous distension, S3 gallop, and hyperpigmented skin. Ferritin is 2500 ng/mL.",
+      "clues": [
+        "History of frequent blood transfusions",
+        "Heart failure signs (JVD, S3)",
+        "Skin bronzing",
+        "Very high ferritin"
+      ],
+      "answer": "Secondary hemochromatosis (transfusion iron overload)",
+      "teaching": "Chronic transfusions have caused iron overload (secondary hemochromatosis). Iron accumulates in the heart (causing cardiomyopathy and heart failure) and skin, among other organs. Phlebotomy is not feasible due to anemia, so iron chelation therapy is indicated to remove excess iron."
+    }
+  ],
+  "see_also": [
+    "wilson-disease",
+    "alpha-1-antitrypsin-deficiency",
+    "nonalcoholic-fatty-liver-disease",
+    "thalassemia-syndromes",
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "diabetes-mellitus"
+  ],
+  "prerequisites": [
+    "iron-deficiency-anemia",
+    "cirrhosis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hemochromatosis (Porter & Rawla, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430862/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of hereditary hemochromatosis",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-hereditary-hemochromatosis"
+    },
+    {
+      "title": "Hemochromatosis (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/177216-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

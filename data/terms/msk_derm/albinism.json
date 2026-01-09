@@ -1,0 +1,110 @@
+{
+  "id": "albinism",
+  "names": ["Albinism"],
+  "aliases": ["oculocutaneous albinism", "ocular albinism", "achromia", "achromasia", "achromatosis"],
+  "abbr": [],
+  "patterns": ["albinism", "albino", "oculocutaneous albinism", "ocular albinism", "achromia", "achromasia", "achromatosis"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "genetics", "peds", "msk_derm"],
+  "definition": "Group of genetic disorders with absent or reduced **melanin** pigment in skin, hair, and eyes due to melanin biosynthesis defects (e.g., **tyrosinase** enzyme deficiency).",
+  "why_it_matters": "Causes lifelong **visual impairment** and greatly increases **skin cancer** risk from UV damage. Albinism is a high-yield example of genetics (often **autosomal recessive** vs **X-linked**) and melanin biology, and it must be recognized early to prevent complications with sun protection and vision support.",
+  "how_youll_see_it": [
+    "**Oculocutaneous albinism (OCA)**: Noticed at birth with **snow-white** or extremely fair skin and hair, and light-colored eyes (blue/gray appearing red in light). Infants develop **nystagmus**, reduced visual acuity, and **photophobia** due to lack of ocular melanin.",
+    "**Sun sensitivity**: Skin does not tan and burns easily. By childhood, sun-exposed areas show **freckling**, solar keratoses, and eye damage if unprotected. **Skin cancers** (squamous cell carcinoma, basal cell carcinoma, melanoma) often occur at a young age without rigorous UV protection.",
+    "**Ocular albinism (OA)**: Primarily **eye findings** (nystagmus, poor vision, strabismus) with relatively normal skin and hair pigmentation. X-linked inheritance (affects mainly **males**); carriers (females) may have mild iris translucency but normal appearance."
+  ],
+  "problem_solving": [
+    "Diagnose clinically by the characteristic **hypopigmentation** and eye findings. **Genetic testing** can identify the specific mutation (OCA1–OCA7 or OA1), but diagnosis is usually evident on exam.",
+    "Distinguish albinism from other causes of hypopigmentation: in albinism, melanocytes are present (just unable to produce melanin), whereas conditions like **vitiligo** have melanocyte destruction. Diffuse involvement from birth suggests albinism; patchy or later-onset depigmentation suggests other causes.",
+    "Assess for syndromic features: inquire about easy **bruising/bleeding** (think Hermansky-Pudlak syndrome) or recurrent **infections** and neuropathy (think Chediak-Higashi syndrome). These rare syndromes include albinism plus systemic issues requiring special care.",
+    "Evaluate vision early: perform an **ophthalmologic exam** (check for nystagmus, iris translucency, foveal hypoplasia) and address refractive errors. Early intervention (glasses, vision therapy) can improve developmental outcomes.",
+    "Counsel on inheritance: Most OCA types are **autosomal recessive** (parents are carriers, 25% recurrence risk). **Ocular albinism** is **X-linked recessive** (usually only males affected; female carriers are generally unaffected). Provide genetic counseling for family planning."
+  ],
+  "differentials": [
+    { "name": "Hermansky-Pudlak syndrome", "hint": "albinism + bruising/bleeding (platelet storage pool defect); can have pulmonary fibrosis, colitis" },
+    { "name": "Chediak-Higashi syndrome", "hint": "partial albinism + recurrent infections, neuropathy; giant granules in leukocytes (lysosomal defect)" },
+    { "name": "Vitiligo", "hint": "acquired patchy depigmentation; autoimmune **melanocyte** destruction (spares eyes)" },
+    { "name": "Waardenburg syndrome", "hint": "patchy depigmentation (white forelock), different colored eyes, **deafness**; usually autosomal dominant" }
+  ],
+  "tricks": [
+    "In **albinism**, the number of melanocytes is normal – they just can't produce melanin. In **vitiligo** (autoimmune), melanocytes are gone.",
+    "**Ocular albinism** is X-linked (only eyes affected, mostly in males), whereas **oculocutaneous albinism** is typically autosomal recessive (affecting skin, hair, and eyes in both sexes).",
+    "Albinism with **bleeding** issues suggests Hermansky-Pudlak syndrome; albinism with frequent **infections** suggests Chediak-Higashi syndrome."
+  ],
+  "exam_appearance": [
+    "Newborn with **white hair**, very pale skin, and **horizontal nystagmus** on exam → Oculocutaneous albinism (AR tyrosinase gene defect).",
+    "Teenager with oculocutaneous albinism develops a non-healing, ulcerated lesion on the face → likely **squamous cell carcinoma** of the skin (due to cumulative sun exposure).",
+    "5-year-old boy with normal skin and hair but congenital **nystagmus** and reduced vision; his maternal uncle has the same condition → **Ocular albinism** (X-linked recessive)."
+  ],
+  "treatment": [
+    "**Sun protection** is critical: avoid intense sun exposure, use high-SPF broad-spectrum sunscreen daily, wear protective clothing, hats, and UV-blocking sunglasses.",
+    "**Optimize vision**: Refer to ophthalmology early for corrective **glasses** or contact lenses, tinted lenses for photophobia, and possible surgery for strabismus. Low-vision aids and educational support (e.g. seating in front of class, large-print materials) help accommodate visual impairment.",
+    "**Skin surveillance**: Have regular dermatologic exams to monitor for precancerous changes or skin cancers. Treat any lesions promptly. There is no cure to restore pigment, so management focuses on protection and supportive care. Encourage normal social integration and provide genetic counseling for the family."
+  ],
+  "red_flags": [
+    "Any new or changing skin lesion in an albinism patient should raise concern for **skin cancer** (melanoma, SCC) – prompt dermatologic evaluation is needed.",
+    "Signs like unexpected bruising, bleeding, or severe infections in someone with albinism – evaluate for a syndromic form (e.g., Hermansky-Pudlak or Chediak-Higashi) that warrants specialized management."
+  ],
+  "algorithm": [
+    "Fair-haired, pale-skinned infant with ocular findings (nystagmus, strabismus) → suspect **albinism**.",
+    "Differentiate type: Skin + eye involvement in both sexes → oculocutaneous albinism; primarily eye involvement in a male → ocular albinism.",
+    "Check for syndromic clues: bleeding tendency (think HPS) or recurrent infections/neuro symptoms (think CHS).",
+    "Confirm diagnosis/subtype with genetic testing if uncertain (OCA gene panel or specific mutation tests), especially if it will guide family counseling.",
+    "Management: Educate family on rigorous sun avoidance/protection, initiate ophthalmology care for vision support, and schedule regular skin checks for life."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Albino_Boy_With_Friends_(199899013).jpeg",
+      "alt": "Young boy with oculocutaneous albinism sitting with friends, showing very pale skin and hair compared to his peers.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Albino_Boy_With_Friends_(199899013).jpeg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 6-month-old boy is brought by his parents because of concern about his skin and eye color.",
+      "clues": [
+        "White hair, eyebrows, and eyelashes since birth",
+        "Blue-gray irises that appear red in photographs",
+        "Horizontal nystagmus on ocular exam",
+        "Both parents have darker hair and skin"
+      ],
+      "answer": "Oculocutaneous albinism (tyrosinase gene mutation)",
+      "teaching": "This infant's diffuse hypopigmentation and visual findings (nystagmus, iris transillumination) are classic for oculocutaneous albinism. An autosomal recessive defect in melanin production (often a TYR gene mutation affecting tyrosinase) leads to absent or reduced melanin in the skin, hair, and eyes. This causes severe visual impairment and requires vigilant sun protection to prevent skin damage."
+    }
+  ],
+  "see_also": [
+    "vitiligo",
+    "chediak-higashi-syndrome",
+    "squamous-cell-carcinoma"
+  ],
+  "prerequisites": [
+    "melanocyte",
+    "autosomal-recessive",
+    "x-linked-recessive"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Albinism (Federico & Krishnamurthy, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519018/"
+    },
+    {
+      "title": "Medscape: Albinism (Al Deyabat, 2024)",
+      "url": "https://emedicine.medscape.com/article/1200472-overview"
+    },
+    {
+      "title": "UpToDate: Oculocutaneous albinism (2025)",
+      "url": "https://www.uptodate.com/contents/oculocutaneous-albinism"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

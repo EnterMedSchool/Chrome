@@ -1,0 +1,162 @@
+{
+  "id": "desensitization",
+  "names": [
+    "Desensitization"
+  ],
+  "aliases": [
+    "drug desensitization",
+    "allergen immunotherapy",
+    "hyposensitization",
+    "induction of tolerance",
+    "allergy shots"
+  ],
+  "abbr": [
+    "AIT"
+  ],
+  "patterns": [
+    "desensitization",
+    "desensitisation",
+    "allergen immunotherapy",
+    "allergy shots",
+    "drug desensitization",
+    "hyposensitization",
+    "induction of tolerance"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "immunology",
+    "pharmacology",
+    "pathology"
+  ],
+  "definition": "Gradual, controlled exposure to an allergen or drug to induce immune tolerance (reduced or eliminated hypersensitivity). In drug allergy, desensitization creates a **temporary** tolerance so an essential medication can be given despite allergy. In allergic diseases, repeated allergen exposures (as in allergy immunotherapy) can lead to long-term reduction in reactivity.",
+  "why_it_matters": "It can be **life-saving** and clinically crucial: desensitization allows patients with serious allergies to receive first-line therapies (e.g., penicillin for syphilis in a penicillin-allergic pregnant patient) and can prevent fatal reactions (venom immunotherapy for bee sting allergy). It's the only treatment that modifies the allergic immune response rather than just treating symptoms, making it a favorite topic for exams linking immunology to clinical care.",
+  "how_youll_see_it": [
+    "A patient with a severe allergy who needs a specific drug: e.g., a pregnant woman with syphilis and penicillin allergy undergoing a penicillin desensitization protocol so she can safely receive penicillin.",
+    "Allergy shots for environmental allergens: patients with refractory allergic rhinitis/asthma or venom allergy getting regular injections of pollen, dust mite, or venom extracts. Over time, they become much less reactive (fewer or no symptoms on allergen exposure).",
+    "Emerging use in food allergies: e.g., a child with peanut allergy undergoing oral immunotherapy with tiny daily peanut doses, gradually increasing to raise the threshold for allergic reactions."
+  ],
+  "problem_solving": [
+    "Only pursue desensitization when absolutely **necessary** – if an allergen exposure is needed and no safe alternative exists. Otherwise, avoidance or an alternative therapy is preferred.",
+    "Verify the allergy is IgE-mediated and significant: for drugs like penicillin, consider skin testing to confirm true allergy, since many reported penicillin \"allergies\" aren't true IgE allergies.",
+    "Never desensitize a patient who had a severe **non-IgE** reaction (e.g., Stevens-Johnson syndrome or DRESS) to that agent – those reactions can recur and are contraindications.",
+    "Perform desensitization under close monitoring (ICU or clinic with emergency readiness). If a mild reaction occurs during the process, pause and treat symptoms (antihistamines, bronchodilators), then resume at a lower dose; if a serious reaction (anaphylaxis) occurs, stop and treat (epinephrine, etc.) – patient safety comes first.",
+    "Remember that drug desensitization confers **temporary** tolerance: the state of tolerance will be lost if the medication isn't continuously administered. If the patient needs the same drug later, the desensitization must be repeated from scratch."
+  ],
+  "differentials": [
+    {
+      "name": "Graded challenge (test dose)",
+      "hint": "a one-time trial of a small dose to check tolerance when allergy likelihood is low – used diagnostically, not a therapeutic tolerance induction for truly allergic patients"
+    },
+    {
+      "name": "Premedication prophylaxis",
+      "hint": "giving medications like antihistamines or steroids before administering a drug (e.g., chemotherapy, contrast dye) to mitigate minor reactions – this does NOT induce true immune tolerance"
+    },
+    {
+      "name": "Allergen avoidance/substitution",
+      "hint": "simply avoiding the offending allergen or using an alternative medication – the preferred approach if an equivalent alternative exists, rather than risking an allergic reaction"
+    }
+  ],
+  "tricks": [
+    "Desensitization is **use it or lose it** – tolerance to a drug fades within days once the drug is stopped, so don't skip doses.",
+    "Allergy immunotherapy works by reshaping the immune response: it boosts **IgG** \"blocking\" antibodies and regulatory T-cells while damping IgE reactivity, hence reducing allergic tendencies over time.",
+    "Classic board hint: **Pregnant with syphilis + penicillin allergy = desensitize and give penicillin.** There's no substitute for penicillin in preventing congenital syphilis, so you must induce tolerance and treat."
+  ],
+  "exam_appearance": [
+    "Pregnant patient with syphilis and a history of penicillin anaphylaxis → perform penicillin desensitization so she can receive penicillin (the only adequate treatment).",
+    "Adult who had an anaphylactic reaction to a wasp sting → refer for venom immunotherapy (desensitization) to prevent potentially fatal future sting reactions.",
+    "Young adult with severe seasonal allergies (rhinitis/asthma) not controlled by maximal meds → allergen immunotherapy (weekly allergy shots) over several years to reduce IgE sensitivity and alleviate symptoms."
+  ],
+  "treatment": [
+    "**Drug desensitization:** Done in a controlled setting (e.g., ICU). Start with an extremely low dose of the medication, then gradually double the dose at fixed intervals (often every 15–30 minutes) until the full therapeutic dose is reached. Do not interrupt dosing once begun – continuous exposure maintains the tolerance.",
+    "**Allergen immunotherapy:** Subcutaneous injections of the culprit allergen (or sublingual/oral forms for some allergies) in increasing concentrations. Injections are given at regular intervals (e.g., weekly build-up for months) until a maintenance dose is reached, then continued long-term (3–5 years). Patients must be observed ~30 minutes after each injection due to risk of systemic reaction.",
+    "Prior to desensitization or immunotherapy, ensure the patient's baseline condition is stable (especially asthma well-controlled) and eliminate any factors that raise risk (e.g., consider holding beta-blockers if possible, since they make anaphylaxis harder to treat). Always have emergency medications and equipment on hand."
+  ],
+  "red_flags": [
+    "**SJS/TEN or DRESS history:** A patient who had Stevens-Johnson syndrome, toxic epidermal necrolysis, or other severe delayed hypersensitivity to a drug should **never** be re-exposed via desensitization – find an alternative, as these reactions can be life-threatening.",
+    "Uncontrolled **asthma** or active infection – do not begin allergen immunotherapy in someone whose asthma is poorly controlled or who is acutely ill, as they have higher risk for severe reactions (wait until stable).",
+    "**Beta-blockers** in a patient undergoing immunotherapy – beta-blockers can impair the response to epinephrine if anaphylaxis occurs, making reactions more dangerous. This is a relative contraindication; if possible, avoid or use extreme caution."
+  ],
+  "algorithm": [
+    "Allergic patient needs treatment → confirm allergen and necessity. If an alternative exists, avoid the allergen; if not (no substitute drug or uncontrolled allergy), proceed to consider desensitization.",
+    "Evaluate allergy type: If it's an IgE-mediated immediate allergy (positive skin test or convincing history of anaphylaxis), and the reaction wasn't a severe non-IgE type, plan a desensitization protocol. Obtain informed consent, explaining risks.",
+    "Set up monitoring (vitals, IV access) and have emergency meds ready. Begin desensitization: administer the allergen/drug in tiny increments, increasing the dose stepwise at set intervals under supervision.",
+    "Watch for any reaction at each step. Manage any symptoms promptly. If mild reaction, treat and continue; if severe, stop the procedure (and decide if benefits still outweigh risks).",
+    "Once the target dose or maintenance is reached, continue the exposure on the recommended schedule (to sustain tolerance). For a needed drug, give full doses as scheduled (e.g., daily) until the course is done. For allergen immunotherapy, maintain regular injections for years as advised, then reassess if tolerance is sufficient to stop."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Anti-Allergy_Immunotherapy.jpg",
+      "alt": "Diagram illustrating an immunotherapy mechanism: An anti-IgE antibody (blue) binds IgE (green), preventing it from anchoring to mast cells and thus blocking an allergic reaction.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Anti-Allergy_Immunotherapy.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old pregnant woman is diagnosed with syphilis. She has a history of an anaphylactic reaction to penicillin.",
+      "clues": [
+        "Pregnant with syphilis (positive RPR)",
+        "Severe penicillin allergy (anaphylaxis history)",
+        "No equally effective alternative therapy"
+      ],
+      "answer": "Penicillin desensitization (followed by penicillin treatment)",
+      "teaching": "Penicillin is the only appropriate treatment to prevent congenital syphilis. In a penicillin-allergic pregnant patient, perform a desensitization protocol to temporarily induce tolerance, then administer penicillin G to cure the infection."
+    },
+    {
+      "stem": "A 35‑year‑old man who is a beekeeper had an anaphylactic reaction after a wasp sting last year.",
+      "clues": [
+        "Systemic allergic reaction to insect sting (anaphylaxis)",
+        "Positive venom-specific IgE test",
+        "Ongoing high risk of stings (beekeeper)"
+      ],
+      "answer": "Venom immunotherapy (insect venom desensitization)",
+      "teaching": "Hymenoptera venom immunotherapy can drastically reduce the risk of anaphylaxis from future stings (over 90% effective). It's indicated for anyone with a history of systemic sting reactions to prevent potentially fatal anaphylaxis."
+    },
+    {
+      "stem": "A 22‑year‑old with lifelong allergic rhinitis and mild allergic asthma has year-round congestion and wheezing despite maximal medical therapy.",
+      "clues": [
+        "Skin testing: strong positive to dust mite and grass pollen",
+        "Symptoms uncontrolled by antihistamines, intranasal steroids, inhalers",
+        "Seeks a long-term solution beyond medications"
+      ],
+      "answer": "Allergen immunotherapy (subcutaneous allergy shots)",
+      "teaching": "Allergen immunotherapy is indicated for severe, refractory allergic rhinitis/asthma. Regular injections of specific allergens over 3-5 years induce immune tolerance (increased IgG4, reduced IgE) and can significantly improve or even resolve chronic allergy symptoms."
+    }
+  ],
+  "see_also": [
+    "anaphylaxis",
+    "allergic-rhinitis"
+  ],
+  "prerequisites": [
+    "type-i-hypersensitivity",
+    "immunoglobulin-E"
+  ],
+  "sources": [
+    {
+      "title": "Korean J Intern Med: Desensitization for the prevention of drug hypersensitivity reactions (Kang et al., 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8925949/"
+    },
+    {
+      "title": "AAAAI Ask the Expert: Daily buildup of allergen immunotherapy injections (Ledford, 2025)",
+      "url": "https://www.aaaai.org/allergist-resources/ask-the-expert/answers/2025/buildup"
+    },
+    {
+      "title": "Immunol Allergy Clin North Am: Insect sting anaphylaxis (Golden, 2007)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1961691/"
+    },
+    {
+      "title": "CDC STI Treatment Guidelines (2021): Penicillin Allergy and Desensitization",
+      "url": "https://www.cdc.gov/std/treatment-guidelines/penicillin-allergy.htm"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "id": "holoprosencephaly",
+  "names": ["Holoprosencephaly"],
+  "aliases": ["Arhinencephaly", "Prosencephalon dysgenesis"],
+  "abbr": ["HPE"],
+  "patterns": ["holoprosencephaly", "prosencephalon", "forebrain", "fused hemispheres", "one ventricle"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "genetics", "peds", "obgyn"],
+  "definition": "Holoprosencephaly (HPE) is a congenital forebrain malformation where the embryonic prosencephalon fails to divide into two separate hemispheres. The result is a single midline cerebral structure (monoventricle) often with craniofacial midline defects.",
+  "why_it_matters": "HPE links early embryology to classic exam clues. Severe facial defects (cyclopia, proboscis) imply alobar HPE, while subtle signs (single maxillary incisor) hint at a microform. It is often associated with trisomy 13 (Patau syndrome) and SHH pathway mutations, so recognition prompts genetic evaluation.",
+  "how_youll_see_it": [
+    "Prenatal US: single large brain ventricle and fused hemispheres, absent interhemispheric fissure.",
+    "Infant: microcephaly, seizures, and midline facial anomalies (cyclopia/synophthalmia, proboscis, cleft lip/palate).",
+    "Child (mild): isolated facial findings (single central incisor, hypotelorism) with learning delays.",
+    "MRI: fused cerebral hemispheres with absent corpus callosum; a single ventricle is seen.",
+    "Genetics: karyotype/microarray often shows trisomy 13; test for SHH, ZIC2, SIX3 mutations."
+  ],
+  "problem_solving": [
+    "If HPE is suspected on fetal US, confirm with fetal MRI to define severity.",
+    "Obtain karyotype/microarray (evaluate for trisomy 13/18) and consider gene panels (SHH, SIX3, etc.).",
+    "Postnatal MRI to classify (alobar, semilobar, lobar, MIH).",
+    "Evaluate for complications: assess pituitary function (diabetes insipidus, adrenal insufficiency), manage seizures, consult neurosurgery for hydrocephalus if present."
+  ],
+  "differentials": [
+    {
+      "name": "Agenesis of corpus callosum",
+      "hint": "Two separate hemispheres (no fused ventricle) but missing corpus callosum; normal appearance of lateral ventricles."
+    },
+    {
+      "name": "Septo-optic dysplasia",
+      "hint": "Optic nerve hypoplasia and absent septum pellucidum; milder midline defect without hemispheric fusion."
+    },
+    {
+      "name": "Hydranencephaly",
+      "hint": "Destructive loss of cerebral hemispheres (CSF-filled sac); macrocephaly and no brain tissue, differing from developmental fusion."
+    }
+  ],
+  "tricks": [
+    "HOLO prosencephaly = whole forebrain stays as one (one ventricle).",
+    "Sonic Hedgehog (SHH) mutations → HPE (Hedgehog → HPE mnemonic).",
+    "Cyclops (one eye) = think alobar HPE (one-ventricle brain).",
+    "13 (Patau) has HPE; recall '1 eye, 3 halves' for cyclopia."
+  ],
+  "exam_appearance": [
+    "Prenatal US: fused thalami + single ventricle → Holoprosencephaly.",
+    "Newborn with cyclopia (one eye) and proboscis → Alobar HPE.",
+    "Infant with cleft lip and hypotelorism, MRI shows partial hemispheric fusion → Semilobar HPE.",
+    "Toddler with a single central incisor and developmental delay → HPE microform."
+  ],
+  "algorithm": [
+    "Suspect HPE if facial midline defect or abnormal fetal brain ultrasound.",
+    "Perform fetal MRI to evaluate brain structure.",
+    "Obtain genetic studies (karyotype/microarray for trisomies; HPE gene panel for SHH, SIX3, etc.).",
+    "Manage complications: neurosurgical consult for hydrocephalus, endocrine for pituitary issues, and genetic counseling."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Holoprosencephaly_fetus_14_weeks_US_by_Dr._W._Moroder.jpg",
+      "alt": "Ultrasound of 14-week fetus with holoprosencephaly: a single midline ventricle (monoventricle) and absent interhemispheric fissure",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Holoprosencephaly_fetus_14_weeks_US_by_Dr._W._Moroder.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22-week fetal ultrasound shows a single large midline ventricle with fused thalami. The fetal face has a small proboscis above where the eyes should be.",
+      "clues": [
+        "Single brain ventricle",
+        "Fused thalami",
+        "Proboscis",
+        "Absent interhemispheric fissure"
+      ],
+      "answer": "Alobar holoprosencephaly",
+      "teaching": "Alobar HPE is the most severe form: one fused forebrain ventricle and severe facial defects (cyclopia/proboscis). Often linked to SHH pathway defects or trisomy 13."
+    },
+    {
+      "stem": "A 2-year-old has developmental delay and facial anomalies: a single central incisor and cleft palate. Brain MRI is essentially normal with no midline structures missing.",
+      "clues": [
+        "Single maxillary incisor",
+        "Cleft palate",
+        "Normal brain imaging"
+      ],
+      "answer": "Holoprosencephaly microform (mild variant)",
+      "teaching": "Microform HPE: isolated facial midline defects with normal brain. Check family history and HPE genes (e.g. SHH)."
+    }
+  ],
+  "see_also": ["anencephaly", "cleft-palate", "down-syndrome"],
+  "sources": [
+    {
+      "title": "StatPearls: Holoprosencephaly",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560861/"
+    },
+    {
+      "title": "Glista F et al. 2025: Recent advances in HPE (J Appl Genet)",
+      "url": "https://link.springer.com/article/10.1007/s13353-025-01017-8"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

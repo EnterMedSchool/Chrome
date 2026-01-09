@@ -1,0 +1,106 @@
+{
+  "id": "atrial-fibrillation",
+  "names": ["Atrial fibrillation"],
+  "aliases": ["A-fib"],
+  "abbr": ["AF"],
+  "patterns": ["af", "afib", "a fib", "atrial fibrillation", "atrial fib", "auricular fibrillation"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "endocrine"],
+  "definition": "A supraventricular tachyarrhythmia caused by chaotic atrial electrical activity leading to ineffective atrial contraction and an **irregularly irregular** ventricular rhythm (no distinct P waves on ECG).",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Atrial_Fibrillation.png",
+      "alt": "Illustration of atrial fibrillation with chaotic atrial activity (irregular electrical signals) and irregular, rapid ventricular response on ECG.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Atrial_Fibrillation.png"
+      }
+    }
+  ],
+  "why_it_matters": "Most common sustained arrhythmia; associated with ≈5× higher **stroke** risk (atrial clots can embolize) and increased mortality. Can also cause **heart failure** (tachycardia-mediated cardiomyopathy) if uncontrolled. Frequent exam topic linking arrhythmia to stroke prevention.",
+  "how_youll_see_it": [
+    "Symptoms range from **palpitations**, anxiety, shortness of breath, or lightheadedness to **syncope** – or even **asymptomatic** (incidental). Pulse is classically **irregularly irregular**; apex heart rate may exceed peripheral pulse rate (pulse deficit).",
+    "Often in older patients with **hypertension** or structural heart disease (**coronary artery disease**, **heart failure**, valvular disease like rheumatic mitral stenosis). Other triggers: acute illness or infection, **thyrotoxicosis** (new AF + weight loss/tremor → check TSH), **alcohol binge** ('holiday heart'), surgery, pulmonary embolism."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with **ECG** (absent P waves, irregularly spaced QRS complexes). Evaluate for precipitating causes: check **TSH** (hyperthyroidism), electrolytes, etc.",
+    "Assess stability: if **hemodynamic instability** (hypotension, acute heart failure, angina) → immediate **synchronized cardioversion**.",
+    "If stable: initiate **rate control** (e.g., IV beta blocker or diltiazem for rapid AF; **digoxin** if hypotensive or in systolic HF). Consider **rhythm control** (antiarrhythmics or elective cardioversion) for persistent symptoms, difficulty controlling rate, or in younger patients.",
+    "Estimate stroke risk with **CHA₂DS₂-VASc** score and decide on anticoagulation. Generally, ≥2 (men) or ≥3 (women) → chronic anticoagulation indicated (barring contraindications).",
+    "Perform a **transthoracic echocardiogram** to identify structural heart disease (e.g., valve stenosis, left atrial enlargement) and help guide management. If AF duration >48 h before planned cardioversion, patient needs 3 weeks of anticoagulation or a transesophageal echo to exclude atrial clot."
+  ],
+  "differentials": [
+    { "id": "atrial-flutter", "hint": "sawtooth atrial **flutter waves** (~300 bpm) often with regular 2:1 conduction (ventricular rate ~150)" },
+    { "name": "Multifocal atrial tachycardia", "hint": "irregular atrial rhythm but with **≥3 distinct P-wave morphologies** on ECG (classically in COPD)" }
+  ],
+  "tricks": [
+    "Clue: **Hyperthyroidism** often presents as new-onset AF – always check a **TSH** level.",
+    "Mnemonic: **CHA₂DS₂-VASc** for stroke risk factors in AF: **C**HF, **H**ypertension, **A**ge ≥75 (2 points), **D**iabetes, **S**troke/TIA (2), **V**ascular disease, **A**ge 65–74, **S**ex Category (female).",
+    "Irregularly irregular pulse with no P waves = **atrial fibrillation** until proven otherwise."
+  ],
+  "exam_appearance": [
+    "Elderly patient with long-standing hypertension and diabetes, now with palpitations, an irregularly irregular heartbeat, and absent P waves on ECG → **Atrial fibrillation** (rate control and anticoagulate as indicated).",
+    "Middle-aged patient with **weight loss**, tremor, and tachycardia is found to have AF → AF secondary to **thyrotoxicosis** (check TSH; treat the hyperthyroidism and use beta blockers).",
+    "Otherwise healthy adult with an episode of AF after heavy **alcohol** intake (holiday celebration) → 'Holiday heart' syndrome (paroxysmal AF triggered by alcohol binge)."
+  ],
+  "treatment": [
+    "Rate control: **β-blockers** (e.g., metoprolol) or non-dihydropyridine **calcium channel blockers** (diltiazem) to slow AV conduction (goal <110 bpm at rest). Add **digoxin** in refractory cases or if concomitant HFrEF.",
+    "Rhythm control: consider **cardioversion** (electrical or pharmacologic) for new-onset or symptomatic AF. Antiarrhythmics (e.g., flecainide, sotalol, amiodarone) or catheter ablation can be used to maintain sinus rhythm in recurrent AF, especially in younger patients.",
+    "Anticoagulation: indicated for stroke prevention in eligible patients (per CHA₂DS₂-VASc). **DOACs** (direct oral anticoagulants like apixaban) are first-line for non-valvular AF. Use **warfarin** in valvular AF (e.g., mechanical valve or rheumatic MS)."
+  ],
+  "red_flags": [
+    "AF with **hemodynamic instability** (hypotension, pulmonary edema, chest pain) → emergency synchronized **cardioversion** is required.",
+    "AF with **WPW (Wolff-Parkinson-White)**: irregular wide-complex tachycardia → avoid AV nodal blockers (risk of VF); use **procainamide** or immediate cardioversion."
+  ],
+  "algorithm": [
+    "Irregularly irregular pulse → get **ECG** to confirm AF (no P waves).",
+    "Unstable patient (hypotension, etc) → **immediate cardioversion**.",
+    "Stable → control **rate** (AV nodal blocker); consider rhythm control if needed (e.g., cardioversion).",
+    "Assess **CHA₂DS₂-VASc** stroke risk → if elevated, start anticoagulation (prefer DOACs).",
+    "Investigate underlying causes: check **TSH**, echo for structural heart disease; manage reversible triggers (e.g., stop alcohol)."
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with hypertension and diabetes is evaluated for fatigue and an irregular heartbeat.",
+      "clues": ["Pulse is \"irregularly irregular\"", "ECG: no distinct P waves, variable R-R intervals", "Heart rate ~130/min"],
+      "answer": "Atrial fibrillation",
+      "teaching": "AF is identified by an irregularly irregular rhythm without P waves. Common in older patients with HTN/DM. Management involves rate control (e.g., beta blocker) and anticoagulation based on stroke risk."
+    },
+    {
+      "stem": "A 45‑year‑old woman with weight loss, fine tremor, and insomnia develops new-onset rapid irregular palpitations.",
+      "clues": ["Irregularly irregular tachycardia", "Low TSH level"],
+      "answer": "Atrial fibrillation due to hyperthyroidism",
+      "teaching": "Thyrotoxicosis (hyperthyroidism) is a reversible cause of AF. Treat the underlying hyperthyroidism (e.g., thionamides) and use beta blockers for rate control."
+    },
+    {
+      "stem": "A 30‑year‑old man has an episode of heart palpitations the morning after an alcohol binge at a party.",
+      "clues": ["Irregularly irregular pulse", "ECG confirms atrial fibrillation", "No other cardiac history"],
+      "answer": "Paroxysmal atrial fibrillation (\"Holiday heart\" syndrome)",
+      "teaching": "Excess alcohol intake can trigger AF in healthy individuals (holiday heart). These paroxysmal AF episodes often self-convert, but the patient should be evaluated and counseled on risk of recurrence."
+    }
+  ],
+  "see_also": ["heart-failure", "hyperthyroidism", "stroke", "congestive-heart-failure", "wolff-parkinson-white-syndrome", "myocardial-infarction"],
+  "prerequisites": ["cardiac-physiology", "electrocardiogram"],
+  "sources": [
+    {
+      "title": "StatPearls: Atrial Fibrillation (Nesheiwat, Goyal & Jagtap, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526072/"
+    },
+    {
+      "title": "UpToDate: Atrial fibrillation – Overview and management of new-onset AF",
+      "url": "https://www.uptodate.com/contents/atrial-fibrillation-overview-and-management-of-new-onset-atrial-fibrillation"
+    },
+    {
+      "title": "Atrial Fibrillation (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/151066-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

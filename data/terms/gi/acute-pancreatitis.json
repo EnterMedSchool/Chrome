@@ -1,0 +1,116 @@
+{
+  "id": "acute-pancreatitis",
+  "names": ["Acute pancreatitis"],
+  "aliases": ["acute pancreatic inflammation"],
+  "abbr": ["AP"],
+  "patterns": ["acute pancreatitis", "pancreatitis", "acute pancreatic inflammation"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "emerg"],
+  "definition": "Acute inflammation of the pancreas due to premature enzyme activation causing autodigestion of pancreatic tissue; typically triggered by a gallstone blockage or heavy alcohol use.",
+  "why_it_matters": "It's a common GI hospitalization (≈275,000 US admissions/year) and can be life-threatening if severe. Severe cases lead to systemic inflammatory response (SIRS), multi-organ failure (e.g., ARDS, shock, renal failure) and high mortality (up to 20% with necrosis). Frequently tested due to its classic presentation and multi-system complications.",
+  "how_youll_see_it": [
+    "Epigastric pain that is sudden, intense, and often radiates to the back, usually with nausea and vomiting. Pain may improve when sitting up or leaning forward.",
+    "Common triggers: a large fatty meal (gallstone migration) or an alcohol binge. Gallstone pancreatitis is more common in women (especially >40, with gallstones), whereas alcohol-related pancreatitis is more common in men.",
+    "Exam: abdominal tenderness (upper abdomen) with guarding; may have low-grade fever, tachycardia. In severe hemorrhagic pancreatitis, look for Cullen sign (bruising around umbilicus) or Grey Turner sign (flank bruising), which indicate internal bleeding."
+  ],
+  "problem_solving": [
+    "Diagnosis requires 2 of 3 criteria: (1) characteristic epigastric pain, (2) serum amylase or lipase >3× upper limit of normal, (3) imaging evidence on CT/MRI/ultrasound. Typically, pain + enzyme elevation suffices; imaging is reserved for unclear cases or detecting complications.",
+    "Obtain labs: serum lipase (preferred; more sensitive and specific than amylase) is usually markedly elevated. Check liver enzymes – an ALT >150 U/L strongly suggests gallstone pancreatitis. Also measure triglycerides (if >1000 mg/dL can be causal), calcium (hypercalcemia can cause pancreatitis), and CBC, BUN, CRP to assess severity.",
+    "Identify the cause: perform a right upper quadrant ultrasound on admission to detect gallstones or bile duct dilatation. Review medications for possible drug-induced pancreatitis, and consider ERCP if cholangitis or a bile duct stone is suspected (e.g., jaundice, cholestatic labs).",
+    "Assess severity early: monitor for SIRS (fever, tachycardia, tachypnea, leukocytosis) and organ function. Persistent organ failure >48 hours = severe pancreatitis. Scoring systems (e.g., Ranson's criteria, BISAP, APACHE-II) can help prognosticate, but none are perfectly predictive.",
+    "Don't forget complications: if pain persists or patient deteriorates, get a contrast CT scan (ideally after 48–72 hours) to check for necrosis or fluid collections. Look for signs of pancreatic necrosis or abscess (fever, rising WBC, worsening pain) – these may require intervention."
+  ],
+  "differentials": [
+    { "name": "Perforated peptic ulcer", "hint": "sudden severe pain with peritonitis; free air under diaphragm on X-ray" },
+    { "name": "Acute cholecystitis", "hint": "RUQ pain radiating to shoulder, positive Murphy sign; gallbladder inflammation without high pancreatic enzymes" },
+    { "name": "Myocardial infarction (inferior)", "hint": "can present as epigastric pain with nausea; ECG and troponin to distinguish" },
+    { "name": "Mesenteric ischemia", "hint": "pain out of proportion to exam, often in elderly or A-fib; bloody stool possible, diagnose with CT angiography" }
+  ],
+  "tricks": [
+    "Mnemonic: I GET SMASHED for causes of pancreatitis – Idiopathic, Gallstones, Ethanol (alcohol), Trauma, Steroids, Mumps (infections), Autoimmune, Scorpion sting, Hypertriglyceridemia/Hypercalcemia, ERCP, Drugs.",
+    "Lipase > amylase: Lipase rises earlier, peaks higher, and stays elevated longer, making it more accurate for pancreatitis (so ordering amylase adds little).",
+    "After ~3–4 weeks, a new enlarging abdominal mass with high amylase levels suggests a pancreatic pseudocyst (late complication containing pancreatic fluid)."
+  ],
+  "exam_appearance": [
+    "Overweight female in her 40s with known gallstones develops excruciating epigastric pain radiating to the back after a heavy meal, with vomiting and markedly elevated lipase → acute pancreatitis (gallstone etiology).",
+    "Chronic alcoholic with epigastric pain, nausea, and serum lipase ~5× normal → acute pancreatitis due to alcohol (often after binge drinking; may progress to recurrent episodes)."
+  ],
+  "treatment": [
+    "Aggressive IV fluid resuscitation (usually Lactated Ringer's) to maintain perfusion and urine output. Monitor closely to avoid fluid overload.",
+    "NPO (bowel rest) initially, but start enteral feeding as soon as tolerated (within 24–48 hours) – early oral nutrition is beneficial. Advance to a low-fat diet once pain improves.",
+    "Adequate pain control with IV opioids (e.g., hydromorphone or fentanyl; avoid meperidine due to toxicity). Consider antiemetics and NG suction if severe ileus.",
+    "No prophylactic antibiotics for acute pancreatitis – only use antibiotics if there's infection (e.g., infected necrosis proven or strongly suspected). For infected pancreatic necrosis, antibiotics that penetrate pancreatic tissue (e.g., carbapenems) are used, and surgical or endoscopic debridement may be needed.",
+    "Gallstone pancreatitis: if cholangitis or obstructed bile duct is present, do urgent ERCP to relieve the blockage. Once patient stabilizes, perform cholecystectomy during the same hospitalization to prevent recurrence.",
+    "Address underlying causes: strict alcohol abstinence for alcoholic pancreatitis (and counseling to prevent recurrence), triglyceride-lowering therapy for hypertriglyceridemia (insulin infusion or plasmapheresis if TG >1000), and discontinue any offending drugs."
+  ],
+  "red_flags": [
+    "Cullen or Grey Turner sign (blue discoloration around umbilicus or flanks) – indicates hemorrhagic pancreatitis with internal bleeding.",
+    "Signs of systemic organ failure (persistent hypotension/shock, PaO₂ drop from ARDS, oliguria or rising creatinine) → indicates severe pancreatitis; needs ICU care and aggressive management."
+  ],
+  "algorithm": [
+    "Severe epigastric pain (± back radiation) in a patient with gallstone risk factors or heavy alcohol use → suspect acute pancreatitis.",
+    "Obtain pancreatic enzymes: if lipase or amylase ≥3× normal and characteristic pain, you can confirm diagnosis. (If enzymes are normal but suspicion remains high, proceed to imaging.)",
+    "Initial imaging: do an abdominal ultrasound to check for gallstones or bile duct dilatation. If diagnosis is unclear or patient is not improving, get a contrast CT scan to confirm pancreatitis and evaluate complications.",
+    "Risk stratify: monitor vital signs and labs for SIRS. Consider ICU transfer if any organ failure develops. Use scoring tools (Ranson, BISAP, etc.) as adjuncts to predict severe course.",
+    "Begin supportive care immediately: vigorous IV fluids, NPO, pain control, electrolyte management. If gallstone pancreatitis with cholangitis (fever, jaundice) or persistent duct stone, perform ERCP emergently. Arrange for elective cholecystectomy prior to discharge for gallstone cases.",
+    "Follow up on complications: e.g., if a fluid collection persists >4 weeks, evaluate for pseudocyst; if infected necrosis, plan for antibiotics and eventual drainage or necrosectomy in a multi-disciplinary approach."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/3D_Medical_Animation_Acute_Pancreatitis.jpg",
+      "alt": "3D illustration of an inflamed pancreas (acute pancreatitis) with a gallstone obstructing the pancreatic duct.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_Acute_Pancreatitis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 42‑year‑old woman with a history of gallstones presents with sudden severe epigastric pain radiating to her back.",
+      "clues": [
+        "Pain began after a large fatty meal",
+        "Repeated vomiting since onset of pain",
+        "Epigastric tenderness on exam",
+        "Serum lipase is 5× normal",
+        "Ultrasound: gallstones in gallbladder"
+      ],
+      "answer": "Acute pancreatitis (gallstone pancreatitis)",
+      "teaching": "A gallstone transiently obstructing the ampulla can trigger acute pancreatitis by blocking pancreatic enzyme drainage. The classic presentation is epigastric pain after a heavy meal in a patient with cholelithiasis. Treatment would include IV fluids, bowel rest, analgesia, and eventually removing the gallbladder to prevent recurrence."
+    }
+  ],
+  "see_also": [
+    "chronic-pancreatitis",
+    "acute-cholecystitis",
+    "gallstones",
+    "choledocholithiasis",
+    "peptic-ulcer-disease",
+    "zollinger-ellison-syndrome"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Acute Pancreatitis (Wang et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482468/"
+    },
+    {
+      "title": "UpToDate: Management of acute pancreatitis (Gardner TB et al., 2025)",
+      "url": "https://www.uptodate.com/contents/management-of-acute-pancreatitis"
+    },
+    {
+      "title": "ACG Clinical Guideline: Pancreatitis (Acute) – Tenner et al., 2024",
+      "url": "https://gi.org/guideline/pancreatitis-acute-guideline-2024"
+    },
+    {
+      "title": "New England Journal of Medicine: Acute Pancreatitis (Forsmark CE et al., 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27863131/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

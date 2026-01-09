@@ -1,0 +1,116 @@
+{
+  "id": "diabetes-insipidus",
+  "names": ["Diabetes insipidus"],
+  "aliases": ["central diabetes insipidus", "nephrogenic diabetes insipidus", "arginine vasopressin deficiency", "arginine vasopressin resistance"],
+  "abbr": ["DI", "CDI", "NDI"],
+  "patterns": ["diabetes insipidus", "central diabetes insipidus", "nephrogenic diabetes insipidus", "DI", "vasopressin deficiency", "vasopressin resistance"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "renal", "pharmacology"],
+  "definition": "Disorder of water balance causing excretion of large volumes of dilute urine due to insufficient ADH (central DI) or renal insensitivity to ADH (nephrogenic DI).",
+  "why_it_matters": "Important cause of polyuria/polydipsia that is often confused with diabetes mellitus; if untreated, DI can lead to life‑threatening dehydration and hypernatremia. Often tested alongside SIADH as an opposite water-balance disorder.",
+  "how_youll_see_it": [
+    "Polyuria (excessive urination, e.g. >3 L/day) and polydipsia (intense thirst with craving for cold water) are hallmark; may present with dehydration or hypernatremia if fluid intake is insufficient.",
+    "Central DI: typically sudden onset after events like head trauma, neurosurgery (e.g. pituitary tumor resection), or due to tumors (craniopharyngioma) or infiltrative diseases (e.g. sarcoidosis) destroying ADH-producing cells. Patients produce very dilute urine and often wake up to drink (nocturia).",
+    "Nephrogenic DI: often gradual onset; causes include drugs (chronic lithium therapy, demeclocycline), metabolic conditions (hypercalcemia, hypokalemia), kidney diseases (obstruction, interstitial nephritis), or hereditary mutations (X-linked AVPR2 gene). Infants with congenital NDI present with irritability, poor feeding, and failure to thrive due to dehydration."
+  ],
+  "problem_solving": [
+    "Confirm true polyuria (collect 24 h urine >3 L) and rule out common causes: check urinalysis for glucose (exclude diabetes mellitus) and review medications (diuretics).",
+    "Measure urine and serum osmolality: in DI, urine Osm is inappropriately low (<300 mOsm/kg) despite high-normal or elevated serum Osm/Na (due to free water loss).",
+    "Water deprivation test: withhold fluids and monitor urine output/osm. In primary polydipsia, urine will concentrate (↑Osm) as dehydration sets in; in DI, urine remains dilute with high volume.",
+    "Administer desmopressin (ADH analog) after water deprivation: if urine osmolality rises significantly (usually >50% increase) and polyuria resolves, it indicates central DI (patient's ADH was deficient and is replaced by desmopressin); if there is minimal change, it indicates nephrogenic DI (kidneys cannot respond to ADH).",
+    "Investigate underlying cause based on history: e.g., recent pituitary surgery or trauma (central), lithium or other nephrotoxic drugs (nephrogenic); perform MRI if a central lesion is suspected."
+  ],
+  "differentials": [
+    {
+      "name": "Diabetes mellitus",
+      "hint": "Polyuria from osmotic diuresis due to hyperglycemia; urine has high specific gravity and glucose present (unlike DI)."
+    },
+    {
+      "name": "Primary polydipsia (dipsogenic)",
+      "hint": "Excessive water intake (often psychiatric); causes polyuria with hyponatremia; in water deprivation test, urine concentrates normally (not DI)."
+    },
+    {
+      "name": "SIADH",
+      "hint": "Opposite of DI: excess ADH → low urine output, concentrated urine, hyponatremia (body water retained instead of lost)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: DI = \"Dry Inside\", SIADH = \"Soaked Inside\" – DI causes water loss and potential dehydration (high sodium), whereas SIADH causes water retention and low sodium.",
+    "Think lithium for Nephrogenic DI (lithium commonly causes NDI). In a patient on lithium with polyuria, suspect NDI, which won't improve with desmopressin."
+  ],
+  "exam_appearance": [
+    "Postoperative neurosurgery patient with abrupt onset of intense thirst, polyuria, hypernatremia, and very low urine specific gravity → central DI (ADH deficiency from pituitary damage).",
+    "Patient with bipolar disorder on chronic lithium presenting with polyuria and slightly elevated Na; water deprivation test shows no change in urine osm, and desmopressin administration has no effect → nephrogenic DI from lithium."
+  ],
+  "treatment": [
+    "Central DI: Desmopressin (DDAVP) is first-line (replaces ADH; given intranasally or oral); ensure adequate free water intake. Treat underlying cause if possible (e.g., remove tumor).",
+    "Nephrogenic DI: Remove/avoid offending agents (e.g., discontinue lithium); dietary salt/protein restriction to reduce urine output. Use thiazide diuretics (paradoxically decrease polyuria via increased proximal water reabsorption) and NSAIDs (e.g., indomethacin to reduce renal blood flow and GFR, thus improving water reabsorption). Amiloride can help if lithium-induced (blocks lithium entry into collecting duct cells)."
+  ],
+  "red_flags": [
+    "Signs of severe hypernatremia and dehydration (confusion, seizures, coma, hypotension) in DI indicate an emergency – requires prompt IV fluid resuscitation and, for central DI, ADH replacement to prevent brain damage or death.",
+    "Patients unable to drink (infants, unconscious, postoperative) are at high risk: untreated DI in these cases can rapidly lead to volume depletion, shock, and hypernatremic encephalopathy. Monitor urine output & labs closely in at-risk patients."
+  ],
+  "algorithm": [
+    "Polyuria + polydipsia present → confirm urine volume >3 L/day and check glucose to rule out diabetes mellitus.",
+    "If urine is very dilute (specific gravity <1.005, urine Osm <300) despite elevated or high-normal serum osmolarity, suspect DI vs primary polydipsia.",
+    "Perform water deprivation test: if patient cannot concentrate urine (urine remains dilute) even when dehydrated, this confirms DI (whereas in psychogenic polydipsia, urine would concentrate and volume would drop).",
+    "Give desmopressin: if urine osmolarity quickly rises and urine volume drops after ADH analog → central DI (ADH deficiency); if little to no response → nephrogenic DI (kidneys not responding to ADH)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2710_Aquaporins-01.jpg",
+      "alt": "Illustration of aquaporin water channels being inserted into a kidney collecting duct cell under the influence of ADH, allowing water reabsorption from urine.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:2710_Aquaporins-01.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 34‑year‑old woman, two days after transsphenoidal surgery for a pituitary adenoma, reports constant thirst and urinating every hour.",
+      "clues": [
+        "Recent pituitary surgery",
+        "Urine output 8 L/day of very dilute urine",
+        "Serum sodium 152 mEq/L (high)",
+        "Marked improvement with desmopressin administration"
+      ],
+      "answer": "Central diabetes insipidus",
+      "teaching": "Damage to the posterior pituitary from surgery caused ADH deficiency, leading to massive water loss (DI). Desmopressin (ADH analog) replaces the missing hormone and will concentrate the urine. Monitor closely after pituitary surgery to avoid dehydration."
+    },
+    {
+      "stem": "A 40‑year‑old man with bipolar disorder on long-term lithium therapy has excessive thirst and frequent urination.",
+      "clues": [
+        "Lithium use for many years",
+        "Urine remains dilute despite water restriction",
+        "No change in urine output or osmolarity after desmopressin"
+      ],
+      "answer": "Nephrogenic diabetes insipidus (lithium-induced)",
+      "teaching": "Lithium damages the kidney's ability to respond to ADH, causing nephrogenic DI. In this case, giving desmopressin has no effect. Management involves stopping lithium if possible, and using measures like thiazide diuretics and NSAIDs to reduce urine output."
+    }
+  ],
+  "see_also": ["diabetes-mellitus", "syndrome-of-inappropriate-antidiuretic-hormone-secretion"],
+  "prerequisites": ["renal-physiology", "pituitary-gland"],
+  "sources": [
+    {
+      "title": "StatPearls: Arginine Vasopressin Disorder (Diabetes Insipidus) (Hui & Khan, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470458/"
+    },
+    {
+      "title": "UpToDate: Diabetes insipidus – clinical presentation and diagnosis",
+      "url": "https://www.uptodate.com/contents/diabetes-insipidus"
+    },
+    {
+      "title": "Diabetes Insipidus (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/117648-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

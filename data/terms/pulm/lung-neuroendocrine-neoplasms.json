@@ -1,0 +1,143 @@
+{
+  "id": "lung-neuroendocrine-neoplasms",
+  "names": [
+    "Lung neuroendocrine neoplasms"
+  ],
+  "aliases": [
+    "pulmonary neuroendocrine tumors",
+    "lung carcinoid tumors",
+    "small cell lung cancer",
+    "large cell neuroendocrine carcinoma"
+  ],
+  "abbr": [
+    "Lung NENs"
+  ],
+  "patterns": [
+    "lung NEN",
+    "pulmonary NET",
+    "lung carcinoid",
+    "small cell lung carcinoma",
+    "LCNEC"
+  ],
+  "primary_tag": "pulm",
+  "tags": [
+    "pathology",
+    "pulm",
+    "heme_onc"
+  ],
+  "definition": "Group of lung tumors arising from neuroendocrine cells, ranging from indolent **carcinoid** tumors (typical and atypical) to highly aggressive **small cell** and **large cell** neuroendocrine carcinomas.",
+  "why_it_matters": "Lung NENs account for ~20% of lung cancers (SCLC ~15%, carcinoids ~2%, LCNEC ~3%). They span some of the best and worst prognoses in pulmonary oncology – e.g. low-grade carcinoids often curable, versus small cell lung cancer (one of the most aggressive malignancies). Many have unique features like **paraneoplastic syndromes** (ectopic ACTH, SIADH) that make them high-yield for exams.",
+  "how_youll_see_it": [
+    "**Carcinoid tumors (typical & atypical):** usually patients <60 and often non-smokers; present as central airway masses causing cough, wheezing, hemoptysis, or recurrent pneumonia from bronchial obstruction. Many are found incidentally on imaging; true **carcinoid syndrome** (flushing, diarrhea, bronchospasm) is rare (<3%) in lung carcinoids.",
+    "**Small cell lung carcinoma (SCLC):** occurs almost exclusively in heavy smokers (typically in their 60s–70s). Presents with a central lung mass, early metastases, weight loss, and often **paraneoplastic** phenomena (e.g., Cushing syndrome from ACTH, **SIADH** with hyponatremia, or **Lambert–Eaton** myasthenic syndrome).",
+    "**Large cell neuroendocrine carcinoma (LCNEC):** a rare high-grade NSCLC variant in older smokers, often appearing as a large peripheral mass. Clinically behaves like SCLC (aggressive growth, poor prognosis), though it may be identified after surgical resection of what was thought to be NSCLC."
+  ],
+  "problem_solving": [
+    "**Imaging + biopsy:** Investigate persistent pulmonary symptoms or nodules with chest **CT** and obtain tissue diagnosis. Use **bronchoscopy** for central lesions or CT-guided needle biopsy for peripheral lesions. Pathology will show neuroendocrine morphology; confirm with immunohistochemistry (**chromogranin A**, **synaptophysin**, **CD56**).",
+    "**Grade the tumor:** Determine mitotic count (per 2 mm²) and look for necrosis to classify the tumor: **typical carcinoid** (<2 mitoses, no necrosis), **atypical carcinoid** (2–10 mitoses or focal necrosis), or **high-grade NEC** (>10 mitoses, extensive necrosis). If biopsy is small/crushed, use the **Ki-67** labeling index to help gauge proliferation.",
+    "**Evaluate hormone production:** If symptoms suggest hormonal syndrome, check relevant labs (e.g., 24-hr urine **5-HIAA** for carcinoid syndrome, serum **ACTH/cortisol** for ectopic Cushing). Note that most lung NETs are \"functional\" only in a minority of cases.",
+    "**Staging work-up:** Do a thorough metastasis evaluation once diagnosis is confirmed. This includes CT (or PET-CT) scans of chest/abdomen, brain MRI, and bone scan if needed. Well-differentiated tumors may also be imaged with somatostatin receptor scintigraphy (octreotide or Gallium-68 DOTATATE scan) to detect occult metastases."
+  ],
+  "differentials": [
+    {
+      "name": "Squamous cell carcinoma of lung",
+      "hint": "another central smoker-associated lung cancer; lacks NE markers; often causes **PTHrP**-mediated hypercalcemia (not SIADH)"
+    },
+    {
+      "name": "Pulmonary hamartoma",
+      "hint": "benign coin lesion (popcorn calcifications on imaging); usually asymptomatic/incidental"
+    },
+    {
+      "name": "Metastatic neuroendocrine tumor",
+      "hint": "e.g., a carcinoid from GI tract that spread to lung – consider if multiple lung nodules or history of NET elsewhere"
+    }
+  ],
+  "tricks": [
+    "Recurrent **localized pneumonia** or **asthma-like** symptoms (wheezing) in a non-smoker should prompt evaluation for a bronchial carcinoid blocking an airway.",
+    "Bronchial carcinoids are highly **vascular** (\"raspberry\" red lesion); biopsy can cause bleeding – be prepared to control hemorrhage.",
+    "Carcinoid tumors rarely cause carcinoid syndrome in the lung – paradoxically, **ectopic Cushing** (ACTH) is more common. Don't jump to flushing/diarrhea unless the case clearly suggests it.",
+    "**SCLC is usually not treated with surgery** – if an answer choice offers surgery for a smoker's small cell tumor, it's likely a trap (surgery is only for extremely limited cases)."
+  ],
+  "exam_appearance": [
+    "Middle-aged **non-smoker** with recurrent pneumonia in the same lobe, wheezing not responding to asthma therapy, and hemoptysis → **Bronchial carcinoid** (central vascular tumor causing airway obstruction).",
+    "Older **heavy smoker** with a rapidly growing hilar mass, weight loss, and **hyponatremia** (paraneoplastic SIADH) → **Small cell lung carcinoma**."
+  ],
+  "treatment": [
+    "**Carcinoid (typical/atypical):** first-line is surgical resection (often curative for localized disease). Atypical carcinoids (higher grade or nodal spread) may receive adjuvant **platinum-etoposide chemotherapy**. Metastatic carcinoid tumors can be managed with somatostatin analogs (octreotide/lanreotide) to control symptoms and targeted therapies (e.g., **everolimus**) to slow tumor growth.",
+    "**Small cell lung cancer:** primarily treated with **chemotherapy** (e.g., cisplatin or carboplatin + etoposide) and **radiation** therapy. Surgery is rarely an option (only in very limited stage SCLC). SCLC responds initially to chemo but often recurs; prognosis remains poor.",
+    "**Large cell neuroendocrine carcinoma:** if diagnosed at limited stage, treat similar to other NSCLC (surgical resection followed by adjuvant chemo). For advanced LCNEC, therapy mirrors SCLC (platinum-based chemo), recognizing its high metastatic potential."
+  ],
+  "red_flags": [
+    "Severe **hyponatremia** in a lung cancer patient (e.g., Na <120) suggests paraneoplastic SIADH – can cause confusion, seizures, and requires urgent management (fluid restriction, hypertonic saline) along with cancer therapy.",
+    "Carcinoid tumor during surgery or biopsy can precipitate **carcinoid crisis** (flushing, bronchospasm, hemodynamic instability); ensure prophylaxis with octreotide and have vasoactive support ready if needed."
+  ],
+  "algorithm": [
+    "Pulmonary nodule or suspicious symptoms → **CT chest** to localize lesion; consider **bronchoscopy** if central.",
+    "If a lung NE tumor is suspected → obtain **biopsy** for definitive diagnosis (with NE marker studies and Ki-67 index for grading).",
+    "After diagnosis of lung NEN → perform **staging** (CT/PET scans, brain MRI) to determine extent of disease.",
+    "Localized well-differentiated tumor → **surgery** (preferred for carcinoids, and even for LCNEC if resectable). High-grade or metastatic disease → **systemic therapy** (chemotherapy ± radiotherapy); add **octreotide** for functional symptoms."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old woman with no smoking history has had months of cough, wheezing, and right middle lobe pneumonia that improved with antibiotics but keeps recurring. She now develops hemoptysis. Bronchoscopy reveals a reddish, vascular mass obstructing the right middle lobe bronchus.",
+      "clues": [
+        "Non-smoker, age 45",
+        "Recurrent right middle lobe pneumonia",
+        "Wheezing and hemoptysis",
+        "Endobronchial pink polypoid mass on bronchoscopy"
+      ],
+      "answer": "Typical bronchial carcinoid tumor",
+      "teaching": "This is a classic presentation of a pulmonary carcinoid tumor causing bronchial obstruction. Carcinoids are well-differentiated neuroendocrine tumors; in the lung they often present with localized wheezing or recurrent pneumonia. Treatment is surgical resection, and prognosis is excellent for typical carcinoid. Notably, carcinoid syndrome is very uncommon in bronchial carcinoids."
+    },
+    {
+      "stem": "A 68‑year‑old man with a 50 pack‑year smoking history presents with weight loss, fatigue, and confusion. Laboratory tests show serum sodium of 122 mM. Chest imaging reveals a bulky hilar lung mass with mediastinal lymphadenopathy.",
+      "clues": [
+        "Heavy smoker, 50 pack-years",
+        "Weight loss and fatigue",
+        "Severe hyponatremia (Na 122)",
+        "Central lung mass with lymphadenopathy"
+      ],
+      "answer": "Small cell lung carcinoma (paraneoplastic SIADH)",
+      "teaching": "This is suggestive of small cell lung cancer in a smoker, complicated by a paraneoplastic SIADH causing hyponatremia (confusion). SCLC is a high-grade neuroendocrine carcinoma that often secretes hormones (like ADH or ACTH). It is treated with chemotherapy and radiation (surgery is rarely used), but carries a poor prognosis."
+    }
+  ],
+  "see_also": [
+    "carcinoid-syndrome",
+    "pneumonia",
+    "tuberculosis"
+  ],
+  "prerequisites": [
+    "respiratory-system",
+    "neoplasia"
+  ],
+  "sources": [
+    {
+      "title": "WHO Classification of Tumours: Thoracic Tumours (5th ed., 2021)",
+      "url": "https://publications.iarc.fr/597"
+    },
+    {
+      "title": "UpToDate: Lung neuroendocrine (carcinoid) tumors – Epidemiology, classification, and diagnosis",
+      "url": "https://www.uptodate.com/contents/lung-neuroendocrine-carcinoid-tumors-epidemiology-risk-factors-classification-histology-diagnosis-and-staging"
+    },
+    {
+      "title": "Modern Pathology (2022): Lung neuroendocrine neoplasms – recent progress and challenges (Rekhtman)",
+      "url": "https://www.nature.com/articles/s41379-021-00943-2"
+    },
+    {
+      "title": "StatPearls: Thoracic Neuroendocrine Tumors (Chandrasoma & Cusumano, updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537080/"
+    },
+    {
+      "title": "Merck Manual: Bronchial Carcinoid Tumors (Keith & Rivera, reviewed 2023)",
+      "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/tumors-of-the-lungs/bronchial-carcinoid"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

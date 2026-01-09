@@ -1,0 +1,108 @@
+{
+  "id": "tetanus",
+  "names": ["Tetanus"],
+  "aliases": ["lockjaw"],
+  "abbr": [],
+  "patterns": ["tetanus", "lock jaw", "lockjaw", "clostridium tetani infection"],
+  "primary_tag": "infectious_dz",
+  "tags": ["micro_bacteria", "infectious_dz", "neuro"],
+  "definition": "Life-threatening neurologic illness caused by *Clostridium tetani* exotoxin (**tetanospasmin**), characterized by muscle rigidity and intense spasms (classically beginning with **lockjaw**).",
+  "why_it_matters": "Despite being vaccine-preventable, tetanus still causes fatalities in under-immunized patients and resource-poor regions. Early recognition is critical for timely treatment (airway support, antitoxin) and is a classic exam scenario highlighting wound management and immunization status.",
+  "how_youll_see_it": [
+    "**Trismus** (lockjaw) is usually the first symptom, along with neck stiffness and dysphagia, appearing about a week after an injury. The muscle rigidity then generalizes downward, causing board-like abdominal wall and limb stiffness.",
+    "Facial muscle contraction produces a forced grin (**risus sardonicus**) and severe extensor spasms can lead to **opisthotonus** (exaggerated arching of the back) in advanced cases.",
+    "Spasms are extremely painful and often triggered by minor stimuli (e.g. light, noise, touch). Importantly, patients remain **conscious** and have **no sensory deficits** during these episodes (tetanus affects motor neurons, not sensory)."
+  ],
+  "problem_solving": [
+    "Suspect tetanus in any patient with a recent wound and new-onset **jaw stiffness or muscle spasms** – especially if they have not been fully vaccinated. Diagnosis is **clinical** (no rapid lab test), so begin treatment promptly rather than waiting for cultures.",
+    "Management requires addressing four priorities: **remove the source** (aggressive wound debridement + antibiotics), **neutralize the toxin** (give antitoxin **TIG**), **control muscle spasms** (benzodiazepines as first-line), and **support vital functions** (airway protection, quiet environment)."
+  ],
+  "differentials": [
+    { "name": "Strychnine poisoning", "hint": "Similar convulsive muscle spasms but lacks the autonomic dysfunction of tetanus; usually from ingesting rodent poison or tainted drugs." },
+    { "name": "Acute dystonic reaction", "hint": "Drug-induced muscle contractions (e.g. neck/jaw dystonia from antipsychotics) can mimic lockjaw, but occurs in context of medication use and without a wound or generalized spasms." },
+    { "name": "Hypocalcemic tetany", "hint": "Muscle cramps/tetany from low calcium can cause carpal spasms and paresthesias, but not the severe sustained contractions or autonomic instability seen in tetanus." }
+  ],
+  "tricks": [
+    "Tetanus vs **botulism**: Tetanus toxin blocks inhibitory neurons (GABA/glycine) causing **spastic** paralysis, whereas botulinum toxin blocks ACh release causing **flaccid** paralysis. Think \"tetanic = tense\" and \"botulism = limp.\"",
+    "Know the abbreviations: **TIG** = Tetanus Immune Globulin (passive antibodies to neutralize toxin). **TT/Td/Tdap** = tetanus toxoid vaccines (active immunity; *Tdap* includes pertussis) given for routine immunization and boosters."
+  ],
+  "exam_appearance": [
+    "Unvaccinated adult with a **puncture wound** (rusty nail) 5–10 days ago, now presenting with **lockjaw**, painful muscle spasms (often induced by loud sounds or touch), and an arched back posture (**opisthotonus**) → **Tetanus**.",
+    "Newborn (1 week old) born via an **unsanitary delivery** who develops inability to breastfeed, **trismus**, and body rigidity a few days after birth → **Neonatal tetanus** (infection of the umbilical stump)."
+  ],
+  "treatment": [
+    "**Wound care + antibiotics:** Thoroughly debride the wound and give antibiotics (first-line **metronidazole**) to eradicate *C. tetani* and halt toxin production.",
+    "**Neutralize toxin:** Administer human **tetanus immune globulin (TIG)** as soon as possible to bind unbound toxin. Also **give tetanus toxoid vaccine** (active immunization) once the patient is stable, because tetanus infection does not confer lasting immunity.",
+    "**Supportive care:** Control muscle spasms with benzodiazepines (e.g. IV diazepam) and minimize external stimuli (quiet, dark environment). Monitor in ICU; be prepared for **airway support** (intubation) if laryngospasm or respiratory failure threatens."
+  ],
+  "red_flags": [
+    "**Autonomic instability** (labile blood pressure, arrhythmias, high fever, profuse sweating) indicates severe tetanus and a high risk of complications. Intensive care and aggressive management are required.",
+    "**Respiratory compromise** from **laryngospasm** or chest wall rigidity is the leading cause of death in tetanus. Early intubation and mechanical ventilation can be life-saving if there are signs of airway obstruction or apnea."
+  ],
+  "algorithm": [
+    "Wound + muscle spasms → **Suspect tetanus** (clinical diagnosis)",
+    "**Clean the wound** thoroughly (debridement) + start **metronidazole**",
+    "**TIG** IM (passive antitoxin) **+ Tetanus toxoid vaccine** (active immunization)",
+    "**Sedation & airway**: Give benzodiazepines for spasms; intubate if needed; ICU supportive care"
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with no recent immunizations stepped on a rusty nail 7 days ago. He now reports stiffness of the jaw and neck, difficulty swallowing, and episodes of severe muscle spasms triggered by loud noises. During these episodes he has a grimacing smile and his back arches rigidly, though he remains alert.",
+      "clues": [
+        "Puncture wound one week ago",
+        "Trismus (lockjaw)",
+        "Painful spasms triggered by stimuli",
+        "Opisthotonus (arched back)",
+        "Preserved consciousness"
+      ],
+      "answer": "Tetanus",
+      "teaching": "This is a classic presentation of generalized tetanus caused by *Clostridium tetani* infection. The dirty puncture wound allowed bacterial spores to germinate and release **tetanospasmin**, a neurotoxin that blocks inhibitory neurotransmitters, leading to uncontrolled muscle contractions. Hallmark features include **lockjaw**, **risus sardonicus** (sardonic smile), and **opisthotonus**, with intact sensorium (no loss of consciousness or sensation). Management is a medical emergency: immediately begin wound debridement and antibiotics (to stop toxin production), administer **TIG** (to neutralize circulating toxin), control spasms with benzodiazepines (and reduce stimulation), secure the airway (risk of laryngospasm), and give the tetanus toxoid **vaccine** to induce active immunity (infection does not confer immunity)."
+    }
+  ],
+  "see_also": ["botulism", "diphtheria", "gas-gangrene"],
+  "prerequisites": ["immunization-schedule", "neuromuscular-junction"],
+  "sources": [
+    {
+      "title": "StatPearls: Tetanus (Clostridium tetani Infection) (George et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482484/"
+    },
+    {
+      "title": "CDC Pink Book: Tetanus (Chapter 21, 2021)",
+      "url": "https://www.cdc.gov/pinkbook/hcp/table-of-contents/chapter-21-tetanus.html"
+    },
+    {
+      "title": "CDC – About Tetanus (Signs, Symptoms, and Risk Factors, 2025)",
+      "url": "https://www.cdc.gov/tetanus/about/index.html"
+    },
+    {
+      "title": "WHO Fact Sheet: Tetanus (12 July 2024)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/tetanus"
+    },
+    {
+      "title": "Merck Manual Professional: Tetanus (Clostridium tetani)",
+      "url": "https://www.merckmanuals.com/professional/infectious-diseases/anaerobic-bacteria/tetanus"
+    },
+    {
+      "title": "UpToDate: Tetanus (Clinical manifestations, diagnosis, and management)",
+      "url": "https://www.uptodate.com/contents/tetanus"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Bacilli_of_tetanus_from_a_culture._Wellcome_M0015724.jpg",
+      "alt": "Microscopic illustration of Clostridium tetani (bacteria with characteristic drumstick spore at one end).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Bacilli_of_tetanus_from_a_culture._Wellcome_M0015724.jpg"
+      }
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

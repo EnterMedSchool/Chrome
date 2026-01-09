@@ -1,0 +1,117 @@
+{
+  "id": "graft-versus-host-disease",
+  "names": ["Graft-versus-host disease"],
+  "aliases": ["graft vs host disease", "graft-versus-host reaction"],
+  "abbr": ["GVHD"],
+  "patterns": [
+    "gvhd",
+    "graft versus host",
+    "graft versus host disease",
+    "graft vs host disease",
+    "graft-versus-host disease",
+    "graft vs host reaction",
+    "graft-versus-host reaction"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "immunology"],
+  "definition": "Alloimmune complication of allogeneic transplantation where donor T cells attack the host's tissues, causing multi-organ inflammation (commonly skin, GI tract, liver).",
+  "why_it_matters": "Major cause of transplant-related mortality (occurs in ~30–50% of allogeneic HSCT patients); high-yield because clinicians must balance preventing GvHD with preserving graft-versus-tumor effect.",
+  "how_youll_see_it": [
+    "Acute GvHD (within ~100 days): maculopapular rash (often starting on palms/soles) with abdominal pain, nausea, severe diarrhea, and jaundice.",
+    "Chronic GvHD (>100 days): features resemble autoimmune disorders (e.g. lichenoid or sclerodermatous skin changes, dry eyes/mouth from exocrine gland damage, obstructive lung disease like bronchiolitis obliterans).",
+    "Transfusion-associated GvHD: ~1–2 weeks after a blood transfusion (especially from a relative or non-irradiated unit) with fever, rash, liver dysfunction, and pancytopenia (often fatal; prevented by gamma-irradiating blood products)."
+  ],
+  "problem_solving": [
+    "Prevention is key: allogeneic transplant recipients receive prophylactic immunosuppression (e.g. tacrolimus + methotrexate) to reduce GvHD; immunocompromised patients require irradiated blood products to prevent TA-GvHD.",
+    "Confirm the diagnosis with a biopsy of affected tissue (e.g. skin or colon): histology shows apoptotic host cells attacked by donor lymphocytes (e.g. apoptotic keratinocytes in skin or crypt cell apoptosis in gut).",
+    "Grade acute GvHD severity (I–IV) by extent of skin involvement, bilirubin elevation, and stool volume; higher grades correlate with worse prognosis and guide therapy intensity.",
+    "Always consider other causes for similar symptoms in post-transplant patients (e.g. drug rashes, infection) even as you evaluate for GvHD."
+  ],
+  "differentials": [
+    {
+      "id": "transplant-rejection",
+      "name": "Host-versus-graft (transplant) rejection",
+      "hint": "Opposite mechanism: recipient's immune system attacking donor organ or marrow graft (not donor cells attacking host)"
+    },
+    {
+      "name": "Drug eruption (e.g. DRESS, SJS/TEN)",
+      "hint": "Severe medication reaction with rash ± organ involvement; not linked to transplant immune mismatch"
+    },
+    {
+      "name": "Infectious colitis or hepatitis",
+      "hint": "CMV, C. diff, or other infections can mimic GvHD GI or liver symptoms in immunosuppressed patients"
+    }
+  ],
+  "tricks": [
+    "GvHD vs Rejection: GvHD is graft (donor T cells) attacking host, whereas rejection is host attacking graft.",
+    "Always irradiate blood for at-risk recipients (immunosuppressed or HLA-matched donors) to kill donor lymphocytes and prevent TA-GvHD."
+  ],
+  "exam_appearance": [
+    "Allo-HSCT patient ~1 month post-transplant with painful rash on palms/soles, profuse diarrhea, and liver enzyme elevations → acute GVHD.",
+    "Long-term transplant survivor with chronic dry eyes, oral ulcers, and tightening skin on hands (scleroderma-like) → chronic GVHD."
+  ],
+  "treatment": [
+    "First-line for acute GVHD is high-dose corticosteroids (e.g. prednisone ~1–2 mg/kg/day); only ~40% of patients achieve a durable response.",
+    "Chronic GVHD is managed with prolonged immunosuppression (usually a corticosteroid taper ± calcineurin inhibitor or other agents).",
+    "Steroid-refractory GVHD: options include ruxolitinib (JAK inhibitor), extracorporeal photopheresis, and other immunosuppressants or biologics (no single standard; often used in combination)."
+  ],
+  "red_flags": [
+    "Rapidly progressive skin rash with blistering, bloody diarrhea, and rising bilirubin in a post-transplant patient = severe GVHD emergency (high risk of shock/multi-organ failure).",
+    "Never transfuse non-irradiated blood to immunodeficient or transplant patients—TA-GvHD causes pancytopenia and is often fatal."
+  ],
+  "algorithm": [
+    "Post-transplant patient with new rash or organ dysfunction → suspect GvHD.",
+    "Evaluate for other causes (infection, drug) but obtain skin or GI biopsy to confirm GvHD.",
+    "If acute GvHD is confirmed, start corticosteroids promptly (IV if GI involvement) and continue calcineurin inhibitor prophylaxis.",
+    "Grade the GvHD and escalate care if needed (e.g. add second-line immunosuppressants for steroid-refractory cases).",
+    "For chronic GvHD signs, initiate or adjust long-term immunosuppressive therapy (often a prolonged steroid taper ± steroid-sparing agents) with supportive care for affected organs."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Skin_graft_versus_host_disease_high_mag_2.jpg",
+      "alt": "Skin biopsy in acute GVHD showing an apoptotic keratinocyte (pink cell) surrounded by lymphocytes.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Skin_graft_versus_host_disease_high_mag_2.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 30‑year‑old man with AML undergoes an allogeneic bone marrow transplant. Thirty days later, he develops a red maculopapular rash on his palms and back, along with severe watery diarrhea and jaundice.",
+      "clues": ["Allogeneic transplant (1 month ago)", "Skin rash on palms/soles", "Diarrhea", "Elevated bilirubin"],
+      "answer": "Acute graft-versus-host disease",
+      "teaching": "Donor T cells attacking host's skin, GI tract, and liver causing acute GvHD. Treat with high-dose corticosteroids; should have been on tacrolimus/methotrexate prophylaxis."
+    },
+    {
+      "stem": "A 45‑year‑old woman, 9 months after an allogeneic stem cell transplant for CML, has developed dry, irritated eyes, a lichenoid rash in her mouth, and tightening of the skin on her hands.",
+      "clues": ["Allogeneic transplant ~9 months ago", "Xerophthalmia (dry eyes)", "Oral lichenoid lesions", "Scleroderma-like skin changes"],
+      "answer": "Chronic graft-versus-host disease",
+      "teaching": "Chronic GvHD mimicking autoimmune disease (sicca syndrome, lichen planus, scleroderma features). Managed with extended immunosuppressive therapy (e.g. long-term prednisone ± calcineurin inhibitors)."
+    }
+  ],
+  "see_also": ["leukemia", "lymphoma", "systemic-lupus-erythematosus"],
+  "prerequisites": ["human-leukocyte-antigen", "immunology"],
+  "sources": [
+    {
+      "title": "StatPearls: Graft-Versus-Host Disease (Justiz Vaillant et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538235"
+    },
+    {
+      "title": "UpToDate: Acute and chronic graft-versus-host disease (Choi & Reddy, 2023)",
+      "url": "https://www.uptodate.com"
+    },
+    {
+      "title": "NEJM: Pathophysiology of Chronic GVHD (Zeiser & Blazar, 2017)",
+      "url": "https://doi.org/10.1056/NEJMra1703472"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "influenza",
+  "names": ["Influenza"],
+  "aliases": ["the flu", "seasonal flu", "grippe"],
+  "abbr": ["flu"],
+  "patterns": ["influenza", "flu", "seasonal flu", "H1N1", "H3N2", "swine flu", "avian flu", "grippe"],
+  "primary_tag": "micro_virus",
+  "tags": ["infectious_dz", "micro_virus", "peds", "pulm"],
+  "definition": "Influenza, or \"the flu,\" is a highly contagious respiratory illness caused by influenza viruses (Orthomyxovirus family). Seasonal outbreaks are driven by Influenza A and B strains, manifesting as acute fever, body aches, and cough. Occasionally, a novel strain (e.g., H1N1) emerges via major viral mutation, sparking a global pandemic.",
+  "why_it_matters": "Extremely common with significant morbidity: seasonal flu infects millions and causes hundreds of thousands of deaths globally each year. Pandemic strains (like the 1918 \"Spanish flu\") have caused catastrophic mortality. Understanding influenza's antigenic drift and shift is key for public health and frequently tested on exams.",
+  "how_youll_see_it": [
+    "Abrupt onset of high fever, chills, myalgias, headache, and malaise, accompanied by cough and sore throat, typically during winter months.",
+    "Children may present with higher fevers, irritability, and sometimes nausea or vomiting (influenza can trigger otitis media or croup in young kids). Elderly patients might have atypical features like confusion or lack of fever, yet are at higher risk of complications.",
+    "Usually a self-limited illness (~3-7 days), but can lead to pneumonia (primary viral or secondary bacterial), sinusitis, dehydration, or exacerbation of chronic conditions (e.g., asthma, COPD, heart failure)—especially in infants, elderly, pregnant, or immunocompromised patients."
+  ],
+  "problem_solving": [
+    "Think influenza when a patient has acute fever, diffuse aches, and cough during flu season; few other viruses cause such abrupt, severe systemic symptoms.",
+    "Use rapid antigen or PCR testing to confirm if it will change management, but remember false negatives are common on rapid tests—clinical judgment prevails in a high-suspicion case.",
+    "Start oseltamivir early (within ~48 hours of symptom onset) for patients at risk (young children, elderly, pregnant, chronic illness) or with severe illness to reduce complications.",
+    "If a patient's flu symptoms improve then suddenly worsen with new fever and productive cough, suspect secondary bacterial pneumonia (often Staphylococcus aureus) and initiate antibiotics promptly."
+  ],
+  "differentials": [
+    { "id": "covid-19", "hint": "similar fever and cough; COVID-19 often has loss of taste/smell or more lower respiratory involvement" },
+    { "name": "Respiratory syncytial virus (RSV)", "hint": "important in infants (bronchiolitis with wheezing) and older adults; can mimic flu but typically less intense myalgia/fever" },
+    { "name": "Bacterial pneumonia", "hint": "typically lobar consolidation on CXR, productive cough; can be a complication of influenza" }
+  ],
+  "tricks": [
+    "Antigenic drift vs shift: Drift = small annual mutations (seasonal epidemics); Shift = sudden major change (new subtype causing pandemics, occurs only in influenza A).",
+    "Classic complication: Staph aureus pneumonia after influenza. If a patient recovering from flu has a relapse of high fever and lung findings, think post-influenza staph infection.",
+    "Avoid aspirin in children with viral illnesses (like influenza) to prevent Reye syndrome (acute encephalopathy and liver failure)."
+  ],
+  "exam_appearance": [
+    "Unvaccinated young adult in January with abrupt onset of high fever, severe myalgias, and cough → likely influenza infection.",
+    "Nursing home resident with confusion, 39°C fever, and cough during a flu outbreak (rapid test may be negative) → influenza in an elderly patient (high risk for pneumonia).",
+    "Patient who had influenza and began to recover but then develops worsening fever, productive cough, and lobar infiltrate on CXR → secondary Staphylococcus aureus pneumonia post-influenza."
+  ],
+  "treatment": [
+    "Supportive care for most: rest, hydration, and antipyretics/analgesics (acetaminophen or NSAIDs for fever and aches). Do not give aspirin to children.",
+    "Antivirals: Neuraminidase inhibitors like oseltamivir (oral) and zanamivir (inhaled) treat influenza A & B and can shorten illness if started within ~48 hours. Use antivirals especially for hospitalized or high-risk patients; oseltamivir is also used for post-exposure prophylaxis in vulnerable groups. (Older adamantane antivirals like amantadine are no longer recommended due to resistance.)",
+    "Severe cases or complications (e.g., pneumonia) may require hospitalization for oxygen support, IV fluids, and antibiotics if bacterial superinfection is suspected.",
+    "Prevention: Annual influenza vaccination is recommended for everyone ≥6 months old (ideally before each flu season) to reduce illness and community spread. Encourage hand hygiene, cough etiquette, and droplet precautions to limit transmission."
+  ],
+  "red_flags": [
+    "Persistent dyspnea, hypoxia, or clinical deterioration → consider primary influenza viral pneumonia or ARDS; these require urgent evaluation and possibly ventilatory support.",
+    "Relapse of fever and productive cough after initial improvement → red flag for secondary bacterial pneumonia (often S. aureus); initiate prompt antibiotic therapy."
+  ],
+  "algorithm": [
+    "Flu season + abrupt fever/cough/myalgias → suspect influenza.",
+    "If high-risk or diagnosis uncertain, perform influenza testing (rapid antigen or PCR) but do not delay treatment while awaiting results.",
+    "Positive test or strong clinical suspicion → begin oseltamivir ASAP (best if <48h since onset), especially for high-risk patients; provide supportive care (hydration, antipyretics).",
+    "If mild case in a healthy patient presenting >2 days after symptom onset, antiviral may have limited benefit; manage supportively and observe.",
+    "For any patient with signs of pneumonia (e.g., chest infiltrates, worsening respiratory status), obtain a CXR and treat accordingly: continue antivirals and add antibiotics for presumed bacterial pneumonia.",
+    "Implement droplet isolation for hospitalized cases and advise close contacts (especially high-risk individuals) on prophylaxis and the importance of vaccination."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/EM_of_influenza_virus.jpg",
+      "alt": "Electron micrograph of influenza virions (virus particles) showing their roughly spherical shape and surface glycoprotein projections.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:EM_of_influenza_virus.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 80‑year‑old nursing home resident in December is brought to the hospital with confusion, fever, and cough. Several other residents have been ill recently. On exam, temperature is 39°C, and oxygen saturation is 88% on room air; there are diffuse crackles in both lungs.",
+      "clues": [
+        "Winter outbreak in a long-term care facility",
+        "High fever with cough",
+        "Elderly patient with confusion",
+        "Rapid flu test is negative",
+        "Chest X-ray: bilateral interstitial infiltrates"
+      ],
+      "answer": "Influenza (primary viral pneumonia)",
+      "teaching": "Seasonal influenza frequently causes outbreaks in nursing homes. Elderly patients may present with atypical symptoms (confusion) and are at high risk for severe complications like viral pneumonia. A negative rapid antigen test does not rule out influenza in the setting of a typical clinical picture and known exposure. The appropriate management is to treat for influenza (with antivirals and supportive care) and implement infection control measures to protect other residents."
+    }
+  ],
+  "see_also": [
+    "pneumonia",
+    "acute-respiratory-distress-syndrome"
+  ],
+  "prerequisites": [
+    "virology-basics",
+    "respiratory-anatomy",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Influenza (Boktor & Hafner, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459363/"
+    },
+    {
+      "title": "CDC: Clinical Signs and Symptoms of Influenza (2024)",
+      "url": "https://www.cdc.gov/flu/hcp/clinical-signs/index.html"
+    },
+    {
+      "title": "Medscape: Influenza (Nguyen, 2025)",
+      "url": "https://emedicine.medscape.com/article/219557-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

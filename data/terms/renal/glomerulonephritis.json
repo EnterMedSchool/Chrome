@@ -1,0 +1,92 @@
+{
+  "id": "glomerulonephritis",
+  "names": ["Glomerulonephritis"],
+  "aliases": ["acute glomerulonephritis", "nephritic syndrome"],
+  "abbr": ["GN"],
+  "patterns": ["glomerulonephritis", "acute glomerulonephritis", "nephritic syndrome", "acute nephritic syndrome"],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "immunology"],
+  "definition": "Inflammation of the kidney's glomeruli (often immune-mediated) presenting as nephritic syndrome – hematuria (with RBC casts), usually mild-moderate proteinuria, hypertension, and acute kidney dysfunction.",
+  "why_it_matters": "Can cause significant acute kidney injury and progress to ESRD if untreated (especially rapidly progressive GN). Also, exams frequently test differences between nephritic vs nephrotic syndromes and classic GN scenarios (e.g., cola-colored urine after strep throat, hemoptysis + hematuria in Goodpasture).",
+  "how_youll_see_it": [
+    "Classic acute nephritic picture: recent infection followed by dark cola-colored urine, periorbital or generalized edema, and new-onset hypertension from fluid retention. Urinalysis shows hematuria with RBC casts and proteinuria (typically <3.5 g/day, i.e. not full nephrotic range).",
+    "Post-infectious GN (e.g., poststreptococcal GN) usually occurs 1–3 weeks after a group A strep infection (pharyngitis or impetigo), often in children. In contrast, IgA nephropathy (Berger disease) causes recurrent gross hematuria during or immediately after mucosal infections (synpharyngitic hematuria). Both present with the nephritic triad of hematuria, edema, and hypertension.",
+    "Glomerulonephritis can also be part of systemic disease: lupus nephritis (SLE), IgA vasculitis (Henoch–Schönlein purpura), or vasculitides like ANCA-associated GN (Granulomatosis with polyangiitis, microscopic polyangiitis) cause GN with other systemic findings. Goodpasture syndrome (anti-GBM disease) classically presents with pulmonary hemorrhage (hemoptysis) plus rapidly progressive GN."
+  ],
+  "problem_solving": [
+    "Identify glomerular hematuria: RBC casts or dysmorphic RBCs in urine indicate a glomerular source (distinguish from hematuria due to UTI, stones, etc.).",
+    "Obtain baseline labs: check BUN/Cr (to assess renal function) and complement levels (↓C3 in immune-complex GN like post-strep, lupus, MPGN; normal complements in IgA or ANCA-related GN).",
+    "Order serologies based on suspicion: ASO titer (post-streptococcal), anti-GBM antibodies (Goodpasture), ANCA panel (Wegener's/GPA, MPA), ANA and dsDNA (lupus), etc.",
+    "Consult nephrology for a definitive diagnosis via renal biopsy – light microscopy, immunofluorescence, and EM findings confirm GN type (e.g., granular immune complex deposits in PSGN vs linear IgG deposits in anti-GBM disease; crescents indicating severe RPGN).",
+    "Monitor trends: track urine output and creatinine closely. A rapid rise in creatinine or oliguria suggests rapidly progressive GN, warranting immediate intervention."
+  ],
+  "differentials": [
+    {
+      "name": "Non-glomerular hematuria",
+      "hint": "blood in urine without RBC casts or significant protein (e.g., UTI, nephrolithiasis, bladder cancer)"
+    },
+    {
+      "name": "Nephrotic syndrome",
+      "hint": "heavy proteinuria (>3.5 g/day), edema, hyperlipidemia with minimal hematuria (e.g., minimal change, FSGS)"
+    },
+    {
+      "name": "Acute interstitial nephritis",
+      "hint": "AKI with hematuria and WBC casts/eosinophils (often drug-induced; lacks heavy protein or RBC casts)"
+    }
+  ],
+  "tricks": [
+    "Coca-cola–colored or tea-colored urine = glomerular hematuria (classic in post-strep GN).",
+    "RBC casts on urinalysis mean the bleeding is glomerular (think glomerulonephritis rather than UTI or stones).",
+    "Crescent formation on kidney biopsy (fibrin + macrophages filling Bowman's space) indicates rapidly progressive GN with poor prognosis unless treated aggressively."
+  ],
+  "exam_appearance": [
+    "Child with facial edema and tea-colored urine 2 weeks after a sore throat → acute poststreptococcal glomerulonephritis.",
+    "Young adult with episodic gross hematuria during viral infections (concurrent with illness) → IgA nephropathy (Berger disease).",
+    "Young man with hemoptysis, dyspnea, and rapidly worsening renal failure; anti-GBM positive → Goodpasture syndrome."
+  ],
+  "treatment": [
+    "Immunosuppression is often required: high-dose corticosteroids to dampen glomerular inflammation; add cytotoxic agents like cyclophosphamide (or rituximab) for severe cases (e.g., ANCA-associated GN, lupus nephritis). Plasmapheresis is indicated for Goodpasture syndrome and some severe ANCA GN to remove pathogenic antibodies.",
+    "Address any underlying cause: treat infections (e.g., antibiotics for active streptococcal infection, although GN often starts after infection has resolved), control systemic diseases (aggressive lupus or vasculitis therapy), and discontinue offending drugs.",
+    "Supportive care: strict blood pressure control (ACE inhibitors/ARBs help reduce proteinuria and protect kidney), diuretics and salt restriction for edema, and close monitoring of electrolytes. If kidney function deteriorates severely, initiate dialysis to manage fluid/electrolyte imbalances and uremia."
+  ],
+  "red_flags": [
+    "Rapidly rising creatinine, oliguria, or numerous crescents on biopsy → medical emergency (requires prompt high-dose immunosuppressives ± plasmapheresis to prevent irreversible renal failure).",
+    "GN with pulmonary hemorrhage (e.g., hemoptysis in Goodpasture or ANCA vasculitis) → emergency; these pulmonary-renal syndromes require ICU-level care and urgent therapy."
+  ],
+  "algorithm": [
+    "Suspect GN in a patient with hematuria (especially RBC casts), edema, and hypertension.",
+    "Perform initial workup: urinalysis (RBC, protein, casts), basic labs (BUN, Cr, complements), and directed serologies (ASO, ANA, ANCA, anti-GBM, etc.) as indicated.",
+    "Confirm the diagnosis and subtype with a renal biopsy whenever possible (provides definitive identification of glomerular lesions and guides treatment).",
+    "Start treatment promptly: generally corticosteroids for immune-mediated GN; add stronger immunosuppressants (e.g., cyclophosphamide) or plasmapheresis in severe or rapidly progressive cases.",
+    "Provide supportive care for AKI: manage blood pressure (e.g., ACEi), control fluid overload (diuretics), correct electrolyte imbalances, and arrange dialysis if needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Post-infectious_glomerulonephritis_-_high_mag.jpg",
+      "alt": "Kidney biopsy (PAS stain) at high magnification showing hypercellular glomeruli in acute post-infectious glomerulonephritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Post-infectious_glomerulonephritis_-_high_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 10‑year‑old boy is evaluated for facial puffiness and dark urine 2 weeks after recovering from strep throat.",
+      "clues": ["Periorbital edema", "Cola-colored urine", "↑ ASO titer", "↓ C3 complement level"],
+      "answer": "Acute poststreptococcal glomerulonephritis (PSGN)",
+      "teaching": "Immune complex deposition following group A strep infection causes diffuse glomerular inflammation. Presents with nephritic syndrome (hematuria, edema, hypertension) and low complement; typically self-limited in children (supportive care)."
+    }
+  ],
+  "see_also": ["nephrotic-syndrome", "nephritic-syndrome", "chronic-kidney-disease"],
+  "prerequisites": ["renal-physiology", "nephron"],
+  "sources": [
+    { "title": "StatPearls: Glomerulonephritis (Kazi & Hashmi, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK560644/" },
+    { "title": "UpToDate: Glomerular disease – evaluation and differential diagnosis in adults", "url": "https://www.uptodate.com/contents/glomerular-disease-evaluation-and-differential-diagnosis-in-adults" },
+    { "title": "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerulonephritis", "url": "https://kdigo.org/wp-content/uploads/2021/02/KDIGO-GN-GL.pdf" },
+    { "title": "NEJM: Membranoproliferative Glomerulonephritis — A New Look at an Old Entity (Fakhouri et al., 2013)", "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1108178" }
+  ],
+  "credits": [
+    { "email": "test@test.com", "role": "Author", "display": "Ari Horesh", "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png" }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "generalized-anxiety-disorder",
+  "names": ["Generalized anxiety disorder"],
+  "aliases": ["generalised anxiety disorder"],
+  "abbr": ["GAD"],
+  "patterns": ["gad", "generalized anxiety disorder", "generalised anxiety disorder", "generalized anxiety", "chronic anxiety"],
+  "primary_tag": "psych",
+  "tags": ["psych", "neuro", "pharmacology"],
+  "definition": "An anxiety disorder characterized by persistent, excessive worry about multiple everyday things (such as work, health, finances) on most days for ≥6 months, often accompanied by physical symptoms (e.g., restlessness, muscle tension, sleep disturbance).",
+  "why_it_matters": "Very common (∼3% yearly prevalence, twice as common in women) and often underdiagnosed. Chronic excessive anxiety leads to distress, impaired daily functioning (poor concentration, fatigue, missed work), and high healthcare utilization due to frequent worry-driven visits. Early recognition and treatment can greatly improve quality of life and reduce the risk of depression or self-medication (e.g., alcohol use).",
+  "how_youll_see_it": [
+    "Chronic \"worrier\" who anticipates the worst about many areas (health, family, finances, work) for months or years. They often report difficulty controlling the worry and feeling constantly on edge, with frequent irritability and fatigue.",
+    "Physical symptoms are common: patients may have tension headaches, GI upset (e.g., irritable bowel symptoms), palpitations, or insomnia. They often make repeated medical visits for these somatic complaints, which are ultimately attributed to anxiety after tests come back normal.",
+    "On mental status exam, the person appears restless or tense but without delusions or cognitive impairment. There are no discrete panic attacks or specific phobic triggers—rather the anxiety is \"free-floating.\" GAD usually has a gradual onset in teens or early adulthood and tends to be long-term (fluctuating with stress)."
+  ],
+  "problem_solving": [
+    "Ensure DSM-5 criteria are met: anxiety/worry occurring most days ≥6 months, difficulty controlling the worry, ≥3 associated symptoms (restlessness, fatigue, poor concentration, irritability, muscle tension, sleep disturbance), causing significant distress or dysfunction and not due to substances or another illness.",
+    "Rule out medical causes of anxiety: perform a focused workup for conditions like hyperthyroidism (check TSH), cardiac arrhythmias (if palpitations), substance abuse (caffeine, stimulant use), etc. Also review medications that can cause anxiety (e.g., bronchodilators, steroids).",
+    "Use screening tools such as the GAD-7 questionnaire to assess severity of anxiety symptoms and monitor response to treatment over time.",
+    "Evaluate for comorbid conditions and stressors: GAD often coexists with major depression or other anxiety disorders, and patients may have life stressors that exacerbate worry. Addressing these (or referring for therapy) is part of management."
+  ],
+  "differentials": [
+    { "id": "panic-disorder", "hint": "Recurrent sudden panic attacks (intense episodes of fear with physical symptoms) rather than persistent daily worry." },
+    { "id": "adjustment-disorder", "hint": "Anxiety tied to an identifiable stressor and resolving within 6 months of the stressor (does not meet the chronicity or breadth of worry of GAD)." },
+    { "id": "hyperthyroidism", "hint": "Endocrine cause of anxiety symptoms; look for weight loss, tremor, tachycardia, and abnormal thyroid labs (treating the thyroid issue resolves the anxiety)." },
+    { "id": "social-anxiety-disorder", "hint": "Social phobia: anxiety is limited to social or performance situations (fear of embarrassment), not a general constant worry about multiple everyday issues." }
+  ],
+  "tricks": [
+    "Mnemonic: Worry WARTS – Wound-up (keyed up/on edge) & Worn-out (fatigued), Absent-minded (poor concentration), Restless, Touchy (irritable), Sleepless (insomnia). People with GAD are often called \"worry warts.\""
+  ],
+  "exam_appearance": [
+    "A 30-year-old with an 8-month history of constant worry about \"everything\" (family, finances, job) and associated muscle tension, irritability, and insomnia, who has no discrete panic attacks → Generalized anxiety disorder.",
+    "A patient with multiple unexplained complaints (headaches, fatigue, upset stomach) and repeated normal exams, who admits to chronic worry about many aspects of life for over a year → GAD manifesting as somatic concerns (after ruling out medical causes)."
+  ],
+  "treatment": [
+    "SSRIs or SNRIs (e.g., escitalopram, sertraline, venlafaxine) are first-line medications for GAD. They typically take 4–6 weeks to significantly reduce anxiety. Start low to minimize initial jitteriness; may need long-term use to prevent relapse.",
+    "Psychotherapy – particularly cognitive-behavioral therapy (CBT) – is equally first-line. CBT helps patients identify and challenge anxious thoughts and practice relaxation techniques. Combining medication + CBT often yields the best results.",
+    "Benzodiazepines (e.g., alprazolam, diazepam) can provide quick relief of anxiety symptoms but carry risks of sedation, cognitive impairment, and dependence. They are used for short-term or acute situations (or as a bridge) and should be tapered off as soon as possible.",
+    "Buspirone is a non-benzodiazepine anxiolytic that is effective for chronic GAD without causing sedation or dependency. It has a slow onset (takes a couple of weeks to work) but is a good option for long-term management, especially in patients at risk for substance abuse."
+  ],
+  "red_flags": [
+    "Suicidal ideation or hopelessness in an anxious patient – GAD can coexist with depression, so any thoughts of self-harm require urgent evaluation (don't assume it's \"just anxiety\").",
+    "Late-onset or atypical anxiety symptoms (e.g., new severe anxiety at age 50+, or anxiety with prominent physical signs like sweating, tachycardia, weight loss) – consider an underlying medical condition (like hyperthyroidism or pheochromocytoma) rather than primary GAD."
+  ],
+  "algorithm": [
+    "Chronic anxiety symptoms present (excessive worry ≥6 months) → screen for GAD.",
+    "Confirm diagnosis: thorough history to ensure multiple worry topics and ≥3 anxiety symptoms; rule out other causes (labs for thyroid, review medications/substances, etc).",
+    "Start with psychoeducation and lifestyle changes (stress management, sleep hygiene, exercise). If mild, consider therapy first; if moderate-severe or patient prefers, initiate an SSRI/SNRI.",
+    "For severe anxiety or functional impairment, a short-term benzodiazepine may be added for immediate relief while waiting for the antidepressant to take effect (then taper it off).",
+    "Follow up in a few weeks to assess improvement. Adjust treatment if needed (switch SSRIs, add therapy, etc). Continue successful treatment for at least 12 months; then consider gradual taper while monitoring for relapse."
+  ],
+  "cases": [
+    {
+      "stem": "A 35‑year‑old woman reports feeling \"on edge\" and nervous nearly every day for the past year. She constantly worries about her children's health, her job security, and even minor things like chores and scheduling appointments.",
+      "clues": [
+        "Worry has been present most days for 12 months",
+        "She cannot control the worrying despite reassurance",
+        "Physical symptoms: frequent tension headaches, muscle aches, and difficulty sleeping",
+        "Medical evaluation (including thyroid tests) is unremarkable"
+      ],
+      "answer": "Generalized anxiety disorder",
+      "teaching": "This patient's pervasive anxiety about multiple aspects of her life for >6 months, accompanied by physical tension and insomnia, is characteristic of GAD. Other diagnoses have been excluded by the normal workup. The appropriate management would include an SSRI or SNRI and cognitive-behavioral therapy; a short course of a benzodiazepine could help alleviate her immediate anxiety while the SSRI begins to work."
+    }
+  ],
+  "see_also": [
+    "major-depressive-disorder"
+  ],
+  "prerequisites": [
+    "neurotransmitters",
+    "cognitive-behavioral-therapy"
+  ],
+  "sources": [
+    {
+      "title": "APA: What Are Anxiety Disorders? (Generalized Anxiety Disorder description)",
+      "url": "https://www.psychiatry.org/patients-families/anxiety-disorders/what-are-anxiety-disorders"
+    },
+    {
+      "title": "NICE Guideline CG113: Generalised anxiety disorder and panic disorder in adults (2011, updated 2020)",
+      "url": "https://www.nice.org.uk/guidance/cg113"
+    },
+    {
+      "title": "NEJM Clinical Practice: Generalized Anxiety Disorder (Stein & Sareen, 2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26580998/"
+    },
+    {
+      "title": "UpToDate: Generalized anxiety disorder in adults – Management (2025)",
+      "url": "https://www.uptodate.com/contents/generalized-anxiety-disorder-in-adults-management"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/GAD_At-A-Glance.png",
+      "alt": "Infographic summarizing generalized anxiety disorder: definition (excessive worry ≥6 months about multiple areas), ~6% prevalence among adults, higher in those with socioeconomic stress, and differing treatment outcomes by gender.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:GAD_At-A-Glance.png"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

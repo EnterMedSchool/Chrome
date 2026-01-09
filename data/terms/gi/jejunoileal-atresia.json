@@ -1,0 +1,100 @@
+{
+  "id": "jejunoileal-atresia",
+  "names": ["Jejunoileal atresia"],
+  "aliases": ["jejunal atresia", "ileal atresia", "apple-peel atresia"],
+  "abbr": ["JIA"],
+  "patterns": ["jejunoileal atresia", "jejunal atresia", "ileal atresia", "intestinal atresia"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "peds", "surgery"],
+  "definition": "Congenital obstruction of the small intestine (jejunum or ileum) due to an in‑utero **vascular accident** causing a blind-ending or missing segment of bowel; a common cause of neonatal **bilious vomiting**.",
+  "why_it_matters": "Accounts for ~40% of all intestinal atresias and is a surgical emergency in newborns. Early recognition (e.g., bilious emesis on day 1) is critical to prevent dehydration, perforation, or short gut complications. Classic imaging (the **triple bubble** sign) and contrasts with **duodenal atresia** (double bubble, Down syndrome) make it a high-yield exam topic.",
+  "how_youll_see_it": [
+    "Newborn (often Day 1–2 of life) with **bilious vomiting** after feeds, varying **abdominal distension** (minimal if proximal atresia, pronounced if distal). Prenatal ultrasound may show **polyhydramnios** and dilated bowel loops. Meconium passage may be delayed (not in first 24 hours), though passing a small amount of meconium does not exclude atresia.",
+    "Abdominal X-ray reveals multiple dilated loops: classically a **triple bubble** (dilated stomach, duodenum, proximal jejunum) with no gas in the rest of the intestines. More distal atresias show numerous air–fluid levels (low obstruction pattern). A contrast enema often shows a **microcolon** (unused, tiny colon) distal to the blockage.",
+    "Caused by an intrauterine vascular insult (e.g., fetal **volvulus**, intussusception, or arterial thrombus) leading to bowel infarction. Maternal risk factors include **cocaine** or tobacco use (vasoconstrictors). Often isolated, but can be associated with **gastroschisis**, **malrotation**, or **cystic fibrosis** (due to meconium ileus)."
+  ],
+  "problem_solving": [
+    "Treat any neonate with **bilious emesis** as an obstruction until proven otherwise: immediately keep NPO, place NG tube for decompression, and start IV fluids. Rapid evaluation is needed, as midgut **volvulus** presents similarly but can quickly cause ischemia.",
+    "Obtain an abdominal X-ray to identify the obstruction level. **Double bubble** (two dilated structures) suggests duodenal atresia (often with Down syndrome), whereas **triple bubble** indicates jejunal atresia. Numerous dilated loops with no gas beyond signal distal obstruction (ileal atresia vs. meconium ileus).",
+    "Use a **contrast enema** study to distinguish atresia from meconium ileus and to check for multiple lesions. A microcolon on enema implies distal small-bowel obstruction (ileal atresia or meconium ileus). If contrast passes through to normal-caliber distal bowel, atresia is less likely.",
+    "During surgery, the **entire bowel must be inspected** for multiple atretic segments (e.g., string-of-sausages or apple-peel configuration). Postoperatively, monitor for short bowel syndrome if extensive resection was required."
+  ],
+  "differentials": [
+    { "name": "Duodenal atresia", "hint": "**Double bubble** on X-ray; associated with **Down syndrome**" },
+    { "name": "Malrotation with volvulus", "hint": "Bilious vomiting on day 1 with acute **ischemia** (peritonitis, shock); surgical emergency" },
+    { "name": "Meconium ileus (cystic fibrosis)", "hint": "Neonate with distal obstruction; contrast enema shows microcolon with inspissated meconium; often first sign of **CF**" }
+  ],
+  "tricks": [
+    "Think **triple = jejunal**: a \"triple bubble\" on neonatal X-ray is classically jejunal atresia (vs. double bubble for duodenal atresia in **Down syndrome**).",
+    "Exam clues like a mother using **cocaine** or an infant with **gastroschisis** point to jejunoileal atresia from in‑utero vascular injury.",
+    "**Apple-peel atresia** refers to multiple atresias (Type IIIb) with the remaining intestine coiled around a single artery, resembling an apple peel."
+  ],
+  "exam_appearance": [
+    "Term neonate with projectile **bilious vomiting** in the first day of life and abdominal X-ray showing three air-filled levels (stomach, duodenum, jejunum) with no gas distally → Jejunal atresia.",
+    "Newborn with an abdominal wall defect (**gastroschisis**) who, after initial repair, has persistent obstruction and multiple dilated bowel loops on imaging → Jejunoileal atresia due to compromised blood supply (common in gastroschisis)."
+  ],
+  "treatment": [
+    "Stabilize first: **NPO**, NG tube to continuous suction, IV fluid resuscitation, and correct electrolytes. Add broad-spectrum IV antibiotics if perforation or peritonitis is suspected.",
+    "Prompt **surgical repair** is definitive: resection of the atretic segment(s) followed by end-to-end **anastomosis** of healthy bowel. If there's concern about bowel viability or a huge length disparity, a temporary ostomy may be placed.",
+    "After surgery, provide **parenteral nutrition (TPN)** until the infant can tolerate enteral feeding. Gradually introduce oral feeds as bowel function returns. If a substantial length of intestine was removed (multiple atresias), watch for **short bowel syndrome** (malabsorption requiring prolonged nutrition support)."
+  ],
+  "red_flags": [
+    "Any **green (bilious) vomit** in a neonate is an emergency warning sign—assume intestinal obstruction (atresia or midgut volvulus) until proven otherwise.",
+    "Signs of intestinal perforation or ischemia (tense, discolored abdomen, shock, or peritonitis) → urgent surgical intervention is required."
+  ],
+  "algorithm": [
+    "Prenatal: if **polyhydramnios** and dilated bowel loops are seen on ultrasound, suspect possible intestinal atresia.",
+    "Neonate with bilious emesis → immediately NPO, NG tube for decompression, and IV fluids; obtain an abdominal X-ray.",
+    "If X-ray shows double bubble, manage as duodenal atresia; if **triple bubble** or multiple dilated loops with no distal gas, suspect jejunoileal atresia (versus other distal obstruction). Consider an upper GI contrast study if malrotation/volvulus is a concern.",
+    "Do a contrast **enema** to differentiate distal atresia from meconium ileus and to check for additional atresias. A microcolon on enema supports distal obstruction, whereas passage of contrast to normal colon suggests an alternate diagnosis.",
+    "Surgical management: perform exploratory laparotomy, resect the atretic segment(s), and primary anastomosis. Inspect the entire bowel for multiple atresias. Postoperatively, support with TPN and gradual feeds; arrange follow-up for nutrition and growth (short bowel risk)."
+  ],
+  "images": [
+    {
+      "src": "https://i0.wp.com/pediatricimaging.org/wp-content/uploads/2025/04/jejunalatresia05jakaxr.jpg?resize=1100,1100&ssl=1",
+      "alt": "Abdominal X-ray of a neonate showing the classic triple bubble sign (dilated stomach, duodenum, and proximal jejunum) with no gas in the rest of the intestines.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://pediatricimaging.org/diseases/jejunal-atresia/"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A full-term infant develops vomiting shortly after birth. The vomitus is green and the baby's abdomen is distended. Prenatal history is significant for polyhydramnios. An abdominal radiograph shows three dilated loops in the upper abdomen and no gas in the colon.",
+      "clues": ["Bilious (green) vomit on Day 1", "Polyhydramnios in pregnancy", "X-ray: triple bubble sign", "No gas in colon"],
+      "answer": "Jejunal atresia",
+      "teaching": "In-utero vascular accidents can lead to jejunoileal atresia. Bilious vomiting with a triple-bubble X-ray is classic. Unlike duodenal atresia (associated with Down syndrome), jejunal atresia is often linked to maternal vascular risk factors (e.g., cocaine use). Treatment is surgical resection of the atretic segment and anastomosis."
+    },
+    {
+      "stem": "A newborn is found at delivery to have loops of bowel protruding from a right-sided abdominal wall defect (gastroschisis). After surgical correction of the defect, the infant has persistent feeding intolerance and vomits bilious fluid. Abdominal X-ray shows multiple air-fluid levels, and contrast enema reveals a microcolon.",
+      "clues": ["Gastroschisis present at birth", "Feeding intolerance, bilious vomiting", "Multiple dilated intestinal loops on X-ray", "Microcolon on contrast enema"],
+      "answer": "Jejunoileal atresia (intestinal atresia associated with gastroschisis)",
+      "teaching": "Infants with gastroschisis often have an associated small-bowel atresia due to compromised blood supply to the extruded bowel. The finding of a microcolon also indicates unused distal bowel (consistent with an atresia rather than Hirschsprung). Surgical resection of the atretic segment and primary anastomosis is required, with postoperative nutritional support due to short gut risk."
+    }
+  ],
+  "see_also": ["duodenal-atresia", "intestinal-malrotation", "gastroschisis", "cystic-fibrosis", "volvulus"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Ileal Atresia (Osuchukwu & Rentea, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557400/"
+    },
+    {
+      "title": "Merck Manual: Jejunoileal Atresia (Belkind-Gerson & Pekarsky, rev. 2025)",
+      "url": "https://www.merckmanuals.com/professional/pediatrics/congenital-gastrointestinal-anomalies/jejunoileal-atresia"
+    },
+    {
+      "title": "UpToDate: Intestinal atresia (Neonatal bowel obstruction overview, 2025)",
+      "url": "https://www.uptodate.com/contents/intestinal-atresia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

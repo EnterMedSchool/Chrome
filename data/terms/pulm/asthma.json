@@ -1,0 +1,133 @@
+{
+  "id": "asthma",
+  "names": ["Asthma"],
+  "aliases": ["reactive airway disease", "bronchial asthma"],
+  "patterns": ["asthma", "reactive airway disease", "bronchial asthma"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "peds", "immunology", "emerg"],
+  "definition": "Chronic inflammatory airway disease with episodes of **bronchoconstriction** causing wheezing, breathlessness, chest tightness, and cough, which vary over time in frequency and intensity (i.e., reversible airway obstruction).",
+  "why_it_matters": "Asthma is extremely common globally (≈262 million people in 2019) and is the most frequent chronic disease in children. Uncontrolled asthma leads to frequent ER visits, hospitalizations, and even deaths (especially in low-resource settings), yet proper therapy can allow normal, active life—making recognition and management of asthma a high-yield clinical skill.",
+  "how_youll_see_it": [
+    "Episodic **wheezing**, shortness of breath, chest tightness, and cough that often worsen at night or with exercise. Symptoms are variable and usually triggered by something (allergens like dust mites/pollen, cold air, exercise, viral infections). Between attacks, patients may have no symptoms. Exam classically reveals diffuse **wheezes** and prolonged expiration during attacks (though lungs can be normal between episodes).",
+    "Adults: Many asthmatics have childhood onset (often with other atopy like **allergic rhinitis** or eczema), but adult-onset asthma occurs too (e.g., occupational exposures or non-allergic types). Common triggers include environmental allergens, air pollution or smoke, exercise, and cold air. Patients often report seasonal allergies or a family history of asthma.",
+    "Children: Recurrent episodes of cough and wheezing, especially at night or after playing, are common. Young kids may be labeled **\"reactive airway disease\"** until the pattern is clear. Viral respiratory infections frequently precipitate attacks in toddlers. Look for personal or family history of atopic conditions (eczema, food allergies) which make asthma more likely."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with pulmonary function testing: **spirometry** demonstrating reversible obstruction (FEV₁ increases ≥12% (and ≥200 mL) after bronchodilator) is diagnostic. Document variability if possible (e.g., peak flow readings).",
+    "If initial spirometry is normal but asthma is still suspected, do a **bronchoprovocation** test (e.g., methacholine challenge) to look for hyperresponsiveness. Additionally, consider checking **FeNO** (exhaled nitric oxide) or blood **eosinophil** counts as biomarkers of Type 2 inflammation; these can support an asthma diagnosis or guide therapy in moderate–severe cases (but normal levels don't rule it out).",
+    "Assess severity/control: Older guidelines categorized asthma by symptom frequency (intermittent vs mild/moderate/severe persistent). Modern strategy (GINA 2025) emphasizes starting at an appropriate treatment **step** and then adjusting based on control. In practice, any frequent or nocturnal symptoms indicate a need for daily controller therapy (not just as-needed inhaler).",
+    "Identify and manage triggers/co-morbidities: Evaluate for common triggers (allergens, dust, mold, smoke exposure, exercise, cold air). Advise trigger avoidance (e.g., remove indoor allergens, no smoking). Treat coexisting conditions that worsen asthma, like **allergic rhinitis** (nasal steroids, antihistamines) or **GERD** (reflux management), as part of comprehensive asthma care.",
+    "Regularly monitor asthma control (symptom frequency, nighttime awakenings, reliever use, lung function, exacerbations). Use this to step up therapy if asthma is not well controlled, or step down if control is maintained for several months, per the stepwise treatment plan."
+  ],
+  "differentials": [
+    {
+      "id": "chronic-obstructive-pulmonary-disease",
+      "hint": "older smokers with chronic cough; partially irreversible airway obstruction (limited bronchodilator response)"
+    },
+    {
+      "name": "Vocal cord dysfunction",
+      "hint": "paradoxical vocal cord closure causing inspiratory wheezing/stridor; normal lungs on testing and poor response to asthma meds"
+    },
+    {
+      "id": "gastroesophageal-reflux-disease",
+      "hint": "reflux irritation can trigger cough or wheeze, especially at night; patient often has heartburn and improves with acid reflux treatment"
+    },
+    {
+      "name": "Airway foreign body",
+      "hint": "in kids, sudden onset asymmetric wheezing or air trapping on one side; usually a history of choking episode"
+    }
+  ],
+  "tricks": [
+    "Asthma + nasal polyps + aspirin/NSAID sensitivity = **Aspirin-exacerbated respiratory disease** (Samter's triad). These patients can have severe bronchospasm after aspirin exposure.",
+    "Severe asthma attacks can cause **pulsus paradoxus** (drop in systolic BP >10 mmHg on inspiration) due to marked lung hyperinflation impeding venous return.",
+    "Asthma sputum findings: **Curschmann spirals** (whorled mucus plugs from shed epithelium) and **Charcot–Leyden crystals** (eosinophil protein crystals) may be seen in microscopy – classic for boards."
+  ],
+  "exam_appearance": [
+    "8‑year‑old boy with eczema has recurrent night cough and wheezing episodes, normal between illnesses, and improves with albuterol → **Asthma** (atopic childhood asthma).",
+    "Middle‑aged adult with asthma and nasal polyps develops bronchospasm after taking aspirin → **Aspirin-exacerbated respiratory disease** (Samter's triad).",
+    "Asthmatic in acute distress, unable to speak full sentences, with a \"silent chest\" on exam and drowsiness → **status asthmaticus** (life-threatening asthma exacerbation)."
+  ],
+  "treatment": [
+    "Acute exacerbation (**asthma attack**): give rapid bronchodilation with a **SABA** (short-acting β₂-agonist, e.g. albuterol) via nebulizer or inhaler spacer; add **ipratropium** (anticholinergic) for moderate–severe attacks. Early use of systemic **corticosteroids** (e.g. prednisone) is crucial for significant exacerbations. Provide supplemental O₂ if needed (keep saturation ≥94%). In a severe attack not responding to initial therapy, administer IV **magnesium sulfate** to relax airways and be prepared for intubation if signs of impending respiratory failure (confusion, exhaustion) appear.",
+    "Chronic control – **inhaled corticosteroids (ICS)** are the cornerstone. For mild occasional symptoms, current GINA guidelines recommend an ICS-containing reliever (e.g. low-dose ICS–formoterol as needed) even at Step 1, instead of SABA-alone, to reduce exacerbation risk. If symptoms occur more than ~2×/month, a daily low-dose ICS controller (or as-needed ICS–formoterol) is indicated. All patients should have a reliever inhaler; if using albuterol rescue frequently, step up controller therapy.",
+    "Stepwise escalation: For persistent asthma not controlled on low-dose ICS, add a **LABA** (long-acting β₂-agonist, e.g. formoterol or salmeterol) – typically combined with ICS in a single inhaler. At Step 4 (moderate-severe asthma), use medium/high-dose ICS–LABA; consider adding a **LAMA** (long-acting muscarinic antagonist like tiotropium) or an **LTRA** (leukotriene receptor antagonist such as montelukast) especially if allergic rhinitis or aspirin sensitivity is present. Ensure adherence and proper inhaler technique before further escalation.",
+    "Severe refractory asthma: Step 5 involves advanced therapies. Evaluate the asthma **phenotype** (allergic, eosinophilic, etc.) and consider add-on **biologics**: e.g., **omalizumab** (anti-IgE) for IgE-mediated allergic asthma, **mepolizumab/benralizumab** (anti-IL5/IL5R) for eosinophilic asthma, or **dupilumab** (anti-IL4Rα) for severe Type 2 inflammation. New biologic therapies like **tezepelumab** (anti-TSLP) have also emerged for difficult asthma. These are reserved for patients who remain poorly controlled despite maximal inhaler therapy. Referral to an asthma specialist is recommended at this stage."
+  ],
+  "red_flags": [
+    "Signs of impending respiratory failure in asthma: **silent chest** (no audible air movement despite effort), inability to speak more than a few words, altered mental status (confusion, lethargy) – these require emergent intervention (call ICU, prepare for possible intubation).",
+    "An asthma attack that does not respond to initial nebulized bronchodilators, or a peak expiratory flow <50% of baseline, is an emergency. Such patients need prompt escalation of care (continuous nebulizers, IV steroids, ±epi). **Cyanosis** or exhaustion in an asthmatic patient is an alarm bell – secure the airway and ventilatory support immediately."
+  ],
+  "algorithm": [
+    "Patient with recurrent episodes of wheezing, cough, or dyspnea (especially with triggers) → **suspect asthma**.",
+    "Do **spirometry** (in children ≥5–6 years and adults) with bronchodilator testing. If FEV₁ significantly improves after albuterol, asthma is confirmed. If normal, consider repeat testing during symptoms or a methacholine challenge test.",
+    "If asthma is diagnosed, start initial **controller therapy** based on severity: e.g., low-dose ICS (daily or as-needed ICS–formoterol) for mild cases, step up to add LABA or higher doses for moderate cases. Provide a **rescue inhaler** (reliever) to all patients.",
+    "Educate the patient: avoid triggers (allergens, smoking), teach proper inhaler technique, and give an **asthma action plan** (how to recognize worsening and when to use rescue meds or seek help). Manage coexisting allergic diseases to help control symptoms.",
+    "Follow up regularly to **assess control**. If symptoms or exacerbations persist, step up therapy (e.g., add-on medications or higher ICS dose). If asthma is well controlled for ≥3 months, consider stepping down to the minimum effective therapy. Refer to a specialist if asthma remains uncontrolled or if advanced therapies (biologics) are needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Asthma_(Lungs).png",
+      "alt": "Illustration of a person's lungs with magnified views of the bronchi: the left inset shows a healthy open airway, and the right inset shows an asthmatic airway with narrowed lumen, thickened wall, and mucus – demonstrating how asthma obstructs breathing.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Asthma_(Lungs).png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man has a 5-year history of episodic chest tightness and cough.",
+      "clues": [
+        "Symptoms worse at night and during spring pollen season",
+        "Diffuse wheezes heard on exam during episodes",
+        "Uses an albuterol inhaler which provides quick relief",
+        "Spirometry: FEV₁ increases 15% post‑bronchodilator"
+      ],
+      "answer": "Asthma (allergic asthma)",
+      "teaching": "Classic presentation of asthma with atopy: episodic wheezing, worse with allergen exposure (pollen) and at night, and reversibility with a bronchodilator (↑FEV₁ after albuterol). The reversible airway obstruction and history of atopy (seasonal allergies) confirm asthma; daily inhaled steroids would be indicated for control."
+    },
+    {
+      "stem": "A 4‑year‑old boy is brought in for frequent \"bronchitis\" episodes.",
+      "clues": [
+        "Wheezing episodes mostly after colds or running around",
+        "Keeps the parents up at night with coughing",
+        "History of eczema and allergic rhinitis",
+        "Improves with nebulized albuterol treatments"
+      ],
+      "answer": "Asthma (pediatric)",
+      "teaching": "Asthma often presents in young children as recurrent wheezing triggered by viral infections or exercise. This child's atopic history (eczema, allergies) and improvement with bronchodilators strongly support asthma. At age 4, diagnosis is clinical (spirometry is hard to perform) – a trial of inhaled corticosteroids and bronchodilator PRN is warranted."
+    }
+  ],
+  "see_also": [
+    "chronic-obstructive-pulmonary-disease",
+    "allergic-rhinitis",
+    "atopic-dermatitis",
+    "bronchiolitis"
+  ],
+  "prerequisites": [
+    "respiratory-physiology",
+    "hypersensitivity-reactions"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Asthma (Goldin & Hashmi, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430901/"
+    },
+    {
+      "title": "UpToDate: Asthma in adolescents and adults – treatment and management",
+      "url": "https://www.uptodate.com/contents/asthma-in-adolescents-and-adults-treatment-and-management"
+    },
+    {
+      "title": "Global Initiative for Asthma: 2025 Strategy Report (GINA 2025)",
+      "url": "https://ginasthma.org/2025-gina-strategy-report/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

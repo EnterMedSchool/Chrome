@@ -1,0 +1,136 @@
+{
+  "id": "anaphylaxis",
+  "names": [
+    "Anaphylaxis"
+  ],
+  "aliases": [
+    "anaphylactic shock",
+    "severe allergic reaction"
+  ],
+  "abbr": [],
+  "patterns": [
+    "anaphylaxis",
+    "anaphylactic shock",
+    "severe allergic reaction"
+  ],
+  "primary_tag": "emerg",
+  "tags": [
+    "immunology",
+    "emerg",
+    "pharmacology"
+  ],
+  "definition": "A severe, life-threatening systemic hypersensitivity reaction (often IgE-mediated) characterized by a rapid onset of multi-organ symptoms (e.g., hypotension, bronchospasm, mucosal edema, urticaria) triggered by exposure to an allergen.",
+  "why_it_matters": "It's a true medical emergency that can be **fatal** within minutes if not promptly treated. Rapid recognition and immediate epinephrine administration can be lifesaving, so this topic is commonly emphasized on board exams.",
+  "how_youll_see_it": [
+    "Onset is **sudden** (often within minutes) after exposure to a trigger (e.g., peanut or shellfish ingestion, bee sting, IV antibiotic). Initial symptoms include diffuse **pruritus**, flushing, and **urticaria** (hives) with a sense of warmth.",
+    "**Multi-system involvement** follows: **respiratory** (throat tightness, hoarse voice, wheezing, stridor, shortness of breath), **cardiovascular** (tachycardia, hypotension, lightheadedness or collapse), and **gastrointestinal** (crampy abdominal pain, vomiting, diarrhea).",
+    "Look for the combination of **mucocutaneous** signs (hives, facial or lip/tongue swelling) plus either airway compromise or shock. Note: up to 10–20% of anaphylaxis cases may lack skin findings, so do not rule it out if a patient has unexplained acute bronchospasm or hypotension after an exposure."
+  ],
+  "problem_solving": [
+    "Clue in on the **timing**: symptoms typically begin **within minutes** to an hour after allergen exposure (the faster the onset, often the more severe). Always ask about recent foods, stings, medications, or latex exposure.",
+    "If you suspect anaphylaxis, **treat immediately** – do not wait for confirmation. A serum **tryptase** level (drawn 1–3 hours after onset) can later help confirm mast cell degranulation, but a normal tryptase (especially in food reactions) doesn't exclude anaphylaxis.",
+    "Watch for a **biphasic** reaction: recurrence of symptoms hours after initial resolution (occurs in up to 20% of cases). This is why patients are observed for ~4–6 hours (or longer if severe or if risk factors for biphasic reaction are present).",
+    "Patients on **beta-blockers** may have an especially severe, refractory anaphylaxis (and can paradoxically have bradycardia). If epinephrine is ineffective in a beta-blocked patient, give **glucagon** (glucagon bypasses beta-receptors to raise cAMP).",
+    "Sometimes no obvious trigger is found (**idiopathic anaphylaxis**, ~10–20% of cases). Don't dismiss anaphylaxis just because the allergen isn't identified – base the diagnosis on the clinical presentation of multi-organ symptoms."
+  ],
+  "differentials": [
+    {
+      "id": "vasovagal-syncope",
+      "hint": "Neurocardiogenic faint (hypotension with **bradycardia**), often situational (e.g., pain, needles); skin is pale (no hives) and no bronchospasm."
+    },
+    {
+      "id": "hereditary-angioedema",
+      "hint": "Episodic **angioedema** (often facial/laryngeal swelling) due to C1 inhibitor deficiency; no urticaria or pruritus (not IgE-mediated), and **does not respond** to epinephrine."
+    },
+    {
+      "id": "asthma-exacerbation",
+      "name": "Severe asthma exacerbation",
+      "hint": "**Wheezing** and respiratory distress without hypotension or rash; usually history of asthma or trigger like infection, not a new allergen exposure."
+    }
+  ],
+  "tricks": [
+    "The **first and most critical treatment** is intramuscular **epinephrine** into the mid-thigh — never delay epinephrine for adjunctive therapies. Antihistamines and steroids are helpful but only after epinephrine has been given.",
+    "Preferred site for epinephrine injection is the **anterolateral thigh** (vastus lateralis); this yields faster absorption and higher peak levels than deltoid or subcutaneous injection.",
+    "Lack of skin findings doesn't exclude anaphylaxis! For example, anaphylaxis may present as isolated hypotension and collapse (especially with IV meds) — so use context and don't rely solely on rash."
+  ],
+  "exam_appearance": [
+    "Within minutes of a bee sting, a patient develops generalized hives, wheezing, and hypotension → **anaphylactic shock** from insect venom.",
+    "A 8‑year‑old with known peanut allergy eats a cookie and quickly has lip swelling, stridor, vomiting, and dizziness → **anaphylaxis** (food allergy, treat with IM epinephrine).",
+    "During an IV antibiotic infusion, a patient becomes flushed, hoarse, and hypotensive with bronchospasm → **anaphylaxis** to the medication."
+  ],
+  "treatment": [
+    "**Epinephrine IM** (0.3 mg adult dose) into the mid-thigh as soon as anaphylaxis is recognized. Call for help and lay the patient flat (or legs elevated) unless respiratory distress dictates otherwise. Repeat epinephrine every 5–15 minutes as needed.",
+    "Secure the **airway** early: administer high-flow oxygen and be prepared to intubate if there is any airway swelling (stridor or hoarseness) or severe respiratory compromise. Initiate large-bore IV access and begin **aggressive fluid resuscitation** (e.g., 1–2 L normal saline bolus for adults) for hypotension.",
+    "After the first epinephrine dose, give **adjunctive therapies**: an H1 blocker (e.g., diphenhydramine) plus an H2 blocker (e.g., famotidine) to relieve hives and GI symptoms, inhaled **bronchodilators** (albuterol nebulizer) for bronchospasm, and IV **corticosteroids** (e.g., methylprednisolone) to help prevent protracted or biphasic reactions. These should **not** replace epinephrine, but are given in addition.",
+    "If the patient remains in shock despite IM epinephrine and fluids, start an **IV epinephrine** infusion and consider adding vasopressors. Patients on beta-blockers may need IV **glucagon** (to bypass beta blockade) for persistent hypotension. Once stabilized, observe the patient for several hours (because of biphasic risk) and upon discharge ensure they receive an epinephrine auto-injector and allergy follow-up."
+  ],
+  "red_flags": [
+    "**Airway compromise**: any signs of laryngeal edema (stridor, throat tightness, voice changes) or swelling of the tongue/uvula are an ominous warning – secure the airway **immediately** (early intubation, or cricothyrotomy if needed).",
+    "**Refractory shock**: if hypotension persists after multiple IM epinephrine doses, this indicates severe anaphylactic shock that may progress to cardiac arrest. Initiate IV epinephrine infusion, add other vasopressors as needed, and give IV glucagon if the patient is on beta-blockers."
+  ],
+  "algorithm": [
+    "**Suspect anaphylaxis** in any acute illness with rapid onset (minutes to hours) of skin/mucosal involvement plus either respiratory compromise or hypotension/collapse – especially if a likely allergen exposure occurred. Do not wait for all symptoms; even isolated hypotension after a known allergen should prompt action.",
+    "**Call for help** and immediately administer IM **epinephrine** (into thigh). **Remove the trigger** if applicable (e.g., stop IV drug infusion, remove stinger), and place the patient supine (or Trendelenburg if hypotensive, unless breathing is impaired).",
+    "Simultaneously, attend to **Airway, Breathing, Circulation**: give high-flow oxygen, and be ready to intubate if airway swelling is present. Start IV fluids rapidly if hypotensive. Monitor cardiac rhythm and blood pressure closely.",
+    "After initial stabilization, administer adjuncts (H1/H2 antihistamines, corticosteroids, nebulized bronchodilators) as needed for symptom control. Continue to reassess – epinephrine can be repeated every 5–15 minutes if symptoms persist or worsen.",
+    "**Observe** the patient when stable (at least 4–6 hours, or overnight for severe cases) due to the risk of biphasic reactions. Upon discharge, equip the patient with an epinephrine auto-injector and instructions, and refer for allergy follow-up (to identify triggers and preventive education)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Signs_and_symptoms_of_anaphylaxis.png",
+      "alt": "Diagram of a human body showing the signs and symptoms of anaphylaxis (affecting skin, respiratory, cardiovascular, and gastrointestinal systems).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Signs_and_symptoms_of_anaphylaxis.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 8‑year‑old boy with a known peanut allergy eats a candy bar at a birthday party that unknowingly contains peanuts.",
+      "clues": [
+        "15 minutes later: develops widespread hives and lip swelling",
+        "Audible inspiratory stridor with drooling",
+        "Vomiting and severe abdominal cramps",
+        "Blood pressure 80/50, pulse 140 (signs of shock)"
+      ],
+      "answer": "Anaphylaxis (peanut-induced)",
+      "teaching": "In a child with a peanut allergy, the acute onset of urticaria, airway compromise (stridor), gastrointestinal symptoms, and hypotensive shock is classic for anaphylaxis. This scenario requires immediate intramuscular epinephrine. Food allergens are a common cause of anaphylactic reactions in children."
+    }
+  ],
+  "see_also": [
+    "hereditary-angioedema",
+    "urticaria",
+    "asthma"
+  ],
+  "prerequisites": [
+    "type-i-hypersensitivity",
+    "shock"
+  ],
+  "sources": [
+    {
+      "title": "Harrison's Manual of Medicine (20th ed., 2020): Chapter 28 – Anaphylaxis",
+      "url": "https://harrisons.unboundmedicine.com/harrisons/view/Harrisons-Manual-of-Medicine/623157/all/Anaphylaxis"
+    },
+    {
+      "title": "Ann Allergy Asthma Immunol: Anaphylaxis 2023 Practice Parameter Update (Golden et al., 2023)",
+      "url": "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Anaphylaxis-Practice-Paramaters-2023.pdf"
+    },
+    {
+      "title": "Am Fam Physician: Anaphylaxis – Recognition and Management (Pflipsen & Vega Colon, 2020)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2020/0915/p355.html"
+    },
+    {
+      "title": "UpToDate: Anaphylaxis (Emergency treatment)",
+      "url": "https://www.uptodate.com/contents/anaphylaxis-emergency-treatment"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

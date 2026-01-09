@@ -1,0 +1,92 @@
+{
+  "id": "viral-meningoencephalitis",
+  "names": ["Viral meningoencephalitis"],
+  "aliases": ["viral encephalitis", "aseptic meningitis", "aseptic meningoencephalitis", "viral meningitis"],
+  "abbr": [],
+  "patterns": ["viral meningoencephalitis", "viral encephalitis", "viral meningitis", "aseptic meningitis", "meningoencephalitis"],
+  "primary_tag": "infectious_dz",
+  "tags": ["infectious_dz", "neuro", "micro_virus", "emerg", "peds"],
+  "definition": "Inflammation of the brain (**encephalitis**) and meninges (**meningitis**) due to viral infection of the central nervous system.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/59/Viral_encephalitis.png",
+      "alt": "Illustration of viral encephalitis (brain inflammation caused by a virus).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Viral_encephalitis.png"
+      }
+    }
+  ],
+  "why_it_matters": "It's a **neurologic emergency** with high morbidity and mortality. **Herpes simplex encephalitis** is often fatal if untreated, so early recognition and treatment (acyclovir) are critical. Distinguishing viral from bacterial meningitis guides proper therapy and frequently appears on exams.",
+  "how_youll_see_it": [
+    "Usually presents with **fever, headache, and altered mental status** (confusion, lethargy, even coma). May have **seizures** or focal neurologic deficits (e.g., aphasia, cranial nerve palsies). **Neck stiffness** and photophobia can occur (meningeal irritation), but may be mild or absent if encephalitis predominates.",
+    "Context clues: consider season and exposures. **Summer/early fall** with mosquito exposure → think arboviruses (e.g., West Nile, equine encephalitis); animal bite → consider rabies; vesicular rash (or history of cold sores/shingles) → think HSV or VZV. **Neonates** with fever and seizures suggest HSV-2 from maternal transmission.",
+    "**HSV-1** (the most common sporadic encephalitis) often causes bizarre behavior, personality changes, or olfactory hallucinations (temporal lobe involvement). **Enteroviruses** (e.g., echovirus) are a leading cause of viral meningitis, especially in children, typically causing milder symptoms (headache, neck stiffness) with normal brain function."
+  ],
+  "problem_solving": [
+    "Perform a **lumbar puncture** for CSF analysis as soon as safely possible (after CT head if any signs of ↑ICP). Viral encephalitis classically shows **lymphocytic pleocytosis**, **normal glucose**, and moderately ↑ protein. Always send CSF for **PCR** to detect viruses (especially HSV, enteroviruses).",
+    "**MRI brain** is the imaging of choice: it can show characteristic findings (e.g., unilateral temporal lobe edema in HSV; thalamic involvement in some arboviruses) and helps exclude other causes (abscess, stroke). **EEG** often shows diffuse slowing or focal epileptiform waves (e.g., periodic sharp waves in HSV) and can support the diagnosis.",
+    "Evaluate for other etiologies in parallel: obtain **blood cultures** and basic labs to rule out bacterial meningitis and metabolic causes; consider **autoimmune encephalitis** panel (antibodies) if initial infectious workup is negative.",
+    "If initial CSF PCR is negative but clinical suspicion for HSV remains high, repeat the lumbar puncture 24–48 hours later. In rare cases, a **brain biopsy** may be needed for definitive diagnosis if no cause is identified and the patient is deteriorating."
+  ],
+  "differentials": [
+    { "id": "bacterial-meningitis", "hint": "acute presentation with **neutrophils** in CSF, **low glucose**; often more fulminant, requires urgent antibiotics" },
+    { "id": "autoimmune-encephalitis", "hint": "subacute encephalitis with psychiatric symptoms or memory deficits; CSF lymphocytic but with specific autoantibodies (e.g., anti-NMDA); treats with immunotherapy" },
+    { "name": "Brain abscess", "hint": "focal infection (ring-enhancing lesion on imaging) causing headache, focal deficits; fever may be present but CSF often normal or only mild pleocytosis" }
+  ],
+  "tricks": [
+    "**CSF: viral = lymphocytes + normal glucose** (vs bacteria = neutrophils + low glucose). If glucose is low, think bacterial or TB/fungal, not routine viral.",
+    "HSV loves the **temporal lobe** – MRI or EEG showing temporal lobe involvement in a confused patient → strongly suggests HSV-1 encephalitis.",
+    "When in doubt, **start acyclovir**. Delaying treatment for HSV encephalitis, even for a few hours, can lead to irreversible brain injury – always err on the side of treating while awaiting results."
+  ],
+  "exam_appearance": [
+    "Young adult with fever, headache, bizarre behavior, and seizures; MRI shows unilateral temporal lobe lesion; CSF has lymphocytic pleocytosis and RBCs → HSV-1 encephalitis (treat with IV acyclovir).",
+    "Elderly patient in August develops fever, confusion, tremors, and asymmetric flaccid paralysis after mosquito bites → West Nile virus encephalitis (an arboviral meningoencephalitis).",
+    "2‑week‑old neonate with fever, poor feeding, and seizures; mother had untreated genital lesions at delivery → neonatal HSV-2 meningoencephalitis (requires prompt acyclovir)."
+  ],
+  "treatment": [
+    "**IV acyclovir** immediately for any suspected HSV encephalitis – do not wait for confirmation. Acyclovir also covers VZV encephalitis (another treatable cause).",
+    "No definitive antivirals exist for most other viral causes, so care is largely **supportive**: IV fluids, fever control, and close monitoring. Many patients require **ICU** support for airway protection (if comatose) and seizure control (IV benzodiazepines or antiseizure meds).",
+    "Manage complications: for elevated intracranial pressure, use measures like head elevation, IV mannitol, or hyperventilation if needed; treat **seizures** aggressively with anticonvulsants. In immunocompromised patients, consider specific therapy for less common viruses (e.g., **ganciclovir** + foscarnet for CMV encephalitis)."
+  ],
+  "red_flags": [
+    "Signs of **↑ intracranial pressure** (papilledema, focal neurologic deficits, severe obtundation) → obtain head CT **before LP** to prevent herniation; manage ICP (e.g., elevate head, mannitol) and consider neurology consult.",
+    "Never forget HSV: a patient with encephalitis who **isn't promptly treated with acyclovir** can suffer permanent neurologic damage. Always initiate empiric acyclovir in suspected encephalitis (especially with altered mental status or focal findings)."
+  ],
+  "algorithm": [
+    "Suspected CNS infection with altered mental status → **stabilize ABCs**, assess need for ICU.",
+    "If no contraindications (no papilledema or focal deficits), perform **lumbar puncture** immediately. If contraindications exist, do head **CT scan** first, then LP as soon as safe.",
+    "Send CSF for cell count, glucose, protein, Gram stain & culture, and **PCR panel** for viral pathogens (HSV, enterovirus, etc.). Also draw routine labs and blood cultures.",
+    "Start **IV acyclovir** empirically (cover HSV/VZV) and appropriate antibiotics for bacterial meningitis until results clarify the cause.",
+    "Admit for **supportive care**: monitor in ICU if severe, control fever, give IV fluids, manage pain, and treat seizures. Adjust treatment once pathogen is identified (e.g., continue antivirals for HSV/VZV or supportive care for others)."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man is brought to the ER for fever, confusion, and a generalized seizure.",
+      "clues": ["Disoriented, personality changes", "Temp 39°C; neck is supple", "CSF: 200 WBC (lymphocytic), normal glucose, PCR pending", "MRI: edema in right temporal lobe"],
+      "answer": "Herpes simplex encephalitis (HSV-1)",
+      "teaching": "HSV-1 causes the most common sporadic encephalitis, classically affecting the temporal lobe. Patients present with altered mentation, seizures, often bizarre behavior. High mortality if untreated – IV acyclovir should be started as soon as HSV is suspected."
+    },
+    {
+      "stem": "A 10‑day‑old newborn presents with lethargy, poor feeding, and intermittent seizures.",
+      "clues": ["Born at home, no prenatal care", "Mother had lesions suggestive of genital herpes", "Infant is febrile and irritable", "CSF: positive HSV-2 PCR"],
+      "answer": "Neonatal HSV meningoencephalitis",
+      "teaching": "Perinatal transmission of HSV-2 can cause severe disseminated infection in newborns, often involving the CNS. Neonates may have seizures, fever, and lethargy (with or without skin lesions). Immediate treatment with high-dose IV acyclovir improves survival and outcomes."
+    }
+  ],
+  "see_also": ["acute-bacterial-meningitis", "vzv-infections"],
+  "sources": [
+    { "title": "StatPearls: Viral Encephalitis (Said & Kang, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470162/" },
+    { "title": "UpToDate: Viral encephalitis in adults (Ginsberg et al.)", "url": "https://www.uptodate.com/contents/viral-encephalitis-in-adults" },
+    { "title": "Medscape: Viral Encephalitis (Gondim, updated 2021)", "url": "https://emedicine.medscape.com/article/1166498-overview" },
+    { "title": "NEJM: Acute Viral Encephalitis (Tyler, 2018)", "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1708714" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

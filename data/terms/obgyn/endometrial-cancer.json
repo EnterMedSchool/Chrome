@@ -1,0 +1,115 @@
+{
+  "id": "endometrial-cancer",
+  "names": ["Endometrial cancer"],
+  "aliases": ["endometrial carcinoma", "uterine cancer", "uterine corpus cancer"],
+  "abbr": ["EC"],
+  "patterns": ["endometrial cancer", "endometrial carcinoma", "uterine cancer", "cancer of the uterus", "uterine carcinoma"],
+  "primary_tag": "obgyn",
+  "tags": ["pathology", "obgyn", "heme_onc"],
+  "definition": "Malignant tumor of the uterine endometrium (lining); usually an **adenocarcinoma** arising from endometrial glands.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Endometrial_Carcinoma_(414636067).jpg",
+      "alt": "Gross cross-section of a uterus showing an endometrial carcinoma (white tumor) invading into the cervix.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Endometrial_Carcinoma_(414636067).jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Most common **gynecologic cancer** in developed countries (incidence rising with obesity). Often detected early (due to abnormal bleeding) and curable, but aggressive subtypes have high mortality.",
+  "how_youll_see_it": [
+    "Postmenopausal **vaginal bleeding** is endometrial cancer until proven otherwise (e.g., an obese 65-year-old with new bleeding, or a postmenopausal breast cancer patient on **tamoxifen**).",
+    "Premenopausal women with chronic **anovulation** (PCOS) can develop endometrial hyperplasia and present with irregular, heavy menstrual bleeding in their 40s.",
+    "Advanced cases may cause pelvic pain, mass effect (enlarged uterus), or weight loss. Occasionally, a Pap smear finds atypical glandular cells pointing to an endometrial lesion."
+  ],
+  "problem_solving": [
+    "Any suspicious uterine bleeding → obtain an **endometrial biopsy** (office pipelle or D&C) for histologic diagnosis.",
+    "In postmenopausal bleeding, first do **transvaginal ultrasound**: if endometrial thickness >4 mm or polyps/mass seen, proceed to biopsy (a thin stripe <4 mm makes cancer unlikely).",
+    "If biopsy confirms cancer, perform **surgical staging** (hysterectomy with BSO and lymph node evaluation). Pre-op imaging (MRI/CT) can help assess depth of invasion and metastases."
+  ],
+  "differentials": [
+    { "name": "Endometrial hyperplasia", "hint": "precancerous thickened endometrium; causes bleeding but no stromal invasion (distinguished on biopsy)" },
+    { "name": "Uterine fibroids (leiomyomas)", "hint": "benign myometrial tumors; common cause of heavy menstrual bleeding, uterus may be enlarged, biopsy is normal" },
+    { "id": "cervical-cancer", "name": "Cervical cancer", "hint": "can cause postmenopausal or postcoital bleeding; differentiate by cervical lesion on exam or abnormal Pap smear" }
+  ],
+  "tricks": [
+    "Risk factor mnemonic **HONDA**: Hypertension, Obesity, Nulliparity, Diabetes, Advanced age (all linked to unopposed estrogen exposure).",
+    "**Tamoxifen** is pro-estrogenic in the uterus – prolonged use increases risk of endometrial polyps and carcinoma.",
+    "**Lynch syndrome** (HNPCC) confers high risk (~50%) of endometrial cancer; such patients often need prophylactic hysterectomy after childbearing."
+  ],
+  "exam_appearance": [
+    "Obese, hypertensive 61-year-old woman with postmenopausal vaginal bleeding → endometrial carcinoma (unopposed estrogen leading to endometrioid adenocarcinoma).",
+    "55-year-old breast cancer survivor on **tamoxifen** with an 8 mm endometrial stripe on ultrasound and vaginal spotting → endometrial carcinoma (tamoxifen-induced).",
+    "45-year-old with **PCOS**, obesity, and chronic anovulation has prolonged irregular bleeding → endometrial carcinoma arising from long-standing endometrial hyperplasia."
+  ],
+  "treatment": [
+    "**Surgery** is first-line: total hysterectomy + bilateral salpingo-oophorectomy (TH+BSO) to remove uterus, cervix, ovaries, and fallopian tubes (surgical staging).",
+    "**Radiation therapy** (vaginal brachytherapy or pelvic external beam) is added for higher-stage or high-grade disease to control local spread; **chemotherapy** (e.g., carboplatin/paclitaxel) is used for advanced stage or aggressive histology.",
+    "Selective cases: **progestin** hormone therapy can treat early-stage disease in young patients desiring fertility, and **immune checkpoint inhibitors** (e.g., pembrolizumab) can be effective in metastatic MSI-high tumors."
+  ],
+  "red_flags": [
+    "Any **postmenopausal bleeding** is a red flag requiring prompt endometrial evaluation (could be cancer until proven otherwise).",
+    "Atypical endometrial **hyperplasia** on biopsy (endometrial intraepithelial neoplasia) has high progression risk – manage definitively (usually with hysterectomy).",
+    "**Serous carcinoma** histology or deep myometrial invasion indicates aggressive disease (poorer prognosis, needs aggressive treatment)."
+  ],
+  "algorithm": [
+    "Postmenopausal bleeding → transvaginal **ultrasound** to assess endometrial thickness.",
+    "If endometrium >4 mm or other suspicious findings → perform **endometrial biopsy** (office pipelle or D&C).",
+    "If biopsy confirms cancer → **surgical staging** (hysterectomy + BSO with lymph node evaluation).",
+    "Stage and histology guide adjuvant therapy: consider **radiation** for local control and **chemotherapy** for disseminated or high-risk disease."
+  ],
+  "cases": [
+    {
+      "stem": "A 61‑year‑old obese woman (BMI 38) with type 2 diabetes and hypertension presents with a month of postmenopausal vaginal bleeding.",
+      "clues": [
+        "Postmenopausal bleeding",
+        "Obesity and hypertension",
+        "Endometrial stripe 12 mm on ultrasound"
+      ],
+      "answer": "Endometrial carcinoma (endometrioid type)",
+      "teaching": "Unopposed estrogen from obesity (peripheral aromatization) led to endometrial adenocarcinoma. Any postmenopausal bleeding warrants endometrial sampling; ultrasound shows thickened endometrium consistent with a tumor."
+    },
+    {
+      "stem": "A 55‑year‑old woman on tamoxifen therapy for prior breast cancer reports new spotting and bleeding after 2 years of menopause.",
+      "clues": [
+        "Tamoxifen use",
+        "Postmenopausal bleeding",
+        "Thickened endometrium on ultrasound"
+      ],
+      "answer": "Endometrial carcinoma (tamoxifen-associated)",
+      "teaching": "Tamoxifen acts as an estrogen agonist in the uterus, increasing the risk of endometrial proliferation and malignancy. Postmenopausal bleeding in a patient on tamoxifen should prompt evaluation for endometrial cancer."
+    }
+  ],
+  "see_also": [
+    "ovarian-cancer",
+    "polycystic-ovary-syndrome",
+    "endometriosis"
+  ],
+  "prerequisites": [
+    "female-reproductive-physiology",
+    "endometrium"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Endometrial Cancer (Mahdy & Vadakekut, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525981/"
+    },
+    {
+      "title": "UpToDate: Endometrial carcinoma – Epidemiology, risk factors, and prevention",
+      "url": "https://www.uptodate.com/contents/endometrial-carcinoma-epidemiology-risk-factors-and-prevention"
+    },
+    {
+      "title": "FIGO: FIGO Staging of Endometrial Cancer (2023)",
+      "url": "https://www.figo.org/news/figo-staging-endometrial-cancer-2023"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

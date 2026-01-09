@@ -1,0 +1,138 @@
+{
+  "id": "glucose-6-phosphate-dehydrogenase-deficiency",
+  "names": ["Glucose-6-phosphate dehydrogenase deficiency"],
+  "aliases": ["favism", "glucose 6-phosphate dehydrogenase deficiency"],
+  "abbr": ["G6PD"],
+  "patterns": [
+    "g6pd",
+    "g6pd deficiency",
+    "glucose 6 phosphate dehydrogenase deficiency",
+    "glucose-6-phosphate dehydrogenase deficiency",
+    "favism"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics", "peds"],
+  "definition": "An inherited **X-linked recessive** enzyme disorder of red blood cells causing impaired **NADPH** production and inability to replenish **glutathione**, rendering RBCs susceptible to **oxidative stress** and leading to episodic hemolytic anemia (especially after triggers like certain drugs, infections, or fava beans).",
+  "why_it_matters": "G6PD deficiency is the world's **most common enzyme deficiency** (≈400 million people affected). It can lead to life-threatening hemolysis or **neonatal jaundice** (a significant cause of kernicterus) if not recognized. Awareness of this condition is critical for avoiding precipitants (many medications carry G6PD-related warnings, e.g., primaquine) and for understanding classic exam scenarios linking oxidative stress to hemolysis.",
+  "how_youll_see_it": [
+    "Typically asymptomatic until an oxidative stressor. Classically, a male patient of African, Mediterranean, or Asian descent presents with **acute hemolysis** (fatigue, jaundice, dark urine) a few days after exposure to a trigger. Common triggers include **infections** (most frequent cause), certain drugs (e.g., sulfa antibiotics, dapsone, anti-malarials like primaquine), or **fava bean** ingestion.",
+    "During an acute episode: **back pain** and **tea-colored urine** are often reported (due to hemoglobinuria). Examination may show **pallor**, **jaundice** (from unconjugated bilirubin), and possibly **splenomegaly** if hemolysis is significant. The episode is usually self-limited as bone marrow compensates and new RBCs are produced.",
+    "Neonatal presentation: **neonatal jaundice** in the first days of life can be due to G6PD deficiency. Affected newborns (especially boys from high-risk ethnic groups) may develop severe unconjugated hyperbilirubinemia, sometimes requiring phototherapy or exchange transfusion to prevent kernicterus."
+  ],
+  "problem_solving": [
+    "Recognize hemolysis: labs during a crisis show elevated **LDH** and **indirect bilirubin**, low **haptoglobin**, and possibly hemoglobinuria (if intravascular hemolysis is significant). The peripheral blood smear may show **bite cells** (RBCs with \"bites\" taken out due to splenic removal of Heinz bodies). Heinz bodies (denatured hemoglobin inclusions) are visible with special supravital staining.",
+    "Confirm the diagnosis with a **G6PD assay** (e.g., fluorescent spot test or quantitative spectrophotometry) once the acute episode has resolved. Testing during active hemolysis can yield **false-normal** results, because the older, enzyme-deficient erythrocytes have been destroyed and young reticulocytes (with normal enzyme levels) dominate. If G6PD deficiency is strongly suspected but initial testing is normal, repeat the assay ~3 months after the hemolytic event.",
+    "In neonates with unexplained high bilirubin, consider G6PD testing (especially in populations where G6PD mutations are prevalent). Some regions include G6PD screening in newborn screening programs or recommend testing jaundiced infants who are not responding to phototherapy."
+  ],
+  "differentials": [
+    {
+      "name": "Autoimmune hemolytic anemia",
+      "hint": "Coombs (direct antiglobulin) test **positive**; not tied to oxidant triggers (often idiopathic or drug-induced immune)."
+    },
+    {
+      "name": "Hereditary spherocytosis",
+      "hint": "Chronic hemolysis with **spherocytes** on smear, negative Coombs; due to RBC membrane defect, often improves with splenectomy."
+    },
+    {
+      "name": "Pyruvate kinase deficiency",
+      "hint": "Another hereditary RBC enzyme defect but **autosomal recessive**; causes lifelong hemolytic anemia (often neonatal onset) without specific triggers."
+    }
+  ],
+  "tricks": [
+    "Mnemonic (oxidative stressors): **Spleen Purges Nasty Inclusions From Damaged Cells** – **S**ulfonamides, **P**rimaquine, **N**itrofurantoin, **I**soniazid, **F**ava beans, **D**apsone, **C**hloroquine are notorious triggers for hemolysis in G6PD deficiency.",
+    "The spleen removes Heinz body inclusions by taking a bite out of the RBC, which leads to characteristic **bite cells** on smear (imagine a red cell with a 'chunk' missing).",
+    "High prevalence in malaria-endemic regions because G6PD deficiency confers partial protection against **malaria**."
+  ],
+  "exam_appearance": [
+    "Young African American or Mediterranean male who develops jaundice and dark urine a few days after taking a **sulfa drug** or **antimalarial** → acute hemolytic anemia due to **G6PD deficiency**.",
+    "Sudden hemolysis in a patient after eating **fava beans** (\"favism\") → think G6PD deficiency causing oxidative stress hemolysis.",
+    "Newborn boy with **severe jaundice** in the first 2–3 days of life (negative Coombs test, not attributable to Rh/ABO) → consider G6PD deficiency (neonatal hyperbilirubinemia)."
+  ],
+  "treatment": [
+    "During an acute hemolytic episode: **stop the offending agent** (if applicable) and provide supportive care. Ensure adequate hydration and oxygenation; severe anemia may require **blood transfusions**. Treat any precipitating infection promptly (since infections themselves can trigger hemolysis).",
+    "Neonatal jaundice: initiate **phototherapy** early to prevent bilirubin encephalopathy; if bilirubin is extremely high or rising fast, perform an **exchange transfusion**.",
+    "Prevention is key: patients should **avoid known triggers** (e.g., fava beans; drugs like dapsone, primaquine, high-dose sulfonamides, nitrofurantoin). Prior to prescribing high-risk medications (like certain antimalarials), at-risk individuals should be screened for G6PD deficiency."
+  ],
+  "red_flags": [
+    "Signs of **severe hemolysis**: e.g., **cola-colored urine** (hemoglobinuria), profound fatigue, rapid drop in hemoglobin, or acute kidney injury. These warrant urgent intervention (IV fluids, possible transfusion) to prevent shock or renal failure.",
+    "In neonates, **very high bilirubin levels** or any signs of **kernicterus** (lethargy, hypotonia, poor feeding) are emergencies – intensive phototherapy or exchange transfusion is indicated to prevent irreversible brain damage.",
+    "**Methylene blue** (used for treating methemoglobinemia) is **contraindicated** in G6PD deficiency, as it can precipitate massive hemolysis."
+  ],
+  "algorithm": [
+    "Suspect G6PD deficiency in patients (especially males of susceptible ethnicities) with hemolysis after oxidant exposure (infection, new medication, fava beans).",
+    "During acute hemolysis: confirm the hemolytic nature with labs (↑LDH, ↑indirect bilirubin, ↓haptoglobin) and examine the peripheral smear for bite cells/Heinz bodies. Provide supportive care (remove trigger, hydrate, oxygen, transfuse if needed).",
+    "Once the patient is stable, perform a definitive **G6PD enzyme assay** to confirm the diagnosis (remember to test after the acute phase to avoid false negatives).",
+    "Educate the patient on avoiding known triggers and alert healthcare providers to the G6PD deficiency (e.g., wear medical alert identification). For at-risk populations (e.g., family members or in newborn screening), consider proactive testing."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Peripheral_blood_smear_stained_with_MGG_of_a_hemolytic_crisis_due_G6PD_de%EF%AC%81ciency.png",
+      "alt": "Peripheral blood smear from a G6PD deficiency hemolytic episode, showing an eccentrocyte (RBC with hemoglobin condensed to one side) due to oxidative damage.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Peripheral_blood_smear_stained_with_MGG_of_a_hemolytic_crisis_due_G6PD_de%EF%AC%81ciency.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25-year-old African American man presents with dark urine and jaundice two days after being treated with TMP-SMX for a urinary tract infection.",
+      "clues": [
+        "Tea-colored urine and scleral icterus after a sulfa antibiotic",
+        "Low haptoglobin, high LDH and indirect bilirubin",
+        "Peripheral blood smear: numerous bite cells",
+        "Maternal uncle had a similar reaction to primaquine"
+      ],
+      "answer": "Glucose-6-phosphate dehydrogenase (G6PD) deficiency – acute hemolysis triggered by a sulfa drug",
+      "teaching": "X-linked G6PD deficiency impairs RBCs' ability to handle oxidative stress. Sulfa drugs can precipitate oxidative damage, causing denatured hemoglobin (**Heinz bodies**) and RBC destruction (extravascular hemolysis with **bite cells** on smear). Management is supportive and involves avoiding future triggers."
+    },
+    {
+      "stem": "A 3-day-old boy of Mediterranean descent develops severe jaundice. Total bilirubin is extremely elevated despite phototherapy, and workup shows unconjugated hyperbilirubinemia with negative Coombs testing.",
+      "clues": [
+        "Onset of jaundice within 48 hours of birth",
+        "Very high unconjugated bilirubin, requiring intensive phototherapy",
+        "No blood group incompatibility (Direct Coombs test is negative)",
+        "Family history notes \"favism\" in some relatives"
+      ],
+      "answer": "Neonatal hyperbilirubinemia due to G6PD deficiency",
+      "teaching": "G6PD-deficient newborns can develop dangerous jaundice (bilirubin >20 mg/dL) in the first days of life due to impaired RBC enzyme function leading to hemolysis. Early-onset, severe jaundice in a male infant (especially of Mediterranean or African ancestry) should prompt testing for G6PD deficiency. Treatment is aggressive phototherapy or exchange transfusion to prevent kernicterus, and avoidance of triggers as the child grows."
+    }
+  ],
+  "see_also": [
+    "sickle-cell-anemia",
+    "thalassemia-syndromes",
+    "hemolytic-uremic-syndrome",
+    "macrocytic-anemia"
+  ],
+  "prerequisites": [
+    "pentose-phosphate-pathway",
+    "hemolytic-anemia",
+    "x-linked-inheritance"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Glucose-6-Phosphate Dehydrogenase Deficiency (Richardson & O'Malley, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470315/"
+    },
+    {
+      "title": "UpToDate: Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency (Glader, 2023)",
+      "url": "https://www.uptodate.com/contents/glucose-6-phosphate-dehydrogenase-g6pd-deficiency"
+    },
+    {
+      "title": "Medscape: Glucose-6-Phosphate Dehydrogenase Deficiency (Nagalla, 2025)",
+      "url": "https://emedicine.medscape.com/article/200390-overview"
+    },
+    {
+      "title": "Lancet: Glucose-6-Phosphate Dehydrogenase Deficiency (Cappellini & Fiorelli, 2008)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18177777/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

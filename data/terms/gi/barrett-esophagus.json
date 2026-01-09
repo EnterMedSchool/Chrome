@@ -1,0 +1,126 @@
+{
+  "id": "barrett-esophagus",
+  "names": ["Barrett esophagus"],
+  "aliases": ["Barrett's esophagus", "Barrett's oesophagus", "Allison-Johnstone anomaly", "columnar epithelium lined lower oesophagus"],
+  "abbr": ["BE"],
+  "patterns": [
+    "barrett esophagus",
+    "barrett's esophagus",
+    "barretts esophagus",
+    "barrett oesophagus",
+    "barrett's oesophagus",
+    "barretts oesophagus",
+    "barrett",
+    "BE",
+    "intestinal metaplasia esophagus",
+    "intestinal metaplasia of esophagus"
+  ],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi"],
+  "definition": "Intestinal metaplasia of the distal esophagus caused by chronic acid reflux, where normal squamous lining is replaced by columnar epithelium with goblet cells. This specialized intestinal lining is premalignant and can progress to dysplasia and adenocarcinoma of the esophagus.",
+  "why_it_matters": "Barrett's is the main precursor to esophageal adenocarcinoma, an often lethal cancer. Only a small fraction of patients with Barrett's progress to cancer each year (~0.1–0.3% annual risk without dysplasia), but given the rising incidence of adenocarcinoma and its poor prognosis, identifying Barrett's offers a chance to prevent cancer through surveillance and early therapy.",
+  "how_youll_see_it": [
+    "Usually presents in the context of chronic GERD: the classic patient is a middle-aged or older white male with years of heartburn and regurgitation. Many cases are discovered during endoscopy for long-standing reflux or complications.",
+    "Barrett's itself often causes no new symptoms beyond reflux. However, the development of dysphagia (especially for solids) or odynophagia in someone with chronic GERD can signal a stricture or progression (triggering the endoscopy that finds Barrett's). Some patients with Barrett's have no reflux symptoms at all (silent Barrett's).",
+    "Endoscopy typically shows salmon-colored, velvety patches of mucosa in the lower esophagus (in contrast to the normal pale pink squamous mucosa). Biopsies of these areas confirm intestinal metaplasia (goblet cells in the esophageal lining), establishing the diagnosis."
+  ],
+  "problem_solving": [
+    "Suspect Barrett's in patients with >5–10 years of GERD, especially if older than 50, male, white, obese, or with family history (these high-risk patients should get a screening endoscopy).",
+    "Diagnosis requires endoscopy with biopsy. Any visible Barrett's mucosa should be sampled extensively (e.g. Seattle protocol of quadrant biopsies every 1–2 cm) to detect intestinal metaplasia and any dysplasia. At least 1 cm of columnar-appearing mucosa above the gastroesophageal junction is generally needed to call it Barrett's.",
+    "If Barrett's is confirmed, the key is to determine if dysplasia is present on biopsy (none, low-grade, or high-grade). Dysplasia grade guides management: no dysplasia → surveillance endoscopy at regular intervals; low-grade → endoscopic therapy is usually recommended; high-grade → endoscopic mucosal resection of any visible lesion plus ablation, or esophagectomy in select cases.",
+    "All patients with Barrett's should be on long-term PPI therapy to control acid reflux (which may also reduce cancer risk). Ensure any alarm symptoms (like new dysphagia or bleeding) prompt immediate evaluation rather than waiting for routine surveillance."
+  ],
+  "differentials": [
+    {
+      "id": "gastroesophageal-reflux-disease",
+      "hint": "Chronic reflux symptoms without intestinal metaplasia; endoscopy may show erosive esophagitis but biopsy reveals only squamous epithelium (no goblet cells)."
+    },
+    {
+      "id": "eosinophilic-esophagitis",
+      "hint": "Young patients with dysphagia/food impaction and history of atopy; endoscopy shows rings and furrows, biopsy with eosinophils (no goblet cells)."
+    },
+    {
+      "name": "Peptic stricture",
+      "hint": "Long-standing GERD can cause fibrotic stricture (narrowing) of the distal esophagus, leading to solid-food dysphagia. Endoscopy shows a tight lumen but no Barrett's mucosa on biopsy."
+    }
+  ],
+  "tricks": [
+    "Barrett's = basically intestinal lining in the esophagus. Think of the esophagus growing goblet cells (like intestines) to cope with the acid. It's an adaptive change (metaplasia) that unfortunately carries cancer risk.",
+    "Adenocarcinoma vs Squamous cell carcinoma in esophagus: Adeno is from Acid reflux (Barrett's, distal esophagus), Squamous is from Smoking (and Spirits/alcohol) in the upper esophagus. Remember 'A for Acid, S for Smoking'.",
+    "The word Barrett's reminds you the esophagus has been burned by acid and healed with intestinal-type cells. Chronic heartburn that suddenly improves but then turns into dysphagia could mean Barrett's has progressed (stricture or cancer)."
+  ],
+  "exam_appearance": [
+    "A 55‑year‑old obese man with a 10-year history of reflux now has difficulty swallowing solids. Endoscopy reveals tongue-like patches of orange/salmon mucosa above the gastroesophageal junction. Biopsy shows goblet cells in the esophageal epithelium → Barrett esophagus (intestinal metaplasia from chronic GERD).",
+    "Patient with known Barrett's esophagus on surveillance endoscopy is found to have a focal irregular nodule in the Barrett's segment → biopsy reveals high-grade dysplasia. Next step: endoscopic therapy (endoscopic mucosal resection of the nodule plus radiofrequency ablation of remaining Barrett's) to prevent progression to adenocarcinoma."
+  ],
+  "treatment": [
+    "Long-term proton pump inhibitor (PPI) therapy for all patients – this reduces acid exposure and may help regress inflammation (unclear if it reverses Barrett's, but it helps prevent further damage and controls symptoms).",
+    "Endoscopic surveillance: for confirmed Barrett's with no dysplasia, periodic endoscopies with biopsies (e.g. every 3–5 years) are recommended to monitor for dysplasia.",
+    "Low-grade dysplasia: preferred management is endoscopic eradication therapy (typically radiofrequency ablation) rather than just surveillance, given the significant risk of progression.",
+    "High-grade dysplasia or intramucosal carcinoma: treat with endoscopic mucosal resection of any visible lesions, plus ablation of the remaining Barrett's tissue. Esophagectomy is reserved for tumors invading beyond the mucosa or not amenable to endoscopic control."
+  ],
+  "red_flags": [
+    "New dysphagia or odynophagia (pain with swallowing) in a patient with Barrett's – suggests a possible stricture or progression to cancer. This should prompt urgent endoscopic evaluation (don't just assume it's 'just GERD').",
+    "Weight loss, hematemesis or melena, or iron deficiency anemia in the setting of Barrett's – worrisome for an occult adenocarcinoma. Any signs of GI bleeding or systemic symptoms should expedite investigation."
+  ],
+  "algorithm": [
+    "Chronic GERD (>5 years) + multiple risk factors (male, >50, obesity, etc.) → screen with upper endoscopy to look for Barrett's.",
+    "If endoscopy shows suspicious columnar mucosa in distal esophagus → perform multiple biopsies (Seattle protocol) to confirm Barrett's (look for goblet cells) and check for dysplasia.",
+    "If biopsy confirms Barrett esophagus (intestinal metaplasia): start long-term PPI and determine dysplasia grade (none vs low vs high).",
+    "No dysplasia → surveillance endoscopy q3–5 years; Low-grade → endoscopic ablation (to eradicate Barrett's); High-grade/intramucosal carcinoma → endoscopic mucosal resection + ablation (or surgery if beyond endoscopic cure).",
+    "Maintain acid control and follow surveillance guidelines to prevent progression to esophageal adenocarcinoma."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Seattle_Protocol_Biopsies.jpg",
+      "alt": "Endoscopic image of Barrett's esophagus (salmon-colored lining in distal esophagus) with biopsy forceps demonstrating the Seattle protocol (systematic biopsies of the Barrett's segment).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Seattle_Protocol_Biopsies.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 54‑year‑old man with a long history of GERD presents with worsening heartburn and new difficulty swallowing.",
+      "clues": [
+        "Has required daily antacids for years",
+        "Endoscopy: tongues of orange mucosa in distal esophagus",
+        "Biopsy: intestinal-type epithelium with goblet cells (no dysplasia)"
+      ],
+      "answer": "Barrett esophagus",
+      "teaching": "Chronic acid reflux led to Barrett's esophagus (intestinal metaplasia replacing squamous epithelium). Barrett's is a premalignant lesion for esophageal adenocarcinoma, so this patient needs long-term acid suppression and periodic endoscopic surveillance (with ablation if dysplasia develops)."
+    }
+  ],
+  "see_also": [
+    "gastroesophageal-reflux-disease",
+    "achalasia",
+    "peptic-ulcer-disease"
+  ],
+  "prerequisites": [
+    "esophagus",
+    "metaplasia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Barrett Esophagus (Khieu & Goosenberg, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430979/"
+    },
+    {
+      "title": "UpToDate: Barrett's esophagus – epidemiology, clinical manifestations, and diagnosis",
+      "url": "https://www.uptodate.com/contents/barretts-esophagus-epidemiology-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Am Fam Physician: Barrett esophagus – rapid evidence review (2022)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2022/1000/barrett-esophagus.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

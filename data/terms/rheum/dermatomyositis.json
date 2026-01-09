@@ -1,0 +1,104 @@
+{
+  "id": "dermatomyositis",
+  "names": ["Dermatomyositis"],
+  "aliases": ["juvenile dermatomyositis", "amyopathic dermatomyositis"],
+  "abbr": ["DM"],
+  "patterns": ["dermatomyositis", "dermato myositis", "dermato-myositis", "juvenile dermatomyositis", "amyopathic dermatomyositis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "msk_derm", "peds"],
+  "definition": "Idiopathic autoimmune myositis characterized by symmetric proximal muscle weakness and distinctive skin lesions (e.g., heliotrope rash on the eyelids, **Gottron papules** on the knuckles).",
+  "why_it_matters": "Classic exam disease (rash + weakness combo) that often signals serious underlying issues. Dermatomyositis is strongly associated with internal malignancies in adults (paraneoplastic in ~20% of cases) and can lead to complications like interstitial lung disease and dysphagia. Early recognition allows prompt treatment (immunosuppression) and cancer screening, preventing morbidity.",
+  "how_youll_see_it": [
+    "Usually an adult with gradually worsening **shoulder and hip weakness** (trouble climbing stairs, combing hair) accompanied by skin findings. **Heliotrope rash** (violaceous discoloration of eyelids with periorbital edema) and **Gottron papules** (scaly erythematous papules overlying extensor joints, especially the MCP/PIP knuckles) are hallmark lesions. Rash can also appear on the upper back/shoulders (**shawl sign**) or chest (**V-sign**) in sun-exposed distribution.",
+    "Patients may have systemic involvement: **dysphagia** or regurgitation if esophageal muscles are affected, **interstitial lung disease** (progressive exertional dyspnea, cough, especially with anti-Jo-1 antibody), and arthralgias or **Raynaud** phenomenon. In children (juvenile dermatomyositis), similar rash and weakness occur, often with calcinosis cutis (calcium deposits in skin) and a higher risk of vasculitic ulcers."
+  ],
+  "problem_solving": [
+    "Dermatomyositis = polymyositis **plus skin involvement**. If you see proximal muscle weakness *and* a rash, think dermatomyositis (polymyositis has muscle symptoms without rash).",
+    "Rule out other causes of myopathy before settling on idiopathic DM: check **TSH** (hypothyroid can mimic with high CK) and review medications (e.g., statins, hydroxyurea) that can cause drug-induced myopathy.",
+    "Confirm the diagnosis with EMG and especially **muscle biopsy**. Dermatomyositis classically shows **perifascicular atrophy** (muscle fiber damage at the edges of fascicles) due to a complement-mediated microangiopathy.",
+    "Test for myositis-specific autoantibodies (e.g., **anti-Jo-1** aka anti-histidyl tRNA synthetase) which, if present, support the diagnosis and predict extra-muscular involvement (anti-Jo-1 is linked with ILD and so-called antisynthetase syndrome).",
+    "Once dermatomyositis is diagnosed, perform age-appropriate cancer screening (e.g., CT scans, mammography, colonoscopy depending on risk) since there's a strong association with **malignancy** in adult patients."
+  ],
+  "differentials": [
+    { "id": "polymyositis", "hint": "proximal muscle weakness like DM but **no rash**; biopsy shows endomysial inflammation (CD8+ T cells) rather than perifascicular" },
+    { "id": "inclusion-body-myositis", "hint": "older patients, often asymmetric **distal** weakness (finger flexors, quadriceps); features inclusion vacuoles on biopsy; generally poor response to steroids" },
+    { "name": "Polymyalgia rheumatica", "hint": "muscle pain and stiffness (but **no true weakness**) in shoulders/hips; age >50; elevated ESR but **normal CK**; associated with giant cell arteritis" }
+  ],
+  "tricks": [
+    "**Gottron papules = dermatomyositis**. Red or violaceous papules on the extensor joints (especially the knuckles) are essentially pathognomonic for this disease.",
+    "**Heliotrope rash** (purple eyelid discoloration with puffiness) is a classic giveaway for dermatomyositis on exams.",
+    "Name breakdown as a memory aid: **dermato-** (skin findings) + **-myositis** (muscle inflammation) → look for the combination of rash and muscle weakness."
+  ],
+  "exam_appearance": [
+    "Middle-aged woman with difficulty rising from a chair and reaching overhead, plus a violaceous periorbital rash and scaly erythematous knuckle lesions → dermatomyositis (heliotrope sign and Gottron papules).",
+    "Child with proximal muscle weakness and a rash on sun-exposed skin (Gottron papules on knees and hands, heliotrope rash) who develops subcutaneous calcium deposits → juvenile dermatomyositis (calcinosis is common in JDM)."
+  ],
+  "treatment": [
+    "**High-dose corticosteroids** (e.g., prednisone) are first-line and often lead to dramatic improvement in muscle strength and rash.",
+    "Add a **steroid-sparing immunosuppressant** (such as methotrexate or azathioprine) if needed for long-term control or inadequate response. Intravenous immunoglobulin (**IVIG**) can be beneficial in refractory dermatomyositis, and agents like rituximab are used in tough cases.",
+    "Skin management: sun avoidance and **sun protection** (hats, sunscreen) to prevent photosensitive flares. For rash symptoms, therapies like **hydroxychloroquine** can be helpful. Encourage **physical therapy** and exercise as tolerated to maintain muscle function (once inflammation is controlled)."
+  ],
+  "red_flags": [
+    "New-onset dermatomyositis in an adult → **screen for malignancy** (e.g., ovarian, lung, GI, lymphoma). Unexplained weight loss or atypical presentations should prompt an aggressive cancer workup.",
+    "**Dysphagia** or hoarse voice in dermatomyositis indicates esophageal muscle involvement – risk of aspiration pneumonia; evaluate swallowing and consider feeding support if severe.",
+    "Rapidly progressive **ILD** in a dermatomyositis patient (especially if anti-MDA5 antibody positive) signifies aggressive disease – requires prompt escalation of immunosuppressive therapy."
+  ],
+  "algorithm": [
+    "Symmetric proximal weakness + characteristic rash → **suspect dermatomyositis**.",
+    "Order **muscle enzymes** (CK, aldolase levels) and basic labs; also test for **myositis-specific autoantibodies** (e.g., anti-Jo-1).",
+    "Exclude mimics (thyroid dysfunction, medication-induced myopathy) → if none, proceed to confirm idiopathic inflammatory myopathy.",
+    "**EMG** (electromyography) and **muscle biopsy** of an affected muscle confirm the diagnosis (biopsy will show the hallmark inflammatory changes of dermatomyositis).",
+    "After diagnosis, **screen for underlying malignancy** (age-appropriate cancer screening). Begin **high-dose corticosteroid** therapy (with adjunct immunosuppressives as needed) and supportive care (physical therapy, monitor pulmonary function if ILD, etc.)."
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old woman presents with progressive difficulty climbing stairs and combing her hair over 3 months. She also notes a persistent rash on her face and hands.",
+      "clues": ["Heliotrope (violaceous) rash on the eyelids with periorbital edema", "Red papular rash overlying the knuckles (Gottron papules)", "Symmetric proximal muscle weakness", "Elevated creatine kinase (CK) level"],
+      "answer": "Dermatomyositis",
+      "teaching": "This is a classic presentation of dermatomyositis. The combination of proximal muscle weakness and pathognomonic skin findings (heliotrope eyelid rash, Gottron papules on the joints) clinches the diagnosis. She should be started on high-dose corticosteroids and evaluated for any underlying malignancy (as dermatomyositis can be a paraneoplastic syndrome)."
+    },
+    {
+      "stem": "A 10‑year‑old girl is brought in for fatigue and difficulty keeping up in gym class. Parents have also noticed a rash on her extensor surfaces and some hard bumps under the skin.",
+      "clues": ["Scaly violaceous papules on the knuckles and knees", "Difficulty climbing and frequent falls (proximal muscle weakness)", "Subcutaneous calcified nodules in elbows and knees", "Elevated muscle enzymes (CK, aldolase)"],
+      "answer": "Juvenile dermatomyositis",
+      "teaching": "Juvenile dermatomyositis presents with similar skin findings and muscle weakness as adult dermatomyositis, often with dystrophic calcinosis (calcium deposits in skin) in children. Treatment is similar (systemic corticosteroids and immunosuppressive therapy) to improve muscle strength and prevent complications like calcinosis and contractures."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Dermatomyositis.jpg",
+      "alt": "Gottron's papules on the hand (violaceous papules overlying the knuckles) in dermatomyositis",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Dermatomyositis.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["polymyositis", "inclusion-body-myositis", "polymyalgia-rheumatica"],
+  "prerequisites": ["skeletal-muscle", "hypersensitivity"],
+  "sources": [
+    {
+      "title": "StatPearls: Dermatomyositis (Qudsiya & Waseem, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK558917/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations of dermatomyositis and polymyositis in adults",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-of-dermatomyositis-and-polymyositis-in-adults"
+    },
+    {
+      "title": "Medscape: Dermatomyositis (Femia, 2023)",
+      "url": "https://emedicine.medscape.com/article/332783-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

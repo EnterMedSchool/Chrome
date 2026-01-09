@@ -1,0 +1,144 @@
+{
+  "id": "common-variable-immunodeficiency",
+  "names": ["Common variable immunodeficiency"],
+  "aliases": ["common variable immune deficiency", "acquired hypogammaglobulinemia"],
+  "abbr": ["CVID"],
+  "patterns": [
+    "common variable immunodeficiency",
+    "common variable immune deficiency",
+    "CVID",
+    "common variable hypogammaglobulinemia",
+    "acquired hypogammaglobulinemia"
+  ],
+  "primary_tag": "immunology",
+  "tags": ["pathology", "immunology", "peds"],
+  "definition": "Primary antibody immunodeficiency with **hypogammaglobulinemia** (low IgG plus low IgA/IgM) causing recurrent infections and immune dysregulation (autoimmunity).",
+  "why_it_matters": "Most common symptomatic primary immunodeficiency; leads to recurrent **sinopulmonary infections**, chronic lung damage (bronchiectasis), frequent **autoimmune** diseases (e.g., ITP, hemolytic anemia), and increased **lymphoma** risk.",
+  "how_youll_see_it": [
+    "Usually presents in **teens or adults** (but sometimes after age 4); recurrent **otitis**, **sinusitis**, **pneumonia** are typical. Chronic **diarrhea** (often from Giardia) is also common.",
+    "Autoimmune complications (e.g., cytopenias like ITP or AIHA, thyroid disease) and **non-caseating granulomas** (sarcoid-like lung or lymphoid lesions) can occur, adding to the variable features.",
+    "Labs: **↓ IgG** (with ↓IgA and/or ↓IgM) and **poor vaccine antibody response** (no protective titers after immunizations). **B cells are present** (normal or low-normal count, unlike XLA)."
+  ],
+  "problem_solving": [
+    "Suspect CVID in older children or adults with recurrent bacterial infections affecting ears, sinuses, lungs (and sometimes chronic diarrhea).",
+    "First, check quantitative immunoglobulin levels: significantly low IgG (≥2 SD below normal for age) with low IgA and/or IgM confirms hypogammaglobulinemia.",
+    "Test antibody function: measure specific antibody titers after vaccines (e.g., pneumococcal vaccine) – CVID patients show **poor or absent response** despite vaccination.",
+    "Exclude secondary causes of low immunoglobulins: test for **HIV**; evaluate for protein loss (**nephrotic syndrome** or protein-losing enteropathy); review medications (e.g., immunosuppressants, anti-seizure drugs); rule out lymphoid malignancy (CLL, myeloma).",
+    "Distinguish from other primary immunodeficiencies: CVID has **normal B-cell numbers** and later onset in both sexes (vs. X-linked agammaglobulinemia – no B cells, infant boys; vs. hyper-IgM – high IgM; vs. SCID – T-cell deficits and infant onset)."
+  ],
+  "differentials": [
+    {
+      "name": "X-linked agammaglobulinemia (Bruton)",
+      "hint": "Male infant with recurrent infections starting ~6mo; **no B cells** on flow cytometry, all Ig classes low."
+    },
+    {
+      "name": "Selective IgA deficiency",
+      "hint": "**IgA** low, but IgG/IgM normal; may have recurrent mucosal infections but often asymptomatic; most common immunoglobulin deficiency."
+    },
+    {
+      "name": "Hyper-IgM syndrome",
+      "hint": "High IgM, very low IgG/IgA; often X-linked (CD40L defect); presents in infancy with severe sinopulmonary and opportunistic infections."
+    }
+  ],
+  "tricks": [
+    "Remember **CVID** as **Common & Variable**: the most common clinically significant immunodeficiency with highly variable presentation (infections + autoimmunity + granulomas).",
+    "**Bruton**'s agammaglobulinemia = **Boys, Babies, B-cells absent**; **CVID** = **Co-ed, Variable age**, B-cells **Present** (just can't class-switch well)."
+  ],
+  "exam_appearance": [
+    "Young adult with recurrent sinus infections, pneumonias, and chronic diarrhea (Giardia) who has low immunoglobulin levels → **Common variable immunodeficiency**.",
+    "10‑year‑old girl with a history of multiple pneumonias and otitis media, plus an episode of autoimmune thrombocytopenia, found to have low IgG and IgA levels → **CVID** (distinguish from XLA by female sex and presence of B cells).",
+    "Adult CVID patient with chronic cough and lung nodules on CT is found to have non-caseating granulomas (GLILD) → indicates CVID-related granulomatous disease (not sarcoidosis)."
+  ],
+  "treatment": [
+    "**Immunoglobulin replacement** therapy for life (regular IVIG or SCIG infusions) to restore IgG levels and reduce infections.",
+    "Aggressive treatment of infections (antibiotics); consider prophylactic antibiotics if needed for recurrent bacterial infections.",
+    "No live vaccines (they often won't mount response; use inactivated vaccines in close contacts instead for herd protection).",
+    "Monitor for complications: manage autoimmune disorders (e.g., IVIG also helps ITP), screen for lymphoma if persistent lymphadenopathy or organ enlargement, and perform lung imaging/PFTs if chronic respiratory symptoms (for bronchiectasis or GLILD)."
+  ],
+  "red_flags": [
+    "Unexplained **weight loss**, chronic diarrhea, or abdominal pain in CVID → evaluate for GI involvement (sprue-like enteropathy) or GI lymphoma.",
+    "Recurrent pneumonia in CVID patient → get imaging; early **bronchiectasis** can develop, requiring pulmonary care (airway clearance, possibly prophylactic antibiotics).",
+    "**Hepatosplenomegaly** or lymph node enlargement in CVID → consider lymphoma (much higher risk in CVID) and pursue appropriate workup (imaging/biopsy)."
+  ],
+  "algorithm": [
+    "Recurrent respiratory or GI infections in child >4 or adult → suspect CVID (check immunoglobulin levels).",
+    "**Low IgG (and low IgA/IgM)** on two occasions → proceed to functional antibody testing (vaccine titers).",
+    "Confirm poor antibody response to vaccines or isohemagglutinins → supports CVID diagnosis.",
+    "Exclude secondary immunodeficiencies (HIV, protein loss, medications, malignancy) and other primary IDs (if male infant with no B cells, that's XLA; if severe T-cell defects, think SCID).",
+    "Diagnosis of exclusion confirmed → begin **IVIG** therapy and routine monitoring (infections, autoimmunity, malignancy surveillance)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Intragam_Infusion.jpg/1280px-Intragam_Infusion.jpg",
+      "alt": "Intravenous immunoglobulin (IVIG) infusion being administered to a CVID patient.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Intragam_Infusion.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old man has a history of recurrent sinus infections, two pneumonias, and chronic diarrhea due to Giardia.",
+      "clues": [
+        "Onset of recurrent infections in adolescence/adulthood",
+        "Sinopulmonary infections + Giardia diarrhea",
+        "Labs: markedly low IgG and IgA levels",
+        "Poor antibody response to vaccines"
+      ],
+      "answer": "Common variable immunodeficiency",
+      "teaching": "CVID often presents in young adults with recurrent bacterial infections (especially sinopulmonary) and chronic giardial diarrhea due to low immunoglobulins. Treatment is lifelong IVIG, which can dramatically reduce infection frequency."
+    },
+    {
+      "stem": "A 10‑year‑old female with multiple episodes of pneumonia and otitis media is evaluated for immune deficiency. She also had immune thrombocytopenic purpura (ITP) last year.",
+      "clues": [
+        "Recurrent bacterial infections began after age 4",
+        "Autoimmune complication (ITP) occurred",
+        "Serum IgG and IgA are low (IgM slightly low)",
+        "Normal B lymphocyte count on flow cytometry"
+      ],
+      "answer": "Common variable immunodeficiency",
+      "teaching": "CVID in a school-age girl can cause recurrent infections and autoimmunity. Key features are hypogammaglobulinemia with normal B-cell numbers, distinguishing it from X-linked agammaglobulinemia (which affects infant boys and has absent B cells). Management is IVIG replacement."
+    }
+  ],
+  "see_also": [
+    "x-linked-agammaglobulinemia",
+    "hyper-igm-syndrome",
+    "severe-combined-immunodeficiency"
+  ],
+  "prerequisites": [
+    "immunology-basics",
+    "b-cell",
+    "antibodies"
+  ],
+  "sources": [
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21st ed. (2022) – Primary Immunodeficiencies chapter",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192018054"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations, epidemiology, and diagnosis of CVID in adults",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-epidemiology-and-diagnosis-of-common-variable-immunodeficiency-in-adults"
+    },
+    {
+      "title": "UpToDate: Treatment and prognosis of common variable immunodeficiency",
+      "url": "https://www.uptodate.com/contents/treatment-and-prognosis-of-common-variable-immunodeficiency"
+    },
+    {
+      "title": "JACI In Practice: International Consensus Document on CVID (Bonilla et al., 2016)",
+      "url": "https://www.jaci-inpractice.org/article/S2213-2198(15)00441-9/fulltext"
+    },
+    {
+      "title": "NIH/NIAID: Common Variable Immune Deficiency (information page)",
+      "url": "https://rarediseases.info.nih.gov/diseases/10245/common-variable-immune-deficiency"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

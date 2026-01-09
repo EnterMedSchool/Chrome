@@ -1,0 +1,114 @@
+{
+  "id": "vestibular-neuritis",
+  "names": ["Vestibular neuritis"],
+  "aliases": ["Vestibular neuronitis", "Acute unilateral vestibulopathy"],
+  "abbr": ["VN"],
+  "patterns": ["vestibular neuritis", "vestibular neuronitis", "acute vestibular neuronitis", "acute unilateral vestibulopathy"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "emerg", "infectious_dz"],
+  "definition": "Acute inflammation of the vestibular (balance) portion of CN VIII causing sudden, prolonged vertigo with nausea and imbalance. Hearing is usually normal (unlike labyrinthitis). Often follows a viral illness and is typically self-limited over days to weeks.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Vestibular_neural_connections.jpg",
+      "alt": "Diagram of vestibular neural connections (Cajal, 1923)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Vestibular_neural_connections.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Vestibular neuritis is a common cause of acute vertigo (second only to BPPV in adults). It causes sudden, disabling spinning vertigo with nausea and imbalance, so distinguishing it from dangerous central causes (like stroke) is critical.",
+  "how_youll_see_it": [
+    "Acute onset of continuous vertigo with nausea/vomiting and gait unsteadiness (peaks in 24–48 h).",
+    "Often follows a viral prodrome (though not always). No hearing loss (if hearing loss present → labyrinthitis).",
+    "Exam: spontaneous horizontal unidirectional nystagmus (fast phase away from lesion) and a positive head impulse test (catch-up saccade) on the affected side.",
+    "HINTS exam: peripheral pattern (abnormal HIT, unidirectional nystagmus, no skew deviation) confirms neuritis; a normal HIT or vertical/bidirectional nystagmus suggests central stroke.",
+    "Different from BPPV/Ménière's: VN vertigo is constant (days) and not triggered by position; BPPV is brief and positional, Ménière's has fluctuating hearing loss/tinnitus."
+  ],
+  "tricks": [
+    "HINTS exam mnemonic: Head-Impulse, Nystagmus, TSkew. An abnormal head-impulse and unidirectional nystagmus point to VN.",
+    "Positive Head Impulse Test (catch-up saccade) = peripheral lesion (vestibular neuritis). A normal HIT is a stroke red flag.",
+    "Nystagmus Rule: In VN, nystagmus is horizontal and one-way regardless of gaze. Direction-changing or vertical nystagmus suggests stroke.",
+    "Remember: patients fall toward the affected ear (toward the side of the lesion).",
+    "Treat acute symptoms early: use vestibular suppressants short-term (days) only; start vestibular rehab early to speed recovery."
+  ],
+  "exam_appearance": [
+    "USMLE-style: Viral prodrome → 48h continuous spinning vertigo + nausea; exam shows horizontal nystagmus beating away from one side and positive head thrust toward that side; normal hearing → Vestibular neuritis.",
+    "Trick Q: Elderly stroke mimic: acute vertigo, focal neuro signs or normal HIT, direction-changing nystagmus → central (stroke).",
+    "Another trick: Brief positional vertigo triggered by rolling over (positive Dix–Hallpike) points to BPPV, not VN."
+  ],
+  "differentials": [
+    { "id": "stroke", "hint": "Central vertigo: vascular risk factors or neuro deficits; normal HIT or direction-changing/vertical nystagmus suggests stroke." },
+    { "id": "benign-paroxysmal-positional-vertigo", "name": "Benign paroxysmal positional vertigo (BPPV)", "hint": "Brief (<1 min) vertigo episodes triggered by head position (positive Dix–Hallpike)." },
+    { "id": "labyrinthitis", "hint": "Vestibular neuritis + hearing loss/tinnitus (cochlear involvement)." },
+    { "id": "menieres-disease", "name": "Ménière's disease", "hint": "Recurrent vertigo + fluctuating hearing loss, tinnitus, aural fullness (20 min–24 h episodes)." }
+  ],
+  "treatment": [
+    "Acute: antiemetics (ondansetron, prochlorperazine) and vestibular suppressants (meclizine, diazepam) for ≤3 days, then taper off to allow compensation.",
+    "Consider short course of corticosteroids (studies suggest they speed vestibular recovery); antivirals are not effective.",
+    "Initiate early vestibular rehabilitation (repositioning and balance exercises) once acute symptoms subside."
+  ],
+  "red_flags": [
+    "Neurologic signs (weakness, double vision, ataxia, dysarthria) or a normal HIT/vertical nystagmus on exam suggest a stroke rather than VN.",
+    "Sudden unilateral hearing loss with vertigo → consider labyrinthitis or AICA stroke, not pure VN.",
+    "If severe symptoms persist >48h without improvement, or exam doesn't fit peripheral pattern, get emergent MRI (CT often misses posterior stroke)."
+  ],
+  "algorithm": [
+    "Acute vertigo → check for red flags: if any neuro deficits or central HINTS signs → STAT neuroimaging (stroke workup).",
+    "If consistent with peripheral (no deficits, positive HIT): treat as vestibular neuritis.",
+    "Verify no hearing loss (lab), and rule out BPPV (Dix–Hallpike). Start supportive care (short-term suppressants), consider steroids, arrange vestibular rehab.",
+    "Follow-up: if no improvement by 48–72h or new signs, escalate (MRI, specialist)."
+  ],
+  "cases": [
+    {
+      "stem": "34-year-old woman post-URI with 2 days of continuous, spinning vertigo, nausea, and imbalance.",
+      "clues": [
+        "No hearing loss",
+        "Horizontal unidirectional nystagmus (fast phase to left)",
+        "Positive head-thrust to the left (catch-up saccade)"
+      ],
+      "answer": "Vestibular neuritis",
+      "teaching": "Classic acute vestibular neuritis: viral prodrome, persistent vertigo, plus a positive head impulse (peripheral pattern). Treat supportively and start vestibular rehab."
+    },
+    {
+      "stem": "58-year-old man with hypertension has sudden vertigo, vomiting. Exam: normal head impulse test, vertical nystagmus, mild ataxia.",
+      "clues": [
+        "Vascular risk factors",
+        "Normal head impulse",
+        "Vertical nystagmus",
+        "Mild cerebellar signs"
+      ],
+      "answer": "Brainstem/cerebellar stroke (e.g. PICA infarct)",
+      "teaching": "Central cause of acute vertigo: normal head thrust and central nystagmus pattern plus risk factors suggest stroke, not VN."
+    }
+  ],
+  "see_also": [
+    "menieres-disease",
+    "acoustic-neuroma",
+    "nystagmus",
+    "stroke"
+  ],
+  "prerequisites": ["cranial-nerves", "vestibular-system"],
+  "sources": [
+    {
+      "title": "StatPearls: Vestibular Neuritis (Balasubramaniam et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK549866/"
+    },
+    {
+      "title": "Medscape: Vestibular Neuronitis (Lui, 2024)",
+      "url": "https://emedicine.medscape.com/article/794489-overview"
+    },
+    {
+      "title": "Mayo Clinic: Vestibular neuritis",
+      "url": "https://www.mayoclinic.org/diseases-conditions/vestibular-neuritis/symptoms-causes/syc-20378478"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "wilms-tumor",
+  "names": ["Wilms tumor"],
+  "aliases": ["nephroblastoma", "Wilms' tumor"],
+  "abbr": ["WT"],
+  "patterns": ["wilms", "wilms tumor", "wilms' tumor", "wilms tumour", "nephroblastoma", "wilm's tumor"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "renal", "genetics"],
+  "definition": "Most common pediatric renal malignancy (nephroblastoma) occurring in young children (<5 yo); malignant embryonal tumor arising from metanephric blastema.",
+  "why_it_matters": "Most cases are curable with prompt treatment (~90% survival in localized disease). High-yield for exams as the classic childhood abdominal mass and for testing associated syndromes (WAGR, Beckwith-Wiedemann, etc.).",
+  "how_youll_see_it": [
+    "Toddler (~3 years old) with a firm, unilateral flank mass often found incidentally by a parent (e.g., while bathing); usually well-appearing without major symptoms.",
+    "Possible additional findings: painless hematuria (blood in urine), mild abdominal pain, or **hypertension** (from renin secretion).",
+    "Mass is typically smooth and does **not** cross the midline (distinguishes from neuroblastoma, which often crosses midline and causes systemic symptoms)."
+  ],
+  "problem_solving": [
+    "Initial imaging for a child with abdominal mass: abdominal **ultrasound** (Wilms appears as a solid intrarenal mass). Follow with **CT or MRI** of abdomen to define tumor extent (check renal vein/IVC invasion, contralateral kidney) and **chest imaging** (for lung metastases).",
+    "Obtain baseline labs: **CBC**, renal function, liver function, **urinalysis** (often hematuria), and **coagulation studies** (5–10% of Wilms tumor patients have acquired von Willebrand syndrome causing coagulopathy).",
+    "Avoid preoperative biopsy if Wilms tumor is suspected (risk of tumor spill upstages to Stage III). Plan for prompt surgical removal unless the tumor is unresectable or bilateral at presentation.",
+    "Stages: I – tumor confined to kidney (no capsular rupture); II – tumor extends beyond kidney but completely resectable (no lymph nodes involved); III – residual tumor in abdomen (lymph node involvement, peritoneal implants, or spillage during surgery); IV – hematogenous metastases (commonly to lungs, liver, distant nodes); V – bilateral kidney tumors at diagnosis.",
+    "Differentiate from **neuroblastoma**: Wilms is intrarenal, usually unilateral with minimal symptoms; neuroblastoma arises from adrenal, often crossing midline with systemic signs (e.g., opsoclonus-myoclonus, ↑catecholamines)."
+  ],
+  "differentials": [
+    {
+      "id": "neuroblastoma",
+      "hint": "Adrenal neuroendocrine tumor in infants; often crosses midline and causes systemic symptoms (catecholamine secretion, opsoclonus-myoclonus)."
+    },
+    {
+      "id": "multicystic-dysplastic-kidney",
+      "hint": "Congenital noncancerous malformation of the kidney (cystic); can present as a flank mass in infancy, but ultrasound shows a cystic, not solid, lesion."
+    }
+  ],
+  "tricks": [
+    "Mnemonic **WAGR** for Wilms tumor association: **W**ilms tumor, **A**niridia (absence of iris), **G**enitourinary malformations, **R**etardation (intellectual disability). Caused by WT1 tumor suppressor gene deletion on chromosome 11.",
+    "Denys-Drash syndrome: germline WT1 mutation → triad of early nephrotic syndrome (diffuse mesangial sclerosis), Wilms tumor, and gonadal dysgenesis (male pseudohermaphroditism).",
+    "Beckwith-Wiedemann syndrome: an overgrowth disorder (macrosomia, hemihypertrophy, macroglossia, organomegaly) due to 11p15 imprinting defect; markedly increased risk of Wilms tumor (requires periodic ultrasound screening in infancy)."
+  ],
+  "exam_appearance": [
+    "Young child (~3‑year‑old) with an asymptomatic flank mass plus hematuria and hypertension → Wilms tumor (nephroblastoma).",
+    "Infant with one-sided body overgrowth (hemihypertrophy), macroglossia, and a unilateral kidney tumor → Beckwith-Wiedemann syndrome (Wilms tumor).",
+    "Child with congenital aniridia and a renal tumor → think **WAGR syndrome** (Wilms tumor + Aniridia + GU anomalies + intellectual disability)."
+  ],
+  "treatment": [
+    "Primary treatment is surgical **nephrectomy** (removal of the affected kidney) with sampling of regional lymph nodes (for staging). The contralateral kidney is inspected for tumor.",
+    "**Chemotherapy** is given after surgery in virtually all cases: typically vincristine + dactinomycin (actinomycin D) for low-stage disease; add doxorubicin for higher stages or risk factors (e.g., LOH 1p/16q). More intensive regimens are used for unfavorable histology or advanced disease.",
+    "**Radiation therapy** to the abdomen (and lungs if metastases) is used for Stage III/IV disease or any unfavorable histology. It should begin within 10–14 days post-nephrectomy for best outcomes (per COG/NCCN guidelines).",
+    "Bilateral Wilms (Stage V) is managed with chemotherapy first (to shrink tumors) followed by nephron-sparing surgery on both kidneys if possible (to preserve renal function)."
+  ],
+  "red_flags": [
+    "Unilateral **aniridia**, hemihypertrophy, or other overgrowth/GU anomalies in a child → screen for Wilms tumor (these are red flags for syndromes like WAGR or Beckwith-Wiedemann).",
+    "Avoid overly vigorous palpation of a pediatric abdominal mass—if it's Wilms tumor, rough handling could rupture the capsule and spill tumor, worsening prognosis by upstaging the tumor."
+  ],
+  "algorithm": [
+    "Child with a palpable flank mass → get abdominal **ultrasound** to evaluate (solid renal tumor suggests Wilms).",
+    "If a renal tumor is found → obtain abdominal **CT/MRI** (to assess tumor extent, renal vein/IVC involvement, and other kidney) and **chest imaging** (for lung metastases).",
+    "Refer to pediatric surgery/oncology for definitive management: for a unilateral tumor, proceed with **nephrectomy** (no pre-op biopsy to avoid spillage); for bilateral disease, start chemo first to attempt organ preservation.",
+    "After nephrectomy, obtain thorough **pathology** (histology and margins) to determine tumor histology (favorable vs. anaplastic) and stage (I–V).",
+    "Adjuvant **chemotherapy** for all patients (regimen intensity based on stage and histology); add **radiation** for Stage III+, metastatic, or anaplastic cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Wilms_tumour_-_high_mag.jpg",
+      "alt": "Wilms tumor histology (high magnification) with triphasic pattern (blastema, epithelial tubules, stromal cells).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Wilms_tumour_-_high_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 3‑year‑old girl is brought in by her mother due to a \"swollen belly.\" The mother noticed a firm bulge on the left side of the child's abdomen while bathing her.",
+      "clues": [
+        "Left flank non-tender mass on exam (does not cross midline)",
+        "Urinalysis shows hematuria",
+        "Blood pressure is above normal for age"
+      ],
+      "answer": "Wilms tumor (nephroblastoma)",
+      "teaching": "This toddler's painless unilateral abdominal mass with hematuria and hypertension is classic for Wilms tumor. Wilms tumor arises from the kidney (metanephric blastema) and is highly curable with nephrectomy and chemotherapy. Key distinguishing features: Wilms tumor typically presents in a young child, remains intrarenal (doesn't cross midline), and may cause hematuria or HTN; in contrast, neuroblastoma often occurs in infants, crosses midline, and causes systemic symptoms (e.g., catecholamine-related findings)."
+    },
+    {
+      "stem": "A 1‑year‑old boy with Beckwith‑Wiedemann syndrome is undergoing a screening ultrasound, which reveals a mass in his right kidney.",
+      "clues": [
+        "Macroglossia (enlarged tongue) and hemihypertrophy noted on exam",
+        "Neonatal history of hypoglycemia",
+        "Abdominal ultrasound shows a solid renal tumor"
+      ],
+      "answer": "Wilms tumor",
+      "teaching": "Beckwith-Wiedemann syndrome is a congenital overgrowth disorder (large tongue, body asymmetry, high birth weight) caused by an 11p15 genetic alteration. It confers a significantly increased risk of Wilms tumor, so regular abdominal ultrasounds are performed. This case demonstrates a Wilms tumor detected on screening. Prompt surgical and medical management in such patients yields an excellent prognosis. (Beckwith-Wiedemann is also associated with other embryonal tumors like hepatoblastoma.)"
+    }
+  ],
+  "see_also": ["neuroblastoma", "horseshoe-kidney"],
+  "prerequisites": ["nephron"],
+  "sources": [
+    {
+      "title": "StatPearls: Wilms Tumor (Leslie et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK442004/"
+    },
+    {
+      "title": "UpToDate: Clinical presentation, diagnosis, and staging of Wilms tumor",
+      "url": "https://www.uptodate.com/contents/clinical-presentation-diagnosis-and-staging-of-wilms-tumor"
+    },
+    {
+      "title": "Wilms Tumor (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/989398-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

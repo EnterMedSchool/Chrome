@@ -1,0 +1,136 @@
+{
+  "id": "hemophagocytic-lymphohistiocytosis",
+  "names": [
+    "Hemophagocytic lymphohistiocytosis"
+  ],
+  "aliases": [
+    "hemophagocytic syndrome",
+    "macrophage activation syndrome"
+  ],
+  "abbr": [
+    "HLH"
+  ],
+  "patterns": [
+    "hlh",
+    "hemophagocytic lymphohistiocytosis",
+    "haemophagocytic lymphohistiocytosis",
+    "hemophagocytic syndrome",
+    "macrophage activation syndrome"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "peds",
+    "infectious_dz"
+  ],
+  "definition": "Life-threatening hyperinflammatory syndrome of uncontrolled macrophage & T-cell activation (cytokine storm) causing severe tissue damage and hemophagocytosis.",
+  "why_it_matters": "Often rapidly fatal if untreated. Early recognition is critical, as HLH can masquerade as refractory sepsis or malignancy. It frequently appears on exams as persistent fever with sky-high ferritin and cytopenias that fails to improve without immunosuppressive therapy.",
+  "how_youll_see_it": [
+    "Primary (familial) HLH – typically an infant or young child with persistent high fever, hepatosplenomegaly, and cytopenias; often triggered by a viral infection (classically EBV).",
+    "Secondary (acquired) HLH – can occur at any age (often older kids or adults) in the setting of a trigger such as severe infection (EBV, CMV, etc.), malignancy (especially lymphomas/leukemias), or autoimmune disease (e.g., Still's disease or lupus, termed macrophage activation syndrome).",
+    "Labs: ↑ ferritin (often >10,000 ng/mL), cytopenias (≥2 cell lines low), ↑ triglycerides, ↓ fibrinogen; also elevated soluble IL-2 receptor (sCD25) and low NK cell activity. Bone marrow biopsy shows hemophagocytosis (macrophages engulfing blood cells)."
+  ],
+  "problem_solving": [
+    "Consider HLH in any patient with unexplained prolonged fever, cytopenias, organomegaly, and extreme ferritin levels—especially if they do not respond to standard therapies (antibiotics, etc.).",
+    "If HLH is suspected, initiate diagnostic workup (ferritin, triglycerides, fibrinogen, sIL-2R, NK activity, bone marrow exam) promptly, but do not delay treatment while awaiting results if clinical suspicion is high.",
+    "Identify and treat any underlying trigger (e.g., test for EBV/CMV, malignancy workup with imaging/biopsy, rheumatologic tests) alongside HLH therapy."
+  ],
+  "differentials": [
+    {
+      "id": "sepsis",
+      "hint": "severe infection (sepsis/SIRS) causes fever & organ failure, but HLH often has extremely high ferritin and no improvement with antibiotics"
+    },
+    {
+      "id": "acute-lymphoblastic-leukemia",
+      "hint": "acute leukemia can mimic HLH with fever, cytopenias, HSM; look for leukemic blasts on smear (absent in HLH)"
+    },
+    {
+      "name": "Disseminated intravascular coagulation",
+      "id": "disseminated-intravascular-coagulation",
+      "hint": "both HLH and DIC cause coagulopathy (low fibrinogen, high D-dimer), but DIC is a coagulopathic syndrome with clear precipitant (sepsis, trauma, etc.) and lacks HLH's extreme ferritin & immune activation"
+    }
+  ],
+  "tricks": [
+    "Ferritin is a key clue: levels >10,000 ng/mL are highly suggestive of HLH (far above typical infection or inflammation).",
+    "The term hemophagocytic refers to activated macrophages literally phagocytosing (engulfing) blood cells – often seen on bone marrow biopsy as macrophages eating RBCs or WBCs.",
+    "Familial HLH is often due to mutations in genes like PRF1 (perforin) leading to defective cytotoxic function of NK/T cells."
+  ],
+  "exam_appearance": [
+    "Infant with 2-week history of high fever, rash, hepatosplenomegaly after EBV infection; labs show pancytopenia and ferritin 20,000 → Familial HLH triggered by EBV (treat with HLH protocol, genetic testing).",
+    "Adult with refractory fevers, weight loss, and cytopenias on background of lymphoma; labs: ferritin 15,000, high triglycerides, low fibrinogen, hemophagocytes in marrow → Secondary HLH (lymphoma-associated).",
+    "Child with systemic JIA (Still's disease) who develops sudden high fever, confusion, and bleeding; labs: very high ferritin, cytopenias, DIC → Macrophage activation syndrome (autoimmune-associated HLH)."
+  ],
+  "treatment": [
+    "Begin immunosuppressive therapy immediately – typically the HLH-94 protocol with high-dose dexamethasone + etoposide (often with cyclosporine); intrathecal methotrexate is added if CNS involvement.",
+    "Address the underlying trigger: e.g., antivirals for EBV, antibiotics for sepsis, chemotherapy for malignancy-triggered HLH, or immunosuppressants for rheumatologic triggers.",
+    "For familial or refractory HLH, plan for hematopoietic stem cell transplant once the disease is controlled (the only curative option for genetic HLH).",
+    "In secondary HLH related to rheumatologic disease (MAS) or mild adult cases, targeted cytokine inhibition (e.g., anakinra for IL-1, tocilizumab for IL-6) can be used as steroid-sparing therapy."
+  ],
+  "red_flags": [
+    "Persistently high fever with ferritin >10,000 and cytopenias should prompt urgent evaluation for HLH – do not dismiss as \"just sepsis\".",
+    "Delaying treatment in HLH can lead to irreversible multiorgan failure; if HLH is suspected, start dexamethasone empirically while confirmation is underway."
+  ],
+  "algorithm": [
+    "Unexplained fever + hepatosplenomegaly + cytopenias + very high ferritin → suspect HLH.",
+    "Obtain HLH labs: CBC with smear, ferritin, triglycerides, fibrinogen, liver enzymes, LDH, soluble IL-2 receptor, NK cell activity; perform bone marrow biopsy for hemophagocytosis.",
+    "If ≥5 of 8 HLH-2004 criteria are met (fever, splenomegaly, cytopenias, high TG/low fibrinogen, hemophagocytosis, low NK activity, high ferritin, high sIL-2R) or a known HLH gene mutation, confirm HLH diagnosis.",
+    "Start HLH-specific therapy immediately (high-dose steroids + etoposide) and consult hematology; concurrently treat triggers and provide intensive supportive care; plan for HSCT in familial cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Haemophagocytic_lymphohistiocytosis_Bone_marrow.JPG",
+      "alt": "Bone marrow biopsy showing hemophagocytosis (macrophage engulfing hematopoietic cells) in a patient with HLH.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Haemophagocytic_lymphohistiocytosis_Bone_marrow.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑year‑old boy with a recent severe EBV infection has persistent high fevers, skin rash, and lethargy. Exam shows generalized lymphadenopathy and hepatosplenomegaly. Labs reveal hemoglobin 8, platelets 50k, neutrophils 0.5k (all low), ferritin 18,000 ng/mL, triglycerides 400 mg/dL, fibrinogen 100 mg/dL.",
+      "clues": [
+        "Prolonged fever",
+        "Hepatosplenomegaly",
+        "Pancytopenia",
+        "Ferritin 18,000",
+        "High TG, low fibrinogen"
+      ],
+      "answer": "Hemophagocytic lymphohistiocytosis (familial HLH triggered by EBV)",
+      "teaching": "This is classic HLH: a hyperinflammatory syndrome often triggered by EBV in children with genetic immune defects. The extremely high ferritin and cytopenias are hallmark; immediate treatment with HLH protocol (dexamethasone + etoposide) is required to prevent fatal multiorgan failure."
+    }
+  ],
+  "see_also": [
+    "shock",
+    "disseminated-intravascular-coagulation",
+    "non-hodgkin-lymphoma",
+    "lymphoma"
+  ],
+  "prerequisites": [
+    "immunology",
+    "cytokines"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hemophagocytic Lymphohistiocytosis (Konkol et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557776/"
+    },
+    {
+      "title": "UpToDate: Clinical features and diagnosis of hemophagocytic lymphohistiocytosis",
+      "url": "https://www.uptodate.com/contents/clinical-features-and-diagnosis-of-hemophagocytic-lymphohistiocytosis"
+    },
+    {
+      "title": "Hemophagocytic Lymphohistiocytosis (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/986458-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

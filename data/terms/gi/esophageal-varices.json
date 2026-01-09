@@ -1,0 +1,115 @@
+{
+  "id": "esophageal-varices",
+  "names": ["Esophageal varices"],
+  "aliases": ["variceal hemorrhage", "esophageal variceal bleeding"],
+  "abbr": ["EV"],
+  "patterns": ["esophageal varices", "oesophageal varices", "esophageal varix", "esophageal variceal hemorrhage", "variceal hemorrhage", "variceal bleeding"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "emerg"],
+  "definition": "Dilated submucosal veins in the distal esophagus due to **portal hypertension** (usually from cirrhosis), at high risk for life‑threatening bleeding.",
+  "why_it_matters": "Rapidly fatal if untreated; variceal hemorrhage is the most lethal complication of cirrhosis (≈15% mortality per bleed). It's among the top causes of upper GI bleeding, making it a classic medical emergency scenario on exams.",
+  "how_youll_see_it": [
+    "Classic: A patient with known **cirrhosis** (e.g., alcoholic or viral hepatitis) suddenly develops **hematemesis** (vomiting blood) and **melena**, often with signs of liver disease (jaundice, ascites, spider angiomas). Bleeding can be massive, leading to **hypotension** or shock.",
+    "Sometimes a variceal bleed is the **first presentation** of undiagnosed cirrhosis—look for risk factors like alcohol abuse or hepatitis C in any GI hemorrhage.",
+    "Less common contexts: Non-cirrhotic portal hypertension (e.g., **schistosomiasis** in endemic regions, **portal vein thrombosis**, **Budd-Chiari** syndrome) can also cause varices and similar upper GI bleeding."
+  ],
+  "problem_solving": [
+    "Always suspect variceal bleeding in a cirrhotic patient with GI hemorrhage—begin **octreotide** and antibiotics even before endoscopy.",
+    "Screen all newly diagnosed cirrhosis patients with endoscopy for varices; if present, start prophylaxis (nonselective β-blockers or banding) to prevent a first bleed.",
+    "High-risk features on endoscopy (large varices or red wale marks) and advanced liver disease (Child-Pugh B/C) predict increased bleed risk.",
+    "Resuscitate carefully: stabilize with IV fluids/blood but avoid over-transfusion (target hemoglobin ~7–8) to prevent raising portal pressure and rebleeding.",
+    "During an acute bleed, give IV prophylactic antibiotics (e.g., ceftriaxone) to prevent infections, which are common in variceal hemorrhage."
+  ],
+  "differentials": [
+    { "name": "Peptic ulcer disease", "hint": "Common non-variceal UGIB (melena or hematemesis, often from NSAIDs or H. pylori); usually less abrupt bleeding." },
+    { "name": "Mallory–Weiss tear", "hint": "Mucosal tear after severe vomiting (hematemesis following retching; bleeding usually self-limited, not massive)." },
+    { "name": "Portal hypertensive gastropathy", "hint": "Diffuse gastric mucosal bleeding in portal HTN; causes slow oozing (anemia) rather than sudden hemorrhage." }
+  ],
+  "tricks": [
+    "**Caput medusae** (umbilical vein collaterals) and hemorrhoids are also results of portal hypertension—esophageal varices are the dangerous internal counterpart.",
+    "Endoscopic **red wale** signs (longitudinal red streaks on varices) indicate high rupture risk.",
+    "**TIPS** (portosystemic shunt) greatly lowers portal pressure to stop variceal bleeding but often worsens **encephalopathy** (since toxins bypass the liver)."
+  ],
+  "exam_appearance": [
+    "Alcoholic cirrhosis patient with profuse hematemesis, melena, and hypotension → ruptured esophageal varices causing variceal hemorrhage.",
+    "Patient with long-standing hepatitis C (cirrhosis) presents with black tarry stools and lightheadedness; exam shows ascites and splenomegaly → esophageal variceal bleeding from portal hypertension."
+  ],
+  "treatment": [
+    "**Acute bleed**: Protect airway (intubation if needed) and stabilize circulation (IV fluids, blood transfusion as needed); start IV **octreotide** (somatostatin analog) and IV antibiotics; perform urgent endoscopic variceal ligation (banding) to control bleeding.",
+    "If bleeding is not controlled by endoscopy, use rescue measures: temporary balloon tamponade (Sengstaken–Blakemore tube) or early **TIPS** to decompress portal pressure.",
+    "**Prevention**: For high-risk varices, use nonselective **β-blockers** (e.g., propranolol) or periodic endoscopic banding to prevent first bleed. After any variceal bleed, continue β-blocker and serial banding (secondary prophylaxis) to reduce rebleeding risk.",
+    "Definitive management is treatment of the underlying liver disease; consider liver transplant in eligible patients with recurrent variceal hemorrhages."
+  ],
+  "red_flags": [
+    "**Hematemesis** in a patient with cirrhosis = assume variceal rupture (life-threatening emergency; requires ICU care and urgent endoscopy).",
+    "Active variceal bleeding with altered mental status (encephalopathy) or poor airway protection → **early intubation** is critical to prevent aspiration."
+  ],
+  "algorithm": [
+    "Cirrhosis diagnosed → perform screening endoscopy for varices.",
+    "If medium/large varices → start primary prophylaxis (nonselective β-blocker or endoscopic banding).",
+    "Acute UGIB in cirrhosis → ABCs (protect airway, two large-bore IV lines, fluids; transfuse to Hgb ~7).",
+    "Initiate IV octreotide and IV antibiotics (when variceal bleed is suspected).",
+    "Urgent endoscopy (within 12 hours) → variceal band ligation to stop bleeding.",
+    "If bleeding continues or recurs → consider balloon tamponade (temporary) and prepare for TIPS.",
+    "After stabilization → secondary prophylaxis (β-blocker + repeat banding); evaluate for liver transplant if appropriate."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Esophageal-varices-hariadhi.svg/2048px-Esophageal-varices-hariadhi.svg.png",
+      "alt": "Illustration of dilated submucosal veins (varices) in the distal esophagus caused by portal hypertension.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Esophageal-varices-hariadhi.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man with a 20-year history of heavy alcohol use presents with vomiting bright red blood.",
+      "clues": [
+        "Chronic alcoholic with cirrhosis (jaundice, ascites noted)",
+        "Sudden onset of massive hematemesis",
+        "Blood pressure 85/60, pulse 120 (signs of shock)",
+        "Spider angiomata on chest"
+      ],
+      "answer": "Esophageal variceal hemorrhage (ruptured esophageal varices)",
+      "teaching": "Long-term alcohol abuse led to cirrhosis and **portal hypertension**, causing esophageal varices that have now ruptured. The hypotension and tachycardia indicate hemorrhagic shock from variceal bleeding. This is a GI emergency requiring prompt stabilization, IV octreotide, and endoscopic banding."
+    },
+    {
+      "stem": "A 46‑year‑old man with chronic hepatitis C and cirrhosis is evaluated for fatigue and black tarry stools.",
+      "clues": [
+        "History of hepatitis C (with liver cirrhosis)",
+        "Melena (black, tarry stools) for 2 days",
+        "Lightheadedness on standing (orthostatic dizziness)",
+        "Splenomegaly on exam",
+        "Platelet count 90,000 (thrombocytopenia)"
+      ],
+      "answer": "Esophageal variceal bleeding due to portal hypertension",
+      "teaching": "Chronic hepatitis C led to cirrhosis and **portal hypertension**, evident from splenomegaly and low platelets. These caused esophageal varices, which are now bleeding (melena, orthostatic hypotension). This variceal hemorrhage requires urgent endoscopic intervention and medical therapy to control the bleed and prevent further episodes."
+    }
+  ],
+  "see_also": ["cirrhosis", "portal-hypertension", "ascites", "hepatic-encephalopathy", "hepatitis"],
+  "prerequisites": ["cirrhosis", "portal-hypertension"],
+  "sources": [
+    {
+      "title": "StatPearls: Esophageal Varices (Meseeha & Attia, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448078/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of patients with variceal bleeding",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-patients-with-variceal-bleeding"
+    },
+    {
+      "title": "AASLD Guidance: Portal hypertensive bleeding in cirrhosis (Garcia-Tsao et al., 2017)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27786365/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

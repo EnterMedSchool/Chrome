@@ -1,0 +1,92 @@
+{
+  "id": "sodium-lab",
+  "names": ["Sodium", "Na", "Serum Sodium"],
+  "aliases": ["Na+", "natrium"],
+  "patterns": [
+    "sodium",
+    "Na",
+    "serum sodium",
+    "Na+",
+    "sodium level"
+  ],
+  "level": "lab-value",
+  "primary_tag": "renal",
+  "tags": ["nephrology", "electrolytes", "critical-care"],
+  "reference_range": {
+    "low": 136,
+    "high": 145,
+    "unit": "mEq/L",
+    "critical_low": 120,
+    "critical_high": 160
+  },
+  "interpretation": {
+    "low": {
+      "term": "Hyponatremia",
+      "link": "hyponatremia",
+      "severity_levels": [
+        {"range": [130, 135], "label": "Mild", "color": "yellow"},
+        {"range": [125, 129], "label": "Moderate", "color": "orange"},
+        {"range": [0, 124], "label": "Severe", "color": "red"}
+      ],
+      "common_causes": [
+        "SIADH (syndrome of inappropriate ADH)",
+        "Heart failure",
+        "Cirrhosis with ascites",
+        "Thiazide diuretics",
+        "Psychogenic polydipsia",
+        "Adrenal insufficiency"
+      ]
+    },
+    "high": {
+      "term": "Hypernatremia",
+      "link": "hypernatremia",
+      "severity_levels": [
+        {"range": [146, 150], "label": "Mild", "color": "yellow"},
+        {"range": [151, 159], "label": "Moderate", "color": "orange"},
+        {"range": [160, 999], "label": "Severe", "color": "red"}
+      ],
+      "common_causes": [
+        "Dehydration / inadequate water intake",
+        "Diabetes insipidus (central or nephrogenic)",
+        "Osmotic diuresis",
+        "Excess sodium administration",
+        "Primary hyperaldosteronism"
+      ]
+    }
+  },
+  "definition": "**Sodium (Na⁺)** is the major extracellular cation and the primary determinant of plasma osmolality. It plays a critical role in maintaining fluid balance, nerve impulse transmission, and muscle contraction. Serum sodium reflects the ratio of total body sodium to total body water.",
+  "clinical_significance": [
+    "Sodium abnormalities affect neurological function (confusion, seizures, coma)",
+    "Rapid correction of chronic hyponatremia can cause **osmotic demyelination syndrome**",
+    "Rapid correction of hypernatremia can cause **cerebral edema**",
+    "Always assess **volume status** when evaluating sodium disorders"
+  ],
+  "key_concepts": [
+    "Hyponatremia = too much water relative to sodium (dilutional)",
+    "Hypernatremia = too little water relative to sodium (concentrational)",
+    "Assess: Is patient hypovolemic, euvolemic, or hypervolemic?",
+    "Check urine osmolality and urine sodium to determine cause"
+  ],
+  "critical_values": {
+    "low": 120,
+    "high": 160,
+    "action": "Notify physician immediately; may require ICU admission"
+  },
+  "see_also": ["diabetes-insipidus", "chronic-kidney-disease"],
+  "sources": [
+    {
+      "title": "UpToDate: Causes of hyponatremia in adults",
+      "url": "https://www.uptodate.com/contents/causes-of-hyponatremia-in-adults"
+    },
+    {
+      "title": "Merck Manual: Sodium",
+      "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/electrolyte-disorders/hyponatremia"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

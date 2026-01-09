@@ -1,0 +1,147 @@
+{
+  "id": "facial-nerve-palsy",
+  "names": [
+    "Facial nerve palsy"
+  ],
+  "aliases": [
+    "Bell's palsy",
+    "facial paralysis",
+    "facial nerve paralysis"
+  ],
+  "abbr": [
+    "CN VII palsy"
+  ],
+  "patterns": [
+    "facial nerve palsy",
+    "facial palsy",
+    "facial paralysis",
+    "bell's palsy",
+    "bells palsy",
+    "cn vii palsy",
+    "7th nerve palsy"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "infectious_dz",
+    "surgery"
+  ],
+  "definition": "Weakness or paralysis of the facial muscles due to dysfunction of **CN VII** (facial nerve); peripheral lesions (e.g., **Bell's palsy**) cause ipsilateral complete facial paralysis (forehead **included**), while central lesions (e.g., stroke) spare the forehead.",
+  "why_it_matters": "Facial nerve palsy is common (Bell's palsy accounts for most cases) and can significantly affect eye protection, speech, and appearance. Importantly, it must be differentiated from serious causes like **stroke**. Early recognition of Bell's palsy allows timely treatment (steroids) for better recovery, and prompt identification of other etiologies (e.g., Lyme, Ramsay Hunt) can prevent complications.",
+  "how_youll_see_it": [
+    "Peripheral (LMN) facial palsy classically presents with **acute unilateral facial weakness**: patients wake up unable to close one eye, with drooping of the mouth and inability to raise the eyebrow on the affected side. There may be retroauricular pain, altered taste (anterior 2/3 tongue), or **hyperacusis** (due to stapedius muscle paralysis).",
+    "Common causes of peripheral facial palsy include idiopathic **Bell's palsy** (often preceded by a viral prodrome), **Ramsay Hunt syndrome** (facial paralysis with ear pain and vesicular rash from VZV), **Lyme disease** (especially if bilateral palsies, in endemic areas), **otitis media** (in children), and tumors (e.g., a parotid gland neoplasm or acoustic neuroma).",
+    "Central (UMN) facial palsy is most often due to a **stroke** (usually an ischemic infarct in the contralateral motor cortex or internal capsule); it presents with lower face weakness but **forehead sparing**, and often other neurologic deficits (arm/leg weakness, dysarthria)."
+  ],
+  "problem_solving": [
+    "First, distinguish **central vs peripheral**: examine forehead muscle function. If the patient can wrinkle the forehead on the weak side, the lesion is likely central (UMN); if the forehead is weak, it's a peripheral (LMN) palsy.",
+    "If peripheral, look for clues to cause: check the **ear** for vesicular rash (zoster), examine for **bilateral** involvement (Lyme or Guillain-Barré), palpate the parotid region for a mass (tumor), and ask about tick bites or systemic symptoms. Absence of such clues with a typical presentation suggests Bell's palsy (idiopathic).",
+    "Imaging (MRI) is generally not needed for straightforward Bell's palsy, but **obtain MRI** if the presentation is atypical (gradual onset, additional cranial nerve deficits, hearing loss, or no improvement over time) to exclude structural lesions (tumor, brainstem lesion).",
+    "Initiate treatment promptly if Bell's palsy is suspected. Protect the eye from drying (artificial tears, tape at night) while blink is impaired. Arrange follow-up to monitor recovery; most Bell's palsy cases begin to improve within a few weeks. If no improvement by ~3 months, refer to **neurology/ENT** for further evaluation."
+  ],
+  "differentials": [
+    {
+      "name": "Bell's palsy (idiopathic)",
+      "hint": "most common cause; presumed viral inflammation of CN VII; acute LMN hemifacial paralysis including forehead"
+    },
+    {
+      "name": "Ramsay Hunt syndrome",
+      "hint": "herpes zoster oticus (VZV reactivation); facial paralysis with ear pain and vesicles; often more severe, may have hearing loss"
+    },
+    {
+      "name": "Ischemic stroke (central)",
+      "hint": "UMN lesion (contralateral MCA stroke); lower face paralysis with forehead spared; usually other deficits (weak arm/leg, dysarthria)"
+    },
+    {
+      "name": "Parotid gland tumor",
+      "hint": "facial nerve compression by neoplasm (e.g., pleomorphic adenoma); gradual onset facial weakness, often with a parotid mass"
+    },
+    {
+      "name": "Lyme disease",
+      "hint": "Borrelia infection; can cause unilateral or **bilateral** facial palsy; consider if tick exposure or erythema migrans rash"
+    }
+  ],
+  "tricks": [
+    "**Forehead test**: stroke **spares the forehead** (patient can raise eyebrows) unlike Bell's palsy. Forehead involvement = LMN lesion.",
+    "Only a few conditions cause **bilateral** facial palsy – think **Lyme disease** or **Guillain-Barré syndrome** if both sides are affected.",
+    "Bell's palsy often causes **hyperacusis** (stapedius paralysis) and **taste loss** (chorda tympani involvement) – these do not occur in a central facial palsy."
+  ],
+  "exam_appearance": [
+    "A 30‑year‑old with diabetes develops sudden left facial droop with inability to close the left eye or raise the left eyebrow (forehead is weak). No arm or leg weakness → **Bell's palsy** (peripheral CN VII palsy).",
+    "An elderly patient with right facial droop who can still wrinkle the right forehead, accompanied by right arm weakness and slurred speech → **stroke** causing central facial palsy (left UMN lesion).",
+    "A patient with severe ear pain and vesicular eruption in the external ear followed by facial paralysis → **Ramsay Hunt syndrome** (herpes zoster of CN VII)."
+  ],
+  "treatment": [
+    "For Bell's palsy, start high-dose **corticosteroids** (e.g., prednisone 60 mg/day) within 72 hours of onset – this significantly improves the chance of complete recovery. **Antivirals** (e.g., valacyclovir) are often added, especially for severe paralysis or Ramsay Hunt, although their benefit is less clear.",
+    "**Eye care** is critical: use lubricating drops and tape the eyelid shut at night to prevent corneal drying and injury (since the eye doesn't fully close).",
+    "Treat specific causes accordingly: e.g., **acyclovir** for Ramsay Hunt (with steroids), **doxycycline** for Lyme disease, surgical removal for tumors, and standard stroke management if central. Refer to neurology or ENT if facial palsy is atypical or not improving in expected time."
+  ],
+  "red_flags": [
+    "Facial weakness with **forehead sparing** plus other acute neurologic deficits (e.g., limb weakness, aphasia) → suspect **stroke** (urgent brain imaging is indicated).",
+    "Gradually progressive facial paralysis over weeks/months, or facial weakness with a **parotid mass** or other cranial nerve deficits → concern for a **tumor** (obtain imaging).",
+    "Bilateral or recurrent facial palsy should prompt evaluation for systemic causes (e.g., Lyme disease, sarcoidosis, Guillain-Barré) rather than idiopathic Bell's palsy."
+  ],
+  "algorithm": [
+    "Facial droop → **check forehead**: if forehead is weak → LMN palsy; if forehead intact → UMN palsy (likely stroke).",
+    "If UMN (central) palsy → urgent neuroimaging and appropriate stroke management.",
+    "If LMN palsy → assess for secondary causes: look for herpes **zoster** (ear rash), **tick** exposure (Lyme), **otitis** (middle ear infection), **trauma**, or tumor signs. Perform directed tests (Lyme serology, MRI if tumor suspected).",
+    "If Bell's palsy likely (acute isolated CN VII palsy with no red flags) → start **steroids** promptly (within 72 hours) and provide eye protection; antivirals may be added if severe. No immediate imaging is required in typical cases.",
+    "Follow up to monitor recovery; if no improvement by ~3 months or atypical features present, obtain MRI and refer to specialist (neurology/ENT)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Bells_palsy_diagram.svg/1418px-Bells_palsy_diagram.svg.png",
+      "alt": "Diagram illustrating Bell's palsy with facial muscle paralysis on one side (inability to smile symmetrically, left eye not fully closing).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Bells_palsy_diagram.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 34‑year‑old woman awoke unable to move the right side of her face.",
+      "clues": [
+        "Right eye cannot fully close",
+        "Right side of mouth droops",
+        "Cannot raise right eyebrow or wrinkle forehead",
+        "Recent upper respiratory infection",
+        "No arm or leg weakness"
+      ],
+      "answer": "Bell's palsy (right LMN facial nerve palsy)",
+      "teaching": "Idiopathic peripheral CN VII palsy likely from viral inflammation (e.g., HSV reactivation). Forehead involvement (inability to wrinkle brow) confirms an LMN lesion. Start high-dose steroids early and protect the eye; most patients recover fully within weeks to months."
+    }
+  ],
+  "see_also": [
+    "stroke",
+    "otosclerosis",
+    "acoustic-neuroma"
+  ],
+  "prerequisites": [
+    "facial-nerve",
+    "neuroanatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Bell Palsy (Hohman & Varacallo, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482290/"
+    },
+    {
+      "title": "UpToDate: Bell's palsy in adults (Triantafyllou & Biller, 2025)",
+      "url": "https://www.uptodate.com/contents/bells-palsy-pathogenesis-clinical-features-and-diagnosis-in-adults"
+    },
+    {
+      "title": "Medscape: Bell Palsy Treatment and Management (AAN, 2012)",
+      "url": "https://emedicine.medscape.com/article/1146903-treatment"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

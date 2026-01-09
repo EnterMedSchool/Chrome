@@ -1,0 +1,132 @@
+{
+  "id": "chronic-granulomatous-disease",
+  "names": ["Chronic granulomatous disease"],
+  "aliases": ["Bridges-Good syndrome", "Quie syndrome", "Chronic granulomatous disorder"],
+  "abbr": ["CGD"],
+  "patterns": ["cgd", "chronic granulomatous disease", "chronic granulomatous disorder", "bridges good syndrome", "quie syndrome", "nadph oxidase deficiency"],
+  "primary_tag": "immunology",
+  "tags": ["immunology", "peds", "pathology", "infectious_dz", "genetics"],
+  "definition": "Inherited phagocyte disorder with defective NADPH oxidase. Neutrophils can't generate reactive oxygen species (like superoxide), so they cannot kill certain ingested microbes, leading to recurrent bacterial & fungal infections and granuloma formation.",
+  "why_it_matters": "Without a functional oxidative burst, patients (often young children) suffer life‑threatening infections. Before modern therapy, most died in childhood. Early recognition allows antibiotic/antifungal prophylaxis and potentially curative bone marrow transplant, dramatically improving survival.",
+  "how_youll_see_it": [
+    "Typically presents in infancy or early childhood with recurrent infections. Common manifestations: pneumonia, abscesses (skin, liver), osteomyelitis, sepsis, often beginning before age 5.",
+    "Catalase-positive bacteria and fungi are the usual culprits. Classically: Staphylococcus aureus, Serratia marcescens, Burkholderia cepacia, Nocardia (bacteria) and Aspergillus (fungus). Infections tend to be severe, recurrent, and difficult to clear.",
+    "Chronic inflammation leads to granuloma formation in organs. Granulomas in the GI or GU tract can cause obstruction (e.g., gastric outlet or urinary obstruction). Patients may also develop severe inflammatory bowel disease (granulomatous colitis) at a young age and experience failure to thrive (poor growth) due to chronic illness."
+  ],
+  "problem_solving": [
+    "Think CGD in a child with recurrent infections by catalase-positive organisms (e.g. Serratia liver abscess, Aspergillus pneumonia), especially if standard therapies repeatedly fail to fully clear the infections.",
+    "First-line diagnostic test is neutrophil oxidative burst testing: the dihydrorhodamine (DHR) flow cytometry assay is preferred (CGD neutrophils show little or no fluorescence increase), or the older nitroblue tetrazolium (NBT) slide test (CGD neutrophils do not turn blue).",
+    "Confirm the diagnosis with genetic testing to identify the mutated gene and inheritance. The most common is an X-linked mutation in CYBB (gp91<sup>phox</sup>); autosomal recessive forms (e.g. NCF1 for p47<sup>phox</sup>) occur in the remainder. Consider screening siblings and carrier testing of the mother (DHR testing shows mosaic populations in carriers)."
+  ],
+  "differentials": [
+    {
+      "id": "myeloperoxidase-deficiency",
+      "hint": "Milder phagocyte defect with mainly Candida infections; normal NBT (respiratory burst intact)"
+    },
+    {
+      "id": "leukocyte-adhesion-deficiency",
+      "hint": "No pus; delayed umbilical cord separation; high neutrophils; recurrent bacterial infections despite normal oxidative burst"
+    },
+    {
+      "id": "chediak-higashi-syndrome",
+      "hint": "AR; giant granules in neutrophils, partial albinism, neuropathy; recurrent pyogenic infections (lysosomal trafficking defect)"
+    },
+    {
+      "id": "hyper-ige-syndrome",
+      "hint": "Job syndrome: very high IgE, eczematous dermatitis, recurrent \"cold\" staph abscesses, coarse facies, retained primary teeth (impaired Th17 → poor neutrophil recruitment)"
+    }
+  ],
+  "tricks": [
+    "Patients with CGD can kill catalase-negative microbes by \"borrowing\" the microbe's hydrogen peroxide, but catalase-positive organisms break down their own H2O2, leaving neutrophils with no substrate for bleach production.",
+    "Serratia marcescens infection in a young boy is a classic red flag for CGD on exams – Serratia (a catalase-positive Gram-negative) causes recurrent abscesses or osteomyelitis in CGD.",
+    "Mnemonic for catalase-positive pathogens: \"PLACESS for your cats\" = Pseudomonas, Listeria, Aspergillus, Candida, E. coli, Staph, Serratia (also Nocardia, B. cepacia, H. pylori). These are the organisms CGD patients struggle to eliminate."
+  ],
+  "exam_appearance": [
+    "Toddler boy with recurrent Staph aureus and Serratia abscesses and an NBT test that fails to turn blue → think chronic granulomatous disease.",
+    "Adolescent with longstanding granulomatous colitis (misdiagnosed as Crohn's) who develops Aspergillus pneumonia; DHR flow cytometry shows no oxidative burst → CGD (likely a milder autosomal recessive case)."
+  ],
+  "treatment": [
+    "Antimicrobial prophylaxis: daily trimethoprim-sulfamethoxazole (to prevent bacterial infections, especially S. aureus & Nocardia) and an azole antifungal (e.g. itraconazole) to prevent Aspergillus. Interferon-γ injections (IFN-γ, e.g. three times weekly) are sometimes used to boost macrophage function and reduce infections.",
+    "Aggressive infection management: Treat infections promptly with appropriate IV antibiotics or antifungals (e.g. treat Aspergillus pneumonia with voriconazole). Abscesses often require surgical drainage. Early intervention is critical to prevent organ damage in CGD.",
+    "Curative therapy: Hematopoietic stem cell transplantation (bone marrow transplant) can cure CGD by providing functional phagocytes. It's recommended for severe cases and ideally done in childhood before irreversible lung/GI damage or life-threatening infections occur."
+  ],
+  "red_flags": [
+    "Any Serratia marcescens infection in a child (especially a liver abscess or osteomyelitis) – this is unusual in healthy kids and should prompt testing for CGD.",
+    "In CGD patients, invasive fungal infections (like Aspergillus pneumonia) can escalate rapidly and are a leading cause of death – requires urgent evaluation and aggressive treatment. Also watch for signs of organ obstruction (e.g., abdominal pain or urinary retention) from granulomas."
+  ],
+  "algorithm": [
+    "Recurrent severe infections (esp. catalase-positive organisms) in child → suspect CGD.",
+    "Suspected CGD → perform oxidative burst assay (DHR flow cytometry preferred; or NBT test).",
+    "Abnormal DHR/NBT indicating CGD → begin prophylactic antibiotics/antifungals and counsel to avoid high-risk exposures (e.g., mulch, gardening which predisposes to Aspergillus).",
+    "Confirmed CGD (severe phenotype) → refer early for HSCT (bone marrow transplant) evaluation, ideally before major infections or organ damage occur."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Aspergillus_fumigatus_01.jpg",
+      "alt": "Microscopic view of Aspergillus fumigatus (blue-green mold culture), a catalase-positive fungus that frequently causes infection in CGD.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Aspergillus_fumigatus_01.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 3‑year‑old boy has had multiple skin and liver abscesses caused by Staphylococcus aureus and Serratia marcescens.",
+      "clues": [
+        "Recurrent Staph aureus and Serratia infections (abscesses)",
+        "Nitroblue tetrazolium (NBT) test shows no blue dye reduction",
+        "Maternal uncle died in childhood of a similar infection"
+      ],
+      "answer": "Chronic granulomatous disease (X-linked)",
+      "teaching": "CGD is the inability of phagocytes to produce reactive oxygen species due to an NADPH oxidase defect. The negative NBT test (no blue) indicates an oxidative burst failure. Catalase-positive organisms like Staph and Serratia cause recurrent abscesses in CGD. The family history of males affected suggests the common X-linked form (gp91^phox^ mutation). Management would include prophylactic antibiotics and antifungals, with consideration of bone marrow transplant."
+    },
+    {
+      "stem": "A 12‑year‑old boy with a history of \"severe Crohn disease\" (granulomatous colitis from age 5) now presents with fever, weight loss, and cough productive of brownish sputum.",
+      "clues": [
+        "Colonoscopy in past showed granulomatous colitis (IBD)",
+        "Culture grows Aspergillus fumigatus from a lung cavity",
+        "Dihydrorhodamine (DHR) flow cytometry test shows no neutrophil fluorescence",
+        "Parents are first cousins (consanguineous marriage)"
+      ],
+      "answer": "Chronic granulomatous disease (autosomal recessive)",
+      "teaching": "Besides infections, CGD can cause dysregulated inflammation like early-onset granulomatous colitis (often mistaken for Crohn's disease). This patient's Aspergillus lung infection and abnormal DHR test confirm CGD. The consanguinity and later onset suggest an autosomal recessive CGD (e.g., p47^phox^ deficiency). Treatment involves lifelong antimicrobial prophylaxis and possibly curative stem cell transplant."
+    }
+  ],
+  "see_also": [
+    "chediak-higashi-syndrome",
+    "severe-combined-immunodeficiency",
+    "digeorge-syndrome"
+  ],
+  "prerequisites": [
+    "innate-immunity",
+    "phagocytosis",
+    "respiratory-burst"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Chronic granulomatous disease (Wolach et al., 2023)",
+      "url": "https://www.uptodate.com/contents/chronic-granulomatous-disease-pathogenesis-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "GeneReviews: Chronic Granulomatous Disease (2018)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK99496/"
+    },
+    {
+      "title": "JCM (2023): Diagnosis of Chronic Granulomatous Disease – Strengths and Challenges",
+      "url": "https://doi.org/10.3390/jcm13154435"
+    },
+    {
+      "title": "Medscape: Chronic Granulomatous Disease (Nowicki, 2019)",
+      "url": "https://emedicine.medscape.com/article/1116022-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

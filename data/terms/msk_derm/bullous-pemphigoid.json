@@ -1,0 +1,142 @@
+{
+  "id": "bullous-pemphigoid",
+  "names": [
+    "Bullous pemphigoid"
+  ],
+  "aliases": [
+    "BP",
+    "pemphigoid"
+  ],
+  "abbr": [
+    "BP"
+  ],
+  "patterns": [
+    "bullous pemphigoid",
+    "pemphigoid",
+    "BP"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "pathology",
+    "immunology",
+    "msk_derm"
+  ],
+  "definition": "Common autoimmune blistering skin disease in older adults—IgG autoantibodies attack hemidesmosomes (BP180/BP230) at the dermal-epidermal junction, causing subepidermal bullae.",
+  "why_it_matters": "Most frequent immunobullous disorder in the elderly; causes intense pruritus and morbidity but usually less deadly than pemphigus. Untreated cases can persist for years and may be fatal in frail patients. High-yield for exams, often contrasted with pemphigus vulgaris.",
+  "how_youll_see_it": [
+    "Typically affects patients >60 (often 70–80s) with weeks of severe itching before blister onset. Prodromal eczematous or urticarial lesions are common.",
+    "Blisters are large, tense bullae (1–3 cm) usually on trunk, flexural areas (axillae, groin), or limbs. Bullae have thick roofs and remain intact; if they rupture, they heal without scarring. Mucosal involvement is rare and, if present, usually mild (no prominent oral ulcers).",
+    "Nikolsky sign is negative (lateral pressure does not dislodge the epidermis) due to the deep blister plane. Unlike pemphigus, oral mucosa is generally spared in bullous pemphigoid.",
+    "Can be triggered by medications (e.g., loop diuretics, penicillamine, DPP-4 inhibitors). Also associated with neurologic disorders (Parkinson, dementia). Often presents with generalized pruritic bullous eruptions without systemic symptoms."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with skin biopsy: take an intact blister edge for H&E (shows subepidermal separation often with eosinophils) and perilesional skin for direct immunofluorescence (linear IgG & C3 along basement membrane).",
+    "Test for circulating autoantibodies: perform ELISA for anti-BP180 and anti-BP230. A positive BP180 ELISA is very sensitive and often correlates with disease activity.",
+    "Differentiate from pemphigus vulgaris: PV has intraepidermal (suprabasal) acantholysis and net-like intercellular IgG on DIF, with flaccid bullae and frequent mucosal lesions (often +Nikolsky). Bullous pemphigoid, in contrast, has subepidermal blisters and linear basement membrane IgG with tense, non-mucosal blisters."
+  ],
+  "differentials": [
+    {
+      "id": "pemphigus-vulgaris",
+      "hint": "Superficial flaccid bullae + oral lesions; IgG to desmosomes (desmoglein 1/3) causes acantholysis; Nikolsky positive."
+    },
+    {
+      "id": "dermatitis-herpetiformis",
+      "hint": "Clusters of extremely itchy vesicles on extensor surfaces; IgA deposition in dermal papillae; young patients with celiac disease."
+    },
+    {
+      "name": "Pemphigoid gestationis",
+      "hint": "Pregnancy-associated autoimmune blistering (2nd–3rd trimester) due to anti-BP180; presents with pruritic urticarial plaques and blisters, usually sparing mucosa."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: \"BULLOw the BM\" = Bullous pemphigoid blisters are below the basement membrane (subepidermal). \"DAMN is a vulgar word\" = Pemphigus vulgaris → Desmosomes, Acantholysis, Mouth (mucosal lesions), Nikolsky+."
+  ],
+  "exam_appearance": [
+    "Elderly patient with severe pruritus followed by tense blisters on abdomen, groin, and thighs; bullae remain intact and Nikolsky sign is negative (no mucosal lesions) → Bullous pemphigoid.",
+    "Skin biopsy from a firm blister shows a subepidermal cleft with an eosinophil-rich infiltrate, and direct IF reveals a linear band of IgG and C3 along the basement membrane → Bullous pemphigoid."
+  ],
+  "treatment": [
+    "First-line: high-potency topical corticosteroids (e.g., clobetasol) for limited disease.",
+    "If widespread or severe, add systemic prednisone to rapidly control disease. Use steroid-sparing therapies (e.g., tetracycline + nicotinamide, or immunosuppressants like azathioprine) to reduce long-term steroid use.",
+    "Refractory cases or those intolerant to steroids: consider biologics (e.g., rituximab or dupilumab) or IVIG."
+  ],
+  "red_flags": [
+    "Signs of secondary infection (increased redness, pus, fever in lesions) – risk of sepsis; requires prompt antibiotics and wound care.",
+    "If oral mucosa is involved or bullae are sloughing easily (positive Nikolsky), reconsider the diagnosis (pemphigus vulgaris or mucous membrane pemphigoid) and escalate therapy accordingly.",
+    "Widespread bullae in an elderly patient can cause significant fluid loss and dehydration; severe cases may require hospitalization for fluids and intensive treatment."
+  ],
+  "algorithm": [
+    "Older patient with pruritic blistering rash → suspect bullous pemphigoid.",
+    "Biopsy an active lesion and adjacent skin → subepidermal blister on H&E; linear IgG/C3 on direct IF confirms BP.",
+    "Obtain serum studies → positive BP180/BP230 antibody by ELISA supports diagnosis.",
+    "Review medications and remove any potential triggers (e.g., stop offending drug like furosemide or DPP-4 inhibitor).",
+    "Treat with topical or systemic corticosteroids depending on extent; add immunosuppressant if needed. Monitor for infection and plan steroid taper once lesions resolve."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Micrograph_of_bullous_pemphigoid.jpg",
+      "alt": "Histopathology of bullous pemphigoid (H&E): subepidermal blister (arrow) with inflammatory cells (eosinophils) in the dermis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Micrograph_of_bullous_pemphigoid.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 80‑year‑old man with a history of Parkinson disease develops a severely itchy rash with blisters over his abdomen and groin.",
+      "clues": [
+        "Tense bullae on an erythematous base in flexural areas",
+        "No oral mucosal involvement",
+        "Nikolsky sign is negative"
+      ],
+      "answer": "Bullous pemphigoid",
+      "teaching": "Autoimmune attack on hemidesmosomes causes subepidermal blisters, typically in older patients. Tense, pruritic bullae with negative Nikolsky and absent mucosal lesions are classic for bullous pemphigoid (distinguishes it from the flaccid mucosal blisters of pemphigus vulgaris)."
+    },
+    {
+      "stem": "A 68‑year‑old woman with type 2 diabetes is started on a DPP-4 inhibitor for glycemic control. Two months later, she develops widespread itching and blisters.",
+      "clues": [
+        "New medication (sitagliptin) for diabetes",
+        "Multiple large, tense bullae on trunk and limbs",
+        "Linear IgG and C3 deposition along basement membrane on skin biopsy"
+      ],
+      "answer": "Bullous pemphigoid (drug-induced)",
+      "teaching": "Certain drugs (e.g., DPP-4 inhibitors, penicillamine, loop diuretics) can trigger bullous pemphigoid. In this diabetic patient, the timing of a new gliptin and onset of tense bullae suggests drug-induced bullous pemphigoid. Management includes stopping the offending drug and treating with corticosteroids."
+    }
+  ],
+  "see_also": [
+    "pemphigus-vulgaris",
+    "urticaria",
+    "atopic-dermatitis"
+  ],
+  "prerequisites": [
+    "skin-histology",
+    "type-ii-hypersensitivity"
+  ],
+  "sources": [
+    {
+      "title": "Medscape: Bullous Pemphigoid (Valdebran & Elston, 2025)",
+      "url": "https://emedicine.medscape.com/article/1062391-overview"
+    },
+    {
+      "title": "StatPearls: Bullous Pemphigoid (Treudler & Zierau, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535374/"
+    },
+    {
+      "title": "UpToDate: Management of bullous pemphigoid (Hall & Bolognia, 2023)",
+      "url": "https://www.uptodate.com/contents/bullous-pemphigoid-management"
+    },
+    {
+      "title": "Prescriber Update (NZ): Bullous pemphigoid – a blistering problem (Medsafe, 2019)",
+      "url": "https://www.medsafe.govt.nz/profs/PUArticles/March2019/Bullous%20pemphigoid%20blistering%20problem.htm"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

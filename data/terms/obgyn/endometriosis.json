@@ -1,0 +1,128 @@
+{
+  "id": "endometriosis",
+  "names": [
+    "Endometriosis"
+  ],
+  "aliases": [],
+  "abbr": [],
+  "patterns": [
+    "endometriosis",
+    "endo",
+    "chocolate cyst"
+  ],
+  "primary_tag": "obgyn",
+  "tags": [
+    "pathology",
+    "obgyn",
+    "surgery"
+  ],
+  "definition": "Presence of endometrial tissue (glands and stroma) outside the uterus; lesions are estrogen-dependent, causing chronic inflammation, scarring, **pelvic pain**, and often **infertility**.",
+  "why_it_matters": "Common (≈10% of reproductive-age women) and a major cause of chronic pelvic pain. Endometriosis can also cause **infertility** in about 30–50% of affected women, impacting quality of life and necessitating medical or surgical intervention.",
+  "how_youll_see_it": [
+    "Usually seen in women in their 20s–40s with **cyclical pelvic pain** and **dysmenorrhea** (often starting before menses and easing after). Pain may be severe and unresponsive to typical dysmenorrhea treatments (NSAIDs).",
+    "**Dyspareunia** (pain with deep intercourse) and **dyschezia** (painful bowel movements during menses) are common, and some patients have **dysuria** or hematuria if lesions involve the bladder.",
+    "Many patients have difficulty conceiving; endometriosis is diagnosed in up to half of women evaluated for **infertility** (due to adhesions and ovarian dysfunction from the implants).",
+    "Physical exam can be normal or show **tender nodules** in the posterior vaginal fornix (uterosacral ligaments), a **fixed retroverted uterus** (due to adhesions), or an adnexal mass suggestive of an ovarian endometrioma."
+  ],
+  "problem_solving": [
+    "Initial management is often **empiric** if clinical suspicion is high: begin analgesics and ovarian suppression (e.g., NSAIDs + continuous OCP) without immediate surgical confirmation.",
+    "**Transvaginal ultrasound** is the first-line imaging to evaluate pelvic pain or suspected endometriomas; it can identify ovarian cysts, though small implants won't be seen. MRI is second-line, used if deep infiltrating disease is suspected.",
+    "No definitive lab tests: **CA-125** is often elevated in endometriosis (especially moderate–severe cases) but is not specific enough for diagnosis.",
+    "Definitive diagnosis requires **laparoscopy** with biopsy. Lesions can have variable appearance – classic blue-black \"powder-burn\" peritoneal spots and ovarian **endometriomas** (\"chocolate cysts\" filled with old blood) are characteristic findings.",
+    "At laparoscopy, disease severity is graded from stage I (minimal) to stage IV (severe) based on the extent of implants and adhesions. Higher stages often involve large endometriomas and dense adhesions (increasing infertility risk)."
+  ],
+  "differentials": [
+    {
+      "id": "irritable-bowel-syndrome",
+      "hint": "Chronic abdominal pain with bowel habit changes; not cyclic or menstrual-related."
+    },
+    {
+      "id": "pelvic-inflammatory-disease",
+      "hint": "Chronic pelvic pain from prior infection; often history of STD or acute PID (fever, cervical motion tenderness)."
+    },
+    {
+      "id": "adenomyosis",
+      "hint": "Endometrial glands in uterine muscle (myometrium); causes diffuse uterine enlargement, heavy menstrual bleeding, and dysmenorrhea."
+    }
+  ],
+  "tricks": [
+    "Remember the **\"3 D's\"** of endometriosis: **dysmenorrhea**, **dyspareunia**, and **dyschezia** (painful periods, intercourse, and defecation).",
+    "Because endometriosis is **estrogen-dependent**, symptoms often improve after menopause or during pregnancy (when estrogen is low and menses cease)."
+  ],
+  "exam_appearance": [
+    "Reproductive-age woman with chronic pelvic pain, dysmenorrhea unresponsive to NSAIDs, and difficulty conceiving; exam shows uterosacral nodularity and a fixed retroverted uterus → Endometriosis.",
+    "Ultrasound showing an ovarian **\"chocolate cyst\"** (homogeneous blood-filled ovarian mass) in a woman with pelvic pain → Endometriosis (ovarian endometrioma)."
+  ],
+  "treatment": [
+    "**First-line**: pain management with NSAIDs plus **hormonal therapy** to suppress ovulation and menstruation (continuous combined oral contraceptives or progestins).",
+    "**Second-line**: options include GnRH analogs (e.g., leuprolide) with add-back therapy, GnRH antagonists (e.g., elagolix), or **danazol** (androgen) – these can further reduce lesions but have more side effects. An aromatase inhibitor may be added in refractory cases.",
+    "**Surgery**: Laparoscopic **excision or ablation** of endometrial implants and adhesions can relieve pain and improve fertility, especially in moderate to severe disease. Large endometriomas are usually resected (cystectomy) to prevent recurrence and restore ovarian function.",
+    "**Definitive**: In severe, refractory cases when childbearing is complete, **total hysterectomy with bilateral oophorectomy** (removal of uterus and ovaries) offers the best chance of cure, though rare cases of recurrent symptoms have been reported even after surgery."
+  ],
+  "red_flags": [
+    "Long-standing endometriosis can cause **infertility** (≈30–50% of patients). Always consider endometriosis in women with unexplained infertility.",
+    "**Endometriomas** (ovarian \"chocolate\" cysts) may **rupture**, causing an acute abdomen with pelvic pain and peritoneal signs.",
+    "Extensive pelvic **adhesions** (\"frozen pelvis\") can involve the bowel and ureters, leading to obstruction (e.g., cyclic constipation, hydronephrosis).",
+    "Long-term endometriosis is linked to a slightly increased risk of **ovarian cancer** (especially endometriosis-associated ovarian cancers), though this is rare."
+  ],
+  "algorithm": [
+    "Suspicion: Any reproductive-aged patient with chronic pelvic pain, dysmenorrhea, and/or infertility → **suspect endometriosis**.",
+    "Initial eval: Perform a pelvic exam and transvaginal **ultrasound** to check for ovarian cysts or other pelvic pathology. If no endometriomas or other cause is found, consider an **empiric trial** of therapy (e.g., hormonal suppression) and observe for symptom improvement.",
+    "No improvement or unclear diagnosis → proceed to **diagnostic laparoscopy** for definitive identification of endometriosis lesions (visual inspection and biopsy confirmation).",
+    "Confirmed endometriosis → treat based on symptom severity and fertility goals: medical management (NSAIDs, OCPs or other hormonal therapy) for pain, and/or **laparoscopic removal** of implants and scar tissue to alleviate pain and enhance fertility.",
+    "If disease is severe and patient does not desire future fertility, consider **definitive surgery** (hysterectomy with oophorectomy) for long-term relief."
+  ],
+  "images": [],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old woman has progressively worsening pelvic pain and severe menstrual cramps. The pain often begins a day or two before her period and radiates to her back. She also reports pain during intercourse and has been unable to conceive after 1 year of trying.",
+      "clues": [
+        "Pelvic pain peaks just before menses",
+        "Dyspareunia (pain with deep intercourse)",
+        "No relief from NSAIDs or OCPs",
+        "Nodularity in the posterior fornix on exam",
+        "Ultrasound: 5 cm ovarian \"chocolate cyst\""
+      ],
+      "answer": "Endometriosis (ovarian endometrioma)",
+      "teaching": "Ectopic endometrial tissue on the ovary has formed an endometrioma (\"chocolate cyst\"), causing cyclic pelvic pain, dyspareunia, and infertility. Endometriosis lesions respond to hormonal cycles, bleeding and creating inflammation/adhesions. Treatment may include surgical removal of the cyst and suppression of further cycles to improve fertility and pain."
+    },
+    {
+      "stem": "A 34‑year‑old woman undergoing evaluation for infertility reports chronic pelvic pain and intense cramping during menses. She has no abnormal bleeding. Pelvic exam reveals a fixed, retroverted uterus and tenderness in the cul-de-sac. Laparoscopy is performed and multiple small \"powder-burn\" lesions are seen on the peritoneum.",
+      "clues": [
+        "Age in 30s with difficulty conceiving",
+        "Severe dysmenorrhea and pelvic pain",
+        "Fixed retroverted uterus on exam",
+        "Laparoscopy: bluish implants on peritoneum"
+      ],
+      "answer": "Endometriosis",
+      "teaching": "Endometriosis is a common cause of infertility and pelvic pain. Classic intraoperative findings are blue-black (\"powder-burn\") implants and pelvic adhesions fixing the uterus in place. Surgical ablation of these lesions can help improve fertility, and medical therapies (like GnRH analogs or OCPs) can manage pain."
+    }
+  ],
+  "see_also": [
+    "irritable-bowel-syndrome",
+    "polycystic-ovary-syndrome"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Endometriosis (Tsamantioti & Mahdy, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK567777/"
+    },
+    {
+      "title": "UpToDate: Endometriosis in adults – Clinical features, evaluation, and diagnosis",
+      "url": "https://www.uptodate.com/contents/endometriosis-in-adults-clinical-features-evaluation-and-diagnosis"
+    },
+    {
+      "title": "American Family Physician: Endometriosis – Evaluation and Treatment (Edi & Cheng, 2022)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2022/1000/endometriosis.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

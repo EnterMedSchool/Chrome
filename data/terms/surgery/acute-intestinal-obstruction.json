@@ -1,0 +1,124 @@
+{
+  "id": "acute-intestinal-obstruction",
+  "names": ["Acute intestinal obstruction"],
+  "aliases": ["bowel obstruction", "intestinal obstruction", "intestinal blockage", "small bowel obstruction", "large bowel obstruction"],
+  "abbr": ["SBO", "LBO"],
+  "patterns": ["acute intestinal obstruction", "bowel obstruction", "intestinal obstruction", "intestinal blockage", "small bowel obstruction", "SBO", "large bowel obstruction", "LBO"],
+  "primary_tag": "surgery",
+  "tags": ["pathology", "gi", "surgery", "emerg", "peds", "radiology"],
+  "definition": "Acute intestinal obstruction is a sudden blockage of normal intestinal flow (usually a mechanical blockage in the small or large bowel), leading to proximal bowel distension and the classic triad of **crampy abdominal pain**, **vomiting**, and **obstipation**.",
+  "why_it_matters": "Common surgical emergency that can rapidly progress to bowel ischemia, perforation, sepsis, and death if untreated. Frequently tested on exams due to its hallmark X-ray findings (multiple air‑fluid levels) and the need to distinguish surgical vs conservative management.",
+  "how_youll_see_it": [
+    "Classic presentation: **colicky abdominal pain**, **abdominal distension**, **nausea/vomiting** (bilious if proximal), and **failure to pass flatus or stool** (obstipation). Pain is intermittent early (peristaltic waves against the obstruction) but may become constant if strangulation occurs.",
+    "On exam, initially **high-pitched \"tinkling\" bowel sounds** are heard as the intestines attempt to overcome the blockage, whereas **silent abdomen** suggests late ischemia or perforation. Abdominal distension and tympany to percussion are common, especially in distal obstructions.",
+    "Small vs. large bowel obstruction: **SBO** (≈80% of cases) often presents with more frequent vomiting and mid-abdominal cramps, while **LBO** tends to cause greater distension and delayed feculent vomiting. Symptoms severity can vary with the level of obstruction (proximal vs distal) and acuity.",
+    "Adult etiologies: **postoperative adhesions** (most common cause of small bowel obstruction), **incarcerated hernias**, and **colorectal cancer** (leading cause of large bowel obstruction). Other causes include volvulus (twisting of bowel, e.g. sigmoid in elderly), strictures (e.g. from Crohn or diverticulitis), and intussusception in adults (rare, usually with a tumor lead point).",
+    "Pediatric etiologies: **intussusception** (telescoping of bowel causing intermittent pain and \"currant jelly\" stools, most common obstruction in ages 6–36 months), **Hirschsprung disease** (congenital aganglionosis causing neonatal colon obstruction), and **malrotation with midgut volvulus** in infants (neonatal emergency with bilious vomiting). In older children, consider **incarcerated hernia** or congenital lesions (e.g. duodenal atresia with \"double bubble\" on X-ray)."
+  ],
+  "problem_solving": [
+    "Stabilize first: assess volume status and begin **IV fluids** for dehydration (from vomiting); correct electrolytes (beware hypokalemia, metabolic alkalosis). Keep patient **NPO** (bowel rest) and consider a **nasogastric tube** for decompression of gastric contents to relieve distension and vomiting.",
+    "Obtain imaging promptly. **Upright abdominal X-ray** is an initial test to confirm obstruction, showing **multiple air–fluid levels** and dilated loops of bowel. An absence of colonic gas on X-ray suggests a complete obstruction. Look for **free air** under the diaphragm (perforation) on chest X-ray.",
+    "Order an **abdominal CT scan** (with contrast if possible) to locate the transition point and identify the cause and any complications. CT is the gold standard, often revealing a clear point of obstruction (e.g., a mass or closed loop) and signs of ischemia (bowel wall thickening, poor enhancement) or perforation.",
+    "Differentiate true obstruction from **ileus** (functional paralysis): in mechanical obstruction, pain is usually colicky and localized, and imaging shows a discrete blockage with proximal dilation; in ileus, bowel sounds are minimal, pain is milder, and X-ray shows diffuse gas without a transition point. Also check rectum for impaction in suspected LBO.",
+    "Special diagnostic maneuvers: In children with suspected intussusception, perform an **ultrasound** (target sign) and be prepared for an **air contrast enema**, which can be diagnostic and often therapeutic by reducing the intussusception. For suspected sigmoid volvulus, a contrast enema may show a twisting (\"bird's beak\") and can sometimes relieve the obstruction as well."
+  ],
+  "differentials": [
+    { "id": "ileus", "hint": "functional (paralytic) ileus – uniform dilation, often post-op or metabolic (no mechanical block)" },
+    { "id": "mesenteric-ischemia", "hint": "pain out of proportion; can cause ileus or mimic obstruction, often with bloody stool" },
+    { "id": "ogilvie-syndrome", "name": "Acute colonic pseudo-obstruction", "hint": "massive dilation of colon without physical blockage (seen in ill or post-op patients)" },
+    { "id": "gastroenteritis", "hint": "vomiting and distension but usually with diarrhea; no true blockage" }
+  ],
+  "tricks": [
+    "Think **step‑ladder** pattern on upright X-ray: multiple stacked air–fluid levels indicative of small bowel obstruction.",
+    "Remember the **\"triple bubble\" sign** in a neonate: three distinct air-filled loops on abdominal X-ray classically suggest proximal jejunal atresia (a cause of neonatal obstruction).",
+    "In pediatric intussusception, look for a **\"target sign\"** on ultrasound and **currant jelly stool** on exam – clues that the bowel has telescoped and may be ischemic."
+  ],
+  "exam_appearance": [
+    "Older adult with prior abdominal surgery, now with crampy abdominal pain, vomiting, distended abdomen, and high‑pitched bowel sounds → **Small bowel obstruction** (likely due to adhesions).",
+    "Elderly patient with progressive abdominal distension, constipation, and thin \"ribbon-like\" stools over weeks, now with acute abdomen → **Large bowel obstruction** from a colorectal cancer (left-sided lesions often present this way).",
+    "Infant 8 months old with episodic severe crying, drawing legs up, vomiting, and **red currant jelly** stools → **Intussusception** causing intermittent obstruction (telescoping bowel segment)."
+  ],
+  "treatment": [
+    "Initial management is **conservative** for uncomplicated cases: aggressive **fluid resuscitation**, **electrolyte correction**, and **NG tube decompression** to minimize ongoing distension. Provide analgesia and antiemetics as needed. Bowel rest (NPO) and IV fluids help stabilize the patient and often allow partial obstructions to resolve on their own.",
+    "Monitor closely with serial abdominal exams and labs. If there is no improvement or if obstruction is complete, consider a trial of a **water-soluble contrast** agent (e.g., Gastrografin) via NG – this can serve as a diagnostic study and may stimulate resolution in partial small bowel obstruction. Continue to observe for any signs of strangulation (fever, tachycardia, leukocytosis, rising lactate).",
+    "**Antibiotics:** If strangulation or perforation is suspected (e.g., fever, free air, peritonitis), start broad-spectrum IV antibiotics to cover gut flora (gram-negatives/anaerobes) while preparing for surgery.",
+    "**Surgery** is indicated for any **complete obstruction**, **closed-loop obstruction**, or if there are signs of ischemia/necrosis, perforation, or failure of conservative management. Surgical intervention (often via exploratory laparotomy or laparoscopy) may involve adhesiolysis (cutting fibrous bands), resection of non-viable bowel, relief of a volvulus (untwisting or resecting if necrotic), or removal of tumors.",
+    "In large bowel obstruction due to malignancy, surgical resection of the tumor is often required (sometimes with a diverting ostomy if bowel is very distended). In sigmoid volvulus, an initial endoscopic **decompression** via colonoscopy can be attempted, but definitive surgical fixation (pexy) or resection is usually done to prevent recurrence.",
+    "Pediatric considerations: **Intussusception** is usually managed with a **pneumatic (air) or contrast enema** reduction as first-line, which is successful in ~80% of cases. If enema fails or signs of perforation are present, prompt surgical reduction is needed. **Hirschsprung disease** initially requires rectal irrigations or decompression of the megacolon, followed by surgical resection of the aganglionic segment once the child is stabilized."
+  ],
+  "red_flags": [
+    "**Peritonitis signs** (e.g., rebound tenderness, involuntary guarding), **fever**, or sudden severe continuous pain (after initial colicky pain disappears) indicate possible bowel strangulation with ischemia – this is a surgical emergency. Shock (hypotension, tachycardia) or sepsis in an obstructed patient suggests perforation or necrosis.",
+    "**Metabolic acidosis** or an elevated **lactate** level points to bowel ischemia/infarction (strangulation). **Free intraperitoneal air** on imaging (e.g., under diaphragm on chest X-ray) signifies perforation of the bowel – requires immediate surgical intervention."
+  ],
+  "algorithm": [
+    "Suspected obstruction (colicky pain, vomiting, distension, obstipation) → obtain an **upright abdominal X-ray**.",
+    "If **free air** on X-ray or signs of peritonitis → immediate surgical consultation for likely emergent operation.",
+    "If no emergency signs → begin **conservative management**: NPO, IV fluid resuscitation, NG tube decompression, and correct electrolytes.",
+    "Next, perform **CT abdomen/pelvis** to confirm the obstruction, locate the cause, and check for ischemia (transition point, closed loop, strangulation).",
+    "Continue nonoperative management if **partial obstruction** is improving. If **complete obstruction** or no improvement within ~24–48 hours, or any deterioration → proceed to **surgical intervention** (exploratory laparotomy)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Upright_X-ray_demonstrating_small_bowel_obstruction.jpg",
+      "alt": "Upright abdominal X-ray showing multiple air-fluid levels in small bowel obstruction.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Upright_X-ray_demonstrating_small_bowel_obstruction.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old woman with a history of an abdominal hysterectomy presents with 2 days of abdominal pain and vomiting.",
+      "clues": [
+        "Colicky mid-abdominal pain with distension",
+        "Bilious vomiting, no flatus or stool for 48 hours",
+        "High-pitched bowel sounds on auscultation",
+        "Upright X-ray: multiple air–fluid levels, no gas in colon",
+        "History of abdominal surgery 10 years ago"
+      ],
+      "answer": "Small bowel obstruction (postoperative adhesions)",
+      "teaching": "Prior abdominal surgery leads to adhesions, the most common cause of small bowel obstruction. The presentation of crampy abdominal pain, vomiting, distension, and obstipation is classic. Initial management would include \"NPO, NG, IV fluids\" (bowel rest with nasogastric decompression and fluid resuscitation), but signs of strangulation would warrant urgent surgical intervention."
+    }
+  ],
+  "see_also": [
+    "hirschsprung-disease",
+    "duodenal-atresia"
+  ],
+  "prerequisites": [
+    "gi-anatomy",
+    "gastrointestinal-physiology",
+    "fluid-electrolytes",
+    "shock"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Small Bowel Obstruction (Schick & Kashyap, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448079/"
+    },
+    {
+      "title": "StatPearls: Large Bowel Obstruction (Lieske & Marietta, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441888/"
+    },
+    {
+      "title": "American Family Physician: Intestinal Obstruction – Evaluation and Management (Jackson & Cruz, 2018)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2018/0915/p362.html"
+    },
+    {
+      "title": "UpToDate: Etiologies, clinical manifestations, and diagnosis of mechanical intestinal obstruction in adults",
+      "url": "https://www.uptodate.com/contents/etiologies-clinical-manifestations-and-diagnosis-of-mechanical-small-bowel-obstruction-in-adults"
+    },
+    {
+      "title": "StatPearls: Intussusception (Jain & Haydel, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431078/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

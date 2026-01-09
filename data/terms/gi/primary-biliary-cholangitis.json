@@ -1,0 +1,147 @@
+{
+  "id": "primary-biliary-cholangitis",
+  "names": [
+    "Primary biliary cholangitis"
+  ],
+  "aliases": [
+    "Primary biliary cirrhosis"
+  ],
+  "abbr": [
+    "PBC"
+  ],
+  "patterns": [
+    "primary biliary cholangitis",
+    "pbc",
+    "primary biliary cirrhosis"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "pharmacology",
+    "gi"
+  ],
+  "definition": "Autoimmune destruction of small intrahepatic bile ducts leading to chronic **cholestasis** (bile stasis) and progressive **fibrosis** of the liver (cirrhosis). Classically affects middle-aged women.",
+  "why_it_matters": "PBC is a major cause of chronic **cholestatic** liver disease and can progress to **cirrhosis** and liver failure if untreated. High-yield due to its unique association with **anti-mitochondrial antibodies (AMA)** and effective early treatment (UDCA) to slow progression.",
+  "how_youll_see_it": [
+    "Typically a **woman in her 40s-60s** with insidious onset of **fatigue** and **pruritus** (itching, often worse at night). Early disease may be asymptomatic aside from elevated **alkaline phosphatase** on labs; later, patients can develop **jaundice**, **hyperpigmented** skin, and **xanthelasma** (cholesterol deposits).",
+    "Strongly associated with other **autoimmune** conditions (seen in up to 70% of patients) such as **Sjögren** syndrome (dry eyes/mouth), autoimmune thyroid disease, CREST scleroderma, or rheumatoid arthritis.",
+    "Exam may show **hepatomegaly** and skin excoriations from scratching. Advanced PBC leads to signs of **portal hypertension** (splenomegaly, ascites, varices) and complications of cirrhosis."
+  ],
+  "problem_solving": [
+    "Suspect PBC in a patient (especially a middle-aged woman) with a **cholestatic** liver enzyme pattern (**↑ALP** much more than ↑ALT) and compatible symptoms. Confirm diagnosis with **AMA** serology (anti-mitochondrial antibodies present in ~95%).",
+    "Perform imaging (e.g., **ultrasound** or MRCP) to **exclude extrahepatic biliary obstruction** or **primary sclerosing cholangitis**. If **AMA-negative** but suspicion remains, or to assess disease stage, consider a **liver biopsy** (shows **nonsuppurative destructive cholangitis** and **granulomas**).",
+    "Evaluate for co-existing autoimmune diseases and complications: check **thyroid** function (autoimmune thyroiditis), **bone density** (risk of osteoporosis from chronic cholestasis), and fat-soluble vitamin levels (A, D, E, K). Monitor lipid profile (PBC often causes hypercholesterolemia).",
+    "If **ALT** or liver biopsy suggests interface hepatitis (hepatocellular injury) along with cholestasis, suspect **PBC-AIH overlap** syndrome; this requires additional immunosuppressive management."
+  ],
+  "differentials": [
+    {
+      "id": "primary-sclerosing-cholangitis",
+      "hint": "affects young men, p-ANCA+, assoc. with ulcerative colitis; bile duct strictures on imaging"
+    },
+    {
+      "id": "autoimmune-hepatitis",
+      "hint": "hepatitic pattern (↑AST/ALT), positive ANA/SMA, high IgG; responds to steroids"
+    },
+    {
+      "name": "Secondary biliary cirrhosis",
+      "hint": "cholestatic liver injury due to prolonged extrahepatic bile duct obstruction (e.g., choledocholithiasis, stricture); usually imaging shows dilated ducts"
+    }
+  ],
+  "tricks": [
+    "Remember **M** for PBC: **M**iddle-aged **M**oms (90% female), anti-**M**itochondrial antibodies (AMA), and elevated **IgM** levels. (By contrast, **PSC** affects Sons (men) and is p-ANCA positive with UC.)",
+    "Old name was \"primary biliary cirrhosis\" – think PBC when you see a cholestatic pattern in a 50-year-old woman, even if cirrhosis hasn't developed yet."
+  ],
+  "exam_appearance": [
+    "Middle-aged woman with months of **pruritus** and fatigue, lab tests show markedly **↑alkaline phosphatase**, mild ↑AST/ALT, and positive **anti-mitochondrial antibodies** → Primary biliary cholangitis.",
+    "Patient with long-standing PBC now presents with **ascites**, **jaundice**, and variceal bleeding → indicates **decompensated cirrhosis** from PBC (requires transplant evaluation)."
+  ],
+  "treatment": [
+    "**Ursodeoxycholic acid (UDCA)** – first-line therapy that slows disease progression (improves cholestasis and survival); start as soon as diagnosis is made (13–15 mg/kg/day).",
+    "If inadequate response to UDCA (e.g., ALP remains high at 1 year), add **obeticholic acid** (FXR agonist) as second-line. **Fibrates** (e.g., bezafibrate) are another off-label option for UDCA non-responders (avoid in decompensated cirrhosis).",
+    "Manage symptoms and complications: **cholestyramine** or rifampin can help pruritus; supplement **fat-soluble vitamins**; use **bisphosphonates** for PBC-related osteoporosis. Screen for and endoscopically treat varices if portal HTN present.",
+    "**Liver transplant** is indicated for end-stage PBC (decompensated cirrhosis or severe symptoms like intractable pruritus); transplant is often curative, though AMA may remain positive."
+  ],
+  "red_flags": [
+    "Any signs of **decompensated cirrhosis** (e.g., new-onset ascites, encephalopathy, variceal hemorrhage) in PBC → urgent referral for **liver transplant** evaluation.",
+    "Concomitant **high AST/ALT** and positive ANA or SMA in a PBC patient → suspect **overlap syndrome** (PBC + autoimmune hepatitis) requiring biopsy confirmation and immunosuppressive therapy (corticosteroids).",
+    "Severe **pruritus** unresponsive to medical therapy is a red flag for poor quality of life – can be an indication for earlier transplant consideration."
+  ],
+  "algorithm": [
+    "Unexplained **cholestatic** LFT pattern (↑ALP) in an at-risk patient (especially middle-aged woman) → test **AMA** and other antibodies (ANA, etc.).",
+    "If **AMA positive** (or sp100/gp210), diagnosis of PBC is likely. Obtain imaging (U/S, MRCP) to rule out extrahepatic obstruction or PSC.",
+    "If **AMA negative** and imaging normal, consider **liver biopsy** to confirm PBC (will show florid duct lesions) or identify alternative diagnoses.",
+    "Start **UDCA** once PBC is diagnosed (don't wait for biopsy if clinical picture is clear). Recheck liver tests at 6–12 months; if inadequate response, consider adding second-line therapy (obeticholic acid or fibrate).",
+    "Monitor for progression (development of cirrhosis, varices) and manage complications. Refer for **transplant** evaluation if liver failure develops despite medical therapy."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Primary_biliary_cirrhosis_low_mag.jpg",
+      "alt": "Low-power H&E micrograph of a liver biopsy in PBC, showing a portal tract with lymphocytic inflammation attacking the bile duct (florid duct lesion) and surrounding granulomatous changes.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Primary_biliary_cirrhosis_low_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old woman with a history of Hashimoto thyroiditis presents with fatigue and severe itching for 6 months.",
+      "clues": [
+        "On exam: skin hyperpigmentation and excoriations from scratching",
+        "Labs: ALP 5× upper limit (very high), mild ↑AST/ALT, normal viral hepatitis panel",
+        "Serology: positive anti‑mitochondrial antibody (AMA) test",
+        "Ultrasound: no biliary obstruction; liver biopsy shows granulomatous cholangitis"
+      ],
+      "answer": "Primary biliary cholangitis",
+      "teaching": "Classic PBC in a middle-aged woman with cholestatic labs and AMA positivity. PBC is autoimmune destruction of intrahepatic bile ducts (leading to cholestasis, pruritus, hyperpigmentation, and xanthelasma). Early treatment with UDCA can slow progression; without it, PBC will eventually cause cirrhosis and need for transplant."
+    },
+    {
+      "stem": "A 50‑year‑old woman with known PBC on ursodiol therapy for 4 years is evaluated for increasing abdominal girth and confusion.",
+      "clues": [
+        "Physical exam: ascites and asterixis (hand flapping tremor) present",
+        "Labs: total bilirubin 8 mg/dL (high), albumin 2.5 (low), prolonged PT/INR",
+        "Endoscopy: large esophageal varices; one has recent band ligation",
+        "AMA still positive; MELD score calculated as 22"
+      ],
+      "answer": "Decompensated cirrhosis due to PBC",
+      "teaching": "Despite UDCA therapy, some PBC patients progress to end-stage liver disease. Signs like ascites, encephalopathy, and variceal bleeding indicate decompensated cirrhosis. Liver transplant is indicated at this stage (PBC is a common reason for transplant and outcomes are generally excellent)."
+    }
+  ],
+  "see_also": [
+    "autoimmune-hepatitis",
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "sjogren-syndrome",
+    "inflammatory-bowel-disease"
+  ],
+  "prerequisites": [
+    "immunology",
+    "liver-pathology"
+  ],
+  "sources": [
+    {
+      "title": "Harrison's Manual of Medicine: Primary Biliary Cirrhosis (Kasper et al., 20th ed., 2020)",
+      "url": "https://harrisons.unboundmedicine.com/harrisons/view/Harrisons-Manual-of-Medicine/623385/all/PRIMARY_BILIARY_CIRRHOSIS__PBC_"
+    },
+    {
+      "title": "UpToDate: Overview of the management of primary biliary cholangitis (Bonder & Hegade, 2023)",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-primary-biliary-cholangitis"
+    },
+    {
+      "title": "StatPearls: Primary Biliary Cholangitis (Pandit & Samant, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459209/"
+    },
+    {
+      "title": "AASLD Practice Guidance: Primary Biliary Cholangitis (Lindor et al., Hepatology 2019)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7041951/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

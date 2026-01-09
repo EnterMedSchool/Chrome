@@ -1,0 +1,119 @@
+{
+  "id": "anencephaly",
+  "names": ["Anencephaly"],
+  "aliases": ["Anencephalia"],
+  "abbr": [],
+  "patterns": [],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "peds", "obgyn"],
+  "definition": "Anencephaly is a neural tube defect where the rostral neuropore fails to close, resulting in absence of the fetal forebrain (cerebrum/cerebellum) and cranial vault. The result is a fetus with only brainstem and midbrain structures (no scalp/skull).",
+  "why_it_matters": "Anencephaly is uniformly fatal (no cure). Almost all affected fetuses miscarry or die shortly after birth, so detection and counseling are critical. It highlights the importance of preventive measures (folic acid) for neural tube defects.",
+  "how_youll_see_it": [
+    "Prenatal ultrasound (second trimester) shows absent cranial vault and protruding orbits (\"frog-eye\" or \"Mickey Mouse\" sign).",
+    "Maternal serum alpha-fetoprotein is markedly elevated due to exposed neural tissue.",
+    "Neonatal exam: no scalp/cranial bones above brainstem (only brainstem present), no meaningful consciousness or pain (lethal defect)."
+  ],
+  "problem_solving": [
+    "High-risk pregnancy or abnormal quad screen (↑MSAFP) → perform targeted fetal ultrasound.",
+    "If ultrasound shows absent skull vault/brain, confirm anencephaly; consider fetal MRI if needed for details.",
+    "Assess for other anomalies (e.g. chromosomal defects) and counsel that outcome is fatal.",
+    "Discuss options: pregnancy termination or comfort care for neonate. There is no corrective treatment.",
+    "Advise 4 mg folic acid preconception for future pregnancies to reduce recurrence risk."
+  ],
+  "differentials": [
+    {
+      "id": "acrania",
+      "hint": "Complete absence of skull vault but brain tissue initially present"
+    },
+    {
+      "id": "encephalocele",
+      "hint": "Skull defect with herniated brain tissue (not global absence)"
+    },
+    {
+      "id": "holoprosencephaly",
+      "hint": "Failure of forebrain to divide (brain present but abnormally organized)"
+    }
+  ],
+  "tricks": [
+    "\"An-encephaly\" – A- means absent (no brain, no skull)",
+    "Ultrasound \"frog-eye\" sign (eyes protruding due to no forehead)",
+    "Remember: Anencephaly = Fatal (A- for absent, no head/brain at all)."
+  ],
+  "exam_appearance": [
+    "Pregnant patient with 20-week ultrasound: absent fetal skull vault + high AFP → anencephaly (lethal NTD).",
+    "Mother of previous anencephalic fetus asks about prevention: High-dose folate (4 mg) recommended (NTD risk ↑ if low folate)."
+  ],
+  "treatment": [
+    "No treatment (incompatible with life). Management is supportive/palliative.",
+    "Counsel on pregnancy options (termination vs. comfort care).",
+    "Ensure high-dose folic acid (4 mg) supplementation in future pregnancies."
+  ],
+  "red_flags": [],
+  "algorithm": [
+    "Abnormal quad or high AFP → detailed fetal ultrasound.",
+    "Absent skull vault on ultrasound → diagnose anencephaly.",
+    "Explain prognosis to parents (fatal) and discuss management (termination or perinatal palliative care).",
+    "Manage polyhydramnios (if present) and prepare neonatal hospice/support.",
+    "Recommend folic acid supplementation (4 mg daily) for future conception."
+  ],
+  "cases": [
+    {
+      "stem": "A 25-year-old G1P0 woman undergoes routine ultrasound at 20 weeks gestation. The sonogram shows an absent fetal calvarium and protruding orbits. Her quad screen shows an α-fetoprotein level of 5.0 MoM (elevated).",
+      "clues": [
+        "Ultrasound: no skull bones, frog-eye sign on fetal face",
+        "Maternal AFP = 5.0 MoM (markedly high)",
+        "Polyhydramnios on follow-up scan"
+      ],
+      "answer": "Anencephaly",
+      "teaching": "Findings are classic for anencephaly: failure of the rostral neuropore to close at ~week 4. The absent cranial vault and high AFP confirm the diagnosis. Anencephaly is lethal (no cerebrum); counsel on prognosis and prevention (folate supplementation)."
+    },
+    {
+      "stem": "A newborn is delivered at 38 weeks with absence of the skull and scalp above the eyes. The baby has no cerebral hemispheres and only brainstem present; the infant dies within an hour.",
+      "clues": [
+        "Physical exam: no calvarium or scalp above orbits",
+        "Prenatal history: polyhydramnios and elevated maternal AFP",
+        "Frog-like protruding eyes due to absent forehead"
+      ],
+      "answer": "Anencephaly",
+      "teaching": "This infant has anencephaly (absent skull and forebrain). The prenatal history (high AFP, polyhydramnios) fits. Anencephaly is incompatible with life. Emphasize recurrence risk (~2-4%) and high-dose folate for prevention."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ultrasound_Scan_ND_328.jpg",
+      "alt": "Prenatal ultrasound of fetus with anencephaly (absence of cranial vault, only brainstem visible)",
+      "credit": {
+        "text": "Nevit Dilmen, CC BY-SA 3.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Ultrasound_Scan_ND_328.jpg"
+      }
+    }
+  ],
+  "see_also": ["holoprosencephaly", "spina-bifida-occulta", "meningocele", "down-syndrome"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Embryology, Anencephaly (McEntee & Mehendale, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545244/"
+    },
+    {
+      "title": "Cleveland Clinic: Anencephaly (Fetal Neural Tube Defect)",
+      "url": "https://my.clevelandclinic.org/health/diseases/15032-anencephaly"
+    },
+    {
+      "title": "CDC: Anencephaly Facts (2024)",
+      "url": "https://www.cdc.gov/ncbddd/birthdefects/anencephaly.html"
+    },
+    {
+      "title": "Medscape: Anencephaly Overview (Best, 2021)",
+      "url": "https://emedicine.medscape.com/article/1181570-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

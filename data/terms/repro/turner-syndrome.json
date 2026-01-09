@@ -1,0 +1,139 @@
+{
+  "id": "turner-syndrome",
+  "names": [
+    "Turner syndrome"
+  ],
+  "aliases": [
+    "Monosomy X",
+    "45,X",
+    "XO syndrome",
+    "Ullrich-Turner syndrome"
+  ],
+  "abbr": [
+    "TS"
+  ],
+  "patterns": [
+    "turner",
+    "turner syndrome",
+    "turner's syndrome",
+    "monosomy x",
+    "45,x",
+    "xo syndrome"
+  ],
+  "primary_tag": "repro",
+  "tags": [
+    "pathology",
+    "genetics",
+    "peds",
+    "obgyn",
+    "endocrine",
+    "repro"
+  ],
+  "definition": "Turner syndrome is a sex chromosome disorder in phenotypic females caused by complete or partial absence of one X chromosome (45,X karyotype), leading to short stature, ovarian dysgenesis (**streak gonads**), and characteristic physical features such as a **webbed neck**.",
+  "why_it_matters": "It is the most common sex chromosome abnormality in females (~1 in 2500 births) and a major cause of short stature and **primary amenorrhea**. Frequently tested on exams as it spans **genetics**, **endocrinology** (puberty, infertility), and congenital anomalies (cardiac, renal).",
+  "how_youll_see_it": [
+    "Many girls are diagnosed in adolescence due to **short stature** (growth stops early) and lack of puberty (**amenorrhea** with no breast development). Classic findings include a **webbed neck**, low posterior hairline, **shield chest** (broad chest, widely spaced nipples), and **cubitus valgus** (increased carrying angle at elbows).",
+    "",
+    "**Coarctation of the aorta** (diminished femoral pulses, differential arm/leg BP) or **bicuspid aortic valve** occur in ~30%. Other features: congenital **lymphedema** (swollen hands/feet at birth leading to the webbed neck), high-arched palate, low-set ears, **horseshoe kidney**, and **hearing loss** (from frequent otitis media). Intelligence is usually normal, though some have specific learning difficulties (e.g., spatial perception/math)."
+  ],
+  "problem_solving": [
+    "Suspect Turner in any phenotypic female with unexplained **short stature** or **delayed puberty**. Confirm the diagnosis with **karyotype** analysis (45,X or mosaic); expect **↑FSH/LH** and low estrogen (hypergonadotropic hypogonadism).",
+    "If karyotype shows any **Y chromosome** material, perform prophylactic gonadectomy to prevent **gonadoblastoma** (malignancy in streak gonads).",
+    "Evaluate for associated anomalies: do an **echocardiogram** (check for coarctation, bicuspid aortic valve) and renal ultrasound (**horseshoe kidney** or other malformations). Also screen for **hypothyroidism** (autoimmune thyroiditis is common) and hearing deficits.",
+    "Provide counseling on **infertility** (nearly all patients cannot conceive naturally, though IVF with donor eggs is sometimes possible)."
+  ],
+  "differentials": [
+    {
+      "name": "Noonan syndrome",
+      "hint": "short stature & neck webbing like Turner but **normal karyotype**; affects both sexes, often has **pulmonic stenosis** (right-sided heart defect)"
+    },
+    {
+      "name": "Androgen insensitivity syndrome",
+      "hint": "46,XY with female appearance, **tall** stature, no uterus (amenorrhea) but **normal breast** development (testes present)"
+    },
+    {
+      "name": "Müllerian agenesis (MRKH)",
+      "hint": "46,XX with congenital absence of uterus → primary amenorrhea but **normal ovaries** (normal breast and hair development)"
+    }
+  ],
+  "tricks": [
+    "Fetal **cystic hygroma** (large septated nuchal translucency on ultrasound) is a prenatal red flag for Turner syndrome.",
+    "Remember \"**XO**\": one X chromosome present, and **O**varies are missing (streak ovaries → no estrogen, no puberty).",
+    "Patients have no **Barr body** (no inactivated X) on their karyotype smear."
+  ],
+  "exam_appearance": [
+    "Teenage girl, 14–16, with short stature, **no breast development**, and no menarche; physical exam shows a **webbed neck** and broad chest → Turner syndrome (45,X).",
+    "Newborn girl with **lymphedema** of hands and feet and a **neck mass** (cystic hygroma), later found to have **coarctation of the aorta** → Turner syndrome."
+  ],
+  "treatment": [
+    "**Growth hormone** therapy in early childhood to boost adult height (start as soon as growth delay is identified).",
+    "**Estrogen** replacement therapy (with cyclic progestin) starting in mid-childhood or early teens to induce breast development, initiate menses, and prevent osteoporosis.",
+    "Routine management of comorbidities: e.g. monitor and treat **hypothyroidism**, manage **hypertension** if present, periodic cardiac MRI/echo to surveil aorta, and support for hearing or learning issues."
+  ],
+  "red_flags": [
+    "**Coarctation of aorta** or undiagnosed aortic dilation can lead to life-threatening **aortic dissection** or rupture—monitor aortic size and control blood pressure.",
+    "**Pregnancy** (even with donor eggs) is high-risk in Turner patients due to aortic dissection; thorough cardiovascular evaluation is mandatory beforehand.",
+    "Any Y chromosome on karyotype → perform gonadectomy to prevent **gonadoblastoma** (malignant tumor arising in dysgenetic gonadal tissue)."
+  ],
+  "algorithm": [
+    "Short-stature girl or primary amenorrhea (no puberty) → **karyotype** analysis for Turner syndrome.",
+    "If **45,X** or mosaic karyotype confirmed → evaluate for anomalies (echo for heart defects, renal ultrasound, thyroid studies).",
+    "Treat short stature with **growth hormone**; induce puberty with **estrogen** at the appropriate age (plus progestin if uterus present).",
+    "Lifelong follow-up: regular cardiac monitoring (aorta), endocrine care (thyroid, diabetes screening), and discuss fertility options (e.g., adoption or assisted reproduction)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/A_girl_with_Turner%27s_syndrome.png",
+      "alt": "Diagram of a female with Turner syndrome displaying physical features such as short stature, webbed neck, broad chest, and streak ovaries (gonadal dysgenesis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:A_girl_with_Turner%27s_syndrome.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 15‑year‑old girl is evaluated for short stature and lack of pubertal development.",
+      "clues": [
+        "Height is below the 5th percentile for age",
+        "No breast development (Tanner stage I)",
+        "No menarche (primary amenorrhea)",
+        "She has a broad, webbed neck on exam",
+        "Labs show elevated FSH levels"
+      ],
+      "answer": "Turner syndrome (45,X)",
+      "teaching": "Turner syndrome (monosomy X) causes ovarian failure (streak gonads) leading to estrogen deficiency, which explains the lack of breast development and menses. Short stature and the webbed neck are classic. Management includes growth hormone therapy and estrogen replacement, and screening for cardiac defects like coarctation of the aorta."
+    }
+  ],
+  "see_also": [
+    "klinefelter-syndrome",
+    "noonan-syndrome",
+    "amenorrhea"
+  ],
+  "prerequisites": [
+    "meiosis",
+    "x-inactivation"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Turner Syndrome (Sharma & Kikkeri, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554621/"
+    },
+    {
+      "title": "UpToDate: Turner syndrome – clinical features and management",
+      "url": "https://www.uptodate.com/contents/turner-syndrome-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Medscape: Turner Syndrome (Daniel & Rohena, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/949681-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

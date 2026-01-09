@@ -1,0 +1,154 @@
+{
+  "id": "cirrhosis",
+  "names": [
+    "Cirrhosis"
+  ],
+  "aliases": [
+    "hepatic cirrhosis",
+    "end-stage liver disease",
+    "liver cirrhosis"
+  ],
+  "abbr": [
+    "ESLD"
+  ],
+  "patterns": [
+    "cirrhosis",
+    "liver cirrhosis",
+    "hepatic cirrhosis",
+    "end-stage liver disease",
+    "esld"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "pharmacology",
+    "infectious_dz"
+  ],
+  "definition": "End-stage liver disease with irreversible fibrosis and regenerative nodules replacing normal architecture, resulting in portal hypertension and liver failure.",
+  "why_it_matters": "Common and deadly: often silent until advanced, yet underlies most liver-related deaths and transplant cases. Leads to serious complications (ascites, variceal bleeding, encephalopathy, HCC). High-yield on exams due to its classic signs (e.g., stigmata of chronic liver disease) and management challenges.",
+  "how_youll_see_it": [
+    "Often asymptomatic (compensated cirrhosis) until decompensation occurs. Early signs are subtle (fatigue, mild RUQ discomfort) or incidentally found (e.g., low platelets from hypersplenism). Decompensated cirrhosis presents with jaundice, ascites (abdominal distension), edema, GI bleeding (from varices), or encephalopathy (confusion).",
+    "Major causes: alcohol (most common in US), chronic hepatitis B/C, nonalcoholic steatohepatitis (NASH, due to metabolic syndrome). Other causes include autoimmune hepatitis, primary biliary cholangitis (PBC), primary sclerosing cholangitis (PSC), hemochromatosis (iron overload), Wilson disease (copper), α₁-antitrypsin deficiency, chronic heart failure (\"cardiac cirrhosis\"), and long-term toxin or drug injury.",
+    "Exam stigmata: spider angiomas, palmar erythema, caput medusae (umbilical vein collaterals), gynecomastia and testicular atrophy in males (hyperestrogenism), and often splenomegaly (portal HTN). Asterixis (flapping tremor) indicates encephalopathy. Lab clue: AST typically > ALT (AST:ALT ≈ 2:1 suggests alcoholic liver disease)."
+  ],
+  "problem_solving": [
+    "Confirm & stage: Diagnose cirrhosis via imaging (e.g., ultrasound or elastography showing a nodular, stiff liver) or biopsy if needed. Once identified, screen for complications (endoscopy for varices, ultrasound for HCC every 6 months).",
+    "Find the cause: Evaluate for underlying liver diseases – order viral hepatitis panel, iron studies (hemochromatosis), ceruloplasmin (Wilson), autoantibodies (ANA, SMA for autoimmune hepatitis; AMA for PBC) based on suspicion.",
+    "Risk stratification: Calculate Child-Pugh class (uses albumin, bilirubin, INR, ascites, encephalopathy) to assess severity (A = well-compensated, C = worst). Use the MELD score (based on INR, bilirubin, creatinine ± sodium) to estimate 3-month mortality and guide transplant priority.",
+    "Manage & monitor: Address the cause if possible (antivirals for HBV/HCV, alcohol cessation, weight loss for NAFLD, chelation for Wilson, phlebotomy for hemochromatosis). Prevent/treat complications: nonselective β-blockers (e.g., propranolol) to prevent variceal bleeding, diuretics (spironolactone + furosemide) and paracentesis for ascites, lactulose for encephalopathy, antibiotics for SBP. Refer advanced cases for liver transplant evaluation (only definitive cure)."
+  ],
+  "differentials": [
+    {
+      "name": "Hepatic steatosis (fatty liver)",
+      "hint": "fat accumulation in liver (alcoholic or NAFLD) without irreversible fibrosis; LFTs may be elevated but no portal hypertension"
+    },
+    {
+      "name": "Acute hepatitis",
+      "hint": "acute liver inflammation (e.g., viral or toxic) causing high AST/ALT and jaundice, but not chronic scarring or nodular liver"
+    },
+    {
+      "name": "Budd-Chiari syndrome",
+      "hint": "hepatic vein thrombosis causing acute portal hypertension (painful ascites, hepatomegaly) without diffuse cirrhotic fibrosis"
+    }
+  ],
+  "tricks": [
+    "Mnemonic VW HAPPENS for major causes of cirrhosis: Viral hepatitis, Wilson disease, Hemochromatosis, Alcohol, PBC, PSC, α₁-AT deficiency, NASH, and Storage disorders (e.g., glycogen or copper)."
+  ],
+  "exam_appearance": [
+    "Middle-aged man with a 20-year history of heavy alcohol use, presenting with palmar erythema, gynecomastia, and firm hepatomegaly; AST is ~2× ALT → alcoholic cirrhosis (classic AST:ALT > 1).",
+    "Patient with chronic hepatitis C infection now has ascites, asterixis, and esophageal variceal hemorrhage → decompensated cirrhosis due to HCV (portal hypertension with liver failure).",
+    "Diabetic patient with skin bronzing and elevated LFTs is found to have cirrhosis on biopsy → hereditary hemochromatosis (iron overload causing \"bronze diabetes\" and cirrhosis)."
+  ],
+  "treatment": [
+    "Cause-specific therapy: eliminate or treat the cause (e.g., stop alcohol, antivirals for HBV/HCV, immunosuppressants for autoimmune hepatitis, phlebotomy for hemochromatosis, chelation for Wilson). Successful treatment of the underlying disease can sometimes halt or partially reverse fibrosis.",
+    "Manage complications: prevent variceal hemorrhage with nonselective β-blockers (propranolol/carvedilol) or endoscopic banding; treat ascites with salt restriction, diuretics (spironolactone ± furosemide) and periodic paracentesis; give lactulose (± rifaximin) for encephalopathy; provide prophylactic antibiotics (e.g., norfloxacin) for high-risk ascites to prevent SBP.",
+    "Definitive treatment: liver transplantation for eligible patients with end-stage cirrhosis (high MELD or decompensated disease). Transplant offers cure but requires abstinence and careful selection. A TIPS (transjugular intrahepatic portosystemic shunt) can bridge patients with refractory ascites or variceal bleeding to transplant."
+  ],
+  "red_flags": [
+    "Hematemesis or melena in a cirrhotic → assume variceal GI bleed; requires emergent stabilization (IV octreotide, endoscopic band ligation) to prevent fatal hemorrhage.",
+    "Fever or abdominal pain in a patient with ascites → suspect SBP (spontaneous bacterial peritonitis); perform urgent paracentesis and start broad-spectrum antibiotics.",
+    "Altered mental status (confusion, asterixis) in cirrhosis → likely hepatic encephalopathy; check ammonia and look for triggers (e.g., GI bleed, infection), start lactulose promptly."
+  ],
+  "algorithm": [
+    "Chronic liver disease risk factors (alcohol, viral hepatitis, NASH, etc.) or persistently abnormal LFTs → suspect cirrhosis.",
+    "Confirm cirrhosis with imaging (nodular liver on ultrasound or stiffness on elastography) or liver biopsy.",
+    "Determine etiology: test for viral markers, iron studies, autoantibodies, etc., and assess liver function (albumin, INR, bilirubin) to calculate Child-Pugh/MELD.",
+    "Screen for complications: perform endoscopy for varices, ultrasound every 6 months for HCC, and monitor for ascites, encephalopathy, renal dysfunction.",
+    "Manage complications as needed (diuretics, paracentesis, β-blockers, lactulose, antibiotics) and refer for transplant evaluation if decompensated."
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with a long history of heavy alcohol use is evaluated for 3 months of increasing abdominal girth and confusion.",
+      "clues": [
+        "Massive ascites with shifting dullness",
+        "Spider angiomas on the chest",
+        "Asterixis (flapping tremor) on exam",
+        "AST:ALT ratio ~2:1 on liver panel"
+      ],
+      "answer": "Cirrhosis (alcoholic cirrhosis)",
+      "teaching": "Chronic alcohol abuse led to cirrhosis. Exam shows stigmata of liver disease (spiders, ascites) and encephalopathy (asterixis). AST being about twice ALT is characteristic of alcoholic liver injury. Management requires alcohol cessation, diuretics & paracentesis for ascites, lactulose for encephalopathy, and screening for varices; advanced cases need transplant consideration."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Liver_Cirrhosis.png",
+      "alt": "Illustration comparing a normal liver (left) with a cirrhotic liver (right) showing nodular fibrosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Liver_Cirrhosis.png"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": [
+    "portal-hypertension",
+    "hepatocellular-carcinoma",
+    "ascites",
+    "hepatic-encephalopathy",
+    "esophageal-varices",
+    "hepatitis",
+    "alcohol-associated-liver-disease",
+    "nonalcoholic-fatty-liver-disease",
+    "autoimmune-hepatitis",
+    "wilson-disease",
+    "hemochromatosis",
+    "primary-biliary-cholangitis"
+  ],
+  "prerequisites": [
+    "liver-anatomy",
+    "hepatic-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hepatic Cirrhosis (Sharma & John, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482419/"
+    },
+    {
+      "title": "UpToDate: Cirrhosis in adults – Etiologies, clinical manifestations, and diagnosis",
+      "url": "https://www.uptodate.com/contents/cirrhosis-in-adults-etiologies-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "JAMA: Diagnosis and Management of Cirrhosis and Its Complications (Tapper & Parikh, 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37159031/"
+    },
+    {
+      "title": "J Hepatol: EASL Clinical Practice Guidelines for Decompensated Cirrhosis (2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29653741/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

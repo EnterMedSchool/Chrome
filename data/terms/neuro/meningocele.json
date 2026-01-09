@@ -1,0 +1,112 @@
+{
+  "id": "meningocele",
+  "names": ["Meningocele"],
+  "aliases": [],
+  "abbr": [],
+  "patterns": ["meningocele", "spina bifida meningocele"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "peds", "surgery", "radiology"],
+  "definition": "Meningocele is a congenital neural tube defect (spina bifida) in which only the meninges (with CSF) herniate through a vertebral arch defect, forming a fluid-filled sac without spinal cord involvement.",
+  "why_it_matters": "Meningocele causes milder neurologic impairment than myelomeningocele and generally has an excellent prognosis. Early recognition and surgical repair prevent complications like CSF leak, infection, and tethered cord syndrome.",
+  "how_youll_see_it": [
+    "Newborn with a dorsal midline, fluid-filled sac over the lumbar spine, often covered by intact skin. Lower-extremity strength and sensation are usually normal (only meninges protrude).",
+    "Prenatal findings may include moderately elevated maternal AFP and ultrasound visualization of a cystic spinal protrusion. Fetal MRI can confirm a meningeal sac without neural tissue.",
+    "Most meningoceles occur at the lumbosacral spine. The sac is often covered by skin, in contrast to myelomeningocele which may have exposed neural tissue."
+  ],
+  "problem_solving": [
+    "Differentiate from myelomeningocele by imaging: if MRI shows no spinal cord or nerves in the sac, diagnosis is meningocele (better prognosis). If neural elements are present, suspect myelomeningocele.",
+    "Handle the sac gently and avoid vaginal delivery if diagnosed prenatally (C-section to protect sac). Position infant prone with sac protected to reduce CSF leak.",
+    "Plan neurosurgical closure in the neonatal period. After repair, follow development and screen for tethered cord or other anomalies."
+  ],
+  "differentials": [
+    {
+      "id": "myelomeningocele",
+      "hint": "Contains spinal cord/neural tissue; causes paralysis and hydrocephalus (open defect)"
+    },
+    {
+      "id": "spina-bifida-occulta",
+      "hint": "No external sac (skin intact); only vertebral defect with usually normal cord (often asymptomatic or cutaneous signs)"
+    }
+  ],
+  "tricks": [
+    "Meningocele = meninges only (no spinal cord).",
+    "Think 'Meningocele' (go for meninges) to remember only the meninges protrude."
+  ],
+  "exam_appearance": [
+    "Photograph of a newborn's back with a CSF-filled sac covered by skin at the lumbar region (meningocele).",
+    "Prenatal ultrasound: anechoic spinal bulge, elevated AFP, but normal intracranial anatomy (banana/lemon signs absent).",
+    "Diagram of spina bifida types: meningocele shows sac with meninges only (cord in place), compared to myelomeningocele."
+  ],
+  "treatment": [
+    "Neurosurgical repair soon after birth: open sac, return meninges to canal, and close dura/skin.",
+    "Preoperatively keep sac sterile and covered. After closure, monitor for complications (rare hydrocephalus, tethered cord)."
+  ],
+  "red_flags": [
+    "Any CSF leakage or sac ulceration (risk of meningitis) – urgent repair needed.",
+    "New leg weakness, spasticity or scoliosis on follow-up – suggests tethered cord syndrome.",
+    "Signs of hydrocephalus (↑ head circumference, bulging fontanelle) are uncommon but require prompt shunting if present."
+  ],
+  "algorithm": [
+    "Recognize meningocele on exam or prenatal screen → order spine MRI (confirm no neural tissue) and head ultrasound/MRI.",
+    "Protect sac (sterile cover, minimize handling); consider C-section if prenatally diagnosed.",
+    "Refer to pediatric neurosurgery for closure within the first days of life.",
+    "Post-repair: long-term follow-up of neurologic, orthopedic, and urologic function (watch for tethered cord)."
+  ],
+  "cases": [
+    {
+      "stem": "A newborn is noted to have a 3-cm fluid-filled sac on the lumbosacral spine covered by intact skin. Neurologic exam shows normal leg movement and sensation. Prenatal AFP was mildly elevated.",
+      "clues": [
+        "Lumbar midline CSF sac",
+        "Skin-covered",
+        "Normal neural exam"
+      ],
+      "answer": "Meningocele",
+      "teaching": "Only meninges and CSF protrude through the defect (no neural tissue). This requires surgical closure; prognosis is excellent (unlike myelomeningocele)."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Man_with_a_large_congenital_meningocele_Wellcome_L0062484.jpg",
+      "alt": "Adult with large congenital meningocele on the right face",
+      "credit": {
+        "text": "Image: Man with a large congenital meningocele (Barts Health NHS Trust Archives, via Wikimedia Commons)",
+        "href": "https://commons.wikimedia.org/wiki/File:Man_with_a_large_congenital_meningocele_Wellcome_L0062484.jpg"
+      }
+    }
+  ],
+  "see_also": ["spina-bifida-occulta", "chiari-ii-malformation", "anencephaly"],
+  "sources": [
+    {
+      "title": "Neural Tube Defects (Spina Bifida), CDC",
+      "url": "https://www.cdc.gov/ncbddd/spinabifida/facts.html"
+    },
+    {
+      "title": "Spina Bifida (symptoms & causes), Mayo Clinic",
+      "url": "https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860"
+    },
+    {
+      "title": "Spina Bifida (Patient Info), AANS",
+      "url": "https://www.aans.org/Patients/Conditions-and-Treatments/Spina-bifida"
+    },
+    {
+      "title": "Spina Bifida – Screening and Diagnosis (CDC NCBDDD)",
+      "url": "https://www.cdc.gov/spina-bifida/about/index.html"
+    },
+    {
+      "title": "Meningocele (Overview), Cleveland Clinic",
+      "url": "https://my.clevelandclinic.org/health/diseases/21720-meningocele"
+    },
+    {
+      "title": "Spina Bifida – Differential Diagnoses, Medscape",
+      "url": "https://emedicine.medscape.com/article/311113-differential"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

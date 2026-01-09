@@ -1,0 +1,151 @@
+{
+  "id": "severe-combined-immunodeficiency",
+  "names": [
+    "Severe combined immunodeficiency"
+  ],
+  "aliases": [
+    "SCID",
+    "Swiss-type agammaglobulinemia",
+    "alymphocytosis",
+    "bubble boy disease"
+  ],
+  "abbr": [
+    "SCID"
+  ],
+  "patterns": [
+    "scid",
+    "severe combined immunodeficiency",
+    "severe combined immunodeficiency disease",
+    "swiss-type agammaglobulinemia",
+    "alymphocytosis"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "immunology",
+    "peds",
+    "genetics"
+  ],
+  "definition": "A group of rare **inherited immunodeficiencies** characterized by profound T- and B-cell dysfunction, leading to extreme vulnerability to infections in early infancy.",
+  "why_it_matters": "SCID is the most severe primary immunodeficiency—**fatal in infancy without treatment**. Early detection (newborn TREC screening) allows timely **curative therapy** (e.g. bone marrow transplant), transforming an otherwise lethal disease.",
+  "how_youll_see_it": [
+    "Onset at **3–6 months** of age (after maternal IgG wanes) with recurrent **severe infections**: e.g. persistent thrush, chronic diarrhea, **Pneumocystis** pneumonia; **failure to thrive**.",
+    "Opportunistic pathogens (fungal, viral, protozoal) and high susceptibility to live vaccine strains (e.g. rotavirus) due to absent T-cell immunity.",
+    "Physical exam: absence of lymphoid tissue (**no tonsils, no lymph nodes**); **absent thymic shadow** on chest X-ray (thymic aplasia).",
+    "Lab findings: **lymphopenia** (especially very low T cells); B cells may be present but nonfunctional (require T help). Newborn screening shows very low/absent **TREC** levels (T-cell receptor excision circles)."
+  ],
+  "problem_solving": [
+    "Maternal IgG protects newborns for ~6 months; consider SCID in infants who appear healthy at birth but then develop severe infections after a few months.",
+    "**X-linked** SCID (IL2RG gene) is most common (∼50%, only in boys); autosomal recessive forms include **ADA** deficiency, **JAK3** mutation, **RAG1/2** mutations, etc., each causing distinct T/B/NK cell absence patterns.",
+    "Differentiate from other causes of T-cell lymphopenia: e.g. **DiGeorge syndrome** (thymic aplasia) also lacks T cells but presents with cardiac defects & hypocalcemia; **HIV infection** in infants can cause opportunistic infections but usually has maternal risk factors and positive HIV PCR."
+  ],
+  "differentials": [
+    {
+      "name": "DiGeorge syndrome (22q11.2 deletion)",
+      "hint": "Congenital thymic aplasia → T-cell deficiency, but also cardiac defects and hypocalcemia (not seen in SCID)."
+    },
+    {
+      "name": "Perinatal HIV infection",
+      "hint": "Opportunistic infections in infancy if maternal HIV+, distinguish by maternal history and positive infant HIV PCR."
+    },
+    {
+      "name": "Wiskott–Aldrich syndrome",
+      "hint": "Combined immunodef with thrombocytopenia & eczema; T cells low but B cells present (high IgE/IgA)."
+    }
+  ],
+  "tricks": [
+    "The classic **\"bubble boy\"** scenario refers to SCID infants kept in sterile isolation.",
+    "**Maternal IgG wanes by 3–6 months** – that's when SCID manifests with infections (early newborn period is often protected)."
+  ],
+  "exam_appearance": [
+    "Infant (~4–6 months old) with **oral thrush**, chronic diarrhea, **Pneumocystis pneumonia**, and no thymic shadow on CXR → think SCID (X-linked IL2RG deficiency).",
+    "Newborn develops disseminated infection from a **live vaccine** (e.g. BCG or rotavirus) → suspect SCID (inability to handle attenuated pathogens)."
+  ],
+  "treatment": [
+    "**Hematopoietic stem cell transplant (HSCT)** as early as possible (ideally in the first 3–4 months) offers cure by reconstituting the immune system.",
+    "**Gene therapy** has been successful in some SCID types (e.g. IL2RG X-linked SCID, ADA-SCID); ADA deficiency can also be treated with **PEG-ADA enzyme replacement**.",
+    "Supportive care: **IVIG** (IV immunoglobulin) to provide antibodies, **prophylactic antimicrobials** (e.g. TMP-SMX for PCP, antifungals), and strict infection precautions (sterile environment, no live vaccines).",
+    "If SCID is suspected or confirmed, **isolate the infant** and avoid exposures; even maternal CMV (from breast milk) can be dangerous if donor milk isn't screened."
+  ],
+  "red_flags": [
+    "Severe reactions to **live vaccines** (e.g. disseminated BCG or rotavirus infection) in an infant – red flag for SCID, requires immediate evaluation.",
+    "Infant with **persistent thrush**, **failure to thrive**, and recurrent infections – evaluate immediately for SCID (it's a medical emergency)."
+  ],
+  "algorithm": [
+    "Newborn **screening (TREC)** is low or infant has lymphopenia/infections → **suspect SCID** and urgently consult immunology.",
+    "Confirm with **flow cytometry** (absent T cells, ± B/NK cells) and **genetic testing** for specific mutation.",
+    "Begin protective measures: reverse isolation, no live vaccines, **broad prophylaxis** (antibacterials, antivirals, antifungals, PCP prophylaxis, IVIG).",
+    "**Definitive treatment**: prompt **HSCT** from a matched donor (or gene therapy if available) for long-term cure."
+  ],
+  "cases": [
+    {
+      "stem": "A 4-month-old boy has thrush that won't resolve, chronic diarrhea, and recurrent pneumonia caused by Pneumocystis jirovecii.",
+      "clues": [
+        "Male infant (4 months old)",
+        "Oral candidiasis (thrush)",
+        "Pneumocystis pneumonia",
+        "Chronic diarrhea & failure to thrive",
+        "Absent thymic shadow on CXR",
+        "Profound lymphopenia (low T cells)"
+      ],
+      "answer": "Severe combined immunodeficiency",
+      "teaching": "Classic X-linked SCID (IL2RG mutation) causing T- and NK-cell absence; presents after maternal IgG wanes with opportunistic infections and FTT. Treatment is urgent bone marrow transplant."
+    },
+    {
+      "stem": "A 2-month-old girl born to consanguineous parents presents with persistent diarrhea and candidiasis; an older brother died in infancy from severe infections.",
+      "clues": [
+        "Female infant, 2 months old",
+        "Parents are first cousins (consanguineous)",
+        "Sibling died of similar illness",
+        "Opportunistic infections (e.g. Candida, pneumonia)",
+        "No T or B cells on lymphocyte analysis"
+      ],
+      "answer": "Adenosine deaminase (ADA) deficiency SCID",
+      "teaching": "Autosomal recessive SCID due to ADA enzyme deficiency (toxic metabolite buildup); causes absence of T, B, and NK cells. Features are like other SCIDs (severe infections, FTT). Management includes HSCT, and PEG-ADA or gene therapy as alternative treatments."
+    }
+  ],
+  "see_also": [
+    "digeorge-syndrome",
+    "x-linked-agammaglobulinemia",
+    "chronic-granulomatous-disease",
+    "common-variable-immunodeficiency"
+  ],
+  "prerequisites": [
+    "adaptive-immunity",
+    "lymphocytes",
+    "immunoglobulins"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Severe Combined Immunodeficiency (Justiz Vaillant & Mohseni, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539762/"
+    },
+    {
+      "title": "UpToDate: Severe combined immunodeficiency (SCID) – An overview",
+      "url": "https://www.uptodate.com/contents/severe-combined-immunodeficiency-scid-an-overview"
+    },
+    {
+      "title": "Medscape: Severe Combined Immunodeficiency (SCID) (Hernandez-Ilizaliturri, 2023)",
+      "url": "https://emedicine.medscape.com/article/210249-overview"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21st ed. (2022) – Primary Immunodeficiency Diseases",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192018462"
+    },
+    {
+      "title": "Cureus: Severe Combined Immunodeficiency and Its New Treatment Modalities (Wadbudhe et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10676291/"
+    },
+    {
+      "title": "NIH GARD: Severe Combined Immunodeficiency (SCID)",
+      "url": "https://rarediseases.info.nih.gov/diseases/7628/severe-combined-immunodeficiency"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

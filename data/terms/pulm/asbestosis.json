@@ -1,0 +1,127 @@
+{
+  "id": "asbestosis",
+  "names": ["Asbestosis"],
+  "aliases": ["asbestos pneumoconiosis", "asbestos-induced pulmonary fibrosis"],
+  "abbr": [],
+  "patterns": [
+    "asbestosis",
+    "asbestos pneumoconiosis",
+    "asbestos lung",
+    "asbestos fibrosis",
+    "asbestos-related lung disease"
+  ],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "toxicology"],
+  "definition": "Chronic fibrosing **pneumoconiosis** of the lungs caused by prolonged inhalation of asbestos fibers.",
+  "why_it_matters": "Often manifests decades after exposure, so **occupational history** is critical. It carries a high risk of malignancy – asbestos workers have greatly increased incidence of **lung cancer** (especially with smoking) and **mesothelioma**. No cure exists once fibrosis develops, making prevention and early recognition vital.",
+  "how_youll_see_it": [
+    "Typically an older adult (50s–70s) with a history of heavy asbestos exposure (e.g., construction, shipyard, insulation) **20–30 years** prior. Presents with gradually progressive **dyspnea** on exertion and a dry cough.",
+    "Physical exam often reveals fine **\"Velcro\" crackles** at the lung bases, reduced chest expansion (restrictive pattern), and **clubbing** of the fingers in ~1/3 of cases.",
+    "Chest imaging shows **diffuse reticular** interstitial fibrosis most prominent in the bilateral lower lobes, along with **pleural plaques** (calcified thickened pleura, especially over the diaphragms) which are a hallmark of asbestos exposure."
+  ],
+  "problem_solving": [
+    "Always take a detailed occupational history for patients with ILD. Ask about past asbestos exposure in high-risk jobs (shipyard, construction, pipefitting, brake repair).",
+    "**Chest X-ray** is the first step: look for **basilar reticulonodular** infiltrates and **pleural plaques**. If findings are equivocal or more detail is needed, get a high-resolution **CT scan** to confirm extent of fibrosis and plaques.",
+    "**Pulmonary function tests (PFTs)** will show a **restrictive** pattern (↓TLC, ↓FVC) with reduced diffusion capacity (↓DLCO) consistent with interstitial fibrosis.",
+    "Exclude other causes of pulmonary fibrosis: Asbestosis typically lacks **hilar adenopathy** or **upper lobe nodules** (those suggest silicosis, sarcoidosis, etc.). If diagnosis remains uncertain, consider lung biopsy or bronchoalveolar lavage to identify **asbestos bodies** (ferruginous bodies) and definitively attribute fibrosis to asbestos.",
+    "Monitor for complications: Patients with asbestos exposure require vigilance for **lung cancer** (new cough, hemoptysis, weight loss) and **mesothelioma** (chest pain, pleural effusion) as potential late sequelae."
+  ],
+  "differentials": [
+    {
+      "name": "Silicosis",
+      "hint": "**Upper-lobe** nodular fibrosis with \"**eggshell**\" calcified lymph nodes; associated with silica (mining, sandblasting) and increased **TB** risk; no pleural plaques"
+    },
+    {
+      "name": "Idiopathic pulmonary fibrosis",
+      "abbr": ["IPF"],
+      "hint": "Progressive fibrosing lung disease with similar **basilar** crackles and clubbing but **no exposure** history; HRCT shows **honeycombing** without pleural plaques"
+    },
+    {
+      "name": "Mesothelioma",
+      "hint": "**Malignant pleural tumor** linked to asbestos (not a fibrosis); presents with unilateral pleural thickening, effusion, and chest pain rather than diffuse interstitial changes"
+    }
+  ],
+  "tricks": [
+    "Asbestos in the **ceiling** (insulation) leads to fibrosis at the lung **bases**, whereas silica in the **soil** causes disease in the lung **apices**. (Remember: asbestos → base, silica → summit.)",
+    "Among pneumoconioses, only asbestos exposure predisposes to **mesothelioma** (pleural cancer). In fact, asbestos exposure more often leads to bronchogenic **carcinoma** (especially with smoking) than mesothelioma.",
+    "**Ferruginous bodies** (asbestos fibers coated with iron-protein) may be seen on biopsy or sputum; they appear as beaded, **Prussian blue**–positive rods and are pathognomonic of asbestos exposure."
+  ],
+  "exam_appearance": [
+    "Retired construction worker with a 20-year asbestos exposure (lagged by 20+ years) now has progressive SOB, dry cough, **bibasilar inspiratory crackles**, clubbing, and calcified pleural plaques on CXR → asbestosis.",
+    "Older shipyard veteran with weight loss, unilateral **pleural effusion**, and chest pain decades after asbestos exposure → mesothelioma (malignant pleural tumor due to asbestos)."
+  ],
+  "treatment": [
+    "No specific cure for asbestosis exists – **supportive care** and risk reduction are key. Eliminate further asbestos exposure and enforce **smoking cessation** to reduce synergistic lung cancer risk; provide **influenza & pneumococcal** vaccinations.",
+    "For symptomatic patients: provide supplemental **oxygen** for significant resting or exertional hypoxemia, and bronchodilators if there is concurrent obstructive lung disease (many asbestos patients have a smoking history). Pulmonary rehabilitation can improve exercise capacity.",
+    "No proven medications halt the fibrotic process – corticosteroids and immunosuppressants have shown little benefit. Advanced cases (progressive respiratory failure) may warrant evaluation for **lung transplantation** if the patient is a candidate."
+  ],
+  "red_flags": [
+    "New **hemoptysis**, unintentional weight loss, or a change in cough in an asbestosis patient → evaluate for **lung cancer** (e.g., obtain imaging).",
+    "Development of a unilateral **pleural effusion** or chest wall pain → suspect **mesothelioma** (often presents with exudative, hemorrhagic effusions); prompt imaging and referral for biopsy is indicated."
+  ],
+  "algorithm": [
+    "History of significant asbestos exposure (e.g., ≥10 years in insulation/construction) ≥15–20 years ago + insidious respiratory symptoms → suspect asbestosis.",
+    "**Chest X-ray**: look for **lower lobe** reticular markings and **pleural plaques**. If CXR is abnormal or unclear, get **HRCT** to better characterize interstitial changes and plaques.",
+    "**PFTs**: confirm a **restrictive** pattern (↓FVC, ↓TLC) with reduced **DLCO** correlating with fibrosis severity.",
+    "If atypical features (e.g., **hilar adenopathy** or nodules) are present, reconsider other diagnoses – asbestosis rarely causes those. In uncertain cases, perform lung **biopsy** or BAL to detect asbestos fibers and exclude alternate etiologies.",
+    "Management: remove patient from asbestos exposure, treat symptomatically (O₂, rehab, etc.), and schedule regular follow-ups. Educate about smoking cessation and be vigilant for any signs of **malignancy** (early cancer detection)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/Asbestosis_and_cryptococcosis_-_Pleural_plaque_-_X-ray_Case_194_(5998756067).jpg",
+      "alt": "Chest X-ray showing a calcified pleural plaque (right hemidiaphragm) in asbestosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Asbestosis_and_cryptococcosis_-_Pleural_plaque_-_X-ray_Case_194_(5998756067).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 60‑year‑old man who worked as a shipyard electrician for 25 years presents with 6 months of progressive exertional dyspnea and dry cough.",
+      "clues": [
+        "Retired shipyard worker (25‑year asbestos exposure, ended 30 years ago)",
+        "Fine bibasilar \"Velcro\" crackles and clubbing on lung exam",
+        "Chest X-ray: calcified pleural plaques along the diaphragms",
+        "Pulmonary function: restrictive pattern (↓TLC, ↓DLCO)"
+      ],
+      "answer": "Asbestosis (occupational pulmonary fibrosis)",
+      "teaching": "Long-term asbestos inhalation has led to diffuse pulmonary fibrosis (asbestosis) with pleural plaques. This pneumoconiosis has no cure (management is supportive) and carries elevated risks of lung carcinoma and mesothelioma."
+    }
+  ],
+  "see_also": [
+    "pulmonary-fibrosis",
+    "pneumonia",
+    "chronic-obstructive-pulmonary-disease"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "pneumoconiosis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Asbestosis (Bhandari et al., 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555985/"
+    },
+    {
+      "title": "UpToDate: Asbestos-related pleuropulmonary disease",
+      "url": "https://www.uptodate.com/contents/asbestos-related-pleuropulmonary-disease"
+    },
+    {
+      "title": "Medscape: Asbestosis (Jackson, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/295966-overview"
+    },
+    {
+      "title": "Merck Manual Professional: Asbestosis (2023)",
+      "url": "https://www.merckmanuals.com/professional/pulmonary-disorders/environmental-and-occupational-pulmonary-diseases/asbestosis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "diverticular-disease",
+  "names": [
+    "Diverticular disease"
+  ],
+  "aliases": [
+    "diverticulosis",
+    "diverticulitis",
+    "colonic diverticulosis",
+    "colonic diverticulitis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "diverticular disease",
+    "diverticulosis",
+    "diverticulitis",
+    "diverticular bleeding",
+    "sigmoid diverticulitis"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "surgery"
+  ],
+  "definition": "Presence of outpouchings (**diverticula**) in the colonic wall, most often in the sigmoid colon. **Diverticulosis** refers to these mucosal outpouchings (usually asymptomatic, but can cause bleeding), while **diverticulitis** refers to inflammation/infection of a diverticulum.",
+  "why_it_matters": "Very common in older adults (over 50% of people >60 have diverticulosis), though only ~4% develop diverticulitis. It's a leading cause of lower GI bleeding and a frequent cause of left-sided abdominal pain on exams. Early recognition of diverticulitis (often called \"left-sided appendicitis\") and its complications (perforation, abscess, fistula, etc.) is crucial to prevent severe outcomes.",
+  "how_youll_see_it": [
+    "**Diverticulosis:** usually asymptomatic; may be discovered incidentally on colonoscopy or CT. Can cause **painless hematochezia** (diverticular bleeding from stretched vessels). Risk factors include low-fiber diet, obesity, smoking, NSAIDs; most common in sigmoid colon in Western patients (right colon in Asian populations).",
+    "**Diverticulitis:** steady, aching **left lower quadrant (LLQ) pain**, fever, and leukocytosis. Patients (often >50 years) may have constipation or diarrhea; LLQ tenderness on exam (sometimes a palpable mass if abscess). Peritoneal signs (guarding, rigidity) suggest perforation. Colovesical fistulas can cause urinary symptoms (dysuria or pneumaturia). Bleeding is usually minimal in diverticulitis (contrast with diverticulosis).",
+    "Complicated cases: may present with abscess (continued fever despite antibiotics), **peritonitis** from perforation (diffuse abdominal pain), **fistula** (e.g., recurrent UTIs or gas in urine with colovesical fistula), or **obstruction** from chronic stricturing."
+  ],
+  "problem_solving": [
+    "Diagnosis: **CT scan** of abdomen/pelvis is the test of choice to confirm diverticulitis and assess severity. Avoid colonoscopy during acute diverticulitis (risk of perforation); perform colonoscopy ~6 weeks after recovery to rule out colon cancer.",
+    "Outpatient vs. inpatient: Uncomplicated diverticulitis (localized inflammation, no abscess/perforation) in a stable patient can be managed outpatient with oral antibiotics and a clear liquid diet. Indications for hospitalization include inability to tolerate oral intake, high fever or sepsis, diffuse peritonitis, significant comorbidities, or immunocompromise.",
+    "Antibiotics: Regimens must cover Gram-negatives & anaerobes. Outpatient options include **ciprofloxacin + metronidazole** or monotherapy like **amoxicillin-clavulanate**. Inpatient IV options include **piperacillin-tazobactam** or a 3rd-gen cephalosporin + metronidazole. For mild cases in healthy patients, a selective no-antibiotic approach is sometimes used, but antibiotics are standard if any complication or risk factors.",
+    "Complications management: An abscess >4 cm often requires **CT-guided percutaneous drainage** in addition to antibiotics. Free perforation with peritonitis requires **emergency surgery** (typically sigmoid resection with diversion). Fistulas or strictures usually need elective surgical repair once inflammation settles.",
+    "After recovery: High-fiber diet is recommended to prevent recurrence. Counsel to avoid NSAIDs and smoking. Recurrent or persistent diverticulitis episodes — especially if complications occur — may warrant elective **sigmoid colectomy**, but decisions are individualized (no fixed \"number of attacks\" threshold)."
+  ],
+  "differentials": [
+    {
+      "id": "colorectal-cancer",
+      "hint": "Older patient with weight loss, anemia, and occult or blood-streaked stool; colonoscopy reveals a mass rather than diverticula."
+    },
+    {
+      "id": "ulcerative-colitis",
+      "hint": "Younger patient with chronic bloody diarrhea and urgency; endoscopy shows continuous colitis (rectum involved), not isolated diverticular inflammation."
+    },
+    {
+      "id": "irritable-bowel-syndrome",
+      "hint": "Recurrent abdominal pain with bowel habit changes but **no fever** or inflammation; normal colonoscopy (functional disorder)."
+    },
+    {
+      "name": "Ischemic colitis",
+      "hint": "Sudden crampy pain (often LLQ) with bloody diarrhea, typically in setting of hypotension or vascular disease (colon wall ischemia on imaging)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Osis = Oozes, Itis = Inflamed**. Diverticul**osis** tends to **ooze** blood (painless bleeding), while diverticul**itis** is **inflamed**, causing pain ± fever.",
+    "Diet myth: Patients with diverticulosis do **not** need to avoid nuts, seeds, or popcorn – these do *not* increase diverticulitis risk."
+  ],
+  "exam_appearance": [
+    "Older adult with LLQ pain, fever, and leukocytosis → **Acute diverticulitis** (likely sigmoid) requiring antibiotics and bowel rest.",
+    "Elderly patient with sudden painless large-volume bright red hematochezia → **Diverticular bleeding** from colonic diverticulosis (often stops spontaneously).",
+    "Patient with recurrent diverticulitis history now has pneumaturia (air in urine) and UTIs → **Colovesical fistula** formation (requires surgical repair)."
+  ],
+  "treatment": [
+    "Uncomplicated diverticulitis: outpatient **antibiotics** and clear liquid diet; if pain or fever is severe, hospitalize for IV antibiotics and analgesia.",
+    "Abscess complication: add **percutaneous drainage** (for abscess >4 cm) to antibiotic therapy.",
+    "Perforation or obstruction: urgent **surgical** intervention (e.g., Hartmann's procedure or primary resection) is often needed for free perforation (peritonitis), fistula, or obstruction.",
+    "Diverticular bleeding: most episodes resolve spontaneously; severe persistent bleeding may require colonoscopic intervention (e.g., cautery, clipping), arterial embolization, or surgical resection."
+  ],
+  "red_flags": [
+    "Rigid abdomen, guarding, or rebound tenderness in diverticulitis → suspect **perforation** with peritonitis (surgical emergency).",
+    "Air or feces in urine (**pneumaturia** or fecaluria) → likely **colovesical fistula** (colon-bladder connection), usually from prior diverticulitis.",
+    "Profuse bright red rectal bleeding with hypotension → possible diverticular hemorrhage (lower GI bleed) needing rapid stabilization and intervention."
+  ],
+  "algorithm": [
+    "Incidental **diverticulosis** (no symptoms) → high-fiber diet and risk factor modification (exercise, weight management) to prevent diverticulitis.",
+    "Suspected **diverticulitis** (LLQ pain, fever) → labs (CBC, CRP) and **CT scan** to confirm & assess for complications (avoid colonoscopy in acute phase).",
+    "If uncomplicated diverticulitis confirmed: manage conservatively – oral antibiotics + liquid diet outpatient if stable; admit for IV antibiotics if high fever, significant pain, or unable to tolerate oral intake.",
+    "If complicated (abscess, perforation, fistula, obstruction): involve surgery. Drain abscesses >4 cm; emergency surgery for diffuse peritonitis; plan elective surgery for fistula or recurrent disease.",
+    "After resolution of diverticulitis: perform **colonoscopy** in ~6 weeks (especially if first episode or any atypical features) to exclude colon cancer. Discuss elective sigmoid resection for patients with frequent recurrences or complications (individualized decision)."
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man presents with 2 days of progressively worsening left lower quadrant pain and fever.",
+      "clues": [
+        "LLQ abdominal tenderness on exam",
+        "Temperature 38.3°C, WBC 14,000/µL",
+        "CT scan: sigmoid diverticula with thickened wall and pericolic fat stranding",
+        "No notable rectal bleeding"
+      ],
+      "answer": "Acute diverticulitis (sigmoid colon)",
+      "teaching": "Classic presentation of diverticulitis: LLQ pain, fever, and leukocytosis in an older adult. CT imaging confirms inflammation of sigmoid diverticula. Management is bowel rest and broad-spectrum antibiotics; if no complications, surgery is not needed acutely."
+    },
+    {
+      "stem": "A 70‑year‑old woman reports passing a large amount of bright red blood in her stool without pain.",
+      "clues": [
+        "Sudden painless hematochezia",
+        "Hemodynamically stable (BP 125/80, pulse 88)",
+        "Colonoscopy: multiple sigmoid diverticula with active bleeding from one",
+        "No ulcers or tumors seen"
+      ],
+      "answer": "Diverticular bleeding from diverticulosis",
+      "teaching": "Diverticulosis (colonic diverticula) can cause arterial erosion and acute painless bleeding. It is a common cause of lower GI hemorrhage in the elderly. Most diverticular bleeds stop spontaneously, but colonoscopic therapy or angiographic embolization may be needed if bleeding continues."
+    }
+  ],
+  "see_also": [
+    "inflammatory-bowel-disease",
+    "irritable-bowel-syndrome",
+    "appendicitis",
+    "peritonitis"
+  ],
+  "prerequisites": [
+    "colon-anatomy",
+    "abdominal-pain"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Colon Diverticulitis (Carr & Velasco, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541110/"
+    },
+    {
+      "title": "UpToDate: Acute colonic diverticulitis (Outpatient management & follow-up)",
+      "url": "https://www.uptodate.com/contents/acute-colonic-diverticulitis-outpatient-management-and-follow-up"
+    },
+    {
+      "title": "Colonoscopy after diverticulitis (ACP Clinical Guideline, 2022)",
+      "url": "https://www.acpjournals.org/doi/10.7326/M21-2711"
+    },
+    {
+      "title": "Diverticulitis Overview (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/173388-treatment"
+    },
+    {
+      "title": "AGA Clinical Practice Update: Management of Colonic Diverticulitis (Peery et al., 2021)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7878331/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

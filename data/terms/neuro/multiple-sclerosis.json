@@ -1,0 +1,110 @@
+{
+  "id": "multiple-sclerosis",
+  "names": ["Multiple sclerosis"],
+  "aliases": ["disseminated sclerosis", "encephalomyelitis disseminata"],
+  "abbr": ["MS"],
+  "patterns": ["multiple sclerosis", "multiple-sclerosis", "ms"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "immunology"],
+  "definition": "Autoimmune demyelinating disease of the CNS causing episodes of neurologic dysfunction separated in time and space; pathologically marked by multiple inflammatory white matter plaques and eventual axonal loss.",
+  "why_it_matters": "Very common (~1 in 1000 people, 3× more women) and a leading cause of nontraumatic neurologic disability in young adults. Frequently tested due to classic presentations (optic neuritis, internuclear ophthalmoplegia, Lhermitte's sign) and distinctive MRI/CSF findings.",
+  "how_youll_see_it": [
+    "Typically presents in a young adult (20–40), often female, with transient neurologic episodes: e.g., optic neuritis (painful monocular vision loss), transverse myelitis (limb weakness/numbness), or brainstem/cerebellar dysfunction (diplopia from an internuclear ophthalmoplegia, ataxia). Partial recovery occurs between attacks.",
+    "Disease course subtypes: ~85% start as relapsing-remitting MS (RRMS) with acute relapses followed by remissions. After years, many transition to secondary progressive MS (SPMS) with gradual worsening. ~10–15% have primary progressive MS (PPMS) from onset (steady decline without relapses), and a rare progressive-relapsing form (progressive course with acute flares).",
+    "Virtually any CNS pathway can be affected in MS, yielding diverse symptoms: visual disturbances, sensory paresthesias, muscle weakness, coordination problems, bladder dysfunction, cognitive changes, etc. Episodes usually develop over days and improve over weeks.",
+    "Uhthoff phenomenon: MS symptoms transiently worsen with heat (e.g., after a hot shower or exercise). Lhermitte's sign: flexing the neck produces an electric shock sensation down the spine or limbs, indicating a cervical cord plaque."
+  ],
+  "problem_solving": [
+    "Suspect MS in a young patient with unexplained neurologic episodes that resolve. Obtain MRI of brain and spinal cord with gadolinium: look for demyelinating lesions in characteristic locations (e.g., periventricular \"Dawson fingers\", juxtacortical, infratentorial, or spinal cord lesions).",
+    "Demonstrate dissemination in time: if initial MRI shows only one lesion (or only one clinical attack so far), repeat MRI later or check CSF via lumbar puncture. CSF with oligoclonal IgG bands and elevated IgG index supports MS. Evoked potentials (e.g., visual evoked potential) can also provide evidence of prior demyelination (delayed conduction).",
+    "Exclude other causes: screen for vitamin B12 deficiency (subacute combined degeneration), consider autoimmune or infectious mimics (e.g., neuromyelitis optica with aquaporin-4 antibody if severe optic/spinal involvement, vasculitis, Lyme disease, etc.) before confirming MS."
+  ],
+  "differentials": [
+    { "name": "Neuromyelitis optica (NMO)", "hint": "severe bilateral optic neuritis & longitudinally extensive spinal cord lesions; positive aquaporin-4 antibody" },
+    { "name": "Acute disseminated encephalomyelitis (ADEM)", "hint": "post-infection monophasic demyelination, typically in children" },
+    { "name": "Vitamin B12 deficiency (subacute combined degeneration)", "hint": "dorsal column demyelination with ataxia & anemia; check B12 level" }
+  ],
+  "tricks": [
+    "In a young patient, bilateral internuclear ophthalmoplegia (MLF lesions causing adduction deficit in both eyes) is virtually pathognomonic for MS.",
+    "Uhthoff's phenomenon: heat sensitivity in MS (symptoms flare with increased body temperature) – a classic exam detail.",
+    "Charcot's triad of MS: scanning speech, intention tremor (with cerebellar ataxia) and nystagmus – not always present together, but memorably associated with MS."
+  ],
+  "exam_appearance": [
+    "28‑year‑old woman with painful monocular vision loss that resolved (optic neuritis), later develops hand tremor and double vision; MRI shows periventricular white matter lesions → Multiple sclerosis (RRMS).",
+    "30‑year‑old patient experiences electric shock down the spine when bending the neck (Lhermitte sign) and has an adduction deficit in one eye with horizontal nystagmus in the other (INO); episodes separated in time suggest MS.",
+    "50‑year‑old man with insidious progressive leg weakness and spastic gait over 2 years (no acute relapses); spinal cord MRI shows scattered demyelination → Primary progressive MS."
+  ],
+  "treatment": [
+    "Acute relapses: high-dose corticosteroids (e.g., IV methylprednisolone) to speed recovery. For severe or steroid-refractory exacerbations, use plasmapheresis (plasma exchange).",
+    "Disease-modifying therapy: long-term immunomodulatory treatments reduce relapses and slow progression. Options include interferon-β, glatiramer, dimethyl fumarate, fingolimod, monoclonal antibodies like natalizumab (for aggressive MS) or ocrelizumab (approved for PPMS). Therapy selection depends on disease activity and patient factors.",
+    "Symptomatic management: tailored to specific issues – e.g., baclofen or tizanidine for spasticity, gabapentin or duloxetine for neuropathic pain, anticholinergics (oxybutynin) for bladder urgency, modafinil for fatigue, and physical therapy for mobility and balance."
+  ],
+  "red_flags": [
+    "Severe bilateral optic neuritis or an MRI showing an exceptionally long spinal cord lesion (≥3 vertebral segments) is atypical for MS – consider neuromyelitis optica instead.",
+    "If an MS patient on natalizumab rapidly worsens with new widespread lesions, suspect PML (JC virus infection) rather than a standard relapse (natalizumab-associated risk).",
+    "Peripheral nervous system involvement (e.g., peripheral neuropathy or areflexia) is not seen in MS – such findings point to an alternate diagnosis."
+  ],
+  "algorithm": [
+    "Young adult with suggestive neurologic episode(s) → suspect MS.",
+    "MRI brain (and spine) with gadolinium → look for demyelinating plaques disseminated in space (multiple CNS areas, often periventricular).",
+    "If only a single attack or lesion so far, demonstrate dissemination in time: repeat MRI in a few months or check CSF for oligoclonal bands.",
+    "Apply McDonald criteria for diagnosis (requires dissemination in time & space). Rule out other etiologies (e.g., B12 deficiency, NMO).",
+    "Upon diagnosis, start a disease-modifying therapy early to reduce relapses and disability. Treat acute relapses with IV steroids; provide rehabilitation and symptomatic therapy as needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/05_Hegasy_Multiple_Sclerosis_Wiki_EN_CCBYSA.png",
+      "alt": "Illustration of multiple sclerosis findings: a brain cross-section shows periventricular white matter plaques; patient images depict optic neuritis (monocular vision loss), diplopia (from internuclear ophthalmoplegia), tremor and ataxia (cerebellar involvement), muscle weakness with spasticity, bladder incontinence, and a positive Babinski sign.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:05_Hegasy_Multiple_Sclerosis_Wiki_EN_CCBYSA.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 30‑year‑old woman has two transient neurologic episodes one year apart.",
+      "clues": [
+        "Episode 1: right eye pain with vision loss (optic neuritis), resolved",
+        "Episode 2: left leg numbness and weakness, improved",
+        "Electric shock sensation down spine with neck flexion (Lhermitte sign)",
+        "MRI brain: multiple periventricular white matter lesions",
+        "CSF: oligoclonal IgG bands present"
+      ],
+      "answer": "Multiple sclerosis (relapsing‑remitting)",
+      "teaching": "Relapsing-remitting MS typically presents in a young adult with episodes like optic neuritis and other focal deficits separated in time and location. MRI evidence of demyelinating plaques and CSF oligoclonal bands confirm the diagnosis. Early treatment with disease-modifying therapy can help prevent accumulation of disability."
+    }
+  ],
+  "see_also": [
+    "amyotrophic-lateral-sclerosis",
+    "myasthenia-gravis",
+    "stroke",
+    "dementia"
+  ],
+  "prerequisites": [
+    "neuron",
+    "immune-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Multiple Sclerosis (Tafti, Ehsan & Xixis, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499849/"
+    },
+    {
+      "title": "UpToDate: Evaluation and diagnosis of multiple sclerosis in adults (Olek & Howard, 2025)",
+      "url": "https://www.uptodate.com/contents/evaluation-and-diagnosis-of-multiple-sclerosis-in-adults"
+    },
+    {
+      "title": "Medscape: Multiple Sclerosis (Luzzio, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/1146199-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

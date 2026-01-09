@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browse Terms - EMS Medical Glossary</title>
+  <link rel="stylesheet" href="browser.css">
+</head>
+<body>
+  <div class="browser-container">
+    <!-- Header -->
+    <header class="browser-header">
+      <div class="header-brand">
+        <img src="../../assets/icons/leo-logo.png" alt="Leo" class="logo-img">
+        <h1>Term Browser</h1>
+      </div>
+      <div class="header-actions">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="filterInput" placeholder="Filter terms..." autocomplete="off">
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="browser-main">
+      <!-- Category Sidebar -->
+      <aside class="category-sidebar">
+        <div class="sidebar-header">
+          <h2>Categories</h2>
+        </div>
+        <ul class="category-list" id="categoryList">
+          <!-- Categories will be populated by JS -->
+        </ul>
+      </aside>
+
+      <!-- Term List -->
+      <section class="term-section">
+        <div class="term-header">
+          <h2 id="currentCategory">All Terms</h2>
+          <span class="term-count" id="termCount">0 terms</span>
+        </div>
+        <div class="term-list-container">
+          <ul class="term-list" id="termList">
+            <!-- Terms will be populated by JS -->
+          </ul>
+          <div class="empty-state" id="emptyState" style="display: none;">
+            <div class="empty-icon">📭</div>
+            <div class="empty-title">No terms found</div>
+            <div class="empty-text">Try a different filter or category</div>
+          </div>
+          <div class="loading-state" id="loadingState">
+            <div class="spinner"></div>
+            <div class="loading-text">Loading terms...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Term Preview -->
+      <aside class="term-preview" id="termPreview">
+        <div class="preview-placeholder">
+          <div class="preview-icon">👆</div>
+          <div class="preview-text">Select a term to preview</div>
+        </div>
+        <div class="preview-content" id="previewContent" style="display: none;">
+          <!-- Preview content populated by JS -->
+        </div>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="browser-footer">
+      <span class="footer-info">
+        <span id="totalTerms">0</span> total terms across <span id="totalCategories">0</span> categories
+      </span>
+      <span class="footer-hint">
+        Press <kbd>↑</kbd><kbd>↓</kbd> to navigate, <kbd>Enter</kbd> to open full popup
+      </span>
+    </footer>
+  </div>
+
+  <script src="browser.js" type="module"></script>
+</body>
+</html>

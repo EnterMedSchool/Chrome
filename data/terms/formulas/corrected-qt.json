@@ -1,0 +1,103 @@
+{
+  "id": "corrected-qt",
+  "names": ["Corrected QT Interval", "QTc", "QT Correction"],
+  "aliases": ["QTc", "Bazett's formula", "Fridericia"],
+  "patterns": [
+    "QTc",
+    "corrected QT",
+    "QT interval",
+    "Bazett",
+    "Fridericia"
+  ],
+  "level": "formula",
+  "primary_tag": "cardio",
+  "tags": ["cardiology", "electrophysiology", "pharmacology", "toxicology"],
+  "formula": {
+    "expression": "qt / Math.sqrt(rr)",
+    "latex": "\\text{QTc} = \\frac{\\text{QT}}{\\sqrt{\\text{RR}}}",
+    "unit": "ms",
+    "note": "Bazett's formula (most common)"
+  },
+  "inputs": [
+    {
+      "id": "qt",
+      "label": "QT Interval",
+      "unit": "ms",
+      "type": "number",
+      "min": 200,
+      "max": 700,
+      "default": 400,
+      "step": 10
+    },
+    {
+      "id": "rr",
+      "label": "RR Interval",
+      "unit": "seconds",
+      "type": "number",
+      "min": 0.4,
+      "max": 2.0,
+      "default": 1.0,
+      "step": 0.05
+    }
+  ],
+  "interpretation": [
+    {"range": [0, 430], "label": "Normal (Male)", "color": "green", "description": "QTc ≤430 ms normal for men"},
+    {"range": [431, 450], "label": "Normal (Female) / Borderline (Male)", "color": "yellow", "description": "QTc ≤450 ms normal for women"},
+    {"range": [451, 500], "label": "Prolonged", "color": "orange", "description": "Increased risk of torsades"},
+    {"range": [501, null], "label": "Markedly Prolonged", "color": "red", "description": "High risk of torsades de pointes"}
+  ],
+  "visualization": {
+    "type": "gauge",
+    "min": 300,
+    "max": 600
+  },
+  "definition": "The **Corrected QT Interval (QTc)** adjusts the measured QT interval for heart rate, allowing comparison across different heart rates. A prolonged QTc indicates delayed ventricular repolarization and increased risk of ventricular arrhythmias, particularly **torsades de pointes**.",
+  "clinical_usage": [
+    "**Drug monitoring**: Many drugs prolong QT (antipsychotics, antibiotics, antiarrhythmics)",
+    "**Risk stratification**: Prolonged QTc increases risk of sudden cardiac death",
+    "**Congenital Long QT Syndrome**: Diagnosis and management",
+    "**Electrolyte monitoring**: Hypokalemia, hypomagnesemia, hypocalcemia prolong QT"
+  ],
+  "limitations": [
+    "Bazett's formula overcorrects at high heart rates, undercorrects at low rates",
+    "Fridericia (QT/RR^0.33) may be more accurate at extreme heart rates",
+    "QT measurement can be challenging (T wave end hard to define)",
+    "U waves can falsely prolong measured QT"
+  ],
+  "pearls": [
+    "Normal QTc: ≤430 ms (men), ≤450 ms (women)",
+    "QTc >500 ms = HIGH risk of torsades de pointes",
+    "RR interval (seconds) = 60 / heart rate",
+    "Common QT-prolonging drugs: **haloperidol, methadone, fluoroquinolones, azithromycin, ondansetron, amiodarone**",
+    "Always check K⁺ and Mg²⁺ in patients with prolonged QT"
+  ],
+  "related_formulas": [
+    {
+      "name": "Fridericia Formula",
+      "formula": "QT / RR^(1/3)",
+      "description": "Better at extreme heart rates"
+    },
+    {
+      "name": "RR from HR",
+      "formula": "RR = 60 / Heart Rate",
+      "description": "Convert heart rate to RR interval"
+    }
+  ],
+  "see_also": ["long-qt-syndrome", "atrial-fibrillation"],
+  "sources": [
+    {
+      "title": "Bazett HC. An analysis of the time-relations of electrocardiograms. Heart. 1920",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17744892/"
+    },
+    {
+      "title": "CredibleMeds: QT Drug Lists",
+      "url": "https://crediblemeds.org/"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

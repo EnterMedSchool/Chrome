@@ -1,0 +1,135 @@
+{
+  "id": "cystic-fibrosis",
+  "names": [
+    "Cystic fibrosis"
+  ],
+  "aliases": [
+    "mucoviscidosis",
+    "fibrocystic disease of the pancreas"
+  ],
+  "abbr": [
+    "CF"
+  ],
+  "patterns": [
+    "cf",
+    "cystic fibrosis",
+    "mucoviscidosis",
+    "fibrocystic disease of the pancreas"
+  ],
+  "primary_tag": "pulm",
+  "tags": [
+    "pathology",
+    "pulm",
+    "peds",
+    "genetics",
+    "pharmacology"
+  ],
+  "definition": "Autosomal recessive disorder of **CFTR** (chloride channel) causing abnormally thick secretions in exocrine tissues and multi‑organ damage (especially lungs and pancreas).",
+  "why_it_matters": "Most common lethal genetic disease in Caucasians (≈1:3500 births). Once fatal in childhood, now many survive into middle age due to new therapies (CFTR modulators). A classic exam disease (e.g., **salty sweat**, Pseudomonas infections, meconium ileus).",
+  "how_youll_see_it": [
+    "Neonate: **meconium ileus** causing neonatal intestinal obstruction (no meconium in 48 hrs, bilious vomiting) → strongly suggests CF.",
+    "Infancy/childhood: failure to thrive (poor growth) with **foul-smelling, greasy stools** (pancreatic insufficiency) and recurrent respiratory infections (cough, pneumonia). Typical organisms: **Staph aureus** in infancy, then **Pseudomonas aeruginosa** in early childhood; digital clubbing often develops.",
+    "Adolescence/adulthood: chronic productive cough, **nasal polyps**, and **bronchiectasis** on imaging. Almost all males have infertility (absence of vas deferens), and many patients develop CF‑related diabetes by young adulthood."
+  ],
+  "problem_solving": [
+    "Suspect CF in any infant with meconium ileus or failure to thrive with steatorrhea, or in young adults with bronchiectasis and unexplained infertility.",
+    "Diagnostic gold standard: **sweat chloride test** (pilocarpine iontophoresis); sweat [Cl–] ≥60 mmol/L on two occasions is diagnostic. If sweat test is borderline, perform expanded CFTR genetic testing.",
+    "After diagnosis, genotype analysis of the **CFTR** gene guides therapy (eligibility for CFTR modulators). Also assess organ involvement: perform baseline spirometry, sputum cultures (often showing Pseudomonas), and evaluate pancreatic function (fecal elastase).",
+    "Distinguish CF from primary ciliary dyskinesia: CF has positive sweat test and pancreatic insufficiency, whereas ciliary disorders have normal sweat chloride and often situs inversus."
+  ],
+  "differentials": [
+    {
+      "id": "primary-ciliary-dyskinesia",
+      "name": "Primary ciliary dyskinesia (Kartagener syndrome)",
+      "hint": "bronchiectasis + sinusitis + infertility (immotile cilia); ~50% with situs inversus; normal sweat test"
+    },
+    {
+      "id": "celiac-disease",
+      "hint": "chronic malabsorption (steatorrhea, failure to thrive) but no lung infections; positive celiac serologies (tTG) and duodenal biopsy"
+    },
+    {
+      "id": "hirschsprung-disease",
+      "hint": "neonatal distal bowel obstruction due to colonic aganglionosis; no pancreatic insufficiency or respiratory disease"
+    }
+  ],
+  "tricks": [
+    "Parents kissing their baby and noticing a **salty taste** (salty skin) is a classic clue (high sweat chloride).",
+    "**Meconium ileus** in a newborn is CF until proven otherwise."
+  ],
+  "exam_appearance": [
+    "Newborn with abdominal distension, no meconium in 48 hrs (**meconium ileus**) and bilious vomiting → cystic fibrosis.",
+    "Toddler with recurrent lung infections (including **Pseudomonas**), failure to thrive, and foul greasy stools → cystic fibrosis.",
+    "Young man with chronic sinus infections, bronchiectasis, and infertility (**absent vas deferens**) → nonclassic cystic fibrosis."
+  ],
+  "treatment": [
+    "CFTR modulator drugs (targeted to mutation): e.g., **ivacaftor** for G551D gating mutation, or combination correctors/potentiators (elexacaftor/tezacaftor/ivacaftor) for ΔF508; these markedly improve lung function.",
+    "Aggressive pulmonary care: airway clearance via chest physiotherapy (percussion vest) and inhaled mucolytics (e.g., dornase alfa, hypertonic saline); bronchodilators to improve airflow; and frequent antibiotics to treat/prevent infections (including inhaled tobramycin for Pseudomonas).",
+    "Nutritional support: high-calorie, high-salt diet with pancreatic enzyme replacement and fat-soluble vitamin supplements to ensure growth. Screen for and manage complications (e.g., insulin for CF-related diabetes, ursodeoxycholic acid for liver disease).",
+    "Advanced disease: consider lung transplantation for end-stage lung failure (improves survival when FEV₁ <30% or if frequent exacerbations, pneumothorax, or massive hemoptysis)."
+  ],
+  "red_flags": [
+    "Massive hemoptysis in CF (from bronchiectasis) → life-threatening bleed; requires bronchial artery embolization emergently.",
+    "Acute worsening of breathing in CF → consider spontaneous **pneumothorax** (due to apical blebs); requires prompt chest tube and management."
+  ],
+  "algorithm": [
+    "Newborn screening (↑ immunoreactive trypsinogen) positive or suggestive symptoms → evaluate for CF.",
+    "Confirm diagnosis: perform sweat chloride test (≥60 mmol/L is diagnostic); if sweat test is indeterminate, do CFTR genetic mutation panel.",
+    "If CF confirmed, establish baseline: pulmonary function tests, sputum culture for pathogens, pancreatic function tests (e.g., fecal elastase), and nutritional status assessment.",
+    "Initiate comprehensive management early: airway clearance therapy, pancreatic enzymes and nutritional support, and infection prophylaxis/treatment as needed (multidisciplinary CF care).",
+    "Follow up regularly at a CF center; monitor lung function and growth, and screen annually for complications (e.g., glucose tolerance test for CF-related diabetes)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Blausen_0286_CysticFibrosis.png",
+      "alt": "Diagram of cystic fibrosis effects on multiple organs (sinuses, lungs, pancreas, intestines), highlighting thick mucus and associated symptoms.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0286_CysticFibrosis.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑year‑old boy is evaluated for chronic cough, frequent diarrhea, and poor weight gain.",
+      "clues": [
+        "Recurrent Pseudomonas aeruginosa pneumonia",
+        "Frequent bulky, oily stools",
+        "Weight and height <5th percentile",
+        "Digital clubbing of fingers"
+      ],
+      "answer": "Cystic fibrosis (CF)",
+      "teaching": "CF causes thick, viscous secretions due to a CFTR mutation, leading to chronic pulmonary infections (e.g., Pseudomonas) and pancreatic insufficiency with malabsorption. The combination of recurrent lung infections, failure to thrive, and steatorrhea is classic. Diagnosis is confirmed by an elevated sweat chloride test; management includes pancreatic enzyme supplementation, airway clearance, and CFTR modulator therapy."
+    }
+  ],
+  "see_also": [
+    "bronchiolitis",
+    "pneumonia",
+    "chronic-pancreatitis"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "genetics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Cystic Fibrosis (Sankari & Sharma, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493206/"
+    },
+    {
+      "title": "UpToDate: Cystic fibrosis: Clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/cystic-fibrosis-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "N Engl J Med: Cystic Fibrosis (Grasemann & Ratjen, 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37913507/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

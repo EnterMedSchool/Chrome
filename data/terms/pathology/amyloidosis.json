@@ -1,0 +1,107 @@
+{
+  "id": "amyloidosis",
+  "names": ["Amyloidosis"],
+  "aliases": ["systemic amyloidosis"],
+  "abbr": [],
+  "patterns": [
+    "amyloidosis",
+    "amyloid disease",
+    "systemic amyloidosis",
+    "primary amyloidosis",
+    "secondary amyloidosis",
+    "AL amyloidosis",
+    "AA amyloidosis",
+    "ATTR amyloidosis",
+    "familial amyloidosis",
+    "hereditary amyloidosis",
+    "senile amyloidosis",
+    "senile cardiac amyloidosis",
+    "light chain amyloidosis",
+    "reactive amyloidosis",
+    "dialysis-related amyloidosis",
+    "beta-2 microglobulin amyloidosis"
+  ],
+  "primary_tag": "pathology",
+  "tags": ["pathology", "heme_onc", "renal", "cardio", "rheum"],
+  "definition": "Pathologic **extracellular deposition** of insoluble misfolded protein fibrils (β-pleated sheets) in tissues, leading to progressive organ dysfunction.",
+  "why_it_matters": "Multi-organ, potentially fatal disease; hallmark **Congo red** stain (apple-green birefringence) and the need to identify the amyloid **type** (AL vs AA vs ATTR) make it a frequently tested diagnosis.",
+  "how_youll_see_it": [
+    "Standardized nomenclature convention: **A X** (A = amyloidosis; X = fibril protein). Examples: **AL** (amyloid light chain), **AA** (amyloid A protein), **ATTR** (amyloid transthyretin).",
+    "AL (primary) amyloidosis: monoclonal **immunoglobulin light chains** (from a plasma cell dyscrasia like multiple myeloma) deposit as AL amyloid. Typically causes **nephrotic syndrome**, **restrictive cardiomyopathy**, peripheral neuropathy; classic features include **macroglossia** and **periorbital purpura**.",
+    "AA (secondary) amyloidosis: chronic **inflammation/infection** (e.g., rheumatoid arthritis, TB) → high serum amyloid A → AA amyloid deposits. Classically presents with renal involvement (e.g., **nephrotic syndrome**); may also cause hepatosplenomegaly.",
+    "ATTR (wild-type, senile) amyloidosis: deposition of normal **transthyretin** (TTR) in older adults (median age ~75; ~90% men). Predominantly **cardiac** involvement (restrictive cardiomyopathy, arrhythmias) and often **carpal tunnel** syndrome; progression is slower than AL amyloidosis.",
+    "ATTR (hereditary) amyloidosis: autosomal dominant **mutations** in transthyretin. Presents as **familial amyloid polyneuropathy** (peripheral/autonomic neuropathy, onset in 20–40s) or **familial amyloid cardiomyopathy** (heart failure in middle-age or later).",
+    "Aβ₂M (dialysis-related) amyloidosis: **β₂-microglobulin** accumulates in patients with end-stage renal disease on long-term dialysis. Deposits in **joints** and **tendons** (e.g., shoulder pain, **carpal tunnel syndrome**, bone cysts), typically after >10 years on dialysis."
+  ],
+  "problem_solving": [
+    "Confirm amyloid: biopsy (abdominal fat pad aspirate or involved organ) with **Congo red** staining (shows apple-green birefringence). Then perform **fibril typing** via immunohistochemistry or mass spectrometry to determine the amyloid protein.",
+    "Identify underlying cause: if **AL** suspected, check for monoclonal proteins (**SPEP/UPEP, serum free light chains**) and do bone marrow biopsy for plasma cell dyscrasia; if **AA**, search for chronic infection/inflammation (e.g., culture, inflammatory markers); if **ATTR**, consider genetic testing for transthyretin mutations.",
+    "Cardiac evaluation: if heart involvement is suspected, obtain ECG (classically **low voltage** with amyloid cardiomyopathy) and echocardiogram. A nuclear **99m Tc-PYP** scan can noninvasively detect ATTR cardiac amyloid and help distinguish it from AL."
+  ],
+  "differentials": [
+    { "name": "Identify amyloid type", "hint": "Important to distinguish **AL vs AA vs ATTR** (different prognosis and treatments)" },
+    { "id": "sarcoidosis", "hint": "Multisystem granulomatous disease that can mimic amyloidosis (e.g., restrictive cardiomyopathy) but biopsy shows non-amyloid **granulomas** (Congo red negative)." },
+    { "id": "hemochromatosis", "hint": "Multiorgan **iron** deposition (hereditary or secondary); causes similar organ dysfunction (heart failure, etc.) but with **↑ferritin** and iron on Prussian blue stain." },
+    { "name": "Light chain deposition disease (LCDD)", "hint": "Monoclonal **light chains** deposit in tissues without forming amyloid fibrils (Congo red negative)." },
+    { "name": "Heavy chain deposition disease (HCDD)", "hint": "Rare monoclonal **heavy chain** deposits in tissues (no amyloid fibrils; Congo red negative)." }
+  ],
+  "tricks": [
+    "Think **Congo red** → **apple-green birefringence** under polarized light: classic pathologic finding for amyloid deposits.",
+    "Clues for **AL amyloidosis**: **macroglossia** or **periorbital purpura** (raccoon eyes) are highly specific and rarely seen in other types.",
+    "Amyloid cardiomyopathy often shows **low-voltage ECG** despite thickened ventricular walls (due to insulating amyloid in myocardium)."
+  ],
+  "exam_appearance": [
+    "Older adult with unexplained **restrictive cardiomyopathy** (heart failure with preserved ejection fraction), heavy **proteinuria** (nephrotic-range), and enlarged tongue on exam → AL (primary) amyloidosis (confirm with Congo red stain).",
+    "Patient with long-standing **rheumatoid arthritis** who develops nephrotic syndrome and hepatomegaly → AA (reactive) amyloidosis from chronic inflammation.",
+    "Elderly man (~75) with congestive heart failure symptoms and history of bilateral **carpal tunnel syndrome** → senile **ATTR** amyloidosis (wild-type transthyretin deposits in heart/tendons)."
+  ],
+  "treatment": [
+    "Treat the **underlying cause** of the amyloid protein when possible (specialist-guided by type).",
+    "**AL amyloidosis**: systemic chemotherapy (e.g., **melphalan** plus corticosteroids, or newer regimens like bortezomib-based therapy) ± autologous **stem cell transplant** for eligible patients.",
+    "**AA amyloidosis**: aggressive management of the chronic inflammatory disease (e.g., immunosuppressants for rheumatoid arthritis, **colchicine** for familial Mediterranean fever) to reduce serum amyloid A production.",
+    "**ATTR amyloidosis**: newer disease-modifying agents (e.g., **tafamidis** to stabilize transthyretin) or, for hereditary cases, **liver transplant** to remove the source of mutant TTR. Advanced cardiac amyloidosis may require **heart transplant**; provide supportive care for heart failure and other complications."
+  ],
+  "red_flags": [
+    "Suspected **AL amyloidosis** with cardiac involvement is a medical emergency – without prompt therapy, median survival can be under 1 year. Rapidly worsening heart failure or arrhythmias in AL amyloid warrants urgent specialist intervention.",
+    "Amyloidosis can lead to **sudden cardiac death** (due to arrhythmias/conduction block) or irreversible **renal failure**. Monitor cardiac rhythm and renal function closely; consider defibrillator placement for high-risk cardiac amyloid patients and timely dialysis/transplant referral for progressing renal impairment."
+  ],
+  "algorithm": [
+    "Unexplained multi-organ dysfunction (e.g., cardiomyopathy + nephrotic syndrome + neuropathy) → **suspect amyloidosis**.",
+    "Initial evaluation: screen for monoclonal proteins (**SPEP/UPEP, light chains**) and inflammatory markers; perform relevant imaging (e.g., echo, MRI, PYP scan if ATTR suspected).",
+    "Obtain a tissue **biopsy** (fat pad or involved organ) → if Congo red positive (amyloid), proceed to amyloid **typing** (via IHC or mass spec) to determine AL vs AA vs ATTR.",
+    "Direct treatment according to type: plasma cell–directed therapy for AL, treat underlying disease for AA, or specific measures (tafamidis, transplant) for ATTR; provide supportive care for organ dysfunction."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Gastric_Amyloidosis_%28Congo_red_stain%2C_crossed_polarizers%29_%283595031587%29.jpg",
+      "alt": "Histology of gastric tissue with amyloid deposits stained Congo red and viewed under polarized light, showing classic apple-green birefringence.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gastric_Amyloidosis_(Congo_red_stain,_crossed_polarizers)_(3595031587).jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["nephrotic-syndrome", "familial-mediterranean-fever"],
+  "prerequisites": ["multiple-myeloma"],
+  "sources": [
+    {
+      "title": "StatPearls: Amyloidosis (Bustamante & Zaidi, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470285/"
+    },
+    {
+      "title": "Amyloidosis (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Amyloidosis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

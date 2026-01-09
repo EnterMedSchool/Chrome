@@ -1,0 +1,116 @@
+{
+  "id": "nystagmus",
+  "names": ["Nystagmus"],
+  "aliases": [],
+  "abbr": [],
+  "patterns": ["nystagmus", "involuntary eye movement", "oscillating eyes"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "emerg", "peds"],
+  "definition": "Involuntary, rhythmic oscillation of the eyes (rapid jerking or drifting movements) typically caused by an imbalance in vestibular input or ocular motor control pathways.",
+  "why_it_matters": "Critical sign in evaluating dizziness/vertigo and neurological function. Distinguishing peripheral vs central nystagmus helps identify benign inner ear disorders versus life-threatening brainstem lesions (a high-yield exam concept).",
+  "how_youll_see_it": [
+    "Patients often experience oscillopsia (illusion of a moving visual field) or vertigo with nystagmus. On exams, it usually appears with acute vertigo cases or neurologic scenarios (e.g., multiple sclerosis, stroke).",
+    "Described by direction and pattern: most nystagmus is horizontal (eyes jerk side-to-side); vertical or pure torsional nystagmus is uncommon and suggests central causes. Jerk nystagmus has a fast corrective phase (named for the fast phase, e.g., right-beating), whereas pendular nystagmus has equal back-and-forth movements without a distinct fast phase.",
+    "Peripheral (vestibular) causes: inner ear or CN VIII disorders (e.g., BPPV, vestibular neuritis/labyrinthitis, Ménière disease, or vestibulotoxic drugs) produce nystagmus often with vertigo. Peripheral nystagmus is typically unidirectional (does not change direction with gaze) and mixed horizontal-torsional; it usually lessens with visual fixation and may accompany auditory symptoms like tinnitus or hearing loss (except in isolated vestibular neuritis).",
+    "Central causes: brainstem or cerebellar lesions (stroke in the posterior fossa, multiple sclerosis, tumors, Wernicke encephalopathy) can cause nystagmus. Central nystagmus may be vertical or change direction with gaze, and it does not suppress with fixation. Often there are other neurologic findings (ataxia, diplopia, dysarthria) indicating a central lesion."
+  ],
+  "problem_solving": [
+    "Examine nystagmus characteristics: note direction (horizontal vs vertical), whether it changes with gaze, and if it is inhibited by fixation. Check for accompanying signs (hearing loss vs other neurologic deficits) to categorize peripheral vs central origin.",
+    "Perform positional testing if episodic positional vertigo is suspected: a positive Dix-Hallpike maneuver (brief torsional nystagmus with head positioning) confirms BPPV.",
+    "In continuous acute vertigo with nystagmus (acute vestibular syndrome), use bedside exams like the HINTS exam (Head Impulse, Nystagmus, Test of Skew) to differentiate peripheral vs central. An abnormal head impulse (catch-up saccade on head turn) suggests a peripheral lesion, whereas a normal head impulse with direction-changing nystagmus or a skew deviation points to a central lesion (stroke).",
+    "If any red flags for central pathology are present, obtain urgent MRI of the brain to rule out infarction, hemorrhage, or other structural lesions.",
+    "Review medications and substances: toxic levels of certain drugs (e.g., phenytoin, lithium, sedatives) or alcohol intoxication can cause nystagmus by affecting cerebellar-vestibular function."
+  ],
+  "differentials": [
+    { "id": "benign-paroxysmal-positional-vertigo", "hint": "brief episodic vertigo triggered by position changes; classic nystagmus on Dix-Hallpike, no hearing loss" },
+    { "id": "meniere-disease", "hint": "recurrent vertigo attacks with tinnitus and hearing loss (peripheral vestibular disorder)" },
+    { "id": "multiple-sclerosis", "hint": "young patient with central nystagmus (often due to brainstem demyelination); may see internuclear ophthalmoplegia with nystagmus in abducting eye" }
+  ],
+  "tricks": [
+    "Mnemonic: COWS for caloric testing (Cold Opposite, Warm Same) – cold water in ear → fast phase of nystagmus to the opposite side; warm water → fast phase to the same side.",
+    "Jerk nystagmus is named by the fast phase (e.g., left-beating nystagmus has quick movement to the left). The slow phase usually points toward the lesion in peripheral causes.",
+    "A few beats of nystagmus at extreme lateral gaze can be physiologic (normal end-point nystagmus). True pathologic nystagmus is typically observed in neutral gaze or with mild gaze deviation, not just at extremes."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with a recent viral URI who develops acute severe vertigo, nausea, and unsteady gait; exam shows unidirectional horizontal nystagmus and no hearing loss → vestibular neuritis (peripheral nystagmus).",
+    "Older hypertensive patient with abrupt onset vertigo, ataxia, and vertical nystagmus but no auditory symptoms → suspect a central lesion such as a cerebellar stroke."
+  ],
+  "treatment": [
+    "Peripheral causes: treat the underlying disorder and provide symptomatic relief. For example, perform the Epley maneuver for BPPV, give corticosteroids (e.g., prednisone) for vestibular neuritis, advise a low-salt diet and diuretics for Ménière disease, and use vestibular suppressants (meclizine, benzodiazepines) short-term for acute vertigo/nausea.",
+    "Central causes: address the primary pathology (e.g., stroke requires urgent intervention, demyelinating lesions might get IV steroids, thiamine for Wernicke, etc.). Persistent nystagmus can be mitigated with medications like baclofen or gabapentin in select cases, and vestibular rehabilitation therapy can aid compensation."
+  ],
+  "red_flags": [
+    "Vertical or direction-changing nystagmus (or nystagmus persisting despite fixation) → strongly suggests a central lesion (brainstem or cerebellar, e.g., stroke or MS).",
+    "Nystagmus accompanied by other focal neurologic deficits (e.g., diplopia, weakness, severe ataxia) → evaluate immediately for a central cause (requires emergent imaging)."
+  ],
+  "algorithm": [
+    "Patient with dizziness/vertigo → perform neurologic exam and check for nystagmus (eye movements).",
+    "If nystagmus is present, differentiate peripheral vs central: assess nystagmus features (direction, fixation suppression) and associated findings (ear symptoms vs other neuro signs).",
+    "If vertigo is positional and episodic (suspect BPPV) → do Dix-Hallpike test; if positive, diagnose BPPV and treat with repositioning maneuvers.",
+    "If continuous vertigo with nystagmus (acute vestibular syndrome) → use head impulse test and other HINTS exam components. Central signs (e.g., normal head impulse, vertical/direction-changing nystagmus, skew deviation) → urgent MRI to rule out stroke.",
+    "If findings are consistent with a peripheral cause (and no red flags) → manage with vestibular suppressants, hydration, and follow-up (consider vestibular rehab exercises for recovery)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Nystagmus_in_Peripheral_Vestibular_Disease.png",
+      "alt": "Left-beating nystagmus due to a peripheral vestibular lesion (nystagmus is present in primary gaze and worsens when gazing left).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Nystagmus_in_Peripheral_Vestibular_Disease.png"
+      }
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Central_and_Peripheral_Nystagmus.png",
+      "alt": "Illustration of direction-changing nystagmus in a central lesion (gaze left induces left-beating, gaze right induces right-beating nystagmus).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Central_and_Peripheral_Nystagmus.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old woman presents with sudden, violent vertigo and nausea that began a day after recovering from a viral infection.",
+      "clues": [
+        "Recent upper respiratory infection",
+        "Continuous severe vertigo with nausea/vomiting",
+        "No hearing loss or tinnitus",
+        "Unidirectional horizontal nystagmus on exam"
+      ],
+      "answer": "Vestibular neuritis (acute peripheral vestibulopathy)",
+      "teaching": "Post-viral inflammation of the vestibular nerve causes abrupt unilateral vestibular dysfunction. This leads to severe vertigo with nystagmus, but no hearing loss (distinguishing it from labyrinthitis). Treatment is with corticosteroids for inflammation and symptomatic relief (e.g., meclizine); most patients gradually improve as central compensation occurs."
+    }
+  ],
+  "see_also": [
+    "menieres-disease",
+    "vestibular-neuritis",
+    "multiple-sclerosis",
+    "strabismus"
+  ],
+  "prerequisites": [
+    "vestibular-system",
+    "cerebellum"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Nystagmus Types (Sekhon & Cabrero, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK539711/"
+    },
+    {
+      "title": "UpToDate: Evaluation of the patient with vertigo (2025)",
+      "url": "https://www.uptodate.com/contents/evaluation-of-the-patient-with-vertigo"
+    },
+    {
+      "title": "Acquired Nystagmus (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/1199177-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

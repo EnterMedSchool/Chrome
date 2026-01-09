@@ -1,0 +1,104 @@
+{
+  "id": "nephrotic-syndrome",
+  "names": ["Nephrotic syndrome"],
+  "aliases": ["nephrosis"],
+  "abbr": ["NS"],
+  "patterns": ["nephrotic syndrome", "nephrosis", "nephrotic-range proteinuria", "nephrotic"],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "peds"],
+  "definition": "Kidney disorder with nephrotic-range proteinuria (>3.5 g/day) causing hypoalbuminemia, generalized edema, and hyperlipidemia from glomerular barrier damage.",
+  "why_it_matters": "Massive protein loss leads to serious complications (edema, malnutrition, thrombosis, infections). It's a key glomerular syndrome (contrast with nephritic syndrome) that often appears in exams linking proteinuria to systemic effects.",
+  "how_youll_see_it": [
+    "Edema (especially periorbital swelling in the morning, leg edema) with foamy urine from proteinuria. Blood pressure is usually normal and hematuria is minimal or absent (unlike nephritic syndrome). Fatigue and poor appetite are common.",
+    "Children: Most often minimal change disease (~80% of pediatric nephrotic syndrome), often following a viral infection or immunization. Child presents with facial puffiness and abdominal edema; urine protein is highly selective for albumin. Responds dramatically to corticosteroids.",
+    "Adults: Common primary causes include focal segmental glomerulosclerosis (FSGS, associated with HIV, obesity, heroin use) and membranous nephropathy (most common adult cause, often linked to hepatitis B, SLE, or malignancy). Diabetic nephropathy is the most frequent secondary cause in adults. Adults present with more persistent edema; may have complications like deep vein thromboses or infections as initial clues."
+  ],
+  "problem_solving": [
+    "Confirm nephrotic-range proteinuria: obtain a 24h urine or spot protein/creatinine ratio to quantify >3.5 g/24h; check serum albumin and lipid profile (albumin typically <3 g/dL, cholesterol and triglycerides elevated).",
+    "Investigate underlying causes: review history for diabetes, lupus (rash, arthritis), hepatitis risk factors, medications (NSAIDs, etc.). Order tests as indicated (e.g., HbA1c, ANA, complements, hepatitis B/C, HIV, light chains) to identify secondary etiologies.",
+    "Decide on kidney biopsy: usually indicated for adults with idiopathic nephrotic syndrome to determine the pathology (unless a cause like long-standing diabetes is evident). In children, empiric steroid treatment is often tried first if presentation strongly suggests minimal change; biopsy is done if atypical features or steroid-resistant course.",
+    "Monitor and address complications: be vigilant for thromboses (e.g., sudden flank pain could indicate renal vein thrombosis) and infections (fever or peritonitis in a nephrotic patient). Early management of these (anticoagulation, antibiotics) is critical."
+  ],
+  "differentials": [
+    { "id": "acute-glomerulonephritis", "hint": "Nephritic picture: hematuria with RBC casts, HTN, and smaller protein loss" },
+    { "name": "Cirrhosis or malnutrition", "hint": "edema and low albumin but no proteinuria (due to reduced production, not kidney loss)" },
+    { "name": "Heart failure", "hint": "edema from fluid overload; no heavy proteinuria (distinguish by normal urinalysis)" }
+  ],
+  "tricks": [
+    "Nephrotic vs nephritic: Nephrotic = prOtein (massive prOteinuria, nO RBC casts) vs. Nephritic = Inflammation (hematuria with RBC casts, azotemia, hypertension).",
+    "Loss of anticoagulants (e.g., antithrombin III) in urine → hypercoagulable state (renal vein thrombosis and DVT/PE risk). Loss of immunoglobulins → susceptibility to infections (e.g., peritonitis with S. pneumoniae).",
+    "Minimal change disease = diffuse podocyte foot process effacement on EM, normal-appearing glomeruli on LM. It causes selective proteinuria (mostly albumin) due to loss of negative charge barrier, and >90% of children respond to steroids."
+  ],
+  "exam_appearance": [
+    "Young child with periorbital edema after a URI, 4+ proteinuria, and effacement of foot processes on EM → minimal change nephrotic syndrome.",
+    "Adult with hepatitis B infection and severe edema; renal biopsy shows diffuse capillary wall thickening with subepithelial 'spikes' on silver stain → membranous nephropathy.",
+    "HIV-positive patient with heavy proteinuria and hypertension; biopsy shows focal glomerular sclerosis (hyalinosis) → FSGS (HIV-associated nephrotic syndrome)."
+  ],
+  "treatment": [
+    "General measures: Salt restriction and cautious diuretics for edema (avoid rapid shifts that can cause hypovolemia); ACE inhibitors or ARBs to lower intraglomerular pressure and reduce proteinuria; manage hyperlipidemia with diet or statins if needed.",
+    "Immunosuppressive therapy: High-dose corticosteroids are first-line for idiopathic nephrotic syndrome (e.g., prednisone induces remission in most minimal change cases). If inadequate or relapse, use steroid-sparing agents based on cause: e.g., cyclophosphamide or calcineurin inhibitors (tacrolimus/cyclosporine) for frequently relapsing or steroid-resistant disease, and rituximab in select refractory cases.",
+    "Prevent complications: prophylactic anticoagulation is considered if albumin is very low (<2 g/dL) or high-risk features (to prevent thrombosis). Ensure vaccinations (e.g., pneumococcal vaccine) to reduce infection risk, and give antibiotics promptly for any suspected infection."
+  ],
+  "red_flags": [
+    "Nephrotic patient with sudden flank pain, hematuria, or unilateral loin tenderness → suspect renal vein thrombosis (requires urgent evaluation).",
+    "Child with nephrotic syndrome who develops fever and abdominal pain → evaluate for spontaneous bacterial peritonitis (risk from Ig loss; initiate empiric antibiotics while confirming)."
+  ],
+  "algorithm": [
+    "Edema or foamy urine noted → suspect nephrotic syndrome; start with urinalysis (check urine protein).",
+    "If urine protein is high (e.g., ≥3+ on dipstick) → quantify protein loss (spot protein/Cr or 24h urine) and check serum albumin & lipids (to confirm hypoalbuminemia and hyperlipidemia).",
+    "Confirm nephrotic syndrome (proteinuria >3.5 g/day, low albumin, edema). Search for cause: review history for diabetes, lupus, hepatitis, malignancy, drugs, etc., and perform appropriate serologies (HbA1c, ANA, hepatitis panel, HIV, etc).",
+    "Plan a kidney biopsy to identify the specific glomerular disease in adults (unless a clear secondary cause like diabetic nephropathy is present). In pediatric cases with classic features, try empiric steroids first; if no response or atypical features, proceed to biopsy.",
+    "Begin treatment: manage edema (diuretics, salt restriction) and proteinuria (ACEi/ARB), start corticosteroids for primary nephrotic disease, and treat any underlying secondary cause. Follow closely for response and complications."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Membranous_nephropathy_-_mpas_-_very_high_mag.jpg/1280px-Membranous_nephropathy_-_mpas_-_very_high_mag.jpg",
+      "alt": "Renal biopsy in membranous nephropathy (silver stain) showing thickened capillary loops with subepithelial 'spikes'.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Membranous_nephropathy_-_mpas_-_very_high_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy develops facial puffiness and leg swelling one week after an upper respiratory infection.",
+      "clues": [
+        "Urine dipstick 4+ protein",
+        "Oval fat bodies (fatty casts) in urine",
+        "Serum albumin 1.8 g/dL (low)",
+        "No hematuria or RBC casts"
+      ],
+      "answer": "Nephrotic syndrome (minimal change disease)",
+      "teaching": "This child's sudden onset of edema and massive proteinuria is classic for minimal change disease, the most common nephrotic syndrome in young children. It is often triggered by a recent infection and involves T-cell mediated injury to podocytes (foot process effacement), leading to selective albuminuria. Minimal change disease typically responds rapidly to corticosteroid therapy, confirming the diagnosis."
+    }
+  ],
+  "see_also": [
+    "chronic-kidney-disease",
+    "nephritic-syndrome",
+    "glomerulonephritis"
+  ],
+  "prerequisites": ["renal-physiology", "nephron"],
+  "sources": [
+    {
+      "title": "StatPearls: Nephrotic Syndrome (Tapia & Bashir, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470444/"
+    },
+    {
+      "title": "UpToDate: Overview of the nephrotic syndrome and nephrotic range proteinuria",
+      "url": "https://www.uptodate.com/contents/overview-of-the-nephrotic-syndrome-and-nephrotic-range-proteinuria"
+    },
+    {
+      "title": "Nephrotic Syndrome (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/244631-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

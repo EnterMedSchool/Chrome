@@ -1,0 +1,119 @@
+{
+  "id": "infective-endocarditis",
+  "names": ["Endocarditis", "Infective endocarditis"],
+  "aliases": ["bacterial endocarditis", "acute bacterial endocarditis", "subacute bacterial endocarditis"],
+  "abbr": ["IE"],
+  "patterns": ["ie", "endocarditis", "infective endocarditis", "bacterial endocarditis", "sbe", "subacute bacterial endocarditis", "acute endocarditis", "acute bacterial endocarditis"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "infectious_dz"],
+  "definition": "Infection of the heart's inner lining (endocardium), usually involving the valves, forming vegetations of microorganisms and fibrin. May present as acute (fulminant, often Staph aureus) or subacute (indolent, often Strep viridans on abnormal valves).",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Endocarditis.png",
+      "alt": "Illustration of infective endocarditis showing vegetations (brown) on heart valve leaflets.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Endocarditis.png"
+      }
+    }
+  ],
+  "why_it_matters": "Despite modern therapy, infective endocarditis carries high morbidity and mortality (≈25% in-hospital mortality). It can rapidly destroy heart valves and cause embolic strokes or organ damage. Early recognition and targeted treatment are critical to prevent heart failure and life-threatening complications.",
+  "how_youll_see_it": [
+    "Often fever plus a new murmur in a patient with risk factors (prosthetic valve, IV drug use, unrepaired congenital defect, or recent bacteremia).",
+    "Common symptoms: persistent fever, chills, weight loss, and murmur (regurgitant valve lesion in ~85% of cases). Look for peripheral stigmata: splinter hemorrhages (nailbed streaks), Osler nodes (tender finger nodules), Janeway lesions (painless palmar/plantar macules), and Roth spots (retinal hemorrhages).",
+    "Embolic phenomena are frequent: stroke (embolus to brain), pulmonary infiltrates or abscesses (if right-sided IE), kidney or spleen infarcts, or mycotic aneurysms from infected arterial emboli."
+  ],
+  "problem_solving": [
+    "Always obtain multiple blood cultures (≥3 sets from different sites, before antibiotics) when endocarditis is suspected. Do not start antibiotics until cultures are drawn, unless the patient is unstable.",
+    "Use the Duke criteria to integrate clinical findings: Major criteria include positive blood cultures with typical organisms and echo evidence of vegetation or abscess; minor criteria include fever, risk factors (IVDU, heart condition), vascular signs (emboli, Janeway lesions), immunologic signs (Osler nodes, Roth spots, glomerulonephritis). Definitive IE = 2 major or 1 major + 3 minor criteria.",
+    "Perform echocardiography in all suspected cases. Start with transthoracic echo (TTE); if nondiagnostic or prosthetic valve present, move to transesophageal echo (TEE) for higher sensitivity to detect vegetations and abscesses.",
+    "If blood cultures remain negative but clinical suspicion is high, consider culture-negative endocarditis causes: prior antibiotic use or fastidious organisms (e.g., Coxiella burnetii, Bartonella, Brucella, HACEK organisms) – use serologies or PCR as needed."
+  ],
+  "differentials": [
+    { "name": "Non-bacterial thrombotic endocarditis", "hint": "marantic endocarditis; sterile vegetations in malignancy or severe illness (no infection)" },
+    { "name": "Libman-Sacks endocarditis", "hint": "sterile vegetations on valve cusps in SLE (immune complex mediated)" },
+    { "name": "Acute rheumatic fever", "hint": "post-streptococcal autoimmune pancarditis (no organisms on valves); often young patient with migratory arthritis" }
+  ],
+  "tricks": [
+    "Mnemonic \"FROM JANE\" for endocarditis signs: Fever, Roth spots, Osler nodes, Murmur; Janeway lesions, Anemia, Nailbed (splinter) hemorrhages, Emboli.",
+    "In IV drug users, endocarditis often involves the tricuspid valve (→ septic pulmonary emboli) and is most commonly due to S. aureus.",
+    "Streptococcus gallolyticus (formerly S. bovis) bacteremia in endocarditis is a red flag for colon cancer—these patients need a colonoscopy."
+  ],
+  "exam_appearance": [
+    "An IV drug user with fever, cough, and a new holosystolic murmur at the left sternal border; chest imaging shows septic emboli in the lungs → Tricuspid valve endocarditis (S. aureus from IVDU).",
+    "Middle-aged patient with mitral valve prolapse, poor dentition, and 1 month of low-grade fevers and fatigue; exam finds a new murmur and Osler nodes on fingers → Subacute infective endocarditis (likely viridans streptococci).",
+    "Older adult with Streptococcus gallolyticus (S. bovis) endocarditis is found to have occult blood in stool → indicates possible colonic tumor (S. gallolyticus endocarditis is linked to colon cancer)."
+  ],
+  "treatment": [
+    "Prolonged IV antibiotics targeted to the organism (typically 4–6 weeks). Start broad empiric coverage (e.g., vancomycin + ceftriaxone) after cultures are drawn, then tailor once sensitivities are known.",
+    "Indications for early surgery (valve repair/replacement) include: acute heart failure from valve destruction (e.g., ruptured cusp or chordae), large vegetations (>10 mm, especially if embolizing), abscess or fistula formation (seen on echo), or infection that is persistent despite antibiotics.",
+    "If prosthetic valve endocarditis or difficult organisms (e.g., fungi), involve cardiac surgery early – these often require combined medical and surgical management.",
+    "After initial treatment, follow-up with repeat blood cultures and echo to ensure clearance of infection and assess for complications."
+  ],
+  "red_flags": [
+    "New conduction block on ECG (e.g., AV block) in a patient with endocarditis → suggests a perivalvular abscess eroding into the cardiac conduction system – prompt surgical evaluation is needed.",
+    "Embolic complications (stroke, limb ischemia) during treatment → consider urgent surgery to remove the vegetation and prevent further emboli (especially if vegetation >10–15 mm).",
+    "Fungal endocarditis or S. aureus with persistent bacteremia → poor prognosis; early surgical consultation is warranted."
+  ],
+  "algorithm": [
+    "Suspected endocarditis (e.g., fever + murmur or risk factors) → Draw 3 sets of blood cultures (from separate sites) before starting antibiotics.",
+    "Start echocardiography: perform TTE initially; if negative but suspicion remains high (or patient has prosthetic valve), proceed to TEE for better detection of vegetations/abscess.",
+    "Apply the Duke criteria to establish diagnosis (consider clinical, microbiologic, and echo findings together).",
+    "Once confirmed or highly likely, begin appropriate IV antibiotics. Modify therapy per culture results; typical duration is 4–6 weeks from first negative culture.",
+    "Monitor for complications (embolism, heart failure, abscess). Involve a cardiac surgeon early if there are surgical indications (valve destruction, large vegetations, abscess, etc.)."
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old man with a history of IV heroin use presents with high fever, pleuritic chest pain, and cough producing blood‑streaked sputum.",
+      "clues": [
+        "Multiple nodular infiltrates on chest X-ray (septic emboli)",
+        "New holosystolic murmur at left sternal border (tricuspid regurgitation)",
+        "Blood cultures: Staphylococcus aureus"
+      ],
+      "answer": "Acute infective endocarditis (tricuspid valve)",
+      "teaching": "IV drug use leads to S. aureus seeding the tricuspid valve, causing rapid valve destruction and septic pulmonary emboli. Treatment is IV anti-staphylococcal antibiotics; surgical valve replacement if severe damage or persistent infection."
+    },
+    {
+      "stem": "A 55‑year‑old with mitral valve prolapse and poor dentition develops fatigue and low-grade fevers over 6 weeks.",
+      "clues": [
+        "Dental extraction 2 months ago",
+        "New blowing holosystolic murmur at apex (mitral regurgitation)",
+        "Tender nodules on finger pads (Osler nodes)",
+        "Blood cultures: alpha-hemolytic streptococci"
+      ],
+      "answer": "Subacute bacterial endocarditis (mitral valve)",
+      "teaching": "Viridans streptococci from the oral flora caused a slow-burning infection on a previously abnormal valve (MVP). Indolent course with immune complex phenomena (Osler nodes) is classic for subacute endocarditis; treat with IV penicillin G or ceftriaxone (4 weeks)."
+    }
+  ],
+  "see_also": [
+    "acute-rheumatic-fever",
+    "mitral-valve-prolapse",
+    "heart-failure"
+  ],
+  "prerequisites": [
+    "heart-valves",
+    "bacteremia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Infectious Endocarditis (Yallowitz & Decker, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557641/"
+    },
+    {
+      "title": "UpToDate: Overview of management of infective endocarditis in adults (Wang & Chu, 2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-management-of-infective-endocarditis-in-adults"
+    },
+    {
+      "title": "AHA/ACC Scientific Statement: Infective Endocarditis in Adults (Baddour et al., Circulation 2015)",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000296"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

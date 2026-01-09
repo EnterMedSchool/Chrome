@@ -1,0 +1,99 @@
+{
+  "id": "juvenile-idiopathic-arthritis",
+  "names": ["Juvenile idiopathic arthritis"],
+  "aliases": ["juvenile rheumatoid arthritis", "juvenile chronic arthritis", "juvenile arthritis"],
+  "abbr": ["JIA", "JRA"],
+  "patterns": ["jia", "j.i.a.", "juvenile idiopathic arthritis", "juvenile rheumatoid arthritis", "juvenile chronic arthritis", "juvenile arthritis", "Still disease", "Still's disease"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "peds"],
+  "definition": "Chronic childhood arthritis (onset before age 16, duration ≥6 weeks) of unknown cause, encompassing multiple subtypes (e.g., oligoarticular, polyarticular, systemic).",
+  "why_it_matters": "Most common pediatric rheumatic disease and a cause of disability if untreated. Early recognition allows treatment to prevent joint destruction, growth disturbances, and vision loss from silent uveitis.",
+  "how_youll_see_it": [
+    "**Oligoarticular JIA** (≤4 joints): young children (esp. girls <5) with an asymmetrically swollen **knee or ankle**, often without much pain. Frequently ANA-positive (increased uveitis risk) but **RF negative**.",
+    "**Polyarticular JIA** (≥5 joints): school-age or teen patients with arthritis in many joints. RF-negative polyarthritis often affects younger kids (better prognosis), while **RF-positive** polyarthritis in adolescent girls resembles adult rheumatoid arthritis (symmetric small joints, possible nodules).",
+    "**Systemic JIA** (Still's disease): systemic inflammation precedes arthritis – daily spiking fevers (quotidian fever pattern) and a transient **salmon-pink rash** on trunk/extremities, plus organ involvement (hepatosplenomegaly, lymphadenopathy, serositis). Arthritis may begin weeks after fevers. Labs show very high inflammatory markers (ESR, ferritin).",
+    "**Enthesitis-related JIA**: older boys with lower extremity large-joint arthritis and **enthesitis** (tendon/ligament insertions inflamed, e.g., Achilles tendon). Often HLA-B27 positive; can involve the sacroiliac joints (like a juvenile ankylosing spondylitis).",
+    "**Psoriatic JIA**: arthritis associated with **psoriasis** (or nail pitting, dactylitis) in the child or a family member. Can present in young children or teens; may start as oligoarticular but can become more polyarticular. Look for chronic arthritis with rash or nail changes."
+  ],
+  "problem_solving": [
+    "Diagnosis of exclusion: chronic arthritis >6 weeks with no other cause. Always **rule out infection** (e.g., septic arthritis via joint aspiration, Lyme disease) and **malignancy** (leukemia) in a child with joint swelling.",
+    "Labs can help categorize JIA: **ANA** is often positive in oligoarticular JIA (high uveitis risk), **RF** is positive in a minority (teenage girls with RA-like disease), and **HLA-B27** is commonly seen in enthesitis-related JIA. In systemic JIA, ANA and RF are usually negative, but markers of inflammation (ESR, CRP, ferritin, WBC, platelets) are markedly elevated.",
+    "Imaging is used to assess damage and exclude other diagnoses. Early in JIA, X-rays may be normal or show soft tissue swelling; chronic disease can show **joint space narrowing**, bony erosions, or growth abnormalities (e.g., limb length discrepancy, fusion of cervical spine).",
+    "Classify the JIA subtype based on presentation (joint count, RF/ANA status, systemic features) to guide therapy. For example, oligoarticular cases might only need local therapy, whereas polyarticular or systemic cases require systemic treatment.",
+    "Monitor for extra-articular involvement: regular **slit-lamp eye exams** are essential for ANA-positive or young JIA patients (risk of asymptomatic anterior uveitis)."
+  ],
+  "differentials": [
+    { "name": "Septic arthritis", "hint": "acute onset, single hot swollen joint, child appears ill; synovial fluid with high WBC, requires urgent antibiotics/drainage" },
+    { "name": "Leukemia", "hint": "bone pain and intermittent joint pain, often with night pain or systemic symptoms; look for cytopenias or blasts in blood/bone marrow" },
+    { "name": "Reactive arthritis", "hint": "arthritis following infection (e.g., GI or GU); usually asymmetric and transient, often in adolescents; may have conjunctivitis/urethritis in older teens (Reiter syndrome)" },
+    { "id": "systemic-lupus-erythematosus", "name": "Systemic lupus erythematosus", "hint": "teen girl with multi-system involvement (fever, rash, arthritis, renal issues) and positive autoantibodies (ANA, dsDNA, etc)" }
+  ],
+  "tricks": [
+    "Daily spiking fever + evanescent salmon-pink rash = think **Still's disease** (systemic JIA) until proven otherwise.",
+    "Young children with JIA often have minimal pain – a persistent limp or morning stiffness might be the only clue to their arthritis."
+  ],
+  "exam_appearance": [
+    "Toddler girl with a painless limp and a swollen knee, no fever, but an insidious **anterior uveitis** on eye exam → Oligoarticular JIA (pauciarticular, ANA-positive).",
+    "16‑year‑old girl with symmetric swelling of the finger joints and wrists, with **positive RF** and hand x-ray showing joint erosions → Polyarticular JIA (RF-positive, similar to adult RA).",
+    "8‑year‑old child with daily fevers to 39°C, a transient macular rash on the trunk each evening, and new-onset arthritis in multiple joints → Systemic JIA (Still's disease)."
+  ],
+  "treatment": [
+    "For mild limited disease, start with **NSAIDs** (ibuprofen, naproxen) to reduce pain and inflammation. **Physical therapy** is important to maintain range of motion, and **intra-articular corticosteroid** injections can help control inflammation in an affected joint (especially for oligoarticular JIA).",
+    "**Methotrexate** (weekly) is the first-line **DMARD** for more extensive or persistent arthritis (e.g., polyarticular JIA) to prevent joint damage. Short courses of systemic corticosteroids may be used for severe flares or while waiting for DMARDs to take effect.",
+    "**Biologic** therapies are used for severe or refractory cases: TNF inhibitors (e.g., etanercept) for polyarticular JIA, or IL-1/IL-6 inhibitors (e.g., anakinra, tocilizumab) for systemic JIA. These targeted therapies can induce remission, especially when conventional treatments are inadequate."
+  ],
+  "red_flags": [
+    "**Uveitis risk**: chronic anterior uveitis (especially in ANA+ JIA) is often asymptomatic but can cause blindness – requires regular slit-lamp screenings and prompt treatment if detected.",
+    "**Macrophage activation syndrome**: a potentially fatal complication of systemic JIA marked by fever, organ failure, cytopenias, coagulopathy, and extremely high ferritin. Suspect MAS in any systemic JIA patient who deteriorates acutely; treat emergently (immunosuppression, ICU support).",
+    "Uncontrolled inflammation or prolonged steroid use can lead to **growth failure** and permanent **joint deformities** (eg, leg length discrepancy, micrognathia, joint contractures) – another reason for aggressive early therapy."
+  ],
+  "algorithm": [
+    "Chronic arthritis >6 weeks in a child <16 → Suspect JIA (after excluding infection via joint aspiration and malignancy with appropriate workup).",
+    "Order labs (ESR, CRP, ANA, RF, anti-CCP, HLA-B27) and imaging (X-ray or ultrasound) to characterize the disease and rule out other causes.",
+    "Refer to pediatric rheumatology; in the meantime, start **NSAIDs** for symptom relief (and consider intra-articular steroid injection if only 1-2 joints are involved).",
+    "If polyarticular or severe disease, initiate a **DMARD** (methotrexate) for long-term control. For systemic JIA or refractory cases, add a biologic agent (e.g., IL-1 or IL-6 inhibitor for systemic features, TNF inhibitor for polyarthritis); use systemic steroids as needed for acute inflammation.",
+    "Ensure scheduled ophthalmologic exams (every 3–12 months) for early detection of uveitis in high-risk patients (young children with ANA-positive JIA)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/The_diseases_of_children_-_medical_and_surgical_(1900)_(14781042361).jpg",
+      "alt": "Historic photograph (circa 1900) of a 3-year-old boy with systemic JIA (Still's disease), showing knee joint swelling and an enlarged liver and spleen (dotted outlines on abdomen).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:The_diseases_of_children_-_medical_and_surgical_(1900)_(14781042361).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7-year-old girl has had a limp for 2 months due to a swollen right knee. She otherwise feels well and denies pain. On exam, the knee is swollen with decreased range of motion; eye exam reveals anterior uveitis. Labs show positive ANA, negative RF.",
+      "clues": ["Chronic (>6 weeks) monoarticular arthritis", "Young child (girl)", "Painless limp", "ANA positive", "Uveitis on exam"],
+      "answer": "Oligoarticular (pauciarticular) JIA",
+      "teaching": "This is the classic presentation of oligoarticular JIA: a toddler/young girl with a swollen knee and minimal symptoms. The positive ANA indicates high risk for asymptomatic uveitis, which is why regular ophthalmologic screening is crucial. Treatment would focus on NSAIDs, joint injection, and monitoring for uveitis."
+    }
+  ],
+  "see_also": ["rheumatoid-arthritis", "systemic-lupus-erythematosus", "ankylosing-spondylitis", "psoriatic-arthritis"],
+  "prerequisites": ["immunology", "musculoskeletal-system", "inflammation"],
+  "sources": [
+    {
+      "title": "StatPearls: Juvenile Idiopathic Arthritis (Thatayatikom et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554605/"
+    },
+    {
+      "title": "UpToDate: Classification of juvenile idiopathic arthritis (Beukelman & Kim, 2023)",
+      "url": "https://www.uptodate.com/contents/classification-of-juvenile-idiopathic-arthritis"
+    },
+    {
+      "title": "Medscape: Juvenile Idiopathic Arthritis (Poduval, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/1007276-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

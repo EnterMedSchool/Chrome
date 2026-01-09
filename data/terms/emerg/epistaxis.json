@@ -1,0 +1,135 @@
+{
+  "id": "epistaxis",
+  "names": [
+    "Epistaxis"
+  ],
+  "aliases": [
+    "nosebleed",
+    "nasal hemorrhage",
+    "nasal bleeding",
+    "rhinorrhagia"
+  ],
+  "abbr": [],
+  "patterns": [
+    "epistaxis",
+    "nosebleed",
+    "nose bleed",
+    "nasal hemorrhage",
+    "nasal bleeding"
+  ],
+  "primary_tag": "emerg",
+  "tags": [
+    "pathology",
+    "surgery",
+    "emerg",
+    "peds"
+  ],
+  "definition": "Bleeding from the nose (nosebleed), usually from ruptured vessels in the nasal mucosa. Classified as anterior (≈90% of cases, from Kiesselbach's plexus on the anterior septum) versus posterior (≈5–10%, from Woodruff's plexus, often more severe).",
+  "why_it_matters": "Extremely common (up to 60% of people experience epistaxis) and one of the most frequent ENT emergencies. Most are minor and self-limited, but severe or posterior bleeds can cause significant hemorrhage, requiring urgent intervention and airway management.",
+  "how_youll_see_it": [
+    "Typically presents as unilateral anterior nasal bleeding from one nostril. Common in children and young adults (Kiesselbach's plexus) and often precipitated by nose picking or dry air.",
+    "In contrast, posterior epistaxis (e.g., from the sphenopalatine artery) occurs more in older patients (often hypertensive or on anticoagulants) and causes bleeding from both nostrils or into the throat. Posterior bleeds are often brisk and difficult to control.",
+    "Common causes include local trauma (nose picking, facial injury, nasal cannula) and irritation (dry mucosa, allergies, infection), foreign bodies (especially in kids), as well as systemic factors like hypertension, coagulopathies (von Willebrand disease, hemophilia), and medications (NSAIDs, anticoagulants). Recurrent unilateral bleeds with nasal obstruction or pain raise concern for a neoplasm (e.g., juvenile nasopharyngeal angiofibroma)."
+  ],
+  "problem_solving": [
+    "Initial assessment: ensure airway is clear (risk of aspiration in severe bleeds) and check hemodynamics. If bleeding is profuse, establish IV access and consider labs (CBC, coagulation studies) while managing the bleed.",
+    "First-aid measures: have the patient sit up and lean forward, and apply firm continuous pressure to the soft lower nose for ~10–15 minutes. A topical vasoconstrictor (e.g., oxymetazoline spray or epinephrine-soaked cotton) can be applied to help shrink mucosal vessels.",
+    "Visualization: Gently insert a nasal speculum and use a good light source to identify an anterior bleeding site (after applying a topical anesthetic). Suction any clots, as they can obscure the source. Active bleeding into the posterior pharynx without an anterior source suggests a posterior bleed.",
+    "If an anterior source is visualized, attempt chemical cautery with silver nitrate (after anesthetizing the area). Only cauterize one side of the septum to avoid perforation.",
+    "If cautery is ineffective or no source is found, perform nasal packing. For anterior bleeds, use absorbable packing (e.g., oxidized cellulose) or nasal tampons/balloons. For suspected posterior bleeds, place a posterior packing device or Foley catheter (requires expertise) and always also pack the anterior to secure the tamponade. Admit patients with posterior packing for monitoring (risk of hypoxia or bradycardia reflex). If bleeding remains uncontrolled, consult interventional radiology for arterial embolization or ENT for surgical ligation (e.g., sphenopalatine artery)."
+  ],
+  "differentials": [
+    {
+      "name": "Coagulopathy (bleeding disorder)",
+      "hint": "e.g., von Willebrand disease or platelet dysfunction – look for history of easy bruising or prolonged bleeding; abnormal coags or platelet function tests."
+    },
+    {
+      "name": "Nasal foreign body",
+      "hint": "especially in a child with unilateral, recurrent bleeding and foul nasal discharge."
+    },
+    {
+      "name": "Nasal tumor",
+      "hint": "e.g., juvenile angiofibroma or carcinoma – suspect if unilateral persistent epistaxis with nasal obstruction or mass."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: Little's area (Kiesselbach plexus on the anterior septum) is where little kids most often get nosebleeds (~90% of cases).",
+    "Have patients lean forward (head down) during a nosebleed, not back – this helps avoid swallowing blood or aspirating it.",
+    "If using silver nitrate to cauterize, limit to one side of the septum to prevent septal perforation."
+  ],
+  "exam_appearance": [
+    "Child who picks their nose frequently and has intermittent unilateral nostril bleeding that stops with pressure → anterior epistaxis from Kiesselbach's plexus.",
+    "Older hypertensive patient on warfarin with brisk bleeding from both nostrils and blood seen in the throat → posterior epistaxis (likely sphenopalatine artery) requiring packing.",
+    "Adolescent boy with recurrent severe unilateral nosebleeds and a nasal mass visible on exam → suspect juvenile nasopharyngeal angiofibroma."
+  ],
+  "treatment": [
+    "First-line: continuous direct pressure (pinching the nostrils) while leaning forward, plus topical vasoconstrictors (oxymetazoline/Afrin). Most anterior bleeds will stop with these measures.",
+    "If bleeding persists: apply local cautery (silver nitrate) to the identified source, or pack the nasal cavity with anterior nasal packing (e.g., nasal tampon or gauze strip). Apply lubricating ointment/saline to prevent mucosal drying. If packing is placed and left in situ, give anti-staphylococcal antibiotics to prevent toxic shock syndrome.",
+    "For posterior epistaxis: prompt posterior packing (with a balloon catheter or Foley) is required, and hospitalization for monitoring is recommended. Consult ENT for possible arterial ligation or endovascular embolization if bleeding remains uncontrolled. Also address underlying factors (reverse anticoagulation, control blood pressure, humidify nasal mucosa) to prevent recurrence."
+  ],
+  "red_flags": [
+    "Signs of posterior bleed (bleeding from both nares, significant blood draining into pharynx) or difficulty protecting airway → emergency intervention (posterior packing, possible intubation) and ENT consult.",
+    "Recurrent unilateral epistaxis with nasal obstruction, pain, or visible mass → consider neoplasm (e.g., angiofibroma, nasopharyngeal carcinoma).",
+    "Epistaxis in a patient on anticoagulants or with a known bleeding disorder → higher risk of severe bleeding; ensure appropriate reversal of anticoagulation and consider specialist referral."
+  ],
+  "algorithm": [
+    "Patient presents with epistaxis → ABCs first (ensure airway, hemodynamic stability).",
+    "Have patient lean forward and pinch nostrils firmly for ~10 minutes; apply topical oxymetazoline spray.",
+    "If bleeding continues, use a nasal speculum to find source → cauterize with silver nitrate if anterior source is seen.",
+    "If unsuccessful or no source visualized → perform anterior packing (nasal tampon or gauze).",
+    "Persistent bleeding or bilateral/posterior bleeding → place posterior packing (e.g., balloon catheter) and call ENT for urgent intervention (possible arterial ligation or embolization)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/18_11_13_Kiesselbach%27s_Plexus_pic.jpg",
+      "alt": "Illustration of the arterial blood supply in Kiesselbach's plexus on the nasal septum (common site of anterior nosebleeds).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:18_11_13_Kiesselbach%27s_Plexus_pic.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old man on warfarin for atrial fibrillation presents to the ED with a profuse nosebleed.",
+      "clues": [
+        "Blood is coming from both nostrils and into the oropharynx",
+        "Blood pressure is 190/100 mmHg",
+        "Pinching the nose and using oxymetazoline spray did not stop the bleeding"
+      ],
+      "answer": "Posterior epistaxis",
+      "teaching": "Posterior nosebleeds often occur in older, hypertensive patients or those on anticoagulation. They cause bleeding from both nares and into the throat, and typically require posterior nasal packing and specialist intervention."
+    }
+  ],
+  "see_also": [
+    "disseminated-intravascular-coagulation",
+    "von-willebrand-disease"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Epistaxis (Tabassom & Dahlstrom, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK435997/"
+    },
+    {
+      "title": "UpToDate: Epistaxis in adults – evaluation and management",
+      "url": "https://www.uptodate.com/contents/epistaxis-in-adults-evaluation-and-management"
+    },
+    {
+      "title": "American Family Physician: Epistaxis Outpatient Management (Womack et al., 2018)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2018/0815/p240.html"
+    },
+    {
+      "title": "Medscape: Epistaxis – Practice Essentials (Nguyen, 2024)",
+      "url": "https://emedicine.medscape.com/article/863220-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "autoimmune-hepatitis",
+  "names": ["Autoimmune hepatitis"],
+  "aliases": ["autoimmune chronic active hepatitis", "lupoid hepatitis", "plasma cell hepatitis"],
+  "abbr": ["AIH"],
+  "patterns": ["autoimmune hepatitis", "autoimmune hepatitis type 1", "autoimmune hepatitis type 2", "lupoid hepatitis", "plasma cell hepatitis", "AIH"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "pharmacology", "rheum"],
+  "definition": "Chronic, immune-mediated liver inflammation (hepatitis) caused by autoimmunity. Characterized by circulating autoantibodies (ANA, smooth muscle, etc.), ↑IgG levels, and a lymphoplasmacytic (plasma cell-rich) infiltrate in the liver. Can progress to cirrhosis if not treated.",
+  "why_it_matters": "Often affects young patients and can lead to cirrhosis or liver failure if unrecognized (fatal in ~50% within 5 years untreated), but is highly treatable (>90% long-term survival with therapy). Early diagnosis and treatment prevent irreversible liver damage. Frequently tested due to its classic autoantibody profile and dramatic response to immunosuppression.",
+  "how_youll_see_it": [
+    "Commonly seen in young or middle-aged women (3–4:1 female predominance; onset often in late teens–20s or 40s–50s) with chronic fatigue, malaise, and maybe mild right upper quadrant pain; many are asymptomatic until abnormal LFTs are noted.",
+    "Initial presentation ranges from mild hepatitis (elevated AST/ALT with fatigue) to acute hepatitis with jaundice or even fulminant liver failure (especially in children). Physical exam may be normal or show signs of chronic liver disease (hepatomegaly, spider angiomas).",
+    "Type 1 (classic) AIH: can occur at any age (often young adults); associated with ANA and/or smooth muscle (ASMA) antibodies; often coexists with other autoimmune diseases (thyroiditis, celiac, RA).",
+    "Type 2 AIH: less common (mostly in children, especially girls); positive anti-LKM1 (liver-kidney microsomal) antibodies (± anti-LC1); tends to present more acutely and can progress rapidly to cirrhosis."
+  ],
+  "problem_solving": [
+    "Exclude other causes: check viral hepatitis serologies (HAV, HBV, HCV) and review medications/herbals for drug-induced liver injury.",
+    "Look for autoantibodies: for type 1, ANA and smooth muscle antibody; for type 2, anti-LKM1 (± anti-LC1). Also check total IgG level (typically markedly elevated in AIH).",
+    "Obtain a liver biopsy to confirm the diagnosis and assess severity (shows interface hepatitis with plasma cells) and to help exclude other pathologies.",
+    "Consider using the AIH scoring criteria (e.g., simplified IAIHG criteria) which incorporate autoantibodies, IgG level, histology, and exclusion of viral markers to support the diagnosis."
+  ],
+  "differentials": [
+    { "name": "Viral hepatitis (acute/chronic)", "hint": "positive viral markers (HBsAg, anti-HCV, etc.); history of risk factors or exposures" },
+    { "name": "Drug-induced hepatitis", "hint": "history of offending drug or supplement (e.g., minocycline, nitrofurantoin can trigger AIH-like syndrome)" },
+    { "id": "primary-biliary-cholangitis", "hint": "middle-aged woman with cholestatic pattern (↑ALP, bilirubin) and anti-mitochondrial antibodies" },
+    { "id": "primary-sclerosing-cholangitis", "hint": "young man with IBD (ulcerative colitis), cholestatic LFTs, p-ANCA positive; beading of bile ducts on imaging" }
+  ],
+  "tricks": [
+    "Classic biopsy finding: interface hepatitis with many plasma cells (hence \"plasma cell hepatitis\").",
+    "Serum IgG is often extremely elevated in AIH (hypergammaglobulinemia is a clue for autoimmune cause).",
+    "Remember: Type 1 = ANA/SMA in Adults; Type 2 = anti-LKM in Kids."
+  ],
+  "exam_appearance": [
+    "A 23‑year‑old woman with fatigue, mild jaundice, ↑ALT/AST, ↑IgG, positive ANA and smooth muscle antibody → Autoimmune hepatitis (Type 1).",
+    "A 10‑year‑old girl with acute liver failure (jaundice, coagulopathy, encephalopathy) and positive anti‑LKM1 → Type 2 autoimmune hepatitis (fulminant presentation)."
+  ],
+  "treatment": [
+    "Corticosteroids (e.g., high‑dose prednisone) are first-line to induce remission (improvement in ~80% of patients).",
+    "Azathioprine (an immunosuppressant) is added for maintenance or steroid-sparing; if azathioprine is not tolerated, alternatives like mycophenolate can be used.",
+    "Treatment is typically prolonged (years, often lifelong) to prevent relapse; most patients require long-term low-dose immunosuppression.",
+    "Liver transplantation for patients with fulminant hepatitis or end-stage cirrhosis; AIH is a common indication for transplant if medical therapy fails."
+  ],
+  "red_flags": [
+    "Coagulopathy (INR >1.5) or any encephalopathy in an AIH patient = acute liver failure → urgent transplant evaluation is needed.",
+    "Rapidly worsening LFTs and bilirubin despite therapy (especially in a child with AIH) indicate a risk of fulminant failure – escalate care (ICU, transplant center)."
+  ],
+  "algorithm": [
+    "Persistent ↑transaminases (especially in a young female or patient with other autoimmune disease) → suspect autoimmune hepatitis.",
+    "Exclude other etiologies: test for viral hepatitis (A, B, C) and stop any hepatotoxic drugs; meanwhile, check ANA, SMA, and LKM1 autoantibodies and IgG level.",
+    "If autoantibodies and high IgG suggest AIH → confirm with liver biopsy (shows interface hepatitis with plasma cells) and assess fibrosis stage.",
+    "Start immunosuppressive therapy (prednisone ± azathioprine) once AIH is diagnosed (or sooner if presentation is severe) to induce remission.",
+    "Monitor LFTs and IgG for improvement; taper steroids gradually to maintenance; if no improvement or signs of liver failure, refer for transplant."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Autoimmune_hepatitis_-_low_mag.jpg",
+      "alt": "Low magnification micrograph of autoimmune hepatitis with lymphoplasmacytic interface hepatitis (plasma cells and lymphocytes infiltrating at the portal–lobule interface).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Autoimmune_hepatitis_-_low_mag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old woman with a history of Hashimoto thyroiditis is evaluated for fatigue and abdominal discomfort.",
+      "clues": [
+        "AST and ALT ~5× upper limit of normal; ALP near normal",
+        "Serum globulin (IgG) is markedly elevated",
+        "Positive ANA and smooth muscle (actin) antibodies",
+        "Liver biopsy: interface hepatitis with plasma cell infiltrates"
+      ],
+      "answer": "Autoimmune hepatitis (Type 1)",
+      "teaching": "Classic presentation of AIH in a middle-aged woman with another autoimmune disease. High transaminases and IgG, plus ANA/SMA positivity, confirm AIH. Corticosteroids (plus azathioprine) would be indicated to prevent progression to cirrhosis."
+    },
+    {
+      "stem": "An 11‑year‑old girl with no significant past medical history presents with jaundice and confusion.",
+      "clues": [
+        "Very high AST/ALT (>1000 U/L) and total bilirubin",
+        "Prolonged PT/INR and hepatic encephalopathy (fulminant hepatitis)",
+        "Negative viral hepatitis panel",
+        "Positive anti–LKM1 antibody"
+      ],
+      "answer": "Type 2 autoimmune hepatitis (fulminant)",
+      "teaching": "This pediatric patient has acute liver failure (encephalopathy and coagulopathy) caused by autoimmune hepatitis type 2. Type 2 AIH often affects children and can progress to fulminant hepatic failure. Urgent immunosuppressive therapy and consideration of liver transplant are needed."
+    }
+  ],
+  "see_also": ["hepatitis", "primary-biliary-cholangitis", "wilson-disease", "cirrhosis", "chronic-hepatitis", "acute-hepatitis"],
+  "prerequisites": ["liver-histology", "immunology"],
+  "sources": [
+    { "title": "StatPearls: Autoimmune Hepatitis (Linzay et al., 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK459186/" },
+    { "title": "UpToDate: Overview of autoimmune hepatitis in adults", "url": "https://www.uptodate.com/contents/overview-of-autoimmune-hepatitis-in-adults" },
+    { "title": "AASLD Practice Guideline: Diagnosis and Management of Autoimmune Hepatitis (2019)", "url": "https://journals.lww.com/hep/Fulltext/2020/08000/Diagnosis_and_Management_of_Autoimmune_Hepatitis.24.aspx" },
+    { "title": "NEJM: Autoimmune Hepatitis (Krawitt, 2006)", "url": "https://pubmed.ncbi.nlm.nih.gov/16394302/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

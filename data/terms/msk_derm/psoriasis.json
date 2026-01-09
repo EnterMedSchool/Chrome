@@ -1,0 +1,116 @@
+{
+  "id": "psoriasis",
+  "names": ["Psoriasis"],
+  "aliases": ["psoriasis vulgaris", "plaque psoriasis"],
+  "abbr": [],
+  "patterns": ["psoriasis", "psoriatic", "psoriasis vulgaris", "plaque psoriasis"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "immunology", "rheum"],
+  "definition": "Chronic immune-mediated inflammatory skin disorder characterized by clearly defined, erythematous and scaly plaques.",
+  "why_it_matters": "Common (≈2% of people) and not just skin-deep: psoriasis is a multisystem inflammatory disease that significantly impacts quality of life. Associated with comorbidities like **psoriatic arthritis**, **metabolic syndrome**, **cardiovascular disease**, **inflammatory bowel disease**, and depression, and severe flares (e.g. pustular, erythrodermic) can be life-threatening.",
+  "how_youll_see_it": [
+    "**Plaque psoriasis** (most common): Well-demarcated red plaques with **silvery-white scale**, usually on **extensor** surfaces (elbows, knees, scalp); often symmetric, sometimes with **itch**.",
+    "**Guttate psoriasis**: Widespread small teardrop-shaped papules with fine scale, often acute onset after **streptococcal** throat infection (younger patients).",
+    "**Inverse (flexural) psoriasis**: Involves intertriginous areas (axillae, groin, inframammary); presents as smooth, red, **shiny** patches with minimal scale in skin folds.",
+    "**Pustular psoriasis**: Sterile pustules on an erythematous base. Can be localized (e.g. palmoplantar) or generalized (**von Zumbusch** variant with fever and systemic toxicity). Generalized pustular flares are serious medical emergencies.",
+    "**Erythrodermic psoriasis**: Diffuse erythema and scaling over most of the body (>80–90% BSA); skin loses its barrier function, leading to risk of hypo-/hyperthermia, infection, and cardiac failure."
+  ],
+  "problem_solving": [
+    "Diagnosis is usually **clinical**; a skin biopsy is reserved for atypical or uncertain cases.",
+    "If biopsied, classic findings include **acanthosis** (epidermal hyperplasia) with **parakeratosis** (retained nuclei in stratum corneum) and **Munro microabscesses** (neutrophil clusters in stratum corneum).",
+    "Assess disease severity by body surface area (%BSA involved) and impact on patient. <3% BSA is mild, >10% is severe (often requires systemic therapy).",
+    "Check for triggers or exacerbating factors: recent **infections** (especially streptococcal), **medications** (lithium, beta-blockers, antimalarials, steroid withdrawal), and stress.",
+    "Evaluate for **psoriatic arthritis** in all psoriasis patients (ask about joint pain/stiffness, examine for nail pitting or onycholysis which often correlate with arthritis)."
+  ],
+  "differentials": [
+    {
+      "name": "Atopic dermatitis (eczema)",
+      "hint": "Usually flexural, very pruritic, poorly defined lesions; often a personal or family history of atopy"
+    },
+    {
+      "name": "Tinea corporis (ringworm)",
+      "hint": "Annular lesion with an active scaly border and central clearing; KOH prep of scale shows fungal hyphae"
+    },
+    {
+      "name": "Seborrheic dermatitis",
+      "hint": "Greasy yellowish scales on scalp/face; responds to anti-dandruff shampoos"
+    }
+  ],
+  "tricks": [
+    "**Auspitz sign**: pinpoint bleeding when a scale is scraped off (due to dilated dermal capillaries).",
+    "**Koebner phenomenon**: new psoriasis plaques often appear at sites of skin injury or trauma (e.g. scratches, surgery scars).",
+    "Nail involvement (pitting, onycholysis) is common and associated with **psoriatic arthritis** (if you see nail pitting + joint pain on exams, think psoriasis)."
+  ],
+  "exam_appearance": [
+    "Adult with chronic **extensor** elbow and knee plaques covered by silvery-white scale, and **nail pitting** → plaque psoriasis.",
+    "Young patient with dozens of small **drop-like** scaly lesions erupting after a strep throat infection → **guttate** psoriasis."
+  ],
+  "treatment": [
+    "**Mild** (limited BSA): High-potency **topical corticosteroids** (± vitamin D analogues like calcipotriene) are first-line; additional options include topical retinoids (tazarotene), calcineurin inhibitors (for inverse areas), coal tar, salicylic acid, and moisturizers.",
+    "**Moderate**: **Phototherapy** (narrowband UVB) is effective for widespread lesions. If phototherapy is unavailable or psoriasis is progressing, use **systemic** agents (e.g. **methotrexate** – the most common systemic treatment, or **cyclosporine** for rapid control, or oral **retinoids** like acitretin especially for pustular or palmoplantar psoriasis).",
+    "**Severe** or refractory (or psoriatic arthritis present): **Biologic therapies** (monoclonal antibodies targeting TNF-α, IL-17, IL-23, etc.) can induce remission in moderate-to-severe psoriasis. Examples: TNF inhibitors (etanercept, infliximab), IL-17 inhibitors (secukinumab), IL-12/23 or IL-23 inhibitors (ustekinumab, guselkumab). These require screening for latent infections and regular monitoring.",
+    "Avoid **oral corticosteroids** in psoriasis flares – while they can temporarily suppress lesions, tapering off can trigger severe rebound flares (pustular or erythrodermic psoriasis)."
+  ],
+  "red_flags": [
+    "**Erythroderma** (generalized >90% skin redness and scaling) in psoriasis – can cause dehydration, hypothermia, high-output cardiac failure; requires hospitalization and urgent dermatologic care.",
+    "**Generalized pustular psoriasis** – presents with diffuse sterile pustules, fever, leukocytosis; high risk of sepsis and electrolyte imbalances. This is a dermatologic emergency (often ICU-level care)."
+  ],
+  "algorithm": [
+    "Chronic scaly rash on extensor surfaces → **suspect psoriasis**; look for well-demarcated plaques with silvery scale and nail changes.",
+    "Rule out tinea (KOH test) or other mimics if uncertain. **If diagnosis is in doubt, perform skin biopsy** to confirm psoriasiform changes.",
+    "Assess **severity**: determine %BSA (≤3% mild, 3–10% moderate, ≥10% severe) and check for joint involvement (psoriatic arthritis).",
+    "For **mild** disease, start topicals (steroids ± vitamin D analogs). For **moderate** disease, consider phototherapy or add systemic agents (e.g. methotrexate). For **severe** disease or arthritis, use biologics or combination therapy.",
+    "Monitor over time for treatment response and manage comorbidities (cardiovascular risk, depression, arthritis) in collaboration with primary care and rheumatology."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Psoriasis_001.jpg",
+      "alt": "Plaque psoriasis on the elbow (well-demarcated erythematous plaque with silvery scale).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Psoriasis_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 34‑year‑old man has a 5-year history of an intermittently itchy rash on his elbows and knees.",
+      "clues": [
+        "Well-demarcated red plaques with silvery scale on extensor surfaces",
+        "Several fingernails show pitting and distal onycholysis",
+        "Removing a scale leads to pinpoint bleeding",
+        "No fever or systemic symptoms"
+      ],
+      "answer": "Plaque psoriasis",
+      "teaching": "Chronic plaque psoriasis presents with extensor distribution of scaly plaques and nail pitting. The **Auspitz sign** (pinpoint bleeding when scales are removed) is characteristic. Psoriasis is an immune-mediated disease; first-line therapy for limited plaque psoriasis is topical high-potency steroids (often with vitamin D analogues)."
+    }
+  ],
+  "see_also": ["psoriatic-arthritis", "atopic-dermatitis", "lichen-planus"],
+  "prerequisites": ["skin-histology", "immune-system"],
+  "sources": [
+    {
+      "title": "StatPearls: Psoriasis (Nair & Badri, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448194/"
+    },
+    {
+      "title": "UpToDate: Psoriasis – Epidemiology, clinical manifestations, and diagnosis",
+      "url": "https://www.uptodate.com/contents/psoriasis-epidemiology-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "DermNet NZ: Psoriasis (updated 2023)",
+      "url": "https://dermnetnz.org/topics/psoriasis"
+    },
+    {
+      "title": "AAD Clinical Guidelines: Psoriasis (Menter et al., 2019)",
+      "url": "https://www.aad.org/member/clinical-quality/guidelines/psoriasis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

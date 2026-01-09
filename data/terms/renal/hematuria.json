@@ -1,0 +1,142 @@
+{
+  "id": "hematuria",
+  "names": [
+    "Hematuria"
+  ],
+  "aliases": [
+    "blood in urine",
+    "haematuria",
+    "erythrocyturia"
+  ],
+  "abbr": [],
+  "patterns": [
+    "hematuria",
+    "haematuria",
+    "blood in urine",
+    "gross hematuria",
+    "microscopic hematuria",
+    "microhematuria"
+  ],
+  "primary_tag": "renal",
+  "tags": [
+    "pathology",
+    "renal"
+  ],
+  "definition": "Presence of blood in the urine (typically **≥3 RBCs/HPF** on microscopy). **Gross hematuria** is visible blood (urine appearing red, pink, or tea-colored); **microscopic hematuria** is only detectable on urinalysis.",
+  "why_it_matters": "In adults, even mild hematuria can be the first sign of a serious problem (e.g., malignancy), so it should never be ignored. It's a common exam topic because its differential is broad (infections, stones, cancers, glomerular diseases) and it demands a systematic workup.",
+  "how_youll_see_it": [
+    "Often discovered as either **gross hematuria** (patient notices red, pink, or cola-colored urine) or **microscopic hematuria** (incidentally found on dipstick/microscopy).",
+    "**Painful** hematuria points to causes like stones or infection (e.g., flank pain with nephrolithiasis, dysuria with UTI), whereas **painless** hematuria is a red flag for malignancy (e.g., bladder cancer).",
+    "**Glomerular** hematuria (from kidney filters) tends to cause **brown/tea-colored** urine with **dysmorphic RBCs**, **RBC casts**, and possibly proteinuria; in contrast, bleeding from the ureters, bladder, or urethra is usually **bright red** and may include **blood clots** (no casts)."
+  ],
+  "problem_solving": [
+    "Verify true hematuria: repeat urinalysis with microscopy to confirm ≥3 RBC/HPF, and exclude **false positives** (menstrual blood, beet/pigment ingestion, muscle injury causing myoglobinuria).",
+    "Differentiate **glomerular vs. non-glomerular** source: glomerular origin is indicated by **RBC casts**, dysmorphic RBCs, and concurrent proteinuria (think **nephritic syndrome**), whereas normal-appearing RBCs or visible clots suggest an extraglomerular (urologic) source.",
+    "Use clinical clues: e.g., colicky flank pain → suspect a kidney **stone**; dysuria, fever → **UTI**; recent pharyngitis → consider post-streptococcal **glomerulonephritis**. Note that hematuria in an anticoagulated patient still warrants workup (anticoagulation can unmask an underlying lesion rather than being the sole cause).",
+    "Localize by timing of bleeding: **initial hematuria** (at start of urination) suggests a urethral source; **terminal hematuria** (at end of stream) points to bladder neck or prostate; **total hematuria** (throughout void) implies bleeding from the kidney or ureter.",
+    "Risk-stratify and investigate: All patients with gross hematuria or high-risk features (age >40, smoking history) require imaging of the urinary tract (often **CT urography**) and **cystoscopy** to evaluate for tumors or stones. Low-risk patients with isolated microscopic hematuria can be followed conservatively after an initial negative workup, but any new gross bleeding warrants re-evaluation."
+  ],
+  "differentials": [
+    {
+      "name": "Urinary tract infection",
+      "hint": "usually presents with **dysuria**, urgency, possibly fever; positive urine culture"
+    },
+    {
+      "name": "Nephritic syndrome",
+      "hint": "glomerular hematuria with **RBC casts**, **hypertension**, edema, and proteinuria (e.g., post-streptococcal GN, IgA nephropathy)"
+    },
+    {
+      "name": "Bladder cancer",
+      "hint": "classically **painless** gross hematuria in an older adult (especially smokers); often no other symptoms"
+    },
+    {
+      "name": "Trauma",
+      "hint": "history of abdominal or flank injury (e.g., fall, motor vehicle accident) causing kidney or bladder damage"
+    }
+  ],
+  "tricks": [
+    "Visible **blood clots** in urine point to a **non-glomerular** source (glomerular hematuria usually doesn't clot).",
+    "Mnemonic **\"HITTERS\"** for hematuria causes: **H**ematologic (coagulopathy), **I**nfection (UTI), **T**rauma, **T**umor (renal/bladder cancer), **E**xercise, **R**enal (glomerular disease), **S**tones.",
+    "Don't dismiss hematuria in an older patient (even if on blood thinners) – painless hematuria is **cancer until proven otherwise**."
+  ],
+  "exam_appearance": [
+    "Older male smoker with painless gross hematuria and no other symptoms → suspect **bladder cancer** (transitional cell carcinoma).",
+    "Sudden onset of unilateral flank pain radiating to the groin + hematuria → classic **kidney stone** (ureterolithiasis causing renal colic).",
+    "Cola-colored urine with RBC casts after a recent upper respiratory infection → indicates **IgA nephropathy** (Berger disease, a glomerular cause of hematuria)."
+  ],
+  "treatment": [
+    "Address the **underlying cause**: e.g., antibiotics for UTI, lithotripsy or surgery for stones, stop offending drugs (like anticoagulants if safe), immunosuppressives for glomerulonephritis, or appropriate oncologic/surgical treatment for tumors (bladder or kidney cancer, BPH).",
+    "For significant gross hematuria with **clot retention** (patients unable to void due to clots), initiate bladder irrigation (place a large 3-way Foley catheter for continuous irrigation) and manually remove clots as needed to prevent obstruction.",
+    "If hematuria is asymptomatic and microscopic with no high-risk features, often no immediate intervention is needed apart from periodic monitoring (ensure it doesn't progress or indicate an evolving pathology)."
+  ],
+  "red_flags": [
+    "**Painless gross hematuria** (especially in adults >40 or smokers) – highly concerning for **urothelial carcinoma** (bladder or upper tract cancer) until proven otherwise; mandates prompt urologic evaluation.",
+    "Hematuria with **unexplained weight loss** or a **flank mass** – raises suspicion for **renal cell carcinoma** (kidney cancer).",
+    "Heavy hematuria with **clots** causing difficulty urinating – risk of bladder tamponade (urinary retention); this is a urologic emergency requiring urgent clot evacuation."
+  ],
+  "algorithm": [
+    "Dipstick positive for blood → confirm with microscopic exam (≥3 RBC/HPF); rule out benign causes like menses or exercise.",
+    "If **infection** is present (e.g., UTI), treat it and then recheck urine in a few weeks to ensure hematuria resolves (infection and malignancy can coexist).",
+    "If **glomerular** findings (proteinuria, casts, impaired kidney function), pursue nephrology workup (serologies for glomerulonephritis, consider kidney biopsy).",
+    "If **no glomerular signs** or gross hematuria, proceed with imaging (e.g., CT urography or renal ultrasound) to inspect kidneys/ureters, and perform **cystoscopy** to directly visualize the bladder.",
+    "If initial evaluation is unrevealing, continue to monitor periodically (repeat urinalysis in ~6–12 months). Educate patients to report any new episodes of gross hematuria immediately, as that would warrant repeat comprehensive evaluation."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_presence_of_blood_in_urine_bag.jpg",
+      "alt": "Gross hematuria (blood-tinged urine) collected in a urinary catheter bag.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:The_presence_of_blood_in_urine_bag.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 60‑year‑old man with a 40-pack-year smoking history reports intermittent episodes of red-colored urine. He has no pain, dysuria, or fevers. Physical exam is unremarkable.",
+      "clues": [
+        "Painless gross hematuria (bright red urine)",
+        "No flank pain or dysuria",
+        "Long smoking history",
+        "Urinalysis: numerous RBCs, no casts"
+      ],
+      "answer": "Bladder cancer (transitional cell carcinoma of the bladder)",
+      "teaching": "Painless gross hematuria in an older smoker is classic for bladder cancer (usually transitional cell carcinoma). In this scenario, the lack of infection signs or glomerular indicators (no RBC casts or protein) points to a urinary tract lesion. Any such case warrants cystoscopic evaluation to confirm the diagnosis."
+    }
+  ],
+  "see_also": [
+    "nephritic-syndrome",
+    "glomerulonephritis",
+    "polycystic-kidney-disease"
+  ],
+  "prerequisites": [
+    "urinalysis",
+    "nephron"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gross and Microscopic Hematuria (Leslie et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534213/"
+    },
+    {
+      "title": "UpToDate: Evaluation of hematuria in adults (2025)",
+      "url": "https://www.uptodate.com/contents/evaluation-of-hematuria-in-adults"
+    },
+    {
+      "title": "Hematuria (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/981898-overview"
+    },
+    {
+      "title": "NEJM: Hematuria in Adults (Ingelfinger, 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34233098/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

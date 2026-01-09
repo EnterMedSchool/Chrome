@@ -1,0 +1,122 @@
+{
+  "id": "thrombotic-thrombocytopenic-purpura",
+  "names": ["Thrombotic thrombocytopenic purpura"],
+  "aliases": ["Moschcowitz syndrome"],
+  "abbr": ["TTP"],
+  "patterns": ["ttp", "thrombotic thrombocytopenic purpura", "Moschcowitz"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "emerg", "pharmacology"],
+  "definition": "Life-threatening thrombotic microangiopathy caused by severe ADAMTS13 deficiency (usually autoimmune), leading to ultra-large vWF multimers and platelet-rich microthrombi; results in microangiopathic hemolysis and organ ischemia.",
+  "why_it_matters": "Historically >90% fatal if untreated, but now highly survivable with prompt therapy. It's a hematologic emergency—timely plasma exchange is life-saving. Frequently appears on exams due to its classic pentad and the importance of urgent treatment.",
+  "how_youll_see_it": [
+    "Typically an adult (20–50s, often female) with acute or subacute onset of neurologic symptoms (confusion, seizures, stroke-like deficits) along with signs of anemia (fatigue, pallor) and thrombocytopenia (petechiae, bruising).",
+    "Fever and renal impairment can occur (the classic \"FAT RN\" pentad: Fever, Anemia [MAHA], Thrombocytopenia, Renal failure, Neurologic deficits), but the full pentad is present in only ~20–30% of cases.",
+    "Usually idiopathic (immune-mediated ADAMTS13 inhibitor). Some cases are drug-induced (e.g., ticlopidine, clopidogrel, quinine, gemcitabine) or associated with pregnancy, HIV, or malignancy."
+  ],
+  "problem_solving": [
+    "Suspect TTP when you see thrombocytopenia + MAHA (microangiopathic hemolytic anemia: schistocytes on smear, ↑LDH, ↑indirect bilirubin, ↓haptoglobin) with normal coagulation tests (distinguishes from DIC).",
+    "Do not wait for ADAMTS13 assay results – if TTP is suspected, initiate plasma exchange immediately (draw sample for ADAMTS13 first, but treat based on clinical picture). Early plasma exchange removes autoantibodies and replenishes ADAMTS13, halting microthrombosis.",
+    "Differentiate from look-alikes: HUS (often child post-E. coli diarrhea, more renal failure, minimal neuro signs) and ITP (isolated platelets↓, no hemolysis or schistocytes). If in doubt, treat for TTP first, as delaying therapy can be fatal."
+  ],
+  "differentials": [
+    { "id": "hemolytic-uremic-syndrome", "hint": "child with triad (MAHA + low platelets + AKI) after diarrheal illness; minimal neuro involvement" },
+    { "id": "disseminated-intravascular-coagulation", "hint": "consumptive coagulopathy: ↑PT/PTT, low fibrinogen, ↑D-dimer; causes diffuse bleeding + fibrin-rich clots (sepsis, trauma, obstetric complications)" },
+    { "id": "immune-thrombocytopenic-purpura", "name": "Immune thrombocytopenic purpura (ITP)", "hint": "isolated thrombocytopenia; no MAHA (no schistocytes, normal LDH), normal coagulation studies" }
+  ],
+  "tricks": [
+    "Mnemonic: FAT RN for TTP's pentad – Fever, Anemia (microangiopathic hemolysis), Thrombocytopenia, Renal failure, Neurologic deficits.",
+    "Normal PT/PTT in TTP: clotting factors are not consumed (helps distinguish TTP/HUS from DIC)."
+  ],
+  "exam_appearance": [
+    "Confused patient with petechiae, schistocytes on smear, ↑LDH, and normal coagulation studies → TTP (requires emergent plasma exchange).",
+    "Anemia with fragmented RBCs, thrombocytopenia, and slight creatinine elevation in an adult with no recent infection → suspect TTP (even if no fever or obvious neuro symptoms, treat immediately)."
+  ],
+  "treatment": [
+    "Plasma exchange (plasmapheresis with FFP) ASAP – first-line, lifesaving therapy (removes autoantibodies & replaces ADAMTS13).",
+    "High-dose corticosteroids (e.g., IV methylprednisolone) – given concurrently to suppress immune-mediated ADAMTS13 inhibition.",
+    "Caplacizumab (anti-vWF nanobody) – added in acquired TTP to prevent platelet-vWF binding; improves platelet recovery and reduces relapse risk.",
+    "Rituximab – often used in refractory or relapsing TTP to eliminate anti-ADAMTS13 B-cells and maintain remission."
+  ],
+  "red_flags": [
+    "Do NOT delay plasma exchange – untreated TTP has ~90% mortality; start treatment on suspicion (each hour counts).",
+    "Avoid platelet transfusions in active TTP (unless life-threatening hemorrhage) – infusing platelets can worsen microthrombi formation."
+  ],
+  "algorithm": [
+    "Thrombocytopenia + hemolytic anemia (schistocytes, ↑LDH) → suspect TTP (especially if neuro or renal signs, and no DIC).",
+    "Emergent workup: draw labs (CBC, smear, hemolysis labs, BUN/Cr, PT/PTT, ADAMTS13 level) but do NOT wait for results to start therapy.",
+    "Begin plasmapheresis (plasma exchange) immediately and administer high-dose steroids. If acquired TTP, also give caplacizumab as adjunct.",
+    "Monitor daily platelet count and LDH. If inadequate response, escalate therapy (e.g., add rituximab). Continue plasma exchange until platelets normalize and hemolysis resolves."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Schistocytes.jpg",
+      "alt": "Peripheral blood smear with multiple schistocytes (fragmented red blood cells).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Schistocytes.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old woman presents with confusion, headache, and easy bruising over one week.",
+      "clues": [
+        "Platelet count 15,000/µL (severely low)",
+        "Peripheral smear: numerous schistocytes",
+        "LDH is markedly elevated",
+        "PT and aPTT are normal",
+        "Creatinine is mildly elevated"
+      ],
+      "answer": "Thrombotic thrombocytopenic purpura",
+      "teaching": "Acquired TTP due to an autoantibody against ADAMTS13. The resulting ADAMTS13 deficiency causes ultra-large vWF multimers that trigger widespread platelet microthrombi, leading to MAHA and organ ischemia (brain, kidneys). This is a medical emergency—immediate plasma exchange is required to prevent fatal outcomes."
+    },
+    {
+      "stem": "A 50‑year‑old man is found to have anemia and thrombocytopenia (with scattered petechiae) during an evaluation for fatigue. He has no fever or history of recent infection.",
+      "clues": [
+        "Hemoglobin 8.9 g/dL with schistocytes on blood smear",
+        "Platelets 30,000/µL",
+        "Indirect bilirubin and LDH are markedly elevated; haptoglobin is undetectable",
+        "Coagulation studies (PT/PTT) are within normal limits",
+        "No recent diarrhea or other obvious triggers"
+      ],
+      "answer": "Thrombotic thrombocytopenic purpura",
+      "teaching": "Even without the full pentad, the combination of microangiopathic hemolytic anemia and thrombocytopenia (with normal coagulation) is highly suggestive of TTP. This patient likely has acquired TTP; the appropriate action is to initiate plasma exchange immediately (do not wait for ADAMTS13 confirmation) along with steroids. Prompt treatment is life-saving."
+    }
+  ],
+  "see_also": [
+    "hemolytic-uremic-syndrome",
+    "disseminated-intravascular-coagulation",
+    "stroke",
+    "chronic-kidney-disease"
+  ],
+  "prerequisites": [
+    "coagulation",
+    "hematology-basics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Thrombotic Thrombocytopenic Purpura (Stanley et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430721/"
+    },
+    {
+      "title": "UpToDate: Immune TTP – initial treatment (Sayani & Abrams, 2025)",
+      "url": "https://www.uptodate.com/contents/immune-ttp-initial-treatment"
+    },
+    {
+      "title": "Thrombotic Thrombocytopenic Purpura: Pathophysiology, Diagnosis, and Management (J Clin Med, 2021)",
+      "url": "https://doi.org/10.3390/jcm10030536"
+    },
+    {
+      "title": "Thrombotic Thrombocytopenic Purpura (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/206598-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+/* EnterMedSchool's Glossary - Font Declarations */
+/* Playful Chunky Design System - Matching Anki addon */
+
+/* 
+ * FONT LOADING STRATEGY:
+ * 1. Load bundled woff2 files
+ * 2. Fall back to excellent system fonts
+ * 
+ * Bundled fonts:
+ * - Bricolage Grotesque (Display/Headings - chunky, playful)
+ * - DM Sans (Body text - clean, readable)
+ */
+
+/* Bricolage Grotesque - Display/Headings */
+@font-face {
+    font-family: 'Bricolage Grotesque';
+    src: url('BricolageGrotesque-Variable.woff2') format('woff2');
+    font-weight: 400 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* DM Sans - Body Text */
+@font-face {
+    font-family: 'DM Sans';
+    src: url('DMSans-Variable.woff2') format('woff2');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fallback system font stacks - excellent alternatives */
+:root {
+    /* Display: Bricolage Grotesque -> System Display Fonts */
+    --ems-font-display: 'Bricolage Grotesque', 
+                        'SF Pro Display', 
+                        'Segoe UI', 
+                        system-ui, 
+                        -apple-system, 
+                        sans-serif;
+    
+    /* Body: DM Sans -> System Body Fonts */
+    --ems-font-body: 'DM Sans', 
+                     'SF Pro Text', 
+                     'Segoe UI', 
+                     system-ui, 
+                     -apple-system, 
+                     sans-serif;
+    
+    /* Handwritten: Cursive fallbacks (no bundled font) */
+    --ems-font-handwritten: 'Segoe Script',
+                            'Bradley Hand',
+                            cursive;
+    
+    /* Mono: For code snippets */
+    --ems-font-mono: 'SF Mono', 
+                     'Cascadia Code', 
+                     'Consolas', 
+                     'Monaco', 
+                     monospace;
+}
+
+/* Utility classes */
+.ems-font-display {
+    font-family: var(--ems-font-display);
+}
+
+.ems-font-body {
+    font-family: var(--ems-font-body);
+}
+
+.ems-font-handwritten {
+    font-family: var(--ems-font-handwritten);
+}
+
+.ems-font-mono {
+    font-family: var(--ems-font-mono);
+}

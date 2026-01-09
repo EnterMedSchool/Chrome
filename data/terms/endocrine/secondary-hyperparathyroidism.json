@@ -1,0 +1,112 @@
+{
+  "id": "secondary-hyperparathyroidism",
+  "names": ["Secondary hyperparathyroidism"],
+  "aliases": ["renal hyperparathyroidism", "reactive hyperparathyroidism"],
+  "abbr": ["SHPT"],
+  "patterns": ["secondary hyperparathyroidism", "secondary HPT", "renal osteodystrophy"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "renal"],
+  "definition": "Excess PTH production secondary to chronic hypocalcemia (or hyperphosphatemia). Typically caused by **chronic kidney disease** (CKD) with decreased phosphate excretion and vitamin D activation. Also seen with vitamin D deficiency or malabsorption. The parathyroid glands are normal but respond to low Ca by enlarging and overproducing PTH (unlike primary HPT which is an intrinsic gland problem).",
+  "why_it_matters": "Secondary HPT is a major component of CKD–mineral bone disorder. Persistent high PTH leads to **renal osteodystrophy** (bone pain, fractures, skeletal deformities) and extra-skeletal calcifications (vascular or soft tissue calcification) in kidney failure patients. Controlling secondary HPT in CKD reduces skeletal complications and improves patient outcomes. It's important to differentiate secondary vs primary HPT by lab values: secondary has high PTH with low/normal Ca (in contrast to primary HPT's high Ca).",
+  "how_youll_see_it": [
+    "**Chronic kidney disease** patients, especially with GFR <30 (Stage 4–5) or on dialysis: present with diffuse bone and joint pain, muscle weakness, and calcific deposits in skin causing itching (pruritus). Skeletal exam may show bone fragility or skeletal deformities (e.g., \"rugger-jersey\" spine on X-ray).",
+    "Lab findings: **hypocalcemia** (or low-normal Ca), **hyperphosphatemia** (in CKD), and markedly ↑PTH. If due to vitamin D deficiency (without CKD), phosphate may be low or normal, but Ca is low and PTH high.",
+    "In **vitamin D deficiency** or malabsorption (e.g., celiac disease): secondary HPT can manifest as osteomalacia (bone pain, pseudofractures) in adults or rickets in children. These patients have high PTH due to chronic hypocalcemia from low vitamin D."
+  ],
+  "problem_solving": [
+    "Determine the cause of high PTH with low Ca: check renal function (BUN/Cr, GFR) and 25-OH vitamin D level in any patient with elevated PTH and no hypercalcemia.",
+    "CKD management: control **hyperphosphatemia** (dietary phosphate restriction and phosphate binders) and ensure adequate **vitamin D** levels (supplement vitamin D3 if deficient; use calcitriol or analogs if CKD stage 4–5) to reduce PTH drive.",
+    "Monitor trends: in CKD, PTH levels rise as GFR falls – monitor PTH periodically. Escalate therapy if PTH exceeds target range (e.g., add calcitriol or calcimimetics) to prevent severe bone disease.",
+    "Differentiate from tertiary HPT: tertiary is suspected when a CKD patient develops high Ca along with high PTH (parathyroids become autonomous). In secondary HPT, Ca remains low or normal. So a rise in Ca in a dialysis patient signals tertiary hyperparathyroidism.",
+    "No need for localization imaging in secondary HPT: all parathyroid glands are diffusely hyperplastic (imaging is reserved for primary/tertiary when planning surgery)."
+  ],
+  "differentials": [
+    { "id": "primary-hyperparathyroidism", "hint": "**High PTH** but with **high calcium** (not low) – due to parathyroid adenoma" },
+    { "id": "tertiary-hyperparathyroidism", "hint": "Persistent high PTH with **high Ca** in a patient with history of long-standing secondary HPT (post-CKD/autonomous glands)" },
+    { "name": "Vitamin D deficiency (isolated)", "hint": "Technically a cause of secondary HPT (not a different diagnosis), but consider other causes of hypocalcemia (hypoparathyroidism, etc.) if PTH is not elevated appropriately." }
+  ],
+  "tricks": [
+    "Remember: in secondary HPT, **PTH is high, Ca is low** – opposite of primary/tertiary where both PTH and Ca are high.",
+    "Radiologic clues: secondary HPT causes **subperiosteal bone resorption** (erosions on radial aspect of middle phalanges) and **\"salt-and-pepper\" skull** and **rugger-jersey spine** on X-ray due to chronic high PTH.",
+    "Severe secondary HPT (untreated) can cause calcific deposition in arteries and skin (calciphylaxis) – highlighting the need for aggressive management in ESRD."
+  ],
+  "exam_appearance": [
+    "Dialysis patient with high phosphate, low calcium, very high PTH, and bone pain → secondary hyperparathyroidism due to CKD (renal osteodystrophy).",
+    "Elderly patient with malnutrition (or GI malabsorption) who has bone pain and muscle weakness; labs show low vitamin D, hypocalcemia, elevated PTH → secondary HPT from vitamin D deficiency (causing osteomalacia)."
+  ],
+  "treatment": [
+    "Treat the underlying cause: for CKD, manage **phosphate** and **vitamin D**. Use phosphate binders (e.g., sevelamer, calcium acetate) with meals to reduce phosphate absorption, and supplement **active vitamin D** (calcitriol or analogs) to increase Ca absorption and directly suppress PTH.",
+    "Add **calcimimetics** like cinacalcet (especially in dialysis patients) to trick parathyroid glands into reducing PTH secretion – this lowers PTH and calcium levels. Aim to keep PTH in an acceptable range rather than completely normal (to avoid adynamic bone).",
+    "In vitamin D deficiency, replenish vitamin D (ergocalciferol or cholecalciferol) and calcium as needed – this will decrease PTH. Monitor PTH after correction to ensure it normalizes.",
+    "Refractory cases: if PTH remains extremely high (>800–1000) despite medical therapy, or if there's calciphylaxis, a surgical **subtotal parathyroidectomy** may be indicated even before transplant."
+  ],
+  "red_flags": [
+    "**Calciphylaxis**: uncontrolled secondary HPT with high Ca×P product can lead to calcific uremic arteriolopathy – painful skin ulcers and gangrene with high mortality; requires urgent intervention (aggressive medical therapy, consider parathyroidectomy).",
+    "Emergence of **hypercalcemia** in a patient with secondary HPT (especially post-transplant) → indicates tertiary HPT (autonomous PTH) and need for surgical management."
+  ],
+  "algorithm": [
+    "CKD Stage 3+ or other risk factor → screen for rising PTH, Ca, phosphate.",
+    "If **PTH elevated + Ca low/normal** → secondary HPT. Address vitamin D status: replace 25-OH D if low; limit dietary phosphate.",
+    "If PTH remains high and GFR <30 or phosphate high → start **phosphate binders** and low-phosphate diet; add active **vitamin D (calcitriol)** to suppress PTH.",
+    "In dialysis patients, if PTH is above target (e.g., >300–600) despite binders and calcitriol → add **cinacalcet** (calcimimetic) to further reduce PTH.",
+    "If PTH is persistently very high and patient has hypercalcemia or severe bone pain/calcifications → consult surgery for possible parathyroidectomy (prevent progression to tertiary HPT)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Rugger-Jersey-Wirbelsaeule_bei_Hyperparathyreoidismus_66M_-_CR_seitlich_-_001.jpg",
+      "alt": "Lateral spine X-ray showing the \"rugger-jersey spine\" appearance (sclerotic bands at vertebral endplates) in secondary hyperparathyroidism.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Rugger-Jersey-Wirbelsaeule_bei_Hyperparathyreoidismus_66M_-_CR_seitlich_-_001.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old man with end-stage renal disease on long-term hemodialysis has severe bone and joint pain and diffuse itching.",
+      "clues": [
+        "10 years on dialysis for ESRD",
+        "Calcium 7.5 mg/dL (low)",
+        "Phosphate 6.8 mg/dL (high)",
+        "Intact PTH 920 pg/mL (very high)"
+      ],
+      "answer": "Secondary hyperparathyroidism (renal osteodystrophy in CKD)",
+      "teaching": "This dialysis patient's lab profile (low Ca, high phosphate, very high PTH) is classic for secondary HPT due to CKD. High PTH is causing renal osteodystrophy (bone pain) and pruritus from calcium-phosphate skin deposition. Treatment: phosphate binders, calcitriol, and cinacalcet; if unresponsive, consider parathyroidectomy."
+    },
+    {
+      "stem": "A 45‑year‑old woman with celiac disease reports chronic bone pain and proximal muscle weakness.",
+      "clues": [
+        "Malabsorption (celiac sprue)",
+        "Low 25-OH vitamin D level",
+        "Calcium 8.0 mg/dL (low)",
+        "PTH 300 pg/mL (elevated)"
+      ],
+      "answer": "Secondary hyperparathyroidism due to vitamin D deficiency",
+      "teaching": "Malabsorption from celiac disease led to vitamin D deficiency, causing hypocalcemia and a compensatory rise in PTH (secondary HPT). The patient has osteomalacia (bone pain, muscle weakness) from chronic low vitamin D. Treatment is vitamin D and calcium supplementation, which will lower PTH and improve her symptoms."
+    }
+  ],
+  "see_also": ["hyperparathyroidism", "primary-hyperparathyroidism", "tertiary-hyperparathyroidism", "rickets"],
+  "prerequisites": ["chronic-kidney-disease", "vitamin-d"],
+  "sources": [
+    {
+      "title": "StatPearls: Secondary Hyperparathyroidism (Muppidi & Rehman, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557822/"
+    },
+    {
+      "title": "National Kidney Foundation: Secondary Hyperparathyroidism",
+      "url": "https://www.kidney.org/atoz/content/secondary_hyperparathyroidism"
+    },
+    {
+      "title": "UpToDate: Management of secondary hyperparathyroidism in CKD",
+      "url": "https://www.uptodate.com/contents/management-of-secondary-hyperparathyroidism-in-ckd"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

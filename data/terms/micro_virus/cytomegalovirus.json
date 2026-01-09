@@ -1,0 +1,146 @@
+{
+  "id": "cytomegalovirus",
+  "names": [
+    "Cytomegalovirus"
+  ],
+  "aliases": [
+    "Human cytomegalovirus",
+    "human herpesvirus 5",
+    "HHV-5",
+    "cytomegalovirus infection"
+  ],
+  "abbr": [
+    "CMV"
+  ],
+  "patterns": [
+    "cytomegalovirus",
+    "CMV",
+    "HCMV",
+    "HHV-5",
+    "cytomegalovirus infection",
+    "cytomegalic inclusion disease"
+  ],
+  "primary_tag": "micro_virus",
+  "tags": [
+    "pathology",
+    "micro_virus",
+    "infectious_dz",
+    "obgyn",
+    "peds"
+  ],
+  "definition": "Ubiquitous human **β-herpesvirus** (HHV-5) that establishes lifelong latency; usually asymptomatic or mononucleosis-like in healthy people, but can cause **congenital infection** (most common congenital virus) and severe opportunistic disease in immunocompromised patients (e.g., retinitis in AIDS). Classic histopathology shows enlarged cells with **\"owl's eye\"** intranuclear inclusions.",
+  "why_it_matters": "CMV is the most common congenital viral infection (a leading cause of non-genetic deafness in children) and a major opportunistic pathogen in transplant and HIV/AIDS patients, so recognizing and preventing it is critical.",
+  "how_youll_see_it": [
+    "**Healthy individuals**: often asymptomatic or a mild **mononucleosis-like** illness (fever, fatigue, atypical lymphocytes) but with **negative heterophile** (Monospot) test.",
+    "**Congenital CMV**: newborn with **jaundice**, **hepatosplenomegaly**, **petechial \"blueberry muffin\" rash**, **microcephaly**, **chorioretinitis**, and **sensorineural hearing loss**. Neuroimaging classically shows **periventricular calcifications**.",
+    "**Immunocompromised (e.g., transplant, AIDS)**: reactivation causes **end-organ disease** like **retinitis** (floaters, vision loss, hemorrhagic retinal lesions), **esophagitis** (odynophagia with large linear ulcers on endoscopy), **colitis** (diarrhea, abdominal pain), or **pneumonitis**."
+  ],
+  "problem_solving": [
+    "Distinguish **EBV vs CMV** in mono-like illness: EBV causes heterophile-positive mononucleosis, whereas CMV mononucleosis is heterophile-negative (Monospot test negative).",
+    "Confirm **congenital CMV** by detecting the virus in the infant's saliva or urine within 2–3 weeks of birth (PCR or culture). Newborn hearing test is important, as CMV is a leading cause of infant hearing loss.",
+    "In transplant patients, donor/recipient **CMV serostatus** guides prevention strategy; high-risk patients often receive **valganciclovir prophylaxis** or frequent monitoring of CMV PCR (DNAemia) with preemptive therapy to prevent disease.",
+    "**Tissue diagnosis**: biopsy of affected tissue (e.g., colon, lung, esophagus) can show characteristic CMV inclusions (\"owl's eye\" cells) and is the gold standard to confirm invasive disease (often supplemented by immunohistochemistry for CMV)."
+  ],
+  "differentials": [
+    {
+      "name": "Epstein–Barr virus (EBV)",
+      "hint": "More common cause of mononucleosis with **pharyngitis**, lymphadenopathy, and **heterophile-positive** (Monospot) test"
+    },
+    {
+      "name": "Herpes simplex virus (HSV)",
+      "hint": "Neonatal HSV is usually acquired during delivery (causing localized lesions or encephalitis, not in utero malformations). In immunosuppressed, HSV can cause esophagitis but typically with small, deep ulcers (vs CMV's large linear ulcers)."
+    },
+    {
+      "name": "Congenital toxoplasmosis",
+      "hint": "Another TORCH infection; classically causes **chorioretinitis**, **hydrocephalus**, and diffuse intracranial calcifications (vs periventricular in CMV)"
+    },
+    {
+      "name": "Congenital rubella",
+      "hint": "TORCH infection causing **deafness**, **cataracts**, and **heart defects** (PDA); often distinguished by **cataracts** and no calcifications, plus a similar 'blueberry muffin' rash"
+    }
+  ],
+  "tricks": [
+    "Remember **\"sight-o-megalovirus\"**: CMV retinitis in AIDS (CD4 <50) can cause blindness if not treated (pizza-pie appearance on fundoscopy).",
+    "CMV is the **C in TORCH** infections and the leading cause of congenital viral hearing loss.",
+    "Owl's eye inclusions on histology are pathognomonic for CMV (gigantic cells with central intranuclear viral inclusion).",
+    "Monospot-negative **mononucleosis** (heterophile antibody test is negative) in an adult is often due to CMV."
+  ],
+  "exam_appearance": [
+    "**HIV/AIDS patient (CD4 count <50)** with progressive vision loss and fundoscopic exam showing hemorrhages and fluffy white exudates (\"pizza pie\" retinopathy) → CMV **retinitis**; treat with ganciclovir.",
+    "**Neonate** with **petechiae**, **jaundice**, **hepatosplenomegaly**, and **periventricular calcifications** on head imaging → **congenital CMV** infection (risk of hearing loss).",
+    "**College student** with prolonged fever and fatigue but **negative Monospot test** → **CMV mononucleosis** (heterophile-negative)."
+  ],
+  "treatment": [
+    "No specific therapy needed for immunocompetent patients with mild CMV (supportive care).",
+    "**Ganciclovir** (IV) or **valganciclovir** (oral) are first-line antivirals for CMV disease in immunocompromised patients and for symptomatic congenital CMV infection (they inhibit viral DNA polymerase).",
+    "For ganciclovir-resistant CMV (e.g., due to UL97 mutation): use **foscarnet** or **cidofovir** as second-line agents (but they have significant toxicity).",
+    "In transplant recipients, **valganciclovir** is often used prophylactically (or preemptively) to prevent CMV disease in high-risk cases."
+  ],
+  "red_flags": [
+    "In an immunosuppressed patient, new **floaters or visual disturbances** → urgent ophthalmologic evaluation for CMV **retinitis** (to prevent permanent vision loss).",
+    "**Symptomatic congenital CMV** (e.g., seizures, hearing impairment at birth) → start antiviral therapy (e.g., valganciclovir) in the neonatal period to improve neurologic and hearing outcomes."
+  ],
+  "algorithm": [
+    "Suspected mononucleosis → perform heterophile antibody test (Monospot); if **negative** but clinical suspicion remains, test for **CMV IgM** to confirm CMV mononucleosis.",
+    "Pregnancy: if **primary CMV infection** is confirmed (seroconversion or IgM positive) or ultrasound shows fetal abnormalities, offer amniocentesis for **CMV PCR** to diagnose fetal infection. After birth, test newborn's saliva or urine for CMV by PCR/culture within 3 weeks if congenital infection is suspected.",
+    "If **congenital CMV** is confirmed in a symptomatic infant → initiate **valganciclovir** treatment early (within first month) to improve hearing and developmental outcomes.",
+    "Immunocompromised patient with organ-specific symptoms (e.g., retinitis, colitis) → check quantitative **CMV DNA PCR** in blood and consider tissue biopsy for confirmation. Start **ganciclovir** (or valganciclovir) promptly if CMV disease is suspected."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Cytomegalovirus_01.jpg",
+      "alt": "Lung tissue histology showing a CMV-infected cell with a large \"owl's eye\" intranuclear inclusion.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cytomegalovirus_01.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-week-old newborn presents with jaundice, a diffuse petechial rash, and microcephaly.",
+      "clues": [
+        "Hepatosplenomegaly",
+        "Periventricular calcifications on cranial ultrasound",
+        "Failed newborn hearing screen",
+        "Mother had a mild febrile illness during pregnancy"
+      ],
+      "answer": "Congenital CMV infection (cytomegalovirus)",
+      "teaching": "CMV acquired in utero (a TORCH infection) causes microcephaly, periventricular brain calcifications, petechiae (\"blueberry muffin\" rash from extramedullary hematopoiesis), and is the leading cause of non-genetic hearing loss. Treat symptomatic congenital CMV with valganciclovir to improve hearing outcomes."
+    }
+  ],
+  "see_also": [
+    "toxoplasmosis",
+    "rubella",
+    "torch-infections"
+  ],
+  "prerequisites": [
+    "herpesviruses"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Cytomegalovirus Infections (Gupta & Shorman, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459185/"
+    },
+    {
+      "title": "CDC: Cytomegalovirus (CMV) and Congenital CMV Infection (2025)",
+      "url": "https://www.cdc.gov/cytomegalovirus/about/index.html"
+    },
+    {
+      "title": "UpToDate: Cytomegalovirus infection in pregnancy (Whitley & Cloud, 2024)",
+      "url": "https://www.uptodate.com/contents/cytomegalovirus-infection-in-pregnancy"
+    },
+    {
+      "title": "Medscape: Pediatric Cytomegalovirus Infection (Schleiss, 2023)",
+      "url": "https://emedicine.medscape.com/article/963090-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

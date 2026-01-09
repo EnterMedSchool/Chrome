@@ -1,0 +1,119 @@
+{
+  "id": "spondyloarthritides",
+  "names": ["Spondyloarthritides"],
+  "aliases": ["seronegative spondyloarthropathies", "seronegative arthritis"],
+  "abbr": ["SpA"],
+  "patterns": [
+    "spondyloarthritides",
+    "spondyloarthritis",
+    "seronegative spondyloarthropathy",
+    "HLA-B27 arthritis",
+    "enthesitis-related arthritis"
+  ],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology", "msk_derm"],
+  "definition": "Family of inflammatory **arthritides** characterized by axial skeletal involvement (sacroiliac joints, spine), **enthesitis** (inflammation at tendon/ligament insertions), and a strong association with **HLA‑B27**. They are **seronegative** (negative rheumatoid factor) and include **ankylosing spondylitis**, **psoriatic arthritis**, **reactive arthritis**, **IBD-associated arthritis**, and others.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ankylosing_spondylitis_lumbar_spine.jpg",
+      "alt": "Lateral lumbar spine X-ray showing syndesmophyte fusion (bamboo spine) in advanced ankylosing spondylitis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Ankylosing_spondylitis_lumbar_spine.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "These disorders often strike **young adults**, causing chronic pain and disability (spinal fusion, joint destruction) if untreated. They commonly appear on exams linking back pain with **eye**, **skin**, or **GI** symptoms (e.g., uveitis, psoriasis, colitis). Recognizing inflammatory back pain (improves with exercise, not rest) and the classic extra-articular features can differentiate spondyloarthritides from more common back pain etiologies.",
+  "how_youll_see_it": [
+    "**Young patients (typically age <40)** with chronic low back pain and **morning stiffness** >30 minutes that **improves with activity** (inflammatory back pain). Pain often insidious in onset and may awaken in the second half of the night; may have alternating buttock pain (from sacroiliitis).",
+    "Asymmetric **peripheral arthritis** can occur (especially lower limbs). Characteristic **dactylitis** (\"sausage digits\" – diffuse swelling of a finger/toe) and **enthesitis** (tender insertion of Achilles tendon or plantar fascia) are common clues, especially in psoriatic or reactive arthritis.",
+    "Extra-articular features: acute **anterior uveitis** (unilateral eye pain, redness, photophobia) in ~25% of patients with ankylosing spondylitis; **psoriatic skin lesions** and nail pitting in psoriatic arthritis; **inflammatory bowel disease** (Crohn or ulcerative colitis) in enteropathic arthritis; history of recent GI or GU infection in reactive arthritis. Often **HLA‑B27 positive** (e.g., >90% in ankylosing spondylitis; ~50% in others), and **ESR/CRP elevated** during active disease."
+  ],
+  "problem_solving": [
+    "Recognize **inflammatory back pain**: age <40, insidious onset, >3 months duration, morning stiffness improved by exercise (vs mechanical back pain which worsens with activity and improves with rest). These features → evaluate for spondyloarthritis.",
+    "Imaging is key: start with X-ray of the **sacroiliac joints** – look for **sacroiliitis** (subchondral sclerosis, erosions, eventual fusion). If X-ray is normal but clinical suspicion is high (early disease), get an **MRI** of SI joints to catch active inflammation or erosion.",
+    "Lab tests: **HLA‑B27** testing is supportive (not diagnostic) – strongly positive in AS, variably in others. Inflammatory markers (**ESR, CRP**) are often elevated. **Rheumatoid factor** and anti-CCP are characteristically **negative** (hence \"seronegative\").",
+    "Distinguish from other arthritides: spondyloarthritides usually have **asymmetric** arthritis (often lower extremities) and spinal involvement. In contrast, **rheumatoid arthritis** is symmetric, primarily hands/feet, and usually spares the spine (except cervical). Also check for DIP joint involvement or dactylitis (seen in psoriatic, not RA).",
+    "If peripheral joints are significantly involved, perform **arthrocentesis** for any acutely swollen joint to exclude septic arthritis or crystalline arthritis – spondyloarthritis can coexist with these, so don't miss an infection."
+  ],
+  "differentials": [
+    { "id": "rheumatoid-arthritis", "hint": "symmetric small-joint polyarthritis; usually **RF/anti-CCP+**; spares axial skeleton (except cervical)" },
+    { "name": "Mechanical back pain", "hint": "degenerative or musculoskeletal pain (disk disease); worsens with activity, better with rest; normal inflammatory markers" },
+    { "name": "Diffuse idiopathic skeletal hyperostosis", "abbr": ["DISH"], "hint": "flowing anterior spine osteophytes in older adults; can resemble \"bamboo spine\" but **normal SI joints** and no inflammation" }
+  ],
+  "tricks": [
+    "Remember **PAIR**: **P**soriatic arthritis, **A**nkylosing spondylitis, **I**BD-related arthritis, **R**eactive arthritis – the major spondyloarthritides.",
+    "**Sausage digit** (dactylitis) on exam → think psoriatic or reactive arthritis (seronegative) rather than RA.",
+    "**Inflammatory back pain** (morning stiffness, better with exercise) in a young adult is a red flag for spondyloarthritis.",
+    "Classic teaching: **\"Can't see, can't pee, can't climb a tree\"** – refers to the triad of conjunctivitis, urethritis, and arthritis in reactive arthritis."
+  ],
+  "exam_appearance": [
+    "28-year-old man with 6 months of low back pain and stiffness that improves throughout the day, limited chest expansion, and X-ray showing bilateral sacroiliitis → **Ankylosing spondylitis**.",
+    "45-year-old patient with **psoriasis** develops nail pitting and a swollen, painful finger (\"sausage digit\") involving the DIP joint → **Psoriatic arthritis**.",
+    "23-year-old man, 2 weeks after a dysenteric diarrhea, now has knee and ankle arthritis and urethral discharge with conjunctivitis → **Reactive arthritis** (Reiter syndrome).",
+    "35-year-old woman with Crohn's disease flares who experiences knee arthritis during flares and back stiffness even in remission → **Enteropathic (IBD-associated) arthritis**."
+  ],
+  "treatment": [
+    "**NSAIDs** (e.g., naproxen, indomethacin) are first-line for pain and stiffness (often dramatic benefit in ankylosing spondylitis). Encourage **exercise and physical therapy** to maintain posture and mobility, especially in axial disease.",
+    "**Sulfasalazine** or **methotrexate** can help peripheral arthritis (e.g., in psoriatic or IBD-associated arthritis), but these conventional DMARDs do **not** significantly help axial symptoms.",
+    "For advanced or refractory disease, especially axial involvement, use **biologic** agents: **TNF-α inhibitors** (eg, infliximab, etanercept) or **IL-17 inhibitors** (eg, secukinumab) which can reduce inflammation and slow progression. (In psoriatic arthritis, IL-12/23 inhibitors or PDE4 inhibitors like apremilast are additional options.)",
+    "Treat associated conditions: e.g., topical or systemic therapy for **psoriasis**, antibiotics for underlying infection in reactive arthritis (treat chlamydia if present), and optimal control of IBD. **Local corticosteroid injections** can help enthesitis or a persistently inflamed peripheral joint; however, systemic glucocorticoids are generally not used long-term (they're not very effective for axial disease).",
+    "Multidisciplinary care: coordinate between rheumatology, ophthalmology (for uveitis management with local steroids), dermatology (psoriasis management), and gastroenterology (IBD therapy) as needed."
+  ],
+  "red_flags": [
+    "Back pain with **red flag** features (unexplained weight loss, fever, nighttime pain unrelieved by movement, neurologic deficits) → consider **infection** or **malignancy** in the spine rather than assuming spondyloarthritis.",
+    "Known ankylosing spondylitis with sudden severe back pain or neurologic signs after minor trauma → suspect a **spinal fracture** in a brittle fused spine (requires urgent imaging). Also, watch for signs of **cauda equina syndrome** (incontinence, saddle anesthesia) in longstanding AS, which is rare but serious.",
+    "Do not overlook a **septic joint**: if a spondyloarthritis patient has an acutely hot, swollen joint with fever, perform arthrocentesis – they can still get septic arthritis, which is an emergency."
+  ],
+  "algorithm": [
+    "Chronic back pain age <40 with inflammatory features (morning stiffness, better with exercise) → **suspect spondyloarthritis**.",
+    "Obtain **pelvic X-ray** (SI joints): if sacroiliitis is present, that supports diagnosis (ankylosing spondylitis if criteria met). If X-ray normal but suspicion high, do **MRI** of SI joints.",
+    "Check **HLA-B27** status and inflammatory markers (ESR/CRP); negative RF/CCP helps exclude RA if peripheral joints involved.",
+    "Identify subtype: look for psoriasis (→ psoriatic), IBD history (→ enteropathic), recent infection (→ reactive), or just isolated axial disease (ankylosing spondylitis).",
+    "Start **NSAIDs and exercise** for axial symptoms; refer to rheumatology for further management. Treat any underlying trigger (infection or IBD) and involve appropriate specialists. Escalate to biologics if needed for uncontrolled disease."
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old man has had 8 months of low back pain and stiffness. It is worst in the morning and improves after he moves around for a while. He also recalls an episode of eye pain and blurry vision last year that was diagnosed as uveitis.",
+      "clues": ["Back pain improves with exercise", "Morning stiffness > 1 hour", "X-ray: bilateral sacroiliitis", "Acute anterior uveitis history", "HLA‑B27 positive"],
+      "answer": "Ankylosing spondylitis",
+      "teaching": "Chronic inflammatory back pain in a young man with uveitis is classic for AS. HLA‑B27 is positive in >90%. X-ray confirmation of sacroiliitis clinches it. Treat with NSAIDs and exercise; TNF inhibitors for severe cases."
+    },
+    {
+      "stem": "A 26‑year‑old man presents with pain and swelling in his right knee and left ankle. He had a self-limited diarrheal illness about 3 weeks ago. On exam he also has a red, painful eye and some dysuria.",
+      "clues": ["Recent Campylobacter diarrhea", "Asymmetric oligoarthritis", "Urethritis and conjunctivitis", "Heel pain (Achilles enthesitis)"],
+      "answer": "Reactive arthritis (Reiter syndrome)",
+      "teaching": "This is the classic presentation of reactive arthritis: a post-infectious asymmetric arthritis with conjunctivitis and urethritis. It often follows GI infection (Campylobacter, etc.) or Chlamydia. Manage with NSAIDs; also treat any underlying infection (e.g., doxycycline for Chlamydia). Most cases resolve in 6-12 months."
+    }
+  ],
+  "see_also": [
+    "ankylosing-spondylitis",
+    "psoriatic-arthritis",
+    "reactive-arthritis",
+    "enteropathic-arthritis",
+    "undifferentiated-spondyloarthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Seronegative Spondyloarthropathy (Sen & Goyal, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459356/"
+    },
+    {
+      "title": "UpToDate: Overview of the clinical manifestations and classification of spondyloarthritis",
+      "url": "https://www.uptodate.com/contents/overview-of-the-clinical-manifestations-and-classification-of-spondyloarthritis"
+    },
+    {
+      "title": "Medscape: Enteropathic Arthropathies (2024)",
+      "url": "https://emedicine.medscape.com/article/334746-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

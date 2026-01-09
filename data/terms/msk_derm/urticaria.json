@@ -1,0 +1,95 @@
+{
+  "id": "urticaria",
+  "names": ["Urticaria (Hives)"],
+  "aliases": ["hives", "nettlerash"],
+  "abbr": [],
+  "patterns": ["urticaria", "hives", "wheals", "welts", "nettle rash"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "pharmacology", "immunology"],
+  "definition": "Pruritic, circumscribed wheals (**hives**) due to transient dermal edema from mast cell histamine release. Lesions are raised with blanching centers and typically resolve within 24 hours without scarring.",
+  "why_it_matters": "Very common (∼20% lifetime incidence) and usually benign, but can herald life-threatening **anaphylaxis** if severe. High-yield for exams as a prototype allergic reaction and urgent management scenario.",
+  "how_youll_see_it": [
+    "Intensely itchy, red or skin-colored wheals with pale centers; individual lesions appear and fade within hours.",
+    "Acute urticaria (<6 weeks): often provoked by an allergen (foods, drugs, insect stings) or infection. Chronic urticaria (≥6 weeks): usually idiopathic (80–90% of cases), often with an autoimmune basis (IgE or IgE receptor autoantibodies).",
+    "Inducible (physical) subtypes: specific triggers cause hives – e.g., **dermatographism** (stroking skin), **cold urticaria**, **cholinergic urticaria** (exercise/heat), delayed pressure urticaria.",
+    "Angioedema (deeper swelling of lips, eyelids, etc.) accompanies ~40% of cases, especially in severe episodes. Isolated angioedema without hives suggests a different mechanism (e.g., ACE inhibitor, C1 esterase inhibitor deficiency).",
+    "Children often get acute hives after viral infections; chronic spontaneous urticaria is more common in adults (especially middle-aged women)."
+  ],
+  "problem_solving": [
+    "Always assess for **anaphylaxis** in a patient with urticaria (airway, breathing, circulation) – if present, administer IM epinephrine immediately.",
+    "Remove or avoid identifiable triggers (new medications, foods, cold exposure, etc.) and treat any underlying cause (e.g., infection).",
+    "Extensive lab workup is usually not necessary. For chronic cases, consider targeted tests (e.g., **TSH** for autoimmune thyroid disease) based on history.",
+    "If individual lesions persist >24–48 hours or heal with bruising, suspect **urticarial vasculitis** (requires further evaluation/biopsy)."
+  ],
+  "differentials": [
+    { "id": "urticarial-vasculitis", "hint": "painful urticarial lesions lasting >24 hours with residual purpura/bruising" },
+    { "id": "hereditary-angioedema", "hint": "recurrent angioedema without urticaria; C1 esterase inhibitor deficiency (bradykinin-mediated)" }
+  ],
+  "tricks": [
+    "Remember the **6×6 rule**: <6 weeks = acute (likely external trigger), ≥6 weeks = chronic (usually idiopathic).",
+    "Each wheal lasts <1 day; if 'hives' persist in one spot >24 hours and leave a stain, think **urticarial vasculitis** instead."
+  ],
+  "exam_appearance": [
+    "Child recovering from a viral infection develops transient widespread hives (wheals) but is otherwise well → acute urticaria from infection.",
+    "Middle-aged woman with daily hives for 2+ months and occasional lip swelling; +anti-thyroid (TPO) antibodies → chronic autoimmune urticaria (associated with Hashimoto thyroiditis).",
+    "After a peanut exposure, patient gets hives, throat tightness, and hypotension → **anaphylaxis** (IgE-mediated systemic reaction; requires epinephrine)."
+  ],
+  "treatment": [
+    "Avoid precipitating factors (allergens, NSAIDs, extreme temperatures, stress).",
+    "First-line: daily non-sedating H1 blockers (2nd-generation antihistamines like cetirizine, loratadine). If needed, ↑ dose up to 2–4× standard or add H2 blocker (ranitidine) or leukotriene modifier (montelukast).",
+    "For severe flares, a short course of oral corticosteroids can be used. Any signs of anaphylaxis (airway compromise, hypotension) → IM epinephrine immediately.",
+    "Refractory chronic urticaria: consider **omalizumab** (anti-IgE mAb) which is highly effective. Immunosuppressants like cyclosporine are alternative options in specialist care."
+  ],
+  "red_flags": [
+    "Angioedema involving the tongue or larynx, respiratory distress, or hypotension with hives → indicates **anaphylaxis**; administer epinephrine without delay."
+  ],
+  "algorithm": [
+    "Check ABCs: if anaphylaxis present (hypotension, stridor/bronchospasm) → epinephrine IM + airway management.",
+    "If only urticaria: give oral H1 antihistamine (non-sedating) and remove suspected triggers; observe response.",
+    "Determine acute vs chronic (6-week cutoff). For chronic cases, perform focused workup (e.g., thyroid antibodies, infection screen) based on clinical suspicion.",
+    "Escalate therapy as needed: increase antihistamine dose or add adjunct (H2 blocker, montelukast); if refractory, refer for omalizumab or cyclosporine."
+  ],
+  "cases": [
+    {
+      "stem": "A 8-year-old boy develops a generalized, itchy, raised rash (see image) after recovering from a viral URI. The rash consists of transient blanching wheals that resolve within hours. He is otherwise well with normal vital signs.",
+      "clues": ["Age 8, recent infection", "pruritic blanching wheals that come and go", "no other symptoms"],
+      "answer": "Acute urticaria likely triggered by recent infection (viral).",
+      "teaching": "Acute urticaria in children often follows infections; it's self-limited and managed with antihistamines. Monitor for any progression to anaphylaxis, but in isolated urticaria vital signs remain stable."
+    },
+    {
+      "stem": "A 45-year-old woman has had near-daily hives for the past 3 months with no identifiable trigger. She often develops large itchy wheals in the evenings, sometimes accompanied by swelling of her lips or eyelids. Lab tests are unremarkable except positive anti-thyroid peroxidase antibodies.",
+      "clues": ["Hives ≥6 weeks (chronic)", "middle-aged woman", "angioedema episodes", "anti-TPO antibodies"],
+      "answer": "Chronic spontaneous (idiopathic) urticaria, likely autoimmune (association with Hashimoto thyroiditis).",
+      "teaching": "Chronic urticaria (≥6 weeks) is often idiopathic/autoimmune. Thyroid autoimmunity is a common association. Treat with daily non-sedating antihistamines; omalizumab is indicated if refractory."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/42/Dermatographic_urticaria.jpg",
+      "alt": "Dermatographic urticaria: \"skin writing\" causing raised wheals forming the letters 'L50.3' on the skin",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Dermatographic_urticaria.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["anaphylaxis", "atopic-dermatitis"],
+  "prerequisites": ["hypersensitivity-type-i"],
+  "sources": [
+    { "title": "Hives (urticaria) – Wikipedia", "url": "https://en.wikipedia.org/wiki/Hives" },
+    { "title": "Schaefer, P. \"Acute and Chronic Urticaria: Evaluation and Treatment.\" AAFP 95(11):717-724 (2017)", "url": "https://www.aafp.org/pubs/afp/issues/2017/0601/p717.html" },
+    { "title": "Mehta S, et al. \"Chronic Urticaria.\" StatPearls [Internet]. (Updated Dec 2025)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK555910/" },
+    { "title": "Zuberbier T, et al. \"The international guideline for the definition, classification, diagnosis, and management of urticaria.\" Allergy. 2022;77(3):734-766.", "url": "https://pubmed.ncbi.nlm.nih.gov/34536239/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

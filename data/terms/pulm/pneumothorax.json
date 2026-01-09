@@ -1,0 +1,122 @@
+{
+  "id": "pneumothorax",
+  "names": ["Pneumothorax"],
+  "aliases": ["collapsed lung"],
+  "abbr": ["PTX"],
+  "patterns": [
+    "pneumothorax",
+    "collapsed lung",
+    "spontaneous pneumothorax",
+    "tension pneumothorax",
+    "traumatic pneumothorax",
+    "iatrogenic pneumothorax"
+  ],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "surgery", "emerg", "radiology"],
+  "definition": "Air in the pleural space leading to partial or complete lung collapse. Types include spontaneous (without trauma, either primary in healthy individuals or secondary due to lung disease), traumatic (injury-related), iatrogenic (caused by medical procedures), and tension pneumothorax (one-way valve effect causing rising intrathoracic pressure).",
+  "why_it_matters": "Can be rapidly fatal if missed (tension pneumothorax causes obstructive shock); a classic emergency scenario on boards and in practice requiring immediate recognition and treatment.",
+  "how_youll_see_it": [
+    "Sudden unilateral pleuritic chest pain and shortness of breath. Primary spontaneous typically in a tall, thin young male (often a smoker) at rest; secondary spontaneous occurs in older patients with underlying lung disease (e.g., COPD, cystic fibrosis) and can cause more severe respiratory distress even with a smaller collapse.",
+    "Common triggers: chest trauma (e.g., rib fracture from a motor vehicle accident or a stabbing causing an open \"sucking\" chest wound) and iatrogenic causes (e.g., lung biopsy, central line placement, mechanical ventilation barotrauma). Patients with these risk factors who develop acute pleuritic pain and hypoxia should raise concern for pneumothorax.",
+    "Physical exam: unilateral chest expansion is reduced on the affected side, with absent breath sounds, decreased tactile fremitus, and hyperresonant percussion. There may be subcutaneous emphysema (air under the skin) in traumatic cases. Tachycardia is common; if the pneumothorax is large, the patient may appear in respiratory distress."
+  ],
+  "problem_solving": [
+    "If tension pneumothorax is suspected (unstable patient with hypotension, distended neck veins, tracheal deviation), do not wait for imaging – perform immediate needle decompression to relieve pressure.",
+    "In other cases, obtain a chest X-ray to confirm the pneumothorax (look for a visceral pleural line with no lung markings beyond it). On a supine film, a deep sulcus sign (abnormally deep costophrenic angle) can be a clue. CT scan can detect small pneumothoraces or differentiate a pneumothorax from bullous lung disease if uncertainty remains.",
+    "Use bedside ultrasound (e.g., an E-FAST exam in trauma) for rapid diagnosis: absence of normal pleural sliding (and the classic \"barcode\" or stratosphere sign on M-mode) indicates a pneumothorax. A distinct transition point (\"lung point\") on ultrasound is virtually diagnostic. Ultrasound is more sensitive than CXR in trauma patients.",
+    "Always consider the context: a primary spontaneous pneumothorax in a young person may be managed conservatively if small, whereas a secondary pneumothorax (older patient with lung disease) warrants more aggressive intervention (even moderate-sized secondary pneumothoraces often require chest tube placement due to reduced pulmonary reserve). Also address preventive measures (e.g., advise smoking cessation to reduce recurrence risk)."
+  ],
+  "differentials": [
+    {"id": "pulmonary-embolism", "hint": "acute pleuritic pain & dyspnea but usually normal breath sounds; risk factors for DVT/PE"},
+    {"id": "myocardial-infarction", "hint": "crushing substernal pain (not pleuritic), risk factors (CAD), ECG changes; breath sounds typically normal"},
+    {"id": "asthma-exacerbation", "hint": "diffuse wheezing and prolonged exhalation, bilateral airway obstruction rather than unilateral absent breath sounds"},
+    {"id": "hemothorax", "hint": "trauma with shock but dull percussion (blood in pleural space) instead of hyperresonance"},
+    {"id": "cardiac-tamponade", "hint": "hypotension & JVD in trauma but equal breath sounds (muffled heart tones) – distinguish from tension PTX"}
+  ],
+  "tricks": [
+    "Smoking dramatically increases PSP risk (≈12% lifetime risk in healthy male smokers vs ~0.1% in non-smokers), so counsel patients to quit after an episode.",
+    "In a tension pneumothorax, the trachea deviates away from the affected side (late finding). Remember: never wait for a CXR if tension is suspected – needle decompress first (it's a clinical diagnosis!).",
+    "Chest ultrasound mantra: \"Seashore sign = normal, Barcode sign = pneumothorax.\" Lack of the usual seashore pattern on M-mode is a handy clue that air is separating the pleura."
+  ],
+  "exam_appearance": [
+    "Tall, thin 22-year-old man (smoker) with sudden sharp chest pain and dyspnea at rest; left chest is hyperresonant with absent breath sounds → Primary spontaneous pneumothorax (ruptured apical bleb).",
+    "65-year-old man with COPD experiences acute worsening of dyspnea and oxygen drop; unilateral diminished breath sounds on exam → Secondary spontaneous pneumothorax (likely due to ruptured emphysematous bleb).",
+    "Trauma patient or ICU ventilated patient becomes acutely hypotensive and hypoxic with distended neck veins and deviated trachea; one side of the chest has no breath sounds → Tension pneumothorax (emergency – requires immediate decompression)."
+  ],
+  "treatment": [
+    "If pneumothorax is small and patient is stable (especially a primary spontaneous <2 cm at lung apex): give supplemental oxygen and observe — many will resorb on their own over time.",
+    "For larger pneumothoraces or symptomatic patients: evacuate the air. Options include needle aspiration (often attempted first in primary spontaneous PTX) or placement of a chest tube (tube thoracostomy) connected to a one-way water seal to re-expand the lung. Secondary or traumatic pneumothoraces usually warrant chest tube drainage due to higher risk.",
+    "Tension pneumothorax: this is a life-threatening emergency. Perform immediate needle decompression (insert a large-bore needle into the pleural space, classically in the 2nd intercostal space at the midclavicular line, or alternatively the 5th intercostal space at the anterior axillary line) to relieve pressure. Then place a chest tube for definitive management.",
+    "Preventing recurrence: After a second spontaneous pneumothorax (or first if bilateral), definitive intervention is recommended. Options include chemical or surgical pleurodesis (fusing the pleura) and/or bleb resection via VATS (video-assisted thoracoscopic surgery) to prevent future collapses. High-risk individuals (pilots, divers) are often offered pleurodesis after even one episode."
+  ],
+  "red_flags": [
+    "Neck vein distension + hypotension + tracheal deviation away from the collapsed lung = impending tension pneumothorax (obstructive shock; decompress immediately!).",
+    "On mechanical ventilation, a sudden rise in peak airway pressure with rapid oxygen desaturation suggests a tension pneumothorax – in this scenario, quickly perform emergent decompression (don't wait for imaging)."
+  ],
+  "algorithm": [
+    "Acute onset pleuritic chest pain with dyspnea → suspect pneumothorax (especially in a young thin male or a patient with underlying lung disease).",
+    "If unstable (hypotension, severe distress, ± tracheal deviation) → assume tension pneumothorax → immediate needle decompression before any confirmatory tests.",
+    "If stable → get chest X-ray to confirm pneumothorax and estimate its size (look for visceral pleural edge with no lung markings peripheral). Consider ultrasound for a quick bedside diagnosis.",
+    "Small primary pneumothorax + stable patient → manage conservatively (O₂ supplementation, observation with follow-up CXR).",
+    "Large or secondary pneumothorax, or any pneumothorax with significant symptoms → perform intervention (e.g., needle aspiration attempt or chest tube insertion) to remove air and re-expand the lung.",
+    "After initial recovery, prevent recurrence: for patients with recurrent episodes, bilateral pneumothoraces, or high-risk occupations (e.g., divers, pilots), plan definitive therapy (pleurodesis or surgical intervention) to avoid future pneumothorax."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Expiration-left-side-pneumo.jpg",
+      "alt": "Chest X-ray of a left-sided spontaneous pneumothorax (arrow indicates the edge of the collapsed lung).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Expiration-left-side-pneumo.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 23‑year‑old tall, thin man with a history of smoking presents with sudden sharp left-sided chest pain and shortness of breath.",
+      "clues": [
+        "No history of trauma or lung disease",
+        "Pain began while he was resting",
+        "Left chest is hyperresonant with very diminished breath sounds",
+        "Vitals: HR 110, BP 130/80, SpO₂ 96% on room air"
+      ],
+      "answer": "Primary spontaneous pneumothorax",
+      "teaching": "Rupture of an apical bleb led to a collapsed left lung in this young male smoker. Sudden pleuritic pain with unilateral absent breath sounds and hyperresonance are classic for a spontaneous pneumothorax. Management would involve oxygen and observation versus chest tube insertion depending on size and symptoms."
+    }
+  ],
+  "see_also": [
+    "pulmonary-embolism",
+    "myocardial-infarction",
+    "respiratory-failure"
+  ],
+  "prerequisites": [
+    "respiratory-physiology",
+    "chest-x-ray"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Pneumothorax (McKnight & Burns, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441885/"
+    },
+    {
+      "title": "UpToDate: Treatment of primary spontaneous pneumothorax in adults",
+      "url": "https://www.uptodate.com/contents/treatment-of-primary-spontaneous-pneumothorax-in-adults"
+    },
+    {
+      "title": "BTS Pleural Disease Guideline (Roberts et al., Thorax 2023)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37553157/"
+    },
+    {
+      "title": "Spontaneous pneumothorax (NEJM review, Sahn & Heffner 2000)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJM200003233421207"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

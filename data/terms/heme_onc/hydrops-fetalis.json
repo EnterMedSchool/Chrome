@@ -1,0 +1,118 @@
+{
+  "id": "hydrops-fetalis",
+  "names": [
+    "Hydrops fetalis (alpha-thalassemia major)"
+  ],
+  "aliases": [
+    "alpha-thalassemia major",
+    "Hb Bart's hydrops fetalis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "hydrops fetalis",
+    "alpha thalassemia major",
+    "Hb Bart",
+    "Barts hydrops"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics",
+    "obgyn"
+  ],
+  "definition": "Complete absence of α-globin production (four-gene deletion, –/– –/–), resulting in a fetus that cannot form functional fetal or adult hemoglobin (only γ₄ tetramers, Hb Bart's). Causes **nonimmune hydrops fetalis** – severe edema, high-output cardiac failure, and usually intrauterine death.",
+  "why_it_matters": "Alpha-thalassemia major is almost invariably fatal if no intervention, and is a preventable tragedy with carrier screening. If diagnosed early in pregnancy, options include in utero transfusions to sustain the fetus or termination. Surviving infants (with extensive transfusion support) will require lifelong transfusions or transplant. It underscores the importance of prenatal genetic screening in high-risk populations.",
+  "how_youll_see_it": [
+    "A routine prenatal ultrasound (usually in second trimester) shows **hydrops fetalis**: fetal ascites, skin edema, pleural and pericardial effusions. Placenta is often thickened. No Rh incompatibility (indicating nonimmune cause).",
+    "If pregnancy not screened, can present as stillbirth or neonatal death with a pale, edematous infant with massive hepatosplenomegaly. Cord blood shows severe anemia (Hb often <4) and predominantly **Hb Bart's (γ₄)** on electrophoresis.",
+    "Parents are typically both carriers of α-thalassemia (cis deletions). The risk is higher in Southeast Asian couples with cis α-thalassemia trait."
+  ],
+  "problem_solving": [
+    "Preventative approach: Identify at-risk couples (ethnic screening and family history). If both carry cis α-thalassemia deletions, offer prenatal diagnosis via CVS at ~10–12 weeks.",
+    "Ultrasound signs of hydrops should prompt immediate hematology consultation. In utero transfusions can be attempted to prolong pregnancy (some cases reach viability with repeated intrauterine transfusions).",
+    "If infant is delivered alive, immediate exchange transfusions and ongoing chronic transfusion therapy is needed to sustain life, followed by consideration of bone marrow transplant as definitive cure."
+  ],
+  "differentials": [
+    {
+      "name": "Immune hydrops (Rh incompatibility)",
+      "hint": "positive direct Coombs test in fetus/newborn; mother Rh-negative without prophylaxis"
+    },
+    {
+      "name": "Other causes of nonimmune hydrops",
+      "hint": "cardiac anomalies, fetal arrhythmias, severe infections (parvovirus), twin-twin transfusion syndrome"
+    },
+    {
+      "name": "Beta-thalassemia major in utero",
+      "hint": "does not typically present as hydrops in utero because fetal hemoglobin (α2γ2) is still functional; β-thal major presents after birth"
+    }
+  ],
+  "tricks": [
+    "Alpha-thalassemia major = **Hemoglobin Bart's** (γ₄). **Bart's = Bad** for baby (cannot release oxygen).",
+    "Newborn screening (if done): Hb Bart's will appear as an abnormal band ~80–90%.",
+    "High-output cardiac failure from severe anemia causes the fetal edema (hydrops)."
+  ],
+  "exam_appearance": [
+    "Ultrasound of a 28-week fetus shows skin edema, ascites, and pleural effusions. Both parents are known α-thalassemia carriers → **Hb Bart's hydrops fetalis**.",
+    "A stillborn infant is delivered at 32 weeks with massive total body edema and hepatosplenomegaly. Autopsy shows no cardiac anomalies and fetal blood has Hb Bart's on electrophoresis → **alpha-thalassemia major**."
+  ],
+  "treatment": [
+    "No standard treatment beyond transfusions: multiple **in utero transfusions** can sometimes sustain the fetus to viable age, but carries risks. Often, prenatal identification leads to option of pregnancy termination due to poor prognosis.",
+    "If infant is born alive, immediate intensive care with exchange transfusion. Subsequent management as with transfusion-dependent thalassemia (regular transfusions and chelation).",
+    "Bone marrow transplant in early life has been used in rare survivors as a cure (if a suitable donor is available). Gene therapies are not yet established for this condition."
+  ],
+  "red_flags": [
+    "Pregnant patient with ultrasound signs of hydrops + both parents with microcytosis → test for α-thalassemia major (and intervene early).",
+    "Hydrops fetalis has many causes – a negative Coombs test (rules out immune hemolysis) plus anemia in fetus strongly suggests α-thalassemia in the right ethnic context."
+  ],
+  "algorithm": [
+    "Screen at-risk couples (MCV testing, electrophoresis) before or early in pregnancy.",
+    "If both are α-thalassemia cis deletion carriers → offer CVS genetic test for fetal genotype.",
+    "If fetus has –/– (alpha major): discuss options (intrauterine transfusions vs termination).",
+    "If continuing pregnancy with intervention: plan for early delivery at a tertiary center, then immediate postnatal intensive transfusion support and eventual HSCT if possible."
+  ],
+  "images": [],
+  "cases": [
+    {
+      "stem": "An ultrasound at 30 weeks gestation shows a fetus with skin edema and ascites. The mother is noted to have microcytic anemia with normal iron studies, and the father is known to have alpha-thalassemia trait.",
+      "clues": [
+        "Nonimmune hydrops on ultrasound",
+        "Both parents carry alpha-thalassemia mutations",
+        "Fetus likely has no functional alpha genes"
+      ],
+      "answer": "Hydrops fetalis (alpha-thalassemia major)",
+      "teaching": "This scenario indicates Hemoglobin Bart's hydrops fetalis due to alpha-thalassemia major. The fetus cannot make α-globin, leading to severe anemia and hydrops. This condition is usually fatal without intervention."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "alpha-thalassemia-trait",
+    "beta-thalassemia-major"
+  ],
+  "prerequisites": [
+    "obstetric-ultrasound",
+    "hemoglobin"
+  ],
+  "sources": [
+    {
+      "title": "Williams Obstetrics 25th Ed.: Hydrops Fetalis",
+      "url": "https://accessmedicine.mhmedical.com/Content.aspx?bookid=1130&sectionid=79721314"
+    },
+    {
+      "title": "Thalassemia International Federation: Guidelines for the Management of Transfusion Dependent Thalassemia (4th Edition, 2021)",
+      "url": "https://thalassemia.org.cy/publications/tif-publications/guidelines-for-the-management-of-transfusion-dependent-thalassemia-tdt-4th-edition/"
+    },
+    {
+      "title": "UpToDate: Alpha thalassemia major (Hb Bart's hydrops fetalis)",
+      "url": "https://www.uptodate.com/contents/hemoglobin-barts-hydrops-fetalis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

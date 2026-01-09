@@ -1,0 +1,157 @@
+{
+  "id": "coronary-artery-disease",
+  "names": [
+    "Coronary artery disease"
+  ],
+  "aliases": [
+    "coronary heart disease",
+    "ischemic heart disease",
+    "atherosclerotic heart disease"
+  ],
+  "abbr": [
+    "CAD",
+    "CHD",
+    "IHD"
+  ],
+  "patterns": [
+    "cad",
+    "coronary artery disease",
+    "coronary heart disease",
+    "ischemic heart disease",
+    "atherosclerotic heart disease",
+    "ischemic cardiomyopathy"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "pathology",
+    "cardio",
+    "pharmacology",
+    "emerg",
+    "surgery"
+  ],
+  "definition": "Atherosclerotic narrowing of coronary arteries reduces blood flow to heart muscle (**myocardial ischemia**); umbrella term covering chronic **stable angina** and acute coronary syndromes (**unstable angina**, **NSTEMI**, **STEMI**), potentially leading to **myocardial infarction** or ischemic cardiomyopathy.",
+  "why_it_matters": "Extremely common and the leading cause of death worldwide. CAD events like **MI** (heart attack) and heart failure are major causes of morbidity, making this a high-yield focus in exams. Early recognition and intervention (especially for acute coronary syndromes) can be life-saving.",
+  "how_youll_see_it": [
+    "Chronic **stable angina**: Predictable **chest pressure** or tightness with exertion (e.g., climbing stairs), relieved by rest or nitroglycerin. Pain is typically substernal and may radiate to left arm or jaw; episodes last a few minutes and resolve with rest.",
+    "**Acute coronary syndromes (ACS)**: Chest pain occurs **at rest** or with minimal exertion (often >20 min, not relieved by rest). Pain is more intense and accompanied by autonomic signs: **diaphoresis** (sweating), nausea/vomiting, palpitations, and anxiety. Patients often appear ill and may have pale, cool skin. (Unstable angina presents similarly but without cardiac enzyme elevation; NSTEMI/STEMI have biomarker rise.)",
+    "Atypical presentations: **Women**, **elderly**, and **diabetic** patients may not have classic chest pain. Instead, they can present with **shortness of breath**, extreme fatigue, indigestion, lightheadedness, or pain in atypical locations (back, epigastric) without chest pressure. Some MIs are even \"silent,\" discovered only by ECG changes or later imaging.",
+    "Ischemic cardiomyopathy: History of prior MIs or longstanding CAD can lead to a weakened heart muscle (low ejection fraction). Patients present with chronic **heart failure** symptoms: exertional dyspnea, exercise intolerance, lower extremity edema, and fatigue due to reduced cardiac output."
+  ],
+  "problem_solving": [
+    "Evaluate chest pain characteristics and risk factors to estimate likelihood of CAD. **Typical angina** (substernal, exertional, relieved by rest) strongly suggests CAD, whereas pain that is pleuritic, positional, or reproducible by palpation points to non-cardiac causes (e.g., pericarditis, musculoskeletal pain, GERD).",
+    "If **acute coronary syndrome (ACS)** is suspected, obtain a 12-lead **ECG** immediately (within 10 minutes) and check **cardiac troponin**. ST-elevations on ECG indicate **STEMI** (activate emergency reperfusion protocol); elevated troponin without ST elevation indicates **NSTEMI**; angina at rest with normal troponin is **unstable angina**. Also promptly rule out other life-threatening causes of chest pain (aortic dissection, pulmonary embolism).",
+    "For **stable angina** (no acute MI), perform noninvasive testing to confirm CAD: an **exercise stress test** (or pharmacologic stress with imaging) can reveal inducible ischemia (ECG changes or perfusion deficits). A positive or high-risk stress test should be followed by **coronary angiography** for definitive diagnosis and to consider revascularization.",
+    "Always address modifiable factors: check blood pressure, glucose, and cholesterol levels. Managing risk factors (smoking cessation, BP control, statin therapy for LDL reduction, diabetes management) is key to slowing CAD progression and improving outcomes."
+  ],
+  "differentials": [
+    {
+      "name": "Acute pericarditis",
+      "hint": "sharp, pleuritic chest pain with pericardial friction rub; pain better sitting up; diffuse ST elevations on ECG"
+    },
+    {
+      "name": "Aortic dissection",
+      "hint": "sudden tearing chest pain radiating to the back; asymmetric blood pressures; mediastinal widening on imaging"
+    },
+    {
+      "name": "Pulmonary embolism",
+      "hint": "acute pleuritic pain with **dyspnea** and tachycardia; risk factors for DVT; often normal coronary arteries"
+    }
+  ],
+  "tricks": [
+    "~70% coronary stenosis typically causes **angina** with exertion; ~90% stenosis can cause angina even at rest.",
+    "**Plaque rupture** with thrombus formation is the usual trigger for acute MI (ACS), not just gradual narrowing.",
+    "A single normal troponin does **not** rule out MI—cardiac troponin can take 4–6 hours to rise after infarction, so serial enzymes are needed if suspicion remains high."
+  ],
+  "exam_appearance": [
+    "A 55‑year‑old man with a history of hypertension and smoking develops substernal chest tightness when walking up stairs. The pain radiates to his left arm and resolves after 5 minutes of rest → stable angina (fixed atherosclerotic plaque causing predictable exercise-induced angina).",
+    "A 64‑year‑old woman with diabetes experiences 30 minutes of severe chest pressure while at rest, with radiation to the jaw, nausea, and profuse sweating. Blood pressure is 90/60 and ECG shows ST elevations in V2–V4 → acute anterior **STEMI** (myocardial infarction due to occlusion of left anterior descending artery).",
+    "A 72‑year‑old diabetic woman reports sudden extreme fatigue and shortness of breath, but **no chest pain**. She is diaphoretic. Cardiac enzymes are positive for infarction, though ECG changes are subtle → **NSTEMI** with atypical presentation (silent ischemia common in diabetic patients)."
+  ],
+  "treatment": [
+    "Lifestyle & risk factor management: **Quit smoking** (tobacco cessation), adopt a heart-healthy diet (e.g., Mediterranean diet, low in saturated fat and salt), exercise regularly, and maintain healthy weight. Control all modifiable risks: strict **blood pressure** control (<130/80), good **glycemic** control in diabetes, and treat hyperlipidemia (high-intensity **statin** for nearly all patients with CAD).",
+    "Chronic medical therapy: **Antiplatelet** therapy (daily low-dose aspirin indefinitely, plus a second antiplatelet like clopidogrel for 1 year if ACS or stent placement). **β-blockers** (e.g., metoprolol) are first-line to reduce angina symptoms and improve post-MI survival. **ACE inhibitors/ARBs** are recommended for CAD patients with diabetes, hypertension, or reduced EF for additional protective effects. **Nitroglycerin** (sublingual for acute relief; long-acting patches or isosorbide for chronic angina) helps symptom control; add **calcium channel blockers** or **ranolazine** if angina persists.",
+    "Acute ACS management: **Aspirin** (chewed) immediately. For STEMI, activate reperfusion therapy ASAP (preferably percutaneous coronary intervention within 90 minutes; if unavailable, administer fibrinolysis). Give **heparin** (anticoagulation) and a P2Y₁₂ inhibitor (e.g., clopidogrel). Administer **oxygen** if hypoxic and **nitroglycerin** for pain (and morphine for severe pain if needed). Start **β-blocker** within 24 hours if no contraindications (helps reduce infarct size and arrhythmias). After acute phase, continue dual antiplatelet therapy (usually 12 months for stents), high-intensity statin, and ACEi/β-blocker long-term.",
+    "Revascularization procedures: Improve coronary blood flow in appropriate patients. **PCI** (percutaneous coronary intervention with stenting) is used for accessible critical lesions, especially in ACS. **CABG** (coronary artery bypass graft surgery) is preferred for left main disease or multi-vessel CAD (e.g., 3-vessel disease with diabetes) or if lesions are not amenable to stenting. Revascularization relieves angina and, in certain high-risk cases, improves survival, but must be combined with optimal medical therapy."
+  ],
+  "red_flags": [
+    "Chest pain that is **new**, occurring at **rest**, or accelerating in frequency/severity (crescendo angina) → red flag for **unstable angina**/ACS. Requires immediate medical evaluation (ER visit) as it signifies an impending myocardial infarction risk.",
+    "After an MI, watch for acute mechanical complications: sudden pulmonary edema, cardiogenic shock, or a new murmur in the 2–7 days post-MI period suggest papillary muscle rupture, septal rupture, or free wall rupture. These cause rapid hemodynamic collapse and require emergent surgical intervention."
+  ],
+  "algorithm": [
+    "Chest pain evaluation: If history is suggestive of angina (exertional, relieved by rest) or patient has CAD risk factors, consider coronary artery disease in the differential.",
+    "Immediate workup for suspected ACS: **ECG** within 10 minutes of arrival and **troponin** levels. Diagnose **STEMI** if ST elevations in a coronary artery territory (→ activate cath lab for urgent PCI). Diagnose **NSTEMI** if troponin is elevated without ST elevation. Unstable angina is suspected if ongoing rest angina with initially normal troponin.",
+    "Initial treatment for ACS: give aspirin immediately; stabilize with oxygen (if low O₂ sat), IV access, and nitroglycerin for pain. If STEMI, arrange immediate reperfusion (PCI or thrombolytics if PCI unavailable). For NSTEMI/unstable angina, begin anticoagulation and plan urgent cardiac catheterization (within 24–48 hours). Manage arrhythmias or hemodynamic issues in parallel (e.g., IV fluids for hypotension, antiarrhythmics for ventricular arrhythmias).",
+    "Nonemergent evaluation for CAD: If chest pain is stable (no acute MI) but CAD is suspected, perform an **exercise stress test** (or stress imaging). Positive test or high-risk findings should prompt invasive **coronary angiography** to confirm disease and allow for possible revascularization.",
+    "Long-term management: All patients with confirmed CAD should be on appropriate **medical therapy** (aspirin, statin, β-blocker, ± ACEi) and lifestyle modification. Ensure close follow-up for symptom control and risk factor optimization. Refer to cardiology for severe disease; consider elective PCI or CABG for symptoms refractory to medical therapy or high-risk anatomical lesions."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Coronary_Artery_Disease.jpg",
+      "alt": "3D medical illustration of coronary artery disease: narrowed coronary artery with atherosclerotic plaque limiting blood flow (resulting in myocardial ischemia).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Coronary_Artery_Disease.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old man with hypertension and a 30-pack-year smoking history reports chest discomfort on exertion.",
+      "clues": [
+        "Chest pressure comes on when he exercises (e.g., climbs stairs)",
+        "Resolves within 5 minutes of rest",
+        "No chest pain at rest or at night",
+        "Normal troponin and ECG",
+        "Risk factors: hypertension, smoker, high LDL"
+      ],
+      "answer": "Stable angina (chronic coronary syndrome due to fixed atherosclerotic plaque)",
+      "teaching": "Predictable exertional chest pain relieved by rest indicates stable angina, caused by a fixed narrowing in a coronary artery. This patient should undergo a stress test for confirmation and be started on preventive therapy (aspirin, statin, etc.) and nitroglycerin for symptom relief."
+    },
+    {
+      "stem": "A 64‑year‑old woman with long-standing diabetes and hyperlipidemia develops sudden chest pain at rest.",
+      "clues": [
+        "Intense substernal chest pressure for 30 minutes at rest",
+        "Radiation of pain to her jaw",
+        "Associated nausea and heavy sweating",
+        "Blood pressure 90/60, heart rate 110",
+        "ECG: ST-segment elevations in anterior leads (V2–V4)",
+        "Troponin I is markedly elevated"
+      ],
+      "answer": "Acute myocardial infarction (anterior STEMI)",
+      "teaching": "Prolonged rest angina with diaphoresis and ST elevation indicates an acute anterior wall MI (likely from LAD occlusion). Immediate reperfusion therapy (e.g., emergency PCI) is required, along with standard MONA-BACS treatments (Morphine, Oxygen, Nitrates, Aspirin, β-blocker, ACEi, Statin)."
+    }
+  ],
+  "see_also": [
+    "stable-angina",
+    "unstable-angina",
+    "myocardial-infarction",
+    "heart-failure",
+    "peripheral-artery-disease"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "atherosclerosis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Coronary Artery Disease (Shahjehan et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK564304/"
+    },
+    {
+      "title": "UpToDate: Chronic coronary syndrome in adults – overview of care",
+      "url": "https://www.uptodate.com/contents/chronic-coronary-syndrome-overview-of-care"
+    },
+    {
+      "title": "Coronary Artery Atherosclerosis (Medscape, 2023)",
+      "url": "https://emedicine.medscape.com/article/153647-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

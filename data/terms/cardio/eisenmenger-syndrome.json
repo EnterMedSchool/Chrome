@@ -1,0 +1,140 @@
+{
+  "id": "eisenmenger-syndrome",
+  "names": [
+    "Eisenmenger syndrome"
+  ],
+  "aliases": [
+    "Eisenmenger's syndrome",
+    "Eisenmenger complex",
+    "Eisenmenger physiology"
+  ],
+  "abbr": [],
+  "patterns": [
+    "eisenmenger",
+    "eisenmenger syndrome",
+    "eisenmenger's syndrome",
+    "eisenmenger complex",
+    "eisenmenger physiology"
+  ],
+  "primary_tag": "cardio",
+  "tags": [
+    "pathology",
+    "cardio",
+    "pulm",
+    "peds"
+  ],
+  "definition": "Long-standing unrepaired left-to-right cardiac shunt that leads to severe **pulmonary hypertension** and eventual shunt reversal (becoming right-to-left), resulting in **cyanosis** and organ damage.",
+  "why_it_matters": "Life-threatening, **irreversible** complication of uncorrected congenital heart defects. Early repair prevents this outcome, but once Eisenmenger develops there is no definitive cure except transplant. Its classic shunt reversal mechanism and exam findings (clubbing, differential cyanosis) are high-yield concepts on boards.",
+  "how_youll_see_it": [
+    "Typically presents in adolescence or young adulthood with a history of a large unrepaired CHD. Patients develop **progressive exercise intolerance** (worsening exertional dyspnea, fatigue) and may have syncope or hemoptysis as pulmonary hypertension worsens.",
+    "Underlying lesions: usually a sizable **VSD** (most common), **ASD**, **PDA**, or AV septal defect that caused significant left→right shunting in childhood. Over time, high pulmonary flow induces vascular remodeling and rising pulmonary resistance, leading to bidirectional flow and then right→left shunt (late cyanosis).",
+    "Exam: **Central cyanosis** (blue lips, etc.) and **digital clubbing** of fingers and toes are prominent. A loud, single **S2** (accentuated P2) is often heard due to pulmonary hypertension, whereas the original murmur of the defect may diminish or disappear as pressures equalize. Chronic hypoxemia causes **polycythemia** (high Hct) with hyperviscosity symptoms (headaches, dizziness)."
+  ],
+  "problem_solving": [
+    "Recognize **shunt reversal**: if a patient with a known left→right shunt (e.g. VSD or ASD) later develops cyanosis and clubbing, suspect Eisenmenger syndrome (reversal of flow). Disappearance of a previously loud VSD murmur is a clue.",
+    "Assess **differential cyanosis**: clubbing and cyanosis affecting the feet but sparing the hands indicates a PDA with Eisenmenger physiology (right-to-left flow into descending aorta).",
+    "Don't close the defect once Eisenmenger has set in – the shunt provides a pressure relief for the right ventricle. Closing an unrepaired VSD/ASD at this stage can precipitate acute RV failure. Instead, focus on managing pulmonary hypertension and hypoxemia."
+  ],
+  "differentials": [
+    {
+      "name": "Idiopathic pulmonary hypertension",
+      "hint": "similar PAH and cyanosis but **no underlying shunt**; often young adult with dyspnea but no congenital defect history"
+    },
+    {
+      "name": "Tetralogy of Fallot",
+      "hint": "causes cyanosis in infancy (primary R→L shunt), not delayed; involves RV outflow obstruction, not pulmonary vascular disease (P2 is soft/absent)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Tardive cyanosis** (tardive = late) refers to Eisenmenger's late-onset cyanosis after an initially acyanotic shunt.",
+    "Clubbing and cyanosis of only the **lower extremities** (with normal arms) = **PDA Eisenmenger** (shunt delivers deoxygenated blood to descending aorta).",
+    "A loud VSD murmur that **vanishes** in a teenager who then develops cyanosis → think Eisenmenger (shunt flow reversed, no murmur)."
+  ],
+  "exam_appearance": [
+    "Teenager with a **history of VSD murmur in childhood** now presenting with **cyanosis, clubbing** of fingers/toes, and a loud P2 on exam → Eisenmenger syndrome from unrepaired VSD.",
+    "Adult patient whose **toes are clubbed and cyanotic but fingers are not** → large PDA causing Eisenmenger physiology (differential clubbing/cyanosis)."
+  ],
+  "treatment": [
+    "Definitive treatment is **heart–lung transplantation** for eligible patients, but donor availability and surgical risks limit this option. Preventive surgical closure of the defect in childhood is the key to avoid Eisenmenger.",
+    "Manage the pulmonary hypertension: **Endothelin receptor antagonists** (e.g. bosentan) and **PDE-5 inhibitors** (sildenafil) can improve exercise capacity and symptoms. **Prostacyclin analogs** (IV epoprostenol or others) and other PAH therapies may be used in specialized centers. These therapies can sometimes reduce pulmonary pressure enough to consider late surgical repair in very select cases.",
+    "Supportive measures: **avoid high-altitude or low-oxygen environments**, dehydration, and strenuous exertion (to prevent worsening hypoxemia). Phlebotomy can be done if hematocrit is extremely high and causing hyperviscosity symptoms. **Avoid pregnancy** (maternal mortality ~50%). Provide infective endocarditis prophylaxis when appropriate (unrepaired cyanotic heart defects carry risk)."
+  ],
+  "red_flags": [
+    "Pregnancy is **contraindicated** in Eisenmenger syndrome – it carries 30–50% maternal mortality due to hemodynamic stress. Women of childbearing age must receive counseling on effective contraception.",
+    "**Paradoxical emboli**: clots or septic emboli can bypass the lungs through the R→L shunt and cause **stroke** or brain abscess. New neurologic symptoms in Eisenmenger patients should prompt urgent evaluation."
+  ],
+  "algorithm": [
+    "**Congenital shunt detected in infancy** (VSD, ASD, PDA) → if large/significant, proceed with surgical repair in early childhood to prevent irreversible PH.",
+    "Unrepaired shunt with signs of rising pulmonary pressure (e.g. louder P2, declining exercise tolerance) → evaluate for developing Eisenmenger: perform echocardiography with Doppler to estimate pulmonary pressures and detect any R→L flow; consider right heart **catheterization** to measure pulmonary vascular resistance and vasoreactivity.",
+    "If **Eisenmenger syndrome is present** (severe PAH with R→L shunt) → do NOT close the defect (risk of acute RV failure). Focus on managing PAH (oxygen, advanced therapies) and supportive care, and refer for **heart–lung transplant** assessment if symptoms are severe."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Eisenmenger_Syndrome.png",
+      "alt": "Diagram of Eisenmenger syndrome due to a large VSD. Initially (left) the VSD causes a left-to-right shunt (red arrow) with high flow to lungs. Over time, pulmonary arterial sclerosis and hypertension develop, and the shunt reverses to right-to-left (blue arrow) causing cyanosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Eisenmenger_Syndrome.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 16‑year‑old girl with a history of a loud VSD murmur in childhood is evaluated for new-onset cyanosis.",
+      "clues": [
+        "No murmur audible on exam, but loud P2 heart sound",
+        "Clubbing of fingers and toes",
+        "Hematocrit is 65% (elevated)"
+      ],
+      "answer": "Eisenmenger syndrome due to unrepaired VSD",
+      "teaching": "An unrepaired large VSD led to years of left→right shunting, causing pulmonary vascular damage. Now the shunt has reversed (right→left), causing systemic cyanosis (late \"tardive\" cyanosis) and clubbing. The once-harsh VSD murmur disappeared as ventricular pressures equalized. Treatment is supportive; heart–lung transplant is the only definitive cure."
+    },
+    {
+      "stem": "A 30‑year‑old man from a rural area presents with bluish discoloration of his toes on exertion.",
+      "clues": [
+        "Clubbing and cyanosis of the toes, but normal fingers",
+        "History of a continuous heart murmur as a child",
+        "Differential oxygen saturation: 90% in arms, 80% in legs"
+      ],
+      "answer": "Eisenmenger syndrome (differential cyanosis from a patent ductus arteriosus)",
+      "teaching": "This is classic differential cyanosis: a large PDA that went unrepaired has caused pulmonary hypertension and reversed shunt flow. Deoxygenated blood from the high-pressure pulmonary artery enters the descending aorta (distal to the subclavian), leading to cyanosis and clubbing in the lower extremities but not in the upper extremities. This indicates Eisenmenger physiology. Management is supportive and addresses the pulmonary hypertension; the PDA is not closed due to irreversible PVR."
+    }
+  ],
+  "see_also": [
+    "tetralogy-of-fallot",
+    "congestive-heart-failure",
+    "pulmonary-embolism",
+    "digeorge-syndrome"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "congenital-heart-defects",
+    "pulmonary-circulation"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Eisenmenger Syndrome (Basit & Wallen, Updated Feb 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507800/"
+    },
+    {
+      "title": "Merck Manual Professional: Eisenmenger Syndrome (Nov 2025)",
+      "url": "https://www.merckmanuals.com/professional/pediatrics/congenital-cardiovascular-anomalies/eisenmenger-syndrome"
+    },
+    {
+      "title": "Mayo Clinic: Eisenmenger syndrome – Symptoms & causes (2023)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/eisenmenger-syndrome/symptoms-causes/syc-20350580"
+    },
+    {
+      "title": "UpToDate: Pulmonary hypertension in adults with congenital heart disease (Haraldine E. Roos, 2024)",
+      "url": "https://www.uptodate.com/contents/pulmonary-hypertension-in-adults-with-congenital-heart-disease"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

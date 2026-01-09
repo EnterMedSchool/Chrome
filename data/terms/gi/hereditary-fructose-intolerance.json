@@ -1,0 +1,100 @@
+{
+  "id": "hereditary-fructose-intolerance",
+  "names": ["Hereditary fructose intolerance"],
+  "aliases": ["fructose-1-phosphate aldolase deficiency", "aldolase B deficiency"],
+  "abbr": ["HFI"],
+  "patterns": ["hereditary fructose intolerance", "HFI", "aldolase B deficiency", "fructose aldolase deficiency", "fructose intolerance"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "biochemistry", "peds", "gi"],
+  "definition": "Autosomal recessive inborn error of fructose metabolism due to **aldolase B** deficiency; fructose (or sucrose) ingestion triggers toxic fructose-1-phosphate accumulation → severe **hypoglycemia** and potential organ failure.",
+  "why_it_matters": "Rare but potentially lethal if unrecognized—infants can have seizures or liver failure when fed fructose. Early diagnosis allows simple diet changes to prevent death or disability, making HFI a classic high-yield pediatric metabolic disorder.",
+  "how_youll_see_it": [
+    "Healthy newborn (breast milk only) until ~6 months; after introduction of fruit juices, baby develops **vomiting**, sweating/tremors (hypoglycemia), lethargy, and even seizures shortly after feeding. Continued fructose intake causes **jaundice**, **hepatomegaly**, and failure to thrive.",
+    "Undiagnosed older infants/children may show a strong **aversion to sweets** (they refuse fruits, candy) due to learned intolerance, and may present with growth restriction and signs of liver or kidney dysfunction if fructose exposure persists."
+  ],
+  "problem_solving": [
+    "Clue in history: infant was fine with breast milk (lactose) but got sick when **fruits or sucrose** were introduced—points to HFI (vs galactosemia, which reacts to milk).",
+    "Check **urine reducing substances**: will be positive in HFI (fructosuria) even though urine dipstick is negative for glucose.",
+    "If HFI is suspected, immediately **remove all fructose sources** from the diet (no further fruit, sucrose, sorbitol) and avoid any fructose-containing IV fluids or medications.",
+    "Confirm diagnosis with genetic testing for **ALDOB** gene mutations or an aldolase B enzyme assay (if available). **Do not perform a fructose tolerance test** (oral fructose challenge), as it can precipitate a dangerous reaction.",
+    "Differentiate from **galactosemia**: galactosemia presents in neonates fed milk (lactose/galactose) and often causes **cataracts**, whereas HFI presents after fruit/sugar introduction and does not cause cataracts."
+  ],
+  "differentials": [
+    { "name": "Classic galactosemia", "hint": "newborn with liver failure and **cataracts** when fed breast milk/formula (Gal-1-P uridyltransferase deficiency)" },
+    { "name": "Von Gierke disease (GSD I)", "hint": "severe fasting hypoglycemia from infancy, lactic acidosis & huge liver (glucose-6-phosphatase deficiency)" },
+    { "name": "Essential fructosuria", "hint": "benign fructokinase deficiency; fructose in urine but no hypoglycemia or illness" }
+  ],
+  "tricks": [
+    "Mnemonic: **FAB GUT** – Fructose (Aldolase **B** deficiency) And Galactose (UridylTransferase deficiency) to remember the enzyme defects in HFI vs galactosemia.",
+    "Aldolase **B** is **B**ad (life-threatening) while fructo**K**inase is **OK**: fructokinase deficiency (essential fructosuria) is harmless."
+  ],
+  "exam_appearance": [
+    "Previously healthy 6–8 month-old who begins **fruit juices/purees**, then develops vomiting, lethargy, seizures, and **hepatomegaly** after feeding → suspect hereditary fructose intolerance.",
+    "Infant with hypoglycemic seizures after eating fruit, and urine positive for reducing sugars but negative on glucose dipstick → classic lab clue for HFI."
+  ],
+  "treatment": [
+    "Strict **dietary elimination** of fructose, sucrose, and sorbitol for life (no fruits, juices, table sugar, honey, syrups, etc.). Read ingredient labels carefully; even some medications/formulas contain fructose-based additives.",
+    "Ensure adequate nutrition: use alternative carbohydrate sources (glucose, starches) and supplement with a sugar-free multivitamin (to provide nutrients from fruits).",
+    "Manage acute episodes: if accidental fructose ingestion causes hypoglycemia or acidosis, give rapid **IV glucose** and correct metabolic disturbances (hydrate, bicarbonate if needed), while monitoring liver and kidney function."
+  ],
+  "red_flags": [
+    "**Lethargy, vomiting, or seizure after feeding** a baby fruits or sweets → think HFI until proven otherwise (emergency—check glucose, stop fructose immediately).",
+    "Unexplained acute liver failure in an infant (especially after weaning onto foods) should prompt evaluation for inborn errors like HFI."
+  ],
+  "algorithm": [
+    "Fructose/sucrose exposure (e.g., juices, baby food) triggers symptoms in infant → suspect HFI.",
+    "If acute symptoms (seizures, etc.), stabilize (ABCs), give **IV dextrose** to reverse hypoglycemia, and eliminate any fructose sources right away.",
+    "Obtain labs: check blood **glucose**, electrolytes, liver enzymes, **ABG/lactate** (lactic acidosis), and do a **urine reducing substance** test (indicates fructose/galactose in urine).",
+    "Confirm HFI with genetic testing (biallelic **ALDOB** mutations) or enzyme assay on liver biopsy if needed; avoid any fructose challenge testing.",
+    "Long-term: Educate caregivers and implement a life-long fructose/sucrose/sorbitol-free diet; monitor growth and liver/renal function during follow-up."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Fructose_in_glycolysis.svg/1280px-Fructose_in_glycolysis.svg.png",
+      "alt": "Fructose metabolism pathway: fructokinase converts fructose to fructose-1-phosphate, then **aldolase B** splits it into glyceraldehyde and dihydroxyacetone phosphate (entering glycolysis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Fructose_in_glycolysis.svg"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": ["cirrhosis", "hepatitis"],
+  "prerequisites": ["glycolysis", "gluconeogenesis"],
+  "cases": [
+    {
+      "stem": "An 8-month-old infant, recently introduced to fruit juices, presents with vomiting, lethargy, and a seizure after meals; exam reveals hepatomegaly and jaundice.",
+      "clues": ["after fructose intake", "hypoglycemia", "hepatomegaly", "jaundice", "reducing substances in urine"],
+      "answer": "Hereditary fructose intolerance",
+      "teaching": "Aldolase B deficiency → fructose-1-P accumulation depletes phosphate and blocks gluconeogenesis, causing severe hypoglycemia and liver failure after fructose ingestion; treat by eliminating fructose/sucrose from the diet."
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Biochemistry, Fructose Metabolism (Dholariya & Orrick, 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK576428/"
+    },
+    {
+      "title": "GeneReviews: Hereditary Fructose Intolerance (Gaughan et al., 2021)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK333439/"
+    },
+    {
+      "title": "Medscape: Disorders of Carbohydrate Metabolism (Lakhan, 2025)",
+      "url": "https://emedicine.medscape.com/article/1183033-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

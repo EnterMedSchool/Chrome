@@ -1,0 +1,114 @@
+{
+  "id": "respiratory-failure",
+  "names": ["Respiratory failure"],
+  "aliases": ["acute respiratory failure", "ventilatory failure", "type I respiratory failure", "type II respiratory failure"],
+  "abbr": ["ARF"],
+  "patterns": ["respiratory failure", "acute respiratory failure", "type 1 respiratory failure", "type 2 respiratory failure", "hypercapnic respiratory failure", "hypoxemic respiratory failure"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "emerg"],
+  "definition": "Inability of the respiratory system to maintain gas exchange, leading to inadequate oxygenation and/or carbon dioxide removal. **Type I (hypoxemic)** failure is defined by low oxygen (PaO₂ <60 mmHg) with normal/low CO₂, while **Type II (hypercapnic)** failure features elevated CO₂ (PaCO₂ >50 mmHg) with accompanying hypoxemia.",
+  "why_it_matters": "If unrecognized, respiratory failure can quickly progress to respiratory arrest, coma, or death. It's a common ICU condition (e.g., in **ARDS**, COPD exacerbations, acute pulmonary edema, severe **COVID-19**) and a frequent exam topic linking ABG interpretation to emergency management.",
+  "how_youll_see_it": [
+    "Patients in acute **respiratory distress**: labored breathing, **tachypnea**, accessory muscle use, possibly **cyanosis** (if hypoxemic) or **altered mental status** (if hypercapnic). Vital signs often show tachycardia and maybe hypertension early (from stress catecholamines).",
+    "**Hypoxemic (Type I)** failure: presents with profound **dyspnea** and **tachypnea**; common causes are acute lung issues like **pneumonia**, **ARDS**, pulmonary edema (cardiogenic or noncardiogenic), **pulmonary embolism**, or severe asthma exacerbation. Patients may be agitated or anxious; oxygen saturation is low despite breathing fast.",
+    "**Hypercapnic (Type II)** failure: presents with **hypoventilation** (inadequate breathing) and often **confusion** or **somnolence** (high CO₂ causes CO₂ narcosis). Causes include **COPD exacerbation** (most common), **drug overdose** or CNS depression, **neuromuscular weakness** (e.g., Guillain-Barré, myasthenia gravis), severe **obesity hypoventilation**, or end-stage asthma/COPD where the patient tires out. Patients may have a **headache** and even a flapping tremor (**asterixis**) due to high CO₂."
+  ],
+  "problem_solving": [
+    "Confirm respiratory failure with an **arterial blood gas (ABG)**: PaO₂ <60 mmHg signifies hypoxemia; PaCO₂ >50 mmHg with pH <7.35 indicates hypercapnia. Use the ABG to classify Type I vs II and assess severity (degree of acidosis).",
+    "Calculate the **alveolar–arterial (A-a) O₂ gradient**: a normal A-a gradient in a hypoxemic patient suggests pure alveolar hypoventilation (e.g., opioid overdose) as the cause. An elevated A-a gradient indicates V/Q mismatch or shunt (intrinsic lung pathology).",
+    "Apply the **100% O₂ test** if hypoxemia is severe: if PaO₂ does not significantly improve even on 100% FiO₂, suspect a right-to-left **shunt** (e.g., ARDS with shunting or cardiac shunt), since V/Q mismatch will usually improve with supplemental O₂.",
+    "Differentiate **acute vs chronic** hypercapnia: in chronic CO₂ retention (e.g., COPD), the kidneys retain bicarbonate, so baseline **HCO₃⁻ is elevated** and pH is near normal. An acute rise in CO₂ causes a large drop in pH (acute respiratory acidosis)—so a high CO₂ with normal pH implies chronic compensation.",
+    "Monitor clinical signs: **altered mental status** (especially drowsiness, confusion) is a key clue to rising CO₂; **cyanosis** indicates severe hypoxemia. Also check for **asterixis** (a flapping tremor seen in CO₂ retention). These signs help gauge how urgent intubation is needed."
+  ],
+  "differentials": [
+    { "name": "Anxiety hyperventilation (panic attack)", "hint": "dyspnea with **respiratory alkalosis** (low CO₂); patient is lightheaded but not hypoxemic" },
+    { "name": "Cardiogenic pulmonary edema", "hint": "acute hypoxemia due to **acute heart failure** (often with pink frothy sputum, crackles, JVD); treat with diuretics/inotropes rather than ventilator unless needed" },
+    { "name": "Carbon monoxide poisoning", "hint": "**Tissue hypoxia** with normal PaO₂ (O₂ saturation falsely normal on pulse ox); suspect with exposure (e.g., smoke inhalation, car exhaust) and look for **cherry-red** skin, high carboxyhemoglobin" }
+  ],
+  "tricks": [
+    "Mnemonic – **5 Causes of Hypoxemia**: 1) Low FiO₂ (high altitude), 2) **Hypoventilation**, 3) **Diffusion** limitation (e.g., fibrosis), 4) **V/Q mismatch** (e.g., PE, pneumonia), 5) **Shunt** (e.g., ARDS).",
+    "Remember **\"can't breathe\" vs \"won't breathe\"** for Type II: hypercapnia occurs either when the respiratory pump **can't** generate ventilation (neuromuscular failure, severe asthma/COPD, chest wall restriction) or the brain **won't** drive breathing (CNS depression from stroke, opiates).",
+    "**Use O₂ carefully in CO₂ retainers**: In chronic hypercapnic COPD patients, giving excessive oxygen can worsen CO₂ retention (loss of hypoxic respiratory drive and V/Q changes). Target saturations ~88–92% rather than 100% in these patients."
+  ],
+  "exam_appearance": [
+    "An older man with severe **COPD** becomes **confused and somnolent** after an infection; ABG shows pH 7.25, PaCO₂ 70 mmHg, PaO₂ 55 mmHg on oxygen → acute hypercapnic (Type II) respiratory failure from a COPD exacerbation, requiring **BiPAP** or intubation.",
+    "A patient with **ARDS** from pneumonia is on a nonrebreather mask but PaO₂ remains 50 mmHg, PaCO₂ 30 mmHg → classic Type I respiratory failure with **refractory hypoxemia**. Intubation with mechanical ventilation and high PEEP is indicated."
+  ],
+  "treatment": [
+    "**Oxygen therapy** for hypoxemia: give supplemental O₂ (nasal cannula, face mask, or high-flow nasal oxygen) aiming for PaO₂ ≥60 mmHg (SaO₂ ~90%). Avoid overshooting O₂ (especially in CO₂ retainers) to prevent oxygen toxicity or CO₂ narcosis; in hypercapnic patients, target 88–92% SaO₂.",
+    "**Ventilatory support** for hypercapnia or fatigue: use **noninvasive ventilation (BiPAP/CPAP)** if the patient is conscious and cooperative. If mental status or oxygenation worsens, secure the airway with **intubation** and mechanical ventilation. Goals of ventilation: correct hypoxemia and acidosis, and rest the respiratory muscles.",
+    "**Treat the underlying cause** in parallel: e.g., bronchodilators ± steroids for asthma/COPD exacerbation, **diuretics** for acute heart failure, **antibiotics** for pneumonia or sepsis, **anticoagulation** for pulmonary embolism, **antidotes** (e.g., naloxone) for drug overdose, etc. This definitive therapy addresses the trigger while supportive care buys time."
+  ],
+  "red_flags": [
+    "**Altered mental status** (confusion, extreme drowsiness, or loss of consciousness) in a patient with respiratory distress – signals impending respiratory arrest or inability to protect airway. This is an indication for immediate intubation.",
+    "**Refractory hypoxemia** (PaO₂ remains <60 mmHg despite high FiO₂) or **severe acidosis** (pH <7.25 from rising CO₂) are danger signs. These criteria, or signs of respiratory muscle exhaustion (such as paradoxical breathing), mandate urgent escalation to invasive ventilation."
+  ],
+  "algorithm": [
+    "**Recognize & stabilize**: Identify patients with suspected respiratory failure (acute dyspnea, cyanosis, lethargy). Immediately ensure the **airway** is open, assist breathing if needed, and start supplemental O₂ if O₂ saturation is low.",
+    "**Assess**: Check vital signs and obtain an **ABG** early to confirm respiratory failure and classify type (hypoxemic vs hypercapnic). Monitor mental status closely; prepare for possible intubation if CO₂ is high or patient is tiring.",
+    "**Diagnose cause**: Perform focused exam and investigations (lung auscultation, **chest X-ray**, ± ECG, labs). Common scenarios: pneumonia (fever, infiltrate on CXR), heart failure (JVD, edema, pulmonary edema on CXR), COPD/asthma (wheezing, history), pulmonary embolism (acute dyspnea with clear lungs, risk factors). Treatable toxic/metabolic causes (opioid overdose, neuromuscular crisis) should be identified and addressed.",
+    "**Escalate support**: If **hypoxemia** is moderate, use higher-flow O₂ or consider **CPAP**; if **hypercapnia** or distress is worsening, start **BiPAP**. If the patient cannot maintain oxygenation or mental status declines, perform **endotracheal intubation** and mechanical ventilation. Involve critical care/ICU early.",
+    "**Definitive management**: Once stabilized on appropriate respiratory support, address the underlying cause (e.g., antibiotics, diuresis, thrombolysis for PE, corticosteroids for asthma/COPD). Continuously reassess ABGs and vitals, and wean respiratory support as the patient improves."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/ARDS_X-Ray.jpg",
+      "alt": "Chest X-ray of a patient with ARDS (acute respiratory distress syndrome) showing diffuse bilateral infiltrates ('white-out' lungs).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:ARDS_X-Ray.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with a 40-pack-year smoking history and COPD is brought to the ED for severe shortness of breath and confusion.",
+      "clues": [
+        "Difficult to arouse; speaking one-word sentences",
+        "RR 32/min with shallow breaths; using accessory muscles",
+        "ABG on 4L O₂: pH 7.21, PaCO₂ 85 mmHg, PaO₂ 52 mmHg",
+        "Chest X-ray: hyperinflated lungs; no focal infiltrates"
+      ],
+      "answer": "Acute on chronic (Type II) respiratory failure due to COPD exacerbation",
+      "teaching": "COPD exacerbation led to CO₂ retention and acute respiratory acidosis (low pH with high PaCO₂) on top of chronic hypercapnia. The patient's confusion and ABG confirm acute hypercapnic respiratory failure. Management would include noninvasive positive-pressure ventilation (BiPAP) to support ventilation, controlled oxygen to avoid worsening CO₂ retention, and bronchodilators & steroids to treat the COPD flare."
+    }
+  ],
+  "see_also": [
+    "acute-respiratory-distress-syndrome",
+    "chronic-obstructive-pulmonary-disease",
+    "asthma",
+    "pneumonia",
+    "pulmonary-embolism"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "ventilation-perfusion",
+    "arterial-blood-gas"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Respiratory Failure in Adults (Mirabile et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526127/"
+    },
+    {
+      "title": "UpToDate: Evaluation and management of acute hypoxemic respiratory failure in adults",
+      "url": "https://www.uptodate.com/contents/evaluation-and-management-of-acute-hypoxemic-respiratory-failure-in-adults"
+    },
+    {
+      "title": "Respiratory Failure (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/167981-overview"
+    },
+    {
+      "title": "BTS Guideline: Ventilatory management of acute hypercapnic respiratory failure (Thorax, 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26976648/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

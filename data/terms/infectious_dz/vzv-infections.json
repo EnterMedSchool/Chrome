@@ -1,0 +1,145 @@
+{
+  "id": "vzv-infections",
+  "names": [
+    "Varicella-zoster virus (VZV) infections"
+  ],
+  "aliases": [
+    "varicella",
+    "chickenpox",
+    "herpes zoster",
+    "shingles",
+    "human herpesvirus 3"
+  ],
+  "abbr": [
+    "VZV"
+  ],
+  "patterns": [
+    "vzv",
+    "varicella",
+    "chickenpox",
+    "herpes zoster",
+    "shingles",
+    "hhv-3"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "micro_virus",
+    "infectious_dz",
+    "peds",
+    "neuro"
+  ],
+  "definition": "A **herpesvirus (DNA)** also known as **human herpesvirus-3 (HHV-3)**, which causes **varicella** (chickenpox) as the primary infection and can later reactivate from latency in sensory ganglia to cause **herpes zoster** (shingles).",
+  "why_it_matters": "VZV is a common childhood exanthem (widespread before vaccines) and a cause of painful shingles in older or immunosuppressed adults. Understanding its presentation and prevention is vital to avoid serious complications (e.g., pneumonia, neurologic sequelae) and because classic features (e.g., **\"dew drop on a rose petal\"** lesions) and vaccine strategies are frequently tested.",
+  "how_youll_see_it": [
+    "Unvaccinated child with **fever** and a diffuse itchy vesicular rash (often starting on trunk then spreading). Lesions appear in **successive crops** and are in different stages (red macules, fluid-filled vesicles, crusts) simultaneously. This is primary varicella (chickenpox).",
+    "Older adult or immunocompromised patient with **severe pain** or tingling followed by a **unilateral** band of vesicular rash in a dermatomal distribution (typically on chest or trigeminal V1 dermatome). The rash **does not cross midline** and usually heals in 2–4 weeks. This is herpes zoster (shingles) due to VZV reactivation.",
+    "High-risk patients (e.g., **immunosuppressed**, neonates): may have an atypical or severe presentation of varicella or zoster, with **disseminated** rash (lesions outside the typical dermatome, including on palms/soles) that continues to erupt >1 week, often accompanied by visceral involvement (pneumonia, hepatitis, encephalitis)."
+  ],
+  "problem_solving": [
+    "Recognize **lesions in all stages** at once as a key diagnostic clue for varicella (in contrast, smallpox lesions are all same stage).",
+    "Confirm suspected cases with lab testing if needed: **PCR** of vesicle fluid is the most sensitive diagnostic test. A Tzanck smear of lesion scraping can show multinucleated giant cells (seen in VZV or HSV), and serologies (IgM, IgG) can assess acute infection or immunity status.",
+    "VZV is highly contagious via airborne droplets and direct contact. Incubation ~2 weeks (10–21 days); patients are contagious ~1–2 days before rash until all lesions crust. In healthcare settings, isolate patients (airborne & contact precautions) and ensure staff immunity.",
+    "If a **non-immune** high-risk individual (e.g., pregnant, immunocompromised, newborn) is exposed to VZV, prevent disease with **varicella-zoster immune globulin (VZIG)** within 96 hours (up to 10 days) of exposure (passive immunization). Vaccination (if no contraindications) within 3–5 days of exposure can also attenuate disease.",
+    "Differentiate VZV rash from other vesicular illnesses: hand-foot-and-mouth disease (coxsackievirus) causes lesions on hands, feet, and mouth without diffuse trunk involvement; herpes simplex is localized (orolabial or genital) unless disseminated in neonates/immunocompromised; contact dermatitis or impetigo may mimic crusted lesions but lack the typical vesicle progression."
+  ],
+  "differentials": [
+    {
+      "name": "Herpes simplex virus (HSV)",
+      "hint": "Localized recurrent vesicles (cold sores, genital herpes); disseminated only in neonates or severe immunosuppression"
+    },
+    {
+      "name": "Hand-foot-and-mouth disease",
+      "hint": "Coxsackievirus A; vesicular lesions on hands, feet, and mouth; typically in young children, no diffuse trunk rash"
+    },
+    {
+      "name": "Smallpox (variola)",
+      "hint": "Eradicated; would cause similar pustular rash but all lesions in same stage and more prominent on extremities"
+    }
+  ],
+  "tricks": [
+    "Mnemonic description: **\"Dew drops on a rose petal\"** = varicella vesicles (clear fluid-filled blister on an erythematous base).",
+    "**Hutchinson sign**: a vesicle on the tip of the nose predicts shingles involvement of the ophthalmic (V1) branch – urgent treatment to prevent eye damage.",
+    "Shingles in a **young adult** or **recurrent zoster** → consider an **HIV test** or other immunodeficiency, as healthy patients under 50 rarely get zoster."
+  ],
+  "exam_appearance": [
+    "Unvaccinated child with fever and an itchy rash in **multiple stages** (papules, vesicles, crusts) scattered over body, including trunk and face → **Varicella (chickenpox)**.",
+    "70‑year‑old with burning pain in the chest followed by a unilateral **strip of vesicles** that stops at the midline → **Herpes zoster (shingles)**.",
+    "Elderly patient with shingles involving the **forehead, eye, and tip of nose** (Hutchinson sign) → **Herpes zoster ophthalmicus** (CN V1 involvement, risk of corneal injury)."
+  ],
+  "treatment": [
+    "Supportive care for uncomplicated chickenpox: trim nails to prevent scratching, soothing lotions (calamine), antihistamines for itch, and **acetaminophen** for fever. Avoid **aspirin** in children (risk of Reye syndrome).",
+    "**Antivirals:** Start **acyclovir** (or valacyclovir/famciclovir) within 24–72 hours of rash onset for certain patients – recommended for varicella in **adolescents, adults, or high-risk** (e.g., lung disease, steroid use) and for **all shingles cases** to speed healing and reduce complications. Use IV acyclovir for severe or disseminated infections (e.g., immunocompromised, neonatal varicella).",
+    "**Pain management** for shingles: analgesics (NSAIDs, acetaminophen) and neuropathic pain agents (e.g., gabapentin, TCAs) can be used to manage acute pain and reduce risk of postherpetic neuralgia.",
+    "**Prevention:** Live-attenuated **varicella vaccine** (e.g., Varivax) given in childhood (2 doses) provides ~90% protection; it is contraindicated in pregnancy and severe immunodeficiency. For adults ≥50 or immunocompromised patients, **recombinant zoster vaccine** (Shingrix) is recommended to prevent shingles and postherpetic neuralgia."
+  ],
+  "red_flags": [
+    "**Disseminated VZV**: Varicella or zoster with **multidermatomal or visceral involvement** (e.g., pneumonitis, hepatitis, coagulopathy) – seen in immunocompromised or neonatal infections. This is life-threatening and requires prompt IV acyclovir.",
+    "Herpes zoster involving **CN V1 (ophthalmic division)** – can cause **herpes zoster ophthalmicus** with sight-threatening corneal involvement. Look for Hutchinson sign (nasal tip lesion) and start antivirals immediately; urgent ophthalmology consult.",
+    "**Ramsay Hunt syndrome** (herpes zoster oticus): VZV reactivation in the **geniculate ganglion (CN VII)** causes ear pain, vesicles in the external ear, and **facial paralysis**, often with hearing loss. Requires prompt antivirals (± corticosteroids); delays reduce chances of full nerve recovery."
+  ],
+  "algorithm": [
+    "Patient with fever and vesicular rash → **Isolate** (airborne & contact) and clinically evaluate. If lesions are in different stages, likely varicella; if dermatomal distribution with pain, likely zoster.",
+    "For suspected varicella, confirm immune status: check history or serology (VZV IgG). In at-risk settings, consider **PCR** testing of lesion to confirm VZV.",
+    "Manage based on severity: Healthy child with chickenpox → home care, hydration, itch control. Adults, teens, or immunosuppressed with varicella → **oral acyclovir** (or IV if severe). All shingles patients → **antivirals** within 3 days of rash, plus analgesia.",
+    "If exposure occurs in a high-risk **non-immune** person (e.g., pregnant, immunocompromised, infant) → give **VariZIG** (VZV Ig) ASAP (within 10 days) for passive protection. Consider acyclovir prophylaxis if VariZIG is delayed or as adjunct.",
+    "Ensure **prevention**: routine varicella vaccination in childhood (and in susceptible adults), and **Shingrix** vaccination for older adults and immunocompromised to markedly reduce shingles and its complications."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Chickenpox_Adult_back.jpg",
+      "alt": "Varicella rash on the back of an adult patient (day 5 of illness, lesions are crusting over).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chickenpox_Adult_back.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 6‑year‑old boy is brought in with a 2-day history of fever and rash. He has no history of varicella vaccination.",
+      "clues": [
+        "Exposure to a classmate with a similar rash 2 weeks ago",
+        "Pruritic rash began on trunk, now on face and limbs",
+        "Red macules, fluid-filled **vesicles**, and crusts are all present",
+        "Otherwise well, no significant medical history"
+      ],
+      "answer": "Primary varicella infection (chickenpox)",
+      "teaching": "Classic **chickenpox** in an unvaccinated child. The asynchronous \"dew drop on a rose petal\" lesions in various stages confirm varicella. It is usually self-limited; management is supportive (hydration, itch relief, fever control, and **no aspirin** due to Reye syndrome risk)."
+    }
+  ],
+  "see_also": [
+    "rubella",
+    "mumps",
+    "viral-meningoencephalitis"
+  ],
+  "prerequisites": [
+    "herpesviruses",
+    "pediatric-exanthems"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Varicella-Zoster Virus (Chickenpox) (Saleh & Ayoade, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK448191/"
+    },
+    {
+      "title": "UpToDate: Clinical features of varicella (chickenpox) (Albrecht, 2025)",
+      "url": "https://www.uptodate.com/contents/clinical-features-of-varicella-zoster-virus-infection-chickenpox"
+    },
+    {
+      "title": "Medscape: Varicella-Zoster Virus (VZV) infections (Khan, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/231927-overview"
+    },
+    {
+      "title": "CDC: Clinical overview of Herpes Zoster (shingles) (2024)",
+      "url": "https://www.cdc.gov/shingles/hcp/clinical-overview/index.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

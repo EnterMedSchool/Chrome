@@ -1,0 +1,112 @@
+{
+  "id": "primary-hyperparathyroidism",
+  "names": ["Primary hyperparathyroidism"],
+  "aliases": ["parathyroid adenoma"],
+  "abbr": ["PHPT"],
+  "patterns": ["primary hyperparathyroidism", "primary HPT", "PHPT", "parathyroid adenoma"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine"],
+  "definition": "Unregulated overproduction of parathyroid hormone by the parathyroid glands, causing **hypercalcemia**. In ~85% of cases it's due to a single parathyroid adenoma; less often multigland hyperplasia (e.g. in MEN1/MEN2A) or rarely parathyroid carcinoma.",
+  "why_it_matters": "Primary HPT is the most common cause of hypercalcemia in outpatients. It can lead to significant complications: kidney stones, osteitis fibrosa cystica (bone resorption with fractures), peptic ulcers (from high Ca), and neuropsychiatric symptoms. Many cases are asymptomatic and caught by routine labs, so recognizing it can prevent long-term organ damage.",
+  "how_youll_see_it": [
+    "Often detected incidentally: mild hypercalcemia on routine blood tests in a middle-aged or older adult (especially postmenopausal women). Many have no obvious symptoms.",
+    "Classic symptomatic presentation: **stones, bones, abdominal groans, and psychiatric overtones** – i.e., kidney stones (nephrolithiasis), bone pain (fractures, osteitis fibrosa), gastrointestinal ulcers/constipation, and neuropsychiatric issues (fatigue, depression). May also see polyuria/polydipsia (\"thrones\") from hypercalcemia-induced nephrogenic DI.",
+    "May be part of a familial syndrome (MEN): MEN1 (Parathyroid, Pituitary, Pancreas tumors) or MEN2A (Medullary thyroid carcinoma, Pheochromocytoma, Parathyroid hyperplasia) – suspect if patient is young or has family history of endocrine tumors."
+  ],
+  "problem_solving": [
+    "Confirm true hypercalcemia and elevated **PTH** (inappropriately high or mid-normal despite high Ca) to diagnose primary HPT.",
+    "Obtain a 24-hour **urine calcium** to differentiate from familial hypocalciuric hypercalcemia (**FHH** – which has low urine Ca and generally doesn't require surgery).",
+    "Evaluate end-organ effects: DEXA scan for osteoporosis (primary HPT causes preferential cortical bone loss), and renal imaging for nephrolithiasis/nephrocalcinosis.",
+    "Check serum **25-OH vitamin D** – deficiency is common and should be corrected (vitamin D insufficiency can exacerbate PTH release). Also check kidney function to ensure hypercalcemia isn't from tertiary HPT.",
+    "If considering surgery, perform localization (neck ultrasound or sestamibi scan) for adenoma, although surgical exploration of all glands may be done regardless."
+  ],
+  "differentials": [
+    { "name": "Familial hypocalciuric hypercalcemia", "hint": "Benign inherited Ca-sensing receptor mutation; **high Ca, high/normal PTH** but very low urinary Ca excretion" },
+    { "name": "Hypercalcemia of malignancy", "hint": "**High Ca, low PTH** (e.g., PTHrP from squamous cell cancer, or metastatic bone lesions)" },
+    { "name": "Lithium-associated hypercalcemia", "hint": "Lithium therapy can raise PTH set-point: mild ↑Ca and ↑PTH in patients on lithium (resolves if drug stopped)" }
+  ],
+  "tricks": [
+    "**85-15-1 rule**: ~85% single adenoma, ~10–15% multi-gland hyperplasia, <1% carcinoma in primary HPT.",
+    "**Lithium** can cause reversible primary HPT – always review medications in hypercalcemia workup.",
+    "Primary HPT can be subtle – patients might attribute fatigue or depression to aging. Many report feeling notably better (more energetic, improved mood) after curative parathyroidectomy."
+  ],
+  "exam_appearance": [
+    "Woman in her 60s with osteoporosis and a history of kidney stones is found to have high calcium and high PTH → primary hyperparathyroidism (likely parathyroid adenoma).",
+    "Patient with \"stones, bones, groans\": recurrent kidney stones, bone fractures, abdominal pain, and psychiatric symptoms, plus ↑Ca and ↑PTH → classic primary HPT presentation.",
+    "Young adult with kidney stones and very high calcium, plus family history of endocrine tumors (pituitary or thyroid) → MEN1 or MEN2A causing primary hyperparathyroidism."
+  ],
+  "treatment": [
+    "**Parathyroidectomy** is the only curative treatment and is recommended for all symptomatic patients. For asymptomatic patients, guidelines (e.g. Fifth Int'l Workshop) advise surgery if any one criterion is met: Ca >1.0 mg/dL above normal, T-score ≤ -2.5 or fragility fracture, GFR <60, nephrolithiasis or nephrocalcinosis on imaging, or age <50.",
+    "If surgery is not done (mild cases or high-risk patients): monitor labs and bone density regularly. **Cinacalcet** (calcimimetic) can be used to lower calcium/PTH levels (does not improve bone density). Treat osteoporosis with bisphosphonates or estrogen modulators if needed.",
+    "Conservative measures: keep patients well hydrated (to reduce stones), avoid thiazide diuretics or lithium (worsen Ca), ensure moderate calcium intake (avoid excessive Ca which can further raise levels but also avoid deficiency which raises PTH). Vitamin D should be repleted if low."
+  ],
+  "red_flags": [
+    "**Parathyroid carcinoma** (rare) is suspected when Ca is extremely high (>14–15) and PTH is very high (>5× normal) – presents with a palpable neck mass and vocal cord paralysis in some cases.",
+    "**Hungry bone syndrome**: after parathyroidectomy, suppressed PTH can cause acute hypocalcemia as bones avidly uptake calcium – monitor Ca closely post-op and provide calcium/vitamin D supplements."
+  ],
+  "algorithm": [
+    "Hypercalcemia confirmed → measure **PTH**.",
+    "If **PTH high/inappropriately normal** → primary HPT likely (if no CKD). Check urine Ca to exclude FHH.",
+    "Assess need for surgery: apply guideline criteria (Ca, bone density, kidney stones, age). Obtain localization studies if proceeding to surgery.",
+    "If parathyroidectomy performed: remove the adenoma or perform 4-gland exploration (if hyperplasia). Watch for postoperative hypocalcemia (hungry bone).",
+    "If managing without surgery: regular surveillance of Ca, creatinine, DEXA; use cinacalcet to control Ca, and treat osteoporosis medically."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Hyperparathyroidism_Brown_Tumors_of_Hands.jpg",
+      "alt": "X-ray of the hands showing multiple lytic \"brown tumors\" (subperiosteal bone cysts) in advanced primary hyperparathyroidism.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hyperparathyroidism_Brown_Tumors_of_Hands.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old woman is evaluated after her blood calcium is found to be 11.0 mg/dL during routine testing. She notes mild fatigue but no major symptoms.",
+      "clues": [
+        "Serum calcium repeatedly high (around 11 mg/dL)",
+        "Parathyroid hormone level is elevated",
+        "No signs of malignancy; patient is relatively asymptomatic",
+        "DXA scan shows low bone density (osteopenia)"
+      ],
+      "answer": "Primary hyperparathyroidism (parathyroid adenoma)",
+      "teaching": "This is an asymptomatic presentation of primary HPT (incidental hypercalcemia). High PTH confirms it's PTH-mediated. In an older woman with osteopenia, a parathyroid adenoma is likely. She meets surgical criteria (high Ca and bone loss) so parathyroidectomy would be recommended."
+    },
+    {
+      "stem": "A 30‑year‑old man has recurrent kidney stones and a history of two episodes of acute pancreatitis. His father had kidney stones and a pituitary tumor.",
+      "clues": [
+        "Calcium 12.5 mg/dL (high)",
+        "PTH inappropriately high",
+        "History of kidney stones and pancreatitis (ulcers can also occur)",
+        "Family history of pituitary tumor (MEN1 syndrome)"
+      ],
+      "answer": "Primary hyperparathyroidism (as part of MEN1 syndrome)",
+      "teaching": "This young patient's hypercalcemia with high PTH and family history suggests MEN1. MEN1 causes parathyroid hyperplasia (leading to primary HPT) alongside pituitary and pancreatic tumors. The correct approach is to treat the hyperparathyroidism (often with subtotal parathyroidectomy) before addressing other MEN1 tumors."
+    }
+  ],
+  "see_also": ["hyperparathyroidism", "secondary-hyperparathyroidism", "tertiary-hyperparathyroidism"],
+  "prerequisites": ["parathyroid-gland", "endocrine-physiology"],
+  "sources": [
+    {
+      "title": "NEJM: Primary Hyperparathyroidism (Insogna, 2018)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp1714213"
+    },
+    {
+      "title": "UpToDate: Primary hyperparathyroidism in adults",
+      "url": "https://www.uptodate.com/contents/primary-hyperparathyroidism-in-adults"
+    },
+    {
+      "title": "Medscape: Primary Hyperparathyroidism (2023)",
+      "url": "https://emedicine.medscape.com/article/127351-clinical"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

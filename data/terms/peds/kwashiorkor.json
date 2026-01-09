@@ -1,0 +1,138 @@
+{
+  "id": "kwashiorkor",
+  "names": [
+    "Kwashiorkor"
+  ],
+  "aliases": [
+    "edematous malnutrition",
+    "protein malnutrition"
+  ],
+  "patterns": [
+    "kwashiorkor",
+    "kwash",
+    "edematous malnutrition",
+    "protein malnutrition",
+    "protein energy malnutrition"
+  ],
+  "primary_tag": "peds",
+  "tags": [
+    "pathology",
+    "peds",
+    "gi",
+    "infectious_dz"
+  ],
+  "definition": "Severe protein malnutrition in children characterized by **bilateral pitting edema** and fatty liver (distended abdomen).",
+  "why_it_matters": "Life-threatening if untreated (undernutrition underlies ~45% of under-5 child deaths) and a classic exam example of severe malnutrition (often contrasted with **marasmus**).",
+  "how_youll_see_it": [
+    "Typically in a child ~1–3 years old, **post-weaning** (e.g., older sibling displaced from breastfeeding when a new baby arrives) with a diet high in starch but extremely low in protein. Common in extreme poverty or famine, often precipitated by an infection (e.g., measles, chronic diarrhea) that worsens nutrition.",
+    "Hallmark **edema**: **bilateral pitting edema** in legs/feet (can progress to generalized anasarca) with a **swollen abdomen** (hepatomegaly from fatty liver). Children may appear plump or of normal weight due to fluid retention, masking severe muscle wasting.",
+    "Skin and hair changes: patchy **hyperpigmented** rash with **desquamation** (peeling, 'flaky paint' skin); hair becomes **thin, brittle, and reddish** or depigmented (may show a 'flag sign' banding).",
+    "Behavior: malnourished children are often **irritable, apathetic**, and have poor appetite (**anorexia**) (unlike marasmus, where appetite is usually preserved)."
+  ],
+  "problem_solving": [
+    "Assess nutritional status: measure **MUAC** and weight-for-height. **MUAC < 11.5 cm** or weight-for-height < –3 SD = **severe acute malnutrition**. **Bilateral pitting edema** (of nutritional origin) also defines SAM (kwashiorkor) even if weight is normal.",
+    "Rule out other edema causes: e.g., check urine for protein to exclude **nephrotic syndrome**. In kwashiorkor, edema occurs without another cause and in context of obvious malnutrition (hair/skin changes, etc.).",
+    "Decide inpatient vs outpatient: **Any edema, poor appetite, or acute complication** (infection, shock, etc.) = **complicated SAM** → admit for inpatient care. If child is alert, with good appetite and no edema or complications = **uncomplicated SAM** → manage with outpatient therapeutic feeding.",
+    "Differentiate kwashiorkor vs **marasmus**: both are severe **PEM**, but **marasmus** is severe wasting without edema (a frail, emaciated child). Management principles overlap (careful refeeding, infection treatment), though kwashiorkor tends to have more urgent complications (edema, hypoglycemia, etc.)."
+  ],
+  "differentials": [
+    {
+      "id": "marasmus",
+      "hint": "severe wasting without edema (\"dry\" malnutrition from total calorie deficiency)"
+    },
+    {
+      "name": "Marasmic kwashiorkor",
+      "hint": "mixed form of malnutrition with both wasting and edema"
+    },
+    {
+      "id": "nephrotic-syndrome",
+      "hint": "edema from kidney protein loss (massive proteinuria); no hair/skin changes of malnutrition"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **MEAL** – Kwashiorkor involves **M**alnutrition, **E**dema, **A**nemia, and **L**iver (fatty)."
+  ],
+  "exam_appearance": [
+    "Toddler in famine with bilateral leg edema, distended belly, 'flaky paint' rash, and reddish hair **→ Kwashiorkor**.",
+    "18‑month‑old post-measles with poor appetite, pitting foot edema, and MUAC 10 cm **→ edematous malnutrition (kwashiorkor)**."
+  ],
+  "treatment": [
+    "Stabilization first: treat **hypoglycemia** (immediate feeding or IV 10% dextrose) and **hypothermia** (keep warm) as they often coexist with infection. Start broad **antibiotics** empirically (assuming hidden infection).",
+    "Rehydrate **carefully**: malnourished children have reduced cardiac reserve. Use oral rehydration slowly (low-sodium **ReSoMal** solution); avoid IV fluids unless in shock (risk of fluid overload).",
+    "Provide **micronutrients**: give **vitamin A** on admission (especially if measles or eye signs of deficiency) and daily multivitamins. Correct electrolyte deficiencies (low potassium, magnesium, etc.). **Do not give iron** in the initial stabilization phase; add iron later during recovery once appetite improves.",
+    "Begin cautious feeding with **WHO F-75** therapeutic milk (low-calorie, low-protein starter formula) in small, frequent feeds. After 2–7 days (when appetite returns and edema improves), transition to **F-100** or ready-to-use therapeutic food (**RUTF**) for catch-up growth. Monitor closely for **refeeding syndrome** or fluid overload during this transition."
+  ],
+  "red_flags": [
+    "**Lethargy, unconsciousness, or body temp < 35.5 °C** in a malnourished child → possible hypoglycemia or sepsis; requires immediate glucose, warming, and urgent care.",
+    "**No appetite** despite severe malnutrition → indicates **complicated SAM** (often with infection); child needs inpatient care.",
+    "Worsening edema or difficulty breathing during feeding → suspect **refeeding syndrome** or incipient heart failure (slow down feeds, correct electrolytes)."
+  ],
+  "algorithm": [
+    "Child with signs of malnutrition (wasting or edema) → measure weight/height and MUAC.",
+    "If **WFH < –3 SD**, **MUAC < 11.5 cm**, or bilateral **pitting edema** present → diagnose **severe acute malnutrition (SAM)**.",
+    "Check for complications: assess for hypoglycemia, hypothermia, infection, dehydration, anemia, etc., and do an appetite test.",
+    "Classify: **complicated SAM** (edema, complications or poor appetite) → treat inpatient (WHO 10-step protocol). **Uncomplicated SAM** (no edema, appetite okay) → treat outpatient with therapeutic feeds.",
+    "In inpatient management: follow WHO steps (e.g., treat hypoglycemia/hypothermia, cautious rehydration, antibiotics, gentle feeding with F-75, then F-100) and monitor closely. In outpatient: provide high-energy RUTF and follow-up weekly until recovery."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Starved_girl.jpg",
+      "alt": "Child with Kwashiorkor: note edema in legs, distended abdomen, and muscle wasting masked by swelling.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Starved_girl.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2‑year‑old girl in a famine region is evaluated for leg swelling and rash.",
+      "clues": [
+        "Weaned 3 months ago; diet mainly cassava (carbohydrates)",
+        "Bilateral pitting edema of legs and feet",
+        "Protuberant belly with enlarged liver",
+        "Patches of hyperpigmented, peeling skin",
+        "Sparse, reddish hair"
+      ],
+      "answer": "Kwashiorkor (edematous protein malnutrition)",
+      "teaching": "A post-weaning toddler on a protein-deficient diet presents with classic kwashiorkor: edema, fatty liver (potbelly), dermatosis, and hair changes. Management requires urgent nutritional rehabilitation (WHO malnutrition protocol) rather than just symptomatic treatment of edema."
+    },
+    {
+      "stem": "An 18‑month‑old boy who recently had measles is brought in with loss of appetite and swelling.",
+      "clues": [
+        "Recovering from measles 1 month ago",
+        "Now apathetic and refuses to eat",
+        "Pitting edema in both feet",
+        "Mid-upper arm circumference 10 cm (severe)"
+      ],
+      "answer": "Kwashiorkor (severe acute malnutrition after infection)",
+      "teaching": "Severe illness (like measles) can precipitate kwashiorkor in a marginally nourished child. Bilateral edema with poor appetite confirms complicated SAM. Treatment involves inpatient care: treat any infections and initiate cautious refeeding (F-75, etc.) to stabilize before rehabilitation."
+    }
+  ],
+  "see_also": [
+    "marasmus",
+    "rickets"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Kwashiorkor (Benjamin & Lappin, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507876/"
+    },
+    {
+      "title": "WHO Pocket Book of Hospital Care for Children (2nd Ed., 2013)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK154454/"
+    },
+    {
+      "title": "UpToDate: Severe acute malnutrition in children (Berkley, 2023)",
+      "url": "https://www.uptodate.com/contents/malnutrition-in-children-in-resource-limited-settings"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

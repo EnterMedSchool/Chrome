@@ -1,0 +1,122 @@
+{
+  "id": "bulimia-nervosa",
+  "names": ["Bulimia nervosa"],
+  "aliases": ["bulimia"],
+  "abbr": ["BN"],
+  "patterns": ["bulimia", "bulimia nervosa", "bulimic"],
+  "primary_tag": "psych",
+  "tags": ["pathology", "psych", "behavior"],
+  "definition": "Eating disorder characterized by recurrent binge eating with loss of control, followed by inappropriate compensatory behaviors (e.g., self-induced vomiting, laxatives, fasting, excessive exercise) to prevent weight gain. Episodes occur at least weekly for ≥3 months and self-esteem is excessively influenced by body shape/weight; patients typically maintain normal body weight.",
+  "why_it_matters": "Common (~1–2% of women) and potentially life-threatening—electrolyte disturbances from purging can cause cardiac arrhythmias, and bulimia carries an elevated suicide risk (bulimic patients are ~7× more likely to die by suicide than average). Frequently tested on exams because patients often appear healthy (normal weight) despite dangerous behaviors.",
+  "how_youll_see_it": [
+    "Typically a **young woman** (late teens/20s) with normal or slightly above-normal weight who is overly concerned with body shape. She has episodic loss-of-control eating of large amounts (bingeing) followed by guilt and attempts to **purge** (e.g., self-induced vomiting, laxative misuse).",
+    "Physical clues include **painless parotid gland swelling** (from chronic vomiting), **dental enamel erosion** and multiple caries (from stomach acid), and callused knuckles from inducing vomiting (\"**Russell's sign**\"). Unlike anorexia, patients are usually normal-weight and often have normal menstruation (no amenorrhea).",
+    "Often coexists with mood and impulse disorders: look for signs of **depression**, **anxiety**, or substance abuse; patients may hide their habits due to shame. Lab findings can include **hypokalemia** and **metabolic alkalosis** from vomiting, but many bulimics have normal labs—history and exam are key."
+  ],
+  "problem_solving": [
+    "Distinguish from **anorexia nervosa**: Bulimic patients typically have BMI ≥18.5 (normal range) and no frank underweight, whereas anorexia involves significantly low weight. If binge/purge behaviors occur only during episodes of anorexia (with low weight), it's considered anorexia (binge-purge subtype), not bulimia.",
+    "Distinguish from **binge eating disorder**: Both have recurrent binge episodes, but **no compensatory purging** occurs in binge-eating disorder, so these patients often become obese. Bulimics, in contrast, typically maintain weight by purging or fasting between binges.",
+    "Clinical clues to hidden bulimia: unexplained **hypokalemia** or metabolic alkalosis on labs, **parotid enlargement** on exam, or dental erosion in a normal-weight patient should prompt gentle screening for bulimic behavior. Always inquire about eating habits and body image in a nonjudgmental way—bulimic patients often feel guilt and conceal their behavior.",
+    "Medication pitfall: avoid **bupropion** (an atypical antidepressant) in patients with bulimia—it's contraindicated due to increased seizure risk in eating disorders."
+  ],
+  "differentials": [
+    {
+      "name": "Anorexia nervosa (binge/purge subtype)",
+      "hint": "significantly low body weight (BMI <18.5) with similar binge/purge behavior"
+    },
+    {
+      "name": "Binge eating disorder",
+      "hint": "binge episodes without compensatory purging, often leading to obesity"
+    },
+    {
+      "name": "Major depressive disorder (atypical)",
+      "hint": "overeating and weight gain can occur, but no compensatory behaviors (no purging); mood symptoms predominate"
+    }
+  ],
+  "tricks": [
+    "Bulimic patients often have a **normal body weight**, making the diagnosis less obvious on appearance (in contrast to anorexia, which presents with visible underweight).",
+    "Remember **Russell's sign** – calluses on the dorsal hand from inducing vomiting – as a classic exam clue for bulimia.",
+    "**Fluoxetine** (an SSRI) is the only FDA-approved medication for bulimia, often requiring a higher dose (e.g., 60 mg/day). (By comparison, medications have minimal effect in active anorexia until weight is restored.)",
+    "The term **bulimia** comes from Greek **bous limos**, meaning \"**ox hunger**,\" referring to the extreme, voracious appetite during binges."
+  ],
+  "exam_appearance": [
+    "College-aged woman with **normal BMI**, **swollen chipmunk cheeks** (parotid glands), **eroded dental enamel**, and a history of eating large amounts of food followed by vomiting → Bulimia nervosa.",
+    "Young adult with episodes of **muscle weakness and cardiac arrhythmia** found to have **hypokalemia** and **metabolic alkalosis** on labs; exam shows callused knuckles → suspect bulimia (electrolyte complications from purging)."
+  ],
+  "treatment": [
+    "**Psychotherapy and nutritional rehabilitation** are first-line. The most effective therapy is **cognitive-behavioral therapy (CBT)** focused on eating habits and body image, often combined with nutritional counseling and education. Family-based therapy or interpersonal therapy may also be used.",
+    "**Pharmacotherapy:** **SSRIs** can reduce binge-purge frequency; **fluoxetine** in particular is recommended (it's FDA-approved for bulimia). High doses (e.g., 60 mg daily) are often needed. **Avoid bupropion** (raises seizure risk in eating disorders). Other medications (e.g., topiramate) have been studied, but SSRIs are preferred for outpatient treatment.",
+    "**Monitor and manage complications:** Regularly check **electrolytes** (risk of hypokalemia) and perform ECGs for arrhythmias. Provide **dental care** (enamel protection, fluoride rinses) and treat GERD/esophagitis if present. In severe cases (marked electrolyte imbalances, cardiac arrhythmia, or suicidal ideation), **hospitalization** and an interdisciplinary eating disorders team approach are indicated."
+  ],
+  "red_flags": [
+    "**Suicidality:** Any expression of hopelessness or self-harm in a bulimic patient must be taken seriously – eating disorders carry high suicide rates (bulimia patients have ~7-fold higher suicide risk). Urgent psychiatric evaluation is warranted.",
+    "**Electrolyte crisis:** Severe **hypokalemia** from purging can precipitate lethal cardiac arrhythmias (e.g., ventricular tachycardia). Signs like palpitations, syncope, or muscle weakness in a bulimic patient require emergent workup and IV electrolyte repletion.",
+    "**Esophageal rupture:** Forceful vomiting can cause a **Mallory-Weiss tear** or, worse, **Boerhaave syndrome** (full-thickness esophageal rupture). Suspect it if a patient develops sudden chest pain, mediastinal emphysema, or shock after vomiting – this is a surgical emergency."
+  ],
+  "algorithm": [
+    "**Recognize clues:** Identify potential bulimia in patients (often adolescent/young adult females) with unexplained electrolyte imbalances, **parotid swelling**, **dental erosion**, or a history of binge eating and inappropriate weight control behaviors.",
+    "**Confirm diagnosis:** Ensure binge eating and compensatory behaviors occur ≥1×/week for ≥3 months (DSM-5 criteria). Check that BMI is not low (normal weight differentiates bulimia from anorexia). Screen for coexisting depression or anxiety, which are common.",
+    "**Medical evaluation:** Perform a thorough exam (mouth, hands, parotids) and obtain labs: metabolic panel (**electrolytes**, BUN/Cr), CBC, thyroid tests, ECG, etc., to assess complications. Rule out other causes of vomiting or weight fluctuation (e.g., GI disorders, endocrine issues, neurological causes) if indicated.",
+    "**Begin treatment:** Establish a therapeutic alliance and initiate **CBT** (or another eating-disorder–focused psychotherapy) along with supervised **nutritional rehabilitation** to normalize eating patterns. If no contraindications, start **fluoxetine** (SSRI) to help reduce binge-purge urges, especially if depression or severe bulimic symptoms are present.",
+    "**Follow-up:** Closely monitor the patient's weight, vital signs, and labs (especially potassium) during treatment. Arrange regular dental evaluations (to manage enamel damage) and support measures for GERD or other complications. Escalate care (e.g., inpatient admission to an eating disorders unit) if the patient develops serious medical issues (e.g., arrhythmias, very low K⁺) or high suicide risk."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/BulemiaEnamalLoss.JPG",
+      "alt": "Inner surface of upper teeth showing loss of enamel (perimylolysis) due to chronic self-induced vomiting in bulimia.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:BulemiaEnamalLoss.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19‑year‑old college student is brought to the clinic by her roommate, who is concerned about her eating habits.",
+      "clues": [
+        "BMI is 22 (normal)",
+        "Bilateral parotid gland enlargement",
+        "Dental enamel erosion with multiple caries",
+        "Callused knuckles on the dorsum of the hand",
+        "Episodes of binge eating followed by self-induced vomiting (per roommate)"
+      ],
+      "answer": "Bulimia nervosa",
+      "teaching": "This vignette shows classic bulimia nervosa. Patients typically maintain a normal weight but engage in binge eating followed by compensatory purging. The **parotid swelling**, **dental erosion**, and **Russell's sign** (knuckle calluses) are telltale signs of frequent self-induced vomiting. Management would include a structured therapy (such as CBT), nutritional support, and often an SSRI like fluoxetine to curb the binge-purge cycle."
+    }
+  ],
+  "see_also": [
+    "anorexia-nervosa",
+    "major-depressive-disorder"
+  ],
+  "prerequisites": ["acid-base-physiology", "cognitive-behavioral-therapy"],
+  "sources": [
+    {
+      "title": "StatPearls: Bulimia Nervosa (Jain & Yilanli, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562178/"
+    },
+    {
+      "title": "UpToDate: Bulimia nervosa in adults – Clinical features, assessment, and diagnosis",
+      "url": "https://www.uptodate.com/contents/bulimia-nervosa-in-adults-clinical-features-assessment-and-diagnosis"
+    },
+    {
+      "title": "NEJM: Bulimia Nervosa (Mehler, 2003)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcp022813"
+    },
+    {
+      "title": "NICE Guideline NG69: Eating disorders – recognition and treatment (2017, updated 2020)",
+      "url": "https://www.nice.org.uk/guidance/ng69"
+    },
+    {
+      "title": "APA Practice Guideline for the Treatment of Patients with Eating Disorders (2023)",
+      "url": "https://ajp.psychiatryonline.org/doi/10.1176/appi.ajp.2022.21030201"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "nasopharyngeal-carcinoma",
+  "names": [
+    "Nasopharyngeal carcinoma"
+  ],
+  "aliases": [
+    "nasopharyngeal cancer",
+    "nasopharynx cancer",
+    "lymphoepithelioma"
+  ],
+  "abbr": [
+    "NPC"
+  ],
+  "patterns": [
+    "nasopharyngeal carcinoma",
+    "nasopharyngeal cancer",
+    "nasopharynx cancer",
+    "NPC",
+    "lymphoepithelioma"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "infectious_dz",
+    "genetics"
+  ],
+  "definition": "Malignancy of the nasopharynx epithelium (usually an undifferentiated squamous cell carcinoma) strongly linked to Epstein–Barr virus (EBV) infection and prevalent in East/Southeast Asian populations.",
+  "why_it_matters": "Unlike other head & neck cancers, NPC has a unique viral etiology (EBV) and distinct geographic distribution. It often presents with advanced local disease (e.g. cervical lymph node metastases) due to its hidden location, and appears frequently on exams highlighting its EBV association and endemic nature.",
+  "how_youll_see_it": [
+    "Endemic in **southern China**/Southeast Asia (male predominance); risk factors include early **EBV** infection, childhood diet high in **salted fish** (nitrosamines), and genetic predisposition.",
+    "Painless **neck mass** (enlarged cervical lymph node in posterior triangle) often the initial presentation.",
+    "**Nasal** obstruction or recurrent **epistaxis** (bloody nasal discharge) due to tumor in the nasopharynx; **unilateral ear** fullness or hearing loss (serous otitis media) from Eustachian tube blockage.",
+    "Advanced cases: **cranial nerve palsies** (e.g. diplopia from CN VI involvement) or **headache** indicate skull base invasion."
+  ],
+  "problem_solving": [
+    "Suspect NPC in adults with unexplained **unilateral middle ear effusion**, recurrent nasal symptoms, and/or a persistent neck mass.",
+    "Evaluate with nasopharyngeal **endoscopy** and biopsy of any suspicious nasopharyngeal lesion (or fine-needle aspirate of a cervical node) to confirm the diagnosis.",
+    "Obtain EBV titers (e.g. **VCA-IgA**) or plasma EBV DNA, which can support diagnosis and be used for screening or monitoring.",
+    "Use imaging (**MRI** of nasopharynx/base of skull, and **CT** or **PET-CT**) for tumor mapping and staging (assess local invasion and distant metastases)."
+  ],
+  "differentials": [
+    {
+      "name": "Lymphoma (e.g. Hodgkin)",
+      "hint": "EBV-associated neck lymphadenopathy but typically systemic B symptoms and no primary nasopharyngeal mass"
+    },
+    {
+      "name": "Juvenile nasopharyngeal angiofibroma",
+      "hint": "adolescent male with recurrent epistaxis; benign vascular tumor in nasopharynx (no lymph node spread)"
+    },
+    {
+      "name": "Granulomatosis with polyangiitis (Wegener)",
+      "hint": "nasal ulceration, chronic sinusitis, and otitis media with systemic signs (c-ANCA positive vasculitis)"
+    }
+  ],
+  "tricks": [
+    "Remember NPC's **\"3 N's\"**: **Nose** (nasal obstruction/bleeding), **Nodes** (cervical lymph nodes), and **Nerves** (cranial nerve palsies).",
+    "In an adult with a **unilateral serous otitis media**, always evaluate the nasopharynx to rule out carcinoma."
+  ],
+  "exam_appearance": [
+    "Middle-aged man from Southern China with chronic nasal congestion, unilateral ear fullness, and a painless neck lump → **Nasopharyngeal carcinoma**.",
+    "Biopsy of a cervical lymph node showing an **undifferentiated carcinoma** positive for EBV-encoded RNA (EBER) → NPC (lymphoepithelioma)."
+  ],
+  "treatment": [
+    "**Radiotherapy** (IMRT to nasopharynx and neck) is the mainstay for localized NPC (radioresponsive tumor).",
+    "Concurrent **chemotherapy** (e.g. high-dose cisplatin) is added for advanced stages (II–IV) to improve outcomes (chemoradiation).",
+    "Limited role for surgery: reserved for persistent neck nodes (**neck dissection**) or small residual/recurrent tumors (endoscopic resection), as primary surgery is morbid in this location."
+  ],
+  "red_flags": [
+    "Any **cranial nerve palsy** (double vision, facial numbness) in NPC suggests skull base invasion (advanced T4 disease).",
+    "**Supraclavicular lymph node** involvement (low neck nodes) indicates extensive nodal spread (advanced stage)."
+  ],
+  "algorithm": [
+    "Risk factors (endemic region, EBV) or triad of nasal, ear, neck symptoms → suspect NPC.",
+    "Nasoendoscopic exam + **biopsy** of nasopharyngeal lesion or nodal mass → confirms diagnosis (undifferentiated carcinoma).",
+    "Stage with imaging: **MRI** for local tumor extent (base of skull, sinuses) and **PET/CT** for distant metastases; check EBV DNA levels.",
+    "Treat based on stage: early NPC → radiation therapy alone; advanced NPC → chemoradiation; follow up with periodic endoscopic exams and EBV DNA monitoring."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Diagram_showing_stage_T4_nasopharyngeal_cancer_CRUK_270.svg/1182px-Diagram_showing_stage_T4_nasopharyngeal_cancer_CRUK_270.svg.png",
+      "alt": "Diagram of stage T4 nasopharyngeal carcinoma extending to adjacent areas (skull base, orbit, cranial nerves, etc).",
+      "credit": {
+        "text": "Cancer Research UK",
+        "href": "https://commons.wikimedia.org/wiki/File:Diagram_showing_stage_T4_nasopharyngeal_cancer_CRUK_270.svg"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": [
+    "lymphoma",
+    "non-hodgkin-lymphoma",
+    "hodgkin-lymphoma"
+  ],
+  "prerequisites": [
+    "epstein-barr-virus",
+    "head-and-neck-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Nasopharyngeal Carcinoma (Shah & Nagalli, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554588/"
+    },
+    {
+      "title": "UpToDate: Epidemiology, etiology, and diagnosis of nasopharyngeal carcinoma",
+      "url": "https://www.uptodate.com/contents/epidemiology-etiology-and-diagnosis-of-nasopharyngeal-carcinoma"
+    },
+    {
+      "title": "National Cancer Institute PDQ: Nasopharyngeal Carcinoma Treatment – Health Professional (2025)",
+      "url": "https://www.cancer.gov/types/head-and-neck/hp/adult/nasopharyngeal-treatment-pdq"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "acute-respiratory-distress-syndrome",
+  "names": ["Acute respiratory distress syndrome"],
+  "aliases": ["ARDS", "noncardiogenic pulmonary edema"],
+  "abbr": ["ARDS"],
+  "patterns": ["ards", "acute respiratory distress syndrome", "adult respiratory distress syndrome"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "infectious_dz", "surgery", "emerg"],
+  "definition": "Life-threatening acute lung injury characterized by diffuse **alveolar damage**, leading to increased capillary permeability (noncardiogenic pulmonary edema) and severe hypoxemic respiratory failure.",
+  "why_it_matters": "Common final pathway in critical illness (∼10–15% of ICU ventilated patients) with high mortality (∼40% overall, up to 45% in severe ARDS). Recognition and prompt lung-protective management improve outcomes, and distinguishing ARDS from cardiogenic edema is a frequently tested clinical skill.",
+  "how_youll_see_it": [
+    "Acute onset (within <1 week of precipitating insult) of **dyspnea**, **tachypnea**, and refractory **hypoxemia** often requiring intubation. Exam: diffuse **crackles**, respiratory distress (accessory muscle use), and possibly **cyanosis** despite supplemental O₂.",
+    "Common triggers: **sepsis** (most common), **aspiration** (gastric contents), **pneumonia**, **severe trauma** (e.g., pulmonary contusion), **acute pancreatitis**, **massive transfusion** (TRALI), **burns**, etc. Symptoms typically worsen 12–48 hours after the inciting event, progressing to respiratory failure.",
+    "Imaging: Chest X-ray – bilateral **diffuse infiltrates** (pulmonary edema) sparing costophrenic angles, often with normal heart size (no cardiomegaly), consistent with noncardiogenic edema. Chest CT – patchy areas of consolidation with normal lung regions (dependent lobes often denser). **Lung ultrasound** – B-lines (wet lung) in both ARDS and cardiogenic edema, but ARDS shows a **patchy** pattern (B-lines interspersed with normal aerated \"spared\" areas) plus **subpleural consolidations** and thick, irregular pleural line; cardiogenic edema shows diffuse uniform B-lines, a thin pleura, and often pleural effusions.",
+    "Laboratory studies: **Arterial blood gas (ABG)** reveals acute **hypoxemic** respiratory failure (low PaO₂) with **PaO₂/FiO₂ ≤ 300 mmHg** (defining ARDS; severity: mild 200–300, moderate 100–200, severe ≤100). Early ARDS often causes respiratory **alkalosis** (low PaCO₂, high pH) from hyperventilation, though CO₂ may rise (acidosis) as fatigue and ventilatory failure ensue."
+  ],
+  "problem_solving": [
+    "Suspect ARDS in any patient with acute respiratory failure and a known risk factor (e.g., sepsis, trauma). **Exclude cardiogenic pulmonary edema**: assess volume status and cardiac function (e.g., bedside echocardiogram, BNP). Historically, a pulmonary capillary wedge pressure (PCWP) < 18 mmHg supports ARDS over cardiac edema.",
+    "Confirm ARDS: obtain chest imaging to identify bilateral infiltrates and perform an **ABG** to calculate the PaO₂/FiO₂ ratio (ensure PEEP ≥5 cm H₂O or CPAP when assessing P/F ratio). Classify severity (mild/moderate/severe) based on P/F ratio. **Rule out alternate diagnoses** (e.g., diffuse alveolar hemorrhage, acute exacerbation of chronic lung disease) with appropriate tests (e.g., bronchoscopy if hemoptysis, CT scan if a focal process is suspected).",
+    "If ARDS is present, address any **underlying cause** (e.g., broad-spectrum antibiotics for pneumonia/sepsis, surgical management of trauma or pancreatitis, etc.) while providing supportive care. In mild cases (P/F 200–300) with minimal symptoms, high-flow nasal oxygen or noninvasive support can be tried; moderate to severe ARDS usually requires **intubation** and mechanical ventilation.",
+    "Monitor oxygenation and ventilation closely (continuous pulse ox and repeat ABGs). Prevent complications: use sedation to facilitate ventilation, elevate head of bed to reduce aspiration risk, provide stress ulcer and DVT prophylaxis, and watch for barotrauma or ventilator-associated pneumonia."
+  ],
+  "differentials": [
+    { "name": "Cardiogenic pulmonary edema", "hint": "Acute heart failure (e.g., MI) can mimic ARDS but with **elevated JVP**, **S3 gallop**, cardiomegaly, and often rapid improvement with diuretics." },
+    { "name": "Diffuse alveolar hemorrhage", "hint": "Pulmonary capillaritis (e.g., vasculitis, Goodpasture) causes similar infiltrates and hypoxemia; look for **hemoptysis** and blood in alveoli (hemosiderin-laden macrophages) on bronchoalveolar lavage." },
+    { "name": "Acute eosinophilic pneumonia", "hint": "Presents like ARDS in young patients (often smokers) but bronchoalveolar lavage shows **eosinophils**; responds dramatically to corticosteroids." }
+  ],
+  "tricks": [
+    "Think **ARDS** when a critically ill patient has refractory hypoxemia with bilateral infiltrates **not** due to heart failure. The key is **noncardiogenic** edema – normal heart size on X-ray and normal PCWP, distinguishing it from cardiogenic pulmonary edema.",
+    "Management cornerstone is **low tidal volume** ventilation (≈6 mL/kg ideal body weight) with adequate PEEP; this approach prevents ventilator-induced lung injury and is the only intervention proven to improve survival. Permissive hypercapnia (allowing higher CO₂) is often accepted to avoid high ventilatory pressures.",
+    "Always search for and treat the **underlying cause** of ARDS – ARDS is a syndrome, not a specific disease. For example, prompt treatment of sepsis or pancreatitis can halt ongoing lung injury."
+  ],
+  "exam_appearance": [
+    "A septic **pancreatitis** patient in ICU develops worsening respiratory distress 24 hours later. Chest X-ray shows bilateral patchy infiltrates, PaO₂ 60 mmHg on FiO₂ 0.6 (P/F = 100) → **ARDS** from pancreatitis (systemic inflammation causing noncardiogenic pulmonary edema).",
+    "An ICU patient with multiple **trauma** and massive transfusions becomes difficult to oxygenate on 100% O₂. Chest imaging reveals \"white-out\" diffuse infiltrates but a normal cardiac silhouette → **ARDS** (e.g., transfusion-related acute lung injury)."
+  ],
+  "treatment": [
+    "**Mechanical ventilation (lung-protective strategy):** Most ARDS patients require intubation. Use **low tidal volumes** (~6 mL/kg ideal body weight) and moderate-to-high **PEEP** to improve oxygenation, while limiting plateau pressure ≤30 cm H₂O. Accept permissive hypercapnia if needed (target pH >7.2) to avoid excessive pressures. Monitor driving pressure and adjust ventilator settings to minimize barotrauma.",
+    "**Adjunctive therapies for severe ARDS:** If PaO₂/FiO₂ remains <150 despite optimal ventilation (FiO₂ ≥0.6, PEEP high), employ **prone positioning** (turn patient prone ~16 hours/day) to improve V/Q matching. Consider short-term **neuromuscular blockade** (paralysis) in early severe ARDS to improve ventilator synchrony. Refractory cases may benefit from **ECMO** (extracorporeal membrane oxygenation) in specialized centers.",
+    "**Conservative fluid management:** Avoid fluid overload – use diuretics if necessary to achieve euvolemia, as a dry lung strategy is associated with better outcomes. Ensure adequate organ perfusion but prevent unnecessary IV fluids that can worsen pulmonary edema.",
+    "**Medications:** No specific drug reverses ARDS, but **corticosteroids** are often considered in moderate-severe ARDS (especially early in the course) to reduce inflammation. Manage symptoms with sedation/analgesia for comfort and to reduce oxygen demand. If severe hypoxemic pulmonary hypertension is present, inhaled pulmonary vasodilators (e.g., nitric oxide) may transiently improve oxygenation (no proven mortality benefit).",
+    "**Underlying cause:** Treat it aggressively (e.g., antibiotics for infection, surgery for trauma, etc.) alongside supportive care. Recovery from ARDS can take weeks; many survivors require rehabilitation due to lingering lung injury or fibrosis."
+  ],
+  "red_flags": [
+    "**Tension pneumothorax:** Sudden unilateral absence of breath sounds or subcutaneous emphysema in an ARDS patient on a ventilator suggests barotrauma (alveolar rupture). **Immediately** decompress the chest (needle/chest tube) and adjust ventilator settings to prevent further injury.",
+    "**Refractory hypoxemia:** If oxygen saturation remains critically low (SaO₂ < 88–90% on maximal support) or PaO₂/FiO₂ continues to fall despite optimal settings, this is an emergency – initiate rescue therapies (proning, paralysis, ECMO) or risk cardiac arrest from hypoxemia.",
+    "**Multi-organ failure:** Signs of other organ failures (acute kidney injury, shock, elevated LFTs) alongside ARDS indicate a severe systemic process. Escalate care (e.g., vasopressors for shock, dialysis if needed) and consider prognosis (high mortality when ARDS is part of MODS)."
+  ],
+  "algorithm": [
+    "At-risk event (sepsis, aspiration, trauma) + acute onset respiratory distress → **suspect ARDS**.",
+    "Obtain **chest X-ray** (look for bilateral infiltrates) and **ABG** (calculate PaO₂/FiO₂ ratio). Evaluate for alternative causes (cardiac vs pulmonary). If bilateral opacities and P/F ≤300 (with PEEP ≥5) and no evidence of volume overload/heart failure → **diagnose ARDS**.",
+    "Admit to ICU. If moderate or severe oxygenation impairment, **intubate** and start lung-protective ventilation (low tidal volume, adequate PEEP). Place central access if needed for hemodynamic monitoring and medications.",
+    "Treat the **underlying cause** (e.g., antibiotics for pneumonia/sepsis, operative intervention for trauma) in parallel with respiratory support.",
+    "If oxygenation remains poor on ventilator (high FiO₂ requirement), escalate support – add **prone positioning**, consider neuromuscular blockade, and optimize PEEP. For extreme hypoxemia not improving, consult an ECMO center early.",
+    "Continually reassess gas exchange and lung compliance. Wean FiO₂ as tolerated to avoid oxygen toxicity. As the lung injury resolves (often in 1–2 weeks), lighten sedation and assess readiness for extubation."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/ARDS_X-Ray.jpg",
+      "alt": "Chest X-ray of ARDS showing bilateral diffuse infiltrates (noncardiogenic pulmonary edema).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:ARDS_X-Ray.jpg"
+      }
+    }
+  ],
+  "prerequisites": ["respiratory-physiology", "sepsis"],
+  "sources": [
+    {
+      "title": "StatPearls: Acute Respiratory Distress Syndrome (Diamond et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK436002/"
+    },
+    {
+      "title": "UpToDate: Acute respiratory distress syndrome in adults – clinical features and management",
+      "url": "https://www.uptodate.com/contents/acute-respiratory-distress-syndrome-clinical-features-diagnosis-and-complications-in-adults"
+    },
+    {
+      "title": "Medscape: Acute Respiratory Distress Syndrome (Harman, 2024)",
+      "url": "https://emedicine.medscape.com/article/165139-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "beta-thalassemia-major",
+  "names": [
+    "Beta-thalassemia major"
+  ],
+  "aliases": [
+    "Cooley's anemia",
+    "transfusion-dependent thalassemia"
+  ],
+  "abbr": [
+    "β-thal major"
+  ],
+  "patterns": [
+    "beta thalassemia major",
+    "Cooley anemia",
+    "beta-thalassemia major",
+    "transfusion dependent thalassemia"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics",
+    "peds"
+  ],
+  "definition": "The most severe form of β-thalassemia (homozygous β⁰ or β⁺ mutations) causing near-complete absence of β-globin chains. Presents with profound anemia in infancy (Cooley's anemia) requiring lifelong transfusions.",
+  "why_it_matters": "Untreated, it is fatal in early childhood. Regular transfusions have transformed prognosis but lead to iron overload that must be managed. Classic example of **extramedullary hematopoiesis** causing bone deformities and growth failure. Often tested on boards as an infant with severe microcytic anemia, \"crew-cut\" skull, and hepatosplenomegaly.",
+  "how_youll_see_it": [
+    "Well in neonatal period (due to protective fetal Hb), then at 6–12 months develops **severe anemia**: pallor, jaundice, irritability, FTT. Extramedullary hematopoiesis → **frontal bossing**, maxillary overgrowth (chipmunk facies), pathological fractures. Massive hepatosplenomegaly (abdominal distension) from RBC destruction and extramedullary hematopoiesis.",
+    "Labs: Very low Hb (often <7 g/dL). **Microcytic, hypochromic** RBCs with **target cells**, anisopoikilocytosis, nucleated RBCs on smear. Electrophoresis: little to no **HbA**, markedly elevated **HbF** (majority) and HbA2.",
+    "Complications: **Iron overload** from transfusions (hemochromatosis in heart -> cardiomyopathy/arrhythmias, endocrine glands -> diabetes, growth delay). Also risk of infection (especially after splenectomy) and folate deficiency (high RBC turnover)."
+  ],
+  "problem_solving": [
+    "Suspect in infant with **severe microcytic anemia** after 6 months and family history. Differentiate from iron deficiency: thalassemia major has normal iron studies, higher RBC count, and signs of hemolysis (↑bilirubin).",
+    "Confirm with hemoglobin analysis: **Electrophoresis** shows HbF as dominant fraction, HbA2 elevated, and absent/near-zero HbA.",
+    "Initiate chronic transfusion therapy early to support growth and development. Monitor ferritin and organ function for iron overload; start chelation by 10–20 transfusions or if ferritin >1000 ng/mL.",
+    "Screen for complications: periodic cardiac MRI for iron, endocrine evaluation (growth, puberty, glucose), liver imaging for cirrhosis. Immunize against encapsulated organisms if splenectomy is performed."
+  ],
+  "differentials": [
+    {
+      "name": "Iron deficiency (severe)",
+      "hint": "usually occurs later in infancy (>1 year) and without bone changes; low ferritin and responds to iron"
+    },
+    {
+      "name": "Diamond-Blackfan anemia",
+      "hint": "congenital pure red cell aplasia in infants; macrocytic RBCs, craniofacial/thumb anomalies"
+    },
+    {
+      "name": "Chronic hemolytic anemia (e.g., spherocytosis)",
+      "hint": "usually normocytic, positive family history but with different smear (spherocytes, etc.)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Cooley's anemia** = **Crew-cut skull X-ray** (marrow expansion).",
+    "**HbF** is elevated (α₂γ₂) and is protective in infancy – symptoms start when HbF naturally falls.",
+    "Untreated, causes death by heart failure by puberty – hence early transfusion support is lifesaving."
+  ],
+  "exam_appearance": [
+    "Irritable 9-month-old with severe microcytic anemia, massive splenomegaly, and frontal bossing; both parents of Mediterranean origin → **β-thalassemia major** (confirm with electrophoresis showing no HbA).",
+    "Short adolescent with diabetes and heart failure who has been getting transfusions for anemia since infancy → complications of **iron overload** in β-thalassemia major."
+  ],
+  "treatment": [
+    "**Lifelong transfusions** (packed RBCs) every 2–5 weeks to maintain Hb ~9–10 g/dL and suppress extramedullary hematopoiesis.",
+    "**Iron chelation** therapy (e.g., subcutaneous deferoxamine, oral deferasirox) to prevent iron overload – start early, monitor ferritin and organ iron.",
+    "**Splenectomy** if hypersplenism (worsening anemia or high transfusion needs); after splenectomy, give vaccines (pneumococcal, etc.) and prophylactic penicillin.",
+    "**Endocrine support** for iron overload effects (e.g., hormone replacement for hypogonadism, manage diabetes and hypothyroid if they occur).",
+    "**Curative**: Hematopoietic stem cell transplant ideally in early childhood (best outcomes if done <5 years); experimental gene therapy now available for transfusion-dependent β-thalassemia."
+  ],
+  "red_flags": [
+    "Fever in a **splenectomized** thalassemia patient – assume sepsis (encapsulated organisms); start broad-spectrum antibiotics immediately.",
+    "Signs of **heart failure** (tachycardia, edema) or new arrhythmia in a transfused patient – evaluate for cardiac iron overload (cardiac MRI) and intensify chelation."
+  ],
+  "algorithm": [
+    "Infant with severe anemia → confirm thalassemia major (CBC, smear, electrophoresis).",
+    "Initiate regular transfusions to maintain safe Hb; monitor growth and development.",
+    "Start iron chelation after ~10–20 transfusions to keep ferritin <2500 ng/mL and prevent organ damage.",
+    "Periodic screening for complications: heart (ECHO/MRI), liver (MRI, LFTs), endocrine labs every 6–12 months.",
+    "Evaluate for bone marrow transplant if a suitable donor is available (best done in early childhood for cure)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/B-Thal.jpg",
+      "alt": "Peripheral blood smear from a patient with beta-thalassemia (Cooley's anemia) showing microcytic, hypochromic red cells and target cells.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:B-Thal.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 10-month-old boy of Greek descent is brought in with severe pallor and a distended abdomen.",
+      "clues": [
+        "Hemoglobin 5 g/dL",
+        "Frontal bossing of skull",
+        "Massive splenomegaly",
+        "Electrophoresis: 90% HbF, 8% HbA2, 0% HbA"
+      ],
+      "answer": "Beta-thalassemia major",
+      "teaching": "This presentation is classic for Cooley's anemia. The infant became profoundly anemic as fetal hemoglobin declined. No adult HbA is produced. Management requires transfusions and chelation; without treatment, high-output cardiac failure and death occur in early childhood."
+    },
+    {
+      "stem": "A 17-year-old with transfusion-dependent β-thalassemia presents with fatigue and arrhythmia.",
+      "clues": [
+        "Diagnosed with Cooley's anemia in infancy",
+        "Underwent splenectomy at age 5",
+        "Skin has bronze pigmentation",
+        "Ferritin is markedly elevated"
+      ],
+      "answer": "Iron overload (secondary hemochromatosis) in β-thalassemia major",
+      "teaching": "Chronic transfusions lead to iron accumulation in organs (heart failure, arrhythmias, liver cirrhosis, endocrine dysfunction). The patient shows signs of hemosiderosis (bronze skin, arrhythmia). Aggressive chelation and endocrine/cardiac management are required."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "beta-thalassemia-minor",
+    "hemoglobin-h-disease",
+    "alpha-thalassemia-trait",
+    "sickle-cell-anemia"
+  ],
+  "prerequisites": [
+    "hemoglobin",
+    "iron-metabolism"
+  ],
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics: Beta Thalassemia (NIH, 2021)",
+      "url": "https://medlineplus.gov/genetics/condition/beta-thalassemia/"
+    },
+    {
+      "title": "StatPearls: Beta Thalassemia (Needs et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531481/"
+    },
+    {
+      "title": "UpToDate: Pathophysiology of beta thalassemia",
+      "url": "https://www.uptodate.com/contents/pathophysiology-of-thalassemia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

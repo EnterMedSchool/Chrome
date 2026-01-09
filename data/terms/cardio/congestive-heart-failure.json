@@ -1,0 +1,138 @@
+{
+  "id": "congestive-heart-failure",
+  "names": ["Congestive heart failure"],
+  "aliases": [
+    "heart failure",
+    "congestive cardiac failure",
+    "left-sided heart failure",
+    "right-sided heart failure",
+    "heart failure with reduced ejection fraction",
+    "heart failure with preserved ejection fraction"
+  ],
+  "abbr": ["CHF", "HFrEF", "HFpEF"],
+  "patterns": [
+    "heart failure",
+    "congestive heart failure",
+    "chf",
+    "hfref",
+    "hfpef",
+    "cardiac failure"
+  ],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "pharmacology"],
+  "definition": "Clinical syndrome of the heart's inability to pump blood effectively, leading to inadequate perfusion and **congestion** of tissues; can be left-sided (pulmonary edema) or right-sided (systemic edema), and classified as **HFrEF** (systolic dysfunction, reduced ejection fraction) or **HFpEF** (diastolic dysfunction, preserved ejection fraction).",
+  "why_it_matters": "Extremely common (≈6 million adults in the US) and a leading cause of hospitalization in older adults. Despite modern therapies, HF carries high morbidity and mortality (≈20% one-year and ~50% five-year mortality for advanced HF) and significantly impacts quality of life, making it a major public health challenge and frequent exam topic.",
+  "how_youll_see_it": [
+    "Key symptoms include **dyspnea** (shortness of breath on exertion, progressing to at rest), **orthopnea** (difficulty breathing lying flat, relieved by sitting up), **paroxysmal nocturnal dyspnea (PND)** (waking up gasping for air), fatigue, and **edema** (leg swelling). Exam may show **jugular venous distension (JVD)**, pulmonary **crackles** at lung bases, displaced apical impulse (cardiomegaly), and an **S3** gallop (in HFrEF).",
+    "Left-sided HF causes pulmonary congestion (dyspnea, orthopnea, **crackles**, PND) due to fluid backing up into the lungs. Right-sided HF causes systemic congestion (**JVD**, hepatomegaly, ascites, peripheral edema) due to blood backing up in systemic veins. Longstanding left HF can lead to right HF (biventricular failure).",
+    "**Common causes**: **Coronary artery disease** (post-MI ischemic cardiomyopathy) is the leading cause of HFrEF. Other causes include **chronic hypertension** (causing LV hypertrophy, often leading to HFpEF), valvular diseases (e.g., aortic stenosis, mitral regurgitation), myocarditis, dilated cardiomyopathy (alcohol, chemotherapy, viral), and arrhythmias (chronic tachycardia). HFpEF typically occurs in older patients with hypertension, obesity, or diabetes (stiff LV with an **S4** gallop)."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis: obtain a **B-type natriuretic peptide (BNP)** level (elevated in HF from ventricular stretch) and perform a transthoracic **echocardiogram** to assess ejection fraction and cardiac structure (chamber sizes, wall motion, valves). Also get a **chest X-ray** (cardiomegaly, pulmonary edema) and **ECG** (prior MI, arrhythmia) as part of initial evaluation.",
+    "Evaluate the cause: check for ischemia (if angina or history suggests, do stress test or coronary angiography), review medications (e.g., chemo drugs) and toxins (alcohol), and screen for contributing conditions (**TSH** for thyroid disease, **iron studies** for hemochromatosis, etc.).",
+    "Assess severity and type: determine if **HFrEF** (EF ≤40%) vs **HFpEF** (EF ≥50%, with 41–49% = HFmrEF) and classify the functional severity by **NYHA class I–IV** (I = no symptoms, IV = symptoms at rest) and disease progression by **ACC/AHA Stage A–D** (A = risk factors only, B = structural heart disease no symptoms, C = symptomatic HF, D = refractory HF).",
+    "Monitor for complications: check renal function (for cardiorenal syndrome), liver enzymes (congestion can cause hepatopathy), and watch for arrhythmias (e.g., **atrial fibrillation** or ventricular tachycardia) that commonly occur in HF patients."
+  ],
+  "differentials": [
+    {
+      "name": "COPD exacerbation",
+      "hint": "chronic smoker with wheezing and dyspnea but **no orthopnea** or edema; normal BNP, improves with bronchodilators"
+    },
+    {
+      "name": "Pneumonia",
+      "hint": "acute dyspnea with **fever**, cough, and unilateral crackles/infiltrate (not diffuse edema); often normal BNP"
+    },
+    {
+      "name": "Cardiac tamponade",
+      "hint": "**Beck's triad** (hypotension, JVD, distant heart sounds) and pulsus paradoxus; causes shock and JVD but lungs are clear (no pulmonary edema)"
+    }
+  ],
+  "tricks": [
+    "Sleeping upright on multiple pillows (to relieve orthopnea) and episodes of **PND** are classic for HF; lying flat increases venous return, worsening pulmonary edema.",
+    "An **S3** gallop (\"kentucky\") is a classic sign of systolic HF (volume overload, dilated ventricle), whereas an **S4** (\"tennessee\") suggests a stiff LV (diastolic HF, e.g., LV hypertrophy).",
+    "**BNP** is released by stretched ventricles in HF; a normal BNP level essentially rules out significant HF as the cause of dyspnea."
+  ],
+  "exam_appearance": [
+    "Older male with prior MI who has exertional dyspnea, orthopnea, leg edema, and an S3 heart sound on exam → chronic **systolic HF** (HFrEF due to ischemic cardiomyopathy).",
+    "Elderly hypertensive woman with LV hypertrophy who develops acute **flash pulmonary edema** (severe dyspnea, pink frothy sputum) despite a normal EF on echo → **diastolic HF** (HFpEF crisis).",
+    "Patient with longstanding COPD (cor pulmonale) presenting with elevated JVP, hepatomegaly, and bilateral ankle edema but clear lungs → isolated **right-sided heart failure**."
+  ],
+  "treatment": [
+    "**Lifestyle:** HF patients should follow a low-**salt** diet (<2g/day), restrict fluids (especially if hyponatremic), monitor daily weight, and exercise as tolerated. Educate on recognizing symptoms of fluid overload early and medication compliance.",
+    "**Medications (HFrEF):** Start **ACE inhibitor** (or ARB, or ideally an **ARNI**) plus a **beta blocker** (bisoprolol, metoprolol succinate, or carvedilol) and an **MRA** (mineralocorticoid receptor antagonist like spironolactone) – these improve survival. Add an **SGLT2 inhibitor** (e.g., dapagliflozin) for additional morbidity/mortality benefit. Use loop **diuretics** as needed for symptomatic relief of congestion (reduces edema and dyspnea).",
+    "**Additional therapies:** In HFrEF, hydralazine + isosorbide dinitrate is recommended for African-American patients with persistent Class III–IV symptoms despite the above, or if ACEi/ARB can't be used. If LVEF ≤35% (and NYHA II–III) despite optimal meds, add an **ICD** to prevent sudden cardiac death. If LVEF is low and QRS is prolonged (LBBB), consider **CRT** (biventricular pacing) to improve synchronization.",
+    "**Advanced HF (Stage D):** Refractory symptoms at rest despite therapy may require intravenous **inotropes** (e.g., dobutamine) for short-term stabilization. Evaluate for **heart transplant** in eligible patients or consider a durable **LVAD** (left ventricular assist device) as a bridge or destination therapy. Discuss palliative care for symptom management in end-stage HF.",
+    "**HFpEF management:** There is no proven mortality-reducing therapy yet for HFpEF, so focus on treating contributors: strict blood pressure control (e.g., with ACEi/ARBs), manage atrial fibrillation or ischemia if present, use diuretics to control edema, and encourage lifestyle changes (weight loss, exercise). **SGLT2 inhibitors** have shown some benefit in reducing HF hospitalizations in HFpEF."
+  ],
+  "red_flags": [
+    "Acute **pulmonary edema**: rapid onset of severe dyspnea, anxiety, and pink frothy sputum – indicates flash pulmonary edema (acute left HF) requiring emergency treatment (high-flow oxygen, IV diuretics, possibly nitrates and ventilatory support).",
+    "Signs of **cardiogenic shock** in HF (hypotension, cool clammy skin, altered mental status, very low urine output) – indicates end-stage pump failure; requires immediate inotropic support and consideration of mechanical support (e.g., intra-aortic balloon pump, LVAD) or transplant."
+  ],
+  "algorithm": [
+    "Patient with risk factors (CAD, hypertension) + symptoms of HF (dyspnea, edema) → **suspect HF**.",
+    "If HF suspected → order **BNP** and perform **echocardiography** to confirm diagnosis (assess EF and cardiac function); evaluate for precipitating factors (ECG, troponin to rule out MI, etc.) and start diuresis if volume overloaded.",
+    "If HF confirmed → categorize **HFrEF vs HFpEF** by EF and assess severity (assign NYHA class I–IV for symptoms, and ACC/AHA Stage A–D for disease stage).",
+    "Initiate **guideline-directed medical therapy (GDMT)** for HFrEF: ACEi/ARNI + beta-blocker + MRA + SGLT2i (if not contraindicated) to improve survival; add diuretics for symptom relief. Treat underlying causes (revascularize if ischemic, control BP, manage AF, etc.) and optimize comorbid conditions (e.g., diabetes).",
+    "Follow-up: Titrate medications to target doses. If LVEF remains ≤35% on optimal therapy → consider ICD placement (and CRT if indicated). Advanced Stage D HF → refer for specialized therapies (inotropes, transplant evaluation, or mechanical support)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Heartfailure.jpg",
+      "alt": "Illustration of the major signs and symptoms of heart failure, including pulmonary edema (causing dyspnea and cough), pleural effusion, swelling of abdomen (ascites) and legs (pitting edema), and enlargement of heart on chest X-ray.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Heartfailure.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with a history of a large anterior MI 5 years ago now presents with fatigue and shortness of breath that worsens when he lies flat.",
+      "clues": [
+        "Needs to sleep propped up on three pillows (orthopnea)",
+        "Bilateral lung crackles and elevated jugular venous pressure on exam",
+        "Displaced point of maximal impulse and an S3 gallop are present",
+        "Echocardiogram shows a dilated LV with ejection fraction of 30%"
+      ],
+      "answer": "Congestive heart failure (HFrEF due to ischemic cardiomyopathy)",
+      "teaching": "Prior myocardial infarction led to left ventricular systolic dysfunction (ischemic cardiomyopathy). He now has classic congestive HF findings: orthopnea, pulmonary crackles, JVD, and an S3, with reduced EF on echo. Management would include ACE inhibitor/ARNI, beta-blocker, and spironolactone to improve remodeling and survival, plus diuretics for symptom relief."
+    }
+  ],
+  "see_also": [
+    "myocardial-infarction",
+    "dilated-cardiomyopathy",
+    "hypertrophic-cardiomyopathy",
+    "aortic-stenosis",
+    "atrial-fibrillation"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "renin-angiotensin-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Heart Failure (Congestive Heart Failure) (Shams & Malik, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430873/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of heart failure with reduced ejection fraction in adults",
+      "url": "https://www.uptodate.com/contents/heart-failure-with-reduced-ejection-fraction-treatment"
+    },
+    {
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure (Heidenreich et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35363499/"
+    },
+    {
+      "title": "NEJM: Heart Failure with Preserved Ejection Fraction (Al Harthi & Gheith, 2023)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpl2305181"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": "klumpke-palsy",
+  "names": ["Klumpke palsy"],
+  "aliases": ["Klumpke's palsy", "Klumpke paralysis", "Dejerine-Klumpke palsy", "lower brachial plexus palsy"],
+  "abbr": [],
+  "patterns": ["klumpke", "klumpke palsy", "klumpke's palsy", "klumpke paralysis", "klumpke's paralysis", "lower brachial plexus injury", "C8-T1 palsy"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "msk_derm", "peds", "obgyn", "surgery"],
+  "definition": "Injury of the lower brachial plexus (**C8-T1** roots) causing paralysis of intrinsic hand muscles ('claw hand') and sensory loss in the medial arm/hand; often includes **Horner syndrome** if the T1 sympathetic fibers are affected.",
+  "why_it_matters": "Although much less common than Erb palsy, Klumpke palsy appears in exams to test brachial plexus anatomy. It signifies a lower trunk injury that can cause profound hand disability (and **Horner syndrome** in severe cases), highlighting the importance of recognizing nerve root levels and indicating the potential need for surgical intervention.",
+  "how_youll_see_it": [
+    "**Newborn (obstetric)** – Rare (<5% of brachial plexus birth injuries) but associated with **breech delivery** or arm traction during birth. Infant has a limp hand (no **grasp reflex**) with intact shoulder/elbow motion.",
+    "**Adults** – Occurs with forceful **arm traction** (catching oneself during a fall, pulling arm overhead). Presents as weakness/paralysis of the hand and forearm muscles with numbness along the ulnar side of forearm/hand.",
+    "**Exam findings** – **Claw hand** deformity (wrist extension, MCP hyperextension, IP joint flexion from intrinsic muscle paralysis) and **sensory loss** in C8-T1 dermatomes (medial forearm, ulnar hand). **Reflexes**: biceps/triceps intact (C5-7); grasp reflex absent in infants. **Horner syndrome** (ptosis, miosis ± anhidrosis) may accompany, indicating T1 sympathetic involvement."
+  ],
+  "problem_solving": [
+    "Differentiate **upper vs lower plexus**: arm weakness plus **hand clawing** (with normal shoulder rotation/elbow flexion) points to a lower trunk (Klumpke) lesion, whereas an extended 'waiter's tip' arm indicates an upper trunk (Erb) lesion.",
+    "Check for **Horner syndrome** (ptosis, miosis) in suspected Klumpke palsy – its presence implies a **preganglionic (root) avulsion** of T1 with poor spontaneous recovery.",
+    "In an adult with Klumpke-like hand weakness and Horner signs *without* trauma, suspect a **Pancoast tumor** (apical lung tumor) compressing the lower plexus and sympathetic chain."
+  ],
+  "differentials": [
+    { "name": "Erb-Duchenne palsy", "hint": "upper trunk (C5-C6) injury – causes 'waiter's tip' arm (shoulder adducted, elbow extended) rather than claw hand" },
+    { "name": "Thoracic outlet syndrome", "hint": "compression of lower plexus (often by cervical rib) – causes lower trunk symptoms (ulnar hand numbness, intrinsic weakness) +/- vascular findings" },
+    { "name": "Ulnar neuropathy", "hint": "ulnar nerve lesion at elbow (cubital tunnel) causes clawing of 4th/5th digits and sensory loss in ulnar hand, but spares median-innervated fingers and has no Horner syndrome" }
+  ],
+  "tricks": [
+    "**Klumpke = Klaw**: lower trunk injury classically presents with a total **claw hand** (intrinsic minus hand).",
+    "**Horner syndrome** (ptosis & miosis in a hand palsy question) is a clue that it's a **Klumpke** (C8-T1) lesion with root avulsion."
+  ],
+  "exam_appearance": [
+    "Newborn with difficult breech delivery, now has a paralyzed hand (extended wrist, clawed fingers, no grasp) but normal shoulder movement ± **Horner syndrome** → Klumpke palsy (C8-T1 injury).",
+    "Adult who falls and grabs a ledge to avoid the fall, then develops **intrinsic hand muscle** paralysis with **ulnar side numbness** and ipsilateral ptosis → lower trunk brachial plexus injury (Klumpke)."
+  ],
+  "treatment": [
+    "**Conservative** (initial): Support and monitor. Begin **passive range-of-motion** exercises and physical therapy to prevent contractures while waiting for nerve recovery. Many neonatal injuries improve spontaneously within weeks to months.",
+    "**Surgical**: If no significant recovery by ~3–6 months (or sooner if signs of root avulsion), consult neurosurgery/orthopedics for possible **nerve graft or transfer**. Early surgical exploration is often recommended when **Horner syndrome** or complete palsy indicates avulsion.",
+    "After nerve repair or if residual deficits remain, provide long-term **occupational therapy**. Later orthopedic interventions (tendon transfers, muscle releases) can improve function in a chronically weak hand."
+  ],
+  "red_flags": [
+    "**Horner syndrome** (ptosis, miosis on the affected side) accompanying a brachial plexus injury – suggests **root avulsion** with severe damage (spontaneous motor recovery <10%). This warrants early specialist referral.",
+    "**No improvement** in function over 3–6 months in an infant – signifies a more severe injury (e.g., neurotmesis) and the need for surgical evaluation. Also, any **upper motor neuron signs** (hyperreflexia, Babinski) indicate possible spinal cord involvement rather than an isolated plexus lesion."
+  ],
+  "algorithm": [
+    "Birth or trauma with arm weakness → **Assess pattern**: if hand is paralyzed with intact proximal arm, suspect Klumpke (C8-T1); if shoulder/elbow weak with intact hand, suspect Erb (C5-C6).",
+    "Perform detailed neuro exam: document muscle groups affected, sensory loss distribution, and look for **Horner syndrome** (implicates root avulsion). Consider imaging (MRI) if bone injury or avulsion is suspected.",
+    "Initial management for plexus injury is **conservative**: protect the limb, begin gentle PT/OT to maintain mobility, and closely monitor for return of function.",
+    "Reevaluate at ~3–6 months: if signs of reinnervation (improving strength) are present, continue conservative management; if **no improvement**, obtain electrodiagnostic studies and plan for **surgical repair** (nerve graft/transfer).",
+    "After surgical intervention or if late deficits remain, focus on **rehabilitation** and consider orthopedic procedures (e.g., tendon transfers) to optimize limb function."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Brachial_plexus_color.svg/1280px-Brachial_plexus_color.svg.png",
+      "alt": "Color-coded diagram of the brachial plexus (C5-T1 nerve roots and branches) illustrating the lower trunk (C8-T1) involvement in Klumpke palsy.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Brachial_plexus_color.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A newborn girl is delivered via breech extraction with noted arm traction. She has a limp left hand and does not move her fingers.",
+      "clues": [
+        "Absent grasp reflex in left hand",
+        "Normal shoulder and elbow movement",
+        "Left-sided ptosis and miosis",
+        "Hand is clenched in a claw posture"
+      ],
+      "answer": "Klumpke palsy (lower brachial plexus injury)",
+      "teaching": "Traction during a breech delivery injured the C8-T1 nerve roots (lower trunk). This causes paralysis of the hand intrinsics ('claw hand') and ipsilateral Horner syndrome from sympathetic fiber involvement. Such findings indicate a severe plexus injury (possible root avulsion) requiring prompt neuro-Ortho evaluation."
+    },
+    {
+      "stem": "A 25‑year‑old man falls from a tree and grabs a branch with his right arm to break the fall. Afterwards, he cannot move his right hand.",
+      "clues": [
+        "Total paralysis of intrinsic hand muscles (claw hand)",
+        "Numbness of right medial forearm and hand",
+        "Right eyelid droop and pupil constriction",
+        "Normal shoulder and elbow function"
+      ],
+      "answer": "Klumpke palsy (lower trunk brachial plexus palsy)",
+      "teaching": "Sudden hyperabduction traction (catching oneself during a fall) avulsed the lower brachial plexus (C8-T1). The result is intrinsic hand muscle paralysis with a claw deformity and Horner syndrome due to T1 sympathetic fiber disruption. This classic Klumpke palsy scenario often necessitates surgical intervention if severe."
+    }
+  ],
+  "see_also": [
+    "erb-palsy",
+    "ulnar-nerve-injury",
+    "median-nerve-injury",
+    "radial-nerve-injury"
+  ],
+  "prerequisites": [
+    "brachial-plexus-anatomy",
+    "nerve-injury-healing"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Klumpke Palsy (Merryman & Varacallo, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531500/"
+    },
+    {
+      "title": "UpToDate: Neonatal brachial plexus palsy",
+      "url": "https://www.uptodate.com/contents/neonatal-brachial-plexus-palsy"
+    },
+    {
+      "title": "Neonatal Brachial Plexus Palsies (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/317057-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

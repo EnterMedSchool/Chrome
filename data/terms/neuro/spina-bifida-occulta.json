@@ -1,0 +1,98 @@
+{
+  "id": "spina-bifida-occulta",
+  "names": ["Spina bifida occulta"],
+  "aliases": ["occult spina bifida", "closed spina bifida", "hidden spina bifida", "closed spinal dysraphism"],
+  "abbr": ["SBO"],
+  "patterns": ["spina bifida occulta", "occult spina bifida", "hidden spina bifida", "closed spina bifida"],
+  "primary_tag": "neuro",
+  "tags": ["peds", "neuro", "pathology"],
+  "definition": "Mildest form of spina bifida (a neural tube defect) where the bony vertebral arches fail to fuse, leaving a \"hidden\" gap. It results from incomplete neural tube closure (around days 17-30 of gestation) but has no exposed neural tissue.",
+  "why_it_matters": "Occulta means \"hidden\" - it's extremely common (10-20% of people) yet usually asymptomatic. It's often discovered incidentally (e.g. on spine X-ray/MRI for another reason) but is a classic high-yield topic. A sacral tuft of hair, dimple, or birthmark is a key exam clue. Most cases are benign, but some patients have tethered cords, so recognition is important.",
+  "how_youll_see_it": [
+    "Often an incidental radiographic finding (e.g. a spine X-ray or MRI done for another reason).",
+    "Physical exam may show a sacral skin marker (hairy patch, dermal sinus, lipoma, hemangioma, pigmented nevus, or small dimple).",
+    "Neurologic exam is usually normal. If present, symptoms are subtle (mild leg numbness/weakness or occasional back pain)."
+  ],
+  "problem_solving": [
+    "Suspect SBO when you see a sacral tuft/dimple on exam or an incidental vertebral cleft on imaging.",
+    "Screen infants with spinal ultrasound (<6–9 months old) or older kids with MRI to evaluate the spinal cord (look for lipoma or thickened filum).",
+    "If imaging is normal and no symptoms, reassure. If cord tethering signs appear, or imaging is abnormal, refer to pediatric neurosurgery."
+  ],
+  "differentials": [
+    {
+      "id": "meningocele",
+      "hint": "Meninges protrude through a spine defect in a CSF-filled sac (no neural tissue) – may cause bladder/bowel issues."
+    },
+    {
+      "id": "myelomeningocele",
+      "hint": "Open defect with spinal cord tissue in the sac; open to environment – causes paralysis, sensory loss, and incontinence."
+    }
+  ],
+  "tricks": [
+    "\"Occulta\" = hidden - no visible sac. Look for a hairy tuft or midline dimple over the lower spine.",
+    "Think \"no meningeal sac\": SBO = vertebral cleft only (absent spinous process) on imaging."
+  ],
+  "exam_appearance": [
+    "Pelvic X-ray of an asymptomatic teen showing absence of the S1 spinous process (arrow).",
+    "Toddler with a sacral tuft/dimple and normal neurology – likely SBO (diagnosed by imaging; just observe if no tethering)."
+  ],
+  "red_flags": [
+    "Neurologic findings (leg weakness/numbness, asymmetric reflexes) or orthopedic issues (clubfoot, progressive scoliosis).",
+    "Bowel or bladder dysfunction (incontinence/constipation) suggesting tethered cord.",
+    "Abnormal findings on spine imaging (e.g. tethered cord, thickened filum, spinal lipoma)."
+  ],
+  "algorithm": [
+    "Identify sacral skin markers or incidental spine cleft → if age <6mo do spine ultrasound, if older do MRI.",
+    "If imaging shows isolated SBO with normal cord → routine follow-up. If filum thickening/low conus or symptoms → neurosurgery eval.",
+    "Remember: most SBO cases don't need surgery unless tethering symptoms develop."
+  ],
+  "cases": [
+    {
+      "stem": "A 2-year-old boy is found to have a small tuft of hair and a dimple at his lower back during a well-child exam. He has normal leg strength and no neurologic deficits.",
+      "clues": [
+        "sacral tuft of hair",
+        "sacral dimple",
+        "normal neurologic exam"
+      ],
+      "answer": "Spina bifida occulta",
+      "teaching": "Hidden NTD: vertebral arch defect without open sac or neural herniation. Hair/dimple in lumbar region are clues. Usually no symptoms; just monitor for tethered cord."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Spina_Bifida_pelvis_X-ray.jpg",
+      "alt": "Pelvic X-ray highlighting spina bifida occulta (missing S1 spinous process)",
+      "credit": {
+        "text": "Image: Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Spina_Bifida_pelvis_X-ray.jpg"
+      }
+    }
+  ],
+  "see_also": ["meningocele", "chiari-ii-malformation", "anencephaly"],
+  "sources": [
+    {
+      "title": "StatPearls: Spina Bifida",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559265/"
+    },
+    {
+      "title": "Medscape: Spina Bifida Overview",
+      "url": "https://emedicine.medscape.com/article/311113-overview"
+    },
+    {
+      "title": "Cleveland Clinic: Spina Bifida Occulta",
+      "url": "https://my.clevelandclinic.org/health/diseases/22825-spina-bifida-occulta"
+    },
+    {
+      "title": "Mayo Clinic: Spina Bifida – Symptoms & Causes",
+      "url": "https://www.mayoclinic.org/diseases-conditions/spina-bifida/symptoms-causes/syc-20377860"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

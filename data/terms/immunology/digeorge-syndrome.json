@@ -1,0 +1,158 @@
+{
+  "id": "digeorge-syndrome",
+  "names": [
+    "DiGeorge syndrome"
+  ],
+  "aliases": [
+    "22q11.2 deletion syndrome",
+    "velocardiofacial syndrome",
+    "CATCH-22"
+  ],
+  "abbr": [
+    "DGS",
+    "22q11.2DS"
+  ],
+  "patterns": [
+    "digeorge",
+    "di george syndrome",
+    "22q11.2 deletion",
+    "22q11 deletion syndrome",
+    "velocardiofacial syndrome",
+    "VCFS",
+    "CATCH22"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "genetics",
+    "immunology",
+    "cardio",
+    "endocrine",
+    "peds",
+    "psych"
+  ],
+  "definition": "Autosomal dominant **microdeletion** of chromosome 22q11.2 (usually de novo) causing defective development of the 3rd & 4th pharyngeal pouches. Results in **thymic & parathyroid hypoplasia** (T-cell immunodeficiency, hypocalcemia) along with **conotruncal cardiac defects** and craniofacial abnormalities.",
+  "why_it_matters": "It's the most common microdeletion syndrome (~1 in 4,000 births) and exemplifies how a single genetic defect can disrupt multiple systems (heart, immune, endocrine). Classic for exams due to the triad of **cardiac defect**, **immune deficiency**, and **hypocalcemia**. Early recognition allows life-saving interventions (calcium for seizures, infection precautions).",
+  "how_youll_see_it": [
+    "Severe neonatal presentation: **conotruncal heart defect** (e.g., truncus arteriosus, tetralogy of Fallot) with **hypocalcemic seizures** in the first days of life (neonatal tetany from parathyroid aplasia). Dysmorphic facial features (e.g., low-set ears, micrognathia) may be noted at birth.",
+    "Recurrent infections starting in infancy due to **T-cell deficiency** from thymic hypoplasia (often manifesting after 3–6 months when maternal antibodies wane). Chest X-ray can show an **absent thymic shadow** (if thymus is very small).",
+    "Craniofacial and palate anomalies: cleft palate or **velopharyngeal insufficiency** (leading to feeding difficulties and nasal-sounding speech), **hooded eyelids**, **bulbous nasal tip**, and an elongated face. Many patients have developmental delays or learning disabilities.",
+    "Adolescents and adults: increased risk of **psychiatric disorders** (anxiety, ADHD, depression) – notably about 25% develop **schizophrenia** in adulthood."
+  ],
+  "problem_solving": [
+    "Think of 22q11.2 deletion (DiGeorge) in any infant with the combination of heart defect, immunodeficiency, and hypocalcemia.",
+    "Confirm the diagnosis with genetic testing: fluorescence in situ hybridization (**FISH**) or chromosomal microarray to detect the 22q11.2 deletion.",
+    "Evaluate the extent of organ involvement: perform an **echocardiogram** for cardiac anomalies; check **serum calcium** and **parathyroid hormone** levels; obtain **T-lymphocyte counts** (flow cytometry) to assess immune function.",
+    "If T-cell counts are extremely low (complete DiGeorge syndrome), manage like severe combined immunodeficiency: protective isolation, no live vaccines, and consider **thymus transplant** or hematopoietic stem cell transplant.",
+    "For partial DiGeorge (most cases), immune function often improves with time. Provide infection prophylaxis (e.g., appropriate antibiotics, IVIG if needed) and monitor immune recovery while treating other issues."
+  ],
+  "differentials": [
+    {
+      "id": "severe-combined-immunodeficiency",
+      "hint": "presents earlier with **severe infections**, lack both T and B cells; often X-linked or AR (no specific cardiac or facial anomalies)."
+    },
+    {
+      "id": "williams-syndrome",
+      "hint": "**supravalvular aortic stenosis** (not conotruncal), **hypercalcemia** (contrast to hypo-), \"elfin\" facies, very social personality."
+    },
+    {
+      "id": "charge-syndrome",
+      "name": "CHARGE syndrome",
+      "hint": "Coloboma, Heart defects, Atresia choanae, Growth/GU anomalies, Ear abnormalities; caused by CHD7 mutation (not 22q deletion)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic **CATCH-22**: **C**ardiac (conotruncal defects), **A**bnormal facies, **T**hymic hypoplasia (T-cell deficiency), **C**left palate, **H**ypocalcemia (due to absent parathyroids) — all due to 22q11 deletion.",
+    "Embryology tie-in: failure of the 3rd and 4th **pharyngeal pouches** to develop → thymic and parathyroid aplasia, explaining the immunodeficiency and hypocalcemia.",
+    "Genetics: ~3 Mb deletion (~40 genes, including **TBX1** which drives many features). ~90% of cases are **de novo**; if inherited, it follows autosomal dominant transmission (50% chance to each offspring)."
+  ],
+  "exam_appearance": [
+    "Newborn with **truncus arteriosus**, craniofacial anomalies, and **tetany** (seizures) from hypocalcemia → DiGeorge syndrome (22q11.2 deletion).",
+    "Infant with cleft palate, recurrent viral/fungal infections, and congenital heart murmur (Tetralogy of Fallot) → suspect 22q11 deletion (DiGeorge).",
+    "Young adult with a history of conotruncal heart defect repair and learning difficulties develops schizophrenia → consider an undiagnosed 22q11.2 deletion syndrome."
+  ],
+  "treatment": [
+    "Cardiac & palate: Early **surgical repair** of cardiac defects (e.g., TOF repair in infancy) and of cleft palate/velopharyngeal anomalies to improve feeding and speech.",
+    "Calcium: **Calcium supplementation** (often with calcitriol, active vitamin D) to maintain normal calcium levels and prevent tetany/seizures. Monitor serum calcium regularly, especially in infancy and around surgeries or growth spurts.",
+    "Immune support: For significant T-cell deficiency, prevent infections with prophylactic antibiotics and/or **IVIG**. **Avoid live vaccines** until an immunologist confirms sufficient T-cell function. In the rare complete DiGeorge, pursue thymus transplant or bone marrow transplant.",
+    "Developmental and psychosocial: Provide early intervention for speech and developmental delays (speech therapy, PT/OT, special education). Monitor and treat psychiatric conditions (e.g., counseling, medications for schizophrenia or anxiety) as the patient ages."
+  ],
+  "red_flags": [
+    "Neonate with **hypocalcemic seizure** or **arrhythmia** – requires immediate IV calcium; undiagnosed DiGeorge is a common cause of life-threatening neonatal hypocalcemia.",
+    "Infants with known or suspected T-cell immunodeficiency (DiGeorge) should **not receive live vaccines** (e.g., rotavirus, MMR, varicella) until immune status is verified, due to risk of vaccine-strain infections."
+  ],
+  "algorithm": [
+    "Clinical features (congenital heart defect, hypocalcemia, dysmorphic facies, infections) → **suspect DiGeorge syndrome**.",
+    "Initial workup: check **electrolytes** (calcium), obtain a **CBC with differential** and lymphocyte subset panel (T-cell count), and perform a **cardiac evaluation** (echo). Consider chest X-ray for thymic shadow.",
+    "Confirm the diagnosis with **genetic testing** (FISH or microarray for 22q11.2 deletion). Offer parents genetic counseling (recurrence risk).",
+    "Acute management: correct hypocalcemia (IV calcium for neonates with seizures), treat any infections promptly, and withhold live vaccines pending immune evaluation.",
+    "Long-term management: coordinate multidisciplinary care (cardiology, immunology, endocrinology, speech therapy). Schedule definitive repairs (cardiac surgery, palate repair), maintain calcium supplementation, and regularly monitor immune function and development."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/DiGeorge_syndrome1.jpg",
+      "alt": "Child with DiGeorge syndrome showing a characteristic tubular nose and carp-shaped mouth.",
+      "credit": {
+        "text": "Prof. Victor Grech (CC BY-SA 3.0)",
+        "href": "https://commons.wikimedia.org/wiki/File:DiGeorge_syndrome1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 3-day-old newborn boy with cyanosis and seizures is evaluated in the NICU.",
+      "clues": [
+        "Echocardiogram: truncus arteriosus (single outflow tract)",
+        "Generalized tonic-clonic seizure on day 2 of life",
+        "Serum calcium 6.0 mg/dL (very low)",
+        "Dysmorphic facies (low-set ears, micrognathia)",
+        "Chest X-ray: absent thymic shadow"
+      ],
+      "answer": "DiGeorge syndrome (22q11.2 deletion)",
+      "teaching": "This presentation of a conotruncal cardiac defect (truncus arteriosus) plus neonatal hypocalcemia-induced seizures is classic for DiGeorge syndrome. The 22q11.2 deletion causes failure of development of the thymus and parathyroids (hence no thymic shadow and hypocalcemia). Genetic testing (FISH or microarray) would confirm the diagnosis."
+    },
+    {
+      "stem": "A 19-year-old woman with a history of cleft palate repair and ventricular septal defect as an infant presents with new-onset psychosis.",
+      "clues": [
+        "History of VSD repair at age 1; residual conotruncal abnormality on echo",
+        "Recurrent sinus infections throughout childhood",
+        "Mild intellectual disability (IQ 70)",
+        "Facial features: prominent nasal bridge, small mandible",
+        "Diagnosis of schizophrenia this year"
+      ],
+      "answer": "22q11.2 deletion syndrome (DiGeorge syndrome)",
+      "teaching": "Even milder cases of 22q11.2 deletion syndrome can present later in life. This patient's childhood history of congenital heart defect, palate issues, recurrent infections, and now schizophrenia in late adolescence are all part of the 22q11.2 deletion spectrum. Adults with 22q11.2DS are at high risk for psychiatric illness. A genetic test would confirm the microdeletion."
+    }
+  ],
+  "see_also": [
+    "severe-combined-immunodeficiency",
+    "tetralogy-of-fallot",
+    "cleft-palate"
+  ],
+  "prerequisites": [
+    "pharyngeal-pouches",
+    "thymus",
+    "parathyroid-gland"
+  ],
+  "sources": [
+    {
+      "title": "GeneReviews: 22q11.2 Deletion Syndrome (McDonald-McGinn et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1523/"
+    },
+    {
+      "title": "UpToDate: DiGeorge (22q11.2 deletion) syndrome – clinical features and diagnosis",
+      "url": "https://www.uptodate.com/contents/digeorge-22q11-2-deletion-syndrome-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "Medscape: DiGeorge Syndrome (E. Bawle, MD, updated 2025)",
+      "url": "https://emedicine.medscape.com/article/886526-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

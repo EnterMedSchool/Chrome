@@ -1,0 +1,143 @@
+{
+  "id": "portal-hypertension",
+  "names": [
+    "Portal hypertension"
+  ],
+  "aliases": [],
+  "abbr": [
+    "PHT"
+  ],
+  "patterns": [
+    "portal hypertension",
+    "portal HTN",
+    "PHT"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "gi",
+    "pathology",
+    "surgery",
+    "emerg"
+  ],
+  "definition": "Pathologically elevated pressure in the portal venous system (normal portal pressure ~5 mm Hg; clinically significant ≥10–12 mm Hg) usually due to increased resistance to portal blood flow (most often **cirrhosis**). It leads to diversion of blood through portosystemic collaterals (e.g., esophageal varices) and causes **splenomegaly**, **ascites**, and other complications.",
+  "why_it_matters": "Portal hypertension underlies most major complications of cirrhosis. **Variceal hemorrhage** is one of the most lethal events in cirrhosis, and portal hypertensive complications (ascites, encephalopathy, etc.) account for frequent hospitalizations and mortality in liver disease. Recognizing and managing portal hypertension is crucial to improving outcomes in these patients and is a high-yield exam topic.",
+  "how_youll_see_it": [
+    "Typically seen in patients with **cirrhosis** (e.g., due to chronic alcohol use, viral hepatitis, NASH). Key findings include **ascites** (abdominal fluid buildup), **splenomegaly** (enlarged spleen with low platelets), and dilated venous collaterals such as **esophageal varices** (which can bleed) and **caput medusae** (umbilical vein recanalization).",
+    "Cirrhosis is by far the most common cause in the US, but think of **other etiologies** in the right context. Prehepatic causes: **portal vein thrombosis** (e.g., hypercoagulable states). Intrahepatic causes: **schistosomiasis** or congenital hepatic fibrosis (presinusoidal), **cirrhosis** (sinusoidal), **veno-occlusive disease** (postsinusoidal). Posthepatic causes: **Budd-Chiari syndrome** (hepatic vein thrombosis), severe **right-sided heart failure** or constrictive pericarditis (causing hepatic congestion).",
+    "Clues: **Thrombocytopenia** is often an early lab finding (from hypersplenism). Imaging (ultrasound/CT) may show a nodular liver, enlarged spleen, and collateral veins (e.g., recanalized paraumbilical vein). Endoscopy in cirrhosis often reveals esophageal or gastric varices. Patients may also have signs of chronic liver disease (jaundice, spider angiomas) if cirrhosis is the cause."
+  ],
+  "problem_solving": [
+    "Suspect portal hypertension in any patient with cirrhosis or unexplained splenomegaly/ascites. Obtain a **Doppler ultrasound** of the abdomen to assess liver morphology and portal blood flow (detects portal vein thrombosis or flow reversal).",
+    "Cirrhotic patients with portal hypertension should undergo **endoscopic screening** for varices. Noninvasive markers (e.g., liver stiffness via elastography with platelet count) can stratify risk of varices when endoscopy is deferred.",
+    "**Hepatic venous pressure gradient (HVPG)** measurement is the gold standard for quantifying portal pressure (≥6 mm Hg = portal HTN, ≥10 mm Hg = clinically significant), but it’s invasive—used selectively for diagnosis or to guide therapy efficacy.",
+    "If an **acute variceal bleed** occurs: secure the airway, stabilize circulation (IV fluids/blood), start IV **octreotide** (vasoconstrictor to reduce portal flow) and **prophylactic antibiotics**, and perform urgent endoscopic variceal ligation. If bleeding cannot be controlled endoscopically, prepare for **TIPS** or balloon tamponade as a bridge.",
+    "Identify and manage precipitating factors for decompensation: e.g., treat infections promptly (to prevent worsening portal HTN and encephalopathy), avoid NSAIDs (can precipitate renal failure in ascites), and abstain from alcohol."
+  ],
+  "tricks": [
+    "Remember the classic sites of portal-caval anastomoses: **\"Gut, butt, and caput\"**—esophageal varices (gut), hemorrhoids (butt), and caput medusae (paraumbilical veins).",
+    "In cirrhosis, **platelets drop first** due to splenic sequestration from portal hypertension—unexplained thrombocytopenia may be an early clue to chronic liver disease.",
+    "Nonselective **β-blockers** (e.g., propranolol, nadolol) prevent variceal hemorrhage by reducing portal inflow (β1 blockade lowers cardiac output; β2 blockade causes splanchnic vasoconstriction)."
+  ],
+  "exam_appearance": [
+    "Middle-aged alcoholic with ascites, caput medusae, and episodes of hematemesis/melena → **Portal hypertension from cirrhosis** (esophageal variceal hemorrhage).",
+    "Young adult from an endemic region (Egypt) with massive splenomegaly, variceal bleeding, but preserved liver function tests → **Schistosomiasis** causing presinusoidal portal hypertension."
+  ],
+  "treatment": [
+    "Treat the **underlying cause** whenever possible: e.g., antiviral therapy for hepatitis, alcohol cessation, anticoagulation for Budd-Chiari (hepatic vein thrombosis), or antiparasitic therapy for schistosomiasis.",
+    "**Primary prophylaxis of variceal bleeding** (in cirrhosis with significant varices): nonselective β-blockers (e.g., propranolol or carvedilol) or periodic endoscopic variceal ligation (banding) to prevent first bleed.",
+    "**Ascites management**: salt restriction and oral diuretics (usually **spironolactone** ± furosemide). Perform **large-volume paracentesis** for tense or refractory ascites (with IV albumin support). Avoid NSAIDs and ACE-Is which can worsen renal perfusion in ascites.",
+    "**TIPS** (transjugular intrahepatic portosystemic shunt) is indicated for refractory ascites or recurrent variceal hemorrhage unresponsive to medical/endoscopic therapy. It creates a channel between portal and hepatic veins to reduce portal pressure (but can precipitate encephalopathy).",
+    "Definitive treatment for end-stage liver disease is **liver transplantation**, which cures the portal hypertension by replacing the diseased liver."
+  ],
+  "red_flags": [
+    "**Bright red hematemesis** in a known liver disease patient → suspect ruptured esophageal varices (portal hypertensive bleeding), a life-threatening emergency requiring immediate resuscitation and endoscopic intervention.",
+    "**Worsening renal function** in a cirrhotic with ascites (oliguria, rising creatinine) → consider **hepatorenal syndrome** (renal failure due to severe portal hypertension/cirrhosis); often precipitated by infections or over-diuresis, and carries high mortality (requires specialist management and consideration for transplant)."
+  ],
+  "algorithm": [
+    "Cirrhosis diagnosed → evaluate for portal hypertension complications: obtain baseline endoscopy (or noninvasive assessment) to check for varices.",
+    "If **no varices** or only small varices → periodic surveillance endoscopy as recommended. If **large varices** are found → initiate nonselective β-blocker therapy or schedule endoscopic variceal ligation for primary prophylaxis.",
+    "Manage **ascites** with dietary sodium restriction and diuretics (spironolactone ± furosemide). If ascites is refractory → perform repeated paracenteses; consider TIPS to control ascites if frequent paracentesis is needed.",
+    "Acute variceal bleed → ICU care: protect airway, volume resuscitation, IV octreotide, IV antibiotics, and emergent endoscopic ligation. Persistent bleeding despite endoscopy → perform rescue TIPS.",
+    "Refer patients with decompensated cirrhosis (recurrent ascites, variceal bleeds, encephalopathy) for **liver transplant** evaluation, as this is the only curative option for advanced portal hypertensive disease."
+  ],
+  "differentials": [
+    {
+      "name": "Budd-Chiari syndrome",
+      "hint": "Thrombosis of hepatic veins (posthepatic block) → acute portal hypertension with painful hepatomegaly, ascites; often in hypercoagulable states (e.g., polycythemia vera)."
+    },
+    {
+      "name": "Right-sided heart failure",
+      "hint": "Chronic right heart failure or constrictive pericarditis causes hepatic congestion (\"nutmeg liver\") and ascites; can mimic portal HTN but often with elevated JVP and lesser varices."
+    },
+    {
+      "name": "Sinusoidal obstruction syndrome",
+      "hint": "aka veno-occlusive disease; post-sinusoidal hepatic venule blockage (e.g., after bone marrow transplant or chemotherapy) leading to weight gain, tender hepatomegaly, and ascites."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/%E0%B0%89%E0%B0%A6%E0%B0%B0%E0%B0%95%E0%B1%81%E0%B0%A1%E0%B1%8D%E0%B0%AF%E0%B0%82%E0%B0%B2%E0%B1%8B_%E0%B0%89%E0%B0%AC%E0%B1%8D%E0%B0%AC%E0%B1%81%E0%B0%B8%E0%B0%BF%E0%B0%B0%E0%B0%B2%E0%B1%81_(_Caput_Medusae_).jpeg",
+      "alt": "Caput medusae (distended, tortuous veins around the umbilicus) in a patient with cirrhosis leading to portal hypertension",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:%E0%B0%89%E0%B0%A6%E0%B0%B0%E0%B0%95%E0%B1%81%E0%B0%A1%E0%B1%8D%E0%B0%AF%E0%B0%82%E0%B0%B2%E0%B1%8B_%E0%B0%89%E0%B0%AC%E0%B1%8D%E0%B0%AC%E0%B1%81%E0%B0%B8%E0%B0%BF%E0%B0%B0%E0%B0%B2%E0%B1%81_(_Caput_Medusae_).jpeg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55-year-old man with a long history of alcohol abuse presents with vomiting blood and black stools. On exam, he has jaundice, ascites, and caput medusae (dilated veins on the abdomen).",
+      "clues": [
+        "Chronic alcohol use",
+        "Ascites and splenomegaly on exam",
+        "Endoscopy: large esophageal varices"
+      ],
+      "answer": "Esophageal variceal hemorrhage due to portal hypertension (from alcoholic cirrhosis)",
+      "teaching": "Alcoholic cirrhosis causes scarring of the liver and increased resistance in hepatic sinusoids → portal hypertension. The resulting varices in the esophagus can rupture, causing life-threatening bleeding. Management includes hemodynamic stabilization, IV octreotide, and urgent endoscopic banding; long-term prevention with β-blockers or banding."
+    },
+    {
+      "stem": "A 32-year-old woman develops sudden abdominal distension and pain. She recently started oral contraceptive pills. Exam shows tender hepatomegaly and ascites. Doppler ultrasound reveals thrombosis of the hepatic veins.",
+      "clues": [
+        "Acute abdominal pain with ascites",
+        "Tender enlarged liver",
+        "Hepatic vein thrombosis on imaging"
+      ],
+      "answer": "Budd-Chiari syndrome (acute hepatic vein thrombosis causing portal hypertension)",
+      "teaching": "Thrombosis of hepatic veins blocks liver outflow, leading to congested liver and portal hypertension. This often presents with acute ascites and liver enlargement. Hypercoagulable conditions (e.g., estrogen from OCPs, myeloproliferative disorders) are common causes. Treatment may include anticoagulation, thrombolysis or shunting, and addressing the underlying hypercoagulable state."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "esophageal-varices",
+    "ascites",
+    "hepatic-encephalopathy",
+    "hepatocellular-carcinoma",
+    "hepatitis"
+  ],
+  "prerequisites": [
+    "liver-anatomy",
+    "cirrhosis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Portal Hypertension (NCBI Bookshelf, last update July 7, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507718/"
+    },
+    {
+      "title": "AASLD Practice Guidance – Portal Hypertension and Varices in Cirrhosis (Hepatology, 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37870298/"
+    },
+    {
+      "title": "Medscape: Portal Hypertension (Updated Sep 16, 2024)",
+      "url": "https://emedicine.medscape.com/article/182098-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

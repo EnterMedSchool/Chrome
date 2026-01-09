@@ -1,0 +1,108 @@
+{
+  "id": "rickets",
+  "names": ["Rickets"],
+  "aliases": ["nutritional rickets", "vitamin D deficiency rickets", "rachitis"],
+  "abbr": [],
+  "patterns": ["rickets", "rachitis", "vitamin D deficiency", "nutritional rickets", "vitamin D deficiency rickets"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "endocrine", "msk_derm", "genetics", "renal"],
+  "definition": "Defective mineralization of the growth plates (in children) leading to soft, deformed bones; most often caused by severe **vitamin D** deficiency.",
+  "why_it_matters": "Remains a preventable cause of childhood disability worldwide. Early treatment of rickets prevents lifelong bone deformities and developmental delays, and vitamin D deficiency is a common exam topic.",
+  "how_youll_see_it": [
+    "Typically seen in infants 6–18 months old with risk factors (e.g., dark skin, **exclusive breastfeeding** without vitamin D supplements, minimal sun exposure). Early signs are poor growth, delayed sitting or crawling, and irritability.",
+    "Classic skeletal manifestations: **craniotabes** (soft skull bones), **frontal bossing** of the forehead, enlarged costochondral junctions (**rachitic rosary**), widening of wrists and ankles, and bowing of legs (**genu varum**) once the child starts walking.",
+    "Genetic or renal forms present similarly but often later in childhood. **X-linked hypophosphatemic rickets** (vitamin D–resistant) may show dental problems (late tooth eruption, enamel defects, recurrent abscesses) and leg bowing despite normal vitamin D intake. Rickets from **renal osteodystrophy** occurs in children with chronic kidney disease (secondary hyperparathyroidism)."
+  ],
+  "problem_solving": [
+    "Evaluate nutritional history and risk factors (diet, sun exposure, malabsorptive disorders like celiac, or medications like anticonvulsants).",
+    "Order labs: **25(OH)D** level (for vitamin D status), **calcium**, **phosphate**, **alkaline phosphatase** (ALP), and **PTH**. Nutritional rickets typically shows low 25(OH)D, low Ca and phosphate, high PTH, and very high ALP (reflecting increased osteoblast activity).",
+    "Obtain X-rays of affected bones (usually wrist or knee): findings include widened growth plates with **metaphyseal cupping and fraying**, and generalized osteopenia.",
+    "If vitamin D levels are normal or rickets is refractory to treatment, investigate other causes: check for isolated hypophosphatemia (suggesting phosphate-wasting rickets like XLH) or signs of renal disease (uremia, high creatinine) indicating renal rickets. Consider genetic testing or referral to a specialist for atypical cases."
+  ],
+  "differentials": [
+    { "name": "Scurvy (vitamin C deficiency)", "hint": "bone pain and costochondral beading with **gum bleeding** and bruising (scorbutic rosary)" },
+    { "name": "Blount disease (tibia vara)", "hint": "pathologic bow legs from proximal tibial growth plate damage (often overweight toddler); normal calcium/vitamin D labs" },
+    { "name": "Hypophosphatasia", "hint": "rare inherited metabolic bone disease with rickets-like deformities but **low alkaline phosphatase** (ALP) levels" }
+  ],
+  "tricks": [
+    "Breast milk contains very little vitamin D—so exclusively breastfed infants need **vitamin D** supplementation (400 IU daily) to prevent rickets.",
+    "Nutritional (calcipenic) rickets: low Ca → high PTH (secondary hyperparathyroidism) → phosphate wasting (low phosphate). In contrast, X-linked hypophosphatemic rickets involves isolated renal phosphate loss (normal Ca, low phosphate).",
+    "Radiologic buzzwords: **rachitic rosary** (beaded ribs) on exam, and **metaphyseal cupping & fraying** on X-ray are classic for rickets."
+  ],
+  "exam_appearance": [
+    "Dark-skinned 1-year-old, exclusively breastfed without vitamin D, with delayed walking, prominent forehead, and bow legs → **nutritional rickets** (vitamin D deficiency).",
+    "School-age child with short stature, leg bowing, and recurrent **dental abscesses** despite good oral care → **X-linked hypophosphatemic rickets** (familial phosphate-wasting).",
+    "Child with end-stage renal disease (on dialysis) who has bone pain, growth failure, and X-ray showing rachitic changes → **renal osteodystrophy** (rickets from CKD)."
+  ],
+  "treatment": [
+    "For nutritional rickets: replete **vitamin D** stores (e.g., high-dose ergocalciferol/cholecalciferol for 6–12 weeks, then maintenance 400–600 IU daily) and ensure adequate dietary calcium and sun exposure.",
+    "Hereditary or refractory rickets often requires **calcitriol** (active vitamin D) and phosphate supplementation. For example, X-linked hypophosphatemic rickets is treated with oral phosphate plus calcitriol; severe cases may benefit from **burosumab** (monoclonal antibody against FGF23). Rickets due to CKD (renal osteodystrophy) is managed with calcitriol and phosphate binders alongside treating the kidney disease.",
+    "Monitor response with labs and X-rays (healing of rickets takes months). In severe cases, bracing or orthopedic surgery may be needed to correct residual bone deformities after medical therapy."
+  ],
+  "red_flags": [
+    "Severe hypocalcemia from rickets can cause **tetany** or seizures (e.g., infant with convulsions) – requires urgent IV calcium and vitamin D therapy.",
+    "Profound vitamin D deficiency may lead to **dilated cardiomyopathy** and heart failure in infants (rare). Any signs of cardiopulmonary distress in rickets warrant hospitalization and aggressive management."
+  ],
+  "algorithm": [
+    "Child with bow legs or other bony deformities + risk factors (poor diet, low sun) → suspect rickets.",
+    "Confirm rickets: check labs (25-OH vitamin D, Ca, phosphate, ALP, PTH) and obtain wrist or knee X-ray.",
+    "If **vitamin D is low** (with low Ca/P, high PTH) → nutritional rickets confirmed: start vitamin D supplementation and calcium.",
+    "If vitamin D is normal but phosphate is low (± normal Ca) → consider **phosphate-wasting rickets** (e.g., XLH); refer for genetic evaluation and treat with phosphate + calcitriol.",
+    "If rickets occurs in a child with CKD or malabsorption → address the underlying disease (optimize nutrition or renal care) and treat with active vitamin D + appropriate dietary support."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Curvature_of_the_tibiae_due_to_rickets_Wellcome_L0062564.jpg",
+      "alt": "Severe bowing of the legs due to rickets (persistent deformity from childhood rickets).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Curvature_of_the_tibiae_due_to_rickets_Wellcome_L0062564.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "An 18‑month‑old boy is brought to the clinic due to bowing of the legs and delayed walking.",
+      "clues": [
+        "Dark-skinned, exclusively breastfed (no vitamin D supplements)",
+        "Frontal bossing of skull; beaded costochondral junctions (rachitic rosary)",
+        "Wrist widening and bilateral genu varum",
+        "Labs: low calcium, low phosphate, high PTH, very high alkaline phosphatase"
+      ],
+      "answer": "Nutritional rickets (vitamin D deficiency)",
+      "teaching": "Exclusive breastfeeding without vitamin D supplementation led to severe vitamin D deficiency, causing poor bone mineralization (rickets). Classic findings (bowed legs, rachitic rosary, craniotabes) point to the diagnosis. Treatment is vitamin D and calcium replacement, which allows bones to mineralize and deformities to improve."
+    }
+  ],
+  "see_also": [
+    "chronic-kidney-disease",
+    "kwashiorkor",
+    "osteoporosis"
+  ],
+  "prerequisites": [
+    "vitamin-d-metabolism",
+    "calcium-homeostasis",
+    "bone-development"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Rickets (Dahash & Sankararaman, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562285/"
+    },
+    {
+      "title": "UpToDate: Overview of rickets in children",
+      "url": "https://www.uptodate.com/contents/overview-of-rickets-in-children"
+    },
+    {
+      "title": "Vitamin D Deficiency and Related Disorders (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/128762-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

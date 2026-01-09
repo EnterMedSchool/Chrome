@@ -1,0 +1,123 @@
+{
+  "id": "obstructive-sleep-apnea",
+  "names": ["Obstructive sleep apnea"],
+  "aliases": ["obstructive sleep apnoea", "obstructive sleep apnea syndrome", "sleep apnea"],
+  "abbr": ["OSA"],
+  "patterns": ["osa", "obstructive sleep apnea", "obstructive sleep apnoea", "sleep apnea"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "neuro", "cardio"],
+  "definition": "Sleep disorder of repetitive upper airway collapse causing reduced or paused breathing (**apneas/hypopneas**) during sleep; leads to oxygen desaturations and fragmented sleep.",
+  "why_it_matters": "Very common (~25 million US adults) yet underdiagnosed. Untreated OSA increases risk of **hypertension** (often resistant), **arrhythmias** (e.g., atrial fibrillation), heart disease, **stroke**, and **diabetes**, and causes daytime impairment (accidents, cognitive dysfunction). Recognizing OSA is high-yield because treatment (e.g., CPAP) can greatly improve outcomes.",
+  "how_youll_see_it": [
+    "Classic patient: middle-aged **obese** man with loud, disruptive **snoring**, witnessed apneas (partner reports breathing pauses and gasping at night), and **excessive daytime sleepiness** (dozing off at work or while driving). Often also notes unrefreshing sleep and morning headaches.",
+    "Major risk factors: **obesity** (especially large neck circumference), **male sex**, older age, and craniofacial anatomy (retrognathia, crowded airway). Risk rises in **postmenopausal** women and with alcohol or sedative use (relaxes airway tone).",
+    "Children can also have OSA, usually due to **adenotonsillar hypertrophy**. A child with OSA may present with loud snoring plus behavioral problems (irritability, hyperactivity, poor school performance) rather than obvious daytime sleepiness."
+  ],
+  "problem_solving": [
+    "Screen high-risk patients using questionnaires like **STOP-Bang** or the Epworth Sleepiness Scale to identify those likely to have OSA.",
+    "**Polysomnography** (overnight sleep study) is the gold standard diagnostic test, monitoring airflow, oxygen levels, etc., to confirm OSA and quantify severity.",
+    "OSA is diagnosed if **AHI ≥5** (events/hour) with compatible symptoms (or **AHI ≥15** even without symptoms). Severity is classified as mild (5–14), moderate (15–30), or severe (>30) based on the apnea-hypopnea index.",
+    "Sleep studies distinguish **obstructive** vs **central** apneas: obstructive events show continued respiratory effort (thoracic/abdominal movement) during the apnea, whereas central apneas have **no respiratory effort**."
+  ],
+  "differentials": [
+    { "name": "Central sleep apnea", "hint": "cessation of respiratory effort (no chest movement); often seen in heart failure (Cheyne-Stokes breathing) or opioid use" },
+    { "name": "Narcolepsy", "hint": "daytime sleepiness with cataplexy or other REM phenomena; sleep attacks occur despite adequate night sleep (not due to airway obstruction)" },
+    { "name": "Obesity hypoventilation syndrome", "hint": "obese patient with chronic daytime **hypercapnia** (elevated CO₂ levels) and hypoxemia; often coexists with OSA (a.k.a. Pickwickian syndrome)" }
+  ],
+  "tricks": [
+    "Mnemonic **STOP-Bang** for OSA risk factors: **S**noring, **T**iredness (daytime fatigue), **O**bserved apneas, **P**ressure (high BP); **B**MI >35, **A**ge >50, **N**eck >40 cm, **G**ender male.",
+    "Resistant **hypertension** or difficult-to-control atrial fibrillation should raise suspicion for occult OSA (treating OSA can improve blood pressure and arrhythmias)."
+  ],
+  "exam_appearance": [
+    "Obese, loud-snoring middle-aged man with daytime sleepiness and **resistant hypertension** → OSA (obesity-related).",
+    "Child with loud snoring, **tonsillar hypertrophy**, and behavioral problems (inattention, hyperactivity) → OSA (adenotonsillar hypertrophy)."
+  ],
+  "treatment": [
+    "**Weight loss** (diet, exercise) is recommended for all OSA patients (even a 10% weight reduction can significantly improve OSA severity); avoid alcohol and sedatives, especially before bedtime.",
+    "Nightly **CPAP** (continuous positive airway pressure) is first-line for moderate to severe OSA; it splints the airway open during sleep, resolving apneas and improving daytime alertness and blood pressure.",
+    "If CPAP is not tolerated or for mild OSA: consider custom **oral appliances** (devices that advance the mandible to keep the airway open) or positional therapy (e.g., avoiding supine sleeping, special pillows).",
+    "ENT surgical options can be considered in select cases: e.g., **uvulopalatopharyngoplasty (UPPP)** to remove or reshape airway tissues, jaw advancement surgery, or nasal septum repair. **Adenotonsillectomy** is first-line in pediatric OSA due to enlarged tonsils/adenoids. A **tracheostomy** (surgical airway) bypasses the obstruction and is curative but reserved for severe, life-threatening OSA when other treatments fail."
+  ],
+  "red_flags": [
+    "Excessive sleepiness leading to **motor vehicle accidents** or workplace accidents (patients may doze off during driving or operating machinery).",
+    "Untreated OSA contributes to **resistant hypertension** (high BP despite multiple medications) and arrhythmias (like **atrial fibrillation**); always consider OSA in these scenarios.",
+    "Severe OSA can cause abrupt oxygen drops and bradyarrhythmias at night, increasing the risk of **sudden cardiac death** if left untreated."
+  ],
+  "algorithm": [
+    "Snoring, daytime sleepiness, obesity, or large neck → suspect OSA.",
+    "Assess risk with STOP-Bang questionnaire or Epworth Sleepiness Scale; get partner's report of apneas if possible.",
+    "If screening is positive or clinical suspicion remains high → confirm diagnosis with overnight polysomnography (sleep study) to measure AHI.",
+    "If OSA is confirmed (meets AHI criteria) → counsel lifestyle changes (weight loss, avoid alcohol/sedatives, lateral sleep positioning) and initiate therapy (usually **CPAP** for moderate-to-severe OSA).",
+    "If CPAP is intolerable or OSA is mild → consider alternatives: an oral appliance or refer to ENT for possible surgical intervention. Ensure follow-up to monitor adherence and improvement."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Obstruction_ventilation_apnée_sommeil.svg/2139px-Obstruction_ventilation_apnée_sommeil.svg.png",
+      "alt": "OSA—upper airway collapse during sleep (illustration).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Obstruction_ventilation_apnée_sommeil.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old obese man with treatment-resistant hypertension is evaluated for loud snoring and daytime sleepiness.",
+      "clues": [
+        "BMI 34, large neck circumference",
+        "Loud snoring with gasping at night",
+        "Wife witnesses apnea episodes",
+        "Excessive daytime sleepiness",
+        "BP remains high despite 3 medications"
+      ],
+      "answer": "Obstructive sleep apnea",
+      "teaching": "Obesity causes extra pharyngeal tissue that collapses the airway during sleep. Loud snoring, witnessed apneas, and daytime fatigue are classic OSA features; it often underlies resistant hypertension. Diagnosis is confirmed with a sleep study (polysomnography), and treatment with weight loss and CPAP can greatly improve his symptoms and blood pressure."
+    },
+    {
+      "stem": "A 6‑year‑old boy with nightly snoring and restless sleep is evaluated for hyperactivity and poor school performance.",
+      "clues": [
+        "Enlarged tonsils on exam",
+        "Loud snoring every night",
+        "Pauses in breathing observed by parents",
+        "Daytime irritability and hyperactivity"
+      ],
+      "answer": "Obstructive sleep apnea (adenotonsillar hypertrophy)",
+      "teaching": "Enlarged tonsils/adenoids are the most common cause of pediatric OSA. Instead of daytime sleepiness, children often show behavioral issues like inattention or hyperactivity. Removing the tonsils and adenoids (adenotonsillectomy) usually cures pediatric OSA in such cases."
+    }
+  ],
+  "see_also": [
+    "obesity",
+    "hypertensive-heart-disease",
+    "atrial-fibrillation"
+  ],
+  "prerequisites": [
+    "respiratory-physiology",
+    "sleep-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Obstructive Sleep Apnea (Slowik & Sankari, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459252/"
+    },
+    {
+      "title": "UpToDate: Clinical presentation and diagnosis of obstructive sleep apnea in adults",
+      "url": "https://www.uptodate.com/contents/clinical-presentation-and-diagnosis-of-obstructive-sleep-apnea-in-adults"
+    },
+    {
+      "title": "NEJM: Obstructive Sleep Apnea in Adults (Veasey & Rosen, 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30970187/"
+    },
+    {
+      "title": "Medscape: Childhood Sleep Apnea (Cataletto, 2024)",
+      "url": "https://emedicine.medscape.com/article/1004104-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

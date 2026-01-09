@@ -1,0 +1,142 @@
+{
+  "id": "hemoglobin-h-disease",
+  "names": [
+    "Hemoglobin H disease"
+  ],
+  "aliases": [
+    "alpha-thalassemia intermedia",
+    "HbH disease"
+  ],
+  "abbr": [
+    "HbH"
+  ],
+  "patterns": [
+    "hemoglobin H disease",
+    "HbH disease",
+    "alpha thalassemia intermedia"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Three α-globin gene deletions (–/–/–/α): a severe form of α-thalassemia causing chronic hemolytic anemia. Excess unpaired β chains form **Hemoglobin H (β₄)**, which is unstable and has high oxygen affinity.",
+  "why_it_matters": "HbH disease is the most severe α-thalassemia compatible with postnatal life. Patients have moderate anemia and can live to adulthood with supportive care. It can worsen during stress (infection, pregnancy). Recognizing HbH guides avoiding oxidant drugs and providing folate, and it carries a risk of progression to severe anemia requiring transfusion in some cases.",
+  "how_youll_see_it": [
+    "Usually presents by childhood or young adulthood with **mild to moderate hemolytic anemia** (fatigue, pallor, mild jaundice). **Splenomegaly** is common from chronic hemolysis. Unlike β-thal major, **no prominent bony deformities** occur (marrow expansion is less extreme).",
+    "Labs: Hb often ~8–10 g/dL. MCV low (~60s). Reticulocyte count mildly elevated. Smear: microcytic, hypochromic RBCs with target cells, poikilocytes; **Heinz bodies** (β₄ inclusions) visible on supravital stain as \"golf ball\" inclusions. Electrophoresis: variable HbH (~5–30% of total Hb). Newborns had significant Hb Bart's at birth.",
+    "Episodes of **hemolytic crises** can occur (e.g., due to infection or oxidative drugs) with worsening anemia. Some patients may require occasional transfusions during stress, but most are transfusion-independent chronically."
+  ],
+  "problem_solving": [
+    "Suspect in a patient from Southeast Asia or Mediterranean region with hemolytic anemia but microcytic indices and negative testing for β-thalassemia. The presence of inclusions on brilliant cresyl blue stain confirms HbH.",
+    "Differentiate from hereditary spherocytosis or G6PD deficiency: HbH has microcytosis and target cells, and often a family history of thalassemia. G6PD triggers are different and spherocytosis shows spherocytes, not target cells or Heinz bodies.",
+    "Genetic testing for α-gene deletions can confirm the diagnosis. Also test family members, as parents typically have α-thalassemia trait (especially one cis and one trans deletion parent scenario)."
+  ],
+  "differentials": [
+    {
+      "name": "Beta-thalassemia intermedia",
+      "hint": "moderate anemia but electrophoresis would show elevated HbA2/HbF, not HbH"
+    },
+    {
+      "name": "Hereditary spherocytosis",
+      "hint": "hemolytic anemia with splenomegaly but normocytic and spherocytes on smear, positive osmotic fragility"
+    },
+    {
+      "name": "G6PD deficiency",
+      "hint": "episodic hemolysis with bite cells and Heinz bodies, usually normocytic and linked to oxidative triggers"
+    }
+  ],
+  "tricks": [
+    "HbH = **β₄** tetramer: unstable and precipitates, forming **Heinz bodies** (need supravital stain to see). These inclusions give RBCs a \"golf ball\" appearance under special stains.",
+    "HbH has very high oxygen affinity (holds O₂ too tightly), so tissues may be relatively hypoxic despite decent oxygen saturation.",
+    "Avoid oxidant drugs (sulfa, dapsone) in HbH disease – they can precipitate hemolysis."
+  ],
+  "exam_appearance": [
+    "A 15-year-old of Asian descent with chronic anemia (Hb ~9), mild jaundice, and palpable spleen. Blood smear shows microcytosis and \"golf ball\" inclusions with brilliant cresyl blue stain → **Hemoglobin H disease**.",
+    "Adult patient with HbH disease develops an aplastic crisis after parvovirus B19 infection, leading to severe anemia requiring transfusion."
+  ],
+  "treatment": [
+    "Usually managed conservatively: **folic acid** supplementation (to aid RBC production) and avoidance of oxidative stress (drugs, fava beans) to reduce hemolysis.",
+    "Periodic transfusions if needed (e.g., during hemolytic exacerbations or pregnancy). Most HbH patients do not need regular transfusions under stable conditions.",
+    "Consider **splenectomy** if hypersplenism causes worsening anemia or very high transfusion requirements (improves Hb but then requires infection precautions).",
+    "Monitor for iron overload even without transfusions, as chronic hemolysis can increase iron absorption (check ferritin periodically; chelate if iron builds up)."
+  ],
+  "red_flags": [
+    "Acute **aplastic crisis** (e.g., due to parvovirus) – precipitous drop in Hb and retics; requires urgent transfusion support.",
+    "Pregnancy in HbH disease – increased anemia and risk of heart failure; close monitoring and transfuse to keep Hb >10.",
+    "Post-splenectomy fever – medical emergency (overwhelming sepsis risk)."
+  ],
+  "algorithm": [
+    "Chronic hemolytic anemia + microcytosis + normal iron → think HbH (especially in an individual from endemic regions).",
+    "Confirm with supravital stain for Heinz bodies or DNA testing for α-gene deletions; electrophoresis may show HbH band.",
+    "Baseline management: folate, avoid hemolysis triggers; vaccinate if splenectomy planned.",
+    "During stress (infection, pregnancy): anticipate need for transfusion; monitor closely."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Alpha_Thalassemia.jpg",
+      "alt": "Blood smear (Giemsa stain) from a patient with Hemoglobin H disease, showing hypochromic microcytic RBCs with poikilocytosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Alpha_Thalassemia.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 20-year-old man from Thailand has lifelong mild anemia. He has mild jaundice and splenomegaly; smear shows microcytosis and many target cells.",
+      "clues": [
+        "Moderate hemolytic anemia",
+        "Target cells on smear",
+        "Heinz bodies on supravital stain",
+        "Hb ~9 g/dL, not transfusion-dependent"
+      ],
+      "answer": "Hemoglobin H disease (α-thalassemia, 3-gene deletion)",
+      "teaching": "This is a classic presentation of HbH disease. The presence of Heinz body inclusions and target cells in a microcytic hemolytic anemia indicates HbH (β4 tetramers). Management is supportive (folate, avoid oxidants); occasional transfusions may be needed under stress."
+    },
+    {
+      "stem": "A patient with known HbH disease comes in with fatigue and an Hb of 5 g/dL after a week of febrile illness.",
+      "clues": [
+        "Sudden drop in hemoglobin",
+        "Low reticulocyte count",
+        "Recent parvovirus infection confirmed"
+      ],
+      "answer": "Aplastic crisis in Hemoglobin H disease",
+      "teaching": "Parvovirus B19 can temporarily halt erythropoiesis, which in someone with baseline hemolysis (like HbH disease) causes a profound anemia (aplastic crisis). This requires urgent blood transfusion support and will recover as marrow function returns."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "alpha-thalassemia-trait",
+    "beta-thalassemia-major",
+    "glucose-6-phosphate-dehydrogenase-deficiency"
+  ],
+  "prerequisites": [
+    "hemoglobin",
+    "anemia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Alpha Thalassemia (Harewood & Azevedo, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441826/"
+    },
+    {
+      "title": "Williams Hematology (9th Ed.): Thalassemias (2016)",
+      "url": "https://hemonc.mhmedical.com/content.aspx?bookid=1581&sectionid=108073384"
+    },
+    {
+      "title": "UpToDate: Hemoglobin H (α-thalassemia intermedia)",
+      "url": "https://www.uptodate.com/contents/hemoglobin-h-disease"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "enteropathic-arthritis",
+  "names": ["Enteropathic arthritis"],
+  "aliases": ["IBD-associated arthritis", "colitic arthritis"],
+  "abbr": [],
+  "patterns": ["enteropathic arthritis", "IBD arthritis", "inflammatory bowel disease arthritis", "Crohn's arthritis", "ulcerative colitis arthritis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "gi", "immunology"],
+  "definition": "Arthritis associated with **inflammatory bowel disease** (Crohn disease or ulcerative colitis). Can manifest as a peripheral arthritis (often flares with active IBD) and/or an axial spondylitis (indistinguishable from ankylosing spondylitis, can occur independent of IBD activity). Considered part of the spondyloarthritis family (seronegative, HLA-B27 associated in many axial cases).",
+  "why_it_matters": "Up to 20% of IBD patients develop arthritis, making it the most common extra-intestinal manifestation. Recognizing this link is important: treating the underlying IBD often improves the joint symptoms. On exams, a vignette might describe a patient with ulcerative colitis now with knee pain, or a Crohn's patient with back stiffness – both pointing to enteropathic arthritis.",
+  "how_youll_see_it": [
+    "Patient with known **ulcerative colitis or Crohn disease** who develops joint issues. Two patterns: (1) **Peripheral arthritis**: typically an **asymmetric oligoarthritis** of large joints (knees, ankles, hips). Often coincides with IBD flares (active diarrhea, abdominal pain). Usually non-erosive and migratory. (2) **Axial arthritis**: chronic **sacroiliitis** and spondylitis like AS; this can occur independently of bowel disease activity (may even precede IBD diagnosis).",
+    "Peripheral enteropathic arthritis (sometimes called Type 1) often flares in parallel with IBD and remits when IBD is controlled. It tends to be self-limited and usually does not cause long-term joint damage. **Enthesitis** can also occur (e.g., heel pain).",
+    "Axial disease (Type 2) in IBD behaves like ankylosing spondylitis: inflammatory back pain, morning stiffness, possible progression to vertebral fusion. About 50% or more of IBD patients with spondylitis are **HLA-B27 positive**. Axial involvement does not necessarily correlate with IBD flares – it may progress even when gut symptoms are quiescent.",
+    "Other features: IBD patients may have other extra-intestinal manifestations (which can co-occur with arthritis), e.g., **erythema nodosum**, **pyoderma gangrenosum**, **uveitis**. These clues might appear in a question to hint at the IBD context.",
+    "Important: prolonged NSAID use for arthritis can **worsen IBD** (NSAIDs can trigger flares), so management has to balance joint and gut treatment."
+  ],
+  "problem_solving": [
+    "In an IBD patient with joint pain, first determine if it's **peripheral vs axial** (or both). Take a thorough history of back symptoms and examine the spine/SI joints, not just the peripheral joints.",
+    "Assess IBD activity: if arthritis coincides with a flare of bowel symptoms, it's likely peripheral enteropathic arthritis. The main strategy is to **control the IBD** (which often alleviates the joint issues).",
+    "Imaging: if axial symptoms, do an **X-ray of the SI joints** (or MRI if early) to check for sacroiliitis. If they have typical AS changes, they essentially have ankylosing spondylitis in the context of IBD. If only peripheral joints, X-rays are usually normal (enteropathic peripheral arthritis is typically non-erosive).",
+    "Lab: No specific diagnostic test. Inflammatory markers (ESR, CRP) might be elevated (though that could be from active IBD). HLA-B27 testing might be positive in axial cases (less so in purely peripheral cases).",
+    "Always review the medication list: avoid chronic high-dose **NSAIDs** as they can exacerbate IBD (NSAIDs often trigger flares). If needed for short term, consider adding gastroprotection. Instead, focus on treatments that help both joint and gut (like TNF inhibitors, which treat both IBD and spondylitis)."
+  ],
+  "differentials": [
+    { "name": "Ankylosing spondylitis without IBD", "hint": "clinically identical axial disease, but in absence of known IBD. Check if subtle IBD symptoms exist; otherwise idiopathic AS." },
+    { "name": "Other causes of arthritis in IBD", "hint": "remember IBD patients on biologics/immunosuppressants could get septic arthritis (immunocompromised) – always aspirate a hot joint." },
+    { "name": "Medication-induced pain", "hint": "long-term corticosteroid use in IBD can cause avascular necrosis (hip pain) or osteoporotic fractures. Differentiate these from inflammatory arthritis." }
+  ],
+  "tricks": [
+    "**Ulcerative colitis + knee arthritis** on exams = enteropathic arthritis (peripheral type). It improves when the colitis is treated; no joint deformities long-term.",
+    "In IBD patients, **avoid NSAIDs** if possible (they can trigger flares). Use acetaminophen or short-term opioids for pain if needed, and treat the IBD and arthritis with sulfasalazine or biologics instead.",
+    "If a Crohn patient has **inflammatory back pain**, don't assume it's just normal – consider they may have ankylosing spondylitis (axial enteropathic arthritis).",
+    "Peripheral enteropathic arthritis is usually **non-erosive** – unlike RA, it generally will not destroy joints or need aggressive orthopedic intervention (once IBD controlled, joints calm down)."
+  ],
+  "exam_appearance": [
+    "A patient with **ulcerative colitis** flare (bloody diarrhea) develops a swollen, painful right knee → **enteropathic arthritis** (peripheral type, correlating with IBD activity).",
+    "A 34-year-old man with **Crohn disease** in remission has 6 months of low back pain and stiffness; X-ray shows bilateral sacroiliitis → **IBD-associated ankylosing spondylitis** (enteropathic axial arthritis).",
+    "IBD patient with recurring ankle and knee arthritis that comes and goes with diarrhea episodes, no joint erosions on X-ray → **peripheral enteropathic arthritis**."
+  ],
+  "treatment": [
+    "For **peripheral arthritis** tied to IBD flares: the priority is to **treat the IBD**. Induce remission of colitis (e.g., with mesalamine, steroids, biologics as appropriate) and the arthritis often subsides. During flares, **sulfasalazine** is a good option as it can help both colonic inflammation and peripheral joints.",
+    "Avoid NSAIDs or use them sparingly (they can exacerbate IBD). If needed, consider a **COX-2 inhibitor** (which might be gentler on gut) and only with careful monitoring. **Acetaminophen** or short-term opioids can be used for pain if necessary to avoid NSAIDs.",
+    "For **axial disease** (spondylitis) in IBD patients: **TNF inhibitors** are the treatment of choice as they address both spine arthritis and IBD (e.g., infliximab, adalimumab are effective for both Crohn/UC and AS). Note: **IL-17 inhibitors** (like secukinumab) help AS but are generally *not* used in IBD because they can worsen bowel disease.",
+    "Methotrexate has a limited role for axial disease (not very effective) but can help peripheral arthritis in Crohn's patients and also serve as an IBD treatment adjunct. **Corticosteroids** can be used short-term for IBD flares and may incidentally improve arthritis, but aren't a long-term joint solution. Local steroid injections can be given for persistent peripheral joint swelling.",
+    "Refractory cases (particularly axial) might require switching to another biologic class (like IL-12/23 inhibitors for Crohn's that might help joints indirectly, or JAK inhibitors for UC). Manage in coordination with rheumatologist and gastroenterologist. Physical therapy and exercise are beneficial for maintaining mobility, especially if there's axial involvement."
+  ],
+  "red_flags": [
+    "If an IBD patient on immunosuppressants develops a red, swollen joint with fever, do not assume it's enteropathic arthritis – rule out **septic arthritis** (higher risk due to immunosuppression).",
+    "Using **NSAIDs** for joint pain in IBD can precipitate a severe colitis flare – always weigh risks, and if used, do so under caution. A sudden worsening of GI symptoms after NSAIDs is a red flag to stop them.",
+    "Severe, unrelenting back pain in an IBD patient (especially if they have AS changes) – be vigilant for **spinal fracture** (from osteoporosis due to steroids or the disease) or other complications."
+  ],
+  "algorithm": [
+    "IBD patient with new arthritis → categorize as peripheral vs axial.",
+    "If peripheral, manage by controlling IBD (optimize IBD meds, consider sulfasalazine). For flares, short-term steroids can help both colitis and joints; avoid NSAIDs.",
+    "If axial, get imaging and treat as AS (prefer TNF-inhibitors which treat both conditions).",
+    "Avoid NSAIDs or use minimal due to IBD flare risk; use steroid-sparing meds that cover both gut and joints.",
+    "Coordinate care with gastroenterology and rheumatology; ensure therapy addresses all disease domains (bowel inflammation, arthritis, any uveitis or skin lesions)."
+  ],
+  "cases": [
+    {
+      "stem": "A 29‑year‑old woman with active ulcerative colitis (frequent bloody diarrhea) develops pain and swelling in her left knee and right ankle. She also has erythema nodosum on her shins. X-rays of the affected joints are unremarkable.",
+      "clues": ["Ulcerative colitis flare", "Migratory oligoarthritis (knee, ankle)", "Erythema nodosum", "No erosions on X-ray", "Improves as colitis treated"],
+      "answer": "Enteropathic arthritis (IBD-associated peripheral arthritis)",
+      "teaching": "This peripheral arthritis associated with UC flares is typical enteropathic arthritis. The key is that it flares with bowel disease and causes no lasting joint damage. Treatment focuses on controlling the ulcerative colitis (e.g., with medications like sulfasalazine or biologics), which will also alleviate the arthritis."
+    }
+  ],
+  "see_also": [
+    "spondyloarthritides",
+    "inflammatory-bowel-disease",
+    "ankylosing-spondylitis",
+    "psoriatic-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Enteropathic Arthritis (Shahid & Brent, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK594239/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of arthritis associated with inflammatory bowel disease",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-arthritis-associated-with-inflammatory-bowel-disease-and-other-gastrointestinal-diseases"
+    },
+    {
+      "title": "Medscape: Enteropathic Arthropathies (2024)",
+      "url": "https://emedicine.medscape.com/article/334746-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "toxic-shock-syndrome",
+  "names": ["Toxic shock syndrome"],
+  "aliases": ["staphylococcal toxic shock syndrome", "streptococcal toxic shock syndrome"],
+  "abbr": ["TSS"],
+  "patterns": ["tss", "toxic shock syndrome", "toxic shock", "staphylococcal toxic shock", "streptococcal toxic shock", "tsst", "tsst-1"],
+  "primary_tag": "infectious_dz",
+  "tags": ["micro_bacteria", "infectious_dz", "obgyn", "surgery", "emerg"],
+  "definition": "Rare, life‑threatening **shock syndrome** caused by superantigen‑producing **Staph aureus** (TSST‑1 toxin) or **Strep pyogenes** (Spe exotoxins). Characterized by sudden high fever, hypotension, a diffuse **erythroderma** (sunburn‑like rash with later desquamation), and rapid multi‑organ failure.",
+  "why_it_matters": "Rapidly fatal if unrecognized (mortality can exceed 30% in streptococcal cases). Classic exam scenario linking **tampon** use or post‑surgical wounds to shock and rash. Requires urgent source control and ICU care to prevent death.",
+  "how_youll_see_it": [
+    "Menstruation-associated (Staph) TSS: classically a young woman using **tampons** → abrupt onset high fever (≥39 °C), headache, **vomiting/diarrhea**, diffuse sunburn-like rash, conjunctival injection, and hypotension.",
+    "Non-menstrual TSS: any skin or soft-tissue infection (nasal packing, postpartum infection, surgical wound, burn) can serve as a source → similar presentation of fever + rash + shock. Often with mucous membrane hyperemia (\"**strawberry tongue**\"), and rash **desquamates** 1–2 weeks later.",
+    "**Streptococcal TSS** (STSS) typically follows invasive GAS infection (e.g., necrotizing fasciitis or toxic strep cellulitis). Presents with severe localized pain, rapidly progressive infection, and early shock; blood cultures are often positive for GAS (unlike Staph TSS)."
+  ],
+  "problem_solving": [
+    "Immediately perform **source control**: remove any retained foreign body (tampon, nasal packing) and drain or surgically debride any infected wound or necrotic tissue.",
+    "Supportive care for **shock**: aggressive IV fluids, oxygen, and vasopressors as needed; monitor in ICU for multiorgan dysfunction (renal failure, ARDS, DIC, etc.).",
+    "Empiric broad-spectrum antibiotics: cover MRSA and GAS (e.g., **vancomycin** + **clindamycin**; add gram-negative coverage like piperacillin-tazobactam if polymicrobial infection is suspected). **Clindamycin** is crucial to inhibit toxin production.",
+    "Confirm diagnosis by CDC criteria (fever, rash, hypotension plus ≥3 organ systems involved). Streptococcal TSS is confirmed by isolation of GAS (usually from a sterile site). Do not wait for cultures—treat immediately if TSS is suspected."
+  ],
+  "differentials": [
+    { "id": "kawasaki-disease", "hint": "pediatric vasculitis (fever >5 days, rash, conjunctivitis, 'strawberry tongue'); occurs in children and **no hypotension**" },
+    { "id": "septic-shock", "name": "Septic shock (other causes)", "hint": "shock from other severe infections (e.g., meningococcemia); typically lacks the diffuse erythroderma and desquamation seen in TSS" },
+    { "id": "disseminated-intravascular-coagulation", "hint": "consumptive coagulopathy often present in TSS; consider other DIC triggers (sepsis, obstetric emergency, malignancy)" }
+  ],
+  "tricks": [
+    "Mnemonic: **TSS = Tampons → Staph → Shock** (classic context for staphylococcal TSS in exams).",
+    "TSS rash looks like a **sunburn** and later **peels** on palms/soles. Also remember **strawberry tongue** (as seen in scarlet fever and Kawasaki) — shock differentiates TSS."
+  ],
+  "exam_appearance": [
+    "Young woman on her period (tampon use) with sudden fever >102 °F, hypotension, vomiting, and a diffuse erythematous rash → **Staphylococcal TSS** (TSST‑1 from S. aureus).",
+    "Patient with rapidly spreading soft-tissue infection (necrotizing fasciitis) who develops severe pain, hypotension, and multi‑organ failure → **Streptococcal TSS** (GAS invasive infection)."
+  ],
+  "treatment": [
+    "**Resuscitation**: IV fluids (crystalloids) and support of blood pressure (add **norepinephrine** or other vasopressors if needed); ICU-level monitoring.",
+    "**Remove the source**: promptly take out tampons, vaginal diaphragms, nasal packing; obtain surgical consult for debridement of any necrotic infection (e.g., necrotizing fasciitis).",
+    "**Empiric antibiotics**: start broad IV coverage (e.g., **vancomycin** + **clindamycin**, plus a beta-lactam for gram-negatives if indicated) after obtaining cultures. Clindamycin helps suppress toxin production.",
+    "Tailor therapy once organism is identified: for GAS, use **penicillin G + clindamycin**; for MSSA, use nafcillin (or oxacillin) + clindamycin. Treat for about 10–14 days total.",
+    "Consider **IVIG** (2 g/kg) as adjunct therapy in severe cases refractory to fluids and vasopressors, to help neutralize circulating toxins."
+  ],
+  "red_flags": [
+    "High fever, diffuse rash, and hypotension in a menstruating patient → suspect TSS immediately (remove **tampon** and begin empiric treatment).",
+    "Severe pain out of proportion in a limb wound or postpartum infection with rapid progression to shock → consider **GAS** necrotizing infection causing TSS (emergency surgical intervention needed)."
+  ],
+  "algorithm": [
+    "Shock with rash → suspect TSS; begin IV fluids, draw labs/cultures, and **remove any foreign body** (tampon, packing) immediately.",
+    "Start broad-spectrum antibiotics (vancomycin + clindamycin ± gram-negative coverage) **without delay**; send cultures from blood and infection sites.",
+    "Admit to ICU for invasive monitoring and supportive care; evaluate for organ failures (dialysis for kidney failure, mechanical ventilation for ARDS, correct coagulopathy, etc.).",
+    "If **GAS** is confirmed, switch to penicillin G plus clindamycin; pursue prompt surgical debridement of infected tissue (source control).",
+    "Add IVIG for patients in persistent shock despite fluids and vasopressors. Continue intensive supportive care until hemodynamically stable."
+  ],
+  "cases": [
+    {
+      "stem": "A 23‑year‑old woman on her period is brought in with a 12‑hour history of fever, confusion, vomiting, and lightheadedness. She uses super-absorbent tampons. Exam reveals T 102.5 °F, BP 80/50 mm Hg, diffuse red macular rash over her body, and hyperemic mucous membranes.",
+      "clues": ["tampon use", "high fever", "hypotension", "diffuse rash", "strawberry tongue"],
+      "answer": "Staphylococcal toxic shock syndrome",
+      "teaching": "Menstrual TSS caused by S. aureus (**TSST‑1** exotoxin). Remove the tampon, give aggressive IV fluids, and start broad antibiotics (**clindamycin** + anti-staph coverage)."
+    },
+    {
+      "stem": "A 50‑year‑old diabetic man is hospitalized with a rapidly spreading cellulitis of the thigh. He has excruciating pain at the site. Within 24 hours, he becomes high febrile, hypotensive, and develops acute kidney injury and coagulopathy. Blood cultures grow β‑hemolytic streptococci.",
+      "clues": ["necrotizing fasciitis", "severe pain", "hypotension", "multi-organ failure", "GAS in blood culture"],
+      "answer": "Streptococcal toxic shock syndrome",
+      "teaching": "Invasive group A Strep infection leading to shock (STSS). Requires emergency surgical debridement of necrotic tissue, intensive supportive care, and IV **penicillin G** plus **clindamycin**."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Toxic_shock_syndrome_is_so_rare_you_might_forget_it_can_happen_-_(6946668685).jpg",
+      "alt": "1980s public health poster warning about toxic shock syndrome",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Toxic_shock_syndrome_is_so_rare_you_might_forget_it_can_happen_-_(6946668685).jpg"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CDC: Clinical Guidance for Streptococcal Toxic Shock Syndrome (2025)",
+      "url": "https://www.cdc.gov/groupastrep/hcp/clinical-guidance/streptococcal-toxic-shock-syndrome.html"
+    },
+    {
+      "title": "Medscape: Toxic Shock Syndrome (Updated Jan 2025)",
+      "url": "https://emedicine.medscape.com/article/169177-overview"
+    },
+    {
+      "title": "Atchade et al., Toxic Shock Syndrome – A Literature Review (Pathogens, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10812596/"
+    },
+    {
+      "title": "StatPearls: Toxic Shock Syndrome (Ross & Shoff, Updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK459345/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

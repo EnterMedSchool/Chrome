@@ -1,0 +1,131 @@
+{
+  "id": "radial-nerve-injury",
+  "names": ["Radial nerve injury"],
+  "aliases": ["radial nerve palsy", "radial neuropathy", "Saturday night palsy", "crutch palsy", "honeymoon palsy", "wrist drop"],
+  "abbr": [],
+  "patterns": [
+    "radial nerve injury",
+    "radial nerve palsy",
+    "radial neuropathy",
+    "saturday night palsy",
+    "crutch palsy",
+    "honeymoon palsy",
+    "wrist drop",
+    "radial mononeuropathy"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": ["msk_derm", "neuro", "surgery"],
+  "definition": "Injury or compression of the **radial nerve** (C5–T1, branch of the posterior cord) causing weakness or paralysis of the wrist/finger extensors (leading to **\"wrist drop\"**) and sensory loss over the dorsal hand.",
+  "why_it_matters": "The radial nerve is commonly injured in trauma (it runs along the humerus) and in compressive neuropathies (\"**Saturday night palsy**\"). Radial palsy leads to significant functional impairment of hand extension and frequently appears on exams linking **humeral fractures** or improper crutch use to **wrist drop**.",
+  "how_youll_see_it": [
+    "Classic presentation is **wrist drop**: the patient cannot extend the wrist or fingers at the knuckles (the hand dangles limp). They may have difficulty with grip due to lack of wrist stabilization. Sensory loss typically involves the **dorsum of the hand**, especially the web space between thumb and index finger.",
+    "Common causes: **midshaft humerus fractures** (radial nerve injury in the spiral groove; occurs in ~12% of such fractures) and **prolonged compression** of the upper arm (e.g., arm draped over a chair – \"Saturday night palsy\"; improper crutch use – \"crutch palsy\"). Penetrating trauma (stab wounds, gunshots) can lacerate the nerve.",
+    "High lesions (at the axilla) cause inability to extend the elbow (**triceps weakness**), plus wrist drop and sensory loss over the posterior arm, forearm, and hand. Lesions at the mid-arm (spiral groove) spare the triceps (elbow extension intact) but still cause wrist drop and dorsal hand numbness. Lesions at the forearm (radial head level) affecting the **posterior interosseous nerve** produce **finger drop** (inability to extend fingers/thumb) with **normal sensation** (superficial radial nerve is intact)."
+  ],
+  "problem_solving": [
+    "**Localize the lesion**: test elbow extension (triceps); if weak, the injury is proximal (axilla). Test **brachioradialis** reflex or wrist extension to confirm radial nerve involvement; check **dorsal hand sensation** (if intact, suspect an isolated motor branch palsy).",
+    "Identify the cause: look for a history of **fracture** (humerus) vs **compression** (e.g., passed-out drunk, crutch use) vs direct trauma. In humeral fractures, note if the injury was **open** (higher risk of nerve severance) or closed (often neuropraxia).",
+    "Initial management: for **compression injuries**, remove the source of pressure (e.g., adjust crutches, avoid external compression) and support the wrist (use a **wrist splint** to prevent contractures and assist hand function). For closed fractures, manage the fracture (cast or fixation) and usually observe the nerve injury (most recover spontaneously in weeks).",
+    "Further evaluation: if there is no sign of nerve recovery by ~3–4 weeks, obtain **EMG/NCS** to assess severity (axonotmesis vs neuropraxia) and to localize the lesion. High-resolution **ultrasound** can help visualize nerve continuity or entrapment.",
+    "Indications for surgery: **open injuries** with nerve laceration, any case with **worsening deficits** or new-onset weakness (suspect entrapment by bone fragment or hematoma), or lack of improvement after ~3 months. Surgical options include nerve exploration and repair/grafting, or tendon transfer to restore function if nerve recovery is poor."
+  ],
+  "differentials": [
+    { "name": "C7 radiculopathy", "hint": "Neck pain or cervical injury; may cause triceps and wrist extensor weakness but usually with other myotome deficits and a broader sensory loss (not isolated to dorsal hand)" },
+    { "name": "Posterior interosseous nerve syndrome", "hint": "Compression of radial nerve's deep branch (e.g., at supinator canal); **motor only** palsy (finger/thumb extension lost, sensation intact)" },
+    { "name": "Lead poisoning", "hint": "History of lead exposure; causes a peripheral neuropathy often with bilateral wrist drop and other systemic signs (anemia, GI symptoms, cognitive changes)" }
+  ],
+  "tricks": [
+    "The radial nerve innervates **B**rachioradialis, **E**xtensors (of wrist and fingers), **S**upinator, and **T**riceps (mnemonic: **BEST**). These are all extensor/posterior arm muscles — injury to the radial nerve knocks out these extensors, leading to wrist drop.",
+    "\"**Saturday night palsy**\" = an intoxicated person sleeps with an arm over a chair → compresses the radial nerve in the upper arm → transient wrist drop. \"**Honeymoon palsy**\" = someone else sleeps on your arm (prolonged compression). \"**Crutch palsy**\" = compression of the radial nerve in the axilla from improper crutch use. All result in a similar radial neuropathy.",
+    "In midshaft **humeral fractures**, always check wrist/finger extension and dorsal hand sensation — inability to extend the wrist or numbness in the first dorsal web space suggests radial nerve injury. Most of these injuries (neuropraxias) recover with conservative management."
+  ],
+  "exam_appearance": [
+    "A patient with a **midshaft humerus fracture** who subsequently cannot extend the wrist or fingers (wrist drop) and has numbness over the dorsum of the hand → radial nerve injury in the spiral groove.",
+    "An intoxicated person falls asleep with an arm hanging over a chair, then wakes up with a limp wrist (wrist drop) and numb dorsal hand, but intact triceps strength → **Saturday night palsy** (radial nerve compression at the mid-arm).",
+    "A patient using crutches develops wrist drop and hand numbness → radial nerve compression in the **axilla** (crutch palsy). Triceps may also be weak in this scenario (high lesion)."
+  ],
+  "treatment": [
+    "Conservative (if nerve is intact or neuropraxia): **wrist splinting** (cock-up splint) to support the hand in extension and prevent contractures, plus **physical therapy** (ROM and strengthening exercises) while awaiting nerve recovery. Most compression or stretch injuries recover spontaneously within weeks to a few months.",
+    "**Analgesics** (NSAIDs) for pain or paresthesias if needed; avoid further compression (proper padding, crutch technique). Monitor for return of extensor muscle function (recovery often proceeds proximal-to-distal in the forearm).",
+    "If no improvement after ~3–6 months or if the nerve is known to be severed: consider **surgical exploration**. For a confirmed transection, perform nerve **repair/grafting**. In chronic cases with persistent paralysis, **tendon transfer** (e.g., transferring a wrist flexor tendon to the extensor side) can restore wrist/finger extension function."
+  ],
+  "red_flags": [
+    "**Open** fractures with radial nerve palsy – high likelihood of nerve transection; prompt surgical exploration is indicated (do not delay).",
+    "Signs of **compartment syndrome** (severe pain, tense swelling in the forearm) alongside radial nerve deficit – requires emergent fasciotomy to prevent permanent nerve/muscle damage.",
+    "Progressive neurologic deficit (worsening weakness or expanding numbness) after the initial injury – suspect an expanding **hematoma** compressing the nerve (may need urgent decompression)."
+  ],
+  "algorithm": [
+    "Patient with **wrist drop** → perform a detailed neuro exam to confirm radial nerve palsy (test wrist/finger extension strength and dorsal hand sensation).",
+    "If due to a **humerus fracture**: immobilize or fix the fracture. For closed fractures, manage expectantly (observe for nerve recovery) with splinting; for open fractures with palsy, proceed to prompt surgical exploration.",
+    "If due to **compression**: remove the offending pressure (e.g., adjust crutches, avoid prolonged arm compression). Provide a wrist splint and allow rest; a neurapraxic palsy often improves in days to weeks once the compression is relieved.",
+    "Follow-up: reassess motor function regularly. If no return of extensor power by ~6–12 weeks, obtain **EMG/NCS** for guidance.",
+    "Refer for **surgical exploration** if there is no improvement by ~3 months, or sooner if signs point to complete nerve injury. Throughout recovery, ensure hand therapy to maintain joint mobility and prevent stiffness."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Gray812and814.svg",
+      "alt": "Cutaneous innervation of the upper limb (areas in pink are supplied by the radial nerve, including the posterior arm, forearm, and radial dorsal hand).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gray812and814.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old man presents after a motorcycle accident with a midshaft fracture of the right humerus. After initial stabilization, he is noted to have difficulty moving his right hand.",
+      "clues": [
+        "Transverse fracture of the mid-humerus on X-ray",
+        "Cannot extend right wrist or fingers",
+        "Numbness over first dorsal web space of hand",
+        "Triceps strength is intact"
+      ],
+      "answer": "Radial nerve injury (wrist drop due to humeral fracture)",
+      "teaching": "The radial nerve runs along the spiral groove of the humerus and is often injured in midshaft fractures. This leads to wrist drop (loss of wrist/finger extension) and numbness over the dorsal hand. In closed fractures, the nerve injury is usually neuropraxia and will recover spontaneously; management is conservative (splint, rehab) with serial exams to monitor return of function."
+    },
+    {
+      "stem": "A 40‑year‑old man with a history of heavy alcohol use is found unconscious after a night of drinking, lying with his left arm over the back of a bench. Upon awakening, he cannot extend his left wrist or fingers.",
+      "clues": [
+        "Slept with left arm draped over a bench backrest",
+        "Wrist and finger extension are weak (wrist drop)",
+        "Decreased sensation over dorsum of left hand",
+        "Elbow extension is preserved"
+      ],
+      "answer": "Radial nerve compression neuropathy (\"Saturday night palsy\")",
+      "teaching": "Prolonged compression of the radial nerve (often against the humerus) can cause a transient neuropraxia. Classically, an intoxicated person sleeping with the arm hanging over a chair develops wrist drop and dorsal hand numbness. Because the compression in this scenario is at the mid-arm, the triceps is spared. Most such injuries will recover spontaneously once the pressure is relieved."
+    }
+  ],
+  "see_also": [
+    "ulnar-nerve-injury",
+    "median-nerve-injury",
+    "klumpke-palsy",
+    "erb-palsy"
+  ],
+  "prerequisites": [
+    "brachial-plexus",
+    "upper-limb-anatomy",
+    "peripheral-nerve-regeneration"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Radial Nerve Injury (Gragossian & Varacallo, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537304/"
+    },
+    {
+      "title": "UpToDate: Overview of upper extremity peripheral nerve syndromes",
+      "url": "https://www.uptodate.com/contents/overview-of-upper-extremity-peripheral-nerve-syndromes"
+    },
+    {
+      "title": "Medscape: Radial Mononeuropathy (Jamal, 2021)",
+      "url": "https://emedicine.medscape.com/article/1141674-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

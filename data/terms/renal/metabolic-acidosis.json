@@ -1,0 +1,135 @@
+{
+  "id": "metabolic-acidosis",
+  "names": ["Metabolic acidosis"],
+  "aliases": [
+    "high anion gap acidosis",
+    "normal anion gap acidosis",
+    "hyperchloremic acidosis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "metabolic acidosis",
+    "high anion gap metabolic acidosis",
+    "normal anion gap metabolic acidosis",
+    "non-anion gap metabolic acidosis",
+    "hyperchloremic acidosis",
+    "HAGMA",
+    "NAGMA",
+    "MUDPILES"
+  ],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "physiology", "endocrine", "toxicology"],
+  "definition": "Primary acid–base disturbance characterized by a reduction in serum **HCO₃⁻** (bicarbonate), usually with compensatory drop in **Pco₂**; blood **pH** is low (<7.35) or sometimes near-normal if mixed disorders.",
+  "why_it_matters": "Indicates serious underlying problems (e.g., **DKA**, shock/sepsis, renal failure) and can cause significant organ dysfunction. Acute severe acidosis (pH <7.20) carries high mortality if uncorrected, leading to impaired cardiac output, arrhythmias, and **coma**. Chronic metabolic acidosis (as in CKD) contributes to bone loss and muscle wasting but is treatable with alkali to improve outcomes.",
+  "how_youll_see_it": [
+    "Often presents with **nonspecific** symptoms (fatigue, nausea, headache) or signs of the underlying cause. Moderate to severe acidemia causes **Kussmaul respirations** – deep, rapid breathing – as compensation. Patients may appear flushed and confused; severe acidosis can progress to **hypotension** and decreased level of consciousness.",
+    "High anion gap acidosis scenarios: **DKA** (e.g., a type 1 diabetic with polyuria, abdominal pain, fruity odor breath, and Kussmaul breathing), **lactic acidosis** (shock or sepsis with hypotension and elevated lactate), or toxic alcohol ingestion (e.g., **methanol** causing visual blurring with anion gap acidosis, **ethylene glycol** causing acute renal failure with oxalate crystals). Renal failure (uremia in AKI/CKD) is another common high-gap cause.",
+    "Normal anion gap (hyperchloremic) acidosis scenarios: **GI bicarbonate loss** (prolonged diarrhea or intestinal drainage leading to acidosis with normal gap) and **renal tubular acidosis** (defect in H⁺ excretion or HCO₃⁻ reabsorption) are most common. For example, a patient with chronic diarrhea and weakness may have a normal-gap metabolic acidosis from bicarbonate loss, whereas one with Type IV RTA (hypoaldosteronism) might have mild normal-gap acidosis with hyperkalemia."
+  ],
+  "problem_solving": [
+    "Confirm metabolic acidosis on **ABG**: low pH (<7.35) with primary low **HCO₃⁻** (and compensatory ↓Pco₂). Simultaneously check serum electrolytes to calculate the **anion gap** (AG = Na⁺ – [Cl⁻ + HCO₃⁻]).",
+    "Determine AG status: if **high anion gap** (>12), investigate **MUDPILES** causes (Methanol, Uremia, DKA, Propylene glycol, INH/Iron, Lactic acidosis, Ethylene glycol, Salicylates) – order tests for ketones, lactate, renal function, toxic alcohol levels, etc. If **normal anion gap**, suspect hyperchloremic acidosis – look for GI losses (history of diarrhea, fistula) or renal causes (urinalysis and renal panel for RTA, renal failure).",
+    "Apply **Winter's formula** to assess respiratory compensation: expected Pco₂ ≈ 1.5 × [HCO₃] + 8 ± 2. If measured Pco₂ is higher or lower than expected, a concurrent respiratory acidosis or alkalosis is likely present (mixed disorder). Also consider the **delta gap** (change in AG vs change in HCO₃⁻) to unmask mixed metabolic disturbances (e.g. coexistent metabolic alkalosis).",
+    "In normal-gap acidosis, use the **urine anion gap** (Na + K – Cl in urine) to differentiate renal vs extrarenal causes. A negative urine AG suggests appropriate renal acid excretion (implying extrarenal loss like diarrhea), whereas a positive urine AG indicates impaired ammonium excretion (renal tubular acidosis). Identifying the exact cause guides targeted therapy."
+  ],
+  "differentials": [
+    {
+      "id": "respiratory-acidosis",
+      "hint": "Acidemia due to CO₂ retention (e.g., COPD, opioid overdose) – distinguished by **elevated Pco₂** and secondary rise in HCO₃⁻ (renal compensation)"
+    },
+    {
+      "id": "metabolic-alkalosis",
+      "hint": "Opposite disturbance (pH >7.45 with high HCO₃⁻); often from vomiting or diuretics – not to be confused with a corrected acidosis"
+    },
+    {
+      "name": "Mixed disorder (metabolic + respiratory)",
+      "hint": "e.g., cardiopulmonary arrest causing both lactic acidosis and CO₂ retention – expect extreme acidemia with **both** high Pco₂ and low HCO₃⁻"
+    }
+  ],
+  "tricks": [
+    "Mnemonic **MUDPILES** for high anion gap acidosis: **M**ethanol, **U**remia (renal failure), **D**KA (and other ketoacidoses), **P**ropylene glycol (antifreeze solvent), **I**soniazid/Iron, **L**actic acidosis, **E**thylene glycol, **S**alicylates.",
+    "Mnemonic **HARDUPS** for normal anion gap acidosis: **H**yperalimentation, **A**cetazolamide (or Addison's disease), **R**enal tubular acidosis, **D**iarrhea (GI loss of HCO₃⁻), **U**reterosigmoidostomy, **P**ancreatic fistula, **S**aline infusion.",
+    "A **salicylate (aspirin) overdose** classically causes a mixed acid–base picture: an early respiratory alkalosis (from respiratory center stimulation) plus an anion gap metabolic acidosis. Always check for a mixed disorder when an AG acidosis has an inappropriately low Pco₂.",
+    "Near-normal anion gap doesn't always mean pure hyperchloremic acidosis – it could be two processes offsetting each other (e.g., a high-gap acidosis plus a metabolic alkalosis can yield a near-normal AG). Use the delta gap and clinical context to catch such **pitfalls** in acid–base interpretation."
+  ],
+  "exam_appearance": [
+    "Young **type 1 diabetic** with abdominal pain, vomiting, **fruity odor** on breath, and deep rapid respirations; lab shows AG metabolic acidosis and high glucose → **diabetic ketoacidosis** (high anion gap metabolic acidosis).",
+    "Hospitalized **septic shock** patient with hypotension and tachycardia; labs: high lactate and anion gap metabolic acidosis → **lactic acidosis** due to tissue hypoperfusion.",
+    "Patient with several days of **profuse diarrhea**, weakness, and lab showing non-anion gap metabolic acidosis (hyperchloremia, low HCO₃⁻) → bicarbonate loss from GI tract (normal-gap metabolic acidosis)."
+  ],
+  "treatment": [
+    "Address the **underlying cause**: e.g., IV **insulin** and fluids for DKA, aggressive **IV fluids/pressors** and oxygen for shock-induced lactic acidosis, dialysis for uremic acidosis or toxic alcohol ingestion (with antidotes like fomepizole for methanol/ethylene glycol), and cessation of offending drugs (e.g., metformin in lactic acidosis). Correct any precipitating factors (e.g., sepsis, ischemia, or hypoxia in lactic acidosis).",
+    "Use **sodium bicarbonate** judiciously. It is generally reserved for **severe acidemia** (pH <7.1) or specific situations (e.g., to stabilize cardiac membrane in hyperkalemia, or in certain poisonings like TCA overdose). Routine bicarb therapy in mild-to-moderate metabolic acidosis (pH ≥7.2) is not beneficial and may cause volume overload or alkalosis. If used, administer carefully and monitor blood gases.",
+    "Chronic metabolic acidosis (e.g., in CKD) is managed with **oral alkali** therapy. Give oral sodium **bicarbonate** or citrate to maintain HCO₃⁻ ≥22 mEq/L, alongside dietary measures (increasing fruits/vegetables) to reduce acid load. This helps protect bones/muscles and may slow progression of kidney disease. In Type 1 RTA, bicarbonate or Shohl's solution corrects the acidosis; in Type 4 RTA (hypoaldosteronism), address hyperkalemia and consider fludrocortisone."
+  ],
+  "red_flags": [
+    "Arterial **pH <7.1** (or HCO₃⁻ <8): indicates **life-threatening acidemia** with risk of circulatory collapse, refractory arrhythmias, and coma. Requires ICU management – consider emergent **IV bicarbonate**, mechanical ventilation if respiratory compensation fails, or **dialysis** (especially if renal failure or toxin is involved).",
+    "**Signs of shock or organ failure** in the context of metabolic acidosis (e.g., hypotension, oliguria, altered mental status in septic or cardiogenic shock) – this combination portends high mortality and demands immediate intervention (aggressive resuscitation, treating cause). Also, an anion gap acidosis with an unexplained **osmolar gap** suggests toxic alcohol ingestion (emergency antidote/dialysis needed)."
+  ],
+  "algorithm": [
+    "pH <7.35 on ABG + low HCO₃⁻ → diagnose **metabolic acidosis**.",
+    "Calculate **anion gap**: if AG >12 → high-gap acidosis (search for MUDPILES causes); if AG normal → hyperchloremic acidosis (think GI losses or RTA).",
+    "Check compensation with **Winter's formula**: if measured Pco₂ deviates from expected, a mixed acid–base disorder is present (investigate further).",
+    "Identify the cause: review clinical context (DKA, shock, renal failure, toxins, diarrhea, etc.), get relevant labs (glucose, ketones, lactate, renal panel, toxicology, etc.).",
+    "Initiate cause-specific treatment promptly (e.g., insulin, fluids, antibiotics, dialysis). Reassess ABG and anion gap for improvement. If pH remains critically low (<7.1) despite therapy, escalate care (consider bicarbonate infusion or renal replacement therapy)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Symptoms_of_acidosis.png",
+      "alt": "Diagram of general symptoms of acidosis, highlighting effects like Kussmaul breathing (deep, rapid respiration), neurological depression (confusion, coma), and cardiovascular impairment (hypotension, arrhythmias).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Symptoms_of_acidosis.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19‑year‑old man with type 1 diabetes is brought to the ED with 2 days of vomiting, abdominal pain, and confusion.",
+      "clues": [
+        "Glucose 450 mg/dL",
+        "Arterial pH 7.10, HCO₃⁻ 8 mEq/L, Pco₂ 20 mmHg",
+        "Breath has a \"fruity\" odor",
+        "Deep, rapid respirations (Kussmaul breathing)"
+      ],
+      "answer": "High anion gap metabolic acidosis (diabetic ketoacidosis)",
+      "teaching": "DKA causes accumulation of ketoacids, leading to an anion gap metabolic acidosis. The low HCO₃⁻ and pH with compensatory low Pco₂ (Winter's formula appropriate) indicate primary metabolic acidosis. Fruity odor and Kussmaul respirations are classic for DKA. Treatment is IV fluids and insulin to reverse the acidosis."
+    }
+  ],
+  "see_also": [
+    "diabetic-ketoacidosis",
+    "lactic-acidosis",
+    "metabolic-alkalosis"
+  ],
+  "prerequisites": ["acid-base-physiology", "arterial-blood-gas", "anion-gap"],
+  "sources": [
+    {
+      "title": "Merck Manual Professional: Metabolic Acidosis",
+      "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/acid-base-regulation-and-disorders/metabolic-acidosis"
+    },
+    {
+      "title": "UpToDate: Approach to the adult with metabolic acidosis",
+      "url": "https://www.uptodate.com/contents/approach-to-the-adult-with-metabolic-acidosis"
+    },
+    {
+      "title": "Nature Reviews Nephrology: Treatment of acute metabolic acidosis (Kraut & Madias, 2012)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22945490/"
+    },
+    {
+      "title": "N Engl J Med: Physiological Approach to Assessment of Acid–Base Disturbances (Berend et al., 2014)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1003327"
+    },
+    {
+      "title": "StatPearls: Metabolic Acidosis (Castro & Keenaghan, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482146/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

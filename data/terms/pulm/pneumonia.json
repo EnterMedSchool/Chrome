@@ -1,0 +1,125 @@
+{
+  "id": "pneumonia",
+  "names": ["Pneumonia"],
+  "aliases": ["lung infection"],
+  "abbr": ["CAP", "HAP", "VAP"],
+  "patterns": [
+    "pneumonia", "pneumonias",
+    "community acquired pneumonia", "CAP",
+    "hospital acquired pneumonia", "HAP",
+    "ventilator associated pneumonia", "VAP",
+    "atypical pneumonia"
+  ],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "infectious_dz", "peds", "micro_bacteria", "micro_virus"],
+  "definition": "Infection of the lung alveoli leading to inflammation and **consolidation** (air spaces fill with pus/fluid). Often categorized by setting: **community-acquired pneumonia (CAP)** occurs outside the hospital, **hospital-acquired (HAP)** occurs ≥48 hours after admission, and **ventilator-associated (VAP)** occurs ≥48 hours after intubation. Caused by a variety of organisms (bacteria, viruses, fungi) that overcome the lung's defenses.",
+  "why_it_matters": "Very common and can be life-threatening if untreated. Pneumonia is a leading cause of hospitalization and the **deadliest infectious disease** (8th overall cause of death in the US and the #1 killer of young children worldwide). High-yield on exams due to classic presentations linking specific pathogens to risk factors (e.g., alcoholics, dorm students, cystic fibrosis, aspiration).",
+  "how_youll_see_it": [
+    "Typically presents with **fever**, **cough**, and difficulty breathing. **Typical pneumonia** (e.g., pneumococcal) has acute onset of high fever, chills, and **productive cough** with purulent or rust-colored sputum; exam shows lobar consolidation (dull percussion, crackles). **Atypical pneumonia** (e.g., Mycoplasma or viral) has a slower onset with **dry cough**, low-grade fever, and diffuse or interstitial infiltrates (the patient often looks better than the CXR).",
+    "**Common CAP bugs & clues:** **Streptococcus pneumoniae** is the most frequent cause of lobar pneumonia in all ages. **Haemophilus influenzae** often in smokers/COPD; **Staph aureus** classically after influenza; **Klebsiella** in alcoholics (aspiration, upper lobe necrosis, \"currant jelly\" sputum); **Mycoplasma pneumoniae** in young adults (college, military) with walking pneumonia; **Legionella** in older smokers (contaminated water, causes GI symptoms and hyponatremia).",
+    "**Children:** In infants and toddlers, **viruses** (RSV, influenza, etc.) cause most pneumonias; bacterial pneumonia in kids is usually **S. pneumoniae** (especially if not fully immunized). School-age kids and teens often get atypical pneumonia from **Mycoplasma**. Special situations: neonates can get GBS or chlamydial pneumonia; cystic fibrosis patients get **Staph aureus** and **Pseudomonas**; immunocompromised children (e.g., HIV) are at risk for Pneumocystis jirovecii.",
+    "**Hospital setting:** **HAP** or **VAP** presents with new fever, purulent sputum, and lung infiltrates in a hospitalized or ventilated patient. These are often caused by resistant **gram-negatives** (Pseudomonas, Klebsiella, etc.) or **MRSA**. **Aspiration** pneumonia (in patients with impaired consciousness or swallowing) typically involves anaerobes and affects dependent lung segments (e.g., right lower lobe) – sputum may be foul-smelling and CXR can show cavitation (abscess)."
+  ],
+  "problem_solving": [
+    "Obtain a **chest X-ray** whenever pneumonia is suspected, to confirm the presence of an infiltrate and help distinguish pneumonia from bronchitis or heart failure.",
+    "Assess **severity** to determine management setting: use clinical judgment or scoring tools (e.g., **CURB-65** in adults) to decide if the patient can be treated outpatient or needs hospitalization/ICU. Red flags include respiratory distress, hypoxia, hypotension, or confusion.",
+    "If admitted, obtain **sputum Gram stain & culture** and **blood cultures** *before* starting antibiotics. Order targeted tests as needed (e.g., influenza or RSV PCR, **urine antigen** tests for Legionella and pneumococcus in severe CAP).",
+    "Consider complications: if a **pleural effusion** is present, do thoracentesis to check for empyema (infected fluid requiring drainage). In aspiration cases, be vigilant for lung abscess; bronchoscopy may be warranted if obstruction or foreign body is suspected."
+  ],
+  "differentials": [
+    { "id": "acute-bronchitis", "hint": "cough and sputum without lung consolidation; chest X-ray is clear, usually viral" },
+    { "name": "Heart failure (pulmonary edema)", "hint": "bilateral crackles and infiltrates from fluid (cardiomegaly on CXR, no fever; improves with diuresis)" },
+    { "name": "Pulmonary embolism", "hint": "sudden pleuritic chest pain, tachycardia, +/- hemoptysis; may cause wedge-shaped infarct on imaging but usually normal CXR" },
+    { "id": "tuberculosis", "hint": "chronic weight loss, night sweats, and apical cavitary lesions rather than acute lobar consolidation" }
+  ],
+  "tricks": [
+    "**Rust-colored sputum** → think pneumococcal pneumonia (classic for **Strep pneumoniae**). **\"Currant jelly\" sputum** (thick, bloody mucus) in an alcoholic → **Klebsiella** pneumonia.",
+    "\"**Walking**\" pneumonia = patient looks fairly well despite bad-looking infiltrates on CXR → usually **Mycoplasma pneumoniae** (common in young adults, dorms/military).",
+    "**Legionella** pneumonia clue: pneumonia with **diarrhea** and **hyponatremia** (often from contaminated water sources like hotel AC systems)."
+  ],
+  "exam_appearance": [
+    "Alcoholic with high fever, cough, and **currant jelly** sputum; CXR shows right upper lobe consolidation → **Klebsiella pneumonia**.",
+    "College student with persistent dry cough, low-grade fever, and patchy interstitial infiltrates on CXR → **Mycoplasma pneumoniae** (walking pneumonia).",
+    "Infant (6 months old) in winter with wheezing, tachypnea, and intercostal retractions → **RSV bronchiolitis** (viral pneumonia in a baby)."
+  ],
+  "treatment": [
+    "Start **empiric antibiotics** promptly (after cultures if obtained). For **CAP**, choose coverage for pneumococcus and atypicals: e.g., outpatient can receive a macrolide (like azithromycin) or doxycycline; hospitalized patients often need a beta-lactam (e.g., ceftriaxone) plus a macrolide. (In children, high-dose **amoxicillin** is first-line for bacterial pneumonia, and add a macrolide if Mycoplasma is suspected.)",
+    "**HAP/VAP:** use broad-spectrum antibiotics covering **MRSA** and **Pseudomonas** until sensitivities are known (e.g., vancomycin + piperacillin-tazobactam). If aspiration is suspected, ensure anaerobic coverage (e.g., clindamycin or amoxicillin-clavulanate). De-escalate antibiotics based on culture results.",
+    "**Supportive care** is important: give oxygen for hypoxia, IV fluids for dehydration, and antipyretics/analgesics for fever and pleuritic pain. Bronchodilators can help if there is wheezing or underlying asthma/COPD. Severe cases may require ICU support (ventilation, vasopressors for septic shock).",
+    "**Special cases:** treat influenza pneumonia with antivirals (oseltamivir). **Pneumocystis pneumonia (PCP)** in immunocompromised patients is treated with high-dose trimethoprim-sulfamethoxazole (often with corticosteroids if respiratory failure)."
+  ],
+  "red_flags": [
+    "**Respiratory failure** signs – e.g., RR ≥30, O₂ sat <90%, cyanosis, or rising CO₂ – indicate need for aggressive intervention (possible ventilation). **Altered mental status** or **septic shock** (SBP <90) in a pneumonia patient → ICU-level care is warranted.",
+    "In infants, **apnea**, **grunting**, or inability to feed are ominous signs. Any child with severe retractions or low O₂ saturation should be hospitalized for supportive care."
+  ],
+  "algorithm": [
+    "Suspected pneumonia (fever + cough + crackles) **→ get chest X-ray** to confirm infiltrate.",
+    "Confirmed pneumonia **→ assess severity** (vitals, mental status, labs). Use CURB-65 in adults or pediatric criteria to decide outpatient vs hospital (ICU if critical).",
+    "If inpatient **→ obtain cultures** (sputum, blood) and relevant tests before antibiotics. Consider viral swabs or urine antigen tests based on clinical context.",
+    "Start **empiric antibiotics** (guided by CAP vs HAP and patient factors) and provide supportive care (oxygen, fluids, etc.).",
+    "Reassess at 48–72 hours; if not improving, broaden coverage or investigate complications (e.g., empyema, resistance). Adjust antibiotics when culture results return."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/X-ray_of_lobar_pneumonia.jpg",
+      "alt": "Chest X-ray showing right middle lobe consolidation in a patient with lobar pneumonia.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:X-ray_of_lobar_pneumonia.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old man with a history of alcohol use disorder is found unresponsive and aspirated. He later develops fever, chills, and a productive cough with blood-tinged, foul-smelling sputum.",
+      "clues": ["Heavy alcohol use", "\"Currant jelly\" sputum", "Right upper lobe cavitation on CXR", "Gram-negative rods on culture"],
+      "answer": "Klebsiella pneumonia",
+      "teaching": "Alcoholics are prone to aspiration leading to **Klebsiella** pneumonia—an upper lobe necrotizing infection with thick, blood-tinged sputum. Klebsiella is a lactose-fermenting gram-negative rod with a polysaccharide capsule; it causes a severe lobar pneumonia requiring broad-spectrum antibiotics."
+    },
+    {
+      "stem": "A 6‑month‑old infant (born at term) in January is brought in with a 3-day history of runny nose, low-grade fever, and increasing respiratory difficulty. Exam shows nasal flaring, intercostal retractions, wheezing, and crackles.",
+      "clues": ["Infant in winter months", "Wheezing and retractions", "Diffuse infiltrates on chest X-ray", "Older sibling with a cold"],
+      "answer": "Respiratory syncytial virus (RSV) bronchiolitis",
+      "teaching": "**RSV** is the most common cause of pneumonia/bronchiolitis in infants. It causes inflammation of the small airways, leading to wheezing and respiratory distress. Treatment is mainly supportive (hydration, oxygen); severe cases may require hospitalization and respiratory support."
+    }
+  ],
+  "see_also": [
+    "tuberculosis",
+    "bronchiolitis",
+    "acute-respiratory-distress-syndrome"
+  ],
+  "prerequisites": [
+    "respiratory-physiology",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Community-Acquired Pneumonia (Regunath & Oba, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430749/"
+    },
+    {
+      "title": "StatPearls: Pediatric Pneumonia (Ebeledike & Ahmad, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536940/"
+    },
+    {
+      "title": "StatPearls: Nosocomial Pneumonia (Shebl & Gulick, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535441/"
+    },
+    {
+      "title": "WHO Fact Sheet: Pneumonia in Children (2022)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/pneumonia"
+    },
+    {
+      "title": "UpToDate: Overview of community-acquired pneumonia in adults",
+      "url": "https://www.uptodate.com/contents/overview-of-community-acquired-pneumonia-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

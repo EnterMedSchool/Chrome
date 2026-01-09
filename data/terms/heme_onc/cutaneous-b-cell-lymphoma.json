@@ -1,0 +1,130 @@
+{
+  "id": "cutaneous-b-cell-lymphoma",
+  "names": ["Primary cutaneous B-cell lymphomas"],
+  "aliases": ["cutaneous B-cell lymphoma", "primary cutaneous B-cell lymphoma", "CBCL"],
+  "abbr": ["PCBCL", "CBCL"],
+  "patterns": [
+    "primary cutaneous B-cell lymphoma",
+    "primary cutaneous B-cell lymphomas",
+    "cutaneous B-cell lymphoma",
+    "PCBCL",
+    "CBCL",
+    "PCFCL",
+    "PCMZL",
+    "PCDLBCL-LT",
+    "follicle center lymphoma skin",
+    "cutaneous marginal zone lymphoma",
+    "cutaneous diffuse large B-cell lymphoma"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "msk_derm"],
+  "definition": "Group of extranodal **B-cell** non-Hodgkin lymphomas originating in and confined to the skin (no systemic involvement at diagnosis). Includes indolent types – **follicle center lymphoma** and **marginal zone** lymphoma – and an aggressive type (**diffuse large B-cell lymphoma, leg type**).",
+  "why_it_matters": "Primary cutaneous lymphomas are mostly T-cell; B-cell variants are less common (≈20% of cases). They have distinct behavior and treatment: most CBCLs are slow-growing skin lesions with excellent prognosis, but the leg-type DLBCL is an outlier that behaves aggressively. Correctly identifying the subtype guides therapy (e.g. avoid overtreatment of indolent lesions versus aggressive chemo for leg-type).",
+  "how_youll_see_it": [
+    "📌 **Primary cutaneous follicle center lymphoma (PCFCL):** Typically presents in middle age (50s) with one or several firm pink or violaceous **nodules/tumors** on the **scalp, forehead, or trunk**. Lesions are smooth, **non-ulcerated**, and patients **lack B symptoms** (no fevers, weight loss).",
+    "📌 **Primary cutaneous marginal zone lymphoma (PCMZL):** Second most common subtype; usually presents in younger adults (mean 40s) with **pink-red papules or nodules** (often multiple) on the **arms (upper extremities)** or trunk. These are indolent lesions (sometimes waxing and waning) and may have associated **plasma cells** on biopsy. A history of **Borrelia** infection is sometimes noted (especially in Europe), but systemic symptoms are absent.",
+    "📌 **Primary cutaneous DLBCL, leg type:** An uncommon but aggressive form typically seen in **elderly women**. Presents as one or more rapidly enlarging **red or bluish-red tumors** on the **lower legs**, often with **ulceration**. Lesions tend to grow quickly, and patients may develop regional lymphadenopathy; systemic B symptoms are possible if the disease progresses."
+  ],
+  "problem_solving": [
+    "**Biopsy any persistent, unexplained skin lesion** to confirm diagnosis. If pathology shows a B-cell lymphoma in the skin, perform staging (imaging and labs) to ensure it's truly primary cutaneous (no internal involvement).",
+    "**Distinguish subtype to guide therapy:** Follicle center vs marginal zone vs leg-type can be identified by histology and immunophenotype. Indolent subtypes (PCFCL, PCMZL) are typically **CD20⁺/BCL6⁺/BCL2⁻** or **BCL2⁺/BCL6⁻** respectively, with **no MYC/BCL2 translocation**. Leg-type DLBCL shows **large B-cells** that are **BCL2⁺, MUM1⁺** (non-germinal center phenotype).",
+    "**Remember Borrelia:** In PCMZL, especially in endemic regions, check for **Borrelia burgdorferi**. Treatment with **doxycycline** has led to regression in some cases, highlighting a possible infectious trigger.",
+    "**Tailor treatment:** Don't overtreat indolent CBCL. A few localized lesions can be managed with surgery or local radiation, whereas leg-type disease (or any evidence of systemic spread) demands aggressive systemic chemoimmunotherapy (R-CHOP)."
+  ],
+  "differentials": [
+    {
+      "id": "mycosis-fungoides",
+      "hint": "Cutaneous T-cell lymphoma (patches/plaques, CD3⁺/CD4⁺ T-cells) rather than B-cell; often scaly lesions."
+    },
+    {
+      "name": "Cutaneous pseudolymphoma",
+      "hint": "Benign **reactive lymphoid hyperplasia** in skin (e.g. due to insect bite, tattoo); can mimic lymphoma but is polyclonal and often regresses."
+    },
+    {
+      "name": "Systemic B-cell lymphoma with skin involvement",
+      "hint": "Secondary skin lesions from nodal lymphoma (e.g. **systemic follicular lymphoma**); usually have concurrent lymphadenopathy or **B symptoms**, and often **BCL2** overexpression/t(14;18)."
+    }
+  ],
+  "tricks": [
+    "💡 **Follicle center lymphoma lacks 14;18:** Unlike nodal follicular lymphoma, primary cutaneous FCL typically **does not have t(14;18)** and is **BCL2-negative**. This helps confirm the skin lesion is a primary skin lymphoma and not systemic FL.",
+    "💡 **\"Leg-type = Ladies & Lethal\":** Primary cutaneous DLBCL, leg type occurs mostly in older **women** on the legs and has a **poor prognosis** (5-year survival ~50% or less). Always treat it with systemic **R-CHOP** chemo (plus rituximab) like an aggressive nodal lymphoma.",
+    "💡 **Bugs and B-cells:** Some cutaneous marginal zone lymphomas are linked to **Borrelia** infection. In such cases, **antibiotic** therapy (e.g. doxycycline) can result in lymphoma regression – a unique scenario where treating an infection treats the cancer."
+  ],
+  "exam_appearance": [
+    "🏥 **Older woman with a leg tumor:** An exam vignette might describe a 70-something female with a rapidly enlarging ulcerated nodule on the lower leg. Biopsy reveals sheets of large atypical B-cells that are CD20⁺, BCL2⁺, MUM1⁺. This points to **primary cutaneous DLBCL, leg type**, which requires aggressive therapy (unlike other skin lymphomas).",
+    "🏥 **Localized skin nodules without systemic signs:** For example, a middle-aged patient with a few indolent pink nodules on the scalp or arm, no lymphadenopathy or B symptoms, and biopsy shows a B-cell infiltrate that is **BCL2-negative**. This is suggestive of an **indolent primary cutaneous B-cell lymphoma** (follicle center or marginal zone type). Management would be local (excision or radiation) rather than systemic chemo."
+  ],
+  "treatment": [
+    "**Localized indolent CBCL (PCFCL, PCMZL):** For solitary or limited lesions, **surgical excision** or **low-dose radiotherapy** can be curative. If lesions are multiple or recurrent, options include **rituximab** (anti-CD20 monoclonal antibody, given intralesionally or intravenously) and topical or intralesional therapies. In Borrelia-associated cases of PCMZL, **antibiotic** treatment (e.g. doxycycline for 3 weeks) may be tried as first-line.",
+    "**Aggressive or widespread disease:** **PCDLBCL, leg type** (and any CBCL with extensive spread) is treated like a systemic lymphoma. The regimen of choice is **R-CHOP** chemotherapy (rituximab + CHOP) often combined with involved-field radiation to the lesion. Staging and systemic evaluation are critical; consider CNS prophylaxis if high risk. *Avoid* aggressive chemo in the indolent subtypes, as it confers no benefit in diseases that behave localized."
+  ],
+  "red_flags": [
+    "🚩 **Systemic symptoms or nodes:** Primary CBCLs generally do **not** cause **B symptoms** (fever, night sweats, weight loss) or significant lymphadenopathy. If a patient with presumed cutaneous lymphoma develops systemic symptoms or enlarged nodes, suspect **extracutaneous spread** or an underlying systemic lymphoma – this warrants prompt re-evaluation and staging scans.",
+    "🚩 **Ulceration or rapid growth:** Most indolent CBCL lesions are slow-growing and non-ulcerated. A skin lymphoma lesion that is **rapidly enlarging, painful, or ulcerative**, especially on the **lower leg** of an older patient, is a warning sign for the aggressive leg-type DLBCL. Such cases need urgent therapy escalation."
+  ],
+  "algorithm": [
+    "1. **Biopsy skin lesion →** any suspicious or persistent skin lesion is biopsied for histopathology. If a B-cell lymphoma is diagnosed, proceed with staging.",
+    "2. **Staging workup →** perform imaging (CT/PET scans) and labs (CBC, LDH, etc.) ± bone marrow biopsy to **rule out systemic lymphoma**. Absence of extracutaneous disease confirms a primary cutaneous lymphoma.",
+    "3. **Subtype classification →** dermatopathology review with **immunohistochemistry** to categorize the CBCL subtype (follicle center vs marginal zone vs leg-type). Note key markers: e.g. **BCL6⁺/BCL2⁻** suggests follicle center; **BCL2⁺/MUM1⁺** suggests leg-type DLBCL.",
+    "4. **Treatment plan →** For **indolent subtypes** with limited skin involvement, use **skin-directed therapy**: excision or local radiation (often yields long remissions). For **leg-type or multifocal disease**, treat with **systemic chemoimmunotherapy** (R-CHOP regimen) as per aggressive lymphomas. Add antibiotics if Borrelia-positive (PCMZL). Ensure close follow-up for any new lesions."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SkinTumors-PC181157_02.jpg",
+      "alt": "Histopathology of a primary cutaneous diffuse large B-cell lymphoma (leg type) showing sheets of large atypical B cells in the dermis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:SkinTumors-PC181157_02.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 75‑year‑old woman presents with a rapidly enlarging skin lesion on her right lower leg. Over 2 months, it grew into a 5 cm red nodule with an ulcerated center. She has no fever or night sweats. No other lesions are noted, and no lymph nodes are palpated on exam.",
+      "clues": [
+        "Elderly female, large ulcerated leg tumor",
+        "Biopsy: diffuse dermal infiltrate of large atypical **CD20⁺ B-cells**",
+        "IHC: **BCL2⁺, MUM1⁺, CD10⁻** tumor cells",
+        "Staging scans show no internal lesions"
+      ],
+      "answer": "Primary cutaneous diffuse large B-cell lymphoma, leg type",
+      "teaching": "Cutaneous leg-type DLBCL typically presents in older women as a rapidly growing, often ulcerated leg tumor. The biopsy showing sheets of large B-cells with BCL2 and MUM1 expression is characteristic of this aggressive subtype. Unlike indolent skin lymphomas, it requires systemic chemotherapy (e.g. R-CHOP) due to its high-risk behavior and propensity to spread."
+    }
+  ],
+  "see_also": [
+    "non-hodgkin-lymphoma",
+    "lymphoma",
+    "hodgkin-lymphoma"
+  ],
+  "prerequisites": [
+    "immunology",
+    "non-hodgkin-lymphoma",
+    "lymph-node"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Primary Cutaneous Follicle Center Lymphoma (Uy & Sprowl, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK567743/"
+    },
+    {
+      "title": "UpToDate: Primary cutaneous follicle center lymphoma (Zhang & Horwitz, 2025)",
+      "url": "https://www.uptodate.com/contents/primary-cutaneous-follicle-center-lymphoma"
+    },
+    {
+      "title": "Medscape: Cutaneous B-Cell Lymphoma (Kempf & Zimmermann, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/1099540-overview"
+    },
+    {
+      "title": "WHO-EORTC Classification for Primary Cutaneous Lymphomas (Blood, Willemze et al., 2019)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30635287/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

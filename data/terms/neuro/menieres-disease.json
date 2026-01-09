@@ -1,0 +1,152 @@
+{
+  "id": "menieres-disease",
+  "names": [
+    "Meniere disease"
+  ],
+  "aliases": [
+    "Ménière's disease",
+    "Meniere's syndrome",
+    "idiopathic endolymphatic hydrops",
+    "endolymphatic hydrops"
+  ],
+  "abbr": [],
+  "patterns": [
+    "meniere",
+    "menieres",
+    "ménière",
+    "endolymphatic hydrops"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "neuro",
+    "radiology",
+    "surgery"
+  ],
+  "definition": "Meniere disease (idiopathic endolymphatic hydrops) is an inner ear disorder caused by excess endolymphatic fluid pressure in the cochlea and vestibular apparatus, leading to episodic vertigo, tinnitus, and fluctuating sensorineural hearing loss.",
+  "why_it_matters": "Although relatively rare (prevalence ~3.5–513 per 100k), Meniere's disease causes repeated, disabling vertigo attacks and progressive hearing loss that can severely impair quality of life. Hearing and balance often worsen early (within the first decade) and long-term deficits persist.",
+  "how_youll_see_it": [
+    "Episodic vertigo: spontaneous spinning attacks lasting 20 min–12 hr (may reach 24 hr for probable MD), often with nausea/vomiting.",
+    "Auditory symptoms: low-pitched tinnitus and aural fullness in the affected ear during episodes.",
+    "Hearing loss: fluctuating unilateral low-frequency SNHL on audiometry (rising audiogram).",
+    "Course: Vertigo attacks may eventually become less frequent, but hearing loss tends to stabilize at a worse level; ~50% of patients develop bilateral MD over 20 years.",
+    "Patient: typically middle-aged (40s–50s), more common in women."
+  ],
+  "differentials": [
+    {
+      "name": "Benign paroxysmal positional vertigo (BPPV)",
+      "hint": "Brief (<1 min) positional vertigo, no hearing loss/tinnitus."
+    },
+    {
+      "name": "Vestibular migraine",
+      "hint": "Episodic vertigo with migraine headache history; hearing is usually normal."
+    },
+    {
+      "name": "Vestibular neuritis",
+      "hint": "Acute prolonged vertigo (days) after viral illness; no auditory symptoms."
+    },
+    {
+      "name": "Labyrinthitis",
+      "hint": "Viral infection: continuous vertigo (days) with hearing loss (non-fluctuating)."
+    },
+    {
+      "name": "Vestibular schwannoma",
+      "hint": "Gradual unilateral SNHL and tinnitus, without episodic vertigo."
+    },
+    {
+      "name": "Central causes (stroke/MS)",
+      "hint": "Vertigo with neurological deficits (ataxia, diplopia) or direction-changing nystagmus."
+    }
+  ],
+  "tricks": [
+    "**Pearl**: In vertigo patients, check hearing – hearing loss/tinnitus points to Meniere's (or labyrinthitis), whereas isolated vertigo suggests BPPV/neuritis.",
+    "Mnemonic: **VOLUME**: **V**ertigo + aural **O**Fullness + hearing **L**oss + **U**nlateral tinnitus = endo**lymph**atic hydrop**S** (Meniere's disease)."
+  ],
+  "treatment": [
+    "Acute attacks: bed rest, IV fluids, vestibular suppressants (e.g. meclizine, benzodiazepines) and antiemetics.",
+    "Lifestyle: dietary salt restriction and caffeine avoidance to reduce endolymph volume.",
+    "Prophylaxis: diuretics (hydrochlorothiazide ± triamterene) to decrease fluid retention; betahistine (in some countries) may reduce symptoms.",
+    "Intratympanic therapy: steroids (e.g. dexamethasone) can control vertigo attacks.",
+    "Refractory: intratympanic gentamicin (vestibular ablation) if vertigo is uncontrolled (high hearing-loss risk).",
+    "Surgery: labyrinthectomy or vestibular nerve section if vertigo is disabling and hearing is already poor.",
+    "Long-term: vestibular rehab for chronic imbalance; hearing aids or cochlear implant for persistent hearing loss."
+  ],
+  "red_flags": [
+    "Neurologic deficits (ataxia, diplopia, dysarthria) or severe headache – suggests central cause (e.g., stroke).",
+    "Progressive unilateral SNHL without episodic vertigo – suspect vestibular schwannoma (obtain MRI).",
+    "Sudden profound hearing loss with vertigo – consider AICA stroke (emergency).",
+    "Direction-changing or vertical nystagmus – indicates central pathology."
+  ],
+  "algorithm": [
+    "Confirm diagnosis: ≥2 spontaneous vertigo episodes (20–120 min) + unilateral SNHL (with tinnitus/fullness) and rule out other causes.",
+    "Audiometry: document low-frequency SNHL in affected ear.",
+    "Imaging: offer MRI brain/IAC for asymmetric loss or atypical features (to exclude schwannoma, stroke).",
+    "Lifestyle: advise low-salt diet and hydration; counsel caffeine avoidance.",
+    "Preventive meds: start diuretic ± betahistine to reduce attack frequency.",
+    "Acute care: use vestibular suppressants (meclizine, antiemetics) during attacks.",
+    "Refractory management: intratympanic steroid (non-ablative) if attacks persist.",
+    "If still refractory: intratympanic gentamicin (ablative) or surgical labyrinthectomy (if hearing nonfunctional).",
+    "Chronic: vestibular rehab for balance; hearing rehabilitation (aids) as needed."
+  ],
+  "cases": [
+    {
+      "stem": "45-year-old woman with 6 months of episodic vertigo (each ~2 hours) associated with left ear tinnitus and fullness. Audiometry shows fluctuating low-frequency SNHL in the left ear.",
+      "clues": [
+        "Recurrent spinning vertigo",
+        "Low-frequency SNHL on left audiogram",
+        "Unilateral tinnitus and ear fullness"
+      ],
+      "answer": "Meniere disease",
+      "teaching": "This patient meets criteria for definite Meniere's disease (recurrent vertigo + unilateral SNHL + tinnitus/fullness). Initial management includes salt restriction, diuretics, and vestibular suppressants."
+    },
+    {
+      "stem": "50-year-old man with 3 episodes of spinning vertigo (~30 min each) over 2 months, with right-sided tinnitus and fluctuating hearing loss. Neurologic exam is normal; MRI brain/IAC is unremarkable.",
+      "clues": [
+        "Episodic vertigo (30 min)",
+        "Right ear tinnitus",
+        "Audiogram: right SNHL",
+        "Normal brain MRI"
+      ],
+      "answer": "Meniere disease",
+      "teaching": "Likely Meniere's disease: episodic vertigo + auditory symptoms without other cause. Normal MRI rules out tumors/stroke. Treat with low-salt diet and diuretics."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Meniere%27s_disease_infograph_VEDA.png",
+      "alt": "Infographic summarizing symptoms, patient demographics, and treatment of Ménière's disease.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Meniere%27s_disease_infograph_VEDA.png"
+      }
+    }
+  ],
+  "see_also": [
+    "vestibular-neuritis",
+    "acoustic-neuroma",
+    "nystagmus"
+  ],
+  "sources": [
+    {
+      "title": "Meniere Disease – StatPearls (2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK536955/"
+    },
+    {
+      "title": "Clinical practice guideline: Ménière's Disease (AAO-HNS, 2020)",
+      "url": "https://bulletin.entnet.org/home/article/21247843/clinical-practice-guideline-mnires-disease"
+    },
+    {
+      "title": "NICE IPG426: Micropressure therapy for Ménière's disease (2012)",
+      "url": "https://www.nice.org.uk/guidance/ipg426"
+    },
+    {
+      "title": "Meniere Disease (Idiopathic Endolymphatic Hydrops) – Medscape",
+      "url": "https://emedicine.medscape.com/article/1159069-overview"
+    }
+  ],
+  "credits": [
+    {
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

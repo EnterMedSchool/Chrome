@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EMS Medical Glossary</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <!-- Header -->
+    <header class="popup-header">
+      <div class="header-brand">
+        <img src="../assets/icons/leo-logo.png" alt="Leo" class="logo-img">
+        <h1>EMS Glossary</h1>
+      </div>
+      <span class="version">v1.0.0</span>
+    </header>
+
+    <!-- Domain Status Card (Adblock-like) -->
+    <section class="section domain-card" id="domainCard">
+      <div class="domain-status">
+        <span class="domain-status-icon" id="domainStatusIcon">●</span>
+        <div class="domain-info">
+          <span class="domain-name" id="domainName">Loading...</span>
+          <span class="domain-label" id="domainLabel">Active</span>
+        </div>
+      </div>
+      <div class="domain-stats">
+        <div class="domain-stat">
+          <span class="domain-stat-number" id="highlightCount">-</span>
+          <span class="domain-stat-label">terms found</span>
+        </div>
+      </div>
+      <button class="domain-toggle-btn" id="toggleSiteBtn">
+        <span class="btn-icon">🚫</span>
+        <span class="btn-text">Disable on this site</span>
+      </button>
+    </section>
+
+    <!-- Main Toggle -->
+    <section class="section toggle-section">
+      <div class="toggle-row">
+        <span class="toggle-label">Enable Highlighting</span>
+        <label class="toggle">
+          <input type="checkbox" id="enableToggle" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="section stats-section">
+      <div class="stat">
+        <span class="stat-number" id="termCount">336</span>
+        <span class="stat-label">Terms</span>
+      </div>
+      <div class="stat">
+        <span class="stat-number" id="viewCount">0</span>
+        <span class="stat-label">Views</span>
+      </div>
+    </section>
+
+    <!-- Highlight Style -->
+    <section class="section">
+      <h2 class="section-title">Highlight Style</h2>
+      <div class="style-options">
+        <button class="style-btn active" data-style="underline" title="Underline">
+          <span class="style-preview style-underline">ABC</span>
+        </button>
+        <button class="style-btn" data-style="background" title="Background">
+          <span class="style-preview style-background">ABC</span>
+        </button>
+        <button class="style-btn" data-style="bold" title="Bold">
+          <span class="style-preview style-bold">ABC</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Color Picker -->
+    <section class="section">
+      <h2 class="section-title">Highlight Color</h2>
+      <div class="color-options">
+        <button class="color-btn active" data-color="#6C5CE7" style="background: #6C5CE7"></button>
+        <button class="color-btn" data-color="#ef4444" style="background: #ef4444"></button>
+        <button class="color-btn" data-color="#22c55e" style="background: #22c55e"></button>
+        <button class="color-btn" data-color="#0ea5e9" style="background: #0ea5e9"></button>
+        <button class="color-btn" data-color="#f59e0b" style="background: #f59e0b"></button>
+        <input type="color" id="customColor" class="color-input" value="#6C5CE7" title="Custom color">
+      </div>
+    </section>
+
+    <!-- Theme -->
+    <section class="section">
+      <h2 class="section-title">Theme</h2>
+      <div class="theme-options">
+        <button class="theme-btn active" data-theme="auto">
+          <span class="theme-icon">🌓</span>
+          Auto
+        </button>
+        <button class="theme-btn" data-theme="light">
+          <span class="theme-icon">☀️</span>
+          Light
+        </button>
+        <button class="theme-btn" data-theme="dark">
+          <span class="theme-icon">🌙</span>
+          Dark
+        </button>
+      </div>
+    </section>
+
+    <!-- Hover Preview -->
+    <section class="section">
+      <h2 class="section-title">Hover Preview</h2>
+      <div class="toggle-row-small">
+        <span class="toggle-label-small">Show preview on hover</span>
+        <label class="toggle toggle-small">
+          <input type="checkbox" id="hoverPreviewToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <p class="setting-hint">When enabled, hovering over terms shows a mini preview. Click for full details.</p>
+    </section>
+
+    <!-- User Level -->
+    <section class="section">
+      <h2 class="section-title">Your Level</h2>
+      <div class="level-options">
+        <button class="level-btn" data-level="premed">
+          <span class="level-icon">📖</span>
+          <span class="level-text">Pre-Med</span>
+        </button>
+        <button class="level-btn active" data-level="medschool">
+          <span class="level-icon">🩺</span>
+          <span class="level-text">Med School</span>
+        </button>
+        <button class="level-btn" data-level="all">
+          <span class="level-icon">🎓</span>
+          <span class="level-text">Show All</span>
+        </button>
+      </div>
+      <p class="setting-hint">Controls which terms get highlighted. Higher levels include more advanced terminology.</p>
+    </section>
+
+    <!-- Font Size -->
+    <section class="section">
+      <h2 class="section-title">Popup Font Size</h2>
+      <div class="font-size-row">
+        <button class="font-btn" id="fontDecrease" title="Decrease">A−</button>
+        <span class="font-value" id="fontValue">100%</span>
+        <button class="font-btn" id="fontIncrease" title="Increase">A+</button>
+      </div>
+    </section>
+
+    <!-- Quick Actions -->
+    <section class="section">
+      <h2 class="section-title">Quick Actions</h2>
+      <div class="quick-actions">
+        <button class="action-btn" id="searchBtn">
+          <span class="btn-icon">🔍</span>
+          Search Glossary
+        </button>
+        <button class="action-btn" id="browseBtn">
+          <span class="btn-icon">📚</span>
+          Browse Terms
+        </button>
+        <button class="action-btn" id="statsBtn">
+          <span class="btn-icon">📊</span>
+          View Stats
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="popup-footer">
+      <a href="#" id="helpLink">Help</a>
+      <a href="https://entermedschool.com" target="_blank">EnterMedSchool</a>
+    </footer>
+  </div>
+
+  <script src="popup.js" type="module"></script>
+</body>
+</html>

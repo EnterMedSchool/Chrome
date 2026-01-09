@@ -1,0 +1,112 @@
+{
+  "id": "antiphospholipid-syndrome",
+  "names": ["Antiphospholipid syndrome"],
+  "aliases": ["antiphospholipid antibody syndrome", "Hughes syndrome"],
+  "abbr": ["APS"],
+  "patterns": ["aps", "antiphospholipid syndrome", "antiphospholipid antibody syndrome", "Hughes syndrome"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "heme_onc", "obgyn"],
+  "definition": "Autoimmune hypercoagulable disorder (primary or SLE-associated) marked by recurrent venous/arterial thromboses and pregnancy complications due to antiphospholipid antibodies.",
+  "why_it_matters": "Major cause of thrombosis and recurrent pregnancy loss in young patients, especially women. Recognizing APS allows life-saving anticoagulation and high-risk pregnancy management; classic lab findings and lupus association appear frequently on exams.",
+  "how_youll_see_it": [
+    "Young woman with recurrent miscarriages (≥2 first-trimester losses or ≥1 later loss) often with a history of unprovoked DVT/PE.",
+    "Unprovoked DVT or stroke in a patient under 50, especially if they have autoimmune features (e.g., SLE) or a mottled rash (livedo reticularis).",
+    "Labs: can show a paradoxical prolonged PTT despite clotting and a false-positive VDRL syphilis test (due to anticardiolipin antibody)."
+  ],
+  "problem_solving": [
+    "Suspect APS in young patients with unexplained clot or multiple pregnancy losses; order antiphospholipid antibody testing.",
+    "If initial tests (anticardiolipin, anti-β2 GP1, lupus anticoagulant) are positive, repeat after ≥12 weeks to confirm persistence (required for diagnosis).",
+    "Exclude other causes of hypercoagulability (e.g., inherited thrombophilia, malignancy) and address any triggers (smoking, OCP use).",
+    "For confirmed APS, start long-term anticoagulation (warfarin for thrombosis; LMWH+aspirin if pregnant) and screen for underlying SLE (ANA testing)."
+  ],
+  "differentials": [
+    { "id": "systemic-lupus-erythematosus", "hint": "primary APS vs SLE: lupus has multisystem features (rash, arthritis, nephritis) and other antibodies in addition to aPL." },
+    { "name": "Inherited thrombophilia", "hint": "e.g., Factor V Leiden; genetic hypercoagulability causing clots but no autoimmune antibodies or pregnancy losses." },
+    { "name": "Heparin-induced thrombocytopenia", "abbr": "HIT", "hint": "hospitalized patient on heparin with new thrombosis & low platelets (antibody to PF4-heparin, not chronic APS)." }
+  ],
+  "tricks": [
+    "Mnemonic CLOT for APS features: Clots (arterial & venous thromboses), Livedo reticularis, Obstetric losses, Thrombocytopenia.",
+    "Lupus anticoagulant causes a prolonged PTT in vitro but a hypercoagulable state in vivo (paradoxical lab finding).",
+    "Anticardiolipin antibodies can yield a false-positive VDRL/RPR syphilis test."
+  ],
+  "exam_appearance": [
+    "Young woman with ≥3 miscarriages and a prior DVT, now with a swollen leg; labs show prolonged PTT and positive anticardiolipin → antiphospholipid syndrome.",
+    "25‑year‑old with SLE develops stroke symptoms; testing reveals lupus anticoagulant and anticardiolipin antibodies → secondary APS causing arterial thrombosis."
+  ],
+  "treatment": [
+    "Long-term anticoagulation (typically warfarin, INR 2–3) is indicated after a thrombotic event to prevent recurrence (avoid DOACs in high-risk APS).",
+    "In pregnancy, avoid warfarin (teratogenic) and use LMWH + low-dose aspirin throughout pregnancy to prevent miscarriage/preeclampsia.",
+    "Manage risk factors: no smoking, avoid estrogen-containing OCPs, control BP and lipids. If no thrombosis but high-risk antibody profile, consider prophylactic aspirin."
+  ],
+  "red_flags": [
+    "Unexplained clot at young age or ≥3 pregnancy losses → always evaluate for APS; missing it risks preventable strokes or stillbirths.",
+    "Catastrophic APS: rapid, diffuse thromboses causing multi-organ failure (high mortality) – requires ICU care with IV heparin, high-dose steroids, and often plasmapheresis/IVIG."
+  ],
+  "algorithm": [
+    "Unprovoked thrombosis or recurrent miscarriage → suspect APS.",
+    "Order aPL panel: lupus anticoagulant (e.g., dRVVT), anticardiolipin (IgG/IgM), anti-β2 glycoprotein I.",
+    "If any aPL test is positive → repeat the same test in ≥12 weeks to confirm persistence (needed for APS diagnosis).",
+    "If clinical criteria (clot or pregnancy morbidity) + persistent antibodies met → diagnose APS. Check for underlying SLE (ANA) if not already known.",
+    "Treat with lifelong anticoagulation (warfarin; or LMWH+ASA if pregnancy). Refer to high-risk OB for pregnant APS patients; monitor and manage cardiovascular risks."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Signs_and_symptoms_of_Antiphospholipid_syndrome.jpg",
+      "alt": "Clot formation and livedo reticularis in antiphospholipid syndrome (illustration).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Signs_and_symptoms_of_Antiphospholipid_syndrome.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 32‑year‑old woman with three first‑trimester miscarriages and a prior unprovoked DVT presents with a swollen, painful left leg.",
+      "clues": ["Recurrent (≥3) miscarriages", "Previous unprovoked DVT", "Positive anticardiolipin antibody", "Prolonged PTT on coagulation assay"],
+      "answer": "Primary antiphospholipid syndrome (APS)",
+      "teaching": "Antiphospholipid antibodies (anticardiolipin, etc.) cause thromboses and pregnancy losses. Diagnosis requires persistent positive antibodies; treat with anticoagulation (warfarin indefinitely, or LMWH + aspirin during pregnancy)."
+    },
+    {
+      "stem": "A 25‑year‑old woman with long-standing SLE develops sudden slurred speech and right-arm weakness.",
+      "clues": ["Systemic lupus erythematosus (SLE)", "Ischemic stroke at age 25", "Livedo reticularis on skin exam", "Positive lupus anticoagulant assay"],
+      "answer": "Secondary antiphospholipid syndrome (APS) in SLE",
+      "teaching": "Patients with SLE can develop secondary APS, where antiphospholipid antibodies (lupus anticoagulant, anticardiolipin) lead to arterial or venous clots (stroke, DVT). Management is long-term anticoagulation in addition to SLE therapy."
+    }
+  ],
+  "see_also": [
+    "systemic-lupus-erythematosus",
+    "pulmonary-embolism",
+    "stroke",
+    "factor-v-leiden"
+  ],
+  "prerequisites": [
+    "coagulation",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Antiphospholipid syndrome – Clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/antiphospholipid-syndrome-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "UpToDate: Antiphospholipid syndrome – Management",
+      "url": "https://www.uptodate.com/contents/antiphospholipid-syndrome-management"
+    },
+    {
+      "title": "NEJM: Diagnosis and Management of the Antiphospholipid Syndrome (Garcia & Erkan, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29791828/"
+    },
+    {
+      "title": "StatPearls: Antiphospholipid Syndrome (Lewis & Brewer, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430980/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

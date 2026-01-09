@@ -1,0 +1,99 @@
+{
+  "id": "duodenal-atresia",
+  "names": ["Duodenal atresia"],
+  "aliases": ["duodenal stenosis", "congenital duodenal obstruction"],
+  "abbr": ["DA"],
+  "patterns": ["duodenal atresia", "duodenal stenosis", "congenital duodenal obstruction", "double bubble sign"],
+  "primary_tag": "peds",
+  "tags": ["peds", "gi", "surgery"],
+  "definition": "Congenital absence or complete closure of part of the duodenal lumen; causes neonatal intestinal obstruction with a classic **double bubble** appearance on imaging.",
+  "why_it_matters": "Most common congenital intestinal obstruction in newborns; if not recognized promptly it leads to dehydration and electrolyte imbalances in the neonate. Strongly associated with **Down syndrome** and a favorite exam topic due to its hallmark imaging and presentation.",
+  "how_youll_see_it": [
+    "**Prenatal:** often detected via **polyhydramnios** on ultrasound (fetus can't swallow amniotic fluid); may even show a double bubble sign in utero. **Neonatal:** onset of **vomiting** (usually bilious, green) within 24–48 hours after birth, typically after first feeding.",
+    "**Exam/Imaging:** Abdomen is often **scaphoid** (sunken) due to empty distal bowel; X-ray reveals the **double bubble sign** – two air-filled bubbles (distended stomach and duodenum) with little or no gas beyond. Newborn continues to pass meconium normally (since obstruction is proximal).",
+    "**Associations:** ~30% of cases occur in infants with **trisomy 21 (Down syndrome)**. About half of babies have other anomalies (especially **congenital heart defects** or other GI malformations like an **annular pancreas** causing the obstruction)."
+  ],
+  "problem_solving": [
+    "Neonate with **bilious emesis** → assume a surgical emergency (rule out **malrotation/volvulus** first, as it can also cause proximal obstruction and requires immediate intervention).",
+    "If abdominal X-ray shows a clear double bubble with no distal gas in a stable infant → likely duodenal atresia; begin stabilization and plan for surgery (no emergent overnight surgery needed unless volvulus is suspected).",
+    "Stabilize with **NG tube** decompression (to prevent aspiration) and **IV fluids** to correct dehydration and electrolyte imbalances. Evaluate for other anomalies (e.g. get an **echocardiogram** for cardiac defects, especially if Down syndrome is present) before surgery.",
+    "If some gas is seen beyond a double bubble, consider a partial obstruction (duodenal **stenosis/web** or a less complete blockage) or malrotation – an **upper GI contrast study** can help differentiate these.",
+    "Remember: **pyloric stenosis** presents later (weeks old) and distal atresias (jejunal/ileal) show multiple dilated loops, so use timing and imaging to distinguish."
+  ],
+  "differentials": [
+    { "name": "Hypertrophic pyloric stenosis", "hint": "nonbilious projectile vomiting at 3–6 weeks, palpable \"olive\" mass in epigastrium" },
+    { "name": "Malrotation with midgut volvulus", "hint": "neonatal bilious vomiting plus acute abdominal pain/distension; can also produce double bubble but with rapid clinical deterioration (ischemia)" },
+    { "name": "Jejunal or ileal atresia", "hint": "multiple air-fluid levels on X-ray (\"triple bubble\" if proximal jejunum); often due to in utero vascular accident (risk factors like maternal cocaine)" }
+  ],
+  "tricks": [
+    "Mnemonic: **Double Bubble = Down syndrome + Duodenal Atresia** (the two D's go together for this classic neonatal x-ray finding)."
+  ],
+  "exam_appearance": [
+    "Mother with **polyhydramnios** gives birth to a baby with **Down syndrome** features who vomits green fluid on Day 1 → duodenal atresia (confirmed by double bubble on X-ray).",
+    "Newborn with immediate bilious emesis and a radiograph showing two large air bubbles in the upper abdomen (stomach and duodenum) with no gas beyond → classic **double bubble sign** indicating duodenal atresia."
+  ],
+  "treatment": [
+    "**Stabilize first:** NPO (no oral feeding), **NG tube** suction to decompress the stomach, and IV fluid/electrolyte resuscitation. Correct any dehydration or metabolic alkalosis before surgery.",
+    "**Surgical repair:** perform a **duodenoduodenostomy** (surgical bypass of the atretic segment by connecting proximal and distal duodenum) once the infant is stabilized. Postoperatively, gradually advance feedings. Prognosis is excellent (>90% survival) in the absence of severe other anomalies."
+  ],
+  "red_flags": [
+    "**Bilious vomiting in any neonate = emergency** until proven otherwise. Always involve pediatric surgery early and rule out midgut volvulus, which can mimic duodenal atresia but is life-threatening if not treated immediately.",
+    "Unrecognized **congenital heart disease** or other anomalies in a baby with duodenal atresia can complicate anesthesia and surgery. Always screen for associated defects (e.g. cardiac echo for Down syndrome patients) before operative repair."
+  ],
+  "algorithm": [
+    "Prenatal ultrasound: **polyhydramnios** (± double bubble) → suspect duodenal obstruction.",
+    "Neonate develops **bilious vomiting** → immediately stop feeds, place NG tube, and obtain abdominal X-ray.",
+    "If X-ray shows **double bubble** with little/no distal gas → duodenal atresia is likely. (If distal gas is present, consider partial obstruction or malrotation and perform contrast study.)",
+    "Consult pediatric surgery; initiate IV fluids and electrolyte correction, and screen for any other anomalies (e.g. cardiac evaluation).",
+    "Proceed with surgical **duodenoduodenostomy** in the first days of life once stabilized."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Radiograph_with_Double_Bubble_Sign.jpg",
+      "alt": "X-ray of an infant abdomen showing the classic \"double bubble\" sign of duodenal atresia (two air-filled shadows representing the stomach and duodenum, with no gas in the intestines beyond).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Radiograph_with_Double_Bubble_Sign.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A full-term newborn has been vomiting green fluid since birth. The pregnancy was complicated by polyhydramnios, and the infant has facial features consistent with Down syndrome.",
+      "clues": [
+        "Bilious emesis starting on Day 1",
+        "Abdominal X-ray: distended stomach and duodenum with no gas distally (double bubble)",
+        "Mother had polyhydramnios during pregnancy",
+        "Infant diagnosed with Trisomy 21 (Down syndrome)"
+      ],
+      "answer": "Duodenal atresia",
+      "teaching": "Congenital blockage of the duodenum (from failed recanalization) is causing proximal obstruction. Polyhydramnios occurred because the fetus couldn't absorb amniotic fluid. The newborn's double bubble x-ray is classic for duodenal atresia, which is strongly associated with Down syndrome. Treatment is duodenoduodenostomy after stabilization."
+    },
+    {
+      "stem": "A 1-day-old neonate has recurrent episodes of projectile vomiting that are green in color. On exam, the lower abdomen is scaphoid (sunken) and not distended. An orogastric tube returns a large amount of fluid.",
+      "clues": [
+        "Bilious vomiting within the first 24 hours of life",
+        "Minimal abdominal distension (scaphoid abdomen)",
+        "Normal passage of meconium",
+        "Abdominal radiograph: double bubble sign"
+      ],
+      "answer": "Duodenal atresia (high neonatal intestinal obstruction)",
+      "teaching": "This presentation is typical of a proximal intestinal obstruction (duodenal atresia). Unlike distal obstructions (which cause delayed meconium and massive distension), duodenal atresia causes early bilious vomiting with scant distal gas but meconium passage can still occur. The double bubble radiograph confirms the diagnosis and prompt surgical correction is indicated."
+    }
+  ],
+  "see_also": ["esophageal-atresia", "hirschsprung-disease", "down-syndrome"],
+  "prerequisites": ["down-syndrome"],
+  "sources": [
+    { "title": "StatPearls: Duodenal Atresia and Stenosis (Sigmon DF, Eovaldi BJ, & Cohen HL, updated 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470548/" },
+    { "title": "UpToDate: Intestinal atresia (congenital small bowel obstruction)", "url": "https://www.uptodate.com/contents/intestinal-atresia" },
+    { "title": "Medscape: Pediatric Duodenal Atresia (Karrer FM, updated 2020)", "url": "https://emedicine.medscape.com/article/932917-overview" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

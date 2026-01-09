@@ -1,0 +1,119 @@
+{
+  "id": "scurvy",
+  "names": ["Scurvy"],
+  "aliases": ["vitamin C deficiency", "Scorbutus"],
+  "abbr": [],
+  "patterns": ["scurvy", "vitamin c deficiency", "ascorbic acid deficiency", "scorbutus"],
+  "primary_tag": "pathology",
+  "tags": ["pathology", "biochemistry", "peds", "msk_derm"],
+  "definition": "Disease caused by prolonged **vitamin C** (ascorbic acid) deficiency, leading to defective collagen synthesis and weakened blood vessels, skin, and bone.",
+  "why_it_matters": "Historically infamous among sailors, but still seen today in malnourished populations (e.g., poverty, restrictive diets). Scurvy is life-threatening if untreated but completely reversible with vitamin C, making it an important diagnosis not to miss. Its classic signs and risk factors are frequent exam fodder in nutrition and pediatrics.",
+  "how_youll_see_it": [
+    "Early symptoms are nonspecific (**fatigue**, irritability, joint pain). As deficiency progresses, hallmark features appear: **gingival swelling** with easy bleeding, **perifollicular petechiae** (tiny bruises around hair follicles), coiled **corkscrew hairs** in hyperkeratotic follicles, **poor wound healing**, and **arthralgias** (due to joint hemorrhages).",
+    "Adults: classically seen in severely malnourished individuals – for example, an elderly widower on a 'tea and toast' diet, or a chronic alcoholic with poor intake. They may have **bleeding gums**, **loose teeth**, widespread bruising, and anemia (from chronic blood loss and decreased iron absorption).",
+    "Children: often occurs in infants or kids with very limited diets (formula without vitamin C, or extreme picky eaters such as children with autism). They present with **irritability** and pseudoparalysis (refusal to walk due to **subperiosteal hemorrhages** causing bone pain), **swollen joints** on the legs, and gum bleeding if teeth have erupted. A tender **scorbutic rosary** at the costochondral junctions (like rickets but painful) can be seen in infantile scurvy."
+  ],
+  "problem_solving": [
+    "Diet history is key: identify patients with little to no fruits/vegetables for >2–3 months. In such cases, maintain a high index of suspicion for scurvy if they have compatible symptoms.",
+    "Physical exam: look for the triad of **gingivitis**, **perifollicular hemorrhages**, and **corkscrew hairs**. Also assess for anemia (pallor, tachycardia) and signs of other deficiencies. Importantly, coagulation studies (PT/PTT) will be normal in scurvy despite the bleeding.",
+    "Laboratory confirmation: a low plasma or leukocyte **ascorbic acid** level confirms the diagnosis. A CBC often shows **normocytic anemia**, and inflammatory markers may be elevated. Screening for other nutritional deficiencies (vitamin D, folate, etc.) is recommended once scurvy is identified.",
+    "Imaging (in children): X-rays of long bones can show classic scurvy changes – a dense metaphyseal **Frankel line** (zone of provisional calcification), adjacent lucent line (Trümmerfeld zone), **Wimberger ring** sign (ringed epiphysis), and cortical thinning with subperiosteal elevation from hemorrhage. These findings, though not always present, strongly support the diagnosis in the right context.",
+    "Definitive test: the ultimate proof is clinical response – begin vitamin C supplementation without delay; improvement of symptoms (pain, appetite, healing) often begins within days, confirming scurvy."
+  ],
+  "differentials": [
+    { "name": "Pellagra (niacin deficiency)", "hint": "causes dermatitis, diarrhea, dementia (the 3 D's) but not bleeding or gum issues" },
+    { "name": "Beriberi (thiamine deficiency)", "hint": "dry type: neuropathy; wet type: cardiomyopathy – no bleeding or connective tissue signs" },
+    { "name": "Vitamin K deficiency", "hint": "coagulopathy causes bleeding (↑PT/PTT) and easy bruising, but gums and hair follicles are normal" },
+    { "name": "Vasculitis (e.g., IgA vasculitis/HSP)", "hint": "palpable purpuric rash on legs with normal nutrition; often has systemic features (renal, abdominal pain)" },
+    { "name": "Non-accidental trauma (child abuse)", "hint": "bruises, fractures, or bleeding in a child without nutritional deficiencies; injury patterns often inconsistent with disease" }
+  ],
+  "tricks": [
+    "Mnemonic \"4 H's\" of scurvy: **Hemorrhage** (bleeding gums, petechiae, hemarthroses), **Hyperkeratosis** (rough skin, follicular hyperkeratosis with corkscrew hairs), **Hematologic** (anemia), and **Hypochondriasis** (irritability, depression).",
+    "Think **C** for **Collagen**: vitamin C is required to hydroxylate proline/lysine in collagen. Without it, blood vessels and tissues become fragile – hence the bleeding, bruising, and poor healing in scurvy.",
+    "Historical trivia: British sailors were called 'Limeys' because giving lime juice (rich in vitamin C) on long sea voyages prevented scurvy."
+  ],
+  "exam_appearance": [
+    "An elderly malnourished man with tooth loss, bleeding gums, widespread bruises, and corkscrew hair follicles → **vitamin C deficiency (scurvy)**.",
+    "A toddler with autism who eats only bread and chicken nuggets presents with leg pain, refuses to walk, has swollen bleeding gums and petechial rash on legs → **scurvy** from severe vitamin C deficiency."
+  ],
+  "treatment": [
+    "Replete vitamin C: oral **ascorbic acid** (typical adult dosing ~300–1000 mg daily, lower for children) for at least one month or until full recovery. Symptom improvement in 1–2 weeks confirms adequate treatment.",
+    "Ensure a vitamin C–rich diet: counsel on consuming fruits (citrus, berries) and vegetables (bell peppers, broccoli, potatoes, etc.). In patients with barriers (e.g., autism, food insecurity), involve a dietitian and consider multivitamin supplements to prevent recurrence.",
+    "Supportive care: address complications of scurvy. Provide pain management for arthralgias, transfuse if severe anemia is present, and treat any secondary infections or gum disease (dental consult for oral hygiene)."
+  ],
+  "red_flags": [
+    "Untreated scurvy can be fatal due to hemorrhages or infections. If a patient with suspected scurvy develops severe anemia, hypotension, or signs of internal bleeding, this is an emergency – begin vitamin C and supportive care immediately.",
+    "In children, scurvy may be mistaken for other conditions (osteomyelitis, rheumatologic disease, or even abuse). **Red flag:** a child with unexplained limb pain, bruising, and gum changes – always inquire about diet and consider scurvy to avoid misdiagnosis."
+  ],
+  "algorithm": [
+    "Poor diet (lacking fruits/veggies for months) + fatigue, bleeding, bruising → **suspect scurvy**.",
+    "Perform thorough skin and oral exam (look for petechiae, corkscrew hairs, gingivitis). If findings suggest scurvy, draw labs (vitamin C level, CBC, etc.) but do not wait to start treatment.",
+    "If diagnosis is uncertain or other causes need exclusion, get X-rays (in pediatric cases) and consider screening for coagulopathies or vasculitis (though scurvy usually has normal coagulation tests).",
+    "Start vitamin C supplementation promptly. Marked improvement of symptoms within days to weeks strongly indicates scurvy.",
+    "Follow up to ensure full recovery and provide nutritional counseling. Prevent recurrence by correcting diet or continuing supplements; also check for and treat any other vitamin deficiencies."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Scurvy,_the_gums._Wellcome_M0002835.jpg",
+      "alt": "Severe gingival overgrowth, bleeding, and tooth loss in scurvy (vitamin C deficiency).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Scurvy,_the_gums._Wellcome_M0002835.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy with autism presents with 3 months of worsening leg pain and fatigue.",
+      "clues": [
+        "Extremely picky eater – diet almost exclusively chicken nuggets and crackers",
+        "Refuses to walk due to pain; on exam, legs are tender with swelling at knees and ankles",
+        "Bleeding at the gum line around several teeth",
+        "Skin exam: scattered bruises on legs and coiled hair in hyperkeratotic follicles"
+      ],
+      "answer": "Scurvy (vitamin C deficiency)",
+      "teaching": "This child's restrictive diet led to vitamin C deficiency. Scurvy in children causes irritability, bone pain (from subperiosteal hemorrhages, leading to refusal to walk), swollen bleeding gums once teeth erupt, and perifollicular petechiae with corkscrew hairs. Treatment with vitamin C will rapidly improve his symptoms."
+    }
+  ],
+  "see_also": [
+    "pellagra",
+    "beriberi",
+    "rickets",
+    "henoch-schonlein-purpura"
+  ],
+  "prerequisites": [
+    "collagen",
+    "wound-healing",
+    "nutrition"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Vitamin C Deficiency (Maxfield et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493187/"
+    },
+    {
+      "title": "UpToDate: Overview of water-soluble vitamins (2025)",
+      "url": "https://www.uptodate.com/contents/overview-of-water-soluble-vitamins"
+    },
+    {
+      "title": "Medscape: Scurvy (Vitamin C Deficiency) (Goebel, 2024)",
+      "url": "https://emedicine.medscape.com/article/125350-overview"
+    },
+    {
+      "title": "WHO: Scurvy and its prevention in emergencies (WHO, 1999)",
+      "url": "https://www.who.int/publications/i/item/WHO-NHD-99.11"
+    },
+    {
+      "title": "NEJM: Mucocutaneous Manifestations of Scurvy (Kern & Gardner, 2020)",
+      "url": "https://doi.org/10.1056/NEJMicm1911315"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

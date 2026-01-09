@@ -1,0 +1,145 @@
+{
+  "id": "absence-epilepsy",
+  "names": [
+    "Absence epilepsy"
+  ],
+  "aliases": [
+    "petit mal",
+    "absence seizures",
+    "childhood absence epilepsy",
+    "juvenile absence epilepsy"
+  ],
+  "abbr": [
+    "CAE",
+    "JAE"
+  ],
+  "patterns": [
+    "absence epilepsy",
+    "absence seizures",
+    "petit mal",
+    "childhood absence epilepsy",
+    "juvenile absence epilepsy",
+    "cae",
+    "jae"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "peds",
+    "pharmacology"
+  ],
+  "definition": "Brief generalized nonconvulsive seizures (formerly **petit mal**) characterized by sudden staring and unresponsiveness for ~10 seconds with immediate recovery; classically associated with a generalized **3 Hz spike‑and‑wave** pattern on EEG.",
+  "why_it_matters": "Common pediatric epilepsy syndrome (≈10–17% of childhood epilepsies) often mistaken for daydreaming or **ADHD**. Recognition is crucial, as untreated frequent lapses in awareness can impair learning and pose safety risks. Also frequently tested as a classic presentation of a child \"staring off into space.\"",
+  "how_youll_see_it": [
+    "Multiple daily episodes of sudden **staring** with unresponsiveness, each lasting ~5–15 seconds and ending abruptly. The child has a **blank stare** (often with subtle eyelid flutter or lip-smacking) and immediately resumes activities with no postictal confusion.",
+    "Onset is typically in early school age (around 4–8 years old) in an otherwise normal child. **Hyperventilation** or drowsiness can precipitate seizures (often used as a provocation test in clinic). There is no aura or warning and no after-effects.",
+    "In **juvenile absence epilepsy**, absence seizures begin in adolescence (~10–15 years) and occur less frequently but tend to last longer; these patients often eventually have generalized tonic-clonic seizures as well."
+  ],
+  "problem_solving": [
+    "Obtain an **EEG** with hyperventilation: typical absence seizures show generalized, symmetric **3 Hz spike-and-wave** discharges that start and stop suddenly, confirming the diagnosis.",
+    "Distinguish from non-epileptic staring: during an absence episode, the child is unresponsive to touch or sound and cannot be interrupted (unlike daydreaming). If uncertain, use video-EEG monitoring; most \"staring spells\" in children are actually nonepileptic.",
+    "Be alert for **atypical absence**: longer lapses with gradual onset/offset and <2.5 Hz slow spike-waves on EEG suggest a different epilepsy syndrome (e.g., Lennox–Gastaut) and require a different approach.",
+    "Neuroimaging is usually normal in idiopathic absence epilepsy and is not indicated in straightforward cases."
+  ],
+  "differentials": [
+    {
+      "name": "Inattentiveness/Daydreaming (no seizure)",
+      "hint": "Occurs during boredom or fatigue; child can be refocused easily with tactile/verbal stimulation; no true impaired consciousness or abnormal EEG."
+    },
+    {
+      "name": "Focal impaired-awareness seizure",
+      "hint": "Previously \"complex partial\" seizure – often >1 minute with an aura and postictal confusion; may have focal automatisms; EEG shows focal onset (e.g., temporal lobe)."
+    },
+    {
+      "name": "Atypical absence seizure",
+      "hint": "Longer spells with more gradual onset/termination, EEG <2.5 Hz slow spike-wave; usually in children with intellectual disability or known epilepsy syndrome (e.g., **Lennox-Gastaut**)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: It **SUX** to have absence seizures → treat with etho**sux**imide (first-line).",
+    "**No postictal** confusion – kids \"snap back\" immediately after an absence ends (unlike other seizures)."
+  ],
+  "exam_appearance": [
+    "Grade-school child with frequent 10-second blank stares in class, unresponsive during episodes, immediately back to normal → **absence seizures** (petit mal).",
+    "Teenager with occasional staring spells and a recent generalized tonic-clonic seizure → **juvenile absence epilepsy**."
+  ],
+  "treatment": [
+    "**Ethosuximide** – first-line for typical absence seizures (blocks thalamic T-type Ca²⁺ channels); highly effective for pure absence epilepsy.",
+    "**Valproate** – equally effective for absence seizures and preferred if there are generalized tonic-clonic seizures or juvenile onset. Use is limited in young females due to teratogenicity and cognitive side effects.",
+    "Others: **Lamotrigine** is a third-line option (some efficacy but lower success rates). **Levetiracetam** or **topiramate** may be used adjunctively. Avoid narrow-spectrum anti-seizure drugs (e.g., **carbamazepine**, **phenytoin**), which can exacerbate absence seizures."
+  ],
+  "red_flags": [
+    "Absence seizures starting <4 years old or with slow irregular spike-waves → consider **atypical absence** (possible Lennox–Gastaut or metabolic etiology) instead of classic absence epilepsy.",
+    "Development of other seizure types (e.g., tonic-clonic convulsions) → indicates broader generalized epilepsy (e.g., JAE) and need for broader therapy (valproate) plus safety precautions (no unsupervised swimming, driving restrictions until controlled)."
+  ],
+  "algorithm": [
+    "Child with frequent brief \"staring spells\" → perform hyperventilation in office and order an EEG to evaluate for absence seizures.",
+    "If EEG shows generalized 3 Hz spike-and-wave and neurological exam is normal → diagnose **absence epilepsy** (imaging not routinely needed).",
+    "Begin **ethosuximide** for typical absence seizures. If seizures are not controlled or if any generalized convulsions occur, switch to or add **valproate** (especially for juvenile onset).",
+    "Ensure safety precautions until seizures are controlled (no solo swimming, heights; follow driving laws). Monitor response and side effects; many childhood cases remit at puberty, but some may require long-term therapy."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/EEG_Absence_seizure.png",
+      "alt": "EEG showing generalized 3 Hz spike‑and‑wave discharges in a child with absence epilepsy.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:EEG_Absence_seizure.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 6‑year‑old girl is noted to frequently \"blank out\" for ~10 seconds, not responding to her name and then quickly returning to normal.",
+      "clues": [
+        "~10 second episodes, occurring multiple times daily",
+        "Unresponsive during episodes (staring spell)",
+        "Immediately back to normal afterward (no confusion)",
+        "Otherwise normal development and exam",
+        "EEG: generalized 3 Hz spike‑and‑wave discharges (provoked by hyperventilation)"
+      ],
+      "answer": "Childhood absence epilepsy",
+      "teaching": "Classic typical absence seizures in a young child — brief generalized \"staring\" seizures with 3 Hz spike-wave on EEG and no postictal phase. Treat with ethosuximide to prevent learning difficulties and accidents."
+    },
+    {
+      "stem": "A 15‑year‑old boy with a history of occasional brief staring spells since age 12 has a generalized tonic-clonic seizure.",
+      "clues": [
+        "Absence seizures began in early adolescence",
+        "Episodes are less frequent but last longer (~15–20 sec)",
+        "Recently had a generalized tonic-clonic (grand mal) seizure",
+        "Otherwise healthy, normal neurologic exam",
+        "EEG: generalized 3–4 Hz spike-and-wave discharges"
+      ],
+      "answer": "Juvenile absence epilepsy",
+      "teaching": "Absence epilepsy starting in the teen years, often accompanied by convulsive seizures. This JAE requires broad-spectrum therapy (e.g., valproate) rather than ethosuximide alone."
+    }
+  ],
+  "see_also": [
+    "lennox-gastaut-syndrome",
+    "seizures",
+    "west-syndrome"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Absence Seizure (Albuja & Ighodaro, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499867/"
+    },
+    {
+      "title": "UpToDate: Childhood absence epilepsy",
+      "url": "https://www.uptodate.com/contents/childhood-absence-epilepsy"
+    },
+    {
+      "title": "Epilepsy Foundation: Childhood Absence Epilepsy",
+      "url": "https://www.epilepsy.com/what-is-epilepsy/syndromes/childhood-absence-epilepsy"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

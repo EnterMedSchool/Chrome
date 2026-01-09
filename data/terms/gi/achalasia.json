@@ -1,0 +1,86 @@
+{
+  "id": "achalasia",
+  "names": ["Achalasia"],
+  "aliases": ["achalasia cardia", "cardiospasm"],
+  "abbr": [],
+  "patterns": ["achalasia", "achalasia cardia", "cardiospasm"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "physiology", "gi", "surgery", "radiology"],
+  "definition": "Achalasia is a motility disorder in which degeneration of the esophageal myenteric plexus causes loss of inhibitory ganglion cells. This leads to failure of the lower esophageal sphincter (LES) to relax and absence of peristalsis.",
+  "why_it_matters": "Although relatively rare, achalasia causes progressive dysphagia, malnutrition, and aspiration risk if untreated. It requires specific therapies (balloon dilation or myotomy) and is a high-yield exam topic due to its classic \"bird's beak\" radiographic finding and manometric patterns.",
+  "how_youll_see_it": [
+    "Progressive dysphagia to both solids and liquids (from the onset)",
+    "Regurgitation of undigested food (non-acidic)",
+    "Retrosternal chest pain and heartburn (often misdiagnosed as reflux)",
+    "Weight loss due to decreased intake",
+    "Occasional nocturnal cough or aspiration pneumonia"
+  ],
+  "problem_solving": [
+    "Suspect achalasia when a patient has progressive solid & liquid dysphagia plus regurgitation",
+    "Order a barium swallow: look for a massively dilated esophagus tapering to a smooth distal narrowing (\"bird's beak\")",
+    "Perform high-resolution manometry (gold standard) to confirm: will show incomplete LES relaxation and aperistalsis",
+    "Always do an upper endoscopy to exclude pseudoachalasia from malignancy",
+    "If pseudoachalasia is suspected (older age, rapid weight loss), consider CT scan or EUS for tumors"
+  ],
+  "differentials": [
+    { "id": "pseudoachalasia", "hint": "Pseudoachalasia (usually due to malignancy at the GE junction)" },
+    { "id": "esophageal-cancer", "hint": "Carcinoma at the gastroesophageal junction (causing pseudoachalasia)" }
+  ],
+  "tricks": [
+    "Bird's beak sign on barium swallow = achalasia",
+    "Solids + liquids dysphagia from onset suggests a motility disorder (achalasia)"
+  ],
+  "exam_appearance": [
+    "Barium swallow radiograph: dilated esophagus with smooth tapering to a 'bird's beak' at the LES",
+    "High-resolution manometry: hypertensive LES, incomplete relaxation, and no esophageal peristalsis"
+  ],
+  "treatment": [
+    "Pneumatic dilation of the LES (first-line non-surgical therapy)",
+    "Laparoscopic Heller myotomy with partial fundoplication (definitive surgical treatment)",
+    "Peroral endoscopic myotomy (POEM) – endoscopic alternative to Heller myotomy",
+    "Botulinum toxin injection into the LES (short-term relief, for poor surgical candidates)",
+    "Nitrates or calcium channel blockers (temporary LES pressure reduction)"
+  ],
+  "red_flags": [
+    "Rapid weight loss, odynophagia, or very short symptom duration → suspect pseudoachalasia (cancer)",
+    "GI bleeding or anemia is atypical for achalasia and suggests alternative diagnoses"
+  ],
+  "algorithm": [
+    "Suspect achalasia → start with barium swallow (evaluate for 'bird's beak')",
+    "If barium suggests achalasia → perform high-resolution manometry (confirm incomplete LES relaxation)",
+    "After manometry, do an upper endoscopy to rule out malignancy (pseudoachalasia)",
+    "Based on subtype, choose therapy: pneumatic dilation, POEM, or Heller myotomy"
+  ],
+  "cases": [
+    {
+      "stem": "A 45-year-old patient has a 1-year history of progressive difficulty swallowing solids and liquids, with regurgitation of undigested food and a 10 lb weight loss. A barium swallow shows a markedly dilated esophagus that tapers smoothly to a narrow lower end ('bird's beak'). High-resolution manometry reveals high LES pressure with incomplete relaxation and absent peristalsis. What is the most likely diagnosis?",
+      "clues": ["Dysphagia to solids and liquids", "Bird's beak narrowing on barium swallow", "High LES pressure on manometry"],
+      "answer": "Achalasia",
+      "teaching": "Idiopathic achalasia results from loss of inhibitory (VIP/NO) neurons in the esophageal myenteric plexus. This causes failure of the LES to relax and absent peristalsis, producing the classic 'bird's beak' on barium study and a hypertensive non-relaxing LES on manometry. Treatment involves disrupting the LES (pneumatic dilation or myotomy)."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Barium_imaging_for_Achalasia_-Flickr-_brewbooks.jpg",
+      "alt": "Barium swallow imaging of achalasia, showing a dilated esophagus with smooth narrowing at the lower esophageal sphincter (bird's beak).",
+      "credit": {
+        "text": "brewbooks (Wikimedia Commons) CC BY-SA 2.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Barium_imaging_for_Achalasia_-_Flickr_-_brewbooks.jpg"
+      }
+    }
+  ],
+  "see_also": [
+    "gastroesophageal-reflux-disease",
+    "barrett-esophagus",
+    "esophageal-varices"
+  ],
+  "sources": [
+    { "title": "StatPearls: Achalasia", "url": "https://www.ncbi.nlm.nih.gov/books/NBK519515/" },
+    { "title": "Ramchandani M, Pal P. Achalasia Cardia: A Comprehensive Review. EMJ Gastroenterol. 2020", "url": "https://www.emjreviews.com/gastroenterology/article/achalasia-cardia-a-comprehensive-review/" },
+    { "title": "Medscape: Achalasia Overview", "url": "https://emedicine.medscape.com/article/169974-overview" },
+    { "title": "UpToDate: Achalasia", "url": "https://www.uptodate.com/contents/achalasia" }
+  ],
+  "credits": [
+    { "email": "test@test.com", "role": "Author", "display": "Ari Horesh", "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png" }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "gfr-cockcroft-gault",
+  "names": ["GFR", "Glomerular Filtration Rate", "Cockcroft-Gault"],
+  "aliases": ["eGFR", "estimated GFR", "creatinine clearance"],
+  "patterns": [
+    "GFR",
+    "eGFR",
+    "glomerular filtration rate",
+    "Cockcroft-Gault",
+    "creatinine clearance",
+    "CrCl"
+  ],
+  "level": "formula",
+  "primary_tag": "renal",
+  "tags": ["nephrology", "renal", "physiology", "pharmacology"],
+  "formula": {
+    "expression": "((140 - age) * weight * sex_factor) / (72 * creatinine)",
+    "latex": "\\text{CrCl} = \\frac{(140 - \\text{Age}) \\times \\text{Weight} \\times \\text{Sex Factor}}{72 \\times \\text{Serum Cr}}",
+    "unit": "mL/min"
+  },
+  "inputs": [
+    {
+      "id": "age",
+      "label": "Age",
+      "unit": "years",
+      "type": "number",
+      "min": 18,
+      "max": 100,
+      "default": 50,
+      "step": 1
+    },
+    {
+      "id": "weight",
+      "label": "Weight",
+      "unit": "kg",
+      "type": "number",
+      "min": 30,
+      "max": 200,
+      "default": 70,
+      "step": 1
+    },
+    {
+      "id": "creatinine",
+      "label": "Serum Creatinine",
+      "unit": "mg/dL",
+      "type": "number",
+      "min": 0.3,
+      "max": 15,
+      "default": 1.0,
+      "step": 0.1
+    },
+    {
+      "id": "sex_factor",
+      "label": "Sex",
+      "type": "select",
+      "options": [
+        {"value": 1, "label": "Male"},
+        {"value": 0.85, "label": "Female"}
+      ],
+      "default": 1
+    }
+  ],
+  "interpretation": [
+    {"range": [90, null], "label": "Normal or High (G1)", "color": "green", "description": "Normal kidney function"},
+    {"range": [60, 89], "label": "Mildly Decreased (G2)", "color": "yellow", "description": "Mild reduction in GFR"},
+    {"range": [45, 59], "label": "Mild-Moderate (G3a)", "color": "orange", "description": "CKD Stage 3a"},
+    {"range": [30, 44], "label": "Moderate-Severe (G3b)", "color": "orange", "description": "CKD Stage 3b"},
+    {"range": [15, 29], "label": "Severely Decreased (G4)", "color": "red", "description": "CKD Stage 4"},
+    {"range": [0, 14], "label": "Kidney Failure (G5)", "color": "darkred", "description": "CKD Stage 5, consider dialysis"}
+  ],
+  "visualization": {
+    "type": "gauge",
+    "min": 0,
+    "max": 120,
+    "highlight_variable": "creatinine"
+  },
+  "definition": "The **Cockcroft-Gault equation** estimates creatinine clearance (CrCl) as a surrogate for glomerular filtration rate (GFR). It accounts for age, weight, sex, and serum creatinine to estimate kidney function. This formula is widely used for **drug dosing adjustments** in patients with renal impairment.",
+  "clinical_usage": [
+    "**Drug dosing**: Most medication package inserts use Cockcroft-Gault for renal dose adjustments",
+    "**Screening for CKD**: Quick bedside estimate of kidney function",
+    "**Monitoring progression**: Track changes in kidney function over time",
+    "**Pre-operative assessment**: Evaluate renal function before surgery or contrast administration"
+  ],
+  "limitations": [
+    "Less accurate at extremes of body weight (obesity, cachexia)",
+    "Overestimates GFR in elderly patients",
+    "Not validated for acute kidney injury (requires stable creatinine)",
+    "Uses actual body weight, which can overestimate in obesity",
+    "CKD-EPI equation is preferred for CKD staging by KDIGO guidelines"
+  ],
+  "pearls": [
+    "Remember: **Female sex factor is 0.85** (women have less muscle mass → less creatinine production)",
+    "Creatinine is in the **denominator** → higher Cr = lower GFR (inverse relationship)",
+    "Age is subtracted from 140 → GFR naturally declines with age",
+    "For drug dosing, Cockcroft-Gault is still the standard despite newer equations",
+    "A GFR <60 for >3 months = **Chronic Kidney Disease** by definition"
+  ],
+  "see_also": ["chronic-kidney-disease"],
+  "sources": [
+    {
+      "title": "Cockcroft DW, Gault MH. Prediction of creatinine clearance from serum creatinine. Nephron. 1976;16(1):31-41",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1244564/"
+    },
+    {
+      "title": "KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+      "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/"
+    },
+    {
+      "title": "FDA Guidance: Pharmacokinetics in Patients with Impaired Renal Function",
+      "url": "https://www.fda.gov/drugs/guidances-drugs"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "nonalcoholic-fatty-liver-disease",
+  "names": ["Nonalcoholic fatty liver disease"],
+  "aliases": ["fatty liver disease", "metabolic dysfunction-associated steatotic liver disease", "non-alcoholic fatty liver"],
+  "abbr": ["NAFLD", "NAFL", "NASH", "MASLD", "MASH"],
+  "patterns": ["nafld", "nonalcoholic fatty liver disease", "non alcoholic fatty liver", "fatty liver disease", "nonalcoholic steatohepatitis", "NASH", "metabolic dysfunction-associated steatotic liver disease", "MASLD", "MASH"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "endocrine"],
+  "definition": "Metabolic liver disease characterized by **≥5%** hepatic steatosis not due to significant alcohol use; encompasses **NAFL** (simple steatosis without inflammation) and **NASH** (steatohepatitis with inflammation and cell injury ± fibrosis). Recently, NAFLD was renamed **MASLD** with NASH termed **MASH** to emphasize underlying metabolic risk factors.",
+  "why_it_matters": "Extremely common (affecting ~25% of adults) and now the leading cause of chronic liver disease. Usually tied to **obesity** and **type 2 diabetes** (hepatic manifestation of metabolic syndrome). Can silently progress to **cirrhosis** and is an increasing cause of **hepatocellular carcinoma** and liver transplantation.",
+  "how_youll_see_it": [
+    "Often **asymptomatic**; usually identified on routine labs (mild ↑**ALT** > AST) or imaging (**ultrasound** showing a bright fatty liver). Vague fatigue or right upper quadrant discomfort can occur; **hepatomegaly** may be present due to fat infiltration.",
+    "Most patients have features of **metabolic syndrome**: central obesity, insulin resistance (**type 2 DM**), **hypertension**, and dyslipidemia. NAFLD can also occur in non-obese patients (\"**lean NAFLD**\") but is less common.",
+    "Advanced disease (fibrosis progressing to **cirrhosis**) may present with signs of chronic liver disease (eg, **splenomegaly**, spider angiomas, palmar erythema) or complications like ascites, but this typically occurs after years of unrecognized NASH."
+  ],
+  "problem_solving": [
+    "Suspect NAFLD in patients with metabolic risk factors and unexplained mild elevation in liver enzymes (ALT usually > AST, but AST/ALT <1). Exclude other causes: review **alcohol** intake, test for **viral hepatitis** (HBV, HCV), **autoimmune** markers, **iron studies** (hemochromatosis), etc.",
+    "Imaging: **ultrasound** often shows increased echogenicity (\"bright\" liver). **MRI-PDFF** (proton density fat fraction) can quantify hepatic fat. **FibroScan** (transient elastography) measures liver stiffness to noninvasively assess fibrosis – useful to stratify risk without biopsy.",
+    "Use noninvasive scores to estimate fibrosis: e.g., **FIB-4 index** (uses age, AST, ALT, platelets) or NAFLD fibrosis score. A low score can reassure (low fibrosis risk), while a high score suggests advanced fibrosis (indication for further workup or **biopsy**).",
+    "Liver biopsy is the gold standard to differentiate simple steatosis vs NASH and to stage fibrosis, but is not done in everyone – reserve for uncertain cases or if it might change management (e.g., before starting certain therapies). Histology of NASH shows macrovesicular steatosis, hepatocyte **ballooning degeneration**, **Mallory-Denk bodies**, and perisinusoidal (\"chicken-wire\") fibrosis in zone 3.",
+    "Monitor labs and imaging over time. If fibrosis is present, patients need surveillance for progression. Once cirrhosis is established, manage as advanced liver disease (portal hypertension screening, **HCC surveillance** every 6 months)."
+  ],
+  "differentials": [
+    { "name": "Viral hepatitis (B or C)", "hint": "positive serologies; often higher transaminases, distinct risk factors or history" },
+    { "name": "Alcoholic liver disease", "hint": "history of heavy alcohol use; AST:ALT typically ~2:1 with AST <300" },
+    { "name": "Autoimmune hepatitis", "hint": "often young women with high IgG and positive autoantibodies (ANA, SMA); very high aminotransferases" },
+    { "name": "Wilson disease", "hint": "younger patient (teens/20s) with neurological signs; low ceruloplasmin, **Kayser-Fleischer rings**" },
+    { "name": "Hemochromatosis", "hint": "elevated iron studies (ferritin, transferrin sat); diabetes, skin hyperpigmentation; family history" }
+  ],
+  "tricks": [
+    "In **NAFLD**, ALT is usually higher than AST (unlike alcoholic liver disease). AST and ALT are typically only mildly elevated (often <5× upper limit of normal). An AST:ALT ratio > 1 in a \"nonalcoholic\" patient may signal advanced fibrosis/cirrhosis.",
+    "**\"Cryptogenic\" cirrhosis**: many cases of unexplained cirrhosis (especially in obese diabetics) are actually due to burned-out NASH. These patients still require routine cirrhosis care (screening for varices and HCC).",
+    "Weight loss can **reverse** simple steatosis and even improve NASH. A ≥10% reduction in body weight can significantly reduce liver fat and inflammation, and may even regress fibrosis if achieved early.",
+    "Beware other causes of fatty liver: e.g., certain drugs (methotrexate, amiodarone), rapid weight loss or malnutrition, and rare disorders can also cause hepatic steatosis – these must be ruled out before labeling it NAFLD."
+  ],
+  "exam_appearance": [
+    "Middle-aged **obese** patient with **type 2 diabetes** found to have mildly elevated **ALT** (ALT > AST) and fatty changes on ultrasound → nonalcoholic fatty liver disease (NAFLD).",
+    "Overweight patient with no history of alcohol presents with **cirrhosis** (e.g., ascites, variceal bleed) – workup is negative for hepatitis B/C and other causes → likely NAFLD (NASH) as the cause of **cryptogenic cirrhosis**.",
+    "Liver biopsy showing **macrovesicular fat**, **ballooning degeneration** of hepatocytes, and **Mallory bodies** in an obese, non-alcoholic patient → consistent with **NASH** (nonalcoholic steatohepatitis)."
+  ],
+  "treatment": [
+    "First-line: **lifestyle modification** with diet and exercise. Target **weight loss** of ≥7–10% of body weight (gradual weight loss; avoid crash diets). Diets like the Mediterranean diet (low saturated fats, low fructose) are recommended. Even modest weight loss improves steatosis and insulin sensitivity.",
+    "Manage components of metabolic syndrome: optimize glycemic control in diabetes (metformin, etc.), treat dyslipidemia (statins can be safely used in NAFLD to reduce cardiovascular risk), and control hypertension. **Avoid alcohol** excess and hepatotoxic drugs (like unnecessary acetaminophen or herbal supplements).",
+    "Pharmacotherapy (no definitive FDA-approved drug yet, but some used off-label in NASH): **Vitamin E** (antioxidant) can be considered in non-diabetic patients with biopsy-proven NASH; **pioglitazone** (TZD insulin sensitizer) is often used, especially if the patient has T2DM; and **GLP-1 agonists** (e.g., liraglutide) or **SGLT2 inhibitors** have shown improvement in NASH in trials. In severe obesity, **bariatric surgery** is an option and often leads to NAFLD improvement. Advanced cirrhosis may ultimately require liver transplant."
+  ],
+  "red_flags": [
+    "Signs of **advanced fibrosis/cirrhosis** in NAFLD (e.g., low platelets, spider nevi, ascites) – indicates progression to end-stage liver disease. At this stage, initiate HCC surveillance and manage portal hypertension (β-blockers, endoscopy for varices).",
+    "Unexplained rapid worsening of liver enzymes or liver function in a NAFLD patient – consider a superimposed injury (acute viral hepatitis, drug-induced liver injury) or development of HCC. NASH cirrhosis patients have a risk for hepatocellular carcinoma, even if liver enzymes normalize.",
+    "**Lean NAFLD** (steatosis in a non-obese patient) – warrants careful evaluation for secondary causes (viral hepatitis, alcohol use, medications, etc.) or underlying genetic predispositions. Lean patients can still have metabolic risk factors (like visceral fat) despite normal BMI."
+  ],
+  "algorithm": [
+    "Patient with obesity or metabolic syndrome + incidental elevated LFTs or fatty liver on imaging → **suspect NAFLD**.",
+    "Exclude other causes: take alcohol history, test for viral hepatitis, iron studies, autoimmune markers. If none explain the findings, diagnose NAFLD (by exclusion of others).",
+    "Estimate fibrosis risk: calculate **FIB-4** or NAFLD fibrosis score. If high or indeterminate, proceed with further assessment (e.g., **FibroScan** elastography or consider liver biopsy) to stage fibrosis.",
+    "All NAFLD patients: initiate weight loss plan (diet, exercise) and manage comorbidities (diabetes, hyperlipidemia, etc.). If NASH with significant fibrosis, discuss pharmacotherapy options (e.g., vitamin E, pioglitazone, GLP-1 agonist).",
+    "Surveillance: Monitor liver enzymes and metabolic parameters. If fibrosis stage F3 or cirrhosis (F4), screen for complications (varices, HCC) and consider referral to a hepatologist (for possible trials, transplant evaluation if decompensated)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Non-alcoholic_fatty_liver_disease1.jpg",
+      "alt": "Liver biopsy in NAFLD showing macrovesicular fat (white vacuoles) and mild fibrosis (blue-green stain) on trichrome.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Non-alcoholic_fatty_liver_disease1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with obesity and type 2 diabetes is evaluated for elevated liver enzymes discovered on routine exam.",
+      "clues": [
+        "AST 45 U/L, ALT 80 U/L (mild elevations; ALT predominant)",
+        "BMI 33; denies significant alcohol use",
+        "Ultrasound: diffuse hepatic steatosis (bright liver)",
+        "Hepatitis B and C serologies are negative"
+      ],
+      "answer": "Nonalcoholic fatty liver disease (likely NASH)",
+      "teaching": "This patient's metabolic risk factors (obesity, T2DM), exclusion of alcohol and viral hepatitis, and the finding of fatty liver with elevated ALT point to NAFLD. NASH (steatohepatitis) is likely given the enzyme elevations. Management would focus on weight loss and controlling his diabetes; a liver biopsy could confirm NASH and assess fibrosis severity."
+    }
+  ],
+  "see_also": ["alcohol-associated-liver-disease", "hepatitis", "wilson-disease", "hemochromatosis", "cirrhosis", "hepatocellular-carcinoma", "obesity", "diabetes-mellitus"],
+  "prerequisites": ["liver-physiology", "metabolic-syndrome"],
+  "sources": [
+    { "title": "StatPearls: Fatty Liver (Antunes & Azadfard, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK441992/" },
+    { "title": "UpToDate: Management of metabolic dysfunction-associated steatotic liver disease (NAFLD) in adults", "url": "https://www.uptodate.com/contents/management-of-metabolic-dysfunction-associated-steatotic-liver-disease-nonalcoholic-fatty-liver-disease-in-adults" },
+    { "title": "AASLD Practice Guidance: Diagnosis and Management of NAFLD (Chalasani et al., 2018)", "url": "https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.29367" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

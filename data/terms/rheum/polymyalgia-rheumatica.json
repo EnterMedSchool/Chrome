@@ -1,0 +1,127 @@
+{
+  "id": "polymyalgia-rheumatica",
+  "names": [
+    "Polymyalgia rheumatica"
+  ],
+  "aliases": [],
+  "abbr": [
+    "PMR"
+  ],
+  "patterns": [
+    "polymyalgia rheumatica",
+    "pmr",
+    "polymyalgia"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "pathology",
+    "rheum",
+    "immunology",
+    "msk_derm"
+  ],
+  "definition": "Inflammatory rheumatic syndrome of older adults (age >50) causing bilateral **shoulder and hip girdle** pain and **morning stiffness** without true muscle weakness. It is associated with markedly elevated inflammatory markers and typically responds dramatically to low-dose corticosteroids.",
+  "why_it_matters": "Common in older adults (~2% lifetime risk) and second only to rheumatoid arthritis as a cause of inflammatory rheumatic disease in the elderly. Causes significant pain and disability but is very treatable with steroids. Crucially, ~15% of PMR patients develop **giant cell arteritis**, a vasculitis that can cause blindness if not promptly recognized and treated.",
+  "how_youll_see_it": [
+    "Typical patient is >50 (often ~70s) with subacute onset of **bilateral shoulder and hip pain** accompanied by pronounced **morning stiffness** (lasting >30–60 minutes). Patients often report difficulty with overhead activities (e.g. combing hair, putting on a coat) and getting out of a chair.",
+    "Systemic symptoms are common: low-grade fever, fatigue, loss of appetite, and weight loss can occur. On exam, range of motion in shoulders and hips is limited by pain, but **muscle strength is normal** (pain may make strength exam difficult). **Muscle tenderness** is usually absent or mild.",
+    "Labs: **↑ ESR** and **↑ CRP** (often very high, e.g. ESR >50 mm/h) are characteristic. Importantly, **CK is normal** (helps distinguish from polymyositis). Rheumatoid factor and CCP are typically negative, and there are no erosive changes on imaging (helping exclude rheumatoid arthritis).",
+    "Variations: some patients have mild peripheral arthritis or hand edema (e.g. **RS3PE** syndrome) in addition to the shoulder/hip girdle symptoms. ~40–50% of patients with **giant cell arteritis** (temporal arteritis) also have PMR symptoms, so there can be overlap; PMR without cranial symptoms is often called \"isolated\" PMR."
+  ],
+  "problem_solving": [
+    "Confirm inflammation: check **ESR** and **CRP** (nearly always elevated in PMR—if normal, question the diagnosis).",
+    "Exclude mimics: obtain a **CK** level (normal in PMR; elevated suggests myositis) and **TSH** (to rule out hypothyroid myopathy). Test **RF** and **anti-CCP** antibodies; positive results or significant joint swelling point to rheumatoid arthritis instead of PMR.",
+    "Consider imaging if doubt: **ultrasound** of shoulders can reveal bilateral subacromial/subdeltoid **bursitis** or biceps tenosynovitis typical of PMR. If **giant cell arteritis** is suspected (e.g. limb claudication or fever of unknown origin), vascular imaging (ultrasound or PET) can detect large-vessel involvement.",
+    "Therapeutic trial: a prompt, dramatic improvement (within 2–3 days) upon starting low-dose **prednisone** (10–20 mg daily) strongly supports the diagnosis of PMR."
+  ],
+  "differentials": [
+    {
+      "id": "giant-cell-arteritis",
+      "hint": "overlap disease; look for headache, jaw claudication, vision changes (needs high-dose steroids)"
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "hint": "older patients can get RA; RA usually has joint swelling (synovitis) in hands, positive RF/CCP, and erosions on X-ray"
+    },
+    {
+      "id": "polymyositis",
+      "hint": "causes proximal muscle weakness (not just pain) with **↑CK** and abnormal EMG"
+    }
+  ],
+  "tricks": [
+    "**Rapid steroid response**: PMR pain and stiffness often improve within 48 hours of low-dose prednisone—a near-diagnostic clue.",
+    "PMR causes **stiffness & pain, but no weakness**. By contrast, polymyositis causes true muscle weakness (and elevated CK).",
+    "Always assess for new **temporal headache, jaw pain, or vision changes** in PMR patients—these red-flag symptoms herald giant cell arteritis."
+  ],
+  "exam_appearance": [
+    "70-year-old with bilateral shoulder and hip girdle aching, morning stiffness >1 hour, and ESR of 85 mm/hr → **Polymyalgia rheumatica** (classic presentation; treat with low-dose prednisone).",
+    "Elderly patient on chronic low-dose steroids for PMR who develops new unilateral headache and jaw claudication → **giant cell arteritis** (temporal arteritis requiring high-dose steroids)."
+  ],
+  "treatment": [
+    "**Glucocorticoids** are first-line: start low-dose **prednisone** (~15 mg daily). Symptoms usually improve within days. Continue for ~1–2 years while tapering slowly (reduce ~1 mg/month) to minimize relapse. Supplement calcium & vitamin D and consider bisphosphonates for bone protection during long-term steroids.",
+    "If unable to taper steroids or frequent relapses: add **methotrexate** as a steroid-sparing agent (2015 guidelines suggest early MTX in some cases). For refractory PMR, consider IL-6 inhibitor therapy (e.g., **tocilizumab** off-label; **sarilumab** was FDA-approved for PMR in 2023).",
+    "Regular exercise and physical therapy can help maintain muscle strength and function during treatment. NSAIDs are generally not sufficient alone and are not first-line due to limited benefit."
+  ],
+  "red_flags": [
+    "**Giant cell arteritis** symptoms (new headache, scalp tenderness, jaw claudication, visual disturbances) → requires **urgent high-dose steroids** to prevent vision loss.",
+    "Poor or no improvement on moderate-dose prednisone → re-evaluate diagnosis. PMR should respond to steroids; lack of response suggests an alternate diagnosis (e.g. malignancy, infection, or a different rheumatic disease)."
+  ],
+  "algorithm": [
+    "Age >50 with bilateral shoulder & hip girdle pain/stiffness + ↑inflammatory markers → suspect PMR.",
+    "Rule out other causes: check TSH, CK, and rheumatoid serologies (exclude hypothyroidism, polymyositis, RA).",
+    "If likely PMR, initiate low-dose **prednisone** (10–20 mg/day). Rapid symptom relief (within 2–3 days) essentially confirms PMR.",
+    "Taper prednisone gradually over 1–2 years (decrease ~1 mg/month once at 10 mg); monitor for relapse or return of symptoms at each taper step.",
+    "Educate patient about signs of temporal arteritis (headache, jaw claudication, vision changes); if these occur → start high-dose steroids immediately (suspected GCA)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Polymyalgia_rheumatica_man.svg/1080px-Polymyalgia_rheumatica_man.svg.png",
+      "alt": "Diagram of polymyalgia rheumatica pain distribution (highlighting shoulders and hips).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Polymyalgia_rheumatica_man.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old woman presents with 3 months of severe pain and stiffness in her shoulders and hips, worst in the morning.",
+      "clues": [
+        "Difficulty combing her hair and rising from a chair",
+        "Morning stiffness lasts over 1 hour",
+        "ESR is 85 mm/hour (markedly elevated)",
+        "Physical exam: normal muscle strength despite pain"
+      ],
+      "answer": "Polymyalgia rheumatica",
+      "teaching": "Classic presentation of PMR in an older adult. Bilateral proximal muscle group pain and prolonged morning stiffness with very high inflammatory markers are key features. Lack of true muscle weakness and a rapid response to low-dose prednisone help distinguish PMR from polymyositis or rheumatoid arthritis. Always remember to watch for temporal arteritis in these patients."
+    }
+  ],
+  "see_also": [
+    "giant-cell-arteritis",
+    "rheumatoid-arthritis",
+    "polymyositis",
+    "dermatomyositis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Polymyalgia Rheumatica (Acharya & Musa, updated 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537274/"
+    },
+    {
+      "title": "UpToDate: Treatment of polymyalgia rheumatica (Salvarani et al.)",
+      "url": "https://www.uptodate.com/contents/treatment-of-polymyalgia-rheumatica"
+    },
+    {
+      "title": "2015 EULAR/ACR Guidelines for Management of Polymyalgia Rheumatica (Dejaco et al., Arthritis Rheumatol 2015)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26352874/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

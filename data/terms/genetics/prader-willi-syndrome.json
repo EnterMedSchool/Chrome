@@ -1,0 +1,119 @@
+{
+  "id": "prader-willi-syndrome",
+  "names": [
+    "Prader-Willi syndrome"
+  ],
+  "aliases": [
+    "Prader-Labhart-Willi syndrome"
+  ],
+  "abbr": [
+    "PWS"
+  ],
+  "patterns": [
+    "prader-willi",
+    "prader willi",
+    "prader willi syndrome",
+    "prader-willi syndrome",
+    "prader labhart willi"
+  ],
+  "primary_tag": "genetics",
+  "tags": [
+    "genetics",
+    "peds",
+    "endocrine"
+  ],
+  "definition": "Rare genetic **imprinting** disorder (loss of paternal 15q11.2–q13) causing infantile hypotonia with poor feeding, followed by hyperphagia leading to obesity, developmental delays, and endocrine dysfunction.",
+  "why_it_matters": "PWS is the most common syndromic form of life-threatening obesity and is a classic example of genomic imprinting. Early diagnosis allows intervention (dietary control, growth hormone therapy) to prevent severe obesity and manage complications like type 2 diabetes and respiratory failure.",
+  "how_youll_see_it": [
+    "Infancy: profound **hypotonia** (\"floppy baby\"), weak suck and feeding difficulties (failure to thrive), often requiring gavage feeding; **hypogonadism** (cryptorchidism in males, small labia in females) is common.",
+    "Early childhood: around age 2–4, **hyperphagia** (insatiable appetite) emerges, leading to rapid weight gain and **obesity** by school age unless food access is strictly controlled.",
+    "Later childhood/adolescence: **short stature** (due to growth hormone deficiency), **intellectual disability** (mild to moderate), and **behavioral problems** (temper tantrums, stubbornness, skin picking, obsessive tendencies) become evident. Distinctive dysmorphic features include **almond-shaped eyes**, narrow forehead, and **small hands and feet**."
+  ],
+  "problem_solving": [
+    "Recognize PWS in a hypotonic infant with feeding difficulties or an older child with voracious appetite, obesity, and developmental delays.",
+    "Confirm the diagnosis with genetic testing: **DNA methylation analysis** of 15q11-q13 will show abnormal imprinting (maternal-only pattern), which is present in >99% of cases. Follow up with FISH or microarray to distinguish a paternal deletion from maternal uniparental disomy.",
+    "Address endocrine issues: screen for and treat **growth hormone deficiency** (GH therapy improves height and lean mass) and **hypogonadism** (e.g. hormone replacement at puberty). Monitor thyroid function and risk of adrenal insufficiency as needed."
+  ],
+  "differentials": [
+    {
+      "id": "angelman-syndrome",
+      "hint": "**Maternal** 15q11-q13 deletion (paternal allele imprinted); causes seizures, ataxia, happy demeanor ('happy puppet') rather than hyperphagia"
+    },
+    {
+      "name": "Bardet-Biedl syndrome",
+      "hint": "Autosomal recessive obesity syndrome with **retinal dystrophy**, **polydactyly**, and hypogonadism (distinguished by vision loss and extra digits)"
+    }
+  ],
+  "tricks": [
+    "**Prader = Paternal Deletion** (father's allele lost); **AngelMan = Maternal** (mother's allele lost). Think \"**Papa** is missing in Prader-Willi, **Mama** is missing in Angelman.\"",
+    "PWS patients have abnormally high **ghrelin** levels, the hunger-stimulating hormone, which may explain their insatiable appetite."
+  ],
+  "exam_appearance": [
+    "Newborn with **floppy tone**, weak cry, poor feeding, and undescended testes → suspect **Prader-Willi syndrome** (paternal 15q deletion).",
+    "An **obese 8-year-old** with insatiable appetite, short stature, small hands/feet, mild intellectual disability, and temper outbursts → **Prader-Willi syndrome**."
+  ],
+  "treatment": [
+    "**Nutritional**: Strict dietary supervision (calorie restriction, locked food storage) and regular exercise from early childhood to prevent excessive weight gain.",
+    "**Endocrine**: Growth hormone therapy (started in infancy or early childhood to improve stature, muscle mass, and fat distribution). At adolescence, sex hormone replacement (testosterone or estrogen/progesterone) to induce puberty and support bone health. Monitor and treat hypothyroidism or adrenal insufficiency if present.",
+    "**Behavioral**: Structured environment and behavioral therapy for food-seeking and obsessive behaviors. Address skin picking (e.g., with SSRIs or N-acetylcysteine) and provide developmental support (special education, occupational therapy).",
+    "**Others**: Surgical correction of cryptorchidism in infancy; evaluation and management of **sleep apnea** and scoliosis are essential. In adulthood, supervised living arrangements may be needed to ensure ongoing dietary control and health monitoring."
+  ],
+  "red_flags": [
+    "**Acute gastric distension**: PWS patients have decreased vomiting and can develop life-threatening gastric dilation/rupture after binge eating. Sudden abdominal pain or bloating in PWS is an emergency requiring immediate evaluation.",
+    "**Obesity complications**: High risk of type 2 diabetes, obstructive sleep apnea, pulmonary embolism, and heart failure. Uncontrolled hyperphagia can lead to rapid, morbid obesity with early mortality.",
+    "**Behavioral crises**: Severe tantrums or impulsive behaviors may occur, and new-onset psychosis has been reported in some adolescents/adults with PWS. Any abrupt change in mental status or behavior warrants prompt psychiatric assessment."
+  ],
+  "algorithm": [
+    "Suspect PWS (genomic imprinting disorder) in a **hypotonic infant** or **hyperphagic obese child** with developmental delay.",
+    "Order DNA **methylation analysis** for 15q11-q13: if it shows maternal-only imprinting (no paternal contribution) → diagnosis of PWS is confirmed. Optionally perform FISH/microarray to identify deletion vs uniparental disomy.",
+    "After diagnosis, initiate **multidisciplinary management**: strict diet and activity plan to prevent obesity, **growth hormone** therapy, endocrine consultations (for puberty induction, thyroid/adrenal monitoring), and developmental/behavioral support services."
+  ],
+  "cases": [
+    {
+      "stem": "A 7-year-old boy with a history of poor feeding and low muscle tone as an infant now presents with excessive weight gain.",
+      "clues": [
+        "Hypotonia and feeding problems in infancy",
+        "Onset of hyperphagia around age 3",
+        "Obesity with short stature",
+        "Intellectual disability",
+        "Undescended testes"
+      ],
+      "answer": "Prader-Willi syndrome",
+      "teaching": "This presentation (floppy infant who becomes an obese child with insatiable appetite, short stature, and hypogonadism) is classic for Prader-Willi syndrome, an imprinting disorder caused by loss of the paternal copy of 15q11-q13. Early genetic diagnosis via DNA methylation testing allows for interventions like growth hormone therapy and strict diet to mitigate obesity and its complications."
+    }
+  ],
+  "see_also": [
+    "angelman-syndrome",
+    "obesity"
+  ],
+  "prerequisites": [
+    "genomic-imprinting",
+    "genetics"
+  ],
+  "sources": [
+    {
+      "title": "GeneReviews: Prader-Willi Syndrome (Driscoll et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1330/"
+    },
+    {
+      "title": "StatPearls: Prader-Willi Syndrome (Daley SF, et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553161/"
+    },
+    {
+      "title": "UpToDate: Prader-Willi syndrome (Clinical features and management, 2025)",
+      "url": "https://www.uptodate.com/contents/prader-willi-syndrome"
+    },
+    {
+      "title": "Medscape: Prader-Willi Syndrome (Scheimann, 2025)",
+      "url": "https://emedicine.medscape.com/article/947954-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

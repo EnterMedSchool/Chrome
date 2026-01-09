@@ -1,0 +1,142 @@
+{
+  "id": "hyperthyroidism",
+  "names": ["Hyperthyroidism"],
+  "aliases": ["thyrotoxicosis", "overactive thyroid"],
+  "abbr": [],
+  "patterns": ["hyperthyroidism", "hyperthyroid", "thyrotoxicosis", "overactive thyroid"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "pharmacology"],
+  "definition": "State of **excess thyroid hormone production** (↑T3 and T4) by the thyroid gland, leading to a hypermetabolic, **thyrotoxic** condition. Usually caused by **Graves disease** (autoimmune toxic diffuse goiter) or autonomous thyroid nodules (toxic adenoma or multinodular goiter).",
+  "why_it_matters": "Common endocrine disorder (especially in women) with significant systemic impact. Untreated hyperthyroidism can cause serious complications like **atrial fibrillation** (high-output cardiac failure risk), **osteoporosis**, and life-threatening **thyroid storm**. High-yield for exams due to its classic presentation and multiple distinct causes requiring different management approaches.",
+  "how_youll_see_it": [
+    "**Symptoms:** weight loss despite normal or increased appetite, heat intolerance, sweating, anxiety, insomnia, palpitations, tremor, and increased bowel frequency (diarrhea). Women may have light or absent menstrual periods. Older patients can have \"apathetic\" hyperthyroidism (atypical presentation: fatigue, weight loss, new-onset atrial fibrillation).",
+    "**Signs:** tachycardia (or atrial arrhythmia), hypertension, warm moist skin, fine tremor, and **hyperreflexia**. A goiter is often present. Graves disease causes a diffuse goiter (often with bruit) plus unique findings: **exophthalmos** (proptosis with lid retraction) and **pretibial myxedema** (localized skin thickening) due to autoimmune infiltration. Toxic nodular goiter presents with thyroid nodules and no eye signs. Subacute (De Quervain) thyroiditis causes a **painful, tender** enlarged thyroid (typically post-viral).",
+    "**Lab findings:** **↓TSH** (in primary hyperthyroidism; TSH is appropriately low due to negative feedback) with **↑free T4 and T3**. (In rare **secondary hyperthyroidism** from a TSH-secreting pituitary adenoma, TSH is **inappropriately high** along with elevated T4/T3.) Sometimes only T3 is elevated (**T3 toxicosis**). Hyperthyroidism also causes hypercalcemia (↑ bone turnover) and can elevate liver enzymes and cause low cholesterol."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with **thyroid function tests**: a suppressed **TSH** and elevated T4 and/or T3 levels indicates hyperthyroidism. If TSH is normal or high with high T4, suspect a TSH-secreting pituitary adenoma (work up pituitary).",
+    "Determine the cause using a **radioactive iodine uptake (RAIU) scan**: **diffuse high uptake** suggests Graves disease; **focal (patchy) uptake** suggests a toxic adenoma or multinodular goiter; **low uptake** points to thyroiditis or exogenous thyroid hormone (factitious thyrotoxicosis).",
+    "If RAIU uptake is low and thyroiditis vs. factitious is unclear, check **serum thyroglobulin**: it will be **elevated** in thyroiditis (release of stored thyroid hormone) but **low** in factitious hyperthyroidism (exogenous hormone suppresses thyroglobulin).",
+    "For Graves disease, test for **TSH-receptor antibodies** (TRAb, e.g., thyroid-stimulating immunoglobulin) which are usually positive. An elevated TRAb confirms Graves as the cause.",
+    "Evaluate for complications: obtain an **ECG** to check for arrhythmias (e.g., atrial fibrillation). Consider bone density assessment if hyperthyroidism has been prolonged (risk of osteoporosis)."
+  ],
+  "differentials": [
+    {
+      "name": "Anxiety disorder",
+      "hint": "Similar symptoms (jitters, palpitations, sweating) but **no thyroid enlargement** or lab abnormalities; symptoms often situational and no weight loss."
+    },
+    {
+      "name": "Pheochromocytoma",
+      "hint": "Episodic surges of adrenergic symptoms (headache, sweating, tachycardia, hypertension) rather than persistent hypermetabolic state; thyroid hormone levels normal."
+    },
+    {
+      "name": "Hypothyroidism",
+      "hint": "Opposite clinical features: **weight gain**, cold intolerance, bradycardia, constipation, etc., with **↑TSH and ↓T4** (not to be confused with transient hyperthyroid phase of thyroiditis)."
+    },
+    {
+      "name": "Subacute thyroiditis",
+      "hint": "Painful **tender thyroid** with elevated ESR; causes transient hyperthyroidism with **low RAI uptake** (due to inflammation releasing hormone, not increased synthesis)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic for **thyroid storm** treatment: the \"4 P's\" – **P**TU, **P**ropranolol, **P**otassium iodide (KI), and **P**rednisone. These, along with supportive care (cooling, IV fluids), are used to emergently treat this life-threatening hyperthyroid crisis.",
+    "**Methimazole** (first-line thionamide) is **teratogenic** in the first trimester (can cause aplasia cutis); **PTU** is preferred early in pregnancy for hyperthyroid mothers, then often switched to methimazole later. Both drugs can cause **agranulocytosis** (any fever/sore throat in a patient on these meds → check WBC!).",
+    "**Graves disease** is a Type II hypersensitivity autoimmune disorder – TSH-receptor **stimulating IgG antibodies** cause diffuse thyroid hyperplasia (and also drive the extrathyroidal features like eye and skin changes). No other hyperthyroid cause has the eye and pretibial findings seen in Graves."
+  ],
+  "exam_appearance": [
+    "Young woman with weight loss, tremors, tachycardia, **goiter with bruit**, and **exophthalmos** → **Graves disease** (primary hyperthyroidism).",
+    "Elderly patient with unexplained weight loss, new **atrial fibrillation**, and a multinodular goiter (no eye signs) → **toxic multinodular goiter** (Plummer disease).",
+    "Middle-aged patient with a **tender thyroid gland** and recent flu-like illness, now transiently hyperthyroid with low RAI uptake → **subacute (De Quervain) thyroiditis**."
+  ],
+  "treatment": [
+    "**Beta-blockers** (e.g., propranolol) for immediate symptom control – relieves tremor, tachycardia, anxiety, and also helps prevent high-output cardiac failure; propranolol also reduces peripheral T4→T3 conversion.",
+    "**Antithyroid medications:** thionamides – **methimazole** (preferred in most cases) or **propylthiouracil (PTU)**. These inhibit thyroid hormone synthesis (PTU also blocks T4→T3 conversion). Use PTU in the first trimester of pregnancy (then switch to methimazole) and in thyroid storm. Monitor for side effects like agranulocytosis and hepatic injury.",
+    "**Radioactive iodine (RAI) ablation:** a definitive treatment for Graves and toxic nodular hyperthyroidism in non-pregnant adults. A single dose of I-131 is taken up by the thyroid, destroying thyroid tissue over weeks to months. This often results in hypothyroidism, requiring lifelong levothyroxine replacement. Contraindicated in pregnancy and caution if severe ophthalmopathy (RAI can worsen Graves orbitopathy, often co-treat with steroids).",
+    "**Thyroidectomy (surgical removal):** indicated if a very large goiter causing compression, suspicion of thyroid cancer, or when RAI/meds are contraindicated (e.g., pregnant patients who cannot tolerate thionamides). Patients are pre-treated with thionamides and iodide to reduce vascularity. Surgery risks include injury to recurrent laryngeal nerve or hypoparathyroidism (removal of parathyroids).",
+    "**Special cases:** Subacute thyroiditis – since hyperthyroidism is due to hormone release (not increased production), treat with supportive care (**NSAIDs or steroids** for pain/inflammation, plus beta-blockers for symptoms); thionamides are not effective. **TSH-secreting pituitary adenoma** – treat the pituitary tumor (surgery or radiation); somatostatin analogs can also suppress TSH. In iodine-induced hyperthyroidism (Jod-Basedow), avoid further iodine; often self-limited or treat as needed with beta-blockers/thionamides."
+  ],
+  "red_flags": [
+    "**Thyroid storm:** marked fever, delirium, seizures, arrhythmia (e.g., tachyarrhythmia out of proportion) – this is a medical emergency. Treat immediately with PTU, beta-blockers, iodine, steroids, and ICU supportive care.",
+    "**Cardiac complications:** rapid atrial fibrillation with hemodynamic instability, angina, or heart failure signs in a hyperthyroid patient – requires urgent rate control (beta-blocker) and thyroid management to prevent collapse or ischemia.",
+    "**Agranulocytosis alert:** any patient on **methimazole or PTU** who develops fever or sore throat should be assumed to have agranulocytosis until proven otherwise – immediately stop the drug and check a CBC."
+  ],
+  "algorithm": [
+    "Patient with signs of hyperthyroidism → check **TSH** level (best initial test).",
+    "If TSH is low → confirm with **free T4 and T3** levels (diagnose overt hyperthyroidism if T4 or T3 is high; if T4 is normal but T3 high, it's T3 toxicosis). If TSH is not low (normal or high) despite high thyroid hormones, evaluate for **TSH-producing pituitary adenoma** (pituitary MRI, etc.).",
+    "After confirming hyperthyroidism, determine the cause. First, consider **TSH-receptor antibody** test: if positive, that indicates Graves disease. If antibody test is negative or not done, perform a **radioactive iodine uptake scan**:",
+    "- **Diffuse high uptake** → Graves disease likely.",
+    "- **Focal high uptake** → toxic adenoma or multinodular goiter (autonomous nodules).",
+    "- **Low uptake** → suggests thyroiditis or exogenous hormone. Check **thyroglobulin** to distinguish (high in thyroiditis, low in factitious).",
+    "Begin **treatment**: start a **beta-blocker** for symptom relief as needed. For most, begin **methimazole** to reduce hormone production (unless contraindicated). Plan definitive therapy based on cause/patient factors: **radioiodine ablation** is common for Graves and toxic nodules; **surgery** if indicated (large goiter, cancer concern, or pregnant patient who cannot use other treatments). Manage any precipitating factors or complications (e.g., give steroids if severe ophthalmopathy, urgent full therapy if thyroid storm, etc.)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Thyroid_scintigraphy.jpg",
+      "alt": "Thyroid scintigraphy in hyperthyroidism: A = normal thyroid, B = Graves disease (diffusely increased uptake), C = toxic multinodular goiter (patchy uptake), D = toxic adenoma (focal uptake in one nodule), E = thyroiditis (almost no uptake).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Thyroid_scintigraphy.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old woman presents with weight loss, anxiety, and palpitations.",
+      "clues": [
+        "Heart rate 110/min, fine tremor and sweaty palms",
+        "Diffuse goiter with an audible bruit",
+        "Exophthalmos (bilateral eye proptosis) and pretibial myxedema",
+        "TSH is very low; T3 and T4 levels are elevated"
+      ],
+      "answer": "Graves disease (autoimmune hyperthyroidism)",
+      "teaching": "This is classic Graves disease, the most common cause of hyperthyroidism. Autoimmune **TSH receptor antibodies** stimulate the thyroid, causing diffuse goiter and overproduction of T4/T3. The combination of hyperthyroid symptoms with eye signs (orbitopathy) and pretibial myxedema is virtually diagnostic of Graves. Treatment options include antithyroid drugs, radioactive iodine ablation, or surgery."
+    },
+    {
+      "stem": "A 42‑year‑old woman reports neck pain and thyrotoxic symptoms (weight loss, sweating) for the past 3 weeks. She recently had a viral upper respiratory infection.",
+      "clues": [
+        "Tender, painful thyroid gland on exam",
+        "Elevated ESR (erythrocyte sedimentation rate)",
+        "Radioactive iodine uptake is very low",
+        "TSH is low; T4 and T3 are elevated"
+      ],
+      "answer": "Subacute (De Quervain) thyroiditis",
+      "teaching": "Subacute granulomatous thyroiditis often follows a viral infection and presents with a **painful, inflamed thyroid**. Injured thyroid follicles release stored hormone, causing transient hyperthyroidism (with low uptake since the thyroid isn't actively overproducing hormone). Unlike Graves, there are no antibody-mediated features and no need for antithyroid drugs. Management is supportive (NSAIDs or steroids for pain, beta-blockers for symptoms), and typically the patient may later go through a hypothyroid phase before recovery."
+    }
+  ],
+  "see_also": [
+    "hypothyroidism",
+    "atrial-fibrillation",
+    "osteoporosis"
+  ],
+  "prerequisites": [
+    "thyroid-gland",
+    "thyroid-hormone-synthesis",
+    "endocrine-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hyperthyroidism (Mathew & Kaur, updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537053/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of hyperthyroidism in adults",
+      "url": "https://www.uptodate.com/contents/hyperthyroidism-in-adults-treatment"
+    },
+    {
+      "title": "2016 ATA Guidelines for Hyperthyroidism (Ross DS et al., Thyroid 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27521067/"
+    },
+    {
+      "title": "NEJM: Graves' Disease (Smith & Hegedüs, 2016)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27797318/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

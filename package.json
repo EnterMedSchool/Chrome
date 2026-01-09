@@ -1,0 +1,39 @@
+{
+  "name": "ems-medical-glossary",
+  "version": "1.0.0",
+  "description": "Chrome extension that highlights medical terms and shows definitions for medical students",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.js --watch",
+    "build": "node scripts/build.js",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.ts --fix",
+    "format": "prettier --write \"src/**/*.{js,ts,css,html,json}\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "package": "node scripts/package.js"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.23",
+    "@types/chrome": "^0.0.268",
+    "archiver": "^7.0.1",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jsdom": "^27.4.0",
+    "prettier": "^3.2.5",
+    "sharp": "^0.34.5",
+    "vite": "^5.2.0",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "dompurify": "^3.0.11"
+  },
+  "author": "EnterMedSchool",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EnterMedSchool/Chrome"
+  }
+}

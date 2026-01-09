@@ -1,0 +1,144 @@
+{
+  "id": "cataract",
+  "names": [
+    "Cataract"
+  ],
+  "aliases": [
+    "cataracts"
+  ],
+  "abbr": [],
+  "patterns": [
+    "cataract",
+    "cataracts",
+    "senile cataract",
+    "congenital cataract",
+    "cloudy lens"
+  ],
+  "primary_tag": "ophtho",
+  "tags": [
+    "pathology",
+    "ophtho",
+    "surgery",
+    "peds"
+  ],
+  "definition": "Clouding of the eye's normally clear lens, leading to progressive **painless** vision loss (often like trying to see through a foggy window).",
+  "why_it_matters": "Extremely common in older adults (over half of people >80 have or had cataracts) and the leading cause of **reversible blindness** worldwide. Cataracts frequently appear in exam questions as a cause of gradual vision loss that contrasts with other eye diseases (e.g., glaucoma).",
+  "how_youll_see_it": [
+    "Age-related (senile): Most common type, typically in elderly patients with bilateral, gradual vision decline. They have trouble with night driving due to glare/halos from lights, need brighter light to read, and notice colors look faded or yellowed. **No eye pain** (distinguishes from glaucoma).",
+    "Congenital: Lens opacities present at birth or in infancy (often due to genetic syndromes or intrauterine infections like **rubella**). Noted by an abnormal **white pupillary reflex** (leukocoria) instead of the normal red reflex. Can cause **amblyopia** (permanent visual loss) if not treated early.",
+    "Traumatic: Past eye injury (blunt trauma or penetrating injury) can lead to cataract in that eye, either immediately or years later. Also, ocular surgery or chronic **uveitis** can precipitate lens clouding. Look for a history of eye trauma/surgery in a younger patient with unilateral cataract.",
+    "Metabolic/Secondary: **Diabetes mellitus** can cause earlier cataract development (sometimes with 'snowflake' cortical opacities in young diabetics). Prolonged **corticosteroid** use is a major risk factor (classically causing posterior subcapsular cataracts). Other risk factors include heavy radiation exposure to the eye, smoking, and extensive sun (UV) exposure."
+  ],
+  "problem_solving": [
+    "Perform a full eye exam for any chronic vision changes: check **visual acuity** and use a slit-lamp to inspect the lens for opacity. A **diminished red reflex** or visible lens opacity on exam confirms the cataract.",
+    "If vision loss from cataract is mild, manage conservatively: update eyeglass prescription, use brighter lighting and magnifiers for reading, and reduce glare (e.g., sunglasses). Regularly follow up to monitor progression, especially if the patient has risk factors (diabetes, steroid use).",
+    "Refer for **cataract surgery** evaluation when vision impairment begins to affect daily activities or safety (driving, reading, etc.). Modern cataract surgery (phacoemulsification with artificial lens implantation) is very safe and effective; there's no need to \"wait\" for a cataract to mature in most cases.",
+    "If the view to the fundus is obscured by a dense cataract, perform a B-scan **ocular ultrasound** to assess the retina and rule out other pathology (e.g., retinal detachment or tumors) prior to surgery.",
+    "In children, an opaque lens is an emergency: an infant with a cataract should be referred to a pediatric ophthalmologist promptly. Early surgical removal is critical to prevent irreversible amblyopia, followed by visual rehabilitation (such as contact lenses or later intraocular lens placement)."
+  ],
+  "differentials": [
+    {
+      "id": "open-angle-glaucoma",
+      "hint": "chronic glaucoma causes gradual vision loss too, but it's peripheral first and accompanied by elevated intraocular pressure and optic disc cupping"
+    },
+    {
+      "id": "macular-degeneration",
+      "hint": "age-related macular degeneration causes central vision loss (wavy/distorted vision) due to retinal changes, not lens opacity"
+    },
+    {
+      "id": "retinoblastoma",
+      "hint": "in infants, intraocular tumor that also presents with leukocoria; typically unilateral with other signs (e.g., retinal mass on exam)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic/Phenomenon: **\"Second sight\"**: an early nuclear cataract can increase the eye's refractive power, temporarily improving near vision in an older person who previously needed reading glasses."
+  ],
+  "exam_appearance": [
+    "Older adult with progressively blurry vision, difficulty driving at night (glare/halos), and a cloudy lens visible on exam → Age-related cataract.",
+    "Patient on long-term corticosteroid therapy (or who had ocular radiation) with new-onset blurry vision and lens clouding on exam → Secondary cataract from steroid use/radiation.",
+    "Newborn with a **white pupillary reflex** on exam (leukocoria) → Congenital cataract (must distinguish from retinoblastoma as a cause of leukocoria)."
+  ],
+  "treatment": [
+    "Surgery is the only definitive treatment: removal of the cloudy lens and replacement with a permanent **intraocular lens (IOL)**. Indicated when vision loss affects daily life.",
+    "Standard surgery is phacoemulsification (ultrasound breaks up the lens) with IOL implantation, usually done outpatient under local anesthesia. In very advanced cataracts, a manual extracapsular extraction may be used.",
+    "No proven medical therapy reverses cataracts. Prevention/slowdown strategies (UV protection, diabetes control, smoking cessation) are advised but once significant cataract forms, surgical management is required.",
+    "For congenital cataracts, surgery is performed as early as safely possible (often within the first few months of life), sometimes without immediate IOL placement (babies may be given contact lenses until an IOL can be placed). Post-surgery, children need amblyopia prevention (patching stronger eye, etc.)."
+  ],
+  "red_flags": [
+    "Any **leukocoria** (white pupil) in an infant should prompt urgent evaluation to rule out **retinoblastoma** (life-threatening).",
+    "Acute eye pain, redness, and high intraocular pressure in an eye with a mature cataract - suspect **phacolytic glaucoma** (lens protein leakage causing severe secondary open-angle glaucoma). This situation is an ocular emergency."
+  ],
+  "algorithm": [
+    "Older patient with gradual vision changes → perform eye exam; if lens opacity is found, diagnose cataract.",
+    "If mild cataract (good functional vision) → conservative management and periodic monitoring.",
+    "If significant visual impairment → refer for cataract surgery consultation (don't delay unnecessarily).",
+    "Pre-surgical eval: ensure no contraindications and assess the eye (biometry for IOL, check retina health; use ultrasound if cataract prevents fundus view).",
+    "Pediatric cataract detected (abnormal red reflex) → urgent referral for surgical management within weeks; manage amblyopia aggressively after lens removal."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cataract_(28464844371).png",
+      "alt": "Human eye with an advanced cataract (cloudy, brownish lens visible behind the pupil).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cataract_(28464844371).png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old man reports progressively blurry vision over 2 years. He struggles with night driving due to glare and halos around headlights, and needs brighter light to read small print.",
+      "clues": [
+        "Vision loss is gradual and painless",
+        "Difficulty with night vision (glare, halos)",
+        "Needs more light for near tasks",
+        "Cloudy lens with diminished red reflex on exam"
+      ],
+      "answer": "Age-related cataract",
+      "teaching": "Senile cataract from lens aging leading to opacity. It causes painless, progressive vision impairment with glare. Treatment is surgical lens extraction with an intraocular lens implant, which typically restores vision."
+    },
+    {
+      "stem": "A 1‑month‑old infant fails a routine newborn vision screening test.",
+      "clues": [
+        "Bilateral absence of red reflex (leukocoria)",
+        "Mother had rubella infection during pregnancy"
+      ],
+      "answer": "Congenital cataracts (due to rubella)",
+      "teaching": "Maternal rubella infection can cause congenital cataracts. Early detection is critical; these cataracts must be removed promptly to prevent irreversible amblyopia (vision loss from lack of visual stimulation during infancy)."
+    }
+  ],
+  "see_also": [
+    "glaucoma",
+    "diabetic-retinopathy"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Cataract in adults (Jacobs, 2023)",
+      "url": "https://www.uptodate.com/contents/cataract-in-adults"
+    },
+    {
+      "title": "Mayo Clinic: Cataracts - Symptoms & causes",
+      "url": "https://www.mayoclinic.org/diseases-conditions/cataracts/symptoms-causes/syc-20353790"
+    },
+    {
+      "title": "American Academy of Ophthalmology: What Are Cataracts?",
+      "url": "https://www.aao.org/eye-health/diseases/what-are-cataracts"
+    },
+    {
+      "title": "NHS: Cataracts in adults",
+      "url": "https://www.nhs.uk/conditions/cataracts/"
+    },
+    {
+      "title": "National Eye Institute: Cataracts",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/cataracts"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

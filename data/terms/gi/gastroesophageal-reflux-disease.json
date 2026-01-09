@@ -1,0 +1,119 @@
+{
+  "id": "gastroesophageal-reflux-disease",
+  "names": ["Gastroesophageal reflux disease"],
+  "aliases": ["acid reflux", "gastro-oesophageal reflux disease"],
+  "abbr": ["GERD", "GORD"],
+  "patterns": ["gerd", "gastroesophageal reflux", "gastro-oesophageal reflux", "acid reflux", "heartburn"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "peds", "surgery"],
+  "definition": "Chronic condition where gastric contents flow back into the esophagus, resulting in troublesome **symptoms** (e.g., heartburn, regurgitation) and/or **complications** (e.g., erosive esophagitis, Barrett esophagus).",
+  "why_it_matters": "Extremely common (affecting ~10–20% of adults in Western countries) and frequently tested. GERD's complications (like **Barrett esophagus** with progression to adenocarcinoma) and its management (e.g., appropriate use of PPIs, lifestyle changes, surgical options) are high-yield for boards.",
+  "how_youll_see_it": [
+    "Classic presentation: burning **epigastric** or retrosternal pain (**heartburn**) after meals, often worse lying down or at night, with sour-tasting **regurgitation** and relief by antacids. Acid reflux can also cause **chronic cough**, **hoarseness** (laryngitis), or **dental enamel erosion** without obvious heartburn (extraesophageal GERD).",
+    "Red flags in adults: **dysphagia** (trouble swallowing), **odynophagia** (painful swallowing), **weight loss**, or **GI bleeding** (alarm features suggesting complications or an alternate diagnosis).",
+    "Infants: frequent spitting up is usually benign **GER** (gastroesophageal reflux) if the baby is growing well. Warning signs include **poor weight gain**, feeding aversion, or episodic back arching (Sandifer syndrome) after feeds, which suggest pathologic GERD. Older children and adolescents can present like adults (recurrent heartburn, regurgitation or chest discomfort)."
+  ],
+  "problem_solving": [
+    "Empiric trial: In adults <50 with typical symptoms and no alarms, diagnose GERD by an **8-week trial of a PPI** (proton pump inhibitor); symptom resolution is considered diagnostic. Avoid unnecessary initial endoscopy in these straightforward cases.",
+    "Endoscopy (**EGD**): Indicated for **alarm features** (dysphagia, odynophagia, bleeding, anemia, weight loss, vomiting) or if symptoms persist despite therapy. Also recommended in chronic GERD patients with multiple **Barrett esophagus** risk factors (age ≥50, male, white, obesity, smoking, long-standing reflux).",
+    "If EGD is normal but GERD is still suspected (atypical or refractory cases), consider **24-hour pH monitoring** (often combined with impedance) to confirm pathologic acid reflux. Esophageal **manometry** can evaluate motility if dysphagia or to prep for anti-reflux surgery, but it doesn't diagnose GERD.",
+    "Differentiating GERD from others: cardiac workup for chest pain when in doubt (GERD does not cause exertional pain). For refractory heartburn, think about **eosinophilic esophagitis** (especially in young males with atopy – look for esophageal rings on EGD) or **achalasia** if prominent regurgitation of undigested food."
+  ],
+  "differentials": [
+    { "name": "Coronary artery disease", "hint": "can mimic heartburn; rule out in patients with risk factors (exertional chest pain needs cardiac evaluation)" },
+    { "name": "Peptic ulcer disease", "hint": "causes epigastric pain but not typically regurgitation; test for H. pylori" },
+    { "name": "Eosinophilic esophagitis", "hint": "young patient with refractory heartburn and dysphagia, often with allergies; rings on endoscopy" },
+    { "name": "Achalasia", "hint": "dysphagia to solids & liquids, regurgitation of undigested food, bird's beak esophagus on imaging" }
+  ],
+  "tricks": [
+    "Think **Sandifer syndrome** in infants: intermittent torticollis/arching after feeding due to reflux discomfort (often mistaken for seizures).",
+    "GERD can exacerbate **asthma** or chronic cough—microaspiration of acid irritates airways. Consider reflux as a trigger in asthmatics with worsening night-time cough.",
+    "Persistent GERD leads to metaplastic changes (**Barrett esophagus**) in ~10% of chronic cases, increasing esophageal **adenocarcinoma** risk. Surveillance EGD is advised if Barrett esophagus is present."
+  ],
+  "exam_appearance": [
+    "Overweight adult with long-standing heartburn and regurgitation, using antacids frequently, gets relief when sitting up → classic GERD presentation. Best next step is trial of a PPI and lifestyle changes (weight loss, diet).",
+    "Patient with chronic GERD now has progressive dysphagia to solids, and an endoscopy reveals a stricture in the distal esophagus → peptic **esophageal stricture** (from acid scarring).",
+    "Chronic GERD patient with new onset odynophagia, weight loss, and Barrett esophagus on history → concern for **esophageal adenocarcinoma** (requires biopsy)."
+  ],
+  "treatment": [
+    "Lifestyle first: eat smaller meals, avoid trigger foods (spicy, caffeine, alcohol), weight loss if overweight, avoid lying down for 2–3 hours after eating, elevate head of bed.",
+    "**Medications**: For mild/intermittent symptoms, use antacids or **H2 blockers** (e.g., ranitidine). For frequent or severe symptoms or erosive disease, **PPIs** (e.g., omeprazole) are first-line (most potent acid suppression). Ensure appropriate PPI use (once daily before meals; long-term use only if needed due to potential side effects).",
+    "Refractory cases or complications: consider **surgical** management with **Nissen fundoplication** (wrap the gastric fundus around the LES to prevent reflux) or newer endoscopic techniques. Surgery is often considered in young patients who respond to PPIs but require lifelong therapy, or if a large hiatal hernia is present.",
+    "Pediatric notes: Many infants outgrow GER by 12–18 months. If treatment is needed (e.g., poor growth or esophagitis), thicken feeds, keep infant upright after feeding, and consider a trial of acid suppression for 4–8 weeks in older infants/children. Avoid unnecessary PPI use for isolated extraesophageal symptoms (e.g., infant cough or fussiness without overt reflux)."
+  ],
+  "red_flags": [
+    "Any **dysphagia**, **odynophagia**, vomiting, or bleeding (melena) → evaluate with prompt endoscopy to rule out ulceration, stricture, or cancer.",
+    "GERD with **chest pain** radiating to arm/jaw or occurring with exertion is not typical GERD → evaluate for cardiac ischemia.",
+    "In infants, **bilious vomiting**, forceful projectile vomiting, or onset of vomiting after 6 months old are NOT typical for simple GER and warrant further workup for other causes (e.g., pyloric stenosis, malrotation)."
+  ],
+  "algorithm": [
+    "Symptoms of heartburn/regurgitation → clinical diagnosis of GERD likely. If no alarm features, start lifestyle modifications and empiric PPI trial.",
+    "If patient improves on PPI → continue for 8 weeks, then attempt weaning to lowest effective dose or PRN. If symptoms recur after stopping, consider long-term therapy. If no improvement on PPI → proceed to diagnostic testing.",
+    "Perform **endoscopy** if alarm signs or PPI failure. If EGD shows erosive esophagitis (LA grade C/D) or Barrett esophagus, this confirms GERD; treat and follow guidelines for surveillance (Barrett esophagus).",
+    "If endoscopy is normal but reflux is still suspected, do **24h pH monitoring** off therapy to confirm abnormal acid exposure. Concurrent impedance can detect non-acid reflux if symptoms persist despite acid control.",
+    "Once GERD is confirmed, manage with appropriate long-term strategy: lifestyle measures for all, medication (step-up or step-down therapy depending on severity), and surgical referral if needed for refractory disease or patient preference."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/GERD.png",
+      "alt": "Illustration of acid reflux (GERD) where stomach contents flow back into the esophagus due to a lax lower esophageal sphincter.",
+      "credit": { "text": "image credit", "href": "https://commons.wikimedia.org/wiki/File:GERD.png" }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old obese man has had burning chest pain after meals for 5 years, often waking him at night. He's used antacids regularly. Now he reports difficulty swallowing solid foods and unintentional weight loss.",
+      "clues": ["Chronic heartburn symptoms", "Long history, inadequate treatment", "Progressive dysphagia to solids", "Weight loss"],
+      "answer": "Esophageal adenocarcinoma (from Barrett esophagus due to long-standing GERD)",
+      "teaching": "Long-standing GERD can cause Barrett metaplasia, which predisposes to dysplasia and adenocarcinoma. New dysphagia and weight loss are alarm signs; an endoscopy is indicated and in this case showed a malignant stricture."
+    },
+    {
+      "stem": "A 4‑month‑old infant spits up after every feeding but is thriving with normal weight gain. The parents are worried. Exam is normal, and the baby is content after spitting up without signs of pain.",
+      "clues": ["Young infant, frequent spit-ups", "Normal growth", "No distress", "Happy spitter"],
+      "answer": "Physiologic infant gastroesophageal reflux (\"happy spitter\")",
+      "teaching": "Frequent spitting up in young infants is common due to an immature lower esophageal sphincter. If the infant is feeding well, gaining weight, and not irritable, this is likely benign GER (not GERD). Managing with smaller, frequent feeds and keeping infant upright after feeding is usually all that's needed. Most infants outgrow this by ~12 months."
+    }
+  ],
+  "see_also": [
+    "barrett-esophagus",
+    "peptic-ulcer-disease",
+    "achalasia",
+    "zollinger-ellison-syndrome",
+    "helicobacter-pylori-infection"
+  ],
+  "prerequisites": [
+    "gi-physiology",
+    "esophagus",
+    "pharmacology-acid-reducers"
+  ],
+  "sources": [
+    {
+      "title": "ACG Clinical Guideline: Diagnosis and Management of GERD (Katz et al., 2022)",
+      "url": "https://journals.lww.com/ajg/Fulltext/2022/01000/ACG_Clinical_Guideline_for_the_Diagnosis_and.14.aspx"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of GERD in adults",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-gastroesophageal-reflux-in-adults"
+    },
+    {
+      "title": "NASPGHAN/ESPGHAN Pediatric GERD Guidelines (2018) – summary (Medscape)",
+      "url": "https://emedicine.medscape.com/article/930029-guidelines"
+    },
+    {
+      "title": "NIDDK (NIH): GERD in Adults – Definition & Facts (2020)",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/acid-reflux-ger-gerd-adults"
+    },
+    {
+      "title": "Pulmonary manifestations of GERD (Gaude, Ann Thorac Med 2009)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2714564/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

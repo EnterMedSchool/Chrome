@@ -1,0 +1,94 @@
+{
+  "id": "lesch-nyhan-syndrome",
+  "names": ["Lesch-Nyhan syndrome"],
+  "aliases": ["Lesch-Nyhan disease", "HGPRT deficiency", "HPRT1 deficiency"],
+  "abbr": ["LNS"],
+  "patterns": ["lesch nyhan", "lesch-nyhan syndrome", "lesch nyhan disease", "hgprt deficiency", "hprt deficiency"],
+  "primary_tag": "genetics",
+  "tags": ["genetics", "neuro", "peds"],
+  "definition": "X‑linked recessive **HGPRT** enzyme deficiency that blocks purine salvage, causing **hyperuricemia** (↑uric acid) with early-onset **gout**, **neurologic disability**, and compulsive **self‑mutilation**.",
+  "why_it_matters": "Classic inborn error linking **metabolism** and **neurology** – a high-yield example of how a single enzyme defect (HGPRT) leads to gout in a child with severe neurobehavioral issues (self-harm). Often tested on exams as a biochemistry-genetics tie-in.",
+  "how_youll_see_it": [
+    "**Almost exclusively in infant boys** (X-linked): hypotonia and developmental delay in infancy; by toddler age, they exhibit **self-biting** (fingers, lips) and other self-injury (e.g., head banging).",
+    "**Neurologic**: dystonia, choreoathetosis, spasticity, and intellectual disability. They usually cannot walk (wheelchair-bound); speech is often impaired.",
+    "**Uric acid overproduction**: causes **orange \"sand\"** (sodium urate crystals) in diapers during infancy, early **kidney stones** or hematuria, and pediatric **gouty arthritis** or tophi."
+  ],
+  "problem_solving": [
+    "Suspect LNS in a male child with the triad of **hyperuricemia**, **neurologic dysfunction**, and **self-injurious behavior**. Check serum/urine **uric acid** levels (typically very high).",
+    "Confirm diagnosis via **HPRT1 gene** mutation testing or an **HGPRT enzyme assay** (near-absence of HGPRT activity <2% is diagnostic).",
+    "Differentiate from partial HGPRT deficiency (Kelley-Seegmiller syndrome) which causes hyperuricemia and early gout but **no neurologic symptoms or self-mutilation**.",
+    "Screen for complications: renal ultrasound for **uric acid stones** if flank pain or hematuria; evaluate joints for gouty tophi or arthritis."
+  ],
+  "differentials": [
+    { "name": "Kelley-Seegmiller syndrome", "hint": "partial HGPRT activity → gouty arthritis and hyperuricemia without self-mutilation" },
+    { "name": "Autism or severe intellectual disability", "hint": "self-biting behavior but **no hyperuricemia/gout**; not X-linked" },
+    { "name": "Congenital insensitivity to pain", "hint": "self-injury due to no pain sensation; no neurologic deficits or uric acid excess" }
+  ],
+  "tricks": [
+    "Mnemonic: **HGPRT** features → **H**yperuricemia, **G**out, **P** (aggressive self-harm), **R** (intellectual disability), **T** (dysTonia).",
+    "Remember **orange crystals in diaper** = urate (think Lesch-Nyhan in a baby boy).",
+    "A young child with gout or kidney stones (\"juvenile gout\") is a big clue – consider HGPRT deficiency."
+  ],
+  "exam_appearance": [
+    "Toddler boy with developmental delay who bites his fingers and lips, has spastic movements, and signs of **gout** (swollen toe or kidney stone) → Lesch-Nyhan syndrome.",
+    "Biochemistry question: absent HGPRT → can't salvage hypoxanthine/guanine → excess uric acid + ↑**de novo purine synthesis** (↑PRPP amidotransferase). Often answer to \"boy with self-mutilation + gout\"."
+  ],
+  "treatment": [
+    "No cure – **supportive care** only. For hyperuricemia: **allopurinol** (or febuxostat) to reduce uric acid and prevent gout/stone complications; also low-purine diet and hydration.",
+    "**Self-mutilation**: use protective gear (padded restraints, mouth guards) and behavioral interventions; severe cases may need tooth extraction. Medications (e.g., benzodiazepines, baclofen) can be tried for neurologic symptoms.",
+    "Manage spasticity/dystonia with therapy and meds for comfort. Provide multidisciplinary support (neurology, rehab, nutrition) to improve quality of life."
+  ],
+  "red_flags": [
+    "**Severe self-injury** (deep bites) causing bleeding or infection risk – may require urgent intervention (sedation or tooth removal).",
+    "Any **hematuria** or renal colic in LNS → suspect uric acid stones (need prompt management to avoid kidney damage)."
+  ],
+  "algorithm": [
+    "Male infant with neurodevelopmental delays + self-harm → suspect Lesch-Nyhan (especially if **orange crystals** in diapers).",
+    "Check **uric acid**; if elevated, confirm with HPRT1 genetic test or enzyme assay.",
+    "Start **allopurinol** to control uric acid; counsel family on X-linked inheritance.",
+    "Ensure safety: protective measures or dental extractions to prevent self-mutilation.",
+    "Monitor long-term for kidney stones and gout complications; provide supportive neuro care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Head_of_a_youth_with_gouty_tophi_in_both_ears_Wellcome_L0062315.jpg",
+      "alt": "Watercolor (1891) of an 18-year-old with gouty tophi (urate deposits) in both ears.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Head_of_a_youth_with_gouty_tophi_in_both_ears_Wellcome_L0062315.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 3‑year‑old boy with developmental delay has frequent biting of his lips and fingers, causing wounds. His parents recall orange, sand-like crystals in his diapers during infancy. He has spastic movements and cannot walk. Lab tests show very high uric acid levels.",
+      "clues": ["Toddler boy, intellectual disability", "Self-mutilation (lip/finger biting)", "Orange crystals in diaper", "Hyperuricemia, pediatric gout"],
+      "answer": "Lesch-Nyhan syndrome (HGPRT deficiency)",
+      "teaching": "An X-linked HGPRT deficiency leads to Lesch-Nyhan syndrome. Inability to salvage purines causes excess uric acid (juvenile gout, kidney stones) and neurologic dysfunction with self-injury. Treatment is allopurinol for uric acid and supportive care for neurological symptoms and self-harm prevention."
+    }
+  ],
+  "see_also": ["gout"],
+  "prerequisites": ["purine-salvage-pathway", "genetic-inheritance"],
+  "sources": [
+    {
+      "title": "GeneReviews: HPRT1-Related Disorder (Lesch-Nyhan Disease)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1149/"
+    },
+    {
+      "title": "Merck Manual Professional – Purine Salvage Disorders: Lesch-Nyhan Syndrome (2024)",
+      "url": "https://www.merckmanuals.com/professional/pediatrics/inherited-disorders-of-metabolism/purine-salvage-disorders"
+    },
+    {
+      "title": "MedlinePlus Genetics: Lesch-Nyhan syndrome",
+      "url": "https://medlineplus.gov/genetics/condition/lesch-nyhan-syndrome/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

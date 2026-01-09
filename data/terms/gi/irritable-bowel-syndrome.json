@@ -1,0 +1,148 @@
+{
+  "id": "irritable-bowel-syndrome",
+  "names": [
+    "Irritable bowel syndrome"
+  ],
+  "aliases": [
+    "spastic colon",
+    "spastic colitis",
+    "mucous colitis",
+    "nervous colon",
+    "irritable colon"
+  ],
+  "abbr": [
+    "IBS"
+  ],
+  "patterns": [
+    "ibs",
+    "irritable bowel syndrome",
+    "spastic colon",
+    "spastic colitis",
+    "mucous colitis",
+    "irritable colon",
+    "nervous colon"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "psych",
+    "pharmacology"
+  ],
+  "definition": "A chronic functional gastrointestinal disorder (disorder of gut–brain interaction) characterized by recurrent abdominal pain (on average ≥1 day/week) associated with altered bowel habits (diarrhea, constipation, or both) in the absence of organic disease.",
+  "why_it_matters": "IBS is highly prevalent (affecting ~5–15% globally) and can be debilitating, significantly reducing quality of life. It exemplifies the gut–brain axis in medicine and is frequently tested as a common cause of chronic abdominal pain that is benign (no structural pathology) but impactful.",
+  "how_youll_see_it": [
+    "Typically a younger adult (especially female) with ≥6 months of intermittent, crampy lower abdominal pain related to bowel movements (often relief after defecation) and fluctuating stool patterns (periods of diarrhea, constipation, or both). Symptoms often worsen with stress or certain foods, and bloating is a common complaint.",
+    "Despite the chronic symptoms, physical exam is usually normal, and routine lab tests or colonoscopy show no abnormalities. This lack of objective findings helps distinguish IBS (functional) from inflammatory or structural GI diseases.",
+    "IBS is classified by predominant stool type: IBS-D (diarrhea-predominant), IBS-C (constipation-predominant), IBS-M (mixed), or IBS-U (unclassified). Patients may transition between subtypes; many have an alternating pattern (IBS-M)."
+  ],
+  "problem_solving": [
+    "Use a positive diagnosis: if chronic abdominal pain with altered bowel habits meets Rome IV criteria and has no red flags, you can diagnose IBS clinically.",
+    "Perform limited tests to exclude other disorders: for example, in IBS-D patients check celiac disease serology (tTG-IgA); if diarrhea is present, consider fecal calprotectin or CRP to screen for inflammatory bowel disease.",
+    "Always evaluate for alarm features (e.g., weight loss, GI bleeding, anemia, onset after age 50, family history of IBD or colon cancer); any present alarm sign warrants further workup (colonoscopy, imaging) to rule out organic pathology."
+  ],
+  "differentials": [
+    {
+      "name": "Inflammatory bowel disease (Crohn disease, ulcerative colitis)",
+      "hint": "chronic intestinal inflammation → diarrhea with blood, abdominal pain, weight loss; abnormal endoscopic findings (ulcers, erythema) and positive inflammatory markers"
+    },
+    {
+      "name": "Celiac disease",
+      "hint": "gluten-sensitive enteropathy causing malabsorption, weight loss, anemia; positive tTG-IgA serology and villous atrophy on biopsy"
+    },
+    {
+      "name": "Lactose intolerance",
+      "hint": "lactase deficiency leading to bloating and osmotic diarrhea after dairy; positive lactose hydrogen breath test"
+    },
+    {
+      "name": "Microscopic colitis",
+      "hint": "older adults with chronic watery diarrhea; colonoscopy normal but biopsy shows mucosal inflammation (collagenous or lymphocytic colitis)"
+    },
+    {
+      "name": "Bile acid diarrhea",
+      "hint": "post-cholecystectomy or idiopathic bile acid malabsorption → secretory diarrhea (bile acids in colon); improves with bile acid binders (e.g., cholestyramine)"
+    }
+  ],
+  "tricks": [
+    "IBS is a DGBI (disorder of gut–brain interaction)—symptoms are genuine but arise from dysregulated gut–nervous system signaling rather than visible damage.",
+    "No alarm features in IBS: it doesn't cause rectal bleeding, weight loss, anemia, or abnormal imaging. If you see those, suspect an organic disease instead.",
+    "Rome IV requires pain (not just \"discomfort\") ≥1 day/week for IBS diagnosis—a stricter threshold than Rome III (≥3 days/month)."
+  ],
+  "exam_appearance": [
+    "24‑year‑old woman with months of crampy abdominal pain relieved by defecation, alternating constipation and diarrhea, no weight loss or bleeding, and normal colonoscopy → Irritable bowel syndrome (functional bowel disorder).",
+    "30‑year‑old man with chronic postprandial abdominal cramps, urgency, and loose stools, worsened by stress; workup including colonoscopy is normal → IBS (diarrhea-predominant)."
+  ],
+  "treatment": [
+    "Dietary modifications: trial of a low FODMAP diet (limit fermentable carbs) and avoidance of individual triggers (e.g., caffeine, gas-producing foods) often improves symptoms. Adding soluble fiber (psyllium) is beneficial, especially in IBS-C.",
+    "For IBS-D (diarrhea-predominant): use loperamide as needed for symptomatic relief. If bile acid malabsorption is contributing, a bile acid binder (e.g., cholestyramine) can help. In refractory cases, consider rifaximin (nonabsorbable antibiotic that can reduce bloating/diarrhea) or eluxadoline (μ-opioid receptor modulator).",
+    "For IBS-C (constipation-predominant): osmotic laxatives (e.g., PEG) can alleviate constipation (though they don't target pain). In moderate-to-severe cases, prescription secretagogues like lubiprostone or linaclotide stimulate intestinal fluid secretion to ease IBS-C symptoms.",
+    "Pain management: Antispasmodics (e.g., hyoscine, dicyclomine) may provide short-term relief for cramps (limited evidence). Peppermint oil (enteric-coated) is suggested for overall symptom relief and abdominal pain. Low-dose tricyclic antidepressants (e.g., amitriptyline) or SSRIs can reduce visceral pain and improve global symptoms even in non-depressed patients.",
+    "Addressing the brain–gut axis: Gut-directed cognitive behavioral therapy and other psychotherapies can significantly improve IBS symptoms by reducing stress-related triggers. Encourage stress reduction techniques; treat co-morbid anxiety/depression if present, as this often helps GI symptoms."
+  ],
+  "red_flags": [
+    "Unintended weight loss, hematochezia (blood in stool), iron deficiency anemia, or onset of symptoms after age 50 → not typical for IBS (red flags for colon cancer or IBD).",
+    "Nocturnal awakening from pain or diarrhea, or a family history of IBD/colon cancer, should prompt evaluation for an organic GI disease (these features are not explained by IBS)."
+  ],
+  "algorithm": [
+    "Chronic abdominal pain + altered bowel habits → consider IBS.",
+    "Check for alarm features (age >50, blood in stool, weight loss, anemia, family history of IBD/cancer). If yes → perform colonoscopy and appropriate workup to exclude organic disease.",
+    "If no red flags, apply Rome IV criteria: recurrent abdominal pain ≥1 day/week (last 3 months) plus ≥2 of (relation to defecation, change in stool frequency, change in stool form) → consistent with IBS.",
+    "Do limited testing to rule out other diagnoses: e.g., test for celiac disease (tTG-IgA) in IBS-D or mixed cases; check CRP or fecal calprotectin to screen for IBD if diarrhea predominant.",
+    "Make a positive diagnosis of IBS and initiate management: educate and reassure the patient (explain the benign nature of IBS) and tailor treatment to symptoms (diet modifications, fiber, medications for diarrhea/constipation, stress management, etc.)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Depiction_of_a_person_suffering_from_Irritable_Bowel_Syndrome_(IBS).png",
+      "alt": "Depiction of a person with IBS, showing abdominal pain (person clutching stomach) and abnormal colon contractions.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Depiction_of_a_person_suffering_from_Irritable_Bowel_Syndrome_(IBS).png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 24‑year‑old woman reports a 6-month history of intermittent lower abdominal cramps and bloating.",
+      "clues": [
+        "Pain often relieved after defecation",
+        "Alternating constipation and diarrhea",
+        "No blood in stool or weight loss",
+        "Normal physical exam and colonoscopy"
+      ],
+      "answer": "Irritable bowel syndrome",
+      "teaching": "Classic IBS presentation of a functional bowel disorder: chronic abdominal pain with alternating bowel habits but no red flags or abnormal findings. The normal colonoscopy and labs point away from IBD. Management would include diet changes (e.g., low FODMAP), fiber supplementation, and stress reduction with reassurance."
+    }
+  ],
+  "see_also": [
+    "inflammatory-bowel-disease",
+    "diarrhoea",
+    "diverticular-disease",
+    "clostridium-difficile-infection"
+  ],
+  "prerequisites": [
+    "gi-physiology",
+    "enteric-nervous-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Irritable Bowel Syndrome (Nathani et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534810/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of irritable bowel syndrome in adults",
+      "url": "https://www.uptodate.com/contents/irritable-bowel-syndrome-clinical-manifestations-and-diagnosis-in-adults"
+    },
+    {
+      "title": "ACG Clinical Guideline: Management of Irritable Bowel Syndrome (Lacy et al., 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33315591/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

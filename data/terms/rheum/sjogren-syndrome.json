@@ -1,0 +1,137 @@
+{
+  "id": "sjogren-syndrome",
+  "names": ["Sjögren's syndrome"],
+  "aliases": [
+    "Sjögren syndrome",
+    "sicca syndrome",
+    "primary Sjögren syndrome",
+    "secondary Sjögren syndrome"
+  ],
+  "abbr": ["SS", "pSS", "sSS"],
+  "patterns": [
+    "sjogren",
+    "sjögren",
+    "sjogren's",
+    "sicca",
+    "sicca syndrome",
+    "sjogren syndrome",
+    "sjögren's syndrome",
+    "sicca complex"
+  ],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology"],
+  "definition": "Systemic autoimmune disease targeting exocrine glands (especially lacrimal and salivary), causing **dry eyes** (keratoconjunctivitis sicca) and **dry mouth** (xerostomia). Occurs either as a primary disorder or secondary to other autoimmune diseases (e.g., RA, SLE).",
+  "why_it_matters": "Common in middle-aged women (female:male ~9:1) and often coexists with other rheumatic diseases. Chronic **sicca** symptoms impair quality of life (corneal damage, dental caries) and extraglandular involvement can affect multiple organs. Notably, Sjögren's significantly increases risk of **B-cell lymphoma** (e.g., parotid MALT lymphoma), making early recognition and monitoring crucial.",
+  "how_youll_see_it": [
+    "**Sicca symptoms**: Dry, gritty eyes (burning, foreign body sensation) and dry mouth (difficulty swallowing dry foods, needing water to swallow, dental caries, oral thrush). Patients often have **bilateral parotid gland enlargement** due to lymphocytic infiltration of salivary glands.",
+    "**Systemic features**: Fatigue and arthralgias are common. Can also see **Raynaud phenomenon**, cutaneous vasculitis (palpable purpura), **bronchitis/ILD** (chronic cough or dyspnea), peripheral neuropathy, and renal involvement like type I **renal tubular acidosis** (distal RTA).",
+    "**Secondary SS**: Suspect in patients with established autoimmune diseases (especially **rheumatoid arthritis** or **lupus**) who develop new sicca symptoms beyond what medications or aging would explain."
+  ],
+  "problem_solving": [
+    "Confirm objective dryness: perform a **Schirmer test** for tear production (≤5 mm wetting in 5 min indicates deficient tears) and assess salivary output (sialometry or salivary gland scintigraphy). If diagnosis remains uncertain, a **labial salivary gland biopsy** showing focal lymphocytic sialadenitis (focus score ≥1) can confirm Sjögren's.",
+    "Check autoantibodies: **ANA** and **RF** are often positive, and specific **anti-Ro/SSA** (± **anti-La/SSB**) antibodies strongly support the diagnosis. These autoantibodies have high specificity, though a subset of patients may be seronegative. Consider other labs (CBC, ESR, complement levels, immunoglobulins) to evaluate systemic involvement and lymphoma risk (e.g., high ESR, low C4, cryoglobulins).",
+    "Apply classification criteria if needed: The ACR/EULAR 2016 criteria assign points for a positive lip biopsy or SSA antibody (3 points each) and objective ocular or oral tests (1 point each). A total score ≥4 (with compatible symptoms and no exclusion conditions) meets criteria for primary SS. Always **exclude other causes** of sicca before diagnosing (e.g., anticholinergic medications, prior head/neck radiation, chronic HCV or HIV infection, sarcoidosis, IgG4 disease).",
+    "Differentiate primary vs secondary: Primary SS occurs alone, whereas secondary SS arises in the setting of another connective tissue disease (like RA, SLE). This distinction guides management (treating the underlying disease in secondary SS) but both forms receive similar symptomatic care for dryness.",
+    "Assess and monitor extraglandular disease: Evaluate for organ involvement if systemic signs are present (e.g., renal panel and urinalysis for RTA, pulmonary imaging for lung symptoms). Regularly monitor for red flags such as unilateral gland swelling or lymph node enlargement that could signal lymphoma."
+  ],
+  "differentials": [
+    {
+      "id": "rheumatoid-arthritis",
+      "hint": "Inflammatory arthritis that can have secondary sicca; look for joint erosions and positive RF/anti-CCP"
+    },
+    {
+      "id": "systemic-lupus-erythematosus",
+      "hint": "Multi-system autoimmune disease (malar rash, nephritis, etc.) that can overlap with Sjögren (secondary SS)"
+    },
+    {
+      "id": "sarcoidosis",
+      "hint": "Granulomatous disease that can infiltrate glands (Heerfordt syndrome: uveitis + parotid swelling); differentiate by **noncaseating granulomas** on biopsy"
+    }
+  ],
+  "tricks": [
+    "Think **Sjögren = SS-A & SS-B**: Sjögren syndrome is characteristically associated with **anti-SSA (Ro)** and **anti-SSB (La)** antibodies (tip: the \"SS\" in their names matches Sjögren Syndrome).",
+    "Classic patient complaint: \"Feels like sand in my eyes and I need water to swallow crackers.\" This vividly describes **keratoconjunctivitis sicca** (gritty dry eyes) and **xerostomia** (dry mouth causing difficulty eating dry food).",
+    "Chronic B-cell stimulation in SS underlies a 5–10% lifetime risk of **non-Hodgkin lymphoma** (often MALT type in parotid). Suspect lymphoma if a usually symmetric parotid enlargement becomes **unilateral** and persistent or if systemic **B symptoms** develop.",
+    "**Anti-SSA** antibodies in a pregnant patient can cross the placenta and cause **neonatal lupus** in the newborn (especially congenital heart block). Remember this if your patient with Sjögren (or lupus) is expecting."
+  ],
+  "exam_appearance": [
+    "Middle-aged woman with chronic dry eyes (uses eye drops), dry mouth (difficulty swallowing crackers, dental caries), and bilateral parotid enlargement → **Primary Sjögren syndrome** (sicca complex with gland enlargement).",
+    "Patient with long-standing rheumatoid arthritis who now has gritty eye sensation and dry mouth → **Secondary Sjögren syndrome** (sicca symptoms on background of RA).",
+    "Patient with known Sjögren's who develops a persistent firm enlargement of one parotid gland and unintentional weight loss → suspect **MALT lymphoma** arising from Sjögren (requires biopsy)."
+  ],
+  "treatment": [
+    "**Local symptomatic care** for dryness is first-line: frequent **artificial tears** for dry eyes (preservative-free drops or topical cyclosporine for severe cases); for dry mouth, encourage hydration, sugar-free gum/lozenges, and saliva substitutes. Muscarinic agonists like **pilocarpine** or **cevimeline** can stimulate saliva if some gland function remains.",
+    "**Dental and eye protection**: Emphasize good oral hygiene and regular dental care (to prevent caries/infections) and routine ophthalmologic monitoring for corneal damage. In refractory dry eye, consider punctal occlusion (plugs or cautery) or topical autologous serum tears.",
+    "**Systemic therapy**: If significant extraglandular involvement (e.g., arthritis, vasculitis, lung or kidney disease), use immunomodulators. **Hydroxychloroquine** is often given for fatigue and arthralgias. For more severe organ involvement, steroid-sparing immunosuppressants (e.g., methotrexate, azathioprine, mycophenolate) or B-cell targeted therapy like **rituximab** may be used. Corticosteroids can help acute flares but long-term use is limited. There is no cure, so management focuses on symptom control and preventing complications."
+  ],
+  "red_flags": [
+    "New **unilateral gland swelling**, lymphadenopathy, or B symptoms (fever, weight loss, night sweats) in a patient with Sjögren's → concern for **lymphoma** (requires prompt evaluation with imaging and biopsy).",
+    "Pregnancy in a woman with anti-SSA antibodies → risk of **fetal heart block** (neonatal lupus). Such patients need high-risk obstetric care with serial fetal echocardiography to catch developing heart block early."
+  ],
+  "algorithm": [
+    "Chronic dry eyes and/or dry mouth >3 months (especially in a woman in her 40s–50s) → suspect Sjögren syndrome (sicca syndrome).",
+    "Initial workup: perform a **Schirmer test** for tear production and check Sjögren serologies (**ANA, RF, SSA, SSB**). Also review medications and screen for Hepatitis C or HIV to exclude other causes of dryness.",
+    "If initial tests support Sjögren (e.g., positive SSA) or clinical suspicion remains high, confirm the diagnosis by either **minor salivary gland biopsy** (lymphocytic sialadenitis with focus score ≥1) or by fulfilling classification criteria (score ≥4 on ACR/EULAR 2016 criteria).",
+    "Classify as **primary SS** if it occurs alone or **secondary SS** if coexisting with another autoimmune disease (RA, SLE). Treat all patients' sicca symptoms and ensure the underlying disease in secondary SS is optimally managed.",
+    "After diagnosis: counsel on oral and eye care, initiate appropriate dryness treatments (tears, saliva substitutes, etc.), and monitor over time for extraglandular manifestations or lymphoma red flags."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sjogrens_Syndrome.jpg",
+      "alt": "Illustration of Sjögren syndrome showing key features: inflamed salivary (parotid) glands, red dry eyes, and a cracked tongue indicating dry mouth.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Sjogrens_Syndrome.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old woman reports 8 months of dry, itchy eyes and a dry mouth. She says, \"I have to sip water constantly, especially to eat crackers.\" She also notes frequent dental cavities despite good hygiene. Exam shows bilateral parotid gland swelling, dry oral mucosa, and dull conjunctivae. Blood tests are positive for ANA and anti‑SSA antibodies.",
+      "clues": [
+        "Chronic dry eyes (gritty sensation)",
+        "Needs water to swallow dry food",
+        "Multiple dental caries",
+        "Bilateral parotid enlargement",
+        "Positive anti-SSA (Ro) antibody"
+      ],
+      "answer": "Primary Sjögren syndrome",
+      "teaching": "Autoimmune lymphocytic destruction of salivary and lacrimal glands leads to **keratoconjunctivitis sicca** and **xerostomia** in this middle-aged woman. This is classic **primary Sjögren syndrome** (not secondary to another disease). Diagnosis is confirmed by positive anti-SSA/SSB or salivary gland biopsy. Management is focused on symptomatic relief (tear and saliva substitutes, muscarinic agonists) and immunosuppression for systemic features; also monitor for lymphoma."
+    }
+  ],
+  "see_also": [
+    "rheumatoid-arthritis",
+    "systemic-lupus-erythematosus",
+    "non-hodgkin-lymphoma"
+  ],
+  "prerequisites": [
+    "immunology",
+    "autoimmunity"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Sjögren Syndrome (Carsons & Blum, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK431049/"
+    },
+    {
+      "title": "UpToDate: Diagnosis and classification of Sjögren's disease",
+      "url": "https://www.uptodate.com/contents/diagnosis-and-classification-of-sjogrens-disease"
+    },
+    {
+      "title": "NEJM: Primary Sjögren's Syndrome (Mariette & Criswell, 2018)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29514072/"
+    },
+    {
+      "title": "ACR/EULAR 2016 Classification Criteria for Primary Sjögren's (Shiboski et al., Arthritis Rheumatol, 2017)",
+      "url": "https://doi.org/10.1002/art.39859"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

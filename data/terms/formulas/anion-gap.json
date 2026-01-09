@@ -1,0 +1,108 @@
+{
+  "id": "anion-gap",
+  "names": ["Anion Gap", "AG", "Serum Anion Gap"],
+  "aliases": ["AG", "anion gap acidosis"],
+  "patterns": [
+    "anion gap",
+    "AG",
+    "serum anion gap",
+    "high anion gap",
+    "normal anion gap",
+    "HAGMA",
+    "NAGMA"
+  ],
+  "level": "formula",
+  "primary_tag": "renal",
+  "tags": ["nephrology", "renal", "acid-base", "emergency"],
+  "formula": {
+    "expression": "sodium - (chloride + bicarbonate)",
+    "latex": "\\text{AG} = \\text{Na}^+ - (\\text{Cl}^- + \\text{HCO}_3^-)",
+    "unit": "mEq/L"
+  },
+  "inputs": [
+    {
+      "id": "sodium",
+      "label": "Sodium (Na⁺)",
+      "unit": "mEq/L",
+      "type": "number",
+      "min": 100,
+      "max": 180,
+      "default": 140,
+      "step": 1
+    },
+    {
+      "id": "chloride",
+      "label": "Chloride (Cl⁻)",
+      "unit": "mEq/L",
+      "type": "number",
+      "min": 70,
+      "max": 130,
+      "default": 104,
+      "step": 1
+    },
+    {
+      "id": "bicarbonate",
+      "label": "Bicarbonate (HCO₃⁻)",
+      "unit": "mEq/L",
+      "type": "number",
+      "min": 5,
+      "max": 40,
+      "default": 24,
+      "step": 1
+    }
+  ],
+  "interpretation": [
+    {"range": [8, 12], "label": "Normal", "color": "green", "description": "Normal anion gap (8-12 mEq/L)"},
+    {"range": [13, 20], "label": "Elevated", "color": "yellow", "description": "Mildly elevated - consider causes"},
+    {"range": [21, null], "label": "High", "color": "red", "description": "High anion gap acidosis - investigate MUDPILES"}
+  ],
+  "visualization": {
+    "type": "gauge",
+    "min": 0,
+    "max": 40,
+    "highlight_variable": "bicarbonate"
+  },
+  "definition": "The **anion gap** represents the difference between measured cations (Na⁺) and measured anions (Cl⁻ + HCO₃⁻). It reflects unmeasured anions in the blood (albumin, phosphate, sulfate, organic acids). An elevated anion gap indicates accumulation of unmeasured acids.",
+  "clinical_usage": [
+    "**Classify metabolic acidosis**: High AG vs Normal AG (hyperchloremic)",
+    "**Identify underlying cause**: MUDPILES causes produce unmeasured acids",
+    "**Monitor treatment response**: AG should normalize with appropriate therapy",
+    "**Detect mixed disorders**: Use delta-delta ratio"
+  ],
+  "pearls": [
+    "**MUDPILES** mnemonic for high AG acidosis: Methanol, Uremia, DKA, Propylene glycol, INH/Iron, Lactic acidosis, Ethylene glycol, Salicylates",
+    "**HARDUPS** for normal AG acidosis: Hyperalimentation, Acetazolamide/Addison's, RTA, Diarrhea, Ureterosigmoidostomy, Pancreatic fistula, Saline infusion",
+    "Correct for hypoalbuminemia: For every 1 g/dL ↓ albumin, add 2.5 to expected AG",
+    "Normal AG = 12 ± 4 (varies by lab; some use 8-12)",
+    "**Delta-delta ratio** = ΔAG / ΔHCO₃ → helps identify mixed disorders"
+  ],
+  "related_formulas": [
+    {
+      "name": "Corrected Anion Gap",
+      "formula": "AG + 2.5 × (4.0 - albumin)",
+      "description": "Adjusts for low albumin levels"
+    },
+    {
+      "name": "Delta Ratio",
+      "formula": "(AG - 12) / (24 - HCO₃)",
+      "description": "Ratio <1 suggests concurrent NAGMA; >2 suggests concurrent metabolic alkalosis"
+    }
+  ],
+  "see_also": ["metabolic-acidosis", "metabolic-alkalosis", "diabetic-ketoacidosis", "lactic-acidosis"],
+  "sources": [
+    {
+      "title": "Berend K, et al. Physiological Approach to Assessment of Acid-Base Disturbances. N Engl J Med. 2014;371:1434-45",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1003327"
+    },
+    {
+      "title": "Kraut JA, Madias NE. Serum Anion Gap: Its Uses and Limitations. Clin J Am Soc Nephrol. 2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17699401/"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

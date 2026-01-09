@@ -1,0 +1,96 @@
+{
+  "id": "angelman-syndrome",
+  "names": ["Angelman syndrome"],
+  "aliases": ["Happy puppet syndrome"],
+  "abbr": ["AS"],
+  "patterns": ["angelman syndrome", "angelman", "happy puppet syndrome", "happy puppet"],
+  "primary_tag": "peds",
+  "tags": ["peds", "genetics", "neuro"],
+  "definition": "Neurogenetic disorder caused by loss of the **maternal** *UBE3A* gene (15q11–13) due to genomic imprinting; characterized by severe developmental delay, **absent speech**, ataxic gait, **seizures**, and an inappropriately happy demeanor.",
+  "why_it_matters": "Classic example of **genomic imprinting** in human disease (maternal gene lost). Recognizing Angelman syndrome in a nonverbal, ataxic child with unusual happy affect prevents misdiagnosis (e.g., as **autism** or **cerebral palsy**) and prompts appropriate genetic testing and support.",
+  "how_youll_see_it": [
+    "Developmental delays evident by 6–12 months; by age 2, **intellectual disability** is severe and speech is minimal (often <5 words). Often **microcephaly** develops by age 2.",
+    "Gait is **ataxic** and jerky (sometimes described as \"puppet-like\"); may have tremors and hand-flapping movements.",
+    "Unique happy, excitable demeanor with frequent smiling/laughter. **Hand-flapping**, hyperactivity, and short attention span are common; sleep disturbances (short sleep) also occur.",
+    "**Seizures** occur in ~80% (often onset by 2–3 years); **EEG** shows characteristic high-amplitude slow spike waves even without clinical seizures.",
+    "Other features: tend to have fair skin/light-colored hair (if chromosome 15 deletion includes the *OCA2* pigment gene), and scoliosis can develop in adolescence."
+  ],
+  "problem_solving": [
+    "Suspect Angelman in a child with the combination of **profound developmental delay**, lack of speech, ataxia, and inappropriate laughter (especially if **microcephaly** or seizures are present).",
+    "Confirm diagnosis with genetic testing: first-line is **DNA methylation analysis** of 15q11–13 region (detects maternal deletions or uniparental disomy). If initial testing is negative but clinical suspicion remains high, perform *UBE3A* gene sequencing (to detect mutations) or imprinting center analysis.",
+    "An abnormal **EEG** (with diffuse slow-spike waves) can support the diagnosis even before seizures occur. Early genetic confirmation allows for tailored therapy and family counseling (most cases are de novo with low recurrence risk)."
+  ],
+  "differentials": [
+    { "name": "Autism spectrum disorder", "hint": "lacks the ataxia and constant happy demeanor; ASDs have social/communication deficits without a specific genetic imprinting cause" },
+    { "name": "Cerebral palsy", "hint": "static motor impairment (often due to perinatal brain injury); does not cause inappropriate laughter or progressive features like seizures" },
+    { "name": "Rett syndrome", "hint": "X-linked neurodevelopmental regression in girls (MECP2 mutation) with hand-wringing, deceleration of head growth, and autistic features" }
+  ],
+  "tricks": [
+    "Mnemonic: **MAMA** – **Ma**ternal gene deleted in **A**ngel**Ma**n (vs paternal deletion in Prader-Willi). Remember: **no MAMA, no laughter** (Angelman).",
+    "Historical term: **\"happy puppet\" syndrome** describes the inappropriate laughter and puppet-like ataxic gait (outdated term but a classic board reference)."
+  ],
+  "exam_appearance": [
+    "A toddler with **developmental delay**, absent speech, frequent laughter, **hand-flapping**, an unsteady gait, and **seizures** → Angelman syndrome.",
+    "Genetics question: **maternal 15q11–13 deletion** (loss of *UBE3A* maternal allele) with only paternal allele active (imprinted) → Angelman (contrast with paternal deletion → Prader-Willi)."
+  ],
+  "treatment": [
+    "No cure – management is supportive and multidisciplinary.",
+    "**Anti-seizure medications** to control epilepsy (commonly needed long-term; e.g., levetiracetam or valproate; avoid meds that may exacerbate seizures).",
+    "**Therapies:** physical and occupational therapy for ataxia and motor skills; speech therapy focusing on nonverbal communication (sign language, communication devices) since spoken language is minimal.",
+    "Behavioral therapy for hyperactivity; consider **melatonin** or other sleep aids for sleep disturbances.",
+    "Family support and **genetic counseling** (educate that most cases are de novo mutations or imprinting errors, hence low recurrence in siblings)."
+  ],
+  "red_flags": [
+    "Diagnosis of **autism** or **cerebral palsy** that doesn't fully fit (e.g., child is overly happy, has ataxia or microcephaly) → consider Angelman syndrome and pursue genetic testing.",
+    "Angelman patients normally have a happy affect; if an Angelman child shows persistent irritability or pain behavior, investigate for an underlying medical issue (they may not communicate pain well)."
+  ],
+  "algorithm": [
+    "Global developmental delay noted in infancy → perform thorough evaluation (don't assume idiopathic autism).",
+    "If **happy demeanor** + **ataxia** + absent speech are present → suspect Angelman → order genetic testing (e.g., methylation study or microarray for 15q11–13).",
+    "If initial genetic test is **positive** for maternal 15q deletion or UBE3A defect → confirm Angelman diagnosis; if **negative** but clinical suspicion remains → proceed to UBE3A sequencing or specialized imprinting tests.",
+    "After diagnosis: address medical issues (start anti-epileptic therapy if seizures, monitor for scoliosis, etc.), and begin early intervention (PT/OT, communication therapy).",
+    "Coordinate multidisciplinary care (neurology, genetics, therapy services) and provide ongoing support for behavior, sleep, and developmental needs."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/5-year-old_Mexican_girl_with_Angelman_syndrome_(cropped).png",
+      "alt": "5-year-old girl with Angelman syndrome (happy expression, wide mouth) and her hand features (broad thumbs, deep creases).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:5-year-old_Mexican_girl_with_Angelman_syndrome_(cropped).png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 2-year-old girl is evaluated for developmental delay. She cannot speak any words and has an unsteady, ataxic gait. She frequently smiles and laughs for no apparent reason and often flaps her hands when excited. She has a history of seizures. On exam, her head circumference is below the 5th percentile.",
+      "clues": ["No speech development", "Frequent inappropriate laughter", "Ataxic \"puppet-like\" gait", "History of seizures", "Microcephaly"],
+      "answer": "Angelman syndrome",
+      "teaching": "This presentation of severe developmental delay, absent speech, ataxia, seizures, and an overly happy demeanor is classic for Angelman syndrome. It results from loss of the maternal UBE3A gene on chromosome 15 (imprinting), leading to absence of that gene's function in the brain."
+    }
+  ],
+  "see_also": ["prader-willi-syndrome", "down-syndrome"],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Angelman Syndrome (Madaan & Mendez, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560870/"
+    },
+    {
+      "title": "GeneReviews: Angelman Syndrome (Dagli et al., 2021)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1144/"
+    },
+    {
+      "title": "MedlinePlus Genetics: Angelman syndrome (NLM)",
+      "url": "https://medlineplus.gov/genetics/condition/angelman-syndrome/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "id": "myasthenia-gravis",
+  "names": [
+    "Myasthenia gravis"
+  ],
+  "aliases": [],
+  "abbr": [
+    "MG"
+  ],
+  "patterns": [
+    "myasthenia gravis",
+    "myasthenia",
+    "mg"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "pharmacology"
+  ],
+  "definition": "Autoimmune neuromuscular junction disorder characterized by **fatigable** skeletal muscle weakness (worsens with activity, improves with rest) due to autoantibodies against nicotinic acetylcholine receptors (AChRs) or related proteins at the motor endplate.",
+  "why_it_matters": "Classic example of an autoimmune neuromuscular disease that frequently appears on exams for its hallmark **fatigability** (e.g., ptosis that worsens with use and improves with rest or an ice pack). Recognizing MG is crucial because treatments (acetylcholinesterase inhibitors, immunosuppressants) can dramatically improve weakness, and unmanaged MG can progress to life-threatening **myasthenic crisis** (respiratory failure).",
+  "how_youll_see_it": [
+    "Typically presents with **painless, fluctuating weakness** of specific muscle groups. Common early features are **ptosis** (droopy eyelids) and **diplopia** (double vision) from extraocular muscle weakness. Bulbar involvement (fatigable slurred speech, nasal voice, difficulty chewing or swallowing) and proximal limb weakness are also often seen.",
+    "Symptoms characteristically worsen with sustained activity (weakness increases by day's end or after exercise) and improve after rest. After a period of rest (or with the **ice pack test** applied to the eyelid), muscle strength temporarily returns. Reflexes and sensation remain **normal** in MG, which helps distinguish it from neuropathies or CNS disorders.",
+    "Can occur at any age, but shows a bimodal pattern: younger adult women are more often affected (sometimes with other autoimmune diseases), while men >50 may develop MG especially if a **thymoma** is present. Always suspect MG in patients with fluctuating muscle weakness, particularly if they have thymic enlargement or other autoimmune conditions."
+  ],
+  "problem_solving": [
+    "Bedside tests: an **ice pack test** (cooling the eyelid for a few minutes) will improve ptosis in MG, supporting the diagnosis. Historically, the **edrophonium (Tensilon) test** was used to transiently reverse weakness by inhibiting acetylcholinesterase (a dramatic short-lived improvement indicated MG, though this test is now rarely used due to side effects).",
+    "Serologic confirmation: check for **acetylcholine receptor (AChR) antibodies** (present in ~85% of generalized MG) and **MuSK antibodies** (~5–10% of cases, especially if AChR antibodies are negative). If both are negative (seronegative MG), other antibodies (LRP4) or specialized tests may be considered.",
+    "Electrodiagnostics: perform **repetitive nerve stimulation** studies, which in MG show a characteristic **decremental** response (muscle action potentials drop in amplitude with repeated stimulation). A **single-fiber EMG** is even more sensitive, demonstrating increased jitter (variable neuromuscular transmission time) in muscle fibers.",
+    "Imaging: obtain a chest CT or MRI in all MG patients to look for a **thymoma** or thymic hyperplasia. About 10–15% of MG patients have a thymoma, and its removal can improve symptoms. Thymic hyperplasia (enlarged thymus) is common in early-onset MG even without a tumor.",
+    "In patients with significant weakness, especially if hospitalized, monitor **pulmonary function** (e.g., vital capacity) to catch impending respiratory failure early (critical in preventing full myasthenic crisis)."
+  ],
+  "differentials": [
+    {
+      "id": "lambert-eaton-myasthenic-syndrome",
+      "hint": "**Improves** with exercise; hyporeflexia and autonomic symptoms present; often a paraneoplastic syndrome (small-cell lung cancer) affecting presynaptic Ca²⁺ channels."
+    },
+    {
+      "name": "Botulism",
+      "hint": "Descending paralysis with **pupillary involvement** (fixed dilated pupils) and autonomic dysfunction; history of contaminated food or wound (toxin exposure)."
+    },
+    {
+      "name": "Amyotrophic lateral sclerosis (ALS)",
+      "hint": "Mixed UMN/LMN disease with progressive weakness, muscle atrophy, and **hyperreflexia/spasticity** (no fluctuation or improvement with rest). Often involves bulbar and limb muscles but lacks the fatigability pattern."
+    }
+  ],
+  "tricks": [
+    "MG gets **weaker with more use** (muscle fatigue), whereas **Lambert-Eaton** syndrome gets stronger with use (facilitation) – a high-yield distinction.",
+    "Quick clue: the **ice pack test** improves ptosis in MG because cooling inhibits acetylcholinesterase, increasing ACh availability at the NMJ.",
+    "Avoid drugs that worsen MG: for example, **aminoglycoside** antibiotics, fluoroquinolones, beta-blockers, and magnesium can precipitate severe weakness (use cautiously or not at all in MG patients)."
+  ],
+  "exam_appearance": [
+    "Young woman with intermittent ptosis and diplopia that worsen in the evening and improve after rest (or an ice pack on the eyelid) → Myasthenia gravis.",
+    "Older man with fatigueable dysphagia, slurred speech, and fluctuating limb weakness, plus an anterior mediastinal mass on chest imaging → Myasthenia gravis (associated with thymoma).",
+    "MG patient with pneumonia who develops sudden respiratory failure requiring intubation → **Myasthenic crisis** (exacerbation of MG leading to diaphragmatic weakness)."
+  ],
+  "treatment": [
+    "Symptomatic therapy: **acetylcholinesterase inhibitors** (e.g., pyridostigmine) provide more ACh at the NMJ to improve muscle strength (first-line for symptom relief).",
+    "Chronic immunomodulation: start **corticosteroids** (e.g., prednisone) if needed for moderate to severe MG; add steroid-sparing immunosuppressants (azathioprine, mycophenolate mofetil, etc.) for long-term disease control in refractory cases.",
+    "**Thymectomy**: surgical removal of the thymus is indicated in all patients with a thymoma and is recommended in generalized AChR-antibody positive MG (typically <60 years old) even if no thymoma, as it can significantly improve outcomes or induce remission.",
+    "Acute exacerbation (myasthenic crisis): secure the airway and use **plasmapheresis** or **IVIG** for rapid treatment (these remove or neutralize antibodies to quickly restore strength). Avoid or hold cholinesterase inhibitors during crisis if intubated (to reduce secretions) and address triggers (e.g., infection)."
+  ],
+  "red_flags": [
+    "**Myasthenic crisis** – an MG flare causing severe respiratory muscle weakness (look for shallow breathing, CO₂ retention, inability to clear secretions). This is a medical emergency requiring ICU care (intubation + plasmapheresis or IVIG). Infections, surgery, or medication noncompliance often precipitate it.",
+    "Difficulty swallowing or speaking (bulbar weakness) in MG can quickly lead to aspiration or airway compromise. Such symptoms warrant urgent evaluation and often hospital admission to prevent respiratory failure."
+  ],
+  "algorithm": [
+    "Suspect MG in a patient with exertional, fluctuating muscle weakness (e.g., ptosis or limb weakness that worsens with activity).",
+    "Perform quick confirmatory tests: an **ice pack test** for ptosis or an edrophonium test if available (positive if strength improves). Send serum antibodies for **AChR (± MuSK)**.",
+    "If antibody tests are negative, proceed with electrophysiology: repetitive nerve stimulation or single-fiber **EMG** to verify neuromuscular transmission defect.",
+    "Once MG is diagnosed, obtain **chest imaging** to check for thymoma (present in a subset of patients).",
+    "Begin treatment: start **pyridostigmine** for symptom control; add immunosuppressive therapy (corticosteroids as first-line) if needed for persistent symptoms. Plan **thymectomy** if a thymoma is present (or in generalized AChR+ MG as per guidelines).",
+    "Educate patient to avoid precipitating drugs and to promptly treat infections. Ensure close monitoring of respiratory status during any MG exacerbation and have a plan for urgent intervention to prevent crisis."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Acetyl_choline_deficiencies_in_Myasthenia_gravis.svg/2280px-Acetyl_choline_deficiencies_in_Myasthenia_gravis.svg.png",
+      "alt": "Diagram of the neuromuscular junction in myasthenia gravis; autoantibodies (red) block acetylcholine receptors on the muscle fiber, preventing normal contraction.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Acetyl_choline_deficiencies_in_Myasthenia_gravis.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old woman reports episodes of drooping eyelids and double vision, especially later in the day.",
+      "clues": [
+        "Symptoms improve after rest or in the morning",
+        "Notable ptosis on prolonged upward gaze",
+        "Ice pack test temporarily relieves the ptosis",
+        "Acetylcholine receptor antibodies are positive"
+      ],
+      "answer": "Myasthenia gravis",
+      "teaching": "Fatigable ocular weakness (ptosis and diplopia) in a young woman is classic for MG. The ice pack test here and the positive AChR antibody confirm the diagnosis. Treatment with pyridostigmine for symptom relief and immunomodulators (like steroids) would be the next step."
+    },
+    {
+      "stem": "A 60‑year‑old man with intermittent difficulty swallowing and a weak, nasal voice is found to have fluctuating proximal weakness on exam.",
+      "clues": [
+        "Weakness worsens by the end of the day",
+        "Chest CT reveals an anterior mediastinal mass",
+        "Edrophonium (Tensilon) test briefly improves his strength",
+        "Anti-AChR antibody test is positive"
+      ],
+      "answer": "Myasthenia gravis (thymoma-associated)",
+      "teaching": "Thymoma can trigger autoimmune MG. This patient's fluctuating bulbar symptoms and limb weakness improving with edrophonium are characteristic. Thymectomy is indicated to remove the tumor, alongside medical therapy (acetylcholinesterase inhibitors and immunosuppression) for MG."
+    }
+  ],
+  "see_also": [
+    "lambert-eaton-myasthenic-syndrome",
+    "botulism",
+    "amyotrophic-lateral-sclerosis",
+    "multiple-sclerosis"
+  ],
+  "prerequisites": [
+    "neuromuscular-junction",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Myasthenia Gravis (Suresh & Asuncion, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559331/"
+    },
+    {
+      "title": "UpToDate: Diagnosis of myasthenia gravis",
+      "url": "https://www.uptodate.com/contents/diagnosis-of-myasthenia-gravis"
+    },
+    {
+      "title": "Medscape: Myasthenia Gravis (Shah, 2023)",
+      "url": "https://emedicine.medscape.com/article/1171206-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

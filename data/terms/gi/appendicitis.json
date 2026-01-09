@@ -1,0 +1,119 @@
+{
+  "id": "appendicitis",
+  "names": ["Appendicitis"],
+  "aliases": ["acute appendicitis", "uncomplicated appendicitis", "complicated appendicitis"],
+  "abbr": [],
+  "patterns": ["appendicitis", "acute appendicitis", "inflamed appendix", "appendix infection"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "surgery", "emerg"],
+  "definition": "It's when the vermiform **appendix** (a small pouch off the colon) becomes acutely inflamed, usually due to a blockage of its opening (often a hard fecal stone called an **appendicolith**). The blockage allows bacteria to overgrow, causing swelling, **infection**, and risk of the appendix **perforating** (bursting).\n\n- **Uncomplicated appendicitis** refers to inflammation without rupture, abscess, or generalized peritonitis. This is the majority of cases and can sometimes be treated non-operatively.\n- **Complicated appendicitis** involves perforation, abscess, gangrene, or phlegmon formation. It often requires more intensive management, sometimes including delayed (interval) surgery after controlling infection.",
+  "why_it_matters": "Appendicitis is one of the most common surgical emergencies worldwide. If not recognized and treated quickly, the inflamed appendix can **perforate**, leading to peritonitis, abscess, sepsis, and even death. Classic appendicitis (with its telltale migratory pain and exam findings) is a must-know scenario for boards and clinical practice. Prompt diagnosis and intervention prevent serious complications and are critical for patient outcomes.",
+  "how_youll_see_it": [
+    "Typically affects older children, teens, or young adults. The classic story is **vague pain near the belly button** that, over several hours, **migrates to the right lower quadrant** (RLQ) as irritation shifts from visceral to parietal peritoneum. Patients often have **anorexia** (no appetite), feel nauseated (sometimes with 1–2 episodes of vomiting), and may have a low-grade fever.",
+    "On exam, the patient often lies still to minimize jostling pain. There is localized tenderness at **McBurney's point** (about one-third the distance from the right hip bone to the navel) with **rebound tenderness** and guarding (signs of peritoneal irritation). Classic special findings include **Rovsing's sign** (RLQ pain when the left side is pressed) and a **psoas sign** (RLQ pain with extension of the right hip or with the patient lifting the right leg against resistance). These signs aren't present in every case, but their presence supports the diagnosis. (Note: In late pregnancy, the appendix is pushed upward by the enlarging uterus, so appendicitis pain may localize to the upper right abdomen instead of the RLQ.)"
+  ],
+  "problem_solving": [
+    "Always perform a **pregnancy test** in women with potential appendicitis to rule out an ectopic pregnancy (a crucial look-alike cause of RLQ pain).",
+    "Look for inflammatory markers: a moderate **leukocytosis** (e.g. WBC >10K with neutrophil predominance) and elevated **C-reactive protein** often support the diagnosis (though normal values don't completely exclude appendicitis).",
+    "**Imaging** is extremely useful: an abdominal ultrasound can often visualize an **enlarged, non-compressible appendix** (>6 mm diameter) and is the preferred first test in children and pregnant patients. In adults, or if ultrasound is inconclusive, an abdominal **CT scan** is the most accurate test to confirm appendicitis (showing an enlarged appendix, wall thickening, appendicolith, fat stranding, etc.).",
+    "Use clinical **scoring systems** to aid decision-making. For example, the **Alvarado score** (MANTRELS mnemonic) or the Appendicitis Inflammatory Response (AIR) score can stratify risk. A high score bolsters the diagnosis, while a very low score makes appendicitis unlikely (possibly avoiding unnecessary imaging).",
+    "If the diagnosis remains uncertain, it's acceptable to observe the patient with serial exams (and repeat vitals/labs). Worsening peritoneal signs or persistent high suspicion should prompt surgical evaluation, whereas improvement might suggest a self-resolving or different condition."
+  ],
+  "differentials": [
+    {
+      "id": "ectopic-pregnancy",
+      "hint": "early pregnancy with unilateral lower abdominal pain and vaginal bleeding; always rule out with pregnancy test"
+    },
+    {
+      "id": "ovarian-torsion",
+      "hint": "sudden, severe pelvic pain in a woman, often with an adnexal mass on ultrasound; surgical emergency but no fever or leukocytosis typically"
+    },
+    {
+      "id": "gastroenteritis",
+      "hint": "diffuse abdominal cramps with diarrhea/vomiting; usually no focal RLQ tenderness or peritoneal signs"
+    },
+    {
+      "id": "crohn-disease",
+      "hint": "chronic ileocecal inflammation can mimic RLQ pain; look for longer history of diarrhea, weight loss, and recurrent flares (not an acute single episode)"
+    }
+  ],
+  "tricks": [
+    "Remember **MANTRELS** for appendicitis (Alvarado score): **M**igration of pain to RLQ, **A**norexia, **N**ausea/vomiting, **T**enderness in RLQ, **R**ebound pain, **E**levated temperature (fever), **L**eukocytosis, **S**hift to left (bandemia).",
+    "Pain that **migrates** from the peri-umbilical area to the RLQ is highly characteristic for appendicitis — very few other conditions present with that sequence. Always take note of migration of pain in a history."
+  ],
+  "exam_appearance": [
+    "Young adult with vague peri-umbilical pain that shifts to sharp RLQ pain, plus fever and guarding → acute appendicitis.",
+    "Pregnant patient (2nd trimester) with atypical right upper quadrant pain, fever, and leukocytosis → appendicitis (appendix displaced upward by the enlarged uterus)."
+  ],
+  "treatment": [
+    "The gold standard is prompt **appendectomy** (surgical removal of the appendix). Surgery (often done laparoscopically) definitively fixes the issue and prevents rupture — ideally, appendectomy is performed as soon as feasible once the diagnosis is made.",
+    "All patients (whether managed operatively or nonoperatively) should receive antibiotics. Preoperative IV antibiotics (e.g. a cephalosporin plus metronidazole, or piperacillin-tazobactam) are given to reduce surgical site infection. If an abscess has already formed around the appendix (contained rupture), the team may initially manage with antibiotics and possibly percutaneous abscess drainage, then do an **interval appendectomy** a few weeks later once inflammation subsides.",
+    "**Non-operative management** can be an option in selected adult patients with **uncomplicated appendicitis** (no perforation, abscess, or fecalith) confirmed on imaging. This approach involves treatment with IV and then oral **antibiotics only**, typically for 7–10 days. Studies (e.g. APPAC trial) show that about **70–75%** of patients treated this way avoid surgery in the short term. However, **~20–30% may experience recurrence** within a year. Antibiotics-first is considered for patients who prefer to avoid surgery or have contraindications to anesthesia. Careful follow-up is essential, and interval appendectomy may still be needed if symptoms recur or worsen."
+  ],
+  "red_flags": [
+    "If a patient with appendicitis suddenly feels a marked **relief of pain** followed by a rapid worsening of diffuse abdominal pain, suspect the appendix has **perforated**. (A burst appendix can relieve pressure briefly, then leaking contents cause generalized peritonitis.)",
+    "Signs of sepsis or diffuse peritoneal involvement in appendicitis (e.g. **high fever**, a rigid board-like abdomen, **tachycardia/hypotension**) indicate possible perforation with spreading infection. This is an emergency — urgent surgery and aggressive supportive care are needed."
+  ],
+  "algorithm": [
+    "Suspected appendicitis (RLQ pain with compatible history) → perform thorough exam and obtain labs (**CBC**, CRP) immediately. In women of childbearing age, **pregnancy test** is mandatory as a first step.",
+    "Apply a clinical score (e.g. Alvarado or AIR) to stratify risk. Low probability? Investigate other causes or observe. Moderate to high probability? Proceed with imaging or surgical consult.",
+    "Imaging: for most patients, get imaging to confirm appendicitis. **Ultrasound** is first-line in kids and pregnant patients. **CT scan** is preferred in adults (or if US is non-diagnostic) for a definitive diagnosis.",
+    "If imaging (or a very strong clinical picture) confirms appendicitis, initiate IV fluids, give broad-spectrum antibiotics. \n- If **uncomplicated**, consider **antibiotics-only** for selected adult patients.\n- If not a candidate, or if **complicated**, proceed with **appendectomy**.",
+    "If an appendix **abscess** is seen on imaging (suggesting a contained perforation), management may be initially non-operative: IV antibiotics ± interventional drainage of the abscess, with plan for an elective appendectomy after several weeks. Always monitor closely and switch to emergency surgery if the patient's condition deteriorates."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Subhepatische_Appendicitis_45M_-_CT_coronar_-_001_-_Annotation.jpg",
+      "alt": "Coronal abdominal CT scans showing an inflamed appendix (highlighted in red) in acute appendicitis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Subhepatische_Appendicitis_45M_-_CT_coronar_-_001_-_Annotation.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22‑year‑old woman comes to the ER with 18 hours of abdominal pain.",
+      "clues": [
+        "Dull pain began around the umbilicus, then shifted to sharp pain in the RLQ",
+        "Has had no appetite and feels nauseated",
+        "Tenderness with rebound at McBurney's point on exam",
+        "WBC count 16,000 with neutrophil predominance; pregnancy test is negative"
+      ],
+      "answer": "Acute appendicitis",
+      "teaching": "This is a classic presentation of appendicitis, including migratory pain to the RLQ, anorexia, and peritoneal signs. In a female patient, a negative pregnancy test rules out ectopic pregnancy as a cause of pain. The appropriate management is prompt surgical appendectomy (after antibiotics and fluids)."
+    }
+  ],
+  "see_also": [
+    "diverticular-disease",
+    "peritonitis",
+    "irritable-bowel-syndrome",
+    "inflammatory-bowel-disease"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Appendicitis (Lotfollahzadeh et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK493193/"
+    },
+    {
+      "title": "UpToDate: Acute appendicitis in adults – clinical manifestations, diagnosis, and management",
+      "url": "https://www.uptodate.com/contents/acute-appendicitis-in-adults-clinical-manifestations-and-differential-diagnosis"
+    },
+    {
+      "title": "APPAC Randomized Trial: Antibiotics vs. Surgery for Appendicitis (JAMA, 2015)",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2320315"
+    },
+    {
+      "title": "WSES Guidelines: Diagnosis and Treatment of Acute Appendicitis (Di Saverio et al., 2020)",
+      "url": "https://wjes.biomedcentral.com/articles/10.1186/s13017-020-00306-3"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "id": "hypovolemia",
+  "names": ["Hypovolemia"],
+  "aliases": [
+    "volume depletion",
+    "extracellular fluid (ECF) volume depletion",
+    "hypovolaemia",
+    "oligemia",
+    "volume contraction"
+  ],
+  "abbr": [],
+  "patterns": [
+    "hypovolemia",
+    "hypovolaemia",
+    "volume depletion",
+    "ecf volume depletion",
+    "volume contraction",
+    "third spacing",
+    "hemorrhagic shock",
+    "hypovolemic shock"
+  ],
+  "primary_tag": "emerg",
+  "tags": ["pathology", "emerg", "cardio", "renal", "surgery", "peds", "infectious_dz"],
+  "definition": "A decrease in intravascular extracellular fluid volume (esp. plasma volume) due to loss of salt and water (e.g., hemorrhage, GI/renal losses) or maldistribution/third spacing (burns, pancreatitis, sepsis). Not the same as dehydration, which is a pure water deficit causing hypernatremia and intracellular water loss. In practice, both can coexist.",
+  "why_it_matters": "Hypovolemia is a leading cause of shock, prerenal azotemia/AKI, and perioperative/trauma morbidity. Early recognition and targeted resuscitation (right fluid, right amount, right timing) are life‑saving and heavily tested across exams and OSCEs.",
+  "how_youll_see_it": [
+    "Common causes: hemorrhage (trauma, GI bleed, postpartum), GI loss (vomiting/diarrhea), renal loss (diuretics, osmotic diuresis), burns, pancreatitis or bowel obstruction (third spacing), sepsis (capillary leak), endocrine salt loss (adrenal insufficiency).",
+    "Early signs (compensated): thirst, anxiety, tachycardia, cool clammy skin, delayed capillary refill, flat neck veins/low JVP, oliguria; BP may be normal (narrow pulse pressure).",
+    "Late signs (decompensated): hypotension, altered mental status, anuria, lactic acidosis, mottled skin.",
+    "Orthostatics: ↓SBP ≥20 mmHg or ↓DBP ≥10 mmHg within 3 min standing suggests volume depletion if clinically appropriate.",
+    "Pediatrics: hypotension is late; look for tachycardia, prolonged capillary refill, sunken eyes/fontanelle, absent tears, lethargy.",
+    "Hemorrhagic shock classes (ATLS): I (<15%), II (15–30%), III (30–40%), IV (>40%) blood loss with progressively worse tachycardia, narrow pulse pressure, mental status change, oliguria, hypotension."
+  ],
+  "problem_solving": [
+    "Start with ABCs; place two large‑bore IVs (or IO), give oxygen, put on monitor; obtain point‑of‑care glucose.",
+    "History/Exam: focus on losses (bleeding, GI, urine, burns) and third spacing; check JVP, skin, mucosae, capillary refill, peripheral perfusion, mental status, urine output.",
+    "Initial labs: CBC (Hgb/Hct), BMP (BUN/Cr), lactate, type & cross if bleeding, VBG/ABG, coagulation panel; consider cortisol if adrenal crisis suspected.",
+    "AKI pattern for prerenal volume depletion: BUN/Cr >20:1, FeNa <1% (or FEUrea <35% if on diuretics), urine Na <20 mEq/L, urine osmolality >500—interpret in clinical context.",
+    "Dynamic assessment of fluid responsiveness: passive leg raise (PLR) with stroke volume/cardiac output monitoring; bedside echo/IVC variation (interpret with caution: ventilation mode, RV function).",
+    "Imaging as indicated: FAST exam/CT for trauma; bedside ultrasound for IVC/cardiac function; CXR if pulmonary edema suspected.",
+    "Classify the driver: hemorrhagic vs non‑hemorrhagic (dehydration/third spacing/sepsis/endocrine). Treat the cause in parallel with resuscitation."
+  ],
+  "differentials": [
+    { "name": "Septic (distributive) shock", "hint": "often warm extremities early, low SVR; treat source + antibiotics + guided fluids/vasopressors" },
+    { "name": "Cardiogenic shock", "hint": "JVP high, crackles, cool extremities, pulmonary edema; limited fluid tolerance" },
+    { "name": "Obstructive shock", "hint": "tamponade, tension pneumothorax, massive PE; treat obstruction, not fluids alone" },
+    { "name": "Adrenal crisis", "hint": "hyponatremia, hyperkalemia, hypotension; needs stress‑dose hydrocortisone plus fluids" },
+    { "name": "Pure dehydration (hypernatremia)", "hint": "intracellular water loss; free‑water replacement after hemodynamic stabilization" }
+  ],
+  "tricks": [
+    "Hypovolemia ≠ dehydration: hypovolemia = ECF (plasma) deficit of salt+water; dehydration = water deficit → hypernatremia/ICF contraction.",
+    "Adults: target urine output ≥0.5 mL/kg/hr (children ≥1 mL/kg/hr) as one bedside marker of adequate perfusion.",
+    "Balanced crystalloids (LR/Plasma‑Lyte) are preferred to large volumes of normal saline to lower risk of hyperchloremic acidosis and renal events.",
+    "In hemorrhage, avoid large crystalloid loads; activate massive transfusion protocol early with plasma:platelets:RBC ≈ 1:1:1 and control bleeding.",
+    "Trauma pearl: consider permissive hypotension (e.g., SBP ~80–90 mmHg) until hemostasis if no TBI; in suspected TBI keep SBP ≥100–110 mmHg.",
+    "Peds shock: give 20 mL/kg isotonic crystalloid bolus over 5–10 min; reassess; repeat as needed while watching for signs of overload.",
+    "Prerenal markers (FeNa, BUN/Cr) are decision‑support, not absolute—interpret with the clinical picture, diuretics, CKD, and sepsis."
+  ],
+  "exam_appearance": [
+    "Trauma: Young adult after MVC with tachycardia, cool extremities, narrow pulse pressure, FAST positive. Management asks for MTP (1:1:1), TXA within 3 hours, hemorrhage control; avoid excessive crystalloids; permissive hypotension if no TBI.",
+    "Sepsis with volume loss: Elderly patient with vomiting/diarrhea, lactate 5 mmol/L, BUN/Cr 40/1.6, FeUrea 25%. Best initial step: 30 mL/kg crystalloid promptly, then guide by dynamic measures and lactate clearance; norepinephrine if persistent hypotension.",
+    "Burns: Adult with ~30% TBSA burns—asks for initial fluid estimate and titration target (urine output ≥0.5 mL/kg/hr). Know that many exams still reference Parkland 4 mL/kg/%TBSA (½ in first 8 h), but new ABA guidance supports ~2 mL/kg/%TBSA with titration to endpoints."
+  ],
+  "treatment": [
+    "All patients (initial): ABCs; 2 large‑bore IV/IO; oxygen; monitor; obtain labs, type & cross if bleeding; bedside ultrasound.",
+    "Fluids: Start isotonic crystalloid. For sepsis/hypoperfusion, give ~30 mL/kg within 3 hours, then reassess with dynamic measures (PLR, stroke volume, echo) and lactate. Prefer balanced crystalloids (LR/Plasma‑Lyte) when available.",
+    "Hemorrhage: Immediate bleeding control (direct pressure, tourniquet, hemostasis), early MTP with ~1:1:1 plasma:platelets:RBC; limit crystalloids. Give TXA 1 g IV over 10 min, then 1 g over 8 h within 3 h of injury. Consider permissive hypotension until hemostasis if no TBI.",
+    "Transfusion thresholds (non‑bleeding): in hemodynamically stable adults, consider RBC transfusion when Hb <7 g/dL (individualize by comorbidities).",
+    "Burns: Estimate fluids (historically Parkland 4 mL/kg/%TBSA; recent ABA suggests ~2 mL/kg/%TBSA to reduce \"fluid creep\"); use LR and titrate to urine output ≥0.5 mL/kg/hr; adjust for inhalation injury/large burns; consider albumin in larger burns per ABA CPG.",
+    "Pediatrics: Bolus 20 mL/kg isotonic crystalloid over 5–10 min; repeat to 40–60 mL/kg if needed while reassessing. If hemorrhagic, transition early to blood products (PRBC 10 mL/kg).",
+    "If fluid‑refractory shock: start norepinephrine (first‑line in septic shock) and address etiology (antibiotics, source control; endocrine support if adrenal crisis).",
+    "Monitoring/targets: mental status, MAP (≥65 mmHg in septic shock), capillary refill, urine output, serial lactate, point‑of‑care ultrasound; stop fluids when no longer fluid responsive or if signs of overload appear."
+  ],
+  "red_flags": [
+    "Altered mental status, SBP <90 mmHg or rapidly falling, HR >120 with cool extremities, anuria, lactate ≥4 mmol/L",
+    "Suspected aortic aneurysm rupture, massive GI bleed, postpartum hemorrhage, or tension pneumothorax/tamponade",
+    "Burns ≥20% TBSA with hypotension/oliguria",
+    "Child with shock signs (hypotension is late)—treat immediately"
+  ],
+  "algorithm": [
+    "Suspect hypovolemia → ABCs, monitors, 2 large‑bore IV/IO, oxygen.",
+    "Focused history/exam for losses (bleeding, GI, urine) or third spacing; bedside ultrasound (FAST/IVC/cardiac) as available.",
+    "Send labs (CBC, BMP, lactate, VBG/ABG, type & cross, coags; ± cortisol). Start isotonic crystalloid immediately if hypoperfusion.",
+    "If bleeding → activate MTP, apply hemorrhage control, consider TXA; limit crystalloids, consider permissive hypotension if no TBI.",
+    "If sepsis/other non‑hemorrhagic → give ~30 mL/kg crystalloid promptly; reassess using PLR/echo and lactate clearance; start norepinephrine if fluid‑refractory.",
+    "Reassess perfusion: mental status, cap refill, urine output target ≥0.5 mL/kg/hr (adults); avoid over‑resuscitation.",
+    "Address cause (source control, stop diuretics, treat adrenal crisis, manage burns/pancreatitis), and de‑escalate fluids once not fluid responsive."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/LactateRingers.jpg",
+      "alt": "Lactated Ringer's solution IV bag—balanced crystalloid used for resuscitation.",
+      "credit": {
+        "text": "Wikimedia Commons (Public domain)",
+        "href": "https://commons.wikimedia.org/wiki/File:LactateRingers.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 27‑year‑old after a motorcycle crash is pale and diaphoretic with HR 132, BP 88/54, cool extremities, and a positive FAST.",
+      "clues": ["Capillary refill 4 s", "No external bleeding seen", "Lactate 5.1 mmol/L"],
+      "answer": "Hypovolemia from intra‑abdominal hemorrhage (hemorrhagic shock).",
+      "teaching": "Control hemorrhage and activate MTP (~1:1:1); TXA within 3 h; limit crystalloids; consider permissive hypotension until hemostasis if no TBI."
+    },
+    {
+      "stem": "A 74‑year‑old with 3 days of vomiting/diarrhea is confused; HR 118, BP 100/60, dry mucosae, JVP flat.",
+      "clues": ["BUN 40 mg/dL, Cr 1.6 mg/dL (BUN/Cr >20)", "Urine Na 10 mEq/L, FeUrea 22%", "Lactate 3.2"],
+      "answer": "Hypovolemia with prerenal azotemia.",
+      "teaching": "Give balanced crystalloid (~30 mL/kg if septic/hypoperfused), then guide by PLR/echo and urine output; consider norepinephrine if fluid‑refractory."
+    },
+    {
+      "stem": "A 35‑year‑old with 30% TBSA flame burns is oliguric (0.2 mL/kg/hr).",
+      "clues": ["Tachycardic, cool extremities", "No other injuries"],
+      "answer": "Hypovolemia from burn shock/third spacing.",
+      "teaching": "Initiate burn resuscitation with LR; know exam Parkland 4 mL/kg/%TBSA (½ in first 8 h), but recent ABA suggests ~2 mL/kg/%TBSA; titrate to UOP ≥0.5 mL/kg/hr."
+    }
+  ],
+  "see_also": [
+    "shock",
+    "disseminated-intravascular-coagulation"
+  ],
+  "prerequisites": [
+    "Shock: types and hemodynamics",
+    "Fluids & electrolytes; IV crystalloid choices",
+    "Acute kidney injury (prerenal vs intrinsic)",
+    "ATLS initial trauma evaluation; MTP basics"
+  ],
+  "sources": [
+    { "title": "StatPearls: Hypovolemia and Hypovolemic Shock (updated)", "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513297/" },
+    { "title": "ATLS clinical descriptors of hemorrhagic shock (summarized in StatPearls)", "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK513297/" },
+    { "title": "Surviving Sepsis Campaign 2021 (initial fluids, dynamic assessment, lactate, balanced crystalloids)", "url": "https://sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021" },
+    { "title": "Monnet & Teboul: Passive leg raising—five rules (Critical Care 2015)", "url": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-014-0708-5" },
+    { "title": "IVC collapsibility and fluid responsiveness (overview studies)", "url": "https://pubmed.ncbi.nlm.nih.gov/28525778/" },
+    { "title": "MSD Manual: Lab findings distinguishing prerenal azotemia vs ATN", "url": "https://www.msdmanuals.com/professional/multimedia/table/laboratory-findings-distinguishing-acute-tubular-necrosis-from-prerenal-azotemia" },
+    { "title": "AAFP/AFM: Orthostatic hypotension definition (20/10 within 3 minutes)", "url": "https://pubmed.ncbi.nlm.nih.gov/21888303/" },
+    { "title": "Balanced crystalloids vs saline—SMART (ICU) & SALT‑ED (ED), NEJM 2018", "url": "https://pubmed.ncbi.nlm.nih.gov/29485926/" },
+    { "title": "CRASH‑2 Trial—TXA reduces mortality in bleeding trauma (Lancet 2010)", "url": "https://crash2.lshtm.ac.uk/CRASH2_Lancet.pdf" },
+    { "title": "PROPPR Trial—1:1:1 vs 1:1:2 in trauma (JAMA 2015)", "url": "https://jamanetwork.com/journals/jama/fullarticle/2107789" },
+    { "title": "AABB 2023 RBC transfusion guidelines—restrictive threshold ~7 g/dL (JAMA guideline)", "url": "https://pubmed.ncbi.nlm.nih.gov/37824153/" },
+    { "title": "American Burn Association Clinical Practice Guidelines on Burn Shock Resuscitation (2023/2024)", "url": "https://academic.oup.com/jbcr/article/45/3/565/7458089" },
+    { "title": "Parkland formula—StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK537190/" },
+    { "title": "Dehydration vs volume depletion (BMJ Best Practice)", "url": "https://bestpractice.bmj.com/crawler/topics/en-us/937" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

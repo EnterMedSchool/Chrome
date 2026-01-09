@@ -1,0 +1,130 @@
+{
+  "id": "nephritic-syndrome",
+  "names": ["Nephritic syndrome"],
+  "aliases": ["acute nephritic syndrome", "acute glomerulonephritis"],
+  "abbr": ["AGN"],
+  "patterns": ["nephritic syndrome", "nephritic", "acute nephritic syndrome", "acute glomerulonephritis", "glomerulonephritis"],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "immunology", "infectious_dz", "rheum"],
+  "definition": "Inflammation of the glomeruli causing **hematuria** (blood and **RBC casts** in urine), usually mild **proteinuria** (<3.5 g/day), decreased GFR (**oliguria**, azotemia) with **hypertension** and edema.",
+  "why_it_matters": "Nephritic syndrome indicates active glomerular damage and can rapidly impair kidney function – severe cases (e.g. **crescentic** or rapidly progressive GN) may progress to **ESRD** within weeks if untreated. Early recognition allows targeted therapy (e.g., immunosuppressives for lupus or Goodpasture) to prevent permanent damage. It's also a classic exam topic (often contrasted with **nephrotic** syndrome).",
+  "how_youll_see_it": [
+    "Classic presentation: **cola-colored** or smoky urine (from hematuria), often with **periorbital edema** in the morning and peripheral edema later in the day. Patients develop **new-onset hypertension** and may have reduced urine output (**oliguria**) and fatigue from uremia (high BUN/Cr). Urinalysis shows dysmorphic RBCs and **RBC casts**, and proteinuria is present but typically in sub-nephrotic range (mild/moderate, sometimes causing slight foam).",
+    "Children: the archetype is **post-streptococcal glomerulonephritis (PSGN)**, which usually occurs ~1–3 weeks after a **group A strep** infection (e.g., strep throat or impetigo). A child may present with puffiness around the eyes (periorbital edema), dark tea- or cola-colored urine, and positive anti-streptococcal titers. PSGN often features low serum **C3** complement levels and is usually self-limited (immune complexes gradually clear). Another pediatric cause is IgA vasculitis (**Henoch-Schönlein purpura**), which causes nephritic syndrome along with rash and joint pain.",
+    "Adults: a broader differential — the most common glomerulonephritis worldwide is **IgA nephropathy** (Berger disease), classically presenting with episodic gross hematuria during or immediately after mucosal infections (\"synpharyngitic\" hematuria within 1–2 days of a URI). **Lupus nephritis** (in SLE) is another important cause (often in young women with other lupus symptoms), typically with low complement levels and potential simultaneous nephrotic-range proteinuria. **ANCA-associated vasculitides** (pauci-immune GN, such as granulomatosis with polyangiitis or microscopic polyangiitis) cause a rapidly progressive picture with systemic signs (e.g., sinusitis, lung nodules or hemorrhage, fever). **Goodpasture syndrome** (anti-GBM disease) is a classic pulmonary-renal syndrome in young adult males, featuring nephritic syndrome plus **hemoptysis** (from alveolar hemorrhage). In older adults, infection-related GN (e.g., staphylococcal endocarditis) or membranoproliferative GN can also present in a nephritic pattern."
+  ],
+  "problem_solving": [
+    "Confirm glomerular hematuria: Urinalysis revealing **RBC casts** or dysmorphic RBCs (acanthocytes) is virtually pathognomonic for glomerulonephritis. This differentiates nephritic syndrome from hematuria due to urinary tract causes (which lack RBC casts).",
+    "Evaluate complement levels: **Low C3** (± low C4) suggests an immune-complex GN such as post-infectious GN, lupus nephritis, or membranoproliferative GN. **Normal complement** points toward IgA nephropathy, **pauci-immune** (ANCA) GN, or anti-GBM disease.",
+    "Order serologies tailored to suspected causes – e.g., **ASO titer** or anti-DNase B for recent strep infection (PSGN), **ANA** (and anti-dsDNA) for SLE, **ANCA** panel for granulomatosis with polyangiitis (c-ANCA) or microscopic polyangiitis (p-ANCA), and **anti-GBM** antibodies for Goodpasture syndrome. Hepatitis serologies (HBV, HCV) are also checked in certain cases (e.g., cryoglobulinemic or membranoproliferative GN).",
+    "Perform a **kidney biopsy** in most cases to confirm the diagnosis and guide treatment (unless the cause is very evident and disease is mild). Biopsy reveals the specific lesion: eg. **subepithelial humps** and granular deposits in PSGN, **IgA deposits** in IgA nephropathy, \"**full house**\" immune complexes in lupus, linear IgG deposits in anti-GBM disease, or **crescents** in rapidly progressive GN. Immunofluorescence patterns (granular vs linear vs minimal) help classify the GN. Biopsy is especially urgent if a rapidly progressive course is suspected (to identify crescentic GN early).",
+    "Distinguish IgA vs post-strep: Both can cause nephritic syndrome after pharyngitis, but **IgA nephropathy** causes hematuria *during* or within days of the infection (synpharyngitic) with normal complement levels, whereas **post-streptococcal GN** occurs ~1–3 weeks after infection with low C3 complement. This timing difference is a common test point."
+  ],
+  "differentials": [
+    { "id": "nephrotic-syndrome", "hint": "heavy proteinuria (>3.5 g/day), hypoalbuminemia with severe edema and hyperlipidemia; usually *no* hematuria or RBC casts" },
+    { "name": "Urinary tract hematuria", "hint": "bleeding from UTI, stones, or bladder tumors (red urine but **no RBC casts** or dysmorphic RBCs; often associated with dysuria or flank pain rather than renal failure)" },
+    { "id": "hemolytic-uremic-syndrome", "hint": "microangiopathic hemolysis + thrombocytopenia + AKI (often after diarrheal E. coli infection); can cause hematuria and renal failure but due to vascular injury, not immune GN (look for schistocytes, normal complements)" }
+  ],
+  "tricks": [
+    "Use **PHAROH** to recall nephritic features: **P**roteinuria (usually <3.5 g), **H**ematuria, **A**zotemia, **R**BC casts, **O**liguria, **H**ypertension.",
+    "**RBC casts** = glomerular origin. If a urine microscopy shows RBC casts, think **nephritic syndrome** (glomerulonephritis) and not a lower urinary tract source.",
+    "Timing clue: **IgA nephropathy** causes hematuria at the *same time* as a mucosal infection (e.g., concurrent with a cold), whereas **post-strep GN** occurs after a latent period (a week or more after the infection).",
+    "Pulmonary-renal red flag: Hematuria + hemoptysis in a young adult points to **Goodpasture syndrome** (anti-GBM disease) – an emergency requiring plasmapheresis."
+  ],
+  "exam_appearance": [
+    "Child with facial puffiness and dark \"tea-colored\" urine appearing 2 weeks after a streptococcal throat infection (high anti-streptolysin O, low C3 complement) → **Acute post-streptococcal glomerulonephritis** (nephritic syndrome).",
+    "Young adult with recurrent episodes of gross hematuria *during* viral respiratory illnesses (normal complement levels, IgA deposits on renal biopsy) → **IgA nephropathy** (Berger disease).",
+    "25‑year‑old man with hemoptysis, dyspnea, and hematuria; chest X-ray shows lung infiltrates, and labs reveal anti-GBM antibodies → **Goodpasture syndrome** (anti-GBM GN causing nephritic syndrome with pulmonary hemorrhage).",
+    "Lupus patient (young woman with malar rash) who develops proteinuria, RBC casts, and rising creatinine → **Lupus nephritis** (proliferative glomerulonephritis, a nephritic presentation in SLE)."
+  ],
+  "treatment": [
+    "**Supportive care** is critical for all: Control blood pressure (often with ACE inhibitors or ARBs for their renal protection), restrict salt and fluids to minimize edema, and use diuretics if needed for volume overload. Monitor electrolytes and kidney function closely; dialysis is indicated if severe acute kidney injury or life-threatening complications (e.g., hyperkalemia, pulmonary edema, uremia).",
+    "Address the **underlying cause**: If infection is present, treat it (e.g., antibiotics for endocarditis or remaining strep infection – though PSGN itself is immune-mediated and usually post-infectious). For autoimmune causes, immunosuppressive therapy is key – typically high-dose **corticosteroids** to reduce glomerular inflammation, plus additional agents based on disease (e.g., cyclophosphamide or rituximab for ANCA vasculitis, or cyclophosphamide/mycophenolate for severe lupus nephritis). In IgA nephropathy, if proteinuria is significant, ACE inhibitors and sometimes steroids are used.",
+    "Special cases: **Goodpasture syndrome** (anti-GBM) requires urgent combined therapy with **plasmapheresis** (to remove pathogenic antibodies) and immunosuppressants (e.g., steroids and cyclophosphamide). Rapidly progressive GN of any cause may warrant aggressive immunosuppression (even before biopsy results) to halt crescent formation. In some severe lupus or vasculitis cases, plasmapheresis is also considered. Always consult nephrology early for rapidly deteriorating cases."
+  ],
+  "red_flags": [
+    "**Rapid decline** in renal function (e.g., creatinine doubling over days to weeks, new oliguria) → suggests **rapidly progressive GN** (crescents on biopsy) requiring immediate high-dose immunosuppressive therapy to prevent irreversible kidney failure.",
+    "**Hemoptysis** or diffuse pulmonary hemorrhage in a patient with nephritic syndrome → **pulmonary-renal syndrome** (e.g., Goodpasture or ANCA vasculitis). This is life-threatening – initiate urgent treatment (plasmapheresis, methylprednisolone, etc.) and involve specialists (nephrologist, pulmonologist) immediately.",
+    "Severe **hypertension** (>180/120) with end-organ signs (e.g., encephalopathy, papilledema) in glomerulonephritis → malignant hypertension can develop; requires ICU-level blood pressure control (vasodilators) and likely urgent dialysis."
+  ],
+  "algorithm": [
+    "Patient with edema, hematuria, and hypertension → Suspect **acute nephritic syndrome**.",
+    "Perform **urinalysis**: look for RBC casts and proteinuria to confirm glomerular origin; check BUN, creatinine, and electrolytes to assess renal function.",
+    "Obtain pertinent labs: **complement levels** (C3, C4) and targeted **serologies** (ASO, ANA, ANCA, anti-GBM, etc.) based on clinical context. Also, rule out alternative causes: e.g., get throat/skin culture if infection suspected, blood cultures if endocarditis possible.",
+    "Consult a nephrologist early. If nephritic syndrome is confirmed (especially with rising creatinine), plan for a **kidney biopsy** to identify the exact etiology (unless a mild post-strep GN case). Do NOT delay therapy if the patient is critically ill – for instance, start steroids if RPGN is strongly suspected.",
+    "Treat accordingly: begin **supportive care** (salt restriction, blood pressure control, etc.) and specific therapy for the cause (immunosuppressives, antibiotics, or plasma exchange as needed). Monitor urine output and labs frequently; arrange dialysis if needed for acute renal failure."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/RTE_cast%2C_muddy_granular_cast%2C_WBC_cast_and_RBC_cast_in_urine.jpg",
+      "alt": "Urine microscopy with various casts; the panel (d) shows a red blood cell cast (a cylindrical mass of RBCs), which is indicative of glomerulonephritis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:RTE_cast,_muddy_granular_cast,_WBC_cast_and_RBC_cast_in_urine.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old boy is evaluated for eyelid puffiness and brownish urine. Two weeks ago he was treated for impetigo. On exam he has periorbital edema and elevated blood pressure.",
+      "clues": [
+        "Recent skin strep infection (impetigo) 2 weeks ago",
+        "Cola-colored (tea-colored) urine",
+        "Periorbital edema, hypertension",
+        "Low C3 complement level",
+        "Elevated antistreptococcal (ASO) titer"
+      ],
+      "answer": "Acute post-streptococcal glomerulonephritis (nephritic syndrome)",
+      "teaching": "This is the classic post-infectious (post-streptococcal) glomerulonephritis. Immune complex deposition after a streptococcal infection leads to an acute nephritic syndrome. Children present with edema (often periorbital), cola-colored urine, hypertension, and renal dysfunction ~1-3 weeks after strep. Low C3 and positive streptococcal antibody titers support the diagnosis. Treatment is supportive (the infection has usually resolved); most kids recover spontaneously."
+    },
+    {
+      "stem": "A 23‑year‑old man has episodic blood in the urine. He reports that his urine turns red during colds or after heavy exercise, then clears up. He has no significant past medical history.",
+      "clues": [
+        "Gross hematuria coinciding with URI episodes",
+        "Episodes are brief and recurrent since adolescence",
+        "No latency between infection and hematuria",
+        "Normal serum complement levels",
+        "Kidney biopsy: IgA deposits in mesangium"
+      ],
+      "answer": "IgA nephropathy (Berger disease)",
+      "teaching": "IgA nephropathy is characterized by synpharyngitic hematuria – episodes of gross hematuria occur concurrently with upper respiratory infections or intense exercise. It's due to IgA immune complex deposition in the glomeruli (mesangial IgA on biopsy). Unlike post-strep GN, there's no prolonged latent period and complement levels remain normal. IgA nephropathy is the most common primary glomerulonephritis worldwide. Management is often conservative (ACE inhibitors for proteinuria, steroids in select cases) but severe cases can progress to chronic kidney disease."
+    }
+  ],
+  "see_also": [
+    "nephrotic-syndrome",
+    "glomerulonephritis",
+    "systemic-lupus-erythematosus",
+    "hemolytic-uremic-syndrome"
+  ],
+  "prerequisites": [
+    "renal-physiology",
+    "nephron",
+    "immune-system-basics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Nephritic Syndrome (Hashmi & Pandey, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK562240/"
+    },
+    {
+      "title": "UpToDate: Poststreptococcal glomerulonephritis (Kaplan et al., 2024)",
+      "url": "https://www.uptodate.com/contents/poststreptococcal-glomerulonephritis"
+    },
+    {
+      "title": "KDIGO 2021 Clinical Practice Guideline for Glomerular Diseases (Kidney Int Suppl 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34556256/"
+    },
+    {
+      "title": "Medscape: Acute Glomerulonephritis (Parmar, 2024)",
+      "url": "https://emedicine.medscape.com/article/239278-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

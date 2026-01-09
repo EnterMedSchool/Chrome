@@ -1,0 +1,144 @@
+{
+  "id": "glaucoma",
+  "names": [
+    "Glaucoma"
+  ],
+  "aliases": [
+    "open-angle glaucoma",
+    "angle-closure glaucoma",
+    "narrow-angle glaucoma"
+  ],
+  "abbr": [],
+  "patterns": [
+    "glaucoma",
+    "open angle glaucoma",
+    "open-angle glaucoma",
+    "angle closure glaucoma",
+    "angle-closure glaucoma",
+    "narrow angle glaucoma"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "surgery",
+    "emerg"
+  ],
+  "definition": "Progressive optic neuropathy, usually from elevated intraocular pressure (**IOP**), leading to characteristic visual field loss and potentially blindness. Two major types exist: **open-angle glaucoma** (chronic, more common – impaired aqueous drainage despite an open anterior chamber angle) and **angle-closure glaucoma** (acute – sudden blockage of the angle causing a rapid IOP rise).",
+  "why_it_matters": "Glaucoma is the second leading cause of blindness worldwide. It often goes undetected until late (open-angle is called the \"silent thief of sight\"), so screening is crucial. Acute angle-closure is an ophthalmologic emergency that can cause permanent vision loss within hours if not promptly treated. Both scenarios are frequently tested, requiring recognition of subtle chronic findings and acute red-flag symptoms.",
+  "how_youll_see_it": [
+    "Open-angle glaucoma: typically **painless** with insidious peripheral vision loss (patients may not notice gradual \"tunnel vision\"). Often picked up on routine exam by **↑IOP** or **optic disc cupping**. Risk factors: age >40, African or Hispanic ancestry, family history, **diabetes**.",
+    "Angle-closure glaucoma: **acute** onset of severe eye **pain** with **blurred vision** and **halos** around lights; often associated with **headache**, nausea/vomiting. The affected eye is red with a **mid-dilated, fixed pupil** and feels **hard** due to markedly elevated IOP (often 30–50+ mmHg). Commonly triggered by pupillary dilation (e.g. entering a dark room or certain drugs) in a susceptible (usually older, hyperopic) patient."
+  ],
+  "problem_solving": [
+    "Measure intraocular pressure (**tonometry**): Normal ~10–21 mmHg; IOP >21 is a risk factor (though some glaucoma occurs at normal pressure).",
+    "Perform fundoscopic exam: look for **optic disc cupping** (cup-to-disc ratio >0.5 or asymmetry) and thinning of the neural rim, suggesting glaucomatous damage.",
+    "Assess visual fields (perimetry): glaucoma causes characteristic peripheral field defects (e.g. arcuate scotomas, nasal step) corresponding to optic nerve damage.",
+    "Use **gonioscopy** (slit-lamp with special lens) to examine the anterior chamber angle – determines if angle is open vs. narrow/closed and helps identify any secondary causes.",
+    "If acute angle-closure is suspected, do **not** wait for detailed testing – initiate immediate IOP-lowering treatment, then perform definitive intervention (laser iridotomy) once the cornea clears."
+  ],
+  "differentials": [
+    {
+      "name": "Ocular hypertension",
+      "hint": "elevated IOP without optic nerve damage or visual field loss (no neuropathy yet)"
+    },
+    {
+      "name": "Acute anterior uveitis",
+      "hint": "painful red eye with photophobia, but **small pupil** (miotic), cells in anterior chamber, and usually normal or low IOP"
+    },
+    {
+      "name": "Cataract",
+      "hint": "painless progressive vision loss due to lens opacity (glare, night vision difficulty), affects **central** vision first (no cupping or high IOP)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **O-PEN** for open-angle glaucoma – **O**ptic disc cupping, **P**rogressive peripheral vision loss, **E**levated IOP, **N**o early symptoms.",
+    "In acute angle-closure think \"**painful red eye with halos**\" – a rock-hard eye with mid-dilated pupil in a patient with sudden vision loss is an ophthalmic emergency."
+  ],
+  "exam_appearance": [
+    "Older African American patient with gradual loss of peripheral vision and cupped optic discs on exam (high IOP) → Primary open-angle glaucoma.",
+    "Middle-aged hyperopic woman with sudden eye pain after sitting in a dark theater, plus headache, nausea, a red eye and non-reactive mid-dilated pupil → Acute angle-closure glaucoma."
+  ],
+  "treatment": [
+    "Open-angle (chronic): start with **topical drops** to lower IOP – typically a **prostaglandin analog** (e.g. latanoprost) first-line, and/or **beta-blocker** (timolol); adjuncts include alpha-2 agonists (brimonidine) or carbonic anhydrase inhibitors (dorzolamide). If medical therapy insufficient, use **laser trabeculoplasty** or surgical trabeculectomy/tube shunt to increase aqueous outflow.",
+    "Angle-closure (acute): this is an **emergency** – immediately give multiple IOP-lowering meds (e.g. topical β-blocker, alpha-agonist, and pilocarpine plus systemic acetazolamide; add osmotic agent like IV mannitol if needed). Definitive treatment is a **laser peripheral iridotomy** (creating a small hole in the iris) to relieve pupillary block – typically performed in the affected eye once pressure drops, and prophylactically in the fellow eye."
+  ],
+  "red_flags": [
+    "Signs of acute angle-closure (severe eye pain, blurred vision with halos, vomiting, fixed mid-dilated pupil) → indicates **vision-threatening emergency** (if IOP isn't lowered within hours, permanent optic nerve damage can occur).",
+    "Avoid **mydriatic** medications in patients with known narrow angles – dilating the pupil can precipitate acute angle-closure glaucoma."
+  ],
+  "algorithm": [
+    "Risk factors or optic disc changes → suspect glaucoma.",
+    "Check IOP (tonometry) and optic disc on exam; if abnormal, perform **gonioscopy** to classify angle and **visual field testing** to confirm deficits.",
+    "Open-angle suspected: manage chronically with drops to control IOP and monitor optic nerve and fields regularly.",
+    "Angle-closure suspected: begin **immediate** IOP-lowering therapy; once pressure improves, perform **laser iridotomy** to definitively open the angle.",
+    "Screen high-risk individuals (older adults, positive family history) with periodic comprehensive eye exams (including IOP measurement and fundoscopy)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Acute_angle_closure_glaucoma.JPG",
+      "alt": "Right eye with acute angle-closure glaucoma (red, injected conjunctiva and mid-dilated pupil).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Acute_angle_closure_glaucoma.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old African American man reports gradually worsening peripheral vision over the past year.",
+      "clues": [
+        "Screening intraocular pressure 28 mmHg (high)",
+        "Optic discs show cup-to-disc ratio ~0.7 bilaterally",
+        "Visual field testing reveals tunnel vision",
+        "History of hypertension and diabetes"
+      ],
+      "answer": "Primary open-angle glaucoma",
+      "teaching": "Chronic open-angle glaucoma causes painless peripheral visual field loss due to progressive optic nerve damage from elevated IOP. Risk factors (age, African ancestry, diabetes) and optic disc cupping are clues; management is with IOP-lowering eye drops to prevent further vision loss."
+    },
+    {
+      "stem": "A 55‑year‑old far-sighted woman develops sudden severe right eye pain while watching a movie in a dark theater.",
+      "clues": [
+        "Intense ocular pain with ipsilateral headache",
+        "Sees halos around lights",
+        "Nausea and vomiting",
+        "Red eye with hazy cornea",
+        "Mid-dilated pupil, non-reactive to light"
+      ],
+      "answer": "Acute angle-closure glaucoma",
+      "teaching": "Acute angle-closure glaucoma occurs when the anterior chamber angle suddenly closes (often in low light conditions), causing a rapid rise in intraocular pressure. It presents with a painful red eye, blurred vision with halos, and a fixed mid-dilated pupil. This is an ophthalmologic emergency requiring immediate pressure-lowering treatment and laser iridotomy to prevent permanent blindness."
+    }
+  ],
+  "see_also": [
+    "cataract",
+    "diabetic-retinopathy",
+    "strabismus",
+    "amblyopia"
+  ],
+  "prerequisites": [
+    "eye-anatomy",
+    "aqueous-humor"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Glaucoma (Dietze et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538217/"
+    },
+    {
+      "title": "UpToDate: Open-angle glaucoma – epidemiology, clinical presentation, and diagnosis",
+      "url": "https://www.uptodate.com/contents/open-angle-glaucoma-epidemiology-clinical-presentation-and-diagnosis"
+    },
+    {
+      "title": "NEJM: Primary Open-Angle Glaucoma (Kwon et al., 2009)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra0804630"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

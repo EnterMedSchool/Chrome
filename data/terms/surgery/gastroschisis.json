@@ -1,0 +1,122 @@
+{
+  "id": "gastroschisis",
+  "names": [
+    "Gastroschisis"
+  ],
+  "aliases": [
+    "laparoschisis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "gastroschisis",
+    "laparoschisis"
+  ],
+  "primary_tag": "surgery",
+  "tags": [
+    "pathology",
+    "gi",
+    "obgyn",
+    "peds",
+    "surgery"
+  ],
+  "definition": "Congenital full-thickness abdominal wall defect (usually just right of the umbilicus) that allows intestines (and sometimes other organs) to herniate outside the body without any protective membrane.",
+  "why_it_matters": "Although rare (~1 in 2,500 births), gastroschisis has increased in incidence in recent decades, especially in babies born to young mothers. It is the most common neonatal abdominal wall defect and a surgical emergency requiring prompt neonatal care. Survival exceeds 90% with proper treatment, but complications (intestinal atresia, short gut, infection) can cause significant morbidity. Differentiating gastroschisis from omphalocele (which has a membranous sac and often other anomalies) is a classic exam topic.",
+  "how_youll_see_it": [
+    "Prenatal: elevated **AFP** on screening and second-trimester ultrasound showing free-floating bowel loops in amniotic fluid (no enclosing sac).",
+    "Newborn: intestines protruding through a right-sided abdominal wall hole next to an intact umbilical cord, with no covering membrane. The exposed bowel often appears edematous and matted (from amniotic fluid exposure).",
+    "Typically an isolated defect (normal karyotype, no major extra-GI anomalies), unlike omphalocele. Babies are often born premature or **small for gestational age** (intrauterine growth restriction). Risk factors include maternal age <20, smoking, or other substance use."
+  ],
+  "problem_solving": [
+    "Differentiate **gastroschisis vs omphalocele**: gastroschisis is usually right of midline with no sac; omphalocele is midline at the cord base with a peritoneal sac covering the herniated contents (and often involves liver and other organs).",
+    "Prenatal management: serial ultrasounds to monitor bowel condition; plan delivery at a tertiary center with pediatric surgery and neonatal ICU. Vaginal delivery at ~37–38 weeks is often acceptable if no other contraindications (no need for C-section purely for gastroschisis).",
+    "Immediately after birth, focus on protecting the bowel and stabilizing the infant: cover exposed intestines with sterile saline dressings or a plastic bowel bag to prevent heat/fluid loss, place an NG/OG tube to decompress the stomach, start IV fluids, and broad-spectrum antibiotics.",
+    "Evaluate the bowel for signs of compromise (atresia, ischemia). Classify as **simple** (gastroschisis without intestinal complications) or **complex** (if intestinal atresia, perforation, or necrosis is present) to anticipate surgical needs."
+  ],
+  "differentials": [
+    {
+      "id": "omphalocele",
+      "hint": "midline defect at umbilical base with organs in a protective sac; frequently associated with genetic syndromes (e.g., Beckwith-Wiedemann, trisomies) and cardiac anomalies"
+    },
+    {
+      "name": "Umbilical hernia",
+      "hint": "small defect at umbilicus; bowel bulges under skin (covered by skin, not an open extrusion); often benign and closes spontaneously in childhood"
+    },
+    {
+      "name": "Bladder exstrophy",
+      "hint": "lower midline abdominal wall defect with exposed bladder mucosa (red mass below the umbilicus) rather than bowel"
+    }
+  ],
+  "tricks": [
+    "Omphalo**cele** has a **seal** (membrane) around the organs, whereas gastroschisis has no covering (guts \"**free**\").",
+    "Gastroschisis tends to be **R**ight-sided (to the **R**ight of the cord), while omphalocele is **O**n the midline (through the umbilical **O**pening)."
+  ],
+  "exam_appearance": [
+    "Teenage primigravida with elevated AFP on prenatal screening and ultrasound showing free-floating intestinal loops → likely gastroschisis.",
+    "Newborn with loops of bowel protruding beside the umbilicus and no membranous sac covering them → gastroschisis (vs a sac-covered midline omphalocele)."
+  ],
+  "treatment": [
+    "At delivery, immediately protect the bowel and stabilize the newborn: wrap the exposed intestines in a sterile plastic covering (bowel bag) to prevent drying/heat loss, place the baby supine without kinking the mesentery, and begin fluid resuscitation and gastric decompression (NG tube).",
+    "Urgent surgical closure of the defect is required. If feasible, perform a primary closure shortly after birth (closing the abdominal wall in one operation). If the bowel volume is too large or abdominal cavity is small, use a silo (silastic pouch) for staged reduction of the intestines over several days followed by final closure.",
+    "Provide intensive neonatal care: ventilatory support as needed (especially if closure increases intra-abdominal pressure), **TPN** for nutrition until bowel function returns, and antibiotics. Gradually introduce enteral feeds once the gut recovers. Manage any short bowel syndrome if significant lengths of intestine were removed."
+  ],
+  "red_flags": [
+    "Discolored or **dusky bowel** on exam (suggesting compromised blood flow) → urgent surgical evaluation for resection to prevent necrosis and sepsis.",
+    "Signs of abdominal compartment syndrome after closure (tense abdomen, impaired ventilation, low urine output) → may require opening the closure or silo to relieve pressure.",
+    "Neonatal sepsis (fever, lethargy, hypotension) in gastroschisis can develop rapidly from gut translocation or necrosis—start broad antibiotics and evaluate immediately."
+  ],
+  "algorithm": [
+    "Prenatal diagnosis (high AFP, ultrasound) of gastroschisis → plan delivery at a center with pediatric surgery and NICU available.",
+    "At birth: maintain airway, keep baby warm, and immediately cover exposed bowel with sterile plastic; begin fluid resuscitation, place NG tube, and give antibiotics.",
+    "Surgical management: attempt primary closure of the abdominal wall defect if possible; if not, place a silo for gradual bowel reduction over ensuing days, then surgical closure.",
+    "Post-op: monitor in NICU for complications (compartment syndrome, infection, feeding intolerance). Provide TPN and supportive care until bowel motility returns, then initiate feedings and wean off IV nutrition."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Gastroschisis-full.jpg",
+      "alt": "Illustration of an infant with gastroschisis: intestinal loops protrude through a right-sided abdominal wall defect next to the umbilical cord, with no protective sac covering the bowel.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gastroschisis-full.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19-year-old woman with limited prenatal care delivers a 36-week newborn. The infant has a 3 cm right-sided abdominal wall defect with numerous loops of bowel protruding, uncovered by any membrane. The rest of the exam is normal.",
+      "clues": [
+        "Young maternal age",
+        "Prenatal ultrasound likely would show free-floating bowel",
+        "No sac covering the herniated intestines",
+        "Defect right of umbilicus"
+      ],
+      "answer": "Gastroschisis",
+      "teaching": "Gastroschisis is an isolated paraumbilical abdominal wall defect with uncovered intestines. It typically occurs in babies born to young mothers and is not associated with the genetic anomalies seen in omphalocele. Initial management is to protect the bowel and prepare for surgical closure."
+    }
+  ],
+  "see_also": [
+    "omphalocele"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Gastroschisis (Rentea & Gupta, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557894/"
+    },
+    {
+      "title": "UpToDate: Gastroschisis",
+      "url": "https://www.uptodate.com/contents/gastroschisis"
+    },
+    {
+      "title": "Pediatric Omphalocele and Gastroschisis (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/975583-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

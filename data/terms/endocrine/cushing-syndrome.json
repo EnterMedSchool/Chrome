@@ -1,0 +1,106 @@
+{
+  "id": "cushing-syndrome",
+  "names": ["Cushing syndrome"],
+  "aliases": ["Cushing's syndrome", "Cushing disease", "Cushing's disease", "hypercortisolism", "Itsenko-Cushing syndrome"],
+  "abbr": [],
+  "patterns": ["cushing", "cushing syndrome", "cushing's syndrome", "cushing disease", "cushing's disease", "hypercortisolism"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "surgery"],
+  "definition": "Clinical syndrome of chronic **cortisol** excess (hypercortisolism); **Cushing disease** refers specifically to an ACTH-secreting pituitary adenoma (a subset cause of the syndrome).",
+  "why_it_matters": "Uncontrolled Cushing's causes serious complications (**diabetes**, **infections**, **hypertension**, **osteoporosis**). It's often tricky to diagnose because features (obesity, HTN, depression) are common in the general population, so distinguishing true Cushing's from look-alikes is a classic exam challenge.",
+  "how_youll_see_it": [
+    "Classic appearance: progressive **central obesity** (round \"moon\" face, **buffalo hump** fat pad) with thin limbs, **purple striae** (>1 cm wide), **easy bruising**, **acne**, and proximal **muscle weakness**. Often accompanied by **hypertension**, **weight gain**, and **hyperglycemia** (new-onset diabetes); women may have **hirsutism** or irregular menses.",
+    "Clues to suspect Cushing's: **multiple progressive** cushingoid features (e.g. rapid unexplained weight gain with wide striae and muscle weakness) or any unusual combination like early **osteoporosis** or refractory **hypertension** in a young adult. Patients 20-50 years old are most commonly affected.",
+    "Etiologies: **Exogenous steroids** (iatrogenic) are most common overall. Endogenous Cushing's is rare; ~70% is **Cushing disease** (pituitary ACTH adenoma, usually microadenoma in women). The rest are either **ectopic ACTH** production (paraneoplastic, e.g. small cell lung cancer) or an **adrenal tumor** (adenoma or carcinoma). Only ACTH-dependent causes (pituitary or ectopic) cause skin **hyperpigmentation** (due to high ACTH)."
+  ],
+  "problem_solving": [
+    "Always first **exclude exogenous** glucocorticoid use (most common cause of Cushing's).",
+    "Confirm true Cushing syndrome with an initial **screening test** for cortisol excess. Options (choose one or two): the **1 mg overnight dexamethasone suppression test**, **24‑hour urinary free cortisol** (UFC, ≥2 collections), or **late-night salivary cortisol** (two nights). If the first test is abnormal, confirm with a second method. Note: random cortisol or ACTH levels are not useful for initial screening.",
+    "If hypercortisolism is confirmed, measure **plasma ACTH** to classify the cause. **Low ACTH** (<5 pg/mL) indicates an **ACTH-independent** source (likely an adrenal tumor or exogenous steroid). **Normal or high ACTH** points to **ACTH-dependent** Cushing's (either pituitary or ectopic ACTH).",
+    "For **ACTH-dependent** cases, do tests to distinguish a pituitary source (Cushing disease) from ectopic ACTH. The classic approach is a **high-dose dexamethasone suppression test**: give 8 mg dexamethasone overnight (or 2 mg q6h for 48h) and re-measure cortisol. **Pituitary** adenomas typically show significant cortisol suppression (>50% drop from baseline), whereas an **ectopic** ACTH source will not suppress. A **CRH stimulation test** is another tool: pituitary adenomas respond with a rise in ACTH/cortisol, but ectopic ACTH tumors show no response.",
+    "Once lab results suggest a source, use imaging to find it. If ACTH is high and tests indicate **pituitary**: get a pituitary **MRI** to look for an adenoma (most are microadenomas <10 mm). If MRI is negative but labs strongly suggest pituitary, consider **inferior petrosal sinus sampling** (IPSS) for ACTH to confirm a hidden pituitary source. If ACTH is high but suggests **ectopic** source: scan the chest/abdomen (CT/MRI) to find a tumor (e.g. lung mass). If **ACTH is low**: image the **adrenal glands** (CT or MRI) for an adenoma or carcinoma."
+  ],
+  "differentials": [
+    { "id": "polycystic-ovary-syndrome", "hint": "PCOS in young women can cause obesity, hirsutism, and menstrual irregularities like Cushing's, but it's due to high **androgens** (ovarian) and cortisol tests will be normal." },
+    { "name": "Obesity (simple)/Metabolic syndrome", "hint": "Common central obesity and hypertension can mimic Cushing's appearance. However, **cortisol levels** and circadian rhythm are normal (no true hypercortisolism)." },
+    { "name": "Chronic alcoholism (pseudo-Cushing's)", "hint": "Excessive alcohol can chronically raise cortisol and cause Cushing-like features, but these **resolve with abstinence** (distinguish via normal cortisol tests after sobriety)." },
+    { "name": "Major depressive disorder (pseudo-Cushing's)", "hint": "Severe **depression** or other stress states can elevate cortisol and cause overlapping signs (pseudo-Cushing's). Psychiatric symptoms predominate, and specialized tests (e.g. dexamethasone-CRH test) can differentiate from true Cushing's." }
+  ],
+  "tricks": [
+    "Mnemonic (causes): **CAPE** – **Cushing** disease (pituitary ACTH adenoma), **Adrenal** tumor, **Paraneoplastic** ACTH (ectopic), **Exogenous** steroids.",
+    "Mnemonic (features): **CUSHINGOID** – **C**ataracts, **U**lcers (peptic), **S**kin changes (thin skin, striae, bruising), **H**ypertension/**H**irsutism/**H**yperglycemia, **I**nfections (immunosuppression), **N**ecrosis (avascular necrosis of femoral head), **G**lycosuria, **O**steoporosis/**O**besity (central), **I**atrogenic (cause)/**I**mmunosuppression, **D**iabetes.",
+    "High **ACTH** levels can cause skin **hyperpigmentation** (ACTH stimulates melanocytes). Thus, ACTH-dependent Cushing's (pituitary or ectopic) often has darker skin, whereas adrenal tumor or steroid-induced Cushing's does not."
+  ],
+  "exam_appearance": [
+    "Young woman with central obesity, facial rounding (moon facies), dorsocervical fat pad, and wide purple striae; labs show elevated cortisol with **suppression on high-dose DST** → Cushing **disease** (pituitary adenoma).",
+    "Middle-aged smoker with a lung mass, diffuse skin **hyperpigmentation**, severe proximal muscle weakness, and very high cortisol that **does not suppress** with high-dose dexamethasone → **ectopic ACTH** (paraneoplastic Cushing syndrome, e.g. small cell lung cancer)."
+  ],
+  "treatment": [
+    "Exogenous (iatrogenic) Cushing's: Gradually **taper off** the glucocorticoid if medically feasible. This allows the HPA axis to recover and the Cushingoid features will resolve.",
+    "Pituitary Cushing disease: **Transsphenoidal resection** of the pituitary adenoma is first-line (≈90% cure for small microadenomas). If not cured, options include a second surgery, radiation therapy, or medical therapies to lower cortisol (e.g., **ketoconazole**, **metyrapone**, **mitotane**, **osilodrostat**, or **pasireotide**; and **mifepristone** to block cortisol effects). Bilateral adrenalectomy is a last resort in refractory cases (but necessitates lifelong steroid replacement).",
+    "Adrenal tumor: surgical **adrenalectomy** (laparoscopic for benign adenomas; open surgery if large or malignant). Ectopic ACTH syndrome: treat the **underlying tumor** (e.g., surgical removal or chemo for a lung cancer). If the source can't be immediately eliminated, use medical adrenal-blocking drugs to control cortisol. Always manage co-morbidities (diabetes, infections, osteoporosis) alongside definitive treatment."
+  ],
+  "red_flags": [
+    "Profound **immunosuppression** – patients with severe Cushing's can develop opportunistic infections or sepsis; a sudden worsening (fever, confusion) in a Cushingoid patient requires urgent evaluation and treatment for infection.",
+    "**Thromboembolism** risk – Cushing's creates a hypercoagulable state, so be vigilant for DVT, pulmonary embolism, or stroke (new-onset chest pain or neurologic deficits = emergency).",
+    "Abrupt **steroid withdrawal** can precipitate adrenal **crisis** (acute adrenal failure) – always taper steroids slowly and consider stress-dose steroids if a Cushing's patient undergoes surgery or trauma."
+  ],
+  "algorithm": [
+    "Suspicious features (moon facies, striae, etc.) or an adrenal incidentaloma → **suspect Cushing** syndrome.",
+    "Check for **exogenous steroid** use (most common cause) and discontinue/taper if possible.",
+    "Screen for cortisol excess: **1 mg overnight DST**, **24h urine free cortisol**, or **late-night salivary cortisol** (any positive test → proceed to confirm with a second test).",
+    "If cortisol excess is confirmed → measure **plasma ACTH**.",
+    "**ACTH <5** pg/mL → ACTH-independent (likely adrenal) → **adrenal CT/MRI** to find tumor. **ACTH normal/high** → ACTH-dependent Cushing's.",
+    "For ACTH-dependent: perform **high-dose DST** (± CRH test). **Suppression** (or CRH-responsive) → pituitary source (Cushing disease); **no suppression** → ectopic ACTH source.",
+    "Pituitary source confirmed → **pituitary MRI** to localize adenoma (if none seen and labs strongly suggest pituitary, do IPSS sampling). Ectopic suspected → imaging (CT chest/abdomen) to find the ACTH-secreting tumor."
+  ],
+  "images": [],
+  "cases": [
+    {
+      "stem": "A 30‑year‑old woman with progressive weight gain, easy bruising, and amenorrhea is evaluated for Cushing syndrome.",
+      "clues": [
+        "Central obesity with a plethoric \"moon\" face and \"buffalo hump\"",
+        "Wide purplish striae on the abdomen and thighs",
+        "Blood pressure 160/100, glucose 180 mg/dL",
+        "High ACTH levels that suppress with high-dose dexamethasone"
+      ],
+      "answer": "Cushing disease (ACTH-secreting pituitary adenoma)",
+      "teaching": "This young patient's classic cushingoid features and lab profile (elevated ACTH that is suppressible with high-dose dex) point to an ACTH-producing pituitary microadenoma (Cushing disease) as the cause of her Cushing syndrome. The appropriate treatment is transsphenoidal pituitary surgery."
+    },
+    {
+      "stem": "A 55‑year‑old man with a 40-pack-year smoking history presents with severe proximal muscle weakness and unintentional weight loss.",
+      "clues": [
+        "CT scan reveals a mass in the right lung",
+        "Skin hyperpigmentation and plethora are noted",
+        "Labs: extremely high ACTH and cortisol levels",
+        "No suppression with high-dose dexamethasone; severe hypokalemia is present"
+      ],
+      "answer": "Ectopic ACTH production (paraneoplastic Cushing syndrome)",
+      "teaching": "Small cell lung carcinoma can produce ACTH, causing paraneoplastic Cushing syndrome. These patients often have a rapid onset of severe Cushing's features (muscle wasting, hyperpigmentation from very high ACTH, metabolic alkalosis from cortisol's mineralocorticoid activity). Unlike pituitary Cushing disease, ectopic ACTH does not respond to dexamethasone suppression. Management involves treating the underlying cancer and controlling cortisol (e.g., with medical adrenal inhibitors)."
+    }
+  ],
+  "see_also": ["hypothyroidism", "osteoporosis", "obesity"],
+  "prerequisites": ["hpa-axis", "adrenal-gland", "glucocorticoids"],
+  "sources": [
+    {
+      "title": "JAMA: Cushing Syndrome – A Review (Reincke & Fleseriu, 2023)",
+      "url": "https://jamanetwork.com/journals/jama/article-abstract/2807073"
+    },
+    {
+      "title": "UpToDate: Overview of the treatment of Cushing syndrome (2024)",
+      "url": "https://www.uptodate.com/contents/overview-of-the-treatment-of-cushing-syndrome"
+    },
+    {
+      "title": "StatPearls: Hypercortisolism (Uwaifo & Hura, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551526/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

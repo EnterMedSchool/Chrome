@@ -1,0 +1,102 @@
+{
+  "id": "pulmonary-embolism",
+  "names": ["Pulmonary embolism"],
+  "aliases": ["pulmonary thromboembolism"],
+  "abbr": ["PE"],
+  "patterns": ["pe", "pulmonary embolism", "pulmonary embolus", "pulmonary thromboembolism"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "cardio", "emerg"],
+  "definition": "Blockage of one or more pulmonary arteries (usually by a blood clot from a leg DVT) that impairs lung perfusion and can cause acute right heart strain or sudden death.",
+  "why_it_matters": "Common and potentially fatal if missed (a leading cause of sudden death). Early diagnosis and treatment are critical to prevent mortality. Frequently tested as an emergency you must quickly recognize and manage.",
+  "how_youll_see_it": [
+    "Sudden onset **dyspnea** (shortness of breath) with **pleuritic chest pain**, often accompanied by **tachypnea** and **tachycardia**; may also cause anxiety or a sense of doom.",
+    "Often occurs in a patient with risk factors for clot: recent **surgery** or trauma, prolonged **immobilization** (long flight or hospital stay), **cancer**, or **pregnancy/postpartum**.",
+    "If pulmonary infarction occurs: can have **hemoptysis** (coughing blood) and pleuritic pain due to lung tissue ischemia (classic \"triad\" of dyspnea, chest pain, hemoptysis is actually infrequent).",
+    "Massive PE (large central clot, often a saddle embolus) presents with **hypotension**, **syncope**, or cardiac arrest (obstructive shock) – look for jugular venous distension and cyanosis.",
+    "Submassive PE: patient is normotensive but shows **right ventricular strain** signs (e.g., elevated troponin, RV dilation on echo, new RBBB on ECG) despite stable blood pressure."
+  ],
+  "problem_solving": [
+    "Use a clinical prediction tool like the **Wells score** to assess PE probability. If PE is unlikely (low Wells), get a **D-dimer** blood test (high sensitivity) to rule out PE; if D-dimer is positive or PE is likely (high Wells), proceed to imaging.",
+    "**CT pulmonary angiography (CTPA)** is the gold standard diagnostic test, showing filling defects in pulmonary arteries. If CTPA is contraindicated (e.g., contrast allergy, pregnancy, severe renal dysfunction), use a **ventilation-perfusion (V/Q) scan** as an alternative.",
+    "In a hemodynamically unstable patient with suspected PE, do not delay treatment for confirmation – start empirical anticoagulation and consider **thrombolysis** if features of massive PE. Bedside tests like point-of-care ultrasound (for RV strain or DVT) can support the diagnosis when immediate CT is impractical.",
+    "Always stratify risk after diagnosis: classify as massive (hemodynamic instability), submassive (RV strain without hypotension), or low-risk. This determines management – e.g., **thrombolytics** are indicated for massive PE (and some severe submassive cases) but not for low-risk PE.",
+    "After acute management, investigate underlying causes (e.g., thrombophilia workup for unprovoked PE, cancer screening in idiopathic cases) and ensure appropriate duration of anticoagulation (typically at least 3–6 months for a first provoked PE)."
+  ],
+  "differentials": [
+    { "id": "pneumonia", "hint": "fever, productive cough, focal infiltrate on CXR (infection rather than clot)" },
+    { "id": "myocardial-infarction", "hint": "pressure-like chest pain radiating to arm/jaw, ECG ST changes, risk factors for CAD" },
+    { "id": "pericarditis", "hint": "sharp pain relieved by leaning forward, pericardial rub, diffuse ST elevation on ECG" }
+  ],
+  "tricks": [
+    "Remember **Virchow's triad** (stasis, hypercoagulability, endothelial injury) — the three factors predisposing to thrombosis (important risk factor concept for DVT/PE).",
+    "Classic exam signs (often absent in real life): **Hampton's hump** (wedge-shaped opacity on CXR from infarction), **Westermark's sign** (oligemia on CXR), and **S1Q3T3** on EKG (acute right heart strain). Also, a patient with unexplained hypoxemia and a normal CXR is a red flag for PE."
+  ],
+  "exam_appearance": [
+    "Postoperative patient (e.g., after knee surgery) with sudden pleuritic chest pain, tachycardia, tachypnea, and hemoptysis → **Pulmonary embolism** (immobility led to DVT and PE).",
+    "Middle-aged traveler after a long flight collapses with syncope, hypotension, and JVD → **Massive PE** causing obstructive shock."
+  ],
+  "treatment": [
+    "**Anticoagulation** is first-line for PE: start heparin (IV unfractionated or SC low-molecular-weight heparin) or a DOAC as soon as PE is confirmed (or suspected in moderate/high risk) to prevent further clot extension.",
+    "**Thrombolysis** (tPA) is indicated for **massive PE** with hemodynamic instability (and considered in some submassive PE with severe RV strain) to rapidly dissolve the clot, unless contraindications to bleeding exist.",
+    "**IVC filter** placement is reserved for patients who cannot be anticoagulated or who develop PEs despite adequate anticoagulation. Long-term, manage risk factors and continue anticoagulation for the recommended duration (often 3–6 months or longer)."
+  ],
+  "red_flags": [
+    "**Hemodynamic collapse**: SBP <90 mmHg, severe hypoxemia, or PEA cardiac arrest in context of PE → indicates a massive PE (high risk of death) – requires immediate thrombolytic therapy.",
+    "**Signs of acute RV failure**: jugular venous distension, acute right bundle branch block on ECG, elevated troponin/BNP, or echo showing RV dilation – signify a large clot burden (submassive PE) and need close monitoring/escalation of care."
+  ],
+  "algorithm": [
+    "Risk factors + acute dyspnea/chest pain → **suspect PE**; perform Wells score to stratify risk.",
+    "If Wells score indicates PE unlikely (low probability): do a **D-dimer** test. If D-dimer is normal (below threshold) → PE ruled out; if positive → proceed to imaging.",
+    "If Wells indicates PE likely (high probability): skip D-dimer and obtain **CT pulmonary angiography (CTPA)** immediately to confirm PE.",
+    "If CTPA is positive (PE confirmed) → start anticoagulation promptly. If CTPA is negative → consider alternative diagnoses (or further testing if suspicion remains high).",
+    "If patient is unstable with suspected PE (massive PE) → begin empiric anticoagulation and **thrombolysis**; use bedside ultrasound (for RV strain or DVT) to aid diagnosis since waiting for CT could be fatal."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/df/Pulmonary-embolism.png",
+      "alt": "Diagram showing a pulmonary embolism (blood clot) lodged in a pulmonary artery of the lung.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Pulmonary-embolism.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 60‑year‑old man, 3 days post knee-replacement surgery, develops sudden shortness of breath and left-sided chest pain.",
+      "clues": ["HR 120, RR 26, O2 sat 88%", "Chest pain is pleuritic with mild hemoptysis", "Left calf is swollen and tender", "Recent immobilization from surgery"],
+      "answer": "Pulmonary embolism (from a postoperative DVT)",
+      "teaching": "Immobilization after surgery led to a deep vein thrombosis that embolized to the lungs. The patient's acute pleuritic chest pain, tachycardia, hypoxemia, and hemoptysis are classic for PE. Immediate anticoagulation is indicated after diagnostic confirmation."
+    },
+    {
+      "stem": "A 32‑year‑old woman, 1 week postpartum, collapses at home with sudden onset of extreme dyspnea.",
+      "clues": ["BP 80/50 mmHg, P 130 (shock)", "Jugular venous distension noted", "EKG: sinus tachycardia with S1Q3T3 pattern", "Recent childbirth (postpartum state)"],
+      "answer": "Massive pulmonary embolism",
+      "teaching": "Pregnancy and the postpartum period are hypercoagulable states. This patient likely had a large clot (saddle PE) causing obstructive shock. Hypotension and JVD indicate right heart strain. Massive PE is life-threatening – immediate thrombolytic therapy is warranted."
+    }
+  ],
+  "see_also": ["atrial-fibrillation", "stroke", "respiratory-failure"],
+  "prerequisites": ["pulmonary-physiology", "coagulation"],
+  "sources": [
+    {
+      "title": "StatPearls: Acute Pulmonary Embolism (Vyas, Sankari & Goyal, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560551/"
+    },
+    {
+      "title": "UpToDate: Clinical presentation and diagnostic evaluation of the nonpregnant adult with suspected acute pulmonary embolism",
+      "url": "https://www.uptodate.com/contents/clinical-presentation-and-diagnostic-evaluation-of-the-nonpregnant-adult-with-suspected-acute-pulmonary-embolism"
+    },
+    {
+      "title": "Pulmonary Embolism (Medscape, 2024)",
+      "url": "https://emedicine.medscape.com/article/300901-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

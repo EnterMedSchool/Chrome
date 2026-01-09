@@ -1,0 +1,122 @@
+{
+  "id": "ascites",
+  "names": ["Ascites"],
+  "aliases": ["peritoneal fluid buildup", "hydroperitoneum"],
+  "abbr": [],
+  "patterns": ["ascites", "peritoneal fluid", "abdominal fluid", "fluid wave"],
+  "primary_tag": "gi",
+  "tags": ["pathology", "gi", "cardio", "renal", "infectious_dz"],
+  "definition": "Abnormal fluid accumulation in the peritoneal cavity; often due to portal hypertension (e.g., decompensated cirrhosis).",
+  "why_it_matters": "Signals serious underlying disease – often marks transition to decompensated cirrhosis (≈50% of cirrhotics develop ascites within 10 years) and carries high mortality. Complications like spontaneous bacterial peritonitis (SBP) and hepatorenal syndrome frequently occur, making prompt diagnosis and management critical.",
+  "how_youll_see_it": [
+    "Gradual abdominal distension with increased girth; patients may report bloating, early satiety, weight gain, and shortness of breath from diaphragmatic elevation.",
+    "Physical exam: bulging flanks, shifting dullness, and a positive fluid wave indicate ascites. Look for stigmata of chronic liver disease (e.g., jaundice, spider angiomas, caput medusae) suggesting cirrhosis.",
+    "If ascitic fluid becomes infected (SBP): patients can develop fever, diffuse abdominal tenderness, or mental status changes (encephalopathy) on top of baseline ascites.",
+    "Clues to etiology: Cirrhosis – may have liver stigmata; malignancy – unintentional weight loss, possibly an umbilical nodule (Sister Mary Joseph's node); heart failure – jugular venous distension, edema, hepatojugular reflux; tuberculous ascites – chronic fever, night sweats, and abdominal pain."
+  ],
+  "problem_solving": [
+    "Always perform a diagnostic paracentesis for new-onset ascites or any hospitalized patient with ascites to determine the cause and rule out infection.",
+    "Calculate the serum-ascites albumin gradient (SAAG): SAAG ≥1.1 g/dL indicates portal hypertension as the cause (cirrhosis, heart failure, Budd-Chiari, etc.), whereas SAAG <1.1 suggests a non-portal hypertensive cause (peritoneal carcinomatosis, tuberculous peritonitis, pancreatic ascites, nephrotic syndrome).",
+    "Interpret ascitic total protein in context: in high-SAAG ascites, a low ascitic protein (<2.5 g/dL) is typical of cirrhosis (portal pressure with poor protein synthetic function), whereas a high ascitic protein (>2.5 g/dL) occurs in cardiac ascites (e.g., heart failure) or Budd-Chiari syndrome.",
+    "Send ascitic fluid for cell count and differential: PMN ≥250/mm³ is diagnostic of SBP and warrants immediate antibiotics. Also culture the fluid (inoculate into blood culture bottles at bedside) even if cell count is low, to catch infection early.",
+    "Order additional tests based on suspicion: cytology (malignancy) if cancer is possible; ADA level and mycobacterial culture if TB is suspected (ascitic fluid ADA >39 IU/L is highly suggestive of tuberculous peritonitis); amylase if pancreatic ascites is in the differential (very high ascitic amylase >1000 U/L points to pancreatic origin).",
+    "Imaging: Ultrasound is very sensitive for detecting even small volumes of ascites and is useful to guide paracentesis. Obtain CT scan if an intra-abdominal mass, malignancy, or alternative diagnosis is suspected."
+  ],
+  "differentials": [
+    { "name": "Obesity (pseudoascites)", "hint": "generalized increased abdominal girth from adipose tissue; no shifting dullness or fluid wave" },
+    { "name": "Intestinal obstruction/ileus", "hint": "diffuse abdominal distension with tympanic percussion (air-filled bowel), often with pain and vomiting" },
+    { "name": "Large ovarian cyst", "hint": "can cause abdominal distension and fluid wave but usually confined to pelvis; ultrasound shows a localized cystic mass" }
+  ],
+  "tricks": [
+    "Remember SAAG: ≥1.1 g/dL = portal HTN ascites (e.g., cirrhosis, HF); <1.1 g/dL = non-portal HTN causes (e.g., cancer, TB).",
+    "Shifting dullness is the most sensitive physical exam finding for ascites, while a pronounced fluid wave usually indicates large-volume ascites.",
+    "SBP alert: An ascitic fluid PMN count ≥250 means SBP – start empiric antibiotics even if culture is pending or negative.",
+    "For cirrhotic ascites, use spironolactone + furosemide in a 100:40 mg ratio to safely diurese (spares potassium balance).",
+    "After removing a large volume (>5 L) of ascitic fluid, always give IV albumin to prevent circulatory collapse from fluid shifts.",
+    "Mnemonic for abdominal distension causes: \"5 F's\" – Fluid (ascites), Fat (obesity), Flatus (gas), Fetus (pregnancy), and Fatal tumor."
+  ],
+  "exam_appearance": [
+    "Patient with chronic alcoholism and stigmata of liver disease (e.g., palmar erythema, spider angiomas) who has a distended abdomen with a fluid wave → ascites due to cirrhosis/portal hypertension.",
+    "Cirrhotic patient with ascites developing fever and confusion → think spontaneous bacterial peritonitis (ascitic PMNs likely elevated, needs urgent antibiotics).",
+    "Woman with abdominal distension, weight loss, and a firm umbilical nodule (Sister Mary Joseph sign) → malignant ascites from peritoneal carcinomatosis (e.g., metastatic ovarian or gastric cancer)."
+  ],
+  "treatment": [
+    "General: Dietary sodium restriction (≤2 g/day) and oral diuretics are first-line for ascites due to cirrhosis. Spironolactone is the cornerstone (often combined with furosemide); titrate doses to achieve ~0.5 kg/day weight loss. Avoid NSAIDs (worsen sodium retention) and ACE inhibitors (risk of renal failure in cirrhosis).",
+    "Therapeutic paracentesis: For tense or refractory ascites, perform large-volume paracentesis to relieve symptoms. Always infuse IV albumin if removing >5 L to maintain intravascular volume. Repeat paracenteses as needed for comfort in malignant or refractory ascites.",
+    "Treat underlying cause: e.g., alcohol cessation and specific therapies for hepatitis (autoimmune, viral) in cirrhosis; chemotherapy or surgical debulking for malignant ascites; anti-tubercular therapy for tuberculous ascites; optimize heart failure management if cardiac ascites.",
+    "Spontaneous bacterial peritonitis: If ascitic fluid PMN ≥250 or clinical suspicion of SBP, start empiric broad-spectrum antibiotics (usually IV third-generation cephalosporin such as cefotaxime) immediately. Patients with SBP and renal dysfunction (high creatinine or BUN) or high bilirubin should also receive IV albumin to prevent hepatorenal syndrome. After recovery, give long-term antibiotic prophylaxis (e.g., daily norfloxacin) to prevent SBP recurrence.",
+    "Refractory ascites: Consider TIPS (transjugular intrahepatic portosystemic shunt) to reduce portal pressure in patients who fail diuretics and paracentesis, but monitor for encephalopathy post-shunt. Liver transplantation should be evaluated in any patient with ascites from end-stage liver disease."
+  ],
+  "red_flags": [
+    "Fever, abdominal pain/tenderness, or altered mental status in a patient with ascites → suspect spontaneous bacterial peritonitis (do an immediate paracentesis; PMN ≥250 cells/mm³ confirms SBP).",
+    "An ascitic patient with rising creatinine, oliguria, and hyponatremia → worrisome for hepatorenal syndrome (renal failure due to advanced cirrhosis). This is life-threatening and often precipitated by SBP or over-diuresis – requires urgent management (vasoconstrictors like terlipressin and albumin, consider transplant).",
+    "Tense ascites with marked abdominal distension causing respiratory compromise or umbilical hernia rupture → indicates need for urgent large-volume paracentesis."
+  ],
+  "algorithm": [
+    "Detect ascites (physical exam or imaging) → confirm with ultrasound if needed.",
+    "Paracentesis: tap ascitic fluid for analysis in all new or unexplained ascites.",
+    "Ascitic fluid analysis → SAAG calculation: if SAAG ≥1.1 g/dL → portal hypertensive ascites (likely cirrhosis or cardiac); if SAAG <1.1 → non-portal hypertensive (malignancy, TB, etc.).",
+    "If portal hypertensive ascites: use ascitic protein to differentiate; low protein suggests cirrhosis, high protein suggests cardiac/Budd-Chiari.",
+    "If low SAAG ascites: pursue workup for TB (ADA, culture) or malignancy (cytology, imaging).",
+    "If PMNs ≥250 on fluid → treat for SBP (don't wait for culture). If signs of secondary peritonitis (e.g., very low glucose, very high LDH, or multiple organisms on culture) → consult surgery.",
+    "Initiate appropriate therapy for underlying cause (cirrhosis, cancer, TB, HF) and manage ascites with salt restriction, diuretics, or interventions (paracentesis, TIPS) as needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Hepaticfailure.jpg",
+      "alt": "Abdomen of a patient with massive ascites due to cirrhotic portal hypertension (note the distended veins on the abdominal wall).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hepaticfailure.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 53‑year‑old man with a history of alcohol use disorder and chronic hepatitis C presents with increasing abdominal girth and discomfort.",
+      "clues": [
+        "Exam: shifting dullness and fluid wave are present; several spider angiomas on chest",
+        "Abdominal ultrasound confirms ascites",
+        "Paracentesis: SAAG 1.4 g/dL, ascitic protein 1.0 g/dL",
+        "Ascitic fluid neutrophil count 80/mm³ (no evidence of infection)"
+      ],
+      "answer": "Ascites due to cirrhotic portal hypertension (decompensated cirrhosis).",
+      "teaching": "High SAAG and low ascites protein indicate portal hypertensive ascites, consistent with cirrhosis. The patient's liver disease stigmata (spider angiomas) and history further support cirrhosis as the cause. Management would focus on sodium restriction, diuretics (spironolactone ± furosemide), and alcohol cessation, with monitoring for SBP."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "portal-hypertension",
+    "hepatic-encephalopathy",
+    "esophageal-varices",
+    "heart-failure",
+    "nephrotic-syndrome",
+    "peritonitis"
+  ],
+  "prerequisites": [
+    "portal-hypertension",
+    "starling-forces"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Ascites (Chiejina & Kudaravalli, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470482/"
+    },
+    {
+      "title": "UpToDate: Ascites in adults with cirrhosis – initial therapy",
+      "url": "https://www.uptodate.com/contents/ascites-in-adults-with-cirrhosis-initial-therapy"
+    },
+    {
+      "title": "AASLD Practice Guidance: Ascites, SBP, and HRS (Biggins et al., 2021)",
+      "url": "https://aasldpubs.onlinelibrary.wiley.com/doi/10.1002/hep.31884"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

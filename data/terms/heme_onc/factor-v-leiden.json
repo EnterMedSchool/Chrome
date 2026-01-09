@@ -1,0 +1,108 @@
+{
+  "id": "factor-v-leiden",
+  "names": ["Factor V Leiden thrombophilia"],
+  "aliases": ["activated protein C resistance (Leiden)", "Factor V Arg506Gln mutation"],
+  "abbr": ["FVL"],
+  "patterns": ["factor v leiden", "factor 5 leiden", "leiden mutation", "activated protein c resistance", "factor v mutation"],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics", "pharmacology"],
+  "definition": "Inherited point mutation in the **Factor V** gene (most commonly **Arg506→Gln**) that makes factor V resistant to inactivation by **activated protein C**, resulting in a hypercoagulable state with increased tendency for venous thrombosis.",
+  "why_it_matters": "It's the **most common inherited thrombophilia** (especially in individuals of European descent). Factor V Leiden is present in up to 20% of patients with unexplained venous thromboembolism, so recognizing it can explain early or recurrent clots and guide management.",
+  "how_youll_see_it": [
+    "Typically a **young adult** with an unprovoked **DVT or PE** (often under age 45). May be triggered by risk factors like **estrogen exposure** (oral contraceptives or pregnancy), **surgery**, or **immobility**.",
+    "Often there is a **family history** of venous clots. Many carriers remain asymptomatic (only ~10% of those with the mutation develop clots), so a **second hit** (e.g. OCP use, trauma, long flight) often precipitates the first VTE.",
+    "May also present as **recurrent pregnancy losses** or complications (e.g. miscarriage in second trimester) in women, although most pregnancies in FVL carriers are normal. FVL is only a mild risk factor for obstetric complications compared to antiphospholipid syndrome."
+  ],
+  "problem_solving": [
+    "Suspect FVL in patients with **unprovoked VTE at a young age** or **recurrent VTE/miscarriages** with no other explanation.",
+    "Initial screening test: a **functional APC resistance assay** (looks for poor prolongation of clotting when **activated protein C** is added). If positive (abnormal), confirm with **genetic testing** for the F5 gene mutation.",
+    "Don't routinely test for FVL after a single provoked clot or in older patients (>50) with VTE, as yield is low. Only test if results would change management (e.g. in a young patient with idiopathic VTE or strong family history).",
+    "Remember that many FVL carriers never clot; assess for additional risk factors (estrogen use, smoking, immobilization) and manage those to reduce overall risk."
+  ],
+  "differentials": [
+    { "id": "prothrombin-g20210a-mutation", "hint": "Second most common inherited thrombophilia; mutation elevates prothrombin levels and VTE risk." },
+    { "id": "antiphospholipid-syndrome", "hint": "Acquired thrombophilia (autoimmune) causing arterial & venous clots and miscarriages; often positive lupus anticoagulant (paradoxical ↑PTT in vitro)." },
+    { "id": "protein-c-deficiency", "hint": "Rare inherited cause of hypercoagulability; can cause warfarin-induced skin necrosis due to lack of protein C." }
+  ],
+  "tricks": [
+    "Mnemonic: **Leiden = 'Leaden' (heavy)** — Factor V is **\"leaden\"** and won't get turned off by Protein C, leading to overactive clotting.",
+    "Most heterozygous carriers **won't have clots** without a trigger – so always look for a precipitant (surgery, estrogen, immobilization) on top of FVL before blaming it for thrombosis."
+  ],
+  "exam_appearance": [
+    "Young woman on oral contraceptives with a DVT (especially with a family history of clots) → think Factor V Leiden mutation.",
+    "Patient with recurrent DVTs/PEs in their 20s-30s, normal PT/PTT, and a positive APC resistance assay → inherited thrombophilia like Factor V Leiden.",
+    "Woman with multiple 2nd-trimester miscarriages and a prior unprovoked DVT → suspect Factor V Leiden (after ruling out antiphospholipid syndrome)."
+  ],
+  "treatment": [
+    "Treat **acute VTE** in FVL carriers the same as any other patient: e.g. start heparin or a DOAC, then appropriate duration of anticoagulation. FVL status does not change first-line therapy or standard duration (3–6 months for a first VTE).",
+    "Decide on long-term anticoagulation based on clinical factors (provoked vs unprovoked, recurrent events) rather than FVL alone. A heterozygous FVL patient with a single provoked DVT usually **does not require lifelong anticoagulation**. If the VTE was unprovoked or life-threatening (or if patient is homozygous FVL), consider extended anticoagulation, weighing bleeding risk.",
+    "For asymptomatic carriers, **no prophylactic anticoagulation** is given. Emphasize risk reduction: avoid smoking, manage weight, and caution with estrogen-containing contraceptives (seek alternatives if possible).",
+    "In high-risk situations (e.g. surgery, prolonged immobilization, postpartum period), provide **prophylactic anticoagulation** (e.g. low-dose heparin) especially if the patient is homozygous or has a strong family history. During pregnancy, heterozygous FVL women without prior clots are usually managed with close observation or low-dose aspirin, but those with a history of VTE or homozygous FVL may require prophylactic **LMWH** during pregnancy and 6 weeks postpartum."
+  ],
+  "red_flags": [
+    "Unprovoked VTE at a young age (especially <45) – consider inherited thrombophilia testing (including FVL).",
+    "Recurrent venous thromboses or VTE in unusual sites (like cerebral or hepatic veins) – suspect a hypercoagulable disorder like FVL.",
+    "Unexplained pregnancy complications (recurrent miscarriage, severe preeclampsia, placental abruption) – evaluate for thrombophilias (FVL is a mild risk factor for these)."
+  ],
+  "algorithm": [
+    "Risk factors present (young age, family history, recurrent/unusual clots) or suspicion of inherited thrombophilia → **Consider testing for Factor V Leiden**.",
+    "Order an **activated protein C (APC) resistance assay** as an initial screen for FVL (will be abnormal if factor V is resistant to APC).",
+    "If APC resistance test is positive → perform **DNA testing** for the factor V Leiden mutation (confirmatory genetic test).",
+    "If FVL mutation confirmed and patient has active VTE → treat acute thrombosis with standard anticoagulation (no modifications needed for FVL).",
+    "After acute treatment, determine **duration** of anticoagulation based on provoked vs unprovoked and patient risk profile (FVL heterozygosity alone is not an indication for lifelong anticoagulation). Provide patient education on lifestyle changes to minimize risk and use prophylaxis during high-risk periods."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Factor_V_Leiden.jpg",
+      "alt": "Diagram illustrating the pathophysiology of Factor V Leiden mutation: the mutated factor V (Factor V Leiden) cannot be inactivated by activated protein C, leading to continued thrombin generation and clot formation.",
+      "credit": {
+        "text": "Padda et al. (2021) via NCBI/PMC, CC BY 4.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Factor_V_Leiden.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 30‑year‑old woman develops a DVT in her left leg 2 months after starting oral contraceptive pills. Her mother and sister both had deep vein thromboses in their twenties.",
+      "clues": ["DVT at age 30", "Recently started OCPs (estrogen)", "Family history of VTE in first-degree relatives"],
+      "answer": "Factor V Leiden thrombophilia (heterozygous)",
+      "teaching": "This presentation of an early, provoked DVT in a patient with a strong family history is classic for an inherited thrombophilia. Factor V Leiden, the most common inherited cause of DVT, involves a mutation making factor V resistant to activated protein C. Testing would show an abnormal APC resistance assay and confirm the factor V Leiden mutation. Management would include treating the acute DVT and counseling on risk factor avoidance (e.g. use non-estrogen contraception)."
+    }
+  ],
+  "see_also": [
+    "pulmonary-embolism",
+    "antiphospholipid-syndrome",
+    "stroke",
+    "disseminated-intravascular-coagulation"
+  ],
+  "prerequisites": [
+    "coagulation-cascade",
+    "protein-c-and-s"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Factor V Leiden Mutation (Albagoush et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534802/"
+    },
+    {
+      "title": "GeneReviews: Factor V Leiden Thrombophilia (Updated 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1368/"
+    },
+    {
+      "title": "UpToDate: Factor V Leiden and Activated Protein C Resistance (Rodgers & Key, 2023)",
+      "url": "https://www.uptodate.com/contents/factor-v-leiden-and-activated-protein-c-resistance"
+    },
+    {
+      "title": "MedlinePlus Genetics: Factor V Leiden thrombophilia (NLM, 2021)",
+      "url": "https://medlineplus.gov/genetics/condition/factor-v-leiden-thrombophilia/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

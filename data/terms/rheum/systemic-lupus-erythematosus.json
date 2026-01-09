@@ -1,0 +1,104 @@
+{
+  "id": "systemic-lupus-erythematosus",
+  "names": ["Systemic lupus erythematosus"],
+  "aliases": ["lupus", "disseminated lupus erythematosus"],
+  "abbr": ["SLE"],
+  "patterns": ["sle", "systemic lupus erythematosus", "systemic lupus", "lupus", "disseminated lupus"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "immunology", "rheum"],
+  "definition": "Chronic multi-organ **autoimmune** disease where nuclear autoantibodies form **immune complexes** that damage multiple organs; classically presents with a 'butterfly' malar rash.",
+  "why_it_matters": "Relatively common and prototypical connective tissue disease. Primarily affects young women (~90% of cases) and can range from mild to life-threatening. Early recognition is crucial to prevent organ damage (e.g., renal failure from lupus nephritis) and improve survival.",
+  "how_youll_see_it": [
+    "Typically a woman of childbearing age with **fatigue**, **fever**, and **migratory joint pains**, plus skin findings like a **photosensitive malar rash** (spares nasolabial folds) or **oral ulcers**. May have **alopecia** and **Raynaud phenomenon**.",
+    "**Polyarthritis** (nonerosive) is very common (often in hands, wrists, knees) and can flare and remit. Any organ system can be involved: **serositis** (pleuritic chest pain, pericarditis), **renal** issues (hematuria or proteinuria from lupus nephritis), **neurologic** symptoms (seizures, psychosis), and **hematologic** abnormalities (hemolytic anemia, leukopenia, thrombocytopenia).",
+    "Lab clues: almost all SLE patients have a positive **ANA** (highly sensitive). More specific antibodies include **anti-dsDNA** (seen in ~60%, often indicates renal involvement) and **anti-Sm**. Often there are low **complement** levels (C3, C4) during active disease flares."
+  ],
+  "problem_solving": [
+    "Suspect SLE when a patient has multisystem symptoms (especially a combination of skin + joint + internal organ findings). Rule out infections that can mimic SLE flares (e.g., fever in SLE can also indicate infection due to immunosuppression).",
+    "Initial test: **ANA** (highly sensitive but not specific); if positive, follow up with specific antibodies (like anti-dsDNA, anti-Sm, antiphospholipid panel) to confirm and assess disease. Also get baseline studies: **urinalysis** (for proteinuria/hematuria), kidney function, CBC, and inflammatory markers.",
+    "Use classification criteria (e.g., ACR or EULAR/ACR 2019) as a guide — ≥4 of the 11 classic criteria (\"MD SOAP BRAIN\") or sufficient weighted criteria points support the diagnosis.",
+    "If lupus nephritis is suspected (proteinuria, active urinary sediment), consider a **renal biopsy** to determine the class of nephritis (I–VI). This guides therapy (e.g., Class III/IV require aggressive immunosuppression)."
+  ],
+  "differentials": [
+    { "id": "rheumatoid-arthritis", "hint": "chronic erosive arthritis (RF/CCP positive); older patients; no malar rash" },
+    { "id": "dermatomyositis", "hint": "proximal muscle weakness + heliotrope rash/Gottron papules; high CK; different autoantibodies" },
+    { "id": "drug-induced-lupus", "hint": "anti-histone antibodies; history of drug trigger (e.g., hydralazine, procainamide); usually no renal/CNS involvement" },
+    { "id": "mixed-connective-tissue-disease", "hint": "overlap of SLE, scleroderma, polymyositis features; high anti-RNP antibody" }
+  ],
+  "tricks": [
+    "Mnemonic: **MD SOAP BRAIN** to recall the 11 classic criteria (Malar rash, Discoid rash, Serositis, Oral ulcers, Arthritis, Photosensitivity, Blood cytopenias, Renal disorder, ANA positivity, Immunologic markers, Neurologic symptoms).",
+    "**Anti-dsDNA** titers often correlate with disease activity, especially for lupus nephritis; rising anti-dsDNA and dropping complement levels can foreshadow a flare.",
+    "**Libman-Sacks endocarditis** is a non-infectious endocarditis due to SLE (sterile vegetations on both sides of valves) – rare but classic for boards."
+  ],
+  "exam_appearance": [
+    "Young African-American woman with a facial rash, joint pain, and proteinuria (RBC casts) → SLE (lupus nephritis).",
+    "Female patient with SLE having recurrent pregnancy losses and arterial/venous thromboses → think **antiphospholipid syndrome** (hypercoagulability with lupus anticoagulant, anticardiolipin antibodies).",
+    "SLE patient with chest pain and pericardial friction rub → **pericarditis** from lupus (serositis)."
+  ],
+  "treatment": [
+    "**Hydroxychloroquine** for nearly all patients (reduces flares and improves long-term survival); plus general measures (sun avoidance, cardiovascular risk management).",
+    "For acute flares or serious organ involvement, use **corticosteroids** (e.g., high-dose prednisone); if life-threatening (e.g., severe nephritis, CNS lupus), treat with IV methylprednisolone and add a cytotoxic agent like **cyclophosphamide** or high-dose **mycophenolate mofetil** to induce remission.",
+    "Maintenance and steroid-sparing meds: **azathioprine** or **mycophenolate** (often after cyclophosphamide for lupus nephritis), or **methotrexate** for chronic arthritis/serositis. Biologic therapies like **belimumab** (anti-BLyS) can reduce flares in refractory SLE; newer drugs (voclosporin for nephritis, anifrolumab) are available for severe cases.",
+    "If **antiphospholipid syndrome** is present (clotting or pregnancy losses), patients require long-term anticoagulation (warfarin, or heparin + aspirin in pregnancy) to prevent thromboses."
+  ],
+  "red_flags": [
+    "**Lupus nephritis**: new proteinuria, RBC casts, or rising creatinine → needs prompt evaluation (often biopsy) and aggressive therapy to prevent permanent kidney damage.",
+    "**Neuropsychiatric lupus**: seizures, psychosis, or severe headaches → indicates CNS involvement; hospitalize and treat aggressively (high-dose steroids, immunosuppressants) after ruling out infection.",
+    "**Antiphospholipid syndrome**: any SLE patient with unexplained clot (DVT, stroke) or recurrent miscarriage → suspect APS (hypercoagulability) and initiate anticoagulation promptly."
+  ],
+  "algorithm": [
+    "Compatible signs (photosensitive rash, arthritis, etc.) → test **ANA**.",
+    "If ANA positive → further tests: **anti-dsDNA**, **anti-Sm**, antiphospholipid antibodies; plus labs (CBC, metabolic panel, UA, complement levels).",
+    "If criteria are sufficient and other causes excluded → confirm SLE diagnosis (2019 EULAR/ACR criteria: ANA ≥1:80 required, then weighted clinical/immunologic criteria ≥10 points).",
+    "Assess organ involvement: e.g., kidney (if proteinuria → biopsy), CNS (imaging, LP if indicated), etc., to guide therapy intensity.",
+    "Treat accordingly: hydroxychloroquine for all; steroids ± immunosuppressants for flares as needed. Coordinate care with specialists (rheumatology, nephrology) and monitor for flares or complications at follow-up."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/OSC_Microbio_19_02_Lupus.jpg",
+      "alt": "Illustration of systemic lupus erythematosus with a butterfly rash on the face and multiple organs involved, plus an inset photo of the classic malar rash.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:OSC_Microbio_19_02_Lupus.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 24‑year‑old woman reports fatigue, joint pains, and a facial rash that worsens with sun. Exam shows an erythematous malar rash sparing the nasolabial folds and tenderness in the small joints of her hands. Labs: ANA titer 1:640, anti-dsDNA positive, hemoglobin 10 (low), platelets 110k (low), creatinine 1.8 mg/dL, urinalysis with proteinuria and RBC casts.",
+      "clues": ["young woman", "photosensitive malar rash", "nonerosive arthritis", "cytopenias", "renal involvement", "ANA positive", "anti-dsDNA positive"],
+      "answer": "Systemic lupus erythematosus (with likely lupus nephritis)",
+      "teaching": "SLE commonly presents in young women with a combination of skin, joint, and internal organ findings. A photosensitive butterfly rash, anemia and thrombocytopenia, and kidney involvement (proteinuria, RBC casts) along with positive ANA and anti-dsDNA confirm the diagnosis. Lupus nephritis is indicated by the renal findings and would warrant aggressive treatment (e.g., high-dose steroids plus cyclophosphamide or mycophenolate), in addition to hydroxychloroquine for long-term disease control."
+    },
+    {
+      "stem": "A 30‑year‑old woman with SLE has had two miscarriages and now presents with acute left leg swelling. Doppler ultrasound confirms a DVT. Her lab tests show a positive lupus anticoagulant and anti-cardiolipin antibodies.",
+      "clues": ["SLE history", "recurrent miscarriages", "deep vein thrombosis", "lupus anticoagulant", "anticardiolipin antibody"],
+      "answer": "Antiphospholipid syndrome (secondary to SLE)",
+      "teaching": "Recurrent miscarriages and a DVT in a patient with lupus suggest antiphospholipid syndrome (APS). APS is an autoimmune hypercoagulable state often associated with SLE, characterized by antiphospholipid antibodies (like lupus anticoagulant and anticardiolipin) that cause thromboses and pregnancy losses. It is managed with long-term anticoagulation to prevent further clots."
+    }
+  ],
+  "see_also": ["antiphospholipid-syndrome", "rheumatoid-arthritis", "sjogren-syndrome"],
+  "prerequisites": ["immunology", "hypersensitivity"],
+  "sources": [
+    {
+      "title": "StatPearls: Systemic Lupus Erythematosus (Justiz Vaillant et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK535405/"
+    },
+    {
+      "title": "UpToDate: Systemic lupus erythematosus in adults – Overview of management (Wallace, 2023)",
+      "url": "https://www.uptodate.com/contents/systemic-lupus-erythematosus-in-adults-overview-of-management-and-prognosis"
+    },
+    {
+      "title": "Medscape: Systemic Lupus Erythematosus (Bartels, 2024)",
+      "url": "https://emedicine.medscape.com/article/332244-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

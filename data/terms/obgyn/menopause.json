@@ -1,0 +1,152 @@
+{
+  "id": "menopause",
+  "names": [
+    "Menopause"
+  ],
+  "aliases": [
+    "climacteric"
+  ],
+  "abbr": [
+    "PMB",
+    "HRT",
+    "MHT",
+    "POI"
+  ],
+  "patterns": [
+    "menopause",
+    "menopausal",
+    "menopausal transition",
+    "perimenopause",
+    "climacteric",
+    "premature menopause"
+  ],
+  "primary_tag": "obgyn",
+  "tags": [
+    "obgyn",
+    "endocrine",
+    "repro"
+  ],
+  "definition": "Permanent cessation of menses due to loss of ovarian follicular function, confirmed after **12 months** of **amenorrhea** (no periods). This marks the end of a woman's reproductive years, typically occurring around age 45–55 (average ~51 years).",
+  "why_it_matters": "Virtually all women experience menopause if they live long enough, and its hormonal changes have widespread effects. Estrogen loss leads to bone thinning and adverse metabolic changes, increasing risks of **osteoporosis** and cardiovascular disease. Menopause can cause distressing symptoms (hot flashes, sleep disturbance, vaginal dryness) that impact quality of life. It's a common exam topic linking fundamental endocrinology to clinical management (e.g. when to use hormone therapy).",
+  "how_youll_see_it": [
+    "**Age & onset:** Natural menopause usually occurs between ages **45–55** (median ~51). **Smoking** is a risk factor for earlier menopause. Menopause before age 40 is **premature ovarian insufficiency**, which is abnormal and often warrants evaluation and treatment.",
+    "**Menstrual changes:** In the menopausal transition (**perimenopause**), periods become **irregular** – cycle length fluctuates, with skipped or heavy periods – before they stop completely. A woman may have months without menses, then an occasional period, until finally none for 1 year.",
+    "**Common symptoms:** **Hot flashes** (brief episodes of intense heat with sweating, often at night as **night sweats**) are the hallmark vasomotor symptom. Women may also have **sleep disturbances**, **mood swings**, and **vaginal dryness** or painful intercourse due to estrogen deficiency. Symptom severity varies widely (some have mild symptoms, others very bothersome).",
+    "**Induced menopause:** Surgical removal of both ovaries or ovarian failure from chemotherapy/radiation causes **sudden menopause** at any age. These women often experience more abrupt and severe symptoms because hormone levels drop rapidly without the gradual transition."
+  ],
+  "problem_solving": [
+    "Always **exclude pregnancy** in a woman with new-onset amenorrhea. Menopause is a clinical diagnosis in women ≳45 with typical symptoms; it's confirmed after **12 months** without menses. If presentation is atypical or age <45, evaluate for other causes (check **TSH** for thyroid dysfunction, **prolactin** for hyperprolactinemia).",
+    "Lab tests: Menopausal ovarian failure causes **↑FSH** (often >30 mIU/mL) and **↓estradiol** due to loss of negative feedback. A single FSH level can fluctuate during perimenopause, so consistently elevated FSH on repeat testing helps confirm menopause. **LH** is also elevated, but FSH rises more.",
+    "Routine lab confirmation isn't needed in obvious cases of menopause. However, testing is useful if menopause occurs unusually early or if the patient has had a hysterectomy (no periods to judge by). Markedly high FSH with low estrogen confirms ovarian failure in a younger woman (suggesting **premature menopause**)."
+  ],
+  "differentials": [
+    {
+      "name": "Pregnancy",
+      "hint": "always rule out with hCG test in any woman with amenorrhea"
+    },
+    {
+      "name": "Thyroid dysfunction (especially hyperthyroidism)",
+      "hint": "can cause heat intolerance, sweating, and menstrual irregularities"
+    },
+    {
+      "name": "Hyperprolactinemia",
+      "hint": "e.g. prolactin-secreting pituitary adenoma; causes amenorrhea (often with galactorrhea) but not true menopausal hot flashes"
+    },
+    {
+      "name": "Premature ovarian insufficiency",
+      "hint": "ovarian failure <40 years old (\"early menopause\"), often autoimmune or genetic cause"
+    }
+  ],
+  "tricks": [
+    "Menopause causes **HAVOCS**: **H**ot flashes, **A**trophy of **V**agina (vaginal dryness), **O**steoporosis, **C**oronary artery disease, **S**leep disturbance.",
+    "After menopause, unchanged **androgen** levels combined with low estrogen can lead to a higher relative androgen effect (e.g. coarse facial hair). Many women notice new **facial hair** or mild acne due to this shift."
+  ],
+  "exam_appearance": [
+    "51‑year‑old woman with 1 year of no menstrual periods, experiencing hot flashes and vaginal dryness → **Menopause** (natural menopausal transition with vasomotor and urogenital symptoms).",
+    "37‑year‑old woman with 6 months of amenorrhea and severe hot flashes; pregnancy test negative, **FSH is very high** → **Premature ovarian insufficiency** (early menopause due to ovarian failure).",
+    "58‑year‑old postmenopausal woman (last menses 6 years ago) who presents with **vaginal bleeding** → **Postmenopausal bleeding**, a red flag requiring evaluation for endometrial carcinoma."
+  ],
+  "treatment": [
+    "**Lifestyle measures:** First-line for mild symptoms. Avoid smoking, caffeine, and alcohol (they can trigger hot flashes). Dress in layers, use fans or a cool bedroom for night sweats. Regular exercise and stress reduction can improve mood and sleep. Ensure adequate **calcium & vitamin D** intake and weight-bearing exercise to support bone health.",
+    "**Hormone therapy (HT):** **Estrogen** (systemic) is the most effective treatment for hot flashes. For women with a uterus, combine estrogen with a **progestin** (e.g. estrogen–progestin HRT) to prevent endometrial hyperplasia and cancer. Use the lowest effective dose for the shortest duration needed to relieve moderate-to-severe symptoms. Healthy women in their 50s (or within 10 years of menopause) generally benefit most; hormone therapy is **not** recommended to prevent cardiovascular disease or dementia.",
+    "**Non-hormonal options:** If hormones are contraindicated or declined, use alternatives for vasomotor symptoms. Certain **SSRIs/SNRIs** (e.g. paroxetine, venlafaxine), **gabapentin**, or **clonidine** can reduce hot flashes. These therapies can help with mood or flushing but do not address vaginal dryness or bone loss. For isolated vaginal symptoms, use local low-dose **vaginal estrogen** creams/rings or non-hormonal moisturizers.",
+    "Regular health maintenance is important: menopausal women should have appropriate screenings (e.g. DEXA scan for osteoporosis by age 65, or earlier if risk factors). Treat osteoporosis if present (e.g. with **bisphosphonates**) and address cardiac risk factors (lipids, blood pressure) through diet, exercise, and medications as needed. Menopause itself isn't an illness, so therapy is aimed at improving quality of life and mitigating long-term risks."
+  ],
+  "red_flags": [
+    "**Postmenopausal bleeding**: Any vaginal bleeding after menopause is abnormal and must be evaluated for **endometrial cancer** (often via transvaginal ultrasound and/or endometrial biopsy). Do not assume it's \"just hormonal\" – always investigate.",
+    "**Contraindications to HRT**: Systemic estrogen therapy should be avoided in women with a history of **breast or endometrial cancer**, coronary artery disease, stroke, or thromboembolism (DVT/PE), as well as those with active severe liver disease or unexplained vaginal bleeding. In such cases, use non-hormonal treatments for symptoms.",
+    "Menopause occurring **before age 40** (premature ovarian insufficiency) is a red flag to search for underlying causes (e.g. chromosomal or autoimmune disorders). These women have many years of estrogen deficiency and are often treated with hormone therapy until the natural age of menopause to protect bone and heart health."
+  ],
+  "algorithm": [
+    "Woman in midlife (≈45–55) with irregular menses + hot flashes → suspect perimenopause/menopause. Obtain a **pregnancy test** for amenorrhea, as pregnancy must be ruled out.",
+    "If age <45 or symptom pattern is atypical, evaluate for other causes: check **TSH** (thyroid disease can mimic menopausal symptoms), **prolactin** (to exclude prolactinoma), etc. If suspicion remains, measure **FSH** (markedly ↑FSH with ↓estradiol supports ovarian failure).",
+    "Diagnosis of menopause is confirmed after 12 consecutive months without a period (in the absence of other causes). No further workup is needed in a typical case. Document the menopausal status in the patient's chart.",
+    "Advise on symptom management based on severity: begin with conservative measures (cooling techniques, lifestyle changes). For significant vasomotor symptoms impacting quality of life, consider **menopausal hormone therapy** after discussing risks/benefits and ensuring no contraindications. If unable to use hormones, discuss SSRIs or other non-hormonal therapies for hot flashes.",
+    "Counsel on long-term health: emphasize bone health (calcium/Vit D, exercise; screening for osteoporosis) and cardiovascular risk reduction (healthy diet, exercise, avoid smoking). Ensure gynecologic follow-up; any new bleeding requires prompt evaluation. Reassure that menopause is a natural life stage and provide support for symptom management."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Symptoms_of_menopause_(vector).svg/2027px-Symptoms_of_menopause_(vector).svg.png",
+      "alt": "Diagram of a female silhouette highlighting common menopause effects on different body systems (hot flashes from the head, mood changes, vaginal dryness/atrophy, bone loss in spine, and cardiovascular changes).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Symptoms_of_menopause_(vector).svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old woman reports that her menstrual periods have become infrequent over the past year and she hasn't had a period in 13 months. She has intense \"heat\" episodes where she suddenly feels flushed and wakes up at night sweating. She also notes vaginal dryness making intercourse uncomfortable.",
+      "clues": [
+        "Age ~50, no periods for 12+ months",
+        "Recurrent hot flash episodes (vasomotor symptoms)",
+        "Night sweats disrupting sleep",
+        "Vaginal dryness and dyspareunia"
+      ],
+      "answer": "Menopause (natural menopausal transition)",
+      "teaching": "This patient is at the average age for menopause and presents with classic symptoms: amenorrhea for 12 months (defining menopause) along with vasomotor symptoms (hot flashes/night sweats) and vaginal dryness from estrogen loss. The diagnosis is clinical. Treatment would focus on symptom relief (e.g. lifestyle changes or hormone therapy if appropriate)."
+    },
+    {
+      "stem": "A 35‑year‑old woman comes to the clinic with cessation of her menses. She had normal periods until her mid-30s, then developed irregular cycles and now no period for 7 months. She has significant hot flashes and irritability. Pregnancy test is negative. Laboratory tests show elevated FSH levels on two separate occasions, with low estradiol.",
+      "clues": [
+        "Amenorrhea in a younger woman (mid-30s)",
+        "Negative pregnancy test",
+        "Very high FSH, low estrogen on labs",
+        "Severe hot flashes and menopausal symptoms at age 35"
+      ],
+      "answer": "Premature ovarian insufficiency (premature menopause)",
+      "teaching": "Cessation of menses before age 40 with high FSH and low estrogen indicates premature ovarian insufficiency (also called premature ovarian failure). This is essentially menopause occurring abnormally early, often due to idiopathic ovarian follicle depletion (sometimes autoimmune, genetic, or iatrogenic). It leads to menopause-like symptoms decades before the usual age, and affected women should be evaluated for reversible causes. Treatment typically includes hormone therapy to provide needed estrogen until the age when natural menopause would have occurred, in order to prevent osteoporosis and other consequences of long-term estrogen deficiency."
+    }
+  ],
+  "see_also": [
+    "osteoporosis",
+    "endometrial-cancer",
+    "polycystic-ovary-syndrome"
+  ],
+  "prerequisites": [
+    "menstrual-cycle",
+    "ovary"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Menopause (Peacock et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507826/"
+    },
+    {
+      "title": "UpToDate: Menopause – clinical features and diagnosis",
+      "url": "https://www.uptodate.com/contents/menopause-clinical-features-and-diagnosis"
+    },
+    {
+      "title": "National Institute on Aging: What Is Menopause?",
+      "url": "https://www.nia.nih.gov/health/what-menopause"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

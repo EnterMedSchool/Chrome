@@ -1,0 +1,128 @@
+{
+  "id": "gilbert-syndrome",
+  "names": ["Gilbert syndrome"],
+  "aliases": [
+    "Gilbert's syndrome",
+    "familial nonhemolytic jaundice",
+    "constitutional hepatic dysfunction",
+    "familial benign unconjugated hyperbilirubinemia",
+    "Meulengracht syndrome"
+  ],
+  "abbr": ["GS"],
+  "patterns": [
+    "gilbert syndrome",
+    "gilbert's syndrome",
+    "gilberts syndrome",
+    "familial nonhemolytic jaundice",
+    "constitutional hepatic dysfunction",
+    "familial benign unconjugated hyperbilirubinemia",
+    "meulengracht syndrome"
+  ],
+  "primary_tag": "gi",
+  "tags": ["genetics", "pathology", "gi"],
+  "definition": "Benign inherited (usually autosomal recessive) condition of reduced bilirubin **UDP-glucuronosyltransferase** (*UGT1A1*) activity; causes mild isolated unconjugated hyperbilirubinemia (intermittent jaundice).",
+  "why_it_matters": "Very common (≈3–10% of people) benign cause of jaundice. Recognizing it prevents unnecessary workup and anxiety. Often tested as the harmless \"red herring\" in jaundice cases to contrast with serious liver diseases.",
+  "how_youll_see_it": [
+    "Usually **asymptomatic** aside from episodes of mild jaundice (scleral icterus) in an otherwise healthy teen or young adult.",
+    "Jaundice is often triggered by **stress**: for example, illness (like a cold/flu), **fasting** (skipping meals), **dehydration**, strenuous exercise, or menstruation.",
+    "Labs show **isolated ↑unconjugated bilirubin** (typically 2–4 mg/dL) with **normal** liver enzymes (ALT, AST, ALP) and normal hemoglobin/reticulocyte count."
+  ],
+  "problem_solving": [
+    "Suspect Gilbert if unconjugated bilirubin is mildly elevated but **ALT/AST and CBC are normal** (isolated indirect hyperbilirubinemia).",
+    "Exclude other causes: check for **hemolysis** (if anemia or ↑retic count, do Coombs test, etc.) and for liver injury (if ALT/AST are elevated or if direct bilirubin ↑, evaluate for hepatitis or cholestasis).",
+    "No invasive workup is needed in classic cases. Historically, a **48-hour fast** will provoke a bilirubin rise in Gilbert, and genetic testing (*UGT1A1* mutation) can confirm the diagnosis – but this is rarely necessary."
+  ],
+  "differentials": [
+    {
+      "name": "Hemolysis (hemolytic anemia)",
+      "hint": "↑Unconjugated bilirubin but with anemia, ↑reticulocytes, ↑LDH (evidence of RBC destruction)"
+    },
+    {
+      "name": "Hepatitis or liver injury",
+      "hint": "Mixed direct & indirect bilirubin; typically **elevated AST/ALT** and other liver function abnormalities"
+    },
+    {
+      "id": "crigler-najjar-syndrome",
+      "name": "Crigler-Najjar syndrome",
+      "hint": "Rare, severe UGT1A1 deficiency (very high bilirubin from infancy; kernicterus in Type I, milder Type II)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **CGI** – **C**rigler-Najjar and **G**ilbert cause **I**ndirect (unconjugated) bilirubin elevation, whereas Dubin-Johnson & Rotor syndromes cause direct bilirubin elevation.",
+    "**Gilbert = mild**, **Crigler-Najjar = severe**: Gilbert never causes kernicterus or real harm, in contrast to Crigler-Najjar type I (fatal without transplant)."
+  ],
+  "exam_appearance": [
+    "Young adult with transient **scleral icterus** after fasting or illness, but **normal** physical exam and normal liver labs → benign **Gilbert syndrome** (isolated unconjugated bilirubin elevation).",
+    "Incidental finding of mildly **↑indirect bilirubin** (~2–3 mg/dL) on routine labs in an otherwise healthy patient (with normal AST/ALT and no anemia) → likely Gilbert syndrome (no treatment needed)."
+  ],
+  "treatment": [
+    "No specific treatment needed – **reassurance** is key (it's a harmless condition).",
+    "Avoid extreme **fasting** or dehydration to reduce the frequency of jaundice episodes, but no medication or special therapy is required."
+  ],
+  "red_flags": [
+    "Jaundice accompanied by **weight loss**, abdominal pain, or general illness → not Gilbert; consider serious causes (e.g., malignancy, hepatitis).",
+    "**Abnormal liver tests** (elevated ALT/AST or ALP, or high direct bilirubin) → points to true liver pathology (Gilbert's labs should otherwise be normal)."
+  ],
+  "algorithm": [
+    "Noticed mild jaundice or isolated bilirubin rise → check bilirubin fraction (direct vs indirect) and other labs (LFTs, CBC).",
+    "If **indirect bilirubin** is elevated with normal AST/ALT and normal hemoglobin → Gilbert syndrome likely (benign).",
+    "If signs of **hemolysis** (anemia, ↑retic count) are present → investigate hemolytic causes (Coombs test, G6PD, etc.).",
+    "If **direct bilirubin** is elevated or liver enzymes are abnormal → evaluate for liver/biliary disease (viral hepatitis panel, ultrasound imaging, etc.).",
+    "Confirmed Gilbert syndrome → educate and reassure (no invasive workup or treatment needed)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Bilirubin_metabolism_diagram.png",
+      "alt": "Diagram of bilirubin metabolism (heme is broken down to unconjugated bilirubin, then conjugated in the liver by UGT1A1, and excreted into bile).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Bilirubin_metabolism_diagram.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22‑year‑old man during final exam week notices a yellowish tinge to his eyes in the mirror. He has no significant medical history and feels well otherwise.",
+      "clues": [
+        "Intermittent scleral icterus (mild jaundice) noted",
+        "Recent stress (studying, irregular meals, little sleep)",
+        "Total bilirubin ~3.2 mg/dL (indirect predominance)",
+        "ALT, AST, and alkaline phosphatase are normal",
+        "Hemoglobin is normal with normal reticulocyte count"
+      ],
+      "answer": "Gilbert syndrome",
+      "teaching": "Benign familial deficiency of bilirubin conjugation (low UGT1A1 activity) causes this mild unconjugated hyperbilirubinemia triggered by stress. Normal hemoglobin (no hemolysis) and normal liver enzymes (no hepatitis) help confirm that it's Gilbert syndrome; no treatment is required."
+    }
+  ],
+  "see_also": [
+    "hepatitis",
+    "cirrhosis",
+    "hemochromatosis"
+  ],
+  "prerequisites": [
+    "jaundice",
+    "bilirubin-metabolism"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gilbert Syndrome (Grant & Faust, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470200/"
+    },
+    {
+      "title": "UpToDate: Gilbert's syndrome and unconjugated hyperbilirubinemia (Wang & Roy-Chowdhury, 2024)",
+      "url": "https://www.uptodate.com/contents/gilbert-syndrome"
+    },
+    {
+      "title": "Medscape: Unconjugated Hyperbilirubinemia (Gilbert syndrome, 2023)",
+      "url": "https://emedicine.medscape.com/article/178841-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

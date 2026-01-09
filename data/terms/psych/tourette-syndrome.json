@@ -1,0 +1,138 @@
+{
+  "id": "tourette-syndrome",
+  "names": [
+    "Tourette syndrome"
+  ],
+  "aliases": [
+    "Tourette's syndrome",
+    "Tourette's disorder",
+    "Gilles de la Tourette syndrome"
+  ],
+  "abbr": [
+    "TS"
+  ],
+  "patterns": [
+    "tourette",
+    "tourette syndrome",
+    "tourette's syndrome",
+    "tourette's disorder",
+    "gilles de la tourette"
+  ],
+  "primary_tag": "psych",
+  "tags": [
+    "peds",
+    "psych",
+    "behavior"
+  ],
+  "definition": "Neurodevelopmental tic disorder characterized by multiple motor tics and at least one vocal tic, persisting >1 year with onset before age 18.",
+  "why_it_matters": "Not rare (~1% of children) and often coexists with ADHD/OCD, which can cause more impairment than the tics. Early recognition helps manage tics and comorbidities and avoid misdiagnosing tics as other movement disorders.",
+  "how_youll_see_it": [
+    "Onset in childhood (typically age 5–10, more common in boys). Classic tics include simple **motor tics** (e.g., blinking, facial grimacing, shoulder jerks) and **vocal tics** (e.g., throat clearing, sniffing, grunting).",
+    "Tics often **wax and wane** and can change over time. Children can sometimes **suppress tics** temporarily (with a premonitory urge building up); tics worsen with stress or excitement and lessen when calm or focused.",
+    "Common co-morbidities include **ADHD** (inattention, hyperactivity) and **OCD** (intrusive thoughts, compulsions), as well as anxiety; these often impact functioning more than the tics themselves."
+  ],
+  "problem_solving": [
+    "Confirm movements are tics (stereotyped, urge-driven, suppressible) and not seizures or other phenomena.",
+    "Apply DSM-5 criteria: Tourette requires ≥2 motor and ≥1 vocal tics for >1 year (onset <18); if only one type or <1 year, it's a different tic disorder (persistent or provisional).",
+    "Evaluate for co-morbidities: screen for **ADHD** (school performance, attention) and **OCD** (ritualistic behaviors), as these are common and may need separate treatment.",
+    "Assess tic severity and impact (painful or injurious tics, social embarrassment, etc.) to determine if active treatment is needed or if watchful waiting is appropriate."
+  ],
+  "differentials": [
+    {
+      "name": "Persistent (chronic) tic disorder",
+      "hint": "single type of tic (motor OR vocal) or shorter duration (<1 year)"
+    },
+    {
+      "name": "Stereotypic movement disorder",
+      "hint": "repetitive fixed movements (e.g., hand flapping) often start earlier in childhood; no premonitory urge"
+    },
+    {
+      "name": "Seizures or chorea",
+      "hint": "e.g., **absence seizures** with eye blinking (includes impaired awareness) or **Sydenham chorea** (continuous jerky movements); not suppressible like tics"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **Tourette = Two** types of tics (≥2 motor + ≥1 vocal) for >1 year (onset before 18).",
+    "Coprolalia (involuntary cursing) is actually **uncommon** (occurs in <10% of cases)."
+  ],
+  "exam_appearance": [
+    "7‑year‑old boy with a 1.5-year history of blinking, facial grimacing, and grunting noises (able to briefly suppress tics; also has ADHD) → Tourette syndrome.",
+    "16‑year‑old with lifelong motor and vocal tics now develops repetitive hand-washing rituals and intrusive thoughts → Tourette syndrome (with comorbid OCD)."
+  ],
+  "treatment": [
+    "Mild tics (minimal impairment) → **education and reassurance**; no medication if tics are not causing problems.",
+    "**Behavioral therapy** (CBIT with habit-reversal training) is first-line for troublesome tics.",
+    "For moderate-severe tics, consider medication: start with **alpha-2 agonists** (guanfacine, clonidine); if needed, use low-dose **antidopaminergic** agents (e.g., risperidone, haloperidol).",
+    "Address co-morbid conditions: treat ADHD (e.g., non-stimulants like guanfacine) and OCD (therapy and SSRIs) to improve overall function."
+  ],
+  "red_flags": [
+    "Episodes of \"tics\" with **loss of awareness** or occurring only during sleep → consider seizures or other neurologic disorder (tics should not impair consciousness).",
+    "If a supposed tic is actually an intentional **compulsion** done to relieve anxiety (e.g., ritualistic behavior), think OCD rather than a tic."
+  ],
+  "algorithm": [
+    "Child with repetitive movements/sounds → confirm they are **tics** (urge present, temporarily suppressible; exam otherwise normal).",
+    "If ≥2 motor + ≥1 vocal tic >1 year (onset <18) → **diagnose Tourette syndrome** (if not, consider chronic single tic disorder or transient tics).",
+    "Assess for **co-morbidities** (ADHD, OCD, anxiety) and gauge tic severity (functional impairment, pain, injury from tics).",
+    "If tics are mild with little impact → **watchful waiting** and education (tics often peak in early teens and improve later).",
+    "If tics cause significant distress or impairment → start **behavioral therapy** (CBIT); add medication (e.g., guanfacine, risperidone) if needed."
+  ],
+  "cases": [
+    {
+      "stem": "A 9‑year‑old boy is brought in for uncontrollable movements and sounds.",
+      "clues": [
+        "Frequent eye blinking and shoulder shrugging for 18 months",
+        "Repetitive throat‑clearing noises",
+        "Can suppress the tics briefly but with a rising urge",
+        "Trouble focusing at school (possible ADHD)"
+      ],
+      "answer": "Tourette syndrome",
+      "teaching": "Multiple motor and vocal tics for >1 year (childhood onset) fulfill Tourette criteria. Tourette often coexists with ADHD; management includes patient education, behavioral therapy (habit reversal), and medication if needed."
+    }
+  ],
+  "see_also": [
+    "parkinsons-disease"
+  ],
+  "prerequisites": [
+    "basal-ganglia",
+    "cognitive-behavioral-therapy"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Georges_Gilles_de_la_Tourette.png",
+      "alt": "Portrait of a 19th‑century French neurologist associated with Tourette syndrome",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Georges_Gilles_de_la_Tourette.png"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Tourette Syndrome and Other Tic Disorders (Jones et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499958/"
+    },
+    {
+      "title": "Tourette Syndrome (Medscape, 2025)",
+      "url": "https://emedicine.medscape.com/article/1182258-overview"
+    },
+    {
+      "title": "CDC: About Tourette Syndrome (2025)",
+      "url": "https://www.cdc.gov/tourette-syndrome/about/index.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

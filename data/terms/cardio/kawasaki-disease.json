@@ -1,0 +1,134 @@
+{
+  "id": "kawasaki-disease",
+  "names": ["Kawasaki disease"],
+  "aliases": ["mucocutaneous lymph node syndrome", "Kawasaki syndrome"],
+  "abbr": ["KD"],
+  "patterns": ["kawasaki", "kawasaki disease", "mucocutaneous lymph node syndrome", "kawasaki syndrome"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "immunology", "peds"],
+  "definition": "Acute vasculitis of childhood (usually <5 years) involving medium-sized arteries (especially coronary arteries), marked by ≥5 days of fever plus mucocutaneous inflammation (conjunctivitis, rash, oral changes, swollen extremities, cervical lymphadenopathy).",
+  "why_it_matters": "It's the leading cause of acquired **heart disease** in children. Untreated KD has a ~15–25% risk of **coronary aneurysms** leading to thrombosis, **myocardial infarction**, or death. Early recognition and IVIG treatment dramatically lower these complications, making KD a critical diagnosis to know for timely intervention.",
+  "how_youll_see_it": [
+    "Typically affects young children (<5 years, peak ~1–2 years), with boys slightly more often than girls (≈1.5:1). Often occurs in winter or spring and is more common in children of Asian ancestry.",
+    "Classic presentation: ≥5 days of high **fever** (often unresponsive to antipyretics) plus **bilateral non-exudative conjunctivitis**, a polymorphous **rash** (often starting in the groin area), **mucositis** (cracked red lips and a **strawberry tongue**), **hand and foot erythema** with swelling (later peeling skin), and **cervical lymphadenopathy** >1.5 cm (usually unilateral). The mnemonic **CRASH and burn** (Conjunctivitis, Rash, Adenopathy, Strawberry tongue, Hand/foot changes + fever) summarizes these findings.",
+    "Incomplete KD: infants <12 months (or older kids) may have prolonged fever with only 2–3 of the above features. In such cases, markedly elevated inflammatory markers (**CRP, ESR**) and supportive lab findings (e.g. high platelets, low albumin, elevated ALT, sterile pyuria) or an abnormal echocardiogram (coronary artery dilation) can clinch the diagnosis."
+  ],
+  "problem_solving": [
+    "Apply diagnostic criteria: **fever ≥5 days** plus ≥4 of the 5 principal features (conjunctivitis, rash, oral changes, extremity changes, lymphadenopathy) indicates complete KD. If <4 features, evaluate for **incomplete KD** – check CRP/ESR and supplemental labs; if inflammation is high or coronary changes are seen on **echocardiogram**, treat as KD.",
+    "Rule out other causes of fever and rash (e.g. strep **scarlet fever**, viral infections), but **do not delay** IVIG treatment while awaiting test results if KD is strongly suspected.",
+    "Obtain a baseline **echocardiography** at diagnosis to assess coronary arteries and cardiac function. Repeat echo at 1–2 weeks and 6–8 weeks after onset to monitor for coronary aneurysms.",
+    "Start treatment **ASAP** (ideally by day 5–10 of illness): administer high-dose **IVIG** (2 g/kg IV infusion) together with high-dose **aspirin**. IVIG dramatically reduces coronary aneurysm risk.",
+    "Expect defervescence (fever resolution) within ~36 hours of IVIG. If fever persists >36 hours post-IVIG (IVIG-resistant KD), give a second IVIG; consider adding **corticosteroids** or other anti-inflammatories (e.g. infliximab) if refractory.",
+    "Arrange follow-up with cardiology for any coronary involvement. Large or giant aneurysms may require anticoagulation (e.g. **warfarin**) and long-term monitoring to prevent thrombosis."
+  ],
+  "differentials": [
+    {
+      "id": "scarlet-fever",
+      "hint": "GAS **scarlet fever** – also causes fever, **strawberry tongue** and rash, but typically with exudative pharyngitis and a sandpaper rash; lacks conjunctivitis or extremity swelling."
+    },
+    {
+      "id": "measles",
+      "hint": "**Measles** – presents with fever, rash, and conjunctivitis, but also **cough** and Koplik spots; rash is morbilliform and child appears more toxic."
+    },
+    {
+      "id": "mis-c",
+      "name": "MIS-C (post-COVID-19 syndrome)",
+      "hint": "**Multisystem inflammatory syndrome in children** – a post-COVID hyperinflammatory condition that can mimic KD but often in older children with **shock**, pronounced GI symptoms, and myocardial dysfunction."
+    }
+  ],
+  "tricks": [
+    "Remember **CRASH & burn**: Conjunctivitis, Rash, Adenopathy, Strawberry tongue, Hand/feet changes + fever (burn) as the diagnostic elements.",
+    "One of the few pediatric illnesses where **aspirin** is indicated despite Reye syndrome concerns. (High-dose aspirin is used acutely for its anti-inflammatory and antithrombotic effects.)",
+    "Conjunctivitis in KD is classically **bilateral, non-purulent, and limbic-sparing** (redness spares the iris limbus).",
+    "After IVIG treatment, live virus **vaccines** (MMR, varicella) should be deferred for 11 months due to IVIG interference with vaccine efficacy."
+  ],
+  "exam_appearance": [
+    "Toddler (e.g. 3-year-old) with 6 days of high fever, irritability, **bilateral red eyes** (no discharge), cracked red lips and **strawberry tongue**, a polymorphic rash, swollen hands and feet, and a large unilateral neck node → **Kawasaki disease** (classic presentation; start IVIG and aspirin to prevent coronary aneurysms).",
+    "Infant (e.g. 8-month-old) with ≥7 days of unexplained fever and irritability but only some KD features (maybe rash and conjunctival injection). Labs show high CRP and platelets, and an echocardiogram reveals a coronary artery aneurysm → **Incomplete Kawasaki disease** (recognize atypical presentation and treat promptly to avoid cardiac complications)."
+  ],
+  "treatment": [
+    "**IVIG** (2 g/kg IV once) – mainstay therapy to reduce coronary artery complications; give ideally within the first 10 days of illness.",
+    "**Aspirin** – high-dose (80–100 mg/kg/day divided) during acute phase for anti-inflammatory effect, then low-dose (3–5 mg/kg) daily for 6–8 weeks (or longer if coronary aneurysms present) for antiplatelet protection.",
+    "If persistent fever after initial IVIG, repeat IVIG dose. For refractory cases, add **corticosteroids** (e.g. IV methylprednisolone) or consider **infliximab**.",
+    "All patients should undergo follow-up **echocardiograms** (at 1–2 weeks and ~6 weeks) to monitor coronary arteries. Those with coronary aneurysms require long-term cardiology care (possible lifelong if large aneurysms), including management of thrombosis risk (anticoagulation) and monitoring for ischemia."
+  ],
+  "red_flags": [
+    "Infants <6 months old with **≥7 days of fever** but few other findings – high risk for incomplete KD and often develop coronary aneurysms if untreated. Do not dismiss prolonged fever in young infants; consider KD evaluation.",
+    "Any KD patient with signs of **cardiac ischemia** (chest pain, pallor, shock, arrhythmia) → suspect **coronary thrombosis** or myocardial infarction from an aneurysm. This is an emergency – requires immediate intervention (e.g. angioplasty, thrombolysis).",
+    "Delay in treatment beyond 10 days significantly increases risk of irreversible coronary damage – do **not** wait for peeling or all criteria if KD is likely; treat early."
+  ],
+  "algorithm": [
+    "Child with **fever ≥5 days** → evaluate for Kawasaki (especially age <5, no obvious infection).",
+    "If classic **CRASH** features (≥4 of 5) are present → diagnose **Kawasaki disease** and begin IVIG/aspirin promptly.",
+    "If only 2–3 features: check **CRP/ESR**. If elevated, look for supplemental labs (high platelets, low albumin, etc) or get an **echo**. Lab evidence of inflammation or any coronary artery changes → treat as **incomplete KD**.",
+    "Do **not** delay treatment: initiate IVIG (don't wait for day 10) as soon as KD is diagnosed (or strongly suspected).",
+    "Ensure follow-up **echocardiography** at 2 and 6–8 weeks post-onset to detect late-developing aneurysms. Long-term management if coronary sequelae are present (cardiology follow-up, possible anticoagulation)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kawasaki_Disease.png",
+      "alt": "Medical illustration of Kawasaki disease in an infant, showing coronary artery inflammation and typical rash.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Kawasaki_Disease.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 3‑year‑old boy has had 6 days of high fever (to 39.5°C) with minimal response to ibuprofen. He is very irritable. Exam shows injected conjunctivae bilaterally without exudate, cracked red lips with a strawberry tongue, a polymorphous rash on his trunk, swollen erythematous palms and soles, and a 2 cm tender lymph node in the neck.",
+      "clues": [
+        "Fever for 6 days, unresponsive to antipyretics",
+        "Bilateral non-purulent conjunctivitis",
+        "Red cracked lips and strawberry tongue",
+        "Erythematous rash over trunk",
+        "Swollen hands and feet",
+        "Enlarged cervical lymph node (2 cm)"
+      ],
+      "answer": "Kawasaki disease (complete)",
+      "teaching": "This classic case meets criteria for Kawasaki disease (fever + 4/5 CRASH features). Immediate treatment with IVIG and high-dose aspirin is indicated to prevent coronary artery aneurysms (the major complication of KD)."
+    },
+    {
+      "stem": "An 8‑month‑old infant presents with 8 days of unexplained fever and poor feeding. He has mild conjunctival injection and a patchy rash. No lymphadenopathy. Labs show CRP 8 mg/dL and platelet count 750,000 on day 8 of fever. An echocardiogram reveals a 5 mm dilatation of the left coronary artery.",
+      "clues": [
+        "Infant (<1 year) with 8 days of fever",
+        "Only 2 clinical criteria (rash, conjunctival injection)",
+        "CRP 8 mg/dL (elevated)",
+        "Platelet count 750k after 1 week of fever",
+        "Coronary artery dilatation on echocardiogram"
+      ],
+      "answer": "Incomplete Kawasaki disease",
+      "teaching": "This is an incomplete Kawasaki disease presentation. Infants can have prolonged fever with few classic findings. The high inflammatory markers and coronary artery involvement confirm the diagnosis. Management is the same (IVIG and aspirin) to reduce further coronary damage."
+    }
+  ],
+  "see_also": [
+    "toxic-shock-syndrome",
+    "henoch-schonlein-purpura",
+    "polyarteritis-nodosa",
+    "coronary-artery-disease",
+    "myocardial-infarction"
+  ],
+  "prerequisites": ["vasculitis", "coronary-arteries", "immune-response"],
+  "sources": [
+    {
+      "title": "StatPearls: Kawasaki Disease (Owens & Plewa, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537163/"
+    },
+    {
+      "title": "Circulation: Diagnosis, Treatment, and Long-Term Management of KD (AHA Guidelines, 2017)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28356445/"
+    },
+    {
+      "title": "Merck Manual Professional: Kawasaki Disease (Gamble & Chun, rev. 2025)",
+      "url": "https://www.merckmanuals.com/professional/pediatrics/rheumatologic-disorders-in-children/kawasaki-disease"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

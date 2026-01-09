@@ -1,0 +1,122 @@
+{
+  "id": "atherosclerosis",
+  "names": ["Atherosclerosis"],
+  "aliases": ["atherosclerotic cardiovascular disease", "atherosclerotic disease", "atheroma formation", "hardening of the arteries"],
+  "abbr": ["ASCVD"],
+  "patterns": ["atherosclerosis", "atherosclerotic cardiovascular disease", "atheroma", "ASCVD"],
+  "primary_tag": "pathology",
+  "tags": ["pathology", "cardio", "neuro", "renal", "endocrine"],
+  "definition": "Chronic inflammatory **arterial** disease marked by cholesterol-rich plaque (atheroma) buildup in medium and large arteries, leading to progressive lumen narrowing and reduced blood flow.",
+  "why_it_matters": "Atherosclerosis is the #1 killer worldwide, underlying most **heart attacks** and **ischemic strokes**. It also causes **peripheral arterial disease** (limb ischemia) and is a common cause of **renal artery stenosis** leading to secondary hypertension and chronic kidney disease. Nearly half of all deaths in Western countries are attributed to atherosclerotic cardiovascular disease.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** for decades until significant artery narrowing or plaque rupture occurs. Fatty streaks (early lipid lesions) can appear in childhood, but clinical symptoms typically manifest in middle-aged or older adults with risk factors (e.g. smoking, diabetes, hyperlipidemia, hypertension).",
+    "Manifestations depend on the affected vascular bed: **coronary arteries** → angina pectoris or **myocardial infarction**; **carotid/cerebral arteries** → **TIA** or ischemic **stroke**; **peripheral arteries** (legs) → intermittent **claudication** (exertional calf pain); **renal arteries** → refractory hypertension and ischemic nephropathy.",
+    "Clues on exam include arterial **bruits** (e.g. carotid bruit in neck, abdominal bruit in renal artery stenosis), diminished peripheral **pulses** (in PAD), and signs of chronic poor circulation (cool extremities, hair loss on legs). Patients often have coexisting risk factor findings (e.g. xanthelasma from hyperlipidemia)."
+  ],
+  "problem_solving": [
+    "Screen for risk factors in at-risk patients: check **lipid profile**, blood pressure, glycemic status, etc. and encourage aggressive risk factor modification if abnormal.",
+    "Use appropriate tests to detect atherosclerosis in specific beds: e.g., an **ankle–brachial index (ABI)** test for PAD, carotid **ultrasound** if a carotid bruit is present, and a **stress test** (exercise ECG or imaging) for suspected coronary disease.",
+    "Confirm and quantify disease with imaging when needed: a positive stress test warrants **coronary angiography** for definitive evaluation and possible intervention; significant carotid stenosis on ultrasound can be confirmed with angiography. Imaging (CT angiography or calcium scoring) can also assess plaque burden noninvasively.",
+    "Remember that atherosclerosis is systemic: finding it in one artery (like leg arteries in PAD) should prompt evaluation and management of other vascular territories (heart, brain) for coexistent disease."
+  ],
+  "differentials": [
+    { "name": "Arteriolosclerosis", "hint": "small arteriole sclerosis from chronic HTN or diabetes; causes vessel narrowing but not via lipid plaques" },
+    { "name": "Monckeberg medial sclerosis", "hint": "arterial media calcification (pipe-stem arteries) without lumen narrowing; typically benign, in older patients" },
+    { "name": "Vasculitis (e.g. Takayasu, PAN)", "hint": "inflamed arteries with systemic symptoms (fever, ↑ESR); can cause occlusion but due to vessel wall inflammation, not cholesterol plaque" }
+  ],
+  "tricks": [
+    "Mnemonic: **Response-to-injury** – a classic model of atherogenesis: endothelial injury/dysfunction → inflammation and LDL entry → foam cells (fatty streak) → fibrous plaque → plaque rupture and thrombosis.",
+    "**Plaque progression:** fatty streaks (foam cell deposits) → **fibrous plaque** (smooth muscle migration & collagen cap) → **vulnerable plaque** with thin fibrous cap and large necrotic core (prone to rupture leading to clot formation).",
+    "Veins are generally spared: **atherosclerosis affects arteries** (high-pressure vessels). Veins do **not** develop atherosclerotic plaques unless transplanted into arterial circulation (e.g. vein grafts in bypass surgery)."
+  ],
+  "exam_appearance": [
+    "Overweight 55‑year‑old man with long-standing hypertension and high LDL who develops **exertional chest pressure** relieved by rest → stable angina from coronary atherosclerosis (CAD).",
+    "60‑year‑old diabetic smoker with **calf pain while walking** that resolves with rest and weak pedal pulses → intermittent claudication due to peripheral arterial disease.",
+    "Elderly patient with a history of hypertension and **carotid bruit** presents with transient unilateral weakness (TIA) → carotid atherosclerosis causing cerebral ischemia."
+  ],
+  "treatment": [
+    "Aggressive **risk factor control** is key: lifestyle changes (heart-healthy diet, regular exercise, smoking cessation) and medical management of hypertension, diabetes, and dyslipidemia. High-intensity **statin** therapy is indicated to lower LDL and stabilize plaques; add ACE inhibitors/ARBs for BP control and other medications as needed to reach targets (e.g. HbA1c <7%, BP <130/80).",
+    "**Antiplatelet therapy** (e.g. daily low-dose aspirin) is recommended for secondary prevention in patients with established ASCVD to reduce thrombosis risk. Manage anginal symptoms with beta-blockers or nitrates as appropriate, and supervise exercise therapy for PAD to improve walking distance.",
+    "For advanced localized disease, consider **revascularization**: angioplasty and stenting (e.g. coronary stents for severe CAD, peripheral angioplasty for critical limb ischemia) or surgical bypass (e.g. CABG for multivessel CAD). High-grade carotid stenosis (>70% with symptoms) may warrant carotid **endarterectomy** to prevent stroke. In acute events (MI, stroke, limb ischemia), urgent interventions like thrombolysis or angioplasty restore perfusion."
+  ],
+  "red_flags": [
+    "**Plaque rupture** can trigger **acute thrombosis**: watch for sudden rest pain (unstable angina or myocardial infarction), acute neuro deficits (stroke), or an acutely cold, pulseless limb (acute limb ischemia – 6 P's). These emergencies require immediate intervention to restore blood flow.",
+    "Signs of **critical limb ischemia** (rest pain in feet, non-healing ulcers, gangrene) indicate end-stage PAD and impending limb loss — prompt vascular evaluation for possible revascularization or amputation is needed.",
+    "Exceptionally **early-onset** atherosclerosis (e.g. MI in a patient <40) suggests familial hypercholesterolemia (genetic very high LDL); look for xanthomas and treat aggressively."
+  ],
+  "algorithm": [
+    "Patient with risk factors (smoking, diabetes, high LDL, etc.) or symptoms suggestive of CAD → perform a **stress test** (exercise ECG or imaging) to screen for inducible ischemia.",
+    "If stress test is positive for ischemia → proceed to **coronary angiography** to delineate lesions and treat (stent or bypass if indicated). If stress test is negative, manage risk factors medically and investigate non-atherosclerotic causes of symptoms.",
+    "For TIA/Stroke workup → obtain **carotid ultrasound**; if severe carotid stenosis is found, consider revascularization (endarterectomy or stenting) in addition to medical therapy.",
+    "For claudication → measure **ABI** (ankle-brachial index); significant PAD (ABI <0.90) warrants exercise therapy, risk factor management, and if critical or lifestyle-limiting, arterial imaging and revascularization consideration."
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man with a 30-pack-year smoking history, hyperlipidemia, and hypertension reports 6 months of chest tightness when climbing stairs, which resolves with rest.",
+      "clues": [
+        "Exertional chest tightness relieved by rest",
+        "History of smoking, high LDL, and hypertension",
+        "Normal cardiac exam between episodes",
+        "ECG shows ST depressions on stress test"
+      ],
+      "answer": "Stable angina (coronary atherosclerosis/CAD)",
+      "teaching": "This patient's risk factors and effort-induced chest pain point to atherosclerotic coronary artery disease causing fixed plaque narrowing. Myocardial oxygen demand outpaces supply on exertion, producing angina. Management would focus on risk factor modification, medications (e.g. beta-blocker, statin, aspirin), and possible angiographic evaluation for revascularization if symptoms worsen."
+    },
+    {
+      "stem": "A 70‑year‑old woman with diabetes and a 40-pack-year smoking history complains of calf pain after walking 100 meters, which forces her to stop and goes away after a few minutes of rest.",
+      "clues": [
+        "Calf muscle pain triggered by walking a short distance",
+        "Relief of pain with rest (intermittent claudication)",
+        "Absent dorsalis pedis pulse on exam",
+        "Shiny, hairless skin on lower legs"
+      ],
+      "answer": "Peripheral arterial disease (atherosclerotic PAD)",
+      "teaching": "Intermittent claudication in a patient with longstanding diabetes and smoking history is classic for peripheral arterial disease due to atherosclerotic plaque buildup in the leg arteries. Diminished pedal pulses and trophic skin changes reflect poor circulation. Treatment includes exercise training, risk factor control (smoking cessation, diabetes management, statin), and cilostazol for symptoms; severe cases may require angioplasty or bypass to improve limb perfusion."
+    }
+  ],
+  "see_also": [
+    "coronary-artery-disease",
+    "myocardial-infarction",
+    "stroke",
+    "aneurysm",
+    "diabetes-mellitus"
+  ],
+  "prerequisites": [
+    "lipoprotein-metabolism",
+    "inflammation",
+    "hypertension",
+    "diabetes-mellitus"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Blausen_0257_CoronaryArtery_Plaque.png",
+      "alt": "Illustration of a coronary artery with an atherosclerotic plaque reducing blood flow.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0257_CoronaryArtery_Plaque.png"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Atherosclerosis (Pahwa & Jialal, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK507799/"
+    },
+    {
+      "title": "UpToDate: Overview of established risk factors for cardiovascular disease",
+      "url": "https://www.uptodate.com/contents/overview-of-established-risk-factors-for-cardiovascular-disease"
+    },
+    {
+      "title": "Nature Reviews Disease Primers: Atherosclerosis (Libby et al., 2019)",
+      "url": "https://www.nature.com/articles/s41572-019-0106-z"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "amblyopia",
+  "names": [
+    "Amblyopia"
+  ],
+  "aliases": [
+    "lazy eye"
+  ],
+  "abbr": [],
+  "patterns": [
+    "amblyopia",
+    "lazy eye"
+  ],
+  "primary_tag": "ophtho",
+  "tags": [
+    "pathology",
+    "ophtho",
+    "peds"
+  ],
+  "definition": "A developmental vision disorder where the brain fails to process input from one eye, leading to reduced visual acuity in that eye despite no structural abnormality. It typically starts in early childhood and is the most common cause of one-eye vision loss in kids (affecting ~2–4% of children). Untreated amblyopia can result in permanent vision loss in the affected eye.",
+  "why_it_matters": "Early detection is critical. The younger the child, the more visual plasticity they have – treatment before age ~7 (the critical period of visual development) offers the best chance of full vision correction. If not addressed in time, the vision loss becomes irreversible, impairing depth perception (stereopsis). It also leaves the child at risk: if the healthy eye later has an injury or disease, overall vision may be severely compromised.",
+  "how_youll_see_it": [
+    "Often picked up during routine vision screening in a toddler or preschooler, since children may not complain (the better eye covers for the weaker eye). Parents might notice nothing unusual, or sometimes a subtle eye misalignment (strabismus).",
+    "Kids with amblyopia might have poor depth perception (trouble with 3D vision) and may squint, shut one eye, or tilt their head to see better. In strabismic amblyopia, one eye may drift inward or outward (constant strabismus from an early age is a big risk).",
+    "Any condition that blurs or obstructs vision in one eye during early years can cause amblyopia. Common culprits: a misaligned eye (strabismus), a significant difference in refractive error between eyes (anisometropia), or visual deprivation (e.g. congenital cataract or severe ptosis blocking vision). The affected eye often looks normal on exam (no redness or obvious defect)."
+  ],
+  "problem_solving": [
+    "Screen early: All children between ages 3–5 should have a vision check (acuity test or photo screening) at least once to catch amblyopia early.",
+    "Visual acuity testing: Check each eye separately using age-appropriate charts (pictures, tumbling E). A difference of ≥2 lines between the eyes (even after correcting refractive errors) is suggestive of amblyopia.",
+    "Cover-uncover test: Perform this to detect strabismus. Covering one eye and then uncovering can reveal a deviated eye refixating — strabismus is a common cause of amblyopia. If present, characterize it (e.g., constant vs intermittent).",
+    "Fundoscopic exam & red reflex: Always examine the red reflex and retina to rule out causes like cataract or retinoblastoma if one eye isn't seeing well. A white reflex (leukocoria) or other abnormal findings require urgent referral (not typical for simple amblyopia).",
+    "If amblyopia is suspected, get a cycloplegic refraction (after dilating the pupil) to identify any refractive error differences that need correction. Start by treating any underlying issue (glasses for refractive errors, removing cataract, etc.) as the first step."
+  ],
+  "differentials": [
+    {
+      "id": "strabismus",
+      "hint": "Misalignment of the eyes ('wandering eye'); can lead to amblyopia, but vision may be normal if eyes alternate fixation."
+    },
+    {
+      "id": "ptosis",
+      "hint": "Drooping eyelid covering the pupil (if severe, causes visual deprivation amblyopia in that eye)."
+    },
+    {
+      "id": "cataract",
+      "hint": "Lens opacity blurring vision (look for leukocoria); causes deprivation amblyopia if early in life."
+    },
+    {
+      "id": "retinoblastoma",
+      "hint": "Intraocular tumor in children; presents with leukocoria and vision loss (life-threatening, not just amblyopia)."
+    }
+  ],
+  "tricks": [
+    "Mnemonic S.O.S for amblyopia causes: Spectacles (uncorrected refractive errors like anisometropia), Occlusion (visual deprivation from cataract, ptosis, etc.), Strabismus.",
+    "Treating 'lazy eye' means making the good eye work less so the weaker eye is forced to work more. In practice: you patch the better eye, not the lazy eye (or blur the good eye with drops).",
+    "Amblyopia alone does not cause an afferent pupillary defect (Marcus Gunn pupil). If the weaker eye has an RAPD, suspect an organic optic nerve or retinal problem, not just amblyopia."
+  ],
+  "exam_appearance": [
+    "A 4‑year‑old boy has a constant inward deviation of the left eye since infancy. Vision testing shows 20/20 in the right eye and 20/100 in the left eye, though the left eye's anatomy appears normal. → Strabismic amblyopia (the brain ignored the misaligned eye, leading to vision loss). Treatment: patch the right eye to strengthen left-eye vision.",
+    "A 6‑year‑old is found to have 20/20 vision in one eye but 20/70 in the other during a school screening. She has no strabismus, but on exam her left eye has a significantly far-sighted refraction compared to the right. → Refractive amblyopia from anisometropia (one eye's blur led to cortical neglect). Management: give full corrective glasses and initiate patching of the better eye."
+  ],
+  "treatment": [
+    "Address the root cause: correct any refractive errors with glasses (sometimes optical correction alone can markedly improve vision), and fix any opacity (e.g., remove a cataract) as early as possible.",
+    "Occlusion therapy: Patch the stronger eye for a set number of hours daily to force use of the amblyopic eye. Patching schedules vary by severity – mild amblyopia may only need ~2 hours/day patching, whereas severe cases may require most of the day.",
+    "Penalization: An alternative to patching is blurring the good eye with drops like atropine (typically 1% atropine on weekends or daily) to encourage use of the weak eye. This can be as effective as patching in many moderate cases, and some families find it easier.",
+    "Therapy usually continues for months and vision improves gradually. Even after reaching near-normal vision, a maintenance patching schedule may be used to prevent regression. Monitor vision frequently during treatment.",
+    "Start treatment as early as possible – ideally before age 5–7. There's a critical window in which amblyopia is reversible. Beyond about age 8–10, the visual system's plasticity drops and treatment becomes much less effective (though some improvement in older kids and teens is still possible)."
+  ],
+  "red_flags": [
+    "Leukocoria (white pupillary reflex) in any child → urgent ophthalmology referral. A white reflex is a red flag for serious conditions like retinoblastoma or a dense cataract, rather than simple amblyopia.",
+    "A congenital cataract causing visual opacity should be removed within the first few weeks of life in a baby. Delay beyond the early critical period can result in irreversible amblyopia in that eye. (Bilateral cataracts can allow slightly more leeway than unilateral.)"
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Child_eyepatch.jpg",
+      "alt": "Child wearing an eye patch as occlusion therapy for amblyopia (lazy eye treatment).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Child_eyepatch.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy is brought by his parents for evaluation of his left eye. They note that since infancy, his left eye sometimes wanders inward. On exam, he has a constant esotropia of the left eye. Visual acuity is 20/20 in the right eye and 20/100 in the left, and both eyes have normal structures and clear media.",
+      "clues": [
+        "Constant strabismus (esotropia) in one eye",
+        "Much worse visual acuity in that eye (20/100 vs 20/20)",
+        "Eye anatomy is normal (no cataract, etc.)"
+      ],
+      "answer": "Amblyopia (strabismic type)",
+      "teaching": "Early-onset strabismus led the brain to suppress input from the deviated eye, causing amblyopia (lazy eye). The eye is healthy, but the visual pathway didn't develop normally due to disuse. Treatment involves forcing use of the left eye (patching the right eye) during childhood to improve vision and prevent permanent loss."
+    }
+  ],
+  "see_also": [
+    "strabismus",
+    "cataract"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Amblyopia (Blair & Cibis, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430890/"
+    },
+    {
+      "title": "UpToDate: Amblyopia in children – classification, screening, and evaluation",
+      "url": "https://www.uptodate.com/contents/amblyopia-in-children-classification-screening-and-evaluation"
+    },
+    {
+      "title": "UpToDate: Amblyopia in children – management and outcome",
+      "url": "https://www.uptodate.com/contents/amblyopia-in-children-management-and-outcome"
+    },
+    {
+      "title": "AAO Preferred Practice Pattern: Amblyopia (2017)",
+      "url": "https://www.aao.org/preferred-practice-pattern/amblyopia-ppp-2017"
+    },
+    {
+      "title": "Holmes JM & Clarke MP. Amblyopia. Lancet. 2006; 367(9519):1343-51.",
+      "url": "https://doi.org/10.1016/S0140-6736(06)68581-4"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

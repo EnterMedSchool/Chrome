@@ -1,0 +1,122 @@
+{
+  "id": "hypothyroidism",
+  "names": ["Hypothyroidism"],
+  "aliases": ["underactive thyroid", "Hashimoto's thyroiditis", "myxedema"],
+  "abbr": [],
+  "patterns": ["hypothyroidism", "hypothyroid", "underactive thyroid", "hashimoto", "myxedema", "secondary hypothyroidism", "central hypothyroidism", "tertiary hypothyroidism"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "pharmacology", "physiology"],
+  "definition": "A deficiency of thyroid hormone resulting in a generalized slowing of metabolism. Can be **primary** (thyroid gland failure) or **central** (pituitary/hypothalamic failure, i.e. secondary/tertiary).",
+  "why_it_matters": "Very common (≈1 in 300, more in older women) and frequently tested due to its broad impact on many organs. Untreated hypothyroidism increases morbidity (e.g., hyperlipidemia, atherosclerosis) and mortality; extreme cases (**myxedema coma**) have ~30–40% fatality. During pregnancy, uncontrolled hypothyroid can cause miscarriage and fetal developmental issues, so early detection and treatment are critical.",
+  "how_youll_see_it": [
+    "Often **vague** early symptoms: fatigue, **cold intolerance**, weight gain, **constipation**, and low mood. Patients develop **dry coarse skin**, hair loss, brittle nails, **memory** and cognitive slowing, and a **hoarse voice**. Exam may show **bradycardia**, **delayed reflexes** (hung-up reflexes), and in advanced cases **myxedema** (puffy face with periorbital edema). Classic signs (e.g. **cold, dry skin**, **slow reflexes**) might be subtle or absent in mild disease.",
+    "Common causes: In the US, chronic autoimmune **Hashimoto thyroiditis** (often with a goiter) is the leading cause. Worldwide, **iodine deficiency** is a major cause of hypothyroidism and goiter. Other causes include iatrogenic loss of thyroid (surgery or radioactive iodine treatment), medications (e.g. **lithium**, **amiodarone**), transient thyroiditis (e.g. postpartum), and rare congenital or infiltrative diseases. **Central** hypothyroidism (secondary/tertiary, from pituitary or hypothalamic disease) is uncommon by comparison."
+  ],
+  "problem_solving": [
+    "**TSH first**: If hypothyroidism is suspected, check **serum TSH** (most sensitive test for primary hypothyroid).",
+    "If **TSH is elevated** → confirm with a low **free T4** level (primary hypothyroidism). If TSH is only mildly elevated (with normal T4), this is **subclinical** hypothyroidism.",
+    "If **TSH is normal or low** but free T4 is low (or clinical suspicion is high despite normal TSH) → suspect **central hypothyroidism** (pituitary/hypothalamic cause). Evaluate for other pituitary hormone deficiencies and perform imaging (e.g. MRI).",
+    "Test for **anti-thyroid peroxidase (anti-TPO)** ± anti-thyroglobulin antibodies to confirm **Hashimoto's** thyroiditis. Also review medications and history (neck surgery, radiation) for other causes.",
+    "Do **not** rely on T3 levels for diagnosis – T3 often remains normal until late-stage disease. If non-thyroidal illness (euthyroid sick syndrome) is possible, defer testing until illness resolves to avoid lab confounding."
+  ],
+  "differentials": [
+    { "name": "Major depressive disorder", "hint": "fatigue, weight gain, and low mood without true hypothyroidism (normal TSH/T4)" },
+    { "name": "Euthyroid sick syndrome", "hint": "low T3/T4 during acute illness but **TSH is not elevated** (resolves as illness improves)" },
+    { "name": "Obstructive sleep apnea", "hint": "obese patient with daytime fatigue and cognitive fog (snoring history); normal thyroid labs" }
+  ],
+  "tricks": [
+    "Mnemonic **MOM'S SO TIRED** helps recall hypothyroid symptoms: Memory loss, Obesity, Malar flush/**M**enorrhagia, Slowness, Skin & hair dryness, Onset gradual, Tiredness, **I**ntolerance to cold, **R**aised BP, **E**nergy low, **D**epression (and delayed reflexes).",
+    "Hypothyroidism often causes metabolic changes: **hyperlipidemia** (↑LDL cholesterol), **hyponatremia** (due to reduced free water clearance), and elevated **creatine kinase** (mild myopathy).",
+    "Primary hypothyroid can lead to elevated **prolactin** levels (high TRH stimulates prolactin), contributing to menstrual irregularities (e.g. menorrhagia or amenorrhea).",
+    "Long-standing Hashimoto thyroiditis carries an increased risk of primary thyroid **lymphoma** (rare, but much higher incidence than general population)."
+  ],
+  "exam_appearance": [
+    "Overweight middle-aged woman with **fatigue**, **constipation**, **dry skin**, and high TSH → primary hypothyroidism (Hashimoto thyroiditis).",
+    "Patient with history of pituitary tumor or **postpartum hemorrhage** now has low free T4 but **inappropriately low TSH** → central (secondary) hypothyroidism (e.g. Sheehan syndrome).",
+    "Elderly patient with **hypothermia**, **bradycardia**, and altered mental status in winter → **myxedema coma** (severe, life-threatening hypothyroidism)."
+  ],
+  "treatment": [
+    "Lifelong **levothyroxine** (T4) replacement is the standard therapy. Typical full replacement dose is ~1.6 μg/kg/day, adjusted to normalize TSH. Combination T4/T3 therapy is not routinely recommended.",
+    "Start at a lower dose (e.g. 25–50 μg daily) in older patients or those with coronary artery disease, as too rapid thyroid replacement can precipitate **angina** or arrhythmias.",
+    "Monitor TSH every ~6 weeks when adjusting dose (thyroid hormone has a slow equilibrium). Once stable, check TSH periodically. In **central** hypothyroidism (where TSH is unreliable), adjust levothyroxine dose to keep free T4 in the mid-normal range.",
+    "**Pregnancy**: Increase levothyroxine dose by ~30% as soon as pregnancy is confirmed (thyroid requirements rise in pregnancy). Ensure TSH is in low-normal range to optimize fetal development, with frequent monitoring each trimester.",
+    "**Subclinical** hypothyroidism (mild TSH elevation with normal T4) is often monitored without immediate treatment. Initiate therapy if TSH >10 mIU/L, if significant symptoms appear, or if the patient is pregnant or planning pregnancy."
+  ],
+  "red_flags": [
+    "**Myxedema coma** – the extreme end of hypothyroidism: presents with profound hypothermia, hypotension, bradycardia, and reduced consciousness. Medical emergency (mortality ~30%); requires ICU care with IV thyroid hormone and supportive management.",
+    "Untreated **maternal hypothyroidism** – can lead to miscarriage, preeclampsia, and impaired neurodevelopment in the fetus. Always screen and adequately treat hypothyroid pregnant patients (often need higher doses of T4).",
+    "Unrecognized **adrenal insufficiency** in hypothyroid patients – in central cases (pituitary disease) ensure adrenal function is intact before starting levothyroxine, as thyroid hormone can increase cortisol metabolism and precipitate an **adrenal crisis** if cortisol is low."
+  ],
+  "algorithm": [
+    "**Suspect hypothyroidism** in patients with compatible symptoms (fatigue, weight gain, cold intolerance) or risk factors (e.g. autoimmune disease, postpartum) → obtain **TSH** level.",
+    "If **TSH > reference range** → check **free T4** to confirm overt primary hypothyroidism.",
+    "If **TSH is normal or low** and free T4 is low (or strongly suspect central cause) → evaluate for **secondary hypothyroidism** (pituitary labs and imaging).",
+    "Identify the **cause**: test for **anti-TPO antibodies** (Hashimoto's); review medication history (amiodarone, lithium, etc.), prior thyroid surgery or radiation; if TSH low, consider pituitary tumor (check other hormones).",
+    "Start **levothyroxine** replacement if indicated. Recheck TSH in ~6 weeks to titrate dose (or free T4 in central cases). Address co-existing issues (e.g. adrenal insufficiency, pregnancy), and follow the patient long-term (periodic TSH monitoring)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Goiter.JPG",
+      "alt": "Photograph of a woman with a large goiter (thyroid enlargement) in the lower neck.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Goiter.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 50‑year‑old woman is evaluated for chronic fatigue, a 10-lb weight gain, and increased sensitivity to cold.",
+      "clues": [
+        "Heart rate 55/min; skin is dry and pale",
+        "Labs: TSH is elevated, free T4 is low",
+        "Anti–thyroid peroxidase (anti-TPO) antibodies positive",
+        "Diffuse goiter (thyroid enlargement) on neck exam"
+      ],
+      "answer": "Primary hypothyroidism (Hashimoto thyroiditis)",
+      "teaching": "Hashimoto's disease (autoimmune thyroiditis) is the most common cause of hypothyroidism. It often presents in middle-aged women with nonspecific symptoms and goiter. High TSH with low T4 confirms primary hypothyroid; positive TPO antibodies support Hashimoto's. Treatment is lifelong levothyroxine."
+    },
+    {
+      "stem": "A 32‑year‑old woman who had a massive postpartum hemorrhage 6 months ago now reports lethargy and inability to breastfeed her infant.",
+      "clues": [
+        "History of severe hypotension after delivery requiring transfusion",
+        "No lactation postpartum (failure to breastfeed)",
+        "Labs: low cortisol, low T4, and low TSH",
+        "MRI: empty sella turcica (pituitary gland not visible)"
+      ],
+      "answer": "Secondary (central) hypothyroidism due to Sheehan syndrome",
+      "teaching": "Sheehan syndrome (postpartum pituitary necrosis) causes panhypopituitarism. Loss of TSH secretion leads to central hypothyroidism (low T4 with inappropriately low TSH). Also loss of prolactin (no lactation) and ACTH (secondary adrenal insufficiency). Management includes replacing glucocorticoids and thyroid hormone, among others."
+    }
+  ],
+  "see_also": [
+    "hyperthyroidism",
+    "dementia",
+    "major-depressive-disorder"
+  ],
+  "prerequisites": [
+    "thyroid-gland",
+    "thyroid-hormones"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hypothyroidism (Patil & Rehman et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519536/"
+    },
+    {
+      "title": "Am Fam Physician: Hypothyroidism – Diagnosis and Treatment (Wilson et al., 2021)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33983002/"
+    },
+    {
+      "title": "Merck Manual Professional: Hypothyroidism (Boucai, rev. 2024)",
+      "url": "https://www.merckmanuals.com/professional/endocrine-and-metabolic-disorders/thyroid-disorders/hypothyroidism"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

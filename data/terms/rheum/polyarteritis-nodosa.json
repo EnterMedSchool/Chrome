@@ -1,0 +1,84 @@
+{
+  "id": "polyarteritis-nodosa",
+  "names": ["Polyarteritis nodosa"],
+  "aliases": ["Panarteritis nodosa", "Periarteritis nodosa", "Kussmaul-Maier disease"],
+  "abbr": ["PAN"],
+  "patterns": ["polyarteritis nodosa", "pan", "periarteritis nodosa", "panarteritis nodosa"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "renal", "neuro", "gi", "cardio", "msk_derm", "peds", "infectious_dz"],
+  "definition": "Systemic necrotizing **vasculitis** of medium-sized muscular arteries causing ischemia and infarction in multiple organs. Characteristically **spares the lungs** and glomeruli. Often associated with hepatitis B infection.",
+  "why_it_matters": "Life-threatening if untreated (5-year survival <15% without therapy). Early recognition allows aggressive immunosuppressive treatment to prevent **organ infarctions** (e.g., bowel, kidney, nerve). Also, PAN is a classic vasculitis on exams, highlighting key concepts like **HBV association**, **ANCA-negativity**, and the importance of distinguishing medium-vessel vs small-vessel vasculitides.",
+  "how_youll_see_it": [
+    "Insidious onset with constitutional symptoms (**fever**, weight loss, malaise, myalgias) followed by signs of medium-vessel ischemia in various organs. Adults (typically ages 40–60, male > female) often present with a combination of: **skin lesions** (painful subcutaneous nodules, livedo reticularis, ulcers); **mononeuritis multiplex** (asymmetric peripheral neuropathy leading to foot drop or hand weakness); **hypertension** (renal artery involvement); and abdominal pain (especially postprandial \"intestinal angina\") with gastrointestinal bleeding. **Kidney** involvement is typically via renal artery microaneurysms/infarcts rather than glomerulonephritis.",
+    "Pediatric cases are rare, but **childhood PAN** can occur. Children may present with recurrent fever, skin nodules, and strokes (if a genetic cause like ADA2 enzyme deficiency is present). Unlike **Kawasaki disease** (another medium-vessel vasculitis in kids), PAN usually lacks mucocutaneous symptoms. A limited form, **cutaneous PAN**, causes chronic skin ulcers/nodules and is often less severe but can precede systemic disease."
+  ],
+  "problem_solving": [
+    "Consider PAN in patients with unexplained systemic illness involving multiple organs (skin, nerves, kidney, GI) **without lung involvement**. Differentiate from ANCA-associated vasculitides: order **ANCA** testing (PAN is usually ANCA-negative) and note that presence of lung or glomerular involvement suggests alternate diagnoses (MPA/GPA).",
+    "Always test for **hepatitis B** (HBsAg) in suspected PAN, since ~30% of cases are HBV-related and management includes antiviral therapy.",
+    "Confirm diagnosis with tissue **biopsy** of an affected site (e.g., skin nodule, sural nerve, testis) showing transmural necrotizing arteritis with fibrinoid necrosis. If biopsy is not feasible, perform an **angiography** (usually mesenteric or renal): look for multiple small aneurysms and irregular constrictions (\"beads-on-a-string\" appearance, also called the **rosary sign**).",
+    "Assess extent of organ involvement: monitor renal function (creatinine, urinalysis) and blood pressure (for renal ischemia); evaluate gastrointestinal symptoms with imaging (mesenteric ischemia can cause bowel perforation); and do a thorough neurologic exam (peripheral nerve deficits occur in ~70% of PAN cases)."
+  ],
+  "differentials": [
+    { "id": "microscopic-polyangiitis", "hint": "p-ANCA small-vessel vasculitis with lung capillaritis and glomerulonephritis (no immune complexes or granulomas)" },
+    { "id": "granulomatosis-with-polyangiitis", "hint": "c-ANCA vasculitis (Wegener) with necrotizing granulomas in respiratory tract + kidneys" },
+    { "id": "eosinophilic-granulomatosis-with-polyangiitis", "name": "Eosinophilic GPA (Churg-Strauss)", "hint": "asthma, eosinophilia, p-ANCA; small-vessel granulomatous vasculitis affecting lungs, sinuses, nerves" },
+    { "id": "kawasaki-disease", "hint": "medium-vessel vasculitis in children with fever, mucositis, rash, and coronary aneurysms (distinguished by its mucocutaneous findings)" }
+  ],
+  "tricks": [
+    "**PAN** = **P**ulmonary **A**rtery **N**ot involved (no lung findings) and **P**-ANCA **N**egative (unlike ANCA-associated vasculitides).",
+    "Angiography often shows multiple aneurysms strung like beads (**\"rosary sign\"**).",
+    "About 30% of cases are associated with **hepatitis B** infection—always check viral serologies."
+  ],
+  "exam_appearance": [
+    "Middle-aged man with months of fever, weight loss, **tender subcutaneous nodules** on the legs, and new-onset **testicular pain**; lab tests show high ESR and **positive HBsAg** → think polyarteritis nodosa.",
+    "Patient with **foot drop** (peroneal neuropathy) and post-prandial **abdominal pain** with melena; angiogram reveals multiple small aneurysms in mesenteric arteries (\"string of pearls\") → classic PAN (medium-vessel vasculitis involving nerves and GI, sparing the lungs)."
+  ],
+  "treatment": [
+    "**Corticosteroids** (high-dose prednisone ~1 mg/kg/day) are first-line and can induce remission. For severe disease (organ-threatening), add **cyclophosphamide** to improve survival (cyclophosphamide + steroids for induction).",
+    "For **HBV-associated PAN**, prioritize treating the infection: start **antivirals** (e.g., entecavir) and use a shorter course of steroids ± **plasmapheresis** instead of prolonged cyclophosphamide (to avoid immunosuppression while virus is active).",
+    "Manage complications and supportive care: aggressive **blood pressure control** (renin-driven hypertension is common, often requiring ACE inhibitors); monitor renal artery aneurysms (intervene if risk of rupture); and perform surgery if needed for bowel perforation or organ infarction."
+  ],
+  "red_flags": [
+    "Acute abdominal pain and GI bleeding in PAN → suspect mesenteric ischemia leading to **bowel infarction** (surgical emergency).",
+    "Peripheral nerve pain/weakness (e.g., foot drop) in a PAN patient → **mononeuritis multiplex** from nerve infarction; indicates active severe vasculitis requiring urgent treatment.",
+    "New-onset severe **hypertension** in PAN → renal artery involvement causing renovascular HTN; high risk for renal infarction (requires prompt therapy)."
+  ],
+  "algorithm": [
+    "Systemic symptoms + multi-organ signs (skin, neuro, renal, GI) → **suspect PAN** (especially if no lung involvement).",
+    "Order labs: inflammatory markers (↑ESR/CRP), comprehensive metabolic panel (for renal function, LFTs), and **HBV serologies**; **ANCA** testing helps exclude ANCA vasculitis (PAN is typically ANCA-negative).",
+    "Confirm diagnosis: biopsy of involved tissue (e.g., skin, nerve) **or** angiography of mesenteric/renal arteries to demonstrate aneurysms.",
+    "Start **high-dose corticosteroids** promptly. Add **cyclophosphamide** for moderate-to-severe disease (e.g., significant organ ischemia). If hepatitis B positive, initiate antiviral therapy (with limited steroid use and possible plasmapheresis).",
+    "Follow closely: monitor blood pressure, renal function, and symptoms of organ ischemia. Address complications (e.g., dialysis for renal failure, surgery for GI perforation) as needed."
+  ],
+  "comparison": "| **Vasculitis** | **Vessel Involvement** | **ANCA** | **Key Features** |\n| --- | --- | --- | --- |\n| **Polyarteritis nodosa (PAN)** | Medium-sized arteries (systemic); spares lungs & glomeruli | **Negative** (classic PAN is ANCA-negative) | HBV association (~30%); multiple microaneurysms (\"string of pearls\" on angiogram); skin nodules, livedo reticularis; mononeuritis multiplex; renal infarcts, hypertension |\n| **Microscopic polyangiitis (MPA)** | Small vessels (arterioles, capillaries) + **glomeruli** | **P-ANCA** (MPO) in >50% | Overlaps with PAN but involves **lungs** (pulmonary capillaritis → hemoptysis) and causes rapidly progressive **glomerulonephritis**; no granulomas |\n| **Granulomatosis with polyangiitis (GPA)** | Small & medium vessels; **granulomatous** inflammation | **C-ANCA** (PR3) in >90% | Upper airway, lung, and kidney triad (sinusitis, nodular lung cavities, GN); necrotizing **granulomas** in respiratory tract; sometimes skin purpura; a.k.a. Wegener's granulomatosis |\n| **Eosinophilic GPA (Churg–Strauss)** | Small vessels; **granulomatous** inflammation with eosinophils | **P-ANCA** (MPO) in ~50% | **Asthma**, chronic rhinosinusitis, **eosinophilia**; lung infiltrates and nodules; heart involvement common; neuropathy (similar to PAN) but plus allergic features |",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Cutaneous_polyarteritis_nodosa.jpg",
+      "alt": "Nodular skin lesion on the leg in cutaneous polyarteritis nodosa",
+      "credit": { "text": "image credit", "href": "https://commons.wikimedia.org/wiki/File:Cutaneous_polyarteritis_nodosa.jpg" }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man presents with a 3-month history of fever, weight loss, and malaise. He now reports worsening right foot drop and diffuse abdominal pain after meals.",
+      "clues": ["Tender purple nodules with livedo reticularis on legs", "HBsAg positive", "Wrist and foot drop (mononeuropathy)", "Postprandial abdominal pain with melena"],
+      "answer": "Polyarteritis nodosa",
+      "teaching": "This is a classic presentation of PAN, a medium-artery vasculitis. Hepatitis B association (HBsAg positive) and multi-system involvement (skin lesions, mononeuritis multiplex causing foot drop, mesenteric ischemia causing abdominal pain) point to PAN. The disease causes segmental necrotizing arteritis leading to aneurysms and organ ischemia. Treatment is high-dose corticosteroids and cyclophosphamide; additionally, antiviral therapy is needed for HBV."
+    }
+  ],
+  "see_also": ["microscopic-polyangiitis", "kawasaki-disease", "anca-associated-vasculitis", "vasculitis"],
+  "prerequisites": ["hepatitis-b", "vasculitis"],
+  "sources": [
+    { "title": "StatPearls: Polyarteritis Nodosa (Stanton & Tiwari, 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK482157/" },
+    { "title": "UpToDate: Clinical manifestations and diagnosis of polyarteritis nodosa", "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-polyarteritis-nodosa-in-adults" },
+    { "title": "ACR/Vasculitis Foundation guideline for management of polyarteritis nodosa (Arthritis Rheum, 2021)", "url": "https://vasculitisfoundation.org/wp-content/uploads/2024/01/2021-ACR-VF-Guideline-for-Management-of-Polyarteritis-Nodosa.pdf" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

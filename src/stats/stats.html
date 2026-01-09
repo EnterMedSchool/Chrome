@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Stats - EMS Medical Glossary</title>
+  <link rel="stylesheet" href="stats.css">
+</head>
+<body>
+  <div class="stats-container">
+    <!-- Header -->
+    <header class="stats-header">
+      <div class="header-brand">
+        <img src="../../assets/icons/leo-logo.png" alt="Leo" class="logo-img">
+        <h1>Your Glossary Stats</h1>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="stats-main">
+      <!-- Summary Cards -->
+      <section class="summary-section">
+        <div class="stat-card">
+          <div class="stat-value" id="totalViews">0</div>
+          <div class="stat-label">Total Views</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="uniqueTerms">0</div>
+          <div class="stat-label">Terms Viewed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="favoritesCount">0</div>
+          <div class="stat-label">Favorites</div>
+        </div>
+      </section>
+
+      <!-- Most Viewed Terms -->
+      <section class="list-section">
+        <div class="section-header">
+          <h2>🏆 Most Viewed Terms</h2>
+        </div>
+        <div class="section-content">
+          <ul class="term-list" id="mostViewedList">
+            <!-- Populated by JS -->
+          </ul>
+          <div class="empty-state" id="mostViewedEmpty" style="display: none;">
+            <div class="empty-icon">📚</div>
+            <div class="empty-text">No terms viewed yet. Start exploring!</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Favorites -->
+      <section class="list-section">
+        <div class="section-header">
+          <h2>⭐ Your Favorites</h2>
+        </div>
+        <div class="section-content">
+          <ul class="term-list" id="favoritesList">
+            <!-- Populated by JS -->
+          </ul>
+          <div class="empty-state" id="favoritesEmpty" style="display: none;">
+            <div class="empty-icon">💜</div>
+            <div class="empty-text">No favorites yet. Click the heart on any term to add it!</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Privacy Note -->
+      <section class="privacy-section">
+        <span class="privacy-icon">🔒</span>
+        <span class="privacy-text">All data is stored locally on your device. No data is sent anywhere.</span>
+      </section>
+
+      <!-- Actions -->
+      <section class="actions-section">
+        <button class="action-btn danger" id="clearStatsBtn">
+          <span class="btn-icon">🗑️</span>
+          Clear All Stats
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="stats-footer">
+      <a href="../browser/browser.html">Browse Terms</a>
+      <a href="https://entermedschool.com" target="_blank">EnterMedSchool</a>
+    </footer>
+  </div>
+
+  <script src="stats.js" type="module"></script>
+</body>
+</html>

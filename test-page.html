@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS Glossary Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.8;
+        }
+        h1 { color: #333; }
+        p { margin: 20px 0; }
+        .test-section {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>EMS Medical Glossary Test Page</h1>
+    
+    <p>Open the browser DevTools (F12) and check the Console for messages starting with "[EMS]".</p>
+    
+    <div class="test-section">
+        <h2>Test 1: Abbreviations (Case-Sensitive)</h2>
+        <p>The following abbreviations should be highlighted when typed in UPPERCASE:</p>
+        <ul>
+            <li>ACTH - Adrenocorticotropic hormone</li>
+            <li>DNA - Deoxyribonucleic acid</li>
+            <li>RNA - Ribonucleic acid</li>
+            <li>ATP - Adenosine triphosphate</li>
+        </ul>
+        <p>These should NOT be highlighted (lowercase): acth, dna, rna, atp</p>
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 2: Full Medical Terms</h2>
+        <p>The following full terms should be highlighted regardless of case:</p>
+        <ul>
+            <li>adrenocorticotropic hormone</li>
+            <li>cortisol</li>
+            <li>pituitary gland</li>
+            <li>adrenal cortex</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>Test 3: Inline Text</h2>
+        <p>
+            The hormone ACTH is released from the anterior pituitary gland.
+            It stimulates the adrenal cortex to produce cortisol.
+            This is part of the hypothalamic-pituitary-adrenal axis.
+        </p>
+    </div>
+    
+    <div class="test-section">
+        <h2>Debug Instructions</h2>
+        <ol>
+            <li>Make sure you loaded the extension from the <code>dist</code> folder</li>
+            <li>Check chrome://extensions/ and look for any errors</li>
+            <li>Open DevTools Console and look for "[EMS]" messages</li>
+            <li>Look for error messages in red</li>
+        </ol>
+    </div>
+</body>
+</html>

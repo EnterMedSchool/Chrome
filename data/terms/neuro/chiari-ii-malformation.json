@@ -1,0 +1,170 @@
+{
+  "id": "chiari-ii-malformation",
+  "names": ["Chiari II malformation"],
+  "aliases": [
+    "Arnold–Chiari malformation type II",
+    "Chiari type 2",
+    "CM‑II",
+    "ACM‑II",
+    "hindbrain herniation (type II)"
+  ],
+  "abbr": ["CM‑II", "ACM‑II"],
+  "patterns": [
+    "chiari ii",
+    "chiari 2",
+    "chiari type 2",
+    "arnold-chiari ii",
+    "cm-ii",
+    "acm-ii",
+    "hindbrain herniation type ii"
+  ],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "peds", "obgyn", "radiology", "surgery"],
+  "definition": "A congenital hindbrain malformation with caudal displacement of the cerebellar vermis/tonsils, brainstem, and fourth ventricle through the foramen magnum due to a small posterior fossa. It is almost always associated with a lumbosacral myelomeningocele and frequently with hydrocephalus; classic MRI features include medullary kinking, beaked tectum (tectal beaking), low tentorium, and a crowded posterior fossa.",
+  "why_it_matters": "CM‑II drives much of the morbidity in open spina bifida: neonatal respiratory/feeding problems from brainstem compression, frequent hydrocephalus needing CSF diversion, and long‑term motor/sensory deficits. Prenatal recognition changes counseling and eligibility for fetal myelomeningocele repair, which reduces shunt need and improves motor outcomes.",
+  "how_youll_see_it": [
+    "Prenatal ultrasound: cranial markers of open spina bifida—'lemon sign' (frontal bone scalloping, common ≤24 weeks) and 'banana sign' (curved, small cerebellum/obliterated cisterna magna); often ventriculomegaly.",
+    "Neonate/infant with myelomeningocele plus signs of hydrocephalus (rapid head growth, bulging fontanelle, vomiting, sunsetting eyes).",
+    "Brainstem dysfunction: stridor, central apnea, bradycardia, poor suck/swallow, aspiration, weak cry, vocal cord paralysis; upper‑extremity weakness/spasticity, nystagmus.",
+    "MRI head/spine: small posterior fossa, downward herniation of vermis/tonsils & brainstem, medullary kinking, tectal beaking, low‑lying tentorium/torcula; associated supratentorial anomalies (e.g., corpus callosum dysgenesis) may be present."
+  ],
+  "problem_solving": [
+    "If myelomeningocele is present, assume CM‑II and screen for hydrocephalus (cranial US/MRI).",
+    "In a symptomatic infant (apnea/stridor/dysphagia), treat hydrocephalus first (VP shunt or ETV±CPC when appropriate). Hindbrain symptoms often improve after CSF diversion.",
+    "Reserve posterior fossa decompression for refractory brainstem compression after adequate CSF diversion or in the rare infant without hydrocephalus who remains symptomatic.",
+    "For prenatal diagnosis at specialized centers, discuss MOMS‑criteria fetal repair (typically 19–26 weeks): lowers shunt requirement and lessens hindbrain herniation but carries maternal/fetal risks.",
+    "Think about sleep‑disordered breathing (often central) in infants with CM‑II—obtain sleep study if suggestive symptoms or unexplained desaturations.",
+    "Always evaluate the whole neuraxis: associated tethered cord, syringomyelia, and orthopedic sequelae are common in spina bifida."
+  ],
+  "differentials": [
+    { "id": "chiari-i-malformation", "hint": "No open neural tube defect; isolated tonsillar descent in older child/adult with occipital headaches." },
+    { "name": "Dandy–Walker malformation", "hint": "Enlarged posterior fossa with high torcula/cystic 4th ventricle—opposite of the small posterior fossa in CM‑II." },
+    { "name": "Posterior fossa arachnoid cyst", "hint": "Mass effect ± enlarged posterior fossa; no brainstem kinking/tectal beaking." },
+    { "name": "Basilar invagination/craniosynostosis‑related crowding", "hint": "Acquired tonsillar descent from skull base anomalies; look for synostosis and skull base metrics." },
+    { "name": "Occipital encephalocele (Chiari III)", "hint": "Herniation into an occipital/cervical encephalocele sac; extremely rare." }
+  ],
+  "tricks": [
+    "Type II = think two big associations: (1) myelomeningocele and (2) hydrocephalus.",
+    "MRI buzzwords for CM‑II: medullary kinking + tectal beaking + low tentorium + crowded small posterior fossa.",
+    "Ultrasound fruit salad: lemon sign early (≤24 wk) and banana sign across gestation in open spina bifida.",
+    "Hydrocephalus often drives symptoms—divert CSF first before considering decompression.",
+    "After prenatal MMC repair, hindbrain herniation can partially reverse—don't be surprised if postnatal imaging looks better."
+  ],
+  "exam_appearance": [
+    "20‑week anatomy scan shows lemon and banana signs with a lumbosacral defect → counsel on CM‑II and fetal vs postnatal repair.",
+    "Newborn with repaired MMC develops apnea/stridor and bulging fontanelle → obtain neuroimaging and treat hydrocephalus (e.g., VP shunt).",
+    "Sagittal MRI labeled with beaked tectum and medullary kinking → identify as Chiari II (not Chiari I)."
+  ],
+  "treatment": [
+    "MMC closure: postnatal closure within 24–48 h or fetal repair in selected candidates (19–26 weeks) to reduce hindbrain herniation and shunt need.",
+    "Hydrocephalus management: VP shunt is standard; ETV ± choroid plexus cauterization (ETV/CPC) is an alternative in selected infants depending on anatomy/center expertise.",
+    "Posterior fossa decompression only for persistent, clinically significant hindbrain/brainstem compression after CSF diversion is optimized.",
+    "Multidisciplinary care (neurosurgery, neonatology, urology, rehab, pulmonology/sleep) and long‑term surveillance for scoliosis, tethered cord, and SDB."
+  ],
+  "red_flags": [
+    "Recurrent apnea, stridor, bradycardia, or aspiration in an infant with MMC—evaluate urgently for hydrocephalus or hindbrain compression.",
+    "Rapid head growth, sunsetting eyes, or a tense fontanelle → CSF diversion may be emergently needed.",
+    "Any decline after shunt placement (vomiting, lethargy, irritability) → shunt malfunction until proven otherwise."
+  ],
+  "algorithm": [
+    "Prenatal US/MRI suggests open spina bifida → counsel & refer for fetal surgery evaluation if within window.",
+    "At birth: protect MMC sac → postnatal closure (if not repaired in utero) within 24–48 h; baseline head US.",
+    "If ventriculomegaly/ICP signs → VP shunt or ETV±CPC depending on anatomy/center.",
+    "Persistent brainstem symptoms after CSF diversion → consider posterior fossa decompression.",
+    "Ongoing: manage tethered cord/scoliosis; screen for sleep‑disordered breathing; neurodevelopmental follow‑up."
+  ],
+  "cases": [
+    {
+      "stem": "A term newborn with lumbosacral myelomeningocele develops stridor, feeding difficulty, desaturations, and a bulging fontanelle on day 4.",
+      "clues": ["Sagittal MRI shows small posterior fossa with medullary kinking and tectal beaking", "Ventriculomegaly present"],
+      "answer": "Chiari II malformation with hydrocephalus",
+      "teaching": "In CM‑II, treat hydrocephalus first (e.g., VP shunt). Posterior fossa decompression is reserved for refractory brainstem compression after CSF diversion."
+    },
+    {
+      "stem": "20‑week prenatal scan shows frontal bone scalloping and a curved, small cerebellum with absent cisterna magna; an open lumbosacral defect is seen.",
+      "clues": ["Lemon and banana signs", "Ventriculomegaly"],
+      "answer": "Open spina bifida with associated Chiari II malformation",
+      "teaching": "Discuss outcomes and risks/benefits of fetal vs postnatal MMC repair; fetal repair reduces shunt dependence and improves motor outcomes in selected candidates."
+    },
+    {
+      "stem": "An infant with a VP shunt for CM‑II returns with vomiting, irritability, and sunset eyes; parents also report new apneic spells at night.",
+      "clues": ["Bulging fontanelle", "Sleep‑disordered breathing symptoms"],
+      "answer": "Shunt malfunction with decompensation of CM‑II",
+      "teaching": "Prioritize shunt evaluation and ICP control; consider polysomnography because central apnea is common in CM‑II."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Chiari-Malformation_MRT_T2_sag.jpg",
+      "alt": "Sagittal T2‑weighted MRI of a newborn with Chiari II malformation showing crowded small posterior fossa and hindbrain herniation.",
+      "credit": {
+        "text": "Hellerhoff, CC BY‑SA 3.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Chiari-Malformation_MRT_T2_sag.jpg"
+      }
+    },
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Banana_sign_at_16_weeks_Ultrasound_by_Dr._Wolfgang_Moroder.jpg",
+      "alt": "Prenatal ultrasound demonstrating the banana sign in a fetus with spina bifida (Chiari II association).",
+      "credit": {
+        "text": "Wolfgang Moroder, CC BY‑SA 3.0/GFDL",
+        "href": "https://commons.wikimedia.org/wiki/File:Banana_sign_at_16_weeks_Ultrasound_by_Dr._Wolfgang_Moroder.jpg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": [
+    "chiari-i-malformation",
+    "meningocele",
+    "spina-bifida-occulta",
+    "anencephaly"
+  ],
+  "prerequisites": [
+    "neural-tube-defects",
+    "posterior-fossa-anatomy",
+    "csf-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Chiari Malformation Type 2 (Kuhn J., updated 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557498/"
+    },
+    {
+      "title": "Essential features of Chiari II malformation in MR imaging—interobserver reliability (AJNR/PMC, 2012)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3376258/"
+    },
+    {
+      "title": "NEJM (MOMS trial): Prenatal vs postnatal repair of myelomeningocele (Adzick et al., 2011)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1014379"
+    },
+    {
+      "title": "JAMA Pediatrics (MOMS follow‑up): Physical functioning after prenatal repair (Houtrow et al., 2021)",
+      "url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/2776161"
+    },
+    {
+      "title": "Prenatal ultrasound markers: Lemon and banana signs in open spina bifida (Am J Obstet Gynecol, 1990)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2178424/"
+    },
+    {
+      "title": "Neurological Surgery Patient Outcomes: Chiari II decompression patterns in North American Spina Bifida Registry (Kim et al., 2018)",
+      "url": "https://thejns.org/focus/view/journals/neurosurg-focus/45/4/article-pE14.xml"
+    },
+    {
+      "title": "Sleep‑disordered breathing in CM‑II: narrative review and prevalence data (Frontiers/PMC, 2022)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9435333/"
+    },
+    {
+      "title": "Hydrocephalus treatment options in infants (ETV/CPC overview, Hydrocephalus Association)",
+      "url": "https://www.hydroassoc.org/etv-and-etv-with-cpc/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

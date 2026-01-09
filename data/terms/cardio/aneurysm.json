@@ -1,0 +1,112 @@
+{
+  "id": "aneurysm",
+  "names": ["Aneurysm"],
+  "aliases": ["aneurysms", "arterial aneurysm"],
+  "abbr": [],
+  "patterns": ["aneurysm", "aneurysms", "aortic aneurysm", "abdominal aortic aneurysm", "AAA", "thoracic aortic aneurysm", "TAA", "cerebral aneurysm", "berry aneurysm", "intracranial aneurysm", "brain aneurysm", "popliteal aneurysm", "peripheral aneurysm"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "neuro", "surgery", "emerg"],
+  "definition": "Localized dilatation or ballooning of an artery due to a weakened vessel wall (e.g., from elastin fiber loss and chronic wall stress). A true aneurysm involves all layers of the artery (intima, media, adventitia), whereas a pseudoaneurysm (false aneurysm) is a contained rupture where blood leaks out of the vessel lumen but is held by surrounding tissue. Shapes are described as saccular (one-sided pouch) or fusiform (circumferential bulge).",
+  "why_it_matters": "Aneurysms can grow silently and eventually rupture, causing life-threatening hemorrhage. They also can form clots that embolize or compress adjacent structures. Abdominal aortic aneurysm (AAA) rupture, for example, is often fatal without immediate surgery. Cerebral aneurysm rupture causes subarachnoid hemorrhage, a dire stroke emergency. Recognizing risk factors and knowing when to intervene can save lives.",
+  "how_youll_see_it": [
+    "AAA (Abdominal Aortic Aneurysm): Typically in older male smokers. Often asymptomatic until large. May be found incidentally or by a pulsatile abdominal mass on exam. Can cause deep abdominal or back pain if expanding. Rupture presents with sudden severe pain, hypotension, and collapse.",
+    "TAA (Thoracic Aortic Aneurysm): Often discovered incidentally (e.g., widened mediastinum on chest X-ray). Symptoms, if present, include chest or back pain and signs of compression: hoarseness (pressure on recurrent laryngeal nerve), cough/wheezing (tracheal compression), or dysphagia (esophageal compression). If the aneurysm involves the aortic root, it can cause an aortic regurgitation murmur or heart failure symptoms.",
+    "Cerebral (Berry) Aneurysm: Typically asymptomatic until rupture. Rupture causes subarachnoid hemorrhage (SAH) with a sudden thunderclap headache (often described as the worst headache of life), stiff neck, vomiting, and possible loss of consciousness. Unruptured aneurysms usually cause no symptoms, but a larger one might press on cranial nerves (e.g., a posterior communicating artery aneurysm can cause a CN III palsy with a dilated pupil and ptosis).",
+    "Peripheral Aneurysms: Commonly affect the popliteal artery (behind the knee), often in older patients with AAA. May present as a pulsatile mass in the popliteal fossa or with leg pain from nerve compression. Often, however, they present when complications occur: a popliteal aneurysm can throw clots to the lower leg (acute limb ischemia) or thrombose and cause critical limb ischemia. Other peripheral aneurysms (femoral, carotid, visceral arteries) are usually detected incidentally or when they rupture or embolize."
+  ],
+  "problem_solving": [
+    "Identify at-risk patients and screen appropriately: e.g., one-time abdominal ultrasound is recommended in men ≥65 who have ever smoked to detect AAA.",
+    "If an aneurysm is found, assess its size and growth rate via imaging. Small AAAs (e.g., <5 cm) are monitored periodically (ultrasound every 6–12 months depending on size), whereas larger aneurysms approach the threshold for repair. Likewise, an ascending TAA >5 cm in a Marfan patient might prompt surgery earlier than in others.",
+    "Optimize risk factor control: Strict blood pressure management (β-blockers often used in aortic disease), smoking cessation, and treatment of atherosclerosis (statins, etc.) help slow aneurysm expansion.",
+    "Refer to specialists when criteria are met: e.g., vascular surgery for large AAA or symptomatic aneurysms; neurosurgery for sizable or ruptured cerebral aneurysms. Also consider genetics referral if a young patient has a thoracic aneurysm (to evaluate for connective tissue disorders like Marfan or Loeys-Dietz).",
+    "In an acute setting (suspected rupture), act fast: a hypotensive patient with signs of ruptured AAA should go straight to emergent surgical intervention—do not delay for extensive imaging. Similarly, a patient with sudden severe headache and altered mental status needs immediate evaluation for SAH (CT scan) and neurosurgical consult."
+  ],
+  "differentials": [
+    { "id": "aortic-dissection", "hint": "acute tearing chest/back pain; may have unequal pulses and an intimal flap on imaging (a dissection rather than an outpouching)" },
+    { "name": "Renal colic (kidney stone)", "hint": "flank pain radiating to groin with hematuria; can mimic AAA pain but usually stable vitals and no pulsatile mass" },
+    { "name": "Intracerebral hemorrhage", "hint": "hemorrhagic stroke within brain tissue (often from hypertension); presents with focal deficits rather than diffuse headache and meningeal signs as in SAH" }
+  ],
+  "tricks": [
+    "AAA screening: Men 65-75 who have ever smoked should get a one-time ultrasound to screen for AAA.",
+    "Classic AAA rupture triad: abdominal/back pain, hypotension, and a pulsatile abdominal mass → high suspicion for ruptured AAA (surgical emergency).",
+    "Berry aneurysms (saccular aneurysms in the brain) are associated with polycystic kidney disease and certain connective tissue disorders (e.g., Ehlers-Danlos). On exams, a young person with these conditions and sudden headache might point to a ruptured aneurysm."
+  ],
+  "exam_appearance": [
+    "Older male smoker with sudden back pain, hypotension, and a pulsatile abdominal mass → ruptured AAA (requires emergent surgery).",
+    "Tall, thin patient with Marfan syndrome, a widened mediastinum on CXR, and new aortic regurgitation murmur → ascending aortic aneurysm (risk of dissection; needs prompt surgical evaluation).",
+    "Middle-aged patient with abrupt onset of the worst headache of their life, neck stiffness, and vomiting → subarachnoid hemorrhage from a ruptured berry aneurysm."
+  ],
+  "treatment": [
+    "When to intervene: Repair is elective when rupture risk outweighs surgical risk. For AAA, repair is generally recommended at diameter ≥5.5 cm in men (≈5.0 cm in women) or if growing >0.5 cm in 6 months. For ascending TAA, ~5.5 cm is typical threshold (lower if connective tissue disorder or rapid growth). For cerebral aneurysms, many experts consider treatment if >7 mm (or smaller if located in high-risk locations or patient has prior hemorrhage). Popliteal aneurysms are often repaired when >2 cm to prevent limb ischemia.",
+    "Repair options: Open surgical repair involves replacing the diseased segment with a graft (e.g., open AAA repair via abdominal incision). Endovascular repair uses stent-grafts delivered via catheter (EVAR for AAA, TEVAR for descending TAA) – less invasive, shorter recovery, but may need future re-interventions. Cerebral aneurysms can be treated by endovascular coiling (filling the aneurysm with coils) or surgical clipping of the aneurysm neck; choice depends on aneurysm anatomy and patient factors.",
+    "Rupture management: This is a surgical emergency. Ruptured AAA → immediate hemorrhage control and surgical repair (often open surgery; EVAR if quickly available). Ruptured cerebral aneurysm (SAH) → stabilize ABCs, manage blood pressure, give nimodipine to reduce vasospasm risk, and secure the aneurysm (coil or clip) ideally within 24–72 hours to prevent rebleeding."
+  ],
+  "red_flags": [
+    "Abdominal/back pain + hypotension + pulsatile mass in an older patient → think ruptured AAA until proven otherwise (immediate surgical intervention).",
+    "Thunderclap headache with neck stiffness or loss of consciousness → possible aneurysmal SAH (ruptured brain aneurysm). Requires emergent CT scan and neurosurgical evaluation.",
+    "Known aortic aneurysm with new sharp chest/back pain or hoarseness → warning of expansion or impending rupture/dissection. Requires urgent imaging and surgical consult."
+  ],
+  "algorithm": [
+    "Suspect aneurysm → get appropriate imaging: ultrasound for abdominal; CT or MRI for thoracic; CT head (no contrast) for suspected SAH, followed by CT/MR angiography for cerebral aneurysm.",
+    "If aneurysm is confirmed, determine size: small aneurysms → monitor with periodic imaging; large or symptomatic aneurysms → refer for repair (vascular or neurosurgery, depending on type).",
+    "Manage risk factors in all patients (aggressive BP control, smoking cessation, etc.) to slow aneurysm growth.",
+    "Plan intervention when criteria met: e.g., elective repair for AAA ≥5.5 cm (or any symptomatic AAA), TAA ≥5.5–6.0 cm (lower if genetically predisposed), or any intracranial aneurysm that has bled. Choose endovascular vs open approach based on anatomy and patient condition.",
+    "Emergency: If signs of rupture (AAA/TAA) or SAH, stabilize patient and activate emergency surgery (do not wait for perfect confirmation—time is critical)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Aortic_aneurysm_hariadhi_svg.svg/2048px-Aortic_aneurysm_hariadhi_svg.svg.png",
+      "alt": "Diagram of a normal aorta (A) vs. a thoracic aortic aneurysm (B, behind the heart) and an abdominal aortic aneurysm (C, below the kidney arteries).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Aortic_aneurysm_hariadhi_svg.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old man with a history of hypertension and heavy smoking is brought to the ED after sudden, severe back and abdominal pain. He briefly lost consciousness at home. On arrival, he is pale and diaphoretic, BP 80/50, HR 130. Exam finds a tender, pulsatile mass in his abdomen.",
+      "clues": [
+        "Older male smoker with hypertension",
+        "Sudden severe back/abdominal pain with syncope",
+        "Hemodynamic instability (hypotension, tachycardia)",
+        "Pulsatile abdominal mass on exam"
+      ],
+      "answer": "Ruptured abdominal aortic aneurysm",
+      "teaching": "This presentation (severe pain, hypotension, pulsatile abdominal mass) is classic for a ruptured AAA, a surgical emergency. AAA risk is high in older smokers with hypertension. Immediate operative repair is the only chance for survival."
+    }
+  ],
+  "see_also": [
+    "aortic-dissection",
+    "polycystic-kidney-disease",
+    "atherosclerosis",
+    "stroke",
+    "peripheral-artery-disease"
+  ],
+  "prerequisites": [
+    "atherosclerosis",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Overview of abdominal aortic aneurysm",
+      "url": "https://www.uptodate.com/contents/overview-of-abdominal-aortic-aneurysm"
+    },
+    {
+      "title": "AANS: Brain Aneurysm (Cerebral Aneurysm) Patient Information",
+      "url": "https://cvsection.org/patients/aneurysms/"
+    },
+    {
+      "title": "2022 ACC/AHA Guideline for the Diagnosis and Management of Aortic Disease (Isselbacher et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36322642/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

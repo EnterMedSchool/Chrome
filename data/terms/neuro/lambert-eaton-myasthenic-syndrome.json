@@ -1,0 +1,93 @@
+{
+  "id": "lambert-eaton-myasthenic-syndrome",
+  "names": ["Lambert-Eaton myasthenic syndrome"],
+  "aliases": ["Lambert-Eaton syndrome", "Eaton-Lambert syndrome", "myasthenic syndrome"],
+  "abbr": ["LEMS"],
+  "patterns": ["lems", "lambert eaton", "lambert-eaton syndrome", "lambert-eaton myasthenic syndrome", "eaton lambert"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "immunology", "pharmacology", "heme_onc"],
+  "definition": "Autoimmune disorder of the **neuromuscular junction** (presynaptic) where antibodies target voltage-gated **calcium channels**, reducing **acetylcholine** release. Often a **paraneoplastic** syndrome (≈60% associated with small-cell lung carcinoma).",
+  "why_it_matters": "Though rare, recognizing LEMS can lead to early diagnosis of an occult **small cell lung cancer** (LEMS symptoms often precede cancer detection by months). It's also a classic exam topic contrasting LEMS vs **myasthenia gravis**, highlighting LEMS's unique features (e.g. strength improves with use, autonomic involvement).",
+  "how_youll_see_it": [
+    "Insidious onset of **proximal leg weakness** (difficulty rising from chairs, climbing stairs) that may transiently **improve with exertion** (facilitation).",
+    "Marked **hyporeflexia** or absent deep tendon reflexes at rest, which temporarily return after brief exercise (post-exercise facilitation).",
+    "**Autonomic** symptoms are common – notably **dry mouth** (often early), plus others like impotence, constipation, and orthostatic lightheadedness.",
+    "Minimal **ocular** or bulbar involvement (ptosis or diplopia in <30%, much milder than in MG); **respiratory** muscle weakness is rare."
+  ],
+  "problem_solving": [
+    "Confirm diagnosis with electrodiagnostics: repetitive nerve stimulation shows a **>100% increase** in compound muscle action potential (CMAP) amplitude after exercise or high-frequency stimulation (incremental response).",
+    "Detect **anti–P/Q voltage-gated calcium channel** antibodies in serum (present in ~85–90% of cases) to support the diagnosis.",
+    "Always **screen for malignancy**: perform chest imaging (CT scan) to check for **small cell lung carcinoma**; if initial scan is negative, repeat every 6 months for 2 years.",
+    "Differentiate from **myasthenia gravis**: LEMS has absent reflexes and autonomic dysfunction, and strength **improves** with use (MG typically has normal reflexes, purely motor fatigue, and worsens with use)."
+  ],
+  "differentials": [
+    { "id": "myasthenia-gravis", "hint": "postsynaptic ACh receptor issue; fatigable weakness **worsens** with use, more ocular findings, normal reflexes" },
+    { "id": "botulism", "hint": "acute toxin-mediated presynaptic block; **descending** paralysis with early cranial nerve involvement, autonomic signs (dry mouth, dilated pupils)" },
+    { "name": "Polymyositis", "hint": "proximal muscle weakness but a muscle fiber disease (high CK, no NMJ facilitation, normal reflexes, no autonomic symptoms)" }
+  ],
+  "tricks": [
+    "Mnemonic: **LEMS** – **L**egs (starts in proximal legs), **E**nhanced by Exercise (strength temporarily improves), **M**alignancy (paraneoplastic, often small cell lung CA), **S**pares eyes (ocular signs are mild).",
+    "Facilitation phenomenon: brief exercise makes reflexes and strength transiently better – a hallmark of LEMS (contrast with MG)."
+  ],
+  "exam_appearance": [
+    "Older male **smoker** with chronic cough develops progressive proximal weakness that **improves after exercise**, accompanied by **dry mouth** and absent reflexes → Lambert-Eaton myasthenic syndrome (paraneoplastic; suspect small cell lung cancer).",
+    "Patient treated for \"myasthenia\" shows **hyporeflexia** and **autonomic** symptoms (e.g. dry mouth) – minimal improvement with edrophonium – workup reveals a lung mass → LEMS misdiagnosed as MG (LEMS has autonomic involvement and poor response to Tensilon)."
+  ],
+  "treatment": [
+    "If an underlying tumor is present, treat the **cancer** (e.g. chemo ± radiation for SCLC) – LEMS symptoms often improve after successful cancer therapy.",
+    "Symptomatic therapy: **3,4-diaminopyridine (amifampridine)** – a K⁺ channel blocker that prolongs nerve terminal depolarization and boosts ACh release. **Pyridostigmine** (acetylcholinesterase inhibitor) is often added for additional improvement.",
+    "**Immunosuppression** can help in non-paraneoplastic or refractory LEMS: corticosteroids (e.g. prednisone) and/or azathioprine; also **IVIG** or plasmapheresis for short-term benefit, though LEMS responds less to these than MG."
+  ],
+  "red_flags": [
+    "LEMS onset in a **>50-year-old smoker** → assume paraneoplastic until proven otherwise. Aggressively search for **small cell lung carcinoma** (initial and repeat scans).",
+    "Prolonged paralysis after surgery (excessive response to neuromuscular blockers) can be an early clue to undiagnosed LEMS."
+  ],
+  "algorithm": [
+    "Proximal muscle weakness + autonomic signs (dry mouth, etc.) → **suspect LEMS**.",
+    "**Electrodiagnosis**: perform repetitive nerve stimulation EMG (look for high-frequency facilitation) and test for anti-VGCC antibodies to confirm LEMS.",
+    "If LEMS confirmed → **screen for SCLC** with chest CT (repeat every 6 mos for 2 years if initial scan is normal).",
+    "**Manage**: treat underlying malignancy if present; give 3,4-DAP ± pyridostigmine for symptoms; add immunosuppressive therapy or IVIG if needed."
+  ],
+  "cases": [
+    {
+      "stem": "A 58‑year‑old man with a 40-pack‑year smoking history has had increasing difficulty climbing stairs over 8 months. He reports a chronically dry mouth. On exam, he has proximal leg weakness (4/5 strength) that **temporarily improves** after exercise, mild ptosis, and absent reflexes (which return after a brief effort). Chest imaging reveals a left hilar mass.",
+      "clues": ["Heavy smoker, age ~60", "Gradual proximal leg weakness", "Strength improves with exercise", "Dry mouth", "Absent reflexes (improve post-exercise)", "Lung mass on imaging"],
+      "answer": "Lambert-Eaton myasthenic syndrome (paraneoplastic)",
+      "teaching": "LEMS is an autoimmune neuromuscular junction disorder (anti-presynaptic Ca²⁺ channels) often occurring as a paraneoplastic syndrome (here due to small cell lung carcinoma). Key features include proximal muscle weakness that improves briefly with exercise, autonomic symptoms (dry mouth), and hyporeflexia."
+    },
+    {
+      "stem": "A 45‑year‑old woman is evaluated for fatigable muscle weakness. She notes it takes a few attempts to rise from a squat, after which her legs feel slightly stronger. She also has dry mouth and occasional lightheadedness. She has no ptosis or double vision. On exam, proximal muscle strength is 4/5 with **absent reflexes** that partially return after brief exercise. Workup for myasthenia gravis is negative (ACh receptor antibody not detected). CT chest is normal.",
+      "clues": ["Middle-aged woman", "Proximal weakness improves after exertion", "Dry mouth, orthostatic dizziness", "No significant ocular symptoms", "Absent reflexes", "Negative ACh receptor Ab"],
+      "answer": "Lambert-Eaton myasthenic syndrome (autoimmune, non-paraneoplastic)",
+      "teaching": "This is an example of non-paraneoplastic LEMS. The presentation can mimic myasthenia gravis but with notable differences: autonomic dysfunction (dry mouth, etc.) and hyporeflexia with post-exercise improvement. Anti-VGCC antibodies would confirm the diagnosis. Cancer screening is still warranted initially, but in younger patients LEMS often occurs idiopathically."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/The_Neuromuscular_Junction.svg/1448px-The_Neuromuscular_Junction.svg.png",
+      "alt": "Diagram of a neuromuscular junction. In LEMS, autoantibodies target presynaptic calcium channels at the nerve ending, preventing acetylcholine release into the synapse.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:The_Neuromuscular_Junction.svg"
+      }
+    }
+  ],
+  "actions": [
+    { "label": "Read Notes", "href": "https://entermedschool.com", "variant": "secondary" }
+  ],
+  "see_also": ["myasthenia-gravis", "lung-neuroendocrine-neoplasms", "amyotrophic-lateral-sclerosis"],
+  "prerequisites": ["neuromuscular-junction"],
+  "sources": [
+    { "title": "StatPearls: Lambert-Eaton Myasthenic Syndrome (Jayarangaiah et al., 2023)", "url": "https://www.ncbi.nlm.nih.gov/books/NBK507891/" },
+    { "title": "UpToDate: Lambert-Eaton myasthenic syndrome – Clinical features and diagnosis (Accessed 2025)", "url": "https://www.uptodate.com/contents/lambert-eaton-myasthenic-syndrome-clinical-features-and-diagnosis" },
+    { "title": "Medscape: Lambert-Eaton Myasthenic Syndrome (Stickler, updated 2024)", "url": "https://emedicine.medscape.com/article/1170810-overview" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

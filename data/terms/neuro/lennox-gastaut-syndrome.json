@@ -1,0 +1,138 @@
+{
+  "id": "lennox-gastaut-syndrome",
+  "names": [
+    "Lennox-Gastaut syndrome"
+  ],
+  "aliases": [],
+  "abbr": [
+    "LGS"
+  ],
+  "patterns": [
+    "lennox gastaut",
+    "lennox-gastaut",
+    "lennox gastaut syndrome",
+    "LGS"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "peds",
+    "pharmacology"
+  ],
+  "definition": "Severe childhood-onset **epileptic encephalopathy** with multiple refractory seizures, cognitive impairment, and a characteristic slow (<3 Hz) spike-and-wave EEG pattern.",
+  "why_it_matters": "Accounts for ~2–5% of childhood epilepsies and is notoriously difficult to treat. LGS causes lifelong disability with frequent injuries (from \"drop\" seizures) and developmental delays, making early recognition and specialized management critical.",
+  "how_youll_see_it": [
+    "Onset typically at **3–5 years** old. Child presents with **multiple seizure types** – especially nocturnal **tonic** seizures (stiffening, often during sleep), frequent **atonic** \"drop attacks\" (sudden falls), and **atypical absence** seizures. Myoclonic jerks and generalized tonic-clonic seizures can also occur.",
+    "Parents report **developmental delay** or regression; intellectual disability is common and often precedes the seizures. Behavioral problems (hyperactivity, aggression, autistic features) may be noted.",
+    "Many cases have an underlying cause (e.g. **tuberous sclerosis**, perinatal brain injury, congenital malformation) or a history of infantile spasms (**West syndrome**) in infancy. In ~25% of cases, no cause is found (cryptogenic LGS).",
+    "Seizures are usually **drug-resistant**. Children may wear **helmets** due to frequent drops. Workup often reveals an abnormal EEG (see below) and possibly MRI findings of an underlying lesion."
+  ],
+  "problem_solving": [
+    "Hallmark EEG: **slow 1.5–2.5 Hz spike-and-wave** discharges during wakefulness, plus bursts of fast rhythms in sleep. This differentiates LGS from typical absence epilepsy (which has 3 Hz spike-waves).",
+    "Think **LGS** in any child with mixed seizure types and cognitive impairment. A history of **West syndrome** (infantile spasms) or other early epilepsy that evolves into new seizure types by age 3–5 strongly suggests LGS.",
+    "Always search for a cause: perform brain **MRI** to check for structural lesions (malformations, old injury, tumor) and consider genetic testing (many de novo gene mutations like SCN1A, CHD2, etc. are linked to LGS). Identifying an etiology can guide treatment (e.g., if tuberous sclerosis, manage that condition too).",
+    "Plan for **multimodal therapy** – seizures usually require combined treatments (multiple medications, diet, devices) and involvement of neurology specialists."
+  ],
+  "differentials": [
+    {
+      "name": "Myoclonic-astatic epilepsy (Doose syndrome)",
+      "hint": "onset in early childhood with drop seizures but **normal development**; EEG has faster (~3 Hz) spike-wave pattern"
+    },
+    {
+      "name": "Dravet syndrome",
+      "hint": "Severe infantile epilepsy starting with **febrile seizures** (<1 year); multiple seizure types and SCN1A mutations, but different onset pattern"
+    },
+    {
+      "name": "West syndrome (infantile spasms)",
+      "hint": "onset at **<1 year** with clustered spasms and chaotic hypsarrhythmia EEG; often an earlier phase that can progress into LGS"
+    }
+  ],
+  "tricks": [
+    "Classic triad: **multiple seizure types**, **intellectual disability**, and **slow (<3 Hz) spike-and-wave** on EEG.",
+    "LGS is an **epileptic encephalopathy** – the ongoing seizures and abnormal EEG activity contribute to worsening cognitive and behavioral function.",
+    "Mnemonic: **\"LGS = Lots of seizures, Gradual intellectual decline, Slow spike-waves.\"** Remember 2 Hz (LGS) vs 3 Hz (absence)."
+  ],
+  "exam_appearance": [
+    "**Exam scenario:** A 4-year-old with developmental delay and a history of infantile spasms now has frequent **drop attacks** (sudden falls) and **staring spells**. EEG shows a **2 Hz spike-and-wave** pattern. → This is classic Lennox-Gastaut syndrome.",
+    "Child with multiple refractory seizures (atonic and tonic) requiring a helmet for protection, plus cognitive impairment → suggests LGS. Exams often emphasize the **mixed seizure types** and characteristic EEG."
+  ],
+  "treatment": [
+    "Start broad-spectrum AEDs: **valproate** is first-line (if no contraindications) for generalized seizures. However, monotherapy rarely suffices. Common adjuncts include **rufinamide** and **clobazam**, which are specifically indicated for LGS. Other agents often used are **lamotrigine**, **topiramate**, and **felbamate** (very effective but limited by toxicity). New therapies like **cannabidiol (CBD)** and **fenfluramine** have also shown seizure reduction in LGS.",
+    "**Ketogenic diet** is a proven non-pharmacologic treatment that can significantly reduce seizures, especially in medication-resistant cases. **Vagus nerve stimulation (VNS)** and **corpus callosotomy** (surgical disconnection of hemispheres) are options for refractory LGS to decrease seizure frequency (particularly drop attacks). A small subset with a focal lesion may benefit from resective surgery.",
+    "Maximize safety: ensure caregivers know **seizure first aid** and have rescue meds (e.g. benzodiazepines) for prolonged seizures. Because complete seizure control is rare, therapy aims to **reduce seizure burden** and improve quality of life."
+  ],
+  "red_flags": [
+    "**Frequent injuries:** Atonic seizures cause sudden falls – wearing a helmet is often necessary to prevent head trauma. Any episode of prolonged loss of consciousness or clustering of seizures could indicate **status epilepticus**, which occurs in up to 50–75% of LGS patients and requires urgent treatment.",
+    "**Poor prognosis:** LGS is usually lifelong. Most patients continue to have seizures into adulthood (often requiring care). Only a minority achieve independence. There is a risk of **SUDEP** (sudden unexpected death in epilepsy) and a childhood mortality of ~3–7%, often related to accidents or underlying cause. Early aggressive therapy and supportive services are key to improving outcomes."
+  ],
+  "algorithm": [
+    "Child with multiple seizure types + developmental delay → **suspect LGS**.",
+    "Obtain an **EEG** to confirm the signature slow spike-and-wave pattern; perform **MRI brain** to check for structural causes. Add **genetic/metabolic tests** if no obvious cause.",
+    "If LGS is diagnosed, begin **valproate** (first-line) and add adjuncts as needed for seizure control. Consider **ketogenic diet** early if drugs fail.",
+    "Refer to a **pediatric neurologist/epileptologist**. Implement therapy plans including possible **VNS or callosotomy** for refractory cases, and ensure caregivers have a **seizure action plan** (rescue meds, safety precautions).",
+    "Long-term, involve an interprofessional team: neurology, dietitian (for keto diet), therapists (for developmental support), and consider clinical trials or newer therapies if available."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png",
+      "alt": "EEG showing generalized spike-and-wave discharges (in LGS these occur at a slow ~2 Hz frequency)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Spike-waves.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy with a history of infantile spasms presents with new seizures.",
+      "clues": [
+        "Previously had West syndrome (infantile spasms) in infancy",
+        "Now has frequent atonic \"drop\" seizures and atypical absences",
+        "Developmental delay and behavioral problems are noted",
+        "EEG shows generalized 2-Hz spike‑and‑wave pattern"
+      ],
+      "answer": "Lennox-Gastaut syndrome",
+      "teaching": "Infantile spasms often evolve into LGS in early childhood. This syndrome is defined by multiple seizure types (especially drop attacks and atypical absences), cognitive impairment, and a slow spike-and-wave EEG. It is highly refractory, requiring multiple therapies."
+    }
+  ],
+  "see_also": [
+    "west-syndrome",
+    "absence-epilepsy",
+    "seizures"
+  ],
+  "prerequisites": [
+    "seizures",
+    "epilepsy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Lennox-Gastaut Syndrome (Amrutkar & Lui, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532965/"
+    },
+    {
+      "title": "UpToDate: Lennox-Gastaut syndrome (Accessed Nov 2025)",
+      "url": "https://www.uptodate.com/contents/lennox-gastaut-syndrome"
+    },
+    {
+      "title": "Medscape: Lennox-Gastaut Syndrome (Mora Rodriguez, 2025)",
+      "url": "https://emedicine.medscape.com/article/1176735-overview"
+    },
+    {
+      "title": "Epilepsy Foundation: Lennox-Gastaut Syndrome (2023)",
+      "url": "https://www.epilepsy.com/what-is-epilepsy/syndromes/lennox-gastaut-syndrome"
+    },
+    {
+      "title": "CHOP (Children's Hospital of Philadelphia): Lennox-Gastaut Syndrome",
+      "url": "https://www.chop.edu/conditions-diseases/lennox-gastaut-syndrome"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

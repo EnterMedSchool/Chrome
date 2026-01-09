@@ -1,0 +1,140 @@
+{
+  "id": "beta-thalassemia-minor",
+  "names": [
+    "Beta-thalassemia minor"
+  ],
+  "aliases": [
+    "beta-thalassemia trait",
+    "beta-thalassemia carrier"
+  ],
+  "abbr": [
+    "β-thal trait"
+  ],
+  "patterns": [
+    "beta thalassemia minor",
+    "beta thalassemia trait",
+    "thalassemia minor",
+    "thalassemia trait"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics"
+  ],
+  "definition": "Heterozygous β-globin gene mutation causing reduced β-chain production. Results in a mild, **asymptomatic microcytic anemia** often discovered incidentally.",
+  "why_it_matters": "It is benign for the patient but important to recognize to avoid misdiagnosis as iron deficiency and unnecessary iron therapy. Also, two carriers can have a child with severe thalassemia major, so identifying carriers allows for genetic counseling and prenatal diagnosis.",
+  "how_youll_see_it": [
+    "Usually **asymptomatic**. May have mild fatigue or no symptoms at all. Often found on routine blood work showing low MCV (~65–75 fL) and mild anemia (Hb ~10–13).",
+    "Labs: Iron studies normal. RBC count normal or slightly high (reflecting many small RBCs). Smear: **target cells**, mild anisocytosis. **Hemoglobin electrophoresis**: **↑HbA2** (>3.5%) is the hallmark; HbF may be slightly elevated.",
+    "Often noted in context of a patient not responding to iron supplements or during screening in pregnancy. Ethnic background (Mediterranean, Asian, African) can raise suspicion."
+  ],
+  "problem_solving": [
+    "Differentiate from iron deficiency: β-thal trait has normal ferritin and often a high RBC count (iron deficiency: low ferritin, low RBC count). Mentzer index <13 suggests thalassemia.",
+    "Confirm diagnosis with electrophoresis (run when iron replete): elevated HbA2 confirms β-thal minor. Note that concurrent iron deficiency can mask this (normalize iron first).",
+    "Once diagnosed, avoid unnecessary treatments. Instead, provide patient education and offer partner testing if of childbearing age due to reproductive implications."
+  ],
+  "differentials": [
+    {
+      "name": "Iron deficiency anemia (mild)",
+      "hint": "more common; usually low ferritin, low RBC count, responds to iron therapy"
+    },
+    {
+      "name": "Alpha-thalassemia trait",
+      "hint": "also mild microcytosis; electrophoresis is normal (no elevated HbA2)"
+    },
+    {
+      "name": "Anemia of chronic disease",
+      "hint": "microcytic in chronic inflammation; features of underlying disease present (e.g., arthritis, chronic infection)"
+    }
+  ],
+  "tricks": [
+    "**HbA2 >3.5%** on electrophoresis = β-thalassemia trait.",
+    "β-thalassemia trait is often **misdiagnosed as iron deficiency** – check iron studies before giving iron.",
+    "Carriers often have relatives with similar mild anemia; a family history of \"low blood count\" can be a clue."
+  ],
+  "exam_appearance": [
+    "Young adult with persistent microcytosis despite adequate iron, RBC count normal, and elevated HbA2 on electrophoresis → **β-thalassemia minor**.",
+    "Prenatal screening reveals both parents have increased HbA2 levels → both are β-thalassemia carriers (risk of Cooley's anemia in offspring)."
+  ],
+  "treatment": [
+    "No specific treatment is required for the mild anemia. Avoid iron supplementation unless iron deficiency is also present (to prevent iron overload).",
+    "Advise **folic acid** supplementation if there's any ongoing hemolysis (usually not significant in trait).",
+    "Genetic counseling: Explain autosomal recessive inheritance. If both partners have trait, discuss prenatal diagnosis options (CVS/amniocentesis) to detect severe thalassemia in fetus."
+  ],
+  "red_flags": [
+    "Do not overlook a β-thalassemia minor in a pregnant patient – unnecessary iron can accumulate and fail to correct anemia; ensure proper diagnosis.",
+    "If a trait carrier's child has **unexplained anemia** early in life, test for more severe thalassemia (child could have inherited severe form if the other parent is also a carrier)."
+  ],
+  "algorithm": [
+    "Microcytosis on CBC but normal iron → suspect thalassemia trait.",
+    "Perform hemoglobin electrophoresis (after confirming no iron deficiency): if **↑HbA2** is seen → β-thalassemia trait confirmed.",
+    "Reassure patient; no active treatment needed except avoiding inappropriate iron. Document carrier status in medical record.",
+    "Test the partner if planning children; refer to genetic counseling if both are carriers."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Target_cells_and_spherocytes.jpg",
+      "alt": "Blood smear with target cells (thin, bullseye-appearing RBCs). Target cells are often seen in beta-thalassemia minor.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Target_cells_and_spherocytes.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25-year-old woman is told she has iron deficiency due to a microcytic anemia, but iron supplements haven't raised her hemoglobin.",
+      "clues": [
+        "MCV 72 fL, Hb 11.8",
+        "Ferritin is normal",
+        "RBC count slightly elevated",
+        "HbA2 level 5%"
+      ],
+      "answer": "Beta-thalassemia minor (trait)",
+      "teaching": "Her labs are consistent with β-thalassemia trait: microcytosis with mild anemia, normal iron, and elevated HbA2. Iron supplements won't help since she isn't iron-deficient. Proper diagnosis prevents unnecessary treatment and identifies her as a carrier."
+    },
+    {
+      "stem": "During premarital testing, a man is found to have microcytosis with elevated HbA2. His fiancée's labs show the same abnormality.",
+      "clues": [
+        "Both asymptomatic with mild microcytic anemia",
+        "Both have HbA2 ~6%",
+        "Mediterranean ancestry"
+      ],
+      "answer": "Both are beta-thalassemia carriers (thalassemia minor)",
+      "teaching": "Each partner has β-thalassemia minor. They should be counseled that with each pregnancy, there is a 25% chance of having a child with β-thalassemia major, emphasizing the importance of prenatal testing."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "beta-thalassemia-major",
+    "alpha-thalassemia-trait",
+    "sickle-cell-anemia"
+  ],
+  "prerequisites": [
+    "hemoglobin",
+    "genetics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Beta Thalassemia (Needs et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK531481/"
+    },
+    {
+      "title": "American Family Physician: Thalassemia Minor (Modell, 2009)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2009/0815/p339.html"
+    },
+    {
+      "title": "Merck Manual Professional: Thalassemias",
+      "url": "https://www.merckmanuals.com/professional/hematology-and-oncology/anemias-caused-by-hemolysis/thalassemias"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

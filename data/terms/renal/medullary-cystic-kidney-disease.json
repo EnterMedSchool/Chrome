@@ -1,0 +1,183 @@
+{
+  "id": "medullary-cystic-kidney-disease",
+  "names": ["Medullary cystic kidney disease"],
+  "aliases": [
+    "Autosomal dominant tubulointerstitial kidney disease",
+    "UMOD-related kidney disease",
+    "MUC1 kidney disease",
+    "Uromodulin-associated kidney disease",
+    "Familial juvenile hyperuricemic nephropathy"
+  ],
+  "abbr": ["MCKD", "ADTKD", "UAKD", "FJHN"],
+  "patterns": [
+    "medullary cystic kidney disease",
+    "mckd",
+    "mckd1",
+    "mckd2",
+    "autosomal dominant tubulointerstitial kidney disease",
+    "adtkd",
+    "uromodulin kidney disease",
+    "uromodulin-associated kidney disease",
+    "umod",
+    "muc1",
+    "familial juvenile hyperuricemic nephropathy",
+    "fjhn",
+    "ren mutation kidney disease",
+    "hnf1b renal cysts and diabetes"
+  ],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "genetics", "peds"],
+  "definition": "A group of **autosomal dominant** tubulointerstitial nephropathies characterized by slowly progressive chronic kidney disease with a **bland urinary sediment** (little blood/protein), normal-to-small kidneys (± few late **medullary/corticomedullary cysts**), and histology showing **tubular atrophy** and **interstitial fibrosis**. Modern nomenclature groups these conditions as **ADTKD**, subclassified by gene (most often **UMOD**, **MUC1**, **REN**, **HNF1B**; rarer **SEC61A1**, **DNAJB11**, **APOA4**). “Medullary cystic kidney disease (MCKD)” (types 1 & 2) corresponds largely to **ADTKD‑MUC1** and **ADTKD‑UMOD**, and is a misnomer because cysts are not required for diagnosis.",
+  "why_it_matters": "Often mislabeled as “CKD of unknown cause,” ADTKD leads to **ESRD in mid‑to‑late adulthood** (median ~40s–50s depending on subtype) and is under‑recognized on exams and in clinic. Early recognition guides **family screening**, avoids unnecessary workups/biopsies, explains **early gout** (UMOD/REN), and prompts appropriate counseling (excellent **transplant** outcomes; disease usually **does not recur** in the graft).",
+  "how_youll_see_it": [
+    "**Common thread:** autosomal‑dominant family history of CKD across generations, **minimal proteinuria**, bland urine, slowly rising creatinine beginning in the teens–30s.",
+    "**ADTKD‑UMOD (formerly MCKD2/FJHN):** **hyperuricemia with early gout** (often teens/20s), impaired urinary concentration (polyuria/nocturia), normal‑to‑small kidneys with few cysts; CKD progression over decades.",
+    "**ADTKD‑MUC1 (formerly MCKD1):** isolated kidney disease—**no consistent extrarenal features**; bland urine, CKD beginning in late teens/20s; cysts may be absent or few; many standard sequencing panels **miss MUC1** (specialized testing needed).",
+    "**ADTKD‑REN:** childhood presentation with **hypotension, anemia, mild hyperkalemia & metabolic acidosis**, salt craving/polyuria; later hyperuricemia ± gout; AD family history.",
+    "**ADTKD‑HNF1B (RCAD):** kidney disease with **renal cysts/dysplasia** plus **MODY5 diabetes**, **hypomagnesemia**, and GU/pancreatic/hepatic anomalies; variable course."
+  ],
+  "problem_solving": [
+    "**When to suspect ADTKD:** AD family history of CKD + **bland urine** (protein <~500 mg/day) + normal/small kidneys (± few medullary/corticomedullary cysts).",
+    "**First steps:** urinalysis (often bland), serum **uric acid** (high in UMOD/REN), renal ultrasound (often normal early; later small kidneys ± few cysts).",
+    "**Genetic testing:** order an inherited kidney disease panel **including UMOD, MUC1, REN, HNF1B**. Note: **MUC1 frameshift** variants are hard to detect with routine NGS/Sanger; targeted assays or immunostaining for **MUC1fs** may be required at specialized labs.",
+    "**Biopsy?** Not diagnostic alone (nonspecific **tubulointerstitial fibrosis/TA, thickened/lamellated TBM; microcysts**). Use it mainly to exclude other etiologies.",
+    "**Subtype clues:** early gout → **UMOD/REN**; childhood anemia/hyperkalemia/hypotension → **REN**; extrarenal features (MODY5, GU malformations, low Mg) → **HNF1B**; isolated CKD with negative routine panels → **MUC1**."
+  ],
+  "tricks": [
+    "MCKD is a **misnomer**—you can have ADTKD without visible cysts; kidneys are often **normal or small**, not massively cystic (contrast with **ADPKD**).",
+    "**UMOD = uric acid & gout** (think “U‑ric acid”). **REN = REnin** pathway → childhood **anemia, hyperkalemia, hypotension**. **MUC1 = MUC‑h else normal** (isolated kidney disease).",
+    "Urine is **boringly bland** (little protein/hematuria) despite worsening CKD—this is a classic exam clue.",
+    "Transplant works well—**disease typically does not recur** in the graft."
+  ],
+  "exam_appearance": [
+    "Teen with recurrent **gout** and a father/uncle on dialysis; UA with **trace/no protein**, ultrasound shows **small kidneys** with few or no cysts → **ADTKD‑UMOD**.",
+    "Child with **fatigue, anemia, mild hyperkalemia, low‑normal BP**, polyuria; parent with CKD in 30s–40s → **ADTKD‑REN**.",
+    "Adult with CKD stage 3, **bland urine**, normal‑size kidneys (no significant cyst burden), negative UMOD/HNF1B/REN on panel; specialized testing confirms **MUC1 frameshift** → **ADTKD‑MUC1**.",
+    "Don’t confuse with **ADPKD**: huge cystic kidneys, numerous cysts, higher proteinuria; or **medullary sponge kidney**: nephrocalcinosis, stones, often normal kidney function."
+  ],
+  "treatment": [
+    "No disease‑modifying therapy yet—**CKD care** (BP control, RAAS blockade as tolerated, avoid nephrotoxins, treat acidosis, manage anemia/mineral bone disease).",
+    "**Gout/hyperuricemia (UMOD/REN/HNF1B):** **allopurinol or febuxostat** for flares/prevention; discuss risks (hypersensitivity; pregnancy considerations). Avoid meds that raise urate (e.g., high‑dose thiazides) when possible.",
+    "**ADTKD‑REN:** consider **fludrocortisone** and liberal salt intake to address **hypotension/hyperkalemia**; treat childhood **anemia** per CKD practice (± EPO).",
+    "**HNF1B (RCAD):** manage **MODY5 diabetes**, monitor/treat **hypomagnesemia** and other extrarenal issues.",
+    "**Transplantation:** excellent outcomes; **recurrence in the allograft is not expected** for UMOD/MUC1/REN subtypes."
+  ],
+  "red_flags": [
+    "**Early‑onset gout** (teens/20s) with a family history of CKD → think **ADTKD‑UMOD**.",
+    "Child with **CKD + anemia + mild hyperkalemia + low BP** in a dominant pedigree → concerning for **ADTKD‑REN**.",
+    "“CKD of unknown cause” with **bland urine** and **normal/small kidneys** across generations—do not miss ADTKD; refer for **genetic testing**."
+  ],
+  "algorithm": [
+    "Suspect inherited tubulointerstitial disease → confirm **AD family history** and **bland urine** (low protein/hematuria).",
+    "Renal ultrasound → **normal/small** kidneys ± few medullary/corticomedullary cysts.",
+    "Order genetic testing panel (**UMOD, MUC1, REN, HNF1B**; add **SEC61A1/DNAJB11** if available). If panel negative but suspicion high → arrange **MUC1‑specific** testing.",
+    "Subtyping guides anticipatory care: **UMOD/REN** (urate/gout), **REN** (child anemia/hypotension/hyperkalemia), **HNF1B** (RCAD features).",
+    "Manage per CKD guidelines; treat gout; **fludrocortisone** for ADTKD‑REN hypotension/hyperkalemia. Consider **transplant** when advanced."
+  ],
+  "differentials": [
+    {
+      "name": "Autosomal dominant polycystic kidney disease (ADPKD)",
+      "hint": "Numerous cysts with **enlarged** kidneys and more proteinuria; extrarenal cysts (liver); different genes (PKD1/2)."
+    },
+    {
+      "name": "Nephronophthisis (AR)",
+      "hint": "Pediatric **AR** ciliopathy with polyuria/polydipsia, corticomedullary cysts, early ESRD; extrarenal features in syndromic forms."
+    },
+    {
+      "name": "Medullary sponge kidney",
+      "hint": "Congenital collecting duct dilation with **nephrocalcinosis and stones**; kidney function often preserved; not an inherited AD tubulointerstitial disease."
+    },
+    {
+      "name": "Chronic interstitial nephritis (e.g., analgesics, lithium)",
+      "hint": "History of drug exposure; may have sterile pyuria, WBC casts; no autosomal‑dominant pattern."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Kidney%20nephron.png",
+      "alt": "Public‑domain Gray’s Anatomy diagram of a nephron (tubules and collecting system in cortex/medulla), the compartment affected in ADTKD.",
+      "credit": {
+        "text": "Gray’s Anatomy (1918), Public Domain — via Wikimedia Commons",
+        "href": "https://commons.wikimedia.org/wiki/File:Kidney_nephron.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22‑year‑old man has recurrent podagra and a father who started dialysis at 48.",
+      "clues": [
+        "Serum urate markedly elevated",
+        "UA: trace protein, no hematuria (bland sediment)",
+        "Ultrasound: kidneys normal size, no large cyst burden",
+        "Two affected generations"
+      ],
+      "answer": "ADTKD‑UMOD (formerly MCKD2/FJHN)",
+      "teaching": "Early **gout + bland urine + AD family history** is classic. Kidneys are not massively cystic. Genetic testing often confirms a **UMOD** variant; treat gout and manage CKD."
+    },
+    {
+      "stem": "A 7‑year‑old boy has fatigue, **anemia**, mild **hyperkalemia**, low‑normal BP, nocturia, and a mother with CKD.",
+      "clues": [
+        "Salt craving/polyuria",
+        "Bicarbonate mildly low",
+        "Ultrasound: normal‑small kidneys",
+        "Autosomal‑dominant pedigree"
+      ],
+      "answer": "ADTKD‑REN",
+      "teaching": "**REN**‑related disease presents in **childhood** with hyporeninemic features (anemia, hyperkalemia, mild hypotension). **Fludrocortisone** and salt liberalization can help; monitor CKD progression."
+    },
+    {
+      "stem": "A 35‑year‑old woman with slowly rising creatinine since age 24; urine is bland; imaging shows normal‑sized kidneys without many cysts. Her father required transplant at 52.",
+      "clues": [
+        "Negative standard NGS panel for UMOD/REN/HNF1B",
+        "Specialized assay detects **MUC1 frameshift** protein",
+        "No consistent extrarenal features"
+      ],
+      "answer": "ADTKD‑MUC1 (formerly MCKD1)",
+      "teaching": "MUC1 variants are **often missed** by routine sequencing. Consider **MUC1‑specific** testing when ADTKD is likely but panel testing is unrevealing."
+    }
+  ],
+  "see_also": [
+    "polycystic-kidney-disease",
+    "multicystic-dysplastic-kidney",
+    "chronic-kidney-disease"
+  ],
+  "prerequisites": ["kidney", "urinalysis"],
+  "sources": [
+    {
+      "title": "StatPearls — Autosomal Dominant Tubulointerstitial Kidney Disease (ADTKD)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK568710/"
+    },
+    {
+      "title": "GeneReviews — ADTKD‑MUC1 (historically MCKD1)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK153723/"
+    },
+    {
+      "title": "KDIGO Consensus Report — ADTKD: diagnosis, classification & management (Kidney Int. 2015)",
+      "url": "https://kdigo.org/wp-content/uploads/2017/02/KDIGO_ADTKD-2015.pdf"
+    },
+    {
+      "title": "MedlinePlus Genetics — ADTKD‑UMOD",
+      "url": "https://medlineplus.gov/genetics/condition/autosomal-dominant-tubulointerstitial-kidney-disease-umod/"
+    },
+    {
+      "title": "Kidney International — Clinical and genetic spectra of ADTKD (Olinger et al., 2020)",
+      "url": "https://www.kidney-international.org/article/S0085-2538(20)30539-1/fulltext"
+    },
+    {
+      "title": "Merck Manual Professional — Nephronophthisis and ADTKD (overview & contrasts)",
+      "url": "https://www.merckmanuals.com/professional/genitourinary-disorders/cystic-kidney-disease/nephronophthisis-and-autosomal-dominant-tubulointerstitial-kidney-disease-adtkd"
+    },
+    {
+      "title": "NIDDK — Medullary Sponge Kidney (for differential)",
+      "url": "https://www.niddk.nih.gov/health-information/kidney-disease/children/medullary-sponge-kidney"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

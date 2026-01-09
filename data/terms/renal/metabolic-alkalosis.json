@@ -1,0 +1,127 @@
+{
+  "id": "metabolic-alkalosis",
+  "names": [
+    "Metabolic alkalosis"
+  ],
+  "aliases": [
+    "contraction alkalosis",
+    "hypochloremic alkalosis"
+  ],
+  "patterns": [
+    "metabolic alkalosis",
+    "met alk",
+    "contraction alkalosis",
+    "hypochloremic alkalosis"
+  ],
+  "primary_tag": "renal",
+  "tags": [
+    "pathology",
+    "renal",
+    "gi",
+    "endocrine"
+  ],
+  "definition": "Elevated blood pH (>7.45) due to a primary increase in bicarbonate (HCO₃⁻).",
+  "why_it_matters": "Severe alkalosis can cause neuromuscular irritability (tetany, seizures) and cardiac arrhythmias. It's also fairly common (≈50% of hospitalized patients have alkalosis). Exams frequently probe the causes (e.g., vomiting vs. hyperaldosteronism) and proper management (distinguishing chloride-responsive vs resistant types).",
+  "how_youll_see_it": [
+    "Often subtle symptoms (e.g., weakness, dizziness, paresthesias); severe cases may have confusion, muscle cramps, or tetany from ↓Ca²⁺, and arrhythmias from electrolyte shifts. Clinical features usually stem from the underlying cause (e.g., vomiting, diuretic use).",
+    "Common causes: GI H⁺ loss from prolonged vomiting or NG suction (classic hypochloremic, saline-responsive alkalosis). Also renal losses from diuretics (contraction alkalosis). Excess mineralocorticoid (hyperaldosteronism, Cushing's, etc.) causes saline-resistant alkalosis with hypertension and hypokalemia. Other contributors: severe hypokalemia itself, excess alkali intake (antacids, milk-alkali syndrome), or recovery from hypercapnia.",
+    "Lab clues: ↑HCO₃⁻, alkaline urine (once excess HCO₃⁻ spills), often hypokalemia and hypochloremia. Arterial blood gas (ABG) shows high pH and high HCO₃⁻ with compensatory hypoventilation (↑PaCO₂ ~45–55 mmHg)."
+  ],
+  "problem_solving": [
+    "Confirm metabolic alkalosis on ABG: pH >7.45 with high HCO₃⁻ (and elevated PaCO₂ compensating). Calculate expected respiratory compensation: PaCO₂ ≈ 0.7*(HCO₃⁻ − 24) + 40 (±2) mmHg; if actual PaCO₂ is much lower or higher, suspect a mixed disorder.",
+    "Check urine chloride to classify: < 20 mEq/L indicates chloride-responsive alkalosis (body Cl⁻ depleted) – typically due to vomiting, NG suction, or remote diuretic use. > 20 mEq/L suggests chloride-resistant alkalosis (kidneys not chloride-conserving) – seen in active diuretic use or mineralocorticoid excess.",
+    "If urine Cl⁻ is low: patient likely volume depleted (orthostatic hypotension, dry mucous membranes). If urine Cl⁻ is high: assess volume/BP – hypertension points to hyperaldosteronism or Cushing's; normal or low BP may indicate current diuretic therapy or rare syndromes (Bartter, Gitelman).",
+    "Identify the cause and address it: review medication history (diuretics), intake (antacids), and endocrine evaluation (aldosterone/renin levels if indicated). Remember that vomiting causes H⁺/Cl⁻ loss and volume contraction (contraction alkalosis), whereas hyperaldosteronism causes renal H⁺ and K⁺ loss (via excess aldosterone effect)."
+  ],
+  "differentials": [
+    {
+      "id": "respiratory-alkalosis",
+      "hint": "Alkalosis from primary CO₂ loss (hyperventilation); characterized by low PaCO₂ and low (compensatory) HCO₃⁻, not high HCO₃⁻."
+    },
+    {
+      "name": "Chronic CO₂ retention (compensated respiratory acidosis)",
+      "hint": "e.g., in COPD: chronically high PaCO₂ causes elevated HCO₃⁻, but pH is normal/slightly low (not frankly alkalotic); context of longstanding hypercapnia."
+    }
+  ],
+  "tricks": [
+    "Urine Cl⁻ is the key diagnostic clue: <20 = vomiting/diuretics (saline-responsive); >20 = hyperaldosteronism or ongoing diuretics (saline-resistant).",
+    "Remember: Vomiting ⇒ alkalosis (losing acid); diarrhea ⇒ acidosis (losing base bicarbonate).",
+    "Metabolic alkalosis often comes with hypokalemia (H⁺ shifts into cells, plus RAAS activation causes K⁺ loss) – always check and replete K⁺."
+  ],
+  "exam_appearance": [
+    "Young woman with an eating disorder (bulimia) who has frequent vomiting, paresthesias, and lab showing ↑HCO₃⁻/↑pH/low Cl⁻ → metabolic alkalosis from vomiting (saline-responsive).",
+    "Patient on high-dose loop diuretics (e.g., for hypertension or heart failure) with weakness and contraction signs → metabolic alkalosis due to diuretic use (volume contraction alkalosis).",
+    "Hypertensive patient with muscle weakness, hypokalemia, and metabolic alkalosis → primary hyperaldosteronism (excess aldosterone causing H⁺/K⁺ loss)."
+  ],
+  "treatment": [
+    "For chloride-responsive alkalosis (e.g., vomiting, diuretics): give IV normal saline to correct volume/Cl⁻ depletion and KCl to restore potassium. This allows kidneys to excrete bicarbonate and fix the alkalosis. Treat the underlying cause (antiemetics for vomiting, adjust diuretics, etc.).",
+    "For chloride-resistant alkalosis (e.g., hyperaldosteronism): address the source of mineralocorticoid excess. Options include aldosterone antagonists (e.g., spironolactone) or surgical removal of an adrenal tumor. Correct hypokalemia with K⁺ supplementation. If due to excessive alkali intake (milk-alkali), stop the offending agent.",
+    "In severe or refractory cases (pH >7.55) not responding to above measures: consider acetazolamide (carbonic anhydrase inhibitor) to enhance HCO₃⁻ excretion. In life-threatening alkalosis (pH >7.60) or renal failure, IV acid (HCl) infusion or dialysis may be used."
+  ],
+  "red_flags": [
+    "Severe alkalemia (pH >7.60) can precipitate seizures and ventricular arrhythmias – requires urgent intervention (ICU care, possible IV acid or dialysis).",
+    "Metabolic alkalosis + hypertension + hypokalemia → suspect primary hyperaldosteronism (Conn syndrome) – a treatable endocrine cause often missed if focusing only on volume status."
+  ],
+  "algorithm": [
+    "Identify alkalosis: pH >7.45 on ABG → check HCO₃⁻. If HCO₃⁻ is high (with elevated PaCO₂), primary metabolic alkalosis is present.",
+    "Evaluate compensation: expected PaCO₂ ≈ 0.7*(HCO₃⁻ − 24) + 40 mmHg. If actual PaCO₂ deviates beyond ±2 mmHg, there is a mixed disorder.",
+    "Measure urine Cl⁻: if <20 mEq/L → chloride-responsive alkalosis (likely GI losses or past diuretic use); if >20 mEq/L → chloride-resistant alkalosis or current diuretic use.",
+    "If Cl-responsive (low urine Cl⁻): patient is volume contracted – treat with IV saline + KCl, and fix the cause (e.g., antiemetics for vomiting).",
+    "If Cl-resistant (high urine Cl⁻): check BP and edema. If hypertensive or hypervolemic → investigate hyperaldosteronism or Cushing's (endocrine causes). If normotensive → consider active diuretics or rare tubulopathies (Bartter/Gitelman). Manage accordingly (halt diuretics, treat endocrine cause)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Davenport_Fig_12.jpg",
+      "alt": "Davenport diagram illustrating acid-base balance; metabolic alkalosis resides in the high pH, high HCO₃⁻ quadrant.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Davenport_Fig_12.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 24‑year‑old woman with a history of bulimia nervosa presents with dizziness and muscle cramps.",
+      "clues": [
+        "Frequent self‑induced vomiting",
+        "Orthostatic hypotension on exam (low blood pressure)",
+        "ABG: pH 7.52, PaCO₂ 47 mmHg, HCO₃⁻ 38 mEq/L",
+        "Urine chloride 10 mEq/L",
+        "Serum K⁺ 2.7 mEq/L"
+      ],
+      "answer": "Metabolic alkalosis (saline-responsive, due to vomiting)",
+      "teaching": "Excessive vomiting causes loss of gastric acid (HCl) leading to a metabolic alkalosis (elevated HCO₃⁻). The patient's low urine Cl⁻ confirms a chloride-responsive alkalosis (from Cl⁻ depletion and volume contraction). Hypokalemia is also present due to both vomit losses and aldosterone-driven renal K⁺ wasting. Treatment would include IV saline and KCl, along with therapy for bulimia."
+    }
+  ],
+  "see_also": [
+    "metabolic-acidosis",
+    "chronic-kidney-disease"
+  ],
+  "prerequisites": [
+    "acid-base-physiology",
+    "renal-physiology",
+    "electrolytes"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Alkalosis (Sur & Hashmi, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK545269/"
+    },
+    {
+      "title": "UpToDate: Treatment of metabolic alkalosis (Adrogué & Madias, 2023)",
+      "url": "https://www.uptodate.com/contents/treatment-of-metabolic-alkalosis"
+    },
+    {
+      "title": "Emmett: Metabolic Alkalosis – Pathophysiology Review (CJASN, 2020)",
+      "url": "https://cjasn.asnjournals.org/content/15/12/1848"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

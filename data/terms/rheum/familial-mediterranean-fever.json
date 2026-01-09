@@ -1,0 +1,160 @@
+{
+  "id": "familial-mediterranean-fever",
+  "names": [
+    "Familial Mediterranean fever"
+  ],
+  "aliases": [
+    "periodic peritonitis",
+    "familial paroxysmal polyserositis",
+    "Wolff periodic disease",
+    "Reimann syndrome"
+  ],
+  "abbr": [
+    "FMF"
+  ],
+  "patterns": [
+    "familial mediterranean fever",
+    "fmf",
+    "periodic fever syndrome"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "genetics",
+    "immunology",
+    "rheum",
+    "peds"
+  ],
+  "definition": "Familial Mediterranean fever (FMF) is a hereditary autoinflammatory disorder (usually autosomal recessive) characterized by recurrent episodes of fever and serosal inflammation (peritonitis, pleuritis, arthritis).",
+  "why_it_matters": "FMF is the most common monogenic periodic fever syndrome in Mediterranean populations (Jews, Armenians, Turks, Arabs). Untreated FMF causes chronic inflammation and AA amyloidosis (leading to renal failure), so early diagnosis and prophylactic colchicine are crucial.",
+  "how_youll_see_it": [
+    "Recurrent short (1–3 day) fevers (38–40°C) with severe serosal pain: often peritonitis (abdominal pain) or pleuritic chest pain.",
+    "Monoarthritis (typically hip, knee, or ankle) in one joint per attack is common.",
+    "Occasional erysipelas-like rash on the legs or myalgia may occur with fever.",
+    "Completely asymptomatic between episodes; most patients have first attack in childhood or adolescence (by age 20 in ~90%).",
+    "Attacks often recur periodically (e.g. monthly); common triggers include stress or infection."
+  ],
+  "problem_solving": [
+    "Think FMF in a young patient of Mediterranean/Middle Eastern descent with unexplained periodic fevers + serositis (abdomen, chest, joint).",
+    "During attacks: markedly elevated inflammatory markers (ESR/CRP/SAA) and neutrophils. Imaging or laparoscopy usually shows no permanent pathology.",
+    "Apply Tel Hashomer criteria (typical attacks or colchicine response with family history) for clinical diagnosis.",
+    "MEFV genetic testing can confirm diagnosis in atypical cases (although ~10% of patients have no identifiable mutation).",
+    "A therapeutic trial of colchicine (1–2 mg daily) that prevents attacks strongly supports the diagnosis."
+  ],
+  "differentials": [
+    {
+      "name": "PFAPA syndrome",
+      "hint": "Regular periodic fevers with aphthous ulcers, pharyngitis, adenitis; longer cycle, responds to steroids (not colchicine)"
+    },
+    {
+      "name": "TRAPS (TNF-receptor syndrome)",
+      "hint": "Long febrile attacks (days–weeks), migratory myalgias and rash, periorbital edema; AD inheritance"
+    },
+    {
+      "name": "HIDS (Hyper-IgD syndrome)",
+      "hint": "High IgD levels; febrile episodes with lymphadenopathy, GI symptoms; onset in infancy"
+    },
+    {
+      "name": "Muckle-Wells syndrome (CAPS)",
+      "hint": "Chronic urticarial rash, hearing loss; triggered by cold, NLRP3 mutation"
+    },
+    {
+      "name": "sJIA (Still disease)",
+      "hint": "Daily fevers, salmon rash, arthritis; chronic course, RF/ANA usually negative"
+    },
+    {
+      "name": "Acute appendicitis",
+      "hint": "Constant RLQ pain with rebound, not relapsing; surgical abdomen picture"
+    },
+    {
+      "name": "Cellulitis",
+      "hint": "Localized erysipelas-like rash with fever, but usually unilateral and not recurrent; not responsive to colchicine"
+    },
+    {
+      "name": "Systemic lupus erythematosus",
+      "hint": "ANA-positive autoimmune disease with serositis; chronic rather than brief self-limited attacks"
+    }
+  ],
+  "tricks": [
+    "FMF mnemonic: Fever in Mediterranean families with Periodic serositis.",
+    "Tel-Hashomer criteria are useful: look for recurrent serositis + family history + colchicine response.",
+    "AA amyloid clue: If young patient has unexplained nephrotic syndrome, think chronic FMF.",
+    "Key exam hint: Teen of Jewish/Armenian descent with periodic abdominal pain and fever → think FMF."
+  ],
+  "exam_appearance": [
+    "Armenian or Middle Eastern adolescent with recurrent peritonitis/fever and no other explanation.",
+    "Periodic pleuritic chest pain or monoarthritis with fever (especially hip/knee) in a high-risk ethnicity.",
+    "Young patient with recurrent fever and erysipelas-like rash on the legs.",
+    "Early-onset renal amyloidosis (nephrotic syndrome) in a young adult suggests undiagnosed FMF."
+  ],
+  "treatment": [
+    "Lifelong colchicine (1–2 mg/day) is first-line; it prevents attacks and AA amyloid deposition.",
+    "If colchicine resistance or intolerance occurs, add an IL-1 inhibitor (anakinra or canakinumab).",
+    "Ensure patient compliance; monitor SAA/CRP and adjust dose (up to 2.5 mg/day) to achieve complete control.",
+    "Symptomatic NSAIDs or analgesics can relieve pain during attacks. (Immunosuppressants/steroids are not effective except in specific cases.)"
+  ],
+  "red_flags": [
+    "Proteinuria or renal failure – possible AA amyloidosis from untreated FMF.",
+    "Failure to respond to colchicine – check compliance and consider other diagnoses.",
+    "Repeated acute abdomen evaluations/negative surgeries – consider FMF to avoid unnecessary operations.",
+    "Testicular pain/infertility – may indicate amyloid deposition in testes (complication of FMF)."
+  ],
+  "algorithm": [
+    "Suspect FMF: recurrent fever + serositis in Mediterranean patient.",
+    "Order labs (ESR/CRP/SAA, CBC) – expect high inflammatory markers during attacks.",
+    "Rule out infection or surgical emergencies (imaging if peritonitis/pleuritis is severe).",
+    "Apply Tel-Hashomer criteria or do MEFV genetic test for confirmation.",
+    "If likely FMF, start colchicine immediately and monitor response.",
+    "If attacks or inflammation persist despite colchicine, add IL-1 blockade (anakinra/canakinumab)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Gloriosa_superba_L.(1391264465).jpg",
+      "alt": "Flame lily (Gloriosa superba), a source of colchicine",
+      "credit": {
+        "text": "Photo by Dinesh Valke (CC BY-SA 2.0)",
+        "href": "https://commons.wikimedia.org/wiki/File:Gloriosa_superba_L.(1391264465).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 15-year-old Armenian boy has recurrent episodes of high fever and severe abdominal pain lasting 2–3 days, roughly monthly, with complete resolution between episodes. Lab tests during attacks show elevated CRP and leukocytosis, but multiple exams (including a negative appendectomy) have been unrevealing. His maternal cousin has a similar history of periodic fevers.",
+      "clues": [
+        "Periodic high fevers with diffuse abdominal pain (self-limited)",
+        "Occasional joint pain (arthralgia) during episodes",
+        "Normal health between episodes; attacks ~monthly",
+        "Mediterranean (Armenian) ancestry and positive family history",
+        "Laboratory: elevated inflammatory markers (CRP) during attacks"
+      ],
+      "answer": "Familial Mediterranean fever",
+      "teaching": "FMF (autosomal recessive MEFV mutation) causes periodic fever with serositis (peritonitis, pleuritis, arthritis). First-line treatment is colchicine, which prevents attacks and renal amyloidosis."
+    }
+  ],
+  "see_also": ["gout", "systemic-lupus-erythematosus", "amyloidosis", "nephrotic-syndrome"],
+  "sources": [
+    {
+      "title": "StatPearls: Familial Mediterranean Fever (2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560754/"
+    },
+    {
+      "title": "UpToDate: Familial Mediterranean Fever",
+      "url": "https://www.uptodate.com/contents/familial-mediterranean-fever"
+    },
+    {
+      "title": "FMF – 2024 EULAR/PReS Management Recommendations",
+      "url": "https://ard.eular.org/article/S0003-4967(25)00084-6/fulltext"
+    },
+    {
+      "title": "Familial Mediterranean Fever - Medscape",
+      "url": "https://emedicine.medscape.com/article/330284-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

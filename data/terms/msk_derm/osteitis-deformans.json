@@ -1,0 +1,107 @@
+{
+  "id": "osteitis-deformans",
+  "names": ["Osteitis deformans"],
+  "aliases": ["Paget disease of bone", "Paget's disease of bone"],
+  "abbr": ["PDB"],
+  "patterns": ["osteitis deformans", "paget disease of bone", "paget's disease of bone"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "radiology", "msk_derm"],
+  "definition": "Chronic focal disorder of bone remodeling characterized by excessive bone resorption followed by chaotic bone formation, leading to a structurally disorganized mosaic of bone (woven bone) that is larger, weaker, and more vascular than normal.",
+  "why_it_matters": "Second most common metabolic bone disorder after osteoporosis (≈2% of older adults) and a favorite exam topic. Recognizing Paget disease via its classic clues (e.g., isolated high alkaline phosphatase with normal calcium, increasing hat size) is important to prevent complications like fractures, hearing loss, or rare osteosarcoma transformation.",
+  "how_youll_see_it": [
+    "Often **asymptomatic** (up to 90%) and found incidentally via elevated **alkaline phosphatase** on labs or on imaging done for another reason.",
+    "Symptomatic cases: **bone pain** (aching deep pain), bony enlargement (e.g., hat no longer fits), and sometimes warmth over the area (due to hypervascularity). Bones can become deformed (bowed limbs) and prone to **fractures**.",
+    "Common sites: **pelvis**, **spine**, **skull**, and long bones (femur, tibia). Skull involvement may cause **hearing loss** (cranial nerve compression), and spine or pelvic involvement can lead to nerve compression (radiculopathy) or osteoarthritis in adjacent joints."
+  ],
+  "problem_solving": [
+    "Suspect Paget disease in patients >50 with unexplained high **alkaline phosphatase** or characteristic bone changes (enlarged, sclerotic bone).",
+    "Confirm with X-rays of affected bones: look for mixed lytic and sclerotic lesions, cortical thickening, bone expansion, and deformity.",
+    "Once confirmed, get a **bone scan** (technetium-99m) to map all involved sites in the skeleton.",
+    "Check labs: Paget disease classically has very high **ALP** (bone turnover marker) with normal calcium and phosphate; rule out other causes of high ALP (like liver disease) and ensure vitamin D is sufficient before treatment.",
+    "Treat if symptomatic or high-risk lesions (skull, spine, weight-bearing bones). Asymptomatic patients with mild disease can be monitored with periodic ALP, but active disease warrants bisphosphonates to prevent complications."
+  ],
+  "differentials": [
+    { "name": "Metastatic bone disease", "hint": "bone pain and lytic/blastic lesions, but usually multifocal with known primary cancer; lacks the uniform cortical thickening of Paget's" },
+    { "name": "Fibrous dysplasia", "hint": "occurs in younger patients; \"ground-glass\" bone appearance on X-ray without bone expansion" },
+    { "name": "Osteomalacia", "hint": "diffuse bone pain from vitamin D deficiency (renal osteodystrophy); high ALP but with looser zones (pseudofractures) on X-ray and low calcium" }
+  ],
+  "tricks": [
+    "Think **hat size & hearing**: an older patient whose hats no longer fit and who has hearing loss → classic for Paget disease (skull involvement).",
+    "**Isolated ↑ALP** in an elderly patient with normal calcium is Paget disease until proven otherwise."
+  ],
+  "exam_appearance": [
+    "An older man with increasing hat size, hearing impairment, and bone pain; skull X-ray reveals patchy areas of sclerosis (\"cotton wool\" skull) → Paget disease of bone.",
+    "An asymptomatic 75‑year‑old with an incidental finding of very high alkaline phosphatase (normal Ca/PO4); bone scan shows focal uptake in pelvis and femur → Paget disease (monostotic or polyostotic)."
+  ],
+  "treatment": [
+    "High-dose **bisphosphonates** are first-line (e.g., IV zoledronic acid induces long remissions; oral alendronate or risedronate can also be used).",
+    "Indications to treat: bone pain, or high-risk sites (skull, spine, weight-bearing bones) even if asymptomatic (to prevent fractures or nerve compression). Asymptomatic low-risk patients can be observed.",
+    "Second-line: **Calcitonin** (if bisphosphonates not tolerated). Supportive care with analgesics (NSAIDs) for pain, and orthopedic surgery for fractures or severe deformities if needed."
+  ],
+  "red_flags": [
+    "New, intense pain at a known Paget site or a soft-tissue mass arising from bone → suspect **osteosarcoma** transformation (rare <1% but often fatal).",
+    "Extensive polyostotic disease can create arteriovenous shunts in bone, leading to **high-output cardiac failure**. Involvement of the skull base or spine can cause dangerous neural compression (e.g., basilar invagination, cauda equina)."
+  ],
+  "algorithm": [
+    "Age >50 with isolated ALP elevation or suggestive bone lesion → **consider Paget disease**.",
+    "Obtain X-ray of the suspected area: if X-ray shows lytic + sclerotic bone changes (mosaic, enlarged bone), that confirms Paget disease.",
+    "Perform a **bone scan** to determine the full extent of disease (identify all involved bones).",
+    "Lab evaluation: check **alkaline phosphatase** (usually very high in active Paget), calcium and phosphate (typically normal), and vitamin D (replete if low).",
+    "**Treat** active disease with bisphosphonates (e.g., IV zoledronate); if no indications for treatment (mild, asymptomatic), monitor periodically with clinical exams and ALP levels."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Paget%27s_disease_of_Right_Hip_Bone.jpg",
+      "alt": "X-ray of the pelvis showing a thickened and deformed right innominate bone consistent with Paget disease (mixed lytic-sclerotic changes).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Paget%27s_disease_of_Right_Hip_Bone.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old man reports progressive hearing loss and headaches. He also noticed that his hat no longer fits over the past year.",
+      "clues": [
+        "Markedly elevated alkaline phosphatase, normal calcium",
+        "Skull X-ray: thickened calvarium with mixed lytic and sclerotic areas",
+        "Hearing impairment (cranial nerve VIII compression)",
+        "Increased hat size"
+      ],
+      "answer": "Paget disease of bone (osteitis deformans)",
+      "teaching": "Paget disease (osteitis deformans) causes focal bone remodeling. In this older man, skull involvement led to an enlarged skull (hat tightening) and compressive hearing loss. The very high alkaline phosphatase with normal calcium is characteristic. X-ray showing a cotton-wool appearance of the skull confirms the diagnosis. Treatment is with bisphosphonates to reduce bone turnover."
+    }
+  ],
+  "see_also": ["osteoporosis", "osteopetrosis", "achondroplasia"],
+  "prerequisites": ["bone-physiology", "osteoclast", "osteoblast"],
+  "sources": [
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of Paget disease of bone",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-paget-disease-of-bone"
+    },
+    {
+      "title": "Medscape: Paget Disease of Bone (Alikhan, updated 2024)",
+      "url": "https://emedicine.medscape.com/article/334607-overview"
+    },
+    {
+      "title": "StatPearls: Paget Bone Disease (Bouchette & Boktor, updated 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430805/"
+    },
+    {
+      "title": "RACGP: Paget disease of bone – an update (Britton & Walsh, 2012)",
+      "url": "https://www.racgp.org.au/afp/2012/march/paget-disease-of-bone"
+    },
+    {
+      "title": "Radiopaedia: Paget disease (bone) – radiology reference article",
+      "url": "https://radiopaedia.org/articles/paget-disease-bone"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

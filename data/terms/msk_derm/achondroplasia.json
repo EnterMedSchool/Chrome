@@ -1,0 +1,111 @@
+{
+  "id": "achondroplasia",
+  "names": ["Achondroplasia"],
+  "aliases": ["achondroplastic dwarfism"],
+  "abbr": ["ACH"],
+  "patterns": ["achondroplasia", "achondroplastic dwarfism", "achondroplastic dwarf"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "genetics", "msk_derm", "peds"],
+  "definition": "Most common skeletal dysplasia (genetic dwarfism) caused by an **FGFR3** gene mutation (gain-of-function) that inhibits endochondral bone growth, leading to disproportionate short stature (short limbs, near-normal torso).",
+  "why_it_matters": "Prototypical dwarfism: relatively common (~1 in 20–30k births) and frequently tested. Early recognition is crucial to manage life-threatening complications (e.g., brainstem compression in infancy) and to counsel families on genetics.",
+  "how_youll_see_it": [
+    "Prenatal: **ultrasound** in mid-pregnancy often shows shortened long bones (especially femur). **Newborns** have obvious disproportionate short stature (rhizomelic limb shortening with normal trunk length), **macrocephaly** with frontal bossing, midface hypoplasia, and sometimes a **trident hand** (gap between third and fourth fingers).",
+    "Infancy/Childhood: **Hypotonia** in infancy leads to delayed motor milestones, but cognitive development is normal. As children grow, they develop exaggerated **lumbar lordosis** and **genu varum** (bowed legs). Recurrent **otitis media** is common (eustachian tube dysfunction from skull base abnormalities). Head growth must be monitored (risk of hydrocephalus).",
+    "Adulthood: Short stature (~4 feet average) with near-normal life span. **Spinal stenosis** (narrow spinal canal) is a frequent source of chronic back & leg pain and neurologic symptoms in adulthood. Obesity is prevalent. Intelligence is normal."
+  ],
+  "problem_solving": [
+    "If prenatal ultrasound suggests a skeletal dysplasia (short limbs), consider **FGFR3 genetic testing** (via amniocentesis or CVS) to confirm achondroplasia and distinguish from lethal forms (e.g., thanatophoric dysplasia).",
+    "At birth, perform a thorough **neonatal exam**. Look for the hallmark features of achondroplasia and obtain baseline neuroimaging (CT/MRI) of the brain and craniocervical junction to check for **foramen magnum stenosis** or hydrocephalus.",
+    "Anticipate and address complications: foramen magnum **decompression** surgery if there are signs of brainstem compression; ventriculoperitoneal **shunt** if hydrocephalus develops; prompt treatment of ear infections with tympanostomy tubes to prevent hearing loss; adenotonsillectomy or CPAP for obstructive sleep apnea.",
+    "Provide genetic counseling and support: Explain that achondroplasia is **autosomal dominant** with ~80% due to a new mutation (often associated with advanced paternal age). If one parent is affected, each child has a 50% chance; if both parents have achondroplasia, there is a 25% chance of a **lethal homozygous** form. Emphasize early intervention and monitoring rather than expecting normal growth (standard growth hormone therapy is ineffective)."
+  ],
+  "differentials": [
+    { "name": "Hypochondroplasia", "hint": "Milder FGFR3 mutation; short stature less pronounced (often noticed later in childhood)." },
+    { "name": "Pseudoachondroplasia", "hint": "Autosomal dominant COMP gene mutation; similar limb dwarfism but **normal face** (no frontal bossing) and later onset (infants appear normal length at birth)." },
+    { "name": "Thanatophoric dysplasia", "hint": "Most common **lethal** skeletal dysplasia (severe FGFR3 mutation); extreme limb shortening, narrow thorax → respiratory failure in neonatal period." }
+  ],
+  "tricks": [
+    "High-yield association: **Advanced paternal age** — older fathers have higher odds of new FGFR3 mutations causing achondroplasia.",
+    "Remember the mechanism: FGFR3 mutation is a **gain-of-function** that keeps the growth-limiting signal stuck in the 'on' position (FGFR3 acts like a constantly active brake on bone growth)."
+  ],
+  "exam_appearance": [
+    "Newborn with disproportionate short limbs, a large head with frontal bossing and midface hypoplasia (often noted in a baby of an older father) → **Achondroplasia** (FGFR3 mutation).",
+    "Achondroplastic adult (~4 ft tall) with new-onset leg numbness and urinary incontinence → suspect **spinal cord compression** from lumbar spinal stenosis (common complication)."
+  ],
+  "treatment": [
+    "No cure for short stature in achondroplasia. (Standard **growth hormone** therapy has minimal effect.) A new drug, **vosoritide** (C-type natriuretic peptide analog), can modestly increase growth velocity in children with open growth plates.",
+    "Focus on supportive care and complication management: weight control and physical therapy to improve mobility; neurosurgical interventions (foramen magnum decompression, spinal stenosis surgery, shunt placement) when needed; ENT interventions (ear tubes for chronic otitis media, adenotonsillectomy for sleep apnea) to improve quality of life.",
+    "Provide psychosocial support and accommodations: ensure appropriate developmental support, use adaptive devices and home modifications for short stature, and offer family counseling (emphasize normal intelligence and a full life expectancy with proper care)."
+  ],
+  "red_flags": [
+    "Episodes of **apnea**, significant hypotonia, or neck pain in an achondroplastic infant → red flag for craniocervical junction compression (foramen magnum stenosis) requiring urgent neurosurgical evaluation.",
+    "Rapidly enlarging head circumference or bulging fontanelle in infancy → concerning for developing **hydrocephalus** (brain imaging and neurosurgical consult for possible shunt).",
+    "Sudden onset of leg weakness, gait change, or bladder/bowel dysfunction in an older child or adult → evaluate immediately for **spinal cord compression** due to severe spinal stenosis."
+  ],
+  "algorithm": [
+    "Short femur length on prenatal ultrasound → suspect skeletal dysplasia; offer FGFR3 genetic testing (prenatal or postnatal) to confirm **achondroplasia** vs other forms.",
+    "Newborn with disproportionate short stature → perform diagnostic evaluation (clinical exam ± genetic test) to confirm achondroplasia; begin monitoring head size and neurologic status.",
+    "Infancy: baseline neuroimaging (head and neck) to assess foramen magnum size and ventricles; schedule regular exams for developmental milestones, breathing (signs of apnea), and hearing (due to frequent otitis).",
+    "Childhood: use achondroplasia-specific growth charts for height/head; at each visit, check for developing kyphosis or leg bowing, and perform neuro exams (watch for any cord compression signs).",
+    "Lifelong management: coordinate care with specialists (neurosurgery, orthopedics, ENT, etc.); intervene early when complications arise (decompression, shunting, etc.) to prevent permanent sequelae."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Achondroplasia_5.jpg",
+      "alt": "Profile of an infant with achondroplasia (note the disproportionately large head with frontal bossing and midface hypoplasia).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Achondroplasia_5.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A male infant is born to average-stature parents (father is 50 years old). At birth, the baby has noticeable limb shortening and hypotonia.",
+      "clues": [
+        "Rhizomelic (proximal) arm and leg shortening",
+        "Macrocephaly with frontal bossing",
+        "Midface hypoplasia (depressed nasal bridge)",
+        "Short, broad fingers with trident configuration",
+        "Father of advanced paternal age"
+      ],
+      "answer": "Achondroplasia",
+      "teaching": "This classic presentation (disproportionate short limbs, large forehead) is due to an FGFR3 gain-of-function mutation. Achondroplasia is autosomal dominant, often a new mutation associated with older fathers. Key management is recognizing potential complications early (e.g., brainstem compression, hydrocephalus) and providing supportive care."
+    }
+  ],
+  "see_also": [
+    "osteogenesis-imperfecta",
+    "osteopetrosis",
+    "scoliosis"
+  ],
+  "prerequisites": [
+    "endochondral-ossification",
+    "autosomal-dominant-inheritance"
+  ],
+  "sources": [
+    {
+      "title": "GeneReviews: Achondroplasia (Legare, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1152/"
+    },
+    {
+      "title": "StatPearls: Achondroplasia (McDonald & De Jesus, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559263/"
+    },
+    {
+      "title": "UpToDate: Achondroplasia",
+      "url": "https://www.uptodate.com/contents/achondroplasia"
+    },
+    {
+      "title": "NORD: Achondroplasia (2023)",
+      "url": "https://rarediseases.org/rare-diseases/achondroplasia/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "id": "heart-failure",
+  "names": ["Heart failure"],
+  "aliases": ["congestive heart failure", "congestive cardiac failure", "cardiac failure"],
+  "abbr": ["HF", "CHF"],
+  "patterns": [
+    "heart failure",
+    "hf",
+    "chf",
+    "congestive heart failure",
+    "cardiac failure",
+    "congestive cardiac failure"
+  ],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "pharmacology", "emerg"],
+  "definition": "Clinical syndrome of the heart's inability to pump sufficient blood (or only able to do so at elevated filling pressures) due to structural or functional cardiac impairment. Leads to inadequate perfusion and **congestion** (fluid backup). Classified as **HFrEF** (heart failure with reduced ejection fraction, EF ≤40%) or **HFpEF** (preserved EF ≥50%).",
+  "why_it_matters": "Extremely common (tens of millions worldwide) and a leading cause of hospitalization and readmission in older adults. Despite modern therapies, **mortality** remains high (~50% five-year mortality). Early diagnosis and **guideline-directed therapy** can significantly improve symptoms and survival. Heart failure is frequently tested because it integrates cardiovascular, renal, and pulmonary concepts in management.",
+  "how_youll_see_it": [
+    "Exertional **dyspnea** and **fatigue** are typical early symptoms. As HF progresses, patients develop **orthopnea** (difficulty breathing when flat, needs multiple pillows) and **paroxysmal nocturnal dyspnea** (waking up gasping from sleep). Fluid retention leads to **peripheral edema** (ankle swelling), weight gain, and often visible **jugular venous distension** (JVD).",
+    "Left-sided HF causes pulmonary congestion (**crackles** at lung bases, orthopnea, PND) while right-sided HF causes systemic congestion (JVD, hepatomegaly, ascites, leg edema). An **S3** gallop often signifies HFrEF (volume overload in a dilated ventricle), whereas an **S4** gallop suggests HFpEF (stiff hypertrophic ventricle).",
+    "Acute decompensated HF can present as **flash pulmonary edema**: sudden onset of severe dyspnea, tachycardia, **pink frothy sputum**, and diffuse crackles requiring emergency care. Common triggers include myocardial **ischemia** (e.g., MI), arrhythmias (atrial fibrillation), uncontrolled hypertension, or dietary/medication non-adherence."
+  ],
+  "problem_solving": [
+    "Evaluate for HF in patients with risk factors (CAD, hypertension, diabetes) who present with dyspnea or edema. Check a chest X-ray (may show cardiomegaly, pulmonary edema) and measure **BNP**/NT-proBNP to help distinguish HF from non-cardiac causes of dyspnea (high BNP favors HF, low BNP argues against it).",
+    "Confirm the diagnosis and subtype with a transthoracic **echocardiogram** for all new HF patients: determine LVEF (to distinguish HFrEF vs HFpEF) and assess structural issues (wall motion changes from prior MI, valve function, chamber sizes).",
+    "Classify severity: assign **NYHA class I–IV** based on symptoms (I = no limitation; IV = symptoms at rest) and ACC/AHA **Stages A–D** based on progression (A = at risk, no disease; B = structural heart disease, no symptoms; C = symptomatic HF; D = end-stage, refractory HF).",
+    "Identify and address underlying causes or triggers: e.g., if ischemia is suspected, evaluate for CAD (stress test or angiography); control **blood pressure** (often critical in HFpEF); manage tachyarrhythmias (rate/rhythm control in AFib); discontinue offending drugs (NSAIDs, etc.); check thyroid function and treat anemia if present.",
+    "In acute decompensation, search for and treat precipitants (e.g., MI, infection, arrhythmia). Stabilize the patient with oxygen/ventilatory support as needed and **IV loop diuretics** to relieve pulmonary edema. Once stabilized, transition to optimizing chronic oral therapy."
+  ],
+  "differentials": [
+    {
+      "name": "COPD exacerbation",
+      "hint": "Smoker with wheezing and prolonged expiration; no orthopnea/PND and BNP is normal."
+    },
+    {
+      "name": "Pneumonia",
+      "hint": "Infectious symptoms (fever, cough, sputum) with unilateral crackles or lobar infiltrate on CXR (versus diffuse edema in HF)."
+    },
+    {
+      "name": "Cirrhosis (ascites)",
+      "hint": "Fluid retention from liver disease: **ascites** and edema but clear lungs; look for cirrhosis stigmata (jaundice, etc.) and normal cardiac exam."
+    }
+  ],
+  "tricks": [
+    "Acute pulmonary edema mnemonic **LMNOP**: Lasix (furosemide), Morphine (rarely used now), Nitrates, Oxygen, Position (sit upright).",
+    "Heart sound clues: an **S3** (\"ventricular gallop\") usually means systolic dysfunction (HFrEF), whereas an **S4** (\"atrial gallop\") points to diastolic dysfunction (HFpEF).",
+    "**BNP** is your friend: high BNP levels strongly point toward HF as the cause of dyspnea, while a normal BNP essentially rules out HF."
+  ],
+  "exam_appearance": [
+    "Middle-aged man 6 months post-MI with EF ~30% now has exertional dyspnea, orthopnea (uses 3 pillows), bilateral crackles, an S3, and leg edema → **HFrEF** (systolic HF from ischemic cardiomyopathy).",
+    "Elderly hypertensive diabetic with preserved EF (60%) on echo but LV hypertrophy, an S4 heart sound, and episodes of pulmonary edema → **HFpEF** (diastolic HF due to a stiff LV from long-standing HTN).",
+    "Sudden extreme dyspnea at night with pink, frothy sputum, diffuse crackles, and severe hypertension → acute **flash pulmonary edema** (acute decompensated HF, often from HTN emergency or MI; needs urgent diuresis and support)."
+  ],
+  "treatment": [
+    "Start with lifestyle: **low-sodium diet**, fluid restriction if advanced, daily weight monitoring, and exercise (cardiac rehab) to improve fitness. Avoid medications that exacerbate HF (NSAIDs, certain CCBs like verapamil in HFrEF) and educate on medication adherence.",
+    "**HFrEF (EF ≤40%)** – foundational therapy improves survival: begin an **ACE inhibitor** (or ARNI such as sacubitril-valsartan) and a **beta blocker** (metoprolol succinate, carvedilol, or bisoprolol) once the patient is stable (not in acute fluid overload). Titrate these to target doses if possible.",
+    "Add **mineralocorticoid receptor antagonists** (spironolactone/eplerenone) and **SGLT2 inhibitors** (dapagliflozin, empagliflozin) for further mortality reduction in HFrEF, unless contraindicated. These, together with ACEi/ARNI and beta-blocker, are the GDMT \"big four\" for systolic HF.",
+    "Use **loop diuretics** (furosemide, bumetanide) as needed for symptom relief of congestion (they improve edema and breathing but don't reduce mortality). Monitor renal function and electrolytes closely with diuretic use. Other adjuncts for persistent symptoms: **hydralazine + isosorbide dinitrate** (especially in African American patients or those intolerant to ACEi/ARB) can improve outcomes; **digoxin** can reduce hospitalizations in HFrEF (no survival benefit).",
+    "**Device therapy**: If EF remains ≤35% on optimal meds, consider an **ICD** for primary prevention of sudden cardiac death. If there is a wide QRS (e.g., left bundle branch block) with EF ≤35%, add **cardiac resynchronization therapy** (biventricular pacing) to improve symptoms and reduce mortality. Devices are typically placed after 3+ months of optimized medical therapy.",
+    "For refractory end-stage HF (Stage D), options include continuous IV inotropes for symptom relief or bridging, and evaluation for **advanced therapies** like a ventricular assist device (**LVAD**) or heart **transplant**. Involve a specialized HF team early for advanced HF management and consider palliative care for symptom control and goal setting.",
+    "**HFpEF (EF ≥50%)** – focus on managing comorbidities: strict blood pressure control (often requires ACEi/ARB, beta blockers, etc.), aggressive management of atrial fibrillation and ischemia, and use diuretics to treat edema. **SGLT2 inhibitors** have shown benefit in HFpEF (reducing hospitalizations) and are recommended. No other therapies have proven to reduce mortality in HFpEF, so treatment is centered on symptom relief and treating the underlying risk factors (HTN, obesity, diabetes, etc.)."
+  ],
+  "red_flags": [
+    "Rapidly worsening dyspnea at rest with **pink frothy sputum**, crackles, and hypoxia = acute pulmonary edema. This is an emergency requiring immediate treatment (oxygen, IV diuretics, possible ventilatory support) to prevent respiratory failure.",
+    "Signs of **cardiogenic shock** in a HF patient (hypotension, cool/clammy skin, altered mental status, low urine output) indicate severely reduced cardiac output → requires ICU management with prompt inotropes/vasopressors and consideration of mechanical support (e.g., intra-aortic balloon pump or LVAD)."
+  ],
+  "algorithm": [
+    "Suspect HF in patients with compatible risk factors or history (previous MI, long-standing HTN, etc.) who present with dyspnea, fatigue, or fluid retention.",
+    "Confirm HF if exam and initial tests suggest it: obtain an **echocardiogram** to assess EF and cardiac structure; check BNP; perform EKG and chest X-ray to aid diagnosis and identify precipitants (ischemia, arrhythmia, etc.).",
+    "If **acute HF** (decompensation) is present: stabilize the patient first (oxygen, IV diuretics, treat precipitating causes like MI or arrhythmia) before initiating long-term therapies.",
+    "Begin **guideline-directed medical therapy** for chronic HF (especially HFrEF): start ACEi/ARNI, beta blocker, add MRA and SGLT2i as indicated, and use diuretics for symptom control. Educate the patient on diet (salt restriction), fluid management, and daily weights.",
+    "Reassess frequently to uptitrate medications to target doses. If EF ≤35% persists on optimal therapy, implement device therapy (ICD, and CRT if indicated). Refer advanced HF (Stage D) patients to specialized centers for transplant or LVAD evaluation."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Pulmonary_oedema.jpg",
+      "alt": "Chest X-ray showing acute pulmonary edema (diffuse bilateral opacities and Kerley B lines indicating interstitial edema).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Pulmonary_oedema.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 65‑year‑old man with a history of a large anterior myocardial infarction one year ago reports progressively worsening shortness of breath.",
+      "clues": [
+        "Needs 3 pillows to sleep (orthopnea)",
+        "Bilateral pitting ankle edema",
+        "Bibasilar crackles on lung exam",
+        "Echocardiogram: LVEF 30%, dilated left ventricle"
+      ],
+      "answer": "Heart failure with reduced ejection fraction (ischemic cardiomyopathy)",
+      "teaching": "An old MI led to left ventricular scarring and systolic dysfunction, manifesting as HFrEF. The combination of orthopnea, crackles, edema, and a low EF is classic for congestive HF due to ischemic cardiomyopathy. Management would include guideline-directed therapy (ACE inhibitor or ARNI, beta blocker, aldosterone antagonist, SGLT2 inhibitor) to improve symptoms and survival."
+    }
+  ],
+  "see_also": [
+    "myocardial-infarction",
+    "dilated-cardiomyopathy",
+    "atrial-fibrillation",
+    "coronary-artery-disease",
+    "congestive-heart-failure",
+    "aortic-stenosis"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "heart-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Heart Failure (Shams et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430873/"
+    },
+    {
+      "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+      "url": "https://professional.heart.org/en/science-news/2022-guideline-for-the-management-of-heart-failure"
+    },
+    {
+      "title": "UpToDate: Overview of the management of heart failure with reduced ejection fraction in adults",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-heart-failure-with-reduced-ejection-fraction-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

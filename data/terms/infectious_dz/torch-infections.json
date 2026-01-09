@@ -1,0 +1,138 @@
+{
+  "id": "torch-infections",
+  "names": [
+    "TORCH infections"
+  ],
+  "aliases": [
+    "TORCH syndrome",
+    "TORCH complex"
+  ],
+  "abbr": [
+    "TORCH"
+  ],
+  "patterns": [
+    "torch",
+    "torch infections",
+    "torch syndrome",
+    "torch complex"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "obgyn",
+    "infectious_dz",
+    "peds",
+    "microbiology"
+  ],
+  "definition": "A group of **congenital infections** in pregnancy that are often benign or mild in the mother but **cause serious fetal harm**. The TORCH acronym stands for **Toxoplasmosis, \"Other\" (various infections like syphilis, varicella, parvovirus), Rubella, CMV, HSV**.",
+  "why_it_matters": "TORCH infections can lead to **miscarriages, stillbirths, or severe birth defects** if acquired in utero. For example, maternal rubella in early pregnancy carries ~85% risk of congenital rubella syndrome (deafness, cataracts, heart defects). **CMV is the most common infectious cause of birth defects** and congenital hearing loss, while congenital syphilis remains a leading preventable cause of stillbirth. Early identification and prevention (e.g. vaccination, prenatal screening) are critical to reduce fetal morbidity.",
+  "how_youll_see_it": [
+    "**Mothers** often have **no or mild symptoms** (e.g. low-grade fever, rash, lymphadenopathy) and may not realize they're infected. **Fetuses/Newborns** commonly show growth restriction, hepatosplenomegaly, jaundice, and purpura (a 'blueberry muffin' rash from extramedullary hematopoiesis).",
+    "Each infection has unique clues: **Toxoplasmosis** – classically causes a triad of **chorioretinitis, hydrocephalus, and diffuse intracranial calcifications**. **Syphilis** – often presents with **snuffles** (bloody nasal discharge), rash on palms/soles, skeletal abnormalities, and later deafness, Hutchinson teeth, saddle nose. **Varicella-Zoster** – early pregnancy infection can lead to **limb hypoplasia, skin scarring, and eye damage** (congenital varicella syndrome). **Parvovirus B19** – causes **fetal anemia** and hydrops (no structural defects).",
+    "**Rubella** – leads to the classic triad of **sensorineural deafness, cataracts, and cardiac defects** (e.g. PDA) along with 'blueberry muffin' purpuric rash. **Cytomegalovirus (CMV)** – the most common, often causes **sensorineural hearing loss**, periventricular calcifications, **microcephaly**, chorioretinitis, petechiae, and blueberry muffin rash. **Herpes Simplex Virus (HSV)** – usually transmitted at birth (active genital lesions); newborn may develop **vesicular lesions, encephalitis, or disseminated infection** in the first weeks of life."
+  ],
+  "problem_solving": [
+    "Maintain a high index of suspicion if a pregnant patient has a **compatible exposure or illness** (e.g. cat litter for toxo, unvaccinated with rash contact for rubella, new STI for syphilis) or if ultrasound detects **hydrops, calcifications, or IUGR**.",
+    "If a TORCH infection is suspected, perform **maternal serologies (IgM/IgG)** specific to the pathogen. Maternal IgM seroconversion indicates a recent infection; confirm with additional tests (e.g. treponemal test for syphilis, avidity testing for toxo).",
+    "Consider **amniocentesis with PCR** to confirm fetal infection (e.g. PCR of amniotic fluid at ~18 weeks for Toxoplasma or CMV), especially if maternal infection occurred in early pregnancy.",
+    "Offer targeted **ultrasound** and fetal monitoring when maternal infection is known – look for structural anomalies (brain calcifications, hydrops, cardiac defects). In some cases (e.g. fetal anemia from parvovirus), intrauterine interventions like transfusion may be indicated.",
+    "At delivery, evaluate the neonate with **PCR or serologic tests** (e.g. infant urine or saliva PCR for CMV within 2–3 weeks, RPR/VDRL for syphilis, viral culture/PCR for HSV) and start empirical treatment if signs are present (e.g. IV acyclovir for suspected neonatal HSV, penicillin for syphilis)."
+  ],
+  "differentials": [
+    {
+      "name": "Zika virus infection",
+      "hint": "Emerging congenital infection causing severe **microcephaly** and calcifications (not part of classic TORCH)"
+    },
+    {
+      "name": "Non-infectious causes",
+      "hint": "**Genetic syndromes or teratogens** (e.g. chromosomal disorders, fetal alcohol syndrome) can also cause IUGR, anomalies, or calcifications"
+    }
+  ],
+  "tricks": [
+    "Remember **TORCH**: **Toxo**, **Other** (Syphilis, VZV, Parvo, etc.), **Rubella**, **CMV**, **HSV**. Always consider \"Other\" to include **syphilis** (most common) and others like varicella, parvovirus B19, Zika, HIV.",
+    "A **'blueberry muffin' rash** (purple papular spots in a neonate) suggests **dermal extramedullary hematopoiesis** – classically seen in congenital **rubella** or **CMV**, but can occur in other TORCH infections.",
+    "**Congenital infections are the #1 cause of sensorineural hearing loss** in children – especially CMV and rubella. Always test hearing in infants with TORCH infections."
+  ],
+  "exam_appearance": [
+    "Unvaccinated mother with a mild rash and postauricular lymphadenopathy in early pregnancy → infant with **deafness, cataracts, PDA murmur, and 'blueberry muffin' rash** = **Congenital Rubella Syndrome**.",
+    "Infant with **chorioretinitis, hydrocephalus, and diffuse intracranial calcifications** (± macrocephaly and seizures) → **Congenital Toxoplasmosis** (classic triad).",
+    "Newborn with **petechiae (blueberry muffin lesions)**, **periventricular** calcifications on neuroimaging, and **sensorineural hearing loss** → **Congenital CMV infection**.",
+    "Snuffles (copious nasal discharge) and a **desquamating rash on palms and soles** in a neonate → **Congenital Syphilis** (early finding, even before late stigmata like saddle nose or Hutchinson teeth)."
+  ],
+  "treatment": [
+    "Prevention is paramount: ensure maternal **rubella immunity** (MMR vaccine before pregnancy) and routine **prenatal screening** for infections (e.g. syphilis RPR, HIV, HBV) with prompt treatment if positive. Avoid known exposures (e.g. cats/undercooked meat for toxo, sick kids for CMV).",
+    "**Toxoplasmosis** – If acute infection in pregnancy, start **spiramycin** ASAP (especially in first 18 weeks) to reduce fetal transmission. If fetal infection is confirmed or infection occurs >18 weeks, switch to **pyrimethamine + sulfadiazine + leucovorin** (after 1st trimester). Treat congenitally infected newborns with the same combo for 12 months.",
+    "**Syphilis** – Treat the mother (and her partner) immediately with **IM penicillin G**, which prevents >90% of congenital syphilis cases. Infants with confirmed or probable congenital syphilis also receive penicillin (10 days IV). Adequate maternal therapy greatly reduces fetal harm.",
+    "**CMV** – No vaccine or proven antenatal treatment exists. For symptomatic congenital CMV, start **valganciclovir** by 1 month of age and continue for 6 months, which can improve hearing and developmental outcomes.",
+    "**HSV** – Mothers with genital HSV should receive **acyclovir suppression** from 36 weeks and deliver via **C-section if active lesions** to prevent neonatal herpes. Infants with neonatal HSV infection require aggressive treatment with high-dose **IV acyclovir** (14–21 days) to reduce mortality.",
+    "**Others** – **Varicella-Zoster**: if a pregnant mother is exposed and non-immune, give varicella **immune globulin**; neonatal varicella is treated with **acyclovir**. **Parvovirus B19**: no specific antiviral – manage fetal hydrops (e.g. intrauterine transfusions) and support the neonate as needed."
+  ],
+  "red_flags": [
+    "Pregnant patient with a **febrile rash or mononucleosis-like illness** (especially if not immune/vaccinated) → prompt TORCH evaluation. Early pregnancy infections (first trimester) carry the highest teratogenic risk.",
+    "**Ultrasound clues** like **hydrops fetalis** (fluid in fetal compartments), **intracranial calcifications**, or unexplained **IUGR** should prompt work-up for congenital infection. Do not attribute such findings solely to genetic causes without ruling out TORCH."
+  ],
+  "algorithm": [
+    "📋 **Pre-pregnancy:** Screen & vaccinate. Ensure women of childbearing age are **immune to rubella** (vaccinate ≥1 month pre-conception). Counsel on avoiding infections (e.g. hand hygiene to prevent CMV from toddlers, avoid cat litter for toxo).",
+    "📋 **Initial prenatal visit:** Perform routine **TORCH screening where indicated** – e.g. serologic tests for syphilis, HIV, hepatitis B, and check rubella immunity. (Note: Universal toxo or CMV screening isn't done in many regions unless risk factors are present.)",
+    "📋 **If maternal infection suspected:** Do targeted **IgM/IgG testing** for the suspected pathogen. For viruses like CMV or Zika, consider **PCR** on maternal blood or amniotic fluid. Offer high-resolution **ultrasound** to check for fetal anomalies related to infection.",
+    "📋 **Confirm diagnosis:** Options include **amniocentesis for PCR** (e.g. amniotic fluid CMV PCR) or specialized tests (e.g. fetal blood sampling for anemia in parvovirus). Engage maternal-fetal medicine and infectious disease specialists for confirmed infections.",
+    "📋 **Delivery & neonatal care:** If a TORCH infection was known or suspected, plan for appropriate neonatal evaluation. Test the newborn (e.g. PCR of urine for CMV within 3 weeks, infant RPR for syphilis) and start **empiric therapy** (e.g. acyclovir for possible HSV, penicillin for syphilis) without delay if clinical signs are present."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Blueberry_muffin_baby.jpg/671px-Blueberry_muffin_baby.jpg",
+      "alt": "Neonate with 'blueberry muffin' rash (purpuric spots due to extramedullary hematopoiesis), a hallmark of congenital TORCH infections like rubella and CMV.",
+      "credit": {
+        "text": "Benmiloud et al., Pan Afr Med J (2012) – CC BY 2.0",
+        "href": "https://commons.wikimedia.org/wiki/File:Blueberry_muffin_baby.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 22-year-old pregnant woman (G1P0) in her first trimester develops a low-grade fever, a rash on her face that spreads to her trunk, and tender lymph nodes behind her ears. She never received routine childhood vaccines. The pregnancy otherwise proceeds normally. At birth, her baby is found to have a continuous heart murmur, opaque white pupils, and does not startle to loud noises.",
+      "clues": [
+        "First-trimester maternal rash + postauricular lymphadenopathy",
+        "Infant with PDA (continuous murmur)",
+        "Infant cataracts (leukocoria)",
+        "Infant deafness (failed newborn hearing test)"
+      ],
+      "answer": "Congenital Rubella Syndrome",
+      "teaching": "Maternal **rubella infection** in early pregnancy (especially <12 weeks) causes the classic triad of **PDA**, **cataracts**, and **deafness**, often with a 'blueberry muffin' rash. This is preventable by maternal MMR vaccination; women should have rubella immunity verified pre-pregnancy."
+    }
+  ],
+  "see_also": [
+    "toxoplasmosis",
+    "cytomegalovirus",
+    "rubella"
+  ],
+  "sources": [
+    {
+      "title": "TORCH Complex – StatPearls (NIH/NLM, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560528/"
+    },
+    {
+      "title": "CDC – Congenital Rubella Syndrome (VPD Surveillance Manual, 2020)",
+      "url": "https://www.cdc.gov/surveillance/manual/rubella/index.html"
+    },
+    {
+      "title": "CDC – Cytomegalovirus (CMV) and Congenital CMV Infection (updated 2025)",
+      "url": "https://www.cdc.gov/cytomegalovirus/about/index.html"
+    },
+    {
+      "title": "CDC – Clinical Care of Toxoplasmosis (Jan 2024)",
+      "url": "https://www.cdc.gov/toxoplasmosis/hcp/clinical-care/"
+    },
+    {
+      "title": "WHO – New estimates of global congenital syphilis burden (2019)",
+      "url": "https://www.who.int/news/item/26-02-2019-who-publishes-new-estimates-on-congenital-syphilis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

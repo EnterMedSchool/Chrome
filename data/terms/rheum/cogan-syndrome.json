@@ -1,0 +1,155 @@
+{
+  "id": "cogan-syndrome",
+  "names": [
+    "Cogan syndrome"
+  ],
+  "aliases": [
+    "Cogan's syndrome"
+  ],
+  "abbr": [
+    "CS"
+  ],
+  "patterns": [
+    "cogan syndrome",
+    "cogan's syndrome",
+    "cogans syndrome",
+    "cogan disease",
+    "cogan's disease"
+  ],
+  "primary_tag": "rheum",
+  "tags": [
+    "pathology",
+    "rheum",
+    "immunology"
+  ],
+  "definition": "Rare autoimmune disorder characterized by inflammation of the cornea (non-syphilitic interstitial keratitis) and inner ear (hearing loss, tinnitus, vertigo).",
+  "why_it_matters": "Can lead to permanent deafness or vision loss if untreated. It's an important vasculitic syndrome in young adults and often tested for its unique combination of eye + ear symptoms requiring prompt immunosuppressive therapy.",
+  "how_youll_see_it": [
+    "Typical form: Young adult with interstitial keratitis (painful red eye, corneal opacities) plus sudden audiovestibular symptoms (tinnitus, vertigo, sensorineural hearing loss) appearing within ~2 years of each other.",
+    "Atypical form: Variations in ocular inflammation (uveitis, scleritis, conjunctivitis instead of keratitis) or a longer gap (>2 years) between eye and ear symptoms.",
+    "Systemic features in many patients: fever, fatigue, arthritis or arthralgias, and signs of vasculitis (e.g., aortitis causing aortic regurgitation or aneurysm) can occur in ~15%."
+  ],
+  "problem_solving": [
+    "Always exclude syphilis: obtain serologic tests (VDRL/RPR) – Cogan's is a diagnosis of exclusion (syphilitic interstitial keratitis can mimic it).",
+    "Refer to ophthalmology for slit-lamp exam to confirm interstitial keratitis or other ocular findings; and to audiology for an audiogram (shows bilateral sensorineural hearing loss).",
+    "Labs are nonspecific: may see ↑ESR/CRP, anemia or leukocytosis during flares; no specific biomarker (occasionally ANCA or other autoimmune antibodies appear but are not diagnostic).",
+    "If systemic signs (e.g., unequal blood pressures, new heart murmur), do imaging (CT/MRI) of the aorta to check for vasculitis (aortitis).",
+    "Multidisciplinary approach: involve ENT (otolaryngology), rheumatology, and ophthalmology; consider tissue biopsy only if needed to rule out other vasculitides (e.g., temporal artery biopsy if giant cell arteritis is a concern)."
+  ],
+  "differentials": [
+    {
+      "name": "Granulomatosis with polyangiitis (Wegener's)",
+      "hint": "can cause eye (scleritis, uveitis) and ear involvement, but usually with nasal/lung disease and c-ANCA positivity."
+    },
+    {
+      "name": "Sarcoidosis",
+      "hint": "chronic uveitis + hearing loss can occur in neurosarcoidosis; look for hilar lymphadenopathy and noncaseating granulomas."
+    },
+    {
+      "name": "Ménière disease",
+      "hint": "causes recurrent vertigo and hearing loss, but no ocular inflammation (ear-only)."
+    },
+    {
+      "name": "Multiple sclerosis",
+      "hint": "Optic neuritis or diplopia + vertigo possible, but MS causes central lesions (MRI brain) and no corneal disease."
+    },
+    {
+      "name": "Syphilis (Hutchinson triad)",
+      "hint": "congenital syphilis causes interstitial keratitis + deafness + Hutchinson teeth; positive syphilis serology distinguishes it."
+    }
+  ],
+  "tricks": [
+    "Cogan = Cornea + Cochlea: helps recall the classic eye (corneal keratitis) and ear (cochlear/vestibular) involvement.",
+    "On exams, non-syphilitic interstitial keratitis + hearing loss in a young adult → Cogan's (always check syphilis test)."
+  ],
+  "exam_appearance": [
+    "Young adult with episodic vertigo, tinnitus, and a red painful eye with corneal stromal opacities; syphilis tests negative → Cogan syndrome.",
+    "Patient with known Cogan's who develops chest pain and a new diastolic murmur → suspect aortitis (Cogan complication requiring urgent evaluation).",
+    "Exam questions often highlight the need for high-dose steroids in a patient with rapid hearing loss and eye inflammation to prevent permanent deficits."
+  ],
+  "treatment": [
+    "High-dose corticosteroids (systemic prednisone ~1 mg/kg) are first-line to induce remission and protect hearing; also use topical steroid eye drops and cycloplegics for interstitial keratitis.",
+    "If inadequate response or severe disease, add immunosuppressants (e.g., methotrexate, cyclophosphamide, cyclosporine; or TNF inhibitors like infliximab for refractory cases).",
+    "Long-term: coordinated care with rheumatology, ENT, and ophthalmology. Monitor for relapse; treat hearing loss supportively (hearing aids or cochlear implants if needed). Screen periodically for vascular complications (e.g., aortic imaging)."
+  ],
+  "red_flags": [
+    "Rapidly progressive hearing loss or severe vestibular symptoms → start high-dose steroids immediately to prevent irreversible sensorineural deafness.",
+    "Signs of aortitis (e.g., chest pain, new aortic regurgitation murmur, unequal pulses) → urgent imaging and immunosuppressive therapy (risk of aneurysm or dissection).",
+    "Severe ocular involvement (dense corneal opacification, uveitis) → urgent ophthalmologic treatment to prevent vision loss."
+  ],
+  "algorithm": [
+    "Young patient with eye + ear complaints → suspect Cogan syndrome (after basic evaluation).",
+    "Test for syphilis: if positive, treat syphilis (not Cogan's); if negative, proceed with Cogan workup.",
+    "Ophtho & ENT eval: perform slit-lamp exam (confirm keratitis) and audiogram (assess hearing loss).",
+    "Begin corticosteroids promptly (don't wait for biopsy – treat to preserve hearing).",
+    "If no improvement or systemic vasculitis present → escalate therapy (add DMARDs/biologics); provide supportive care (e.g., vestibular rehab, hearing aids) and specialist follow-up."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Nummular_keratitis_1.jpg",
+      "alt": "Slit lamp image of interstitial (nummular) keratitis – note multiple white stromal opacities in the cornea.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Nummular_keratitis_1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 26‑year‑old woman with a 3-month history of intermittent dizziness and ringing in the ears now presents with eye pain and blurred vision.",
+      "clues": [
+        "Episodes of vertigo and bilateral tinnitus; progressive hearing difficulty",
+        "Eye exam: corneal stromal opacification with neovascularization (interstitial keratitis)",
+        "Negative VDRL/RPR (no evidence of syphilis)",
+        "Mild fever and arthralgias noted"
+      ],
+      "answer": "Cogan syndrome",
+      "teaching": "This classic presentation of non-syphilitic interstitial keratitis with audiovestibular symptoms in a young adult is characteristic of Cogan syndrome, an autoimmune vasculitis. Prompt treatment with systemic corticosteroids is indicated to prevent permanent hearing loss."
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": [
+    "takayasu-arteritis",
+    "polyarteritis-nodosa",
+    "sarcoidosis",
+    "menieres-disease"
+  ],
+  "prerequisites": [
+    "vasculitis",
+    "immune-system",
+    "ear-anatomy",
+    "cornea"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Cogan Syndrome (Salman & Tripathy, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK580546/"
+    },
+    {
+      "title": "UpToDate: Cogan syndrome (Mills & Rubin, 2023)",
+      "url": "https://www.uptodate.com/contents/cogan-syndrome"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 21e: Vasculitis Syndromes (2022)",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=3095&sectionid=258548032"
+    },
+    {
+      "title": "N Engl J Med Case 4-2022: Bilateral Hearing Loss and Eye Redness (Harris et al., 2022)",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMcpc2107349"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

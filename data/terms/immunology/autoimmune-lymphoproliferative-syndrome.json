@@ -1,0 +1,151 @@
+{
+  "id": "autoimmune-lymphoproliferative-syndrome",
+  "names": [
+    "Autoimmune lymphoproliferative syndrome"
+  ],
+  "aliases": [
+    "Canale-Smith syndrome"
+  ],
+  "abbr": [
+    "ALPS"
+  ],
+  "patterns": [
+    "autoimmune lymphoproliferative",
+    "ALPS",
+    "Canale-Smith"
+  ],
+  "primary_tag": "immunology",
+  "tags": [
+    "pathology",
+    "immunology",
+    "heme_onc",
+    "genetics",
+    "peds"
+  ],
+  "definition": "Rare genetic disorder of lymphocyte apoptosis failure leading to chronic nonmalignant lymphoproliferation (enlarged lymph nodes & spleen) and autoimmune cytopenias.",
+  "why_it_matters": "Important to recognize to avoid misdiagnosis as lymphoma/leukemia and unnecessary treatments. ALPS patients have a significantly increased lifetime lymphoma risk and require tailored monitoring.",
+  "how_youll_see_it": [
+    "Classically presents in early childhood with chronic cervical/axillary lymphadenopathy and splenomegaly (often fluctuating); some cases show isolated massive splenomegaly. Autoimmune cytopenias (especially Evans syndrome: Coombs+ hemolytic anemia with thrombocytopenia) are common.",
+    "Symptoms include pallor or jaundice from anemia, easy bruising or bleeding (low platelets), and sometimes recurrent infections if neutropenia is present. Lymph nodes are generally benign/non-tender and can be large, but constitutional B symptoms (fever, weight loss, night sweats) are typically absent unless lymphoma develops.",
+    "Most cases manifest in childhood (median ~2 years old), but milder forms can present in adolescence or adulthood (often due to somatic mutations in FAS). Lymphadenopathy may lessen by the second decade, while splenomegaly and autoimmune flares often persist or recur."
+  ],
+  "problem_solving": [
+    "Exclude infections (e.g., EBV/CMV) and malignancy: persistent lymphadenopathy/splenomegaly warrants imaging and often lymph node biopsy to rule out lymphoma (ALPS nodes show reactive hyperplasia, not clonal malignancy).",
+    "Hallmark lab finding: elevated double-negative T cells (CD3+ TCRαβ+ CD4– CD8–) >1.5% of total lymphocytes. Check ALPS biomarkers: very high serum vitamin B12 and IL-10 levels (often with ↑IL-18 and soluble FasL) support the diagnosis.",
+    "Genetic testing confirms the subtype: look for pathogenic variants in FAS (CD95), FASLG, or CASP10. Inheritance is usually autosomal dominant for FAS and CASP10 mutations, whereas FASLG mutations are often recessive. Somatic FAS mutations (mosaic) can cause adult-onset ALPS.",
+    "Associated findings: polyclonal hypergammaglobulinemia (high IgG) is common, reflecting immune activation. Bone marrow is usually reactive (no leukemia). Consider ALPS in any child with multilineage cytopenias (AIHA, ITP, neutropenia) plus lymphoproliferation.",
+    "In vitro tests (if available): Fas-mediated apoptosis assay shows defective lymphocyte apoptosis. ALPS DNT cells also characteristically co-express an aberrant B-cell marker (CD45RA, also called B220) and overproduce IL-10."
+  ],
+  "differentials": [
+    {
+      "name": "Infectious mononucleosis (EBV)",
+      "hint": "acute EBV infection causes fever, atypical lymphocytosis, and transient lymphadenopathy (resolves, not chronic like ALPS)"
+    },
+    {
+      "id": "hodgkin-lymphoma",
+      "hint": "painless persistent lymph nodes with B symptoms; biopsy shows Reed-Sternberg cells (malignant)"
+    },
+    {
+      "id": "non-hodgkin-lymphoma",
+      "hint": "clonal lymphoproliferative neoplasm; can mimic ALPS but usually monoclonal cells and often older patients"
+    },
+    {
+      "name": "Common variable immunodeficiency",
+      "hint": "primary immunodeficiency with low immunoglobulins and recurrent infections, but can have autoimmunity & lymphadenopathy (distinguish by low Ig levels)"
+    },
+    {
+      "name": "Hemophagocytic lymphohistiocytosis (HLH)",
+      "hint": "fulminant hyperinflammatory syndrome (fever, high ferritin, cytopenias, organomegaly) – more acute and severe than ALPS"
+    }
+  ],
+  "tricks": [
+    "Double-negative T cells (CD4−/CD8−) >1% of lymphocytes = think ALPS.",
+    "Fas gene defect = immune cells that \"won't die\" (failed apoptosis), causing enlarged nodes/spleen.",
+    "Child with Evans syndrome (ITP + AIHA) and big spleen → evaluate for ALPS."
+  ],
+  "exam_appearance": [
+    "Toddler with chronic nontender lymphadenopathy, massive splenomegaly, Coombs-positive hemolytic anemia, and markedly elevated vitamin B12 level → Autoimmune lymphoproliferative syndrome (FAS mutation).",
+    "Teenager with history of ITP and hemolytic anemia, persistent splenomegaly, and 5% double-negative T cells on flow cytometry → ALPS (autoimmune lymphoproliferative syndrome)."
+  ],
+  "treatment": [
+    "Immunosuppression to control autoimmunity: short pulses of corticosteroids for acute cytopenia flares; sirolimus (rapamycin) is a highly effective steroid-sparing agent to reduce lymphoproliferation and autoimmune cytopenias.",
+    "Mycophenolate mofetil (MMF) is another steroid-sparing option (helps cytopenias but doesn't shrink nodes/spleen and can cause hypogammaglobulinemia). Refractory autoimmune cytopenias may respond to rituximab (B-cell depletion).",
+    "Avoid splenectomy if possible (post-splenectomy sepsis risk is high). If hypersplenism is severe, use medical therapy (e.g. sirolimus +/- short-term steroids) to shrink the spleen. Splenectomized ALPS patients require lifelong antibiotic prophylaxis and rapid treatment for fevers.",
+    "Definitive cure is hematopoietic stem cell transplant (HSCT), but due to generally good prognosis, HSCT is reserved for life-threatening cases (e.g. severe refractory cytopenias or lymphoma)."
+  ],
+  "red_flags": [
+    "New-onset B symptoms (fevers, night sweats, weight loss) or a rapidly enlarging lymph node in ALPS → concern for lymphoma; urgent evaluation (imaging + biopsy) needed.",
+    "ALPS patient with fever post-splenectomy → medical emergency (risk of overwhelming sepsis from encapsulated organisms)."
+  ],
+  "algorithm": [
+    "Chronic >6 month lymphadenopathy and/or splenomegaly (nonmalignant, noninfectious) plus cytopenias → suspect ALPS.",
+    "Initial eval: CBC (check cytopenias), direct Coombs test (autoimmune hemolysis), viral serologies (EBV, HIV) to exclude infection, and flow cytometry for DNT cells.",
+    "If DNT cells are elevated and clinical criteria met, send genetic testing for FAS/FASLG/CASP10 mutations to confirm diagnosis.",
+    "Manage with immunosuppressive therapy for autoimmunity (e.g. steroids for crisis, sirolimus or MMF long-term) and avoid splenectomy.",
+    "Follow patients lifelong with regular exams and educate to report any B symptoms; monitor for lymphoma development (imaging and biopsy if suspicious)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Extrinsic_apoptosis.jpg",
+      "alt": "Diagram of the extrinsic apoptosis pathway (Fas-FasL signaling) which is defective in ALPS.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Extrinsic_apoptosis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 4‑year‑old boy has had persistently enlarged cervical and axillary lymph nodes and splenomegaly since infancy, and now presents with fatigue and bruising.",
+      "clues": [
+        "Chronic, non-tender lymphadenopathy & splenomegaly",
+        "Coombs-positive hemolytic anemia and thrombocytopenia (Evans syndrome)",
+        "Elevated double-negative T cells on flow cytometry",
+        "Heterozygous FAS gene mutation identified"
+      ],
+      "answer": "Autoimmune lymphoproliferative syndrome (ALPS)",
+      "teaching": "Defective Fas-mediated apoptosis allows lymphocytes to accumulate, causing benign lymphoproliferation and autoimmune cytopenias. The presence of double-negative T cells is a hallmark that helps distinguish ALPS from malignancies."
+    },
+    {
+      "stem": "A 25‑year‑old woman is evaluated for lifelong mild neutropenia and thrombocytopenia. She also reports a history of intermittently swollen lymph nodes and was found to have a somatic FAS mutation.",
+      "clues": [
+        "Chronic cytopenias since childhood (autoimmune neutropenia, low platelets)",
+        "Recurrent lymphadenopathy and splenomegaly",
+        "Somatic FAS mutation on genetic testing",
+        "Elevated IL-10 and vitamin B12 levels"
+      ],
+      "answer": "Autoimmune lymphoproliferative syndrome (adult-onset ALPS)",
+      "teaching": "Some ALPS cases present in adulthood due to somatic (non-inherited) FAS mutations. These patients have similar features of lymphoproliferation and autoimmunity. Workup reveals the same signature findings (e.g., high IL-10, double-negative T cells), confirming the ALPS diagnosis."
+    }
+  ],
+  "see_also": [
+    "hemophagocytic-lymphohistiocytosis",
+    "non-hodgkin-lymphoma",
+    "hodgkin-lymphoma"
+  ],
+  "prerequisites": [
+    "apoptosis"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Autoimmune lymphoproliferative syndrome (Bleesing, 2025)",
+      "url": "https://www.uptodate.com/contents/autoimmune-lymphoproliferative-syndrome-alps"
+    },
+    {
+      "title": "Blood: How I treat autoimmune lymphoproliferative syndrome (Rao & Oliveira, 2011)",
+      "url": "https://doi.org/10.1182/blood-2011-07-325217"
+    },
+    {
+      "title": "Blood: Natural history of ALPS-FAS (Price et al., 2014)",
+      "url": "https://doi.org/10.1182/blood-2013-10-535393"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

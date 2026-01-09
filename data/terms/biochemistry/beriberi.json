@@ -1,0 +1,124 @@
+{
+  "id": "beriberi",
+  "names": ["Beriberi"],
+  "aliases": ["thiamine deficiency", "vitamin B1 deficiency"],
+  "abbr": [],
+  "patterns": ["beriberi", "beri beri", "thiamine deficiency", "vitamin B1 deficiency"],
+  "primary_tag": "biochemistry",
+  "tags": ["pathology", "biochemistry", "neuro", "cardio", "peds"],
+  "definition": "Disease caused by **vitamin B1 (thiamine)** deficiency, classically divided into **dry beriberi** (neurologic form with peripheral neuropathy) and **wet beriberi** (cardiac form with high-output heart failure). Severe thiamine deficiency can also lead to **Wernicke–Korsakoff syndrome** (CNS complications).",
+  "why_it_matters": "Thiamine is an essential cofactor in glucose metabolism (pyruvate dehydrogenase, TCA cycle), so deficiency leads to energy failure (especially in brain and heart) and buildup of lactate. **Beriberi** is life-threatening but **preventable**: untreated B1 deficiency causes irreversible neurologic damage (e.g., Korsakoff psychosis) or fatal heart failure, yet it can be rapidly cured with thiamine. It frequently appears on exams in malnourished patients (e.g., chronic alcoholics or famine victims) who show dramatic improvement after thiamine therapy.",
+  "how_youll_see_it": [
+    "Dry beriberi: symmetric **peripheral neuropathy** (legs > arms) with numbness, tingling, burning sensation, loss of reflexes, weakness, and muscle wasting (no edema). Patients may have difficulty rising from a squat or walking (e.g., foot drop).",
+    "Wet beriberi: neuropathy plus **cardiovascular** involvement. Presents as a dilated cardiomyopathy leading to **high-output heart failure** (tachycardia, warm extremities, bounding pulses, wide pulse pressure) with edema, distended neck veins, and cardiomegaly. Can progress to circulatory collapse (fulminant **Shoshin beriberi**).",
+    "Wernicke–Korsakoff syndrome: in severe B1 deficiency (especially in alcoholics), **Wernicke encephalopathy** manifests with acute confusion, ataxic gait, and ophthalmoplegia (eye movement palsies, nystagmus). Untreated, it can lead to **Korsakoff syndrome** – chronic irreversible memory loss, confabulation, and personality change.",
+    "Infantile beriberi: occurs in young infants (2–4 months) breastfed by a thiamine-deficient mother. Babies present with **fulminant heart failure** (tachycardia, cyanosis, labored breathing), a weak or absent cry (aphonia), and vomiting. Fatal unless thiamine is given promptly.",
+    "At-risk groups: **Chronic alcoholics** (poor intake plus malabsorption), populations eating mostly polished rice or highly processed grains, patients after **bariatric surgery** or prolonged hyperemesis, and those on prolonged **TPN** (IV nutrition) without thiamine. Deficiency can develop within weeks to a few months of inadequate intake."
+  ],
+  "problem_solving": [
+    "Maintain a high index of suspicion: in any malnourished or alcoholic patient with neuropathy, heart failure, or unexplained neurologic symptoms, consider thiamine deficiency (beriberi). Do not wait for tests—treat empirically if suspected.",
+    "Diagnosis is clinical. Laboratory confirmation (if needed) can be done by measuring blood thiamine levels or **erythrocyte transketolase activity** (low in B1 deficiency and increases after adding thiamine). Often, a rapid improvement after thiamine administration essentially confirms the diagnosis.",
+    "If **Wernicke encephalopathy** is suspected (e.g., an alcoholic with confusion/ataxia), give **IV thiamine immediately** – **before** any glucose infusion – to prevent precipitating or worsening acute neurologic damage. Never give IV glucose first in a thiamine-deficient patient.",
+    "Manage associated problems: support cardiac function (oxygen, blood pressure support, diuretics if needed for pulmonary edema) while thiamine takes effect. Evaluate for other concurrent deficiencies (malnourished patients often lack multiple vitamins/electrolytes) and correct them."
+  ],
+  "differentials": [
+    {
+      "name": "Vitamin B12 deficiency (cobalamin)",
+      "hint": "neuropathy with dorsal column loss and **megaloblastic anemia** (B1 deficiency doesn't cause anemia or posterior column damage)"
+    },
+    {
+      "name": "Alcoholic cardiomyopathy",
+      "hint": "heart failure in a heavy drinker due to direct ethanol toxicity (similar setting, but no peripheral neuropathy or Wernicke's signs)"
+    },
+    {
+      "name": "Diabetic polyneuropathy",
+      "hint": "distal symmetric neuropathy in long-standing diabetes (no cardiomyopathy; occurs with hyperglycemia, not vitamin deficiency)"
+    }
+  ],
+  "tricks": [
+    "Beri-beri comes from Sinhalese for 'I cannot, I cannot', describing the profound weakness caused by this disease.",
+    "Wet vs. Dry: **Wet** beriberi = fluid overload (edema, heart failure); **Dry** beriberi = no fluid overload (neuropathy without edema).",
+    "Wernicke's encephalopathy can be remembered by **CAN of beer** – **C**onfusion, **A**taxia, **N**ystagmus in an alcoholic. **Korsakoff** syndrome is the permanent amnesia with confabulation that often follows Wernicke's.",
+    "**Thiamine (B1)** is needed for **A**TP production (enzymes: **A**lpha-ketoglutarate dehydrogenase, **P**yruvate dehydrogenase, **T**ransketolase). No B1 → no ATP, especially damaging to high-energy organs like brain and heart."
+  ],
+  "exam_appearance": [
+    "Malnourished individual (e.g., refugee relying on polished rice) with progressive leg numbness/weakness, difficulty walking, plus tachycardia, dyspnea, and bilateral leg edema → **wet beriberi** (thiamine deficiency).",
+    "Chronic alcoholic with confusion, unsteady gait, and nystagmus → **Wernicke encephalopathy** from thiamine deficiency (treat immediately with IV thiamine before glucose).",
+    "An infant (3 months old) exclusively breastfed by a malnourished mother, presenting with irritability, cyanosis, tachycardia, an enlarged heart, and a barely audible cry → **infantile beriberi** (thiamine deficiency)."
+  ],
+  "treatment": [
+    "Replenish thiamine: administer **high-dose thiamine** (e.g., 100 mg IV daily for days) as soon as deficiency is suspected. IV route is used for acute cases (Wernicke's or severe beriberi); oral supplements for milder chronic cases. Always give thiamine before or with any glucose in at-risk patients.",
+    "Provide supportive care: for cardiac failure, use appropriate measures (e.g., diuretics for edema, oxygen) while awaiting thiamine's effects. In infantile beriberi, prompt thiamine often produces dramatic improvement within hours. Monitor inpatients closely (e.g., ICU if heart failure or encephalopathy is severe).",
+    "Address the cause and prevent recurrence: improve nutrition (balanced diet, vitamin supplements), treat alcoholism (rehab, vitamins), and ensure any IV nutrition is fortified with B1. **Prognosis:** cardiac function usually recovers fully if treated early; neuropathy improves over time. However, if deficiency has led to **Korsakoff** psychosis (memory loss), that aspect is often permanent."
+  ],
+  "red_flags": [
+    "Any suggestion of **Wernicke's encephalopathy** (even mild confusion or ataxia in an at-risk patient) is a medical emergency – give IV thiamine immediately. Delaying treatment can lead to coma or permanent brain injury.",
+    "Do **not** administer glucose without thiamine in a severely malnourished or alcoholic patient—this can precipitate acute beriberi or Wernicke's. Always provide thiamine supplementation first when refeeding.",
+    "Breastfed infants of thiamine-deficient mothers can deteriorate rapidly. A floppy, tachycardic infant with heart failure signs should receive empiric thiamine while diagnostic evaluation is underway."
+  ],
+  "algorithm": [
+    "At-risk patient (alcohol use disorder, severe malnutrition, etc.) with symptoms of neuropathy or heart failure → **suspect thiamine deficiency** (beriberi).",
+    "If neurologic signs like confusion, ataxia, or ocular palsies are present, act fast: **administer IV thiamine** (before glucose) for possible Wernicke's encephalopathy.",
+    "Draw labs (thiamine level, lactate, etc.) if possible, but do **not** wait for results; start treatment based on clinical presentation.",
+    "Continue daily thiamine replacement (IV or high-dose oral) and monitor for improvement. Neurologic symptoms may start improving within days; cardiac failure improves rapidly with thiamine.",
+    "Once acute issues are addressed, ensure **nutritional rehabilitation**: a balanced diet (or supplements) to prevent recurrence; correct other deficiencies; address underlying causes (e.g., alcohol cessation, food fortification)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Late_stage_of_paralysis_with_atrophy_in_dry_beriberi.jpg",
+      "alt": "Patient with advanced dry beriberi (paralysis and severe muscle wasting in the legs).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Late_stage_of_paralysis_with_atrophy_in_dry_beriberi.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 55-year-old man with a history of chronic alcohol use is brought in with confusion and difficulty walking.",
+      "clues": [
+        "Disoriented, with poor short-term memory",
+        "Unsteady gait (ataxia)",
+        "Horizontal nystagmus on exam",
+        "Notably improves after IV thiamine"
+      ],
+      "answer": "Wernicke encephalopathy (acute thiamine deficiency)",
+      "teaching": "This is Wernicke's encephalopathy due to severe thiamine deficiency in an alcoholic. The classic triad is confusion, ataxia, and ophthalmoplegia (here manifested as nystagmus). Immediate IV thiamine is critical to prevent progression to Korsakoff's syndrome."
+    },
+    {
+      "stem": "A 22-year-old refugee from a famine region presents with leg weakness, swelling, and shortness of breath.",
+      "clues": [
+        "Diet consists mainly of polished white rice",
+        "Burning numbness in feet with reduced reflexes",
+        "Tachycardia, warm extremities, distended neck veins",
+        "Bilateral pitting edema in legs"
+      ],
+      "answer": "Wet beriberi (thiamine deficiency)",
+      "teaching": "This malnourished patient has beriberi from thiamine deficiency, showing both dry features (peripheral neuropathy) and wet features (high-output cardiac failure). Thiamine supplementation would lead to significant improvement. Diets based on white rice are a classic cause of beriberi."
+    }
+  ],
+  "see_also": [
+    "pellagra",
+    "scurvy"
+  ],
+  "prerequisites": [
+    "citric-acid-cycle",
+    "glycolysis",
+    "heart-failure",
+    "peripheral-neuropathy"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Vitamin B1 (Thiamine) Deficiency (Wiley & Gupta, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537204/"
+    },
+    {
+      "title": "UpToDate: Wernicke encephalopathy",
+      "url": "https://www.uptodate.com/contents/wernicke-encephalopathy"
+    },
+    {
+      "title": "World Health Organization: Thiamine deficiency and its prevention and control in major emergencies (1999)",
+      "url": "https://www.who.int/publications/i/item/WHO-NHD-99.13"
+    }
+  ]
+}

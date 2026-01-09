@@ -1,0 +1,135 @@
+{
+  "id": "calcium-pyrophosphate-deposition-disease",
+  "names": ["Calcium pyrophosphate deposition disease"],
+  "aliases": ["pseudogout", "chondrocalcinosis"],
+  "abbr": ["CPPD"],
+  "patterns": [
+    "cppd",
+    "calcium pyrophosphate deposition disease",
+    "pseudogout",
+    "chondrocalcinosis"
+  ],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "msk_derm"],
+  "definition": "Deposition of calcium pyrophosphate dihydrate crystals in joint cartilage leading to inflammatory arthritis. Manifestations range from asymptomatic chondrocalcinosis on imaging to acute pseudogout flares or chronic degenerative arthropathy.",
+  "why_it_matters": "Common crystal arthritis in older adults (nearly 50% of people >85 have radiographic CPPD). Often mimics gout or septic arthritis, so misdiagnosis can occur unless CPP crystals are identified. Recognizing pseudogout also prompts evaluation for treatable causes (e.g., hemochromatosis, hyperparathyroidism).",
+  "how_youll_see_it": [
+    "Acute pseudogout (CPP crystal arthritis): sudden onset of intense pain, redness, warmth, and swelling in a joint (classically the knee). Attacks last days–weeks and may be precipitated by trauma, surgery, or severe illness.",
+    "Chronic CPPD arthropathy: a progressive degenerative joint disease that can resemble osteoarthritis (cartilage calcification and joint space loss) or even pseudo–rheumatoid arthritis (waxing-waning inflammation in multiple joints, e.g. wrists/MCPs). Often coexists with osteoarthritis in affected joints.",
+    "Asymptomatic chondrocalcinosis: many patients (especially elderly) have calcification of cartilage on X-ray with no acute arthritis. This radiographic finding can precede or accompany symptomatic CPPD disease."
+  ],
+  "problem_solving": [
+    "Always perform arthrocentesis for a new inflamed joint to analyze synovial fluid: look for CPPD crystals and exclude infection. Under polarized light, CPP crystals are rhomboid and show weakly positive birefringence.",
+    "Differentiate CPPD from gout crystals: CPP crystals are rhomboid and blue when Parallel to compensator (weak positive birefringence), whereas gout's urate crystals are needle-shaped and turn yellow when Parallel (negative birefringence).",
+    "Check for chondrocalcinosis on imaging: X-rays often show linear calcifications in articular cartilage (e.g., meniscus or wrist cartilage). Note that finding chondrocalcinosis alone doesn't confirm symptoms are from CPPD, but it supports the diagnosis in context.",
+    "If pseudogout is confirmed, screen for underlying disorders that predispose to CPPD: e.g., measure calcium (for hyperparathyroidism), iron studies (for hemochromatosis), magnesium (hypomagnesemia), etc. Treating the underlying metabolic issue may reduce CPPD attacks."
+  ],
+  "differentials": [
+    {
+      "id": "gout",
+      "hint": "monosodium urate crystals (needle-shaped, negative birefringence); often first MTP (podagra)"
+    },
+    {
+      "name": "Septic arthritis",
+      "hint": "bacterial joint infection (often >50,000 WBC in fluid, positive culture); can coexist with crystals"
+    },
+    {
+      "id": "osteoarthritis",
+      "hint": "degenerative joint disease; chronic pain without acute crystal flares (though OA changes often accompany CPPD)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: Pseudogout = P – Positive birefringence & Polygonal (rhomboid) crystals. (By contrast, Gout = Negative birefringence & Needle-shaped crystals).",
+    "Birefringence tip: Blue when Parallel = Pseudogout, Yellow when Parallel = gout.",
+    "Think of metabolic associations: elderly patient with hemochromatosis or hyperparathyroidism + knee arthritis → suspect pseudogout."
+  ],
+  "exam_appearance": [
+    "Elderly patient (≥65) with an acutely swollen, red knee (± low-grade fever); synovial fluid shows rhomboid, positively birefringent crystals and no organisms on Gram stain → pseudogout (acute CPP crystal arthritis).",
+    "Middle-aged man with bronze diabetes (hereditary hemochromatosis) develops recurrent knee and wrist pain; X-ray reveals cartilage calcifications (chondrocalcinosis) → pseudogout due to CPPD deposition from iron overload."
+  ],
+  "treatment": [
+    "Acute attack: relieve inflammation with NSAIDs (if no contraindications), colchicine, and/or glucocorticoids. Often the joint is aspirated for relief and a corticosteroid is injected. Severe or refractory cases may benefit from an IL-1 inhibitor (anakinra).",
+    "Prevention: for frequent flares, consider daily low-dose colchicine or NSAIDs to reduce attack frequency. If needed, some patients require low-dose oral prednisone for chronic suppression.",
+    "Manage chronic CPPD arthropathy similar to osteoarthritis (exercise, physical therapy, analgesics) since no treatment can dissolve CPP crystals or reverse cartilage calcification."
+  ],
+  "red_flags": [
+    "If joint fluid shows very high WBC or patient has high fever, don't assume it's \"just pseudogout\" – always rule out septic arthritis (crystals can co-exist with infection).",
+    "CPPD occurring in a patient <50 years old is unusual – suspect a secondary cause (check for hyperparathyroidism, hemochromatosis, etc)."
+  ],
+  "algorithm": [
+    "Older patient with acute monoarthritis (e.g., knee) → arthrocentesis for synovial fluid analysis (crystals & culture).",
+    "If fluid shows rhomboid, positively birefringent CPP crystals and no infection → diagnose pseudogout (acute CPP crystal arthritis).",
+    "Treat acute pseudogout with NSAIDs (first-line if tolerated), colchicine, and/or corticosteroids (consider joint aspiration + intra-articular steroid).",
+    "After acute flare, evaluate for secondary causes of CPPD (check Ca²⁺/PTH, iron studies, Mg²⁺, etc.) and manage those conditions.",
+    "Frequent flares → initiate prophylaxis (daily colchicine or NSAID); manage chronic CPPD joint damage with OA measures (weight loss, PT, analgesics)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Birefringence_microscopy_of_pseudogout,_annotated.jpg",
+      "alt": "Polarized light microscopy of synovial fluid showing blue (parallel) and yellow (perpendicular) CPP crystals.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Birefringence_microscopy_of_pseudogout,_annotated.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 78‑year‑old woman with a history of hypertension presents with acute onset of right knee pain, swelling, and redness.",
+      "clues": [
+        "Large knee effusion; synovial fluid WBC ~25,000 with neutrophils",
+        "Microscopy: rhomboid crystals that are blue when aligned parallel to compensator",
+        "X‑ray of the knee shows linear calcifications in the meniscal cartilage",
+        "Gram stain and culture of fluid show no organisms"
+      ],
+      "answer": "Calcium pyrophosphate deposition disease (pseudogout)",
+      "teaching": "Acute pseudogout (CPP crystal arthritis) classically causes knee effusion in an older patient. Synovial fluid analysis reveals the diagnostic CPPD crystals (weakly positive birefringence, blue in parallel light) and helps rule out septic arthritis. Treatment involves NSAIDs, colchicine, or steroids; always exclude infection before treating pseudogout."
+    },
+    {
+      "stem": "A 55‑year‑old man with hereditary hemochromatosis (skin bronzing, diabetes) reports chronic joint stiffness and episodic swelling in his wrists and knees.",
+      "clues": [
+        "Known iron overload (hemochromatosis) with high ferritin",
+        "Joint X‑rays reveal chondrocalcinosis in wrists and knees",
+        "Occasional acute arthritis flares requiring anti‑inflammatory therapy"
+      ],
+      "answer": "Pseudogout due to CPPD (secondary to hemochromatosis)",
+      "teaching": "Metabolic disorders like hemochromatosis can cause calcium pyrophosphate crystal deposition in joints, leading to pseudogout flares and chronic arthropathy. Managing the underlying iron overload (phlebotomy) and using prophylactic colchicine can help reduce acute CPPD attacks."
+    }
+  ],
+  "see_also": [
+    "gout",
+    "osteoarthritis",
+    "rheumatoid-arthritis"
+  ],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Calcium Pyrophosphate Deposition Disease (Zamora & Naik, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK540151/"
+    },
+    {
+      "title": "ACR Patient Info (2025): Calcium Pyrophosphate Deposition (CPPD)",
+      "url": "https://rheumatology.org/patients/calcium-pyrophosphate-deposition-cppd"
+    },
+    {
+      "title": "UpToDate: Calcium pyrophosphate crystal deposition disease (2023)",
+      "url": "https://www.uptodate.com/contents/calcium-pyrophosphate-crystal-deposition-cppd-disease"
+    },
+    {
+      "title": "Medscape: Calcium Pyrophosphate Deposition Disease (Updated 2023)",
+      "url": "https://emedicine.medscape.com/article/330936-overview"
+    },
+    {
+      "title": "Rosenthal AK & Ryan LM. Calcium Pyrophosphate Deposition Disease. N Engl J Med 2016; 374(26):2575-84.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27355536/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

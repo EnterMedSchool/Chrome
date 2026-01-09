@@ -1,0 +1,96 @@
+{
+  "id": "winters-formula",
+  "names": ["Winter's Formula", "Winters Formula", "Expected PCO2"],
+  "aliases": ["respiratory compensation", "expected pCO2"],
+  "patterns": [
+    "Winter's formula",
+    "Winters formula",
+    "expected PCO2",
+    "expected pCO2",
+    "respiratory compensation"
+  ],
+  "level": "formula",
+  "primary_tag": "renal",
+  "tags": ["nephrology", "pulmonology", "acid-base", "critical-care"],
+  "formula": {
+    "expression": "(1.5 * bicarbonate) + 8",
+    "latex": "\\text{Expected } P_{CO_2} = 1.5 \\times [\\text{HCO}_3^-] + 8 \\pm 2",
+    "unit": "mmHg"
+  },
+  "inputs": [
+    {
+      "id": "bicarbonate",
+      "label": "Bicarbonate (HCO₃⁻)",
+      "unit": "mEq/L",
+      "type": "number",
+      "min": 5,
+      "max": 40,
+      "default": 15,
+      "step": 1
+    }
+  ],
+  "outputs": [
+    {
+      "id": "expected_pco2_low",
+      "label": "Expected PCO₂ (low)",
+      "formula": "(1.5 * bicarbonate) + 8 - 2"
+    },
+    {
+      "id": "expected_pco2_high",
+      "label": "Expected PCO₂ (high)",
+      "formula": "(1.5 * bicarbonate) + 8 + 2"
+    }
+  ],
+  "interpretation": [
+    {"condition": "measured_pco2 < expected_low", "label": "Concurrent Respiratory Alkalosis", "color": "blue", "description": "PCO₂ is lower than expected → additional respiratory alkalosis"},
+    {"condition": "measured_pco2 in range", "label": "Appropriate Compensation", "color": "green", "description": "PCO₂ is within expected range → pure metabolic acidosis"},
+    {"condition": "measured_pco2 > expected_high", "label": "Concurrent Respiratory Acidosis", "color": "red", "description": "PCO₂ is higher than expected → additional respiratory acidosis"}
+  ],
+  "visualization": {
+    "type": "range",
+    "show_comparison": true
+  },
+  "definition": "**Winter's formula** predicts the expected PCO₂ in a patient with metabolic acidosis if respiratory compensation is appropriate. It helps identify whether a patient has a **simple** metabolic acidosis (appropriate compensation) or a **mixed** acid-base disorder (concurrent respiratory disturbance).",
+  "clinical_usage": [
+    "**Evaluate respiratory compensation** in metabolic acidosis",
+    "**Detect mixed acid-base disorders**: If actual PCO₂ differs from expected",
+    "**Critical care**: Essential for ABG interpretation",
+    "**DKA, sepsis, toxicology**: Common scenarios requiring this calculation"
+  ],
+  "how_to_interpret": [
+    "Calculate expected PCO₂ range using the formula",
+    "Compare measured PCO₂ (from ABG) to expected range",
+    "If measured PCO₂ is **within range** → appropriate compensation (simple metabolic acidosis)",
+    "If measured PCO₂ is **below range** → concurrent primary respiratory alkalosis",
+    "If measured PCO₂ is **above range** → concurrent primary respiratory acidosis"
+  ],
+  "pearls": [
+    "The **±2** represents the normal range of variation",
+    "A quick rule: Expected PCO₂ ≈ last two digits of pH (e.g., pH 7.25 → PCO₂ ~25)",
+    "Only applies to **metabolic acidosis** - different formulas for alkalosis",
+    "In severe acidosis (HCO₃ <8), maximum respiratory compensation may be reached (~10-12 mmHg)",
+    "Remember: Compensation never **overcorrects** - if pH is normal with abnormal HCO₃ and PCO₂, it's a mixed disorder"
+  ],
+  "example_calculation": {
+    "scenario": "Patient with DKA, HCO₃ = 10 mEq/L, measured PCO₂ = 22 mmHg",
+    "calculation": "Expected PCO₂ = 1.5 × 10 + 8 = 23 mmHg (range: 21-25)",
+    "interpretation": "Measured PCO₂ of 22 is within expected range → appropriate respiratory compensation, simple metabolic acidosis"
+  },
+  "see_also": ["metabolic-acidosis", "anion-gap"],
+  "sources": [
+    {
+      "title": "Albert MS, Dell RB, Winters RW. Quantitative displacement of acid-base equilibrium in metabolic acidosis. Ann Intern Med. 1967;66:312-22",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6016545/"
+    },
+    {
+      "title": "Berend K, et al. Physiological Approach to Assessment of Acid-Base Disturbances. N Engl J Med. 2014",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra1003327"
+    }
+  ],
+  "credits": [
+    {
+      "role": "Author",
+      "display": "EnterMedSchool Team"
+    }
+  ]
+}

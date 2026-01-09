@@ -1,0 +1,104 @@
+{
+  "id": "osteochondrosis",
+  "names": ["Osteochondrosis"],
+  "aliases": ["osteochondroses", "juvenile osteonecrosis"],
+  "abbr": [],
+  "patterns": ["osteochondrosis", "osteochondroses", "juvenile osteonecrosis"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "peds", "radiology", "surgery"],
+  "definition": "Group of disorders in growing children involving temporary loss of blood supply to bone (usually at the growth plate **epiphysis** or an **apophysis**), leading to bone **avascular necrosis** followed by reossification.",
+  "why_it_matters": "Common cause of bone/joint pain and limping in children. Often appears on exams to test distinguishing these self-limited conditions from serious causes (e.g., infection, tumors, **SCFE**). Recognizing osteochondroses ensures proper conservative management and avoids missing urgent diagnoses.",
+  "how_youll_see_it": [
+    "Typically presents in active children/adolescents with localized pain in a limb or joint (e.g., knee pain, hip pain with a limp). Pain is usually activity-related and improves with rest. Systemic signs are absent (no fever or weight loss).",
+    "Specific examples: **Legg–Calvé–Perthes disease** (hip) in boys ~4–8 years old causing limp and referred knee pain; **Osgood–Schlatter disease** (tibial tubercle) in adolescents during growth spurts (athletes with anterior knee pain); **Scheuermann disease** (spine) in teenagers causing mid-back pain and a rigid kyphosis; **Panner disease** (elbow capitellum) in children <10 with throwing-related elbow pain; **Köhler bone disease** (tarsal navicular) in young kids with foot pain; **Freiberg disease** (2nd metatarsal head) in adolescent girls with forefoot pain.",
+    "On exam, there is localized tenderness or limited range of motion in the affected area. For example, limited hip internal rotation in Perthes, a prominent tender tibial tubercle in Osgood-Schlatter, or hamstring tightness with kyphosis in Scheuermann. Joint swelling is mild or absent, and routine labs are typically normal."
+  ],
+  "problem_solving": [
+    "Obtain **X-rays** of the symptomatic area. Early in the process, radiographs might be normal, but classically they show fragmentation, sclerosis, or collapse of the affected ossification center (e.g., flattened femoral head in Perthes, fragmented tibial tubercle in Osgood). **MRI** can detect early osteonecrosis if X-rays are inconclusive.",
+    "Differentiate from other causes of pain: look for red flags like fever, night pain, or acute severe symptoms that suggest infection (septic arthritis, osteomyelitis) or tumor rather than a benign osteochondrosis. In a limping adolescent, consider **slipped capital femoral epiphysis (SCFE)** (usually older and obese) instead of Perthes.",
+    "Understand natural history: osteochondrosis conditions typically progress through stages of necrosis, fragmentation, and healing over months to years. During this time, treatment focuses on symptom relief and preventing deformity (e.g., limiting weight-bearing on the affected limb). Regular follow-up with repeat imaging ensures the bone is reossifying properly."
+  ],
+  "differentials": [
+    { "id": "slipped-capital-femoral-epiphysis", "hint": "obese adolescent with hip pain; epiphysis displacement on X-ray" },
+    { "id": "septic-arthritis", "hint": "acute joint pain with fever; child refuses to move joint (urgent drainage needed)" },
+    { "id": "osteosarcoma", "hint": "bone tumor; chronic pain often with night pain, destructive bone lesion on imaging" }
+  ],
+  "tricks": [
+    "Mnemonic tip: **Legg–Calvé–Perthes** = hip (femoral head); **Osgood–Schlatter** = knee (tibial tubercle); **Scheuermann** = spine; **Panner** = elbow; **Köhler** = foot (navicular); **Freiberg** = foot (2nd metatarsal).",
+    "Child with a limp: age can guide you – a small child (~5–7 years) → think Perthes; an obese adolescent → think **SCFE** (not an osteochondrosis, and requires urgent surgical treatment)."
+  ],
+  "exam_appearance": [
+    "6‑year‑old boy with gradual-onset limp and knee pain, limited hip internal rotation, and a flattened femoral head on X-ray → Legg–Calvé–Perthes disease.",
+    "14‑year‑old adolescent with anterior knee pain and a tender, swollen tibial tubercle → Osgood–Schlatter disease.",
+    "15‑year‑old with mid-back pain and a fixed kyphosis; X-ray shows wedged thoracic vertebrae → Scheuermann disease."
+  ],
+  "treatment": [
+    "Conservative management is first-line: **rest** and activity modification (avoid impact on the affected area) to allow healing. Use **NSAIDs** or analgesics for pain as needed, and **physical therapy** to maintain flexibility and muscle strength (e.g., quadriceps/hamstring stretching for Osgood, core strengthening for Scheuermann).",
+    "Bracing or casting can help in certain cases: for Legg–Perthes, bracing (such as an abduction orthosis) or casting may be used to keep the femoral head seated in the acetabulum during healing; for Scheuermann, a spinal brace (e.g., Milwaukee brace) can be used in a growing patient with significant curvature.",
+    "Surgery is reserved for severe or refractory cases. Examples include femoral or pelvic osteotomy in advanced Legg–Perthes to improve hip joint alignment, removal of loose bone fragments or joint debridement in Freiberg disease, or excision of an ununited ossicle in Osgood-Schlatter if pain persists after growth is complete."
+  ],
+  "red_flags": [
+    "Fever, high inflammatory markers, or significant swelling in a child with bone/joint pain → evaluate for infection (septic arthritis or osteomyelitis) rather than assuming osteochondrosis.",
+    "An adolescent with acute hip pain and inability to bear weight (especially if obese) → urgent evaluation for **slipped capital femoral epiphysis (SCFE)** (requires prompt surgical management)."
+  ],
+  "algorithm": [
+    "Child/teen with chronic activity-related bone or joint pain (limp or localized pain, no systemic signs) → suspect an osteochondrosis based on age and site.",
+    "Perform exam focusing on the affected area (check tenderness, range of motion) and obtain **X-rays** of that area.",
+    "If X-ray shows typical changes (epiphyseal fragmentation, sclerosis, etc.) → confirm osteochondrosis and treat conservatively (rest, protect the joint, pain management).",
+    "If imaging is normal but suspicion remains high (e.g., early symptoms) → manage presumptively with rest and consider **MRI** for early detection; also re-image after a few weeks to look for changes.",
+    "Follow the patient over time: symptoms should gradually improve as the bone heals (often over months). If pain worsens or does not improve in 6–12 months, or if any atypical features develop, refer to pediatric orthopedics for re-evaluation (to consider alternative diagnoses or need for surgical intervention)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/LeggCalvePerthes2.jpg",
+      "alt": "X-ray of the pelvis showing bilateral Legg–Calvé–Perthes disease (avascular necrosis of both femoral heads).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:LeggCalvePerthes2.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old boy has a 2-month history of a limp and intermittent knee pain without any injury.",
+      "clues": [
+        "No fever or systemic symptoms",
+        "Hip exam: limited internal rotation (knee exam is normal)",
+        "Pelvis X-ray shows a flattened, fragmented femoral head epiphysis"
+      ],
+      "answer": "Legg–Calvé–Perthes disease (osteonecrosis of the femoral head)",
+      "teaching": "Idiopathic avascular necrosis of the femoral head in a young child. Often presents as knee pain with a painless limp; limited hip motion and characteristic X-ray changes confirm the diagnosis. Management is conservative (rest, limited weight-bearing, and bracing) to allow revascularization and healing of the femoral head."
+    }
+  ],
+  "see_also": [
+    "juvenile-idiopathic-arthritis",
+    "rheumatoid-arthritis",
+    "osteoarthritis"
+  ],
+  "prerequisites": [
+    "endochondral-ossification",
+    "avascular-necrosis"
+  ],
+  "sources": [
+    {
+      "title": "AAFP: Apophysitis and Osteochondrosis (Achar & Yamanaka, 2019)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2019/0515/p610.html"
+    },
+    {
+      "title": "UpToDate: Approach to hip pain in childhood",
+      "url": "https://www.uptodate.com/contents/approach-to-hip-pain-in-childhood"
+    },
+    {
+      "title": "StatPearls: Legg-Calvé-Perthes Disease (Mills & Burroughs, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK513230/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "uveitis",
+  "names": ["Uveitis"],
+  "aliases": ["iritis", "iridocyclitis"],
+  "abbr": [],
+  "patterns": [
+    "uveitis",
+    "anterior uveitis",
+    "intermediate uveitis",
+    "posterior uveitis",
+    "panuveitis",
+    "iritis",
+    "iridocyclitis",
+    "chorioretinitis"
+  ],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology", "infectious_dz", "peds"],
+  "definition": "Inflammation of the uveal tract (iris, ciliary body, choroid) leading to an intraocular inflammatory reaction. It is classified by anatomical site: anterior uveitis (iritis, affecting iris/pars plicata), intermediate uveitis (vitreous and peripheral retina), posterior uveitis (choroid and retina), or panuveitis (generalized inflammation of the entire uvea).",
+  "why_it_matters": "A major cause of vision loss (responsible for ~10% of blindness in the US). Uveitis often signals an underlying systemic disease (autoimmune or infectious) and requires prompt therapy to prevent vision-threatening complications.",
+  "how_youll_see_it": [
+    "Anterior uveitis usually presents with a unilateral red, painful eye with photophobia and blurred vision (due to iritis). There is often a ciliary flush (redness around the cornea) and the affected pupil may be small or irregular from sphincter spasm or iris adhesions. Intermediate uveitis typically causes floaters and painless blurring of vision (inflammation mainly in the vitreous). Posterior uveitis often causes visual disturbances (blurry vision, scotomas or floaters) but little to no eye redness or pain.",
+    "On exam, cell and flare (WBCs and protein) are seen in the anterior chamber for anterior uveitis. In severe cases, WBCs can layer out as a visible hypopyon (white fluid level). Keratic precipitates (inflammatory deposits on the corneal endothelium) are often present, especially in granulomatous uveitis. Intermediate uveitis shows vitreous cells and opacities ('snowballs') and inflammatory debris on the pars plana ('snowbank'). Posterior uveitis may show chorioretinal lesions, retinal vasculitis, or optic disc edema on fundoscopy."
+  ],
+  "problem_solving": [
+    "Always perform a thorough eye exam (visual acuity, intraocular pressure, slit lamp, dilated fundus exam) for a red eye with photophobia to confirm uveitis and assess extent.",
+    "Determine the anatomic classification (anterior vs intermediate vs posterior) and inquire about systemic symptoms. If it is the first episode of unilateral anterior uveitis, extensive lab work-up may not be needed initially. However, recurrent, bilateral, or posterior uveitis should prompt a targeted evaluation for underlying causes (autoimmune or infectious).",
+    "Rule out key causes in every case of uveitis: obtain syphilis serologies (RPR/FTA), TB testing (PPD or interferon-γ release assay), and sarcoidosis screening (chest imaging, ACE levels). If anterior uveitis is recurrent or severe, test for HLA-B27 and other relevant markers (e.g., ANA in children, Lyme or viral titers as indicated). Remember that syphilis is the great masquerader and should be considered even with atypical features.",
+    "Initiate therapy promptly: for anterior uveitis use topical corticosteroids (e.g., prednisolone eye drops) and a cycloplegic (e.g., atropine or cyclopentolate) to reduce pain and prevent adhesions. Ensure no untreated infection (e.g., herpes simplex or fungal keratitis) is present before giving steroids.",
+    "Manage more severe or posterior cases with systemic therapy: oral or IV steroids, periocular steroid injections, and/or systemic immunosuppressants (methotrexate, anti-TNF biologics, etc.) for chronic non-infectious uveitis. Treat any identified infectious cause with appropriate antimicrobials in tandem. Arrange close follow-up to monitor resolution and complications (e.g., glaucoma from steroid-induced high IOP)."
+  ],
+  "differentials": [
+    { "id": "conjunctivitis", "hint": "conjunctival redness +/- discharge, no intraocular cells or significant pain" },
+    { "id": "corneal-ulcer", "name": "Keratitis (corneal ulcer)", "hint": "corneal opacity/ulcer visible, severe pain with fluorescein staining defect (often contact lens use)" },
+    { "id": "acute-angle-closure-glaucoma", "hint": "sudden eye pain with high IOP, mid-dilated pupil, halos around lights; no cells in anterior chamber" }
+  ],
+  "tricks": [
+    "Think HLA-B27: seronegative spondyloarthropathies (ankylosing spondylitis, IBD, reactive & psoriatic arthritis) commonly cause recurrent anterior uveitis.",
+    "Syphilis is the great masquerader in uveitis—always consider testing for syphilis in unexplained cases.",
+    "A ciliary flush (perilimbal redness) with photophobia is a key sign of iritis, helping distinguish uveitis from conjunctivitis."
+  ],
+  "exam_appearance": [
+    "Young man with chronic low back pain and stiffness who develops acute unilateral eye pain, redness, and photophobia → Anterior uveitis (likely HLA-B27 associated, e.g., ankylosing spondylitis).",
+    "Child with juvenile idiopathic arthritis and no complaints of eye pain has gradual vision loss → Chronic anterior uveitis (JIA-associated; often asymptomatic, requires regular slit-lamp screening).",
+    "Young Middle Eastern adult with recurrent oral and genital ulcers and an episodic red, painful eye with hypopyon → Behçet disease (occlusive vasculitis causing panuveitis)."
+  ],
+  "treatment": [
+    "Corticosteroids are the mainstay: topical drops for anterior uveitis (aggressive dosing, then tapered slowly) and systemic steroids for more extensive disease. Use adjunctive cycloplegic drops in anterior uveitis to relieve pain and prevent synechiae.",
+    "For non-infectious intermediate/posterior uveitis or chronic cases, add immunosuppressive therapy to control inflammation and spare steroid use (e.g., methotrexate, mycophenolate, or biologics like adalimumab). Refer to a uveitis specialist for co-management of these cases.",
+    "If an infectious cause is identified, treat it specifically: e.g., antimicrobials for syphilis or tuberculosis, antivirals for HSV/VZV, antiparasitics (sulfadiazine + pyrimethamine) for toxoplasmosis. Concurrent steroid use in infectious uveitis is often needed to control inflammation, but ensure appropriate anti-infectives are given alongside.",
+    "Monitor for complications of uveitis and its treatment: chronic inflammation can lead to cataracts, glaucoma, or macular edema, and prolonged steroid therapy can raise IOP and cause cataracts — patients need regular eye exams."
+  ],
+  "red_flags": [
+    "Hypopyon (layered WBC in the anterior chamber) signifies intense inflammation and possible endophthalmitis or Behçet disease; this finding warrants urgent ophthalmologic evaluation.",
+    "Post-surgical or post-injection uveitis with pain, hypopyon, or severe vision loss → assume endophthalmitis (intraocular infection) until proven otherwise; this is an ocular emergency requiring immediate intravitreal antibiotics.",
+    "Unilateral uveitis with markedly elevated intraocular pressure suggests a herpetic etiology (HSV/VZV) causing inflammatory glaucoma; prompt antiviral therapy and IOP-lowering measures are critical to prevent optic nerve damage."
+  ],
+  "algorithm": [
+    "Red, painful photophobic eye → perform slit-lamp exam for cells/flare and check intraocular pressure.",
+    "If anterior uveitis is confirmed (cells in anterior chamber), start topical steroids (after ruling out corneal infection) and cycloplegics. First-time, unilateral cases may be treated empirically; if recurrent or bilateral, pursue systemic workup.",
+    "If intermediate or posterior uveitis, or any recurrent/severe case → order laboratory tests based on suspicion (e.g., HLA-B27, ANA) and universally screen for syphilis, TB, and sarcoidosis.",
+    "Begin appropriate therapy: topical steroids for anterior; systemic corticosteroids (± immunomodulators) for posterior or panuveitis; add pathogen-specific therapy for infectious cases.",
+    "Ensure close follow-up with ophthalmology. Monitor for resolution of inflammation and secondary complications (uveitic glaucoma, cataract, macular edema) and taper steroids carefully to avoid rebound."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Hypopyon_1.jpg",
+      "alt": "Slit-lamp photo of an eye with a hypopyon (layer of pus in the lower anterior chamber) and ciliary injection.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hypopyon_1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old girl with a 2-year history of oligoarticular juvenile idiopathic arthritis is brought for an eye exam due to gradually worsening vision.",
+      "clues": [
+        "JIA (pauciarticular, ANA-positive)",
+        "No eye pain or redness",
+        "Slit-lamp: anterior chamber cells and flare",
+        "Band keratopathy (corneal calcium deposits)"
+      ],
+      "answer": "Chronic anterior uveitis (JIA-associated)",
+      "teaching": "Juvenile idiopathic arthritis can cause chronic anterior uveitis that is often asymptomatic yet leads to complications like band keratopathy, cataract, and glaucoma. Children with JIA require regular slit-lamp screenings; early treatment with topical steroids and immunomodulators prevents vision loss."
+    }
+  ],
+  "see_also": [
+    "ankylosing-spondylitis",
+    "reactive-arthritis",
+    "sarcoidosis",
+    "behcet-syndrome",
+    "juvenile-idiopathic-arthritis"
+  ],
+  "prerequisites": [
+    "eye-anatomy",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Uveitis (Duplechain et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK540993/"
+    },
+    {
+      "title": "UpToDate: Uveitis – Etiology, clinical manifestations, and diagnosis",
+      "url": "https://www.uptodate.com/contents/uveitis-etiology-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "NEI: Uveitis Information Page (National Eye Institute, 2024)",
+      "url": "https://www.nei.nih.gov/learn-about-eye-health/eye-conditions-and-diseases/uveitis"
+    },
+    {
+      "title": "JAMA Patient Page: What Is Uveitis? (Angulo MI et al., 2025)",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2840733"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

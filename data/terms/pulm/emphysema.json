@@ -1,0 +1,101 @@
+{
+  "id": "emphysema",
+  "names": ["Emphysema", "Pulmonary emphysema"],
+  "aliases": [],
+  "abbr": [],
+  "patterns": ["emphysema", "pulmonary emphysema", "bullous emphysema", "centrilobular emphysema", "panacinar emphysema", "paraseptal emphysema", "irregular emphysema", "pink puffer"],
+  "primary_tag": "pulm",
+  "tags": ["pathology", "pulm", "radiology", "pharmacology", "genetics"],
+  "definition": "Chronic destructive lung disease: permanent enlargement of airspaces distal to terminal bronchioles with destruction of alveolar walls (loss of elastic recoil). This reduces surface area for gas exchange (no significant fibrosis).",
+  "why_it_matters": "Emphysema is a core component of COPD, which is the 3rd leading cause of death worldwide. It causes irreversible airflow limitation, chronic breathlessness and exercise intolerance, often progressing to respiratory failure and cor pulmonale. Smoking is the predominant cause (80–90% of cases), making emphysema largely preventable. Because lung damage is irreversible, management focuses on slowing progression and treating symptoms (e.g. bronchodilators, oxygen).",
+  "how_youll_see_it": [
+    "Typically an older smoker with gradually worsening dyspnea (weeks to months) and limited exercise capacity. Chronic cough (with scant clear sputum) may be present but is not the predominant feature. Patients often lose weight over time (due to the high work of breathing and systemic inflammation).",
+    "On exam, look for a barrel chest (↑antero-posterior diameter) and use of accessory muscles. Percussion: hyperresonant. Auscultation: distant breath sounds with prolonged expiration, and perhaps wheezes or crackles at bases. Patients may sit leaning forward and breathe through pursed lips (especially during exertion) to prevent airway collapse.",
+    "Most are pink puffers: relatively well-oxygenated (no cyanosis until late) and often lean. Digital clubbing is uncommon. Signs of cor pulmonale (JVD, pedal edema) appear only in very advanced cases.",
+    "Spirometry shows airflow obstruction: FEV1/FVC <70% (post-bronchodilator) with reduced FEV1. Diffusing capacity (DLCO) is markedly decreased (due to lost alveolar-capillary surface area).",
+    "Imaging: Chest X-ray often reveals hyperinflation (flattened diaphragms, narrow mediastinum, \"barrel\" thorax). High-resolution CT is most sensitive: look for low-density areas (bullae) especially in upper lobes for centriacinar (smokers) and lower lobes for panacinar (A1AT deficiency)."
+  ],
+  "problem_solving": [
+    "Use spirometry to confirm COPD: post-bronchodilator FEV1/FVC <0.70 diagnoses obstruction (emphysema). Stage severity by FEV1% (GOLD criteria).",
+    "History/exam clues: Emphysema → older heavy smoker, progressive dyspnea, minimal sputum; Asthma → younger, atopic, episodic, reversible airflow limitation; Chronic bronchitis → chronic productive cough (≥3 months/yr), often overweight and cyanotic ('blue bloater').",
+    "Chest imaging aids distinction: CXR shows hyperinflation (flat diaphragm) in emphysema versus perihilar infiltrates in heart failure or bronchitis. CT can quantify emphysema (look for diffuse lucencies).",
+    "Check α1-antitrypsin level in unusual cases (young patient or panacinar pattern). A low level (<100 mg/dL) suggests genetic deficiency.",
+    "Exclude cardiac causes: if suspect CHF, check BNP/echocardiogram. In acute exacerbations, consider pneumonia (fever, consolidation on CXR) or pneumothorax (sudden pain, asymmetric findings)."
+  ],
+  "differentials": [
+    { "id": "chronic-bronchitis", "hint": "Productive cough for ≥3 months/yr, often overweight, 'blue bloater' with hypoxemia and edema." },
+    { "id": "asthma", "hint": "Variable airflow obstruction (improves with bronchodilators), history of atopy or allergies, younger age." },
+    { "id": "bronchiectasis", "hint": "Chronic infections with copious purulent sputum; bronchial wall thickening or dilatation on imaging." }
+  ],
+  "tricks": [
+    "Pink puffer = emphysema (vs 'blue bloater' of chronic bronchitis). Puffers are pink and breathe through pursed lips.",
+    "Centrilobular (smokers) vs Panacinar (pan = entire acinus in α1-antitrypsin deficiency) emphysema location: upper lobes vs lower lobes.",
+    "Paraseptal emphysema occurs along pleura and can cause spontaneous pneumothorax in young patients.",
+    "Mnemonic: A1AT – think 'A1' = panacinar (diffuse) destruction in α1-antitrypsin deficiency."
+  ],
+  "exam_appearance": [
+    "Board-style: older smoker with progressive dyspnea, thin (\"pink puffer\"), barrel chest, and FEV1/FVC<0.7 on PFT → emphysema.",
+    "Chest X-ray: hyperinflated lungs with flat diaphragms in a dyspneic smoker (unlike perihilar edema in CHF).",
+    "Young nonsmoker with basilar bullae on CT and low α1-antitrypsin level → hereditary emphysema.",
+    "Sudden pneumothorax in a smoker with subpleural blebs suggests emphysema (ruptured bullae)."
+  ],
+  "treatment": [
+    "Smoking cessation – key intervention to slow progression. Annual influenza and pneumococcal vaccines.",
+    "Bronchodilators: Start with short-acting (SABA ± SAMA) for relief; add long-acting β2-agonist (LABA) or long-acting anticholinergic (LAMA) for maintenance.",
+    "Add inhaled corticosteroids if frequent exacerbations (especially with overlapping chronic bronchitis) or very low FEV1.",
+    "Pulmonary rehabilitation (exercise training) improves symptoms and quality of life.",
+    "Long-term oxygen if chronic hypoxemia (PaO2 ≤55 mmHg or SaO2 ≤88%) – improves survival in severe emphysema.",
+    "Advanced options: lung volume reduction surgery or bronchoscopic valves in select patients (heterogeneous emphysema); lung transplant in end-stage disease (younger patients)."
+  ],
+  "red_flags": [
+    "Sudden worsening dyspnea or chest pain → suspect pneumothorax from ruptured bulla (urgent CXR).",
+    "Severe hypoxemia or hypercapnia (AMS, somnolence) – indicates acute respiratory failure (ICU/NIV required).",
+    "New signs of cor pulmonale (hypotension, arrhythmias) in a COPD patient – signals advanced disease."
+  ],
+  "algorithm": [
+    "Chronic dyspnea in smoker → order spirometry (post-bronchodilator FEV1/FVC<0.7 confirms COPD).",
+    "If positive, stage by FEV1% (GOLD 1–4). Check CXR to assess hyperinflation and exclude other diagnoses.",
+    "Initiate therapy: smoking cessation and avoidance of irritants.",
+    "Stepwise meds: start with SABA (± SAMA) → add LABA or LAMA as needed. Add ICS if frequent exacerbations.",
+    "Recommend pulmonary rehab and vaccinations. Add home O2 if resting PaO2<55 mmHg (or SaO2<88%).",
+    "Manage exacerbations with nebulizers, steroids, antibiotics as indicated, and consider ventilatory support. Refer for LVRS or transplant in select cases."
+  ],
+  "cases": [
+    {
+      "stem": "A 65-year-old man with a 40 pack-year smoking history presents with gradually worsening dyspnea over 2 years. He reports little cough. He appears thin and uses pursed-lip breathing. Exam shows barrel chest with hyperresonant lungs and scattered wheezes. SpO2 is 88% on room air. CXR: hyperinflated lungs with flat diaphragms. Spirometry: FEV1/FVC 0.60 (no reversibility).",
+      "clues": ["long smoking history", "barrel chest", "flat diaphragms on CXR", "irreversible FEV1/FVC <0.7"],
+      "answer": "Emphysema (COPD)",
+      "teaching": "Classic \"pink puffer\" presentation: chronic smoker, cachectic, hyperinflation on CXR, fixed obstruction on PFT."
+    },
+    {
+      "stem": "A 45-year-old woman, lifelong nonsmoker, with family history of lung disease presents with progressive dyspnea on exertion. CT chest shows diffuse panlobular emphysema (basal predominant). Labs: α1-antitrypsin level 30 mg/dL (normal >100).",
+      "clues": ["nonsmoker", "basal panacinar emphysema on CT", "low α1-antitrypsin"],
+      "answer": "Emphysema due to α1-antitrypsin deficiency",
+      "teaching": "Young nonsmoker with panacinar emphysema suggests α1-antitrypsin deficiency. It causes lower-lobe emphysema and may have liver involvement."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Medical_X-Ray_imaging_WFH07_nevit.jpg",
+      "alt": "PA chest X-ray showing emphysema with large bullae and hyperlucent lung fields.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_WFH07_nevit.jpg"
+      }
+    }
+  ],
+  "see_also": ["alpha-1-antitrypsin-deficiency", "chronic-obstructive-pulmonary-disease", "asthma"],
+  "prerequisites": ["pulmonary-physiology", "bronchial-anatomy"],
+  "sources": [
+    { "title": "Emphysema - StatPearls", "url": "https://www.ncbi.nlm.nih.gov/books/NBK482217/" },
+    { "title": "GOLD 2023 COPD Executive Summary", "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10111975/" }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

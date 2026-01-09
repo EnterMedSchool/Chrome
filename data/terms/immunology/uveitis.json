@@ -1,0 +1,142 @@
+{
+  "id": "uveitis",
+  "names": ["Uveitis"],
+  "aliases": ["iritis", "cyclitis", "choroiditis"],
+  "abbr": [],
+  "patterns": ["uveitis", "iritis", "intermediate uveitis", "posterior uveitis", "panuveitis", "pars planitis"],
+  "primary_tag": "immunology",
+  "tags": ["immunology", "rheum", "infectious_dz"],
+  "definition": "Inflammation of the uveal tract (iris, ciliary body, choroid). Anterior uveitis (iritis/iridocyclitis) affects the iris and ciliary body; intermediate uveitis (pars planitis) involves the vitreous; posterior uveitis (retinitis/choroiditis) affects the retina or choroid; and panuveitis involves both anterior and posterior segments.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Fimmu-12-640473-g001.jpg",
+      "alt": "Immunogenetic pathways implicated in non-infectious uveitis",
+      "credit": {
+        "text": "Takeuchi et al., Frontiers in Immunology 2021",
+        "href": "https://doi.org/10.3389/fimmu.2021.640473"
+      }
+    }
+  ],
+  "why_it_matters": "Uveitis can cause vision-threatening complications (cataract, glaucoma, macular edema) and accounts for ~10% of blindness in the US. It often signals systemic disease: HLA-B27 spondyloarthropathies, juvenile idiopathic arthritis, sarcoidosis, tuberculosis, syphilis, Behçet's disease, etc. Early diagnosis and management are crucial to prevent permanent vision loss.",
+  "how_youll_see_it": [
+    "Anterior uveitis: acute onset of eye Pain, redness (ciliary flush), and Photophobia.",
+    "Intermediate uveitis: floaters and blurred vision with minimal pain, often with vitreous snowballs or snowbanking.",
+    "Posterior uveitis: floaters and visual loss, possible scotomata; fundoscopic findings include retinal lesions, periphlebitis, or \"candle-wax drippings\" exudates.",
+    "Panuveitis: combination of anterior and posterior signs, e.g. diffuse inflammation seen in Behçet's or Vogt–Koyanagi–Harada disease."
+  ],
+  "problem_solving": [
+    "Confirm with slit-lamp exam: look for anterior chamber cells/flare, hypopyon, keratic precipitates.",
+    "Classify the anatomical subtype (anterior vs intermediate vs posterior) to guide workup and treatment.",
+    "Investigate systemic causes: order HLA-B27, RPR/FTA-ABS, quantiferon/TB test, ACE/lysozyme and chest imaging (sarcoid), ANA (JIA), Lyme titers etc based on history.",
+    "If posterior involvement is suspected, perform dilated fundus exam or ocular ultrasound to assess vitreous and retina.",
+    "When severe or atypical (hypopyon, optic nerve edema, bilateral involvement), refer to ophthalmology urgently for evaluation and specialty treatment."
+  ],
+  "differentials": [
+    {
+      "id": "conjunctivitis",
+      "name": "Conjunctivitis",
+      "hint": "Diffuse conjunctival injection and discharge (not ciliary flush; photophobia uncommon)"
+    },
+    {
+      "id": "keratitis",
+      "name": "Keratitis",
+      "hint": "Corneal ulcer or haze with fluorescein staining; severe pain; pupil usually reactive (no cells)"
+    },
+    {
+      "id": "acute-angle-closure-glaucoma",
+      "name": "Acute Angle Closure Glaucoma",
+      "hint": "Mid-dilated fixed pupil, very high IOP, severe headache/nausea"
+    },
+    {
+      "id": "corneal-abrasion",
+      "name": "Corneal Abrasion",
+      "hint": "History of trauma, pain relieved by topical anesthetic, corneal uptake on fluorescein"
+    },
+    {
+      "id": "endophthalmitis",
+      "name": "Endophthalmitis",
+      "hint": "Painful red eye post-surgery or injection, hypopyon, severe vision loss (emergency)"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: the 3 Ps of anterior uveitis – Pain, Photophobia, Perilimbal (ciliary) injection.",
+    "Mutton-fat keratic precipitates (large greasy KPs) suggest granulomatous uveitis (sarcoid, TB, syphilis).",
+    "Fine (stellate) KPs suggest non-granulomatous uveitis (e.g. HLA-B27 or Fuchs').",
+    "HLA-B27 is strongly associated with acute anterior uveitis in young adults (e.g. ankylosing spondylitis).",
+    "Behçet's disease classically causes hypopyon anterior uveitis (often bilateral) in a patient with oral/genital ulcers."
+  ],
+  "exam_appearance": [
+    "Young adult with ankylosing spondylitis and acute red, painful eye → likely acute anterior uveitis.",
+    "Middle-aged patient with floaters and blurred vision (without severe pain) → consider intermediate/posterior uveitis.",
+    "Patient with recurrent hypopyon and history of oral/genital ulcers → think Behçet's (panuveitis).",
+    "Child with juvenile idiopathic arthritis (no ocular symptoms) but routine slit-lamp exam showing cells (chronic anterior uveitis)."
+  ],
+  "treatment": [
+    "Anterior uveitis: intensive topical corticosteroids (e.g. prednisolone acetate) and cycloplegics (e.g. atropine) to reduce inflammation and pain. Taper slowly to avoid rebound.",
+    "Prevent posterior synechiae with cycloplegics (break iris adhesions).",
+    "Posterior or panuveitis: systemic corticosteroids (oral or periocular) and referral to specialist; immunosuppressive therapy (methotrexate, TNF-inhibitors) for chronic or bilateral cases.",
+    "If infectious cause is identified: treat the specific agent (e.g. antivirals for herpes, antibiotics for TB) concurrently with or before steroids.",
+    "Monitor intraocular pressure during steroid treatment; consider steroid-sparing agents if long-term therapy is needed."
+  ],
+  "red_flags": [
+    "Hypopyon or suspected infection (HSV, endophthalmitis) – immediate ophthalmology consult.",
+    "Elevated intraocular pressure or glaucomatous features – can occur in herpetic uveitis or chronic steroid use; urgent management needed.",
+    "Vision loss or severe vitritis – could indicate acute retinal necrosis or endophthalmitis; treat as ocular emergency.",
+    "Severe bilateral uveitis or neurologic symptoms – consider masquerade syndromes or CNS involvement."
+  ],
+  "algorithm": [
+    "Suspect uveitis in any patient with red eye + photophobia/pain. Perform slit-lamp exam to identify AC cells/flare.",
+    "If uveitis confirmed, classify by location: anterior vs intermediate vs posterior via slit lamp and fundus exam.",
+    "Obtain targeted labs: HLA-B27, RPR, TB test, ACE, ANA, etc based on risk factors.",
+    "Treat non-infectious anterior uveitis with frequent topical steroids + cycloplegic, and arrange ophthalmology follow-up.",
+    "For intermediate/posterior involvement or refractory cases, add systemic steroids/immunosuppression and consult specialist.",
+    "If infection is suspected, treat the infection first (e.g. antivirals for herpes) before or along with steroids.",
+    "Monitor response and taper therapy accordingly; manage complications (glaucoma, CME) as needed."
+  ],
+  "cases": [
+    {
+      "stem": "A 28-year-old man with a history of ankylosing spondylitis presents with acute onset of severe right eye pain, redness, and photophobia for 2 days. Examination shows a deep red eye with ciliary flush and 2+ cells in the anterior chamber.",
+      "clues": [
+        "HLA-B27-associated spondyloarthritis",
+        "Unilateral red, painful eye",
+        "Anterior chamber cells (iritis)"
+      ],
+      "answer": "Acute anterior uveitis (HLA-B27 associated iridocyclitis)",
+      "teaching": "HLA-B27-related spondyloarthropathies (e.g. ankylosing spondylitis) often cause acute anterior uveitis with pain and photophobia. First-line treatment is topical corticosteroids and cycloplegics."
+    },
+    {
+      "stem": "A 30-year-old male from Turkey with recurrent oral and genital ulcers presents with severe bilateral eye pain and blurred vision. Exam reveals hypopyon in both anterior chambers and retinal vasculitis on fundus exam.",
+      "clues": [
+        "Recurrent oral/genital ulcers",
+        "Hypopyon anterior uveitis",
+        "Retinal vasculitis"
+      ],
+      "answer": "Behçet's disease causing bilateral panuveitis",
+      "teaching": "Behçet's is a vasculitis that causes recurrent hypopyon anterior uveitis and retinal vasculitis. It is a sight-threatening panuveitis requiring systemic immunosuppression."
+    }
+  ],
+  "see_also": [],
+  "prerequisites": [],
+  "sources": [
+    {
+      "title": "StatPearls: Uveitis (Samarawickrama et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK540993/"
+    },
+    {
+      "title": "My Patient Has Anterior Uveitis… Now What? (Pate & Cleghern, Review of Optometry, 2025)",
+      "url": "https://www.reviewofoptometry.com/article/my-patient-has-anterior-uveitis-now-what"
+    },
+    {
+      "title": "Uveitis as an Open Window to Systemic Inflammatory Diseases (El Jammal et al., J Clin Med, 2021)",
+      "url": "https://www.mdpi.com/2077-0383/10/2/281"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

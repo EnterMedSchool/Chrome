@@ -1,0 +1,144 @@
+{
+  "id": "leukocytosis",
+  "names": [
+    "Leukocytosis"
+  ],
+  "aliases": [
+    "high white blood cell count",
+    "elevated WBC count"
+  ],
+  "abbr": [],
+  "patterns": [
+    "leukocytosis",
+    "leucocytosis",
+    "high WBC count",
+    "elevated white blood cells"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "infectious_dz",
+    "pharmacology"
+  ],
+  "definition": "Abnormally high white blood cell count (typically >11,000/µL in adults).",
+  "why_it_matters": "Alerts clinicians to underlying conditions (infection, inflammation, stress, or leukemia). Also, extremely high WBC counts can cause **hyperviscosity** (leukostasis) and often signify serious pathology.",
+  "how_youll_see_it": [
+    "Infection/inflammation: e.g. pneumonia or appendicitis with **fever** and WBC 15–25k (neutrophil predominance, left shift). **Severe infections** (sepsis, *C. diff* colitis) can cause WBC >50k (leukemoid reaction).",
+    "Hematologic malignancy: chronic leukemias (CML, CLL) often have very high WBC (e.g. >50–100k); patients may have **splenomegaly**, **B symptoms** (weight loss, night sweats) or be asymptomatic (incidental finding).",
+    "Medications/stress: **corticosteroids** (e.g. prednisone) cause neutrophil demargination leading to leukocytosis (typically 12–18k) without infection; intense stress (trauma, exercise) or **epinephrine** can transiently elevate WBC."
+  ],
+  "problem_solving": [
+    "Interpret WBC with **differential**: identify which cell type is elevated (neutrophilia suggests bacterial infection or CML; lymphocytosis suggests viral infection or CLL; eosinophilia points to allergy/parasites, etc.).",
+    "Review the **peripheral smear**: the presence of **blasts** or very immature cells strongly suggests leukemia (not reactive); **toxic granulation** or Döhle bodies in neutrophils support infection.",
+    "If neutrophil count is markedly high with no obvious cause, check **leukocyte alkaline phosphatase (LAP)** score: high in reactive leukemoid reactions, but low in CML. CML often also has increased **basophils**.",
+    "For suspected leukemia, pursue definitive tests: e.g. send molecular test for **BCR-ABL** (Philadelphia chromosome) in suspected CML, and perform bone marrow biopsy with **flow cytometry** to confirm malignancy."
+  ],
+  "differentials": [
+    {
+      "name": "Leukemoid reaction",
+      "hint": "reactive neutrophilic leukocytosis (often >50k) from severe infection/inflammation; high LAP, no clonal markers"
+    },
+    {
+      "id": "chronic-myeloid-leukemia",
+      "abbr": [
+        "CML"
+      ],
+      "hint": "myeloproliferative neoplasm with extreme WBC (often >100k) + basophilia; **BCR-ABL** positive (Philadelphia chr); low LAP"
+    },
+    {
+      "name": "Infection or inflammation",
+      "hint": "common cause of mild–moderate leukocytosis (e.g. bacterial pneumonia, appendicitis); usually WBC <30k and normalizes after illness"
+    },
+    {
+      "name": "Corticosteroid effect",
+      "hint": "drug-induced neutrophilia (demargination); moderate WBC elevation without infection"
+    }
+  ],
+  "tricks": [
+    "**LAP** score mnemonic: Leukemoid = **LAP high**, Leukemia (CML) = LAP low.",
+    "Steroids cause neutrophils to **demarginate** (detach from blood vessel walls), raising the circulating WBC count without new cell production."
+  ],
+  "exam_appearance": [
+    "Patient with severe *C. difficile* colitis, WBC 55,000 (neutrophils with bands), high LAP score → **Leukemoid reaction** due to infection.",
+    "Middle-aged adult with 100,000 WBC, left-shifted neutrophils + basophils, massive splenomegaly, low LAP → **Chronic myelogenous leukemia (CML)**.",
+    "Asthma patient on high-dose prednisone with WBC 16,000 (mostly neutrophils, no fever or infection) → **Steroid-induced leukocytosis**."
+  ],
+  "treatment": [
+    "Benign/reactive leukocytosis requires treating the **underlying cause**: e.g. antibiotics for infection, management of inflammation; the WBC count will normalize with resolution.",
+    "If drug-induced (e.g. steroid therapy), reduce or discontinue the offending **medication** if clinically appropriate.",
+    "Malignant leukocytosis (leukemia) warrants specific therapy for that leukemia (e.g. **tyrosine kinase inhibitor** such as imatinib for CML, or chemotherapy for acute leukemia).",
+    "If WBC is >100k with signs of **leukostasis** (dyspnea, neurologic deficits), initiate urgent measures to rapidly lower the count (e.g. IV **hydroxyurea**, leukapheresis)."
+  ],
+  "red_flags": [
+    "**Blasts** on peripheral smear (any significant blast presence) → highly suggestive of acute leukemia (requires immediate evaluation).",
+    "Extremely elevated WBC (e.g. >100,000/µL) with **dyspnea, headache, or confusion** → think hyperviscosity syndrome (leukostasis) — a medical emergency.",
+    "Leukocytosis accompanied by **anemia, thrombocytopenia, or organomegaly** (splenomegaly, lymphadenopathy) → concerning for leukemia or bone marrow disorder rather than a benign reaction."
+  ],
+  "algorithm": [
+    "↑WBC on lab → repeat **CBC + differential** to confirm and identify which lineage is elevated.",
+    "Clinical assessment → look for infection (fever, source), inflammation, stress or medications that could explain a reactive leukocytosis.",
+    "If neutrophilia with no clear cause → obtain a **LAP score** (high = reactive, low = CML) and consider molecular testing for **BCR-ABL**; treat any hidden infection if suspected.",
+    "If lymphocytosis → test for acute infection (e.g. EBV serologies); if persistent or extreme, get **flow cytometry** on blood to evaluate for clonal lymphoproliferative disorder (e.g. CLL).",
+    "No obvious benign cause or abnormal cells present → refer to hematology for bone marrow biopsy and cytogenetic studies to rule out leukemia."
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old hospitalized man with severe diarrhea from Clostridioides difficile infection is noted to have a WBC count of 52,000/µL.",
+      "clues": [
+        "High WBC 52k with neutrophil predominance and band forms",
+        "Severe infection (toxic megacolon from C. diff)",
+        "Leukocyte alkaline phosphatase score is elevated"
+      ],
+      "answer": "Leukemoid reaction (reactive leukocytosis)",
+      "teaching": "Severe infection can trigger an extreme leukocytosis; here the very high neutrophil count with high LAP indicates a reactive process (leukemoid reaction) rather than leukemia."
+    },
+    {
+      "stem": "A 60‑year‑old man with fatigue and early satiety is found to have a WBC count of 110,000/µL on routine blood work.",
+      "clues": [
+        "Very high WBC 110k with left-shifted granulocytes and basophilia",
+        "Massive splenomegaly (early satiety)",
+        "Philadelphia chromosome (BCR-ABL) positive"
+      ],
+      "answer": "Chronic myelogenous leukemia (CML)",
+      "teaching": "CML (a myeloproliferative leukemia) causes unregulated neutrophil proliferation (WBC often >100k). The presence of basophilia and BCR-ABL fusion (Philadelphia chromosome) confirms CML, which is distinguished from a reactive leukocytosis by low LAP score. Treatment with tyrosine kinase inhibitors has dramatically improved CML outcomes."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG",
+      "alt": "Chronic myeloid leukemia (CML) peripheral smear showing marked leukocytosis with granulocyte left shift.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chronic_Myeloid_Leukemia_smear_2009-04-09.JPG"
+      }
+    }
+  ],
+  "see_also": [
+    "leukemia",
+    "chronic-myeloid-leukemia",
+    "chronic-lymphocytic-leukemia"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Leukocytosis (Mank & Azhar, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560882/"
+    },
+    {
+      "title": "Medscape: Leukocytosis Differential Diagnoses (Inoue, 2025)",
+      "url": "https://emedicine.medscape.com/article/956278-differential"
+    },
+    {
+      "title": "UpToDate: Approach to the patient with neutrophilia (Schwartz et al., 2025)",
+      "url": "https://www.uptodate.com/contents/approach-to-the-patient-with-neutrophilia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

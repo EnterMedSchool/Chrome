@@ -1,0 +1,166 @@
+{
+  "id": "obesity",
+  "names": ["Obesity"],
+  "aliases": [
+    "Excess adiposity",
+    "Overweight (BMI ≥25 adult)",
+    "Morbid obesity"
+  ],
+  "abbr": ["BMI"],
+  "patterns": [
+    "obesity",
+    "obese",
+    "morbid obesity",
+    "excess weight",
+    "overweight"
+  ],
+  "primary_tag": "endocrine",
+  "tags": ["epi_stats", "endocrine", "cardio", "peds", "msk_derm"],
+  "definition": "Obesity is a chronic disease of excess body fat. Adults: BMI ≥30 kg/m². Children/adolescents: BMI-for-age ≥95th percentile (adjusted for age/sex).",
+  "why_it_matters": "Obesity is very common and has serious health impacts. Over 40% of U.S. adults have obesity. It greatly raises risk for type 2 diabetes, hypertension, heart disease, fatty liver, and certain cancers, contributing to huge healthcare costs (~$173 billion in US). Childhood obesity often continues into adulthood, multiplying lifetime health risks.",
+  "how_youll_see_it": [
+    "Adults often are asymptomatic aside from weight gain; frequently found on exam or during evaluation of comorbidities. Look for central obesity (high waist circumference), acanthosis nigricans (insulin resistance), striae, skin tags. Many patients have type 2 diabetes, dyslipidemia, fatty liver (elevated ALT), osteoarthritis, or symptoms of sleep apnea (snoring, daytime sleepiness).",
+    "Children/adolescents often come for preventive visits or school physicals. They will have a BMI crossing the 95th percentile on growth charts. Family history of obesity is common. Physical exam may show acanthosis nigricans and early puberty (girls). Psychosocial effects (low self-esteem) may be present."
+  ],
+  "problem_solving": [
+    "Confirm obesity: calculate BMI (adults) or BMI-for-age percentile (children) using height and weight. Classify severity (BMI 30–34.9 = Class I, 35–39.9 = Class II, ≥40 = Class III).",
+    "History: assess diet (caloric intake), physical activity, sleep habits, family history of obesity/CV disease, and medications (e.g., steroids, antipsychotics) that cause weight gain.",
+    "Physical exam and labs: measure waist circumference and blood pressure. Look for acanthosis nigricans, striae, and signs of obesity complications. Screen blood tests: fasting glucose/HbA1c, lipid panel, liver function (ALT), and consider TSH/cortisol if endocrine causes suspected.",
+    "Evaluate for comorbidities and complications: sleep study for snoring, liver ultrasound for fatty liver, PCOS workup for females (androgens, ultrasound), and mental health screening if needed.",
+    "Determine treatment plan: emphasize lifestyle interventions and set realistic goals. Assess readiness to change.",
+    "If BMI is very high or comorbidities severe, consider referral to a weight management program, dietitian, or endocrinologist."
+  ],
+  "differentials": [
+    {
+      "name": "Hypothyroidism",
+      "hint": "Bradycardia, fatigue, cold intolerance, constipation and weight gain (usually modest) relative to other symptoms"
+    },
+    {
+      "name": "Cushing syndrome",
+      "hint": "Rapid weight gain with central fat, purple striae, buffalo hump, muscle weakness, hypertension"
+    },
+    {
+      "name": "Polycystic ovary syndrome",
+      "hint": "Obese adolescent girl with irregular menses, hirsutism, acne, and insulin resistance"
+    },
+    {
+      "name": "Prader-Willi syndrome",
+      "hint": "Childhood obesity with extreme hyperphagia, short stature, hypotonia, hypogonadism"
+    },
+    {
+      "name": "Medication-induced weight gain",
+      "hint": "History of taking corticosteroids, atypical antipsychotics, insulin or other drugs known to cause weight gain"
+    }
+  ],
+  "tricks": [
+    "BMI categories: underweight <18.5, normal 18.5–24.9, overweight 25–29.9, obese I 30–34.9, II 35–39.9, III ≥40 (morbid obesity).",
+    "In children: overweight = 85–94th percentile, obesity ≥95th percentile on growth charts.",
+    "Body habitus: \"Apple\" (android/central) obesity has higher metabolic risk than \"pear\" (gynoid) obesity.",
+    "Recall BMI formula: weight (kg) divided by height (m) squared."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient (BMI 38) with type 2 diabetes, hypertension, and dyslipidemia → classic metabolic syndrome due to obesity.",
+    "Teenage girl (BMI >97th percentile) with irregular menstruation and hirsutism → suggestive of obesity-associated PCOS (insulin resistance).",
+    "Obese patient reporting loud snoring, daytime fatigue, and morning headaches → consider obesity hypoventilation syndrome/obstructive sleep apnea."
+  ],
+  "treatment": [
+    "Lifestyle (first-line): calorie-restricted diet, increased physical activity (e.g. ≥150 min moderate exercise/week for adults), and behavioral counseling or structured weight-loss program.",
+    "Pharmacotherapy (adults): for BMI ≥30 or ≥27 with comorbidity. Options include GLP-1 agonists (e.g. liraglutide, semaglutide), naltrexone–bupropion, orlistat, phentermine–topiramate, and short-term phentermine.",
+    "Pharmacotherapy (children ≥12): consider after lifestyle modifications. Options include orlistat, metformin (for insulin resistance), and GLP-1 agonists (liraglutide, semaglutide) with pediatric endocrinology guidance.",
+    "Surgery: Bariatric procedures (gastric bypass, sleeve gastrectomy) if BMI ≥40, or ≥35 with severe comorbidity (diabetes, sleep apnea). Adolescents (≥13y) with BMI ≥35 and failed medical therapy may be referred for surgical evaluation."
+  ],
+  "red_flags": [
+    "Early-onset obesity (infancy/early childhood) or failure to thrive with obesity (short stature, delayed bone age): suggests endocrine/genetic cause (hypothyroidism, Cushing, Prader-Willi).",
+    "Rapid unexplained weight gain with striae, moon facies, or proximal weakness: consider Cushing syndrome.",
+    "Severe obesity in a child with family history of non-obesity or coexisting short stature: evaluate for endocrine disease.",
+    "Obesity with unusual comorbidities (e.g. polycystic ovary syndrome in a young girl, nonalcoholic steatohepatitis, pseudotumor cerebri): screen and manage early."
+  ],
+  "algorithm": [
+    "Measure BMI (or BMI percentile) at routine visits to identify obesity.",
+    "Gather history: dietary intake, activity level, family history of obesity/diabetes, and review medications.",
+    "Perform exam and basic screening tests: check blood pressure, look for acanthosis nigricans, and order glucose (HbA1c), lipids, and liver enzymes. Obtain endocrine labs (TSH, cortisol) if indicated.",
+    "Initiate intensive lifestyle counseling: set achievable diet and exercise goals with patient/family.",
+    "Re-evaluate progress after 3–6 months: if no improvement or comorbidities persist, escalate to pharmacotherapy or structured weight management programs.",
+    "Refer as needed: for BMI ≥40 (or ≥35 with complications) consider bariatric surgery evaluation, and involve dietitians, endocrinologists, or pediatric obesity clinics for support."
+  ],
+  "cases": [
+    {
+      "stem": "A 45-year-old man (BMI 38) with type 2 diabetes and hypertension comes for evaluation. He has acanthosis nigricans and elevated liver enzymes.",
+      "clues": [
+        "BMI 38 (Class II obesity)",
+        "Type 2 diabetes (HbA1c 8.5%)",
+        "Hypertension",
+        "Acanthosis nigricans (skin taglike hyperpigmentation)",
+        "Elevated ALT (fatty liver)"
+      ],
+      "answer": "Obesity with metabolic syndrome",
+      "teaching": "This patient's severe obesity is causing insulin resistance (acanthosis) and has led to diabetes, hypertension, and fatty liver. The focus should be on weight reduction (diet/exercise, medications, or bariatric referral) to improve all metabolic parameters."
+    },
+    {
+      "stem": "A 13-year-old girl with BMI at the 97th percentile has irregular periods, hirsutism, and elevated fasting insulin. Her mother has obesity and polycystic ovary syndrome.",
+      "clues": [
+        "BMI 32 (obese)",
+        "Irregular menstruation",
+        "Hirsutism",
+        "Elevated fasting insulin",
+        "Family history of PCOS"
+      ],
+      "answer": "Polycystic ovary syndrome (obesity-related)",
+      "teaching": "This presentation is classic for PCOS in the context of obesity and insulin resistance. First-line management is weight loss through diet and exercise, which often improves menstrual regularity and insulin sensitivity."
+    }
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/BMI_index_diagram.png",
+      "alt": "Chart illustrating BMI categories by weight and height (underweight to obese range)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:BMI_index_diagram.png"
+      }
+    }
+  ],
+  "see_also": [
+    "polycystic-ovary-syndrome",
+    "nonalcoholic-fatty-liver-disease",
+    "diabetes-mellitus"
+  ],
+  "prerequisites": ["endocrine-physiology"],
+  "sources": [
+    {
+      "title": "Adult Obesity Facts – CDC",
+      "url": "https://www.cdc.gov/obesity/data/adult.html"
+    },
+    {
+      "title": "About Child & Teen BMI – CDC",
+      "url": "https://www.cdc.gov/obesity/basics/childhood-defining.html"
+    },
+    {
+      "title": "Obesity and Overweight – WHO Fact Sheet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight"
+    },
+    {
+      "title": "Acanthosis nigricans (diabetes skin sign) – CDC",
+      "url": "https://www.cdc.gov/diabetes/library/features/acanthosis-nigricans.html"
+    },
+    {
+      "title": "Evaluation and Treatment of Child Obesity (AAP/CDC)",
+      "url": "https://www.cdc.gov/obesity/child-obesity-strategies/evaluation-and-treatment.html"
+    },
+    {
+      "title": "Treatment of Overweight & Obesity – NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/treatment"
+    },
+    {
+      "title": "Obesity in Adolescents – Adol Health Med Ther",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5179206/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

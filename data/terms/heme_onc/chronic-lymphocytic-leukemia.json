@@ -1,0 +1,120 @@
+{
+  "id": "chronic-lymphocytic-leukemia",
+  "names": ["Chronic lymphocytic leukemia"],
+  "aliases": ["small lymphocytic lymphoma"],
+  "abbr": ["CLL"],
+  "patterns": [
+    "cll",
+    "chronic lymphocytic leukemia",
+    "chronic lymphoid leukemia",
+    "small lymphocytic lymphoma",
+    "sll"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": ["pathology", "heme_onc", "genetics"],
+  "definition": "Indolent **B-cell leukemia** of older adults, characterized by chronic lymphocytosis and immune dysfunction. **Small lymphocytic lymphoma (SLL)** is the term for the same clonal malignancy when it presents primarily in lymph nodes rather than blood.",
+  "why_it_matters": "Most common adult leukemia in Western countries. Frequently encountered as an incidental lymphocytosis, yet important for its classic exam hallmarks (e.g., **smudge cells**) and unique management (often observation until progression). Also notable for potential transformation to an aggressive lymphoma (Richter syndrome).",
+  "how_youll_see_it": [
+    "Often **asymptomatic** at diagnosis; routine labs may show very high **WBC** (e.g., >50,000) with lymphocytosis. Physical exam can be unremarkable or reveal painless lymphadenopathy and splenomegaly.",
+    "Typical patient is **elderly** (median age ~65–70). Some patients develop nonspecific symptoms like fatigue or weight loss. **B symptoms** (fever, night sweats, unintentional weight loss) are usually absent until advanced disease or transformation.",
+    "**Recurrent infections** are common later due to **hypogammaglobulinemia** (impaired immunoglobulin production). Autoimmune complications can occur (e.g., warm autoimmune hemolytic anemia)."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with **flow cytometry** of peripheral blood showing a clonal B-cell population co-expressing **CD5** and **CD23** (characteristic immunophenotype of CLL).",
+    "Stage the disease (e.g., **Rai** or **Binet** systems): early stage (lymphocytosis only) vs. advanced (extensive lymphadenopathy, organomegaly, anemia or thrombocytopenia). Staging guides prognosis but not treatment decisions.",
+    "Assess prognostic markers: perform FISH for cytogenetics (e.g., del(13q) is favorable, while **del(17p)** or TP53 mutation portends poor prognosis) and determine **IGHV** mutation status (mutated IGHV = more indolent disease).",
+    "Treatment is indicated only for **active disease** (e.g., significant symptoms, rapidly progressive lymphocytosis, bulky lymphadenopathy, or cytopenias from marrow infiltration). **Watchful waiting** is standard for low-risk, asymptomatic CLL.",
+    "If treatment is needed, targeted therapies are first-line (see **Treatment** below). Also address supportive care: e.g., periodic IVIG infusions for severe hypogammaglobulinemia with infections, and manage autoimmune hemolysis with steroids."
+  ],
+  "differentials": [
+    {
+      "id": "mantle-cell-lymphoma",
+      "hint": "Older male, CD5+ **but CD23–**; involves GI tract (e.g., bowel polyps); driven by **t(11;14)** cyclin D1 overexpression; more aggressive course"
+    },
+    {
+      "id": "hairy-cell-leukemia",
+      "hint": "Middle-aged man with massive splenomegaly and pancytopenia; lymphocytes with cytoplasmic 'hairy' projections; **TRAP** positive, BRAF mutation"
+    },
+    {
+      "name": "Reactive (infectious) lymphocytosis",
+      "hint": "Polyclonal lymphocyte expansion (e.g., EBV mononucleosis, viral infections); usually self-limited and lacks clonal markers"
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **CLL = Crushed Little Lymphocytes** – referring to the classic **smudge cells** (fragile lymphocytes broken during smear preparation).",
+    "CLL/SLL cells aberrantly co-express **CD5** (normally a T-cell antigen) along with B-cell markers (CD19, CD20) and **CD23** – a key immunophenotypic clue distinguishing CLL from other leukemias/lymphomas.",
+    "Cytogenetics predict prognosis: **del(13q)** is most common and confers a favorable outcome, whereas **del(17p)** (loss of TP53) is associated with chemotherapy resistance and worse prognosis."
+  ],
+  "exam_appearance": [
+    "Older adult with a very high WBC count (e.g., 100,000) composed mostly of lymphocytes and many smudge cells on peripheral smear → Chronic lymphocytic leukemia (often asymptomatic at presentation).",
+    "Patient with known CLL who develops sudden B symptoms (fevers, night sweats, weight loss) and rapid growth of a single lymph node → suspect **Richter transformation** (CLL evolving into an aggressive large B-cell lymphoma)."
+  ],
+  "treatment": [
+    "Early-stage or low-risk CLL (e.g., Rai stage 0) is managed with **observation** (\"watch and wait\") – no treatment unless the disease progresses or symptoms appear.",
+    "For active or advanced disease, first-line therapy involves targeted agents rather than traditional chemo. **Bruton tyrosine kinase (BTK) inhibitors** like **ibrutinib** or **acalabrutinib**, or the **BCL-2 inhibitor** **venetoclax**, are used often in combination with an anti-**CD20** monoclonal antibody (e.g., **rituximab** or **obinutuzumab**).",
+    "Intensive chemoimmunotherapy (e.g., **FCR** regimen – fludarabine, cyclophosphamide, rituximab) can induce remissions in fit younger patients (particularly with IGHV-mutated disease) but is now largely supplanted by targeted therapies due to better safety and outcomes.",
+    "Manage complications: e.g., autoimmune hemolytic anemia is treated with corticosteroids; severe infections may warrant IVIG; consider allogeneic stem cell transplant or CAR T-cell therapy in refractory CLL cases."
+  ],
+  "red_flags": [
+    "New-onset **B symptoms** (fever, drenching night sweats, weight loss) or a rapidly enlarging lymph node in a CLL patient – raises concern for **Richter transformation** to an aggressive lymphoma.",
+    "Unexplained rapid drop in hemoglobin in CLL → evaluate for **autoimmune hemolytic anemia** (Coombs-positive hemolysis, which CLL can trigger) and treat promptly (e.g., steroids)."
+  ],
+  "algorithm": [
+    "Unexplained lymphocytosis (especially in an older adult) or persistent lymphadenopathy → **suspect CLL**.",
+    "Confirm CLL with **flow cytometry** on blood showing clonal B cells (CD19+) with co-expression of **CD5** and **CD23**.",
+    "Evaluate disease extent: thorough exam for lymph nodes and organomegaly; use **Rai/Binet staging** to stratify risk (e.g., lymphocytosis only vs. lymphadenopathy vs. anemia/thrombocytopenia).",
+    "If early stage and asymptomatic → **observe** (no immediate treatment, regular follow-up).",
+    "If **symptomatic or advanced** (bulky nodes, cytopenias, or symptoms) → **treat** with appropriate therapy (targeted agents ± anti-CD20 antibody)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Chronic_Lymphocytic_Leukaemia_(lymphocytosis_and_smear_cells).jpg",
+      "alt": "Peripheral blood smear in CLL demonstrating numerous small lymphocytes and characteristic smudge cells (broken cells).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chronic_Lymphocytic_Leukaemia_(lymphocytosis_and_smear_cells).jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 67‑year‑old man is referred for evaluation of an elevated white blood cell count noted on routine lab work. He feels well and denies any symptoms.",
+      "clues": [
+        "WBC 80,000/µL with 90% lymphocytes (persistent lymphocytosis)",
+        "Smudge cells on peripheral blood smear",
+        "Generalized nontender lymphadenopathy"
+      ],
+      "answer": "Chronic lymphocytic leukemia",
+      "teaching": "CLL is an indolent clonal proliferation of mature B cells in older adults. It often presents incidentally with high lymphocyte counts and smudge cells on smear. Diagnosis is confirmed with immunophenotyping (CD5+ CD23+ B cells). Asymptomatic early-stage CLL is managed with observation until progression."
+    }
+  ],
+  "see_also": [
+    "chronic-myeloid-leukemia",
+    "non-hodgkin-lymphoma",
+    "leukemia",
+    "lymphoma"
+  ],
+  "prerequisites": ["leukemia"],
+  "sources": [
+    {
+      "title": "StatPearls: Chronic Lymphocytic Leukemia (Mukkamalla & Taneja, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470433/"
+    },
+    {
+      "title": "UpToDate: Overview of the treatment of chronic lymphocytic leukemia",
+      "url": "https://www.uptodate.com/contents/overview-of-the-treatment-of-chronic-lymphocytic-leukemia"
+    },
+    {
+      "title": "Medscape: Chronic Lymphocytic Leukemia (2025)",
+      "url": "https://emedicine.medscape.com/article/199313-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

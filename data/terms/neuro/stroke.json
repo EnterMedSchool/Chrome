@@ -1,0 +1,121 @@
+{
+  "id": "stroke",
+  "names": ["Stroke"],
+  "aliases": ["cerebrovascular accident", "brain attack"],
+  "abbr": ["CVA"],
+  "patterns": ["stroke", "cva", "cerebrovascular accident", "brain attack"],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "cardio", "emerg"],
+  "definition": "Acute loss of brain function due to disrupted blood flow—usually from an arterial blockage (**ischemic stroke**, ~85% of cases) or a ruptured vessel causing bleeding (**hemorrhagic stroke**, ~15%).",
+  "why_it_matters": "Very common (≈800k strokes/year in US) and a leading cause of adult **disability** and death (5th leading cause of death). Rapid recognition and treatment (\"time is brain\") can save brain tissue, so stroke is a high-yield emergency topic on boards.",
+  "how_youll_see_it": [
+    "Typically a **sudden onset** of focal neurologic deficits: one-sided weakness or numbness, facial droop, speech difficulty (**aphasia** or slurred speech), vision loss, or imbalance. The mnemonic **FAST** (Face drooping, Arm weakness, Speech difficulty, Time) highlights common signs and urgency.",
+    "**Ischemic strokes** usually cause painless loss of function (e.g., hemiparesis, hemisensory loss, aphasia). **Hemorrhagic strokes** are more likely to present with **headache**, vomiting, or altered consciousness due to increased intracranial pressure. (e.g., intracerebral hemorrhage often causes sudden severe headache and stupor; subarachnoid hemorrhage classically causes a \"**thunderclap**\" headache with neck stiffness.)",
+    "**Risk factors**: **Hypertension** is the single most important risk factor (accounts for ~48% of stroke risk). Other major contributors are **smoking**, **diabetes**, **dyslipidemia**, and **atrial fibrillation** (a key cause of **cardioembolic** ischemic strokes). Older age and vascular disease history also increase risk.",
+    "**Subtypes**: **TIA** (transient ischemic attack) – brief stroke-like deficit that resolves within 24 hours by definition (often <1 hour) with no permanent damage. **Lacunar strokes** – small deep infarcts from chronic HTN (lipohyalinosis) in penetrating arteries, causing isolated syndromes (e.g., pure motor hemiparesis) without cortical signs. **Large-vessel strokes** – occlusion of a major artery (e.g., MCA) leading to extensive deficits (contralateral hemiplegia, hemisensory loss, gaze deviation, and aphasia if dominant hemisphere or neglect if non-dominant)."
+  ],
+  "problem_solving": [
+    "Stabilize ABCs and immediately check **fingerstick glucose** (hypoglycemia can mimic stroke).",
+    "Perform a focused neurologic exam with **NIH Stroke Scale (NIHSS)** scoring (0–42 scale, higher = more severe deficit) to quantify stroke severity.",
+    "Obtain emergent **noncontrast head CT** (within minutes) to distinguish ischemic vs hemorrhagic stroke. If no hemorrhage (ischemic stroke), consider urgent vascular imaging (CT or MR angiography) to detect large vessel occlusion (for potential thrombectomy).",
+    "If ischemic stroke confirmed: assess eligibility for reperfusion therapy – IV **alteplase (tPA)** if within 3–4.5 hour window (no contraindications), and for a large occlusion, add mechanical **thrombectomy** (endovascular clot retrieval, within 6–24 h for select patients). Begin supportive measures (e.g., keep patient NPO until swallowing is evaluated; permissive hypertension is allowed in ischemic stroke to promote perfusion, unless above tPA limits).",
+    "If hemorrhagic stroke: manage airway and blood pressure (usually target SBP ~140 mmHg to limit bleeding), reverse any anticoagulation, and obtain neurosurgery consult early (for possible hematoma evacuation or aneurysm treatment).",
+    "After initial stabilization, work up the **cause**: e.g., carotid imaging (Doppler ultrasound, CTA) for carotid stenosis, cardiac evaluation (**ECG/telemetry** for atrial fibrillation, **echocardiogram** for clots), and labs (e.g., lipids, HbA1c, hypercoagulability tests in young patients)."
+  ],
+  "differentials": [
+    {
+      "name": "Hypoglycemia",
+      "hint": "low blood sugar can cause focal deficits or confusion; always check glucose first"
+    },
+    {
+      "name": "Seizure (Todd paralysis)",
+      "hint": "postictal transient paralysis after a seizure; look for preceding convulsions or tongue bite"
+    },
+    {
+      "name": "Migraine with aura",
+      "hint": "hemiplegic migraine can mimic stroke with transient neurologic deficits, usually gradual onset and with headache"
+    }
+  ],
+  "tricks": [
+    "Always check **glucose** in acute neuro deficits – stroke mimics like hypoglycemia are easily ruled out with a fingerstick.",
+    "**Time is brain**: an untreated large stroke can destroy ~2 million neurons per minute, so every minute of delay in reperfusion worsens outcome.",
+    "Blood pressure management differs by stroke type: in ischemic stroke, allow **permissive hypertension** (don't lower BP acutely unless >185/110 mmHg when giving tPA) to maintain perfusion, whereas in hemorrhagic stroke, **aggressive BP control** (≈140s) is needed to prevent hematoma expansion.",
+    "**Lacunar infarcts** (small vessel strokes) cause pure motor or pure sensory strokes and notably **lack cortical signs** like aphasia or neglect – a clue that the lesion is subcortical (e.g., internal capsule)."
+  ],
+  "exam_appearance": [
+    "Right-handed 70‑year‑old with atrial fibrillation (off anticoagulation) suddenly develops right facial droop, right arm weakness, and **aphasia** → left (dominant) MCA ischemic stroke (likely cardioembolic from AF).",
+    "Middle-aged patient with long-standing hypertension complains of the **\"worst headache of my life,\"** then rapidly becomes obtunded with vomiting and left-sided weakness → intracerebral hemorrhage (e.g., hypertensive basal ganglia hemorrhage).",
+    "A patient reports a 10-minute episode of blurry vision and left hand weakness that self-resolved, exam now normal → **transient ischemic attack (TIA)** (warning sign for future stroke)."
+  ],
+  "treatment": [
+    "Ischemic stroke (acute): If within **4.5 hours** of symptom onset and meets criteria, give IV thrombolytic (**alteplase/tPA**) to dissolve the clot. For a large artery occlusion (especially proximal anterior circulation), perform urgent mechanical **thrombectomy** (endovascular clot removal), ideally within 6 hours (up to 24 h in select cases). Control blood pressure (must be <185/110 mmHg before tPA; if no tPA, do not lower BP unless >220/120).",
+    "Hemorrhagic stroke (acute): **Reverse anticoagulation** (if applicable), lower blood pressure (target ~140 mmHg systolic) to reduce bleeding, and manage intracranial pressure (**head elevation**, **mannitol**, or hyperventilation for signs of herniation). Consult neurosurgery; urgent surgical evacuation is considered for cerebellar hemorrhages or large hematomas causing mass effect. For aneurysmal subarachnoid hemorrhage, secure the aneurysm (coiling or clipping) and give **nimodipine** to prevent vasospasm.",
+    "Aftercare & prevention: Start **aspirin** within 24–48 hours for ischemic stroke (typically after 24 h repeat CT if tPA was given). Long-term, use **antiplatelet** therapy (aspirin ± dipyridamole, or clopidogrel) for non-cardioembolic stroke, or **anticoagulation** for cardioembolic stroke (e.g., warfarin or DOAC in atrial fibrillation), usually starting about 1–2 weeks after stroke. Implement secondary prevention: high-intensity **statin** for atherosclerotic stroke, blood pressure control, diabetes management, smoking cessation. Early mobilization and comprehensive stroke **rehabilitation** (physical, occupational, speech therapy) are crucial for functional recovery."
+  ],
+  "red_flags": [
+    "**Declining level of consciousness** or **new coma** in a stroke patient → suspect massive stroke with edema or an expanding hemorrhage causing increased intracranial pressure and possible herniation (urgent intervention needed, e.g., decompressive craniectomy).",
+    "After thrombolytic therapy, watch for acute **neurologic worsening** with headache or vomiting → sign of possible intracerebral hemorrhage (tPA complication). Stop infusion and get emergent CT scan if this is suspected."
+  ],
+  "algorithm": [
+    "Sudden focal neurologic deficit → **activate stroke protocol** (\"code stroke\"), ensure ABCs, and check fingerstick **glucose** immediately.",
+    "**Within 10 min** of arrival: perform a quick exam (vitals, NIHSS) and obtain emergent **noncontrast CT** of the head to differentiate ischemic vs hemorrhagic stroke.",
+    "If no hemorrhage on CT (→ ischemic stroke): assess **tPA** eligibility (≤4.5 h since onset, BP <185/110, no major contraindications) and begin thrombolysis if appropriate. Simultaneously, if large vessel occlusion is suspected (severe deficits, cortical signs), get CT or MR **angiography** to confirm and arrange thrombectomy (can be done up to 24 h in select cases).",
+    "If intracerebral hemorrhage on CT: focus on **airway protection** (intubate if decreased LOC) and **blood pressure reduction** (often target ~140 mmHg) to prevent expansion. Reverse any anticoagulants and consult neurosurgery urgently (for possible hematoma evacuation or intracranial pressure relief). Treat complications (e.g., seizures, elevated ICP) as needed.",
+    "Admit to a stroke unit for monitoring. After acute treatment, initiate **rehabilitation** early and evaluate stroke **etiology** to guide secondary prevention (e.g., carotid imaging for endarterectomy if stenosis, start antithrombotics, manage risk factors)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Cerebral_vascular_territories.jpg",
+      "alt": "Diagram of cerebral arterial territories: anterior cerebral artery (yellow), middle cerebral artery (red), and posterior cerebral artery (blue).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Cerebral_vascular_territories.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with hypertension and poorly controlled atrial fibrillation suddenly develops slurred speech and right-sided weakness.",
+      "clues": [
+        "Right facial droop and right arm > leg weakness",
+        "Expressive aphasia (difficulty speaking, aware of deficit)",
+        "NIH Stroke Scale score = 15 (moderate stroke)",
+        "Head CT shows no bleeding"
+      ],
+      "answer": "Left MCA (dominant hemisphere) ischemic stroke (cardioembolic from atrial fibrillation)",
+      "teaching": "Uncontrolled atrial fibrillation can lead to cardiac thrombus formation and **embolism** to the brain. Sudden onset of contralateral face/arm weakness and **aphasia** indicates a left middle cerebral artery infarct. Urgent reperfusion therapy (tPA within 4.5 h, plus possible thrombectomy) is indicated, and later the patient should be started on anticoagulation to prevent recurrence."
+    }
+  ],
+  "see_also": [
+    "atrial-fibrillation",
+    "subarachnoid-haemorrhage",
+    "coronary-artery-disease",
+    "aneurysm"
+  ],
+  "prerequisites": [
+    "cerebral-arteries",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Ischemic Stroke (Lui & Khan, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499997/"
+    },
+    {
+      "title": "UpToDate: Initial assessment and management of acute ischemic stroke in adults",
+      "url": "https://www.uptodate.com/contents/initial-assessment-and-management-of-acute-ischemic-stroke-in-adults"
+    },
+    {
+      "title": "AHA/ASA 2019 Guidelines for Early Management of Acute Ischemic Stroke (Powers et al., 2019)",
+      "url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000211"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

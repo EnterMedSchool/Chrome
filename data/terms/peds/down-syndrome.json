@@ -1,0 +1,107 @@
+{
+  "id": "down-syndrome",
+  "names": [
+    "Down syndrome"
+  ],
+  "aliases": [
+    "trisomy 21",
+    "Down's syndrome"
+  ],
+  "abbr": [
+    "DS"
+  ],
+  "patterns": [
+    "down syndrome",
+    "downs syndrome",
+    "down's syndrome",
+    "trisomy 21"
+  ],
+  "primary_tag": "peds",
+  "tags": [
+    "genetics",
+    "pathology",
+    "peds",
+    "cardio",
+    "endocrine",
+    "heme_onc"
+  ],
+  "definition": "A genetic condition caused by an extra copy of **chromosome 21** (trisomy 21), most often due to maternal meiotic **nondisjunction**. It leads to a characteristic constellation of dysmorphic features, **intellectual disability**, and multisystem medical complications.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Down_syndrome_lg.jpg",
+      "alt": "Illustration of facial features in Down syndrome (flat nasal bridge, upslanting palpebral fissures, epicanthal folds, open mouth with protruding tongue, small low-set ears).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Down_syndrome_lg.jpg"
+      }
+    }
+  ],
+  "why_it_matters": "Down syndrome is the **most common chromosomal cause of intellectual disability** (≈1 in 700-1000 live births). Recognition of its features and associated conditions is high-yield for exams and crucial for providing appropriate medical surveillance and family counseling.",
+  "how_youll_see_it": [
+    "Newborns: often noted to be **hypotonic** (\"floppy\") with distinctive facial features – **flat facial profile**, **upslanting palpebral fissures**, **epicanthal folds**, **small low-set ears**, and a protruding tongue. They may have a short neck with excess skin, a **single palmar crease**, and a wide gap between the first two toes (\"sandal gap\").",
+    "Approximately **40–50%** have a **congenital heart defect**, most commonly an **atrioventricular (AV) septal defect** (endocardial cushion defect). Other heart lesions include **VSD**, **ASD**, or **PDA**. About 5% have GI anomalies like **duodenal atresia** or **Hirschsprung disease**, which present with feeding intolerance or obstruction (e.g., bilious vomiting with a \"double-bubble\" sign).",
+    "During infancy and childhood: **developmental milestones** are delayed, and most individuals have mild-to-moderate intellectual disability. They are predisposed to **hearing loss** (e.g., from chronic otitis media) and **vision problems** (cataracts, strabismus). Other common issues include short stature, **hypothyroidism**, and an increased susceptibility to infections. In adulthood, patients have a greatly elevated risk of early-onset **Alzheimer disease** (amyloid deposition begins by age 40s)."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis with **karyotype analysis** of the infant's blood to identify trisomy 21 and distinguish standard trisomy from translocation or mosaic forms. If a Robertsonian translocation is present, perform **parental karyotypes** to assess recurrence risk (which can be significantly higher in translocation carriers).",
+    "**Prenatal screening**: All pregnant patients are offered screening for Down syndrome. Options include **first-trimester combined screening** (maternal age, nuchal translucency ultrasound, PAPP-A, β-hCG) and **second-trimester quad screen**. If the screening indicates high risk (for example, abnormal serum markers), patients should be offered confirmation via diagnostic testing (chorionic villus sampling in the first trimester or amniocentesis in the second). **Non-invasive prenatal testing (NIPT)** using cell-free DNA can also be done (from 10 weeks) and has ~99% sensitivity for Down syndrome, but positive NIPT results still require confirmation with CVS or amniocentesis.",
+    "If Down syndrome is confirmed in a fetus or newborn, initiate evaluations for common associated conditions. For example, obtain an **echocardiogram** soon after birth to detect CHD (even if prenatal ultrasounds were normal), and be vigilant for GI obstruction (abdomen X-ray if vomiting or failure to pass meconium). Newborn hearing screening and a thyroid function test (TSH) should be performed, given the risk of congenital or early hypothyroidism.",
+    "Long-term, management is multidisciplinary. Follow the **Down syndrome–specific health supervision guidelines**: these include regular screening (e.g., annual thyroid labs, vision and hearing exams, cervical spine monitoring for atlantoaxial instability, etc.) and anticipatory guidance. Families should receive genetic counseling (recurrence risk is low in nondisjunction Down syndrome, but can be up to 10–15% if the mother is a translocation carrier) and support resources. Early intervention therapies and inclusive education greatly improve outcomes."
+  ],
+  "differentials": [
+    {
+      "name": "Edwards syndrome (trisomy 18)",
+      "hint": "More severe infant; **growth restriction**, **clenched hands** with overlapping fingers, **rocker-bottom feet**, low-set ears; often fatal by age 1."
+    },
+    {
+      "name": "Patau syndrome (trisomy 13)",
+      "hint": "**Midline defects** (cleft lip/palate, holoprosencephaly), **polydactyly**, cutis aplasia; severe intellectual disability and early death."
+    },
+    {
+      "name": "Noonan syndrome",
+      "hint": "Distinct genetic syndrome (normal karyotype) with Down-like facies and short stature. Look for **webbed neck**, **pulmonic stenosis**, and **cryptorchidism**; often called \"pseudo-Turner\" (can affect males or females)."
+    }
+  ],
+  "tricks": [
+    "Think of the **5 A's** of Down syndrome: **Advanced maternal age**, **Atresia** (duodenal), **AV septal defect**, **Alzheimer disease** (early onset), **ALL/AML** (leukemia risk).",
+    "**\"HI\" is high** for Down syndrome screening – **hCG** and **Inhibin A** levels are elevated on the quad screen, while AFP and estriol are low.",
+    "**Maternal age effect**: The risk of trisomy 21 increases with maternal age (about **1/350 at age 35** vs **1/30 by age 45**). (However, most babies with Down syndrome are born to younger mothers, since younger women have more total pregnancies.)"
+  ],
+  "exam_appearance": [
+    "Newborn with **hypotonia**, a **flat face** with upslanting palpebral fissures, a protruding tongue, and a loud **endocardial cushion defect** murmur → **Down syndrome** (trisomy 21).",
+    "Second-trimester **quad screen** shows **↓AFP**, **↓estriol**, **↑β-hCG**, **↑inhibin A** → suggests **Down syndrome** in the fetus.",
+    "A 10-year-old with Down syndrome develops **ataxic gait, hyperreflexia,** and neck pain → suspect **atlantoaxial instability** (C1–C2 subluxation compressing the spinal cord)."
+  ],
+  "treatment": [
+    "There is **no cure** for Down syndrome. Management focuses on treating medical issues and optimizing development. Many congenital anomalies are treatable: for example, surgical repair of an **AV canal heart defect** or intestinal atresia can significantly improve quality of life.",
+    "**Early intervention** is crucial – this includes physiotherapy for hypotonia, occupational and speech therapy for developmental skills, and individualized education plans. With support, children can reach their developmental potential and partake in school and social activities.",
+    "Adhere to routine **health maintenance** for Down syndrome: regular thyroid function tests (to detect hypothyroidism), audiology and ophthalmology exams, and cervical spine precautions (especially prior to sports or anesthesia). Provide family support (connecting to Down syndrome support groups, resources) and transition planning for adulthood."
+  ],
+  "red_flags": [
+    "**New neurologic symptoms** in a patient with Down syndrome (e.g., neck pain, gait change, weakness, bowel/bladder dysfunction) → evaluate immediately for **atlantoaxial instability** and spinal cord compression (requires prompt imaging and neurosurgical consultation).",
+    "Unusual bleeding, bruising, or infection in a Down syndrome child → high index of suspicion for **acute leukemia** (Down syndrome confers a 20-fold increased risk); urgent hematologic evaluation is warranted."
+  ],
+  "algorithm": [
+    "Pregnancy: offer screening for Down syndrome (if **screen-positive** or advanced maternal age, follow with high-sensitivity cfDNA **NIPT** or diagnostic **CVS**/**amniocentesis**).",
+    "Newborn: if Down syndrome is suspected, obtain a **karyotype** to confirm the diagnosis. If confirmed, initiate workups for common anomalies (e.g., echo for heart defect, abdominal imaging if GI issues). If a translocation is found on karyotype, test the parents' chromosomes to guide recurrence risk.",
+    "Long-term: implement **multidisciplinary care**. Manage any congenital defects (e.g., cardiac surgery), enroll in **early intervention** therapies, and follow Down syndrome health supervision guidelines for **lifelong surveillance** (thyroid, hearing, vision, spine, etc.)."
+  ],
+  "cases": [
+    {
+      "stem": "A 38-year-old mother delivers a male newborn with generalized hypotonia and dysmorphic features.",
+      "clues": [
+        "Flat facial profile, upslanting palpebral fissures",
+        "Protruding tongue and single transverse palmar crease",
+        "Echocardiogram: complete AV septal defect (endocardial cushion defect)"
+      ],
+      "answer": "Down syndrome (trisomy 21)",
+      "teaching": "Chromosomal disorder caused by an extra copy of chromosome 21, most often due to maternal nondisjunction. This is the most common genetic cause of intellectual disability. Confirm the diagnosis with karyotyping. Newborns require screening for associated anomalies (like heart defects, which often require surgical repair, and gastrointestinal atresias) and lifelong supportive care (early intervention, special education, and medical surveillance)."
+    }
+  ],
+  "credit": {
+    "author": {
+      "name": "Ari Horesh",
+      "title": "MD"
+    }
+  }
+}

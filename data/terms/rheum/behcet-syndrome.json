@@ -1,0 +1,114 @@
+{
+  "id": "behcet-syndrome",
+  "names": ["Behçet syndrome"],
+  "aliases": ["Behçet disease", "Behçet's disease", "Adamantiades-Behçet disease", "malignant aphthosis"],
+  "abbr": ["BD"],
+  "patterns": ["behcet", "behcet's", "behcet syndrome", "behcet disease", "adamantiades", "malignant aphthosis"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "immunology"],
+  "definition": "Autoinflammatory **vasculitis** (variable vessel) of unknown cause, featuring recurrent oral and genital ulcers with eye, skin, and other organ involvement.",
+  "why_it_matters": "Can cause **blindness** (severe uveitis) and life-threatening vascular complications in young adults. Unique features (triad of oral/genital ulcers + uveitis, **pathergy** phenomenon, Silk Road prevalence) make it a favorite on exams.",
+  "how_youll_see_it": [
+    "Young adult (20–40) often from the historic **Silk Road** region (Mediterranean, Middle East, Asia) with recurrent **painful oral aphthae** (canker sores).",
+    "Painful **genital ulcers** (classically on scrotum or vulva) that heal with scarring.",
+    "**Eye involvement** – recurrent uveitis (anterior and/or posterior); can cause a hypopyon (layered pus in anterior chamber) and vision loss.",
+    "**Skin lesions** – erythema nodosum-like tender nodules and acneiform pustules; often a positive **pathergy test** (sterile pustule 1–2 days after a needle prick).",
+    "Severe cases: **thromboses** (e.g. DVTs, cerebral venous sinus clot) or **neurologic** involvement (meningoencephalitis, intracranial hypertension) may occur."
+  ],
+  "problem_solving": [
+    "Suspect Behçet in patients with ≥3 oral ulcer episodes per year plus systemic findings (genital ulcers, eye or skin lesions) – diagnostic criteria require oral ulcers + ≥2 of those features.",
+    "Examine for genital scars, uveitis (slit lamp exam), and perform a **pathergy test** to support the diagnosis.",
+    "Exclude other causes of recurrent ulcers: test for **HSV** (viral culture/PCR), evaluate for **IBD** (Crohn disease), and check autoimmune markers (to rule out SLE).",
+    "Once diagnosed, assess disease extent: refer to **ophthalmology** for ocular involvement, and image if vascular symptoms (e.g. MRV for suspected dural sinus thrombosis)."
+  ],
+  "differentials": [
+    { "id": "herpes-simplex", "name": "Herpes simplex (oral)", "hint": "Recurrent \"cold sores\" on lips; usually smaller, with systemic prodrome (fever); no uveitis." },
+    { "id": "crohn-disease", "hint": "IBD with oral ulcers and GI involvement; causes diarrhea, abdominal pain, perianal disease." },
+    { "id": "reactive-arthritis", "hint": "Post-infectious arthritis + conjunctivitis/uveitis + urethritis; may have oral lesions but not deep ulcers." },
+    { "id": "systemic-lupus-erythematosus", "name": "Systemic lupus erythematosus (SLE)", "hint": "Autoimmune with oral ulcers and systemic features; SLE ulcers are usually painless and accompanied by characteristic serologies." }
+  ],
+  "tricks": [
+    "Think **\"Silk Road\"**: Behçet prevalence is highest from East Asia to the Mediterranean.",
+    "**Pathergy** phenomenon: minor trauma (needle stick) → exaggerated pustule formation in 24–48h.",
+    "Associated with **HLA-B51** (especially in Middle Eastern and Asian patients), though this is not diagnostic."
+  ],
+  "exam_appearance": [
+    "Turkish man in his 30s with recurrent **oral and genital ulcers**, eye pain/redness (uveitis), and acneiform skin lesions → Behçet syndrome (likely positive pathergy test).",
+    "Patient with a history of Behçet disease presents with new severe headaches and confusion; MRI shows a dural sinus thrombosis → **Neuro-Behçet** (central nervous system involvement)."
+  ],
+  "treatment": [
+    "For mucocutaneous flares: topical steroids (e.g. mouthwash, creams) for ulcers. **Colchicine** is often first-line for recurrent oral/genital ulcers and arthritis.",
+    "**Apremilast** (PDE-4 inhibitor) is effective at reducing oral ulcer frequency (used in refractory or severe mucocutaneous disease).",
+    "Ocular, vascular, or CNS disease requires aggressive therapy: high-dose **corticosteroids** (acute) plus steroid-sparing immunosuppressants (e.g. **azathioprine** or anti-TNF biologics like infliximab).",
+    "Thalidomide is an option for refractory ulcers; cyclophosphamide for major vessel aneurysms. For thromboses, **immunosuppression** is key (anticoagulation is controversial)."
+  ],
+  "red_flags": [
+    "Any **eye pain, redness, or vision change** → urgent ophthalmologic treatment (uveitis can rapidly threaten vision).",
+    "**Hemoptysis** or sudden respiratory distress in Behçet → suspect pulmonary artery aneurysm (can rupture and cause fatal hemorrhage).",
+    "Severe **neurologic** symptoms (headache, focal deficits) → evaluate immediately for CNS involvement (e.g. meningoencephalitis or dural sinus thrombosis)."
+  ],
+  "algorithm": [
+    "Recurrent oral ulcers (≥3/year) → evaluate for Behçet: ask about genital ulcers, eye symptoms, skin lesions; perform pathergy test.",
+    "If ≥2 other features (genital, ocular, skin/pathergy) are present → criteria met (diagnose Behçet syndrome).",
+    "If suspicion is high but criteria not fully met, periodically reassess and exclude other causes (HSV, IBD, etc.).",
+    "Confirmed Behçet → involve specialists per organs (ophthalmology, neurology); treat according to manifestations (local therapy for mild mucocutaneous vs systemic immunosuppression for organ-threatening disease)."
+  ],
+  "cases": [
+    {
+      "stem": "A 28‑year‑old man from Turkey has a 5-year history of 'canker sores' and now presents with blurred vision and eye pain.",
+      "clues": [
+        "Painful oral ulcers recurring for years",
+        "New anterior uveitis with hypopyon",
+        "Two shallow genital ulcers with scarring noted",
+        "Erythema nodosum on shins",
+        "Pathergy test is positive"
+      ],
+      "answer": "Behçet disease (multisystem aphthous ulcer syndrome)",
+      "teaching": "The combination of recurrent oral and genital ulcers with uveitis and skin lesions is classic for Behçet syndrome. The positive pathergy test (pustule from minor trauma) further supports the diagnosis. Prompt immunosuppressive therapy (e.g. corticosteroids, TNF inhibitors) is needed to prevent vision loss."
+    },
+    {
+      "stem": "A 35‑year‑old man with known Behçet disease develops a severe headache and confusion.",
+      "clues": [
+        "History of recurrent oral and genital ulcers",
+        "Previous retinal vasculitis (treated with infliximab)",
+        "No focal weakness, but papilledema is present",
+        "MRI: dural venous sinus thrombosis",
+        "CSF shows high protein, few lymphocytes"
+      ],
+      "answer": "Neuro-Behçet (cerebral venous thrombosis from Behçet syndrome)",
+      "teaching": "Neurologic involvement of Behçet (neuro-Behçet) can cause a meningoencephalitis or dural sinus thrombosis, often in young men. It requires aggressive immunosuppressive treatment (high-dose steroids, possibly cyclophosphamide or TNF inhibitors). This case also highlights that Behçet can lead to hypercoagulable complications like cerebral venous clots."
+    }
+  ],
+  "see_also": [
+    "reactive-arthritis",
+    "systemic-lupus-erythematosus",
+    "inflammatory-bowel-disease",
+    "uveitis"
+  ],
+  "prerequisites": [
+    "vasculitis",
+    "HLA-B51"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Behcet Disease (Adil & Goyal, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470257/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of Behçet syndrome",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-behcet-syndrome"
+    },
+    {
+      "title": "New England Journal of Medicine: Behçet's Syndrome (Saadoun et al., 2024)",
+      "url": "https://doi.org/10.1056/NEJMra2305712"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

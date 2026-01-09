@@ -1,0 +1,126 @@
+{
+  "id": "charcot-triad",
+  "names": [
+    "Charcot triad",
+    "Charcot's triad"
+  ],
+  "aliases": [
+    "Charcot's cholangitis triad",
+    "Charcot's triad of acute cholangitis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "charcot triad",
+    "charcots triad",
+    "charcot's triad"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "gi",
+    "infectious_dz",
+    "surgery"
+  ],
+  "definition": "The classic trio of **fever**, **jaundice**, and **right upper quadrant (RUQ) pain** seen in acute ascending cholangitis (biliary tract infection). It's a hallmark clinical pattern indicating an obstruction (often a gallstone) with infection in the bile ducts.",
+  "why_it_matters": "Recognizing Charcot's triad is crucial because acute cholangitis can be rapidly fatal if untreated. This triad's presence (even if incomplete) should prompt urgent evaluation and treatment (IV antibiotics and biliary drainage) to prevent septic shock. It's a high-yield concept in exams for distinguishing cholangitis from other causes of jaundice or RUQ pain.",
+  "how_youll_see_it": [
+    "**Classic scenario:** a patient with gallstone risk factors develops high **fever** (often with chills/rigors), **RUQ abdominal pain**, and **jaundice**. This Charcot's triad strongly suggests ascending cholangitis (infection in the biliary tree).",
+    "Not all patients show all three signs – Charcot's triad has low sensitivity (~20–70% have all components). Most cholangitis patients have fever (~90%) but many lack obvious jaundice or pain (especially elderly patients, who may present with confusion or sepsis instead).",
+    "If cholangitis becomes severe, **Reynolds' pentad** can develop: Charcot's triad **plus** hypotension and mental status changes (indicating suppurative cholangitis with sepsis).",
+    "**Labs:** expect **leukocytosis** (↑ WBC with neutrophils) and a cholestatic liver profile (**↑ALP**, **↑GGT**, **↑direct bilirubin**). Blood cultures are often positive. **Imaging:** RUQ ultrasound typically shows bile duct dilatation or a stone obstructing the common bile duct. (A normal ultrasound doesn't exclude cholangitis.)"
+  ],
+  "problem_solving": [
+    "Suspect acute cholangitis in any patient with cholestatic jaundice who develops **fever** or **chills** – even if the full triad isn't present, maintain a high index of suspicion.",
+    "Do **not** delay therapy: start broad-spectrum IV antibiotics (cover gram-negative enterics and anaerobes) as soon as acute cholangitis is suspected. Simultaneously, obtain labs and imaging to confirm diagnosis and call for urgent biliary decompression (usually via ERCP)."
+  ],
+  "differentials": [
+    {
+      "name": "Acute cholecystitis",
+      "hint": "Fever & RUQ pain from gallbladder inflammation, but usually **no jaundice** (no common bile duct obstruction)."
+    },
+    {
+      "name": "Acute viral hepatitis",
+      "hint": "Liver inflammation can cause **jaundice** and elevated LFTs, but typically not severe RUQ pain or high fever/chills as in cholangitis."
+    },
+    {
+      "name": "Choledocholithiasis (without cholangitis)",
+      "hint": "**Obstructive jaundice** from a common bile duct stone without infection – jaundice ± RUQ pain but usually no fever."
+    }
+  ],
+  "tricks": [
+    "Memory tip: Charcot's triad involves the **\"big three\"** biliary sepsis signs: Fever (infection), Jaundice (bile blockage), and RUQ pain (biliary colic). The name **Charcot** (pronounced \"shar-co\") can remind you of **CHO**langitis (both start with \"cho\").",
+    "**Reynolds' pentad** = Charcot's triad **+ hypotension + confusion** (think of adding shock and altered mental status to make five signs). This pentad indicates a critically ill patient with suppurative cholangitis.",
+    "Beware of naming confusion: **Charcot's triad** in cholangitis is different from **Charcot's neurologic triad** in multiple sclerosis (nystagmus, intention tremor, scanning speech). Same name, totally different conditions!"
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with known gallstones presents with high fever, shaking chills, RUQ abdominal pain, and jaundice → **Ascending cholangitis** (Charcot's triad) requiring antibiotics and urgent ERCP for biliary drainage.",
+    "Patient with Charcot's triad who progresses to hypotension and confusion (Reynolds' pentad) → **Acute suppurative cholangitis** with sepsis – an emergency needing ICU care and immediate biliary decompression."
+  ],
+  "treatment": [
+    "**Stabilize first:** aggressive IV fluids, correction of any hypotension, and prompt IV **antibiotics** (e.g. piperacillin-tazobactam, or a fluoroquinolone + metronidazole) to cover gram-negative rods and anaerobes. Obtain blood cultures before antibiotics if possible.",
+    "**Urgent biliary drainage:** relieve the obstruction as soon as feasible. The preferred method is endoscopic retrograde cholangiopancreatography (**ERCP**) to extract the stone or place a stent. Ideally done within 24–48 hours of presentation (earlier if patient is very ill). If ERCP is unavailable or fails, options include percutaneous transhepatic drainage or surgical decompression."
+  ],
+  "red_flags": [
+    "**Reynolds' pentad** (Charcot's triad plus shock and altered mental status) signals **suppurative cholangitis**. This is a life-threatening emergency – requires ICU support, broad antibiotics, and **immediate** biliary decompression (do not wait; emergent ERCP or surgical consult).",
+    "Lack of improvement on antibiotics within ~24 hours or any clinical deterioration (persistent fever, rising liver enzymes, organ dysfunction) is a red flag – urgent biliary drainage must be performed before sepsis worsens."
+  ],
+  "algorithm": [
+    "Charcot's triad (fever + RUQ pain + jaundice) present → **suspect acute cholangitis**.",
+    "Begin workup and treatment in parallel: draw labs (CBC, liver panel, blood cultures) and start IV fluids + broad-spectrum antibiotics immediately.",
+    "Imaging: obtain a **RUQ ultrasound** first to check for bile duct dilatation or stones. If diagnosis is unclear and patient is stable, an MRCP can further evaluate the biliary tree; but do not delay therapy for imaging.",
+    "Assess severity. If any signs of sepsis/shock (hypotension, confusion), manage as severe cholangitis (ICU care, urgent intervention).",
+    "Arrange **urgent ERCP** for biliary drainage (stone extraction or stenting) once patient is stabilized. In severe cases or if no improvement, perform emergent drainage without delay. After recovery, address the underlying cause (e.g. elective cholecystectomy for gallstones)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Biliary_system_new.svg/1101px-Biliary_system_new.svg.png",
+      "alt": "Diagram of the biliary system (liver, gallbladder, common bile duct, and pancreas). The common bile duct is the site of obstruction in ascending cholangitis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Biliary_system_new.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45-year-old woman with a history of gallstones presents with one day of high fever and shaking chills, severe right upper quadrant abdominal pain, and yellowing of her eyes. On exam, she is febrile (102°F), visibly jaundiced, and has marked RUQ tenderness.",
+      "clues": [
+        "Fever with rigors",
+        "RUQ abdominal pain",
+        "Jaundice",
+        "↑ alkaline phosphatase & bilirubin",
+        "Dilated common bile duct on ultrasound"
+      ],
+      "answer": "Acute (ascending) cholangitis",
+      "teaching": "Charcot's triad of fever, RUQ pain, and jaundice indicates ascending cholangitis due to an infected biliary obstruction (usually a CBD gallstone). Management is urgent: start broad-spectrum IV antibiotics and arrange prompt biliary drainage (typically by ERCP)."
+    }
+  ],
+  "see_also": [
+    "acute-cholecystitis",
+    "choledocholithiasis",
+    "gallstones",
+    "acute-pancreatitis",
+    "cirrhosis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Cholangitis (Virgile & Marathi, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK558946/"
+    },
+    {
+      "title": "UpToDate: Acute cholangitis – clinical manifestations, diagnosis, and management",
+      "url": "https://www.uptodate.com/contents/acute-cholangitis-clinical-manifestations-diagnosis-and-management"
+    },
+    {
+      "title": "Medscape: Acute Cholangitis (Scott, 2023)",
+      "url": "https://emedicine.medscape.com/article/774245-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "dementia",
+  "names": [
+    "Dementia"
+  ],
+  "aliases": [
+    "major neurocognitive disorder"
+  ],
+  "abbr": [],
+  "patterns": [
+    "dementia",
+    "major neurocognitive disorder",
+    "senile dementia"
+  ],
+  "primary_tag": "neuro",
+  "tags": [
+    "pathology",
+    "neuro",
+    "psych"
+  ],
+  "definition": "Chronic **cognitive syndrome** marked by progressive decline in one or more cognitive domains (memory, language, executive function, etc.) severe enough to impair daily life. It is an **umbrella term** for multiple brain diseases (most commonly **Alzheimer's disease** accounting for ~60–70%) that cause long-term cognitive and functional decline.",
+  "why_it_matters": "Dementia is **common and impactful**: ~10% of people over 65 (and ~30–50% over 85) are affected. It is a leading cause of disability in older adults and a major public health burden. Early recognition is critical for management, caregiver planning, and identifying reversible causes. Dementia syndromes frequently appear on board exams in contexts of memory loss, elder care, and neurodegenerative disease.",
+  "how_youll_see_it": [
+    "**Alzheimer disease (AD)** – Gradual onset in **elderly** (typically >65). Prominent **short-term memory loss** (repeating questions, misplacing items), with progression to disorientation and word-finding difficulty. No focal neurologic deficits early. Pathology: diffuse cortical atrophy (especially hippocampal), extracellular **β-amyloid plaques** and intraneuronal **tau** tangles.",
+    "**Vascular dementia** – Cognitive decline from **cerebrovascular disease**. Often a **stepwise deterioration** with each stroke or infarct. Patients may have focal neurologic signs (e.g., hemiparesis, gait disturbance) and history of stroke or risk factors (hypertension, diabetes). Imaging classically shows multiple infarcts or extensive white matter lesions.",
+    "**Dementia with Lewy bodies (DLB)** – Fluctuating cognition and **early hallucinations** (vivid visual hallucinations) plus **parkinsonian** motor features. REM sleep behavior disorder (dream-enacting sleep) is common. Sensitive to antipsychotics (can worsen parkinsonism). Pathology: widespread **Lewy bodies** (α-synuclein aggregates) in cortex and brainstem.",
+    "**Frontotemporal dementia (FTD)** – Degeneration of frontal ± temporal lobes; often onset in **50s–60s**. Presents with **personality and behavior changes** (apathy, disinhibition, socially inappropriate behavior) or progressive language difficulties (primary aphasia). Memory is relatively spared early. Pathology varies (e.g., tau-containing Pick bodies or ubiquitinated TDP-43 protein aggregates in affected lobes)."
+  ],
+  "problem_solving": [
+    "Confirm a **chronic cognitive decline** (months to years) interfering with daily function (distinguish from acute delirium or mild cognitive impairment). Use a brief **cognitive screening test** (e.g., MMSE, MoCA) to objectify deficits.",
+    "Evaluate **reversible causes** and contributing factors: obtain labs (especially **vitamin B12**, **TSH**, also metabolic panel, CBC) and screen for depression; review medications (stop anticholinergics or sedatives that may worsen cognition).",
+    "Perform **neuroimaging** (usually MRI brain) in new-onset dementia to rule out structural lesions (stroke, tumor, normal pressure hydrocephalus). MRI can also support a subtype (e.g., multiple infarcts in vascular dementia, disproportionate hippocampal atrophy in AD). Consider EEG if seizures or Creutzfeldt-Jakob disease are suspected.",
+    "Differentiate **dementia subtypes** clinically: e.g., evidence of strokes or stepwise decline suggests vascular dementia; visual hallucinations and fluctuating alertness suggest Lewy body dementia; early personality change suggests frontotemporal dementia. Additional testing (neuropsychological evaluation, PET/SPECT scans, CSF biomarkers) may be used in uncertain cases.",
+    "Address **safety and planning**: ensure patients are supervised if needed (cooking, driving cessation if unsafe, fall precautions). Engage family/caregivers in care planning, advance directives, and provide education/support resources."
+  ],
+  "differentials": [
+    {
+      "name": "Delirium",
+      "hint": "Acute and fluctuating confusion with **inattention**; often reversible (e.g., due to infection or medications)"
+    },
+    {
+      "name": "Depression",
+      "hint": "\"Pseudodementia\": depressive symptoms causing impaired concentration and memory, but cognition improves with effective antidepressant treatment"
+    },
+    {
+      "name": "Mild cognitive impairment",
+      "hint": "Objective memory/cognitive deficit **without** functional impairment; higher risk of progression to dementia (especially Alzheimer type)"
+    },
+    {
+      "name": "Normal pressure hydrocephalus",
+      "hint": "Reversible cause: enlarged ventricles with the classic 'wet, wacky, wobbly' triad (gait disturbance, urinary incontinence, dementia); can improve with CSF shunting"
+    }
+  ],
+  "tricks": [
+    "Remember reversible causes of dementia with **DEMENTIA**: **D**rugs (anticholinergics, etc.), **E**motional (depression), **M**etabolic (B12, thyroid), **E**yes/Ears (sensory deficits), **N**ormal pressure hydrocephalus, **T**umor, **I**nfection (HIV, syphilis), **A**lcohol abuse.",
+    "Normal pressure hydrocephalus presents with the 'wet, wacky, wobbly' triad – unlike degenerative dementias, this can be treated (ventriculoperitoneal shunt) to improve cognition.",
+    "Lewy body vs Parkinson disease dementia: apply the **one-year rule** – if cognitive symptoms begin **before or within 1 year** of parkinsonian motor onset, it's DLB; if dementia develops **>1 year** after established Parkinson's, it's Parkinson disease dementia."
+  ],
+  "exam_appearance": [
+    "Elderly patient with insidious memory loss (gets lost driving, repeats questions) over several years, no focal deficits, and MRI showing diffuse cortical and hippocampal atrophy → **Alzheimer disease**.",
+    "Older patient with history of multiple strokes who has stepwise worsening of cognition and focal neurologic signs (e.g., pronator drift, hyperreflexia) → **Vascular dementia**.",
+    "Visual hallucinations in an older patient with dementia and parkinsonian gait, along with fluctuating alertness → **Dementia with Lewy bodies**.",
+    "A 55-year-old with progressive change in personality and social conduct (apathy, disinhibition) and later difficulty with executive tasks or language, with MRI revealing focal frontal lobe atrophy → **Frontotemporal dementia**."
+  ],
+  "treatment": [
+    "Non-pharmacologic: **family and caregiver support**, establish a daily routine, cognitive stimulation activities, and ensure a safe environment (supervise cooking, driving cessation if needed). Treat **modifiable risk factors** (manage hypertension, diabetes, etc. to slow vascular contributions). Address comorbid depression or insomnia (therapy, sleep hygiene).",
+    "Pharmacologic: **Cholinesterase inhibitors** (donepezil, rivastigmine, galantamine) are first-line for Alzheimer's (they may also provide some benefit in Lewy body dementia). **Memantine** (NMDA antagonist) is added in moderate-to-severe AD. Vascular dementia management focuses on stroke prevention (aspirin, treat risk factors). **SSRIs** can help mood or behavioral symptoms; avoid anticholinergic drugs (worsen cognition).",
+    "For agitation or psychosis, use environmental interventions first. If severe, consider **low-dose atypical antipsychotics**, but use caution (especially in Lewy body dementia, due to severe sensitivity to neuroleptics). Note that all antipsychotics in dementia carry an FDA warning for increased mortality in elderly patients."
+  ],
+  "red_flags": [
+    "**Rapidly progressive dementia** (weeks to months) with motor signs (e.g., myoclonus, ataxia) – suspect **prion disease** such as Creutzfeldt-Jakob disease and pursue prompt evaluation (e.g., EEG, CSF 14-3-3).",
+    "New or **acute mental status change** in a patient with known dementia – consider superimposed delirium (e.g., infection, medication) rather than just progression of dementia, and investigate the underlying cause urgently."
+  ],
+  "algorithm": [
+    "Patient with memory complaints or cognitive concern → Perform brief cognitive **screening** (MMSE or MoCA) and assess daily functioning (ADLs/IADLs) to confirm if criteria for dementia are met.",
+    "If dementia suspected → Order **laboratory tests** (B12, TSH, metabolic panel, CBC, etc.) to rule out reversible causes; screen for **depression** and review medications.",
+    "Obtain **brain imaging** (MRI preferred) to evaluate for strokes, tumors, hydrocephalus, or other structural lesions.",
+    "Differentiate **dementia subtype** by clinical clues: history of strokes or vascular risk factors (vascular dementia); hallucinations & parkinsonism (Lewy body); early behavior change (frontotemporal); etc. Consider referral for neuropsychological testing or specialist consult if uncertain.",
+    "Initiate **management**: provide patient and caregiver education, implement safety measures and support services, start cognitive enhancers or other appropriate medications based on subtype, and schedule regular follow-up to monitor progression and adjust care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/MRI_Alzheimer_Disease_and_Dementia_with_Lewy_Bodies.jpg",
+      "alt": "Brain MRI showing medial temporal (hippocampal) atrophy (red boxes) – more pronounced in Alzheimer's disease (left) than in dementia with Lewy bodies (middle), compared to a normal control (right).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:MRI_Alzheimer_Disease_and_Dementia_with_Lewy_Bodies.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 76-year-old woman is brought by her daughter for progressive \"memory problems.\" Over two years, she has had trouble remembering recent conversations, missed bill payments, and gotten lost driving in her neighborhood.",
+      "clues": [
+        "Mini-Mental State Exam score 20/30",
+        "No focal neurologic deficits on exam",
+        "Normal B12 and TSH levels",
+        "MRI: diffuse cortical atrophy, prominent hippocampal volume loss"
+      ],
+      "answer": "Alzheimer disease (Alzheimer dementia)",
+      "teaching": "Gradual, insidious memory loss in an older adult with normal exam and imaging showing only atrophy is classic for Alzheimer disease, the most common dementia. The workup shows no reversible cause (normal B12/TSH). Management would include a cholinesterase inhibitor and safety planning with the family."
+    }
+  ],
+  "see_also": [
+    "parkinsons-disease",
+    "stroke",
+    "hypothyroidism",
+    "chronic-kidney-disease"
+  ],
+  "prerequisites": [
+    "neuroanatomy",
+    "aging"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Major Neurocognitive Disorder (Dementia) (Emmady et al., 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557444/"
+    },
+    {
+      "title": "UpToDate: Evaluation of cognitive impairment and dementia",
+      "url": "https://www.uptodate.com/contents/evaluation-of-cognitive-impairment-and-dementia"
+    },
+    {
+      "title": "WHO Fact Sheet: Dementia (2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

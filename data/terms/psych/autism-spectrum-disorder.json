@@ -1,0 +1,104 @@
+{
+  "id": "autism-spectrum-disorder",
+  "names": ["Autism spectrum disorder"],
+  "aliases": ["autism", "autistic disorder", "Asperger syndrome", "Asperger's syndrome", "PDD-NOS", "pervasive developmental disorder"],
+  "abbr": ["ASD"],
+  "patterns": ["asd", "autism", "autistic disorder", "asperger", "asperger syndrome", "asperger's syndrome", "pervasive developmental disorder", "pdd-nos", "pdd", "autism spectrum"],
+  "primary_tag": "psych",
+  "tags": ["psych", "peds", "neuro", "behavior"],
+  "definition": "Neurodevelopmental disorder characterized by persistent deficits in **social communication and interaction** and **restricted, repetitive behaviors** and interests, typically recognized in early childhood.",
+  "why_it_matters": "Common (~1 in 36 children, ~4:1 male) and a major cause of developmental disability. Early identification is crucial because **early intervention** can markedly improve social and cognitive outcomes. Frequently tested on exams for recognizing red flags and distinguishing ASD from other developmental delays.",
+  "how_youll_see_it": [
+    "Often noted in toddlers: delayed speech, limited eye contact, not responding to name, and lack of pointing or showing objects (impaired joint attention).",
+    "Children may prefer to play alone, seem uninterested in peers, and exhibit intense **fixations** (e.g., on specific topics or toys) with distress over minor changes in routine.",
+    "Repetitive behaviors are common (hand flapping, rocking, lining up toys). Some children have intellectual or language impairment and may remain nonverbal, while others (formerly \"Asperger\") have average intelligence and fluent speech but struggle with social cues."
+  ],
+  "problem_solving": [
+    "Screen early: use **M-CHAT** questionnaire at 18 and 24 months (per AAP guidelines). Any failed screen or developmental concern → prompt referral for autism evaluation (do not \"wait and see\").",
+    "Obtain a formal audiology (hearing) test in any child with speech delay to exclude hearing loss as a cause.",
+    "Diagnostic gold standard: comprehensive evaluation by specialists (developmental pediatrician, psychologist) using DSM-5 criteria and standardized observation (ADOS) to confirm ASD.",
+    "Assess for co-occurring conditions and etiologies: e.g., intellectual disability, language disorder, ADHD, anxiety, or genetic syndromes (fragile X testing) to guide management."
+  ],
+  "differentials": [
+    { "name": "Hearing impairment", "hint": "speech delay due to deafness; child reacts to visual stimuli and has age-appropriate social smiling/gestures" },
+    { "name": "Global developmental delay", "hint": "across-the-board delay (motor, social, language) proportional to intellectual disability; social reciprocity matches developmental age" },
+    { "name": "Rett syndrome", "hint": "X-linked disorder in girls with regression after ~1 year of normal development, hand-wringing stereotypies" }
+  ],
+  "tricks": [
+    "Mnemonic: **1.5 by 1, 2 by 2** – no single words by ~1.5 years (16 mo) or no 2-word phrases by 2 years are red flags for ASD.",
+    "**Fragile X** syndrome and **tuberous sclerosis** are notable genetic conditions associated with a higher risk of ASD."
+  ],
+  "exam_appearance": [
+    "A 2-year-old with no spoken words, no pointing or waving, and poor eye contact, who spends time lining up toys → Autism spectrum disorder (warrants immediate evaluation).",
+    "An 8-year-old boy with normal language and intelligence but few friends, clumsy social interactions, and an all-consuming interest in one subject → high-functioning ASD (formerly Asperger syndrome)."
+  ],
+  "treatment": [
+    "Early intensive behavioral therapy (e.g., **Applied Behavior Analysis**) to improve social and communication skills; parent training and involvement is key.",
+    "Speech therapy for language development; **occupational therapy** for sensory integration and daily living skills; specialized education plans (**IEP**) provide school-based supports.",
+    "No medication fixes core autism symptoms, but treat comorbid issues: e.g., **risperidone** or **aripiprazole** for severe irritability/aggression, stimulants for ADHD symptoms, SSRIs for anxiety or OCD behaviors."
+  ],
+  "red_flags": [
+    "No babbling or gesturing (pointing) by **12 months**",
+    "No single words by **16 months**",
+    "No two-word phrases by **24 months**",
+    "Any **loss** of previously acquired speech or social skills"
+  ],
+  "algorithm": [
+    "Developmental surveillance at every well-visit; any autism red flag or parental concern → initiate further screening/evaluation immediately.",
+    "Screen all toddlers at **18** and **24 months** with **M-CHAT**; if screen is positive or concerns arise, refer for comprehensive diagnostic assessment (no delay).",
+    "Comprehensive eval: perform audiology testing to rule out hearing loss, and a multidisciplinary autism assessment (e.g., ADOS evaluation) to confirm diagnosis per DSM-5 criteria.",
+    "Upon diagnosis, begin early intervention services (behavioral therapy, speech, OT) as soon as possible – do not wait for additional tests or specialist visits.",
+    "Provide ongoing support: coordinate an **IEP** for school, offer family support/resources, and manage co-occurring conditions (e.g., ADHD, anxiety, seizures) with appropriate specialists."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Autismbrain.jpg",
+      "alt": "Diagram highlighting major brain structures implicated in autism (cortex, amygdala, hippocampus, etc.)",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Autismbrain.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 18-month-old boy is brought in for not talking yet. He doesn't point at things or respond to his name. He often fixates on spinning the wheels of his toy car and doesn't engage in peek-a-boo or other interactive play.",
+      "clues": [
+        "No words by 18 months",
+        "No response to name or pointing",
+        "Lack of joint attention (doesn't show or share interest)",
+        "Repetitively spins wheels of toys"
+      ],
+      "answer": "Autism spectrum disorder",
+      "teaching": "Speech and social delays (no words, no pointing) combined with repetitive, restricted play (spinning wheels) are classic for ASD. Next step is audiology testing and comprehensive autism evaluation; early therapy can improve outcomes."
+    }
+  ],
+  "see_also": ["cerebral-palsy", "down-syndrome"],
+  "prerequisites": ["developmental-milestones"],
+  "sources": [
+    {
+      "title": "StatPearls: Autism Spectrum Disorder (Hodis & Mughal, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525976/"
+    },
+    {
+      "title": "CDC: Signs and Symptoms of ASD (2024)",
+      "url": "https://www.cdc.gov/autism/signs-symptoms"
+    },
+    {
+      "title": "AAP Pediatrics Clinical Report: Identification, Evaluation, and Management of Children with ASD (Hyman et al., 2020)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31843864/"
+    },
+    {
+      "title": "NIMH: Autism Spectrum Disorder (2024)",
+      "url": "https://www.nimh.nih.gov/health/topics/autism-spectrum-disorders-asd"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

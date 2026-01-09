@@ -1,0 +1,111 @@
+{
+  "id": "tertiary-hyperparathyroidism",
+  "names": ["Tertiary hyperparathyroidism"],
+  "aliases": ["autonomous hyperparathyroidism", "post-transplant hyperparathyroidism"],
+  "abbr": ["THPT"],
+  "patterns": ["tertiary hyperparathyroidism", "tertiary HPT", "3° hyperparathyroidism"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "renal"],
+  "definition": "Autonomous hypersecretion of PTH after long-standing secondary hyperparathyroidism. The parathyroid glands become enlarged and unresponsive to calcium feedback, leading to **hypercalcemia** even after the original cause (e.g., CKD) is corrected. Often occurs in ESRD patients after a kidney transplant.",
+  "why_it_matters": "Represents the progression of secondary HPT to an autonomous state – resulting in hypercalcemia that can cause significant issues (kidney stones, calcifications) in patients who previously had hypocalcemia. Tertiary HPT often necessitates parathyroidectomy; recognizing it (especially in post-transplant patients) is crucial to prevent hypercalcemic damage to the new kidney and other organs.",
+  "how_youll_see_it": [
+    "Typically a **patient with a history of secondary HPT** (dialysis) who now has **hypercalcemia**. Classically, a renal transplant patient whose kidney function is restored, yet PTH remains high and Ca becomes elevated months post-transplant.",
+    "Features mirror primary HPT: high Ca can cause nephrolithiasis, confusion, constipation, etc., but it's in a patient with prior CKD. May see markedly enlarged parathyroid glands on imaging (multigland hyperplasia).",
+    "Lab profile: **↑PTH and ↑Ca** (like primary HPT), often with normal or high phosphate (depending on kidney function). Alkaline phosphatase can be high due to bone turnover."
+  ],
+  "problem_solving": [
+    "Suspect tertiary HPT in any CKD patient (especially post-transplant) who develops high calcium alongside high PTH. Distinguish from primary HPT by history (tertiary requires prolonged secondary HPT).",
+    "Ensure secondary factors are optimized: correct vitamin D deficiency and ensure phosphate control – in tertiary HPT these measures won't fully normalize PTH, confirming autonomy.",
+    "Medical management: start **cinacalcet** to lower Ca and PTH while preparing for possible surgery. This can temporize hypercalcemia, but is usually not curative.",
+    "Plan for **parathyroidectomy** if hypercalcemia is significant or persistent. Typically subtotal (3½ gland) parathyroidectomy is done to reduce PTH levels.",
+    "Monitor post-transplant patients closely: check Ca and PTH at intervals. Tertiary HPT may improve spontaneously in some cases over 6–12 months, so timing of surgery can depend on trend of Ca/PTH and patient symptoms."
+  ],
+  "differentials": [
+    { "id": "primary-hyperparathyroidism", "hint": "No preceding CKD; usually single adenoma, whereas tertiary involves diffuse hyperplasia after CKD" },
+    { "name": "Parathyroid carcinoma", "hint": "Rare cause of extreme hypercalcemia and very high PTH; can mimic tertiary HPT labs but is a single malignant gland (often palpable neck mass)" },
+    { "id": "secondary-hyperparathyroidism", "hint": "PTH is high but **calcium is normal/low** (secondary has not yet progressed to autonomous hypercalcemia)" }
+  ],
+  "tricks": [
+    "All **4 glands** are typically enlarged in tertiary HPT (diffuse hyperplasia from chronic stimulation) – unlike primary HPT which often involves 1 gland.",
+    "Tertiary = think **\"third phase\"** after secondary: e.g., CKD (secondary HPT) then transplant leads to a \"third\" phase where PTH is still high but now Ca is high too.",
+    "Not all post-transplant patients get tertiary HPT – but those with very prolonged dialysis and severe secondary HPT are at highest risk (their parathyroids may be irrevocably hyperplastic)."
+  ],
+  "exam_appearance": [
+    "Patient with a kidney transplant now has hypercalcemia and high PTH on labs → tertiary hyperparathyroidism (autonomous PTH secretion after secondary HPT).",
+    "Dialysis patient with longstanding secondary HPT, now noted to have rising calcium levels in addition to very high PTH → tertiary HPT (parathyroid autonomy developing)."
+  ],
+  "treatment": [
+    "**Parathyroidectomy** is the definitive treatment in tertiary HPT, since the glands won't shut off on their own. Removal of 3½ or all 4 glands (with autotransplant of a bit of tissue) is often performed, resulting in cure of hypercalcemia.",
+    "**Calcimimetics** (e.g., cinacalcet) are used to control calcium and PTH in the interim or if surgery is contraindicated. Post-transplant, some cases of tertiary HPT improve over time, so calcimimetics can be a bridge to see if PTH will gradually normalize.",
+    "Ensure hydration and moderate calcium intake to mitigate hypercalcemia symptoms while awaiting definitive therapy. After parathyroidectomy, manage as in primary HPT (watch for hungry bone syndrome)."
+  ],
+  "red_flags": [
+    "Persistent tertiary HPT can cause **nephrocalcinosis** or kidney stones in a transplanted kidney – untreated, it can jeopardize the new graft (due to calcium deposition).",
+    "Very high calcium in tertiary HPT can precipitate **cardiac arrhythmias** or neuro symptoms – these patients need prompt treatment (IV fluids, meds) and surgical referral."
+  ],
+  "algorithm": [
+    "CKD patient with secondary HPT gets transplant → monitor Ca and PTH post-transplant.",
+    "If **PTH remains high but Ca normal**: continue medical management (phosphate binders, calcitriol); monitor if PTH trends down as kidney function improves.",
+    "If **Ca becomes elevated** (with high PTH): tertiary HPT is present. Initiate cinacalcet to manage Ca and refer to surgery evaluation.",
+    "Perform parathyroidectomy (subtotal or total) if hypercalcemia is persistent or severe. This will typically normalize Ca and PTH.",
+    "If patient is still on dialysis with unmanageable secondary HPT (rising Ca and PTH despite therapy), treat as tertiary HPT and consider parathyroidectomy even before transplant."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/3D_Medical_Animation_still_shot_Hyperparathyroidism.jpg",
+      "alt": "3D medical illustration of the parathyroid glands, with one enlarged hyperactive gland (hyperparathyroidism).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:3D_Medical_Animation_still_shot_Hyperparathyroidism.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 46‑year‑old man received a kidney transplant 8 months ago after 12 years on dialysis. His transplant is functioning well (normal creatinine). Now routine labs show calcium 11.8 mg/dL.",
+      "clues": [
+        "History of long-term dialysis (secondary HPT)",
+        "8 months post-renal transplant",
+        "High calcium on labs (11.8 mg/dL)",
+        "PTH remains elevated"
+      ],
+      "answer": "Tertiary hyperparathyroidism",
+      "teaching": "This is classic tertiary HPT: after kidney transplant, the patient's parathyroid glands remained hyperactive, causing hypercalcemia. His long-standing secondary HPT progressed to autonomous PTH secretion. Definitive treatment would be a subtotal parathyroidectomy to prevent damage from high calcium."
+    },
+    {
+      "stem": "A 50‑year‑old patient on dialysis has PTH levels ~1500 pg/mL despite phosphate binders and calcitriol. His serum calcium, previously low, is now 10.4 mg/dL.",
+      "clues": [
+        "End-stage renal disease on dialysis",
+        "Extremely high PTH (1500 pg/mL)",
+        "Calcium has risen to slightly high",
+        "Secondary HPT refractory to medical therapy"
+      ],
+      "answer": "Tertiary hyperparathyroidism (in a dialysis patient)",
+      "teaching": "When secondary HPT becomes refractory (very high PTH) and calcium starts to climb into hypercalcemic range even without transplant, it indicates tertiary HPT (autonomous parathyroid function). Parathyroidectomy is indicated to control PTH and calcium in this scenario."
+    }
+  ],
+  "see_also": ["primary-hyperparathyroidism", "secondary-hyperparathyroidism", "chronic-kidney-disease"],
+  "prerequisites": ["secondary-hyperparathyroidism", "chronic-kidney-disease"],
+  "sources": [
+    {
+      "title": "Medscape: Tertiary Hyperparathyroidism (2021)",
+      "url": "https://emedicine.medscape.com/article/127351-overview#showall"
+    },
+    {
+      "title": "Cleveland Clinic: Hyperparathyroidism (tertiary)",
+      "url": "https://my.clevelandclinic.org/health/diseases/16222-hyperparathyroidism"
+    },
+    {
+      "title": "UpToDate: Persistent hyperparathyroidism after kidney transplant",
+      "url": "https://www.uptodate.com/contents/secondary-and-tertiary-hyperparathyroidism-in-chronic-kidney-disease"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "gout",
+  "names": ["Gout"],
+  "aliases": ["gouty arthritis", "podagra"],
+  "abbr": [],
+  "patterns": ["gout", "gouty arthritis", "podagra", "urate crystal arthritis", "monosodium urate"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "pharmacology", "msk_derm"],
+  "definition": "Inflammatory arthritis caused by deposition of monosodium urate crystals in joints and tissues due to chronic hyperuricemia, leading to intermittent episodes of severe joint inflammation (**gout flares**) and potential chronic arthropathy (**tophi** formation).",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gout2010.JPG",
+      "alt": "Gout in the right big toe (podagra) showing redness and swelling at the first metatarsophalangeal joint.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gout2010.JPG"
+      }
+    }
+  ],
+  "why_it_matters": "Gout is the **most common inflammatory arthritis** (≈3–5% of adults). Untreated disease causes joint damage with erosions and urate **tophi** deposits, kidney stone formation, and disability. Classic presentations (e.g., **podagra**) are frequently tested on exams.",
+  "how_youll_see_it": [
+    "**Acute gout flare**: sudden onset of excruciating pain, warmth, redness, and swelling in a joint, classically the **1st MTP (big toe)** — a presentation called **podagra**. Pain often begins at night; even the weight of a bedsheet is intolerable. Common triggers include alcohol binges, large meals (purine-rich foods like red meat or seafood), dehydration, trauma/surgery, or medications (e.g., thiazide diuretics).",
+    "**Chronic gout**: repeated flares can lead to chronic polyarticular gouty arthritis with tophi (urate crystal deposits) in soft tissues (e.g., fingers, olecranon bursa, pinna of ear, Achilles tendon) causing deformities. Joints can develop **erosions** on X-ray (\"punched-out\" lesions with overhanging edges).",
+    "**Who gets it**: Predominantly adult men (40–60 years); women are usually affected post-menopause (often with diuretics). Risk factors include **obesity**, high purine diet, heavy **alcohol** use (especially beer), **hypertension** and metabolic syndrome, chronic **kidney disease**, and medications that raise urate (e.g., diuretics).",
+    "Labs: **Hyperuricemia** (serum urate >6.8 mg/dL) is common but not always present during an acute attack. Inflammatory markers (ESR, CRP) are often elevated during flares."
+  ],
+  "problem_solving": [
+    "**Joint aspiration** is essential for any new monoarthritis: analyze synovial fluid for crystals and culture to exclude infection. Gout is confirmed by finding **monosodium urate** crystals that are needle-shaped and strongly **negatively birefringent** under polarized light (yellow when parallel).",
+    "Do not rely on serum uric acid alone—levels may be normal during a flare, and many hyperuricemic people never develop gout. Always rule out **septic arthritis** even if crystals are present (gout and infection can coexist).",
+    "Identify precipitating factors (dietary indiscretion, alcohol, dehydration, new medications) and address modifiable risks (e.g., weight loss, reduce alcohol, adjust diuretics).",
+    "For recurrent gout, determine if the patient is an overproducer vs. underexcreter of urate (e.g., with a 24‑hour urine uric acid test) to guide chronic therapy (uricosurics vs. xanthine oxidase inhibitors). Avoid initiating or stopping **allopurinol** during an acute flare, as fluctuations in urate can worsen the attack."
+  ],
+  "differentials": [
+    { "id": "pseudogout", "name": "Pseudogout (CPPD)", "hint": "older patient, often knee; **rhomboid** calcium pyrophosphate crystals, weakly **positively birefringent**" },
+    { "id": "septic-arthritis", "hint": "usually single hot joint with **fever** and systemic signs; synovial WBC often >50k with neutrophils; bacteria on Gram stain/culture" },
+    { "id": "cellulitis", "hint": "skin infection can mimic gout's redness/swelling but pain is more superficial; no crystals in joint fluid, often an entry point or abscess in skin" }
+  ],
+  "tricks": [
+    "Think **needle = negative** birefringence for gout crystals (monosodium urate).",
+    "**Podagra** (big toe arthritis) is so classic that its absence in a question should prompt consideration of pseudogout or other diagnoses.",
+    "Gout flares often start at night because cooler peripheral joints facilitate crystal precipitation."
+  ],
+  "exam_appearance": [
+    "Overweight man indulges in beer and steak, then wakes up with a red, swollen, extremely tender great toe → **acute gout** (podagra) flare.",
+    "Long-standing untreated gout patient with hard, white nodules on the helix of the ear and chronic joint deformities → **tophaceous gout** (urate crystal deposits)."
+  ],
+  "treatment": [
+    "**NSAIDs** (e.g., indomethacin) are first-line for acute gout flare pain. If contraindicated, use **colchicine** (best if started within 24 hours) or corticosteroids (oral or intra-articular). Rest and ice can also help.",
+    "Initiate **urate-lowering therapy** for frequent flares (≥2/year), tophi, or urate stones. First-line is a **xanthine oxidase inhibitor** (allopurinol; febuxostat if intolerant) to reduce uric acid production. **Probenecid** (uricosuric) can be used in under-excreters without nephrolithiasis. Wait until the acute attack resolves before starting or adjusting ULT.",
+    "When starting ULT, use prophylaxis (low-dose colchicine or an NSAID for 3–6 months) to prevent rebound flares. Emphasize lifestyle changes: weight loss, moderate alcohol intake (limit beer), and diet low in purines (avoid excess red meat, seafood, high-fructose corn syrup)."
+  ],
+  "red_flags": [
+    "A red, swollen joint with **fever or systemic illness** – even if gout is known – should raise concern for **septic arthritis** (always send joint fluid for culture).",
+    "Severe allopurinol **hypersensitivity syndrome** (rash, fever, organ failure) is a rare but life-threatening reaction—screen high-risk groups (e.g., HLA-B*5801 in certain Asian populations) before starting."
+  ],
+  "algorithm": [
+    "Hot, swollen joint (suspect gout) → perform **arthrocentesis** (send fluid for crystal analysis and culture).",
+    "If **monosodium urate crystals** confirmed (and no infection) → acute gout: treat with NSAIDs (or colchicine/steroids if needed).",
+    "After flare resolves, if ≥2 attacks/year, tophi, or CKD → start **urate-lowering therapy** (e.g., allopurinol) with prophylactic colchicine; advise diet and lifestyle changes."
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old obese man with hypertension presents with sudden onset of severe pain, redness, and swelling in his left great toe overnight. He had consumed several beers and a large steak dinner the evening prior. Joint aspiration shows needle-shaped, strongly negatively birefringent crystals under polarized light.",
+      "clues": ["1st MTP (big toe) pain and swelling", "podagra", "beer and meat intake", "needle‑shaped negatively birefringent crystals"],
+      "answer": "Acute gout flare (podagra)",
+      "teaching": "Classic acute gout triggered by dietary indulgence; monosodium urate crystal deposition in the big toe joint causes intense inflammatory arthritis. Diagnose by crystal analysis of synovial fluid. Treat acutely with NSAIDs (e.g., indomethacin) or colchicine, and initiate allopurinol later for prevention."
+    }
+  ],
+  "see_also": [
+    "calcium-pyrophosphate-deposition-disease",
+    "osteoarthritis",
+    "rheumatoid-arthritis",
+    "lesch-nyhan-syndrome"
+  ],
+  "prerequisites": [
+    "purine-metabolism",
+    "inflammation",
+    "renal-physiology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gout (Afzal et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK546606/"
+    },
+    {
+      "title": "UpToDate: Gout – clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/gout-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "2020 ACR Guideline for the Management of Gout (FitzGerald et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32391934/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

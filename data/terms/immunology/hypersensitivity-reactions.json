@@ -1,0 +1,146 @@
+{
+  "id": "hypersensitivity-reactions",
+  "names": ["Hypersensitivity reactions"],
+  "aliases": ["allergic reactions", "Gell–Coombs classification"],
+  "abbr": ["HSR"],
+  "patterns": [
+    "hypersensitivity",
+    "hypersensitivity reaction",
+    "type I hypersensitivity",
+    "type II hypersensitivity",
+    "type III hypersensitivity",
+    "type IV hypersensitivity",
+    "gell coombs"
+  ],
+  "primary_tag": "immunology",
+  "tags": ["immunology", "pathology"],
+  "definition": "Inappropriate or **exaggerated immune response** to an antigen (allergen or self) that causes host tissue damage; classically categorized into **four types (I–IV)** by the Gell–Coombs system.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1._Types_of_hypersensitivity.tif/lossless-page1-1280px-1._Types_of_hypersensitivity.tif.png",
+      "alt": "Diagram of the four types of hypersensitivity: Type I (IgE-mediated mast cell degranulation), Type II (IgG/IgM autoantibodies with complement/ADCC), Type III (immune complex deposition with neutrophil activation), and Type IV (T-cell mediated delayed inflammation).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:1._Types_of_hypersensitivity.tif"
+      }
+    }
+  ],
+  "why_it_matters": "Hypersensitivity mechanisms underlie extremely **common conditions** (e.g. hay fever affects ~1 in 10 people worldwide, asthma hundreds of millions, autoimmune diseases ~1 in 12). They can also be **life-threatening** (e.g. anaphylaxis). Recognizing the type of reaction guides diagnosis (allergy testing vs autoantibody assays) and appropriate therapy (e.g. epinephrine for anaphylaxis vs immunosuppression for autoimmunity). These classifications are frequently tested on exams.",
+  "how_youll_see_it": [
+    "🔴 **Type I (Immediate IgE-mediated)** – Classic **allergic reactions** occurring within minutes of exposure: urticaria (hives), itching, bronchospasm (wheezing), angioedema (swelling), hypotension. Triggers are typically environmental allergens (foods, pollen, insect stings, drugs, latex, etc.), and severe cases present as **anaphylaxis**.",
+    "🟠 **Type II (Cytotoxic IgG/IgM-mediated)** – **Organ-specific** autoimmune or drug-induced reactions. Antibodies target cells or ECM, causing tissue-specific damage. Examples: **hemolytic anemia** or thrombocytopenia (antibody-coated cells destroyed → pallor, jaundice, bleeding), **Goodpasture syndrome** (anti-GBM antibodies → lung hemorrhage + glomerulonephritis with hemoptysis and hematuria), or pemphigus/bullous pemphigoid (antibodies to skin components → blistering).",
+    "🟡 **Type III (Immune complex-mediated)** – **Immune complex** deposition causes systemic or localized inflammation, typically with a **delayed onset** (days to weeks after antigen exposure). Presents with **vasculitic** features: e.g. **serum sickness** (fever, rash, arthritis ~1 week after antiserum/drug exposure), **post-streptococcal glomerulonephritis** (hematuria after strep infection), or **lupus** (immune complexes affect joints, kidneys, etc.). Findings often include **complement activation** (potentially low C3/C4) and neutrophil-rich inflammation.",
+    "🟢 **Type IV (Delayed T-cell-mediated)** – **Delayed (>48h)** inflammatory reactions mediated by sensitized T lymphocytes, not antibodies. Examples: **contact dermatitis** (e.g. poison ivy or nickel rash developing 1–2 days after contact), **tuberculin skin test** (induration peaks ~48–72h), **transplant rejection** and **granulomatous inflammation** (like in TB or sarcoidosis) due to Th1-cell activation of macrophages. Often presents with erythema, itching or tissue-specific damage without any detectable antibodies."
+  ],
+  "problem_solving": [
+    "**Timing is key:** classify by onset after exposure – **minutes** suggests Type I; **hours** suggests Type II or III; **48–72 hours** suggests Type IV.",
+    "**Identify the immunologic mechanism:** look for evidence of IgE (**allergy test** positive → Type I), specific autoantibodies (e.g. **Coombs** or anti-tissue antibody → Type II), circulating **immune complexes** (low complement levels, granular immunofluorescence on biopsy → Type III), or T-cell involvement (e.g. contact **patch test** positive → Type IV).",
+    "**Diagnostic tests:** Use **skin prick tests** or allergen-specific IgE levels for suspected Type I (immediate) allergies; direct/indirect **Coombs tests** for antibody-mediated cytotoxic reactions (Type II); check complement levels, immune complex assays, or tissue biopsy (immunofluorescence) for immune complex disease (Type III); and perform **patch testing** for contact (Type IV) allergies.",
+    "**Mechanistic clues:** Type II reactions tend to be localized to specific tissues (e.g. one organ system affected), whereas Type III often cause **multisystem** or **vasculitic** manifestations due to complexes circulating. Recognize patterns like linear vs granular deposition on immunofluorescence (linear in anti-GBM disease = Type II vs granular in immune complex GN = Type III) to distinguish mechanisms."
+  ],
+  "differentials": [
+    {
+      "name": "Non-IgE (anaphylactoid) reaction",
+      "hint": "Clinically similar to anaphylaxis but due to **direct mast cell activation** (no IgE); e.g. contrast dye, opioids."
+    },
+    {
+      "name": "Hereditary angioedema",
+      "hint": "Recurrent **angioedema without urticaria**, caused by **C1 inhibitor deficiency** (bradykinin-mediated); not an IgE allergy."
+    },
+    {
+      "name": "Stevens–Johnson syndrome",
+      "hint": "Severe **delayed drug reaction** with mucosal involvement and skin necrosis (often T-cell mediated Type IV), distinct from immediate IgE-mediated hives."
+    },
+    {
+      "name": "Irritant contact dermatitis",
+      "hint": "Skin inflammation from **chemical irritation** (non-immune); lacks the sensitization and T-cell mediation of allergic contact dermatitis."
+    }
+  ],
+  "tricks": [
+    "Mnemonic **\"ACID\"** for Types I–IV: **A**naphylactic & Atopic (Type I), **C**ytotoxic/antiBody-mediated (Type II), **I**mmune Complex (Type III), **D**elayed (Type IV).",
+    "Types **I, II, III** are all **antibody-mediated** (Type I involves IgE; II and III involve IgG/IgM), whereas Type **IV** is the only one mediated by **T cells** (no antibodies involved).",
+    "**Type II** can cause **cell destruction** (via complement/phagocytes, e.g. hemolysis) or **cellular dysfunction** without cell death (antibodies acting as agonist or blocker, e.g. **Graves disease** or **myasthenia gravis**). USMLE classifies both as Type II hypersensitivity.",
+    "**Type III** reactions often consume **complement** (e.g. low C3/C4 in lupus or serum sickness) due to widespread immune complex activation of the complement cascade. Think immune complexes → **vasculitis** and **neutrophils** (e.g. **post-strep GN**, serum sickness)."
+  ],
+  "exam_appearance": [
+    "Stung by a bee, within minutes develops wheezing, hives, and hypotension → **Anaphylaxis** (Type I hypersensitivity).",
+    "Young adult with hemoptysis and hematuria; renal biopsy shows *linear* IgG deposits along basement membranes → **Goodpasture syndrome** (Type II hypersensitivity).",
+    "Patient started on an antithymocyte serum 10 days ago now has fever, urticarial rash, arthralgias, and proteinuria → **Serum sickness** (Type III immune complex reaction).",
+    "48 hours after hiking, a patient develops a pruritic blistering rash in streaks on the legs (contact with poison ivy) → **Allergic contact dermatitis** (Type IV delayed hypersensitivity)."
+  ],
+  "treatment": [
+    "**Type I (Immediate):** Ensure airway; give **epinephrine** IM promptly for anaphylaxis. Adjuncts include **antihistamines** for urticaria, **bronchodilators** for bronchospasm, and **corticosteroids** to reduce late-phase inflammation. Long-term, emphasize **allergen avoidance** and consider **desensitization immunotherapy** for severe recurrent allergies.",
+    "**Type II (Cytotoxic):** Remove or treat the offending agent (e.g. stop the drug, treat infection). **Immunosuppressive therapy** is mainstay – typically high-dose **glucocorticoids** to reduce antibody production and inflammation. In severe cases, add **IVIG** (to neutralize pathogenic antibodies) or perform **plasmapheresis** to directly remove antibodies (e.g. in Goodpasture syndrome). Preventive measure: for hemolytic disease of newborn (Rh incompatibility), give RhoGAM to Rh– mothers.",
+    "**Type III (Immune complex):** Address underlying cause (treat infection, discontinue offending drug) and use **immunosuppressants** to dampen ongoing inflammation. **Corticosteroids** are often used (e.g. for lupus nephritis or serum sickness) to reduce immune complex deposition damage. For chronic immune complex diseases like lupus or rheumatoid arthritis, steroid-sparing agents (**DMARDs** such as methotrexate, cyclophosphamide, or biologics like TNF inhibitors) are employed.",
+    "**Type IV (Delayed):** **Avoid the trigger** allergen or antigen when possible (e.g. known contact allergens). For allergic contact dermatitis, use **topical corticosteroids** to reduce inflammation; more severe reactions may require **systemic steroids** with a taper. In severe T-cell mediated reactions like **Stevens–Johnson syndrome**, hospitalize for supportive care (fluid/electrolyte management, wound care). Chronic Type IV conditions (e.g. transplant rejection, autoimmune) may need potent immunosuppressants (cyclosporine, tacrolimus, etc.)."
+  ],
+  "red_flags": [
+    "Any signs of **anaphylaxis** (airway swelling, stridor, hypotension) → immediately administer **epinephrine** and secure airway. Do *not* delay, as this is life-threatening.",
+    "Painful rash with **mucosal lesions** after a new drug (suspected SJS/TEN) → stop the offending drug and provide urgent hospital care (burn unit or ICU for fluids, wound management)."
+  ],
+  "algorithm": [
+    "Exposure to potential allergen → **Assess reaction timing and severity** (immediate vs delayed; mild vs anaphylaxis).",
+    "If **anaphylaxis** suspected (rapid onset, hypotension, respiratory distress) → **IM epinephrine** *first*, plus airway management and IV fluids as needed.",
+    "If not an acute emergency → **Determine likely type**: gather history of timing (minutes vs hours vs days) and perform targeted tests (e.g. skin prick test for IgE, antibody assays or biopsy for immune complexes, patch test for contact).",
+    "Classify as Type I, II, III, or IV and **treat accordingly**: e.g. antihistamines/steroids for Type I allergies, immunosuppression or plasmapheresis for antibody-mediated Type II/III, and avoidance + steroids for Type IV. Ensure removal of or avoidance of the triggering antigen in all cases."
+  ],
+  "cases": [
+    {
+      "stem": "A 24‑year‑old man is stung by a wasp while hiking and within minutes develops diffuse hives, wheezing, abdominal cramps, and lightheadedness.",
+      "clues": ["Wasp sting", "Onset within minutes", "Urticaria (hives)", "Bronchospasm/wheezing", "Hypotension"],
+      "answer": "Anaphylactic shock (Type I hypersensitivity)",
+      "teaching": "Classic IgE-mediated **anaphylaxis**: allergen cross-links IgE on mast cells, causing massive histamine and leukotriene release. Presents with rapid-onset hypotension, bronchoconstriction, and urticaria. Immediate treatment is intramuscular epinephrine."
+    },
+    {
+      "stem": "A blood transfusion is started in a patient with anemia, but within an hour he develops fever, flank pain, chest tightness, and oozing from his IV sites. His urine turns red.",
+      "clues": ["Within an hour of transfusion", "Fever, flank pain", "Hemoglobinuria (red urine)", "Bleeding from IV sites/DIC"],
+      "answer": "Acute hemolytic transfusion reaction (Type II hypersensitivity)",
+      "teaching": "Type II cytotoxic hypersensitivity: pre-formed **IgM** anti-blood group antibodies (ABO mismatch) bind donor RBCs, causing **complement-mediated** hemolysis. Presents with fever, back pain, hemoglobinuria, and DIC. Management includes stopping the transfusion and supportive care (IV fluids, diuretics)."
+    },
+    {
+      "stem": "Ten days after receiving antivenom for a snake bite, a 30‑year‑old develops fever, a diffuse urticarial rash, arthralgias, and enlarged lymph nodes. Labs show low C3 complement levels and proteinuria.",
+      "clues": ["~10 days post antiserum", "Fever & urticarial rash", "Arthralgias", "Lymphadenopathy", "Low complement levels"],
+      "answer": "Serum sickness (Type III hypersensitivity)",
+      "teaching": "A **Type III** immune complex disease: injected foreign proteins (antivenom) formed soluble **antigen–antibody complexes** that deposited in tissues (skin, joints, kidneys). This causes **complement activation** and inflammation (fever, rash, arthritis, nephritis). It typically arises 1–2 weeks after exposure. Treatment is stopping the offending agent and supportive care (antihistamines, NSAIDs, steroids if severe)."
+    },
+    {
+      "stem": "A 35‑year‑old female presents with an intensely itchy, blistering rash on her hands and neck. She started using a new nickel-containing jewelry 3 days ago. Patch testing on the skin is positive for nickel.",
+      "clues": ["Itchy blistering rash on contact areas", "Onset ~48–72 hours", "New nickel jewelry exposure", "Positive patch test"],
+      "answer": "Allergic contact dermatitis (Type IV hypersensitivity)",
+      "teaching": "**Type IV delayed hypersensitivity**: T-cell mediated reaction to a contact antigen (nickel). Langerhans cells present antigen to Th1 cells, which release cytokines and recruit macrophages → eczematous dermatitis with vesicles. Occurs 1–3 days after exposure (no immediate reaction). Treatment is avoidance of the allergen and topical corticosteroids."
+    }
+  ],
+  "see_also": [
+    "anaphylaxis",
+    "systemic-lupus-erythematosus",
+    "atopic-dermatitis"
+  ],
+  "prerequisites": [
+    "immunoglobulins",
+    "complement-system",
+    "t-lymphocytes",
+    "mast-cells"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Type I Hypersensitivity Reaction (Abbas & Goldin, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560561/"
+    },
+    {
+      "title": "UpToDate: Drug hypersensitivity – classification and clinical features",
+      "url": "https://www.uptodate.com/contents/drug-hypersensitivity-classification-and-clinical-features"
+    },
+    {
+      "title": "Medscape: Immediate Hypersensitivity Reactions (Buelow, 2024)",
+      "url": "https://emedicine.medscape.com/article/136217-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

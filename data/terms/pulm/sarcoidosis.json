@@ -1,0 +1,148 @@
+{
+  "id": "sarcoidosis",
+  "names": [
+    "Sarcoidosis"
+  ],
+  "aliases": [
+    "sarcoid",
+    "Besnier-Boeck-Schaumann disease",
+    "Boeck's sarcoid"
+  ],
+  "abbr": [],
+  "patterns": [
+    "sarcoidosis",
+    "sarcoid",
+    "besnier boeck schaumann",
+    "boeck sarcoid"
+  ],
+  "primary_tag": "pulm",
+  "tags": [
+    "pathology",
+    "pulm",
+    "immunology",
+    "rheum"
+  ],
+  "definition": "Systemic inflammatory disease of unknown cause characterized by noncaseating granulomas (non-necrotizing collections of activated immune cells) in multiple organs, most often the lungs and intrathoracic lymph nodes.",
+  "why_it_matters": "Typically affects young adults and can involve virtually any organ. More common (and often more severe) in African Americans. Untreated sarcoidosis can lead to organ damage (e.g., pulmonary fibrosis, vision loss, arrhythmias) and even death in a minority of cases (≈5% mortality). It's a key differential diagnosis for other granulomatous diseases (like TB) and frequently tested due to its classic radiologic and clinical findings.",
+  "how_youll_see_it": [
+    "Pulmonary involvement (∼90% of cases): persistent dry cough, chest discomfort, and dyspnea on exertion; chest imaging typically shows bilateral hilar lymphadenopathy (which can be an incidental finding). Many patients are asymptomatic in early disease.",
+    "Constitutional symptoms: in some cases, nonspecific signs like fatigue, low-grade fever, night sweats, or weight loss. An acute presentation known as Löfgren syndrome is characterized by fever, erythema nodosum (tender red nodules on the shins), and ankle arthritis with bilateral hilar adenopathy (often self-resolving).",
+    "Skin and eye lesions: Chronic sarcoidosis may cause lupus pernio (violaceous, plaque-like lesions on the nose/cheeks) and other rashes/nodules. Ocular involvement (in ~20–50%) typically manifests as uveitis (blurred vision, photophobia), which can occur with parotid gland enlargement and facial nerve palsy (Heerfordt syndrome).",
+    "Other organ involvement: Hypercalcemia can occur (granulomas produce vitamin D), and granulomas in the heart can cause arrhythmias or heart block. Neurosarcoidosis (less common) might present with cranial nerve palsies (e.g. Bell's palsy) or diabetes insipidus from hypothalamic/pituitary involvement."
+  ],
+  "problem_solving": [
+    "Obtain chest imaging in suspected cases: chest X-ray is first-line. Classic finding is bilateral hilar lymphadenopathy; more advanced disease shows interstitial infiltrates (stages II–IV). High-resolution CT can better characterize lung parenchymal changes.",
+    "Check labs for clues: serum ACE level is often elevated (∼60% of cases) and calcium (hypercalciuria more common than hypercalcemia) may be high due to activated macrophages. These findings support sarcoid but are not definitive.",
+    "Exclude other causes: Always test for tuberculosis (e.g., PPD or IGRA) and fungi to rule out infectious granulomatous diseases before treating.",
+    "Biopsy confirmation: Definitive diagnosis requires biopsy of an accessible lesion (e.g., transbronchial lung biopsy or lymph node biopsy) showing noncaseating granulomas with no evidence of infection (negative stains/cultures for TB/fungi).",
+    "Assess extent of disease: perform pulmonary function tests (typically a restrictive pattern with reduced DLCO); also evaluate for extrapulmonary involvement (ophthalmologic exam for uveitis, ECG ± MRI for cardiac sarcoid, neurologic exam, etc.)."
+  ],
+  "differentials": [
+    {
+      "id": "tuberculosis",
+      "hint": "Caseating (necrotizing) granulomas; positive tuberculin/IGRA tests; risk factors like TB exposure or reactivation"
+    },
+    {
+      "id": "hodgkin-lymphoma",
+      "name": "Hodgkin lymphoma",
+      "hint": "B symptoms (fever, night sweats, weight loss), contiguous lymph node spread (often mediastinal mass); lymph node biopsy shows Reed–Sternberg cells, not granulomas"
+    },
+    {
+      "name": "Chronic berylliosis",
+      "hint": "Granulomatous lung disease due to beryllium exposure (e.g., aerospace manufacturing); causes similar lung findings and hilar adenopathy but with a history of exposure and positive beryllium lymphocyte test"
+    }
+  ],
+  "tricks": [
+    "Noncaseating (\"non-cheese\") granulomas are the hallmark of sarcoid, in contrast to caseating granulomas in TB (which have central necrosis).",
+    "Sarcoid granulomas produce 1α-hydroxylase and ACE: this explains the hypercalcemia (excess vitamin D) and elevated ACE levels often seen in patients."
+  ],
+  "exam_appearance": [
+    "African American woman in her 30s with a chronic dry cough and dyspnea; chest X-ray shows bilateral hilar adenopathy; biopsy reveals noncaseating granulomas → Sarcoidosis (pulmonary).",
+    "Young adult with fever, erythema nodosum on the shins, and ankle arthritis; chest radiograph demonstrates bilateral hilar lymphadenopathy (Löfgren syndrome) → acute sarcoidosis.",
+    "Patient with known sarcoidosis develops syncope and an ECG showing complete AV block → suspect cardiac sarcoidosis (granulomatous infiltration causing conduction block)."
+  ],
+  "treatment": [
+    "If no or mild symptoms (stage I disease, normal lung function), can observe without treatment – many cases remit spontaneously. Regular monitoring (exam, PFTs, imaging) is recommended.",
+    "Corticosteroids are first-line for active or moderate-to-severe disease. Example: oral prednisone (∼20–40 mg daily) with a slow taper over 6-12 months. This helps control inflammation and prevent organ damage (e.g., eye or cardiac involvement).",
+    "For chronic or steroid-refractory sarcoidosis, use steroid-sparing agents: e.g., methotrexate, azathioprine, or anti-TNF biologics (infliximab). These can be added to reduce long-term steroid use.",
+    "Advanced pulmonary fibrosis from sarcoid may require lung transplantation in select cases."
+  ],
+  "red_flags": [
+    "Cardiac sarcoidosis: granulomas in the heart can cause arrhythmias or complete heart block, leading to syncope or sudden death. Consider an ICD or pacemaker if significant conduction disease is present.",
+    "Neurosarcoidosis: central nervous system involvement (meningitis, mass lesions) or cranial neuropathies (e.g., facial nerve palsy) can cause serious deficits. New headaches, vision changes, or cranial nerve symptoms in sarcoid patients warrant urgent evaluation.",
+    "Ocular sarcoidosis: uveitis can threaten vision – eye pain, redness, or visual changes require prompt ophthalmologic treatment to prevent blindness."
+  ],
+  "algorithm": [
+    "Young patient (20–40) with unexplained cough, dyspnea, or multisystem findings (e.g., lung + skin lesions) → suspect sarcoidosis.",
+    "Perform chest imaging (CXR) to check for bilateral hilar lymphadenopathy or interstitial changes. If present, evaluate with basic labs (ACE level, calcium) and tests to exclude infection (tuberculin skin test or IGRA for TB).",
+    "Obtain a biopsy of an accessible lesion (e.g., transbronchial lung or lymph node biopsy) to confirm the diagnosis (showing noncaseating granulomas without infectious organisms).",
+    "After diagnosis, assess organ involvement: pulmonary (PFTs, oxygen levels), eyes (slit-lamp exam for uveitis), heart (ECG, consider cardiac MRI), and CNS as indicated. This guides therapy urgency.",
+    "Treat if significant organ dysfunction or symptoms: start corticosteroids; add steroid-sparing immunosuppressants if needed. If asymptomatic with limited disease, close observation is appropriate. Ensure follow-up for relapse or complications."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sarcoidosis.jpg",
+      "alt": "Histopathology of pulmonary sarcoidosis: lung tissue with several well-formed noncaseating granulomas (no central necrosis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Sarcoidosis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 28-year-old African American woman is evaluated for a 3-month history of dry cough and progressive shortness of breath.",
+      "clues": [
+        "Chest X-ray reveals bilateral hilar lymphadenopathy",
+        "Serum ACE level is elevated",
+        "Calcium level is high",
+        "Transbronchial lung biopsy shows noncaseating granulomas"
+      ],
+      "answer": "Sarcoidosis (pulmonary involvement)",
+      "teaching": "This young patient's presentation (dry cough, dyspnea), imaging (bilateral hilar lymph nodes), and noncaseating granulomas on biopsy are classic for sarcoidosis. Elevated ACE and calcium often accompany active sarcoid. Other causes of granulomas (like tuberculosis or fungal infection) should be ruled out, but negative cultures here and the overall picture support sarcoidosis."
+    },
+    {
+      "stem": "A 35-year-old man presents with two weeks of fever, painful red bumps on his shins, and joint pain in his ankles.",
+      "clues": [
+        "Tender red nodules on shins (erythema nodosum)",
+        "Ankle arthritis",
+        "Fever and malaise",
+        "Chest X-ray shows bilateral hilar adenopathy"
+      ],
+      "answer": "Löfgren syndrome (acute sarcoidosis)",
+      "teaching": "This is a classic presentation of Löfgren syndrome, an acute form of sarcoidosis characterized by erythema nodosum, bilateral hilar lymphadenopathy, fever, and migratory polyarthritis (often in the ankles). It is most commonly seen in certain ethnic groups (e.g., Northern Europeans) and usually indicates a good prognosis, often resolving spontaneously within 1-2 years."
+    }
+  ],
+  "see_also": [
+    "tuberculosis",
+    "hodgkin-lymphoma",
+    "pulmonary-fibrosis"
+  ],
+  "prerequisites": [
+    "immune-system",
+    "granuloma",
+    "chest-x-ray"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Sarcoidosis (Bokhari et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430687/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of sarcoidosis",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-sarcoidosis"
+    },
+    {
+      "title": "N Engl J Med: Sarcoidosis (Iannuzzi et al., 2007)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18032765/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

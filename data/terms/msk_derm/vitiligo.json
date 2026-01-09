@@ -1,0 +1,119 @@
+{
+  "id": "vitiligo",
+  "names": ["Vitiligo"],
+  "aliases": ["leukoderma", "leucoderma"],
+  "abbr": [],
+  "patterns": ["vitiligo", "leukoderma", "white patches on skin", "depigmented patches"],
+  "primary_tag": "msk_derm",
+  "tags": ["pathology", "msk_derm", "immunology"],
+  "definition": "Vitiligo is a common acquired disorder of pigmentation characterized by well-defined depigmented (white) macules and patches on the skin, resulting from autoimmune destruction of melanocytes (pigment-producing cells).",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Vitiligo1.JPG/1280px-Vitiligo1.JPG",
+      "alt": "Vitiligo on the hands: depigmented patches of skin on a background of normally pigmented skin.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Vitiligo1.JPG"
+      }
+    }
+  ],
+  "why_it_matters": "Vitiligo affects about 0.5–2% of the population worldwide and can cause significant cosmetic and psychological impact (the contrast of white patches is especially noticeable on darker skin, affecting self-esteem). It also serves as a visible clue to underlying autoimmunity – for example, many patients have thyroid disease or other autoimmune disorders. Recognizing vitiligo is important so that associated conditions can be screened for and managed, and because early treatment of vitiligo can improve outcomes.",
+  "how_youll_see_it": [
+    "Asymptomatic **white patches** of skin with complete pigment loss. Patches are usually **well-demarcated** and often **symmetric**. Common sites include the face (around the eyes, mouth), hands, arms, feet, and genital areas. Affected skin has normal texture and sensation (no itching or numbness).",
+    "Hairs growing within vitiliginous skin often lose their pigment as well – e.g. a patch of scalp vitiligo may produce a **white tuft of hair** (poliosis). New depigmented spots can appear after skin trauma like cuts or sunburn (**Koebner phenomenon**).",
+    "Onset is often in childhood or young adulthood (about half of cases begin by age 20). Patients may have a **family history** of vitiligo or other autoimmune diseases, but vitiligo can also occur sporadically. All skin tones can be affected (though patches stand out more on darker skin).",
+    "**Generalized (non-segmental) vitiligo** – the most common type. Depigmented patches appear on both sides of the body (often roughly symmetric) and tend to **spread gradually** over time with new patches appearing intermittently.",
+    "**Segmental vitiligo** – less common, usually limited to one side or one localized area. Often starts at a younger age and spreads rapidly for 6–12 months, then **stops progressing** (stable). Segmental vitiligo is typically not associated with systemic autoimmune diseases. In rare cases, vitiligo can be **universal** (almost all pigment is lost)."
+  ],
+  "problem_solving": [
+    "Confirm the diagnosis: examine the skin under a **Wood's lamp** (depigmented vitiligo lesions will glow bright white under UV light). If the diagnosis is in doubt, a skin biopsy from an affected patch will show an absence of melanocytes (consistent with vitiligo).",
+    "Rule out other causes of hypopigmentation: perform a KOH prep on any scaly lesions to check for **tinea versicolor** (fungal infection). Ensure the patches have normal sensation – if areas are numb, consider leprosy instead of vitiligo.",
+    "Check for associated autoimmune conditions: patients with vitiligo should be screened for thyroid disorders (e.g. **TSH** levels) and other autoimmune markers as indicated (e.g. glucose for type 1 diabetes, pernicious anemia labs), since vitiligo often coexists with other autoimmune diseases."
+  ],
+  "differentials": [
+    {
+      "name": "Tinea versicolor (pityriasis versicolor)",
+      "hint": "Fungal infection with Malassezia; patches are off-white or tan (not pure white) with fine scaling; KOH prep shows yeast and spores (\"spaghetti and meatballs\" appearance)."
+    },
+    {
+      "name": "Pityriasis alba",
+      "hint": "Common in children; mild eczema on the face leads to patchy light spots (incomplete pigment loss) with slight dry scale; tends to improve with moisturization and time."
+    },
+    {
+      "name": "Post-inflammatory hypopigmentation",
+      "hint": "Partial pigment loss at sites of prior skin injury or inflammation (e.g. old burns, healed dermatitis); usually not stark white and often repigments gradually."
+    }
+  ],
+  "tricks": [
+    "Think **autoimmune** – vitiligo results from the immune system attacking melanocytes. Patients may have other autoimmune diseases (e.g. vitiligo + **Hashimoto** thyroiditis on exams).",
+    "Vitiligo patches **glow under Wood's lamp** (UV light highlights the chalk-white lesions) – useful to distinguish vitiligo from other causes of light spots.",
+    "Vitiligo lesions have **normal sensation**. If a white patch is numb to touch, it's a red flag for **leprosy** rather than vitiligo (a classic exam distinction)."
+  ],
+  "exam_appearance": [
+    "A 25-year-old woman with Hashimoto thyroiditis develops symmetrical, **chalk-white patches** on her face and the backs of her hands (no scaling, normal sensation) → **Vitiligo** (autoimmune melanocyte loss).",
+    "A 12-year-old boy has a single depigmented patch on his left chest that spread for a few months and then stopped enlarging, with no other areas involved → **Segmental vitiligo** (unilateral, localized vitiligo that stabilizes after initial spread)."
+  ],
+  "treatment": [
+    "For limited areas: **Topical corticosteroids** (high-potency) are first-line to induce repigmentation. Topical calcineurin inhibitors (e.g. tacrolimus) are another option, especially for delicate areas like the face.",
+    "For widespread vitiligo: **Narrowband UVB phototherapy** (311 nm) is the treatment of choice to stimulate melanocyte repigmentation. Treatments are typically administered 2–3 times per week. **Excimer laser** (308 nm) can target small lesions, and older PUVA (psoralen + UVA) therapy is now less used due to side effects.",
+    "Newly approved therapy: **Topical ruxolitinib** (a JAK inhibitor cream) was FDA-approved in 2022 as the first medication specifically to repigment vitiligo. In trials, about 30% of patients achieved ≥75% facial repigmentation after 24 weeks of ruxolitinib cream (versus 10% with placebo).",
+    "Extensive or unresponsive cases: **Depigmentation therapy** can permanently lighten the remaining normal skin (using topical monobenzone) if a patient has vitiligo over most of the body and desires a uniform skin tone. This irreversible option is a last resort for severe widespread vitiligo.",
+    "Adjuncts: **Sun protection** is crucial for depigmented skin (which burns easily without melanin). Cosmetic camouflage (makeup, self-tanners) is often used to cover patches, and counseling/support groups can help with psychosocial effects."
+  ],
+  "red_flags": [
+    "**Depigmented patch with numbness** → not vitiligo! (Consider tuberculoid **leprosy** if a light patch has reduced sensation).",
+    "**Delayed treatment**: Starting vitiligo therapy early is important – the longer vitiligo is left untreated, the more difficult repigmentation can become. Prompt dermatology referral and initiation of treatment improve outcomes."
+  ],
+  "algorithm": [
+    "Skin shows white, depigmented patches → perform Wood's lamp exam (lesions appear bright under UV) → if scaling is present, do KOH scraping to exclude tinea versicolor.",
+    "Diagnosis = vitiligo → check basic labs for autoimmune co-morbidities (especially **TSH** for thyroid function); refer to dermatology for a treatment plan.",
+    "Localized vitiligo → topical steroids or tacrolimus (continue for several months to gauge repigmentation response).",
+    "Generalized vitiligo → narrowband UVB phototherapy (2–3× weekly) ± systemic therapy; consider adding the new topical ruxolitinib for non-segmental disease.",
+    "Extensive (>50% body) and refractory → consider depigmentation of remaining normal skin. Throughout management, emphasize sun protection on depigmented areas."
+  ],
+  "cases": [
+    {
+      "stem": "A 25-year-old woman with a history of autoimmune thyroiditis reports developing patches of 'white skin' on her face and hands over the past year.",
+      "clues": ["Well-defined depigmented patches", "Symmetric on face and dorsal hands", "Normal sensation, no scaling"],
+      "answer": "Vitiligo (generalized)",
+      "teaching": "Autoimmune destruction of melanocytes causes loss of pigment in the skin. It is often associated with other autoimmune diseases (here Hashimoto thyroiditis). Treat with topical steroids or phototherapy to attempt repigmentation."
+    },
+    {
+      "stem": "A 12-year-old boy has a single depigmented patch on his left trunk that rapidly expanded over 5 months and then ceased spreading. The patch has remained stable for the past year.",
+      "clues": ["White patch localized to one side", "Initial rapid spread then stopped", "Hair in patch is also white"],
+      "answer": "Segmental vitiligo",
+      "teaching": "Segmental vitiligo (unilateral) typically progresses for a short time and then becomes stable. It is confined to one area and is less often linked to systemic autoimmunity. Management may involve localized therapies (e.g. topical tacrolimus or targeted phototherapy)."
+    }
+  ],
+  "see_also": [
+    "albinism",
+    "hypothyroidism",
+    "psoriasis"
+  ],
+  "prerequisites": [
+    "skin",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Vitiligo (Ahmed & Masood, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559149/"
+    },
+    {
+      "title": "UpToDate: Vitiligo – management and prognosis",
+      "url": "https://www.uptodate.com/contents/vitiligo-management-and-prognosis"
+    },
+    {
+      "title": "N Engl J Med: Vitiligo (Taieb & Picardo, 2009)",
+      "url": "https://doi.org/10.1056/NEJMcp0804388"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

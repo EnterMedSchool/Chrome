@@ -1,0 +1,103 @@
+{
+  "id": "amyotrophic-lateral-sclerosis",
+  "names": ["Amyotrophic lateral sclerosis"],
+  "aliases": ["Lou Gehrig's disease"],
+  "abbr": ["ALS"],
+  "patterns": ["amyotrophic lateral sclerosis", "ALS", "Lou Gehrig"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "pathology"],
+  "definition": "Progressive degenerative motor neuron disease affecting upper and lower motor neurons, leading to muscle weakness, atrophy, and ultimately respiratory failure.",
+  "why_it_matters": "The classic mixed UMN & LMN disease; relentlessly progressive and fatal (median survival ~3–5 years). Recognizing ALS and distinguishing it from treatable mimics (e.g., neuropathies, myasthenia) is crucial.",
+  "how_youll_see_it": [
+    "Insidious, painless onset of asymmetric limb weakness (typically in one hand or foot). Patients notice frequent tripping (foot drop) or dropping objects due to hand weakness. Visible fasciculations (muscle twitching) and painful cramps often accompany early muscle wasting.",
+    "Neurologic exam shows a hallmark combination of upper motor neuron signs (spasticity, hyperreflexia, extensor Babinski) and lower motor neuron signs (muscle atrophy, weakness, fasciculations) in the same region. Sensory exam is normal, differentiating ALS from radiculopathy or neuropathy.",
+    "Bulbar involvement (brainstem motor nuclei) causes dysarthria (slurred or nasal speech) and dysphagia (difficulty chewing/swallowing). Speech may become unintelligible, and aspiration risk rises. Patients can exhibit pseudobulbar affect – involuntary, inappropriate laughing or crying due to corticobulbar tract (UMN) damage.",
+    "Axial muscle weakness emerges as disease progresses. Neck extensor weakness leads to dropped head syndrome (head droop). Weakness of paraspinal muscles can cause a stooped forward posture or camptocormia. Difficulty climbing stairs or standing from chairs may indicate proximal limb and truncal muscle involvement.",
+    "Progressive respiratory muscle failure is a late hallmark. Diaphragmatic weakness causes orthopnea (difficulty breathing when lying flat) and exertional dyspnea. Serial FVC measurements track decline; an FVC <50% predicted signals significant respiratory compromise. Patients use accessory muscles to breathe and will eventually require ventilatory support (e.g., nocturnal BiPAP).",
+    "Non-motor features can accompany ALS. About 10–15% of patients develop frontotemporal dementia (profound executive and personality changes), and a larger proportion have milder frontal lobe dysfunction. Up to half experience pseudobulbar affect (pathologic emotional lability). Overt autonomic dysfunction is not typical, but late-stage patients may have urinary urgency or other subtle autonomic issues."
+  ],
+  "problem_solving": [
+    "Diagnosis is clinical, supported by **EMG/NCS**: EMG shows widespread denervation (fibrillations, positive sharp waves) and reinnervation (large motor unit potentials) in multiple body regions; NCS shows normal sensory responses.",
+    "Apply **El Escorial criteria** for diagnosis: requires evidence of UMN and LMN degeneration in multiple body regions (bulbar, cervical, thoracic, lumbosacral) with progressive spread, and exclusion of other causes.",
+    "Rule out treatable mimics: check for anti-GM1 antibodies (multifocal motor neuropathy), acetylcholine receptor antibodies (myasthenia gravis), and consider MRI of brain/spine to exclude structural lesions."
+  ],
+  "differentials": [
+    {
+      "name": "Multifocal Motor Neuropathy (MMN)",
+      "hint": "Immune-mediated motor neuropathy; asymmetric limb weakness with LMN signs only (no UMN signs); anti-GM1 antibodies; responds to IVIG"
+    },
+    {
+      "name": "Myasthenia Gravis (MG)",
+      "hint": "Fluctuating fatigable weakness (ptosis, diplopia, bulbar); no atrophy or fasciculations; improves with rest and anticholinesterases"
+    },
+    {
+      "name": "Lambert–Eaton Myasthenic Syndrome (LEMS)",
+      "hint": "Proximal weakness with autonomic symptoms; strength improves after exercise; often paraneoplastic (small cell lung cancer)"
+    },
+    {
+      "name": "Cervical myelopathy",
+      "hint": "Spinal cord compression can cause mixed UMN/LMN signs in upper limbs; MRI shows cord compression; surgically treatable"
+    }
+  ],
+  "tricks": [
+    "The hallmark of ALS is **combined UMN and LMN signs** in the same limb or region – this rules out most other conditions.",
+    "**Split hand sign**: preferential wasting of thenar muscles (lateral hand) compared to hypothenar (medial hand) is characteristic of ALS.",
+    "**Sensory sparing**: if sensory symptoms are present, reconsider the diagnosis – ALS does not affect sensory neurons."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with progressive weakness, muscle wasting and fasciculations in the hands, hyperreflexia, and Babinski signs → ALS (combined UMN and LMN signs).",
+    "Patient with dysarthria, dysphagia, tongue fasciculations, and brisk jaw jerk → bulbar-onset ALS.",
+    "ALS patient with inappropriate laughing/crying episodes → pseudobulbar affect (treat with dextromethorphan/quinidine)."
+  ],
+  "treatment": [
+    "**Riluzole** (glutamate antagonist) is FDA-approved and modestly prolongs survival (~2–3 months). **Edaravone** (antioxidant) may slow functional decline in some patients.",
+    "**Respiratory support**: nocturnal BiPAP for early respiratory failure; tracheostomy with mechanical ventilation for patients who choose invasive support. Monitor FVC regularly.",
+    "**Nutritional support**: PEG tube placement when dysphagia impairs nutrition (before FVC drops too low for safe procedure).",
+    "**Symptomatic care**: physical therapy for mobility, speech therapy for communication aids, medications for spasticity (baclofen), cramps (quinine), sialorrhea (glycopyrrolate), and pseudobulbar affect (dextromethorphan/quinidine).",
+    "**Multidisciplinary care** at an ALS center improves quality of life and may extend survival."
+  ],
+  "red_flags": [
+    "Rapidly progressive weakness with both UMN and LMN signs in multiple regions – consider ALS and refer urgently to neurology.",
+    "Respiratory symptoms (orthopnea, morning headaches from CO₂ retention) indicate advanced disease – arrange pulmonary function testing and discuss ventilatory options.",
+    "Weight loss and dysphagia signal need for early PEG tube placement before respiratory function declines further."
+  ],
+  "algorithm": [
+    "Progressive asymmetric weakness with both UMN and LMN signs, normal sensation → suspect ALS.",
+    "Perform EMG/NCS to confirm widespread denervation in multiple body segments with normal sensory responses.",
+    "Exclude mimics: MRI of brain/spine, anti-GM1 antibodies, acetylcholine receptor antibodies, thyroid function, B12.",
+    "Apply El Escorial criteria for diagnosis; refer to ALS specialty center for confirmation and multidisciplinary management.",
+    "Initiate disease-modifying therapy (riluzole), monitor respiratory function (FVC), and provide symptomatic and supportive care."
+  ],
+  "see_also": [
+    "myasthenia-gravis",
+    "multiple-sclerosis",
+    "spinal-muscular-atrophy",
+    "respiratory-failure"
+  ],
+  "prerequisites": [
+    "motor-neuron-anatomy",
+    "upper-vs-lower-motor-neuron-lesions"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Amyotrophic Lateral Sclerosis (Masrori & Van Damme, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK556151/"
+    },
+    {
+      "title": "UpToDate: Clinical features of amyotrophic lateral sclerosis and other forms of motor neuron disease",
+      "url": "https://www.uptodate.com/contents/clinical-features-of-amyotrophic-lateral-sclerosis-and-other-forms-of-motor-neuron-disease"
+    },
+    {
+      "title": "ALS Association: What is ALS?",
+      "url": "https://www.als.org/understanding-als/what-is-als"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

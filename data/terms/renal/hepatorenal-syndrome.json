@@ -1,0 +1,123 @@
+{
+  "id": "hepatorenal-syndrome",
+  "names": ["Hepatorenal syndrome"],
+  "aliases": ["HRS-AKI (formerly Type 1 HRS)", "HRS-non-AKI (formerly Type 2 HRS)"],
+  "abbr": ["HRS"],
+  "patterns": ["hepatorenal syndrome", "hepato-renal syndrome", "HRS", "Type 1 HRS", "Type 2 HRS"],
+  "primary_tag": "renal",
+  "tags": ["pathology", "renal", "gi", "pharmacology"],
+  "definition": "Life-threatening functional renal failure occurring in advanced liver disease (**cirrhosis with ascites**), characterized by a rapid decline in kidney function (Type 1) or a more gradual decline (Type 2) without intrinsic kidney damage.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HRS_and_ascites_pathophysiology.svg/1024px-HRS_and_ascites_pathophysiology.svg.png",
+      "alt": "Pathophysiology of ascites and HRS: portal hypertension causes splanchnic vasodilation → reduced effective arterial volume → RAAS activation (renal sodium retention → ascites) and renal vasoconstriction → HRS",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:HRS_and_ascites_pathophysiology.svg"
+      }
+    }
+  ],
+  "why_it_matters": "HRS carries extremely high short-term mortality (Type 1 ~50% mortality). It represents end-stage decompensation in cirrhosis and often dictates **urgent transplant** evaluation. Early recognition is critical, as treating HRS (versus other AKI causes) can stabilize renal function and improve survival. HRS is a favorite exam topic on cirrhosis complications due to its unique diagnostic criteria and management.",
+  "how_youll_see_it": [
+    "Seen in patients with **decompensated cirrhosis** (usually with tense ascites). Often **precipitated** by an insult: e.g. **SBP** (spontaneous bacterial peritonitis) or other infections, **GI bleeding**, overly aggressive diuresis, or large-volume paracentesis without albumin. Type 1 HRS presents as a **rapid rise in creatinine** over days (<2 weeks), whereas Type 2 is a slower, insidious decline in renal function over weeks (often with refractory ascites).",
+    "Patients develop **oliguria** (very low urine output) and progressive **azotemia**. Exam shows signs of advanced liver disease (ascites, jaundice, hypotension, ± encephalopathy). **Hyponatremia** is common (due to dilutional fluid retention).",
+    "Laboratory clues: **bland urine** sediment (no significant proteinuria or hematuria) indicating no intrinsic nephritis. Urine sodium is extremely low (often <10 mEq/L) and FeNa typically <1% (reflecting avid sodium retention). These prerenal-like findings, *despite* adequate fluid resuscitation, are characteristic of HRS."
+  ],
+  "problem_solving": [
+    "**Rule out other AKI causes first:** In a cirrhotic with AKI, immediately stop diuretics and look for hypovolemia or sepsis. Give an **albumin fluid challenge** (~1 g/kg/day IV for 2 days) while searching for infection (paracentesis for SBP, blood/urine cultures) and excluding obstruction or nephrotoxic drugs.",
+    "If kidney function **improves with volume** expansion, the cause was pre-renal (not HRS). If **no improvement after 48 h of albumin** and no intrinsic cause is found, **HRS is diagnosed**. Ensure no alternative intrinsic renal disease: HRS typically has **normal ultrasound** (no obstruction) and bland urine (no RBC/protein casts), helping distinguish from glomerulonephritis or ATN.",
+    "Remember that HRS is a diagnosis of **exclusion**. Traditional indices like FeNa <1% support HRS but are not definitive (diuretics or some ATN cases can also have low FeNa). No specific biomarker is widely available (research on NGAL is ongoing), so clinical judgment is key.",
+    "Once HRS is identified, **early intervention** is critical. Start treatment promptly (vasoconstrictors + albumin) to reverse functional failure **before structural damage occurs**. Also address any precipitating factor: e.g., start antibiotics for SBP or hold β-blockers if hypotensive."
+  ],
+  "differentials": [
+    {
+      "name": "Pre-renal azotemia (volume depletion)",
+      "hint": "AKI from dehydration or hemorrhage – **improves with IV fluids/albumin** (unlike HRS)"
+    },
+    {
+      "id": "acute-tubular-necrosis",
+      "hint": "Ischemic injury to kidneys (e.g., prolonged hypotension); usually has **muddy brown casts** and higher FeNa; often follows shock or sepsis rather than just cirrhosis"
+    },
+    {
+      "name": "Glomerulonephritis or other intrinsic AKI",
+      "hint": "**Active urine sediment** (proteinuria, hematuria) or other organ involvement – not present in pure HRS"
+    }
+  ],
+  "tricks": [
+    "Think **HRS** in a cirrhotic patient whose creatinine keeps rising **despite volume resuscitation** and withdrawal of diuretics.",
+    "Remember: HRS is functionally a extreme form of **pre-renal AKI** that doesn't get better with fluids. The kidneys themselves look normal (no damage on biopsy) – it's the **circulatory failure** from liver disease causing renal hypoperfusion.",
+    "Mnemonic to recall Types: **Type 1 = 1 kidney shot** (acute hit to kidneys in <2 weeks, often after infection/bleed); **Type 2 = 2 kidneys slowly** (gradual decline, seen with refractory ascites)."
+  ],
+  "exam_appearance": [
+    "Hospitalized cirrhotic (with ascites) who had an SBP infection now develops oliguria, **doubling of creatinine** to ~3 mg/dL, low urine Na⁺, and no improvement after albumin infusion → **HRS Type 1**.",
+    "Outpatient with **refractory ascites** from cirrhosis and a steady rise in creatinine (~2.0 mg/dL) over weeks despite diuretic therapy → **HRS Type 2** (diuretic-resistant ascites with slowly progressive renal failure)."
+  ],
+  "treatment": [
+    "**Vasoconstrictor + albumin therapy** is first-line. If available, IV **terlipressin** (vasopressin analog) plus daily IV **albumin** has the best evidence for reversing HRS. Goal is to raise arterial pressure and improve renal perfusion; therapy is typically continued for up to 14 days or until creatinine normalizes.",
+    "If terlipressin is not available (e.g. in the US), use IV **norepinephrine** in ICU settings or oral **midodrine** + subQ **octreotide** on wards, alongside albumin. These alternatives aim to increase MAP by ~10–15 mmHg. (Midodrine/octreotide is less effective than terlipressin.)",
+    "Address precipitating factors concurrently: treat infections with antibiotics (e.g. SBP), hold or reduce **diuretics** and vasodilators (e.g. beta-blockers) to improve renal perfusion, and perform therapeutic **paracentesis** if tense ascites is contributing to abdominal compartment pressure (always give albumin after large paracentesis).",
+    "There's no consensus on early **dialysis** in HRS – it can serve as a bridge to transplant or for severe metabolic derangements, but dialysis alone won't reverse HRS. Decisions on renal replacement are case-by-case, balancing transplant timeline and patient condition.",
+    "**Liver transplant** is the definitive cure for HRS, as a new liver restores normal hemodynamics. All HRS patients should be evaluated for transplant expeditiously. In some cases, a **TIPS** (transjugular intrahepatic portosystemic shunt) can be considered to reduce portal pressure and improve renal perfusion if transplant is not immediately available."
+  ],
+  "red_flags": [
+    "Cirrhotic patient with **AKI that fails to improve** after 2 days of albumin → strongly consider **HRS** and initiate therapy promptly.",
+    "**Spontaneous bacterial peritonitis** or GI bleeding often precede HRS – if a cirrhotic develops one of these, watch their renal function like a hawk (early creatinine rise + oliguria = red flag for HRS)."
+  ],
+  "algorithm": [
+    "Cirrhosis + AKI: **hold diuretics/nephrotoxins**, do infectious workup (e.g. paracentesis for SBP), and give IV **albumin challenge**.",
+    "If creatinine **improves** with fluids/albumin → likely pre-renal azotemia (not HRS). If **no improvement** after 48h albumin and no intrinsic cause identified → **diagnose HRS**.",
+    "Upon HRS diagnosis: initiate **vasoconstrictor + albumin** therapy immediately (e.g. start terlipressin infusion, or ICU-level norepinephrine). Continuously monitor MAP, urine output, and creatinine.",
+    "Simultaneously, **treat the trigger** (control infection, stop bleeding, etc.) and consider relief of ascites (large-volume paracentesis with albumin support) to optimize renal perfusion.",
+    "**Early transplant referral** for liver transplant is crucial. If the patient is transplant-ineligible or HRS is refractory, discuss goals of care (palliative measures), as prognosis without liver replacement is poor."
+  ],
+  "cases": [
+    {
+      "stem": "A 55‑year‑old man with long-standing alcoholic cirrhosis and ascites is admitted for spontaneous bacterial peritonitis. Despite appropriate antibiotics and IV fluids, his urine output drops and serum creatinine rises from 1.0 to 3.2 mg/dL over 4 days.",
+      "clues": [
+        "Cirrhosis with ascites (decompensated liver disease)",
+        "Recent SBP infection (precipitating event)",
+        "Oliguria and rapidly rising creatinine (acute kidney injury)",
+        "Urine Na⁺ is 5 mEq/L (very low)",
+        "No protein or blood on urinalysis",
+        "No improvement after 48h IV albumin challenge"
+      ],
+      "answer": "Hepatorenal syndrome (Type 1)",
+      "teaching": "This is classic HRS Type 1, triggered by SBP in a cirrhotic patient. The kidney failure is functional (no intrinsic damage) due to severe vasodilation and renal vasoconstriction. Management would include vasoconstrictors (e.g. terlipressin or norepinephrine) plus albumin, while preparing for possible liver transplant as definitive treatment."
+    }
+  ],
+  "see_also": [
+    "cirrhosis",
+    "ascites",
+    "chronic-kidney-disease"
+  ],
+  "prerequisites": [
+    "renal-physiology",
+    "portal-hypertension"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hepatorenal Syndrome (Ranasinghe et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK430856/"
+    },
+    {
+      "title": "UpToDate: Hepatorenal syndrome in cirrhosis – diagnosis and management (2025)",
+      "url": "https://www.uptodate.com/contents/hepatorenal-syndrome"
+    },
+    {
+      "title": "AASLD Liver Fellow Network: Why are patients with cirrhosis susceptible to HRS? (Rabiee, 2022)",
+      "url": "https://www.aasld.org/liver-fellow-network/core-series/why-series/why-are-patients-cirrhosis-susceptible-hepatorenal"
+    },
+    {
+      "title": "Hepatorenal syndrome: A case-based practical guide (Hantzidiamantis & Mohanty, 2023)",
+      "url": "https://dmr.amegroups.com/article/view/9060/html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

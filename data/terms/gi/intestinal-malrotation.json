@@ -1,0 +1,138 @@
+{
+  "id": "intestinal-malrotation",
+  "names": [
+    "Intestinal malrotation"
+  ],
+  "aliases": [
+    "midgut malrotation",
+    "intestinal nonrotation",
+    "incomplete intestinal rotation"
+  ],
+  "abbr": [],
+  "patterns": [
+    "intestinal malrotation",
+    "midgut malrotation",
+    "malrotation",
+    "intestinal nonrotation",
+    "incomplete rotation"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "gi",
+    "peds",
+    "surgery",
+    "radiology"
+  ],
+  "definition": "Congenital anomaly of intestinal rotation and fixation resulting in abnormal bowel positioning; predisposes to life‑threatening midgut **volvulus** and duodenal obstruction by Ladd's bands.",
+  "why_it_matters": "Even if rare, malrotation can present with catastrophic **midgut volvulus** in infancy – a surgical emergency that can lead to bowel necrosis and shock if not promptly treated. It's a classic neonatal scenario (bilious vomiting) that requires rapid recognition. Untreated malrotation may also cause chronic GI issues or intermittent obstruction, impacting feeding and growth.",
+  "how_youll_see_it": [
+    "**Neonate (acute volvulus)** – Typically a newborn with **bilious (green) vomiting**, abdominal distension, and pain. May rapidly progress to ischemia (signs include bloody stools, peritonitis, shock) if midgut **volvulus** occurs.",
+    "**Older infants/children** – Sometimes malrotation isn't obvious at birth. Children can have recurrent episodes of abdominal pain and vomiting, failure to thrive, or malabsorption due to intermittent obstruction (Ladd's bands or partial volvulus). Symptoms may be chronic and vague (e.g. \"abdominal migraines\").",
+    "**Adults** – Rarely, malrotation presents in adulthood (often <1% of cases). Adult patients might have chronic digestive complaints or an acute bowel obstruction/ischemia. Some people remain **asymptomatic** and malrotation is discovered incidentally."
+  ],
+  "problem_solving": [
+    "Always suspect malrotation in any neonate with **bilious emesis** – consider it midgut volvulus until proven otherwise (don't wait for the infant to become critically ill).",
+    "Initial management: **stabilize** the patient. Start IV fluids and electrolyte resuscitation, and place a nasogastric (NG) tube to decompress the stomach. Simultaneously, call for an urgent surgical evaluation.",
+    "Diagnostic imaging (if stable): an **upper GI series** (contrast study) is the gold standard for malrotation. It will show an abnormal position of the duodenojejunal junction (Ligament of Treitz) – often misplaced to the right side. In volvulus, the upper GI may show a characteristic \"**corkscrew**\" twisted appearance of the duodenum/jejunum. An abdominal X-ray can suggest proximal obstruction (e.g., stomach and duodenal dilation with little distal gas) but is not definitive. **Ultrasound** can demonstrate the \"**whirlpool sign**\" (twisting of the SMV around the SMA) or an inverted SMA/SMV relationship. A contrast enema (lower GI series) may show the **cecum** in an abnormal location (not in the RLQ). In older patients, abdominal **CT** or MRI can also help confirm malrotation anatomy.",
+    "Do **not** delay surgery for imaging if volvulus is highly suspected or if the infant is unstable. Malrotation with volvulus is a surgical emergency – the definitive treatment is prompt operative intervention (Ladd's procedure)."
+  ],
+  "differentials": [
+    {
+      "id": "duodenal-atresia",
+      "hint": "neonatal duodenal obstruction with \"double bubble\" on X-ray; often associated with Down syndrome"
+    },
+    {
+      "id": "hypertrophic-pyloric-stenosis",
+      "name": "Pyloric stenosis",
+      "hint": "projectile nonbilious vomiting around 3–6 weeks old; palpable \"olive\" in epigastrium"
+    },
+    {
+      "id": "superior-mesenteric-artery-syndrome",
+      "name": "Superior mesenteric artery syndrome",
+      "hint": "duodenal compression (third part) in older children/teens after weight loss; vomiting worse when supine"
+    }
+  ],
+  "tricks": [
+    "Neonate + **green vomit** = malrotation with midgut volvulus until proven otherwise. Always treat bilious emesis in infancy as an emergency workup.",
+    "Remember the **Ladd's procedure** steps: untwist the bowel (counterclockwise detorsion), cut the obstructing Ladd's bands, broaden the mesentery (place small bowel on the right, colon on the left), and remove the **appendix** (which will be in the wrong place)."
+  ],
+  "exam_appearance": [
+    "Newborn with **bilious vomiting**, abdominal distension, and hemodynamic instability (shock) → Intestinal malrotation with midgut volvulus (surgical emergency).",
+    "Upper GI contrast study showing an abnormal duodenum (e.g., not crossing midline or a \"**corkscrew**\" configuration) in an infant with vomiting → malrotation of the midgut (predisposing to volvulus)."
+  ],
+  "treatment": [
+    "Emergent surgical correction (**Ladd's procedure**). If volvulus is present, first untwist the bowel (usually rotating counterclockwise). Then divide the Ladd's bands that are crossing and obstructing the duodenum, and broaden the mesenteric base by arranging small intestine on the right and large intestine on the left.",
+    "Perform an **appendectomy** during the Ladd's procedure (the cecum/appendix will be in an atypical location, so removing it prevents future diagnostic confusion). Any necrotic bowel found during surgery must be resected.",
+    "Pre-operative care: aggressive fluid resuscitation, gastric decompression, and IV broad-spectrum antibiotics (especially if bowel perforation or peritonitis is suspected). Post-operatively, monitor for short bowel syndrome if significant resections were done, and for potential lingering GI dysmotility issues."
+  ],
+  "red_flags": [
+    "Any **bilious (green) vomit** in a neonate should be treated as a surgical emergency until malrotation with volvulus is excluded.",
+    "Signs of intestinal ischemia in an infant (e.g. **bloody stools**, abdominal wall discoloration, peritonitis, shock) → suggest midgut necrosis from volvulus; requires immediate surgery."
+  ],
+  "algorithm": [
+    "Neonate with bilious emesis → **NPO** (nothing by mouth), NG tube for decompression, IV fluids; urgent surgical consult.",
+    "If stable, perform an **upper GI series** to confirm malrotation (abnormal position of duodenojejunal junction or corkscrew sign). If unstable or clinical suspicion is high, go straight to surgery.",
+    "Positive malrotation (or high suspicion) → prompt **Ladd's procedure** (detorsion of bowel, cut Ladd's bands, position bowel, appendectomy).",
+    "Post-op: monitor for complications (short gut if any bowel removed, or ongoing motility problems). Even after a successful Ladd's procedure, some patients have residual feeding intolerance or bowel dysmotility that needs supportive care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Depiction_of_the_Ladd%E2%80%99s_band_caused_by_bowel_malrotation.jpg",
+      "alt": "Illustration of intestinal malrotation showing a Ladd's band compressing the duodenum",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Depiction_of_the_Ladd%E2%80%99s_band_caused_by_bowel_malrotation.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7-day-old newborn develops sudden vomiting and feeding intolerance.",
+      "clues": [
+        "Emesis is **bilious** (bright green)",
+        "Abdomen becomes distended and tender",
+        "Vital signs show hypotension and tachycardia",
+        "Stool is positive for blood"
+      ],
+      "answer": "Intestinal malrotation with midgut volvulus",
+      "teaching": "Bilious vomiting in the first weeks of life is midgut volvulus until proven otherwise. This case represents malrotation leading to a volvulus, causing bowel ischemia (bloody stool, shock). Immediate surgical intervention (Ladd's procedure to untwist the bowel and fix its position) is life-saving."
+    }
+  ],
+  "see_also": [
+    "volvulus",
+    "duodenal-atresia",
+    "hirschsprung-disease",
+    "jejunoileal-atresia"
+  ],
+  "prerequisites": [
+    "gastrointestinal-embryology",
+    "small-intestine",
+    "mesentery"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Midgut Malrotation (Alani & Rentea, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560888/"
+    },
+    {
+      "title": "UpToDate: Intestinal malrotation in children",
+      "url": "https://www.uptodate.com/contents/intestinal-malrotation-in-children"
+    },
+    {
+      "title": "Medscape: Intestinal Malrotation (Bensard, 2023)",
+      "url": "https://emedicine.medscape.com/article/930313-overview"
+    },
+    {
+      "title": "Holcomb and Ashcraft's Pediatric Surgery (7th ed., 2019) – Malrotation chapter",
+      "url": "https://shop.elsevier.com/books/holcomb-and-ashcrafts-pediatric-surgery/9780323549417"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

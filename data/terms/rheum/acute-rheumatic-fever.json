@@ -1,0 +1,128 @@
+{
+  "id": "acute-rheumatic-fever",
+  "names": ["Acute rheumatic fever"],
+  "aliases": ["rheumatic fever"],
+  "abbr": ["ARF"],
+  "patterns": ["acute rheumatic fever", "rheumatic fever", "ARF rheumatic"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "peds", "infectious_dz"],
+  "definition": "Post-streptococcal **autoimmune** inflammatory disease that occurs about 2–4 weeks after untreated group A strep pharyngitis. It is characterized by a constellation of findings (pancarditis, migratory arthritis, Sydenham chorea, etc.) caused by cross-reactive immune responses rather than direct infection.",
+  "why_it_matters": "ARF (and its sequela rheumatic heart disease) remains a major cause of cardiovascular morbidity worldwide, especially in low-resource regions. RHD affects ~55 million people and is the most common acquired heart disease in youth under 25. Repeated ARF episodes cause cumulative valve damage leading to heart failure, stroke, and death. Importantly, ARF is **preventable** with prompt treatment of strep throat, making recognition and prevention critical.",
+  "how_youll_see_it": [
+    "Typically presents ~3 weeks after strep throat with **fever** and a **migratory polyarthritis** of the large joints (knees, ankles, elbows). Each joint becomes inflamed in turn (resolves in one joint, then moves to another) and is very responsive to salicylates (aspirin).",
+    "**Carditis** occurs in ~50% of cases, manifesting as **pancarditis** (endocarditis, myocarditis, pericarditis). Look for a new murmur (often **mitral regurgitation** in acute ARF), tachycardia out of proportion to fever, cardiomegaly or heart failure signs, and possibly a **friction rub** (pericarditis). First-degree AV block (prolonged PR interval) can appear on ECG.",
+    "**Sydenham chorea** (St. Vitus dance) is a neurological manifestation that may appear **months** after the infection (latent up to 6 months). It involves purposeless, involuntary movements, emotional lability, and can occur even without other symptoms (important to recognize as ARF).",
+    "Cutaneous findings are less common: **erythema marginatum** is an evanescent, non-pruritic rash with ring-shaped lesions on trunk/extremities, and **subcutaneous nodules** are painless, firm nodules over extensor surfaces. These occur in <5% of cases today but are highly specific for ARF when present."
+  ],
+  "problem_solving": [
+    "Always confirm a **recent GAS infection**: obtain a throat culture or rapid strep test, or check streptococcal antibody titers (e.g., ASO).",
+    "Apply the **Jones criteria** for diagnosis: evidence of antecedent GAS infection **plus** either **2 major** manifestations or **1 major + 2 minor**. Major criteria (\"JONES\") are: migratory **J**oint arthritis, **♥** carditis, **N**odules, **E**rythema marginatum, **S**ydenham chorea. Minor criteria include **fever**, **arthralgia**, elevated **ESR/CRP**, and prolonged **PR interval** (EKG).",
+    "Perform an **echocardiogram** in all suspected cases to detect subclinical carditis (valvular regurgitation on Doppler) even if auscultation is normal.",
+    "Once ARF is diagnosed, start treatment promptly. Give a full course of **penicillin** to eradicate GAS (even if throat culture is negative). Use **anti-inflammatory** therapy for symptom relief: high-dose aspirin or NSAIDs are typically given for arthritis and mild carditis; add **corticosteroids** if severe carditis or heart failure is present. Supportive care (bed rest) during the acute phase is advised.",
+    "Initiate **secondary prophylaxis** immediately after the acute episode to prevent recurrence. The preferred regimen is intramuscular **benzathine penicillin G** every 4 weeks. Duration depends on cardiac involvement: at least **5 years or until age 21** if no carditis, **10 years or until age 21** if carditis but no residual disease, and **≥10 years or until age 40** (often lifelong) if carditis with persistent valvular disease."
+  ],
+  "differentials": [
+    {
+      "name": "Poststreptococcal reactive arthritis (PSRA)",
+      "hint": "Joint pains after strep without other Jones criteria; tends to be non-migratory (can involve small joints/back) and **does not improve with aspirin**. Unlike ARF, PSRA rarely meets full criteria, but can still lead to later RHD (warrants prophylaxis)."
+    },
+    {
+      "name": "Viral arthritis",
+      "hint": "Viral infections (e.g., parvovirus B19) can cause acute polyarthritis with fever. Usually self-limited, often accompanied by viral symptoms (rash, etc.), and **no carditis**. For example, parvovirus causes a mild rash (\"slapped cheek\" in kids) and brief arthritis, not the severe migratory arthritis of ARF."
+    },
+    {
+      "name": "Lyme disease",
+      "hint": "Borrelia infection from a tick bite can cause migratory arthritis (especially knee), but look for history of tick exposure or **erythema migrans** rash. Lyme arthritis occurs weeks to months after infection and may involve heart block (carditis) but lacks the classic multi-system JONES features of ARF."
+    }
+  ],
+  "tricks": [
+    "Mnemonic: **J♥NES** major criteria – **J**oints (migratory polyarthritis); **♥** (pancarditis); **N**odules (subcutaneous); **E**rythema marginatum; **S**ydenham chorea.",
+    "**Molecular mimicry**: ARF is a classic type II hypersensitivity reaction. Antibodies against streptococcal **M protein** cross-react with host tissues (myocardium, valves, etc.), causing inflammation. This is why only group A strep (with specific M protein epitopes) triggers ARF.",
+    "Valvular damage in ARF almost always involves the **mitral valve** (often regurgitation acutely and stenosis chronically), with or without the **aortic valve**. Repeated ARF episodes lead to scarring and calcification of valves over years (classic fish-mouth mitral **stenosis** in chronic rheumatic heart disease)."
+  ],
+  "exam_appearance": [
+    "A child presents with fever and severe **migratory knee and ankle pain** a few weeks after an untreated sore throat. On exam he has a new **holosystolic apical murmur** (mitral regurgitation) and a faint rash with ring-like lesions on his trunk. → This is **acute rheumatic fever** (arthritis + carditis + erythema marginatum after GAS infection).",
+    "An adolescent girl develops **jerky, unintentional arm movements** and emotional lability several months after a streptococcal throat infection. → **Sydenham chorea** due to ARF (even in the absence of arthritis or rash). Recognizing isolated chorea as ARF is key to providing antibiotic prophylaxis.",
+    "A 35‑year‑old from a region with limited healthcare has a loud **diastolic rumbling murmur** at the apex and signs of heart failure. She had recurrent sore throats in childhood. → **Mitral stenosis** from chronic rheumatic heart disease (past ARF episodes caused valve scarring)."
+  ],
+  "treatment": [
+    "**Penicillin** is the cornerstone: treat acute ARF with IM benzathine penicillin or a 10-day course of penicillin V to eradicate Streptococcus (start even if throat culture is negative). For penicillin-allergic patients, erythromycin or other appropriate antibiotics are used.",
+    "**Anti-inflammatory therapy:** High-dose **aspirin** (or NSAIDs like naproxen) is given to reduce fever and arthritis pain. Clinical improvement in joint symptoms is often dramatic. If there is moderate-to-severe carditis (cardiac enlargement, heart failure), add **corticosteroids** to reduce inflammation. Supportive care (bed rest) helps during acute carditis.",
+    "**Secondary prophylaxis:** Long-term penicillin prophylaxis is essential to prevent recurrences. The preferred regimen is **benzathine penicillin G IM every 4 weeks**. Duration depends on extent of cardiac involvement: patients without carditis need ≥5 years (until early adulthood), whereas those with carditis and valve damage require ≥10 years or even lifelong prophylaxis. Adherence to prophylaxis greatly reduces the risk of progressive rheumatic heart disease."
+  ],
+  "red_flags": [
+    "Severe **carditis** (pancarditis) is the most dangerous manifestation of ARF. Signs like resting tachycardia, gallop rhythm, pulmonary edema, or cardiomegaly indicate heart failure – this requires aggressive management (corticosteroids, ICU care) to prevent permanent damage or death.",
+    "**Sydenham chorea** may present long after the initial infection and can be subtle (clumsiness, emotional outbursts). Any child with unexplained chorea or movement disorder should be evaluated for ARF – missing this diagnosis means missing the chance to prevent cardiac damage with prophylaxis.",
+    "Failure to maintain **continuous prophylaxis** after ARF is a critical pitfall. Recurrences of rheumatic fever (even from silent strep infections) can cause cumulative valve damage. Ensure patients adhere to regular penicillin injections to prevent progressive rheumatic heart disease."
+  ],
+  "algorithm": [
+    "Sore throat (GAS infection) 2–4 weeks prior + new migratory arthritis or carditis → **suspect ARF**.",
+    "Check for **evidence of GAS** infection (rapid strep test, throat culture, or elevated ASO titer).",
+    "Apply **Jones criteria**: requires antecedent GAS plus **2 major** or **1 major + 2 minor** manifestations for initial ARF.",
+    "Obtain an **echocardiogram** to evaluate for carditis (valvular lesions) in all suspected cases.",
+    "If criteria are met, **diagnose ARF** → treat with antibiotics and anti-inflammatories, and begin long-term penicillin prophylaxis to prevent recurrence."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Rheumatic_heart_disease,_gross_pathology_20G0013_lores.jpg",
+      "alt": "Gross pathology of rheumatic heart disease (cut section of heart showing a severely thickened and deformed mitral valve with fused chordae tendineae, and left ventricular hypertrophy).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Rheumatic_heart_disease,_gross_pathology_20G0013_lores.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 10‑year‑old boy presents with a 2-week history of fever and joint pains.",
+      "clues": [
+        "Had strep throat 1 month ago (not treated)",
+        "Migratory arthritis (knees → ankles → elbows)",
+        "New holosystolic murmur at apex (radiating to axilla)",
+        "Erythema marginatum rash on trunk"
+      ],
+      "answer": "Acute rheumatic fever",
+      "teaching": "This is a classic presentation of acute rheumatic fever following untreated group A strep pharyngitis. The migratory large-joint arthritis, new mitral regurgitation murmur (pancarditis), and erythema marginatum rash fulfill Jones major criteria. ARF is an autoimmune reaction to the prior infection (molecular mimicry). Management would include penicillin to eradicate any residual strep, anti-inflammatory therapy (e.g. aspirin) for the arthritis, and long-term penicillin prophylaxis to prevent recurrence and rheumatic heart disease."
+    }
+  ],
+  "see_also": [
+    "kawasaki-disease",
+    "infective-endocarditis",
+    "aortic-stenosis",
+    "glomerulonephritis"
+  ],
+  "prerequisites": [
+    "streptococcus-pyogenes",
+    "hypersensitivity-reactions"
+  ],
+  "sources": [
+    {
+      "title": "UpToDate: Acute rheumatic fever: Clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/acute-rheumatic-fever-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "Harrison's Principles of Internal Medicine, 20e: Acute Rheumatic Fever (McGraw-Hill)",
+      "url": "https://accessmedicine.mhmedical.com/content.aspx?bookid=2129&sectionid=192018012"
+    },
+    {
+      "title": "CDC: Diagnosing and Managing Acute Rheumatic Fever (Aug 2025)",
+      "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/acute-rheumatic-fever.html"
+    },
+    {
+      "title": "WHO Fact Sheet: Rheumatic Heart Disease (24 Jan 2025)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rheumatic-heart-disease"
+    },
+    {
+      "title": "AHA Scientific Statement: 2015 Jones Criteria Revision (Gewitz et al., Circulation 2015)",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000205"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

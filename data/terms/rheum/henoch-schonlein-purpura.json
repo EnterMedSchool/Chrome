@@ -1,0 +1,117 @@
+{
+  "id": "henoch-schonlein-purpura",
+  "names": ["Henoch-Schönlein purpura"],
+  "aliases": ["IgA vasculitis", "HSP"],
+  "abbr": ["HSP", "IgAV"],
+  "patterns": ["henoch", "schonlein", "schönlein", "hsp", "iga vasculitis", "henoch-schonlein purpura", "henoch schönlein purpura"],
+  "primary_tag": "rheum",
+  "tags": ["pathology", "rheum", "peds", "msk_derm"],
+  "definition": "IgA immune complex small-vessel **vasculitis** in children; classic tetrad of **palpable purpura**, arthritis/arthralgias, colicky abdominal pain, and IgA nephropathy (renal involvement).",
+  "why_it_matters": "Most common childhood vasculitis. Boards love its classic presentation (rash on legs with joint and belly pain after a URI). Usually self-limited, but can cause serious complications like intussusception or renal failure if severe.",
+  "how_youll_see_it": [
+    "Typically a young child (ages 3–10) about 1–2 weeks after a **URI** (often strep or viral). Presents with **palpable purpura** on the legs (gravity-dependent areas; small vessel vasculitis, not low platelets). Often has **arthritis**/arthralgias (knees, ankles) and **colicky abdominal pain** (GI vasculitis causing crampy pain, sometimes bleeding).",
+    "**Renal involvement** in ~50% of cases, usually mild (microscopic hematuria). Can range to **nephritic** or **nephrotic syndrome** in severe cases (IgA deposition in glomeruli). Symptoms like hematuria or proteinuria often appear after the rash (within a few weeks).",
+    "Exam may show tender palpable purpura (purplish raised spots) mostly on lower extremities. Abdominal exam might reveal pain or GI bleeding. Joints may be swollen or tender, but without long-term damage. Children are generally well-appearing unless complications arise."
+  ],
+  "problem_solving": [
+    "Distinguish **vasculitic purpura** from platelet disorders: in HSP, platelet count is normal and bleeding time/coag tests are normal (unlike ITP or DIC).",
+    "Check urine **urinalysis** for blood or protein in all cases to detect kidney involvement. Monitor renal function and blood pressure over time since nephritis can develop or worsen later.",
+    "Skin or renal **biopsy** with immunofluorescence showing IgA deposition confirms the diagnosis if needed (usually reserved for atypical cases or severe nephritis).",
+    "For significant abdominal pain, get imaging (e.g. ultrasound) to rule out **intussusception** (intestinal telescoping can occur in HSP)."
+  ],
+  "differentials": [
+    { "id": "immune-thrombocytopenic-purpura", "hint": "isolated low platelets causing purpura; unlike HSP, platelets are decreased" },
+    { "id": "disseminated-intravascular-coagulation", "hint": "coagulopathy + low platelets in very ill patient (sepsis/trauma); abnormal PT/PTT, ↑D-dimer" },
+    { "id": "kawasaki-disease", "hint": "medium-vessel vasculitis in <5y with prolonged fever, conjunctivitis, strawberry tongue (not IgA-mediated)" },
+    { "name": "Meningococcemia", "hint": "meningococcal sepsis with purpuric rash (fulminant, with high fever and toxicity, not an isolated vasculitis)" }
+  ],
+  "tricks": [
+    "**IgA** = **I**mmune complexes deposit (post-infection) in vessels → small vessel vasculitis. Also think **A** for **After** infection and for **Aggregates** of IgA in kidney (IgA nephropathy). HSP's purpura occur with **normal platelets** (key clue vs platelet disorders).",
+    "Cases often follow a **strep** throat or viral infection (50%+ cases); tends to cluster in winter months when respiratory infections are common."
+  ],
+  "exam_appearance": [
+    "Young boy with a recent URI now with palpable leg purpura, arthralgia, abdominal pain, and hematuria → IgA vasculitis (HSP).",
+    "Child with known HSP who develops acute abdominal pain and \"currant jelly\" stools → intussusception from HSP (bowel vasculitis complication)."
+  ],
+  "treatment": [
+    "Mainly **supportive care**: ensure hydration, rest, and pain control. Avoid NSAIDs if significant renal/GI involvement (use acetaminophen for pain). Most cases resolve in ~4 weeks on their own.",
+    "**Corticosteroids**: used for severe symptoms such as intense abdominal pain or significant renal involvement. Steroids can reduce abdominal pain duration and help inflammation, but they don't clearly prevent kidney complications.",
+    "Severe kidney involvement (e.g., crescentic GN) may require high-dose steroids plus **immunosuppressants** (e.g., cyclophosphamide) and possibly plasmapheresis. Use **ACE inhibitors** for persistent proteinuria to protect the kidneys."
+  ],
+  "red_flags": [
+    "**Nephritic syndrome** (HTN, gross hematuria, rising creatinine) or **nephrotic syndrome** (heavy proteinuria, edema) in HSP → indicates severe glomerulonephritis; needs aggressive treatment and specialist (nephrology) input.",
+    "Severe abdominal pain, vomiting, or GI bleeding in HSP → suspect complications like **intussusception** or bowel ischemia; requires urgent evaluation."
+  ],
+  "algorithm": [
+    "Child with palpable purpura → check **platelet count & coags** first. If platelets and coagulation are normal, think HSP (vasculitis) instead of platelet/clotting disorder.",
+    "If HSP is suspected (purpura + any of abdominal pain, arthritis, or hematuria), diagnose clinically. Consider confirmation with biopsy (skin/kidney) if atypical presentation.",
+    "Obtain baseline **urinalysis** (and periodic monitoring) to catch renal involvement early (hematuria, proteinuria can appear weeks later).",
+    "Supportive care for mild cases. Add **corticosteroids** for severe abdominal pain or significant renal involvement. Treat any underlying infection (e.g., antibiotics for strep).",
+    "Follow up over months to monitor blood pressure, urinalysis, and renal function since HSP can relapse or cause delayed kidney issues."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/HSP_IF_IgA.jpg",
+      "alt": "Skin biopsy immunofluorescence in IgA vasculitis (HSP) showing IgA deposits (green) in small dermal vessels.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:HSP_IF_IgA.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 7‑year‑old boy is brought to the clinic for rash, joint pain, and abdominal discomfort.",
+      "clues": [
+        "Recent upper respiratory infection 1 week ago",
+        "Palpable purpura on lower legs",
+        "Knee and ankle arthralgias",
+        "Microscopic hematuria on urinalysis"
+      ],
+      "answer": "Henoch-Schönlein purpura (IgA vasculitis)",
+      "teaching": "Classic presentation of HSP: a child post-URI with palpable purpura (normal platelets), joint pains, abdominal pain, and renal findings (hematuria). It is an IgA immune complex vasculitis. Management is supportive in most cases; prognosis is good, but monitor for renal involvement."
+    },
+    {
+      "stem": "A 6‑year‑old girl with IgA vasculitis develops severe abdominal pain and vomiting.",
+      "clues": [
+        "Diagnosed with HSP 2 weeks ago (had rash and hematuria)",
+        "Now acute, colicky abdominal pain",
+        "\"Currant jelly\" stool",
+        "Ultrasound shows intestinal intussusception"
+      ],
+      "answer": "Intussusception due to Henoch-Schönlein purpura",
+      "teaching": "Intussusception is a known complication of HSP, caused by bowel edema and bleeding serving as a lead point. HSP patients with severe abdominal pain and red \"currant jelly\" stools should be evaluated for intussusception, which is a medical emergency requiring prompt treatment (e.g., enema reduction or surgery)."
+    }
+  ],
+  "see_also": [
+    "kawasaki-disease",
+    "glomerulonephritis",
+    "vasculitis",
+    "nephritic-syndrome"
+  ],
+  "prerequisites": [
+    "type-iii-hypersensitivity"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: IgA Vasculitis (Henoch-Schönlein purpura) (Roache-Robinson & Killeen, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537252/"
+    },
+    {
+      "title": "UpToDate: IgA vasculitis (Henoch-Schönlein purpura) in children – clinical manifestations, diagnosis, and outcome",
+      "url": "https://www.uptodate.com/contents/iga-vasculitis-henoch-schonlein-purpura-in-children-clinical-manifestations-diagnosis-and-outcome"
+    },
+    {
+      "title": "American Family Physician: Henoch-Schönlein Purpura (IgA Vasculitis) – Rapid Evidence Review (Reamy et al., 2020)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2020/0815/p229.html"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

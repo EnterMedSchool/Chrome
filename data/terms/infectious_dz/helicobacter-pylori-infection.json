@@ -1,0 +1,148 @@
+{
+  "id": "helicobacter-pylori-infection",
+  "names": [
+    "Helicobacter pylori infection"
+  ],
+  "aliases": [
+    "H. pylori",
+    "H pylori infection"
+  ],
+  "abbr": [
+    "H. pylori"
+  ],
+  "patterns": [
+    "helicobacter pylori",
+    "h pylori",
+    "h. pylori",
+    "helicobacter infection",
+    "h pylori gastritis"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "infectious_dz",
+    "gi",
+    "pathology",
+    "micro_bacteria"
+  ],
+  "definition": "A common spiral-shaped, urease-producing **Gram-negative** bacterium that colonizes the gastric mucosa; causes chronic gastritis and most peptic ulcers, and is a known risk factor for gastric adenocarcinoma and MALT lymphoma.",
+  "why_it_matters": "Infects roughly **half** of the world's population and is the leading cause of **peptic ulcer disease** (over 90% of duodenal ulcers). Identifying and eradicating H. pylori not only heals ulcers (preventing recurrence) but also lowers the risk of gastric cancer (it's classified as a **Group 1 carcinogen** by WHO).",
+  "how_youll_see_it": [
+    "Often **asymptomatic** initially. When symptoms occur, chronic **dyspepsia** is common – gnawing or burning epigastric pain (classically worse when the stomach is empty, e.g. at night), sometimes relieved by eating.",
+    "Suspect H. pylori in a patient with an **ulcer** but no NSAID use (especially a duodenal ulcer in a younger adult). Infection is usually acquired in childhood (more prevalent in crowded, low-sanitation settings) and can persist for decades.",
+    "Ulcer complications: **GI bleeding** (hematemesis, melena, iron-deficiency anemia) or perforation (acute abdomen). Long-standing infection can lead to atrophic gastritis and hence gastric **cancer** – so weight loss, progressive dysphagia, or other alarm features warrant prompt evaluation."
+  ],
+  "problem_solving": [
+    "For patients <60 with dyspepsia and no red flags, follow a **test-and-treat** approach: perform a noninvasive H. pylori test (urea breath test or stool antigen); if positive, proceed with eradication therapy (if negative, consider other causes or endoscopy).",
+    "If **alarm features** are present or patient is ≥60, skip straight to **endoscopy** with biopsy for H. pylori testing and to exclude malignancy.",
+    "Avoid false negatives: stop **PPIs** for ~2 weeks and antibiotics for ~4 weeks before testing for H. pylori (acid suppression and recent antibiotics can suppress the bacteria and yield false-negative results).",
+    "After treatment, always confirm **eradication** – usually with a urea breath or stool antigen test ≥4 weeks after therapy (especially important if the patient had an ulcer, MALT lymphoma, or persistent symptoms).",
+    "If initial therapy fails, use a **salvage regimen** with different antibiotics (avoid repeating clarithromycin or metronidazole). Consider culture and sensitivity testing after multiple treatment failures."
+  ],
+  "differentials": [
+    {
+      "name": "NSAID-induced ulcer",
+      "hint": "peptic ulcer with negative H. pylori tests; history of chronic NSAID use (e.g., ibuprofen)"
+    },
+    {
+      "id": "zollinger-ellison-syndrome",
+      "hint": "gastrinoma causing massive acid secretion, recurrent ulcers, high gastrin levels"
+    },
+    {
+      "name": "Functional (non-ulcer) dyspepsia",
+      "hint": "ulcer-like chronic indigestion but normal endoscopy (no ulcer) and no H. pylori"
+    }
+  ],
+  "tricks": [
+    "Mnemonic for therapy: **CAP** = Clarithromycin + Amoxicillin + PPI (triple therapy); **PBMT** = PPI + Bismuth + Metronidazole + Tetracycline (bismuth quadruple therapy).",
+    "**Urease-positive**: H. pylori produces urease (ammonia cloud) to alkalinize its surroundings – basis for the **urea breath test** and rapid urease (CLO) test on biopsy.",
+    "H. pylori is implicated in >90% of duodenal ulcers and ~75% of gastric ulcers. An exam tip: an ulcer patient without NSAID use → think H. pylori."
+  ],
+  "exam_appearance": [
+    "Middle-aged adult with burning epigastric pain that improves after meals and wakes them at night; no NSAID use, positive urea breath test → **H. pylori–associated duodenal ulcer**.",
+    "Gastric biopsy showing low-grade **MALT lymphoma** → treating the H. pylori infection can lead to lymphoma regression.",
+    "Patient with long-standing H. pylori gastritis who has new weight loss and early satiety → suspect **gastric adenocarcinoma** developing (H. pylori as a key risk factor)."
+  ],
+  "treatment": [
+    "First-line (in regions of low resistance): **clarithromycin-based triple therapy** – a PPI + clarithromycin + amoxicillin for 14 days (if penicillin-allergic, substitute metronidazole for amoxicillin).",
+    "If high local clarithromycin resistance or prior macrolide exposure: use **bismuth quadruple therapy** – PPI + bismuth subsalicylate + metronidazole + tetracycline for 14 days (an alternative 4-drug regimen is PPI + clarithromycin + amoxicillin + metronidazole).",
+    "After completion of therapy, confirm eradication (urea breath or stool test ≥4 weeks later). If H. pylori persists, switch to a salvage regimen using different antibiotics (e.g., levofloxacin- or rifabutin-based triple therapy)."
+  ],
+  "red_flags": [
+    "**Alarm features** suggesting cancer or complicated ulcer: unintentional weight loss, progressive dysphagia, **GI bleeding** (melena, hematemesis) or anemia, persistent vomiting, or palpable mass → indicate need for immediate endoscopic evaluation.",
+    "Ulcer that is **refractory** (won't heal) despite therapy → suspect treatment failure or an alternate cause (e.g., noncompliance, persistent H. pylori, NSAIDs, Zollinger-Ellison syndrome, or malignancy)."
+  ],
+  "algorithm": [
+    "Dyspepsia or ulcer symptoms → check for red flags.",
+    "If **no alarm features and age <60** → noninvasive H. pylori test (urea breath or stool antigen).",
+    "If test positive → treat with eradication regimen; if negative → consider other causes (GERD, functional dyspepsia) or proceed to endoscopy if symptoms persist.",
+    "If **alarm features or age ≥60** → perform endoscopy with biopsy (for H. pylori detection and to rule out gastric malignancy).",
+    "After treatment, perform a **test-of-cure** (urea breath test or stool antigen) ≥4 weeks later to ensure H. pylori eradication."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/H_pylori_ulcer_diagram_en.png",
+      "alt": "Diagram illustrating how H. pylori infection leads to gastric ulceration: the bacteria penetrate the mucus layer, produce ammonia (via urease) to neutralize acid, colonize the stomach lining, and cause mucosal damage and inflammation.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:H_pylori_ulcer_diagram_en.png"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45-year-old man has months of burning epigastric pain that often wakes him at night and is relieved by food.",
+      "clues": [
+        "No history of NSAID use",
+        "Urea breath test is positive",
+        "Endoscopy reveals a duodenal ulcer"
+      ],
+      "answer": "Helicobacter pylori infection (duodenal ulcer)",
+      "teaching": "H. pylori infection is the most common cause of duodenal ulcers. The positive breath test confirms the diagnosis. Eradication therapy (PPI plus appropriate antibiotics) will treat the infection, heal the ulcer, and prevent recurrence."
+    }
+  ],
+  "see_also": [
+    "peptic-ulcer-disease",
+    "zollinger-ellison-syndrome",
+    "gastroesophageal-reflux-disease"
+  ],
+  "prerequisites": [
+    "gastric-physiology"
+  ],
+  "sources": [
+    {
+      "title": "Helicobacter pylori (H. pylori) and Cancer – National Cancer Institute, 2023",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/h-pylori-fact-sheet"
+    },
+    {
+      "title": "ACG Clinical Guideline: Treatment of Helicobacter pylori Infection (Chey WD et al., Am J Gastroenterol 2024)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39626064/"
+    },
+    {
+      "title": "StatPearls: Helicobacter Pylori (Parikh & Ahlawat, Updated 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534233/"
+    },
+    {
+      "title": "CDC Helicobacter pylori Fact Sheet for Health Care Providers (1998)",
+      "url": "https://stacks.cdc.gov/view/cdc/40603"
+    },
+    {
+      "title": "Mayo Clinic: Helicobacter pylori infection – Symptoms & Causes (2023)",
+      "url": "https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

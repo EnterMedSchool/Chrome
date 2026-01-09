@@ -1,0 +1,97 @@
+{
+  "id": "chronic-obstructive-pulmonary-disease",
+  "names": ["Chronic obstructive pulmonary disease"],
+  "aliases": ["Chronic bronchitis", "Emphysema", "Chronic obstructive lung disease", "Chronic obstructive airway disease"],
+  "abbr": ["COPD"],
+  "patterns": ["copd", "chronic obstructive pulmonary disease", "chronic bronchitis", "emphysema", "chronic obstructive lung disease", "chronic obstructive airway disease"],
+  "primary_tag": "pulmonology",
+  "tags": ["pathology", "pulmonology", "pharmacology"],
+  "definition": "A progressive lung condition characterized by **persistent airflow limitation** and respiratory symptoms due to airway and/or alveolar abnormalities, usually from long-term inhalational irritant exposure (most often tobacco smoke).",
+  "why_it_matters": "A major cause of morbidity and mortality worldwide (estimated 213 million cases and 3.65 million deaths in 2021, about 5% of all deaths). Patients often have chronic disability, frequent hospitalizations, and high health-care utilization.",
+  "how_youll_see_it": [
+    "Typically an older adult (over ~40) with a significant smoking history presents with chronic **productive cough** and gradually worsening **exertional dyspnea**.",
+    "Exam may show a **barrel chest** (increased AP diameter) with distant heart sounds due to lung hyperinflation. Breath sounds are diminished; **wheezing** and prolonged expiration are common. Advanced disease features include accessory muscle use, **pursed-lip breathing**, and signs of **cor pulmonale** (e.g., jugular venous distension, ankle edema).",
+    "Most patients have risk factor exposures: usually long-term **smoking** (e.g., ≥20 pack-years). Others include heavy exposure to indoor biomass smoke (e.g., wood cooking fires) and chronic inhalation of dusts or chemicals (occupational)."
+  ],
+  "problem_solving": [
+    "Consider COPD in any patient with chronic dyspnea, cough +/- sputum, especially if they have smoking or other risk exposures.",
+    "Confirm the diagnosis with spirometry: a **post-bronchodilator FEV1/FVC < 0.70** demonstrates persistent airflow limitation and establishes COPD.",
+    "Assess severity once COPD is diagnosed. Determine FEV1 % predicted to grade airflow limitation (GOLD 1: ≥80%; GOLD 2: 50–79%; GOLD 3: 30–49%; GOLD 4: <30%). Also evaluate symptom burden (e.g., mMRC dyspnea scale or CAT score) and exacerbation history to categorize the patient into GOLD groups A–D for treatment planning.",
+    "Obtain chest imaging: a chest X-ray often shows **hyperinflation** (low, flattened diaphragms, enlarged lung fields, a narrow heart silhouette), which supports the diagnosis and helps exclude alternate diagnoses. High-resolution CT can quantify emphysema (e.g., visible bullae) if needed.",
+    "If COPD develops at an unusually young age (<45) or in a nonsmoker, test for **α₁-antitrypsin deficiency** (a rare genetic cause of early emphysema)."
+  ],
+  "differentials": [
+    { "id": "asthma", "hint": "younger onset; episodes of reversible airway obstruction (normal spirometry between exacerbations)" },
+    { "id": "bronchiectasis", "hint": "chronic productive cough with recurrent infections (purulent sputum, hemoptysis); dilated airways on imaging" },
+    { "id": "heart-failure", "name": "Congestive heart failure", "hint": "chronic dyspnea but with **crackles**, orthopnea/PND, and pulmonary edema on imaging (restrictive physiology rather than obstructive)" }
+  ],
+  "tricks": [
+    "Historical mnemonic: **\"pink puffer\"** (emphysematous COPD phenotype: thin, pink skin, pursed-lip breathing) vs **\"blue bloater\"** (bronchitic phenotype: cyanosis, edema, obesity). Most patients actually have a mix of both.",
+    "**Smoking cessation** and long-term **oxygen therapy** (for severe hypoxemia) are the only interventions clearly shown to improve survival in COPD.",
+    "In chronically hypercapnic COPD patients, be cautious with supplemental O₂ – excessive oxygen can worsen CO₂ retention (loss of hypoxic respiratory drive). Titrate oxygen to a target SpO₂ of ~88–92%.",
+    "Large emphysematous **bullae** on imaging can be mistaken for a pneumothorax; avoid unwarranted chest tube placement. Conversely, COPD patients with sudden unilateral chest pain and increased dyspnea could have a ruptured bulla causing a **secondary spontaneous pneumothorax** (a known complication)."
+  ],
+  "exam_appearance": [
+    "Older heavy smoker with chronic productive cough, progressive dyspnea, barrel chest, and an FEV1/FVC of 60% post-bronchodilator → **COPD** (chronic bronchitis and emphysema).",
+    "A 40-year-old nonsmoker with emphysema at the lung bases and unexplained liver cirrhosis → **α₁-antitrypsin deficiency** (leading to early COPD)."
+  ],
+  "treatment": [
+    "**Smoking cessation** – the most crucial step (slows lung function decline and reduces mortality). Also ensure **vaccinations** (annual influenza, periodic pneumococcal) to reduce respiratory infections.",
+    "**Bronchodilators** – mainstay for symptom control. Short-acting bronchodilators (e.g., albuterol (SABA) and/or ipratropium (SAMA)) are used as needed for quick relief. Long-acting bronchodilators (LABA or LAMA) are added for moderate to severe COPD to improve baseline symptoms; for frequent exacerbators, combined therapy (LABA/LAMA and/or addition of inhaled steroids) is used.",
+    "**Pulmonary rehabilitation** (exercise training, education) is recommended for symptomatic patients to improve exercise tolerance and quality of life.",
+    "For very severe COPD with chronic hypoxemia (O₂ saturation ≤88% at rest), prescribe long-term **oxygen therapy** – it improves survival and quality of life. Aim for SaO₂ ~90% (15+ hours/day of O₂).",
+    "Manage **acute exacerbations** with a combination of therapies: controlled supplemental O₂ (target 88–92% saturation), inhaled bronchodilators (nebulized albuterol + ipratropium), systemic corticosteroids (e.g., prednisone), and antibiotics if an infection is suspected. In patients with respiratory failure (e.g., rising CO₂ or severe distress), provide noninvasive positive-pressure ventilation (NIV) to reduce work of breathing and avoid intubation."
+  ],
+  "red_flags": [
+    "**COPD before age 45 or in a never-smoker** – raises concern for **α₁-antitrypsin deficiency**; confirm with AAT level and genotype.",
+    "**Confusion, extreme fatigue, or lethargy** during an exacerbation – signs of impending **hypercapnic respiratory failure** (CO₂ narcosis); requires ICU-level care, possible NIV or intubation.",
+    "Sudden-onset pleuritic chest pain and unilateral absent breath sounds in a COPD patient – suspect a **spontaneous pneumothorax** from a ruptured emphysematous bulla (emergency evaluation needed)."
+  ],
+  "algorithm": [
+    "Risk factors (especially smoking) + chronic cough/dyspnea → **suspect COPD**.",
+    "Do **spirometry**: if post-bronchodilator **FEV1/FVC <0.7** → diagnosis is COPD.",
+    "New COPD diagnosis → **stage severity**: determine GOLD 1–4 (by FEV1% predicted) and group A–D (by symptom scores & exacerbation frequency) to guide therapy.",
+    "For all patients: **stop smoking**, vaccinate (flu, pneumococcal), and start inhaler therapy (short-acting bronchodilators as needed; add LABA or LAMA for persistent symptoms; add inhaled steroid for frequent exacerbations).",
+    "If chronic PaO₂ <55 mmHg (or SaO₂ ≤88%), start **long-term oxygen**. Enroll in pulmonary rehab if symptomatic.",
+    "For acute exacerbation: **O₂ 88–92%** + nebulized bronchodilators + systemic steroids ± antibiotics; escalate to **NIV** (BiPAP) if hypercapnic respiratory failure."
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with a 45 pack-year smoking history reports a 3-year history of daily cough producing yellow sputum and progressive exercise intolerance. He now becomes short of breath after walking one block. Exam reveals a barrel-shaped chest with distant heart sounds and scattered wheezes. Post-bronchodilator spirometry shows an FEV1/FVC ratio of 0.55 (55%).",
+      "clues": ["Long smoking history", "Chronic productive cough", "Dyspnea on exertion", "Barrel chest", "FEV1/FVC <0.7"],
+      "answer": "Chronic obstructive pulmonary disease (COPD)",
+      "teaching": "Long-term smoking has caused chronic bronchitis and emphysema, leading to irreversible airway narrowing (FEV1/FVC remains <0.7 after bronchodilator). Management requires bronchodilators (inhalers), risk factor control (smoking cessation), and supportive care; severe cases may need oxygen and pulmonary rehab."
+    }
+  ],
+  "see_also": [
+    "asthma",
+    "alpha-1-antitrypsin-deficiency",
+    "emphysema"
+  ],
+  "prerequisites": [
+    "pulmonary-physiology",
+    "smoking"
+  ],
+  "sources": [
+    {
+      "title": "Global Initiative for Chronic Obstructive Lung Disease (GOLD) 2023 Report: Global Strategy for the Diagnosis, Management, and Prevention of COPD",
+      "url": "https://goldcopd.org/2023-gold-report-2/"
+    },
+    {
+      "title": "UpToDate: Chronic obstructive pulmonary disease: Epidemiology, clinical presentation, and diagnosis (Rabe & Celli, 2024)",
+      "url": "https://www.uptodate.com/contents/chronic-obstructive-pulmonary-disease-epidemiology-clinical-presentation-and-diagnosis"
+    },
+    {
+      "title": "WHO Fact Sheet: Chronic Obstructive Pulmonary Disease (2023)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/chronic-obstructive-pulmonary-disease-(copd)"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

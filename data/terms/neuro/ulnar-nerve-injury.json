@@ -1,0 +1,100 @@
+{
+  "id": "ulnar-nerve-injury",
+  "names": ["Ulnar nerve injury"],
+  "aliases": ["ulnar neuropathy", "ulnar nerve entrapment", "cubital tunnel syndrome", "ulnar tunnel syndrome"],
+  "abbr": ["CuTS"],
+  "patterns": ["ulnar nerve injury", "ulnar neuropathy", "ulnar nerve entrapment", "cubital tunnel syndrome", "ulnar tunnel syndrome", "ulnar nerve palsy"],
+  "primary_tag": "neuro",
+  "tags": ["neuro", "msk_derm", "surgery"],
+  "definition": "Injury or compression of the **ulnar nerve** (C8–T1) often at the elbow (cubital tunnel) or wrist (Guyon's canal), causing impaired hand **intrinsic muscles** and **sensory loss** in the ulnar distribution.",
+  "why_it_matters": "Very common entrapment neuropathy (second after **carpal tunnel**) that can lead to permanent hand dysfunction if untreated. Often appears on exams via classic **claw hand** deformity or ulnar-sided numbness scenarios.",
+  "how_youll_see_it": [
+    "Intermittent **numbness/tingling** in the little finger and ulnar half of the ring finger, often worse with prolonged elbow flexion (e.g., holding a phone) or at night. May have aching medial elbow pain.",
+    "Typical patient: history of chronic **elbow pressure** (desk job leaning on elbows, truck drivers, wheelchair use) or repetitive elbow motion; alternatively a **cyclist** with prolonged pressure on the palms (ulnar tunnel at wrist).",
+    "On exam: decreased sensation in ulnar 1½ digits (palmar and dorsal if lesion at elbow), weak finger abduction/adduction (interossei) and reduced grip strength. **Froment's sign** (thumb flexes when pulling paper) and **Wartenberg's sign** (little finger held abducted) may be present in advanced cases."
+  ],
+  "problem_solving": [
+    "Localize the lesion: if dorsal ulnar hand sensation is preserved, compression is likely at the **wrist (Guyon's canal)** (dorsal ulnar cutaneous branch branches off proximal to the wrist).",
+    "Perform provocative tests: **Tinel's sign** at the elbow (tapping the funny bone) may reproduce tingling; an **elbow flexion test** (holding elbow bent ~60 seconds) often elicits symptoms. Always check **Froment's sign** (weak adductor pollicis) and do a neck exam to exclude a cervical radiculopathy.",
+    "Order **nerve conduction studies** (NCS/EMG) to confirm slowing across the elbow and assess severity. Consider imaging (elbow X-ray for bone spurs, ultrasound or MRI) if a mass, bone deformity, or alternative diagnosis is suspected."
+  ],
+  "differentials": [
+    { "name": "C8–T1 cervical radiculopathy", "hint": "neck or shoulder pain with medial hand numbness; often involves multiple dermatomes (not just ulnar nerve) and neck movements may worsen symptoms" },
+    { "id": "carpal-tunnel-syndrome", "hint": "median nerve compression at wrist: numbness of lateral 3½ digits, thenar weakness (**ape hand** deformity) rather than ulnar distribution" },
+    { "name": "Thoracic outlet syndrome", "hint": "compression of lower brachial plexus (C8/T1); can mimic ulnar neuropathy but often with vascular signs or whole hand involvement" }
+  ],
+  "tricks": [
+    "Mnemonic: **DR CUMA** – **D**rop (wrist drop) = **R**adial nerve, **C**law hand = **U**lnar nerve, **M**edian nerve = **A**pe hand.",
+    "Ulnar paradox: a proximal lesion (at elbow) causes **less clawing** than a distal lesion (because the ulnar half of FDP is also paralyzed). In other words, *\"the closer to the Paw, the worse the Claw.\"*",
+    "Remember the difference between an **ulnar claw** and the **hand of benediction**: Ulnar claw is evident at rest (4th and 5th digits clawed), whereas a median nerve injury is most obvious when making a fist (inability to flex 2nd and 3rd digits, aka Pope's blessing)."
+  ],
+  "exam_appearance": [
+    "Middle-aged office worker with intermittent tingling of the 4th and 5th fingers, worse with his elbows bent (holding a phone, resting on desk). Exam shows decreased sensation in those fingers and a positive Tinel sign at the elbow → **Cubital tunnel syndrome** (ulnar nerve compression at the elbow).",
+    "Cyclist with a prolonged history of riding presents with weak grip and numbness in the little finger. There is atrophy in the first dorsal interosseous and a positive Froment sign; dorsal hand sensation is intact → **Guyon canal syndrome** (ulnar nerve compression at the wrist from handlebar pressure)."
+  ],
+  "treatment": [
+    "Conservative (mild cases): **Activity modification** to avoid prolonged elbow flexion or direct pressure (e.g., use an elbow pad, keep the arm extended at night), plus NSAIDs for inflammation. Nighttime **splinting** of the elbow in extension is often recommended. Physical therapy and nerve-gliding exercises can also help.",
+    "Surgical (for severe or refractory cases): **Decompression of the ulnar nerve** at the cubital tunnel (often with anterior transposition of the nerve to a new position at the elbow). For ulnar tunnel syndrome at the wrist, surgical release of Guyon's canal is performed. If the nerve is acutely lacerated (e.g., by trauma), prompt surgical repair is indicated."
+  ],
+  "red_flags": [
+    "Acute trauma (e.g., elbow fracture or deep laceration) with immediate ulnar nerve paralysis → concern for nerve transection or entrapment in bone; requires **urgent surgical exploration**.",
+    "Evidence of severe neuropathy (marked intrinsic hand muscle **weakness or wasting**, fixed claw deformity, or symptoms persisting >6 weeks despite rest) → indicates high-grade compression; prompt specialist referral for possible surgical release."
+  ],
+  "algorithm": [
+    "Ulnar-sided hand numbness/weakness → suspect ulnar nerve entrapment (cubital tunnel syndrome if at elbow).",
+    "Physical exam: test sensation in the ulnar distribution and intrinsic hand muscle strength; perform Tinel's at the elbow or an elbow flexion test to provoke symptoms. Also examine the neck to rule out a cervical radiculopathy.",
+    "If symptoms are mild and no motor deficit: start conservative management (avoid elbow flexion/pressure, use padding/splint at night, NSAIDs as needed).",
+    "If significant weakness or no improvement after a trial (~6 weeks): obtain **electrodiagnostic studies** (EMG/NCS) to confirm the diagnosis and pinpoint the compression site.",
+    "For persistent or severe cases: proceed with **surgical decompression** of the ulnar nerve (cubital tunnel release ± anterior transposition at the elbow, or ulnar tunnel release at the wrist)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Compressed_ulnar_nerve.svg/1280px-Compressed_ulnar_nerve.svg.png",
+      "alt": "Illustration of the elbow joint showing compression of the ulnar nerve at the cubital tunnel (inside of the elbow).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Compressed_ulnar_nerve.svg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man has had \"pins and needles\" in his right ring and little fingers for 3 months, worse at night and when talking on the phone. He also reports a weak grip and has occasionally dropped objects.",
+      "clues": [
+        "Numbness/tingling in 4th and 5th digits, exacerbated by elbow flexion (phone use, sleeping)",
+        "Weak intrinsic hand muscles (decreased interossei strength, weak grasp)",
+        "Positive Tinel's sign over the medial elbow (funny bone area)"
+      ],
+      "answer": "Ulnar nerve entrapment at the elbow (cubital tunnel syndrome)",
+      "teaching": "Chronic compression of the ulnar nerve at the cubital tunnel leads to ulnar distribution paresthesias and intrinsic hand weakness (ulnar claw may be seen). First-line treatment is conservative (elbow pads, nighttime extension splinting, avoid prolonged flexion); if muscle weakness progresses or fails to improve, surgical decompression is indicated to prevent permanent deficits."
+    }
+  ],
+  "see_also": ["radial-nerve-injury", "median-nerve-injury", "klumpke-palsy", "erb-palsy"],
+  "prerequisites": ["brachial-plexus"],
+  "sources": [
+    {
+      "title": "StatPearls: Cubital Tunnel Syndrome (Chauhan & Anand, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK538259/"
+    },
+    {
+      "title": "UpToDate: Ulnar neuropathy at the elbow and wrist",
+      "url": "https://www.uptodate.com/contents/ulnar-neuropathy-at-the-elbow-and-wrist"
+    },
+    {
+      "title": "AAOS OrthoInfo: Ulnar Nerve Entrapment at the Elbow (Cubital Tunnel Syndrome)",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/ulnar-nerve-entrapment-at-the-elbow/"
+    },
+    {
+      "title": "Ulnar claw hand and paradox – Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ulnar_claw"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

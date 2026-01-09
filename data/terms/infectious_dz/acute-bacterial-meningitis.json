@@ -1,0 +1,134 @@
+{
+  "id": "acute-bacterial-meningitis",
+  "names": [
+    "Acute bacterial meningitis"
+  ],
+  "aliases": [
+    "purulent meningitis",
+    "pyogenic meningitis"
+  ],
+  "abbr": [],
+  "patterns": [
+    "acute bacterial meningitis",
+    "bacterial meningitis",
+    "purulent meningitis",
+    "pyogenic meningitis"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "pathology",
+    "infectious_dz",
+    "micro_bacteria",
+    "neuro",
+    "peds"
+  ],
+  "definition": "Life-threatening infection of the meninges (protective brain/spinal cord lining) causing acute inflammation.",
+  "why_it_matters": "This is a medical **emergency** with high mortality (≈10–30%) and risk of permanent neurologic deficits if not treated promptly. Death can occur within hours, so rapid recognition and intervention are critical for survival.",
+  "how_youll_see_it": [
+    "Classic triad: **fever**, **neck stiffness** (nuchal rigidity), and **altered mental status** – though all three occur together in only ~40% of cases. Almost all patients have at least one of these; **headache** (often severe) and **photophobia** are also common.",
+    "Infants may have **nonspecific** signs: irritability (high-pitched cry), poor feeding, **bulging fontanelle**, or seizures, and they often lack neck stiffness. In older children and adults, look for **severe headache**, vomiting, confusion, and meningismus; seizures can occur in any age group (especially with late presentation).",
+    "Common pathogens depend on age and risk factors: **Neonates** – *Group B Streptococcus* (agalactiae), *E. coli*, *Listeria*; **children** – *Streptococcus pneumoniae* (overall most common after infancy) and *Neisseria meningitidis* (esp. in adolescents); *H. influenzae* type b in unvaccinated kids. **Adults <50** – *S. pneumoniae* and *N. meningitidis*; **older adults or immunocompromised** – *S. pneumoniae* plus risk of *Listeria monocytogenes* and Gram-negatives. Post-surgical or trauma patients can get staphylococcal or pseudomonal meningitis.",
+    "Lumbar puncture (CSF analysis) is key for diagnosis: typical **bacterial CSF** shows **neutrophil-predominant** WBC count (often 1,000–5,000/μL), **low glucose** (CSF:serum ratio <0.4), and **high protein**; opening pressure is usually elevated. By contrast, viral (aseptic) meningitis usually has lymphocyte-predominant cells, normal glucose, and lower protein. **Gram stain** of CSF can rapidly identify the organism in many cases."
+  ],
+  "problem_solving": [
+    "If signs of raised intracranial pressure are present (papilledema, focal deficits, seizures, markedly altered consciousness), obtain a head CT **before LP** to prevent herniation. **Do not delay antibiotics**, though – draw blood cultures and start empiric treatment immediately if LP or imaging is delayed.",
+    "Use clinical context to target the cause: e.g., a **neonate** or age >50 implies *Listeria* risk (include ampicillin coverage), while a college dorm outbreak with petechial rash points to *N. meningitidis* (needs ceftriaxone-based therapy and prophylaxis for contacts). Recognizing patient age and risk factors helps determine likely pathogens and appropriate empiric therapy.",
+    "Remember that the absence of one of the classic triad symptoms does **not** exclude meningitis. Most patients have at least one or two of fever, neck stiffness, headache, or mental status change. A **petechial rash** in a febrile patient with neck stiffness is a red flag for meningococcemia – an exam clue that points to *N. meningitidis* and indicates a need for urgent intervention.",
+    "Differentiate from other causes of meningeal irritation: for example, **viral meningitis** is usually milder with lymphocytic pleocytosis and normal glucose, whereas **subarachnoid hemorrhage** can cause sudden headache and stiff neck but CSF shows blood/xanthochromia rather than infection. Also consider **encephalitis** when confusion or seizures are prominent out of proportion – encephalitis (often due to HSV) involves brain parenchyma and causes altered consciousness, requiring antivirals."
+  ],
+  "differentials": [
+    {
+      "name": "Viral (aseptic) meningitis",
+      "hint": "usually milder; CSF lymphocytes, normal glucose; often self-limited (e.g., enteroviruses)"
+    },
+    {
+      "name": "Encephalitis (e.g., HSV)",
+      "hint": "brain parenchymal involvement → confusion, seizures, focal deficits; CSF may show RBCs (HSV) and lymphocytes"
+    },
+    {
+      "name": "Subarachnoid hemorrhage",
+      "hint": "thunderclap headache, neck stiffness, +/- brief LOC; CSF with blood (xanthochromia), no infection"
+    }
+  ],
+  "tricks": [
+    "Trick: If **old or young, add ampicillin** – neonates and adults >50 both require *Listeria* coverage (ampicillin) in their empiric regimen.",
+    "Remember **Kernig** and **Brudzinski** signs: on exams, an inability to straighten the knee with hip flexed (Kernig) or involuntary hip/knee flexion with neck flexion (Brudzinski) suggests meningeal irritation."
+  ],
+  "exam_appearance": [
+    "A 19‑year‑old college student in a dorm presents with acute high fever, severe headache, nuchal rigidity, and a petechial rash on the trunk and legs. She rapidly becomes hypotensive and confused → **Meningococcal meningitis** (Neisseria meningitidis) with meningococcemia; treat immediately with ceftriaxone + vancomycin and supportive care.",
+    "A 3‑week‑old neonate is irritable with a high-pitched cry, poor feeding, and a bulging fontanelle. Workup reveals Group B strep in the CSF culture → **Neonatal bacterial meningitis** due to **Group B Streptococcus** (agalactiae). Management includes ampicillin + gentamicin and supportive care; this underscores the need for maternal GBS screening and intrapartum prophylaxis.",
+    "A 65‑year‑old man with alcoholism and prior splenectomy develops fever, altered mental status, and neck stiffness. CSF Gram stain shows Gram-positive lancet-shaped diplococci → **Pneumococcal meningitis** (Streptococcus pneumoniae). S. pneumoniae is the most common cause of adult meningitis, especially in asplenic or immunocompromised patients; treat with ceftriaxone + vancomycin and adjunctive dexamethasone."
+  ],
+  "treatment": [
+    "**Empiric antibiotics** must be started as soon as meningitis is suspected (ideally after blood cultures). Do **not** wait for LP results if it will cause delay. Early treatment drastically improves outcomes.",
+    "**Neonates (<1 month)** – cover *GBS*, *E. coli*, *Listeria*: e.g., **ampicillin** + **gentamicin** (or amp + cefotaxime).",
+    "**Children (>1 month)** – cover *S. pneumoniae*, *N. meningitidis*, *Hib*: use a third-gen cephalosporin (e.g., **ceftriaxone** or cefotaxime) **± vancomycin**. (Vancomycin is added especially if Gram stain shows Gram-positive cocci, to cover penicillin-resistant pneumococcus.)",
+    "**Adults <50** – **ceftriaxone + vancomycin** (covers pneumococcus and meningococcus; vanc for potential DR*SPN*).",
+    "**Adults ≥50** or immunocompromised – **ceftriaxone + vancomycin + ampicillin** (ampicillin adds *Listeria* coverage).",
+    "Post-surgery or penetrating head trauma – cover healthcare-associated organisms: use **vancomycin + ceftazidime** (or cefepime) to target MRSA and Pseudomonas.",
+    "**Adjunct – Dexamethasone**: Recommended in adults (and older children) for suspected *S. pneumoniae* meningitis – give with or just before the first antibiotic dose to reduce inflammation and neurologic complications (e.g. hearing loss). Steroids are **not** given to neonates (lack clear benefit). In meningococcal meningitis, implement **droplet precautions** until 24 hours of antibiotics have been given, and give prophylactic antibiotics to close contacts (rifampin, ciprofloxacin, or ceftriaxone)."
+  ],
+  "red_flags": [
+    "**Petechial or purpuric rash** in a patient with meningitis symptoms → suggests meningococcemia (N. meningitidis sepsis) with risk of DIC and shock. This requires emergent antibiotics, intensive supportive care, and isolation precautions.",
+    "Signs of **increased intracranial pressure** (e.g., papilledema, profoundly depressed mental status, seizures, Cushing triad of bradycardia/HTN) → high risk of brain herniation. Urgently initiate measures to lower ICP and perform neuroimaging; **delay LP** in this scenario and manage airway as needed, but do **start empiric antibiotics** without delay."
+  ],
+  "algorithm": [
+    "Suspect meningitis (fever, headache, stiff neck, ± altered consciousness) → **urgent evaluation**. If no contraindications, perform **lumbar puncture** promptly (after drawing blood cultures) to confirm diagnosis.",
+    "If **LP must be delayed** (due to need for CT or patient instability), **draw cultures and start IV antibiotics** ± dexamethasone immediately – do not wait for LP results.",
+    "Empiric antibiotics as per age/risk group (e.g., ceftriaxone + vancomycin, add ampicillin if Listeria risk). Admit to ICU for close monitoring. Implement droplet isolation if meningococcal disease is suspected.",
+    "Once CSF Gram stain/culture identifies the organism, **tailor antibiotics** to the specific pathogen and sensitivities. Continue therapy for the recommended duration (often 7–21 days depending on organism). Provide supportive care for complications (ICP control, seizure management, hydration).",
+    "Ensure **follow-up** for hearing tests and neurologic assessment after recovery (especially in pneumococcal or Hib meningitis) due to risk of sequelae. Encourage preventive measures for close contacts (chemoprophylaxis for meningococcus) and vaccination (Hib, pneumococcal, meningococcal vaccines) to reduce future cases."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Symptoms_of_Meningitis.svg",
+      "alt": "Diagram of main meningitis symptoms: headache, fever, stiff neck, photophobia, and a rash (meningococcal sepsis).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Symptoms_of_Meningitis.svg"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": "Read Notes",
+      "href": "https://entermedschool.com",
+      "variant": "secondary"
+    }
+  ],
+  "see_also": [
+    "subarachnoid-haemorrhage",
+    "tuberculosis",
+    "viral-meningoencephalitis"
+  ],
+  "prerequisites": [
+    "neuroanatomy",
+    "microbiology-basics"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Bacterial Meningitis (Runde et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470351/"
+    },
+    {
+      "title": "CDC: About Bacterial Meningitis (2025)",
+      "url": "https://www.cdc.gov/meningitis/about/bacterial-meningitis.html"
+    },
+    {
+      "title": "American Family Physician: Cerebrospinal Fluid Analysis (Shahan et al., 2021)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2021/0401/p422.html"
+    },
+    {
+      "title": "UpToDate: Bacterial meningitis in adults – Initial management and therapy",
+      "url": "https://www.uptodate.com/contents/initial-therapy-and-prognosis-of-community-acquired-bacterial-meningitis-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

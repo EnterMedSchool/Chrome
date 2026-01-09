@@ -1,0 +1,123 @@
+{
+  "id": "omphalocele",
+  "names": ["Omphalocele"],
+  "aliases": ["exomphalos", "omphalocoele"],
+  "abbr": [],
+  "patterns": ["omphalocele", "omphalocoele", "exomphalos"],
+  "primary_tag": "peds",
+  "tags": ["pathology", "peds", "obgyn", "surgery"],
+  "definition": "Congenital midline abdominal wall defect at the base of the umbilical cord, where abdominal organs (intestine, sometimes liver) herniate outside the body into a thin membranous sac. The sac consists of peritoneum and amnion, and the umbilical cord inserts into it.",
+  "why_it_matters": "Rare (~1 in 4,000 births) but serious neonatal surgical condition. Often associated with other anomalies or genetic syndromes (e.g. cardiac defects, trisomies, **Beckwith-Wiedemann**), which worsen prognosis. Overall survival is ~80% (up to 90% if isolated), but higher mortality when severe associated defects are present. Commonly tested on exams alongside **gastroschisis** to assess recognition of differences and related syndromes.",
+  "how_youll_see_it": [
+    "**Prenatal:** Detected on second-trimester ultrasound as a midline abdominal mass at the umbilical cord insertion, containing bowel (and possibly liver) within a membrane. Maternal serum **AFP** is often elevated on screening, prompting the diagnostic ultrasound.",
+    "**At birth:** Newborn presents with a translucent sac protruding from the umbilical area, containing abdominal contents. If the sac is intact, the organs are shiny and protected inside; if the sac has ruptured (or was never present, as in gastroschisis), the intestines are exposed.",
+    "Look for **other anomalies:** ~50% of infants with omphalocele have additional birth defects (especially cardiac) or part of a syndrome. For example, an infant may have an omphalocele along with macroglossia and a large body size (suggesting Beckwith-Wiedemann syndrome)."
+  ],
+  "problem_solving": [
+    "Differentiate from **gastroschisis**: Omphalocele is midline (at the belly button) and enclosed by a sac, whereas gastroschisis is usually right-sided with no protective membrane.",
+    "If omphalocele is identified on prenatal ultrasound, perform amniocentesis for karyotyping (high risk of chromosomal abnormalities) and fetal echocardiography to check for heart defects.",
+    "Plan delivery at a tertiary center with pediatric surgery available (especially for large omphaloceles). Handle the cord and sac carefully during delivery to avoid rupture (some recommend C-section for giant omphaloceles to prevent sac injury, though vaginal delivery is often possible).",
+    "Immediately after birth, protect the herniated organs: cover the sac with a sterile moist dressing or plastic wrap to prevent heat and fluid loss. Begin IV fluids, place an NG tube to decompress the bowel, and administer broad-spectrum antibiotics if the sac is ruptured (infection risk).",
+    "Assess defect size for surgical planning: small defects can be closed in one surgery, whereas large omphaloceles (especially if liver is included) may require a silo pouch for gradual reduction of contents over days to weeks before final closure."
+  ],
+  "differentials": [
+    { "id": "gastroschisis", "hint": "no covering sac; defect lateral (usually right of umbilicus); usually isolated anomaly" },
+    { "name": "Umbilical hernia", "hint": "small opening in umbilical ring, covered by skin (not a sac); typically only bowel and often self-resolves in childhood" },
+    { "name": "Bladder exstrophy", "hint": "midline pelvic defect with exposed bladder (red mass below belly button); no sac, and involves urinary system rather than bowel" }
+  ],
+  "tricks": [
+    "Think **\"O\" for Omphalocele** – **O**rgans are in an **O**val sac and **O**ften accompanied by **O**ther anomalies (e.g. cardiac, syndromic). **Gastroschisis** has no sac and is generally an isolated gut defect.",
+    "**Beckwith-Wiedemann** tip: remember the triad of **Big baby, Big tongue, and Belly defect** (omphalocele). An omphalocele in a large, hypoglycemic infant should prompt recall of this syndrome.",
+    "Both omphalocele and gastroschisis cause elevated **AFP** levels during pregnancy (open wall defects leak fetal proteins), similar to neural tube defects – so abnormal AFP warrants ultrasound to distinguish these conditions."
+  ],
+  "exam_appearance": [
+    "Second-trimester scan shows a midline abdominal wall defect at the base of the umbilical cord with bowel (and liver) in a membranous sac → **Omphalocele** (confirm with fetal karyotype due to high anomaly risk).",
+    "Large newborn with an omphalocele, **macroglossia**, organomegaly, and neonatal **hypoglycemia** → **Beckwith-Wiedemann syndrome** (congenital overgrowth syndrome).",
+    "Newborn with intestines protruding from the abdomen but **no sac** covering them, lateral to the umbilicus, and no other anomalies → **Gastroschisis** (not omphalocele)."
+  ],
+  "treatment": [
+    "Initial stabilization: keep baby warm and cover the omphalocele sac with sterile gauze or a plastic dressing to prevent drying. Start IV fluids, place an NG tube for decompression, and give antibiotics (especially if sac integrity is compromised).",
+    "Surgical management: if the omphalocele is small, perform primary surgical closure of the abdominal wall shortly after birth. For large defects (giant omphaloceles), use a staged approach – the exposed organs are placed in a protective silo bag and gradually returned into the abdomen over days to weeks, after which the abdominal wall is closed.",
+    "Post-operative care: monitor respiratory status (closing a large omphalocele can impede breathing due to increased abdominal pressure). Provide nutrition via IV (TPN) until bowel function recovers, and gradually introduce feedings. Watch for complications like infection or ileus during recovery."
+  ],
+  "red_flags": [
+    "**Sac rupture:** If the omphalocele's membrane tears (in utero or during birth), the bowel is exposed like in gastroschisis – this is a surgical emergency due to risk of infection, fluid loss, and heat loss.",
+    "**Giant omphalocele:** Large defects containing liver often correlate with **pulmonary hypoplasia** and possible **pulmonary hypertension** in the newborn. Be prepared for respiratory distress and consider delayed closure or ventilatory support in these cases.",
+    "**Syndromic clues:** Features like macroglossia (big tongue), clenched fists with overlapping fingers, or facial dysmorphisms in a baby with omphalocele suggest a genetic syndrome (e.g. Beckwith-Wiedemann, Trisomy 18). Prompt evaluation for associated conditions (and glucose monitoring in Beckwith-Wiedemann) is critical."
+  ],
+  "algorithm": [
+    "Maternal screening shows elevated AFP → perform detailed ultrasound. If an abdominal wall defect is seen, note location and presence of a membrane (helps distinguish omphalocele vs gastroschisis).",
+    "Ultrasound confirms omphalocele (midline defect with sac) → counsel parents and investigate for other anomalies. Recommend genetic amniocentesis for karyotype and microarray, and do a fetal echocardiogram to detect any heart defects.",
+    "Plan delivery at a center with a neonatal ICU and pediatric surgeons. Aim for gentle delivery to avoid sac rupture (consider C-section for very large omphaloceles, though vaginal delivery is often safe for moderate ones).",
+    "At birth, prioritize stabilization: ensure the airway, keep the baby warm, cover the sac with sterile material, and start IV fluids. Place an NG tube to prevent distension, and give antibiotics if needed.",
+    "Surgical approach depends on defect size: attempt primary closure for small omphaloceles. For large ones, use a silo for gradual reduction of organs. After closure, monitor for abdominal compartment syndrome (tight abdomen impeding breathing or circulation) and manage in the NICU."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Omphalocele.webm/1920px--Omphalocele.webm.jpg",
+      "alt": "Illustration comparing omphalocele and gastroschisis in newborns. Omphalocele (left) has abdominal organs herniating into the base of the umbilical cord within a membranous sac, whereas gastroschisis (right) has intestines protruding through a separate abdominal wall defect with no protective membrane.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Omphalocele.webm"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 19‑year‑old pregnant woman is told her second-trimester maternal serum alpha-fetoprotein is elevated. A detailed ultrasound at 18 weeks shows a 4 cm midline abdominal wall defect at the base of the fetal umbilical cord. The defect contains loops of bowel and part of the liver, all enclosed in a thin membrane. A fetal echocardiogram reveals a ventricular septal defect.",
+      "clues": [
+        "High maternal AFP on prenatal screening",
+        "Ultrasound: midline abdominal wall defect with sac",
+        "Herniated bowel and liver within the sac",
+        "Fetal echocardiography detects a heart defect"
+      ],
+      "answer": "Omphalocele",
+      "teaching": "Omphalocele is indicated by a midline, membrane-covered abdominal herniation (distinguishing it from gastroschisis). Elevated AFP in the second trimester can signify an abdominal wall defect (or neural tube defect), warranting an ultrasound. The presence of a sac and the umbilical cord entering the mass confirm omphalocele. Associated anomalies (like cardiac defects) are common, so prenatal detection should prompt genetic testing and careful pregnancy management."
+    },
+    {
+      "stem": "A full-term male newborn weighs 4.2 kg (>97th percentile) and is noted to have abdominal contents protruding through the umbilical opening, enclosed in a membranous sac. He has a large tongue that intermittently obstructs his mouth, and his blood glucose on newborn screening is 30 mg/dL (low).",
+      "clues": [
+        "Macrosomic (large) newborn with an omphalocele",
+        "Protruding sac at the umbilicus containing abdominal organs",
+        "Macroglossia (unusually large tongue)",
+        "Neonatal hypoglycemia"
+      ],
+      "answer": "Beckwith-Wiedemann syndrome (omphalocele with macroglossia and macrosomia)",
+      "teaching": "This neonate's features fit Beckwith-Wiedemann syndrome, a congenital overgrowth condition. The classic triad is omphalocele, macroglossia, and macrosomia (often with neonatal hypoglycemia due to hyperinsulinism). Recognizing this association is important because Beckwith-Wiedemann also carries risks of childhood tumors (like Wilms tumor), and these infants require monitoring and specialized care."
+    }
+  ],
+  "see_also": [
+    "gastroschisis",
+    "down-syndrome"
+  ],
+  "prerequisites": [
+    "embryology",
+    "midgut-rotation"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Omphalocele (Zahouani & Mendez, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519010/"
+    },
+    {
+      "title": "Merck Manual (Consumer): Abdominal Wall Defects - Omphalocele and Gastroschisis (Belkind-Gerson, 2025)",
+      "url": "https://www.merckmanuals.com/home/children-s-health-issues/birth-defects-of-the-digestive-tract/abdominal-wall-defects-omphalocele-and-gastroschisis"
+    },
+    {
+      "title": "UpToDate: Omphalocele – prenatal diagnosis and pregnancy management (Tamanna et al.)",
+      "url": "https://www.uptodate.com/contents/omphalocele-prenatal-diagnosis-and-pregnancy-management"
+    },
+    {
+      "title": "Medscape: Pediatric Omphalocele and Gastroschisis (Glasser, 2024)",
+      "url": "https://emedicine.medscape.com/article/975583-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

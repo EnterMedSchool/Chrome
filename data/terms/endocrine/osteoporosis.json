@@ -1,0 +1,131 @@
+{
+  "id": "osteoporosis",
+  "names": ["Osteoporosis"],
+  "aliases": ["postmenopausal osteoporosis", "senile osteoporosis", "primary osteoporosis"],
+  "abbr": ["OP"],
+  "patterns": ["osteoporosis", "osteoporotic", "porous bones", "brittle bones"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "msk_derm", "pharmacology"],
+  "definition": "Systemic skeletal disease characterized by low bone mass and deterioration of bone microarchitecture, leading to bone fragility and increased fracture risk (diagnosed by a bone density T-score ≤ -2.5 on DEXA).",
+  "why_it_matters": "Extremely common in older adults (especially postmenopausal women) and a major cause of **fragility fractures**. These fractures (e.g., hip fractures) result in significant morbidity (loss of independence, chronic pain) and even mortality, so early detection and prevention are crucial.",
+  "how_youll_see_it": [
+    "Often **silent** until a fracture occurs – typical fragility fractures (from minimal trauma like a standing-height fall) include those of the **hip**, **vertebrae** (compression fractures), or **distal radius** (wrist).",
+    "Vertebral fractures cause chronic **back pain**, loss of height, and **kyphosis** (Dowager hump). A patient may notice their posture stooping and clothes fitting differently due to height loss. **Hip fractures** usually present after a minor fall with acute hip pain and inability to bear weight.",
+    "Risk factors: **age** (elderly), **female** (postmenopausal estrogen loss), **low body weight** or frailty, **smoking**, **excess alcohol**, family history, and long-term **glucocorticoid** use. (Men with osteoporosis often have a secondary cause such as chronic steroid use, **hypogonadism**, hyperthyroidism, or alcoholism.)"
+  ],
+  "problem_solving": [
+    "Screening: All women ≥65 (and younger women with high risk) should undergo bone density testing. Men ≥70 or those with significant risk factors may also be screened.",
+    "Confirm diagnosis with **DEXA** (dual-energy X-ray absorptiometry) of hip and spine. Interpret the **T-score**: ≥ -1.0 is normal, -1.0 to -2.4 = **osteopenia**, ≤ -2.5 = **osteoporosis**. A fragility fracture at this bone density indicates **severe osteoporosis**.",
+    "Lab workup: Check for **secondary causes** if suspicion arises – e.g., serum calcium, 25-OH vitamin D, TSH (thyroid), PTH (parathyroid), testosterone in men, and renal function. This helps rule out conditions like hyperthyroidism, hyperparathyroidism, vitamin D deficiency (osteomalacia), or multiple myeloma contributing to bone loss.",
+    "Risk assessment: Use the **FRAX** calculator (or similar tools) to estimate 10-year fracture risk based on BMD and clinical factors. High risk (e.g., hip fracture risk ≥3% or major osteoporotic fracture ≥20%) can guide the decision to treat even if BMD is in osteopenia range."
+  ],
+  "differentials": [
+    {
+      "name": "Osteomalacia",
+      "hint": "Vitamin D deficiency causing poor bone mineralization; presents with bone pain, muscle weakness, 'Looser zones' (pseudofractures), and low calcium/phosphate."
+    },
+    {
+      "name": "Multiple myeloma",
+      "hint": "Plasma cell malignancy with lytic bone lesions and pathological fractures; look for anemia, high calcium, renal issues, and monoclonal protein (CRAB features)."
+    },
+    {
+      "name": "Primary hyperparathyroidism",
+      "hint": "'Bones, stones, groans…' High PTH causes excessive bone resorption (osteitis fibrosa cystica) with hypercalcemia, kidney stones, and subperiosteal bone changes."
+    }
+  ],
+  "tricks": [
+    "Mnemonic **ACCESS** for key osteoporosis risk factors: **Alcohol** use, **Corticosteroid** use, **Calcium** low (dietary deficiency), **Estrogen** low (postmenopause), **Smoking**, **Sedentary** lifestyle.",
+    "Often called a 'silent disease' because **no symptoms until a fracture** occurs – osteoporosis itself doesn't cause bone pain. Diffuse bone pain suggests another issue (like osteomalacia or bone metastases).",
+    "**Glucocorticoids** (e.g., prednisone) are notorious for causing secondary osteoporosis – always consider bone protection (calcium/Vit D supplements, bisphosphonates) when patients are on long-term steroids."
+  ],
+  "exam_appearance": [
+    "Thin, elderly woman with a **dowager's hump** (increased thoracic kyphosis), loss of height, and a history of wrist and vertebral compression fractures → **Osteoporosis** (postmenopausal type).",
+    "Patient with **rheumatoid arthritis** on long-term prednisone who presents with a low-impact hip fracture → **Glucocorticoid-induced osteoporosis** (secondary osteoporosis).",
+    "75‑year‑old who slips on ice, falls from standing height, and sustains a femoral neck **hip fracture** → fragility fracture due to **osteoporosis**."
+  ],
+  "treatment": [
+    "Lifestyle is foundational: adequate **calcium** and **vitamin D** intake, regular **weight-bearing exercise** (to strengthen bone), smoking cessation, limiting alcohol, and **fall prevention** measures (home safety, vision correction, assistive devices if needed).",
+    "**Bisphosphonates** are first-line pharmacotherapy – e.g., alendronate (oral) or zoledronic acid (IV) – these anti-resorptive drugs inhibit osteoclasts and substantially reduce hip, spine, and wrist fracture risk.",
+    "Other options: **SERMs** like raloxifene (selective estrogen receptor modulator) for postmenopausal women primarily needing spine protection; **denosumab** (RANKL inhibitor) for high-risk patients intolerant of bisphosphonates; **teriparatide** (PTH analog) or abaloparatide – anabolic agents used in severe cases to build bone. Hormone replacement therapy (estrogen) can prevent bone loss in recently menopausal women but is not first-line due to risks."
+  ],
+  "red_flags": [
+    "**Fragility fracture** occurrence (e.g., hip or multiple vertebral fractures) is a red flag signaling advanced osteoporosis – it confers high short-term mortality/morbidity risk and necessitates urgent management (surgical fix for hip, aggressive osteoporosis treatment).",
+    "Osteoporosis in an **atypical population** (men, premenopausal women, or anyone under 50) should raise suspicion for a secondary cause – evaluate for underlying issues like hyperthyroidism, Cushing syndrome, malabsorption, or malignancy."
+  ],
+  "algorithm": [
+    "Risk factors or age ≥65 (women) → **screen** for osteoporosis (DEXA).",
+    "If DEXA shows **T-score ≤ -2.5** or patient has a low-trauma fracture → diagnose osteoporosis.",
+    "For T-scores in osteopenia range, calculate **FRAX** risk; high fracture risk may warrant treatment even without full osteoporosis-range BMD.",
+    "Rule out reversible causes: address low vitamin D, manage thyroid or parathyroid disorders, and modify any contributing medications (like chronic steroids).",
+    "Initiate treatment: **lifestyle modifications** for all, plus pharmacotherapy (bisphosphonates or other agents) for diagnosed osteoporosis or high-risk osteopenia; follow up with periodic DEXA to monitor bone density."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Osteoporosis_Effect_and_Locations.jpg",
+      "alt": "Diagram highlighting common fracture sites in osteoporosis (spine and hip), with insets comparing normal bone (dense structure) vs osteoporotic bone (porous structure).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Osteoporosis_Effect_and_Locations.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old woman has noticed that she's gotten shorter and developed a hunched upper back over the past few years.",
+      "clues": [
+        "Lost 5 cm of height since her 50s",
+        "Pronounced thoracic kyphosis (dowager's hump)",
+        "History of a wrist fracture after a minor fall",
+        "DEXA T-score is -3.0"
+      ],
+      "answer": "Osteoporosis (postmenopausal)",
+      "teaching": "Postmenopausal estrogen deficiency led to accelerated bone loss, causing fragility fractures (distal radius, vertebrae). Her height loss and kyphosis are due to vertebral compression fractures. Treatment with calcium/Vit D, weight-bearing exercise, and bisphosphonates is indicated to prevent further fractures."
+    },
+    {
+      "stem": "A 60‑year‑old man with severe rheumatoid arthritis presents with acute back pain after lifting a light object.",
+      "clues": [
+        "On chronic prednisone 10 mg daily for 2 years",
+        "X-ray shows a new lumbar compression fracture",
+        "Calcium, phosphate, and vitamin D levels are normal",
+        "DEXA scan reveals low bone density (T-score -2.7)"
+      ],
+      "answer": "Secondary osteoporosis (glucocorticoid-induced)",
+      "teaching": "Long-term glucocorticoid therapy caused secondary osteoporosis, leading to a fragility fracture. Management includes treating the underlying RA optimally to reduce steroid need, and starting osteoporosis therapy (bisphosphonate with calcium/Vit D) to improve bone density and prevent future fractures."
+    }
+  ],
+  "see_also": [
+    "primary-hyperparathyroidism",
+    "osteitis-deformans",
+    "hypothyroidism"
+  ],
+  "prerequisites": [
+    "bone-physiology",
+    "calcium-homeostasis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Osteoporosis (Porter & Varacallo, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441901/"
+    },
+    {
+      "title": "UpToDate: Overview of the management of osteoporosis in postmenopausal women",
+      "url": "https://www.uptodate.com/contents/overview-of-the-management-of-low-bone-mass-and-osteoporosis-in-postmenopausal-women"
+    },
+    {
+      "title": "Endocrine Society Clinical Practice Guideline, 2019 (Eastell et al.)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30907953/"
+    },
+    {
+      "title": "National Institute on Aging – Osteoporosis (NIH health information)",
+      "url": "https://www.nia.nih.gov/health/osteoporosis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

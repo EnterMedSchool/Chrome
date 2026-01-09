@@ -1,0 +1,133 @@
+{
+  "id": "syncope",
+  "names": ["Syncope"],
+  "aliases": [
+    "fainting",
+    "blackout",
+    "passing out",
+    "transient loss of consciousness"
+  ],
+  "abbr": ["TLOC"],
+  "patterns": [
+    "syncope",
+    "fainting",
+    "faint",
+    "blackout",
+    "passing out",
+    "transient loss of consciousness",
+    "vasovagal syncope",
+    "neurally mediated syncope"
+  ],
+  "primary_tag": "neuro",
+  "tags": ["emerg", "neuro", "cardio"],
+  "definition": "Transient loss of consciousness (\"fainting\") caused by global cerebral hypoperfusion, typically with rapid onset, brief duration, and spontaneous recovery.",
+  "why_it_matters": "Common presentation (up to 3% of ER visits) that is usually benign (e.g., vasovagal) but can signal life-threatening conditions (arrhythmias, structural heart disease). Distinguishing harmless vs. dangerous causes of syncope is a high-yield clinical and exam skill.",
+  "how_youll_see_it": [
+    "Vasovagal (neurally mediated): often a young patient with a trigger (prolonged standing, emotional distress, pain). Features a prodrome (dizziness, nausea, warmth, diaphoresis) followed by brief LOC; occurs in upright posture and improves on lying down.",
+    "Orthostatic: typically in older or volume-depleted patients. Occurs upon standing up (postural change) due to a drop in blood pressure; often preceded by lightheadedness. Causes include dehydration, blood loss, autonomic neuropathy (e.g., Parkinson disease, diabetes), or medications.",
+    "Cardiac: often sudden with no prodrome. May happen during exertion or even at rest, especially in patients with underlying heart disease. Examples: arrhythmias (ventricular tachycardia in an older patient with prior MI; bradyarrhythmia or heart block), or structural lesions (outflow obstruction like aortic stenosis or hypertrophic cardiomyopathy, which classically cause exertional syncope).",
+    "Situational: a subtype of reflex syncope triggered by specific actions — e.g., cough syncope (intense coughing fit), micturition syncope (fainting during/after urination), or defecation syncope. These have similar mechanisms to vasovagal episodes (transient vagal surge or orthostatic stress)."
+  ],
+  "problem_solving": [
+    "Initial eval: history (context, triggers, prodrome, duration, recovery) and physical exam (including orthostatic vital signs) are key, plus a 12-lead ECG for all patients.",
+    "Differentiate true syncope from seizures or other mimics: syncope usually has no post-event confusion (no prolonged postictal state) and often a prompt recovery.",
+    "If orthostatic hypotension is suspected, measure orthostatic BPs (≥20 mmHg drop systolic or ≥10 mmHg diastolic upon standing is diagnostic).",
+    "Tailor further testing to suspicion: e.g., echocardiography if structural heart disease is possible (murmur or history of heart disease); ambulatory ECG monitoring (Holter or loop recorder) if an arrhythmia is suspected but not captured; tilt-table test for recurrent unexplained syncope with suspected vasovagal mechanism; carotid sinus massage (in patients >40) if carotid sinus hypersensitivity is a concern.",
+    "Risk stratification: identify high-risk features (history of heart failure or MI, abnormal ECG, syncope during exertion or while supine) that warrant hospital admission and urgent evaluation. Low-risk patients (no heart disease, normal exam/ECG, clear vasovagal trigger) can often be worked up outpatient."
+  ],
+  "differentials": [
+    {
+      "name": "Seizure",
+      "hint": "Tongue biting, rhythmic jerking, and prolonged postictal confusion suggest epileptic seizure rather than syncope."
+    },
+    {
+      "name": "Hypoglycemia",
+      "hint": "Low blood sugar can cause LOC but typically with gradual onset (altered behavior, diaphoresis) and requires glucose to recover (not spontaneous like syncope)."
+    },
+    {
+      "name": "Psychogenic pseudosyncope",
+      "hint": "Apparent fainting without true unconsciousness; episodes often prolonged with normal vitals and occur during anxiety (conversion disorder)."
+    }
+  ],
+  "tricks": [
+    "PASS OUT mnemonic for loss of consciousness: Pressure (vasovagal reflex or orthostatic hypotension), Arrhythmias, Seizures, Sugar (hypoglycemia), Output (cardiac output issues like aortic stenosis, HCM, PE), Unusual (psychogenic), TIA (rare).",
+    "No postictal phase in true syncope: patients wake up quickly with minimal confusion (if confusion is prolonged, think seizure). Tongue biting (especially lateral) also points to seizure, not syncope.",
+    "Syncope during exercise (or supine) is more concerning for a cardiac cause (e.g., arrhythmia, aortic stenosis), whereas syncope after exercise is more often reflex-mediated (vasovagal or orthostatic)."
+  ],
+  "exam_appearance": [
+    "Young person standing in a hot room who becomes lightheaded, nauseated, with tunnel vision and faints after seeing blood → classic vasovagal syncope.",
+    "Elderly patient on antihypertensives who blacks out shortly after standing up from bed in the morning → orthostatic hypotension (volume depletion or autonomic dysfunction).",
+    "Older adult with exertional syncope and a harsh crescendo-decrescendo murmur radiating to the carotids → syncope from aortic stenosis (fixed outflow obstruction)."
+  ],
+  "treatment": [
+    "Reflex (vasovagal/situational): reassurance and avoidance of triggers. If feeling presyncopal, lie down and elevate legs. Teach physical counter-pressure maneuvers (leg crossing, handgrip) to abort episodes. Encourage hydration and salt intake. For recurrent cases, midodrine or beta-blockers are sometimes used (mixed evidence), and pacemaker only in select severe cases with documented asystole.",
+    "Orthostatic: address the underlying cause (e.g., IV fluids for dehydration, adjust or remove offending medications). Advise slow position changes. Utilize compression stockings and consider medications like midodrine or fludrocortisone for chronic neurogenic orthostatic hypotension. Ensure adequate salt intake and hydration.",
+    "Cardiac: directed at the specific etiology. For arrhythmias, pacemaker placement for high-grade AV block or sinus node dysfunction; antiarrhythmics or catheter ablation for certain tachyarrhythmias; consider ICD for those at risk of sudden death (e.g., severe cardiomyopathy with VT). For structural causes, treat the lesion (e.g., aortic valve replacement for severe aortic stenosis, septal reduction or beta-blockers for hypertrophic obstructive cardiomyopathy, thrombolysis/anticoagulation for PE, etc.)."
+  ],
+  "red_flags": [
+    "Syncope during exertion or while supine, or sudden collapse without warning → red flags for cardiac syncope (arrhythmia or structural heart disease). These patients need prompt cardiac evaluation.",
+    "Syncope with chest pain or dyspnea → consider myocardial infarction or massive pulmonary embolism. Low back pain at the time of syncope → worry about aortic aneurysm rupture or dissection causing hemorrhage.",
+    "Any neurologic deficits or prolonged confusion after a fainting spell → consider a seizure or stroke (true syncope from stroke is rare, except in basilar artery TIA)."
+  ],
+  "algorithm": [
+    "Patient with transient LOC → first confirm it meets syncope criteria (brief loss of consciousness with quick recovery and loss of postural tone) vs. other causes (seizure, etc.).",
+    "Initial evaluation: perform detailed history, physical exam, orthostatic vitals, and ECG in all cases.",
+    "If any high-risk features (known heart disease, abnormal ECG, event during exertion or supine, family history of sudden death), admit for monitoring and urgent workup. If low-risk (clear vasovagal trigger, normal ECG, no red flags), outpatient evaluation is appropriate.",
+    "No obvious cause after initial workup → pursue targeted testing based on suspicion: e.g., tilt-table test for suspected reflex syncope, carotid sinus massage (>40 years) for unexplained syncope, echo for structural heart disease, or ambulatory ECG monitor for intermittent arrhythmias.",
+    "Manage identified cause accordingly and counsel on safety (e.g., driving restrictions until syncope is explained/controlled). Ensure follow-up to reassess and adjust the plan if episodes recur."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Blausen_0100_Bradycardia_Fainting.png",
+      "alt": "Illustration of bradycardia-induced syncope (fainting due to slow heart rate leading to low cardiac output).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Blausen_0100_Bradycardia_Fainting.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 68‑year‑old man with ischemic cardiomyopathy (EF 25%) collapses suddenly while climbing stairs. He had no aura or warning and regained consciousness after 30 seconds without confusion.",
+      "clues": [
+        "History of prior MI with low ejection fraction",
+        "Syncope occurred during exertion, no prodrome",
+        "ECG shows Q waves from old anterior MI"
+      ],
+      "answer": "Cardiac syncope (likely ventricular tachycardia from post-MI scar)",
+      "teaching": "Syncope in a patient with structural heart disease is highly concerning for an arrhythmia. No prodrome and exertional onset point to a malignant cause (here VTach due to prior MI scar). This warrants urgent evaluation (e.g., electrophysiology study, ICD consideration) to prevent sudden death."
+    }
+  ],
+  "see_also": [
+    "seizures",
+    "aortic-stenosis",
+    "atrial-fibrillation",
+    "long-qt-syndrome"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "autonomic-nervous-system"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Syncope (Grossman & Badireddy, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK442006/"
+    },
+    {
+      "title": "UpToDate: Syncope in adults – clinical manifestations and initial evaluation",
+      "url": "https://www.uptodate.com/contents/syncope-in-adults-clinical-manifestations-and-initial-diagnostic-evaluation"
+    },
+    {
+      "title": "2018 ESC Guidelines for the diagnosis and management of syncope",
+      "url": "https://doi.org/10.1093/eurheartj/ehy037"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

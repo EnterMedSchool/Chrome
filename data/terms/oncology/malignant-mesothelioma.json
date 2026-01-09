@@ -1,0 +1,98 @@
+{
+  "id": "malignant-mesothelioma",
+  "names": ["Malignant mesothelioma"],
+  "aliases": ["mesothelioma", "malignant pleural mesothelioma"],
+  "abbr": ["MPM"],
+  "patterns": ["mesothelioma", "malignant mesothelioma", "pleural mesothelioma", "peritoneal mesothelioma"],
+  "primary_tag": "oncology",
+  "tags": ["pathology", "oncology", "immunology"],
+  "definition": "Aggressive malignancy of the mesothelial lining of serous cavities (pleura >> peritoneum), usually due to **asbestos** exposure; pleural mesothelioma characteristically encases the lung in a thick rind.",
+  "why_it_matters": "Lethal cancer (median survival ~1 year) with a long latency period. Exemplifies the severe long-term risk of **asbestos** exposure and often appears on exams as the classic asbestos-associated malignancy (distinct from smoking-related lung carcinoma).",
+  "how_youll_see_it": [
+    "Pleural mesothelioma: older adult with chronic **asbestos** exposure history (e.g., shipyard, construction) presenting with insidious **dyspnea**, chest wall pain, cough, and weight loss. Usually a unilateral **pleural effusion** (often hemorrhagic) is present; imaging shows diffuse **pleural thickening** and a mass encasing the lung.",
+    "Peritoneal mesothelioma: progressive abdominal distension, pain, and **ascites** due to diffuse peritoneal tumor spread. Can occur after heavy asbestos exposure (ingested fibers). Rarely, mesothelioma arises in the **pericardium** (causing effusive-constrictive pericarditis) or in the **tunica vaginalis** of the testes (presents as a hydrocele)."
+  ],
+  "problem_solving": [
+    "Unilateral pleural disease in an asbestos-exposed patient should raise suspicion for mesothelioma even decades after exposure – pursue evaluation rather than attributing to benign causes.",
+    "Obtain a **thoracoscopic pleural biopsy** for definitive diagnosis (pleural fluid cytology is often non-diagnostic, with <30% sensitivity).",
+    "**Immunohistochemistry (IHC)** helps distinguish mesothelioma from adenocarcinoma: mesothelioma cells typically stain positive for **calretinin**, **WT-1**, and cytokeratin 5/6, and are negative for adenocarcinoma markers like CEA or TTF-1.",
+    "For peritoneal presentations, exclude more common causes of peritoneal carcinomatosis (e.g., ovarian or colon cancer metastases) by appropriate imaging and biopsy."
+  ],
+  "differentials": [
+    { "name": "Metastatic lung adenocarcinoma", "hint": "more common lung cancer (especially in smokers) that can involve pleura; glandular on histology, often CEA/TTF-1 positive, usually presents with a discrete lung mass" },
+    { "name": "Peritoneal carcinomatosis (ovarian/GI cancer)", "hint": "malignancy spread from another primary (e.g., ovarian carcinoma) causing diffuse peritoneal implants; usually no asbestos history and different tumor markers" },
+    { "name": "Benign asbestos pleural disease", "hint": "pleural **plaques** or benign asbestos effusions without invasive tumor; history of asbestos exposure but no malignancy (no pleural thickening rind or mass)" }
+  ],
+  "tricks": [
+    "Exam tip: **asbestos** exposure + pleural tumor (especially with effusion) → think mesothelioma (unlike lung cancer, mesothelioma risk is not linked to smoking).",
+    "Pathology buzzword: mesothelioma cells have long, slender **microvilli** on electron microscopy (vs adenocarcinoma cells with shorter microvilli).",
+    "Pleural mesothelioma tends to form a diffuse tumor **rind** encasing the lung rather than a single lung nodule."
+  ],
+  "exam_appearance": [
+    "Older man with a history of shipyard asbestos exposure presents with chest pain, dyspnea, and unilateral pleural effusion; imaging shows pleural thickening encasing one lung → malignant pleural mesothelioma.",
+    "Patient with a history of asbestos exposure develops abdominal distension and ascites; exploratory laparoscopy reveals diffuse peritoneal tumor implants → malignant peritoneal mesothelioma."
+  ],
+  "treatment": [
+    "Early-stage (localized) disease: aggressive **surgery** (pleurectomy/decortication or extrapleural pneumonectomy) combined with chemotherapy (**cisplatin + pemetrexed**) ± radiation (trimodal therapy) can be attempted in select patients.",
+    "Advanced or unresectable disease: systemic therapy is mainstay – platinum + pemetrexed **chemotherapy** (often with **bevacizumab**) or **immunotherapy** (combined checkpoint inhibitors like nivolumab + ipilimumab). Palliative **pleurodesis** (or indwelling pleural catheter) helps control recurrent effusions.",
+    "Peritoneal mesothelioma: optimal management is cytoreductive **surgery** with **HIPEC** (heated intraperitoneal chemotherapy), which can significantly prolong survival in eligible patients."
+  ],
+  "red_flags": [
+    "In an asbestos-exposed patient, a persistent **unilateral pleural effusion** or unexplained pleural thickening is a red flag for mesothelioma – prompt imaging and biopsy are essential (don't assume it's benign).",
+    "Mesothelioma involving the pericardium can lead to **cardiac tamponade** – watch for hypotension, JVD, distant heart sounds; if present, urgent pericardial drainage is required."
+  ],
+  "algorithm": [
+    "Asbestos exposure + unilateral pleural effusion/thickening → suspect malignant mesothelioma.",
+    "Imaging: get chest **X-ray** (may show pleural plaques or effusion) then **CT** chest to evaluate pleural thickening, masses, and extent of disease.",
+    "**Thoracentesis** (diagnostic & therapeutic) if effusion is present – fluid is typically exudative and often hemorrhagic, but cytology is usually non-diagnostic.",
+    "**Thoracoscopy with pleural biopsy** for definitive diagnosis (required to confirm mesothelioma histologically and via IHC, distinguishing it from adenocarcinoma).",
+    "Stage the disease (CT/PET ± MRI); involve a multidisciplinary team to determine treatment – surgery for early-stage fit patients vs **chemotherapy/immunotherapy** for advanced disease; integrate palliative care early for symptom management."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tumor_Mesothelioma2_legend.jpg",
+      "alt": "Coronal CT scan of the chest showing malignant pleural mesothelioma (tumor encasing the left lung, with a pleural effusion).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Tumor_Mesothelioma2_legend.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 72-year-old man with a 30-year history of shipyard work (and known asbestos exposure) presents with 6 months of progressive shortness of breath and chest pain.",
+      "clues": [
+        "Occupational history of significant asbestos exposure",
+        "Unilateral pleural effusion on chest X-ray (exudative, hemorrhagic)",
+        "Chest CT: diffuse pleural thickening and mass encasing the lung",
+        "Pleural biopsy: malignant epithelioid tumor cells positive for calretinin"
+      ],
+      "answer": "Malignant pleural mesothelioma",
+      "teaching": "Long-term asbestos exposure (often decades prior) is the key risk for mesothelioma. This patient's unilateral pleural effusion and 'rind' of pleural thickening encasing the lung are classic. Diagnosis is confirmed by pleural biopsy with histology and mesothelioma-specific IHC (e.g., calretinin positivity)."
+    }
+  ],
+  "see_also": ["asbestosis", "pulmonary-fibrosis"],
+  "prerequisites": ["asbestosis"],
+  "sources": [
+    {
+      "title": "StatPearls: Malignant Mesothelioma (Jain & Wallen, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519530/"
+    },
+    {
+      "title": "UpToDate: Initial management of malignant pleural mesothelioma",
+      "url": "https://www.uptodate.com/contents/initial-management-of-malignant-pleural-mesothelioma"
+    },
+    {
+      "title": "NCCN Guidelines Insights: Mesothelioma: Pleural, Version 1.2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38503043/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

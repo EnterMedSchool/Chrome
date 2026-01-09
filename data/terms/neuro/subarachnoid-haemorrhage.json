@@ -1,0 +1,128 @@
+{
+  "id": "subarachnoid-haemorrhage",
+  "names": ["Subarachnoid haemorrhage"],
+  "aliases": ["Subarachnoid hemorrhage", "aneurysmal SAH", "nontraumatic SAH"],
+  "abbr": ["SAH"],
+  "patterns": [
+    "subarachnoid hemorrhage",
+    "subarachnoid haemorrhage",
+    "SAH",
+    "aneurysmal subarachnoid hemorrhage",
+    "aneurysmal subarachnoid haemorrhage",
+    "traumatic subarachnoid hemorrhage",
+    "nontraumatic subarachnoid hemorrhage"
+  ],
+  "primary_tag": "neuro",
+  "tags": ["pathology", "neuro", "surgery", "emerg"],
+  "definition": "Bleeding into the subarachnoid space (between the arachnoid and pia mater), usually due to a ruptured saccular (\"berry\") aneurysm.",
+  "why_it_matters": "A life-threatening type of stroke with high mortality (≈40% within one month). Prompt recognition and treatment are critical to prevent rebleeding and secondary brain injury (vasospasm, hydrocephalus, etc.).",
+  "how_youll_see_it": [
+    "Classic thunderclap headache: sudden, excruciating \"worst headache of my life\" often accompanied by neck stiffness, vomiting, or brief loss of consciousness.",
+    "May have meningeal signs (photophobia, Kernig/Brudzinski) and elevated blood pressure. Focal deficits are less common unless bleeding causes secondary stroke; a notable example is an oculomotor nerve palsy (ptosis & dilated pupil) from a posterior communicating artery aneurysm.",
+    "Typically occurs in middle age (40–60). Risk factors include hypertension, smoking, heavy alcohol use, and familial aneurysm syndromes (e.g., autosomal dominant polycystic kidney disease, Ehlers-Danlos type IV).",
+    "Non-aneurysmal causes: Trauma is a common cause of SAH, usually with bleeding over the cerebral convexities rather than the classic basal cistern pattern of aneurysmal SAH. Traumatic SAH often occurs with other signs of head injury and carries a better prognosis."
+  ],
+  "problem_solving": [
+    "Immediate noncontrast head CT is the first step in suspected SAH (nearly 98% sensitive if done within 6 hours of onset).",
+    "If CT is negative but clinical suspicion remains high, perform a lumbar puncture to look for red blood cells in CSF that do not clear between collection tubes and for xanthochromia (yellow discoloration of CSF supernatant, indicating hemoglobin breakdown).",
+    "Once SAH is confirmed, obtain cerebral angiography (digital subtraction angiography) or CT angiography to identify the source (e.g., aneurysm or arteriovenous malformation) for targeted treatment.",
+    "Grading severity: clinical scales (e.g., Hunt and Hess score, WFNS) and imaging scales (Fisher grade for blood on CT) are used to predict risk of complications; a worse initial neurologic grade correlates with poorer outcomes.",
+    "Distinguish true SAH from a traumatic LP: in true SAH, CSF RBC count remains elevated from first to last tube and xanthochromia appears after ~12 hours (versus a traumatic tap where RBCs clear and no xanthochromia)."
+  ],
+  "differentials": [
+    {
+      "name": "Migraine headache",
+      "hint": "Typically gradual onset, often with aura or prior history; not maximal at start and lacks objective neuro signs."
+    },
+    {
+      "name": "Meningitis",
+      "hint": "Headache with neck stiffness but usually fever and subacute onset (hours to days), often with altered mental status."
+    },
+    {
+      "name": "Intracerebral hemorrhage",
+      "hint": "Intracerebral (intraparenchymal) bleed causes focal deficits and less often a diffuse thunderclap headache; more common overall than SAH."
+    },
+    {
+      "name": "Cerebral venous sinus thrombosis",
+      "hint": "Can cause severe headache and elevated intracranial pressure, but often subacute with risk factors (e.g., hypercoagulability); diagnosis by MR venography."
+    }
+  ],
+  "tricks": [
+    "Xanthochromia (yellow CSF) on lumbar puncture is a classic clue for SAH, appearing ~12 hours after bleeding.",
+    "Berry aneurysms are often located at Circle of Willis branch points (most commonly anterior communicating artery) and are associated with ADPKD and Ehlers-Danlos syndrome.",
+    "Preventing vasospasm: oral nimodipine is given to all SAH patients – it's been shown to reduce ischemic complications by vasospasm and improve outcomes."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with sudden \"thunderclap\" headache, vomiting, and neck stiffness who collapses → suspect subarachnoid hemorrhage from ruptured aneurysm.",
+    "Severe headache during exertion (weight lifting or sexual activity) with brief loss of consciousness → classic aneurysmal SAH presentation; initial CT head will show subarachnoid blood in basal cisterns.",
+    "Acute headache with ipsilateral ptosis and a dilated pupil (CN III palsy) → aneurysmal compression (posterior communicating artery aneurysm) causing SAH."
+  ],
+  "treatment": [
+    "Neurosurgical clipping or endovascular coiling of the offending aneurysm, ideally within the first 24–72 hours, to prevent rebleeding.",
+    "Nimodipine (a calcium channel blocker) for 21 days to prevent cerebral vasospasm and reduce delayed ischemia.",
+    "Intensive care management: strict blood pressure control (to balance preventing rebleed with maintaining cerebral perfusion), ICU monitoring for neurologic status, and ventricular CSF drainage if acute hydrocephalus develops.",
+    "Treat complications: vasospasm (hyperdynamic therapy or endovascular treatment if needed), hydrocephalus (external ventricular drain or shunt), seizures (may use short-term anticonvulsants in select cases), and hyponatremia (often due to cerebral salt wasting, manage with salt repletion)."
+  ],
+  "red_flags": [
+    "Sudden \"worst headache of life\" with neck stiffness or loss of consciousness → emergency evaluation (rule out SAH).",
+    "Transient severe headache days or weeks before (a sentinel headache) can precede a major SAH – do not ignore this warning leak.",
+    "Acute CN III palsy (eye \"down and out\" with blown pupil) in the context of headache → suggests a posterior communicating artery aneurysm compressing the nerve (neurosurgical emergency).",
+    "Deterioration after initial stability (new coma or abrupt blood pressure spike) → suspect rebleeding (often catastrophic, ~50% mortality) or acute hydrocephalus; requires immediate intervention."
+  ],
+  "algorithm": [
+    "Thunderclap headache → Noncontrast head CT immediately (ideally within 6 hours of onset for highest sensitivity).",
+    "If CT shows SAH → ICU admission, neurosurgery consult, start nimodipine, and manage blood pressure; plan definitive aneurysm treatment (clipping or coiling) as soon as feasible.",
+    "If CT is normal but suspicion remains → perform lumbar puncture (look for RBCs in successive tubes and xanthochromia indicating SAH).",
+    "Confirmed SAH → obtain angiographic imaging (CTA or catheter angiography) to locate the source (aneurysm, AVM, etc.).",
+    "Post-aneurysm repair → neurocritical care: monitor for vasospasm (peak incidence days 3–7; preventive nimodipine and neurological checks), manage intracranial pressure, and address complications (e.g., CSF diversion for hydrocephalus)."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/SAH1.JPG",
+      "alt": "CT scan of the brain showing subarachnoid hemorrhage (hyperdense blood in the basal cisterns; black arrow indicates the hemorrhage).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:SAH1.JPG"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old man with hypertension develops a sudden, explosive headache while exercising and briefly loses consciousness.",
+      "clues": ["thunderclap headache", "neck stiffness", "no focal deficits", "CT scan: blood in basal cisterns"],
+      "answer": "Aneurysmal subarachnoid hemorrhage (ruptured berry aneurysm)",
+      "teaching": "Sudden \"worst headache\" with meningeal signs indicates SAH. Rapid neuroimaging and neurosurgical intervention (aneurysm clipping or coiling) are essential, along with nimodipine to prevent vasospasm."
+    }
+  ],
+  "see_also": ["aneurysm", "stroke", "polycystic-kidney-disease"],
+  "sources": [
+    {
+      "title": "Medscape: Subarachnoid Hemorrhage (Becske & Lutsep, 2025)",
+      "url": "https://emedicine.medscape.com/article/1164341-overview"
+    },
+    {
+      "title": "UpToDate: Aneurysmal subarachnoid hemorrhage (Literature review current through 2025)",
+      "url": "https://www.uptodate.com/contents/aneurysmal-subarachnoid-hemorrhage-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "StatPearls: Subarachnoid Hemorrhage (2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441958/"
+    },
+    {
+      "title": "2023 AHA/ASA Guideline for Management of Aneurysmal Subarachnoid Hemorrhage",
+      "url": "https://www.ahajournals.org/doi/10.1161/STR.0000000000000436"
+    },
+    {
+      "title": "Lawton MT & Vates GE. Subarachnoid Hemorrhage. N Engl J Med. 2017;377(3):257-266.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28723326/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

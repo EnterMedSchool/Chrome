@@ -1,0 +1,111 @@
+{
+  "id": "hyperparathyroidism",
+  "names": ["Hyperparathyroidism"],
+  "aliases": ["parathyroid hormone excess", "parathyroid overactivity"],
+  "abbr": ["HPT"],
+  "patterns": ["hyperparathyroidism", "hyperparathyroid", "HPT"],
+  "primary_tag": "endocrine",
+  "tags": ["pathology", "endocrine", "renal"],
+  "definition": "Abnormally high parathyroid hormone (**PTH**) levels causing disrupted calcium–phosphate homeostasis. Classified into **primary** (excess PTH from parathyroid gland disease, causing hypercalcemia), **secondary** (reactive PTH elevation due to chronic hypocalcemia, e.g. in CKD), and **tertiary** (autonomous PTH secretion after prolonged secondary hyperparathyroidism).",
+  "why_it_matters": "Primary HPT is the most common outpatient cause of **hypercalcemia**, leading to kidney stones, osteoporosis, and neuropsychiatric disturbances if untreated. Secondary HPT is a key complication of CKD (renal bone disease) and contributes to fractures and vascular calcifications. Distinguishing primary vs secondary vs tertiary hyperparathyroidism by lab profile (PTH and calcium levels) is a classic exam challenge.",
+  "how_youll_see_it": [
+    "Primary HPT: often **asymptomatic hypercalcemia** on routine labs (esp. in older adults); severe cases show **stones, bones, groans, thrones, psychiatric overtones** (kidney stones, bone pain/fractures, abdominal pain/constipation, polyuria, confusion/depression).",
+    "Secondary HPT: typically in **CKD** patients with renal osteodystrophy (bone pain, calcifications); labs show high PTH with **low/normal Ca** and **high phosphate** (in CKD). Can also occur in vitamin D deficiency (malabsorption), causing bone pain and high PTH.",
+    "Tertiary HPT: seen in ESRD patients after long-standing secondary HPT (e.g. post-kidney transplant) – parathyroids become autonomous, causing **high PTH with hypercalcemia**. Presents with recurrent kidney stones or hypercalcemic symptoms despite resolved initial cause."
+  ],
+  "problem_solving": [
+    "Evaluate **PTH** in any hypercalcemic patient: high PTH indicates PTH-mediated hypercalcemia (primary or tertiary HPT) whereas low PTH suggests non-parathyroid causes (malignancy, etc).",
+    "Differentiate primary vs tertiary HPT: both have ↑Ca and ↑PTH, but tertiary occurs in patients with a history of long-term CKD/dialysis (all glands hyperplastic).",
+    "Rule out familial benign hypercalcemia (**FHH**): check 24-hour **urine Ca** – FHH will have very low urine calcium excretion, whereas primary HPT has high urine Ca excretion.",
+    "If PTH is high with normal/low Ca, it's **secondary HPT** – look for chronic kidney disease (check GFR) or vitamin D deficiency (25-OH vitamin D level) as the cause.",
+    "Imaging: for primary/tertiary HPT, perform localization studies (sestamibi scan, neck ultrasound) only if surgery is planned (not needed for secondary HPT since all glands enlarged)."
+  ],
+  "differentials": [
+    { "name": "Humoral hypercalcemia of malignancy", "hint": "↑Ca with **low PTH** (e.g., PTHrP-secreting squamous cell carcinoma or multiple myeloma)" },
+    { "name": "Vitamin D excess (intoxication or granulomatous disease)", "hint": "↑Ca from high calcitriol; **PTH is suppressed**" }
+  ],
+  "tricks": [
+    "Mnemonic for hypercalcemia: **stones, bones, groans, thrones, psychiatric overtones** (kidney stones, bone pain, abdominal pain, polyuria, neuropsychiatric symptoms).",
+    "PTH = '**phosphate trashing hormone**': primary/tertiary HPT cause renal phosphate wasting (low serum phosphate), whereas in CKD (secondary HPT) phosphate tends to be high.",
+    "Primary HPT is the most common cause of hypercalcemia in **outpatients**, whereas malignancy is the most common cause in hospitalized patients."
+  ],
+  "exam_appearance": [
+    "Postmenopausal woman with recurrent kidney stones and high calcium, **↑PTH** → primary hyperparathyroidism (parathyroid adenoma).",
+    "Dialysis patient with bone pain and pruritus, **↓Ca, ↑phosphate, ↑PTH** → secondary hyperparathyroidism (CKD with renal osteodystrophy).",
+    "Kidney transplant recipient with new-onset **hypercalcemia** and still **↑PTH** → tertiary hyperparathyroidism (autonomous parathyroid hyperplasia)."
+  ],
+  "treatment": [
+    "Primary/tertiary HPT: **parathyroidectomy** is definitive if criteria met (symptoms or Ca/bone criteria); if not surgical, use **calcimimetics** (cinacalcet) to suppress PTH and treat hypercalcemia, and address osteoporosis (bisphosphonates).",
+    "Secondary HPT: treat the underlying cause – in CKD, control **phosphate** with binders, give active **vitamin D** (calcitriol) to raise Ca and suppress PTH, and add cinacalcet if PTH remains high. Optimize calcium and vitamin D intake in deficiency states.",
+    "Monitor labs regularly: avoid over-suppression of PTH in CKD (to prevent adynamic bone). Tertiary HPT often requires surgery (partial/total parathyroidectomy) once PTH is autonomous."
+  ],
+  "red_flags": [
+    "**Hypercalcemic crisis**: very high Ca (>14 mg/dL) causing dehydration, confusion, arrhythmias – requires emergency IV fluids, calcitonin, bisphosphonates.",
+    "**Calciphylaxis** (calcific uremic arteriolopathy): in severe secondary/tertiary HPT, high Ca×P product can cause skin ischemia with necrotic ulcers – life-threatening, may require urgent parathyroidectomy."
+  ],
+  "algorithm": [
+    "Hypercalcemia detected → check PTH level.",
+    "If **↑Ca + ↑PTH** → PTH-dependent hypercalcemia (primary or tertiary HPT). If **↑PTH** but Ca normal/low → secondary HPT (look for CKD or vit D deficiency).",
+    "High PTH + high Ca: differentiate primary vs tertiary by history (no CKD vs long-standing CKD). Check 24h urine Ca to distinguish FHH if familial pattern.",
+    "Primary/tertiary: consider parathyroidectomy if symptomatic or meeting guidelines (Ca >1 mg/dL above normal, T-score ≤ -2.5, kidney stones, age <50, etc). Localize adenoma(s) with imaging if surgery planned.",
+    "Secondary: manage CKD-MBD (dietary phosphate restriction, phosphate binders, vitamin D analogs, calcimimetics). Refer for surgery if PTH remains extremely high (>800) with refractory hypercalcemia or calciphylaxis."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Parathyroid_diseases_and_relation_between_calcium_and_PTH.jpg",
+      "alt": "Chart relating calcium and PTH levels in primary, secondary, and tertiary hyperparathyroidism (versus other disorders).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Parathyroid_diseases_and_relation_between_calcium_and_PTH.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 67‑year‑old woman with osteoporosis and a history of kidney stones is noted to have a calcium level of 11.2 mg/dL on routine blood work.",
+      "clues": [
+        "Elevated serum calcium on routine labs",
+        "Parathyroid hormone level is high",
+        "Low serum phosphate",
+        "Bone density is reduced (osteopenia/osteoporosis)"
+      ],
+      "answer": "Primary hyperparathyroidism (parathyroid adenoma)",
+      "teaching": "An older adult with asymptomatic hypercalcemia (and history of stones and bone loss) likely has primary HPT. High PTH and low phosphate confirm it. A parathyroid adenoma is the usual cause; removal would cure her hypercalcemia."
+    },
+    {
+      "stem": "A 40‑year‑old man with end-stage renal disease on dialysis has worsening diffuse bone pain and intense itching (pruritus).",
+      "clues": [
+        "On dialysis for 10 years",
+        "Calcium 7.8 mg/dL (low)",
+        "Phosphate 6.5 mg/dL (high)",
+        "Intact PTH level 900 pg/mL (very high)"
+      ],
+      "answer": "Secondary hyperparathyroidism (renal osteodystrophy due to CKD)",
+      "teaching": "Advanced CKD causes phosphate retention and low vitamin D, leading to hypocalcemia and secondary HPT. The very high PTH causes bone pain (renal osteodystrophy) and pruritus from calcium phosphate deposits. Treatment involves phosphate binders, calcitriol, and calcimimetics; a parathyroidectomy is considered if medical therapy fails."
+    }
+  ],
+  "see_also": ["primary-hyperparathyroidism", "secondary-hyperparathyroidism", "tertiary-hyperparathyroidism"],
+  "prerequisites": ["parathyroid-gland", "calcium-homeostasis"],
+  "sources": [
+    {
+      "title": "Am Fam Physician: Parathyroid Disorders (Walker & Silverberg, 2013)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2013/0815/p249.html"
+    },
+    {
+      "title": "UpToDate: Etiology of hypercalcemia (2023)",
+      "url": "https://www.uptodate.com/contents/etiology-of-hypercalcemia"
+    },
+    {
+      "title": "Medscape: Hyperparathyroidism (2022)",
+      "url": "https://emedicine.medscape.com/article/127351-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

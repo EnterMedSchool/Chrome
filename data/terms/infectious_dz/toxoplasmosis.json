@@ -1,0 +1,108 @@
+{
+  "id": "toxoplasmosis",
+  "names": ["Toxoplasmosis"],
+  "aliases": ["Toxoplasma gondii infection"],
+  "abbr": [],
+  "patterns": ["toxoplasmosis", "toxoplasma gondii", "toxoplasma", "toxo"],
+  "primary_tag": "infectious_dz",
+  "tags": ["infectious_dz", "micro_parasite", "obgyn", "neuro"],
+  "definition": "Infection caused by the protozoan *Toxoplasma gondii*. Typically asymptomatic in healthy people, but in immunocompromised patients it causes life‑threatening encephalitis (multiple brain abscesses), and in utero infection leads to the classic triad of chorioretinitis, hydrocephalus, and intracranial calcifications.",
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/9/91/BrainToxoplasmosis_MRI_2_09.png",
+      "alt": "MRI of brain showing a ring‑enhancing toxoplasmosis lesion (occipital lobe in an AIDS patient).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:BrainToxoplasmosis_MRI_2_09.png"
+      }
+    }
+  ],
+  "why_it_matters": "A leading cause of focal brain lesions in AIDS (treatable but often fatal if missed); also a preventable cause of congenital blindness and neurologic damage if maternal infection is recognized and managed early.",
+  "how_youll_see_it": [
+    "Healthy (immunocompetent): usually asymptomatic, or mild mononucleosis‑like illness with lymphadenopathy.",
+    "HIV/AIDS (CD4 <100): reactivation **encephalitis** with multiple brain abscesses (ring‑enhancing lesions on imaging) → headaches, seizures, confusion.",
+    "Congenital (primary maternal infection): **chorioretinitis**, **hydrocephalus**, and diffuse **intracranial calcifications** in newborn; may present with seizures and developmental delays."
+  ],
+  "problem_solving": [
+    "In an AIDS patient with multiple ring lesions on MRI, start empiric treatment for toxoplasmosis (if no improvement in ~2 weeks, consider CNS lymphoma).",
+    "HIV patients with CD4 <100 and positive Toxoplasma IgG need **TMP‑SMX prophylaxis** to prevent toxoplasmosis.",
+    "Pregnant patients who seroconvert (acute toxo infection) should be treated immediately (spiramycin in early pregnancy) to reduce fetal transmission; confirm fetal infection via amniotic fluid PCR.",
+    "Preventive counseling: pregnant women should avoid cat litter boxes and undercooked meat (common sources of Toxoplasma)."
+  ],
+  "differentials": [
+    { "id": "primary-cns-lymphoma", "hint": "AIDS with solitary brain lesion (often EBV+; poor response to toxo therapy)" },
+    { "id": "congenital-cytomegalovirus", "name": "Congenital CMV infection", "hint": "another TORCH infection: periventricular calcifications, hearing loss (no hydrocephalus)" }
+  ],
+  "tricks": [
+    "In HIV: **multiple** brain lesions → toxoplasmosis; **single** brain lesion → likely lymphoma.",
+    "In OB: **pregnant woman + cat exposure** → think toxoplasmosis (it's the **T** in TORCH infections)."
+  ],
+  "exam_appearance": [
+    "HIV patient (CD4 ~50) with seizures and multiple ring‑enhancing lesions on brain MRI → toxoplasmic encephalitis.",
+    "Newborn with hydrocephalus, chorioretinitis, and diffuse intracranial calcifications → congenital toxoplasmosis.",
+    "Young adult with cervical lymphadenopathy and mild fever, negative heterophile test → acute toxoplasmosis (likely from cat exposure)."
+  ],
+  "treatment": [
+    "First-line: **pyrimethamine + sulfadiazine + leucovorin** for at least 6 weeks (folinic acid prevents bone marrow suppression).",
+    "If sulfa allergy: **pyrimethamine + clindamycin** (plus leucovorin).",
+    "**Corticosteroids** are added for elevated intracranial pressure or severe chorioretinitis.",
+    "In pregnancy: treat acute infection with **spiramycin** (especially 1st trimester to prevent fetal infection); if fetal infection is confirmed, switch to pyrimethamine‑sulfadiazine despite teratogenicity.",
+    "Prophylaxis: **TMP‑SMX** daily for HIV patients with CD4 <100 (if Toxoplasma IgG positive) to prevent reactivation."
+  ],
+  "red_flags": [
+    "HIV patient with new neurologic symptoms → evaluate immediately for possible toxoplasmosis (delaying treatment can be fatal).",
+    "Pregnant woman with acute toxoplasmosis (IgM+) → urgent therapy (e.g., spiramycin) to protect the fetus."
+  ],
+  "algorithm": [
+    "HIV baseline: if CD4 <100, check Toxoplasma IgG; if positive, begin TMP‑SMX prophylaxis.",
+    "HIV with CNS symptoms: immediate brain MRI → multiple ring lesions (and IgG+) suggests toxo.",
+    "Start empiric pyrimethamine‑sulfadiazine; if no improvement by 14 days, get a brain biopsy (rule out lymphoma).",
+    "Pregnant patient with suspected acute toxo: test serologies (IgM, IgG) and do amniotic fluid PCR for *T.* *gondii*.",
+    "If mother is infected, begin spiramycin; if fetal infection is confirmed, switch to pyrimethamine‑sulfadiazine (after 1st trimester)."
+  ],
+  "cases": [
+    {
+      "stem": "A 34‑year‑old man with AIDS (CD4 count 40) presents with headaches, confusion, and fever.",
+      "clues": ["Multiple ring‑enhancing lesions on brain MRI", "Positive Toxoplasma IgG", "Not on TMP‑SMX prophylaxis"],
+      "answer": "Cerebral toxoplasmosis (toxoplasmic encephalitis)",
+      "teaching": "Reactivation of latent *T.* *gondii* in an AIDS patient causes multiple brain abscesses. Treat with pyrimethamine–sulfadiazine (plus leucovorin); note that TMP‑SMX prophylaxis could have prevented this case."
+    },
+    {
+      "stem": "A 2‑week‑old infant, born to a mother who had fever and lymphadenopathy in mid‑pregnancy, now has seizures and poor feeding.",
+      "clues": ["Hydrocephalus (enlarged ventricles)", "Diffuse intracranial calcifications", "Chorioretinitis on eye exam"],
+      "answer": "Congenital toxoplasmosis",
+      "teaching": "Transplacental infection with *Toxoplasma* (acute maternal infection during pregnancy) leads to the classic triad of hydrocephalus, chorioretinitis, and intracranial calcifications. Treat the infant with pyrimethamine + sulfadiazine (plus leucovorin). Earlier maternal treatment (e.g., spiramycin) might have prevented this outcome."
+    }
+  ],
+  "see_also": [
+    "cytomegalovirus",
+    "torch-infections",
+    "human-immunodeficiency-virus-infection"
+  ],
+  "prerequisites": [
+    "hiv-infection",
+    "torch-infections"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Toxoplasmosis (Madireddy & Mangat, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK563286/"
+    },
+    {
+      "title": "UpToDate: Toxoplasmosis in patients with HIV (Montoya, updated 2023)",
+      "url": "https://www.uptodate.com/contents/toxoplasmosis-in-patients-with-hiv"
+    },
+    {
+      "title": "Medscape: Pediatric Toxoplasmosis (Brook, 2024)",
+      "url": "https://emedicine.medscape.com/article/1000028-overview"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

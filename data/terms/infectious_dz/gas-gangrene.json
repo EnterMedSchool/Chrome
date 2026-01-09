@@ -1,0 +1,135 @@
+{
+  "id": "gas-gangrene",
+  "names": [
+    "Gas gangrene"
+  ],
+  "aliases": [
+    "clostridial myonecrosis"
+  ],
+  "patterns": [
+    "gas gangrene",
+    "gasgangrene",
+    "clostridial myonecrosis",
+    "clostridial myositis"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": [
+    "pathology",
+    "infectious_dz",
+    "micro_bacteria",
+    "surgery",
+    "emerg"
+  ],
+  "definition": "Life-threatening necrotizing infection of muscle (**myonecrosis**) caused by toxin-producing *Clostridium* (usually *C. perfringens*), with rapid tissue necrosis and gas production in the wound.",
+  "why_it_matters": "100% fatal if untreated (even with treatment, significant mortality). Requires **emergent surgical** intervention to prevent death. High-yield on exams as a classic example of a necrotizing soft tissue infection that demands immediate recognition and action.",
+  "how_youll_see_it": [
+    "Usually follows trauma or surgery: sudden severe pain at the wound site (often **out of proportion** to exam), with swelling and skin color changes (pale → bronze → purple) and tense edema. Wound discharge is often thin, brown, foul-smelling ('dishwater' fluid). **Crepitus** (gas) is felt in the tissue.",
+    "Rapid systemic progression: high fever, **tachycardia** (disproportionately high relative to fever), and hypotension (septic shock). Clostridial toxins can cause hemolysis; advanced cases may develop DIC and multi-organ failure.",
+    "Risk factors: deep penetrating wounds (war injuries, farm accidents, crush injuries) or post-surgical infections (especially after bowel surgery with gut flora contamination). Conditions like diabetes, peripheral vascular disease, or injection drug use predispose to poor wound healing. **Spontaneous** gas gangrene (no trauma) is rare but occurs with *Clostridium septicum* in patients with occult colonic malignancy or neutropenia."
+  ],
+  "problem_solving": [
+    "If a necrotizing infection is suspected (severe pain, crepitus, rapid progression), treat as a **surgical emergency** – call for immediate surgical evaluation (do not wait for labs or imaging).",
+    "Obtain a rapid **Gram stain** of wound exudate: the hallmark is **Gram-positive rods with few or no neutrophils**, confirming clostridial myonecrosis. Send cultures, but do **not** delay therapy waiting for results.",
+    "Imaging (X-ray or CT) can show gas in soft tissues and delineate the spread, but a normal scan does not rule it out. If clinical suspicion is high, proceed to surgery regardless of imaging.",
+    "Start broad-spectrum IV antibiotics promptly. Include high-dose **penicillin G plus clindamycin** to specifically target clostridia and inhibit toxin production (clindamycin is bacteriostatic but shuts down toxin release)."
+  ],
+  "differentials": [
+    {
+      "id": "necrotizing-fasciitis",
+      "hint": "necrotizing infection of fascia (often streptococcal or polymicrobial); similar rapid spread but usually more subcutaneous/skin involvement and typically less gas formation."
+    },
+    {
+      "id": "cellulitis",
+      "hint": "common soft tissue infection (streptococcal or staph); causes redness and swelling of skin but **no gas** or deep muscle necrosis."
+    },
+    {
+      "name": "Clostridial cellulitis",
+      "hint": "gas-producing *Clostridium* infection confined to subcutaneous tissue; causes crepitus but spares muscle (less pain and systemic toxicity than gas gangrene)."
+    }
+  ],
+  "tricks": [
+    "Gram stain clue: **absence of neutrophils** in a wound with lots of bacteria strongly suggests clostridial infection (toxins lyse WBCs).",
+    "*C. perfringens* produces **alpha toxin** (lecithinase), a phospholipase that destroys cell membranes → rapid tissue necrosis and hemolysis (classic double-zone of hemolysis on blood agar).",
+    "Spontaneous gas gangrene (no trauma) = think *C. septicum* and look for hidden **colon cancer** (this organism often infects immunosuppressed or malignancy patients)."
+  ],
+  "exam_appearance": [
+    "Middle-aged patient with a deep puncture wound (e.g., farm injury) who develops sudden extreme wound pain, swelling with **bronze discoloration** and foul brown discharge, plus crepitus on palpation and signs of shock → **Gas gangrene** (clostridial myonecrosis) requiring emergent debridement.",
+    "Immunosuppressed patient (e.g., with colon cancer) with acute limb pain and swelling, crepitus in the muscle, and severe sepsis **without an external wound** → **Spontaneous gas gangrene** due to *C. septicum*."
+  ],
+  "treatment": [
+    "Aggressive **surgical debridement** is the first-line treatment – urgently remove all necrotic muscle (often requiring amputation of the affected limb). Repeat debridements may be needed until the infection is controlled.",
+    "High-dose IV **penicillin G** plus **clindamycin** should be started as soon as gas gangrene is suspected (do not wait for confirmation). Clindamycin is included to inhibit toxin production. Broad-spectrum coverage for other organisms is often added empirically.",
+    "**Hyperbaric oxygen** therapy (100% O₂ at high pressure) is a useful adjunct after surgery and antibiotics, as it kills anaerobes and halts toxin production – it can significantly improve survival if available.",
+    "Provide intensive supportive care: IV fluids and vasopressors for shock, monitor for organ failure (renal failure, DIC), and ensure appropriate **tetanus** prophylaxis for the wound."
+  ],
+  "red_flags": [
+    "Any infected wound with **crepitus** (gas under the skin) and excruciating pain/tachycardia is a red flag for necrotizing infection (gas gangrene or necrotizing fasciitis) – requires immediate surgical attention.",
+    "Unprovoked (spontaneous) myonecrosis in a patient without trauma is extremely concerning for *Clostridium septicum* infection – screen for an underlying colon tumor or immunodeficiency."
+  ],
+  "algorithm": [
+    "Suspicion of gas gangrene (necrotizing infection with gas) → **Immediate surgical consult** (do not delay).",
+    "Begin **IV antibiotics** (broad-spectrum, include **penicillin + clindamycin**) empirically as soon as possible.",
+    "Emergent surgical **exploration & debridement** of the affected area (remove all dead tissue; often amputation is necessary).",
+    "Obtain wound cultures and Gram stain during surgery to confirm *Clostridium* species, but continue aggressive treatment regardless of pending results.",
+    "After initial surgery, consider **hyperbaric oxygen** therapy to improve patient survival, along with ongoing ICU support and repeat debridements as needed."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gas_gangrene_in_amputation_stump_-_Air_seen_in_X_ray1.jpg",
+      "alt": "X-ray of an amputated leg stump showing gas gangrene infection, with dark gas pockets in the soft tissue (highlighted by arrows).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Gas_gangrene_in_amputation_stump_-_Air_seen_in_X_ray1.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old man presents with severe pain and swelling of his left thigh, two days after suffering a deep puncture wound on a farm.",
+      "clues": [
+        "Wound was contaminated with soil/manure",
+        "Thigh is very swollen with purple discoloration and blisters",
+        "Foul‑smelling brown discharge is oozing from the wound",
+        "Gas is felt in the tissues (crepitus on palpation)",
+        "High fever, tachycardia, and hypotension (septic shock)"
+      ],
+      "answer": "Gas gangrene (clostridial myonecrosis)",
+      "teaching": "Clostridial gas gangrene often follows trauma with soil contamination (providing anaerobic *Clostridium* spores). The hallmark is rapid onset of severe pain, edema, **crepitus** from gas in tissue, and toxic appearance (shock). The presence of brown 'dishwater' fluid and Gram-positive rods on smear confirm the diagnosis. Management is emergent surgical debridement (amputation if needed) and IV penicillin + clindamycin."
+    }
+  ],
+  "see_also": [
+    "necrotizing-fasciitis",
+    "tetanus",
+    "erysipelas"
+  ],
+  "prerequisites": [
+    "anaerobic-bacteria",
+    "shock"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Gas Gangrene (Buboltz & Murphy-Lavoie, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537030/"
+    },
+    {
+      "title": "UpToDate: Clostridial myonecrosis (Gas gangrene)",
+      "url": "https://www.uptodate.com/contents/clostridial-myonecrosis"
+    },
+    {
+      "title": "Medscape: Gas Gangrene (Clostridial Myonecrosis) (Ho, 2023)",
+      "url": "https://emedicine.medscape.com/article/217943-overview"
+    },
+    {
+      "title": "Merck Manual Professional: Clostridial Soft-Tissue Infections (2023)",
+      "url": "https://www.merckmanuals.com/professional/infectious-diseases/anaerobic-bacteria/clostridial-soft-tissue-infections"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

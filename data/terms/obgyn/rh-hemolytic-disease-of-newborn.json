@@ -1,0 +1,144 @@
+{
+  "id": "rh-hemolytic-disease-of-newborn",
+  "names": [
+    "Rh hemolytic disease of the newborn"
+  ],
+  "aliases": [
+    "hemolytic disease of the fetus and newborn",
+    "erythroblastosis fetalis",
+    "Rh disease",
+    "Rh incompatibility"
+  ],
+  "abbr": [
+    "HDFN",
+    "HDN"
+  ],
+  "patterns": [
+    "rh hemolytic disease of newborn",
+    "hemolytic disease of newborn",
+    "hemolytic disease of the fetus and newborn",
+    "erythroblastosis fetalis",
+    "rh disease",
+    "rh incompatibility",
+    "HDFN",
+    "HDN"
+  ],
+  "primary_tag": "obgyn",
+  "tags": [
+    "pathology",
+    "obgyn",
+    "peds"
+  ],
+  "definition": "Immune-mediated hemolysis in a fetus or newborn, typically caused by maternal anti-Rh(D) IgG antibodies crossing the placenta (Rh-negative mother with an Rh-positive fetus), leading to fetal anemia, hydrops fetalis, and neonatal jaundice.",
+  "why_it_matters": "Before Rho(D) immune globulin (RhoGAM), this was a leading cause of fetal hydrops and neonatal death (erythroblastosis fetalis). Today it is almost completely preventable, but cases still occur if prophylaxis is missed or unavailable. It's important for exams and real life to ensure Rh-negative mothers receive prophylaxis, as untreated hemolytic disease can cause stillbirth or permanent neurologic injury from kernicterus.",
+  "how_youll_see_it": [
+    "Classically in an Rh-negative mother's second pregnancy with an Rh-positive fetus (after sensitization in the first): fetus may have anemia and high-output heart failure leading to hydrops fetalis (diffuse edema, effusions). Newborns often have jaundice within 24 hours of birth (pathologic jaundice), hepatosplenomegaly, and pallor from hemolytic anemia.",
+    "Labs show a positive direct Coombs test on the neonate's blood, elevated bilirubin, and nucleated RBCs (erythroblasts) on smear. In utero, Doppler ultrasound of the middle cerebral artery may detect fetal anemia (high flow velocity). Prenatal ultrasound can also reveal signs of hydrops (fluid in skin, abdomen, etc.).",
+    "For comparison, ABO incompatibility (type O mother with type A or B baby) is more common than Rh disease but usually causes only mild HDN — newborn may have mild jaundice, and it can even affect a first pregnancy. ABO-induced hemolysis is typically much less severe and rarely causes hydrops."
+  ],
+  "problem_solving": [
+    "Routine prenatal testing: at first visit, test mother's blood for ABO/Rh type and indirect Coombs (antibody screen).",
+    "If mother is Rh-negative and unsensitized (no anti-D antibodies), give prophylactic RhoGAM at 28 weeks and again after delivery (if baby is Rh-positive), as well as after any potential feto-maternal hemorrhage (e.g., trauma, invasive procedures).",
+    "If mother has anti-D antibodies (sensitized), determine the antibody titer. A titer ≥1:16 is a critical threshold — historically, amniocentesis with amniotic fluid bilirubin (ΔOD450) was done, but now fetal anemia is assessed noninvasively via MCA Doppler ultrasound.",
+    "Monitor fetus for anemia: Doppler of the fetal middle cerebral artery (MCA) peak velocity increases with anemia. Serial ultrasounds also help detect developing hydrops.",
+    "After delivery, check the neonate's blood: direct Coombs test (direct antiglobulin test) will be positive if antibodies are attached to RBCs. Also obtain the newborn's hemoglobin/hematocrit and bilirubin levels to guide therapy."
+  ],
+  "differentials": [
+    {
+      "name": "ABO hemolytic disease of newborn",
+      "hint": "Type O mother with A or B baby; usually mild jaundice in first infant, rarely severe anemia"
+    },
+    {
+      "name": "Alpha thalassemia major",
+      "hint": "Hemoglobin Bart's (γ4) causes non-immune hydrops fetalis from severe fetal anemia; Coombs test negative"
+    }
+  ],
+  "tricks": [
+    "IgM vs IgG: IgM antibodies are too large to cross the placenta, but IgG antibodies can cross (think IgG = \"Go across\"). This is why anti-D (IgG) causes HDFN while ABO incompatibility (mostly IgM) is usually mild.",
+    "The term erythroblastosis fetalis refers to the many nucleated erythroblasts (immature RBCs) released into fetal circulation in severe hemolysis.",
+    "RhoGAM (anti-D immune globulin) works by binding and clearing fetal Rh-positive cells before the mother's immune system reacts, thus preventing sensitization."
+  ],
+  "exam_appearance": [
+    "Rh-negative mother with no prenatal RhoGAM, now in her second pregnancy with ultrasound showing a hydropic fetus (skin edema, ascites, polyhydramnios) → Rh hemolytic disease (alloimmune HDFN).",
+    "Neonate born pale and edematous with severe jaundice within hours of birth, hepatosplenomegaly, and a positive direct Coombs test → erythroblastosis fetalis from Rh incompatibility."
+  ],
+  "treatment": [
+    "For the fetus: If severe anemia is detected (fetal hydrops or very low fetal hemoglobin), treatment may include intrauterine transfusion of Rh-negative blood to the fetus and/or early delivery (if near term).",
+    "For the newborn: Start phototherapy (blue light) soon after birth to prevent kernicterus. If bilirubin remains extremely high or rises rapidly, perform an exchange transfusion (replace the infant's blood to remove bilirubin and antibodies). IVIG can also be given to the neonate to reduce antibody-mediated RBC destruction.",
+    "Prevention: Administer Rho(D) immune globulin to all unsensitized Rh-negative mothers at 28 weeks gestation and within 72 hours postpartum if the infant is Rh-positive (and after any sensitizing events). This prophylaxis dramatically reduces the incidence of Rh alloimmunization."
+  ],
+  "red_flags": [
+    "Ultrasound signs of hydrops fetalis (fetal ascites, skin edema, pleural or pericardial effusions) → indicates critical fetal anemia and impending heart failure (urgent intervention needed).",
+    "High bilirubin levels (>20–25 mg/dL) or rapidly rising despite phototherapy in a newborn → risk of kernicterus (brain injury from bilirubin); consider immediate exchange transfusion."
+  ],
+  "algorithm": [
+    "Prenatal screening: All pregnant patients get ABO/Rh blood typing and antibody screen at the first prenatal visit.",
+    "If Rh-negative (and no anti-D antibodies), provide routine prophylaxis with anti-D immune globulin at 28 weeks and again after delivery (if infant is Rh-positive). Also give after any potential mixing of fetal-maternal blood.",
+    "If Rh-negative with positive anti-D titer, monitor antibody levels. At critical titer (e.g. 1:16), begin fetal surveillance with MCA Doppler ultrasounds (for anemia) and serial ultrasounds for hydrops.",
+    "If severe fetal anemia is suspected (high MCA velocity or hydrops), consult a specialist for possible intrauterine transfusion. Plan for early delivery when the fetus is sufficiently mature.",
+    "At birth, be prepared to treat the neonate: send cord blood for Coombs test, bilirubin, and hemoglobin. Start phototherapy promptly for jaundice, and perform exchange transfusion if needed to prevent kernicterus."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/1910_Erythroblastosis_Fetalis.jpg/1120px-1910_Erythroblastosis_Fetalis.jpg",
+      "alt": "Diagram illustrating how an Rh-negative mother can become sensitized in a first pregnancy and then produce anti-D IgG that crosses the placenta in a subsequent pregnancy, causing hemolysis of an Rh-positive fetus's red blood cells.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:1910_Erythroblastosis_Fetalis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old G2P1 woman at 30 weeks gestation is evaluated for fetal ascites and skin edema found on ultrasound.",
+      "clues": [
+        "Mother is Rh-negative (unsensitized in her first pregnancy)",
+        "First baby was Rh-positive; no RhoGAM received",
+        "Ultrasound shows fetal hydrops (ascites, subcutaneous edema)",
+        "Middle cerebral artery Doppler shows high peak velocity (fetal anemia)"
+      ],
+      "answer": "Rh hemolytic disease of the fetus/newborn (erythroblastosis fetalis)",
+      "teaching": "Without prophylaxis, an Rh-negative mother can become alloimmunized by an Rh-positive fetus. In this case, maternal anti-D IgG attacked the second fetus's RBCs, causing severe anemia and hydrops. This Rh hemolytic disease could have been prevented with appropriate RhoGAM administration."
+    },
+    {
+      "stem": "A full-term newborn develops severe jaundice and diffuse body swelling within a day of birth.",
+      "clues": [
+        "Mother is Rh-negative, father Rh-positive",
+        "Older sibling was Rh-positive (mother did not receive RhoGAM)",
+        "Newborn is pale, with generalized edema and difficulty breathing",
+        "Labs: hemoglobin 8 (low), bilirubin 18 mg/dL, direct Coombs test positive"
+      ],
+      "answer": "Hemolytic disease of the newborn due to Rh incompatibility",
+      "teaching": "This neonate's presentation (hydrops fetalis, neonatal jaundice, and a positive direct antiglobulin test) is classic for Rh hemolytic disease. Maternal IgG antibodies crossed the placenta and destroyed fetal RBCs. Urgent intervention (phototherapy, exchange transfusion) is required to prevent kernicterus, and future pregnancies should be managed with Rh immunoprophylaxis."
+    }
+  ],
+  "see_also": [
+    "hydrops-fetalis"
+  ],
+  "prerequisites": [
+    "immunology",
+    "blood-groups"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Hemolytic Disease of the Fetus and Newborn (Hall et al., 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557423/"
+    },
+    {
+      "title": "UpToDate: RhD alloimmunization in pregnancy – Management",
+      "url": "https://www.uptodate.com/contents/rhd-alloimmunization-in-pregnancy-management"
+    },
+    {
+      "title": "ACOG Practice Bulletin No. 181 (2017): Prevention of Rh D Alloimmunization",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2017/08/prevention-of-rh-d-alloimmunization"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

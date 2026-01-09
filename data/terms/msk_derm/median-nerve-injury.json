@@ -1,0 +1,133 @@
+{
+  "id": "median-nerve-injury",
+  "names": [
+    "Median nerve injury"
+  ],
+  "aliases": [
+    "median nerve palsy",
+    "median neuropathy",
+    "median nerve lesion"
+  ],
+  "abbr": [],
+  "patterns": [
+    "median nerve injury",
+    "median nerve palsy",
+    "median neuropathy",
+    "median nerve lesion",
+    "median mononeuropathy"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "neuro",
+    "msk_derm",
+    "surgery"
+  ],
+  "definition": "Injury to the **median nerve** (often at the elbow or wrist) leading to characteristic deficits; patients develop **sensory loss** in the lateral hand (thumb, index, middle, radial half of ring finger) and **motor** impairment of forearm/hand muscles (e.g., thenar muscle paralysis, inability to flex the index/thumb – \"hand of benediction\").",
+  "why_it_matters": "The median nerve controls thumb opposition and forearm flexion, so its injury causes significant functional impairment of the hand. Median nerve entrapment is common (carpal tunnel syndrome affects ~3% of adults) and frequently appears in exams featuring classic signs (thenar atrophy, ape hand, benediction sign) to test knowledge of hand innervation.",
+  "how_youll_see_it": [
+    "**Proximal median nerve lesion** (at or above elbow): Often due to trauma (e.g., supracondylar humerus fracture). Presents with inability to flex the thumb and index finger at the IP joints (giving a \"**hand of benediction**\" on attempted fist), weak forearm pronation, and loss of sensation in the thumb-index-middle fingers.",
+    "**Distal median nerve lesion** (wrist level): Classically from **carpal tunnel syndrome** (transverse ligament compression) or a deep wrist laceration. Forearm flexors are intact, but there is thenar eminence wasting with loss of thumb opposition (\"**ape hand**\" deformity) and numbness in the median nerve distribution of the hand (palmar thumb, index, middle, lateral ring finger).",
+    "In **carpal tunnel syndrome**, patients often have hand paresthesias that wake them at night, relieved by shaking the hand (**flick sign**). Exam shows positive **Tinel's** (tingling with percussion over the wrist) and **Phalen's** (symptoms with wrist flexion) tests. Chronic compression can lead to thenar weakness (difficulty with buttons, weak grip) and visible atrophy."
+  ],
+  "problem_solving": [
+    "Localize the lesion by motor exam: inability to flex the index distal phalanx or **pronate** the forearm suggests a high lesion (median nerve injured above the forearm), whereas isolated thenar muscle weakness with intact forearm function points to a distal lesion at the wrist.",
+    "Use provocative tests for median neuropathy: **Tinel's sign** (tap over carpal tunnel to elicit tingling) and **Phalen's maneuver** (maximal wrist flexion to provoke symptoms) are typically positive in carpal tunnel syndrome. If diagnosis is unclear or surgery is planned, confirm with nerve **conduction studies/EMG** to pinpoint the site and severity.",
+    "Recognize that **sensory** symptoms usually precede motor findings in median nerve compression: patients develop numbness/tingling early, while weakness of the **thenar** muscles (thumb abduction/opposition) and atrophy occur later, indicating advanced injury.",
+    "Check sensation over the **thenar eminence**: in carpal tunnel syndrome, this area is spared (palmar cutaneous branch leaves the median nerve before the tunnel). Numbness in the thenar skin implies a lesion proximal to the wrist (e.g., pronator teres syndrome or cervical radiculopathy)."
+  ],
+  "differentials": [
+    {
+      "id": "ulnar-nerve-injury",
+      "hint": "Numbness of medial 1½ digits (ring + little finger) with **intrinsic hand muscle** weakness; causes an \"ulnar claw\" posture of 4th/5th fingers at rest."
+    },
+    {
+      "name": "Cervical radiculopathy (C6/C7)",
+      "hint": "Neck pain with radicular arm symptoms; e.g., C6 root compression causes thumb/index finger numbness (often with altered reflexes) and a positive **Spurling** test."
+    },
+    {
+      "name": "Pronator teres syndrome",
+      "hint": "Proximal median nerve compression at elbow; causes forearm pain and includes sensory loss over the thenar eminence (unlike carpal tunnel)."
+    }
+  ],
+  "tricks": [
+    "**Hand of benediction vs ulnar claw**: Benediction appears when making a fist (median nerve lesion – inability to flex first two digits), whereas an ulnar claw is seen at rest (ulnar nerve lesion – 4th/5th digit clawing).",
+    "**LOAF muscles**: The median nerve innervates the lateral hand intrinsics (Lumbricals 1–2, **O**pponens pollicis, **A**bductor pollicis brevis, **F**lexor pollicis brevis); loss of these in median palsy explains thenar eminence flattening and inability to flex the index IP joint.",
+    "Carpal tunnel **spares thenar sensation**: the palmar cutaneous branch of the median nerve branches off before the carpal tunnel, so sensation over the thenar eminence remains normal in CTS."
+  ],
+  "exam_appearance": [
+    "Child with a supracondylar humerus fracture who cannot flex the index and middle fingers (\"hand of benediction\" on making a fist) → median nerve injury at the elbow.",
+    "Middle-aged person with nocturnal tingling in the thumb, index, and middle fingers and thenar muscle wasting → carpal tunnel syndrome (median nerve compression at the wrist)."
+  ],
+  "treatment": [
+    "**Conservative management** for compressive neuropathy: for carpal tunnel syndrome, start with wrist **splinting** (especially at night), activity modification, and possibly a local steroid injection. Treat contributing conditions (e.g., hypothyroidism, rheumatoid arthritis).",
+    "**Surgical intervention** if significant or refractory: for carpal tunnel, perform surgical **release** of the transverse carpal ligament if symptoms are severe (thenar weakness/atrophy or >6 months without improvement). For acute trauma (nerve laceration or entrapment in a fracture), prompt surgical repair or decompression of the median nerve is indicated. Postoperatively or in mild cases, physical therapy (nerve gliding exercises) aids functional recovery."
+  ],
+  "red_flags": [
+    "**Progressive thenar atrophy** or weakness (loss of thumb opposition) – indicates ongoing median nerve compression with axonal loss, warranting urgent evaluation (consider surgical decompression).",
+    "**Acute median nerve injury** with trauma (deep cut or fracture) – requires prompt surgical attention (to repair the nerve and prevent permanent deficits or neuroma formation)."
+  ],
+  "algorithm": [
+    "Patient with hand numbness in median nerve distribution or relevant trauma → suspect median nerve injury.",
+    "Perform focused exam: test median nerve motor function (**thumb opposition**, finger flexion) and sensation in thumb/index/middle; use Phalen's and Tinel's tests if carpal tunnel is suspected.",
+    "If high lesion suspected (after elbow injury or with loss of forearm muscle function), immobilize and obtain surgical evaluation (for fracture reduction, nerve repair).",
+    "If signs point to carpal tunnel (typical history with positive tests), begin conservative therapy (night splints, rest, maybe steroid injection); address any reversible causes (e.g., endocrine).",
+    "Reassess frequently – if no improvement or if motor deficits emerge, get electrodiagnostics and proceed to surgical decompression of the nerve."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Median-Nerve.jpg",
+      "alt": "3D illustration showing the median nerve (yellow) passing through the carpal tunnel at the wrist into the hand.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Median-Nerve.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 52‑year‑old woman reports tingling and numbness in her right hand for 6 months.",
+      "clues": [
+        "Numbness affects thumb, index, and middle fingers (palmar side)",
+        "Symptoms worsen at night and improve with shaking the hand",
+        "Positive Tinel and Phalen tests on exam",
+        "Notable thenar eminence atrophy"
+      ],
+      "answer": "Carpal tunnel syndrome (median nerve compression at the wrist)",
+      "teaching": "Classic presentation of median nerve entrapment at the wrist (carpal tunnel). Risk factors like hypothyroidism and obesity increase tissue swelling, contributing to nerve compression. Nocturnal paresthesias with a positive Phalen/Tinel exam confirm the diagnosis, and thenar muscle atrophy indicates a chronic, severe median neuropathy that may require surgical decompression."
+    }
+  ],
+  "see_also": [
+    "ulnar-nerve-injury",
+    "radial-nerve-injury",
+    "klumpke-palsy"
+  ],
+  "prerequisites": [
+    "brachial-plexus"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Median Nerve Injury (Dydyk et al., 2022)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553109/"
+    },
+    {
+      "title": "UpToDate: Carpal tunnel syndrome – Clinical manifestations and diagnosis",
+      "url": "https://www.uptodate.com/contents/carpal-tunnel-syndrome-clinical-manifestations-and-diagnosis"
+    },
+    {
+      "title": "American Family Physician: Carpal Tunnel Syndrome – Diagnosis and Management (Wipperman & Goerl, 2016)",
+      "url": "https://www.aafp.org/pubs/afp/issues/2016/1215/p993.html"
+    },
+    {
+      "title": "AAOS OrthoInfo: Nerve Injuries in the Hand and Fingers",
+      "url": "https://orthoinfo.aaos.org/en/diseases--conditions/nerve-injuries/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

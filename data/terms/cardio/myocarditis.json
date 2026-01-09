@@ -1,0 +1,132 @@
+{
+  "id": "myocarditis",
+  "names": ["Myocarditis"],
+  "aliases": [],
+  "abbr": [],
+  "patterns": ["myocarditis", "myocardial inflammation", "heart muscle inflammation", "inflammatory cardiomyopathy"],
+  "primary_tag": "cardio",
+  "tags": ["pathology", "cardio", "infectious_dz", "peds"],
+  "definition": "Inflammation of the heart muscle (**myocardium**) that injures cardiac myocytes; most often triggered by a viral infection.",
+  "why_it_matters": "Major cause of **sudden cardiac death** in young people and can lead to chronic heart failure (**dilated cardiomyopathy**). It's also a classic \"heart attack mimic\" (chest pain, troponin elevation with clear coronaries) that's frequently tested on exams.",
+  "how_youll_see_it": [
+    "Often in an otherwise healthy young adult a week or two after a viral illness, now with **chest pain**, **dyspnea**, and **palpitations**. Can resemble an MI (e.g., ST changes and ↑troponin) but usually in someone without risk factors; coronary angiography reveals no blockages.",
+    "In infants or children, think **unexplained heart failure**: e.g., an infant with feeding difficulty, sweating, and tachypnea or an older child with fatigue and arrhythmias after a viral infection. **MIS-C** (post–COVID-19 inflammatory syndrome) can also cause severe myocarditis with shock in pediatric patients.",
+    "Common causes: **viral infections** (especially coxsackie B, adenovirus, parvovirus B19, **HHV-6**, influenza, and **SARS-CoV-2**). Also **autoimmune** conditions (lupus, **giant cell myocarditis**, sarcoidosis), **drug/toxin** reactions (e.g., certain chemotherapy drugs, immune checkpoint inhibitors, **clozapine**), and less often **bacterial** (Lyme disease, diphtheria) or **parasitic** (Chagas disease) infections."
+  ],
+  "problem_solving": [
+    "Think myocarditis in a patient (especially young, post-viral) with chest pain or new heart failure and an elevated troponin but no obvious coronary risk factors. Exclude acute MI: older patients or unclear cases may need an angiogram (myocarditis typically has **clean coronaries**).",
+    "**ECG** is often abnormal but non-specific: sinus tachycardia, diffuse **ST elevations** (if pericardium involved) or T-wave inversions, or heart block/arrhythmias – but no specific pattern is definitive.",
+    "**Echocardiogram** usually shows global hypokinesis or focal wall-motion abnormalities with reduced ejection fraction; it can also reveal a **pericardial effusion** if there's accompanying pericarditis.",
+    "**Cardiac MRI** can confirm the diagnosis noninvasively: shows myocardial edema and characteristic **late gadolinium enhancement** in a patchy mid-wall or subepicardial pattern (versus subendocardial in ischemic infarcts).",
+    "**Endomyocardial biopsy** (Dallas criteria: inflammatory infiltrates with myocyte necrosis) is the gold standard, but it's invasive. Reserve biopsy for severe, refractory, or atypical cases – especially if giant cell myocarditis is suspected, as this guides need for immunosuppression."
+  ],
+  "differentials": [
+    {
+      "id": "myocardial-infarction",
+      "hint": "older patient with risk factors; true **MI** from coronary occlusion (focal infarction on angiography) rather than diffuse inflammation"
+    },
+    {
+      "id": "pericarditis",
+      "hint": "pleuritic chest pain with relief on leaning forward; **friction rub** on exam; diffuse ST elevation & PR depression on ECG; usually normal troponin (unless myopericarditis)"
+    },
+    {
+      "id": "takotsubo-cardiomyopathy",
+      "hint": "stress-induced cardiomyopathy (often older women after severe stress); acute apical LV ballooning but no inflammation; coronary arteries are normal"
+    }
+  ],
+  "tricks": [
+    "**Coxsackie B** (think **B** for **Bad heart**) is the classic virus causing myocarditis in exam questions.",
+    "In a young patient with unexplained heart failure or arrhythmia (especially after a flu-like illness), always suspect myocarditis.",
+    "No sports for **3–6 months** after myocarditis—exercise can trigger fatal arrhythmias (a common sports medicine question)."
+  ],
+  "exam_appearance": [
+    "Young adult with a recent URI who develops chest pain, ↑troponin, and ST changes but has normal coronary arteries on angiography → **Myocarditis** (likely viral).",
+    "Infant with a recent viral infection, now in heart failure (difficulty feeding, tachycardia, enlarged heart on X-ray) → **Myocarditis** presenting as acute myocarditis in infancy.",
+    "Child 3 weeks after COVID-19 with fever, rash, hypotension, and reduced EF on echo → **MIS-C** (post–COVID multisystem inflammatory syndrome causing myocarditis)."
+  ],
+  "treatment": [
+    "**Supportive care** is key: treat heart failure with **ACE inhibitors**, beta-blockers (once stable), and diuretics as needed; manage arrhythmias (antiarrhythmics, temporary pacing for heart block, defibrillation for ventricular arrhythmias). Ensure rest (avoid exercise) and monitor closely.",
+    "Address any **underlying cause**: stop offending drugs (e.g., clozapine or chemotherapy if implicated), treat infections (appropriate antimicrobials for Lyme, Chagas, etc.), and if **giant cell myocarditis** or another autoimmune cause is confirmed, initiate high-dose **corticosteroids** (often with other immunosuppressants). **IVIG** is sometimes used in acute myocarditis (especially pediatric or fulminant cases), though its benefit is not firmly proven in viral myocarditis.",
+    "For **fulminant myocarditis** with cardiogenic shock, consider advanced therapies: IV **inotropes**, mechanical support (**IABP**, **ECMO** or ventricular assist device), and evaluate for urgent heart transplant if recovery is not achievable. Many patients recover with time and supportive care, but some may progress to end-stage heart failure requiring transplantation."
+  ],
+  "red_flags": [
+    "**Syncope** or sustained ventricular arrhythmias (VT/VF) in myocarditis signal high risk of sudden cardiac arrest – requires ICU monitoring and readiness for interventions (temporary pacing, defibrillator).",
+    "Rapidly worsening **hemodynamics** (fulminant myocarditis with hypotension) is an emergency – initiate inotropic support and mechanical circulatory support early, and consider transfer for advanced therapies (e.g., transplant evaluation)."
+  ],
+  "algorithm": [
+    "Recent viral illness + new chest pain or heart failure → suspect **myocarditis**.",
+    "Initial workup: order **ECG**, troponin, inflammatory markers, and echocardiogram; if it mimics MI, perform coronary angiography to exclude blockage.",
+    "If myocarditis is likely (e.g., positive troponin, echo dysfunction with clean coronaries) → admit if arrhythmias or low output; for severe cases, manage in ICU with inotropes and support.",
+    "Obtain **cardiac MRI** for diagnostic confirmation (typical inflammation pattern on gadolinium MRI supports myocarditis).",
+    "If patient deteriorates or diagnosis is uncertain → perform **endomyocardial biopsy** to check for specific types (e.g., giant cell) that guide therapy.",
+    "Rest the heart (no strenuous activity for months) and follow up frequently to monitor recovery of cardiac function."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Histopathology_of_myocarditis_with_myocyte_necrosis.jpg",
+      "alt": "Histopathology of lymphocytic myocarditis (H&E stain) showing inflammatory infiltrates with myocyte necrosis.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Histopathology_of_myocarditis_with_myocyte_necrosis.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man presents with acute chest pain and shortness of breath two weeks after an upper respiratory infection.",
+      "clues": [
+        "Recent flu-like illness 2 weeks ago",
+        "Chest pain with elevated troponin",
+        "ECG: diffuse T-wave inversions",
+        "Coronary angiography is normal",
+        "Echocardiogram shows EF 40% (global hypokinesis)"
+      ],
+      "answer": "Acute myocarditis (post-viral)",
+      "teaching": "A viral infection triggered inflammation of the myocardium, causing chest pain and systolic dysfunction. The combination of troponin elevation with normal coronary arteries is key to distinguishing myocarditis from myocardial infarction. Management would be supportive (heart failure therapy, avoiding exertion) and most patients improve over time."
+    },
+    {
+      "stem": "A 10‑year‑old boy who recovered from a COVID-19 infection three weeks ago is brought in with high fever, a diffuse rash, and lethargy.",
+      "clues": [
+        "Recent COVID-19 infection (3 weeks prior)",
+        "Persistent fever and diffuse rash",
+        "Hypotension with signs of shock",
+        "Echocardiogram: severe LV dysfunction (EF 25%)",
+        "Very high inflammatory markers (CRP, ferritin)"
+      ],
+      "answer": "Multisystem Inflammatory Syndrome in Children (MIS-C) myocarditis",
+      "teaching": "SARS-CoV-2 infection precipitated a hyperinflammatory syndrome (MIS-C) leading to severe myocarditis and shock. This scenario requires aggressive supportive care (fluids, vasopressors, ventilation as needed) and immunomodulatory therapy (e.g., IVIG, steroids). It highlights that post-viral immune reactions can cause life-threatening cardiac inflammation."
+    }
+  ],
+  "see_also": [
+    "dilated-cardiomyopathy",
+    "myocardial-infarction",
+    "heart-failure",
+    "infective-endocarditis"
+  ],
+  "prerequisites": [
+    "cardiac-physiology",
+    "immunology"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Acute Myocarditis (Shams & Collier, 2025)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441847/"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of myocarditis in adults",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-myocarditis-in-adults"
+    },
+    {
+      "title": "ACC Consensus on Myocarditis (J Am Coll Cardiol, 2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39665703/"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

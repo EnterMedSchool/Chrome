@@ -1,0 +1,118 @@
+{
+  "id": "alpha-thalassemia-trait",
+  "names": [
+    "Alpha-thalassemia trait"
+  ],
+  "aliases": [
+    "alpha-thalassemia minor",
+    "alpha-thalassemia carrier"
+  ],
+  "abbr": [],
+  "patterns": [
+    "alpha thalassemia trait",
+    "alpha thalassemia minor",
+    "alpha thalassemia carrier"
+  ],
+  "primary_tag": "heme_onc",
+  "tags": [
+    "pathology",
+    "heme_onc",
+    "genetics"
+  ],
+  "definition": "Loss of two of the four α-globin genes (either both on one chromosome **cis** or one on each **trans**). Causes a mild hypochromic, microcytic anemia with no or minimal symptoms.",
+  "why_it_matters": "By itself it causes minimal health issues (often only slight anemia), but **cis deletion** carriers (common in Asians) have significant risk of a child with Hb Bart's hydrops fetalis if the partner is also cis carrier. Often mistaken for iron deficiency; identifying it prevents unnecessary iron therapy.",
+  "how_youll_see_it": [
+    "Mild **microcytosis** (MCV ~70–75) with normal or mildly low hemoglobin (often 11–13 g/dL). Patients are usually asymptomatic. Sometimes detected via newborn screening (transient 5–10% Hb Bart's at birth that disappears later).",
+    "Labs: Iron studies normal. Electrophoresis typically **normal** (no significant changes in HbA2 or HbF). RBC count may be normal or slightly elevated. Blood smear may show slight hypochromia and occasional target cells.",
+    "Often discovered in evaluation of a mild anemia that doesn't respond to iron. More common in individuals of African (trans deletions) or Southeast Asian (cis deletions) descent."
+  ],
+  "problem_solving": [
+    "Differentiate from β-thalassemia trait: in α-thalassemia trait, **HbA2 is normal** (in β-trait, HbA2 is high). Family studies can help (Africans often have trans α-thalassemia, which generally poses less risk to offspring than cis).",
+    "Genetic testing is definitive if needed (DNA analysis for α-globin gene deletions), especially in prenatal context. If a patient is a cis deletion carrier, test the partner to assess hydrops risk.",
+    "No specific therapy required for the mild anemia. Avoid iron unless deficient. Ensure patients (especially those with cis mutations) understand the risk of hydrops fetalis in offspring if partner is also a carrier."
+  ],
+  "differentials": [
+    {
+      "name": "Beta-thalassemia minor",
+      "hint": "also mild microcytic anemia but with ↑HbA2 on electrophoresis"
+    },
+    {
+      "name": "Iron deficiency (mild)",
+      "hint": "distinguished by low ferritin or response to iron trial"
+    },
+    {
+      "name": "Lead poisoning",
+      "hint": "microcytosis with basophilic stippling; usually has exposure history"
+    }
+  ],
+  "tricks": [
+    "In **African** populations, α-thalassemia trait is often trans (α-/α-), which doesn't cause hydrops in offspring (child would just have trait). In **Southeast Asians**, trait is often cis (–/αα), so two cis carriers can have a hydrops baby.",
+    "If microcytosis is present but electrophoresis is normal, think α-thalassemia trait (especially if iron is normal).",
+    "On newborn screening, 5–15% **Hb Bart's** can be seen in α-thalassemia trait, but disappears after infancy as beta chains take over."
+  ],
+  "exam_appearance": [
+    "An otherwise healthy 30-year-old African-American man has a mild microcytic anemia (Hb 12) with normal iron and normal electrophoresis → **α-thalassemia trait (trans)**.",
+    "A pregnant Southeast Asian woman is found to have microcytic anemia with normal iron and normal electrophoresis; her husband has the same → **α-thalassemia trait (likely cis)** in both, high risk of Hb Bart's hydrops fetalis."
+  ],
+  "treatment": [
+    "No treatment needed for anemia itself (it's very mild). Advise **folate-rich diet** or supplementation if any hemolysis (though significant hemolysis is not typical in trait).",
+    "Avoid unnecessary iron supplements (can cause overload). Monitor during pregnancy as anemia may slightly worsen; treat with transfusion only if absolutely needed (rare).",
+    "Key management is **genetic counseling**: if both parents have α-thalassemia trait (especially cis type), offer prenatal diagnosis (CVS or amniocentesis) to detect hydrops fetalis early."
+  ],
+  "red_flags": [
+    "Two potential cis-carrier parents (Southeast Asian descent) planning children — urgent need for genetic counseling and prenatal testing to prevent unrecognized hydrops fetalis.",
+    "If a patient with trait shows unexpectedly severe anemia or hemolysis, look for an additional problem (e.g., coexistent iron deficiency or G6PD deficiency) — trait alone shouldn't cause severe anemia."
+  ],
+  "algorithm": [
+    "Microcytosis + normal iron + normal electrophoresis → suspect α-thalassemia trait.",
+    "If confirmation needed (e.g., for prenatal planning), do DNA analysis for α-globin gene deletions.",
+    "Identify if deletion is cis or trans (family/ethnic background helps): if cis, test partner. If both cis → offer invasive prenatal testing for each pregnancy.",
+    "Otherwise, routine care; monitor CBC periodically. Ensure appropriate counseling and avoid unwarranted iron therapy."
+  ],
+  "images": [],
+  "cases": [
+    {
+      "stem": "A 32-year-old woman from Vietnam has a long-standing mild anemia (Hb ~11) with MCV 74. She is not iron deficient. Hemoglobin electrophoresis is normal.",
+      "clues": [
+        "Microcytosis with normal ferritin",
+        "Electrophoresis normal",
+        "Her father also \"always had low blood count\"",
+        "Southeast Asian origin"
+      ],
+      "answer": "Alpha-thalassemia trait (likely cis deletion)",
+      "teaching": "This picture fits α-thalassemia trait. Normal HbA2 distinguishes it from β-thalassemia trait. Her Southeast Asian background suggests a cis deletion, so her children could be at risk for more severe α-thalassemia if her partner is also a carrier."
+    }
+  ],
+  "see_also": [
+    "thalassemia-syndromes",
+    "hemoglobin-h-disease",
+    "beta-thalassemia-minor",
+    "beta-thalassemia-major",
+    "sickle-cell-anemia"
+  ],
+  "prerequisites": [
+    "hemoglobin"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Alpha Thalassemia (Harewood & Azevedo, 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK441826/"
+    },
+    {
+      "title": "PedsCases: Hemoglobinopathies (2021)",
+      "url": "https://www.pedscases.com/hemoglobinopathies-overview"
+    },
+    {
+      "title": "UpToDate: Alpha thalassemia traits and HbH disease",
+      "url": "https://www.uptodate.com/contents/alpha-thalassemia-minor-and-hemoglobin-h-disease"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "chronic-cholecystitis",
+  "names": [
+    "Chronic cholecystitis"
+  ],
+  "aliases": [
+    "chronic calculous cholecystitis",
+    "chronic gallbladder inflammation",
+    "porcelain gallbladder",
+    "calcified gallbladder"
+  ],
+  "abbr": [],
+  "patterns": [
+    "chronic cholecystitis",
+    "chronic calculous cholecystitis",
+    "chronic gallbladder inflammation",
+    "porcelain gallbladder",
+    "calcified gallbladder",
+    "calcifying cholecystitis"
+  ],
+  "primary_tag": "gi",
+  "tags": [
+    "pathology",
+    "gi",
+    "surgery",
+    "radiology"
+  ],
+  "definition": "Long-standing inflammation of the gallbladder, nearly always due to **gallstones** causing repeated minor obstructions or past acute cholecystitis episodes. Results in a thickened, fibrotic gallbladder that empties poorly (calcified **'porcelain' gallbladder** in extreme cases).",
+  "why_it_matters": "Gallstone disease is very common (~10–20% prevalence), making chronic cholecystitis a frequent cause of recurrent abdominal pain and one of the most common indications for surgery (≈500,000 cholecystectomies per year in the US). Understanding it helps prevent rare but serious complications (e.g., gallstone pancreatitis, gallstone ileus, gallbladder carcinoma).",
+  "how_youll_see_it": [
+    "Classic patient is a middle-aged overweight woman (the **4 F's**: **Female, Fat, Fertile, Forty**) with gallstones who experiences episodic **biliary colic**: dull right upper quadrant pain after fatty meals, often radiating to the right scapula, accompanied by nausea and bloating. Attacks usually resolve on their own, and between episodes the patient feels well. Unlike acute cholecystitis, chronic flare-ups cause no fever and typically have a negative Murphy sign (no exquisite tenderness).",
+    "Some cases are **asymptomatic** and discovered incidentally. For example, a calcified **porcelain gallbladder** (from chronic inflammation) may be found on imaging even if the patient has no pain. Many people with gallstones never develop symptoms, but chronic cholecystitis changes can still occur over time.",
+    "Most chronic cholecystitis is **calculous** (with stones), but a rare **acalculous** form exists. Acalculous chronic cholecystitis can occur with gallbladder dysmotility or biliary sludge (e.g., in diabetics with neuropathy or after rapid weight loss). These patients have similar symptoms but no stones on imaging."
+  ],
+  "problem_solving": [
+    "Initial evaluation: Suspect chronic cholecystitis in patients with recurring postprandial RUQ pain and gallstone risk factors. Perform a right upper quadrant **ultrasound** to confirm **cholelithiasis** and check for gallbladder wall thickening or contraction.",
+    "Differentiate from acute disease: Absence of high fever, significant leukocytosis, or pericholecystic fluid on imaging makes chronic cholecystitis more likely than acute cholecystitis. If the patient has jaundice or cholestatic liver enzyme spikes, evaluate for a possible common bile duct stone (**choledocholithiasis**).",
+    "Further tests: If gallstones are not seen but suspicion remains high, a **HIDA scan** with CCK can assess gallbladder emptying (low ejection fraction <35% suggests chronic gallbladder dysfunction). Always rule out other causes of epigastric pain (obtain EKG and labs to exclude myocardial infarction or pancreatitis as needed).",
+    "Plan management: Arrange elective **laparoscopic cholecystectomy** for symptomatic patients. If the patient is a poor surgical candidate and symptoms are mild, advise a low-fat diet to minimize biliary colic episodes and consider medical dissolution therapy (e.g., ursodeoxycholic acid) for cholesterol stones. Monitor asymptomatic patients with known gallstones or chronic changes, but if imaging shows worrisome features (like a mass or porcelain gallbladder), refer to surgery."
+  ],
+  "differentials": [
+    {
+      "name": "Acute cholecystitis",
+      "hint": "sudden, intense RUQ pain lasting >6 hours, with fever, nausea/vomiting, and positive Murphy sign (ill-appearing patient)"
+    },
+    {
+      "name": "Peptic ulcer disease",
+      "hint": "epigastric gnawing pain, may improve or worsen with meals; look for alarm features like weight loss, anemia, melena"
+    },
+    {
+      "name": "Gallbladder carcinoma",
+      "hint": "usually in elderly with vague chronic RUQ pain plus weight loss or a palpable RUQ mass; often associated with gallstones"
+    }
+  ],
+  "tricks": [
+    "Mnemonic for gallstones: **4 F's** – Female, Fat (obese), Fertile (pregnant or multiparous), and Forty (age ~40s).",
+    "Gallbladder pain often **refers to the right shoulder** (scapula) due to diaphragmatic irritation (phrenic nerve, C3–C5).",
+    "**Rokitansky–Aschoff sinuses** (mucosal diverticula in the gallbladder wall) are a histologic hallmark of chronic cholecystitis."
+  ],
+  "exam_appearance": [
+    "45‑year‑old woman with episodic RUQ pain after fatty meals, radiating to the right scapula, normal vital signs and normal labs between episodes → chronic cholecystitis (symptomatic cholelithiasis).",
+    "CT scan incidentally shows a calcified gallbladder wall in a 70‑year‑old with gallstones but minimal symptoms → **porcelain gallbladder** due to chronic cholecystitis (elective cholecystectomy is recommended to prevent carcinoma).",
+    "Elderly patient with signs of small bowel obstruction (vomiting, abdominal distension) and air in the biliary tree on abdominal X-ray → **gallstone ileus** (chronic gallstone erodes into gut, forming a cholecystoenteric fistula)."
+  ],
+  "treatment": [
+    "Definitive treatment is **cholecystectomy** (preferably laparoscopic) to remove the gallbladder. This is indicated for virtually all patients with symptomatic chronic cholecystitis, as it cures the pain and prevents future acute attacks or complications.",
+    "If surgery must be delayed or is contraindicated, manage conservatively: a low-fat diet to reduce gallbladder stimulation and analgesics as needed. For cholesterol stones, oral bile acid therapy with **ursodeoxycholic acid (UDCA)** can gradually dissolve stones, but treatment takes many months and stones often recur.",
+    "Asymptomatic gallstones alone usually do not require intervention, but a **porcelain gallbladder** is an exception. Because of its association with gallbladder cancer (albeit only ~6% risk), many experts advise prophylactic cholecystectomy when a calcified gallbladder is discovered."
+  ],
+  "red_flags": [
+    "Calcified **porcelain gallbladder** on imaging – indicates chronic cholecystitis with a brittle, calcified wall and is a red flag due to potential malignancy risk. This finding should prompt surgical evaluation even if the patient is asymptomatic.",
+    "**Xanthogranulomatous cholecystitis** – a rare, severe variant of chronic cholecystitis involving extensive fibrosis and inflammation (often forming mass-like lesions). It can mimic gallbladder cancer and is considered premalignant, often requiring difficult surgery."
+  ],
+  "algorithm": [
+    "Recurrent RUQ pain in an at-risk patient (4 F's) → suspect chronic cholecystitis.",
+    "Order RUQ **ultrasound**: if gallstones are present and no acute findings, diagnose chronic cholecystitis and plan outpatient surgical referral.",
+    "If ultrasound is negative but suspicion remains, consider HIDA scan (low gallbladder ejection fraction suggests acalculous chronic cholecystitis).",
+    "Manage conservatively (dietary modifications, observation) until surgery if not urgent. Educate the patient to avoid heavy fatty meals and to seek care if pain becomes prolonged or fever develops.",
+    "If any episode becomes severe (high fever, persistent pain >6 hours, jaundice), re-evaluate for acute cholecystitis or cholangitis and treat emergently."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Chronic_Gallbladder_Inflammation.jpg",
+      "alt": "Microscopic histology of chronic cholecystitis (chronic inflammatory cell infiltrate in the gallbladder wall).",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Chronic_Gallbladder_Inflammation.jpg"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 45‑year‑old obese woman presents with intermittent abdominal pain for the past few months.",
+      "clues": [
+        "Episodes of colicky right upper quadrant pain especially after large, fatty meals",
+        "Pain radiates to the right shoulder blade and resolves within an hour",
+        "No fever or abnormal labs between episodes",
+        "Ultrasound shows multiple gallstones and a thickened gallbladder wall"
+      ],
+      "answer": "Chronic cholecystitis (gallstone-related)",
+      "teaching": "Recurrent postprandial RUQ pain in an obese, middle-aged female with gallstones is classic for chronic cholecystitis (symptomatic gallstone disease). The lack of fever or leukocytosis helps distinguish it from acute cholecystitis. Elective cholecystectomy would alleviate her symptoms and prevent complications."
+    },
+    {
+      "stem": "A 68‑year‑old woman undergoes an abdominal CT scan for nonspecific abdominal discomfort, which reveals a calcified gallbladder.",
+      "clues": [
+        "Gallbladder wall is densely calcified on imaging",
+        "History of gallstones for many years, but currently minimal symptoms",
+        "No significant weight loss or systemic signs",
+        "Calcified 'porcelain' gallbladder is noted in the radiology report"
+      ],
+      "answer": "Porcelain gallbladder (chronic cholecystitis with wall calcification)",
+      "teaching": "Porcelain gallbladder refers to a calcified, fibrotic gallbladder from chronic inflammation. While often asymptomatic, it carries a risk of gallbladder carcinoma. In an older patient with this finding, prophylactic cholecystectomy is advised to eliminate the cancer risk."
+    }
+  ],
+  "see_also": [
+    "acute-cholecystitis",
+    "gallstones",
+    "choledocholithiasis",
+    "charcot-triad",
+    "acute-pancreatitis"
+  ],
+  "prerequisites": [
+    "biliary-anatomy",
+    "bile-physiology",
+    "gallstone-pathogenesis"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: Chronic Cholecystitis (Jones et al., 2023)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470236/"
+    },
+    {
+      "title": "UpToDate: Approach to the management of gallstones (2023)",
+      "url": "https://www.uptodate.com/contents/approach-to-the-management-of-gallstones"
+    },
+    {
+      "title": "Harrison's Manual of Medicine, 20th ed. (2020): Chronic Cholecystitis",
+      "url": "https://harrisons.unboundmedicine.com/harrisons/view/Harrisons-Manual-of-Medicine/623695/all/CHRONIC_CHOLECYSTITIS"
+    },
+    {
+      "title": "Sabiston Textbook of Surgery, 22nd ed. (2022): Gallbladder and Biliary Tract Disease",
+      "url": "https://www.elsevier.com/books/sabiston-textbook-of-surgery/9780323640626"
+    },
+    {
+      "title": "Merck Manual Professional: Chronic Cholecystitis (Nguyen & Saiman, 2025)",
+      "url": "https://www.merckmanuals.com/professional/hepatic-and-biliary-disorders/gallbladder-and-bile-duct-disorders/chronic-cholecystitis"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

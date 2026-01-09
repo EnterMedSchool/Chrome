@@ -1,0 +1,136 @@
+{
+  "id": "pagets-disease",
+  "names": [
+    "Paget's disease"
+  ],
+  "aliases": [
+    "Paget disease of bone",
+    "osteitis deformans",
+    "Paget's disease of the breast",
+    "mammary Paget's"
+  ],
+  "abbr": [],
+  "patterns": [
+    "paget",
+    "paget disease",
+    "paget's disease",
+    "osteitis deformans",
+    "paget's disease of bone",
+    "paget's disease of the breast",
+    "mammary paget"
+  ],
+  "primary_tag": "msk_derm",
+  "tags": [
+    "pathology",
+    "msk_derm",
+    "repro"
+  ],
+  "definition": "Two distinct disorders: one is a focal bone remodeling disease (excessive osteoclast and chaotic osteoblast activity) leading to structurally weak, deformed bone; the other is an eczematous, ulcerative lesion of the nipple caused by malignant cells (Paget cells) infiltrating the epidermis, usually from an underlying breast carcinoma.",
+  "why_it_matters": "As older adults can develop Paget's disease of bone (~1–3% > age 55), it's a notable cause of bone pain, deformity, and fracture, with rare (<1%) sarcomatous transformation. Paget's of the breast is rare (1–4% of breast cancers) but crucial to catch, as it almost always signifies underlying DCIS or invasive cancer that needs prompt treatment.",
+  "how_youll_see_it": [
+    "**Paget disease of bone**: Usually affects older adults (>50). Many cases are asymptomatic, found via **high alkaline phosphatase** on labs or incidentally on X-ray. Symptomatic patients have **deep, aching bone pain** (often pelvis, spine, skull, or long bones), **bony deformities** (e.g. enlarged skull, bowed legs), and pathologic **fractures**. Skull involvement may lead to **hearing loss** (due to nerve compression).",
+    "**Paget disease of breast**: Typically presents in middle-aged or older women with a **unilateral nipple and areolar rash** that is red, scaly, and may bleed or ooze. Patients often report **burning, itching, or pain** in the area. The nipple can become **flattened or retracted**. Crucially, the skin changes don't improve with topical treatments (unlike eczema)."
+  ],
+  "problem_solving": [
+    "For an older patient with suspected Paget's (e.g. elevated ALP or localized bone pain/deformity), get targeted **X-rays** of the suspicious areas. X-ray findings (mixed lytic and sclerotic lesions, cortical thickening) confirm the diagnosis; a **bone scan** can map the full extent of metabolically active disease.",
+    "Check **serum alkaline phosphatase** (often markedly elevated) with normal calcium and phosphate; this reflects high bone turnover. If Paget's is strongly suspected and ALP is normal, consider bone-specific ALP or other turnover markers. Biopsy is usually not needed unless a complication (like sarcoma) is suspected.",
+    "For any persistent **nipple eczema or ulcer** (especially unilateral), insist on a **skin biopsy** of the nipple lesion. Histology will show large Paget cells (malignant intraepidermal glandular cells), confirming the diagnosis. This should prompt evaluation of the breast tissue with **imaging** (mammography ± MRI) to look for underlying DCIS or an invasive tumor."
+  ],
+  "differentials": [
+    {
+      "name": "Metastatic bone lesions",
+      "hint": "e.g. prostate cancer spread causing bone pain and sclerotic lesions; usually a known primary tumor and often multiple sites"
+    },
+    {
+      "name": "Multiple myeloma",
+      "hint": "elderly patient with bone pain and lytic lesions; distinguished by anemia, renal issues, high globulins (ALP typically normal)"
+    },
+    {
+      "name": "Nipple eczema (dermatitis)",
+      "hint": "benign skin condition that can mimic Paget's nipple changes but usually improves with topical therapy and lacks an underlying malignancy"
+    }
+  ],
+  "tricks": [
+    "Paget's bone = **high ALP, normal Ca** in an older patient with bone pain (classic lab clue — unlike bone metastases or hyperparathyroidism). Also remember an increasing hat size or new hearing loss in an elderly patient can be a tip-off for Paget's disease of bone.",
+    "Paget's breast = **nipple rash that won't heal**. Any unilateral \"ecema\" of the nipple that doesn't respond to treatment should raise concern for Paget's disease (underlying cancer)."
+  ],
+  "exam_appearance": [
+    "Elderly man with long-standing **hat no longer fits** (skull enlargement), **hearing loss**, bone pain, and isolated very high alkaline phosphatase → Paget disease of bone. X-ray may show thickened, disorganized bone with mixed lytic/sclerotic areas (e.g. **\"cotton wool\"** skull spots).",
+    "Postmenopausal woman with a **unilateral itchy, scaly nipple lesion** that persists for months despite creams → Paget disease of the breast. This usually signifies an underlying **ductal carcinoma in situ (DCIS)** or invasive breast cancer, even if no breast mass is felt."
+  ],
+  "treatment": [
+    "Paget's disease of bone: **Bisphosphonates** (e.g. IV zoledronate) are first-line to slow bone turnover and relieve symptoms. Ensure adequate calcium/Vit D to prevent hypocalcemia. Second-line: **Calcitonin** (if bisphosphonates are contraindicated) can help reduce pain. Use NSAIDs/analgesics for pain. Orthopedic surgery is reserved for complications (e.g. fracture fixation, joint replacement for severe arthritis, or decompression for spinal stenosis).",
+    "Paget's disease of the breast: the mainstay is **surgical** treatment of the underlying cancer. Depending on extent, either **mastectomy** (complete breast removal) or breast-conserving surgery (removal of nipple-areola and tumor, with post-op **radiation**) is performed. If invasive cancer is present, manage as breast cancer: check lymph nodes and add appropriate adjuvant therapy (**radiation** for DCIS; **chemotherapy and/or hormonal therapy** if invasive, based on tumor markers and stage)."
+  ],
+  "red_flags": [
+    "Paget's bone: **Sudden new severe pain** or a soft tissue mass at a known pagetic site → suspect **osteosarcoma** (malignant transformation, <1% cases). Also watch for **spinal cord compression** signs (weakness, sensory loss, incontinence) in spinal Paget's, which require urgent decompression.",
+    "Paget's breast: **Persistent unilateral nipple lesion** is itself a red flag — biopsy it to exclude Paget's (and underlying cancer). Remember, **>80% of mammary Paget cases have an underlying DCIS or invasive carcinoma**, so missing this diagnosis delays essential cancer treatment."
+  ],
+  "algorithm": [
+    "Paget bone: Older patient with bone pain or high ALP → **X-ray** the suspicious region (looking for Paget changes).",
+    "If X-ray confirms Paget's → get **bone scan** to determine disease extent; check baseline ALP level.",
+    "Treat active/symptomatic disease with **bisphosphonate** (e.g. single IV zoledronate); monitor ALP for response.",
+    "Paget breast: Patient with chronic nipple eczema → **biopsy** the lesion to confirm Paget's (Paget cells on pathology).",
+    "If Paget's is confirmed → perform **breast imaging** (mammogram ± MRI) to detect underlying tumor; evaluate lymph nodes if invasive cancer is found.",
+    "Treat with appropriate **surgery** (mastectomy or central lumpectomy) + **adjuvant therapy** as needed (radiation for DCIS; add chemo/endocrine therapy if invasive)."
+  ],
+  "images": [],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old man is evaluated for increasing hat size and hearing difficulty.",
+      "clues": [
+        "Thickened, enlarged skull on exam",
+        "Bone pain in hip and knee",
+        "X-ray: mixed lytic–sclerotic lesions in skull and femur",
+        "Alkaline phosphatase is markedly elevated; calcium and phosphate are normal"
+      ],
+      "answer": "Paget's disease of bone",
+      "teaching": "This is classic Paget disease of bone: an older man with skull enlargement (requiring larger hats) and hearing loss from cranial bone overgrowth. The combination of very high alkaline phosphatase with normal calcium, plus X-ray showing disorganized bone remodeling, confirms the diagnosis. Treatment with bisphosphonates would help control his disease and reduce fracture risk."
+    },
+    {
+      "stem": "A 55‑year‑old woman has had a persistent rash on her left nipple for 3 months.",
+      "clues": [
+        "Erythematous, scaly lesion on nipple and areola; intermittently bleeds",
+        "Burning and itching in the area",
+        "No improvement with moisturizers or steroid creams",
+        "Mammogram shows microcalcifications behind the nipple"
+      ],
+      "answer": "Paget's disease of the breast (with underlying DCIS)",
+      "teaching": "Mammary Paget's disease typically appears as an eczematous nipple rash that does not resolve with topical treatments. In this case, the mammographic microcalcifications suggest an underlying ductal carcinoma in situ. Paget's disease indicates malignant cells in the epidermis of the nipple, so the next steps would be a biopsy to confirm the diagnosis and surgical management of the underlying breast cancer (removal of the nipple-area and cancerous tissue, plus appropriate adjunct therapy)."
+    }
+  ],
+  "see_also": [
+    "osteitis-deformans",
+    "squamous-cell-carcinoma"
+  ],
+  "prerequisites": [
+    "bone-histology",
+    "breast-anatomy"
+  ],
+  "sources": [
+    {
+      "title": "MSD Manual: Paget disease of bone (Charles & Mandell, 2025)",
+      "url": "https://www.msdmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/paget-disease-of-bone/paget-disease-of-bone"
+    },
+    {
+      "title": "NHS: Paget's disease of the nipple (last reviewed Apr 2023)",
+      "url": "https://www.nhs.uk/conditions/pagets-disease-nipple/"
+    },
+    {
+      "title": "American Cancer Society: Paget disease of the breast (ACS Medical Content Team)",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/about/types-of-breast-cancer/paget-disease-of-the-nipple.html"
+    },
+    {
+      "title": "UpToDate: Clinical manifestations and diagnosis of Paget disease of bone (Charles, 2025)",
+      "url": "https://www.uptodate.com/contents/clinical-manifestations-and-diagnosis-of-paget-disease-of-bone"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

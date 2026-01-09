@@ -1,0 +1,111 @@
+{
+  "id": "vasculitis",
+  "names": ["Vasculitis"],
+  "aliases": ["vasculitides", "systemic vasculitis", "angiitis"],
+  "abbr": [],
+  "patterns": ["vasculitis", "vasculitides", "systemic vasculitis", "anca vasculitis", "angiitis"],
+  "primary_tag": "pathology",
+  "tags": ["pathology", "rheum", "immunology", "infectious_dz"],
+  "definition": "Inflammation of blood vessel walls leading to vessel wall damage, thickening, **narrowing/occlusion**, and reduced blood flow (**ischemia**).",
+  "why_it_matters": "Can cause severe **organ damage** (renal failure, blindness, stroke) or death if untreated. Early recognition and immunosuppressive therapy can prevent irreversible complications (e.g., blindness in giant cell arteritis). Vasculitides also appear on exams as classic multisystem cases requiring integration of systemic symptoms, lab clues (like **ANCA**), and organ involvement.",
+  "how_youll_see_it": [
+    "Often presents with **constitutional** symptoms (fever, fatigue, weight loss) plus signs of **multisystem** involvement. Clues like **palpable purpura**, unexplained ischemic events (digital gangrene), or pulmonary-renal syndrome should raise suspicion for vasculitis.",
+    "**Large-vessel** vasculitis: e.g., **Giant cell (temporal) arteritis** in adults >50 with new headaches, scalp tenderness, jaw claudication, vision changes; very high ESR. **Takayasu arteritis** in young (<40) women causing arm claudication, absent pulses, and BP differences between arms.",
+    "**Medium-vessel** vasculitis: e.g., **Polyarteritis nodosa (PAN)** – systemic necrotizing vasculitis (often hepatitis B–associated) causing varied findings: skin nodules, livedo reticularis, hypertension (renal artery), abdominal pain (mesenteric ischemia), neuropathy; classically **spares the lungs**. **Kawasaki disease** – pediatric vasculitis with ≥5 days fever, conjunctivitis, mucous membrane inflammation (\"strawberry tongue\"), rash, hand-foot edema/desquamation, lymphadenopathy; risk of coronary aneurysms. **Buerger disease** (thromboangiitis obliterans) – smokers with medium/small artery thrombosis causing limb ischemia (digital ulcers, gangrene).",
+    "**Small-vessel** vasculitis: often causes **palpable purpura**, glomerulonephritis (hematuria), and/or alveolar hemorrhage (hemoptysis). **ANCA-associated** examples: **Granulomatosis with polyangiitis (GPA, Wegener)** – upper airway (chronic sinusitis, otitis, nasal ulcer), lungs (nodules → hemoptysis), kidneys (RPGN); usually **c-ANCA** (PR3) positive. **Microscopic polyangiitis (MPA)** – similar lung & kidney involvement but no granulomas or nasopharyngeal disease; typically **p-ANCA** (MPO) positive. **Eosinophilic GPA (Churg–Strauss)** – adult-onset asthma, allergic rhinitis, **eosinophilia**, pulmonary infiltrates; ~40% p-ANCA positive.",
+    "**Immune-complex** small-vessel vasculitis: **IgA vasculitis** (Henoch–Schönlein purpura) – usually children post-URI with palpable purpuric rash on buttocks/legs, arthritis, crampy abdominal pain (possible intussusception), and IgA nephropathy (hematuria). **Cryoglobulinemic vasculitis** – often in hepatitis C; causes purpura, arthralgias, peripheral neuropathy, and MPGN (immune complexes with low complement levels)."
+  ],
+  "problem_solving": [
+    "Always **rule out** other causes first: e.g., infection (endocarditis, sepsis) or malignancy can mimic vasculitis. Also evaluate for secondary vasculitis (autoimmune disease, drugs).",
+    "Check **inflammatory markers** – most systemic vasculitides have markedly ↑**ESR** and ↑**CRP**. Obtain relevant serologies: **ANCA** panel for small-vessel (c-ANCA vs p-ANCA); test for HBV (PAN) and HCV (cryoglobulinemic vasculitis).",
+    "**Biopsy** affected tissue whenever possible for definitive diagnosis (e.g., temporal artery biopsy in GCA, kidney/lung biopsy in ANCA vasculitis, skin biopsy in leukocytoclastic vasculitis).",
+    "Use **imaging** for large/medium-vessel disease: e.g., angiography (CTA/MRA) can show multiple small aneurysms in mesenteric arteries (PAN) or arterial stenoses/occlusions in Takayasu. Temporal artery ultrasound (\"halo\" sign) can aid GCA diagnosis.",
+    "If **giant cell arteritis** is suspected, start high-dose corticosteroids **immediately** (do not wait for biopsy) to prevent vision loss."
+  ],
+  "differentials": [
+    { "id": "infective-endocarditis", "hint": "fever, murmur, positive blood cultures; immune complex glomerulonephritis & Osler nodes mimic vasculitis" },
+    { "id": "goodpasture-syndrome", "hint": "pulmonary-renal syndrome (hemoptysis + RPGN) but with linear anti-GBM deposits (no systemic vasculitis elsewhere)" },
+    { "name": "Paraneoplastic vasculitis", "hint": "underlying malignancy (especially hematologic) can trigger vasculitic syndromes in older patients" },
+    { "name": "Drug-induced vasculitis", "hint": "meds (e.g., hydralazine, PTU) can cause ANCA or immune-complex vasculitis; history of offending drug and improvement after stopping it" }
+  ],
+  "tricks": [
+    "Mnemonic: **Wegener = WeCener** – Granulomatosis with Polyangiitis (Wegener) is **c-ANCA** (think of adding a \"C\").",
+    "**P-ANCA** is associated with **P**olyangiitis (microscopic) and **p**ulmonary problems in EGPA (Churg–Strauss) – both typically anti-MPO.",
+    "**PAN spares Pulmonary**: Polyarteritis nodosa usually involves multiple organs but **spares the lungs** (no pulmonary vasculitis).",
+    "**Age matters**: Giant cell arteritis patients are typically >50, whereas Takayasu arteritis patients are <40."
+  ],
+  "exam_appearance": [
+    "Older woman with new unilateral headache, jaw claudication, high ESR, and transient vision loss **→** **Giant cell (temporal) arteritis**.",
+    "Middle-aged man with chronic sinusitis/otitis, perforated nasal septum, hemoptysis, hematuria (RPGN), and c-ANCA positivity **→** **Granulomatosis with polyangiitis** (Wegener).",
+    "Child post-URI with palpable purpura on buttocks, abdominal pain, arthralgia, and hematuria **→** **IgA vasculitis** (Henoch–Schönlein purpura)."
+  ],
+  "treatment": [
+    "**Corticosteroids** are the cornerstone for most vasculitides – high-dose prednisone (or IV methylprednisolone) to rapidly reduce inflammation. Start immediately if critical organ involvement (e.g., vision symptoms in GCA).",
+    "For severe cases, add **immunosuppressants**: e.g., **cyclophosphamide** or **rituximab** for ANCA-associated vasculitis induction (with transition to azathioprine or methotrexate for maintenance); **IVIG** (plus high-dose aspirin) for Kawasaki disease. Address any underlying trigger (treat HBV/HCV, malignancy, discontinue causative drug).",
+    "Newer therapies & adjuncts: **Tocilizumab** (IL-6 inhibitor) for refractory GCA; **plasmapheresis** in life-threatening cases (e.g., diffuse alveolar hemorrhage or concurrent anti-GBM disease); **Avacopan** (C5a receptor inhibitor) can be used in ANCA vasculitis to reduce steroid requirement."
+  ],
+  "red_flags": [
+    "**Vision changes** (amaurosis fugax, blurred vision) in suspected temporal arteritis – emergency: start high-dose steroids immediately to prevent permanent **blindness**.",
+    "**Hemoptysis + rapidly progressive GN** (pulm-renal syndrome) – suggests life-threatening capillaritis (e.g., GPA or Goodpasture); requires aggressive therapy (immunosuppression ± plasmapheresis).",
+    "**Acute mesenteric ischemia** (severe abdominal pain, GI bleeding) in vasculitis (e.g., PAN) – indicates intestinal infarction risk (surgical emergency)."
+  ],
+  "algorithm": [
+    "Unexplained systemic inflammation (fever, weight loss, high ESR) + multi-organ findings (renal, skin, neuro, etc) **→** suspect vasculitis.",
+    "Initial evaluation: labs (CBC, metabolic panel), **ESR/CRP**, and exclude mimics (blood cultures for infection, ANA for lupus, etc). If small-vessel signs, check **ANCA**; consider HBV/HCV testing.",
+    "**Biopsy** an affected organ for confirmation when possible (temporal artery, kidney, skin, etc). Use **angiography** or appropriate imaging for large or medium vessel involvement.",
+    "If vasculitis is likely, begin high-dose **steroids** promptly (don't delay in GCA) then tailor therapy per type (e.g., cyclophosphamide/rituximab for ANCA vasculitis; IVIG for Kawasaki).",
+    "Consult rheumatology and relevant specialists (nephrology, pulmonology, dermatology) early for multidisciplinary management and monitoring."
+  ],
+  "cases": [
+    {
+      "stem": "A 72‑year‑old woman with polymyalgia rheumatica presents with 2 months of unilateral temporal headaches and jaw pain when chewing.",
+      "clues": ["Tender, pulseless temporal artery on exam", "**ESR** > 100 mm/hr", "Transient blurred vision in right eye"],
+      "answer": "Giant cell (temporal) arteritis",
+      "teaching": "Granulomatous inflammation of large arteries (branches of carotid). High risk of blindness from ophthalmic artery involvement – start high-dose corticosteroids immediately, then confirm with temporal artery biopsy."
+    },
+    {
+      "stem": "A 50‑year‑old man with a history of chronic sinusitis and otitis media develops hemoptysis and hematuria.",
+      "clues": ["Perforated nasal septum (saddle-nose deformity)", "Cavitary lung lesions on CXR", "Glomerular **RBC casts**", "Positive c-ANCA (PR3-ANCA)"],
+      "answer": "Granulomatosis with polyangiitis (Wegener's)",
+      "teaching": "ANCA-associated small-vessel vasculitis affecting ENT, lungs, and kidneys. Confirm with biopsy showing necrotizing granulomas. Treat with high-dose steroids and cyclophosphamide or rituximab to induce remission."
+    }
+  ],
+  "see_also": [
+    "giant-cell-arteritis",
+    "takayasu-arteritis",
+    "polyarteritis-nodosa",
+    "kawasaki-disease",
+    "microscopic-polyangiitis"
+  ],
+  "prerequisites": ["immunology-basics", "inflammation", "hypersensitivity-reactions"],
+  "sources": [
+    {
+      "title": "UpToDate: Overview of and approach to the vasculitides in adults (Langford, 2023)",
+      "url": "https://www.uptodate.com/contents/overview-of-and-approach-to-the-vasculitides-in-adults"
+    },
+    {
+      "title": "Medscape: Vasculitis and Thrombophlebitis (Luca & Jung, 2023)",
+      "url": "https://emedicine.medscape.com/article/1008239-overview"
+    },
+    {
+      "title": "StatPearls: ANCA-Associated Vasculitis (Qasim & Patel, 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK554372/"
+    },
+    {
+      "title": "Jennette JC et al., 2013 – 2012 International Chapel Hill Consensus Conference on Vasculitis Nomenclature",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4029362/"
+    },
+    {
+      "title": "Robbins & Cotran Pathologic Basis of Disease, 10th ed. (2020) – Chapter on Vasculitis",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780323531139000098"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}

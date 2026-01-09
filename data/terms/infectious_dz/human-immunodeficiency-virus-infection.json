@@ -1,0 +1,125 @@
+{
+  "id": "human-immunodeficiency-virus-infection",
+  "names": ["Human immunodeficiency virus infection"],
+  "aliases": ["Acquired immunodeficiency syndrome", "AIDS", "HIV disease"],
+  "abbr": ["HIV", "PLWH"],
+  "patterns": [
+    "hiv",
+    "hiv infection",
+    "human immunodeficiency virus",
+    "acquired immunodeficiency syndrome",
+    "aids",
+    "acute retroviral syndrome",
+    "HIV/AIDS"
+  ],
+  "primary_tag": "infectious_dz",
+  "tags": ["pathology", "infectious_dz", "micro_virus", "immunology"],
+  "definition": "Chronic infection by HIV (a retrovirus) that destroys CD4+ T cells, causing progressive immunodeficiency. Untreated, it progresses to AIDS with opportunistic infections.",
+  "why_it_matters": "Without treatment, HIV infection is uniformly fatal as the immune system collapses. With modern therapy, however, it has become a manageable chronic illness—patients with HIV can live long, healthy lives on ART.",
+  "how_youll_see_it": [
+    "Acute (primary infection): ~2–4 weeks after exposure, a mononucleosis-like illness often occurs (fever, sore throat, lymphadenopathy, rash). Some may be asymptomatic or have mild flu-like symptoms.",
+    "Chronic phase: An asymptomatic latency that can last years. Persistent generalized lymphadenopathy may be present. Gradual immune decline leads to candidal infections (e.g., oral thrush) or zoster outbreaks as early clues.",
+    "AIDS (advanced HIV): Defined by CD4 count <200 or an AIDS-defining illness. Patients develop severe opportunistic infections (e.g., Pneumocystis pneumonia, Kaposi sarcoma, TB, Cryptococcus meningitis, CMV retinitis)."
+  ],
+  "problem_solving": [
+    "Follow the HIV testing algorithm: screen with a 4th-generation HIV-1/2 Ag/Ab combo test (detects p24 antigen ~14 days post-exposure). If positive, perform a confirmatory differentiation immunoassay to distinguish HIV-1 vs HIV-2.",
+    "If acute infection is suspected (exposure within ~2 weeks) or initial test is indeterminate, obtain an HIV RNA NAAT for detection (RNA can be positive as early as 5–10 days post-transmission).",
+    "Upon diagnosis, get baseline CD4 count and HIV viral load; screen for coinfections (e.g., TB, hepatitis B/C) and check HIV genotype for drug resistance. Monitor CD4 and viral load regularly to track treatment response (goal = undetectable viral load).",
+    "Prevent opportunistic disease: start prophylaxis when CD4 falls below key thresholds (e.g., TMP-SMX if CD4 <200 for PCP). Keep routine vaccines up-to-date (avoid live vaccines if CD4 is very low).",
+    "Prevent transmission: counsel on safe sex and needle practices. Offer PrEP (e.g., tenofovir-emtricitabine) to high-risk HIV-negative individuals and give PEP within 72 hours after high-risk exposures. In pregnancy, ensure maternal ART to minimize vertical transmission."
+  ],
+  "differentials": [
+    {
+      "name": "Infectious mononucleosis (EBV/CMV)",
+      "hint": "EBV causes fever, pharyngitis, and lymphadenopathy in young adults (Monospot test positive). CMV can cause a mono-like syndrome (heterophile negative). Neither typically presents with diffuse rash."
+    },
+    {
+      "name": "Influenza",
+      "hint": "Acute flu with high fever, myalgias, and cough. Often seasonal; typically lacks lymphadenopathy or rash and symptoms resolve in <2 weeks."
+    },
+    {
+      "name": "Secondary syphilis",
+      "hint": "Systemic Treponema pallidum infection causing fever, generalized rash (often including palms/soles), and mucous patches. Distinguished by a history of genital ulcer and positive syphilis serologies."
+    }
+  ],
+  "tricks": [
+    "AIDS definition: CD4 count <200 or any AIDS-defining illness (e.g., Pneumocystis pneumonia, Kaposi sarcoma).",
+    "CD4 count thresholds for OIs: <200 for PCP pneumonia, <100 for Toxoplasma brain abscess or Cryptococcus, <50 for MAC and CMV retinitis.",
+    "Neonatal diagnosis: maternal HIV IgG crosses placenta (persists ≤18 months), so use virologic tests (PCR) in infants—HIV antibody tests are unreliable."
+  ],
+  "exam_appearance": [
+    "Young adult with fever, sore throat, generalized rash ~3 weeks after unprotected sex → acute HIV infection (acute retroviral syndrome).",
+    "Patient with untreated HIV presents with weight loss, chronic diarrhea, oral thrush, and Pneumocystis pneumonia (dyspnea, hypoxia) → indicates AIDS (CD4 likely <200).",
+    "HIV-positive patient with purple skin lesions (Kaposi sarcoma) or progressive vision loss (CMV retinitis) → an AIDS-defining condition signaling advanced disease."
+  ],
+  "treatment": [
+    "Antiretroviral therapy (ART) for all patients, started as soon as possible after diagnosis. Standard regimens use a combination of 3 drugs (e.g., 2 NRTIs + 1 integrase inhibitor). Lifelong strict adherence is crucial.",
+    "Goals of therapy: achieve an undetectable viral load (prevents disease progression and transmission) and restore immune function (increase CD4 count). When viral load is undetectable, risk of sexual transmission is effectively zero (U=U principle).",
+    "Manage opportunistic diseases: provide prophylactic antibiotics at specific CD4 cutoffs (e.g., TMP-SMX for PCP, azithromycin for MAC) and treat any active infections aggressively (e.g., itraconazole for Histoplasma, etc.). In advanced cases, monitor for IRIS (inflammatory flare) after starting ART."
+  ],
+  "red_flags": [
+    "Severe opportunistic infection in an HIV patient – e.g., Pneumocystis pneumonia with hypoxia, cryptococcal meningitis, or cerebral toxoplasmosis – is a medical emergency requiring prompt treatment and urgent initiation of ART.",
+    "Blurred vision or floaters in a patient with AIDS (CD4 <50) → suspect CMV retinitis, a treatable cause of blindness. Urgent ophthalmologic therapy is needed to prevent permanent vision loss."
+  ],
+  "algorithm": [
+    "Possible exposure or acute retroviral syndrome → HIV test (4th-gen Ag/Ab).",
+    "Initial screen positive → do HIV-1/HIV-2 antibody differentiation assay to confirm type.",
+    "If initial test negative but high suspicion (early window period) → perform HIV RNA test (detects infection ~1–2 weeks sooner).",
+    "Confirmed HIV diagnosis → baseline labs (CD4 count, viral load, resistance testing, co-infection screen) → start ART promptly.",
+    "Follow-up: monitor HIV RNA (expect undetectable in 6 months) and CD4 count; add OI prophylaxis when CD4 drops below thresholds; ensure adherence and regular care."
+  ],
+  "images": [
+    {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hiv-timecourse.png",
+      "alt": "Graph showing HIV viral load (red) and CD4+ T-cell count (blue) over an untreated HIV infection. Initial acute phase features a spike in viral load and drop in CD4 count, followed by a latent period and then progression to AIDS.",
+      "credit": {
+        "text": "image credit",
+        "href": "https://commons.wikimedia.org/wiki/File:Hiv-timecourse.png"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "stem": "A 25‑year‑old man presents with 2 weeks of fever, painful throat, and a generalized rash. He mentions a new sexual partner and inconsistent condom use. Exam shows cervical lymphadenopathy and oral ulcers. A Monospot test for heterophile antibodies is negative.",
+      "clues": [
+        "Onset ~3 weeks after unprotected sex with new partner",
+        "Fever, sore throat, lymphadenopathy",
+        "Diffuse maculopapular rash on trunk",
+        "Monospot heterophile test is negative"
+      ],
+      "answer": "Acute HIV infection (acute retroviral syndrome)",
+      "teaching": "Acute HIV often presents as a mononucleosis-like illness a few weeks after exposure. High-risk sexual contact plus negative Monospot result should prompt HIV testing. Early diagnosis and initiation of ART can dramatically improve outcomes and reduce transmission."
+    }
+  ],
+  "see_also": [
+    "tuberculosis",
+    "toxoplasmosis",
+    "non-hodgkin-lymphoma"
+  ],
+  "prerequisites": [
+    "cd4-t-cells",
+    "retroviruses"
+  ],
+  "sources": [
+    {
+      "title": "StatPearls: HIV and AIDS (Swinkels et al., 2024)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK534860/"
+    },
+    {
+      "title": "CDC: About HIV – Basics (Stages, Treatment) [Jan 2025]",
+      "url": "https://www.cdc.gov/hiv/about/index.html"
+    },
+    {
+      "title": "UpToDate: Screening and diagnostic testing for HIV infection (Samet & Kim, 2024)",
+      "url": "https://www.uptodate.com/contents/screening-and-diagnostic-testing-for-hiv-infection-in-adults"
+    }
+  ],
+  "credits": [
+    {
+      "email": "test@test.com",
+      "role": "Author",
+      "display": "Ari Horesh",
+      "avatar": "https://entermedschool.b-cdn.net/wp-content/uploads/2023/03/cropped-leo_transparent_blue.png"
+    }
+  ]
+}
