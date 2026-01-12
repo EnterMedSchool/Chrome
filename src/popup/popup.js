@@ -24,6 +24,10 @@ const searchBtn = document.getElementById('searchBtn');
 const browseBtn = document.getElementById('browseBtn');
 const statsBtn = document.getElementById('statsBtn');
 const hoverPreviewToggle = document.getElementById('hoverPreviewToggle');
+const hoverDelaySection = document.getElementById('hoverDelaySection');
+const hoverDelaySlider = document.getElementById('hoverDelaySlider');
+const hoverDelayValue = document.getElementById('hoverDelayValue');
+const betaFeaturesToggle = document.getElementById('betaFeaturesToggle');
 const levelBtns = document.querySelectorAll('.level-btn');
 const fontDecrease = document.getElementById('fontDecrease');
 const fontIncrease = document.getElementById('fontIncrease');
@@ -101,6 +105,24 @@ async function loadSettings() {
   // Hover preview
   if (hoverPreviewToggle) {
     hoverPreviewToggle.checked = currentSettings.hoverPreview || false;
+  }
+
+  // Hover delay
+  if (hoverDelaySlider) {
+    const delay = currentSettings.hoverDelay || 300;
+    hoverDelaySlider.value = delay;
+    if (hoverDelayValue) {
+      hoverDelayValue.textContent = `${delay}ms`;
+    }
+    // Show/hide based on hover preview toggle
+    if (hoverDelaySection) {
+      hoverDelaySection.style.display = currentSettings.hoverPreview ? 'block' : 'none';
+    }
+  }
+
+  // Beta features
+  if (betaFeaturesToggle) {
+    betaFeaturesToggle.checked = currentSettings.enableBetaFeatures || false;
   }
 
   // User level
@@ -352,6 +374,29 @@ function setupEventListeners() {
   // Hover preview toggle
   hoverPreviewToggle?.addEventListener('change', async () => {
     await saveSettings({ hoverPreview: hoverPreviewToggle.checked });
+    // Show/hide hover delay section
+    if (hoverDelaySection) {
+      hoverDelaySection.style.display = hoverPreviewToggle.checked ? 'block' : 'none';
+    }
+    await updateContentScript();
+  });
+
+  // Hover delay slider
+  hoverDelaySlider?.addEventListener('input', () => {
+    // Update display value in real-time
+    if (hoverDelayValue) {
+      hoverDelayValue.textContent = `${hoverDelaySlider.value}ms`;
+    }
+  });
+  hoverDelaySlider?.addEventListener('change', async () => {
+    const delay = parseInt(hoverDelaySlider.value, 10);
+    await saveSettings({ hoverDelay: delay });
+    await updateContentScript();
+  });
+
+  // Beta features toggle
+  betaFeaturesToggle?.addEventListener('change', async () => {
+    await saveSettings({ enableBetaFeatures: betaFeaturesToggle.checked });
     await updateContentScript();
   });
 

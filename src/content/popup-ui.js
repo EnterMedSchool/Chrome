@@ -38,6 +38,20 @@ export class PopupUI {
     this.resizeObserver = null;
     /** @type {boolean} */
     this.sizeLoaded = false;
+    /** @type {boolean} */
+    this.betaFeaturesEnabled = false;
+    /** @type {Map<string, string[]>|null} */
+    this.termPatterns = null;
+    /** @type {string|null} */
+    this.currentTermIdForHighlight = null;
+  }
+
+  /**
+   * Set the term patterns for inline term highlighting
+   * @param {Map<string, string[]>} patterns - Map of pattern -> termIds
+   */
+  setTermPatterns(patterns) {
+    this.termPatterns = patterns;
   }
 
   /**
@@ -76,6 +90,14 @@ export class PopupUI {
         popup.style.fontSize = `${this.fontSize}%`;
       }
     }
+  }
+
+  /**
+   * Set whether beta features are enabled
+   * @param {boolean} enabled
+   */
+  setBetaFeatures(enabled) {
+    this.betaFeaturesEnabled = enabled;
   }
 
   /**
@@ -274,7 +296,8 @@ export class PopupUI {
   }
 
   /**
-   * Show popup for term(s)
+   * Show popup for term(s) - called from external page clicks.
+   * Resets navigation history since this is a fresh context.
    * @param {string[]} termIds
    * @param {number} x
    * @param {number} y
@@ -283,6 +306,10 @@ export class PopupUI {
     if (!termIds || termIds.length === 0) {
       return;
     }
+
+    // Reset history for new external context (breadcrumbs only track internal navigation)
+    this.history = [];
+    this.currentTermId = null;
 
     // If multiple terms, check for saved disambiguation choice first
     if (termIds.length > 1) {
@@ -412,10 +439,7 @@ export class PopupUI {
       return;
     }
 
-    // Track history
-    if (this.currentTermId && this.currentTermId !== termId) {
-      this.history.push(this.currentTermId);
-    }
+    // Update current term ID (history is managed by navigateToTerm for internal navigation)
     this.currentTermId = termId;
 
     // Build and render HTML
@@ -702,6 +726,40 @@ export class PopupUI {
   }
 
   /**
+   * Navigate to a term from within the popup (internal navigation).
+   * This creates a "knowledge rabbit hole" experience by tracking history.
+   * Only called when clicking on terms INSIDE the popup content.
+   * @param {string} termId - The term to navigate to
+   */
+  navigateToTerm(termId) {
+    if (!termId) return;
+
+    // Get current term from the popup
+    const popup = this.shadow?.querySelector('.ems-popup');
+    const currentTermId = popup?.dataset.termId || this.currentTermId;
+
+    // Don't navigate to the same term
+    if (termId === currentTermId) {
+      this.showToast('Already viewing this term');
+      return;
+    }
+
+    // Push current term to history before navigating
+    if (currentTermId) {
+      this.history.push(currentTermId);
+    }
+
+    // Update current term ID
+    this.currentTermId = termId;
+
+    // Navigate to the new term (reuse current popup position)
+    this.showTerm(termId,
+      parseInt(this.container.style.left) || window.innerWidth / 2,
+      parseInt(this.container.style.top) || window.innerHeight / 3
+    );
+  }
+
+  /**
    * Update the back button visibility and history badge
    */
   updateBackButton() {
@@ -881,17 +939,31 @@ export class PopupUI {
       header.addEventListener('click', () => this.toggleSection(header));
     }
 
-    // Term links (rabbit hole navigation)
+    // Term links (rabbit hole navigation) - uses navigateToTerm to track history
     const termLinks = wrapper.querySelectorAll('.ems-term-link');
     for (const link of termLinks) {
       link.addEventListener('click', e => {
         e.preventDefault();
         const termId = link.dataset.termId;
         if (termId) {
-          this.showTerm(termId,
-            parseInt(this.container.style.left) || window.innerWidth / 2,
-            parseInt(this.container.style.top) || window.innerHeight / 3
-          );
+          this.navigateToTerm(termId);
+        }
+      });
+    }
+
+    // "Part of" banner toggle (expand/collapse hidden links)
+    const partOfToggle = wrapper.querySelector('.ems-part-of-toggle');
+    if (partOfToggle) {
+      partOfToggle.addEventListener('click', e => {
+        e.stopPropagation();
+        const hidden = wrapper.querySelector('.ems-part-of-hidden');
+        if (hidden) {
+          const isExpanded = partOfToggle.getAttribute('aria-expanded') === 'true';
+          partOfToggle.setAttribute('aria-expanded', !isExpanded);
+          hidden.hidden = isExpanded;
+          partOfToggle.textContent = isExpanded 
+            ? `+${hidden.querySelectorAll('.ems-part-of-link').length} more` 
+            : 'Show less';
         }
       });
     }
@@ -1662,16 +1734,39 @@ export class PopupUI {
   }
 
   /**
-   * Build HTML for a term
+   * Build HTML for a term - routes to specialized builders based on term level
    * @param {Object} term
    * @returns {string}
    */
   buildTermHTML(term) {
+    const level = term.level || 'medschool';
+
+    // Beta term types - only show specialized layouts when beta is enabled
+    if (this.betaFeaturesEnabled) {
+      if (level === 'formula') return this.buildFormulaHTML(term);
+      if (level === 'lab-value') return this.buildLabValueHTML(term);
+      if (level === 'physiological') return this.buildPhysiologicalHTML(term);
+    }
+
+    // Standard term types
+    if (level === 'premed') return this.buildPremedHTML(term);
+
+    // Default: medschool layout
+    return this.buildMedschoolHTML(term);
+  }
+
+  /**
+   * Build HTML for medschool-level terms (default layout with all sections)
+   * @param {Object} term
+   * @returns {string}
+   */
+  buildMedschoolHTML(term) {
     const isDark = this.isDarkMode();
     const theme = isDark ? 'dark' : 'light';
     const name = term.names?.[0] || term.id;
     const primaryTag = term.primary_tag || '';
     const tagInfo = TAG_COLORS[primaryTag] || { accent: '#6C5CE7', icon: '📚' };
+    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
 
     // Build sections HTML
     let sectionsHTML = '';
@@ -1679,7 +1774,7 @@ export class PopupUI {
       const content = term[key];
       if (content) {
         const isCollapsed = COLLAPSED_SECTIONS.includes(key);
-        sectionsHTML += this.buildSectionHTML(key, icon, title, content, isCollapsed);
+        sectionsHTML += this.buildSectionHTML(key, icon, title, content, isCollapsed, termId);
       }
     }
 
@@ -1694,9 +1789,10 @@ export class PopupUI {
     // Build see also links
     const seeAlsoHTML = this.buildSeeAlsoHTML(term.see_also, term.prerequisites);
 
-    const hasHistory = this.history.length > 0;
+    // Build "Related to" banner
+    const partOfHTML = this.buildPartOfHTML(term.see_also);
 
-    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
+    const hasHistory = this.history.length > 0;
 
     return `
       <div class="ems-popup ${hasHistory ? 'has-history' : ''}" role="dialog" aria-modal="true" aria-labelledby="ems-popup-title" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" tabindex="-1">
@@ -1745,6 +1841,8 @@ export class PopupUI {
           </div>
         </div>
 
+        ${partOfHTML}
+
         <div class="ems-popup-scroll">
           <main class="ems-popup-content">
             ${sectionsHTML}
@@ -1768,12 +1866,463 @@ export class PopupUI {
   }
 
   /**
-   * Build HTML for a single section
+   * Build HTML for premed-level terms (simpler layout with teal color scheme)
+   * @param {Object} term
+   * @returns {string}
    */
-  buildSectionHTML(key, icon, title, content, isCollapsed) {
+  buildPremedHTML(term) {
+    const isDark = this.isDarkMode();
+    const theme = isDark ? 'dark' : 'light';
+    const name = term.names?.[0] || term.id;
+    const primaryTag = term.primary_tag || '';
+    const tagInfo = TAG_COLORS[primaryTag] || { accent: '#10B981', icon: '📖' }; // Teal accent for premed
+    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
+
+    // Premed only shows: definition, tips, exam_appearance
+    const premedSections = [
+      { key: 'definition', icon: '📖', title: 'Definition' },
+      { key: 'tips', icon: '💡', title: 'Tips to Remember' },
+      { key: 'exam_appearance', icon: '📝', title: "How You'll See It on Exams" },
+    ];
+
+    let sectionsHTML = '';
+    for (const { key, icon, title } of premedSections) {
+      const content = term[key];
+      if (content) {
+        sectionsHTML += this.buildPremedSectionHTML(key, icon, title, content, termId);
+      }
+    }
+
+    // Build see also links
+    const seeAlsoHTML = this.buildSeeAlsoHTML(term.see_also, term.prerequisites);
+    const partOfHTML = this.buildPartOfHTML(term.see_also);
+
+    const hasHistory = this.history.length > 0;
+
+    return `
+      <div class="ems-popup ems-popup--premed ${hasHistory ? 'has-history' : ''}" role="dialog" aria-modal="true" aria-labelledby="ems-popup-title" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" data-level="premed" tabindex="-1">
+        <header class="ems-popup-header ems-popup-header--premed">
+          <div class="ems-header-left">
+            <span class="ems-tag-icon">${tagInfo.icon}</span>
+            <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
+            <span class="ems-level-badge ems-level-badge--premed">PREMED</span>
+          </div>
+          <div class="ems-header-right">
+            <button class="ems-close-btn" aria-label="Close">×</button>
+          </div>
+        </header>
+
+        <div class="ems-tags-bar ems-tags-bar--premed">
+          ${this.buildTagsHTML(term.tags || [primaryTag])}
+        </div>
+
+        <div class="ems-breadcrumb-bar ${hasHistory ? 'visible' : ''}" id="breadcrumbBar">
+          ${this.buildBreadcrumbsHTML(name)}
+        </div>
+
+        <div class="ems-toolbar ems-toolbar--premed">
+          <div class="ems-toolbar-left">
+            <div class="ems-back-btn-wrapper">
+              <button class="ems-tool-btn ems-back-btn" title="Go back (Backspace)" ${hasHistory ? '' : 'hidden'}>←</button>
+              <span class="ems-history-badge ${hasHistory ? 'visible' : ''}">${this.history.length}</span>
+            </div>
+          </div>
+          <div class="ems-toolbar-center">
+            <button class="ems-tool-btn ems-font-decrease-btn" title="Decrease font size (-)">A−</button>
+            <span class="ems-font-size-display">${this.fontSize}%</span>
+            <button class="ems-tool-btn ems-font-increase-btn" title="Increase font size (+)">A+</button>
+          </div>
+          <div class="ems-toolbar-right">
+            <button class="ems-tool-btn ems-copy-btn" title="Copy definition (Ctrl+C)">📋</button>
+            <button class="ems-tool-btn ems-favorite-btn" data-term-id="${this.escapeHTML(termId)}" title="Add to favorites (F)">♡</button>
+          </div>
+        </div>
+
+        ${partOfHTML}
+
+        <div class="ems-popup-scroll">
+          <main class="ems-popup-content">
+            ${sectionsHTML}
+          </main>
+          ${seeAlsoHTML}
+        </div>
+        <div class="ems-resize-handle" id="resizeHandle"></div>
+      </div>
+    `;
+  }
+
+  /**
+   * Build HTML for a premed section (simpler styling)
+   */
+  buildPremedSectionHTML(key, icon, title, content, termId) {
+    let contentHTML = '';
+    
+    if (key === 'tips' && Array.isArray(content)) {
+      // Tips as checkmark list
+      const items = content.map(item => 
+        `<li>${this.renderMarkdown(typeof item === 'string' ? item : JSON.stringify(item))}</li>`
+      ).join('');
+      contentHTML = `<ul class="ems-premed-tips">${items}</ul>`;
+    } else if (key === 'exam_appearance' && Array.isArray(content)) {
+      // Exam appearance as styled list
+      const items = content.map(item => 
+        `<li>${this.renderMarkdown(typeof item === 'string' ? item : JSON.stringify(item))}</li>`
+      ).join('');
+      contentHTML = `<ul class="ems-premed-exam">${items}</ul>`;
+    } else if (typeof content === 'string') {
+      contentHTML = `<p>${this.renderMarkdown(content)}</p>`;
+    } else if (Array.isArray(content)) {
+      contentHTML = this.buildListHTML(content);
+    }
+
+    // Apply inline term highlighting for definition
+    if (key === 'definition' && termId) {
+      contentHTML = this.highlightTermsInContent(contentHTML, termId);
+    }
+
+    return `
+      <section class="ems-section ems-section--premed" data-section="${key}">
+        <header class="ems-section-header" aria-expanded="true">
+          <span class="ems-section-title">
+            <span class="ems-section-icon">${icon}</span>
+            ${title}
+          </span>
+          <div class="ems-section-actions">
+            <span class="ems-toggle-btn">−</span>
+          </div>
+        </header>
+        <div class="ems-section-content" aria-hidden="false">
+          ${contentHTML}
+        </div>
+      </section>
+    `;
+  }
+
+  /**
+   * Build HTML for formula-level terms (beta feature)
+   * @param {Object} term
+   * @returns {string}
+   */
+  buildFormulaHTML(term) {
+    const isDark = this.isDarkMode();
+    const theme = isDark ? 'dark' : 'light';
+    const name = term.names?.[0] || term.id;
+    const primaryTag = term.primary_tag || '';
+    const tagInfo = TAG_COLORS[primaryTag] || { accent: '#f59e0b', icon: '🔢' };
+    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
+    const hasHistory = this.history.length > 0;
+
+    // Build formula display
+    const formula = term.formula || term.definition || '';
+    const variables = term.variables || [];
+    const interpretation = term.interpretation || term.why_it_matters || '';
+
+    let variablesHTML = '';
+    if (variables.length > 0) {
+      variablesHTML = `
+        <div class="ems-formula-variables">
+          <div class="ems-formula-variables-title">Variables:</div>
+          ${variables.map(v => `
+            <div class="ems-formula-variable">
+              <span class="ems-variable-symbol">${this.escapeHTML(v.symbol || v.name || '')}</span>
+              <span class="ems-variable-desc">${this.escapeHTML(v.description || v.unit || '')}</span>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    // Build calculator section if inputs are defined
+    const inputs = term.calculator_inputs || variables.filter(v => v.input);
+    let calculatorHTML = '';
+    if (inputs.length > 0) {
+      calculatorHTML = `
+        <div class="ems-formula-calculator">
+          <div class="ems-calculator-title">🧮 Calculator</div>
+          <div class="ems-calculator-inputs">
+            ${inputs.map(input => `
+              <div class="ems-calculator-input-row">
+                <label>${this.escapeHTML(input.label || input.symbol || input.name || 'Value')}</label>
+                <input type="number" class="ems-calculator-input" data-var="${this.escapeHTML(input.symbol || input.name || '')}" placeholder="${this.escapeHTML(input.unit || '')}">
+                <span class="ems-input-unit">${this.escapeHTML(input.unit || '')}</span>
+              </div>
+            `).join('')}
+          </div>
+          <button class="ems-calculator-btn" onclick="this.closest('.ems-formula-calculator').querySelector('.ems-calculator-result').textContent = 'Calculating...'">Calculate</button>
+          <div class="ems-calculator-result"></div>
+        </div>
+      `;
+    }
+
+    return `
+      <div class="ems-popup ems-popup--formula ${hasHistory ? 'has-history' : ''}" role="dialog" aria-modal="true" aria-labelledby="ems-popup-title" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" data-level="formula" tabindex="-1">
+        <header class="ems-popup-header ems-popup-header--formula">
+          <div class="ems-header-left">
+            <span class="ems-tag-icon">${tagInfo.icon}</span>
+            <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
+            <span class="ems-level-badge ems-level-badge--beta">🧪 BETA</span>
+          </div>
+          <div class="ems-header-right">
+            <button class="ems-close-btn" aria-label="Close">×</button>
+          </div>
+        </header>
+
+        <div class="ems-toolbar">
+          <div class="ems-toolbar-left">
+            <button class="ems-tool-btn ems-back-btn" title="Go back" ${hasHistory ? '' : 'hidden'}>←</button>
+          </div>
+          <div class="ems-toolbar-right">
+            <button class="ems-tool-btn ems-copy-btn" title="Copy">📋</button>
+            <button class="ems-tool-btn ems-favorite-btn" data-term-id="${this.escapeHTML(termId)}" title="Favorite">♡</button>
+          </div>
+        </div>
+
+        <div class="ems-popup-scroll">
+          <main class="ems-popup-content">
+            <div class="ems-formula-display">
+              <div class="ems-formula-expression">${this.renderMarkdown(formula)}</div>
+            </div>
+            ${variablesHTML}
+            ${calculatorHTML}
+            ${interpretation ? `
+              <section class="ems-section" data-section="interpretation">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title">
+                    <span class="ems-section-icon">💡</span>
+                    Interpretation
+                  </span>
+                </header>
+                <div class="ems-section-content">
+                  <p>${this.renderMarkdown(interpretation)}</p>
+                </div>
+              </section>
+            ` : ''}
+          </main>
+        </div>
+        <div class="ems-resize-handle" id="resizeHandle"></div>
+      </div>
+    `;
+  }
+
+  /**
+   * Build HTML for lab-value-level terms (beta feature)
+   * @param {Object} term
+   * @returns {string}
+   */
+  buildLabValueHTML(term) {
+    const isDark = this.isDarkMode();
+    const theme = isDark ? 'dark' : 'light';
+    const name = term.names?.[0] || term.id;
+    const primaryTag = term.primary_tag || '';
+    const tagInfo = TAG_COLORS[primaryTag] || { accent: '#06d6a0', icon: '🧪' };
+    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
+    const hasHistory = this.history.length > 0;
+
+    // Lab value specific data
+    const normalRange = term.normal_range || term.reference_range || {};
+    const unit = term.unit || normalRange.unit || '';
+    const low = normalRange.low || normalRange.min || '';
+    const high = normalRange.high || normalRange.max || '';
+    const criticalLow = term.critical_low || '';
+    const criticalHigh = term.critical_high || '';
+    const causesHigh = term.causes_high || [];
+    const causesLow = term.causes_low || [];
+
+    return `
+      <div class="ems-popup ems-popup--lab-value ${hasHistory ? 'has-history' : ''}" role="dialog" aria-modal="true" aria-labelledby="ems-popup-title" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" data-level="lab-value" tabindex="-1">
+        <header class="ems-popup-header ems-popup-header--lab-value">
+          <div class="ems-header-left">
+            <span class="ems-tag-icon">${tagInfo.icon}</span>
+            <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
+            <span class="ems-level-badge ems-level-badge--beta">🧪 BETA</span>
+          </div>
+          <div class="ems-header-right">
+            <button class="ems-close-btn" aria-label="Close">×</button>
+          </div>
+        </header>
+
+        <div class="ems-toolbar">
+          <div class="ems-toolbar-left">
+            <button class="ems-tool-btn ems-back-btn" title="Go back" ${hasHistory ? '' : 'hidden'}>←</button>
+          </div>
+          <div class="ems-toolbar-right">
+            <button class="ems-tool-btn ems-copy-btn" title="Copy">📋</button>
+            <button class="ems-tool-btn ems-favorite-btn" data-term-id="${this.escapeHTML(termId)}" title="Favorite">♡</button>
+          </div>
+        </div>
+
+        <div class="ems-popup-scroll">
+          <main class="ems-popup-content">
+            <div class="ems-lab-value-range">
+              <div class="ems-range-title">Reference Range</div>
+              <div class="ems-range-display">
+                ${criticalLow ? `<span class="ems-range-critical-low" title="Critical low">${this.escapeHTML(criticalLow)}</span>` : ''}
+                <span class="ems-range-low">${this.escapeHTML(String(low))}</span>
+                <span class="ems-range-dash">—</span>
+                <span class="ems-range-high">${this.escapeHTML(String(high))}</span>
+                ${criticalHigh ? `<span class="ems-range-critical-high" title="Critical high">${this.escapeHTML(criticalHigh)}</span>` : ''}
+                <span class="ems-range-unit">${this.escapeHTML(unit)}</span>
+              </div>
+            </div>
+
+            ${term.definition ? `
+              <section class="ems-section" data-section="definition">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">📖</span> Definition</span>
+                </header>
+                <div class="ems-section-content">
+                  <p>${this.renderMarkdown(term.definition)}</p>
+                </div>
+              </section>
+            ` : ''}
+
+            ${causesHigh.length > 0 ? `
+              <section class="ems-section ems-section--high" data-section="causes_high">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">⬆️</span> Causes of Elevated Levels</span>
+                </header>
+                <div class="ems-section-content">
+                  <ul class="ems-list">${causesHigh.map(c => `<li>${this.renderMarkdown(c)}</li>`).join('')}</ul>
+                </div>
+              </section>
+            ` : ''}
+
+            ${causesLow.length > 0 ? `
+              <section class="ems-section ems-section--low" data-section="causes_low">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">⬇️</span> Causes of Low Levels</span>
+                </header>
+                <div class="ems-section-content">
+                  <ul class="ems-list">${causesLow.map(c => `<li>${this.renderMarkdown(c)}</li>`).join('')}</ul>
+                </div>
+              </section>
+            ` : ''}
+          </main>
+        </div>
+        <div class="ems-resize-handle" id="resizeHandle"></div>
+      </div>
+    `;
+  }
+
+  /**
+   * Build HTML for physiological-level terms (beta feature)
+   * @param {Object} term
+   * @returns {string}
+   */
+  buildPhysiologicalHTML(term) {
+    const isDark = this.isDarkMode();
+    const theme = isDark ? 'dark' : 'light';
+    const name = term.names?.[0] || term.id;
+    const primaryTag = term.primary_tag || '';
+    const tagInfo = TAG_COLORS[primaryTag] || { accent: '#8b5cf6', icon: '📈' };
+    const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
+    const hasHistory = this.history.length > 0;
+
+    // Physiological value data
+    const normalValue = term.normal_value || term.normal || {};
+    const unit = term.unit || normalValue.unit || '';
+    const value = normalValue.value || normalValue.mean || '';
+    const range = normalValue.range || '';
+    const relatedValues = term.related_values || [];
+    const clinicalRelevance = term.clinical_relevance || term.why_it_matters || '';
+
+    return `
+      <div class="ems-popup ems-popup--physiological ${hasHistory ? 'has-history' : ''}" role="dialog" aria-modal="true" aria-labelledby="ems-popup-title" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" data-level="physiological" tabindex="-1">
+        <header class="ems-popup-header ems-popup-header--physiological">
+          <div class="ems-header-left">
+            <span class="ems-tag-icon">${tagInfo.icon}</span>
+            <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
+            <span class="ems-level-badge ems-level-badge--beta">🧪 BETA</span>
+          </div>
+          <div class="ems-header-right">
+            <button class="ems-close-btn" aria-label="Close">×</button>
+          </div>
+        </header>
+
+        <div class="ems-toolbar">
+          <div class="ems-toolbar-left">
+            <button class="ems-tool-btn ems-back-btn" title="Go back" ${hasHistory ? '' : 'hidden'}>←</button>
+          </div>
+          <div class="ems-toolbar-right">
+            <button class="ems-tool-btn ems-copy-btn" title="Copy">📋</button>
+            <button class="ems-tool-btn ems-favorite-btn" data-term-id="${this.escapeHTML(termId)}" title="Favorite">♡</button>
+          </div>
+        </div>
+
+        <div class="ems-popup-scroll">
+          <main class="ems-popup-content">
+            <div class="ems-physiological-value">
+              <div class="ems-value-title">Normal Value</div>
+              <div class="ems-value-display">
+                <span class="ems-value-number">${this.escapeHTML(String(value))}</span>
+                <span class="ems-value-unit">${this.escapeHTML(unit)}</span>
+                ${range ? `<span class="ems-value-range">(${this.escapeHTML(range)})</span>` : ''}
+              </div>
+            </div>
+
+            ${term.definition ? `
+              <section class="ems-section" data-section="definition">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">📖</span> Definition</span>
+                </header>
+                <div class="ems-section-content">
+                  <p>${this.renderMarkdown(term.definition)}</p>
+                </div>
+              </section>
+            ` : ''}
+
+            ${clinicalRelevance ? `
+              <section class="ems-section" data-section="clinical_relevance">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">💡</span> Clinical Relevance</span>
+                </header>
+                <div class="ems-section-content">
+                  <p>${this.renderMarkdown(clinicalRelevance)}</p>
+                </div>
+              </section>
+            ` : ''}
+
+            ${relatedValues.length > 0 ? `
+              <section class="ems-section" data-section="related_values">
+                <header class="ems-section-header" aria-expanded="true">
+                  <span class="ems-section-title"><span class="ems-section-icon">🔗</span> Related Values</span>
+                </header>
+                <div class="ems-section-content">
+                  <div class="ems-related-values-grid">
+                    ${relatedValues.map(rv => `
+                      <div class="ems-related-value-card">
+                        <div class="ems-rv-name">${this.escapeHTML(rv.name || rv.id || '')}</div>
+                        <div class="ems-rv-value">${this.escapeHTML(String(rv.value || ''))}</div>
+                        <div class="ems-rv-unit">${this.escapeHTML(rv.unit || '')}</div>
+                      </div>
+                    `).join('')}
+                  </div>
+                </div>
+              </section>
+            ` : ''}
+          </main>
+        </div>
+        <div class="ems-resize-handle" id="resizeHandle"></div>
+      </div>
+    `;
+  }
+
+  /**
+   * Build HTML for a single section
+   * @param {string} key - Section key
+   * @param {string} icon - Section icon
+   * @param {string} title - Section title
+   * @param {string|Array} content - Section content
+   * @param {boolean} isCollapsed - Whether section is collapsed
+   * @param {string} [termId] - Current term ID for inline highlighting
+   */
+  buildSectionHTML(key, icon, title, content, isCollapsed, termId = null) {
     const collapsedClass = isCollapsed ? ' collapsed' : '';
     const toggleIcon = isCollapsed ? '+' : '−';
     const ariaHidden = isCollapsed ? 'true' : 'false';
+
+    // Sections that should have inline term highlighting
+    const highlightSections = ['definition', 'why_it_matters', 'treatment', 'problem_solving', 'tricks', 'red_flags'];
 
     let contentHTML = '';
     if (typeof content === 'string') {
@@ -1788,6 +2337,11 @@ export class PopupUI {
       } else {
         contentHTML = this.buildListHTML(content);
       }
+    }
+
+    // Apply inline term highlighting for text-heavy sections
+    if (highlightSections.includes(key) && termId) {
+      contentHTML = this.highlightTermsInContent(contentHTML, termId);
     }
 
     return `
@@ -2028,6 +2582,58 @@ export class PopupUI {
   }
 
   /**
+   * Build "Related to" / "Part of" banner HTML
+   * Shows related terms at the top of the popup content
+   * @param {Array} seeAlso - Related terms
+   * @param {number} maxVisible - Maximum visible items before toggle
+   * @returns {string} HTML string
+   */
+  buildPartOfHTML(seeAlso, maxVisible = 3) {
+    if (!seeAlso?.length) return '';
+
+    const formatName = (id) => {
+      const termId = typeof id === 'string' ? id : id?.id || '';
+      return termId.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+    };
+
+    const getTermId = (item) => typeof item === 'string' ? item : item?.id || '';
+
+    const visible = seeAlso.slice(0, maxVisible);
+    const hidden = seeAlso.slice(maxVisible);
+
+    let linksHTML = visible.map(item => {
+      const termId = getTermId(item);
+      const name = formatName(termId);
+      return `<span class="ems-part-of-link ems-term-link" data-term-id="${this.escapeHTML(termId)}">${this.escapeHTML(name)}</span>`;
+    }).join('');
+
+    let toggleHTML = '';
+    let hiddenHTML = '';
+    if (hidden.length > 0) {
+      toggleHTML = `<button class="ems-part-of-toggle" aria-expanded="false">+${hidden.length} more</button>`;
+      hiddenHTML = `<div class="ems-part-of-hidden" hidden>
+        ${hidden.map(item => {
+          const termId = getTermId(item);
+          const name = formatName(termId);
+          return `<span class="ems-part-of-link ems-term-link" data-term-id="${this.escapeHTML(termId)}">${this.escapeHTML(name)}</span>`;
+        }).join('')}
+      </div>`;
+    }
+
+    return `
+      <div class="ems-part-of-banner">
+        <span class="ems-part-of-icon">📚</span>
+        <span class="ems-part-of-label">Related to:</span>
+        <div class="ems-part-of-links">
+          ${linksHTML}
+          ${toggleHTML}
+          ${hiddenHTML}
+        </div>
+      </div>
+    `;
+  }
+
+  /**
    * Build disambiguation HTML
    */
   buildDisambiguationHTML(terms) {
@@ -2100,6 +2706,131 @@ export class PopupUI {
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/\*([^*]+)\*/g, '<em>$1</em>')
       .replace(/`([^`]+)`/g, '<code>$1</code>');
+  }
+
+  /**
+   * Highlight terms in content by scanning for glossary terms and wrapping them in clickable spans.
+   * Excludes the current term being viewed to avoid self-references.
+   * @param {string} html - The HTML content to process
+   * @param {string} currentTermId - The current term ID to exclude
+   * @returns {string} - HTML with terms wrapped in clickable spans
+   */
+  highlightTermsInContent(html, currentTermId) {
+    if (!html || !this.termPatterns || this.termPatterns.size === 0) {
+      return html;
+    }
+
+    // Extract text content from HTML for matching
+    // Create a temporary element to parse HTML
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+    const textContent = tempDiv.textContent || '';
+
+    if (!textContent.trim()) {
+      return html;
+    }
+
+    // Find all pattern matches in the text
+    const matches = [];
+    const lowerText = textContent.toLowerCase();
+
+    // Sort patterns by length (descending) to match longer patterns first
+    const sortedPatterns = Array.from(this.termPatterns.keys())
+      .filter(p => p.length >= 3) // Skip very short patterns
+      .sort((a, b) => b.length - a.length);
+
+    for (const pattern of sortedPatterns) {
+      const lowerPattern = pattern.toLowerCase();
+      let searchIndex = 0;
+
+      while (searchIndex < lowerText.length) {
+        const pos = lowerText.indexOf(lowerPattern, searchIndex);
+        if (pos === -1) break;
+
+        // Check word boundaries
+        const prevChar = pos > 0 ? lowerText[pos - 1] : ' ';
+        const nextChar = pos + lowerPattern.length < lowerText.length 
+          ? lowerText[pos + lowerPattern.length] 
+          : ' ';
+
+        const isWordBoundaryStart = !/[a-zA-Z0-9]/.test(prevChar);
+        const isWordBoundaryEnd = !/[a-zA-Z0-9]/.test(nextChar);
+
+        if (isWordBoundaryStart && isWordBoundaryEnd) {
+          const termIds = this.termPatterns.get(pattern) || [];
+          // Exclude the current term
+          const filteredTermIds = termIds.filter(id => id !== currentTermId);
+
+          if (filteredTermIds.length > 0) {
+            matches.push({
+              start: pos,
+              end: pos + lowerPattern.length,
+              pattern,
+              termId: filteredTermIds[0],
+              originalText: textContent.slice(pos, pos + lowerPattern.length)
+            });
+          }
+        }
+
+        searchIndex = pos + 1;
+      }
+    }
+
+    if (matches.length === 0) {
+      return html;
+    }
+
+    // Remove overlapping matches (keep longer ones)
+    const nonOverlapping = [];
+    matches.sort((a, b) => a.start - b.start || (b.end - b.start) - (a.end - a.start));
+
+    for (const match of matches) {
+      const overlaps = nonOverlapping.some(m => 
+        (match.start >= m.start && match.start < m.end) ||
+        (match.end > m.start && match.end <= m.end)
+      );
+      if (!overlaps) {
+        nonOverlapping.push(match);
+      }
+    }
+
+    if (nonOverlapping.length === 0) {
+      return html;
+    }
+
+    // Now we need to replace the matched text in the original HTML
+    // This is tricky because the positions are for text content, not HTML
+    // We'll use a simple approach: replace the first occurrence of each matched text
+    let result = html;
+    
+    // Sort by length (descending) to replace longer matches first
+    nonOverlapping.sort((a, b) => b.originalText.length - a.originalText.length);
+
+    // Track what we've replaced to avoid double-replacing
+    const replaced = new Set();
+
+    for (const match of nonOverlapping) {
+      const { originalText, termId } = match;
+      
+      // Skip if we've already replaced this exact text
+      const key = `${originalText.toLowerCase()}-${termId}`;
+      if (replaced.has(key)) continue;
+
+      // Create the replacement span (using data-term-id for click handling)
+      const replacement = `<span class="ems-inline-term ems-term-link" data-term-id="${this.escapeHTML(termId)}">${this.escapeHTML(originalText)}</span>`;
+
+      // Create a regex that matches the text but not already-wrapped terms
+      // This avoids matching inside existing ems-inline-term spans
+      const safeText = originalText.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp(`(?<!<span[^>]*>)\\b(${safeText})\\b(?![^<]*<\\/span>)`, 'i');
+
+      if (regex.test(result)) {
+        result = result.replace(regex, replacement);
+        replaced.add(key);
+      }
+    }
+
+    return result;
   }
 
   /**

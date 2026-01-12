@@ -1961,3 +1961,497 @@ mark.ems-search-highlight {
 .ems-nav-slide-in {
   animation: ems-slide-in-right 0.25s ease forwards;
 }
+
+/* ============================================
+   "RELATED TO" / "PART OF" BANNER
+   ============================================ */
+
+.ems-part-of-banner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.1) 0%, rgba(168, 85, 247, 0.08) 100%);
+  border-bottom: 2px solid rgba(108, 92, 231, 0.2);
+  font-size: 0.8rem;
+}
+
+.ems-part-of-icon {
+  font-size: 1rem;
+}
+
+.ems-part-of-label {
+  font-weight: 600;
+  color: var(--ems-text-muted);
+  margin-right: 0.25rem;
+}
+
+.ems-part-of-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ems-part-of-link {
+  color: var(--ems-purple);
+  background: var(--ems-bg-white);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--ems-purple);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ems-part-of-link:hover {
+  background: var(--ems-purple);
+  color: white;
+}
+
+.ems-part-of-toggle {
+  background: transparent;
+  border: 1px dashed var(--ems-purple);
+  color: var(--ems-purple);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.ems-part-of-toggle:hover {
+  background: rgba(108, 92, 231, 0.1);
+}
+
+.ems-part-of-hidden {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+[data-theme="dark"] .ems-part-of-banner {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.15) 0%, rgba(168, 85, 247, 0.1) 100%);
+}
+
+/* Premed part-of banner */
+.ems-popup[data-level="premed"] .ems-part-of-banner {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(5, 150, 105, 0.08) 100%);
+  border-bottom-color: rgba(16, 185, 129, 0.2);
+}
+
+.ems-popup[data-level="premed"] .ems-part-of-link {
+  color: var(--ems-premed-accent);
+  border-color: var(--ems-premed-accent);
+}
+
+.ems-popup[data-level="premed"] .ems-part-of-link:hover {
+  background: var(--ems-premed-accent);
+}
+
+.ems-popup[data-level="premed"] .ems-part-of-toggle {
+  border-color: var(--ems-premed-accent);
+  color: var(--ems-premed-accent);
+}
+
+/* ============================================
+   PREMED SECTION LISTS
+   ============================================ */
+
+.ems-premed-tips {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ems-premed-tips li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+  color: var(--ems-text-muted);
+}
+
+.ems-premed-tips li:last-child {
+  margin-bottom: 0;
+}
+
+.ems-premed-tips li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ems-premed-accent, #10B981);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+.ems-premed-exam {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ems-premed-exam li {
+  position: relative;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  background: rgba(16, 185, 129, 0.05);
+  border-left: 3px solid var(--ems-premed-accent, #10B981);
+  border-radius: 0 var(--ems-radius-sm) var(--ems-radius-sm) 0;
+  color: var(--ems-text-muted);
+}
+
+.ems-premed-exam li strong {
+  color: var(--ems-premed-accent, #10B981);
+}
+
+/* ============================================
+   BETA FEATURE LAYOUTS - COMMON
+   ============================================ */
+
+.ems-level-badge--beta {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+/* ============================================
+   FORMULA LAYOUT
+   ============================================ */
+
+.ems-popup--formula .ems-popup-header {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.ems-popup--formula .ems-popup-header::before {
+  display: none;
+}
+
+.ems-formula-display {
+  background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+  border: 2px solid #f59e0b;
+  border-radius: var(--ems-radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ems-formula-expression {
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: var(--ems-font-mono);
+  color: var(--ems-text-dark);
+}
+
+.ems-formula-variables {
+  background: var(--ems-bg-white);
+  border: 2px solid var(--ems-border-chunky);
+  border-radius: var(--ems-radius-sm);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ems-formula-variables-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+  color: var(--ems-text-dark);
+}
+
+.ems-formula-variable {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.ems-variable-symbol {
+  font-family: var(--ems-font-mono);
+  font-weight: 700;
+  color: #f59e0b;
+  min-width: 3rem;
+}
+
+.ems-variable-desc {
+  color: var(--ems-text-muted);
+}
+
+.ems-formula-calculator {
+  background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+  border: 3px solid #f59e0b;
+  border-radius: var(--ems-radius);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ems-calculator-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--ems-text-dark);
+}
+
+.ems-calculator-inputs {
+  margin-bottom: 1rem;
+}
+
+.ems-calculator-input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.ems-calculator-input-row label {
+  flex: 1;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.ems-calculator-input {
+  width: 80px;
+  padding: 0.5rem;
+  border: 2px solid var(--ems-navy);
+  border-radius: var(--ems-radius-sm);
+  font-size: 0.9rem;
+  font-family: var(--ems-font-mono);
+}
+
+.ems-input-unit {
+  color: var(--ems-text-muted);
+  font-size: 0.8rem;
+  min-width: 40px;
+}
+
+.ems-calculator-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #f59e0b;
+  color: white;
+  border: 2px solid var(--ems-navy);
+  border-radius: var(--ems-radius-sm);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ems-navy);
+  transition: all 0.15s ease;
+}
+
+.ems-calculator-btn:hover {
+  background: #d97706;
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0 var(--ems-navy);
+}
+
+.ems-calculator-result {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: white;
+  border-radius: var(--ems-radius-sm);
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--ems-text-dark);
+  min-height: 2rem;
+}
+
+/* ============================================
+   LAB VALUE LAYOUT
+   ============================================ */
+
+.ems-popup--lab-value .ems-popup-header {
+  background: linear-gradient(135deg, #06d6a0 0%, #059669 100%);
+}
+
+.ems-popup--lab-value .ems-popup-header::before {
+  display: none;
+}
+
+.ems-lab-value-range {
+  background: linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%);
+  border: 3px solid #06d6a0;
+  border-radius: var(--ems-radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ems-range-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--ems-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.ems-range-display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ems-text-dark);
+}
+
+.ems-range-low,
+.ems-range-high {
+  color: #059669;
+}
+
+.ems-range-dash {
+  color: var(--ems-text-muted);
+}
+
+.ems-range-unit {
+  font-size: 0.9rem;
+  color: var(--ems-text-muted);
+  font-weight: 600;
+}
+
+.ems-range-critical-low,
+.ems-range-critical-high {
+  font-size: 0.9rem;
+  color: var(--ems-red);
+  font-weight: 700;
+}
+
+.ems-range-critical-low {
+  margin-right: 0.5rem;
+}
+
+.ems-range-critical-high {
+  margin-left: 0.5rem;
+}
+
+.ems-section--high .ems-section-header {
+  background: rgba(239, 68, 68, 0.1);
+}
+
+.ems-section--low .ems-section-header {
+  background: rgba(59, 130, 246, 0.1);
+}
+
+/* ============================================
+   PHYSIOLOGICAL VALUE LAYOUT
+   ============================================ */
+
+.ems-popup--physiological .ems-popup-header {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.ems-popup--physiological .ems-popup-header::before {
+  display: none;
+}
+
+.ems-physiological-value {
+  background: linear-gradient(135deg, #F5F3FF 0%, #EDE9FE 100%);
+  border: 3px solid #8b5cf6;
+  border-radius: var(--ems-radius);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.ems-value-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: var(--ems-text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.ems-value-display {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.ems-value-number {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #7c3aed;
+}
+
+.ems-value-unit {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ems-text-muted);
+}
+
+.ems-value-range {
+  font-size: 0.9rem;
+  color: var(--ems-text-light);
+  margin-left: 0.5rem;
+}
+
+.ems-related-values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.ems-related-value-card {
+  background: var(--ems-bg-white);
+  border: 2px solid #8b5cf6;
+  border-radius: var(--ems-radius-sm);
+  padding: 0.75rem;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.ems-related-value-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
+}
+
+.ems-rv-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--ems-text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.ems-rv-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.ems-rv-unit {
+  font-size: 0.7rem;
+  color: var(--ems-text-light);
+}
+
+/* ============================================
+   DARK MODE FOR BETA LAYOUTS
+   ============================================ */
+
+[data-theme="dark"] .ems-formula-display {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.15) 0%, rgba(217, 119, 6, 0.1) 100%);
+}
+
+[data-theme="dark"] .ems-formula-calculator {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(217, 119, 6, 0.08) 100%);
+}
+
+[data-theme="dark"] .ems-lab-value-range {
+  background: linear-gradient(135deg, rgba(6, 214, 160, 0.15) 0%, rgba(5, 150, 105, 0.1) 100%);
+}
+
+[data-theme="dark"] .ems-physiological-value {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(124, 58, 237, 0.1) 100%);
+}

@@ -1,6 +1,6 @@
 {
   "name": "ems-medical-glossary",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Chrome extension that highlights medical terms and shows definitions for medical students",
   "type": "module",
   "scripts": {

@@ -22,6 +22,7 @@ export const STORAGE_KEYS = {
   FONT_SIZE: 'ems_font_size',
   HOVER_PREVIEW: 'ems_hover_preview',
   HOVER_DELAY: 'ems_hover_delay',
+  ENABLE_BETA_FEATURES: 'ems_enable_beta_features',
 };
 
 // Default settings
@@ -36,7 +37,11 @@ export const DEFAULT_SETTINGS = {
   fontSize: 100,
   hoverPreview: false,
   hoverDelay: 300,
+  enableBetaFeatures: false, // formula, lab-value, physiological terms
 };
+
+// Beta term levels (only shown when enableBetaFeatures is true)
+export const BETA_TERM_LEVELS = ['formula', 'lab-value', 'physiological'];
 
 // Colors from tags.json
 export const TAG_COLORS = {

@@ -335,6 +335,63 @@ body {
   margin: 0;
 }
 
+/* Slider row for hover delay */
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.slider-row input[type="range"] {
+  flex: 1;
+  height: 6px;
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--ems-bg-secondary);
+  border-radius: 3px;
+  outline: none;
+  border: 2px solid var(--ems-border);
+}
+
+.slider-row input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--ems-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid var(--ems-border);
+  transition: transform 0.15s ease;
+}
+
+.slider-row input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.slider-row input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--ems-primary);
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid var(--ems-border);
+}
+
+.slider-value {
+  min-width: 48px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ems-text-primary);
+  text-align: right;
+}
+
+/* Hover delay section */
+.hover-delay-section {
+  display: none; /* Hidden by default, shown via JS when hover preview enabled */
+}
+
 /* Level Options */
 .level-options {
   display: flex;

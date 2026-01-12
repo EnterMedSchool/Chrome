@@ -11,7 +11,7 @@
     <!-- Header -->
     <header class="popup-header">
       <div class="header-brand">
-        <img src="../assets/icons/leo-logo.png" alt="Leo" class="logo-img">
+        <img src="../../assets/icons/icon-48.png" alt="Leo" class="logo-img">
         <h1>EMS Glossary</h1>
       </div>
       <span class="version">v1.0.0</span>
@@ -120,6 +120,29 @@
         </label>
       </div>
       <p class="setting-hint">When enabled, hovering over terms shows a mini preview. Click for full details.</p>
+    </section>
+
+    <!-- Hover Delay -->
+    <section class="section hover-delay-section" id="hoverDelaySection">
+      <h2 class="section-title">Hover Delay</h2>
+      <div class="slider-row">
+        <input type="range" id="hoverDelaySlider" min="100" max="1000" step="50" value="300">
+        <span class="slider-value" id="hoverDelayValue">300ms</span>
+      </div>
+      <p class="setting-hint">Time before hover preview appears.</p>
+    </section>
+
+    <!-- Beta Features -->
+    <section class="section">
+      <h2 class="section-title">🧪 Beta Features</h2>
+      <div class="toggle-row-small">
+        <span class="toggle-label-small">Enable experimental features</span>
+        <label class="toggle toggle-small">
+          <input type="checkbox" id="betaFeaturesToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+      <p class="setting-hint">Enables calculators, lab value visualizations, and interactive formulas.</p>
     </section>
 
     <!-- User Level -->

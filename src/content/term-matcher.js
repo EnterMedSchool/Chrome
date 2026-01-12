@@ -6,7 +6,7 @@
  * @module term-matcher
  */
 
-import { EXCLUDED_PATTERNS } from '../shared/constants.js';
+import { EXCLUDED_PATTERNS, BETA_TERM_LEVELS } from '../shared/constants.js';
 
 /**
  * Node in the Aho-Corasick automaton
@@ -180,6 +180,8 @@ export class TermMatcher {
     this._initialized = false;
     /** @type {string} */
     this.userLevel = 'medschool';
+    /** @type {boolean} */
+    this.enableBetaFeatures = false;
   }
 
   /**
@@ -188,6 +190,14 @@ export class TermMatcher {
    */
   setUserLevel(level) {
     this.userLevel = level || 'medschool';
+  }
+
+  /**
+   * Set whether beta features are enabled
+   * @param {boolean} enabled
+   */
+  setBetaFeatures(enabled) {
+    this.enableBetaFeatures = enabled;
   }
 
   /**
@@ -266,18 +276,12 @@ export class TermMatcher {
   }
 
   /**
-   * Filter term IDs based on user level
+   * Filter term IDs based on user level and beta features
    * @private
    * @param {string[]} termIds
    * @returns {string[]}
    */
   _filterByLevel(termIds) {
-    if (this.userLevel === 'all') {
-      return termIds;
-    }
-
-    const userLevelValue = LEVEL_HIERARCHY[this.userLevel] ?? 1;
-
     return termIds.filter(termId => {
       const termMeta = this.index.terms?.get(termId);
       if (!termMeta) {
@@ -285,10 +289,24 @@ export class TermMatcher {
       }
 
       const termLevel = termMeta.level || 'medschool';
-      const termLevelValue = LEVEL_HIERARCHY[termLevel] ?? 1;
 
-      // Include term if its level is <= user's level
-      return termLevelValue <= userLevelValue;
+      // Filter out beta term types when beta features are disabled
+      if (BETA_TERM_LEVELS.includes(termLevel) && !this.enableBetaFeatures) {
+        return false;
+      }
+
+      // Filter by user level (skip for 'all' level)
+      if (this.userLevel !== 'all') {
+        const userLevelValue = LEVEL_HIERARCHY[this.userLevel] ?? 1;
+        const termLevelValue = LEVEL_HIERARCHY[termLevel] ?? 1;
+
+        // Include term if its level is <= user's level
+        if (termLevelValue > userLevelValue) {
+          return false;
+        }
+      }
+
+      return true;
     });
   }
 

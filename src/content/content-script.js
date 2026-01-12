@@ -106,8 +106,14 @@ class EMSGlossary {
       // Initialize components
       this.matcher = new TermMatcher(this.index);
       this.matcher.setUserLevel(this.settings.userLevel);
+      this.matcher.setBetaFeatures(this.settings.enableBetaFeatures || false);
       this.highlighter = new Highlighter(this.matcher);
       this.popup = new PopupUI();
+      this.popup.setBetaFeatures(this.settings.enableBetaFeatures || false);
+      // Pass term patterns to popup for inline term highlighting
+      if (this.index.patterns) {
+        this.popup.setTermPatterns(this.index.patterns);
+      }
 
       // Apply settings
       this.highlighter.setStyle(
@@ -405,8 +411,15 @@ class EMSGlossary {
       });
     }
 
-    // Show popup
-    this.popup?.show(termIds, event.clientX, event.clientY);
+    // Get the term's position for popup placement
+    // Using term element position instead of click coordinates ensures
+    // consistent behavior for both mouse clicks and keyboard activation
+    const rect = term.getBoundingClientRect();
+    const x = rect.left + rect.width / 2;
+    const y = rect.bottom;
+
+    // Show popup near the term
+    this.popup?.show(termIds, x, y);
   }
 
   /**
@@ -469,6 +482,15 @@ class EMSGlossary {
           if (payload.userLevel && this.matcher) {
             this.matcher.setUserLevel(payload.userLevel);
             // Re-highlight with new level filter
+            this.highlighter?.stop();
+            this.highlighter?.start();
+          }
+          // Update beta features if changed
+          if (payload.enableBetaFeatures !== undefined) {
+            this.matcher?.setBetaFeatures(payload.enableBetaFeatures);
+            this.popup?.setBetaFeatures(payload.enableBetaFeatures);
+            // Re-highlight with new beta filter
+            this.highlighter?.stop();
             this.highlighter?.start();
           }
           // Update font size if changed
