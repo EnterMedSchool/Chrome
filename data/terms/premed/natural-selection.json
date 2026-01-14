@@ -1,0 +1,39 @@
+{
+  "id": "natural-selection",
+  "names": [
+    "Natural selection"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Natural selection** is the process by which individuals with traits that confer an advantage in a given environment tend to survive and reproduce more successfully than others, thereby passing those advantageous traits to the next generation. Over time, this differential reproductive success causes <u>adaptive traits to become more common</u> in the population. Natural selection is a key mechanism of evolution, often summarized as \"survival of the fittest\" (where *fittest* means best adapted to the environment).",
+  "tips": [
+    "Natural selection requires: (1) **Variation** in traits within a population, (2) **Heritability** of those traits (traits must be genetic so they can be passed on), and (3) **Differential survival/reproduction** (some variants survive and reproduce better in the current environment than others). If these conditions hold, the population will evolve over generations.",
+    "It's environment-specific: a trait advantageous in one environment might be disadvantageous in another. For example, white fur is great for survival in snowy habitats (camouflage), but in a forest, that same trait would make an animal stand out to predators.",
+    "Natural selection is not a conscious or purposeful process. Common misconception to avoid: organisms don't \"get what they need\" by want or effort. Instead, <u>random mutations produce variation</u>; nature \"selects\" those variants that happen to be favorable by the fact they leave more offspring. Over time, this yields adaptation.",
+    "Fitness in evolutionary terms means <u>reproductive success</u>, not necessarily physical strength. An exam might emphasize that \"fittest\" means most fit to the environment (e.g., a small camouflage insect might be more \"fit\" than a large visible one if predators are about)."
+  ],
+  "exam_appearance": [
+    "Textbook example: peppered moths in industrial England. A question may describe how dark-colored moths became more common than light-colored moths after trees got soot-covered, asking for the explanation. The answer: <u>natural selection</u> (darker moths were less visible to predators on dark trees, survived more, and passed on genes for dark color).",
+    "Be prepared to identify natural selection in scenarios: e.g., bacteria developing antibiotic resistance is natural selection (the few bacteria with a resistance mutation survive antibiotic treatment and multiply). The test may frame it as \"which mechanism is illustrated by this antibiotic resistance development?\" Answer: natural selection (the antibiotic is the environmental pressure selecting resistant individuals).",
+    "Comparative questions: If asked to contrast natural selection with other mechanisms (like artificial selection or genetic drift), highlight that natural selection is **non-random** in the sense that the environment consistently favors certain traits (whereas genetic drift is random chance). Also, unlike artificial selection, there's no human directing it.",
+    "They might ask which of Darwin's observations or principles relate to natural selection. For instance, know that organisms produce more offspring than can survive (leading to competition), and that those with favorable traits outcompete others - these are core ideas that lead to the concept of natural selection driving evolution."
+  ],
+  "see_also": [
+    "artificial-selection"
+  ],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 18.1: Darwin and Natural Selection (principles of natural selection)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution"
+    },
+    {
+      "title": "UC Berkeley Evolution 101 - Natural Selection (overview and examples)",
+      "url": "https://evolution.berkeley.edu/evolibrary/article/evo_25"
+    },
+    {
+      "title": "Encyclop\u00e6dia Britannica - Natural Selection (definition and explanation)",
+      "url": "https://www.britannica.com/science/natural-selection"
+    }
+  ]
+}

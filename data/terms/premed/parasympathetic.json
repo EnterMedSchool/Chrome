@@ -1,0 +1,39 @@
+{
+  "id": "parasympathetic",
+  "names": [
+    "Parasympathetic Nervous System"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The parasympathetic nervous system** is one of the two divisions of the autonomic nervous system, responsible for the body's <u>\"rest and digest\" activities</u>. It calms the body and conserves energy by <u>slowing the heart rate</u>, <u>increasing digestive processes</u>, and generally returning the body to a state of relaxation after stress.",
+  "tips": [
+    "Parasympathetic nerves emerge from the brainstem and sacral spinal cord (<u>craniosacral origin</u>). The <u>vagus nerve (cranial nerve X)</u> is the major parasympathetic nerve, carrying ~75% of parasympathetic output to organs like the heart, lungs, and digestive tract.",
+    "Parasympathetic signaling uses the neurotransmitter <u>acetylcholine</u> at target organs. In other words, postganglionic parasympathetic neurons release ACh, which stimulates \"rest and digest\" responses (slowing heart rate, constricting pupils, stimulating saliva and digestion).",
+    "Parasympathetic effects often directly oppose sympathetic effects. For example, where the sympathetic system dilates pupils and accelerates heart rate, the parasympathetic system constricts pupils and slows the heart to promote resting functions."
+  ],
+  "exam_appearance": [
+    "If an exam question mentions a \"calming\" or \"restorative\" set of effects (e.g., slowed heartbeat, increased gut motility, pupil constriction) after a stress passes -> that's <u>parasympathetic nervous system</u> activity.",
+    "If asked which autonomic branch is active during digestion and rest -> the <u>parasympathetic</u> (it's active when you're relaxed, like after a meal, to aid digestion). Clues like \"increased digestive juice secretion\" or \"stimulated salivary glands\" point to parasympathetic action.",
+    "A common exam trap is terminology: remember that \"parasympathetic\" is part of the autonomic PNS and is not the same as \"sympathetic.\" If a scenario describes <u>lowering blood pressure</u> or <u>activating digestion</u>, it's highlighting parasympathetic (not sympathetic) function."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 35.4: Autonomic Nervous System (fight-or-flight vs rest-and-digest)",
+      "url": "https://openstax.org/books/biology-2e/pages/35-4-the-peripheral-nervous-system"
+    },
+    {
+      "title": "Canadian Cancer Society - Nervous System (sympathetic vs parasympathetic functions)",
+      "url": "https://cancer.ca/en/cancer-information/cancer-types/neuroblastoma/what-is-neuroblastoma/the-nervous-system"
+    },
+    {
+      "title": "NHGRI Talking Glossary: Parasympathetic (via NCI Dictionary)",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/parasympathetic-nervous-system"
+    },
+    {
+      "title": "StatPearls - Neuroanatomy, Parasympathetic Nervous System (structure & function)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK553141/"
+    }
+  ]
+}

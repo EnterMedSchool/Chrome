@@ -1,0 +1,35 @@
+{
+  "id": "insertion",
+  "names": [
+    "Insertion"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "An **insertion** is a mutation in which <u>one or more nucleotides are added into a DNA sequence</u>. Like deletions, insertions can vary in size - from inserting a single extra base in a gene to inserting a large segment of DNA (for instance, due to a transposable element or viral DNA).",
+  "tips": [
+    "Insertions that are not in multiples of 3 bases will cause a **frameshift** in coding sequences, usually destroying the original protein's function by altering every amino acid downstream of the mutation.",
+    "Small insertions (like adding one base) can have big effects (frameshift), whereas an insertion of 3 bases adds one amino acid to a protein which might be better tolerated (unless that insertion disrupts critical regions).",
+    "Transposons (jumping genes) or retroviral insertions are larger-scale insertion events: these DNA pieces can insert into a gene and disrupt it. An example is the insertion of viral DNA into tumor suppressor genes contributing to cancer."
+  ],
+  "exam_appearance": [
+    "Expect similar patterns as deletion questions: e.g., a question might show a DNA or mRNA sequence with extra bases in the mutant and ask about the effect (likely frameshift if not a multiple of 3).",
+    "An exam might give a scenario: \"A single base addition in a coding sequence results in...\" -- the correct answer: a frameshift mutation altering the downstream amino acid sequence and possibly producing a premature stop codon.",
+    "Be aware of terminology: sometimes exam questions lump insertions and deletions together as \"indels.\" Both cause frameshifts if not adding/removing whole codons. If you see \"indel\" mentioned, it means either an insertion or deletion occurred."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "National Human Genome Research Institute - Glossary: Insertion",
+      "url": "https://www.genome.gov/genetics-glossary/Insertion"
+    },
+    {
+      "title": "Your Genome (Wellcome) - Insertion Mutation (illustration and explanation)",
+      "url": "https://www.yourgenome.org/facts/what-is-an-insertion-mutation/"
+    },
+    {
+      "title": "OpenStax Biology 2e - Gene Mutations (mention of insertions causing frameshift)",
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-mutation#fs-id1169804998059"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "g2-phase",
+  "names": [
+    "G2 phase",
+    "Gap 2 phase"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**G2 phase** (Gap 2) is the third and final stage of interphase in the cell cycle, following S phase. During G2, the cell continues to grow and makes final preparations for mitosis. This includes synthesizing and assembling the proteins needed for chromosome segregation and cell division (such as tubulin for microtubules). The cell also repairs DNA damage (if any) and ensures DNA replication is complete. A critical <u>G2 checkpoint</u> occurs at the end of this phase to verify that the DNA is intact and fully replicated before the cell proceeds to the mitotic (M) phase.",
+  "tips": [
+    "Think of G2 as a <u>\"double-check and gear-up\" phase</u>. The cell now has duplicated DNA (from S phase) and uses G2 to produce proteins for mitosis (like spindle proteins) and to duplicate some organelles so that both daughter cells will have what they need.",
+    "Energy demand is high in G2 because the cell is preparing to divide; it synthesizes components like microtubules. For example, cells make a lot of <u>tubulin protein</u> in G2 to build the mitotic spindle.",
+    "G2 has an important DNA damage checkpoint. If DNA replication is incomplete or errors are detected (e.g., unrepaired mutations), the cell can halt here and attempt repairs. This prevents damaged or incomplete DNA from being segregated into daughter cells. Some cancer therapies exploit this checkpoint by causing DNA damage so cancer cells get stuck in G2 or undergo cell death.",
+    "In terms of DNA content: a G2 cell has doubled DNA (4n in a diploid organism). However, chromosome count by centromere is still the same as in G1 (because sister chromatids are joined). Many exam questions use this detail: e.g., human cell in G2 still has 46 chromosomes, but 92 chromatids (DNA has replicated)."
+  ],
+  "exam_appearance": [
+    "If a question describes a cell that has completed DNA synthesis and is now accumulating materials for mitosis, that's <u>G2</u>. For instance: \"After DNA replication, the cell grows further and synthesizes proteins like cyclin B and tubulin, then checks for DNA errors.\" This scenario points to G2 phase and its checkpoint.",
+    "An exam may ask: \"At which stage of the cell cycle does the cell have the highest amount of DNA but has not yet begun to divide?\" The answer is <u>G2</u> (DNA content is doubled relative to G1, but mitosis hasn't started).",
+    "Look for clues about the G2/M checkpoint: a question might mention a cell verifying that all DNA is replicated and undamaged right before mitosis - identifying this as the <u>G2 checkpoint</u> is key, which occurs at the end of G2 phase.",
+    "Cell cycle sequence questions: If asked what comes right before mitosis (M phase) in the cell cycle, the answer is <u>G2 phase</u>. Conversely, what comes after S? That's G2. Keeping the order straight (G1 -> S -> G2 -> M) is crucial."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 6.2: The Cell Cycle (G2 phase description)",
+      "url": "https://openstax.org/books/biology-2e/pages/6-2-the-cell-cycle"
+    },
+    {
+      "title": "Pressbooks - Human Genetics, Ch.7: Cell Cycle (G2 phase and preparation for mitosis)",
+      "url": "https://pressbooks.gvsu.edu/humangenetics/chapter/chapter-7-cell-cycle-and-cell-division/"
+    },
+    {
+      "title": "Nature Education (Scitable) - Eukaryotic Cell Cycle (overview of G1, S, G2, checkpoints)",
+      "url": "https://www.nature.com/scitable/topicpage/cell-cycle-and-cell-division-14122659"
+    }
+  ]
+}

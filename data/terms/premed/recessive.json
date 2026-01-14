@@ -1,0 +1,33 @@
+{
+  "id": "recessive",
+  "names": ["Recessive", "Recessive allele"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "In genetics, **\"recessive\"** describes an allele or trait that is <u>only expressed when an individual has two identical copies of that allele</u> (no dominant allele is present). If a dominant allele is present, it will <u>mask the recessive allele's effect</u>, so the recessive trait does not show.",
+  "tips": [
+    "Someone with <u>one recessive allele and one dominant allele</u> for a trait is a **carrier** of the recessive trait - they usually do not show the trait but can pass the recessive allele to children.",
+    "Recessive traits can appear to **skip generations**: two unaffected carrier parents can have a child who shows a recessive trait (<u>each child of carrier parents has a 25% chance of being affected</u>).",
+    "**Recessive does not mean rare.** For example, having five fingers is actually due to recessive alleles and is very common, whereas the trait for six fingers (polydactyly) is caused by a dominant allele but is rare."
+  ],
+  "exam_appearance": [
+    "Pedigree clues for a recessive trait: the trait may pop up in a child even if neither parent shows it (<u>unaffected parents having an affected child suggests recessive inheritance</u>). Often, these parents are **carriers** of a recessive allele.",
+    "In Punnett square problems, crossing two heterozygotes (carriers) typically yields a **3:1 ratio of phenotype** (75% exhibit the dominant trait, 25% the recessive trait). That **1 in 4** showing the recessive trait is a hallmark of recessive inheritance.",
+    "Be ready to recognize <u>autosomal recessive patterns</u> (e.g., a disorder appearing in siblings born to unaffected parents, with equal probability in sons and daughters). Classic examples of recessive conditions include **cystic fibrosis** and **sickle-cell anemia**, which occur only when both alleles are the recessive variant."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Recessive Trait",
+      "url": "https://www.genome.gov/genetics-glossary/Recessive-Traits-and-Alleles"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Autosomal Recessive Inheritance",
+      "url": "https://medlineplus.gov/ency/article/002052.htm"
+    },
+    {
+      "title": "OpenStax Biology 2e: Section 12.2 (Dominant vs Recessive Alleles)",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    }
+  ]
+}

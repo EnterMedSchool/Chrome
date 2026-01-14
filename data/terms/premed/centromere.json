@@ -1,0 +1,37 @@
+{
+  "id": "centromere",
+  "names": ["Centromere"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "The **centromere** is a <u>constricted region of a chromosome where spindle fibers attach during cell division</u>. After spindle attachment, sister chromatids are pulled to opposite sides of the dividing cell so the daughter cells end up with identical DNA.",
+  "tips": [
+    "Centromere = the **chromosome's constricted region** where <u>sister chromatids are held together</u>.",
+    "Spindle fiber microtubules <u>attach to **kinetochore proteins** at the centromeres</u>; kinetochore proteins bind the centromere to spindle microtubules.",
+    "The centromere <u>divides a chromosome into a **short p arm** and a **long q arm**</u> (used in gene/chromosome location notation)."
+  ],
+  "exam_appearance": [
+    "If you picture an X-shaped chromosome, the thin \"pinched\" region where the arms join -> the **<u>centromere</u>**.",
+    "If the question mentions kinetochores attaching spindle microtubules to chromosomes -> the attachment site is at the **<u>centromere region</u>**.",
+    "If a stem uses labels like Xp or 5q -> **<u>p and q arms are defined by the centromere position</u>**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI (Talking Glossary): Centromere",
+      "url": "https://www.genome.gov/genetics-glossary/Centromere"
+    },
+    {
+      "title": "OpenStax Biology 2e: 11.1 The Process of Meiosis (kinetochore proteins at centromeres; spindle microtubules attachment)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "title": "OpenStax Biology 2e: Ch. 10 Key Terms (centromere definition; sister chromatids bound together)",
+      "url": "https://openstax.org/books/biology-2e/pages/10-key-terms"
+    },
+    {
+      "title": "MedlinePlus Genetics: How do geneticists indicate the location of a gene- (p and q arms based on centromere)",
+      "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/genelocation/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "nad-plus",
+  "names": [
+    "NAD+",
+    "Nicotinamide adenine dinucleotide (oxidized)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**NAD+ (nicotinamide adenine dinucleotide)** is a coenzyme found in all living cells that acts as an <u>electron acceptor</u>. It is the <u>oxidized form of NAD</u> (lacking electrons). NAD+ can accept two electrons and one proton (H+) to become NADH. In metabolic pathways (like glycolysis and the citric acid cycle), NAD+ is <u>essential for capturing electrons from nutrient molecules</u>; those electrons are carried as NADH and later used to produce ATP.",
+  "tips": [
+    "Think of NAD+ as an <u>'empty shuttle' for electrons</u>: it picks up electrons during catabolic reactions, turning into NADH (the 'full shuttle'). If NAD+ is unavailable or all in the NADH form, pathways like glycolysis cannot proceed because there-s no carrier to take the electrons. That-s why cells must <u>regenerate NAD+ continually</u>.",
+    "Under aerobic conditions, NAD+ is regenerated when NADH donates its electrons to the electron transport chain (with oxygen ultimately accepting those electrons). Under anaerobic conditions (no oxygen), cells regenerate NAD+ via <u>fermentation</u> (e.g., converting pyruvate to lactate or ethanol, which oxidizes NADH back to NAD+).",
+    "NAD+ and NADH are part of the same <u>redox couple</u>. NAD+ is the <u>oxidizing agent (electron acceptor)</u> and NADH is the <u>reducing agent (electron donor)</u>. A classic exam question might ask which form has more energy (answer: NADH contains the high-energy electrons, whereas NAD+ is energy-poor until it-s reduced)."
+  ],
+  "exam_appearance": [
+    "**Oxidation-reduction questions:** You may see something like 'which cofactor is required for this dehydrogenase enzyme-' In many cases, the answer is <u>NAD+</u> (as it will be reduced to NADH). Recognize NAD+ as a common coenzyme for dehydrogenase enzymes (like those in glycolysis and the TCA cycle).",
+    "**NAD+ vs NADH:** Questions often test knowing which is oxidized vs reduced. NAD+ is <u>oxidized</u> (no electrons attached) and NADH is <u>reduced</u> (carrying electrons). For instance, 'which form of NAD is regenerated during fermentation-' Answer: **NAD+** (because NADH is oxidized back to NAD+).",
+    "**Vitamin link:** Some exam questions connect vitamins to coenzymes. Remember that NAD+ is derived from <u>niacin (vitamin B3)</u>. A severe niacin deficiency (pellagra) affects NAD+/NADH levels and thereby impairs energy production. So, if asked 'which vitamin deficiency would directly reduce the cell-s ability to carry out oxidation-reduction reactions in catabolism-', niacin (B3) is the answer (due to its role in NAD+)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Fiveable (AP Biology) - NAD+/NADH Explanation",
+      "url": "https://fiveable.me/key-terms/college-bio/nadnadh/"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 7.1: NAD+ in Cellular Respiration",
+      "url": "https://openstax.org/books/biology-2e/pages/7-1-energy-in-living-systems"
+    },
+    {
+      "title": "Oregon State Univ. (Linus Pauling Institute) - Niacin and NAD+",
+      "url": "https://lpi.oregonstate.edu/mic/vitamins/niacin"
+    }
+  ]
+}

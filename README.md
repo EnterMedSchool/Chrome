@@ -1,4 +1,4 @@
-# EMS Medical Glossary 📚
+# EnterMedSchool Glossary 📚
 
 A Chrome extension that automatically highlights medical terminology on any webpage and provides instant, comprehensive definitions for medical students.
 

@@ -1,0 +1,36 @@
+{
+  "id": "pns",
+  "names": [
+    "Peripheral Nervous System",
+    "PNS"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The peripheral nervous system (PNS)** is the part of the nervous system <u>outside the brain and spinal cord</u>. It consists of <u>nerves and ganglia</u> that connect the CNS to the rest of the body, carrying <u>sensory information in</u> and transmitting <u>motor commands out</u>.",
+  "tips": [
+    "The PNS includes <u>12 pairs of cranial nerves</u> and <u>31 pairs of spinal nerves</u>, as well as ganglia (clusters of neuron cell bodies) located outside the CNS. These nerves extend to all parts of the body, allowing the brain and spinal cord to communicate with limbs and organs.",
+    "Functionally, the PNS is divided into the <u>somatic nervous system</u> (controls voluntary movements and transmits sensory information from skin, muscles, etc.) and the <u>autonomic nervous system</u> (controls involuntary functions like heart rate, digestion).",
+    "The autonomic nervous system, part of the PNS, further splits into <u>sympathetic</u> and <u>parasympathetic</u> divisions, which have opposite effects (<u>fight-or-flight vs rest-and-digest</u>). For example, sympathetic nerves speed up heart rate, while parasympathetic nerves slow it down."
+  ],
+  "exam_appearance": [
+    "If asked \"What does the peripheral nervous system include?\" -> answer: all neural elements outside the brain and spinal cord (nerves extending into the body and their ganglia).",
+    "If a question says a nerve injury in the arm or a problem with a cranial nerve -> that involves the <u>PNS</u> (since it's outside the brain/spinal cord). Damage to peripheral nerves can sometimes heal, unlike CNS injuries which are often permanent.",
+    "If a stem discusses autonomic functions (like reflex control of organs) or sensory input from the skin -> it's dealing with the <u>PNS</u>. For instance, sensation in your fingertips travels via peripheral nerves to the CNS, and motor impulses to muscles travel back via PNS nerves."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Medical Encyclopedia - Central vs Peripheral Nervous System",
+      "url": "https://medlineplus.gov/ency/imagepages/8679.htm"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - 12.1: Structure of Nervous System (CNS vs PNS)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system"
+    },
+    {
+      "title": "OpenStax Psychology 2e - 3.3: Parts of the Nervous System (CNS vs PNS)",
+      "url": "https://openstax.org/books/psychology-2e/pages/3-3-parts-of-the-nervous-system"
+    }
+  ]
+}

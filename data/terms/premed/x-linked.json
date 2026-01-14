@@ -1,0 +1,33 @@
+{
+  "id": "x-linked",
+  "names": ["X-linked"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**X-linked** describes genes or traits located on the <u>X chromosome</u>. Because females have two X chromosomes (XX) and males have one (XY), X-linked traits often show specific inheritance patterns: for example, an X-linked recessive trait can be <u>masked in females</u> (who have a second X) but will <u>express in males</u> who carry the allele (since males have only one X).",
+  "tips": [
+    "X-linked recessive traits tend to appear <u>much more frequently in males than females</u>. A male has no \"backup\" normal allele on a second X, so a single recessive allele on his X will cause the trait. Classic examples: **red-green color blindness** and **hemophilia A** affect males predominantly, while females are usually carriers unless they inherit two affected X alleles.",
+    "Fathers cannot pass X-linked traits to their sons (because a father gives his son a Y chromosome, not an X). However, an affected father will pass the X-linked allele to <u>all of his daughters</u>. Thus, in X-linked recessive cases, an affected father makes all his daughters carriers (if the mother provides a normal X).",
+    "When the mother is a carrier of an X-linked recessive trait, each son has a <u>50% chance</u> of receiving the affected X (and being affected), and each daughter has a <u>50% chance</u> of receiving the affected X (and thus becoming a carrier). This is why X-linked recessive conditions often skip generations through carrier females."
+  ],
+  "exam_appearance": [
+    "In pedigree analysis, a telltale sign of X-linked recessive inheritance is that the trait affects <u>mostly males</u> and often <u>skips a generation</u> (transmitted through carrier females). For instance, an affected maternal grandfather may have carrier daughters who then have affected sons.",
+    "If a question notes that an affected father transmits the trait to <u>all his daughters but none of his sons</u>, it points to an X-linked pattern (X-linked dominant if daughters are affected, or X-linked recessive if daughters are carriers).",
+    "Problems may ask about probabilities: e.g., \"If a mother is an asymptomatic carrier of an X-linked disorder and the father is unaffected, what is the chance of their son having the disease?\" (Answer: 50% for a son, since the son must inherit the mother's X). Recognize that scenario as X-linked inheritance."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics: Patterns of Inheritance (X-linked)",
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/#x-linked"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Sex-linked Recessive (X-linked inheritance)",
+      "url": "https://medlineplus.gov/ency/article/002051.htm"
+    },
+    {
+      "title": "Better Health Channel: Genes and Genetics (X-linked vs Y-linked genes)",
+      "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/genes-and-genetics"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "fad-plus",
+  "names": [
+    "FAD",
+    "Flavin adenine dinucleotide"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**FAD** (flavin adenine dinucleotide) is a redox coenzyme that can accept electrons and protons. In its oxidized state (often notated just as FAD or sometimes FAD-), it can <u>accept two electrons and two protons to become FADH-</u> (its reduced form). FAD is a cofactor for several dehydrogenase enzymes; for example, it is bound to <u>succinate dehydrogenase</u> in the citric acid cycle. FAD is derived from <u>riboflavin (vitamin B2)</u>.",
+  "tips": [
+    "When FAD accepts electrons, it does so by taking on <u>two hydrogens (H-)</u>, becoming FADH-. This typically happens in enzyme active sites. A key difference from NAD-: FAD is often <u>tightly bound to its enzyme (a prosthetic group)</u>, whereas <u>NAD- is usually a free-floating coenzyme</u>.",
+    "In metabolic pathways, whenever you see an enzyme that produces FADH-, that enzyme has FAD as a cofactor in its oxidized form. For instance, <u>succinate dehydrogenase uses FAD to oxidize succinate to fumarate</u>, reducing FAD to FADH- in the process. Later, FADH- is oxidized back to FAD as it passes electrons into the electron transport chain (<u>at CoQ/Complex II</u>).",
+    "Because FAD is linked to <u>vitamin B2</u>, dietary <u>riboflavin</u> is required to maintain adequate FAD/FMN levels. This means <u>riboflavin deficiency</u> could impair any biochemical pathway requiring FAD. Fortunately, riboflavin is common in foods, and severe deficiency is uncommon."
+  ],
+  "exam_appearance": [
+    "**Enzyme cofactor questions:** A question might ask something like 'Which coenzyme is required by <u>succinate dehydrogenase</u>-' The answer is <u>FAD (which gets reduced to FADH-)</u>. Similarly, in questions about fatty acid oxidation, the first step (by <u>acyl-CoA dehydrogenase</u>) uses FAD as a cofactor, producing FADH-.",
+    "**NAD vs FAD:** Sometimes exams compare these two coenzymes. Key points: <u>NAD- is typically free in solution and picks up one proton (H-) when reduced</u>, whereas <u>FAD is often enzyme-bound and picks up two protons</u>. NADH is produced in many steps (glycolysis, Krebs, etc.), while FADH- is produced in fewer steps (like one step in Krebs cycle). Recognize that both are vital electron carriers but have slightly different roles and yields (as discussed, <u>FADH- yields less ATP</u>).",
+    "**Vitamin B2 connection:** If you see a question about a patient with <u>ariboflavinosis (riboflavin deficiency)</u> having issues in energy metabolism, connect it to <u>FAD/FMN</u>. The question might describe symptoms and ask which coenzyme is directly affected; the answer could be <u>FAD (and FMN)</u> because they come from riboflavin."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Section 7.4: Role of FAD in Complex II",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+    },
+    {
+      "title": "Biology Online - Definition of FAD (Flavin Adenine Dinucleotide)",
+      "url": "https://www.biologyonline.com/dictionary/flavin-adenine-dinucleotide"
+    },
+    {
+      "title": "Oregon State Univ. - Riboflavin (Vitamin B2) and Flavin Coenzymes",
+      "url": "https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "deletion",
+  "names": [
+    "Deletion"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "In genetics, a **deletion** is a type of mutation where <u>one or more nucleotides (bases) are removed from a DNA sequence</u>. Deletions can be as small as a single base removed or as large as an entire piece of chromosome lost, potentially eliminating multiple genes.",
+  "tips": [
+    "A small deletion in a gene (if not in a multiple of 3 bases) will cause a **frameshift mutation**, likely rendering the gene's protein nonfunctional because the reading frame of the genetic code is disrupted.",
+    "Larger deletions can remove important genes entirely. For example, a deletion on chromosome 5 causes **Cri-du-chat syndrome**, and a specific 3-base deletion in a gene (CFTR) is the most common cause of **cystic fibrosis**.",
+    "Because genetic code is read in triplets, deletions of 3 (or multiples of 3) bases might only remove one or more amino acids but leave the rest of the protein's reading frame intact (possibly a milder effect compared to a frameshift)."
+  ],
+  "exam_appearance": [
+    "Look for clues like \"a nucleotide is missing\" or \"a segment of DNA is lost\" - that indicates a **deletion mutation**. Exam questions may ask the consequence, e.g., frameshift if in coding DNA.",
+    "If presented with a DNA sequence comparison showing bases or chunks missing in the mutant, you're dealing with a deletion. A classic test example: original sequence vs mutant sequence with one base gone - students are asked about the effect on the protein (frameshift and likely premature stop codon).",
+    "Sometimes exams highlight human disorders caused by deletions (to test understanding of mutations affecting phenotype). Knowing examples like the ones mentioned (e.g., cystic fibrosis 3-bp deletion, Cri-du-chat large deletion) can provide context."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "National Human Genome Research Institute - Glossary: Deletion",
+      "url": "https://www.genome.gov/genetics-glossary/Deletion"
+    },
+    {
+      "title": "Your Genome (Wellcome) - Deletion Mutation (illustration and explanation)",
+      "url": "https://www.yourgenome.org/facts/what-is-a-deletion-mutation/"
+    },
+    {
+      "title": "Genetics Home Reference (NIH) - Examples of genetic conditions caused by deletions",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/#types"
+    }
+  ]
+}

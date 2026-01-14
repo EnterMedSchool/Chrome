@@ -1,0 +1,31 @@
+{
+  "id": "connective-tissue",
+  "names": [
+    "Connective tissue"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Connective tissue** is a broad category of tissue that <u>supports, connects, or separates</u> different types of tissues and organs in the body. It typically consists of cells embedded in an abundant <u>extracellular matrix</u> of fibers (like collagen or elastin) and ground substance. Examples of connective tissue include bone, cartilage, fat (adipose), blood, and tendons.",
+  "tips": [
+    "Connective tissue's general roles: providing structural support (bones supporting the body, cartilage cushioning joints), binding structures together (tendons connect muscle to bone; ligaments connect bone to bone), protecting organs (fat cushions organs; bone protects the brain), and transporting substances (blood transports nutrients and wastes).",
+    "Cells commonly found in connective tissues include fibroblasts (produce fibers and matrix), chondrocytes in cartilage, osteocytes in bone, adipocytes in fat, and blood cells. The composition of the matrix (fibers and fluid/gel/solid) gives each connective tissue its properties (e.g., bone's matrix is hardened with minerals, blood's matrix is fluid plasma).",
+    "A common exam point: **Blood is classified as a connective tissue** (because it has cells suspended in a fluid matrix and derives from mesoderm). Students sometimes overlook that blood and lymph are connective tissues. Also, connective tissues are generally characterized by having relatively few cells spread out in a lot of extracellular material, unlike epithelial tissue which is tightly cellular."
+  ],
+  "exam_appearance": [
+    "Identification: If a question describes tissue with an extensive extracellular matrix or mentions fibers like collagen, it's referring to **connective tissue**. For instance, a question might ask \"which tissue type has collagen and elastic fibers and supports body organs?\" - the answer is connective tissue.",
+    "Examples often tested: Knowing that bone, cartilage, blood, fat are connective tissues. A trick question may list several tissues and ask which one is not connective - e.g., muscle is not, but bone/blood are.",
+    "Remember that connective tissue originates mostly from the embryonic mesoderm layer. So if an exam connects germ layers to tissue types, connective (along with muscle) comes from mesoderm."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Tissue types (connective tissue function)",
+      "url": "https://medlineplus.gov/ency/imagepages/8682.htm"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Ch.4.1 (Connective tissue supports and connects body parts)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues"
+    }
+  ]
+}

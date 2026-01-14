@@ -1,0 +1,35 @@
+{
+  "id": "sympatric-speciation",
+  "names": [
+    "Sympatric speciation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Sympatric speciation** occurs when new species arise from a single ancestral species while <u>inhabiting the same geographic region</u>. No physical barrier separates the populations; instead, reproductive isolation happens due to <u>other factors</u> (genetic changes, behavioral shifts, etc.) in the shared habitat.",
+  "tips": [
+    "**\"Sym\" means same** -- in sympatric speciation, organisms live in the <u>same place</u>, but something divides the gene pool (for example, a sudden genome change like **polyploidy** in plants, or a switch to a different food source or mating preference).",
+    "Polyploidy (having extra sets of chromosomes) is a common cause of <u>rapid sympatric speciation in plants</u>; a polyploid offspring can't reproduce with the original population, effectively creating a new species.",
+    "Sympatric speciation can also occur through **ecological niche differentiation**: subgroups of a population exploit different resources or habitats in the same area and become specialized (e.g., fish in the same lake adapting to different diets or depths, eventually becoming separate species)."
+  ],
+  "exam_appearance": [
+    "If a question describes speciation without a geographic barrier (e.g., a plant doubling its chromosome number to form a new species on the spot), that's **sympatric speciation**.",
+    "Be ready for examples like apple maggot flies adapting to a new host plant in the same area (initial step towards sympatric speciation), or **cichlid fish** diversifying in the same lake by specializing in different diets.",
+    "A test might contrast allopatric vs sympatric: remember that <u>sympatric is speciation in the same area</u> (no physical isolation), often via genetic quirks or niche partitioning."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Sympatric Speciation (Section 18.2)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species#fs-id1176508680021"
+    },
+    {
+      "title": "National Geographic Society - Sympatric Speciation (cichlid example in Adaptation & Survival article)",
+      "url": "https://education.nationalgeographic.org/resource/adaptation-and-survival"
+    },
+    {
+      "title": "Understanding Evolution (UC Berkeley) - Sympatric speciation",
+      "url": "https://evolution.berkeley.edu/modes-of-speciation/sympatric-speciation"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "glycolysis",
+  "names": [
+    "Glycolysis"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Glycolysis** is the <u>anaerobic breakdown of glucose (a 6-carbon sugar) into two 3-carbon pyruvate molecules</u>. This process occurs in the <u>cytoplasm</u> of cells and yields a small amount of energy: a <u>net gain of 2 ATP molecules and 2 NADH molecules per glucose</u>.",
+  "tips": [
+    "Nearly all living organisms perform glycolysis as the <u>first stage of extracting energy from glucose</u>. It does <u>not require oxygen</u> (glycolysis itself is anaerobic).",
+    "The pathway uses **2 ATP** in its initial 'investment' phase and produces **4 ATP** in the 'payoff' phase, for a <u>net gain of 2 ATP per glucose</u>. It also produces **2 NADH** by reducing NAD+ when glyceraldehyde-3-phosphate is oxidized.",
+    "If oxygen is available, the pyruvate produced will be <u>shuttled into mitochondria for further oxidation</u> (pyruvate oxidation and Krebs cycle). If oxygen is absent, cells can divert pyruvate to <u>fermentation pathways (like lactic acid fermentation) to regenerate NAD+</u> and allow glycolysis to continue."
+  ],
+  "exam_appearance": [
+    "**Location clue:** A question might ask 'Where in the cell does glucose get converted to pyruvate-' The answer is the <u>cytoplasm</u> (glycolysis occurs in the cytosol, not in mitochondria).",
+    "**Energy accounting trap:** Exams often test the net vs gross ATP yield of glycolysis. Remember: **4 ATP are produced** in total, but **2 are used**, so the <u>net gain is 2 ATP per glucose (plus 2 NADH)</u>.",
+    "**Oxygen scenario:** If a question describes a cell producing ATP from glucose without mitochondria or without oxygen, it-s pointing to glycolysis (and likely fermentation to recycle NAD+). <u>Glycolysis is the universal anaerobic pathway for ATP production</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Section 7.2: Glycolysis (Overview and Phases)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-2-glycolysis"
+    },
+    {
+      "title": "Introductory Biology I - Glycolysis (Pressbooks OER)",
+      "url": "https://raider.pressbooks.pub/biology1/chapter/27_glycolysis/"
+    },
+    {
+      "title": "CK-12 Biology Flexbook - Glycolysis (ATP yield explanation)",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/section/4.2/primary/lesson/glycolysis-bio"
+    }
+  ]
+}

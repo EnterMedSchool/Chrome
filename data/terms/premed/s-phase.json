@@ -1,0 +1,38 @@
+{
+  "id": "s-phase",
+  "names": [
+    "S phase",
+    "Synthesis phase"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**S phase** (Synthesis phase) is the part of the cell cycle during which <u>DNA replication occurs</u>. In S phase, each chromosome's DNA is copied to produce <u>two identical sister chromatids</u>. By the end of S phase, the cell's DNA content has doubled (though the number of chromosomes is considered the same, since chromatids remain attached at their centromeres). In addition to duplicating the genome, cells also duplicate the <u>centrosome during S phase</u> to prepare for mitosis.",
+  "tips": [
+    "Think **\"S for DNA Synthesis.\"** It's the only time in the cell cycle when the cell makes a complete copy of its DNA. After S phase, the cell will have duplicated all its genetic material, ready to be divided between two daughter cells.",
+    "At the end of S phase in human cells, for example, a cell that had 46 chromosomes still has 46 chromosomes, but each is now composed of <u>2 sister chromatids</u> (so we often say 92 chromatids total). This distinction is often tested: chromosome number vs DNA content. After S, DNA content is doubled, but chromosome count (by centromere) is unchanged until those chromatids separate.",
+    "The centrosome (the microtubule organizing center in animal cells) also duplicates during S phase. This ensures that when the cell enters mitosis, it has two centrosomes that will form the bipolar spindle. An exam question might mention <u>centriole duplication in S phase</u> as a clue.",
+    "S phase follows G1 and precedes G2. The cell must pass the <u>G1 checkpoint (restriction point)</u> to enter S. If conditions aren't right, the cell won't initiate S phase. This is a point of regulation often highlighted: once S begins, the cell is committed to division (barring issues detected at G2 checkpoint)."
+  ],
+  "exam_appearance": [
+    "Direct question: \"During which phase of the cell cycle is DNA replicated?\" - The answer is <u>S phase</u>. Recognize that neither G1 nor G2 involve DNA replication (they are gaps before and after S).",
+    "Data interpretation: You might see a graph of DNA content per cell vs. cell cycle phase. Cells in G1 have a baseline 2n DNA content, S phase cells show a range between 2n and 4n (as DNA is being duplicated), and G2/M cells have 4n. Identifying S phase corresponds to the cells with <u>intermediate DNA content</u> or actively doubling DNA.",
+    "If a question describes an experiment where radioactive nucleotides are incorporated into DNA, the cells that show labeling are the ones in S phase (because that's when new DNA is being synthesized).",
+    "Sometimes asked in context of the cell cycle order: e.g., \"List the sequence of events starting from a newly divided cell.\" Know it's <u>G1 -> S -> G2 -> M</u>. So S is firmly in the middle of interphase."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 6.2: The Cell Cycle (S phase description)",
+      "url": "https://openstax.org/books/biology-2e/pages/6-2-the-cell-cycle"
+    },
+    {
+      "title": "NCBI Books: The Cell Cycle (DNA synthesis in S phase)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9876/"
+    },
+    {
+      "title": "Pressbooks - Human Genetics, Ch.7: Cell Cycle (defines G1, S, G2 phases)",
+      "url": "https://pressbooks.gvsu.edu/humangenetics/chapter/chapter-7-cell-cycle-and-cell-division/"
+    }
+  ]
+}

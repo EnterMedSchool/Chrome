@@ -1,0 +1,31 @@
+{
+  "id": "t-tubule",
+  "names": [
+    "T-Tubule",
+    "Transverse Tubule"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**T-tubules (transverse tubules)** are deep invaginations of a muscle fiber's plasma membrane (sarcolemma) that tunnel into the cell's interior. They allow the muscle cell's <u>action potential (electrical impulse)</u> to travel rapidly into the fiber, ensuring that the excitation signal reaches all myofibrils simultaneously.",
+  "tips": [
+    "In skeletal muscle, T-tubules are positioned at each <u>A-I band junction</u> of the sarcomere and are flanked by the sarcoplasmic reticulum (SR) on both sides. One T-tubule plus two adjacent SR terminal cisternae form a **<u>triad</u>**. This anatomical arrangement allows the electrical signal in the T-tubule to immediately trigger calcium release from the SR for contraction.",
+    "During **<u>excitation-contraction coupling</u>**, the depolarization of the T-tubule membrane activates voltage-sensitive receptors (DHP receptors) in the T-tubule, which are mechanically linked to calcium release channels (ryanodine receptors) in the SR. As a result, Ca2+ floods out of the SR near the myofilaments, initiating muscle contraction.",
+    "Because of T-tubules, even large muscle fibers contract quickly and uniformly. Without functional T-tubules, the interior of a muscle fiber would receive the membrane depolarization more slowly or not at all, leading to weak or uncoordinated contraction."
+  ],
+  "exam_appearance": [
+    "Classic question setup: How does a muscle action potential lead to calcium release? The answer involves the <u>T-tubules</u> carrying the action potential inward, causing the SR to release Ca2+. If you see a question about an impulse traveling into a muscle fiber, the key structure is the **<u>T-tubule</u>**.",
+    "Identify on diagrams: A <u>triad</u> in muscle histology consists of a T-tubule with two flanking SR cisternae. An exam might show an electron micrograph or schematic and ask what the transverse tubule's role is - the correct explanation: it propagates the depolarization from the sarcolemma into the fiber to trigger calcium release from the SR."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Ch.10 Key Terms: \"T-tubule\" (sarcolemma projection into muscle cell)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-key-terms"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Excitation-Contraction Coupling (T-tubule conducts depolarization; triad with SR for Ca2+ release)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation"
+    }
+  ]
+}

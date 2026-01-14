@@ -1,0 +1,32 @@
+{
+  "id": "nervous-tissue",
+  "names": [
+    "Nervous tissue",
+    "Neural tissue"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Nervous tissue** is the tissue type that makes up the nervous system, composed of <u>nerve cells (neurons) and supporting glial cells</u>. It is specialized for communication: neurons within nervous tissue transmit <u>electrical impulses (nerve signals)</u> that carry information throughout the body. This tissue forms the <u>brain, spinal cord, and nerves</u>.",
+  "tips": [
+    "One of the four basic animal tissue types (along with epithelial, connective, and muscle). Nervous tissue consists of <u>neurons</u> (which conduct signals) and <u>neuroglia</u> (which support and protect neurons).",
+    "Neurons in nervous tissue are excitable cells that generate and propagate electrical impulses (action potentials). Glial cells (like astrocytes, oligodendrocytes, Schwann cells, etc.) do not carry impulses but serve roles such as insulating axons (myelin sheaths), supplying nutrients, and maintaining the environment around neurons.",
+    "Nervous tissue is found in the central nervous system (brain and spinal cord) and peripheral nerves. For example, the <u>gray matter</u> of the brain is nervous tissue rich in neuron cell bodies; the <u>white matter</u> is nervous tissue with myelinated neuron axons."
+  ],
+  "exam_appearance": [
+    "If a question asks which tissue type \"allows rapid internal communication via electrical signals,\" the answer is **nervous tissue**.",
+    "Identification tip: On histology images, nervous tissue may show large star-shaped cells (neurons) with long processes (axons/dendrites). Recognizing neurons indicates nervous tissue.",
+    "Be aware of the distinction between \"nervous tissue\" and a \"nerve.\" A nerve (in the peripheral nervous system) is an organ composed largely of nervous tissue (bundles of neuron axons plus connective tissue). A question might describe a bundle of fibers carrying impulses to muscles - that is a nerve (made of nervous tissue)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Tissue types (overview of nervous tissue)",
+      "url": "https://medlineplus.gov/ency/imagepages/8682.htm"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Ch.4.1 (Nervous tissue is excitable, transmits impulses)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mrna",
+  "names": ["mRNA", "Messenger RNA"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Messenger RNA** is a <u>single-stranded RNA copy of a gene</u> that serves as a <u>template for protein synthesis</u>. **mRNA** is transcribed from DNA in the nucleus and carries the genetic message to the cytoplasm, where ribosomes translate that message into a protein.",
+  "tips": [
+    "An **mRNA** molecule is essentially a \"messenger\" between DNA and protein: it has a sequence of **codons** (three-base sequences) that <u>specify amino acids</u>.",
+    "In eukaryotes, a mature mRNA has a <u>5' cap and a 3' poly-A tail</u>, which protect it and help it interact with ribosomes. These features distinguish **mRNA** from other RNA types.",
+    "**mRNA is transient.** Cells constantly produce, use, and degrade mRNAs. This allows <u>regulation of protein production</u> - short-lived mRNAs mean protein isn't made for long."
+  ],
+  "exam_appearance": [
+    "If a question asks which molecule <u>carries genetic code from the nucleus to ribosomes</u>, the answer is **mRNA**. A classic clue is \"RNA that codes for protein\".",
+    "Questions about **codons** usually point to **mRNA**. For example, \"which RNA contains codons for amino acids-\" -> **mRNA** (because tRNA has anticodons, not codons).",
+    "Be careful not to confuse mRNA with other RNAs on exams. If the context is <u>carrying information or the result of transcription</u>, it's **mRNA** (not tRNA or rRNA)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Messenger RNA",
+      "url": "https://www.genome.gov/genetics-glossary/Messenger-RNA-mRNA"
+    },
+    {
+      "title": "OpenStax Biology 2e - 15.3 Eukaryotic Transcription (mRNA processing)",
+      "url": "https://openstax.org/books/biology-2e/pages/15-3-eukaryotic-transcription"
+    },
+    {
+      "title": "Khan Academy - mRNA overview",
+      "url": "https://www.khanacademy.org/science/biology/gene-expression-central-dogma/translation-polypeptides/a/central-dogma-revisited"
+    }
+  ]
+}

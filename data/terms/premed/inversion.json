@@ -1,0 +1,35 @@
+{
+  "id": "inversion",
+  "names": [
+    "Inversion"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "An **inversion** is a chromosome mutation in which a segment of DNA breaks off and reattaches in the opposite orientation. In an inversion, the order of genes in that segment is reversed. Importantly, inversions typically do not involve a gain or loss of genetic material - just a flipped segment.",
+  "tips": [
+    "Because no DNA is lost or gained, many inversions have no overt effect on the carrier - unless the breakpoints occur within an important gene, disrupting its function.",
+    "Inversions are categorized by whether they include the centromere: **pericentric** inversions involve the centromere, while **paracentric** inversions do not. This detail can matter for genetic outcomes during meiosis.",
+    "During meiosis, an individual with one normal chromosome and one inverted chromosome segment can have trouble aligning them properly. This can lead to <u>abnormal gametes</u> (some with duplications or deletions) if crossover happens within the inversion loop - a consideration in fertility or offspring viability."
+  ],
+  "exam_appearance": [
+    "If a karyotype or chromosome diagram is shown with a segment reversed in orientation (but all parts present), that indicates an **inversion**. A question might ask which mutation doesn't change the amount of DNA - the answer would be inversions (or translocations) as opposed to deletions/duplications.",
+    "Exam questions on inversions may test understanding that gene order is changed. For instance, they could describe a chromosomal mutation where gene sequence ABCDE changes to ADCBE - recognizing this as an inversion of C-D segment.",
+    "Also be prepared for questions about why an inversion carrier might have increased risk of miscarriages or infertile offspring - relating to production of unbalanced gametes if crossovers occur inside the inversion."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "National Human Genome Research Institute - Glossary: Inversion",
+      "url": "https://www.genome.gov/genetics-glossary/Inversion"
+    },
+    {
+      "title": "Britannica - Chromosomal Mutation (Inversions have no net loss/gain of genes)",
+      "url": "https://www.britannica.com/science/mutation-genetics#ref1267518"
+    },
+    {
+      "title": "Nature Education - Chromosomal Inversions (Impacts on meiosis)",
+      "url": "https://www.nature.com/scitable/topicpage/chromosomal-inversion-variations-and-evolution-301"
+    }
+  ]
+}

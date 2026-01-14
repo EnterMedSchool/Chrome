@@ -1,0 +1,33 @@
+{
+  "id": "fructose",
+  "names": ["Fructose"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Fructose** is a <u>six-carbon monosaccharide sugar (C₆H₁₂O₆)</u> commonly known as \"fruit sugar.\" It is an <u>isomer of glucose</u> with a slightly different structure (fructose is a **ketohexose**), and it is found in fruits, honey, and as part of the disaccharide sucrose (table sugar).",
+  "tips": [
+    "Fructose, glucose, and galactose all have the same molecular formula **C₆H₁₂O₆** but different structures. Fructose has a <u>ketone functional group (it's a ketose)</u>, whereas glucose is an <u>aldose</u>.",
+    "Dietarily, fructose is abundant in fruit and honey, and it <u>combines with glucose to form sucrose (table sugar)</u>. When you digest sucrose, you get <u>one glucose and one fructose molecule</u>.",
+    "Fructose is primarily <u>metabolized in the liver</u>. It enters glycolysis after being converted to intermediates (bypassing the main glucose regulatory step), which is why <u>excessive fructose intake is linked to fatty liver and metabolic issues</u> - a notable fact for advanced understanding."
+  ],
+  "exam_appearance": [
+    "If a question mentions <u>\"fruit sugar\"</u> or a sugar found in honey and fruit juices, that's **fructose**. Also, any question about sucrose being made of two monosaccharides expects the answer <u>\"glucose and fructose.\"</u>",
+    "Exam tricks may involve knowing fructose vs glucose differences. For example, a question might describe a sugar that is a <u>ketose</u> and ask which sugar it is - **fructose is the classic ketohexose** to identify.",
+    "Fructose might come up in human biology contexts: e.g., \"Which sugar do sperm cells use for energy in seminal fluid-\" The answer is **fructose** (a fact often noted in physiology). Recognize that this is different from <u>glucose being the main blood sugar</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - Carbohydrates (Fructose as a common monosaccharide)",
+      "url": "https://openstax.org/books/concepts-biology/pages/2-3-biological-molecules"
+    },
+    {
+      "title": "OpenStax Biology 2e - Figure 2.15: Glucose vs Fructose structures",
+      "url": "https://openstax.org/books/biology-2e/pages/4-2-carbohydrates#fs-id1162857109727"
+    },
+    {
+      "title": "NCBI Bookshelf - Biochemistry (Fructose metabolism in liver)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK22395/"
+    }
+  ]
+}

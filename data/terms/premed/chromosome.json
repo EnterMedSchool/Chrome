@@ -1,0 +1,33 @@
+{
+  "id": "chromosome",
+  "names": ["Chromosome"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **chromosome** is a <u>threadlike structure made of protein and a single DNA molecule</u> that carries genomic information. In plants and animals, chromosomes are located in the cell nucleus.",
+  "tips": [
+    "Humans have **22 pairs of autosomes plus 1 pair of sex chromosomes (XX or XY)** = <u>46 total chromosomes</u>.",
+    "Each **chromosome pair** includes <u>one chromosome inherited from each parent</u>.",
+    "Chromosomes aren't **visible in the nucleus when a cell is not dividing**; they become <u>more tightly packed during cell division</u> and can then be seen under a microscope."
+  ],
+  "exam_appearance": [
+    "If a stem says DNA in the nucleus is packaged into thread-like structures made of DNA coiled around histone proteins -> that's describing **<u>chromosomes</u>**.",
+    "If a question asks for the typical chromosome count in a human cell -> **<u>23 pairs (46 total)</u>**, with 22 autosome pairs and 1 sex-chromosome pair.",
+    "If a prompt contrasts \"not visible when not dividing\" vs \"visible during division\" -> it's pointing to **<u>chromosome condensation during cell division</u>**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI (Talking Glossary): Chromosome",
+      "url": "https://www.genome.gov/genetics-glossary/Chromosome"
+    },
+    {
+      "title": "MedlinePlus Genetics: What is a chromosome-",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/chromosome/"
+    },
+    {
+      "title": "MedlinePlus Genetics: How many chromosomes do people have-",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/howmanychromosomes/"
+    }
+  ]
+}

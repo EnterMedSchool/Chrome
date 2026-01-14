@@ -1,0 +1,35 @@
+{
+  "id": "independent-assortment",
+  "names": [
+    "Law of Independent Assortment",
+    "Mendel's Second Law"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The law of independent assortment** states that <u>genes for different traits are sorted into gametes independently of one another</u>. In other words, the allele a gamete receives for one gene does not influence the allele received for another gene (assuming the genes are <u>on different chromosomes or far apart on the same chromosome</u>).",
+  "tips": [
+    "Independent assortment is illustrated by a **dihybrid cross**: e.g., in peas, seed color and seed shape alleles assort independently, producing the classic **9:3:3:1 ratio** in the F2 generation.",
+    "This law holds true for genes located on separate chromosomes (or sufficiently far apart on the same chromosome). Genes that are close together on the same chromosome may be <u>linked</u>, which is an exception to independent assortment.",
+    "Remember: independent assortment is about <u>multiple genes</u>. Don't confuse it with the law of segregation (which is about the <u>two alleles of one gene</u> separating)."
+  ],
+  "exam_appearance": [
+    "Genetics questions involving <u>two traits</u> often rely on this law. For example, a problem might state that one trait is inherited independently of another - indicating <u>no linkage</u> and an application of independent assortment.",
+    "If an exam asks why all combinations of traits occur in offspring (even combinations not seen in the parents), the answer is usually <u>independent assortment during meiosis</u> (unless linkage is involved)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Khan Academy - Mendel's law of independent assortment (article)",
+      "url": "https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/the-law-of-independent-assortment"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 8.2 Laws of Inheritance (Independent Assortment)",
+      "url": "https://openstax.org/books/concepts-biology/pages/8-2-laws-of-inheritance"
+    },
+    {
+      "title": "Biology LibreTexts - The law of independent assortment",
+      "url": "https://bio.libretexts.org/Bookshelves/Genetics/Book%3A_Mendelian_Genetics_(Mozek)_Incomplete/04%3A_Mendelian_Genetics/4.05%3A_The_law_of_independent_assortment"
+    }
+  ]
+}

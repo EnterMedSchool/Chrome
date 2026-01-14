@@ -1,0 +1,40 @@
+{
+  "id": "cns",
+  "names": [
+    "Central Nervous System",
+    "CNS"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The central nervous system (CNS)** is the part of the nervous system consisting of the <u>brain and spinal cord</u>. It serves as the body's <u>main control center</u>, processing information and coordinating activity; the brain handles conscious functions and homeostasis, while the spinal cord manages reflexes and links the brain to peripheral nerves.",
+  "tips": [
+    "The CNS is protected by the <u>skull (brain)</u> and <u>vertebral column (spinal cord)</u>, as well as three layers of membranes (<u>meninges</u>) and <u>cerebrospinal fluid</u>. This bony protection is a key difference between the CNS and the peripheral nervous system (PNS).",
+    "Neurons in the CNS form networks for complex processing: the brain is responsible for higher functions (<u>memory, emotion, decision-making</u>) and regulating body systems, while the spinal cord can independently mediate <u>simple reflexes</u> (like the knee-jerk reflex).",
+    "Damage to the CNS (e.g., spinal cord injury or stroke) is often serious because CNS neurons have <u>limited ability to regenerate</u>. This is why protecting the brain and spinal cord (e.g., wearing helmets, avoiding spine trauma) is critical."
+  ],
+  "exam_appearance": [
+    "If a question asks \"Which structures make up the central nervous system?\" -> the answer is the <u>brain and spinal cord</u>.",
+    "If a scenario mentions an injury \"within the spinal column\" or \"inside the skull\" affecting nervous tissue -> it's referring to the <u>CNS</u> (encased in bone), whereas nerves outside those areas belong to the <u>PNS</u>.",
+    "If a question contrasts information processing in the brain/spinal cord vs signal transmission in nerves -> it's distinguishing the <u>CNS (processing center)</u> from the <u>PNS</u> (which carries information to/from the CNS)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - 12.1: Central and Peripheral Nervous Systems",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-1-basic-structure-and-function-of-the-nervous-system"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - 13.2: The Central Nervous System (intro)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/13-2-the-central-nervous-system"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia - Central nervous system and peripheral nervous system",
+      "url": "https://medlineplus.gov/ency/imagepages/8679.htm"
+    },
+    {
+      "title": "Queensland Brain Institute - Central Nervous System overview (brain & spinal cord)",
+      "url": "https://qbi.uq.edu.au/brain/brain-anatomy/central-nervous-system-brain-and-spinal-cord"
+    }
+  ]
+}

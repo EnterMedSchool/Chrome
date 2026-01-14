@@ -1,0 +1,36 @@
+{
+  "id": "fadh2",
+  "names": [
+    "FADH2",
+    "Flavin adenine dinucleotide (reduced)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**FADH2** is the reduced form of FAD (flavin adenine dinucleotide), a coenzyme that carries electrons in metabolic reactions. FADH2 contains <u>two high-energy electrons and two protons (H2)</u>. It is produced in processes such as the Krebs cycle (for instance, when succinate is oxidized to fumarate by succinate dehydrogenase, FAD is reduced to FADH2). FADH2 is later oxidized in the electron transport chain (entering at <u>Complex II</u>), contributing to ATP generation.",
+  "tips": [
+    "Each FADH2 can drive the production of roughly **2 ATP** via oxidative phosphorylation (**~1.5 ATP** in more precise estimates). FADH2's electrons feed into <u>Complex II (succinate dehydrogenase) of the ETC</u>, which does not pump protons at that step. Because it skips Complex I, fewer protons are pumped overall per FADH2, explaining why <u>FADH2 yields less ATP than NADH</u>.",
+    "FAD (the oxidized form) is derived from <u>riboflavin (vitamin B2)</u>. This means a <u>riboflavin deficiency</u> can impair processes that rely on FAD/FADH2. Clinically, riboflavin deficiency (<u>ariboflavinosis</u>) might lead to symptoms due to reduced activity of FAD-dependent enzymes (though such deficiency is relatively rare).",
+    "Unlike NAD, which typically floats freely as a coenzyme, FAD is often <u>tightly bound to enzymes as a prosthetic group</u>. For example, in the <u>succinate dehydrogenase complex (Complex II of the ETC)</u>, FAD is permanently attached and gets reduced to FADH2 during the Krebs cycle. When FADH2 is subsequently oxidized (passing electrons to ubiquinone Q), the FAD remains with the enzyme ready for another round. This is a detail to remember if asked about <u>enzyme-bound cofactors</u>."
+  ],
+  "exam_appearance": [
+    "**Energy yield comparison:** A question may ask why NADH produces more ATP than FADH2. The answer lies in their entry points in the ETC: <u>NADH (Complex I) vs FADH2 (Complex II)</u>. Recognize that electrons from FADH2 <u>bypass Complex I</u>, resulting in pumping fewer protons and thus yielding less ATP.",
+    "**Production sites:** Be ready to identify where FADH2 is generated. A classic example: 'Which step of the citric acid cycle produces FADH2-' Answer: the <u>succinate -> fumarate step (catalyzed by succinate dehydrogenase)</u>. Similarly, FADH2 is produced in <u>fatty acid --oxidation</u>. If an exam asks which coenzymes come from which steps, remember <u>FADH2 is not made in glycolysis</u>, but in specific steps of Krebs and fatty acid breakdown.",
+    "**Vitamin connection:** Some exams tie in nutrition: 'Which vitamin is necessary for the formation of FADH2-' The answer is <u>vitamin B2 (riboflavin)</u>, since FAD is synthesized from riboflavin. So a question about a <u>riboflavin deficiency</u> could mention a decrease in ATP production due to lower FAD/FADH2 activity."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - Citric Acid Cycle (FADH2 generation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/4-3-citric-acid-cycle-and-oxidative-phosphorylation"
+    },
+    {
+      "title": "OpenStax Biology 2e - Electron Transport Chain (Complex II and FADH2)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+    },
+    {
+      "title": "Linus Pauling Institute - Riboflavin (Vitamin B2) and FAD",
+      "url": "https://lpi.oregonstate.edu/mic/vitamins/riboflavin"
+    }
+  ]
+}

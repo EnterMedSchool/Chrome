@@ -1,0 +1,28 @@
+{
+  "id": "incomplete-dominance",
+  "names": ["Incomplete dominance"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Incomplete dominance** is a pattern of inheritance in which a heterozygote's phenotype is <u>intermediate between the phenotypes of the two homozygotes</u>. Neither allele completely dominates the other, so the result is a <u>blended phenotype</u> in the heterozygous individual.",
+  "tips": [
+    "A classic example is flower color in snapdragons: one parent with red flowers and one with white flowers will produce heterozygous offspring with **pink flowers**. The pink phenotype is intermediate, showing <u>incomplete dominance</u> of the red and white alleles.",
+    "In incomplete dominance, heterozygotes have their own phenotype (distinct from either homozygote). This often leads to phenotype ratios like **1:2:1** in a monohybrid cross. For instance, crossing two pink snapdragons (Rr x Rr) yields 25% red (RR), 50% pink (Rr), and 25% white (rr) offspring.",
+    "Key difference from co-dominance: incomplete dominance results in a <u>blend (intermediate trait)</u>, whereas co-dominance results in <u>both traits being displayed separately</u>. If you see \"blended\" or intermediate characteristics in a heterozygote, it's incomplete dominance."
+  ],
+  "exam_appearance": [
+    "If a question describes offspring with a phenotype that is a mix or <u>intermediate</u> of the parents' phenotypes (e.g., two true-breeding plants - one with long leaves and one with short leaves - producing all medium-leaf offspring), that indicates incomplete dominance.",
+    "Exams may emphasize the contrast with complete dominance: in incomplete dominance, you won't see a 3:1 phenotype ratio. Instead, heterozygotes form an additional category. Recognizing a **1:2:1 phenotypic ratio** in F2 generation or an intermediate trait in F1 is a strong clue for incomplete dominance."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e: Section 12.2 (Incomplete Dominance)",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    },
+    {
+      "title": "Biology LibreTexts: Incomplete Dominance (Snapdragon Flower Example)",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Principles_of_Biology/19%3A_Genetics_-Dog_Coat_Color/19.07%3A_Incomplete_dominance-_when_traits_blend"
+    }
+  ]
+}

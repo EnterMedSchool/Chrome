@@ -1,0 +1,36 @@
+{
+  "id": "lipid-bilayer",
+  "names": [
+    "Lipid Bilayer",
+    "Phospholipid Bilayer"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A lipid bilayer** is a <u>double-layered sheet of phospholipid molecules</u> that forms the core structure of cell membranes. The phospholipids are arranged with their <u>hydrophilic (water-attracted) -heads- facing the aqueous environments</u> on each side of the membrane and their <u>hydrophobic -tails- tucked inward</u>, forming a stable barrier between the inside and outside of the cell.",
+  "tips": [
+    "The <u>hydrophobic interior of the bilayer</u> makes the membrane selectively permeable: <u>small nonpolar molecules can diffuse through</u>, but charged or large polar substances are blocked without transport proteins.",
+    "Phospholipids <u>self-assemble into bilayers in water</u> due to the **hydrophobic effect** - this spontaneous formation is fundamental to how cells form membranes.",
+    "All biological membranes (the plasma membrane and organelle membranes) have a <u>phospholipid bilayer foundation</u>. The **fluid mosaic model** describes how proteins, cholesterol, and carbohydrates are embedded in or attached to this moving bilayer framework."
+  ],
+  "exam_appearance": [
+    "Diffusion question - -Which type of molecule crosses a phospholipid bilayer most easily-- Answer: <u>small, nonpolar molecules (e.g. gases like O-/CO-)</u>; ions or polar molecules cannot pass freely.",
+    "Structural clue - A description of <u>two layers of molecules with hydrophobic tails facing each other</u> points to the **phospholipid bilayer** (basic structure of a membrane).",
+    "Terminology trap - -Lipid bilayer- is essentially the same as -phospholipid bilayer- (sometimes just called the cell membrane structure in general). If you see either term, it refers to the <u>double layer of phospholipids in membranes</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "The Cell: A Molecular Approach 2nd Ed. - Plasma Membrane Structure (phospholipid bilayer barrier)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9898/"
+    },
+    {
+      "title": "OpenStax Biology 2e - Ch. 5 Summary (plasma membrane is a phospholipid bilayer with hydrophobic tails interior)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-chapter-summary"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 3.4: The Cell Membrane (hydrophilic heads and hydrophobic tails arrangement)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-4-the-cell-membrane"
+    }
+  ]
+}

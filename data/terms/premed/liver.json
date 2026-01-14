@@ -1,0 +1,31 @@
+{
+  "id": "liver",
+  "names": [
+    "Liver"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The liver** is the <u>largest internal organ</u> of the body and a vital metabolic center. Located in the upper right abdomen, the liver has hundreds of functions - it processes nutrients absorbed from the digestive tract, <u>detoxifies chemicals and drugs</u>, produces bile for fat digestion, synthesizes important proteins (like albumin and clotting factors), and stores energy in the form of glycogen.",
+  "tips": [
+    "One of the liver's key roles is filtering blood coming from the digestive organs via the <u>hepatic portal vein</u>. This \"first pass\" metabolism means nutrients and toxins absorbed in the gut are processed by the liver before entering general circulation.",
+    "The liver produces bile, a substance that helps emulsify fats for digestion. Bile is made in the liver and stored in the gallbladder - a common test point is that the <u>gallbladder stores bile but does not produce it</u>.",
+    "The liver has significant <u>regenerative capacity</u> - it can recover from injury by regenerating tissue. However, chronic damage (as from hepatitis or alcohol abuse) can lead to cirrhosis (scarring) which impairs liver function."
+  ],
+  "exam_appearance": [
+    "Commonly appears in context of metabolism or detoxification. For example, a question might ask which organ is primarily responsible for converting ammonia (from protein breakdown) into urea - the answer is the liver (<u>urea cycle</u>). The kidneys then excrete the urea.",
+    "Expect questions about the consequences of liver failure: e.g., easy bruising/bleeding due to lack of <u>clotting factors</u>, edema due to low <u>albumin</u>, or toxin accumulation. Knowing the liver makes clotting proteins and albumin helps connect these symptoms to liver dysfunction.",
+    "Be mindful of confusion with the kidney: both filter blood, but the liver <u>chemically detoxifies and metabolizes</u> substances (drugs, alcohol, etc.), whereas the kidneys physically filter and excrete waste into urine."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Weill Cornell Medicine - Understanding the Liver (Functions and Importance)",
+      "url": "https://weillcornell.org/understanding-the-liver"
+    },
+    {
+      "title": "Cleveland Clinic - Liver: Function & Anatomy (500+ functions including filtering blood, making bile & proteins)",
+      "url": "https://my.clevelandclinic.org/health/body/21481-liver"
+    }
+  ]
+}

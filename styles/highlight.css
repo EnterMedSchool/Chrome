@@ -1,5 +1,5 @@
 /**
- * EMS Medical Glossary - Term Highlighting Styles
+ * EnterMedSchool Glossary - Term Highlighting Styles
  * Injected into web pages to style highlighted terms.
  * Uses CSS variables for customization.
  */
@@ -87,5 +87,48 @@
   .ems-term--background:hover,
   .ems-term--bold:hover {
     transition: none;
+  }
+}
+
+/* Terms inside links - show external link indicator */
+a .ems-term::after,
+a.ems-term::after {
+  content: '↗';
+  font-size: 0.65em;
+  margin-left: 0.15em;
+  opacity: 0.6;
+  vertical-align: super;
+  color: var(--ems-highlight-color);
+}
+
+/* If term is both multi-match AND in a link, show both indicators */
+a .ems-term--multi::after,
+a.ems-term--multi::after {
+  content: '↗▾';
+}
+
+/* Hint on hover for terms in links */
+a .ems-term:hover::before,
+a.ems-term:hover::before {
+  content: 'Ctrl+Click for link';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px 8px;
+  font-size: 11px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  animation: ems-hint-fade-in 0.2s ease 0.5s forwards;
+  z-index: 10000;
+}
+
+@keyframes ems-hint-fade-in {
+  to {
+    opacity: 1;
   }
 }

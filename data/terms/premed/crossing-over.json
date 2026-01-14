@@ -1,0 +1,35 @@
+{
+  "id": "crossing-over",
+  "names": [
+    "Crossing Over",
+    "Genetic Recombination (in Meiosis)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Crossing over** is the process during meiosis in which <u>two homologous chromosomes exchange genetic material</u>. It occurs in <u>prophase I</u> when <u>non-sister chromatids</u> of a homologous pair swap segments of DNA. Crossing over creates new allele combinations on each chromosome, contributing to <u>genetic diversity</u> in the gametes.",
+  "tips": [
+    "Crossing over happens between <u>homologous chromosomes</u> (for example, between the chromosome 1 from mom and the chromosome 1 from dad). It does **not** occur between <u>sister chromatids</u> of the same chromosome (sisters are identical, so exchanging between them would change nothing).",
+    "The physical evidence of crossing over is the <u>chiasma</u> (pl. chiasmata), which is the <u>X-shaped connection</u> where homologous chromatids have exchanged pieces.",
+    "Crossing over is one reason why siblings (except identical twins) are <u>genetically unique</u>. It shuffles genes - even genes on the same chromosome can be reshuffled if crossing over happens between them."
+  ],
+  "exam_appearance": [
+    "If a question asks about sources of genetic variation in meiosis, crossing over is a key answer (along with independent assortment). For example, \"Name one event in meiosis that increases genetic variability\" -> <u>crossing over in prophase I</u>.",
+    "You might see a diagram of paired chromosomes with segments swapped - identifying that process as crossing over (or \"homologous recombination\") is essential. Also, problems on genetic linkage and mapping rely on understanding that <u>crossing over frequency between two genes indicates their distance apart</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Homologous Recombination",
+      "url": "https://www.genome.gov/genetics-glossary/Homologous-Recombination"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 7.2 Meiosis (Crossing Over and Variation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/7-2-meiosis"
+    },
+    {
+      "title": "OpenStax Biology 2e - Meiosis (Prophase I: crossing over explained)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    }
+  ]
+}

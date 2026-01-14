@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "EMS Medical Glossary",
-  "version": "1.1.0",
+  "name": "EnterMedSchool Glossary",
+  "version": "1.2.0",
   "description": "Highlights medical terms and shows definitions for medical students. 100% offline, privacy-focused.",
   
   "permissions": [
@@ -29,7 +29,7 @@
       "48": "assets/icons/icon-48.png",
       "128": "assets/icons/icon-128.png"
     },
-    "default_title": "EMS Medical Glossary"
+    "default_title": "EnterMedSchool Glossary"
   },
   
   "content_scripts": [

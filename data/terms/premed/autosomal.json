@@ -1,0 +1,32 @@
+{
+  "id": "autosomal",
+  "names": ["Autosomal"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Autosomal** refers to the <u>non-sex chromosomes</u> (chromosomes 1-22 in humans). A gene or trait described as autosomal is located on one of these numbered chromosomes. Autosomal traits generally affect males and females equally, since both sexes have the same set of autosomes.",
+  "tips": [
+    "Humans have 22 pairs of autosomes (numbered 1 through 22) that are the same in males and females, plus 1 pair of sex chromosomes. Therefore, an autosomal gene is present in <u>both sexes</u>, and autosomal traits typically appear in males and females with <u>equal frequency</u> (unlike X-linked traits which often show a sex bias).",
+    "Autosomal inheritance allows <u>father-to-son transmission</u>. This is an important distinction: if a trait is passed from a father to his son, it must be autosomal (or Y-linked) and not X-linked. In exam scenarios, seeing a father and son both affected by a trait suggests it is autosomal.",
+    "Many well-known genetic conditions are autosomal. For example, **cystic fibrosis** is caused by a mutation on chromosome 7 (autosomal recessive), and **Huntington's disease** is caused by a mutation on chromosome 4 (autosomal dominant). In both cases, men and women are equally likely to inherit the gene."
+  ],
+  "exam_appearance": [
+    "In pedigree analysis, an autosomal trait is usually indicated when the trait appears in <u>both males and females in roughly equal proportions</u>. Also, if the trait is observed to be transmitted from fathers to daughters and to sons (<u>no sex restriction in transmission</u>), it points to an autosomal gene.",
+    "If a question mentions a specific numbered chromosome (for example, \"a mutation on chromosome 11\"), that is a clue the gene is autosomal. Be prepared to differentiate this from \"sex-linked\" in questions - autosomal means the inheritance pattern doesn't involve X or Y, so you won't apply the special rules of sex-linked inheritance."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Autosome",
+      "url": "https://www.genome.gov/genetics-glossary/Autosome"
+    },
+    {
+      "title": "Better Health Channel: Genes and Genetics (Autosomes vs Sex Chromosomes)",
+      "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/genes-and-genetics"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Chromosomes (Autosomal vs Sex Chromosomes)",
+      "url": "https://medlineplus.gov/ency/article/002049.htm"
+    }
+  ]
+}

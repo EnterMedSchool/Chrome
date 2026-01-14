@@ -1,0 +1,36 @@
+{
+  "id": "ligand-gated-channel",
+  "names": [
+    "Ligand-Gated Channel",
+    "Ligand-Gated Ion Channel"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A ligand-gated channel** is a type of ion channel that opens or closes in response to the binding of a specific chemical messenger (the **<u>ligand</u>**). In other words, when a ligand (such as a neurotransmitter) binds to the channel's receptor site, the channel protein changes conformation to allow ions to flow through the membrane.",
+  "tips": [
+    "Ligand-gated ion channels translate a chemical signal into an electrical one. For example, when **<u>acetylcholine (ACh)</u>** is released from a neuron and binds to the nicotinic ACh receptors on a muscle cell, those receptor channels open to let Na+ ions in, depolarizing the muscle cell and initiating contraction.",
+    "In neuroscience, ligand-gated channels are also called **<u>ionotropic receptors</u>** because the ligand binding directly causes ion flow. (By contrast, G protein-coupled receptors are **<u>metabotropic</u>** - they act through metabolic signaling cascades rather than an immediate ion flux.)",
+    "Common examples of ligand-gated channels include nicotinic acetylcholine receptors (Na+/K+ channels activated by ACh), GABAA receptors (Cl- channels activated by GABA), and glutamate AMPA receptors (Na+ channels activated by glutamate). Recognizing these examples can be helpful for exam questions."
+  ],
+  "exam_appearance": [
+    "If a question describes a channel that opens when a neurotransmitter or hormone binds (for instance, Na+ channels opening when ACh binds at the neuromuscular junction), that's referring to a **<u>ligand-gated ion channel</u>**.",
+    "Be ready to identify classic ligand-gated channel scenarios: e.g., a problem might mention ACh causing an influx of sodium into a muscle cell - the mechanism is that ACh bound to nicotinic receptors (ligand-gated Na+ channels) on the muscle, causing them to open.",
+    "Exam trap: Don't mix up ligand-gated channels with GPCRs. If the effect is immediate ion flow due to binding, it's a ligand-gated channel; if the effect is mediated by a G protein and second messengers, it's a GPCR."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Ch.15 Key Terms: \"ligand-gated cation channel\" (nicotinic receptor example)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Skeletal Muscle Contraction (ACh opens ligand-gated channels at motor end-plate)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Divisions of ANS (Nicotinic vs Muscarinic ACh receptors; ionotropic vs metabotropic)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system"
+    }
+  ]
+}

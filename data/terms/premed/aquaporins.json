@@ -1,0 +1,38 @@
+{
+  "id": "aquaporins",
+  "names": [
+    "Aquaporins",
+    "Water Channels"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Aquaporins** are integral membrane proteins that serve as <u>channels for water transport in and out of cells</u>. Each aquaporin forms a pore in the cell membrane that allows <u>water molecules to pass through rapidly</u> while preventing ions and other solutes from crossing. By facilitating osmosis, aquaporins help cells maintain water balance, especially in tissues where water movement is critical (such as kidneys, plant roots, and red blood cells).",
+  "tips": [
+    "Aquaporins greatly increase the <u>permeability of the membrane to water</u>. Without aquaporins, water still diffuses across cell membranes, but very slowly. Aquaporins allow water to equilibrate across a membrane much faster.",
+    "They are specific for water (some subtypes can let through small neutral molecules like glycerol, but they do not allow ions or large solutes). This selectivity is important: aquaporins let water through while preserving the cell's <u>ion gradients</u>.",
+    "Location examples to remember: in humans, the kidney collecting ducts have <u>aquaporin-2 channels</u> that are regulated by **ADH (antidiuretic hormone)** to reabsorb water. Plants have aquaporins in root cells to absorb water from soil. Red blood cells have aquaporins to rapidly adjust to changing osmotic conditions.",
+    "Common pitfall: Don't confuse aquaporins with ion channels or pumps. Aquaporins do not actively pump water; it's still <u>passive transport</u> (water flows by osmosis through the channel). They also shouldn't be confused with \"aquatic pore\" or other terms - aquaporin is the standard name for water channel proteins."
+  ],
+  "exam_appearance": [
+    "Often comes up in context of how water crosses membranes. For example: \"Cell membranes are impermeable to most polar substances. Which specialized structure enables water to rapidly cross the membrane?\" Answer: <u>aquaporin channels</u>.",
+    "Possible link to clinical or experimental setups: an exam might mention a mutant organism that can't regulate water well due to a missing channel - expecting you to identify aquaporin deficiency. For instance, in humans, mutations in aquaporin-2 can cause <u>diabetes insipidus</u> (inability to concentrate urine).",
+    "May be referenced in plant biology questions: e.g., how plant root cells absorb water quickly from soil - via aquaporins facilitating osmotic water movement.",
+    "Key recognition: If the question is about <u>rapid water movement</u> or an experiment measuring water flow across membranes, and options include channel proteins, aquaporin is likely the answer."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Nature (Sci Rep 2023) - \"Aquaporins are water channels found in the cell membrane...\" (definition in abstract)",
+      "url": "https://www.nature.com/articles/s41598-023-41616-1"
+    },
+    {
+      "title": "OpenStax Biology 2e - 5.2: Passive Transport (role of aquaporins in osmosis)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+    },
+    {
+      "title": "National Geographic Society - Aquaporins in the Kidney (Water Conservation)",
+      "url": "https://www.nationalgeographic.org/article/thirsty-work/"
+    }
+  ]
+}

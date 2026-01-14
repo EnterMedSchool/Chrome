@@ -1,5 +1,5 @@
 /**
- * EMS Medical Glossary - Popup Content Styles
+ * EnterMedSchool Glossary - Popup Content Styles
  * "Chunky sticker" design aesthetic matching the Anki addon.
  * Loaded into Shadow DOM to prevent style conflicts.
  */
@@ -1251,18 +1251,39 @@
 
 .ems-see-also {
   font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: var(--ems-space-sm);
+}
+
+/* Individual row for "Learn first" or "See also" */
+.ems-see-also-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ems-space-xs);
+  width: 100%;
 }
 
 .ems-see-also-label {
   color: var(--ems-text-muted);
   font-weight: 600;
-  margin-right: var(--ems-space-sm);
+  flex-shrink: 0;
+  margin-right: var(--ems-space-xs);
+}
+
+.ems-see-also-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ems-space-xs);
+  flex: 1;
+  min-width: 0;
 }
 
 .ems-term-link {
   color: var(--ems-purple);
   cursor: pointer;
-  margin-right: var(--ems-space-sm);
   font-weight: 600;
   text-decoration: none;
   padding: 0.25rem 0.5rem;
@@ -1270,6 +1291,7 @@
   border: 2px solid var(--ems-purple);
   border-radius: var(--ems-radius-sm);
   transition: all 0.15s ease;
+  white-space: nowrap;
 }
 
 .ems-term-link:hover {
@@ -1631,15 +1653,22 @@ a:hover {
   display: inline-flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  background: var(--ems-premed-accent, #10B981);
+  background: rgba(255, 255, 255, 0.25);
   color: white;
   font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   border-radius: 999px;
-  margin-left: auto;
-  margin-right: var(--ems-space-md);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.ems-level-badge--premed {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.ems-level-badge--medschool {
+  background: rgba(255, 255, 255, 0.25);
 }
 
 /* Premed sections - cleaner cards */
@@ -2028,11 +2057,15 @@ mark.ems-search-highlight {
 }
 
 .ems-part-of-hidden {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   gap: 0.5rem;
   width: 100%;
   margin-top: 0.5rem;
+}
+
+.ems-part-of-hidden:not([hidden]) {
+  display: flex;
 }
 
 [data-theme="dark"] .ems-part-of-banner {

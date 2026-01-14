@@ -1,0 +1,33 @@
+{
+  "id": "glucose",
+  "names": ["Glucose"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Glucose** is a <u>six-carbon monosaccharide sugar (formula C₆H₁₂O₆)</u> that serves as a <u>primary energy source for cells</u>. It is a key product of photosynthesis and the main fuel metabolized during cellular respiration to produce ATP.",
+  "tips": [
+    "Glucose is an **aldohexose** - a <u>hexose sugar with an aldehyde group</u>. It shares the formula C₆H₁₂O₆ with fructose and galactose, but they differ in structure (they are **isomers**).",
+    "In humans, glucose is the <u>\"blood sugar.\"</u> The normal blood glucose concentration is tightly regulated (<u>about 70-100 mg/dL fasting</u>). Excess glucose is stored as **glycogen** (in liver and muscle), and plants store glucose as starch.",
+    "Glucose is central to metabolism: <u>glycolysis breaks glucose into pyruvate in the cytoplasm</u>, yielding energy. In the presence of oxygen, the breakdown continues in mitochondria (<u>Krebs cycle and oxidative phosphorylation</u>) to generate a large amount of ATP."
+  ],
+  "exam_appearance": [
+    "If a question asks \"What monosaccharide is the main energy source for the brain and body-\" the answer is **glucose**. Clues might include <u>\"blood sugar\"</u> or a scenario involving insulin, diabetes, etc., which revolve around glucose.",
+    "Be prepared for comparisons among sugars. For example, an exam might mention that glucose and fructose are both **C₆H₁₂O₆** but one is an aldose and one a ketose - identifying <u>glucose as the aldose (and fructose as the ketose)</u> is key.",
+    "Photosynthesis and respiration questions often highlight glucose. E.g., \"What molecule is produced by photosynthesis and broken down in cellular respiration-\" Answer: **glucose** (produced by plants, consumed by organisms for energy)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - Carbohydrates (Glucose & its role)",
+      "url": "https://openstax.org/books/concepts-biology/pages/2-3-biological-molecules"
+    },
+    {
+      "title": "OpenStax Biology 2e - Cellular Respiration (glucose to ATP)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-introduction"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia - Blood Sugar Regulation",
+      "url": "https://medlineplus.gov/ency/article/003482.htm"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * EMS Medical Glossary - Onboarding Script
+ * EnterMedSchool Glossary - Onboarding Script
  * Handles slide navigation and settings during first-run experience.
  */
 

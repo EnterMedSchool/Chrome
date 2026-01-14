@@ -1,0 +1,36 @@
+{
+  "id": "vacuole",
+  "names": [
+    "Vacuole",
+    "Vacuoles"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A vacuole** is a <u>membrane-bound sac within a cell</u> that functions in storage and transport of substances. Vacuoles often contain water, nutrients, or waste products; for example, plant cells have a <u>large central vacuole that stores water and helps maintain turgor pressure</u> (keeping the cell rigid). In some cells, vacuoles also have digestive functions similar to lysosomes.",
+  "tips": [
+    "**Plants:** The <u>central vacuole</u> in plant cells can occupy most of the cell-s volume; it stores water, ions, and nutrients, and its pressure against the cell wall keeps the plant cell firm (<u>turgid</u>).",
+    "**Protists:** Certain single-celled eukaryotes have <u>contractile vacuoles that pump out excess water</u> to prevent bursting.",
+    "**Animals:** Animal cells generally have <u>many small vacuoles (often called vesicles)</u>. Animal vacuoles are used for transport and storage of materials, but digestion of macromolecules is typically handled by <u>lysosomes</u>."
+  ],
+  "exam_appearance": [
+    "Plant vs. animal cell diagram - A <u>large fluid-filled sac</u> in a plant cell diagram is the **central vacuole**; in an animal cell such a large vacuole would not be present (animal cells have smaller vesicles).",
+    "Function association - If a question mentions <u>storage of substances or maintenance of cell rigidity in plants</u>, it-s referring to the **vacuole** (for rigidity via water pressure in plants).",
+    "Terminology check - Don-t confuse -vacuole- with -vesicle.- Generally, vacuoles are <u>larger and more prominent in plant cells</u> (for storage and support), while -vesicle- often refers to <u>smaller membrane-bound transport sacs in animal cells</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - Chapter 3 Summary (vesicles and vacuoles as storage compartments; central vacuole in plants)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-chapter-summary"
+    },
+    {
+      "title": "OpenStax Biology 2e - 4.3: Eukaryotic Cells (plant cell features: cell wall, chloroplasts, central vacuole)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    },
+    {
+      "title": "Biology LibreTexts - 4.2: Cell Structures (vacuoles in plant vs animal cells)",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_Biology/Book%3A_Biology_(Kimball)/04%3A_The_Cell/4.02%3A_Cell_Structures"
+    }
+  ]
+}

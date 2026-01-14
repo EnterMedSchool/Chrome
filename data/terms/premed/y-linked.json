@@ -1,0 +1,28 @@
+{
+  "id": "y-linked",
+  "names": ["Y-linked"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Y-linked** traits are determined by genes on the <u>Y chromosome</u>. These traits are <u>passed exclusively from father to son</u>, since only males carry a Y chromosome. A Y-linked gene will only affect male offspring and cannot be transmitted by females (who do not have a Y chromosome).",
+  "tips": [
+    "Only males are affected by Y-linked traits (females have no Y chromosome). If a trait is Y-linked, an affected father will pass it to **100% of his sons** and **0% of his daughters**.",
+    "Y-linked genes typically relate to male-specific functions (for example, genes involved in testes development or sperm production). An example of a Y-linked condition is **Y chromosome infertility**, where a mutation on the Y leads to male infertility and is passed from an affected father to all his sons.",
+    "Because the Y chromosome has relatively few genes, Y-linked disorders are rare. When they do occur, the trait will appear in <u>every generation along the direct male line</u> (father -> son -> grandson, etc.), as long as males have children."
+  ],
+  "exam_appearance": [
+    "A pedigree that shows a trait strictly being passed from fathers to <u>all their sons</u> (and never appearing in any females) is the hallmark of Y-linked inheritance. For instance, if a grandfather, father, and son all have the same condition and no female relatives are ever affected, think Y-linked.",
+    "Exam questions may directly mention \"a gene on the Y chromosome\" - remember that means only <u>male-to-male transmission</u>. If you see male-only transmission with no skips, identify it as Y-linked."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics: Patterns of Inheritance (Y-linked)",
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/#y-linked"
+    },
+    {
+      "title": "Better Health Channel: Genes and Genetics (Y-linked traits)",
+      "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/genes-and-genetics"
+    }
+  ]
+}

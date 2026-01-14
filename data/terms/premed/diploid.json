@@ -1,0 +1,34 @@
+{
+  "id": "diploid",
+  "names": [
+    "Diploid"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Diploid** describes a cell or organism that has <u>two complete sets of chromosomes</u>. In a diploid cell, chromosomes are in pairs - <u>one set inherited from each parent</u>. For example, human somatic cells are diploid with **46 chromosomes (23 pairs)**.",
+  "tips": [
+    "We often denote the diploid number as **2n**. For humans, <u>2n = 46</u>. This means n (the number of unique chromosomes) is 23, and having two sets (2x23) gives **46 total**.",
+    "Nearly all cells in the human body (except gametes) are diploid. Having two sets of each chromosome also means having <u>two copies of each gene</u> (which can be the same allele or different alleles).",
+    "Diploid organisms produce <u>haploid gametes through meiosis</u>. When two haploid gametes fuse at fertilization, the diploid number is restored in the offspring."
+  ],
+  "exam_appearance": [
+    "Common question: \"How many chromosomes are in a human [or given organism] diploid cell?\" For humans, recognize the answer is **46 (in 23 pairs)**.",
+    "Be careful with terminology: an exam might say \"2n = 14 for a certain species\" - that indicates diploid cells have 14 chromosomes total. You should then know <u>n = 7</u> (haploid number)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Diploid",
+      "url": "https://www.genome.gov/genetics-glossary/Diploid"
+    },
+    {
+      "title": "NCBI Bookshelf - Heritable Human Genome Editing (2020) [Glossary: Diploid]",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK565925/#!po=159"
+    },
+    {
+      "title": "OpenStax Biology 2e - Meiosis Introduction (diploid vs. haploid explanation)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    }
+  ]
+}

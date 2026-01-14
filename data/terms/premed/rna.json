@@ -1,0 +1,34 @@
+{
+  "id": "rna",
+  "names": ["RNA", "Ribonucleic Acid"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**RNA** is a <u>nucleic acid similar to DNA but usually single-stranded</u>. It contains **ribose sugar** (instead of deoxyribose) and uses **<u>uracil (U) in place of thymine</u>**. RNA plays multiple roles in cells, including serving as the <u>intermediary between DNA and proteins</u>.",
+  "tips": [
+    "Types of RNA include **messenger RNA (mRNA)**, **transfer RNA (tRNA)**, and **ribosomal RNA (rRNA)**. <u>mRNA carries genetic code from DNA; tRNA and rRNA help assemble proteins</u>.",
+    "Unlike the double-stranded DNA, RNA is typically **single-stranded**. It can fold into complex shapes and even have **enzymatic activity (as in ribozymes)**.",
+    "RNA can be found in <u>both the nucleus and cytoplasm</u>. For example, **mRNA is synthesized in the nucleus** and then exported through <u>nuclear pores to the cytoplasm for translation</u>.",
+    "Some viruses use **RNA as their genetic material**. (This is an exception to DNA as the genetic material - notable in RNA viruses like **influenza or HIV**.)"
+  ],
+  "exam_appearance": [
+    "If you see a nucleic acid described with <u>uracil (U) bases or ribose sugar</u>, the question is about **RNA** (not DNA). For instance, \"single-stranded molecule with A, U, C, G bases\" points to **RNA**.",
+    "Transcription and translation questions often involve **RNA**. E.g., a question might ask what molecule carries the genetic code from nucleus to ribosome - answer: **mRNA** (a type of RNA).",
+    "Be ready to distinguish RNA vs DNA functions. An exam might describe an experiment where <u>genetic material is RNA</u> (like certain viruses), testing if you know that **not all genomes are DNA**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: RNA",
+      "url": "https://www.genome.gov/genetics-glossary/Ribonucleic-Acid-RNA"
+    },
+    {
+      "title": "OpenStax Biology 2e - RNA Structure & Types (vs DNA)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells#fs-id1161874687922"
+    },
+    {
+      "title": "MedlinePlus Genetics - Basics of Genetics (DNA vs RNA mention)",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/"
+    }
+  ]
+}

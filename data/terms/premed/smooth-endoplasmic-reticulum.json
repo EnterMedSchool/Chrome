@@ -1,0 +1,37 @@
+{
+  "id": "smooth-endoplasmic-reticulum",
+  "names": [
+    "Smooth Endoplasmic Reticulum",
+    "Smooth ER",
+    "sER"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "The **smooth endoplasmic reticulum (smooth ER)** is a network of membranous tubules in the cell, continuous with the rough ER but <u>lacking ribosomes on its surface</u>. The smooth ER is primarily involved in <u>lipid synthesis (including phospholipids and steroid hormones)</u>, <u>detoxification of drugs and poisons</u>, metabolism of alcohol, and <u>storage of calcium ions</u>.",
+  "tips": [
+    "**Key functions:** Smooth ER makes <u>lipids and steroids</u> (e.g. in liver cells and endocrine cells), and it contains enzymes that break down toxins - liver cells have extensive smooth ER for **detoxification**.",
+    "In muscle cells, a specialized smooth ER called the **sarcoplasmic reticulum** stores <u>Ca--</u> and releases it to trigger muscle contraction.",
+    "**Contrast with Rough ER:** Smooth ER <u>does not have ribosomes</u> and does not directly synthesize secretory proteins. It focuses on <u>lipid production and detox</u>, whereas rough ER (with ribosomes) makes proteins."
+  ],
+  "exam_appearance": [
+    "Common distinction - -Which organelle is responsible for <u>synthesizing lipids and detoxifying chemicals</u>-- Answer: **Smooth ER** (examiners expect you to differentiate smooth vs rough ER function).",
+    "Cell type clue - If a question mentions a cell that produces <u>steroid hormones</u> (like an adrenal gland cell) or <u>detoxifies drugs</u> (like a liver cell), expect that these cells have abundant **smooth ER** to perform those functions.",
+    "Terminology: If you see -sarcoplasmic reticulum- in muscle physiology questions, remember it-s a <u>form of smooth ER specialized for calcium storage</u> in muscle cells."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - 3.3: Eukaryotic Cells (Smooth ER functions: lipid synthesis, detox, Ca-- storage)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-3-eukaryotic-cells"
+    },
+    {
+      "title": "OpenStax Biology 2e - 4.4: The Endomembrane System (role of smooth ER in lipid production and detoxification)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+    },
+    {
+      "title": "Molecular Biology of the Cell 4th Ed. - Section 12.1 (smooth ER in specialized cells for detox and lipid metabolism)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26882/"
+    }
+  ]
+}

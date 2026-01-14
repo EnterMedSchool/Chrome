@@ -1,5 +1,5 @@
 /**
- * Stats Page for EMS Medical Glossary
+ * Stats Page for EnterMedSchool Glossary
  * Display usage statistics and favorites.
  * 
  * @module stats

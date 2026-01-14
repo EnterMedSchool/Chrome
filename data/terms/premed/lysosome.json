@@ -1,0 +1,35 @@
+{
+  "id": "lysosome",
+  "names": [
+    "Lysosome"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A lysosome** is a membrane-bound organelle in eukaryotic cells that contains <u>digestive enzymes</u>. It functions as the cell's <u>\"recycling center\"</u>, breaking down excess or worn-out cell parts, macromolecules (proteins, carbohydrates, lipids, nucleic acids), and even invading pathogens.",
+  "tips": [
+    "Lysosomes maintain an <u>acidic internal pH (~5)</u> optimal for their enzymes; if a lysosome leaks, the released enzymes are inactive in the neutral cytosol, protecting the cell.",
+    "They play a key role in **<u>autophagy</u>** (digesting the cell's own broken organelles) and in defending against infection by digesting engulfed bacteria or viruses.",
+    "Don't confuse **lysosome** (cellular organelle) with **lysozyme** (an enzyme in saliva and tears that breaks down bacterial cell walls) - a common exam trap!"
+  ],
+  "exam_appearance": [
+    "Often mentioned in questions about intracellular digestion - e.g., \"Which organelle breaks down waste materials and worn-out organelles?\" -> <u>lysosome</u>.",
+    "Name trap -> *Lysosome* vs *Lysozyme*: Lysosomes are organelles; lysozyme is an enzyme (a classic trick to watch for).",
+    "Organelle confusion -> Lysosomes vs **peroxisomes**: Lysosomes use <u>acid hydrolase enzymes</u> to digest materials, whereas peroxisomes carry out <u>oxidative reactions</u> (e.g., fatty acid breakdown and detoxification via hydrogen peroxide)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Lysosome",
+      "url": "https://www.genome.gov/genetics-glossary/Lysosome"
+    },
+    {
+      "title": "OpenStax Biology 2e - Ch.4 Key Terms: \"Lysosome\" (animal cell digestive organelle)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-key-terms"
+    },
+    {
+      "title": "The Cell: A Molecular Approach - Lysosomes (cell digestive system function)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9953/"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "heme",
+  "names": ["Heme", "Heme group"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Heme** is an <u>iron-containing molecular component (a prosthetic group)</u> found in hemoglobin and certain other proteins. It consists of a large ring-shaped organic molecule called a porphyrin, with an iron atom bound at its center. The iron in heme is what binds and carries oxygen.",
+  "tips": [
+    "Heme is the reason blood is red and able to transport oxygen. Each hemoglobin protein in red blood cells contains <u>four heme groups</u>, and each heme's central iron atom can bind one oxygen molecule - allowing one hemoglobin to carry up to <u>four oxygen molecules</u> from the lungs to tissues.",
+    "Heme is not only in hemoglobin; it's also in **myoglobin** (the oxygen-binding protein in muscles) and in various enzymes like **cytochromes** (which use heme to help in electron transport and chemical reactions). In all these cases, the heme group's iron plays a critical role in binding gases or electrons.",
+    "Iron availability is <u>crucial for making heme</u>. This is why iron deficiency can lead to **anemia**: without enough iron, the body can't form adequate heme groups for hemoglobin, resulting in reduced oxygen-carrying capacity of the blood."
+  ],
+  "exam_appearance": [
+    "Frequently asked: \"Which part of hemoglobin binds oxygen?\" The answer is the **heme group** (specifically, the <u>iron ion in heme binds oxygen</u>). Remember that without heme, hemoglobin cannot transport O2.",
+    "Questions on iron metabolism or anemia often tie back to heme. For example, an exam might ask why iron deficiency impairs oxygen transport - the explanation is that iron is needed to form heme in hemoglobin. Recognizing heme's role will guide you to the correct reasoning."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Encyclopædia Britannica: Heme (Iron-Porphyrin Oxygen Carrier)",
+      "url": "https://www.britannica.com/science/heme"
+    },
+    {
+      "title": "StatPearls (NIH/NLM): Biochemistry of Heme (Protoporphyrin IX + Iron)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK537329/"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Section 18.3 (Hemoglobin and Heme)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes"
+    }
+  ]
+}

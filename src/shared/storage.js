@@ -1,5 +1,5 @@
 /**
- * Chrome storage utilities for EMS Medical Glossary
+ * Chrome storage utilities for EnterMedSchool Glossary
  * Provides a simple API for reading/writing settings
  * @module storage
  */
@@ -70,6 +70,7 @@ export async function getSettings() {
       STORAGE_KEYS.FONT_SIZE,
       STORAGE_KEYS.HOVER_PREVIEW,
       STORAGE_KEYS.HOVER_DELAY,
+      STORAGE_KEYS.ENABLE_BETA_FEATURES,
     ]);
 
     return {
@@ -83,6 +84,7 @@ export async function getSettings() {
       fontSize: result[STORAGE_KEYS.FONT_SIZE] ?? DEFAULT_SETTINGS.fontSize,
       hoverPreview: result[STORAGE_KEYS.HOVER_PREVIEW] ?? DEFAULT_SETTINGS.hoverPreview,
       hoverDelay: result[STORAGE_KEYS.HOVER_DELAY] ?? DEFAULT_SETTINGS.hoverDelay,
+      enableBetaFeatures: result[STORAGE_KEYS.ENABLE_BETA_FEATURES] ?? DEFAULT_SETTINGS.enableBetaFeatures,
     };
   } catch (error) {
     console.error('[EMS] Failed to get settings:', error);
@@ -128,6 +130,9 @@ export async function saveSettings(settings) {
     }
     if (settings.hoverDelay !== undefined) {
       toSave[STORAGE_KEYS.HOVER_DELAY] = settings.hoverDelay;
+    }
+    if (settings.enableBetaFeatures !== undefined) {
+      toSave[STORAGE_KEYS.ENABLE_BETA_FEATURES] = settings.enableBetaFeatures;
     }
 
     await chrome.storage.local.set(toSave);

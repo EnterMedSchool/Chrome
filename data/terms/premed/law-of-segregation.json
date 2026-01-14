@@ -1,0 +1,35 @@
+{
+  "id": "law-of-segregation",
+  "names": [
+    "Law of Segregation",
+    "Mendel's First Law"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The law of segregation** is Mendel's principle that the <u>two alleles for a single trait separate (segregate) during gamete formation</u>. This means <u>each gamete receives only one allele of each gene</u>, giving offspring an equal chance of inheriting either allele from a parent.",
+  "tips": [
+    "In a heterozygous individual (Aa), half the gametes will carry A and half will carry a - this <u>50/50 split</u> is due to segregation of alleles during meiosis.",
+    "This law explains why recessive traits can reappear in the **F2 generation**: alleles that were paired in parents separate into different gametes and recombine in offspring.",
+    "Law of Segregation deals with <u>one gene at a time</u> (one pair of alleles). It's different from <u>independent assortment</u>, which involves two or more different genes."
+  ],
+  "exam_appearance": [
+    "If a genetics question asks why <u>each gamete has only one copy of a gene</u>, it's invoking the law of segregation. For example, a **monohybrid cross** yielding a **3:1 ratio** in **F2** supports this law.",
+    "A classic Punnett square scenario (<u>Aa x Aa</u>) assumes allele segregation: each parent produces gametes with A or a in equal proportion. Recognize that this stems from the law of segregation."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Khan Academy - Mendel's law of segregation (article)",
+      "url": "https://www.khanacademy.org/science/ap-biology/heredity/mendelian-genetics-ap/a/the-law-of-segregation"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 8.2 Laws of Inheritance (Mendel's Law of Segregation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/8-2-laws-of-inheritance"
+    },
+    {
+      "title": "Biology LibreTexts - Mendel's Law of Segregation",
+      "url": "https://bio.libretexts.org/Bookshelves/Genetics/Book%3A_Mendelian_Genetics_(Mozek)_Incomplete/04%3A_Mendelian_Genetics/4.04%3A_The_law_of_segregation"
+    }
+  ]
+}

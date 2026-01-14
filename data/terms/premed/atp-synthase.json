@@ -1,0 +1,35 @@
+{
+  "id": "atp-synthase",
+  "names": [
+    "ATP synthase"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**ATP synthase** is a large protein complex in the <u>inner mitochondrial membrane</u> (and similar membranes of bacteria and chloroplasts) that <u>synthesizes ATP from ADP and inorganic phosphate</u>. It is powered by a <u>flow of protons (H- ions) down their electrochemical gradient</u>, essentially functioning as a molecular turbine that converts proton motive force into chemical energy (ATP production).",
+  "tips": [
+    "ATP synthase is sometimes called the **F-F- ATPase or F-F- complex**: the <u>F- portion forms a channel for protons in the membrane</u>, and the <u>F- portion is the catalytic knob that phosphorylates ADP</u>. As protons pass through, parts of the enzyme rotate, mechanically driving the formation of ATP.",
+    "This enzyme is responsible for the <u>majority of ATP generated in aerobic respiration</u>. For example, each NADH that feeds into the electron transport chain results in roughly **2.5 ATP** via ATP synthase, and each FADH- yields **~1.5 ATP** (these values come from protons pumped and subsequently used by ATP synthase).",
+    "Uncouplers or damage to the mitochondrial inner membrane can <u>dissipate the proton gradient</u>, which means ATP synthase can <u>no longer produce ATP</u> even if the electron transport chain is functioning. (E.g., the weight-loss drug DNP allows protons to leak across the membrane, bypassing ATP synthase.)"
+  ],
+  "exam_appearance": [
+    "**Mechanism clue:** If a question mentions a 'proton gradient' or 'chemiosmosis' driving ATP production, it-s referring to ATP synthase. Recognize that the electron transport chain creates the proton gradient, but <u>ATP synthase is the enzyme that actually makes ATP</u>.",
+    "**Organelle context:** A question might ask what enzyme in chloroplasts produces ATP during the light reactions, or in bacteria during respiration - it-s still <u>ATP synthase</u> (located in the thylakoid membrane of chloroplasts, or plasma membrane of bacteria, functioning similarly to mitochondria).",
+    "**Inhibitors:** Sometimes exams mention compounds like oligomycin (an antibiotic) that inhibits ATP synthase. The result is that the proton gradient cannot be used, so electron transport slows or stops (as the gradient gets too steep), and <u>ATP production ceases</u>. Knowing specific inhibitors is more advanced, but understanding their effect (halting ATP production) is key."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Section 7.4: Chemiosmosis and ATP synthase",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+    },
+    {
+      "title": "OpenStax Biology (AP Courses) - Key Term: ATP synthase",
+      "url": "https://openstax.org/books/biology-ap-courses/pages/7-key-terms"
+    },
+    {
+      "title": "Khan Academy - Oxidative Phosphorylation (Role of ATP Synthase)",
+      "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/oxidative-phosphorylation/a/oxidative-phosphorylation"
+    }
+  ]
+}

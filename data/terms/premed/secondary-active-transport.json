@@ -1,0 +1,37 @@
+{
+  "id": "secondary-active-transport",
+  "names": [
+    "Secondary Active Transport",
+    "Coupled Transport",
+    "Co-transport"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Secondary active transport** is a form of active transport in which one substance is moved against its concentration gradient by coupling it to the downhill movement of a second substance (often an ion) along its gradient. In other words, it uses the energy stored in an <u>electrochemical gradient</u> (established by primary active transport) to drive the uphill transport of another molecule, rather than using ATP directly at that transporter.",
+  "tips": [
+    "Secondary active transport typically involves carrier proteins known as **<u>cotransporters</u>**. If both substances move in the same direction across the membrane, it's called a **<u>symporter</u>**; if they move in opposite directions, it's an **<u>antiporter</u>** (exchanger). These carriers rely on the gradient of one ion (often Na+) to power the movement of another substance.",
+    "A classic example: the **<u>sodium-glucose cotransporter</u>** in intestinal cells. As Na+ ions flow passively into the cell (down their concentration gradient established by the Na+/K+ pump), glucose is dragged in with them, against glucose's gradient. This allows cells to absorb glucose efficiently even when it's more concentrated inside than outside.",
+    "Another example: the **<u>sodium-calcium exchanger</u>** (an antiporter in cardiac muscle cells). It uses the inward flow of Na+ (down its gradient) to expel Ca2+ from the cell against the Ca2+ gradient, helping regulate intracellular calcium levels. Importantly, if the Na+ gradient dissipates (e.g., if Na+/K+ ATPase is poisoned), secondary active transport will stop because its energy source is gone."
+  ],
+  "exam_appearance": [
+    "If an exam question describes a transport protein that <u>does not directly use ATP</u> but instead uses \"the sodium gradient\" or another ion gradient to move a different molecule, that is <u>secondary active transport</u>. Key phrases include \"cotransport\" or \"coupled transport\".",
+    "For instance, a question might ask how glucose is absorbed from the gut lumen into intestinal cells against a concentration gradient: the answer is via <u>Na+-glucose symport</u> (a secondary active transport mechanism that uses the Na+ gradient).",
+    "Distinguish from primary active transport: if the question highlights a pump breaking down ATP (like Na+/K+ ATPase), that's primary. If it highlights one solute's gradient driving another's uptake or export, that's secondary. An example scenario: calcium ions being removed from a cell by swapping with incoming sodium ions - this is <u>secondary active transport</u> (the Na+ gradient, set up by ATP elsewhere, drives Ca2+ out)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "StatPearls - Physiology, Active Transport (primary vs secondary)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547718/"
+    },
+    {
+      "title": "Khan Academy - Active transport (secondary active transport section)",
+      "url": "https://www.khanacademy.org/science/biology/membranes-and-transport/active-transport/a/active-transport"
+    },
+    {
+      "title": "PhysiologyWeb - Secondary Active Transport (overview)",
+      "url": "http://www.physiologyweb.com/lecture_notes/membrane_transport/secondary_active_transport.html"
+    }
+  ]
+}

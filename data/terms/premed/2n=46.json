@@ -1,0 +1,34 @@
+{
+  "id": "2n=46",
+  "names": [
+    "2n=46"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**\"2n = 46\"** is the notation indicating that an organism's <u>diploid number is 46</u>. In humans, this means each somatic cell has 46 chromosomes (23 pairs). Here, n (the haploid number) is 23, and <u>2n (two sets) is 46 total chromosomes</u>.",
+  "tips": [
+    "For humans: <u>2n = 46</u> (diploid) and <u>n = 23</u> (haploid). This is a fundamental fact - a human egg or sperm has 23 chromosomes, and when they combine, the zygote has 46.",
+    "The notation 2n is general: if 2n = X, then <u>n = X/2</u>. For example, if a species has 2n = 16, its gametes have n = 8.",
+    "Sometimes exam questions use this notation to test understanding of ploidy. Remember that \"=46\" refers to the <u>total number of chromosomes</u> in a diploid cell, not the number of chromosome pairs (though 46 corresponds to 23 pairs in humans)."
+  ],
+  "exam_appearance": [
+    "Any question that says \"In species X, 2n = ...\" is giving you the diploid chromosome count. You might be asked to infer the haploid count, or to compare it to another species.",
+    "A classic human biology question: \"How many chromosomes are in a human gamete if 2n = 46?\" The answer is **23** (because gametes are haploid, <u>n = 23</u>). Make sure you're comfortable converting between 2n and n."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics - How many chromosomes do people have?",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/howmanychromosomes/"
+    },
+    {
+      "title": "NHGRI Talking Glossary: Diploid (mentions 23 pairs = 46 total in humans)",
+      "url": "https://www.genome.gov/genetics-glossary/Diploid"
+    },
+    {
+      "title": "OpenStax Biology 2e - Chromosome Number (human 2n=46 context)",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+    }
+  ]
+}

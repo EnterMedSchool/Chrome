@@ -1,0 +1,28 @@
+{
+  "id": "sex-linked",
+  "names": ["Sex-linked"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **sex-linked** trait results from a gene located on a <u>sex chromosome</u> (in humans, either the X or Y chromosome). In practice, most often \"sex-linked\" refers to X-linked traits, since the X chromosome carries many more genes than the Y. These traits show different patterns of inheritance in males and females due to their linkage to the sex chromosomes.",
+  "tips": [
+    "Sex-linked is an <u>umbrella term covering both X-linked and Y-linked inheritance</u>. However, because X-linked traits (like hemophilia or color blindness) are far more common, \"sex-linked\" is often used synonymously with X-linked in many contexts.",
+    "Sex-linked traits differ from autosomal traits in that an individual's sex <u>influences expression</u>. For example, an X-linked recessive trait might affect primarily males (since males have only one X), whereas females can be carriers. Always consider the sex distribution in a pedigree when determining if a trait is sex-linked.",
+    "If you see the term \"sex-linked\" in study materials or exam questions, make sure to apply the rules of X-linked inheritance (no father-son transmission, possible carrier females, etc.) unless the question explicitly specifies Y-linked. It usually implies that the gene in question lies on the <u>X chromosome</u>."
+  ],
+  "exam_appearance": [
+    "Questions might directly use the phrase \"sex-linked inheritance\" - typically, they expect you to recognize an <u>X-linked pattern</u>. For instance, a problem may describe a trait that appears mostly in males and is passed through female carriers; identifying it as a sex-linked (X-linked) trait is key.",
+    "In pedigree problems, a sex-linked trait will show characteristic clues: it may skip generations via female carriers and rarely (or differently) affect one sex. If a trait is described as sex-linked without further detail, assume X-linked and look for the telltale signs (e.g., more males affected, <u>no male-to-male transmission</u>)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Sex-linked Inheritance (overview of X-linked)",
+      "url": "https://medlineplus.gov/ency/article/002051.htm"
+    },
+    {
+      "title": "Better Health Channel: Genes and Genetics (Sex Chromosomes and Sex-Linked Genes)",
+      "url": "https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/genes-and-genetics"
+    }
+  ]
+}

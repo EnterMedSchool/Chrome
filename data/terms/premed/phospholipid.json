@@ -1,0 +1,33 @@
+{
+  "id": "phospholipid",
+  "names": ["Phospholipid"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **phospholipid** is a lipid molecule composed of a <u>glycerol backbone attached to two fatty acid tails and a phosphate group head</u>. Phospholipids are **amphipathic** (having a hydrophobic tail region and hydrophilic head region) and are the <u>primary component of cell membranes, forming lipid bilayers</u>.",
+  "tips": [
+    "In water, phospholipids spontaneously arrange into a **bilayer**: the <u>hydrophobic tails cluster away from water</u>, and the <u>hydrophilic phosphate heads face the water</u>. This self-assembly is what creates cell membranes.",
+    "Each phospholipid has <u>two fatty acid \"tails\" (nonpolar) and one polar \"head\"</u> (the phosphate group often with an additional polar group like choline or serine). In contrast, a **triglyceride has three fatty acid tails and no polar head** (so triglycerides don't form bilayers).",
+    "Because of their **amphipathic nature**, phospholipids allow membranes to be <u>fluid yet selectively permeable</u>: small nonpolar molecules can pass through the hydrophobic core, while charged or large molecules generally cannot without transport proteins."
+  ],
+  "exam_appearance": [
+    "If an exam question describes a molecule with <u>\"hydrophilic head and two hydrophobic tails\"</u> forming membranes, it's describing a **phospholipid**.",
+    "Be ready to distinguish a phospholipid from other lipids. For example, a common trap is confusing phospholipids with fats: a <u>triglyceride has 3 fatty acids and is entirely hydrophobic</u>, whereas a <u>phospholipid has 2 fatty acids + a phosphate (making it amphipathic)</u>.",
+    "Membrane-related questions often hinge on phospholipid behavior. For instance, \"what structural feature of phospholipids enables cell membranes to self-assemble in water-\" Answer: their <u>amphipathic nature (dual hydrophobic/hydrophilic properties)</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Phospholipids (Section 3.3 Lipids)",
+      "url": "https://openstax.org/books/biology-2e/pages/3-3-lipids"
+    },
+    {
+      "title": "OpenStax A&P 2e - Cell Membrane Structure (Phospholipid bilayer)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-1-the-cell-membrane"
+    },
+    {
+      "title": "Biology LibreTexts - Phospholipids and Cell Membranes",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_Biology/Book%3A_Biology_(OpenStax)/03%3A_Biological_Macromolecules/3.03%3A_Lipids#Phospholipids"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 /**
- * Shared constants for EMS Medical Glossary
+ * Shared constants for EnterMedSchool Glossary
  * @module constants
  */
 
 // Extension info
-export const EXTENSION_NAME = 'EMS Medical Glossary';
-export const EXTENSION_VERSION = '1.0.0';
+export const EXTENSION_NAME = 'EnterMedSchool Glossary';
+export const EXTENSION_VERSION = '1.1.0';
 
 // Storage keys
 export const STORAGE_KEYS = {
@@ -123,18 +123,51 @@ export const SKIP_ELEMENTS = [
   'canvas',
 ];
 
-// CSS selectors for elements to skip (rich text editors, etc.)
-export const SKIP_SELECTORS = [
-  '[contenteditable="true"]',
-  '[role="textbox"]',
+// CSS selectors for code editors to always skip (true code editors)
+export const SKIP_EDITOR_SELECTORS = [
   '.CodeMirror',
   '.ace_editor',
   '.monaco-editor',
-  '.ProseMirror',
   '.tox-tinymce',
   '.cke_editable',
   '.ql-editor',
 ];
+
+// CSS selectors for rich text editors that may be used for reading
+// (e.g., Notion uses ProseMirror for both viewing and editing)
+export const SKIP_RICH_TEXT_SELECTORS = [
+  '.ProseMirror',
+];
+
+// CSS selectors for contenteditable elements (may be conditionally skipped)
+export const SKIP_CONTENTEDITABLE_SELECTORS = [
+  '[contenteditable="true"]',
+  '[contenteditable=""]',
+  '[contenteditable]:not([contenteditable="false"])',
+  '[role="textbox"]',
+];
+
+// CSS selectors for elements to skip (rich text editors, etc.)
+// Combined for backward compatibility
+export const SKIP_SELECTORS = [
+  ...SKIP_EDITOR_SELECTORS,
+  ...SKIP_CONTENTEDITABLE_SELECTORS,
+];
+
+// Sites that use contenteditable for reading (not just editing)
+// On these sites, we only skip contenteditable when actively focused
+export const SMART_CONTENTEDITABLE_HOSTS = [
+  'notion.so',
+  'notion.site',
+  'www.notion.so',
+];
+
+// Page type detection
+export const PAGE_TYPES = {
+  NORMAL: 'normal',
+  PDF: 'pdf',
+  NOTION: 'notion',
+};
 
 // Patterns to always exclude (common English words that are also abbreviations)
 export const EXCLUDED_PATTERNS = ['an', 'as', 'be', 'he', 'is'];

@@ -1,0 +1,33 @@
+{
+  "id": "co-dominance",
+  "names": ["Co-dominance", "Codominance"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Co-dominance** is an inheritance pattern in which <u>two different alleles of a gene are both fully expressed in a heterozygote</u>. Instead of one allele being dominant over the other, the heterozygous individual shows both traits simultaneously.",
+  "tips": [
+    "Classic example: human blood type **AB**. The A allele and B allele are co-dominant, so someone with one A and one B allele has type **AB** blood - expressing <u>both A and B antigen traits</u> at the same time.",
+    "Do not confuse co-dominance with incomplete dominance. In co-dominance, <u>both allele products are seen side by side</u> (no blending). For instance, a red and white spotted flower or AB blood type shows co-dominance. In incomplete dominance, by contrast, alleles blend to produce an <u>intermediate phenotype</u> (like pink flowers from red and white parents).",
+    "Genetically, **co-dominant alleles** are often denoted with two different capital letters (since neither is recessive). For example, the MN blood group alleles can be written as <em>L<sup>M</sup></em> and <em>L<sup>N</sup></em>, and an <em>L<sup>M</sup>L<sup>N</sup></em> individual <u>expresses both M and N antigens on red blood cells</u>."
+  ],
+  "exam_appearance": [
+    "If a question describes a heterozygote showing <u>both phenotypes distinctly</u> (e.g., an animal with patches of two colors, or a person with an AB blood type expressing two antigens), that's a hallmark of co-dominance.",
+    "Exams often test the difference between co-dominance and other patterns. Recognize that co-dominant inheritance means <u>no allele is masked</u>: a heterozygote manifests both traits fully. For example, seeing \"both alleles contribute equally to the phenotype\" in a question stem indicates co-dominance.",
+    "Blood type problems are common: e.g., a question might ask what offspring blood types are possible if one parent is type A (AO genotype) and the other is type B (BO). An **AB blood type** child in this scenario illustrates co-dominance (<u>expressing both A and B</u>)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Co-dominance",
+      "url": "https://www.genome.gov/genetics-glossary/Codominance"
+    },
+    {
+      "title": "MedlinePlus Genetics: Patterns of Inheritance (Codominant Inheritance)",
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/#codominant"
+    },
+    {
+      "title": "OpenStax Biology 2e: Section 12.2 (Codominance and Multiple Alleles)",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    }
+  ]
+}

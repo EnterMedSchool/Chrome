@@ -1,0 +1,32 @@
+{
+  "id": "polymerase-chain-reaction",
+  "names": [
+    "Polymerase Chain Reaction",
+    "PCR"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Polymerase Chain Reaction (PCR)** is a laboratory technique used to rapidly make <u>millions of copies</u> of a specific DNA sequence in vitro (in a test tube). It involves <u>cyclic heating and cooling</u> of a DNA sample in the presence of DNA primers, nucleotides, and a heat-stable DNA polymerase enzyme, to exponentially amplify the target DNA segment.",
+  "tips": [
+    "PCR steps: (1) **Denaturation** - heat the DNA so the double strand separates into single strands; (2) **Annealing** - cool the reaction so that primers (short DNA sequences) bind to the specific target sequence; (3) **Extension** - the heat-tolerant DNA polymerase (commonly <u>Taq polymerase</u> from bacteria *Thermus aquaticus*) synthesizes new DNA starting from the primers. These steps repeat for ~30 cycles, doubling the DNA each cycle, so a single copy can become billions.",
+    "PCR is highly sensitive - it can amplify <u>trace amounts of DNA</u>. This makes it useful in DNA fingerprinting (forensics), detecting pathogens in patient samples, paternity testing, genetic research, etc. For example, PCR can be used to detect a virus by amplifying a segment of its genome from a patient's blood sample.",
+    "A common exam question: understanding why a special DNA polymerase (Taq polymerase) is used in PCR - it's because PCR involves high temperatures (around 95\u00b0C for denaturation), and Taq polymerase is stable at high heat (won't denature). This enzyme can extend primers at ~72\u00b0C and withstand repeated heating cycles."
+  ],
+  "exam_appearance": [
+    "If asked \"which technique amplifies DNA sequences rapidly in vitro,\" the answer is **PCR**. Recognize descriptions of PCR: keywords include <u>primers, Taq polymerase, thermal cycling</u>, and DNA amplification.",
+    "They may test understanding of PCR components: for example, a question might ask what is needed for PCR (<u>template DNA, primers, DNA nucleotides, DNA polymerase</u>, and thermal cycling conditions). Or ask why regular DNA polymerase won't work (because it would be inactivated by the high heat).",
+    "Sometimes exams compare PCR to processes like DNA replication in cells or cloning vectors. Remember: PCR is performed in a <u>lab tube (no cells needed)</u> and is much faster, producing large amounts of DNA from a small sample by repeated cycles."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NCI Dictionary of Genetics Terms: Polymerase Chain Reaction (PCR)",
+      "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/polymerase-chain-reaction"
+    },
+    {
+      "title": "NHGRI Fact Sheet: Polymerase Chain Reaction (PCR)",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact-Sheet"
+    }
+  ]
+}

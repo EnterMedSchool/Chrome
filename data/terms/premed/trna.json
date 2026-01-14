@@ -1,0 +1,33 @@
+{
+  "id": "trna",
+  "names": ["tRNA", "Transfer RNA"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Transfer RNA** is a small RNA molecule that helps build proteins by <u>carrying amino acids to the ribosome</u>. Each **tRNA** has an <u>anticodon region that pairs with a complementary codon on mRNA</u>, ensuring the correct amino acid is added to the growing protein chain.",
+  "tips": [
+    "tRNA acts as an <u>\"adapter\" between nucleic acids and amino acids</u>. Its **anticodon** (a set of three bases) matches a codon in mRNA, and the tRNA carries the corresponding amino acid.",
+    "Each type of tRNA is linked to a specific amino acid (for example, **tRNA^Phe carries phenylalanine**). The enzyme **aminoacyl-tRNA synthetase** attaches the right amino acid to each tRNA.",
+    "tRNAs have a characteristic <u>cloverleaf-like folded structure</u>. Despite being transcribed from DNA, tRNAs are **non-coding RNAs** (they are not translated into proteins themselves)."
+  ],
+  "exam_appearance": [
+    "If a question asks, \"Which RNA carries amino acids to the ribosome-\" the answer is **tRNA**. A clue might be mention of an **'anticodon'** or an \"adapter molecule\" for translation.",
+    "An exam may test understanding that <u>tRNA is not translated into protein</u> (it's an RNA that functions as RNA). For instance, a question might ask which RNAs are translated - **mRNA is, tRNA is not**.",
+    "Be wary of confusing **codon vs anticodon**. A classic question might give a DNA or mRNA codon and ask for the matching anticodon or amino acid - recognizing that <u>anticodon = tRNA</u> is key."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Transfer RNA",
+      "url": "https://www.genome.gov/genetics-glossary/Transfer-RNA-tRNA"
+    },
+    {
+      "title": "OpenStax Biology 2e - 15.4 Translation (role of tRNA)",
+      "url": "https://openstax.org/books/biology-2e/pages/15-4-translation"
+    },
+    {
+      "title": "Genetics Home Reference (NIH) - How do genes direct protein production- (mentions tRNA role)",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/howgeneswork/"
+    }
+  ]
+}

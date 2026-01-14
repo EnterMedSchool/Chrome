@@ -1,0 +1,33 @@
+{
+  "id": "allele",
+  "names": ["Allele"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "An **allele** is one of the <u>different forms of a particular gene</u>. For any given gene, an individual normally has two alleles (one inherited from each parent). If both alleles are the same, the person is homozygous for that gene; if the alleles are different, the person is heterozygous.",
+  "tips": [
+    "We use letters to symbolize alleles in genetics problems. For example, for a gene where **\"A\" = dominant allele** and **\"a\" = recessive allele**, possible genotypes include **AA** (homozygous dominant), **Aa** (heterozygous), or **aa** (homozygous recessive).",
+    "Different alleles can produce different variations of a trait. For instance, a gene for flower color might have a \"red\" allele and a \"white\" allele. Which alleles an organism has (its <u>genotype</u>) will determine the observable trait (<u>phenotype</u>).",
+    "Some genes have more than two alleles in the population (multiple alleles), although each individual still only inherits two. A common example is the <u>ABO blood group gene</u>: it has three main alleles (IA, IB, i), of which any person can have two (leading to blood types A, B, AB, or O)."
+  ],
+  "exam_appearance": [
+    "Genetics questions often use the term \"allele\" when referring to gene variants. For example, a problem may say \"the allele for tall plant height\" vs \"the allele for dwarf height.\" Recognize that alleles are just versions of the same gene.",
+    "Be prepared for exam prompts about allele frequencies or Punnett squares. If a question asks about the chance of a child inheriting a certain allele, remember <u>each parent contributes one allele per gene</u>. Also recall that dominant/recessive interactions are properties of alleles.",
+    "Sometimes exam questions test understanding that alleles are not separate genes but different forms of the same gene. For instance, a classic misconception they may check: blue vs brown eye color are due to alleles of the same gene, not two different genes."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Allele",
+      "url": "https://www.genome.gov/genetics-glossary/Allele"
+    },
+    {
+      "title": "NCI Dictionary of Genetics Terms: Allele",
+      "url": "https://www.cancer.gov/publications/dictionaries/genetics-dictionary#allele"
+    },
+    {
+      "title": "OpenStax Biology 2e: Section 12.2 (Genes and Alleles)",
+      "url": "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "dna",
+  "names": ["DNA", "Deoxyribonucleic Acid"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**DNA** is the <u>hereditary material in nearly all living organisms</u>. It is a **double-stranded helix** of nucleotides (with the bases A, T, C, and G) that stores <u>genetic instructions</u> for the development and functioning of an organism.",
+  "tips": [
+    "DNA is mostly located in the **cell nucleus** (nuclear DNA), with a small amount in mitochondria (mtDNA). Each human cell's nucleus contains **<u>46 DNA molecules (chromosomes)</u>**.",
+    "The two strands of DNA are **complementary**: <u>A always pairs with T, and C pairs with G</u>. This allows DNA to be copied (<u>semi-conservative replication</u>) reliably when cells divide.",
+    "Nearly all living organisms use DNA as genetic material, but a few viruses have RNA genomes instead. <u>DNA's sugar is deoxyribose (no oxygen on the 2' carbon)</u>, distinguishing it from RNA's ribose."
+  ],
+  "exam_appearance": [
+    "If a question mentions a \"**double helix**\" or nucleotides with **<u>thymine (T)</u>** bases, it's referring to **DNA** (as opposed to RNA, which is single-stranded and has uracil).",
+    "Questions about the <u>storage of genetic information</u> (in chromosomes, genes, etc.) are targeting **DNA**. For example, \"genetic blueprint in the nucleus\" = **DNA**.",
+    "Be prepared for comparisons between DNA and RNA: e.g., identifying that **DNA stays in the nucleus** (except mitochondrial DNA) while <u>RNA can travel to the cytoplasm</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Genetics - What is DNA-",
+      "url": "https://medlineplus.gov/genetics/understanding/basics/dna/"
+    },
+    {
+      "title": "NHGRI Talking Glossary: DNA",
+      "url": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid-DNA"
+    },
+    {
+      "title": "OpenStax Biology 2e - 14.2 DNA Structure (double helix, base pairing)",
+      "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * Search Overlay for EMS Medical Glossary
+ * Search Overlay for EnterMedSchool Glossary
  * Global search dialog that can be triggered via keyboard shortcut or context menu.
  * 
  * @module search-overlay

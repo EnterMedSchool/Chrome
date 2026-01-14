@@ -1,0 +1,35 @@
+{
+  "id": "2n",
+  "names": [
+    "2n",
+    "Diploid (symbol)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "In genetics, **\"2n\"** denotes the <u>diploid number of chromosomes</u> in a cell. The symbol n represents a single set of chromosomes (the haploid number), so 2n means <u>two sets</u>. For example, if n = 23 for humans, <u>2n = 46</u>. A 2n cell has paired chromosomes (one set from each parent).",
+  "tips": [
+    "Think of n as the count of unique chromosomes. In humans, <u>n = 23</u> (unique chromosomes 1 through 22, plus X or Y). Therefore 2n (two of each) = **46**.",
+    "When solving problems, if you see \"2n = X,\" you can immediately find <u>n = X/2</u>. Likewise, if n is given, 2n is just double it.",
+    "Different species have different n values. The concept of 2n applies to all diploid organisms: for example, a pea plant has <u>2n = 14</u> (so <u>n = 7</u>). Always clarify which organism's context you're in."
+  ],
+  "exam_appearance": [
+    "An exam may present something like \"Organism Y has 2n = 18\" and then ask how many chromosomes are in a gamete or in a somatic cell after mitosis, etc. Recognize <u>2n as the full set and n as half</u>.",
+    "If a cell is described as 2n, it's a <u>diploid cell</u>. For instance, a question might ask: \"Is a liver cell 2n or n?\" Since a liver cell is a body (somatic) cell, it's 2n (diploid)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Meiosis (note on n vs. 2n)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - Key Terms (diploid 2n, haploid n definitions)",
+      "url": "https://openstax.org/books/concepts-biology/pages/6-key-terms"
+    },
+    {
+      "title": "NHGRI Talking Glossary: Haploid (for context of n vs 2n in humans)",
+      "url": "https://www.genome.gov/genetics-glossary/Haploid"
+    }
+  ]
+}

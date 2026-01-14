@@ -1,0 +1,33 @@
+{
+  "id": "centriole",
+  "names": ["Centriole"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Centrioles** are <u>paired barrel-shaped organelles</u> in the cytoplasm of animal cells near the nuclear envelope. They play a role in organizing microtubules and are normally found within the centrosome.",
+  "tips": [
+    "A centrosome contains **two centrioles** that lie at <u>right angles to each other</u>.",
+    "Each centriole is a cylindrical structure made of **<u>nine triplets of microtubules</u>**.",
+    "Centrioles are cylindrical structures similar to the **basal bodies of cilia and flagella**, and are probably <u>precursors of basal bodies</u>."
+  ],
+  "exam_appearance": [
+    "If a stem describes a cylinder with \"nine triplets of microtubules\" -> **<u>centriole</u>**.",
+    "If the question says \"paired barrel-shaped structures inside the centrosome\" -> **<u>centrioles</u>**.",
+    "If a prompt links centrioles to basal bodies/cilia/flagella -> it's pointing at the **<u>structural similarity and centriole-to-basal-body connection</u>**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI (Talking Glossary): Centriole",
+      "url": "https://www.genome.gov/genetics-glossary/Centriole"
+    },
+    {
+      "title": "OpenStax Biology 2e: 4.3 Eukaryotic Cells (two perpendicular centrioles; nine triplets of microtubules)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells"
+    },
+    {
+      "title": "NCBI Bookshelf (The Cell): Microtubules (centrioles: nine triplets; similarity to basal bodies; relation to centrosome)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9932/"
+    }
+  ]
+}

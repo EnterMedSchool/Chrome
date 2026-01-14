@@ -1,0 +1,37 @@
+{
+  "id": "rough-endoplasmic-reticulum",
+  "names": [
+    "Rough Endoplasmic Reticulum",
+    "Rough ER",
+    "rER"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "The **rough endoplasmic reticulum (rough ER)** is a series of <u>flattened membrane sacs studded with ribosomes</u>, usually located near the nucleus. Ribosomes on the rough ER <u>synthesize proteins that enter the ER lumen</u>, where they are folded and modified (for example, by adding sugar groups). The rough ER also produces membranes (it makes phospholipids and membrane proteins), and it <u>packages proteins into vesicles for transport to the Golgi apparatus</u>.",
+  "tips": [
+    "The rough ER appears -rough- due to <u>ribosomes attached to its cytoplasmic surface</u>. These ribosomes make <u>proteins destined for secretion, insertion into the cell membrane, or delivery to lysosomes</u>.",
+    "Cells that secrete a lot of protein (like antibody-producing plasma cells or pancreas cells that secrete digestive enzymes) have an **extensive rough ER** to handle the high protein output.",
+    "Rough ER is continuous with the <u>nuclear envelope (outer membrane of the nucleus)</u>. This proximity allows <u>mRNA from the nucleus to be readily translated by the ER-bound ribosomes</u>."
+  ],
+  "exam_appearance": [
+    "Organelle identification - If an electron micrograph or description mentions membranes with <u>ribosomes attached</u>, that-s the **rough ER** (not to be confused with the Golgi, which has no ribosomes).",
+    "Function questions - -Which organelle is directly responsible for the <u>initial modification and folding of secretory proteins</u>-- Correct answer: **rough ER** (ribosome translates the protein into the ER lumen for folding).",
+    "Comparison trap - Be ready to distinguish rough ER vs smooth ER: e.g., a question might give functions (protein synthesis vs lipid synthesis) or <u>presence/absence of ribosomes</u> and ask which ER type is described."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - 3.3: Eukaryotic Cells (rough ER with ribosomes, protein folding and modifications)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-3-eukaryotic-cells"
+    },
+    {
+      "title": "OpenStax Biology 2e - 4.4: The Endomembrane System (rough ER makes proteins for export/membranes)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-4-the-endomembrane-system-and-proteins"
+    },
+    {
+      "title": "Molecular Biology of the Cell 4th Ed. - Section 12.1 (rough ER structure and role in secretory pathway)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26882/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "nuclear-pore",
+  "names": [
+    "Nuclear Pore",
+    "Nuclear Pore Complex (NPC)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Nuclear pores** are large protein-lined channels in the nuclear envelope that <u>regulate exchange of materials between the nucleus and cytoplasm</u>. Each nuclear pore is part of a **nuclear pore complex**, which acts as a <u>gateway for molecules (such as mRNAs, ribosomal subunits, and proteins) to pass into or out of the nucleus</u>.",
+  "tips": [
+    "The nuclear envelope (the double membrane around the nucleus) is perforated with many nuclear pores. <u>Small molecules and ions can diffuse through</u>, but <u>larger molecules (like RNA and proteins) require active transport via the pore complexes</u>.",
+    "Nuclear pore complexes ensure directionality: for example, they enable <u>mRNA and ribosome components to exit the nucleus</u>, and allow <u>nuclear proteins (like transcription factors or polymerases) to enter</u>. Transport signals (**NLS or NES** sequences on proteins) are used for recognition by the NPC.",
+    "<u>Only eukaryotic cells have nuclear pores.</u> (Prokaryotes have no nucleus and thus no nuclear envelope or pores.) So any mention of nuclear pores implies a **eukaryotic cell context**."
+  ],
+  "exam_appearance": [
+    "If a question asks \"How does mRNA get from the nucleus to the cytoplasm-\" or \"through what structure do ribosomal subunits leave the nucleus-\", the answer is via **nuclear pores**.",
+    "Be prepared for a question that simply asks for the function of nuclear pore complexes: correct answer being <u>control of traffic between nucleus and cytoplasm</u> (e.g., letting out RNA, letting in nucleus-targeted proteins).",
+    "A tricky point: an exam might ask which structures are absent in bacteria - one answer could be \"nuclear pores,\" since bacteria lack a nucleus. Remember: nuclear pores are a <u>feature of the eukaryotic nuclear envelope</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - The Nucleus (Nuclear Envelope and Pores)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-3-the-nucleus-and-dna-replication"
+    },
+    {
+      "title": "OpenStax Biology AP Edition - The Nuclear Envelope (pores function)",
+      "url": "https://openstax.org/books/biology-ap-courses/pages/4-3-eukaryotic-cells"
+    },
+    {
+      "title": "Molecular Biology of the Cell, 4th Ed. - Transport Across the Nuclear Envelope",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26819/"
+    }
+  ]
+}

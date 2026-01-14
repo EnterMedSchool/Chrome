@@ -1,0 +1,34 @@
+{
+  "id": "haploid",
+  "names": [
+    "Haploid"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Haploid** describes a cell or organism that has only <u>one set of chromosomes</u>. In humans, the haploid number (n) is 23. Only <u>gametes (sperm and egg cells)</u> are haploid in humans - each carries 23 unpaired chromosomes, which is half the full (diploid) set.",
+  "tips": [
+    "We use **n** to denote the haploid number of chromosomes. In humans, <u>n = 23</u>. Thus, when fertilization occurs (sperm 23 + egg 23), the resulting zygote is <u>2n = 46</u>.",
+    "Haploid cells are produced from diploid cells by <u>meiosis</u>. This reduction ensures that when two gametes fuse, the species' chromosome number stays constant across generations.",
+    "Be aware: not all species have the same haploid number. (e.g., a fruit fly's haploid number is 4, so 2n=8). The concept of haploid just means \"one complete set,\" whatever that number is for the organism."
+  ],
+  "exam_appearance": [
+    "Typical question: \"Which cells in humans are haploid?\" Answer: **gametes (sperm and egg)**. Recognize that haploid cells have <u>half the chromosome count</u> of somatic cells.",
+    "Another angle: A question might give an organism's diploid number and ask for the haploid number (or vice versa). For example, \"If 2n = 16, what is n?\" You should answer **8** (haploid number is 8)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Haploid",
+      "url": "https://www.genome.gov/genetics-glossary/Haploid"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 7.2 Meiosis (Ploidy and Gamete Formation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/7-2-meiosis"
+    },
+    {
+      "title": "OpenStax Biology 2e - Introduction to Meiosis (haploid vs diploid)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    }
+  ]
+}

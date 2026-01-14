@@ -1,0 +1,39 @@
+{
+  "id": "sympathetic",
+  "names": [
+    "Sympathetic Nervous System"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The sympathetic nervous system** is the division of the autonomic nervous system that triggers the <u>\"fight or flight\" response</u>, preparing the body for action or stress. Sympathetic activation <u>increases heart rate and blood pressure</u>, <u>dilates airways and pupils</u>, and <u>inhibits digestion</u> - all to mobilize energy and resources in a crisis or energetic activity.",
+  "tips": [
+    "Sympathetic nerves originate from the <u>thoracic and lumbar regions</u> of the spinal cord (<u>thoracolumbar origin</u>). When activated, they release <u>norepinephrine</u> (and prompt the adrenal medulla to release <u>epinephrine</u>) at target organs, which causes effects like faster heartbeat, glucose release from the liver, and sweating.",
+    "Key sympathetic pathway: the <u>adrenal medulla</u> is essentially a specialized sympathetic organ that, when stimulated, secretes <u>adrenaline (epinephrine)</u> into the bloodstream. This hormone boosts and prolongs the fight-or-flight response body-wide (e.g., increasing alertness and fuel availability).",
+    "Sympathetic ganglia are typically arranged in chains (<u>sympathetic trunks</u>) alongside the spinal column. This arrangement allows a coordinated, whole-body response. For instance, a sudden fright can simultaneously dilate pupils, increase heart rate, and release glucose - multiple organs responding together under sympathetic control."
+  ],
+  "exam_appearance": [
+    "If a question describes a scenario like being startled or exercising - with signs such as rapid pulse, pale skin (blood diverted to muscles), and dilated pupils -> that's the <u>sympathetic nervous system</u> at work (fight-or-flight).",
+    "If asked which autonomic division uses <u>norepinephrine</u> on target organs and prepares the body for emergencies -> the sympathetic nervous system. Clue words: \"adrenergic\" activity, adrenaline, or increased heart rate all point to sympathetic effects.",
+    "Be ready for comparisons: e.g., a question might give a list of effects and ask which are sympathetic vs parasympathetic. Remember that sympathetic effects include things like <u>inhibited digestion</u> and accelerated breathing/heart rate, whereas parasympathetic do the opposite."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 35.4: Autonomic Nervous System (Sympathetic vs Parasympathetic)",
+      "url": "https://openstax.org/books/biology-2e/pages/35-4-the-peripheral-nervous-system"
+    },
+    {
+      "title": "Canadian Cancer Society - Nervous System (fight-or-flight description)",
+      "url": "https://cancer.ca/en/cancer-information/cancer-types/neuroblastoma/what-is-neuroblastoma/the-nervous-system"
+    },
+    {
+      "title": "NHGRI Talking Glossary: Sympathetic (via educational resources)",
+      "url": "https://genome.gov/genetics-glossary/Sympathetic-Nervous-System"
+    },
+    {
+      "title": "MedlinePlus Genetics - How do genes direct the production of proteins? (autonomic context)",
+      "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+    }
+  ]
+}

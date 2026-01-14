@@ -1,0 +1,35 @@
+{
+  "id": "transcription",
+  "names": [
+    "Transcription (Genetics)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Transcription** is the process of making an <u>RNA copy of a gene's DNA sequence</u>. In transcription, an enzyme (<u>RNA polymerase</u>) reads one strand of DNA in the nucleus and synthesizes a <u>complementary RNA strand</u> (messenger RNA, mRNA) that carries the genetic message out for protein synthesis.",
+  "tips": [
+    "Transcription occurs in the <u>nucleus</u> of eukaryotic cells (since DNA is there). The DNA double helix unwinds locally, and RNA polymerase builds the RNA strand by matching RNA nucleotides to the DNA template. Notably, in RNA, <u>uracil (U)</u> is inserted where DNA has adenine (A) - RNA contains U instead of thymine (T).",
+    "Only one strand of DNA is transcribed for a given gene (the <u>template strand</u>). The produced mRNA is complementary to the DNA template and essentially a copy of the DNA <u>coding strand</u> (except U replaces T).",
+    "After transcription in eukaryotes, the initial mRNA (pre-mRNA) undergoes processing: <u>introns</u> (non-coding sequences) are removed and <u>exons</u> spliced together, and a <u>5' cap</u> and <u>3' poly-A tail</u> are added to stabilize the mRNA before it leaves the nucleus. This RNA processing does not occur in <u>prokaryotes</u> (they lack introns)."
+  ],
+  "exam_appearance": [
+    "If a question asks \"Which process produces mRNA from DNA?\" -> the answer is <u>transcription</u> (DNA -> RNA).",
+    "If you see mention of RNA polymerase building a strand or the presence of uracil in a newly made nucleic acid, that indicates <u>transcription</u> (since RNA is being made and RNA uses U in place of T).",
+    "Be careful not to confuse transcription with translation: Transcription is in the <u>nucleus</u> and makes RNA; for example, an item asking where messenger RNA comes from (nucleus via copying DNA) is about transcription, not the cytoplasmic protein synthesis step."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Transcription",
+      "url": "https://www.genome.gov/genetics-glossary/Transcription"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 9.3: Transcription (DNA to mRNA, U vs T)",
+      "url": "https://openstax.org/books/concepts-biology/pages/9-3-transcription"
+    },
+    {
+      "title": "MedlinePlus Genetics - From DNA to RNA to Protein (transcription vs translation)",
+      "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+    }
+  ]
+}

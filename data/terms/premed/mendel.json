@@ -1,0 +1,34 @@
+{
+  "id": "mendel",
+  "names": [
+    "Gregor Mendel"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Gregor Mendel** (1822-1884) was an Austrian monk and scientist whose experiments with pea plants established the <u>basic laws of inheritance</u>. By cross-breeding pea plants and analyzing the traits in offspring, Mendel discovered that traits are inherited as <u>discrete units (genes)</u> with dominant and recessive forms. He is often called the <u>\"father of genetics\"</u> for formulating the **Law of Segregation** and the **Law of Independent Assortment**.",
+  "tips": [
+    "Mendel's work demonstrated that inheritance is <u>particulate</u> (not a blending of traits). For example, a white-flower trait could disappear in one generation and reappear in the next, which Mendel explained with <u>dominant and recessive alleles</u>.",
+    "He performed thousands of crosses and kept careful counts of offspring phenotypes, which allowed him to see consistent **3:1** and **9:3:3:1** ratios - evidence for his genetic laws.",
+    "Mendel's discoveries weren't appreciated in his lifetime; they were <u>\"rediscovered\" around 1900</u>, providing the foundation for modern genetics."
+  ],
+  "exam_appearance": [
+    "Mendel is frequently referenced in genetics questions. An exam might ask who first explained inheritance patterns (answer: **Gregor Mendel**) or invoke **\"Mendelian ratios\"** (like **3:1** or **9:3:3:1**) in genetic problems.",
+    "His name is also used as an adjective - e.g., <u>\"Mendelian inheritance\"</u> refers to traits that follow the simple <u>dominant/recessive</u> patterns he observed. Be ready to identify scenarios that exemplify Mendelian inheritance."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Gregor Mendel",
+      "url": "https://www.genome.gov/genetics-glossary/Gregor-Johann-Mendel"
+    },
+    {
+      "title": "Encyclop\u00e6dia Britannica - Gregor Mendel Biography",
+      "url": "https://www.britannica.com/biography/Gregor-Mendel"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - Section 8.1 (Mendel's Experiments and Pea Plants)",
+      "url": "https://openstax.org/books/concepts-biology/pages/8-1-mendels-experiments"
+    }
+  ]
+}

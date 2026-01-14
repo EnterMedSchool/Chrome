@@ -1,0 +1,35 @@
+{
+  "id": "peroxisome",
+  "names": [
+    "Peroxisome"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A peroxisome** is a small, single-membrane organelle containing enzymes that catalyze <u>oxidative reactions</u>. Peroxisomes break down <u>fatty acids</u> and amino acids and neutralize toxic compounds (producing hydrogen peroxide, H2O2, as a byproduct, which is then broken down by the enzyme <u>catalase</u>).",
+  "tips": [
+    "Peroxisomes perform **<u>beta-oxidation</u>** of long-chain fatty acids, generating acetyl-CoA that can be repurposed by the cell.",
+    "They contain **<u>catalase</u>**, an enzyme that decomposes hydrogen peroxide into water and oxygen - this protects the cell from oxidative damage due to H2O2 buildup (hence the organelle's name).",
+    "Unlike lysosomes, which are formed in the Golgi apparatus, peroxisomes can <u>self-replicate</u> (bud and divide) and are not part of the endomembrane system."
+  ],
+  "exam_appearance": [
+    "If a question mentions breakdown of very-long-chain fatty acids or detoxification of alcohol in cells (especially liver cells) -> think **<u>peroxisomes</u>** (these organelles oxidize fatty acids and neutralize ethanol).",
+    "Concept trap -> **Peroxisomes vs. Lysosomes**: peroxisomes carry out <u>oxidation reactions</u> using molecular oxygen (producing H2O2 and then degrading it), whereas lysosomes use <u>acid hydrolases</u> to digest biomaterials. Be sure to distinguish these on exams.",
+    "Genetic tie-in: Disorders like <u>Zellweger syndrome</u> (a peroxisome biogenesis disorder) illustrate peroxisome importance - cells lacking functional peroxisomes accumulate long-chain fatty acids and other toxins, leading to severe developmental issues."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Ch.4 Key Terms: \"Peroxisome\" (oxidizes fatty acids & detoxifies poisons)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-key-terms"
+    },
+    {
+      "title": "MedlinePlus Genetics - PEX1 gene (Peroxisomal biogenesis; peroxisome function)",
+      "url": "https://medlineplus.gov/genetics/gene/pex1/"
+    },
+    {
+      "title": "Molecular Biology of the Cell - Peroxisomes (use O2 to oxidize substrates; H2O2 metabolism)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26858/"
+    }
+  ]
+}

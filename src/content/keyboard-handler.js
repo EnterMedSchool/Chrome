@@ -1,5 +1,5 @@
 /**
- * Keyboard Handler for EMS Medical Glossary
+ * Keyboard Handler for EnterMedSchool Glossary
  * Manages keyboard navigation between highlighted terms and popup interactions.
  * 
  * @module keyboard-handler

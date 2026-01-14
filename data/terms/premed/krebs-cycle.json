@@ -1,0 +1,37 @@
+{
+  "id": "krebs-cycle",
+  "names": [
+    "Krebs cycle",
+    "Citric Acid Cycle",
+    "Tricarboxylic Acid Cycle"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The Krebs cycle (citric acid cycle)** is a <u>series of enzyme-driven reactions in the mitochondrial matrix</u> that fully oxidize acetyl-CoA into carbon dioxide, while generating <u>high-energy electron carriers (NADH and FADH2) and a small amount of ATP</u>. It is the <u>second stage of aerobic respiration</u>, following glycolysis, and it runs continuously as long as oxygen and acetyl-CoA are available.",
+  "tips": [
+    "In each turn of the cycle, the <u>acetyl group (2 carbons) from acetyl-CoA is combined with oxaloacetate (4 carbons) to form citrate (6 carbons)</u>. The cycle then <u>releases 2 CO2 molecules and regenerates oxaloacetate</u> to start again.",
+    "Per acetyl-CoA, the cycle produces **3 NADH, 1 FADH2, and 1 ATP (or GTP)**. Since 2 acetyl-CoA come from one glucose, a full glucose yields **6 NADH, 2 FADH2, and 2 ATP** just from the Krebs cycle.",
+    "This cycle <u>requires oxygen indirectly</u>: it doesn-t use O2 in its steps, but it relies on <u>NADH and FADH2 being oxidized in the electron transport chain</u>. If there-s no O2 to accept electrons, NADH/FADH2 build up and the Krebs cycle stops."
+  ],
+  "exam_appearance": [
+    "**Location clue:** If a question asks where in the cell acetyl-CoA is oxidized to CO2 and electron carriers are produced, the answer is the <u>mitochondrial matrix</u> (Krebs cycle in eukaryotes; in prokaryotes it-s in the cytoplasm).",
+    "**Yield trap:** Be prepared to compute yields. A classic test point: 'How many NADH from one glucose in the citric acid cycle-' Answer: **6 NADH (3 per cycle - 2 cycles per glucose)**. Similarly, **2 FADH2 and 2 ATP (GTP) per glucose**.",
+    "**Name game:** <u>Krebs cycle = Citric acid cycle = TCA cycle</u>. Exams might use any of these names. 'TCA' stands for tricarboxylic acid (referring to citric acid-s three carboxyl groups)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Britannica - Tricarboxylic Acid Cycle (Krebs cycle) Overview",
+      "url": "https://www.britannica.com/science/tricarboxylic-acid-cycle"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 7.3: Citric Acid Cycle (Aerobic respiration stage)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - Citric Acid Cycle yields (Figure 4.14)",
+      "url": "https://openstax.org/books/concepts-biology/pages/4-3-citric-acid-cycle-and-oxidative-phosphorylation"
+    }
+  ]
+}

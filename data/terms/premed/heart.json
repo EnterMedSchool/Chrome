@@ -1,0 +1,35 @@
+{
+  "id": "heart",
+  "names": [
+    "Heart"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The heart** is a muscular organ that <u>pumps blood</u> through the circulatory system. In humans, the heart has <u>four chambers</u> - two upper atria and two lower ventricles - that contract in a coordinated rhythm to propel blood first to the lungs and then to the rest of the body.",
+  "tips": [
+    "Valves within the heart ensure <u>one-way flow</u> of blood: the atrioventricular valves (tricuspid and mitral) prevent backflow into atria, and the semilunar valves (pulmonary and aortic) prevent backflow into ventricles.",
+    "The right side of the heart pumps deoxygenated blood to the lungs (via the pulmonary artery) to pick up oxygen, while the left side pumps oxygenated blood to the body (via the aorta). Remember: <u>right ventricle -> lungs</u>; <u>left ventricle -> body</u>.",
+    "The <u>left ventricle</u> has a much thicker muscular wall than the right ventricle because it must generate higher pressure to distribute blood throughout the body."
+  ],
+  "exam_appearance": [
+    "Heart anatomy and blood flow are common topics. For example, a question might ask which chamber pumps blood into the aorta (answer: <u>left ventricle</u>) or which valves produce the characteristic \"lub-dub\" sounds when closing (the AV valves and semilunar valves).",
+    "Be ready for circulatory pathway questions, like tracing blood flow: e.g., <u>right atrium -> right ventricle -> pulmonary artery -> lungs -> pulmonary vein -> left atrium -> left ventricle -> aorta</u>.",
+    "Clinical correlation that might appear: understanding why a person with <u>left ventricular hypertrophy</u> (thickening) might have high blood pressure - because the left ventricle works against higher resistance to pump blood."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Baylor College of Medicine - About the Heart (4 chambers and valves)",
+      "url": "https://www.bcm.edu/healthcare/specialties/cardiovascular-medicine/you-and-your-heart/about-the-heart"
+    },
+    {
+      "title": "Nemours KidsHealth - Your Heart & Circulatory System (simple overview)",
+      "url": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "title": "University of Minnesota (Comparative Anatomy) - Heart Ventricles (left vs right wall thickness)",
+      "url": "http://www.vhlab.umn.edu/atlas/comparative-anatomy-tutorial/ventricles.shtml"
+    }
+  ]
+}

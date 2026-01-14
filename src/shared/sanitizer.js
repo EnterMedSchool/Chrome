@@ -1,5 +1,5 @@
 /**
- * HTML Sanitizer for EMS Medical Glossary
+ * HTML Sanitizer for EnterMedSchool Glossary
  * Prevents XSS attacks when rendering term content.
  * 
  * @module sanitizer

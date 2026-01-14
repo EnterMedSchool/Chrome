@@ -1,5 +1,5 @@
 /**
- * Term Matcher for EMS Medical Glossary
+ * Term Matcher for EnterMedSchool Glossary
  * Implements Aho-Corasick algorithm for efficient multi-pattern matching.
  * Ported from Python implementation in the Anki addon.
  * 
@@ -190,6 +190,7 @@ export class TermMatcher {
    */
   setUserLevel(level) {
     this.userLevel = level || 'medschool';
+    console.info('[EMS] User level set to:', this.userLevel);
   }
 
   /**
@@ -282,9 +283,10 @@ export class TermMatcher {
    * @returns {string[]}
    */
   _filterByLevel(termIds) {
-    return termIds.filter(termId => {
+    const filtered = termIds.filter(termId => {
       const termMeta = this.index.terms?.get(termId);
       if (!termMeta) {
+        console.debug('[EMS] No metadata for term:', termId);
         return true; // If no metadata, include it
       }
 
@@ -295,19 +297,21 @@ export class TermMatcher {
         return false;
       }
 
-      // Filter by user level (skip for 'all' level)
-      if (this.userLevel !== 'all') {
-        const userLevelValue = LEVEL_HIERARCHY[this.userLevel] ?? 1;
-        const termLevelValue = LEVEL_HIERARCHY[termLevel] ?? 1;
+      // Filter by user level
+      // 'all' shows medschool terms (not literally all terms)
+      const effectiveLevel = this.userLevel === 'all' ? 'medschool' : this.userLevel;
+      const userLevelValue = LEVEL_HIERARCHY[effectiveLevel] ?? 1;
+      const termLevelValue = LEVEL_HIERARCHY[termLevel] ?? 1;
 
-        // Include term if its level is <= user's level
-        if (termLevelValue > userLevelValue) {
-          return false;
-        }
+      // Only include terms that match the user's effective level
+      if (termLevelValue !== userLevelValue) {
+        return false;
       }
 
       return true;
     });
+    
+    return filtered;
   }
 
   /**

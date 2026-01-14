@@ -1,0 +1,35 @@
+{
+  "id": "cell",
+  "names": [
+    "Cell"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "In biology, a **cell** is the <u>basic unit of life</u> - a <u>membrane-bound structure containing the fundamental molecules and organelles needed for life</u>. Some organisms consist of a single cell (e.g. bacteria or yeast), while others are multicellular with specialized cell types that work together in tissues and organs. Cells are categorized as **prokaryotic (lacking a nucleus)** or **eukaryotic (having a nucleus and organelles)**.",
+  "tips": [
+    "**Cell theory:** All living organisms are made of one or more cells, the cell is the <u>basic unit of life</u>, and <u>new cells arise from existing cells</u>.",
+    "Prokaryotes (bacteria and archaea) are <u>unicellular, lack a nucleus, and have 70S ribosomes</u>; Eukaryotes (protists, fungi, plants, animals) have a <u>nucleus, membrane-bound organelles, and 80S cytoplasmic ribosomes</u>.",
+    "Some cells (like bacteria) are <u>independent organisms</u>, whereas in multicellular organisms, cells <u>differentiate and cooperate</u> (e.g., muscle cells vs nerve cells) to maintain the whole organism."
+  ],
+  "exam_appearance": [
+    "Cell theory questions - e.g., -What are the tenets of cell theory-- Expect: <u>(1) all living things composed of cells, (2) cell is basic unit of life, (3) cells come from preexisting cells</u>.",
+    "Prokaryote vs. eukaryote ID - If a described cell has <u>no nucleus and a small size (~1-5 -m)</u>, it-s prokaryotic. If it has a <u>nucleus and organelles (and ~10-100 -m size)</u>, it-s eukaryotic.",
+    "Vital distinction - Viruses are often contrasted with cells: remember <u>viruses are not cells (acellular)</u>, reinforcing that cells are the <u>smallest living units</u> (viruses aren-t -alive-)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Encyclop-dia Britannica - Cell (basic unit of life definition)",
+      "url": "https://www.britannica.com/science/cell-biology"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - Chapter 3 Summary (unified cell theory; prokaryotic vs eukaryotic features)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-chapter-summary"
+    },
+    {
+      "title": "OpenStax Biology 2e - 4.1: Studying Cells (cell theory; unicellular vs multicellular context)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-1-studying-cells"
+    }
+  ]
+}

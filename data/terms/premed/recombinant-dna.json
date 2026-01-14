@@ -1,0 +1,35 @@
+{
+  "id": "recombinant-dna",
+  "names": [
+    "Recombinant DNA",
+    "rDNA"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Recombinant DNA** is DNA that has been artificially created by <u>combining genetic material from multiple sources</u>, often different species. This technology allows scientists to cut and splice together DNA fragments (for example, inserting a human gene into a bacterial plasmid), resulting in a <u>novel DNA sequence</u> that does not occur naturally.",
+  "tips": [
+    "Recombinant DNA technology (genetic engineering) is used to <u>produce important proteins for medicine</u>, such as human insulin made by bacteria.",
+    "DNA molecules used to carry foreign DNA into host cells are called **<u>vectors</u>** (common vectors include plasmids and modified viruses).",
+    "Don't confuse \"recombinant DNA\" with natural genetic recombination during meiosis - recombinant DNA refers specifically to <u>DNA engineered in the lab</u>."
+  ],
+  "exam_appearance": [
+    "Often tested in the context of cloning or genetic engineering techniques - e.g., a question might ask about <u>inserting a gene into a plasmid</u> to create recombinant DNA and express a protein.",
+    "May appear in questions about biotechnology products: e.g., \"What technique allows bacteria to produce human insulin?\" (Answer: using <u>recombinant DNA</u> to insert the human insulin gene into bacteria)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Recombinant DNA Technology",
+      "url": "https://www.genome.gov/genetics-glossary/Recombinant-DNA-Technology"
+    },
+    {
+      "title": "PBS Glossary: \"Recombinant DNA\" Definition",
+      "url": "https://www.pbs.org/faithandreason/biogloss/recomb-body.html"
+    },
+    {
+      "title": "National Academies (NCBI Bookshelf) - Heritable Human Genome Editing (2020), Glossary: Recombinant DNA",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK565925/"
+    }
+  ]
+}

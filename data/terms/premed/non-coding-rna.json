@@ -1,0 +1,36 @@
+{
+  "id": "non-coding-rna",
+  "names": [
+    "Non-coding RNA",
+    "ncRNA"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A non-coding RNA (ncRNA)** is an RNA molecule that is transcribed from DNA but <u>not translated into a protein</u>. These RNAs are functional in their RNA form - examples include <u>transfer RNA (tRNA)</u> and <u>ribosomal RNA (rRNA)</u>, which are essential in protein synthesis but do not code for proteins, as well as regulatory RNAs like <u>microRNA</u> that modulate gene expression.",
+  "tips": [
+    "Major types of non-coding RNAs include **<u>ribosomal RNA (rRNA)</u>** and **<u>transfer RNA (tRNA)</u>** (both involved in translation machinery), **<u>small regulatory RNAs</u>** such as microRNAs (miRNA) and short interfering RNAs (siRNA) which can silence gene expression, and **<u>long non-coding RNAs (lncRNA)</u>** which often regulate genes at the transcriptional or epigenetic level.",
+    "Only about <u>1-2%</u> of the human genome's RNA transcripts are mRNAs that code for protein; the rest are non-coding RNAs. This means the majority of transcribed RNA in a cell does not become protein but often has regulatory or structural roles (disproving the idea that they are \"junk\").",
+    "Non-coding RNA is not to be confused with \"non-coding DNA.\" Non-coding <u>RNA</u> refers to RNA transcripts that function as RNA (they do not have open reading frames for protein). For example, <u>XIST RNA</u> is a long ncRNA that coats the X chromosome to inactivate it (an epigenetic function), and <u>telomerase RNA</u> is an ncRNA that is part of the enzyme telomerase."
+  ],
+  "exam_appearance": [
+    "If a question asks for examples of RNA that aren't translated into protein -> answer with things like <u>tRNA</u> and <u>rRNA</u>, or mention regulatory RNAs (miRNA, lncRNA). For instance: \"Which RNA molecule is not directly involved in coding for a protein sequence?\" - Correct answers could be tRNA or rRNA (both are non-coding RNAs).",
+    "When you see mention of gene regulation by RNAs (e.g., a small RNA that binds to an mRNA to prevent its translation) -> that's referring to <u>non-coding RNAs</u> (like microRNAs or siRNAs) functioning to control gene expression.",
+    "A classic exam detail: the ribosome itself is a ribozyme (rRNA in the ribosome catalyzes peptide bond formation). This underscores that <u>rRNA</u> - a non-coding RNA - has enzymatic and structural function in translation without carrying genetic code for a protein."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "What is Epigenetics - Non-Coding RNA definition",
+      "url": "https://www.whatisepigenetics.com/non-coding-rna/"
+    },
+    {
+      "title": "Wikipedia - Non-coding RNA (functional RNA not translated)",
+      "url": "https://en.wikipedia.org/wiki/Non-coding_RNA"
+    },
+    {
+      "title": "Frontiers in Genetics - Non-coding RNA: what is functional and what is junk? (2015) [Review]",
+      "url": "https://www.frontiersin.org/articles/10.3389/fgene.2015.00002/full"
+    }
+  ]
+}

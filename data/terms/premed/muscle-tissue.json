@@ -1,0 +1,31 @@
+{
+  "id": "muscle-tissue",
+  "names": [
+    "Muscle tissue"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Muscle tissue** is a type of tissue composed of cells (muscle fibers) that have the ability to <u>contract, generating force and movement</u>. There are three types of muscle tissue in animals: **skeletal muscle** (attached to bones, voluntary movement), **cardiac muscle** (heart muscle, involuntary), and **smooth muscle** (walls of organs like intestines and blood vessels, involuntary).",
+  "tips": [
+    "Muscle cells (muscle fibers) contain organized contractile proteins (**actin and myosin**) that slide past each other to shorten the cell. This contraction is what causes movement or tension.",
+    "Skeletal muscle tissue is <u>striated</u> (has a banded appearance) and under <u>voluntary control</u> (you decide to move your arm). Cardiac muscle is also striated but found only in the heart and contracts involuntarily (heart beats without conscious effort). Smooth muscle is non-striated and involuntary, found in walls of internal organs (e.g., it moves food through the digestive tract via peristalsis).",
+    "Key functional point: skeletal muscle allows body movement and posture, cardiac muscle pumps blood, smooth muscle controls diameter of passages (like blood vessels and airways) and propels contents (like food or urine) through hollow organs."
+  ],
+  "exam_appearance": [
+    "Histology clues: striations and multiple nuclei per cell indicate **skeletal muscle**; striations with branching cells and intercalated discs indicate **cardiac muscle**; no striations and spindle-shaped cells indicate **smooth muscle**.",
+    "Voluntary vs involuntary is a common test point: skeletal muscle is voluntary, whereas cardiac and smooth muscle are involuntary. A question might ask which muscle type you can consciously control - the answer is <u>skeletal muscle</u>.",
+    "Comparative questions: They may ask which muscle types are striated (both skeletal and cardiac are striated; smooth is not). For example, an item might list features and ask which muscle tissue fits - e.g., \"branched, striated cells with single nucleus\" corresponds to cardiac muscle."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Ch.4.1 (Muscle tissue definition and types)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Tissue types (muscle tissue description)",
+      "url": "https://medlineplus.gov/ency/imagepages/8682.htm"
+    }
+  ]
+}

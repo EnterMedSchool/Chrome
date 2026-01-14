@@ -1,0 +1,37 @@
+{
+  "id": "fermentation",
+  "names": [
+    "Fermentation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Fermentation** is an <u>anaerobic metabolic process</u> by which cells break down sugars to generate energy <u>without using oxygen</u>. In fermentation, glycolysis (sugar breakdown) produces ATP and NADH, and then NADH is <u>recycled back to NAD+</u> by transferring electrons to an organic molecule. This allows glycolysis to continue producing a small amount of ATP. Common end products of fermentation are <u>lactic acid</u> (in muscles and some bacteria) or <u>ethanol and carbon dioxide (CO2)</u> (in yeast).",
+  "tips": [
+    "Fermentation occurs when oxygen is not available as the final electron acceptor. For example, your muscle cells switch to <u>lactic acid fermentation</u> during intense exercise when oxygen supply is insufficient, resulting in lactate buildup.",
+    "Fermentation produces far less ATP than aerobic respiration - only the <u>2 ATP</u> from glycolysis per glucose (no additional ATP from the Krebs cycle or electron transport). This lower efficiency is a key distinction: anaerobic fermentation vs aerobic respiration (~30+ ATP).",
+    "Yeast performing <u>alcoholic fermentation</u> convert pyruvate (from glycolysis) into ethanol and CO2. This is exploited in brewing (ethanol in beer/wine) and baking (CO2 makes bread rise).",
+    "A common confusion: fermentation vs anaerobic respiration. **Fermentation** uses an <u>organic molecule</u> (like pyruvate or acetaldehyde) as the final electron acceptor and involves <u>no electron transport chain</u>; **anaerobic respiration** (in some microbes) uses an electron transport chain with a non-oxygen final acceptor (like nitrate or sulfate). Most human biology questions use \"fermentation\" for the simple anaerobic pathway in muscle or yeast."
+  ],
+  "exam_appearance": [
+    "If an exam question asks about how muscles continue to produce ATP during short bursts of intense exercise (when oxygen is depleted), the answer is <u>lactic acid fermentation</u>. You might need to identify lactate as the end product and that this regenerates NAD+ so glycolysis can continue.",
+    "Questions may present a scenario of yeast in a sealed container producing gas - they're hinting at <u>alcoholic fermentation</u> (glucose -> ethanol + CO2). Recognize that CO2 from fermentation is what causes bubbles in beer or dough rising.",
+    "A classic compare/contrast question: aerobic vs anaerobic metabolism. Know that fermentation (anaerobic) yields <u>2 ATP per glucose</u> and produces lactic acid (in humans) or ethanol (yeast), whereas aerobic metabolism yields much more ATP and fully oxidizes glucose to CO2 and H2O.",
+    "They may test recognition of fermentation pathways: e.g., \"Which process can occur in human cells when mitochondria lack oxygen?\" - the answer is <u>lactic acid fermentation</u> (conversion of pyruvate to lactate)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 7.5: Fermentation and Anaerobic Respiration",
+      "url": "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 4.4: Fermentation (summary of lactic vs alcoholic fermentation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/4-4-fermentation"
+    },
+    {
+      "title": "Khan Academy - Fermentation and anaerobic respiration (article)",
+      "url": "https://www.khanacademy.org/science/biology/cellular-respiration-and-fermentation/anaerobic-respiration-and-fermentation/a/fermentation-and-anaerobic-respiration"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "chromatin",
+  "names": ["Chromatin"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Chromatin** is a <u>mixture of DNA and proteins</u> that forms the chromosomes in humans and other higher organisms. Histone proteins help package DNA into a compact form that can fit inside the nucleus.",
+  "tips": [
+    "Chromatin = **DNA + proteins**; histones are key proteins that <u>package DNA to fit in the nucleus</u>.",
+    "At the basic level, DNA wraps around histone proteins to form **nucleosomes**; nucleosomes are connected by linker DNA (often described as <u>\"beads on a string\"</u>).",
+    "In interphase, <u>tightly packaged chromatin</u> is **heterochromatin** (genes usually not expressed), while <u>less dense chromatin</u> is **euchromatin** (genes usually transcribed)."
+  ],
+  "exam_appearance": [
+    "If you see \"DNA wrapped around histones\" or \"beads on a string\" -> **<u>nucleosomes/chromatin</u>**.",
+    "If a question talks about chromatin being tightly packaged vs less dense in interphase -> **<u>heterochromatin vs euchromatin</u>**.",
+    "If the stem is really about how DNA is packed to fit in the nucleus -> **<u>chromatin (the DNA-protein material)</u>** is the key idea."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI (Talking Glossary): Chromatin",
+      "url": "https://www.genome.gov/genetics-glossary/Chromatin"
+    },
+    {
+      "title": "OpenStax Biology 2e: 10.1 Cell Division (chromatin, nucleosome, linker DNA)",
+      "url": "https://openstax.org/books/biology-2e/pages/10-1-cell-division"
+    },
+    {
+      "title": "OpenStax Biology 2e: 14.2 DNA Structure and Sequencing (beads-on-a-string; heterochromatin vs euchromatin)",
+      "url": "https://openstax.org/books/biology-2e/pages/14-2-dna-structure-and-sequencing"
+    },
+    {
+      "title": "National Cancer Institute Dictionary of Cancer Terms: Chromatin",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/chromatin"
+    }
+  ]
+}

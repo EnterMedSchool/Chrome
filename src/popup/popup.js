@@ -1,5 +1,5 @@
 /**
- * EMS Medical Glossary - Extension Popup Script
+ * EnterMedSchool Glossary - Extension Popup Script
  * Handles settings UI and communication with service worker.
  */
 
@@ -16,6 +16,8 @@ const domainCard = document.getElementById('domainCard');
 const domainStatusIcon = document.getElementById('domainStatusIcon');
 const domainName = document.getElementById('domainName');
 const domainLabel = document.getElementById('domainLabel');
+// PDF notice element
+const pdfNoticeSection = document.getElementById('pdfNoticeSection');
 const styleBtns = document.querySelectorAll('.style-btn');
 const colorBtns = document.querySelectorAll('.color-btn');
 const customColor = document.getElementById('customColor');
@@ -32,16 +34,25 @@ const levelBtns = document.querySelectorAll('.level-btn');
 const fontDecrease = document.getElementById('fontDecrease');
 const fontIncrease = document.getElementById('fontIncrease');
 const fontValue = document.getElementById('fontValue');
+const versionDisplay = document.getElementById('versionDisplay');
+const pauseExtensionBtn = document.getElementById('pauseExtensionBtn');
 
 // State
 let currentSettings = null;
 let currentTab = null;
 let currentHostname = null;
+let isPDFPage = false;
 
 /**
  * Initialize the popup
  */
 async function init() {
+  // Set version from manifest
+  if (versionDisplay) {
+    const manifest = chrome.runtime.getManifest();
+    versionDisplay.textContent = `v${manifest.version}`;
+  }
+
   // Get current tab info
   const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
   currentTab = tab;
@@ -60,11 +71,75 @@ async function init() {
   // Load stats
   await loadStats();
 
+  // Get page status (checks for PDF, Notion, etc.)
+  await getPageStatus();
+
   // Get highlight count from page
   await getHighlightCount();
 
   // Set up event listeners
   setupEventListeners();
+}
+
+/**
+ * Get page status from content script
+ */
+async function getPageStatus() {
+  if (!currentTab?.id) {
+    return;
+  }
+
+  try {
+    const response = await chrome.tabs.sendMessage(currentTab.id, {
+      type: 'GET_PAGE_STATUS',
+    });
+    
+    if (response?.isPDF) {
+      isPDFPage = true;
+      showPDFNotice();
+    }
+  } catch (error) {
+    // Content script not loaded - check URL for PDF
+    if (currentTab?.url) {
+      try {
+        const url = new URL(currentTab.url);
+        if (url.pathname.toLowerCase().endsWith('.pdf')) {
+          isPDFPage = true;
+          showPDFNotice();
+        }
+      } catch (e) {
+        // Invalid URL
+      }
+    }
+  }
+}
+
+/**
+ * Show PDF notice in popup
+ */
+function showPDFNotice() {
+  if (pdfNoticeSection) {
+    pdfNoticeSection.style.display = 'block';
+  }
+  
+  // Update domain card to indicate PDF
+  if (domainLabel) {
+    domainLabel.textContent = 'PDF - Not supported';
+  }
+  if (domainStatusIcon) {
+    domainStatusIcon.classList.add('disabled');
+    domainStatusIcon.classList.remove('active');
+  }
+  if (domainCard) {
+    domainCard.classList.add('disabled');
+    domainCard.classList.remove('active');
+  }
+  if (highlightCount) {
+    highlightCount.textContent = 'N/A';
+  }
+  if (toggleSiteBtn) {
+    toggleSiteBtn.disabled = true;
+  }
 }
 
 /**
@@ -144,7 +219,9 @@ function updateSiteStatus() {
     domainName.textContent = 'This page';
     domainLabel.textContent = 'Cannot highlight';
     domainStatusIcon.classList.add('disabled');
+    domainStatusIcon.classList.remove('active', 'paused');
     domainCard.classList.add('disabled');
+    domainCard.classList.remove('active', 'paused');
     toggleSiteBtn.disabled = true;
     return;
   }
@@ -157,26 +234,36 @@ function updateSiteStatus() {
   domainName.title = currentHostname;
 
   const isDisabled = currentSettings.disabledSites?.includes(currentHostname);
+  const isPaused = !currentSettings.enabled;
 
-  if (!currentSettings.enabled) {
-    domainLabel.textContent = 'Extension disabled';
-    domainStatusIcon.classList.add('disabled');
-    domainStatusIcon.classList.remove('active');
-    domainCard.classList.add('disabled');
-    domainCard.classList.remove('active');
+  // Update pause button state
+  if (pauseExtensionBtn) {
+    if (isPaused) {
+      pauseExtensionBtn.innerHTML = '<span class="btn-icon">▶️</span><span class="btn-text">Resume Extension</span>';
+      pauseExtensionBtn.classList.add('paused');
+    } else {
+      pauseExtensionBtn.innerHTML = '<span class="btn-icon">⏸️</span><span class="btn-text">Pause Extension</span>';
+      pauseExtensionBtn.classList.remove('paused');
+    }
+  }
+
+  // Reset classes
+  domainStatusIcon.classList.remove('disabled', 'active', 'paused');
+  domainCard.classList.remove('disabled', 'active', 'paused');
+
+  if (isPaused) {
+    domainLabel.textContent = 'Extension paused';
+    domainStatusIcon.classList.add('paused');
+    domainCard.classList.add('paused');
   } else if (isDisabled) {
     domainLabel.textContent = 'Disabled on this site';
     domainStatusIcon.classList.add('disabled');
-    domainStatusIcon.classList.remove('active');
     domainCard.classList.add('disabled');
-    domainCard.classList.remove('active');
     toggleSiteBtn.innerHTML = '<span class="btn-icon">✓</span><span class="btn-text">Enable on this site</span>';
     toggleSiteBtn.classList.add('enabled');
   } else {
     domainLabel.textContent = 'Active';
-    domainStatusIcon.classList.remove('disabled');
     domainStatusIcon.classList.add('active');
-    domainCard.classList.remove('disabled');
     domainCard.classList.add('active');
     toggleSiteBtn.innerHTML = '<span class="btn-icon">🚫</span><span class="btn-text">Disable on this site</span>';
     toggleSiteBtn.classList.remove('enabled');
@@ -264,6 +351,24 @@ function setupEventListeners() {
       try {
         await chrome.tabs.sendMessage(currentTab.id, {
           type: enableToggle.checked ? 'ENABLE' : 'DISABLE',
+        });
+      } catch (error) {
+        // Content script not loaded
+      }
+    }
+  });
+
+  // Pause extension button
+  pauseExtensionBtn?.addEventListener('click', async () => {
+    const newEnabledState = !currentSettings.enabled;
+    enableToggle.checked = newEnabledState;
+    await saveSettings({ enabled: newEnabledState });
+    updateSiteStatus();
+
+    if (currentTab?.id) {
+      try {
+        await chrome.tabs.sendMessage(currentTab.id, {
+          type: newEnabledState ? 'ENABLE' : 'DISABLE',
         });
       } catch (error) {
         // Content script not loaded

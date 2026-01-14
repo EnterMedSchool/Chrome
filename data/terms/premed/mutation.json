@@ -1,0 +1,35 @@
+{
+  "id": "mutation",
+  "names": [
+    "Mutation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A mutation** is a <u>change or error in the DNA sequence</u> of an organism. Mutations can range from a single nucleotide change to large segments of a chromosome being altered, and they can occur spontaneously or due to environmental factors like radiation or chemicals.",
+  "tips": [
+    "Not all mutations are harmful. Many are **neutral** (no effect on the organism), some are **deleterious** (cause diseases or dysfunction), and a rare few can be **beneficial** and provide raw material for evolution.",
+    "Only mutations in **germ cells** (sperm or eggs) are passed to offspring. Mutations in body (**somatic**) cells can affect the individual (e.g., causing cancer) but won't be inherited by that person's children.",
+    "Common causes of mutations include <u>DNA copying errors during cell division</u>, exposure to mutagens such as UV light or chemicals, and certain viral insertions. Cells do have DNA repair mechanisms, but if errors escape repair, they become permanent mutations."
+  ],
+  "exam_appearance": [
+    "If asked for the ultimate source of genetic variation in populations, the answer is **mutation** -- it creates new alleles (new genetic variants) that evolution can act upon.",
+    "Questions might test understanding of different mutation types: e.g., **point mutation** (single base change) vs **frameshift** (caused by insertion/deletion), or ask which types of mutations can be inherited (**germline mutations**).",
+    "Be cautious with wording: sometimes students confuse \"mutation\" with \"natural selection.\" Remember, mutation creates variation randomly; natural selection then sorts that variation (favoring beneficial mutations)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "National Human Genome Research Institute - Talking Glossary: Mutation",
+      "url": "https://www.genome.gov/genetics-glossary/Mutation"
+    },
+    {
+      "title": "MedlinePlus (NIH) - What is a gene mutation and how do mutations occur?",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/"
+    },
+    {
+      "title": "Britannica - Mutation (Causes and Effects)",
+      "url": "https://www.britannica.com/science/mutation-genetics"
+    }
+  ]
+}

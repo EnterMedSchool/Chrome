@@ -1,0 +1,31 @@
+{
+  "id": "homeostasis",
+  "names": [
+    "Homeostasis"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Homeostasis** is the process by which living organisms maintain a <u>stable internal environment</u> despite changes in external conditions. It involves dynamic balance of factors like temperature, pH, ion concentrations, blood sugar, etc., around ideal set points so that the body's cells can function optimally. Homeostasis is achieved through regulatory mechanisms (often <u>negative feedback loops</u>) that detect deviations and correct them.",
+  "tips": [
+    "A classic example of homeostasis is body temperature regulation: if your body temperature rises above the set point (~37\u00b0C), mechanisms like sweating and increased skin blood flow kick in to cool you down; if it drops too low, shivering and reduced blood flow to skin help raise it. This is a <u>negative feedback loop</u> maintaining thermal homeostasis.",
+    "Homeostasis typically operates via **<u>negative feedback</u>**: a change in one direction triggers responses that push it in the opposite direction, back toward the set point. For instance, high blood glucose after a meal triggers insulin release, which lowers blood glucose, restoring balance. When glucose is low, insulin is reduced and glucagon is released to raise blood sugar - again, balancing it.",
+    "Keep in mind that homeostasis is a <u>dynamic equilibrium</u>, not an unchanging state. Internal conditions fluctuate within a narrow range around the set point. Also, some processes use **positive feedback** (a change triggers amplification of that change) but these are less about maintaining stability and more about driving processes to completion (e.g., uterine contractions during childbirth are a positive feedback loop, not a homeostatic process per se)."
+  ],
+  "exam_appearance": [
+    "If a question asks about the general concept of maintaining internal balance (for example, keeping blood pH ~7.4 or body temperature constant), it's referring to <u>homeostasis</u>. They may phrase it as \"steady state\" or \"internal equilibrium.\"",
+    "Watch for questions that give a scenario and ask which mechanism is at play - if the scenario describes a parameter being held near a set point by compensatory responses, the answer is <u>negative feedback</u> and homeostasis. For example, a question might describe how blood pressure sensors trigger heart rate and vessel changes to stabilize blood pressure - that's homeostatic regulation via negative feedback.",
+    "Some exam questions might test the term itself: e.g., \"The ability of the body to maintain a constant internal environment is known as ___.\" The answer is **homeostasis**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NCI Dictionary of Cancer Terms: Homeostasis (definition)",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/homeostasis"
+    },
+    {
+      "title": "OpenStax Concepts of Biology: Section 16.1 (Homeostasis as steady internal state via feedback)",
+      "url": "https://openstax.org/books/concepts-biology/pages/16-1-homeostasis-and-osmoregulation"
+    }
+  ]
+}

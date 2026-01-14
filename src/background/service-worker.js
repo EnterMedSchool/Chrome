@@ -1,5 +1,5 @@
 /**
- * Service Worker for EMS Medical Glossary
+ * Service Worker for EnterMedSchool Glossary
  * Handles background tasks, message passing, and index management.
  * 
  * @module service-worker

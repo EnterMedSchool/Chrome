@@ -1,0 +1,36 @@
+{
+  "id": "vaccine",
+  "names": [
+    "Vaccine"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **vaccine** is a biological preparation that <u>teaches the immune system to recognize and fight a specific disease</u> without causing the disease itself. It usually contains a <u>weakened or inactive part of a pathogen (or something resembling it)</u> that stimulates an immune response, so that if the body encounters the real pathogen later, it can respond quickly and <u>prevent illness</u>.",
+  "tips": [
+    "Vaccines stimulate <u>active immunity</u>: the body produces its own antibodies and memory cells against the disease, providing <u>long-term protection</u>.",
+    "Common vaccine types include **live attenuated** (weakened pathogen), **inactivated** (killed pathogen), **subunit** (pieces of the pathogen), **toxoid** (inactivated toxin), and **mRNA vaccines** - all aim to safely introduce an <u>antigen to trigger immunity</u>.",
+    "Vaccines are <u>preventive</u> (given before one gets sick to protect against future infection), unlike treatments like antibiotics which are used after an infection. A classic exam tip is that antibiotics do not work on viruses, but vaccines can prevent viral (and bacterial) diseases by <u>priming immune memory</u>.",
+    "**Herd immunity:** If a large portion of the population is immunized, even individuals without immunity are indirectly protected because the pathogen has fewer opportunities to spread. Exams may ask about this concept to emphasize why widespread vaccination is important."
+  ],
+  "exam_appearance": [
+    "If a question describes an injection (or oral dose) that exposes the immune system to a harmless form of a germ to prevent disease, it's referring to a <u>vaccine</u> and how it induces immunity rather than treating an active infection.",
+    "Test scenarios might contrast active immunity vs passive immunity: vaccines confer <u>active immunity</u> by prompting the body to make memory B-cells and antibodies. (Passive immunity, by contrast, is giving pre-made antibodies, like antitoxin injections, and is temporary.)",
+    "A question may ask about the mechanism of a vaccine: expect an answer about <u>stimulating an immune response</u> (for example, activating lymphocytes to produce antibodies) without causing the disease. Be prepared to identify examples like the polio vaccine containing inactivated virus, or the measles vaccine using attenuated virus."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "CDC - Glossary: Vaccine",
+      "url": "https://www.cdc.gov/nerd-academy/about/glossary.html"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Vaccines - Immunizations",
+      "url": "https://medlineplus.gov/ency/article/002024.htm"
+    },
+    {
+      "title": "NCBI (National Academies Press): What You Need to Know About Infectious Disease - Vaccines",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK209704/"
+    }
+  ]
+}

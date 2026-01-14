@@ -1,0 +1,35 @@
+{
+  "id": "hormone",
+  "names": [
+    "Hormone",
+    "Hormones"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A hormone** is a <u>chemical messenger</u> produced by an endocrine gland and released into the <u>bloodstream</u> to regulate the activity of specific target cells or organs. Hormones can affect a wide range of bodily processes - for example, insulin (from the pancreas) signals cells to take up glucose, and thyroid hormone regulates metabolism.",
+  "tips": [
+    "Hormones only act on cells that have <u>receptors</u> for them. Even though hormones circulate throughout the body via blood, only target cells with the appropriate receptor will respond (e.g., estrogen affects estrogen-receptor-positive tissues).",
+    "The major classes of hormones include <u>peptide/protein hormones</u> (water-soluble, e.g. insulin), <u>steroid hormones</u> (lipid-soluble, e.g. cortisol, sex hormones), and <u>amine hormones</u> (modified amino acids, e.g. adrenaline). This influences how they act: e.g., steroid hormones cross cell membranes and bind <u>intracellular receptors</u>, whereas peptide hormones bind to <u>cell surface receptors</u>.",
+    "Hormone levels are usually controlled by <u>feedback loops</u>. For instance, low blood thyroid hormone triggers the pituitary to release TSH, stimulating the thyroid gland to produce more hormone (negative feedback once levels normalize)."
+  ],
+  "exam_appearance": [
+    "Commonly appears in questions about distinguishing hormones from other signaling molecules. For example, a question might contrast a neurotransmitter (released at a synapse) with a hormone (released into blood) - knowing that hormones travel via <u>bloodstream to distant targets</u> is key.",
+    "May be tested in scenarios involving endocrine disorders: e.g., recognizing that excessive thirst and urination in diabetes are related to lack of insulin hormone action, or that growth abnormalities could be due to growth hormone issues."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus - Endocrine Diseases (Summary: hormones are chemical messengers)",
+      "url": "https://medlineplus.gov/endocrinediseases.html"
+    },
+    {
+      "title": "NCI Dictionary of Cancer Terms: Hormone",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/hormone"
+    },
+    {
+      "title": "OpenStax Biology for AP Courses: How Hormones Work (target cell receptors)",
+      "url": "https://openstax.org/books/biology-ap-courses/pages/28-2-how-hormones-work"
+    }
+  ]
+}

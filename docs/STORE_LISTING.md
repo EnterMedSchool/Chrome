@@ -1,14 +1,14 @@
 # Chrome Web Store Listing
 
 ## Extension Name
-EMS Medical Glossary
+EnterMedSchool Glossary
 
 ## Summary (132 characters max)
 Highlights medical terms and shows definitions for medical students. 100% offline, privacy-focused.
 
 ## Detailed Description (16,000 characters max)
 
-📚 EMS Medical Glossary - Your Study Companion for Medical School
+📚 EnterMedSchool Glossary - Your Study Companion for Medical School
 
 Instantly understand medical terminology while studying! This extension automatically highlights medical terms on any webpage and provides comprehensive, exam-focused definitions.
 
@@ -134,7 +134,7 @@ https://github.com/EnterMedSchool/Chrome/blob/main/docs/PRIVACY.md
 ## Promotional Images
 
 ### Small Tile (440x280)
-- EMS Medical Glossary logo
+- EnterMedSchool Glossary logo
 - "336+ Medical Terms"
 - "100% Offline & Private"
 

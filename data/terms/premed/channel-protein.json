@@ -1,0 +1,34 @@
+{
+  "id": "channel-protein",
+  "names": [
+    "Channel Protein"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A channel protein** is an integral membrane protein that spans a cell membrane and contains a <u>hydrophilic pore</u> through which specific ions or molecules can pass. Channel proteins facilitate <u>passive transport (facilitated diffusion)</u> - they allow substances like ions or water to flow down their concentration gradients across the membrane.",
+  "tips": [
+    "Channel proteins are typically **<u>selective</u>** for particular substances: e.g., an ion channel might allow Na+ but not K+ through, and <u>aquaporins</u> are channel proteins specific for water.",
+    "Channels can be **<u>gated</u>** or open: a gated channel protein opens only in response to a stimulus (such as a chemical ligand or a voltage change), whereas some channels (like certain leak channels) remain open all the time.",
+    "Channels move solutes much faster than carrier proteins - millions of ions per second. Unlike carrier transporters, channel-mediated diffusion does not exhibit saturation at physiological concentrations in the same way, due to not binding each individual molecule."
+  ],
+  "exam_appearance": [
+    "A classic comparison question: *channels vs carriers*. Correct answer: **<u>channel proteins</u>** provide a pore for substances to diffuse rapidly across membranes (passive, no energy required), whereas **carrier proteins** bind substances and undergo shape changes - making carriers slower and sometimes able to perform active transport.",
+    "Scenario recognition: if a question describes ions flowing into a neuron when a membrane protein opens in response to a signal, that membrane protein is a gated ion **<u>channel</u>**. For instance, Na+ rushing into a neuron during an impulse indicates voltage-gated Na+ **channels** opening."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Ch.3 Key Terms: \"channel protein\"",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-key-terms"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 5.2: Passive Transport (hydrophilic channel and gated channels)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 5.2: Passive Transport (Channel vs Carrier transport rates)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+    }
+  ]
+}

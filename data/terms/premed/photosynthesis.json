@@ -1,0 +1,35 @@
+{
+  "id": "photosynthesis",
+  "names": [
+    "Photosynthesis"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Photosynthesis** is the process by which certain organisms (plants, algae, and cyanobacteria) <u>convert light energy into chemical energy</u>. Using sunlight, carbon dioxide, and water, they <u>produce sugars (like glucose) as food, and release oxygen as a byproduct</u>. In plants, photosynthesis takes place in chloroplasts, where <u>light-dependent reactions capture energy to make ATP and NADPH</u>, and the <u>Calvin cycle (light-independent reactions) uses that energy to fix CO2 into carbohydrates</u>.",
+  "tips": [
+    "The overall chemical equation for photosynthesis is essentially the reverse of aerobic respiration: <u>6 CO2 + 6 H2O + light energy -> C6H12O6 (glucose) + 6 O2</u>. One common mistake is misunderstanding the source of the oxygen produced - it <u>comes from water molecules that are split during the light-dependent reactions</u> (not from CO2).",
+    "Photosynthesis has two main stages: (1) the <u>light-dependent reactions (occur in the thylakoid membranes)</u> where chlorophyll and other pigments absorb light and generate ATP and NADPH while splitting water to release O2; (2) the <u>Calvin cycle (light-independent reactions, occur in the stroma)</u> where CO2 is fixed into organic molecules like glucose using the ATP and NADPH from the light reactions.",
+    "Chlorophyll, the primary pigment in photosynthesis, absorbs red and blue wavelengths of light most effectively and reflects green light (that-s why plants appear green). An exam trick: if asked which color of light is least useful for photosynthesis, the answer is <u>green, because it-s mostly reflected rather than absorbed</u>."
+  ],
+  "exam_appearance": [
+    "**Equation questions:** You might be asked to identify or balance the photosynthesis equation, or to recognize that photosynthesis consumes CO2 and produces O2 (opposite of respiration). Also know that the oxygen in the equation comes from H2O. For example, an item could ask: 'In photosynthesis, which reactant is the source of the oxygen gas released-' (Answer: <u>water</u>).",
+    "**Process and location:** Be prepared for questions on where each phase occurs. E.g., 'Where in the plant cell do the light-dependent reactions take place-' (Answer: <u>in the thylakoid membranes of chloroplasts</u>) and 'Where does the Calvin cycle occur-' (Answer: <u>in the stroma of the chloroplast</u>). Recognizing -light reactions vs. Calvin cycle- and their inputs/outputs is high-yield.",
+    "**Comparative trap:** Some questions compare photosynthesis and respiration. For instance, understanding that <u>photosynthesis stores energy in glucose (it-s endergonic)</u>, whereas <u>respiration releases energy from glucose (exergonic)</u>. Also, only photosynthesis involves the absorption of light energy. If a question describes an experimental setup with plants in light vs dark or asks about gas exchange in plants, be sure to apply knowledge of photosynthetic activity (CO2 uptake in light, O2 release, etc.)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Concepts of Biology - Chapter 5.1: Overview of Photosynthesis",
+      "url": "https://openstax.org/books/concepts-biology/pages/5-1-overview-of-photosynthesis"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 8.2: Light-Dependent Reactions",
+      "url": "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis"
+    },
+    {
+      "title": "OpenStax Biology 2e - Section 8.3: The Calvin Cycle",
+      "url": "https://openstax.org/books/biology-2e/pages/8-3-using-light-energy-to-make-organic-molecules"
+    }
+  ]
+}

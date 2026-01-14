@@ -1,0 +1,35 @@
+{
+  "id": "circulatory-system",
+  "names": [
+    "Circulatory System",
+    "Cardiovascular System"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The circulatory system** (cardiovascular system) is the organ system that <u>circulates blood throughout the body</u> via the heart and blood vessels. Its primary purpose is to <u>deliver oxygen and nutrients</u> to tissues and to carry away carbon dioxide and other waste products for elimination.",
+  "tips": [
+    "Major components: the <u>heart</u> (muscular pump), <u>arteries</u> (vessels carrying blood away from the heart), <u>capillaries</u> (tiny vessels where exchange of gases/nutrients occurs), and <u>veins</u> (vessels returning blood to the heart).",
+    "Humans have a **<u>closed circulatory system</u>**, meaning blood stays within vessels. There are two circuits: the <u>pulmonary circulation</u> (heart to lungs and back, for gas exchange) and <u>systemic circulation</u> (heart to body and back).",
+    "Arteries generally carry oxygenated blood and veins carry deoxygenated blood, with a notable exception: the <u>pulmonary arteries</u> carry oxygen-poor blood from the heart to the lungs, and <u>pulmonary veins</u> carry oxygen-rich blood back to the heart."
+  ],
+  "exam_appearance": [
+    "Look for clues about oxygen delivery or waste removal. For example: \"Which system transports oxygen to cells and removes carbon dioxide?\" - the <u>circulatory system</u>.",
+    "Common trap: assuming all arteries carry oxygenated blood. A classic question might ask which artery carries deoxygenated blood - the correct answer is the <u>pulmonary artery</u> (since it goes to the lungs to pick up oxygen)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Biology LibreTexts - Circulatory System Overview (OpenStax Microbiology)",
+      "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/25%3A_Circulatory_and_Lymphatic_System_Infections/25.01%3A_Anatomy_of_the_Circulatory_and_Lymphatic_Systems"
+    },
+    {
+      "title": "Nemours KidsHealth - Your Heart & Circulatory System (for Kids)",
+      "url": "https://kidshealth.org/en/kids/heart.html"
+    },
+    {
+      "title": "Nemours KidsHealth - What Are Arteries and Veins? (for Kids)",
+      "url": "https://kidshealth.org/en/kids/arteries-veins.html"
+    }
+  ]
+}

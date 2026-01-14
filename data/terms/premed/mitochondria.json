@@ -1,0 +1,33 @@
+{
+  "id": "mitochondria",
+  "names": ["Mitochondria", "Mitochondrion"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Mitochondria** are <u>double-membraned organelles</u> known as the \"powerhouses\" of the cell. They generate <u>most of the cell's ATP via aerobic respiration</u>. Mitochondria contain their own <u>small circular DNA and ribosomes</u>, reflecting their evolutionary origin from bacteria (endosymbiosis).",
+  "tips": [
+    "The inner mitochondrial membrane is highly folded into **cristae**, which increase surface area for ATP production (<u>electron transport chain and ATP synthase are located there</u>). The matrix (inner compartment) is where the **Krebs cycle** occurs.",
+    "Mitochondria are inherited almost exclusively from the mother in humans (**maternal inheritance**). This is because the egg supplies the mitochondria to the embryo. <u>Traits due to mtDNA mutations pass from mothers to all children</u>, but affected fathers do not pass them on.",
+    "Cells that require a lot of energy have many mitochondria. For example, **muscle and heart cells** are packed with mitochondria to meet energy demands. In contrast, <u>red blood cells have no mitochondria</u> (and thus produce ATP only via glycolysis)."
+  ],
+  "exam_appearance": [
+    "If a question mentions a <u>\"double membrane organelle with its own DNA\"</u> or the production of ATP, it's pointing to **mitochondria**. Common answers: \"mitochondrion\" or \"mitochondria.\"",
+    "Expect questions about metabolism: e.g., \"Where in the cell does the citric acid (**Krebs**) cycle occur-\" -> **mitochondrial matrix**; \"site of oxidative phosphorylation-\" -> **inner mitochondrial membrane/cristae**.",
+    "Inheritance patterns can involve mitochondria: a classic exam scenario is a pedigree where <u>only mothers pass on a condition to all children</u> - indicating a **mitochondrial DNA disorder**. Recognize that unique maternal inheritance clue means mitochondria."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Eukaryotic Cells: Mitochondria",
+      "url": "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells#fs-id1167497137604"
+    },
+    {
+      "title": "MedlinePlus Genetics - Mitochondrial DNA & Maternal Inheritance",
+      "url": "https://medlineplus.gov/genetics/understanding/inheritance/inheritancepatterns/#mitochondrial"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Mitochondria (cell energy)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/3-2-the-cell-and-cell-structure#fs-id1164858392137"
+    }
+  ]
+}

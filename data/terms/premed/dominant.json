@@ -1,0 +1,33 @@
+{
+  "id": "dominant",
+  "names": ["Dominant", "Dominant allele"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A dominant allele** is one that will determine the phenotype even if only <u>one copy is present</u>. In other words, a trait is called dominant if a <u>single copy of the responsible allele is enough to make that trait appear</u> (masking the effect of any recessive allele).",
+  "tips": [
+    "Heterozygous (one dominant and one recessive allele) and homozygous dominant (two dominant alleles) individuals look the same phenotypically - the dominant trait is expressed in both cases.",
+    "**Dominant does not necessarily mean common.** For example, having extra fingers (polydactyly) is caused by a dominant allele, yet most people have five digits (the recessive condition). Many dominant genetic disorders (like achondroplasia) are rare in the population.",
+    "In autosomal dominant inheritance, an affected person usually has an affected parent (<u>the trait typically appears in every generation</u>). Each child of an affected parent has a <u>50% chance</u> of inheriting the condition (assuming the parent is heterozygous)."
+  ],
+  "exam_appearance": [
+    "Pedigree clues for an autosomal dominant trait: it tends to <u>appear in every generation</u>. Unaffected parents do not produce affected children (<u>no skipping of generations</u>, barring new mutations).",
+    "If one parent is affected with a single dominant allele, typically about half of the offspring will inherit the trait - a classic <u>50% pattern</u> often tested in questions about probability.",
+    "Be cautious with terminology: in dominant conditions there are no **\"carriers\"** without symptoms. If someone carries the dominant allele, they <u>generally show the trait</u>. Exams may ask you to distinguish this from recessive patterns, where carriers have the allele but not the trait."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Dominant Trait",
+      "url": "https://www.genome.gov/genetics-glossary/Dominant-Traits-and-Alleles"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Autosomal Dominant Inheritance",
+      "url": "https://medlineplus.gov/ency/article/002049.htm"
+    },
+    {
+      "title": "The Tech Interactive - Ask a Geneticist: \"Is having 5 fingers a dominant trait?\" (Polydactyly example)",
+      "url": "https://www.thetech.org/ask-a-geneticist/articles/2012/polydactyly/"
+    }
+  ]
+}

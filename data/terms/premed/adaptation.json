@@ -1,0 +1,35 @@
+{
+  "id": "adaptation",
+  "names": [
+    "Adaptation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Adaptation** in biology refers to a <u>heritable trait or characteristic that improves an organism's ability to survive and reproduce</u> in a particular environment. It can also refer to the evolutionary process through which such beneficial traits arise in a population over time.",
+  "tips": [
+    "An adaptation (trait) is <u>genetic</u> -- it's not something an individual organism consciously develops in response to the environment. Instead, individuals born with a beneficial trait tend to survive and have more offspring, spreading that trait.",
+    "Adaptation (the process) happens via <u>natural selection acting on variation</u>: for example, in a cold climate, animals with thicker fur (a genetic trait) may survive better and leave more offspring, so thick fur becomes more common -- an adaptation to cold.",
+    "Don't confuse adaptation with acclimatization: <u>acclimatization is a temporary adjustment</u> (like your body making more red blood cells at high altitude), whereas an adaptation is a long-term evolutionary change (high-altitude populations evolving greater lung capacity over generations)."
+  ],
+  "exam_appearance": [
+    "A question might give an example of a trait and ask why it exists -- e.g., \"Polar bears have white fur because...?\" The answer relates to adaptation: white fur camouflages them in snow, improving hunting success (thus it was favored by natural selection).",
+    "Be prepared for scenarios where a population changes over generations to become better suited to environment pressures (classic adaptation story). For instance, insects evolving pesticide resistance: the resistant trait is an adaptation that spread because those insects survived to reproduce.",
+    "Also watch for trick statements implying that organisms intentionally adapt out of need. The correct understanding: <u>random mutations produced variation, and the environment \"selected\" those variants</u> that were advantageous (nature doesn't give organisms what they need except via this selection process)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "National Geographic Society - Adaptation and Survival (definition of adaptation)",
+      "url": "https://education.nationalgeographic.org/resource/adaptation-and-survival"
+    },
+    {
+      "title": "Britannica - Adaptation (evolutionary process and examples)",
+      "url": "https://www.britannica.com/science/adaptation-biology-and-physiology"
+    },
+    {
+      "title": "CK-12 Foundation - Natural Selection and Adaptation",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-concepts-2015/section/16.2/primary/lesson/adaptation-biology"
+    }
+  ]
+}

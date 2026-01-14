@@ -1,0 +1,35 @@
+{
+  "id": "active-transport",
+  "names": [
+    "Active Transport"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Active transport** is the <u>energy-requiring process</u> of moving substances across a cell membrane <u>against their concentration (or electrochemical) gradient</u>. In active transport, molecules are pumped from a region of lower concentration to higher concentration, using <u>cellular energy (typically ATP)</u> and <u>specialized transport proteins</u> in the membrane.",
+  "tips": [
+    "A classic example of active transport is the **<u>sodium-potassium pump (Na+/K+ ATPase)</u>**: it uses ATP to export 3 Na+ ions out of the cell and import 2 K+ ions into the cell per cycle, against their concentration gradients. This pump helps maintain the resting ion balance critical for nerve impulses and muscle contractions.",
+    "Active transport is categorized as **<u>primary active transport</u>** if it directly uses ATP for energy, or **<u>secondary active transport</u>** if it uses energy stored in an ion gradient. In primary active transport, ATP hydrolysis drives the transporter (for example, proton pumps or Na+/K+ pumps).",
+    "Active transport allows cells to maintain concentration differences essential for life. For instance, cells can concentrate nutrients (like glucose or amino acids) even when external concentrations are low, and remove waste ions despite higher outside concentration. Without active transport, crucial functions like nutrient absorption in the intestines or nerve cell firing (ion gradient reset) would fail."
+  ],
+  "exam_appearance": [
+    "If a question states that a substance moves from a low concentration to a high concentration region across a membrane and specifically mentions ATP or \"pump\" proteins -> that's <u>active transport</u>. Recognize phrasing like \"against the gradient\" or \"requires energy\" as key giveaways.",
+    "For example, a question may ask what type of transport the <u>Na+/K+-ATPase</u> performs: the answer is <u>primary active transport</u> (using ATP to move Na and K against their gradients).",
+    "Be prepared to distinguish active transport from passive processes. An exam might describe a scenario with a molecule accumulating in a cell despite higher internal concentration - this implies <u>active transport</u> (passive diffusion alone could not achieve that accumulation)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "StatPearls - Physiology, Active Transport (Intro & Function)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK547718/"
+    },
+    {
+      "title": "CK-12 Biology - Active Transport (overview)",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-biology-flexbook-2.0/section/5.2/primary/lesson/active-transport-advanced-bio"
+    },
+    {
+      "title": "Khan Academy - Active transport (article)",
+      "url": "https://www.khanacademy.org/science/biology/membranes-and-transport/active-transport/a/active-transport"
+    }
+  ]
+}

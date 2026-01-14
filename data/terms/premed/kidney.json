@@ -1,0 +1,36 @@
+{
+  "id": "kidney",
+  "names": [
+    "Kidney",
+    "Kidneys"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A kidney** is one of two bean-shaped organs that <u>filter the blood</u> to remove waste products and excess water, forming urine. The kidneys also play crucial roles in maintaining the body's fluid and electrolyte balance, <u>regulating blood pressure</u>, and producing hormones important for red blood cell production and bone health.",
+  "tips": [
+    "Each kidney contains about 1 million <u>nephrons</u>, which are the functional filtration units (see nephron). Blood enters each nephron's <u>glomerulus</u> where filtration occurs, and the filtrate is refined through the nephron's tubules into urine.",
+    "Key hormones produced by the kidneys: <u>erythropoietin (EPO)</u>, which stimulates red blood cell formation in bone marrow, and <u>renin</u>, which initiates the renin-angiotensin-aldosterone system to help regulate blood pressure. (The kidneys also activate vitamin D to its calcitriol form.)",
+    "Kidney function is often measured by <u>glomerular filtration rate (GFR)</u>. Healthy adult kidneys filter roughly 180 liters of blood plasma per day, yet about 99% of the filtrate is reabsorbed, leaving <u>1-2 liters</u> of urine output in a day."
+  ],
+  "exam_appearance": [
+    "A classic context is a patient with chronic kidney disease presenting with anemia - this is due to reduced <u>erythropoietin</u> production by failing kidneys. Recognizing the kidney's endocrine function can be key to such questions.",
+    "Questions may also address the RAAS: e.g., low blood pressure or low sodium delivery to the kidney triggers <u>renin release</u> from the juxtaglomerular cells - expect to identify the kidney's role in blood pressure regulation.",
+    "Renal physiology questions often involve understanding how kidneys concentrate urine or maintain pH. For example, knowing that the kidney can excrete hydrogen ions and reabsorb bicarbonate to balance <u>blood pH</u> is important."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus - Kidney Tests (Kidneys filter blood and produce urine)",
+      "url": "https://medlineplus.gov/lab-tests/kidney-tests/"
+    },
+    {
+      "title": "Copstead & Banasik's Pathophysiology (via NurseKey): Kidney Functions and Hormones (Renin, EPO)",
+      "url": "https://nursekey.com/renal-physiology-and-the-pathology-of-renal-failure/"
+    },
+    {
+      "title": "MedReport Foundation - Kidney as an Endocrine Organ (renin, erythropoietin, vitamin D)",
+      "url": "https://www.medreport.foundation/post/the-kidney-as-an-endocrine-organ-renin-erythropoietin-and-vitamin-d-in-health-and-disease"
+    }
+  ]
+}

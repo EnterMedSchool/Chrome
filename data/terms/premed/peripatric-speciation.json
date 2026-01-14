@@ -1,0 +1,35 @@
+{
+  "id": "peripatric-speciation",
+  "names": [
+    "Peripatric speciation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Peripatric speciation** is a specific type of allopatric speciation that happens when a <u>small population becomes isolated on the periphery of the parent population's range</u>. Because the isolated group is very small (a \"founder\" population), **genetic drift** and unique selection pressures can lead to rapid differences and speciation.",
+  "tips": [
+    "Think of peripatric speciation as a **\"founder effect\"** scenario: a few individuals colonize a new, isolated habitat (like an island or remote area on the edge of the range). The <u>small population size</u> means random genetic changes (drift) can have a big effect.",
+    "Since peripatric is basically a special case of allopatric speciation, <u>geographic isolation</u> is still at play -- the difference is the emphasis on the small population size and its consequences (loss of genetic variation, drift).",
+    "Unique traits in the small group can become fixed (common) quickly just by chance. This can lead to the new population being <u>genetically and sometimes morphologically distinct</u> from the original population fairly fast."
+  ],
+  "exam_appearance": [
+    "Exam questions might describe a scenario where a few members of a species are isolated and start a new population (e.g., island colonizers). That setup is classic **peripatric speciation** -- look for keywords like \"founder population\" or \"small isolated colony\".",
+    "Beware confusion: peripatric vs allopatric -- both involve geographic separation, but peripatric highlights a <u>tiny offshoot population</u>. If a question mentions strong genetic drift or founder effect, peripatric is the likely answer.",
+    "For example, suppose a storm blows a handful of insects to a new island. Over time they become a new species. The small founding number (and isolation) makes this **peripatric speciation**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Understanding Evolution (UC Berkeley) - Peripatric speciation (founder effect speciation)",
+      "url": "https://evolution.berkeley.edu/modes-of-speciation/peripatric-speciation"
+    },
+    {
+      "title": "National Geographic Society - Peripatric Speciation (within Speciation entry)",
+      "url": "https://education.nationalgeographic.org/resource/speciation"
+    },
+    {
+      "title": "Encyclopedia.com - Founder effect (relation to peripatric speciation)",
+      "url": "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/founder-effect"
+    }
+  ]
+}

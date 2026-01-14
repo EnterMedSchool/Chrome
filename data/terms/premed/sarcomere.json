@@ -1,0 +1,35 @@
+{
+  "id": "sarcomere",
+  "names": [
+    "Sarcomere"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A sarcomere** is the fundamental contractile unit of striated muscle fibers. It is the segment of a myofibril between two adjacent <u>Z lines (Z discs)</u>. Each sarcomere contains overlapping thick filaments (<u>myosin</u>) and thin filaments (<u>actin</u>); muscle contraction occurs when these filaments slide past each other, shortening the sarcomere.",
+  "tips": [
+    "Structural landmarks: **<u>Z lines</u>** define the borders of the sarcomere (actin filaments are anchored here). The **<u>M line</u>** runs down the center (where myosin filaments anchor). The **<u>I band</u>** is the light band with only thin filaments, and the **<u>A band</u>** is the dark band that spans the length of the thick filaments.",
+    "During contraction: the **<u>H zone</u>** (center region with only thick filaments) and the I band both shrink in width, while the A band remains constant in length. This is because thick and thin filaments slide over each other (the filaments themselves do not shorten). Remember: \"Z lines come closer, I and H get smaller, A stays the same.",
+    "Many sarcomeres end-to-end form a <u>myofibril</u>. The aligned arrangement of sarcomeres in a muscle fiber is what gives skeletal and cardiac muscle their <u>striated (banded) appearance</u> under the microscope."
+  ],
+  "exam_appearance": [
+    "A common exam question is which bands change size during muscle contraction - correct answer: the <u>I band</u> and <u>H zone</u> shorten, while the <u>A band</u> does not change (because the length of the myosin filaments doesn't change).",
+    "If asked for the \"functional unit of skeletal muscle contraction,\" the answer is the **<u>sarcomere</u>**. Also, be prepared to identify a sarcomere on a diagram (Z line to Z line).",
+    "Visualization: Questions might refer to an electron micrograph of muscle. Knowing terms like Z line, A band, I band, etc., and how they relate to the sarcomere will help interpret such images and answer related questions."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Skeletal Muscle Fiber Structure (sarcomere = Z-disc to Z-disc; striation pattern)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-2-skeletal-muscle"
+    },
+    {
+      "title": "OpenStax Biology for AP Courses - Muscle Tissue (sarcomere defined from one Z line to the next)",
+      "url": "https://openstax.org/books/biology-ap-courses/pages/29-4-muscle-contraction-and-locomotion"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Sliding Filament Model (Z lines move closer, I band and H zone shrink during contraction)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/10-3-muscle-fiber-contraction-and-relaxation"
+    }
+  ]
+}

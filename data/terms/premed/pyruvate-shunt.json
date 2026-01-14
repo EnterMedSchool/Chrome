@@ -1,0 +1,37 @@
+{
+  "id": "pyruvate-shunt",
+  "names": [
+    "Pyruvate shunt",
+    "Pyruvate oxidation",
+    "Link reaction"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The pyruvate shunt** is the transitional step that <u>converts pyruvate (the end product of glycolysis) into acetyl-CoA, CO2, and NADH</u>, effectively bridging glycolysis to the Krebs cycle. This reaction is catalyzed by the <u>pyruvate dehydrogenase complex in the mitochondrial matrix</u> (in eukaryotes) and is sometimes called pyruvate oxidation or the link reaction.",
+  "tips": [
+    "During this conversion, each pyruvate (3C) <u>loses one carbon as CO2 (decarboxylation)</u>, and the remaining 2-carbon acetyl group is attached to coenzyme A to form acetyl-CoA. Meanwhile, NAD+ is reduced to NADH. Since one glucose yields two pyruvate, the reaction occurs twice per glucose (producing **2 acetyl-CoA + 2 NADH + 2 CO2 per glucose**).",
+    "This step is <u>irreversible and highly regulated</u>. It requires several <u>B-vitamin-derived cofactors (like thiamine, lipoic acid, NAD+, FAD, CoA)</u>. For example, thiamine (vitamin B1) is a cofactor; deficiency can impair pyruvate oxidation and lead to a backup of pyruvate (which gets converted to lactate).",
+    "<u>Oxygen is indirectly required</u>: pyruvate will only be shunted into acetyl-CoA if the cell can eventually send electrons from NADH into the oxygen-requiring electron transport chain. In anaerobic conditions (no O2), pyruvate is more likely to undergo <u>fermentation instead of entering the mitochondria</u>."
+  ],
+  "exam_appearance": [
+    "**Bridge step:** Test questions often ask how pyruvate enters the citric acid cycle. Remember that pyruvate itself cannot enter the Krebs cycle directly; it must first be converted to <u>acetyl-CoA</u>. The enzyme complex that does this (<u>pyruvate dehydrogenase</u>) links glycolysis to the TCA cycle.",
+    "**Products and yield:** A common question: 'What are the products when one molecule of pyruvate is oxidized-' Answer: **acetyl-CoA, NADH, and CO2** (per pyruvate). They might also ask per glucose (which would be twice those amounts). Recognize that <u>no ATP is made directly in this step</u>.",
+    "**Location clue:** In eukaryotes, this pyruvate-to-acetyl-CoA conversion happens in the <u>mitochondrial matrix</u>. In prokaryotes (which lack mitochondria), it happens in the <u>cytoplasm</u>. A question might give a scenario about where these reactions take place in bacteria vs. humans."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Section 7.3: Oxidation of Pyruvate (Link to Krebs Cycle)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle"
+    },
+    {
+      "title": "NCBI Bookshelf - Biochemistry (Berg et al.): Pyruvate Dehydrogenase Complex",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK22413/"
+    },
+    {
+      "title": "OpenStax Biology for AP Courses - Pyruvate Oxidation Summary",
+      "url": "https://openstax.org/books/biology-ap-courses/pages/7-3-oxidation-of-pyruvate-and-the-citric-acid-cycle"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "immune-system",
+  "names": [
+    "Immune System"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The immune system** is a complex network of cells, tissues, and organs that helps the body <u>fight infections and other diseases</u>. It includes <u>barrier defenses like the skin and mucous membranes</u> as well as <u>immune cells (white blood cells)</u> and organs such as <u>lymph nodes, spleen, and thymus</u>, which work together to <u>identify and destroy pathogens</u>.",
+  "tips": [
+    "The immune system is divided into **<u>innate immunity</u>** (rapid, non-specific defense) and **<u>adaptive immunity</u>** (slower, specific defense with memory). Innate immunity includes general defenses like skin, inflammation, and phagocytic cells, while adaptive immunity involves <u>lymphocytes (B-cells and T-cells)</u> and <u>antibody production</u>.",
+    "Swollen lymph nodes during an infection are a sign of the immune system in action - <u>lymph nodes swell</u> as they fill with <u>multiplying immune cells</u> fighting the pathogen.",
+    "Vaccines work by training the <u>adaptive immune system</u> to recognize a pathogen, so if the real pathogen appears, the immune system's <u>memory cells</u> respond faster and prevent illness."
+  ],
+  "exam_appearance": [
+    "If a question asks which system defends the body against bacteria, viruses, and other pathogens -> it's referring to the **immune system** (with components like <u>white blood cells, antibodies</u>, etc.).",
+    "If you see a scenario of \"swollen glands\" (swollen lymph nodes) or an increase in <u>antibody levels</u> after an exposure -> that indicates the <u>immune system responding to an infection</u>.",
+    "If a question contrasts a fast, non-specific response vs. a slower, specific memory-forming response to an infection -> it's highlighting <u>innate immunity vs. adaptive immunity</u> as parts of the immune system."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus - Immune System and Disorders: Summary",
+      "url": "https://medlineplus.gov/immunesystemanddisorders.html"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - 21.1: Lymphatic and Immune Systems (intro)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-1-anatomy-of-the-lymphatic-and-immune-systems"
+    },
+    {
+      "title": "MedlinePlus Genetics - How do vaccines work? (immune memory)",
+      "url": "https://medlineplus.gov/genetics/understanding/conditions/vaccinesandimmunity/"
+    }
+  ]
+}

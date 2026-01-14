@@ -1,0 +1,36 @@
+{
+  "id": "lung",
+  "names": [
+    "Lung",
+    "Lungs"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The lungs** are a pair of spongy, air-filled organs in the chest that serve as the primary organs of respiration. Their main function is <u>gas exchange</u>: oxygen from inhaled air passes into the bloodstream, and carbon dioxide waste passes out of the blood to be exhaled.",
+  "tips": [
+    "<u>Alveoli</u> are the tiny air sacs in the lungs where gas exchange occurs. They are lined by thin membranes and surrounded by capillaries; oxygen diffuses across alveolar walls into the blood, and CO2 diffuses from blood into the alveoli to be exhaled.",
+    "Right vs left lung: the <u>right lung has three lobes</u> (upper, middle, lower), while the <u>left lung has two lobes</u> (upper and lower) and a small cardiac notch to accommodate the heart.",
+    "Breathing is driven by the <u>diaphragm</u> muscle and chest muscles: when the diaphragm contracts (moves downward), it creates <u>negative pressure</u> that draws air into the lungs (inhalation); when it relaxes, the lungs recoil and air is pushed out (exhalation)."
+  ],
+  "exam_appearance": [
+    "Respiratory physiology questions may ask about the exchange of gases - e.g., what happens in the alveoli, or why inhaling air with low oxygen impairs gas exchange (less O2 to diffuse into blood). Remember the role of <u>alveoli in gas exchange</u>.",
+    "An exam may test knowledge of lung structure: for instance, asking which lung has a middle lobe (answer: the <u>right lung</u>) or what membrane surrounds the lungs (the <u>pleura</u>).",
+    "Control of breathing is another angle: a classic point is that rising CO2 levels (and the corresponding drop in blood pH) are the primary drivers stimulating breathing, more so than low O2 levels."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "MedlinePlus Medical Encyclopedia - Aging Changes in the Lungs (oxygen in, CO2 out)",
+      "url": "https://medlineplus.gov/ency/article/004011.htm"
+    },
+    {
+      "title": "NCI SEER Training Module - Anatomy of the Lung (Lobes and Gas Exchange)",
+      "url": "https://training.seer.cancer.gov/lung/anatomy/"
+    },
+    {
+      "title": "StatPearls - Physiology, Respiratory Drive (CO2/pH regulation of breathing)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482414/"
+    }
+  ]
+}

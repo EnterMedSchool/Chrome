@@ -1,12 +1,12 @@
 /**
- * DOM Highlighter for EMS Medical Glossary
+ * DOM Highlighter for EnterMedSchool Glossary
  * Traverses text nodes and wraps matching terms with highlight spans.
  * Uses MutationObserver for dynamic content.
  * 
  * @module highlighter
  */
 
-import { SKIP_ELEMENTS, SKIP_SELECTORS, PERFORMANCE } from '../shared/constants.js';
+import { SKIP_ELEMENTS, SKIP_EDITOR_SELECTORS, SKIP_RICH_TEXT_SELECTORS, SKIP_CONTENTEDITABLE_SELECTORS, PERFORMANCE, PAGE_TYPES } from '../shared/constants.js';
 import * as logger from '../shared/logger.js';
 
 /**
@@ -31,6 +31,19 @@ export class Highlighter {
     this.highlightStyle = 'underline';
     /** @type {string} */
     this.highlightColor = '#6C5CE7';
+    /** @type {string} */
+    this.pageType = PAGE_TYPES.NORMAL;
+    /** @type {Element|null} */
+    this.focusedContentEditable = null;
+  }
+
+  /**
+   * Set the page type for smart highlighting behavior
+   * @param {string} pageType - One of PAGE_TYPES values
+   */
+  setPageType(pageType) {
+    this.pageType = pageType;
+    logger.info('Highlighter page type set to:', pageType);
   }
 
   /**
@@ -250,8 +263,8 @@ export class Highlighter {
       return true;
     }
 
-    // Skip elements matching skip selectors
-    for (const selector of SKIP_SELECTORS) {
+    // Skip code editor elements (always skip these - true code editors)
+    for (const selector of SKIP_EDITOR_SELECTORS) {
       try {
         if (node.matches?.(selector) || node.closest?.(selector)) {
           return true;
@@ -261,7 +274,74 @@ export class Highlighter {
       }
     }
 
+    // Handle rich text editors and contenteditable based on page type
+    if (this.pageType === PAGE_TYPES.NOTION) {
+      // On Notion: only skip rich text editors (ProseMirror) and contenteditable if focused
+      const smartSkipSelectors = [...SKIP_RICH_TEXT_SELECTORS, ...SKIP_CONTENTEDITABLE_SELECTORS];
+      
+      for (const selector of smartSkipSelectors) {
+        try {
+          const editableEl = node.matches?.(selector) ? node : node.closest?.(selector);
+          if (editableEl) {
+            // Skip if this element or any parent is currently focused
+            if (this.isElementFocused(editableEl)) {
+              return true;
+            }
+            // Don't skip - allow highlighting in non-focused editable on Notion
+            return false;
+          }
+        } catch (e) {
+          // Invalid selector, skip
+        }
+      }
+    } else {
+      // On other sites: always skip rich text editors
+      for (const selector of SKIP_RICH_TEXT_SELECTORS) {
+        try {
+          if (node.matches?.(selector) || node.closest?.(selector)) {
+            return true;
+          }
+        } catch (e) {
+          // Invalid selector, skip
+        }
+      }
+      
+      // On other sites: always skip contenteditable
+      for (const selector of SKIP_CONTENTEDITABLE_SELECTORS) {
+        try {
+          if (node.matches?.(selector) || node.closest?.(selector)) {
+            return true;
+          }
+        } catch (e) {
+          // Invalid selector, skip
+        }
+      }
+    }
+
     return false;
+  }
+
+  /**
+   * Check if an element or its descendants are currently focused
+   * @param {Element} element
+   * @returns {boolean}
+   */
+  isElementFocused(element) {
+    if (!element) return false;
+    
+    const activeElement = document.activeElement;
+    if (!activeElement) return false;
+    
+    // Check if the element itself is focused or contains the focused element
+    return element === activeElement || element.contains(activeElement);
+  }
+
+  /**
+   * Track focused contenteditable element
+   * @param {Element|null} element
+   */
+  setFocusedContentEditable(element) {
+    this.focusedContentEditable = element;
   }
 
   /**
@@ -350,11 +430,17 @@ export class Highlighter {
   }
 
   /**
-   * Get the number of highlighted terms on the page
+   * Get the number of unique highlighted terms on the page
    * @returns {number}
    */
   getHighlightCount() {
-    return document.querySelectorAll('.ems-term').length;
+    const highlights = document.querySelectorAll('.ems-term');
+    const uniqueTermIds = new Set();
+    for (const span of highlights) {
+      const ids = span.dataset.termIds?.split(',') || [];
+      ids.forEach(id => uniqueTermIds.add(id));
+    }
+    return uniqueTermIds.size;
   }
 }
 

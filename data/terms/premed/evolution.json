@@ -1,0 +1,35 @@
+{
+  "id": "evolution",
+  "names": [
+    "Evolution"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Evolution** is the <u>change in the heritable characteristics of a population over successive generations</u>. In other words, it describes how populations of organisms undergo <u>genetic change over time</u>.",
+  "tips": [
+    "Individuals do not evolve; **populations evolve** as <u>gene frequencies change from one generation to the next</u>.",
+    "**Evolution isn't goal-oriented** -- natural selection favors <u>traits that improve survival or reproduction</u> in a given environment, but it doesn't \"plan\" for future needs.",
+    "Mechanisms of evolution include **natural selection** (adaptive changes), **genetic drift** (random changes in small populations), **mutations** (introducing new genetic variation), and **gene flow** (migration)."
+  ],
+  "exam_appearance": [
+    "A question may ask who or what evolves - the correct answer is **populations (not individual organisms)**.",
+    "If a question describes a shift in traits in a population (e.g., bacteria becoming resistant to antibiotics over many generations), it's illustrating <u>evolution by natural selection</u>.",
+    "Watch for trick wording like \"organism X evolved a trait because it needed it\" - in reality, <u>random mutations produced the trait and natural selection made it prevalent</u>; need does not cause mutations."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Biology LibreTexts - Introduction: Evolution Definition",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/Principles_of_Biology_II/02%3A_Evolution/2.01%3A_Unit_2_Introduction"
+    },
+    {
+      "title": "OpenStax Biology 2e - Chapter 18.1 (Understanding Evolution)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution"
+    },
+    {
+      "title": "Understanding Global Change (UC Berkeley) - Evolution definition",
+      "url": "https://ugc.berkeley.edu/background-content/evolution"
+    }
+  ]
+}

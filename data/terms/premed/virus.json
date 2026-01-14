@@ -1,0 +1,36 @@
+{
+  "id": "virus",
+  "names": [
+    "Virus",
+    "Virion"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A virus** is a tiny infectious particle consisting of <u>genetic material (DNA or RNA) enclosed in a protein coat (capsid)</u>. Viruses are **not living cells** - they have no cellular structure or metabolism and can only replicate by <u>infecting a host cell and using the host-s machinery</u> to produce new viruses.",
+  "tips": [
+    "**Not alive:** Viruses are <u>acellular and lack organelles</u>; they cannot grow or reproduce on their own (they must hijack a host cell to replicate).",
+    "**Genome:** A virus contains either <u>DNA or RNA as its genetic material</u> (unlike living cells, which have DNA as genome and use RNA for protein synthesis).",
+    "**Size:** Viruses are much smaller than cells - typically <u>~20-250 nm</u> - too small to see with a light microscope (about **100- smaller than bacteria**)."
+  ],
+  "exam_appearance": [
+    "Common comparison - Viruses vs. bacteria: Expect questions noting that viruses are **non-living** (cannot reproduce without host, <u>not killed by antibiotics</u>) whereas bacteria are <u>living cells that can reproduce independently</u>.",
+    "Genome question - Many exams highlight that viruses can have an <u>RNA genome (e.g., retrovirus) or DNA genome but not both</u>, distinguishing them from cellular organisms.",
+    "Structure clue - If a question describes an infectious agent as \"<u>genetic material in a protein coat without its own metabolism</u>\", that-s pointing to a **virus** (not a bacterium or other microbe)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI - Talking Glossary: Virus",
+      "url": "https://www.genome.gov/genetics-glossary/Virus"
+    },
+    {
+      "title": "OpenStax Biology 2e - 21.1: Viral Evolution, Morphology (viruses are acellular, not alive; structure)",
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 17.1: Viruses (relative size of viruses vs bacteria)",
+      "url": "https://openstax.org/books/concepts-biology/pages/17-1-viruses"
+    }
+  ]
+}

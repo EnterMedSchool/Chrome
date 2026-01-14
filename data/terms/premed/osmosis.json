@@ -1,0 +1,37 @@
+{
+  "id": "osmosis",
+  "names": [
+    "Osmosis"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Osmosis** is the passive movement of <u>water molecules across a selectively permeable membrane</u> from a region of lower solute concentration to a region of higher solute concentration. In other words, water diffuses to <u>dilute the higher concentration of dissolved substances</u>. Osmosis continues until equilibrium is reached (concentrations equalize) or until stopped by opposing pressure.",
+  "tips": [
+    "Key phrase: **Water follows solute.** During osmosis, water moves toward the area with more solute (where water concentration is relatively lower). Sometimes it's said as water moving from high water potential to low water potential.",
+    "Osmosis is a type of <u>passive transport</u> - it does not require cellular energy (no ATP). The driving force is the <u>concentration gradient of water</u> (created by differences in solute concentration).",
+    "In biological contexts, osmosis can cause cells to swell or shrink: if a cell is in a <u>hypotonic solution</u> (outside solute low, water high), water enters the cell and it may swell or burst; in a <u>hypertonic solution</u> (outside solute high, water low), water leaves the cell and it shrivels. An <u>isotonic environment</u> has equal solute concentration inside and out, so no net water movement.",
+    "**Aquaporins** are channel proteins in cell membranes that greatly increase water permeability. They allow water to osmose more rapidly. Some exam questions link osmosis with aquaporins (for instance, how kidneys concentrate urine - by using aquaporin channels to reabsorb water by osmosis)."
+  ],
+  "exam_appearance": [
+    "Expect scenarios about cells in various solutions: e.g., a question might say a red blood cell is placed in pure water and ask what happens - the answer: water enters via osmosis, causing the cell to swell and lyse (burst). If placed in a very salty solution, water exits and the cell crenates (shrinks).",
+    "They may give diagrams of U-shaped tubes or dialysis bags with different solute concentrations and ask which way water will move. Remember: water moves towards the <u>higher solute concentration</u> side (to balance it).",
+    "Be prepared for the term **\"semipermeable membrane\"** - it means the membrane allows water to pass but not the solute. Osmosis is defined in the context of such a membrane. If both solute and water can move freely, it's just diffusion, not osmosis specifically.",
+    "Sometimes exam questions test terminology: e.g., **tonicity** descriptions (hypertonic, hypotonic, isotonic) are based on solute comparisons and their effect on cell volume via osmosis. Understanding these terms helps answer what happens to a cell placed in those conditions."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 5.2: Osmosis (Passive Transport)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+    },
+    {
+      "title": "OpenStax Biology 2e - Figure 5.12: Tonicity and Osmosis (effects on cells)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport#cnx_biology_2e_05_02_fig_012"
+    },
+    {
+      "title": "Biology LibreTexts - Osmosis and Tonicity",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_Biology/Map%3A_Biology_(OpenStax)/05%3A_Structure_and_Function_of_Plasma_Membranes/5.02%3A_Passive_Transport#Osmosis"
+    }
+  ]
+}

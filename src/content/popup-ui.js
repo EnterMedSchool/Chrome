@@ -1,5 +1,5 @@
 /**
- * Popup UI for EMS Medical Glossary
+ * Popup UI for EnterMedSchool Glossary
  * Renders term details in an isolated Shadow DOM to prevent style conflicts.
  * 
  * @module popup-ui
@@ -658,21 +658,27 @@ export class PopupUI {
     const name = term.names?.[0] || term.id;
     const termId = term.id || name.toLowerCase().replace(/\s+/g, '-');
     const primaryTag = term.primary_tag || '';
-    const tagInfo = TAG_COLORS[primaryTag] || { accent: '#6C5CE7', icon: '📚' };
+    const level = term.level || 'medschool';
+    const isPremed = level === 'premed';
+    
+    // Use green accent for premed terms, otherwise use tag color
+    const defaultAccent = isPremed ? '#10B981' : '#6C5CE7';
+    const tagInfo = TAG_COLORS[primaryTag] || { accent: defaultAccent, icon: isPremed ? '📖' : '📚' };
+    const headerAccent = isPremed ? '#10B981' : tagInfo.accent;
+    
     const displayTag = primaryTag.replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
     const definition = term.definition || 'No definition available.';
-    const shortDef = definition.length > 150 ? definition.substring(0, 150) + '...' : definition;
     const hasMultiple = termIds.length > 1;
 
     return `
-      <div class="ems-preview" role="tooltip" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}">
-        <div class="ems-preview-header">
+      <div class="ems-preview ${isPremed ? 'ems-preview--premed' : ''}" role="tooltip" data-theme="${theme}" data-term-id="${this.escapeHTML(termId)}" data-level="${level}">
+        <div class="ems-preview-header" style="background: linear-gradient(135deg, ${headerAccent} 0%, ${this.adjustColor(headerAccent, 20)} 100%);">
           <span class="ems-preview-icon">${tagInfo.icon}</span>
           <span class="ems-preview-title">${this.escapeHTML(name)}</span>
-          <span class="ems-preview-tag" style="background: ${tagInfo.accent}">${displayTag}</span>
+          <span class="ems-preview-tag" style="background: rgba(255,255,255,0.2)">${isPremed ? 'PREMED' : displayTag}</span>
         </div>
         <div class="ems-preview-body">
-          <p>${this.escapeHTML(shortDef)}</p>
+          <p>${this.renderMarkdown(definition)}</p>
         </div>
         <div class="ems-preview-footer">
           ${hasMultiple ? `<span class="ems-preview-multiple">+${termIds.length - 1} more</span>` : ''}
@@ -680,6 +686,30 @@ export class PopupUI {
         </div>
       </div>
     `;
+  }
+
+  /**
+   * Adjust a hex color brightness
+   * @param {string} hex - Hex color
+   * @param {number} percent - Percentage to lighten (positive) or darken (negative)
+   * @returns {string} Adjusted hex color
+   */
+  adjustColor(hex, percent) {
+    // Remove # if present
+    hex = hex.replace(/^#/, '');
+    
+    // Parse RGB
+    let r = parseInt(hex.substring(0, 2), 16);
+    let g = parseInt(hex.substring(2, 4), 16);
+    let b = parseInt(hex.substring(4, 6), 16);
+    
+    // Adjust
+    r = Math.min(255, Math.max(0, r + (r * percent / 100)));
+    g = Math.min(255, Math.max(0, g + (g * percent / 100)));
+    b = Math.min(255, Math.max(0, b + (b * percent / 100)));
+    
+    // Convert back to hex
+    return `#${Math.round(r).toString(16).padStart(2, '0')}${Math.round(g).toString(16).padStart(2, '0')}${Math.round(b).toString(16).padStart(2, '0')}`;
   }
 
   /**
@@ -1802,6 +1832,7 @@ export class PopupUI {
             <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
           </div>
           <div class="ems-header-right">
+            <span class="ems-level-badge ems-level-badge--medschool">MED SCHOOL</span>
             <button class="ems-close-btn" aria-label="Close">×</button>
           </div>
         </header>
@@ -1816,12 +1847,10 @@ export class PopupUI {
 
         <div class="ems-toolbar">
           <div class="ems-toolbar-left">
-            <div class="ems-back-btn-wrapper">
-              <button class="ems-tool-btn ems-back-btn" title="Go back (Backspace)" ${hasHistory ? '' : 'hidden'}>←</button>
+            <div class="ems-back-btn-wrapper" ${hasHistory ? '' : 'style="display:none"'}>
+              <button class="ems-tool-btn ems-back-btn" title="Go back (Backspace)">←</button>
               <span class="ems-history-badge ${hasHistory ? 'visible' : ''}">${this.history.length}</span>
             </div>
-          </div>
-          <div class="ems-toolbar-center">
             <button class="ems-tool-btn ems-font-decrease-btn" title="Decrease font size (-)">A−</button>
             <span class="ems-font-size-display">${this.fontSize}%</span>
             <button class="ems-tool-btn ems-font-increase-btn" title="Increase font size (+)">A+</button>
@@ -1905,29 +1934,19 @@ export class PopupUI {
           <div class="ems-header-left">
             <span class="ems-tag-icon">${tagInfo.icon}</span>
             <h1 id="ems-popup-title" class="ems-term-title">${this.escapeHTML(name)}</h1>
-            <span class="ems-level-badge ems-level-badge--premed">PREMED</span>
           </div>
           <div class="ems-header-right">
+            <span class="ems-level-badge ems-level-badge--premed">PREMED</span>
             <button class="ems-close-btn" aria-label="Close">×</button>
           </div>
         </header>
 
-        <div class="ems-tags-bar ems-tags-bar--premed">
-          ${this.buildTagsHTML(term.tags || [primaryTag])}
-        </div>
-
-        <div class="ems-breadcrumb-bar ${hasHistory ? 'visible' : ''}" id="breadcrumbBar">
-          ${this.buildBreadcrumbsHTML(name)}
-        </div>
-
         <div class="ems-toolbar ems-toolbar--premed">
           <div class="ems-toolbar-left">
-            <div class="ems-back-btn-wrapper">
-              <button class="ems-tool-btn ems-back-btn" title="Go back (Backspace)" ${hasHistory ? '' : 'hidden'}>←</button>
+            <div class="ems-back-btn-wrapper" ${hasHistory ? '' : 'style="display:none"'}>
+              <button class="ems-tool-btn ems-back-btn" title="Go back (Backspace)">←</button>
               <span class="ems-history-badge ${hasHistory ? 'visible' : ''}">${this.history.length}</span>
             </div>
-          </div>
-          <div class="ems-toolbar-center">
             <button class="ems-tool-btn ems-font-decrease-btn" title="Decrease font size (-)">A−</button>
             <span class="ems-font-size-display">${this.fontSize}%</span>
             <button class="ems-tool-btn ems-font-increase-btn" title="Increase font size (+)">A+</button>
@@ -1936,6 +1955,10 @@ export class PopupUI {
             <button class="ems-tool-btn ems-copy-btn" title="Copy definition (Ctrl+C)">📋</button>
             <button class="ems-tool-btn ems-favorite-btn" data-term-id="${this.escapeHTML(termId)}" title="Add to favorites (F)">♡</button>
           </div>
+        </div>
+
+        <div class="ems-breadcrumb-bar ${hasHistory ? 'visible' : ''}" id="breadcrumbBar">
+          ${this.buildBreadcrumbsHTML(name)}
         </div>
 
         ${partOfHTML}
@@ -2553,30 +2576,35 @@ export class PopupUI {
       return '';
     }
 
-    let linksHTML = '';
+    let rowsHTML = '';
 
     if (prerequisites?.length > 0) {
-      linksHTML += '<span class="ems-see-also-label">Learn first:</span>';
-      linksHTML += prerequisites.slice(0, 5).map(item => {
+      const tagsHTML = prerequisites.slice(0, 5).map(item => {
         const id = typeof item === 'string' ? item : item.id;
         const name = id.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         return `<span class="ems-term-link" data-term-id="${this.escapeHTML(id)}">${this.escapeHTML(name)}</span>`;
       }).join('');
+      rowsHTML += `<div class="ems-see-also-row">
+        <span class="ems-see-also-label">Learn first:</span>
+        <div class="ems-see-also-tags">${tagsHTML}</div>
+      </div>`;
     }
 
     if (seeAlso?.length > 0) {
-      if (prerequisites?.length) linksHTML += '<br><br>';
-      linksHTML += '<span class="ems-see-also-label">See also:</span>';
-      linksHTML += seeAlso.slice(0, 5).map(item => {
+      const tagsHTML = seeAlso.slice(0, 5).map(item => {
         const id = typeof item === 'string' ? item : item.id;
         const name = id.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
         return `<span class="ems-term-link" data-term-id="${this.escapeHTML(id)}">${this.escapeHTML(name)}</span>`;
       }).join('');
+      rowsHTML += `<div class="ems-see-also-row">
+        <span class="ems-see-also-label">See also:</span>
+        <div class="ems-see-also-tags">${tagsHTML}</div>
+      </div>`;
     }
 
     return `
       <footer class="ems-popup-footer">
-        <div class="ems-see-also">${linksHTML}</div>
+        <div class="ems-see-also">${rowsHTML}</div>
       </footer>
     `;
   }
@@ -2703,9 +2731,14 @@ export class PopupUI {
     if (!text) return '';
 
     return this.escapeHTML(text)
+      // Markdown-style formatting
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/\*([^*]+)\*/g, '<em>$1</em>')
-      .replace(/`([^`]+)`/g, '<code>$1</code>');
+      .replace(/`([^`]+)`/g, '<code>$1</code>')
+      // Restore allowed HTML tags that were escaped
+      .replace(/&lt;u&gt;/g, '<u>')
+      .replace(/&lt;\/u&gt;/g, '</u>')
+      .replace(/&lt;br\s*\/?&gt;/gi, '<br>');
   }
 
   /**

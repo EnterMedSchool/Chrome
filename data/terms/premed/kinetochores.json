@@ -1,0 +1,35 @@
+{
+  "id": "kinetochores",
+  "names": [
+    "Kinetochore",
+    "Kinetochores"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **kinetochore** is a protein structure assembled on the <u>centromere</u> of a chromosome that serves as the <u>attachment point for spindle fibers (microtubules)</u> during cell division. Each duplicated chromosome (with two sister chromatids) has <u>two kinetochores</u> - one on each chromatid - which anchor the chromatids to spindle microtubules so they can be pulled apart in mitosis or meiosis.",
+  "tips": [
+    "The kinetochore forms at the centromere region of a chromatid. It's often described as a <u>\"protein handle\"</u> that the spindle fiber grabs onto.",
+    "Do not confuse **centromere** and **kinetochore**: the centromere is the DNA region of the chromosome that is constricted, and the kinetochore is the protein complex that assembles on that region. The spindle fibers attach to the <u>kinetochore</u> (not directly to DNA).",
+    "Also, don't confuse kinetochore with **centrosome**. The centrosome is the microtubule-organizing center at the cell poles, whereas kinetochores are on the chromosomes. (Centrosomes send out the spindle fibers, which attach to kinetochores.)"
+  ],
+  "exam_appearance": [
+    "A frequent question: \"Where do the spindle fibers attach to chromosomes?\" The correct answer is **kinetochores** (at the centromeres). Recognize this as a fundamental mechanism in mitosis/meiosis.",
+    "If a diagram of mitosis labels the connection between microtubules and the chromosome, be prepared to identify it as the <u>kinetochore</u>. Some questions may also ask what happens if kinetochores don't attach properly (e.g., chromatids wouldn't segregate evenly)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Biology Online Dictionary - Kinetochore",
+      "url": "https://www.biologyonline.com/dictionary/kinetochore"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - Key Terms (kinetochore definition)",
+      "url": "https://openstax.org/books/concepts-biology/pages/6-key-terms"
+    },
+    {
+      "title": "OpenStax Biology 2e - Mitosis/Meiosis (kinetochores and spindle attachment)",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "voltage-gated-channel",
+  "names": [
+    "Voltage-Gated Channel",
+    "Voltage-Gated Ion Channel"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A voltage-gated channel** is an ion channel that opens or closes in response to changes in the electric potential (voltage) across a cell membrane. Such channels are generally closed at a cell's resting membrane potential and then open when the membrane depolarizes to a certain threshold, allowing specific ions to cross the membrane.",
+  "tips": [
+    "Voltage-gated channels are crucial for electrical signaling in neurons and muscle fibers. For example, when a neuron's membrane reaches threshold voltage, **<u>voltage-gated Na+ channels</u>** open, causing the rapid influx of Na+ that initiates the action potential spike.",
+    "These channels are typically ion-specific (e.g., voltage-gated sodium, potassium, calcium channels). They usually have activation gates that respond to voltage change and often an inactivation mechanism to close the channel after opening (important in shaping action potentials).",
+    "In muscle cells, voltage-gated channels in the T-tubule membrane (voltage-sensing proteins) trigger the opening of calcium-release channels in the sarcoplasmic reticulum - this is how an electrical signal leads to calcium release and muscle contraction."
+  ],
+  "exam_appearance": [
+    "If a question mentions an ion channel opening when the membrane depolarizes (say, at -55 mV in a neuron), it's describing a **<u>voltage-gated</u>** channel (e.g., the voltage-gated Na+ channels of neurons). Recognizing this can help in questions about action potential phases.",
+    "Common exam question: the sequence of ion channel openings during a nerve impulse - first voltage-gated Na+ channels open (depolarization), then voltage-gated K+ channels open (repolarization). Understanding the roles of these voltage-gated channels is high-yield for neurophysiology questions.",
+    "Be mindful of terminology: \"voltage-gated\" refers to channels like those in neurons and muscle that respond to membrane voltage changes - not to be confused with ligand-gated channels (which respond to chemicals) or pumps (which use ATP to move ions)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Ch.12 Key Terms: \"voltage-gated channel\"",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-key-terms"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Membrane Potential and Action Potential (voltage-gated channels open upon depolarization)",
+      "url": "https://pressbooks.umn.edu/neuroimaginginpsychology/chapter/neuroscience/"
+    },
+    {
+      "title": "OpenStax Biology 2e - Passive Transport (nerve and muscle cells use gated ion channels for signals)",
+      "url": "https://openstax.org/books/biology-2e/pages/5-2-passive-transport"
+    }
+  ]
+}

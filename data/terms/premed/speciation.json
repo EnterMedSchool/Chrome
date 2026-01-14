@@ -1,0 +1,35 @@
+{
+  "id": "speciation",
+  "names": [
+    "Speciation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Speciation** is the evolutionary process by which <u>one ancestral species splits into two or more new species</u>. It occurs when a population diverges enough (often via **reproductive isolation**) that its members can <u>no longer interbreed with the original group</u>.",
+  "tips": [
+    "**Reproductive isolation is key**: something (geography, behavior, genetics) stops <u>gene flow between groups</u>, allowing them to evolve separately into distinct species.",
+    "Speciation can be **allopatric** (different locations, e.g., separated by a physical barrier) or **sympatric** (in the same location, via other mechanisms like genetic changes or niche differences).",
+    "Hybrid offspring between related species (if they occur at all) are often <u>inviable or sterile</u> - this is evidence that speciation has occurred (e.g., a mule from a horse and donkey is sterile)."
+  ],
+  "exam_appearance": [
+    "If a question describes populations separated by a barrier (mountain, river, island) evolving differences such that they can't interbreed, that is **allopatric speciation** in action.",
+    "Be prepared to identify mechanisms of **reproductive isolation** - e.g., a question might ask how things like different mating seasons or distinct mating calls can lead to speciation (they prevent interbreeding).",
+    "A classic example often cited is **Darwin's finches** on the Gal\u00e1pagos: one ancestral species gave rise to many species on different islands (speciation by geographic isolation and adaptive radiation)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 18.2 Formation of New Species (Speciation intro)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species"
+    },
+    {
+      "title": "Biology LibreTexts - Speciation (formation of two species from one original)",
+      "url": "https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology/18%3A_Evolution/18.02%3A_Formation_of_New_Species/18.2C%3A_Speciation"
+    },
+    {
+      "title": "National Geographic Society - Speciation (Encyclopedic entry)",
+      "url": "https://education.nationalgeographic.org/resource/speciation"
+    }
+  ]
+}

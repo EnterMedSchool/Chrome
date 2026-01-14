@@ -1,5 +1,5 @@
 /**
- * Custom build script for EMS Medical Glossary Chrome Extension
+ * Custom build script for EnterMedSchool Glossary Chrome Extension
  * Runs multiple Vite builds to handle different output formats:
  * - Content script: IIFE format (required by Chrome)
  * - Service worker: ES modules (supported with type:module)
@@ -146,7 +146,7 @@ function copyAssets() {
 }
 
 async function main() {
-  console.log('🚀 Building EMS Medical Glossary Extension...\n');
+  console.log('🚀 Building EnterMedSchool Glossary Extension...\n');
 
   // Clean dist directory
   if (existsSync(distDir)) {

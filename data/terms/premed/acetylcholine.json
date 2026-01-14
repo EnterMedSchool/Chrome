@@ -1,0 +1,40 @@
+{
+  "id": "acetylcholine",
+  "names": [
+    "Acetylcholine",
+    "ACh"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Acetylcholine (ACh)** is a neurotransmitter released by certain nerve cells in both the central and peripheral nervous system. It is notably the chemical that motor neurons release at the <u>neuromuscular junction</u> to stimulate muscle contraction, and it also serves as a neurotransmitter in various brain circuits and the autonomic nervous system.",
+  "tips": [
+    "At the **<u>neuromuscular junction</u>** (nerve-to-skeletal muscle synapse), ACh is released from the motor neuron and binds to <u>nicotinic acetylcholine receptors</u> on the muscle fiber, causing muscle contraction. This is a classic high-yield example of ACh in action.",
+    "In the autonomic nervous system: ACh is released by all <u>preganglionic neurons</u> (both sympathetic and parasympathetic), and by <u>parasympathetic postganglionic neurons</u> onto target organs (where it binds to <u>muscarinic ACh receptors</u>). This often appears in questions about heart rate (ACh slows it via parasympathetic input, for instance).",
+    "ACh is broken down by the enzyme **<u>acetylcholinesterase (AChE)</u>** in the synaptic cleft. Therefore, inhibitors of AChE (like certain nerve gases or Alzheimer's medications) cause ACh to accumulate, leading to prolonged muscle contraction or heightened parasympathetic effects - an important concept for pharmacology questions."
+  ],
+  "exam_appearance": [
+    "Frequently tested via the **<u>acetylcholinesterase</u>** angle: e.g., a question about organophosphate poisoning (nerve gas) - expect discussion of AChE inhibition leading to excess acetylcholine and cholinergic crisis (salivation, muscle spasms, etc.).",
+    "Identification: If asked \"Which neurotransmitter is used at the neuromuscular junction?\" - the answer is **acetylcholine**. Also, classic clues like a motor end-plate diagram or a description of a neurotransmitter that triggers skeletal muscle contraction all point to ACh.",
+    "Receptor subtypes: Exams may ask about differences between ACh receptors - **<u>nicotinic ACh receptors</u>** are ligand-gated Na+ channels (ionotropic) found on muscle and autonomic ganglia, whereas **<u>muscarinic ACh receptors</u>** are G-protein-coupled (metabotropic) found on parasympathetic target organs. Recognizing which is involved in a given scenario is often key."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Ch.35 Key Terms: \"acetylcholine\" (neurotransmitter in CNS & PNS)",
+      "url": "https://openstax.org/books/biology-2e/pages/35-key-terms"
+    },
+    {
+      "title": "OpenStax Biology 2e - Muscle Contraction (ACh released by motor neuron at neuromuscular junction)",
+      "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Autonomic Nervous System (Nicotinic vs Muscarinic ACh receptors)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system"
+    },
+    {
+      "title": "OpenStax Biology 2e - Muscle Contraction (ACh is broken down by acetylcholinesterase; effect of nerve gas on AChE)",
+      "url": "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion"
+    }
+  ]
+}

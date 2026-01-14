@@ -1,0 +1,31 @@
+{
+  "id": "genetic-drift",
+  "names": [
+    "Genetic drift"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Genetic drift** is a mechanism of evolution in which allele frequencies in a population change over generations due to <u>chance events</u>. Unlike natural selection (which is non-random and based on an allele's effect on survival/reproduction), genetic drift is <u>random</u> - alleles can become more or less common simply by luck. Genetic drift tends to have a larger impact in <u>small populations</u>.",
+  "tips": [
+    "Two special cases of genetic drift are often discussed: **<u>bottleneck effect</u>** (when a population's size is dramatically reduced by a random disaster, the surviving gene pool may have different allele frequencies) and **<u>founder effect</u>** (when a small group colonizes a new area, the alleles in this \"founder\" group may not represent the original population's diversity, so the new population's allele frequencies drift from the original). Both are examples of drift because the changes in allele frequencies are due to <u>chance sampling of individuals</u>.",
+    "Genetic drift can lead to <u>loss of genetic variation</u>. By chance, some alleles can be completely lost (frequency goes to 0) and others can become fixed (reach 100% frequency) in a population. This is more likely in <u>small populations</u> where random fluctuations loom larger.",
+    "Exam tip: Genetic drift is often contrasted with natural selection. A question might describe a scenario where a disaster randomly kills a portion of a population regardless of their traits - that scenario is <u>genetic drift</u> (not selection). Or if a question asks why a small isolated population shows big allele frequency swings generation to generation, the answer is the <u>randomness of genetic drift</u>."
+  ],
+  "exam_appearance": [
+    "Be prepared for questions about the **<u>founder effect</u>** or **<u>bottleneck effect</u>**, which are applications of genetic drift. For example: \"A volcanic eruption kills most of a lizard population at random, leaving a few survivors. Generations later, certain alleles are missing.\" This highlights a bottleneck (genetic drift).",
+    "Another common pattern is a question asking which evolutionary force is at work: If the scenario emphasizes *random chance* (with no mention of trait advantage), the answer is <u>genetic drift</u>. If it emphasizes an advantageous trait spreading, that's natural selection, not drift.",
+    "Remember that drift can oppose or override natural selection in some cases, especially in very small populations. An exam might ask why a slightly beneficial allele could be lost - the answer is that genetic drift can eliminate it by chance, particularly in a <u>small population</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Khan Academy: Genetic drift (random changes in allele frequency)",
+      "url": "https://www.khanacademy.org/science/ap-biology/natural-selection/population-genetics/a/genetic-drift-founder-bottleneck"
+    },
+    {
+      "title": "OpenStax Biology 2e: Section 19.2 (Genetic drift as the effect of chance)",
+      "url": "https://openstax.org/books/biology-2e/pages/19-2-population-genetics"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "cell-cycle",
+  "names": [
+    "Cell cycle"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "The **cell cycle** is the ordered series of phases that a cell goes through to grow and divide into two daughter cells. In eukaryotes, the cell cycle consists of <u>interphase (G1, S, and G2)</u> followed by the <u>mitotic (M) phase</u> (when nuclear division, i.e., mitosis, occurs, and usually cytokinesis, division of the cytoplasm). The cycle ensures that DNA is duplicated during S phase and properly segregated during M phase, with checkpoints along the way to maintain fidelity.",
+  "tips": [
+    "Main stages to remember: **Interphase = G1 + S + G2**, where the cell grows and duplicates DNA; **M phase = Mitosis (+ Cytokinesis)**, where the cell actually divides. Sometimes you'll see M phase broken down into prophase, metaphase, etc., but in the context of the cell cycle as a whole, M is the division stage.",
+    "Cells can exit the cycle after mitosis and enter <u>G0</u> (a resting state) if they are not going to divide again soon. Not all cells are continuously cycling; many adult cells stay in G0 until they get signals to re-enter G1 and divide.",
+    "There are built-in checkpoints: at <u>G1</u> (ensuring the cell is ready for DNA replication), at <u>G2</u> (ensuring DNA replicated correctly and cell is ready for mitosis), and during <u>M</u> (the spindle checkpoint in metaphase ensures all chromosomes are properly attached to spindle fibers before anaphase). These checkpoints prevent errors like damaged DNA being passed on or chromosome mis-segregation.",
+    "In an exam context, knowing the <u>chronological order</u> of the cell cycle is fundamental. Also, an integrated understanding: e.g., DNA content changes - it doubles in S and halves after cytokinesis; or that certain proteins (cyclins/Cdks) regulate progression - though detailed biochem of regulation might be beyond premed scope, a basic mention could appear."
+  ],
+  "exam_appearance": [
+    "Expect general questions like \"What are the phases of the eukaryotic cell cycle?\" or \"During which phase is DNA replicated, and during which phase do chromosomes segregate?\" - You'd answer: DNA is replicated in <u>S</u> (during interphase), chromosomes segregate in <u>M</u> (mitosis).",
+    "Graph-based questions: You might get a plot of DNA content over time or a pie chart of a cell population in different phases. Recognize that the largest fraction of cells is usually in <u>G1</u> (for a typical actively dividing population), and the DNA content doubles during S, is highest in G2/M, then drops back after division.",
+    "If a question mentions drugs: e.g., \"Drug X halts the cell cycle by preventing formation of microtubules.\" That would block cells in <u>M phase</u> (since microtubules form the spindle). Or a drug that inhibits DNA polymerase would stall cells in <u>S phase</u>. Understanding the cell cycle helps deduce at which phase a cell is stopped by a given treatment.",
+    "Sometimes questions use cell cycle to frame concepts of cancer. Cancer cells often have dysregulated cell cycle checkpoints, leading to uncontrolled division. A question might ask which checkpoint failure could lead to replication of damaged DNA (answer: <u>G1 or G2</u> checkpoints failing). This ties cell cycle knowledge to pathology."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Chapter 10: Cell Reproduction (overview of cell cycle stages)",
+      "url": "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 6.2: The Cell Cycle (simplified summary for non-majors)",
+      "url": "https://openstax.org/books/concepts-biology/pages/6-2-the-cell-cycle"
+    },
+    {
+      "title": "Nature Education (Scitable) - The Eukaryotic Cell Cycle and Cancer (interactive overview)",
+      "url": "https://www.nature.com/scitable/topicpage/eukaryotic-cell-cycle-and-cancer-14046590"
+    }
+  ]
+}

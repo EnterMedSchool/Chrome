@@ -1,5 +1,5 @@
 /**
- * Content Script for EMS Medical Glossary
+ * Content Script for EnterMedSchool Glossary
  * Entry point that initializes highlighting and popup functionality.
  * 
  * @module content-script
@@ -9,7 +9,7 @@ import { TermMatcher } from './term-matcher.js';
 import { Highlighter } from './highlighter.js';
 import { PopupUI } from './popup-ui.js';
 import { SearchOverlay } from './search-overlay.js';
-import { MESSAGE_TYPES, STORAGE_KEYS } from '../shared/constants.js';
+import { MESSAGE_TYPES, STORAGE_KEYS, PAGE_TYPES, SMART_CONTENTEDITABLE_HOSTS } from '../shared/constants.js';
 import * as logger from '../shared/logger.js';
 
 // Mark that we're loaded (for service worker detection)
@@ -74,6 +74,64 @@ class EMSGlossary {
     this.isEnabled = true;
     /** @type {Object} */
     this.settings = null;
+    /** @type {string} */
+    this.pageType = PAGE_TYPES.NORMAL;
+    /** @type {Element|null} */
+    this._lastFocusedElement = null;
+  }
+
+  /**
+   * Detect the type of page we're on
+   * @returns {string} One of PAGE_TYPES values
+   */
+  detectPageType() {
+    const hostname = window.location.hostname;
+    const pathname = window.location.pathname;
+    const url = window.location.href;
+
+    // Check for PDF
+    if (this.isPDFPage(url, pathname)) {
+      return PAGE_TYPES.PDF;
+    }
+
+    // Check for Notion
+    if (SMART_CONTENTEDITABLE_HOSTS.some(host => hostname.includes(host))) {
+      return PAGE_TYPES.NOTION;
+    }
+
+    return PAGE_TYPES.NORMAL;
+  }
+
+  /**
+   * Check if current page is a PDF
+   * @param {string} url - Full URL
+   * @param {string} pathname - URL pathname
+   * @returns {boolean}
+   */
+  isPDFPage(url, pathname) {
+    // Check URL path ends with .pdf
+    if (pathname.toLowerCase().endsWith('.pdf')) {
+      return true;
+    }
+
+    // Check for Chrome's PDF viewer (content-type based)
+    // Chrome loads PDFs with embed element having type="application/pdf"
+    const embedPdf = document.querySelector('embed[type="application/pdf"]');
+    if (embedPdf) {
+      return true;
+    }
+
+    // Check for Firefox's PDF.js viewer
+    if (document.querySelector('#viewer.pdfViewer')) {
+      return true;
+    }
+
+    // Check URL contains PDF viewer indicators
+    if (url.includes('pdfviewer') || url.includes('pdf.js')) {
+      return true;
+    }
+
+    return false;
   }
 
   /**
@@ -83,6 +141,19 @@ class EMSGlossary {
     logger.info('Initializing EMS Glossary content script');
 
     try {
+      // Detect page type first
+      this.pageType = this.detectPageType();
+      logger.info('Detected page type:', this.pageType);
+
+      // Handle PDF pages - show notice and exit early
+      if (this.pageType === PAGE_TYPES.PDF) {
+        logger.info('PDF page detected - highlighting not supported');
+        this.showPDFNotice();
+        // Still set up message listener for popup communication
+        this.setupMessageListener();
+        return;
+      }
+
       // Get settings
       this.settings = await this.getSettings();
       this.isEnabled = this.settings.enabled;
@@ -108,6 +179,10 @@ class EMSGlossary {
       this.matcher.setUserLevel(this.settings.userLevel);
       this.matcher.setBetaFeatures(this.settings.enableBetaFeatures || false);
       this.highlighter = new Highlighter(this.matcher);
+      
+      // Set page type on highlighter for smart contenteditable handling
+      this.highlighter.setPageType(this.pageType);
+      
       this.popup = new PopupUI();
       this.popup.setBetaFeatures(this.settings.enableBetaFeatures || false);
       // Pass term patterns to popup for inline term highlighting
@@ -145,6 +220,94 @@ class EMSGlossary {
       logger.info('EMS Glossary initialized successfully');
     } catch (error) {
       logger.error('Failed to initialize:', error);
+    }
+  }
+
+  /**
+   * Show a non-intrusive notice on PDF pages
+   */
+  showPDFNotice() {
+    // Create a small, dismissible notice
+    const notice = document.createElement('div');
+    notice.id = 'ems-pdf-notice';
+    notice.innerHTML = `
+      <div class="ems-pdf-notice-content">
+        <span class="ems-pdf-notice-icon">📄</span>
+        <span class="ems-pdf-notice-text">EMS Glossary: PDF highlighting not available. Copy text to a webpage to use.</span>
+        <button class="ems-pdf-notice-close" aria-label="Dismiss">×</button>
+      </div>
+    `;
+    
+    // Style the notice
+    const style = document.createElement('style');
+    style.textContent = `
+      #ems-pdf-notice {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999999;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        animation: ems-slide-in 0.3s ease-out;
+      }
+      @keyframes ems-slide-in {
+        from { transform: translateX(100%); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+      .ems-pdf-notice-content {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #1a1a2e;
+        color: #fff;
+        padding: 12px 16px;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        max-width: 350px;
+      }
+      .ems-pdf-notice-icon {
+        font-size: 20px;
+      }
+      .ems-pdf-notice-text {
+        font-size: 13px;
+        line-height: 1.4;
+      }
+      .ems-pdf-notice-close {
+        background: none;
+        border: none;
+        color: #888;
+        font-size: 20px;
+        cursor: pointer;
+        padding: 0 4px;
+        line-height: 1;
+      }
+      .ems-pdf-notice-close:hover {
+        color: #fff;
+      }
+    `;
+    
+    document.head.appendChild(style);
+    document.body.appendChild(notice);
+    
+    // Add close handler
+    notice.querySelector('.ems-pdf-notice-close').addEventListener('click', () => {
+      notice.remove();
+    });
+    
+    // Auto-dismiss after 10 seconds
+    setTimeout(() => {
+      if (notice.parentNode) {
+        notice.style.animation = 'ems-slide-in 0.3s ease-out reverse';
+        setTimeout(() => notice.remove(), 300);
+      }
+    }, 10000);
+  }
+
+  /**
+   * Set up just the message listener (for PDF pages)
+   */
+  setupMessageListener() {
+    if (chrome?.runtime?.onMessage) {
+      chrome.runtime.onMessage.addListener(this.handleMessage.bind(this));
     }
   }
 
@@ -235,6 +398,7 @@ class EMSGlossary {
         name: term.names?.[0] || termId,
         primaryTag: term.primary_tag || '',
         definition: term.definition || '',
+        level: term.level || 'medschool',
         fullContent: term,
       });
 
@@ -280,7 +444,14 @@ class EMSGlossary {
       return this.index.patternMetadata.get(pattern.toLowerCase()) || null;
     };
 
-    logger.info(`Built index: ${this.index.terms.size} terms, ${this.index.patterns.size} patterns`);
+    // Count terms by level for debugging
+    let premedCount = 0;
+    let medschoolCount = 0;
+    for (const [, meta] of this.index.terms) {
+      if (meta.level === 'premed') premedCount++;
+      else if (meta.level === 'medschool' || !meta.level) medschoolCount++;
+    }
+    logger.info(`Built index: ${this.index.terms.size} terms (${premedCount} premed, ${medschoolCount} medschool), ${this.index.patterns.size} patterns`);
   }
 
   /**
@@ -308,6 +479,9 @@ class EMSGlossary {
     document.addEventListener('click', this.handleTermClick.bind(this));
     document.addEventListener('keydown', this.handleKeydown.bind(this));
 
+    // Listen for middle-click to open underlying links
+    document.addEventListener('auxclick', this.handleTermMiddleClick.bind(this));
+
     // Listen for hover events (for hover preview mode)
     document.addEventListener('mouseenter', this.handleTermHover.bind(this), true);
     document.addEventListener('mouseleave', this.handleTermLeave.bind(this), true);
@@ -316,6 +490,106 @@ class EMSGlossary {
     if (chrome?.runtime?.onMessage) {
       chrome.runtime.onMessage.addListener(this.handleMessage.bind(this));
     }
+
+    // On Notion pages, track focus/blur to re-highlight after editing
+    if (this.pageType === PAGE_TYPES.NOTION) {
+      this.setupNotionFocusHandlers();
+    }
+  }
+
+  /**
+   * Set up focus/blur handlers for Notion pages
+   * Re-highlights content when user stops editing
+   */
+  setupNotionFocusHandlers() {
+    // Selectors for editable areas on Notion (ProseMirror + contenteditable)
+    const editableSelectors = [
+      '.ProseMirror',
+      '[contenteditable="true"]',
+      '[contenteditable=""]',
+      '[contenteditable]:not([contenteditable="false"])',
+    ];
+    
+    const matchesEditable = (el) => {
+      if (!el) return false;
+      return editableSelectors.some(sel => {
+        try {
+          return el.matches?.(sel);
+        } catch (e) {
+          return false;
+        }
+      });
+    };
+    
+    const findEditableAncestor = (el) => {
+      if (!el) return null;
+      for (const sel of editableSelectors) {
+        try {
+          const ancestor = el.closest?.(sel);
+          if (ancestor) return ancestor;
+        } catch (e) {
+          // Invalid selector
+        }
+      }
+      return null;
+    };
+
+    // Track focus on editable elements
+    document.addEventListener('focusin', (event) => {
+      const target = event.target;
+      const editableEl = matchesEditable(target) ? target : findEditableAncestor(target);
+      if (editableEl) {
+        this._lastFocusedElement = editableEl;
+        logger.debug('Notion: Focus in editable', this._lastFocusedElement);
+      }
+    }, true);
+
+    // Re-highlight when focus leaves editable
+    document.addEventListener('focusout', (event) => {
+      const target = event.target;
+      const editableEl = matchesEditable(target) ? target : findEditableAncestor(target);
+      
+      if (editableEl) {
+        // Debounce to allow for focus moving between editable elements
+        setTimeout(() => {
+          // Check if focus has moved to another editable
+          const activeEl = document.activeElement;
+          const activeEditable = findEditableAncestor(activeEl);
+          
+          // If focus is now outside editable areas, re-process the previously focused element
+          if (!activeEditable && this._lastFocusedElement) {
+            logger.debug('Notion: Focus out - re-highlighting', this._lastFocusedElement);
+            
+            // Clear highlights in this element first (they may have been modified while editing)
+            this.removeHighlightsFromElement(this._lastFocusedElement);
+            
+            // Re-process this node
+            if (this.highlighter) {
+              this.highlighter.processNode(this._lastFocusedElement);
+            }
+            
+            this._lastFocusedElement = null;
+          }
+        }, 100);
+      }
+    }, true);
+  }
+
+  /**
+   * Remove highlights from a specific element
+   * @param {Element} element
+   */
+  removeHighlightsFromElement(element) {
+    if (!element) return;
+    
+    const highlights = element.querySelectorAll('.ems-term');
+    for (const span of highlights) {
+      const text = document.createTextNode(span.textContent);
+      span.parentNode?.replaceChild(text, span);
+    }
+    
+    // Normalize text nodes
+    element.normalize();
   }
 
   /** @type {number|null} Hover preview timeout */
@@ -390,6 +664,13 @@ class EMSGlossary {
       return;
     }
 
+    // If Ctrl+Click or Cmd+Click, allow the native link behavior
+    const parentLink = term.closest('a');
+    if (parentLink && (event.ctrlKey || event.metaKey)) {
+      // Don't prevent default - let the link open (in new tab by default with Ctrl/Cmd)
+      return;
+    }
+
     event.preventDefault();
     event.stopPropagation();
 
@@ -420,6 +701,30 @@ class EMSGlossary {
 
     // Show popup near the term
     this.popup?.show(termIds, x, y);
+  }
+
+  /**
+   * Handle middle-click on highlighted term (to open underlying links)
+   * @param {MouseEvent} event
+   */
+  handleTermMiddleClick(event) {
+    // Only handle middle-click (button === 1)
+    if (event.button !== 1) {
+      return;
+    }
+
+    const term = event.target.closest('.ems-term');
+    if (!term) {
+      return;
+    }
+
+    // Check if the term is inside a link
+    const parentLink = term.closest('a');
+    if (parentLink && parentLink.href) {
+      // Open the link in a new tab (middle-click default behavior)
+      window.open(parentLink.href, '_blank');
+      event.preventDefault();
+    }
   }
 
   /**
@@ -527,6 +832,15 @@ class EMSGlossary {
       case 'GET_HIGHLIGHT_COUNT':
         const count = this.highlighter?.getHighlightCount() || 0;
         sendResponse({ count });
+        break;
+
+      case 'GET_PAGE_STATUS':
+        sendResponse({ 
+          pageType: this.pageType,
+          isEnabled: this.isEnabled,
+          isPDF: this.pageType === PAGE_TYPES.PDF,
+          isNotion: this.pageType === PAGE_TYPES.NOTION,
+        });
         break;
 
       default:

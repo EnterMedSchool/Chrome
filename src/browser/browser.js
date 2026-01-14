@@ -1,5 +1,5 @@
 /**
- * Term Browser for EMS Medical Glossary
+ * Term Browser for EnterMedSchool Glossary
  * Browse all terms organized by category.
  * 
  * @module browser

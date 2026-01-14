@@ -1,10 +1,10 @@
-# Privacy Policy for EMS Medical Glossary
+# Privacy Policy for EnterMedSchool Glossary
 
 **Last Updated:** January 2026
 
 ## Summary
 
-EMS Medical Glossary is designed with privacy as a core principle. **We do not collect, store, or transmit any personal data.** The extension operates entirely offline and locally on your device.
+EnterMedSchool Glossary is designed with privacy as a core principle. **We do not collect, store, or transmit any personal data.** The extension operates entirely offline and locally on your device.
 
 ---
 

@@ -1,0 +1,32 @@
+{
+  "id": "epithelial-tissue",
+  "names": [
+    "Epithelial tissue",
+    "Epithelium"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Epithelial tissue (epithelium)** consists of sheets of tightly packed cells that <u>cover the exterior surfaces of the body, line internal cavities and passageways, and form glands</u>. For example, the outer layer of skin is an epithelial tissue, and so are the linings of the mouth, stomach, and blood vessels. This tissue primarily provides <u>protection, absorption, secretion, and sensation</u>.",
+  "tips": [
+    "Functions of epithelium can be remembered by **<u>PASE</u>**: *Protection* (e.g., skin protecting underlying tissues), *Absorption* (e.g., intestinal epithelium absorbing nutrients), *Secretion* (e.g., glandular epithelium secreting hormones or enzymes), and *Excretion* (e.g., kidney tubules excreting waste). Different epithelial types specialize in different functions.",
+    "Epithelial cells are characterized by polarity: they have an <u>apical surface</u> (free surface facing outward or into a lumen) and a <u>basal surface</u> attached to a **<u>basement membrane</u>** that anchors the epithelium to underlying connective tissue. Epithelia are <u>avascular</u> (contain no blood vessels), so they rely on diffusion from underlying tissues for nutrients.",
+    "Epithelia are classified by <u>cell shape and layers</u>: **squamous** (flat cells), **cuboidal** (cube-shaped cells), **columnar** (tall cells); and **simple** (one cell layer thick) vs **stratified** (multiple layers). For instance, simple squamous epithelium in alveoli of lungs allows gas exchange, while stratified squamous epithelium in skin provides protection. Knowing examples of each type is high-yield."
+  ],
+  "exam_appearance": [
+    "If a question asks which tissue type forms the epidermis (outer skin) or the lining of organs, it's **epithelial tissue**. For example, \"Which tissue lines the inside of blood vessels?\" Answer: an epithelial tissue (specifically <u>simple squamous epithelium</u>, often called endothelium).",
+    "Glandular questions: Exocrine and endocrine glands are derived from epithelial tissue. A question might ask \"What type of tissue is a gland?\" - the answer is <u>epithelial (glandular epithelium)</u>.",
+    "Histology exam clues: Epithelial tissue will show a <u>continuous layer of cells</u>. Look for a free surface on one side and a basement membrane on the other. If an exam image shows tightly packed cells with one side facing a lumen or outside environment, that's epithelium."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Ch.4.1 (Epithelial tissue covers surfaces and forms glands)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/4-1-types-of-tissues"
+    },
+    {
+      "title": "MedlinePlus Medical Encyclopedia: Tissue types (epithelial tissue overview)",
+      "url": "https://medlineplus.gov/ency/imagepages/8682.htm"
+    }
+  ]
+}

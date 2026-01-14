@@ -1,0 +1,33 @@
+{
+  "id": "capsid",
+  "names": ["Capsid"],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "A **capsid** is the <u>protein shell of a virus that encloses its genetic material (DNA or RNA)</u>. It is built from protein subunits called **capsomeres** and serves to <u>protect the viral genome and aid in its delivery into host cells</u>.",
+  "tips": [
+    "All viruses have a **capsid** surrounding their nucleic acid. Some viruses are <u>\"enveloped\" (they have a lipid membrane outside the capsid)</u>, while others are <u>\"naked\" (no envelope, just the capsid)</u>.",
+    "The capsid's shape can vary: often **helical or icosahedral** (spherical) in structure. The arrangement of **capsomeres** defines these shapes. For example, tobacco mosaic virus has a helical capsid, while poliovirus has an icosahedral capsid.",
+    "Capsid vs. capsule: Don't confuse them. <u>Capsid refers to a virus's protein coat</u>. A capsule, by contrast, usually refers to a <u>polysaccharide outer layer on some bacteria</u> (or sometimes to a virus's envelope)."
+  ],
+  "exam_appearance": [
+    "If a question describes the <u>\"protein coat\"</u> of a virus or mentions capsomeres, it's referring to the **capsid**. For example, \"a viral structure composed of repeating protein subunits\" is the **capsid**.",
+    "A common exam point is distinguishing enveloped vs. non-enveloped viruses. Remember: the **capsid is present in both**, but enveloped viruses have an <u>extra lipid membrane around the capsid</u>.",
+    "Be prepared for terminology pitfalls. For instance, a question might use the term **\"nucleocapsid,\"** which means the <u>capsid + the enclosed genome</u>. Recognize that's still essentially the viral genome inside its capsid."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Viral Structure (capsid & envelope)",
+      "url": "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification"
+    },
+    {
+      "title": "Open Oregon State: General Microbiology - Virus Characteristics (capsid, capsomers)",
+      "url": "https://open.oregonstate.education/generalmicrobiology/chapter/introduction-to-viruses/"
+    },
+    {
+      "title": "Biology Online - Capsid (definition)",
+      "url": "https://www.biologyonline.com/dictionary/capsid"
+    }
+  ]
+}

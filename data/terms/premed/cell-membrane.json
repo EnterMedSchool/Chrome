@@ -1,0 +1,36 @@
+{
+  "id": "cell-membrane",
+  "names": [
+    "Cell Membrane",
+    "Plasma Membrane"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The cell membrane (plasma membrane)** is a <u>thin, flexible barrier that surrounds the cell-s cytoplasm</u>, separating the cell interior from the external environment. It is composed of a **semipermeable phospholipid bilayer with embedded proteins**, which controls the <u>transport of materials into and out of the cell</u>.",
+  "tips": [
+    "All cells have a **cell membrane**; in plants, fungi, and bacteria, a <u>rigid cell wall exists outside the cell membrane</u>, but <u>animal cells have only the membrane</u>.",
+    "**Semipermeable barrier:** small nonpolar molecules (e.g. O-, CO-) diffuse through the lipid bilayer easily, while <u>ions and polar molecules require protein channels or transporters</u> to cross.",
+    "**Fluid mosaic model:** the membrane-s phospholipids and proteins can <u>move laterally</u>, giving the membrane flexibility and allowing cell shape changes (e.g., red blood cells squeezing through capillaries)."
+  ],
+  "exam_appearance": [
+    "Classic trap - Don-t confuse the **cell membrane** with the cell wall. If a question asks what encloses an animal cell, the answer is the <u>plasma membrane</u> (animals have no cell wall).",
+    "Function clues - Descriptions like -<u>selectively permeable barrier</u>- or -<u>phospholipid bilayer with proteins</u>- are referring to the **cell (plasma) membrane**.",
+    "Structure ID - On diagrams, the <u>thin line surrounding the cell</u> (just inside any cell wall) is the **plasma membrane**."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI - Talking Glossary: Cell Membrane (Plasma Membrane)",
+      "url": "https://www.genome.gov/genetics-glossary/Cell-Membrane-Plasma-Membrane"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 3.4: The Cell Membrane (structure and function of plasma membrane)",
+      "url": "https://openstax.org/books/concepts-biology/pages/3-4-the-cell-membrane"
+    },
+    {
+      "title": "The Cell: A Molecular Approach 2nd Ed. - Structure of the Plasma Membrane (phospholipid bilayer barrier)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK9898/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "g-protein-coupled-receptor",
+  "names": [
+    "G Protein-Coupled Receptor",
+    "GPCR"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A G protein-coupled receptor (GPCR)** is a cell surface receptor protein that traverses the cell membrane <u>7 times</u> and, when a ligand (signaling molecule) binds to it, activates an associated <u>G protein</u> on the inside of the cell. Activation of the G protein in turn triggers an <u>intracellular signaling cascade</u> (often involving production of second messengers like cAMP).",
+  "tips": [
+    "GPCRs are also known as **<u>seven-transmembrane receptors</u>** because they have seven spanning helices in the membrane.",
+    "Ligand binding causes the GPCR to undergo a conformational change that activates a **<u>heterotrimeric G protein</u>** (by causing the G protein's alpha subunit to exchange GDP for GTP). The G protein can then activate or inhibit downstream effectors (enzymes or ion channels), leading to changes in second messenger levels (e.g., increased cAMP).",
+    "Example: **<u>Adrenergic receptors</u>** (for adrenaline/epinephrine) are GPCRs - when epinephrine binds, the GPCR activates a G protein that stimulates adenylyl cyclase to raise cAMP, triggering the fight-or-flight response."
+  ],
+  "exam_appearance": [
+    "Clue in question stem: if it mentions a receptor with **<u>7 transmembrane domains</u>** that initiates a cascade via GTP-binding proteins and second messengers -> that's a <u>G protein-coupled receptor</u>.",
+    "Term trap -> Ionotropic vs Metabotropic: GPCRs (like muscarinic acetylcholine receptors) are **<u>metabotropic</u>** (act through metabolic cascades), whereas ligand-gated ion channels (like nicotinic ACh receptors) are **<u>ionotropic</u>** (direct ion flow). Exams may test this distinction.",
+    "Many drugs target GPCR pathways. For example, a question might mention beta-blockers working on beta-adrenergic receptors (a type of GPCR) - you'd be expected to recognize that these medications exert effects by blocking a GPCR-mediated signaling pathway."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Ch.15 Key Terms: \"G protein-coupled receptor\"",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-key-terms"
+    },
+    {
+      "title": "CircRes (2024) - Abstract (GPCRs: 7-transmembrane receptors, ~800 in human genome, activate G proteins & second messengers)",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIRCRESAHA.124.323067"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e - Nicotinic vs Muscarinic ACh Receptors (ligand-gated channel vs GPCR)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/15-1-divisions-of-the-autonomic-nervous-system"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 /**
- * Index Loader for EMS Medical Glossary
+ * Index Loader for EnterMedSchool Glossary
  * Loads term data and builds an in-memory index for fast pattern matching.
  * All data is bundled with the extension (no remote fetching).
  * 

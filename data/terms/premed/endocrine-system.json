@@ -1,0 +1,34 @@
+{
+  "id": "endocrine-system",
+  "names": [
+    "Endocrine System"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**The endocrine system** is the body's hormone network - a collection of <u>ductless glands</u> that secrete hormones (chemical messengers) directly into the <u>bloodstream</u>. These hormones travel through blood to target organs and regulate major processes such as metabolism, growth, development, and homeostasis.",
+  "tips": [
+    "Endocrine vs exocrine: Endocrine glands release hormones internally into blood (no ducts), whereas exocrine glands secrete substances through ducts to the outside or into cavities (e.g., sweat, digestive enzymes).",
+    "Endocrine signaling is generally <u>slower and longer-lasting</u> than nervous system signaling. Hormones may take seconds to hours to exert effects, coordinating longer-term activities like growth, reproduction, and metabolic balance.",
+    "Major endocrine glands include the <u>pituitary, thyroid, parathyroids, adrenal glands, pancreas</u> (endocrine portion), ovaries, and testes. (Pancreas has both endocrine functions - insulin/glucagon secretion - and exocrine functions for digestion.)"
+  ],
+  "exam_appearance": [
+    "Often tested via scenarios of hormonal imbalance. For example, a question might describe symptoms of a thyroid hormone deficiency or excess - understanding it's an <u>endocrine issue</u> involving the thyroid gland is key.",
+    "Be prepared for questions asking about differences between endocrine and nervous regulation: e.g., recognizing that hormones (endocrine signals) generally maintain internal homeostasis and work more slowly compared to rapid nerve impulses."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Open RN (CVTC) - Medical Terminology (2024): Endocrine System Introduction",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK607443/"
+    },
+    {
+      "title": "MedlinePlus Encyclopedia: Endocrine Glands (hormones as chemical messengers)",
+      "url": "https://medlineplus.gov/ency/article/002353.htm"
+    },
+    {
+      "title": "OpenStax Anatomy & Physiology 2e: Endocrine vs Nervous System (communication speed and roles)",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-1"
+    }
+  ]
+}

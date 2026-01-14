@@ -1,0 +1,36 @@
+{
+  "id": "cytochrome-c",
+  "names": [
+    "Cytochrome c",
+    "Cyt c"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Cytochrome c (Cyt c)** is a small, soluble heme protein associated with the inner mitochondrial membrane. In the electron transport chain, cytochrome c <u>transfers electrons from Complex III (the cytochrome bc1 complex) to Complex IV (cytochrome c oxidase)</u>. It is also a crucial player in apoptosis: if released from mitochondria into the cytosol, cytochrome c <u>helps activate caspases and triggers programmed cell death</u>.",
+  "tips": [
+    "Within the ETC, cytochrome c <u>carries one electron at a time via its heme group</u> (the iron atom in heme cycles between Fe-- and Fe-- as it accepts and donates electrons). This single-electron transfer is why <u>two cytochrome c molecules are needed to carry the 2 electrons from each molecule of ubiquinol (QH2)</u> through Complex III to Complex IV.",
+    "Cytochrome c is <u>loosely attached on the outer side of the inner mitochondrial membrane (facing the intermembrane space)</u>. Because it is not embedded in the membrane, it is one of the components of the ETC that is freely diffusible. This makes it an easily released pro-apoptotic factor: under cellular stress, if the mitochondrial membrane becomes permeable, cytochrome c can leak out into the cytoplasm.",
+    "In the cytoplasm, cytochrome c binding to Apaf-1 (apoptotic protease activating factor-1) and procaspase-9 forms the apoptosome, leading to activation of caspase-9 and then caspase-3. Therefore, a question about the mitochondrial pathway of apoptosis (intrinsic apoptosis) often involves <u>cytochrome c release as a key step</u>."
+  ],
+  "exam_appearance": [
+    "**Electron transport role:** A common question is identifying electron carriers. For example, 'Which electron carrier transfers electrons between Complex III and IV of the mitochondria-' The answer is <u>cytochrome c</u>. It-s unique because it-s a small protein that is not anchored in the membrane, unlike the other ETC complexes.",
+    "**Apoptosis clue:** If a question describes events in apoptosis such as mitochondrial outer membrane permeabilization or asks 'what mitochondrial protein directly activates the executioner caspases-', the answer is <u>cytochrome c</u> (once in the cytosol, it initiates the cascade leading to cell death).",
+    "**Name confusion trap:** Don-t confuse cytochrome c with cytochrome c oxidase. Cytochrome c oxidase is Complex IV (an enzyme complex that receives electrons from cytochrome c and uses them to reduce oxygen). Cytochrome c itself is the mobile carrier. If a question mentions inhibition by cyanide affecting cytochrome c oxidase, remember that blocks the ETC at Complex IV, causing cytochrome c to remain reduced and halt further electron transfer."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Section 7.4: Electron Transport Chain (Cytochrome c in ETC)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+    },
+    {
+      "title": "Nature Education - Cytochrome c and Apoptosis (Article)",
+      "url": "https://www.nature.com/scitable/topicpage/cytochrome-c-and-the-mitochondrial-apoptosis-pathway-14232840/"
+    },
+    {
+      "title": "PMC Article - Cytochrome c: the Achilles' Heel in Apoptosis (Abstract)",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11114681/"
+    }
+  ]
+}

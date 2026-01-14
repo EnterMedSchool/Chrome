@@ -1,0 +1,37 @@
+{
+  "id": "mitochondrial-ribosome",
+  "names": [
+    "Mitochondrial Ribosome",
+    "Mitoribosome",
+    "55S ribosome"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Mitochondrial ribosomes** are the <u>protein synthesis machinery inside mitochondria</u>. They are similar to bacterial ribosomes in structure and origin - in fact, mitochondrial ribosomes in eukaryotic cells are about **55S particles (in mammals, composed of a 28S small subunit and a 39S large subunit)** which function like prokaryotic 70S ribosomes. Mitochondrial ribosomes <u>translate a few proteins encoded by mitochondrial DNA</u>, mostly components of the oxidative phosphorylation system.",
+  "tips": [
+    "**Endosymbiotic evidence:** The <u>similarity of mitochondrial ribosomes to bacterial 70S ribosomes</u> supports the theory that mitochondria evolved from an engulfed bacterium.",
+    "**Antibiotic sensitivity:** Some antibiotics that inhibit bacterial ribosomes (e.g., chloramphenicol) can <u>also affect mitochondrial protein synthesis</u> because of the ribosomal similarity, which can explain certain drug side effects on human cells.",
+    "Mitochondrial protein synthesis is limited - human mitochondrial DNA only encodes **13 proteins**, so mitoribosomes specialize in making those (mostly subunits of the respiratory complexes). The majority of proteins in mitochondria are made by <u>cytosolic 80S ribosomes and imported</u>."
+  ],
+  "exam_appearance": [
+    "Endosymbiosis question - If asked for evidence that mitochondria were once bacteria, an answer is: -<u>Mitochondria have their own circular DNA and 70S-type ribosomes similar to bacteria</u>.-",
+    "Antibiotic trap - A question might ask why a bacteriostatic antibiotic can impact eukaryotic cells: the answer could be that it targets 70S ribosomes and thus can also <u>interfere with mitochondrial ribosomes</u>, affecting mitochondrial protein production.",
+    "Structure ID - Mitochondrial ribosomes are not visible under normal microscopy in typical textbooks, but know the term -<u>55S mitoribosome</u>- refers to the mitochondrial protein-making complex (distinct from the 80S cytoplasmic ribosome)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Biology LibreTexts - 11.4: Translation (70S ribosomes in mitochondria and chloroplasts vs 80S in cytoplasm)",
+      "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11:_Mechanisms_of_Microbial_Genetics/11.04:Protein_Synthesis(Translation)"
+    },
+    {
+      "title": "Nucleic Acids Research (2013) - Mammalian Mitochondrial Ribosome (55S composed of 28S + 39S subunits)",
+      "url": "https://academic.oup.com/nar/article/41/6/3713/2903134"
+    },
+    {
+      "title": "OpenStax Biology 2e - 4.5: Mitochondria and Chloroplasts (mitochondria have their own ribosomes similar to bacteria)",
+      "url": "https://openstax.org/books/biology-2e/pages/4-5-mitochondria-and-chloroplasts"
+    }
+  ]
+}

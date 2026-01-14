@@ -1,0 +1,36 @@
+{
+  "id": "allopatric-speciation",
+  "names": [
+    "Allopatric speciation",
+    "Geographic speciation"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Allopatric speciation** is the formation of a new species from populations that are <u>geographically isolated from one another</u>. Physical separation (different homelands) prevents <u>gene flow</u>, allowing evolutionary differences to accumulate until new species form.",
+  "tips": [
+    "Think \"geographic isolation\" for allopatric speciation: mountains, rivers, islands, or other barriers split a population and <u>stop them from interbreeding</u>.",
+    "Over time, isolated groups experience different **mutations**, **natural selection** pressures, and **genetic drift**. Given enough generations, these differences can lead to <u>reproductive incompatibility</u> with the original population.",
+    "Terminology: \"allo\" = other, \"patric\" = homeland. Allopatric speciation is often contrasted with <u>sympatric speciation</u> (speciation without geographic separation)."
+  ],
+  "exam_appearance": [
+    "If an exam describes species formation after a physical barrier divides a population (e.g., a canyon forming or a flock blown to a new island), the answer revolves around **allopatric speciation**.",
+    "Common examples: **Darwin's finches** on different islands, or squirrels on opposite rims of the **Grand Canyon** evolving into separate species, illustrate allopatric speciation.",
+    "Be careful not to confuse \"allopatric\" with similar-sounding terms; a tip is to remember <u>allopatric = apart</u> (separated populations)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Allopatric vs Sympatric Speciation (Section 18.2)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-2-formation-of-new-species#fs-id1176508624819"
+    },
+    {
+      "title": "National Geographic Society - Allopatric Speciation (definition within speciation entry)",
+      "url": "https://education.nationalgeographic.org/resource/speciation"
+    },
+    {
+      "title": "Understanding Evolution (UC Berkeley) - Allopatric speciation",
+      "url": "https://evolution.berkeley.edu/modes-of-speciation/allopatric-speciation"
+    }
+  ]
+}

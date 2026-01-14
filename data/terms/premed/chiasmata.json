@@ -1,0 +1,35 @@
+{
+  "id": "chiasmata",
+  "names": [
+    "Chiasmata",
+    "Chiasma"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Chiasmata** (singular: chiasma) are the <u>physical X-shaped junctions</u> where homologous chromosomes have exchanged genetic material during crossing over. They become visible in <u>prophase I</u> of meiosis and represent the sites where chromatids from homologous chromosomes are still attached after swapping segments.",
+  "tips": [
+    "Chiasmata <u>hold homologous chromosomes together</u> until anaphase I. This helps ensure proper segregation - each homologous pair must have at least one chiasma for meiosis I to proceed correctly.",
+    "Under a microscope, chiasmata look like <u>X-shaped overlaps</u> between homologous chromosome pairs. These are literally the crossover points.",
+    "Terminology tip: use \"chiasma\" for a single crossover point and \"chiasmata\" for multiple. (Don't confuse chiasma with the similarly named \"optic chiasm,\" which is unrelated and refers to crossing of optic nerves.)"
+  ],
+  "exam_appearance": [
+    "An exam might show an image of paired chromosomes in meiosis I and point to the X-shaped connection asking \"What is this structure?\" The answer is a **chiasma** (the site of crossing over).",
+    "Genetics problems on meiosis sometimes mention that homologous chromosomes remain connected at chiasmata. If a question asks **how** the homologous chromosomes stay together until Anaphase I, citing <u>chiasmata</u> (from crossing over) is the key."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - Meiosis (chiasmata as evidence of crossing over)",
+      "url": "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+    },
+    {
+      "title": "Biology Online Dictionary - Chiasma Definition",
+      "url": "https://www.biologyonline.com/dictionary/chiasma"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 7.2 Meiosis (synapsis and chiasmata)",
+      "url": "https://openstax.org/books/concepts-biology/pages/7-2-meiosis"
+    }
+  ]
+}

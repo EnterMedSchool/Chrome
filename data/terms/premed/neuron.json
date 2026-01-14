@@ -1,0 +1,32 @@
+{
+  "id": "neuron",
+  "names": [
+    "Neuron",
+    "Nerve cell"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A neuron** is a nerve cell - the <u>basic functional unit of the nervous system</u> specialized to receive and transmit signals. Neurons typically have a cell body, dendrites (branches that receive inputs), and an axon (a long fiber that sends impulses to other cells). These cells communicate via <u>electrical impulses and chemical neurotransmitters</u>, allowing rapid messaging throughout the body.",
+  "tips": [
+    "Neurons have unique structures: <u>dendrites</u> (collect incoming signals), a <u>cell body</u> (with nucleus), and usually one <u>axon</u> (carries outgoing nerve impulse). Many axons are insulated with **myelin** to speed up signal conduction.",
+    "Neurons do not usually undergo cell division (they are generally non-mitotic), which is why nerve damage can be long-lasting. Some parts of the brain can grow new neurons (neurogenesis), but this is limited.",
+    "There are different types of neurons by function: **sensory neurons** (bring information from body to brain/spinal cord), **motor neurons** (carry signals to muscles/glands), and **interneurons** (connect neurons within the central nervous system)."
+  ],
+  "exam_appearance": [
+    "If a question asks for the \"basic unit of the nervous system\" or the cell type that transmits nerve impulses, the answer is the **neuron**.",
+    "Be careful not to confuse a neuron with a **nerve**. A nerve is a bundle of many neuron axons in the peripheral nervous system, whereas a neuron is a single cell. For example, a question might ask about an impulse traveling down a nerve fiber - that fiber is part of a neuron's axon.",
+    "Neurons vs glial cells: exams may test that neurons conduct impulses, while glial cells (neuroglia) are supporting cells. For instance, an item might describe a cell that insulates axons (like a Schwann cell or oligodendrocyte) - that is a glial cell, not a neuron."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NCI Dictionary of Cancer Terms: Nerve cell (definition)",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/nerve-cell"
+    },
+    {
+      "title": "OpenStax Biology 2e: Section 35.1 (Neurons are specialized for signal transmission)",
+      "url": "https://openstax.org/books/biology-2e/pages/35-1-neurons-and-glial-cells"
+    }
+  ]
+}

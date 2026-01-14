@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EMS Medical Glossary</title>
+  <title>EnterMedSchool Glossary</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
@@ -12,10 +12,24 @@
     <header class="popup-header">
       <div class="header-brand">
         <img src="../../assets/icons/icon-48.png" alt="Leo" class="logo-img">
-        <h1>EMS Glossary</h1>
+        <div class="header-text">
+          <h1>EnterMedSchool</h1>
+          <p class="header-attribution">Proudly made by Harvey Medical Students & Doctors at the University of Pavia</p>
+        </div>
       </div>
-      <span class="version">v1.0.0</span>
+      <span class="version" id="versionDisplay">v1.1.0</span>
     </header>
+
+    <!-- PDF Notice (shown when viewing PDF) -->
+    <section class="section pdf-notice-section" id="pdfNoticeSection" style="display: none;">
+      <div class="pdf-notice">
+        <span class="pdf-notice-icon">📄</span>
+        <div class="pdf-notice-content">
+          <span class="pdf-notice-title">PDF Page Detected</span>
+          <span class="pdf-notice-text">Term highlighting is not available in Chrome's PDF viewer. Copy text to a webpage to use EMS Glossary.</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Domain Status Card (Adblock-like) -->
     <section class="section domain-card" id="domainCard">
@@ -35,6 +49,10 @@
       <button class="domain-toggle-btn" id="toggleSiteBtn">
         <span class="btn-icon">🚫</span>
         <span class="btn-text">Disable on this site</span>
+      </button>
+      <button class="pause-btn" id="pauseExtensionBtn">
+        <span class="btn-icon">⏸️</span>
+        <span class="btn-text">Pause Extension</span>
       </button>
     </section>
 
@@ -162,7 +180,7 @@
           <span class="level-text">Show All</span>
         </button>
       </div>
-      <p class="setting-hint">Controls which terms get highlighted. Higher levels include more advanced terminology.</p>
+      <p class="setting-hint">Controls which terms get highlighted. Select your level to see relevant terms, or "Show All" for everything.</p>
     </section>
 
     <!-- Font Size -->

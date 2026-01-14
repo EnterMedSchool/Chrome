@@ -1,0 +1,31 @@
+{
+  "id": "plasmid",
+  "names": [
+    "Plasmid"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A plasmid** is a <u>small, circular DNA molecule</u> found in bacteria (and some other microorganisms) that is separate from the bacterial chromosomal DNA and can replicate independently. Plasmids typically carry a handful of genes - often including genes beneficial to the host such as <u>antibiotic resistance genes</u> - and can be transferred between bacteria, allowing spread of those traits.",
+  "tips": [
+    "Plasmids are an example of <u>extra-chromosomal DNA</u>. In bacteria, they are much smaller than the main chromosome and are not required for basic survival, but they often confer advantages (like drug resistance or toxin production). Bacteria can have zero, one, or multiple plasmids, and copy number per cell can vary by plasmid type.",
+    "In research and biotechnology, plasmids are used as **vectors** to clone genes. Scientists can insert a gene of interest into a plasmid DNA, then introduce this plasmid into bacteria. As the bacteria grow and replicate the plasmid, they produce many copies of that gene or even the gene product. This is how insulin was first mass-produced: the human insulin gene was cloned into a bacterial <u>plasmid vector</u>.",
+    "Horizontal gene transfer in bacteria often involves plasmids: via a process called **<u>conjugation</u>**, one bacterium can transfer a copy of a plasmid to another through a pilus. This is how, for example, antibiotic resistance genes can rapidly spread through a bacterial population (one bacterium with a resistance plasmid can pass it to others)."
+  ],
+  "exam_appearance": [
+    "Plasmids are frequently mentioned in genetics or microbiology questions. For example, a question might ask: \"What genetic element in bacteria carries antibiotic resistance and can be shared between cells?\" - the answer is a <u>plasmid</u>.",
+    "Be ready for questions on using plasmids in DNA cloning. They might describe a scenario of inserting a gene into a circular DNA and putting it into *E. coli* to produce a protein - this is describing the use of a <u>plasmid vector</u> in recombinant DNA technology.",
+    "Sometimes a question will contrast plasmids with eukaryotic chromosomes or ask which organisms have plasmids. Remember that plasmids are common in <u>bacteria</u> and sometimes found in yeasts; they are generally not a feature of higher eukaryotic cells."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Plasmid (small circular DNA in bacteria)",
+      "url": "https://www.genome.gov/genetics-glossary/Plasmid"
+    },
+    {
+      "title": "OpenStax Concepts of Biology: Section 10.1 (plasmids as cloning vectors)",
+      "url": "https://openstax.org/books/concepts-biology/pages/10-1-cloning-and-genetic-engineering"
+    }
+  ]
+}

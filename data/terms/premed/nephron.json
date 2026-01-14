@@ -1,0 +1,35 @@
+{
+  "id": "nephron",
+  "names": [
+    "Nephron"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A nephron** is the <u>microscopic functional unit of the kidney</u> responsible for filtering blood and forming urine. Each nephron consists of a <u>renal corpuscle</u> (the glomerulus - a tuft of capillaries - plus Bowman's capsule) that filters blood, and a renal tubule where the filtrate is modified via reabsorption and secretion to produce urine.",
+  "tips": [
+    "Humans have over <u>one million nephrons</u> in each kidney. Each nephron's tubule has several segments with specialized roles: <u>proximal tubule</u> (reabsorbs nutrients, electrolytes, water), <u>loop of Henle</u> (creates concentration gradient in the medulla for water reabsorption), <u>distal tubule</u>, and <u>collecting duct</u> (fine-tunes electrolyte and water balance, site of action for hormones like ADH and aldosterone).",
+    "About 180 liters of fluid are filtered by all nephrons combined per day, but ~99% is reclaimed. Therefore, normal urine output is only about <u>1-2 liters</u> per day.",
+    "Name trap: **Nephron** (kidney unit) is sometimes confused with **neuron** (nerve cell) due to similar spelling. Remember that <u>nephr-</u> refers to kidney (as in nephrology), whereas <u>neur-</u> refers to nerves."
+  ],
+  "exam_appearance": [
+    "Frequently tested in renal physiology. For example, a question might ask where in the nephron glucose is normally reabsorbed - the answer is the <u>proximal convoluted tubule</u> (since in healthy kidneys all filtered glucose is reabsorbed there).",
+    "Questions may involve the effects of hormones on nephron segments: e.g., ADH acting on <u>collecting ducts</u> to increase water reabsorption, or aldosterone acting on the <u>distal tubule/collecting duct</u> to increase Na+ reabsorption and K+ secretion.",
+    "Understanding nephron structure is key for interpreting urinalysis results. For instance, protein in the urine (proteinuria) often indicates a problem with the <u>glomerulus</u> (filter) because normally glomerular filtration prevents large proteins from entering filtrate."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Copstead & Banasik's Pathophysiology (via NurseKey): Nephron Structure (glomerulus & tubules; >1 million per kidney)",
+      "url": "https://nursekey.com/renal-physiology-and-the-pathology-of-renal-failure/"
+    },
+    {
+      "title": "Kenhub - Kidney Histology: Nephron (functional unit removing waste)",
+      "url": "https://www.kenhub.com/en/library/anatomy/kidney-histology"
+    },
+    {
+      "title": "OpenStax Biology 2e - Excretory System: Nephron Function (Filtration and Reabsorption)",
+      "url": "https://openstax.org/books/biology-2e/pages/41-3-the-excretory-system"
+    }
+  ]
+}

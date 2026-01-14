@@ -1,0 +1,34 @@
+{
+  "id": "synapse",
+  "names": [
+    "Synapse"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A synapse** is the <u>junction between two nerve cells (neurons)</u>, or between a neuron and another target cell (such as a muscle cell), where nerve impulses are transmitted from one cell to the next. In a chemical synapse, the signal is carried by <u>neurotransmitters</u> released from the presynaptic neuron across a tiny gap (the synaptic cleft) to the postsynaptic cell.",
+  "tips": [
+    "Synapse structure: the <u>presynaptic</u> cell's axon terminal releases neurotransmitters into the <u>synaptic cleft</u>, which bind to receptors on the <u>postsynaptic</u> cell, triggering a response.",
+    "Not all synapses are chemical; some are **<u>electrical synapses</u>** where cells are connected by <u>gap junctions</u>, allowing direct ionic current flow for faster signal transmission.",
+    "Example: The <u>neuromuscular junction</u> is a specialized synapse where a motor neuron communicates with a muscle fiber using the neurotransmitter acetylcholine."
+  ],
+  "exam_appearance": [
+    "Clue in questions: \"gap between neurons where communication occurs\" or \"junction where neurotransmitters are released\" points to a **<u>synapse</u>**.",
+    "Term trap: Do not confuse **synapse** (neural junction) with **synapsis** (pairing of chromosomes in meiosis). They sound similar but refer to entirely different processes."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NCI Dictionary of Cancer Terms: Synapse",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/synapse"
+    },
+    {
+      "title": "Lumen Learning - Anatomy & Physiology: Communication Between Neurons (Introduction to Synapses)",
+      "url": "https://courses.lumenlearning.com/suny-dutchess-anatomy-physiology/chapter/communication-between-neurons/"
+    },
+    {
+      "title": "Khan Academy - The Synapse (Human Biology)",
+      "url": "https://www.khanacademy.org/science/biology/human-biology/neuron-nervous-system/a/the-synapse"
+    }
+  ]
+}

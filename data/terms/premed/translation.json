@@ -1,0 +1,35 @@
+{
+  "id": "translation",
+  "names": [
+    "Translation (Protein Synthesis)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Translation** is the process by which the information encoded in <u>messenger RNA (mRNA)</u> directs the assembly of amino acids into a protein. It takes place on <u>ribosomes</u> in the cell's cytoplasm, where the mRNA sequence is \"read\" in <u>codons (three-base units)</u> and translated into a specific sequence of amino acids, forming a <u>polypeptide chain</u>.",
+  "tips": [
+    "Each set of three mRNA bases (codon) corresponds to one amino acid (according to the genetic code). For example, the codon <u>AUG</u> codes for the amino acid methionine (also serving as the <u>start codon</u> for translation). <u>UAA, UAG, and UGA</u> are stop codons that signal translation to end.",
+    "Translation requires <u>ribosomes</u> (made of rRNA and proteins) and <u>transfer RNAs (tRNAs)</u>. tRNAs act as adapters: each tRNA has an <u>anticodon</u> that pairs with a <u>codon</u> on mRNA and carries the appropriate amino acid for that codon. This ensures the amino acids are added in the correct order as the protein is synthesized.",
+    "Translation has three phases: <u>initiation</u> (ribosome assembles at the start codon on mRNA; the first tRNA brings methionine), <u>elongation</u> (the ribosome moves along mRNA, adding amino acids one by one), and <u>termination</u> (when a stop codon is reached, the finished polypeptide is released). Multiple ribosomes can translate a single mRNA simultaneously (forming a <u>polyribosome</u>) to make many copies of a protein."
+  ],
+  "exam_appearance": [
+    "If a question asks \"Where and how are proteins made from mRNA?\" -> the answer is <u>translation</u>, occurring at ribosomes in the cytoplasm, decoding mRNA into amino acids.",
+    "Clues like \"codon-anticodon pairing,\" \"ribosome,\" or \"polypeptide chain formation\" in a question indicate translation. For instance, a question mentioning tRNA bringing amino acids to match an mRNA sequence is describing the <u>translation process</u>.",
+    "Be prepared for genetic code problems: e.g., given an mRNA sequence and a codon chart, determine the amino acid sequence - that's a direct application of translation (reading codons to find amino acids). Always start at the <u>start codon (AUG)</u> and stop at a <u>stop codon</u>."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Translation",
+      "url": "https://www.genome.gov/genetics-glossary/Translation"
+    },
+    {
+      "title": "MedlinePlus Genetics - From DNA to Protein (translation explained)",
+      "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/"
+    },
+    {
+      "title": "OpenStax Concepts of Biology - 9.3/9.4: (Central Dogma and Translation)",
+      "url": "https://openstax.org/books/concepts-biology/pages/9-3-transcription"
+    }
+  ]
+}

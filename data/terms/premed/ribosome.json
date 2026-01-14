@@ -1,0 +1,36 @@
+{
+  "id": "ribosome",
+  "names": [
+    "Ribosome",
+    "Ribosomes"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A ribosome** is a cellular structure composed of RNA and proteins that serves as the <u>site of protein synthesis</u>. Ribosomes -read- the sequence of a messenger RNA (mRNA) and <u>translate it into a polypeptide chain (protein)</u> by linking amino acids in the order specified by the mRNA.",
+  "tips": [
+    "Ribosomes consist of two subunits (one large, one small) that come together during translation. In eukaryotes, cytoplasmic ribosomes are **80S (made of 60S + 40S subunits)**; in prokaryotes, ribosomes are smaller **70S (50S + 30S subunits)**.",
+    "**Location:** Ribosomes may be <u>free in the cytoplasm</u> (making proteins for use in the cytosol) or <u>bound to the rough ER</u> (making proteins for secretion or membranes). Mitochondria and chloroplasts also have their own ribosomes similar to bacterial ones.",
+    "**Mechanism:** Think of a ribosome as a molecular machine - it <u>matches tRNAs to mRNA codons and catalyzes peptide bond formation</u>, growing the polypeptide chain one amino acid at a time."
+  ],
+  "exam_appearance": [
+    "Translation questions - If asked -what cellular machine assembles amino acids into proteins-- the answer is the **ribosome**. They might mention <u>rRNA as a component</u> since ribosomes are ribonucleoproteins.",
+    "Antibiotic mechanism - Many antibiotics (e.g., tetracycline, erythromycin) target **bacterial 70S ribosomes** and not eukaryotic 80S ribosomes, exploiting this size/structure difference to inhibit bacterial protein synthesis without harming human cytoplasmic ribosomes.",
+    "Sedimentation values - Exams sometimes expect recognition that <u>eukaryotic ribosomes are 80S vs prokaryotic 70S</u>. Remember these S values (Svedberg units) are a measure of size/density (and are not additive)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI - Talking Glossary: Ribosome",
+      "url": "https://www.genome.gov/genetics-glossary/Ribosome"
+    },
+    {
+      "title": "Lumen Learning Biology - Ribosomes (prokaryotic 70S vs eukaryotic 80S; ribosome function)",
+      "url": "https://courses.lumenlearning.com/wm-biology1/chapter/reading-ribosomes/"
+    },
+    {
+      "title": "OpenStax Biology 2e - 15.5: Ribosomes and Protein Synthesis (rRNA and protein composition; subunit sizes)",
+      "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+    }
+  ]
+}

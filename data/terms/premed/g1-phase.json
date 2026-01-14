@@ -1,0 +1,38 @@
+{
+  "id": "g1-phase",
+  "names": [
+    "G1 phase",
+    "Gap 1 phase"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**G1 phase** (Gap 1) is the first stage of interphase in the cell cycle, occurring right after cell division (mitosis). During G1, the cell grows in size and carries out normal metabolic activities (synthesizing proteins, producing RNA, and so on). The cell also begins preparing for the next DNA synthesis phase by accumulating nucleotides and other resources. G1 is a crucial checkpoint stage: the cell assesses whether conditions are favorable for division before committing to DNA replication.",
+  "tips": [
+    "G1 is like the cell's everyday <u>\"working and growth\" phase</u>. A cell in G1 is metabolically active, performing its specialized functions (for example, a G1-phase liver cell carries out liver functions) while also growing.",
+    "A key event in late G1 is the <u>G1/S checkpoint</u> (often called the restriction point in animal cells). The cell checks for DNA damage, sufficient nutrients, appropriate cell size, and growth signals. Passing this checkpoint commits the cell to enter S phase and replicate DNA. If conditions aren't right, the cell can pause or enter <u>G0</u> (a resting/non-dividing state).",
+    "Cells that do not divide frequently or at all (like neurons or muscle cells) are essentially in a G1-like state called <u>G0</u>. They have exited the active cell cycle. An exam question might mention a cell that is not preparing to divide - that implies G0, which is an extended G1 arrest.",
+    "During G1, only <u>single chromatids per chromosome</u> are present (the DNA has not duplicated yet). In humans, a G1 cell has 46 chromosomes (46 chromatids). Recognizing DNA content: G1 is before DNA replication, so DNA content is 2n (diploid, one genome copy from each parent)."
+  ],
+  "exam_appearance": [
+    "Descriptive questions: e.g., \"In which phase does the cell spend most of its time performing its routine functions and growing?\" - Answer: <u>G1 phase</u>. Many cells spend a majority of their cycle in G1 (or G0).",
+    "Checkpoint questions: e.g., a question might describe a cell examining DNA for damage and ensuring enough nutrients before DNA replication - this scenario describes the <u>G1 checkpoint (restriction point)</u>. Knowing this occurs at the end of G1 is important.",
+    "If a question asks about cell cycle order or \"what comes after cytokinesis (cell division) in a new daughter cell?\" - the answer is <u>G1 phase</u> (the new cell enters G1 to grow and function).",
+    "Watch for trick terminology: sometimes G1 is called **\"first gap\"** or **\"first growth phase\"**. They all mean the same thing. And remember, G1 is part of interphase (as are S and G2)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "OpenStax Biology 2e - 6.2: The Cell Cycle (G1 phase description)",
+      "url": "https://openstax.org/books/biology-2e/pages/6-2-the-cell-cycle"
+    },
+    {
+      "title": "Pressbooks - Human Genetics, Ch.7: G1 phase (cell performs normal functions)",
+      "url": "https://pressbooks.gvsu.edu/humangenetics/chapter/chapter-7-cell-cycle-and-cell-division/"
+    },
+    {
+      "title": "Khan Academy - Cell cycle phases (describes G1 vs G0)",
+      "url": "https://www.khanacademy.org/science/ap-biology/cell-communication-and-cell-cycle/cell-cycle/a/cell-cycle-phases"
+    }
+  ]
+}

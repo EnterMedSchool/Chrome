@@ -1,0 +1,31 @@
+{
+  "id": "cloning",
+  "names": [
+    "Cloning"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "In biology, **cloning** is the process of creating a <u>genetically identical copy</u> of a biological entity. This could mean copying a gene or DNA sequence (molecular cloning), producing a clone of a cell (cellular cloning), or generating a new organism that has the same DNA as another (reproductive cloning). The resulting identical genetic copy is called a \"clone.\"",
+  "tips": [
+    "Natural cloning occurs in <u>asexual reproduction</u> and in the formation of <u>identical twins</u>. For example, bacteria clone themselves by binary fission (producing genetically identical offspring), and identical twins in humans are essentially natural clones of each other (one embryo splits into two that share virtually identical DNA).",
+    "There are <u>three main types</u> of artificial cloning: **gene cloning** (making copies of specific genes/DNA segments), **reproductive cloning** (making a new organism, e.g., the famous cloned sheep Dolly), and **therapeutic cloning** (cloning cells/tissues for medical therapy, such as creating stem cells). Each uses laboratory techniques like <u>somatic cell nuclear transfer</u> for reproductive cloning or DNA recombinant methods for gene cloning.",
+    "<u>Dolly the sheep</u>, cloned in 1996, was the first mammal cloned from an adult somatic cell. This was achieved by taking the nucleus of an adult sheep's udder cell and inserting it into an egg cell that had its nucleus removed, then developing the egg into an embryo and implanting it into a surrogate sheep. Dolly demonstrated that specialized adult cells could be reprogrammed to create an entire organism, a breakthrough in cloning technology."
+  ],
+  "exam_appearance": [
+    "Exams might ask what \"clone\" means: expect something like \"an organism or cell that is <u>genetically identical</u> to another\". For instance, a question might say, \"If a frog is produced by inserting the nucleus of another frog's cell into an enucleated egg, the process is called ___.\" The answer: cloning (specifically reproductive cloning via nuclear transfer).",
+    "Gene cloning vs PCR can be a tested distinction: both make copies of DNA, but <u>gene cloning</u> involves inserting DNA into living cells (like bacteria) and letting them replicate it, whereas <u>PCR</u> amplifies DNA in a test tube. A question might present both methods and ask which one uses bacteria and plasmids - that's gene cloning, whereas PCR is cell-free.",
+    "Ethical or practical aspects of cloning sometimes come up: e.g., why cloning mammals is <u>inefficient or risky</u> (many cloned embryos fail to develop, clones may have health problems). Dolly, for instance, was the only success out of 277 attempts and had a shorter lifespan. While not the focus of a science exam, it's useful context if the exam narrative mentions cloning efficiency or telomere shortening in clones."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "NHGRI Talking Glossary: Cloning (making identical genetic copies)",
+      "url": "https://www.genome.gov/genetics-glossary/Cloning"
+    },
+    {
+      "title": "NHGRI Fact Sheet: Cloning (overview of cloning types and examples)",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet"
+    }
+  ]
+}

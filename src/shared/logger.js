@@ -1,5 +1,5 @@
 /**
- * Logging utility for EMS Medical Glossary
+ * Logging utility for EnterMedSchool Glossary
  * Prefixes all logs with [EMS] for easy filtering
  * @module logger
  */

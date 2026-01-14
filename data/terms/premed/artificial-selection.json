@@ -1,0 +1,40 @@
+{
+  "id": "artificial-selection",
+  "names": [
+    "Artificial selection",
+    "Selective breeding"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**Artificial selection** is the process by which humans intentionally breed plants or animals for specific traits. By choosing which individuals are allowed to mate and reproduce, humans can <u>increase the prevalence of desirable characteristics</u> in the next generation. Over multiple generations, artificial selection can produce dramatic changes in the organisms - it's essentially <u>human-guided evolution</u> (also known as selective breeding).",
+  "tips": [
+    "Classic examples: all modern dog breeds are results of artificial selection from wolves (humans bred dogs for size, temperament, skills, etc.), and nearly all crops (like corn, broccoli, cabbage) were developed from wild ancestors by selecting for certain traits. Mentioning one of these examples can clarify the concept.",
+    "Artificial selection works <u>faster than natural selection</u> because the selection pressure (human preference) is strong and goal-directed. Traits that might not confer survival advantage in nature (like extra fluffy fur or giant fruits) can be fixed in a population because humans favor them.",
+    "It requires <u>genetic variation</u> to work with - breeders choose from existing variants the ones with preferred traits to reproduce. Over time, new varieties/breeds emerge. This is evidence that significant change in organisms can occur through selection, a fact Darwin noted from pigeon breeding when formulating natural selection.",
+    "Exam tip: differentiate **artificial vs natural selection**: artificial selection has an external agent (humans) picking winners (traits to propagate), whereas natural selection has the environment/ecosystem determining which traits help survival and reproduction. Also note that artificial selection is a subset of overall selection mechanisms; it's deliberate, not random."
+  ],
+  "exam_appearance": [
+    "A question might describe a scenario like \"farmers in the teosinte plant gradually cultivated it into modern maize by planting seeds from plants with larger cobs each generation.\" This is a description of <u>artificial selection</u> (selective breeding). You'd identify the process and possibly the outcome (that the corn we have was bred from a wild grass through human intervention).",
+    "Be ready for comparisons: e.g., an item asking which of several scenarios is artificial selection vs which is natural selection. For instance: \"rabbits evolving resistance to a virus\" is natural selection, whereas \"breeding rabbits to have softer fur\" is artificial.",
+    "They might use the term **\"selective breeding\"** interchangeably with artificial selection. If a question asks about selective breeding outcomes or pitfalls (like reduced genetic diversity), it's still about artificial selection.",
+    "One could encounter a question on <u>evidence for evolution</u>: artificial selection is often cited as proof that species can change (because humans have generated many varieties in a short time). An exam question might ask how Darwin used artificial selection as an analogy for natural processes."
+  ],
+  "see_also": [
+    "natural-selection"
+  ],
+  "sources": [
+    {
+      "title": "National Geographic Education - Definition of Artificial Selection",
+      "url": "https://education.nationalgeographic.org/resource/artificial-selection"
+    },
+    {
+      "title": "UC Berkeley Evolution 101 - Artificial Selection (selection by humans)",
+      "url": "https://evolution.berkeley.edu/evolibrary/article/evo_30"
+    },
+    {
+      "title": "OpenStax Biology 2e - 18.1: Darwin and Artificial Selection (pigeon breeding example)",
+      "url": "https://openstax.org/books/biology-2e/pages/18-1-understanding-evolution#fs-id1164264807012"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bacterial-ribosome",
+  "names": [
+    "Bacterial Ribosome",
+    "70S ribosome",
+    "Prokaryotic ribosome"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**A bacterial ribosome** is the ribosome found in prokaryotic cells, responsible for protein synthesis in bacteria. It is a **70S ribosome, composed of a small 30S subunit and a large 50S subunit**. Bacterial ribosomes are smaller and structurally distinct from eukaryotic 80S ribosomes, which is why certain antibiotics can <u>selectively target bacterial protein synthesis without affecting human cells</u>.",
+  "tips": [
+    "**Subunits:** 70S prokaryotic ribosome = <u>50S (large) + 30S (small) subunits</u>. (Remember: S values aren-t additive, but these are the classic sizes for bacterial ribosomal subunits).",
+    "**Location:** In bacteria (which lack a nucleus), ribosomes <u>float free in the cytoplasm</u>. Thousands of ribosomes may be active in a bacterial cell, often forming **polysomes** (multiple ribosomes translating one mRNA).",
+    "**Antibiotic targets:** Many antibiotics (e.g., streptomycin, tetracycline, erythromycin) <u>bind to 30S or 50S subunits to inhibit bacterial protein synthesis</u>. Because eukaryotic cytoplasmic ribosomes are 80S, these drugs target bacteria more than human cells."
+  ],
+  "exam_appearance": [
+    "Comparative structure - A question might ask: -What ribosomal difference exists between prokaryotes and eukaryotes that allows antibiotics to target bacteria-- The answer: <u>prokaryotic 70S vs eukaryotic 80S ribosomes</u>.",
+    "Mechanism detail - Some exam questions describe an antibiotic-s action (e.g., blocking the peptidyl transferase or ribosomal translocation) and ask which cellular structure it affects - the answer would be the **bacterial ribosome** if it-s a protein synthesis inhibitor in bacteria.",
+    "Identification - If asked to identify a -70S ribosome,- recognize it as a <u>prokaryotic (bacterial) ribosome</u>, typically found in bacteria (and similarly in mitochondria/chloroplasts of eukaryotes by origin)."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Lumen Learning Biology - Ribosomes (E. coli 70S = 50S+30S; mammalian 80S = 60S+40S)",
+      "url": "https://courses.lumenlearning.com/wm-biology1/chapter/reading-ribosomes/"
+    },
+    {
+      "title": "Biology LibreTexts - 11.4: Translation (differences between prokaryotic 70S and eukaryotic 80S ribosomes)",
+      "url": "https://bio.libretexts.org/Bookshelves/Microbiology/Microbiology_(OpenStax)/11:_Mechanisms_of_Microbial_Genetics/11.04:Protein_Synthesis(Translation)"
+    },
+    {
+      "title": "OpenStax Microbiology - 3.4: Fundamentals of Translation (antibiotics targeting bacterial ribosome)",
+      "url": "https://openstax.org/books/microbiology/pages/3-4-translation"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "nadh",
+  "names": [
+    "NADH",
+    "Nicotinamide adenine dinucleotide (reduced)"
+  ],
+  "level": "premed",
+  "primary_tag": "biology",
+  "tags": [],
+  "definition": "**NADH** is the reduced form of the coenzyme NAD- (nicotinamide adenine dinucleotide). It <u>carries high-energy electrons and a proton</u>, which can be used to generate ATP in the mitochondria. NADH is produced during key metabolic processes (such as glycolysis, the pyruvate dehydrogenase reaction, and the citric acid cycle) when NAD- accepts electrons (and is reduced to NADH). In aerobic respiration, NADH is <u>oxidized back to NAD- by the electron transport chain</u>, yielding energy for ATP synthesis.",
+  "tips": [
+    "Each NADH molecule can drive the production of roughly **3 ATP** via oxidative phosphorylation (this is a theoretical maximum; in practice it-s about **2.5 ATP**). NADH donates its electrons to <u>Complex I of the electron transport chain</u>, which pumps protons and ultimately contributes to the proton gradient used by ATP synthase.",
+    "Cells maintain a high <u>NAD-/NADH ratio</u>, meaning NAD- is abundant relative to NADH. This favors the transfer of electrons from food molecules to NAD- (forming NADH). If NADH is not continuously oxidized back to NAD-, pathways like glycolysis and Krebs cycle would slow or stop. That-s why under anaerobic conditions, NADH from glycolysis is converted back to NAD- via fermentation (e.g., pyruvate to lactate in humans).",
+    "NAD- is derived from <u>vitamin B3 (niacin)</u>. A deficiency in niacin can reduce NAD-/NADH levels and lead to <u>pellagra</u>. Conversely, NADH is sometimes marketed as a supplement for energy, but in cells it-s not a magic energy source on its own - it must be used in metabolic pathways to have an effect."
+  ],
+  "exam_appearance": [
+    "**Energy carrier role:** A typical question might ask something like 'Which reduced coenzyme produced by the Krebs cycle donates electrons to the electron transport chain at Complex I-' The answer is <u>NADH</u>. It-s important to recognize NADH as the major electron carrier linking metabolic reactions to ATP production.",
+    "**NADH vs FADH-:** Exams love comparing these. Remember that <u>NADH yields more ATP than FADH-</u> because NADH-s electrons enter the ETC earlier (at Complex I) and pump more protons. So if asked, 'Which produces more ATP, NADH or FADH--', the answer is NADH.",
+    "**Regeneration of NAD-:** Questions on fermentation or anaerobic conditions often hinge on the need to regenerate NAD-. For example: 'Why does lactic acid fermentation occur in muscle cells under low oxygen-' One key reason is to <u>oxidize NADH back to NAD-</u>, allowing glycolysis to continue producing a small amount of ATP."
+  ],
+  "see_also": [],
+  "sources": [
+    {
+      "title": "Fiveable (AP Biology) - NAD-/NADH Definition and Facts",
+      "url": "https://fiveable.me/key-terms/college-bio/nadnadh/"
+    },
+    {
+      "title": "OpenStax Biology 2e - NADH in Cellular Respiration (Section 7.1 intro)",
+      "url": "https://openstax.org/books/biology-2e/pages/7-1-energy-in-living-systems"
+    },
+    {
+      "title": "MedlinePlus - Niacin (Vitamin B3) and NAD-",
+      "url": "https://medlineplus.gov/ency/article/002409.htm"
+    }
+  ]
+}
